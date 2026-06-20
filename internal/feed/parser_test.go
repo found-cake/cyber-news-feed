@@ -82,6 +82,35 @@ func Test_Parse_preserves_rss_description_content_author_media_and_metadata(t *t
 	}
 }
 
+func Test_Parse_recovers_invalid_ampersands_outside_cdata(t *testing.T) {
+	// Given
+	input := `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><item>
+  <title>Broken ampersand</title>
+  <link>https://example.com/article?x=1&y=2</link>
+  <description>Research &y response</description>
+  <content:encoded><![CDATA[<p>Keep CDATA &y and &#8217; untouched</p>]]></content:encoded>
+</item></channel></rss>`
+
+	// When
+	got, err := Parse(strings.NewReader(input))
+
+	// Then
+	if err != nil {
+		t.Fatalf("Parse() error = %v", err)
+	}
+	item := got[0]
+	if item.URL != "https://example.com/article?x=1&y=2" {
+		t.Fatalf("URL = %q", item.URL)
+	}
+	if item.Description != "Research &y response" {
+		t.Fatalf("Description = %q", item.Description)
+	}
+	if item.ContentEncoded != "<p>Keep CDATA &y and &#8217; untouched</p>" {
+		t.Fatalf("ContentEncoded = %q", item.ContentEncoded)
+	}
+}
+
 func Test_Parse_reads_atom_links_and_dates(t *testing.T) {
 	// Given
 	input := `<?xml version="1.0" encoding="UTF-8"?>

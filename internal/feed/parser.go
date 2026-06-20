@@ -87,7 +87,11 @@ type mediaNode struct {
 }
 
 func Parse(reader io.Reader) ([]Item, error) {
-	decoder := xml.NewDecoder(reader)
+	xmlReader, err := readerWithEscapedAmpersands(reader)
+	if err != nil {
+		return nil, err
+	}
+	decoder := xml.NewDecoder(xmlReader)
 	decoder.CharsetReader = charset.NewReaderLabel
 
 	var doc envelope
