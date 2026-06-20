@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-06-20T05:17:10Z",
+  "updated_at": "2026-06-20T08:37:37Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-20T05:17:10Z",
+    "last_success_at": "2026-06-20T08:37:37Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -16,7 +16,24 @@
       "title": "15 Malicious JetBrains Plugins Stole AI API Keys from 70,000 Developers",
       "published_at": "2026-06-19T20:44:48Z",
       "published_raw": "Fri, 19 Jun 2026 20:44:48 GMT",
-      "category": ""
+      "categories": [],
+      "description": "A coordinated 8-month supply chain attack planted credential-stealing code inside fake AI coding assistants on the JetBrains Marketplace, quietly exfiltrating OpenAI, DeepSeek, and SiliconFlow API keys to an attacker-controlled server in Beijing -- which our investigation found still operational today.",
+      "content_encoded": "",
+      "feed_id": "https://www.stepsecurity.io/blog/jetbrains-malicious-plugins-ai-api-key-theft",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a35a9a02077d083fa417ccc_JetBrains%20Plugins%20Cover%20(1).png",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a35a9a02077d083fa417ccc_JetBrains%20Plugins%20Cover%20(1).png",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
     },
     {
       "id": "sha256:b45a02cbbaa57611b404bcc65e528aa9ab8c804778b9f8b77809aa2cce2e773a",
@@ -24,7 +41,24 @@
       "title": "Mastra npm Supply Chain Attack: 140+ Packages Backdoored via easy-day-js Typosquat",
       "published_at": "2026-06-18T10:03:08Z",
       "published_raw": "Thu, 18 Jun 2026 10:03:08 GMT",
-      "category": ""
+      "categories": [],
+      "description": "On June 17, 2026, an attacker compromised the @mastra npm organization and quietly added easy-day-js as a dependency across 140+ packages in the Mastra AI framework ecosystem. easy-day-js is a typosquat of the popular dayjs date library, and its latest version contained an obfuscated postinstall dropper that downloaded and ran a second-stage payload from attacker-controlled servers, then deleted itself to remove any trace. Packages with a combined weekly download count exceeding 1.1 million were exposed. If you installed any @mastra package today, treat your environment as compromised.",
+      "content_encoded": "",
+      "feed_id": "https://www.stepsecurity.io/blog/mastra-npm-packages-compromised-using-easy-day-js",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3200c2a586eee7baa3f0e9_Screenshot%202026-06-16%20at%207.01.58%E2%80%AFPM.png",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3200c2a586eee7baa3f0e9_Screenshot%202026-06-16%20at%207.01.58%E2%80%AFPM.png",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
     },
     {
       "id": "sha256:d0822c75e7ac0cfc752ee1cbed42e371f83532452fc0c4bfdc0f7443584b43d5",
@@ -32,7 +66,24 @@
       "title": "Prevent npm and Python Supply Chain Attacks on Developer Machines with Package Configs",
       "published_at": "2026-06-18T10:03:08Z",
       "published_raw": "Thu, 18 Jun 2026 10:03:08 GMT",
-      "category": ""
+      "categories": [],
+      "description": "npm and Python supply chain attacks run on developer machines and steal secrets. See how Package Configs audits registry, cooldown, and auth across your fleet",
+      "content_encoded": "",
+      "feed_id": "https://www.stepsecurity.io/blog/prevent-npm-and-python-supply-chain-attacks-on-developer-machines-with-package-configs",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a31b42fa7aab9a75b1ed33e_image%20(122).png",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a31b42fa7aab9a75b1ed33e_image%20(122).png",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
     },
     {
       "id": "sha256:0b88921ff4066e713f9ef1825477a880f027339900edd8605764edb7c77ddff7",
@@ -40,7 +91,24 @@
       "title": "400+ AUR Packages Hijacked: What the “Atomic Arch” Campaign Means for Supply-Chain Security",
       "published_at": "2026-06-18T10:03:08Z",
       "published_raw": "Thu, 18 Jun 2026 10:03:08 GMT",
-      "category": ""
+      "categories": [],
+      "description": "On June 11th 2026, security researchers and the Arch Linux community disclosed a large-scale supply-chain attack against the Arch User Repository (AUR). Attackers hijacked more than 400 community packages and turned them into a malware delivery network. While the immediate blast radius is limited to Arch Linux systems, the campaign is a textbook example of how modern attackers compromise developers and CI infrastructure by abusing trust in open-source ecosystems.",
+      "content_encoded": "",
+      "feed_id": "https://www.stepsecurity.io/blog/400-aur-packages-hijacked-atomic-arch-campaign",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a2cc00e278a501ddad1172e_Screenshot%202026-06-12%20at%207.25.01%E2%80%AFPM.png",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a2cc00e278a501ddad1172e_Screenshot%202026-06-12%20at%207.25.01%E2%80%AFPM.png",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
     },
     {
       "id": "sha256:7edb42cda27fa43ffab9f5d0fb94c66d083d4c622ea5dd8ea362f57ea6cae499",
@@ -48,7 +116,24 @@
       "title": "Miasma and Hades Are Spreading Now: Detect Them on Developer Machines with Suspicious Files",
       "published_at": "2026-06-18T10:03:08Z",
       "published_raw": "Thu, 18 Jun 2026 10:03:08 GMT",
-      "category": ""
+      "categories": [],
+      "description": "Miasma and Hades worms are spreading across npm and PyPI, running on import and project open. See how Dev Machine Guard's Suspicious Files detects them.",
+      "content_encoded": "",
+      "feed_id": "https://www.stepsecurity.io/blog/miasma-and-hades-are-spreading-now-detect-them-on-developer-machines-with-suspicious-files",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a2aca53cb162c1b6a04ec03_Cover4-10.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a2aca53cb162c1b6a04ec03_Cover4-10.jpg",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
     }
   ]
 }
