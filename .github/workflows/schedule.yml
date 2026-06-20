@@ -3,7 +3,7 @@ name: Harvest RSS
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "15 * * * *"
 
 permissions:
   contents: write
@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Download latest release binary
         env:
