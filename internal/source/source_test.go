@@ -75,10 +75,10 @@ func Test_ArticleFromItem_preserves_feed_metadata_fields(t *testing.T) {
 	if !include {
 		t.Fatal("expected article to be included")
 	}
-	if got.Description != "short summary" || got.ContentEncoded != "<p>body</p>" {
-		t.Fatalf("description/content not preserved: %#v", got)
+	if got.Description != "short summary" {
+		t.Fatalf("Description = %q", got.Description)
 	}
-	if got.FeedID != "source-123" || got.SourceMetadata.CybersecurityNews == nil || got.SourceMetadata.CybersecurityNews.PostID != "987" {
+	if got.FeedID != "source-123" || got.SourceMetadata.CybersecurityNews == nil || got.SourceMetadata.CybersecurityNews.PostID != "987" || got.SourceMetadata.CybersecurityNews.ContentEncoded != "<p>body</p>" {
 		t.Fatalf("source metadata not preserved: %#v", got)
 	}
 	if len(got.Authors) != 1 || got.Authors[0].Name != "Alice" {

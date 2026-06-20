@@ -16,14 +16,18 @@ func Test_Write_preserves_literal_html_characters(t *testing.T) {
 		SchemaVersion: rssjson.SchemaVersion,
 		Source:        "cybersecuritynews",
 		Articles: []rssjson.Article{{
-			ID:             "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-			URL:            "https://example.com/article",
-			Title:          "HTML",
-			Categories:     []string{},
-			Description:    "<p>short & useful</p>",
-			ContentEncoded: "<div><a href=\"https://example.com?a=1&b=2\">body</a></div>",
-			Authors:        []rssjson.Author{},
-			Media:          []rssjson.Media{},
+			ID:          "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+			URL:         "https://example.com/article",
+			Title:       "HTML",
+			Categories:  []string{},
+			Description: "<p>short & useful</p>",
+			Authors:     []rssjson.Author{},
+			Media:       []rssjson.Media{},
+			SourceMetadata: rssjson.SourceMetadata{
+				CybersecurityNews: &rssjson.CybersecurityNewsMetadata{
+					ContentEncoded: "<div><a href=\"https://example.com?a=1&b=2\">body</a></div>",
+				},
+			},
 		}},
 	}
 

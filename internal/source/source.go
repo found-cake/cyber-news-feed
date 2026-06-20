@@ -81,11 +81,10 @@ func ArticleFromItem(source Config, sourceFeed Feed, item feed.Item) (rssjson.Ar
 		PublishedRaw:   strings.TrimSpace(item.PublishedRaw),
 		Categories:     categories,
 		Description:    item.Description,
-		ContentEncoded: item.ContentEncoded,
 		FeedID:         item.FeedID,
 		Authors:        articleAuthors(item.Authors),
 		Media:          articleMedia(item.Media),
-		SourceMetadata: sourceMetadata(source.Name, item.SourceMetadata),
+		SourceMetadata: sourceMetadata(source.Name, item),
 	}, true
 }
 
@@ -162,16 +161,18 @@ func articleMedia(media []feed.Media) []rssjson.Media {
 	return out
 }
 
-func sourceMetadata(sourceName string, metadata feed.SourceMetadata) rssjson.SourceMetadata {
+func sourceMetadata(sourceName string, item feed.Item) rssjson.SourceMetadata {
+	metadata := item.SourceMetadata
 	switch sourceName {
 	case "cybersecuritynews":
-		if metadata.GUIDIsPermalink == "" && metadata.PostID == "" {
+		if metadata.GUIDIsPermalink == "" && metadata.PostID == "" && item.ContentEncoded == "" {
 			return rssjson.SourceMetadata{}
 		}
 		return rssjson.SourceMetadata{
 			CybersecurityNews: &rssjson.CybersecurityNewsMetadata{
 				GUIDIsPermalink: metadata.GUIDIsPermalink,
 				PostID:          metadata.PostID,
+				ContentEncoded:  item.ContentEncoded,
 			},
 		}
 	case "darkreading":

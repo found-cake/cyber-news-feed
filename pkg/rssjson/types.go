@@ -19,7 +19,8 @@ func (d *Document) UnmarshalJSON(data []byte) error {
 		return err
 	}
 	for i := range raw.Articles {
-		raw.Articles[i].SourceMetadata = raw.Articles[i].SourceMetadata.forSource(raw.Source)
+		raw.Articles[i].SourceMetadata = raw.Articles[i].SourceMetadata.forSource(raw.Source, raw.Articles[i].legacyContent)
+		raw.Articles[i].legacyContent = ""
 	}
 	*d = Document{
 		SchemaVersion: raw.SchemaVersion,
@@ -47,11 +48,11 @@ type Article struct {
 	PublishedRaw   string         `json:"published_raw"`
 	Categories     []string       `json:"categories"`
 	Description    string         `json:"description"`
-	ContentEncoded string         `json:"content_encoded"`
 	FeedID         string         `json:"feed_id"`
 	Authors        []Author       `json:"authors"`
 	Media          []Media        `json:"media"`
 	SourceMetadata SourceMetadata `json:"source_metadata"`
+	legacyContent  string
 }
 
 type Author struct {
@@ -84,6 +85,7 @@ type TheHackerNewsMetadata struct{}
 type CybersecurityNewsMetadata struct {
 	GUIDIsPermalink string `json:"guid_is_permalink"`
 	PostID          string `json:"post_id"`
+	ContentEncoded  string `json:"content_encoded"`
 }
 
 type StepSecurityMetadata struct{}
@@ -114,7 +116,7 @@ func (m *SourceMetadata) UnmarshalJSON(data []byte) error {
 	return nil
 }
 
-func (m SourceMetadata) forSource(source string) SourceMetadata {
+func (m SourceMetadata) forSource(source string, contentEncoded string) SourceMetadata {
 	switch source {
 	case "cybersecuritynews":
 		if m.CybersecurityNews == nil && (m.legacyGUID != "" || m.legacyPostID != "") {
@@ -122,6 +124,12 @@ func (m SourceMetadata) forSource(source string) SourceMetadata {
 				GUIDIsPermalink: m.legacyGUID,
 				PostID:          m.legacyPostID,
 			}
+		}
+		if m.CybersecurityNews == nil && contentEncoded != "" {
+			m.CybersecurityNews = &CybersecurityNewsMetadata{}
+		}
+		if m.CybersecurityNews != nil && m.CybersecurityNews.ContentEncoded == "" {
+			m.CybersecurityNews.ContentEncoded = contentEncoded
 		}
 	case "darkreading":
 		if m.DarkReading == nil && m.legacyGUID != "" {
@@ -154,11 +162,11 @@ func (a *Article) UnmarshalJSON(data []byte) error {
 		PublishedRaw:   raw.PublishedRaw,
 		Categories:     categories,
 		Description:    raw.Description,
-		ContentEncoded: raw.ContentEncoded,
 		FeedID:         raw.FeedID,
 		Authors:        raw.Authors,
 		Media:          raw.Media,
 		SourceMetadata: raw.SourceMetadata,
+		legacyContent:  raw.ContentEncoded,
 	}
 	return nil
 }

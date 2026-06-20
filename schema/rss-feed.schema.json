@@ -67,7 +67,6 @@
           "published_raw",
           "categories",
           "description",
-          "content_encoded",
           "feed_id",
           "authors",
           "media",
@@ -100,9 +99,6 @@
             "uniqueItems": true
           },
           "description": {
-            "type": "string"
-          },
-          "content_encoded": {
             "type": "string"
           },
           "feed_id": {
@@ -159,12 +155,15 @@
               "cybersecuritynews": {
                 "type": "object",
                 "additionalProperties": false,
-                "required": ["guid_is_permalink", "post_id"],
+                "required": ["guid_is_permalink", "post_id", "content_encoded"],
                 "properties": {
                   "guid_is_permalink": {
                     "type": "string"
                   },
                   "post_id": {
+                    "type": "string"
+                  },
+                  "content_encoded": {
                     "type": "string"
                   }
                 }

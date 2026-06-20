@@ -81,7 +81,7 @@ func Test_Document_UnmarshalJSON_promotes_legacy_flat_source_metadata(t *testing
 			"published_raw":"",
 			"categories":[],
 			"description":"",
-			"content_encoded":"",
+			"content_encoded":"<p>legacy body</p>",
 			"feed_id":"",
 			"authors":[],
 			"media":[],
@@ -104,7 +104,7 @@ func Test_Document_UnmarshalJSON_promotes_legacy_flat_source_metadata(t *testing
 	if metadata == nil {
 		t.Fatal("CybersecurityNews metadata missing")
 	}
-	if metadata.GUIDIsPermalink != "false" || metadata.PostID != "123" {
+	if metadata.GUIDIsPermalink != "false" || metadata.PostID != "123" || metadata.ContentEncoded != "<p>legacy body</p>" {
 		t.Fatalf("CybersecurityNews metadata = %#v", metadata)
 	}
 }
