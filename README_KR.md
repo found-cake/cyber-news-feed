@@ -12,7 +12,7 @@
 
 | 소스 | 파일 |
 | --- | --- |
-| BoanNews | `data/rss/boannews.json` |
+| 보안뉴스 | `data/rss/boannews.json` |
 | The Hacker News | `data/rss/thehackernews.json` |
 | Cyber Security News | `data/rss/cybersecuritynews.json` |
 | StepSecurity | `data/rss/stepsecurity.json` |
