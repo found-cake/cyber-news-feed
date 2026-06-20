@@ -29,7 +29,7 @@ jobs:
       - name: Build Linux binary
         run: |
           mkdir -p dist
-          CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -trimpath -ldflags="-s -w" -o dist/cyber-news-feed-linux-amd64 .
+          go build -trimpath -ldflags="-s -w" -o dist/cyber-news-feed-linux-amd64 .
 
       - name: Publish GitHub Release
         env:
