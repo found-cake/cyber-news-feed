@@ -1,15 +1,50 @@
 {
   "schema_version": 1,
   "source": "cybersecuritynews",
-  "updated_at": "2026-06-20T16:14:52Z",
+  "updated_at": "2026-06-20T17:23:38Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-20T16:14:52Z",
+    "last_success_at": "2026-06-20T17:23:38Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:a5c039eda271f115b2b9289cc6ce2e8c374931a7bde8d1de59015867343772b8",
+      "url": "https://cybersecuritynews.com/cybersentinel-ai-with-33-security-tools",
+      "title": "CyberSentinel AI with 33 Security Tools, Including Nmap, SQLMap, ZAP, and uses Claude, GPT",
+      "published_at": "2026-06-20T16:27:48Z",
+      "published_raw": "Sat, 20 Jun 2026 16:27:48 +0000",
+      "categories": [
+        "Cyber Security",
+        "Cyber Security News",
+        "CyberPedia"
+      ],
+      "description": "<p>A new open-source cybersecurity platform called CyberSentinel AI v3.0 has emerged as a significant development in autonomous security tooling, combining 33 real-world penetration testing and threat intelligence tools with a provider-agnostic AI engine that supports Claude, GPT-4o, OpenRouter, and fully offline local inference via Ollama. Unlike conventional AI security assistants that just suggest commands, CyberSentinel [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cybersentinel-ai-with-33-security-tools/\">CyberSentinel AI with 33 Security Tools, Including Nmap, SQLMap, ZAP, and uses Claude, GPT</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=153347",
+      "authors": [
+        {
+          "name": "Guru Baran",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/CyberSentinel-AI-with-33-Security-Tools.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "153347",
+          "content_encoded": "<p class=\"wp-block-paragraph\">A new open-source cybersecurity platform called CyberSentinel AI v3.0 has emerged as a significant development in autonomous security tooling, combining 33 real-world penetration testing and threat intelligence tools with a provider-agnostic AI engine that supports Claude, GPT-4o, OpenRouter, and fully offline local inference via Ollama.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Unlike conventional AI security assistants that just suggest commands, CyberSentinel AI actually executes tools including Nmap, SQLMap, Nikto, Nuclei, and OWASP ZAP inside an isolated <a href=\"https://cybersecuritynews.com/airecon-penetration-testing-tool/\" target=\"_blank\" rel=\"noreferrer noopener\">Kali Linux Docker sandbox</a>, then uses AI to analyze results in real time.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The platform is available on GitHub under the handle <a href=\"https://github.com/3sk1nt4n/cybersentinel-ai/tree/main\" target=\"_blank\" rel=\"noreferrer noopener\">3sk1nt4n/cybersentinel-ai</a> and is designed to run entirely on local infrastructure with no cloud dependencies required.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The platform deploys via Docker Compose and spans seven containerized services. A Next.js frontend (port 3000) delivers a streaming chat interface, while a FastAPI backend (port 8000) handles AI routing, intent classification, and tool orchestration. Security scans execute inside a sandboxed Kali container, keeping potentially dangerous operations fully isolated from the host system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Supporting the AI layer are three data infrastructure components Neo4j for knowledge graph mapping of attack surfaces and MITRE ATT&amp;CK techniques, ChromaDB as a Retrieval-Augmented Generation (RAG) engine grounded in MITRE, CIS, and <a href=\"https://cybersecuritynews.com/nist-releases-new-quick-start-guide/\" target=\"_blank\" rel=\"noreferrer noopener\">NIST frameworks</a>, and Elasticsearch with Kibana as an ELK Stack SIEM with pre-seeded security events for log analysis training.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The agentic execution model allows the AI to classify user intent, autonomously select appropriate tools, and run up to five tools concurrently before synthesizing a unified analysis, a meaningful step toward practical security automation.</p>\n\n\n\n<h2 id=\"h-cybersentinel-ai-with-33-security-tools\" class=\"wp-block-heading\"><strong>CyberSentinel AI with 33 Security Tools</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The platform organizes its toolset across six functional categories:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Live Scanners (11): <a href=\"https://cybersecuritynews.com/28-years-of-nmap/\" target=\"_blank\" rel=\"noreferrer noopener\">Nmap</a>, Nikto, Nuclei, SQLMap, Subfinder, OWASP ZAP, SSL/TLS analysis, DNS Recon, WHOIS, HTTP Headers, and Ping/Traceroute</li>\n\n\n\n<li>Threat Intel APIs (5): Shodan, VirusTotal, AbuseIPDB, AlienVault OTX, and NVD/CISA KEV integration</li>\n\n\n\n<li>SIEM Integration (3): ELK Stack, Splunk, and Wazuh connectors</li>\n\n\n\n<li>AI Detection (5): Zeek Analyzer, IOC Extractor, Log Analyzer, Threat Detection, and Email Phishing Analyzer</li>\n\n\n\n<li>Threat Hunting (4): YARA Rules, Sigma Rules, Snort/Suricata Rules, and SIEM Query Generator</li>\n\n\n\n<li>Compliance (5):<a href=\"https://cybersecuritynews.com/mitre-releases-top-25-most-dangerous-software/\" target=\"_blank\" rel=\"noreferrer noopener\"> MITRE ATT&amp;CK</a>, MITRE ATLAS, NIST/CIS, HIPAA/PCI-DSS, and SOC 2/FedRAMP frameworks</li>\n\n\n\n<li></li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">One of CyberSentinel&#8217;s distinguishing features is its mid-conversation AI provider switching. Users can toggle between Anthropic Claude, OpenAI GPT-4o, OpenRouter (which unlocks 100+ models), and Ollama running <code>qwen2.5:7b</code> locally, all without losing conversation context. All API keys are optional; the platform operates fully offline using Ollama as the default inference engine.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Live threat intelligence is pulled dynamically from NVD, CISA KEV, EPSS, AlienVault OTX, and Abuse.ch, keeping vulnerability context current without manual updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The platform enforces several safeguards, including input/output guardrails that block prompt injection, SSRF attacks, and system prompt leakage.</p>\n\n\n\n<p class=\"wp-block-paragraph\">All scans run inside an isolated container, and the project explicitly warns users that unauthorized scanning is illegal under the Computer Fraud and Abuse Act (CFAA). Recommended safe test targets include <code>scanme.nmap.org</code> and <code>testphp.vulnweb.com</code>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">System requirements include Docker Desktop and a minimum of 8 GB of RAM. The initial build pulls approximately 4–5GB of images and model data, with subsequent startups completing in roughly 30 seconds.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CyberSentinel AI v3.0 represents a notable convergence of agentic AI and real security tooling, offering security researchers and red teams a self-contained, locally operated alternative to cloud-dependent platforms.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 91%,rgb(169,184,195) 100%)\"><strong>Follow us on&nbsp;<a href=\"https://news.google.com/publications/CAAqMggKIixDQklTR3dnTWFoY0tGV041WW1WeWMyVmpkWEpwZEhsdVpYZHpMbU52YlNnQVAB?hl=en-IN&amp;gl=IN&amp;ceid=IN:en\" target=\"_blank\" rel=\"noreferrer noopener\">Google News</a>,&nbsp;<a href=\"https://www.linkedin.com/company/cybersecurity-news/\" target=\"_blank\" rel=\"noreferrer noopener\">LinkedIn</a>,&nbsp;and&nbsp;<a href=\"https://x.com/cyber_press_org\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>&nbsp;to Get More Instant Updates.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/cybersentinel-ai-with-33-security-tools/\">CyberSentinel AI with 33 Security Tools, Including Nmap, SQLMap, ZAP, and uses Claude, GPT</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
     {
       "id": "sha256:eb3f464dc868a45a19e0343ab09820db624861e857374277ad16d8c80bd74df1",
       "url": "https://cybersecuritynews.com/autojack",
