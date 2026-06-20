@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-06-20T21:14:59Z",
+  "updated_at": "2026-06-20T23:05:05Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-06-20T19:21:16Z",
-    "last_error_at": "2026-06-20T21:14:59Z",
-    "last_error": "fetch https://www.darkreading.com/rss.xml: unexpected status 404"
+    "ok": true,
+    "last_success_at": "2026-06-20T23:05:05Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
     {
@@ -612,42 +612,6 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf9a31e03506d8e24/682cf11744afb6bd8a3b90a5/asia-night-lights-kmls-shutterstock.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:2261a7c3881bd56ddaf7138881dce508a2de5006a106c94d63186191004d9d8f",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert",
-      "title": "Bug Bounty Research Triggers ServiceNow Security Alert",
-      "published_at": "2026-06-10T20:07:53Z",
-      "published_raw": "Wed, 10 Jun 2026 20:07:53 GMT",
-      "categories": [
-        "vulnerabilities-threats"
-      ],
-      "description": "Security research inadvertently led organizations to believe they were being breached through their ServiceNow instances.",
-      "feed_id": "https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert",
-      "authors": [
-        {
-          "name": "Alexander Culafi",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt290942caaad1a625/6a29bb178ad5d7051c4e33ad/ServiceNow_Office-JHVEPhoto-Getty-2198127643.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt290942caaad1a625/6a29bb178ad5d7051c4e33ad/ServiceNow_Office-JHVEPhoto-Getty-2198127643.jpg?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }
