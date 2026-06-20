@@ -1,0 +1,207 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/found-cake/cyber-news-feed/master/schema/rss-feed.schema.json",
+  "title": "cyber-news-feed RSS source document",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "source",
+    "updated_at",
+    "retention_days",
+    "status",
+    "articles"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "retention_days": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ok",
+        "last_success_at",
+        "last_error_at",
+        "last_error"
+      ],
+      "properties": {
+        "ok": {
+          "type": "boolean"
+        },
+        "last_success_at": {
+          "type": ["string", "null"],
+          "format": "date-time"
+        },
+        "last_error_at": {
+          "type": ["string", "null"],
+          "format": "date-time"
+        },
+        "last_error": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "articles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "url",
+          "title",
+          "published_at",
+          "published_raw",
+          "categories",
+          "description",
+          "content_encoded",
+          "feed_id",
+          "authors",
+          "media",
+          "source_metadata"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^sha256:[0-9a-f]{64}$"
+          },
+          "url": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string"
+          },
+          "published_at": {
+            "type": ["string", "null"],
+            "format": "date-time"
+          },
+          "published_raw": {
+            "type": "string"
+          },
+          "categories": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "description": {
+            "type": "string"
+          },
+          "content_encoded": {
+            "type": "string"
+          },
+          "feed_id": {
+            "type": "string"
+          },
+          "authors": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["name", "uri", "email"],
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "uri": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "media": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["url", "kind", "medium"],
+              "properties": {
+                "url": {
+                  "type": "string"
+                },
+                "kind": {
+                  "type": "string"
+                },
+                "medium": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "source_metadata": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "boannews": {
+                "$ref": "#/$defs/empty_source_metadata"
+              },
+              "thehackernews": {
+                "$ref": "#/$defs/empty_source_metadata"
+              },
+              "cybersecuritynews": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["guid_is_permalink", "post_id"],
+                "properties": {
+                  "guid_is_permalink": {
+                    "type": "string"
+                  },
+                  "post_id": {
+                    "type": "string"
+                  }
+                }
+              },
+              "stepsecurity": {
+                "$ref": "#/$defs/empty_source_metadata"
+              },
+              "darkreading": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["guid_is_permalink"],
+                "properties": {
+                  "guid_is_permalink": {
+                    "type": "string"
+                  }
+                }
+              },
+              "bleepingcomputer": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["guid_is_permalink"],
+                "properties": {
+                  "guid_is_permalink": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "empty_source_metadata": {
+      "type": "object",
+      "additionalProperties": false
+    }
+  }
+}

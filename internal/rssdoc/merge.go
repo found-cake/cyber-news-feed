@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/found-cake/cyber-news-feed/internal/urlnorm"
+	"github.com/found-cake/cyber-news-feed/pkg/rssjson"
 )
 
 type MergeRequest struct {
@@ -79,6 +80,15 @@ func normalizedArticle(article Article) Article {
 	canonicalURL := urlnorm.Normalize(article.URL)
 	article.URL = canonicalURL
 	article.ID = urlnorm.StableArticleID(canonicalURL)
+	if article.Categories == nil {
+		article.Categories = []string{}
+	}
+	if article.Authors == nil {
+		article.Authors = []rssjson.Author{}
+	}
+	if article.Media == nil {
+		article.Media = []rssjson.Media{}
+	}
 	return article
 }
 

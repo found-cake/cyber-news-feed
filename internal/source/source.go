@@ -4,8 +4,8 @@ import (
 	"strings"
 
 	"github.com/found-cake/cyber-news-feed/internal/feed"
-	"github.com/found-cake/cyber-news-feed/internal/rssdoc"
 	"github.com/found-cake/cyber-news-feed/internal/urlnorm"
+	"github.com/found-cake/cyber-news-feed/pkg/rssjson"
 )
 
 type Config struct {
@@ -64,40 +64,47 @@ func Default() []Config {
 	}
 }
 
-func ArticleFromItem(source Config, sourceFeed Feed, item feed.Item) (rssdoc.Article, bool) {
+func ArticleFromItem(source Config, sourceFeed Feed, item feed.Item) (rssjson.Article, bool) {
 	canonicalURL := urlnorm.Normalize(item.URL)
 	if canonicalURL == "" {
-		return rssdoc.Article{}, false
+		return rssjson.Article{}, false
 	}
-	category, include := categoryForItem(source, sourceFeed, item, canonicalURL)
+	categories, include := categoriesForItem(source, sourceFeed, item, canonicalURL)
 	if !include {
-		return rssdoc.Article{}, false
+		return rssjson.Article{}, false
 	}
-	return rssdoc.Article{
-		ID:           urlnorm.StableArticleID(canonicalURL),
-		URL:          canonicalURL,
-		Title:        strings.TrimSpace(item.Title),
-		PublishedAt:  item.PublishedAt,
-		PublishedRaw: strings.TrimSpace(item.PublishedRaw),
-		Category:     category,
+	return rssjson.Article{
+		ID:             urlnorm.StableArticleID(canonicalURL),
+		URL:            canonicalURL,
+		Title:          strings.TrimSpace(item.Title),
+		PublishedAt:    item.PublishedAt,
+		PublishedRaw:   strings.TrimSpace(item.PublishedRaw),
+		Categories:     categories,
+		Description:    item.Description,
+		ContentEncoded: item.ContentEncoded,
+		FeedID:         item.FeedID,
+		Authors:        articleAuthors(item.Authors),
+		Media:          articleMedia(item.Media),
+		SourceMetadata: sourceMetadata(source.Name, item.SourceMetadata),
 	}, true
 }
 
-func categoryForItem(source Config, sourceFeed Feed, item feed.Item, canonicalURL string) (string, bool) {
+func categoriesForItem(source Config, sourceFeed Feed, item feed.Item, canonicalURL string) ([]string, bool) {
 	switch source.Kind {
 	case TheHackerNews:
-		return sourceFeed.Category, true
+		return mergedCategories([]string{sourceFeed.Category}, item.Categories), true
 	case StepSecurity:
-		return "", includeStepSecurity(item)
+		return mergedCategories(nil, item.Categories), includeStepSecurity(item)
 	case DarkReading:
-		return darkReadingCategory(canonicalURL)
+		category, include := darkReadingCategory(canonicalURL)
+		return mergedCategories([]string{category}, item.Categories), include
 	case BleepingComputer:
 		if hasCategory(item.Categories, "Security") {
-			return "security", true
+			return mergedCategories([]string{"security"}, item.Categories), true
 		}
-		return "", false
+		return []string{}, false
 	default:
-		return "", true
+		return mergedCategories(nil, item.Categories), true
 	}
 }
 
@@ -120,7 +127,7 @@ func hasCategory(categories []string, want string) bool {
 }
 
 func includeStepSecurity(item feed.Item) bool {
-	text := strings.ToLower(item.Title + " " + item.Summary)
+	text := strings.ToLower(item.Title + " " + item.Description + " " + item.ContentEncoded)
 	promoPhrases := []string{
 		"artifact monitor",
 		"demo",
@@ -137,4 +144,73 @@ func includeStepSecurity(item feed.Item) bool {
 		}
 	}
 	return true
+}
+
+func articleAuthors(authors []feed.Author) []rssjson.Author {
+	out := make([]rssjson.Author, 0, len(authors))
+	for _, author := range authors {
+		out = append(out, rssjson.Author{Name: author.Name, URI: author.URI, Email: author.Email})
+	}
+	return out
+}
+
+func articleMedia(media []feed.Media) []rssjson.Media {
+	out := make([]rssjson.Media, 0, len(media))
+	for _, item := range media {
+		out = append(out, rssjson.Media{URL: item.URL, Kind: item.Kind, Medium: item.Medium})
+	}
+	return out
+}
+
+func sourceMetadata(sourceName string, metadata feed.SourceMetadata) rssjson.SourceMetadata {
+	switch sourceName {
+	case "cybersecuritynews":
+		if metadata.GUIDIsPermalink == "" && metadata.PostID == "" {
+			return rssjson.SourceMetadata{}
+		}
+		return rssjson.SourceMetadata{
+			CybersecurityNews: &rssjson.CybersecurityNewsMetadata{
+				GUIDIsPermalink: metadata.GUIDIsPermalink,
+				PostID:          metadata.PostID,
+			},
+		}
+	case "darkreading":
+		if metadata.GUIDIsPermalink == "" {
+			return rssjson.SourceMetadata{}
+		}
+		return rssjson.SourceMetadata{
+			DarkReading: &rssjson.DarkReadingMetadata{
+				GUIDIsPermalink: metadata.GUIDIsPermalink,
+			},
+		}
+	case "bleepingcomputer":
+		if metadata.GUIDIsPermalink == "" {
+			return rssjson.SourceMetadata{}
+		}
+		return rssjson.SourceMetadata{
+			BleepingComputer: &rssjson.BleepingComputerMetadata{
+				GUIDIsPermalink: metadata.GUIDIsPermalink,
+			},
+		}
+	default:
+		return rssjson.SourceMetadata{}
+	}
+}
+
+func mergedCategories(primary []string, rssCategories []string) []string {
+	seen := make(map[string]struct{}, len(primary)+len(rssCategories))
+	out := make([]string, 0, len(primary)+len(rssCategories))
+	for _, category := range append(primary, rssCategories...) {
+		trimmed := strings.TrimSpace(category)
+		if trimmed == "" {
+			continue
+		}
+		key := strings.ToLower(trimmed)
+		if _, ok := seen[key]; ok {
+			continue
+		}
+		seen[key] = struct{}{}
+		out = append(out, trimmed)
+	}
+	return out
 }

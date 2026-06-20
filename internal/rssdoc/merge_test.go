@@ -26,7 +26,7 @@ func Test_MergeFailure_preserves_articles_and_updates_status_when_source_fails(t
 			Title:        "old",
 			PublishedAt:  &publishedAt,
 			PublishedRaw: "Sat, 20 Jun 2026 02:00:00 GMT",
-			Category:     "threat-intelligence",
+			Categories:   []string{"threat-intelligence"},
 		}},
 	}
 
