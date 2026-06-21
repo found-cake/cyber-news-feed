@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-06-21T18:00:26Z",
+  "updated_at": "2026-06-21T19:00:20Z",
   "retention_days": 10,
   "status": {
-    "ok": true,
+    "ok": false,
     "last_success_at": "2026-06-21T18:00:26Z",
-    "last_error_at": null,
-    "last_error": null
+    "last_error_at": "2026-06-21T19:00:20Z",
+    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   },
   "articles": [
     {
