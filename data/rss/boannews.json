@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-06-21T13:00:18Z",
+  "updated_at": "2026-06-21T14:00:19Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-06-21T10:47:42Z",
-    "last_error_at": "2026-06-21T13:00:18Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-06-21T14:00:19Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
     {
@@ -402,25 +402,6 @@
       "authors": [
         {
           "name": "[강현주기자 (jjoo@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:f75a0943757a8809ecca4cd6d5c459d850571631e4eef36904129e7a6dab75f0",
-      "url": "http://www.boannews.com/media/view.asp?idx=144081&kind=&sub_kind=",
-      "title": "[단독] 솔루션 유지보수 바이텍시스템 랜섬웨어 감염... 삼성 등 고객사 정보 유출",
-      "published_at": "2026-06-11T12:44:00Z",
-      "published_raw": "Thu, 11 Jun 2026 21:44:00 +0900",
-      "categories": [],
-      "description": "랜섬웨어 조직 킬린, 다크웹 사이트에 탈취 데이터 및 스크린샷 게시보안 관리로 뚫린 유지보수망 스피어 피싱 등 치명적 공급망 공격 우려[보안뉴스 조재호 기자] 국내 대기업과 금융권에 IT 솔루션 및 유지보수를 제공하는 전문기업 바이텍시스템이 랜섬웨어 조직의 공격을 받아 대규모 데이터 유출 사태가 발생했다. 고객사의 핵심 시스템을 관리하는 유지보수 업체의 특",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[조재호기자 (zephyr@boannews.com)]",
           "uri": "",
           "email": ""
         }
