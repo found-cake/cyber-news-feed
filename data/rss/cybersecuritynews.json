@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "cybersecuritynews",
-  "updated_at": "2026-06-22T02:00:19Z",
+  "updated_at": "2026-06-22T03:00:20Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-22T02:00:19Z",
+    "last_success_at": "2026-06-22T03:00:20Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:05c7d2c4775421babab1a37df2e23d2f56dba1efe25c9dcc316619b825292e56",
+      "url": "https://cybersecuritynews.com/fortibleed-credential-harvesting-attack",
+      "title": "FortiBleed – Fortinet Warns of Active Credential Harvesting Campaign Targeting FortiGate Devices",
+      "published_at": "2026-06-22T02:31:11Z",
+      "published_raw": "Mon, 22 Jun 2026 02:31:11 +0000",
+      "categories": [
+        "Cyber Security News",
+        "Vulnerability",
+        "Vulnerability News",
+        "cyber security"
+      ],
+      "description": "<p>Fortinet has issued an urgent security advisory warning customers of an ongoing credential-harvesting campaign targeting FortiGate appliances, dubbed &#8220;FortiBleed&#8221; by threat researchers. According to the company&#8217;s analysis shared by Carl Windsor, the activity does not stem from a new vulnerability but rather exploits previously disclosed security gaps combined with poor password hygiene and absent multi-factor [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortibleed-credential-harvesting-attack/\">FortiBleed &#8211; Fortinet Warns of Active Credential Harvesting Campaign Targeting FortiGate Devices</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=153358",
+      "authors": [
+        {
+          "name": "Guru Baran",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/FortiBleed-Credential-Harvesting-Attack.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "153358",
+          "content_encoded": "<p class=\"wp-block-paragraph\">Fortinet has issued an urgent security advisory warning customers of an ongoing credential-harvesting campaign targeting FortiGate appliances, dubbed &#8220;FortiBleed&#8221; by threat researchers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to the company&#8217;s  analysis shared by Carl Windsor, the activity does not stem from a new vulnerability but rather exploits previously disclosed security gaps combined with poor password hygiene and absent multi-factor authentication (MFA).</p>\n\n\n\n<p class=\"wp-block-paragraph\">&#8220;<a href=\"https://cybersecuritynews.com/fortibleed-fortinet-firewalls-compromised/\" target=\"_blank\" rel=\"noreferrer noopener\">FortiBleed</a>&#8221; reportedly impacts up to 86,000 internet-facing FortiGate firewalls and VPN appliances across 194 countries, making it one of the most significant Fortinet security incidents to date.</p>\n\n\n\n<p class=\"wp-block-paragraph\">FortiBleed is not a zero-day. Fortinet&#8217;s investigation indicates threat actors are recycling credentials from two previously documented incidents — tracked as FG-IR-26-060 and FG-IR-25-647 and pairing them with AI-accelerated brute-force techniques against internet-exposed FortiGate devices that lack strong credential controls.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.fortinet.com/blog/psirt-blogs/analysis-of-reported-credential-compromise-of-fortigate-devices\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Fortinet noted that this campaign</a> is unrelated to any recent vulnerability disclosure, stressing that customers who completed remediation steps from the earlier advisories should not be affected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company confirmed it has proactively identified potentially compromised systems and is contacting impacted customers directly, while also coordinating with relevant government agencies.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The primary attack vector involves weak or reused administrative and VPN credentials on internet-facing FortiGate appliances, amplified by the absence of MFA.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Once threat actors gain access, observed post-exploitation behavior includes unauthorized configuration changes, creation of rogue accounts (flagged examples include usernames such as &#8220;forticloud,&#8221; &#8220;fortiuser,&#8221; &#8220;fortinet-support,&#8221; and &#8220;fortinet-tech-support&#8221;), and potential lateral movement into internal networks, particularly through Active Directory or LDAP-integrated environments.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://cybersecuritynews.com/cisa-urges-hardening-fortinet-devices/\" target=\"_blank\" rel=\"noreferrer noopener\">CISA has issued an urgent advisory</a> warning organizations to secure their Fortinet devices following reports of a large-scale credential exposure campaign</p>\n\n\n\n<h2 id=\"h-immediate-remediation-steps\" class=\"wp-block-heading\"><strong>Immediate Remediation Steps</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Fortinet is urging all FortiGate customers to take the following actions without delay:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Terminate all admin and VPN sessions</strong> and immediately reset all Fortinet VPN and administrative credentials, particularly on internet-facing systems</li>\n\n\n\n<li><strong>Enforce MFA</strong> across all administrator and VPN user accounts</li>\n\n\n\n<li><strong>Upgrade FortiOS</strong> to versions 7.4, 7.6, or 8.0, which support PBKDF2 hashing for administrator credentials; remove legacy password settings using <code>set login-lockout-upon-weaker-encryption</code></li>\n\n\n\n<li><strong>Audit configurations</strong> against a known-good baseline, paying close attention to unauthorized account additions or policy changes</li>\n\n\n\n<li><strong>Review logs</strong> for unexpected administrative access from unknown IPs and monitor domain controller logs for signs of lateral movement or suspicious account activity</li>\n\n\n\n<li><strong>Restrict management access</strong> by limiting it to trusted hosts, applying local-in policies, or removing internet-facing administration entirely</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations that discover unauthorized configuration changes, unrecognized VPN users, or unexpected password resets should treat their devices as fully compromised.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Fortinet recommends following its <a href=\"https://community.fortinet.com/fortigate-3/technical-tip-recommended-steps-to-execute-in-case-of-a-compromised-host-118585\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">published incident recovery guidance</a> and, if AD/LDAP integration is in place, treating those accounts as compromised and monitoring the directory for anomalous authentication or new account creation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For organizations suspecting internal network compromise, Fortinet&#8217;s FortiGuard Incident Response team is available for scoping engagements.</p>\n\n\n\n<p class=\"wp-block-paragraph\" id=\"h-the-campaign-s-reliance-on-previously-exposed-credentials-rather-than-novel-exploits-highlights-the-critical-importance-of-completing-vendor-issued-remediation-steps-promptly-and-enforcing-consistent-mfa-and-strong-password-policies-across-all-administrative-interfaces\">The campaign&#8217;s reliance on previously exposed credentials rather than novel exploits highlights the critical importance of completing vendor-issued remediation steps promptly and enforcing consistent MFA and strong password policies across all administrative interfaces.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 91%,rgb(169,184,195) 100%)\"><strong>Follow us on&nbsp;<a href=\"https://news.google.com/publications/CAAqMggKIixDQklTR3dnTWFoY0tGV041WW1WeWMyVmpkWEpwZEhsdVpYZHpMbU52YlNnQVAB?hl=en-IN&amp;gl=IN&amp;ceid=IN:en\" target=\"_blank\" rel=\"noreferrer noopener\">Google News</a>,&nbsp;<a href=\"https://www.linkedin.com/company/cybersecurity-news/\" target=\"_blank\" rel=\"noreferrer noopener\">LinkedIn</a>,&nbsp;and&nbsp;<a href=\"https://x.com/cyber_press_org\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>&nbsp;to Get More Instant Updates.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortibleed-credential-harvesting-attack/\">FortiBleed &#8211; Fortinet Warns of Active Credential Harvesting Campaign Targeting FortiGate Devices</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
     {
       "id": "sha256:fc9ee070d73513b2fc1e7896738dbfd0686e9d58dc03ad5a389448fd86e3e04b",
       "url": "https://cybersecuritynews.com/gentlekiller-ransomware-edr-processes",
