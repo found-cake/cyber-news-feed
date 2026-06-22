@@ -1,15 +1,49 @@
 {
   "schema_version": 1,
   "source": "cybersecuritynews",
-  "updated_at": "2026-06-22T04:00:19Z",
+  "updated_at": "2026-06-22T05:00:22Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-06-22T03:00:20Z",
-    "last_error_at": "2026-06-22T04:00:19Z",
-    "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+    "ok": true,
+    "last_success_at": "2026-06-22T05:00:22Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:40b050b4391b8f9cafc479d6265947f523aff5bc58354c0d7c2eac9765b0ba30",
+      "url": "https://cybersecuritynews.com/anthropic-claude-ai-outage",
+      "title": "Anthropic’s Claude AI Back Online After 90-Minute Global Outage",
+      "published_at": "2026-06-22T03:34:43Z",
+      "published_raw": "Mon, 22 Jun 2026 03:34:43 +0000",
+      "categories": [
+        "Tech News",
+        "Claude AI"
+      ],
+      "description": "<p>Anthropic&#8217;s Claude AI platform suffered a significant service disruption on June 22, 2026, affecting multiple flagship models and leaving developers worldwide scrambling for nearly 90 minutes before engineers restored full functionality. The incident began at 00:37 UTC on June 22, when Anthropic&#8217;s engineering team opened an investigation into elevated error rates impacting several Claude models [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-claude-ai-outage/\">Anthropic&#8217;s Claude AI Back Online After 90-Minute Global Outage</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=153362",
+      "authors": [
+        {
+          "name": "Guru Baran",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Anthropic-Claude-AI-Outage.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "153362",
+          "content_encoded": "<p class=\"wp-block-paragraph\">Anthropic&#8217;s Claude AI platform suffered a significant service disruption on June 22, 2026, affecting multiple flagship models and leaving developers worldwide scrambling for nearly 90 minutes before engineers restored full functionality.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The incident began at 00:37 UTC on June 22, when Anthropic&#8217;s engineering team opened an investigation into elevated error rates impacting several Claude models simultaneously.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The disruption hit five models in total Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 4.6, and Haiku 4.5, marking one of the broadest multi-model outages the platform has seen this month.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Affected services spanned the full Claude ecosystem, including Claude.ai chat interfaces, the Claude API (api.anthropic.com), Claude Code, and Claude Cowork. Developers relying on API integrations reported failed requests, while Claude Code users, a growing segment of enterprise engineering teams, experienced cascading workflow interruptions.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://status.claude.com/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Anthropic identified the root cause</a> by 01:11 UTC and immediately began rolling out a targeted fix. Rather than a simultaneous restoration, recovery proceeded model by model in a staged rollout:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>01:16 UTC</strong> — Opus 4.8 recovered</li>\n\n\n\n<li><strong>01:33 UTC</strong> — Haiku 4.5 recovered</li>\n\n\n\n<li><strong>01:56 UTC</strong> — Opus 4.7 recovered</li>\n\n\n\n<li><strong>02:01 UTC</strong> — Fix implemented; monitoring phase initiated</li>\n\n\n\n<li><strong>02:06 UTC</strong> — Full resolution declared</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">The outage quickly drew developer frustration across social platforms, with Downdetector logging visible spikes in user-submitted reports focused on chat failures and Claude Code disruptions. For teams with production pipelines and deadline-sensitive workflows, even a sub-two-hour window of elevated errors can trigger significant downstream impact, particularly as Claude integrations deepen across software development and enterprise automation stacks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This incident is notably the third service disruption affecting Claude this month. <a href=\"https://cybersecuritynews.com/claude-down-for-users-worldwide/\" target=\"_blank\" rel=\"noreferrer noopener\">Prior outages were recorded on June 2</a>, a major disruption lasting several hours that impacted Opus 4.6, the Claude API, and Claude Code, and June 5, when networking performance degradation within Anthropic&#8217;s cloud infrastructure triggered elevated error rates across models.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Despite the recurring incidents, Anthropic&#8217;s 90-day uptime figure remains above 98%, suggesting these are isolated spikes rather than systemic infrastructure failures. However, the frequency of disruptions in June alone raises questions about capacity planning as demand for Claude&#8217;s most powerful models continues to accelerate.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As of 02:06 UTC on June 22, Anthropic&#8217;s official status page confirms all components, including the Claude API, Claude Code, Claude Cowork, and Claude for Government, are fully operational. Anthropic stated the team remains in active monitoring mode to ensure stability holds following the staged recovery.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 91%,rgb(169,184,195) 100%)\"><strong>Follow us on&nbsp;<a href=\"https://news.google.com/publications/CAAqMggKIixDQklTR3dnTWFoY0tGV041WW1WeWMyVmpkWEpwZEhsdVpYZHpMbU52YlNnQVAB?hl=en-IN&amp;gl=IN&amp;ceid=IN:en\" target=\"_blank\" rel=\"noreferrer noopener\">Google News</a>,&nbsp;<a href=\"https://www.linkedin.com/company/cybersecurity-news/\" target=\"_blank\" rel=\"noreferrer noopener\">LinkedIn</a>,&nbsp;and&nbsp;<a href=\"https://x.com/cyber_press_org\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>&nbsp;to Get More Instant Updates.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-claude-ai-outage/\">Anthropic&#8217;s Claude AI Back Online After 90-Minute Global Outage</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
     {
       "id": "sha256:05c7d2c4775421babab1a37df2e23d2f56dba1efe25c9dcc316619b825292e56",
       "url": "https://cybersecuritynews.com/fortibleed-credential-harvesting-attack",
