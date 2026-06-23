@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-06-23T10:00:23Z",
+  "updated_at": "2026-06-23T12:00:25Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-23T10:00:23Z",
+    "last_success_at": "2026-06-23T12:00:25Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -146,6 +146,33 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:41444a2175f8fe01b12659de357d54cf916d89a1db4c1d32989000a306a6ebeb",
+      "url": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
+      "published_at": "2026-06-22T16:29:00Z",
+      "published_raw": "2026-06-22T21:59:00.000+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy.\n\nThe bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io&nbsp;disclosed it in June&nbsp;and named it Squidbleed (",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6077349364356138624",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA4IfKMjQxVhpOYdrcCC4ty0vlGBDg_qCZuuvSTvyVWXYPXQlli7qyCZkPdHHuGJp-HVH1s-HGmf_Zqn97o2Qz5JOHaZ-Mk1mecm4W4yUBiCaejJL5guczISx2Q8ZH7RvS_4fXiNdHemr1aWKwz0CcyBJI_4_jFjQhY5JedBz_-pSiSQ1eQCF_BPYEbRs/s260-e100/sq.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:a5471bf11dc135a2b44736d9cb73349b2533fb26cac9b004d21893533b048bd3",
       "url": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
       "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
@@ -166,33 +193,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrjCumekV1hjkgdgebp4RqfYc_Yt9Swv4lG7ds3XMDHG9f-JxSuJSWY3UcWIoivJoJkJjdlBvtiQAHKy7NNgApCoD8ADtOpicXvKf9RJwAZT1DEGUkgX87bmSR8cO75Ss__mnLn8MyDEddnzhyphenhyphenRfcf_gWEtoLiKu53yXNQJtT0DP7nZufqBhB3P8VmvV48/s260-e100/dify.png",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:41444a2175f8fe01b12659de357d54cf916d89a1db4c1d32989000a306a6ebeb",
-      "url": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
-      "published_at": "2026-06-22T14:29:46Z",
-      "published_raw": "2026-06-22T19:59:46.104+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy.\n\nThe bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io&nbsp;disclosed it in June&nbsp;and named it Squidbleed (",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6077349364356138624",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA4IfKMjQxVhpOYdrcCC4ty0vlGBDg_qCZuuvSTvyVWXYPXQlli7qyCZkPdHHuGJp-HVH1s-HGmf_Zqn97o2Qz5JOHaZ-Mk1mecm4W4yUBiCaejJL5guczISx2Q8ZH7RvS_4fXiNdHemr1aWKwz0CcyBJI_4_jFjQhY5JedBz_-pSiSQ1eQCF_BPYEbRs/s260-e100/sq.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
