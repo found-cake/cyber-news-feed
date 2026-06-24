@@ -18,6 +18,7 @@
 | StepSecurity | `data/rss/stepsecurity.json` |
 | Dark Reading | `data/rss/darkreading.json` |
 | BleepingComputer | `data/rss/bleepingcomputer.json` |
+| SecurityWeek | `data/rss/securityweek.json` |
 
 Raw GitHub URL은 다음 형식입니다.
 
@@ -67,6 +68,8 @@ schema/rss-feed.schema.json
 
 Cyber Security News의 `content:encoded` 값은 현재 수집 소스 중 해당 소스에만 특화된 값이므로 `source_metadata.cybersecuritynews.content_encoded`에 저장합니다.
 
+SecurityWeek의 channel `image` 값은 기사 항목 밖에서 제공되는 소스별 이미지 메타데이터이므로 `source_metadata.securityweek.image`에 `url`, `title`, `link`, `width`, `height` 형태로 저장합니다.
+
 피드에서 제공한 HTML은 JSON 문자열 안에 가능한 그대로 보존합니다. 예를 들어 `<p>`는 `\u003c`로 escape하지 않고 `<p>`로 저장합니다.
 
 ## 업데이트 정책
@@ -107,7 +110,7 @@ Cyber Security News의 `content:encoded` 값은 현재 수집 소스 중 해당 
 
 ### Scheduled Harvest
 
-`.github/workflows/schedule.yml`은 매시 15분 UTC에 실행되며, `workflow_dispatch`로 수동 실행할 수도 있습니다.
+정기 수집은 Cloudflare Worker가 2시간마다 트리거합니다. `.github/workflows/schedule.yml`의 GitHub Actions workflow는 Worker가 호출하는 수동 `workflow_dispatch` 대상으로 유지합니다.
 
 이 workflow는 소스에서 빌드하지 않습니다. 최신 Release 바이너리를 다운로드해서 실행합니다.
 

@@ -18,6 +18,7 @@ Source JSON files:
 | StepSecurity | `data/rss/stepsecurity.json` |
 | Dark Reading | `data/rss/darkreading.json` |
 | BleepingComputer | `data/rss/bleepingcomputer.json` |
+| SecurityWeek | `data/rss/securityweek.json` |
 
 Raw GitHub URLs follow this form:
 
@@ -67,6 +68,8 @@ Each article includes:
 
 Cyber Security News `content:encoded` values are stored under `source_metadata.cybersecuritynews.content_encoded`, because this field is source-specific in the current feed set.
 
+SecurityWeek channel `image` values are stored under `source_metadata.securityweek.image` with `url`, `title`, `link`, `width`, and `height`, because that feed exposes its image metadata outside article items instead of Media RSS.
+
 HTML in feed-provided fields is preserved as literal JSON string content. For example, `<p>` remains `<p>` instead of being JSON-escaped as `\u003c`.
 
 ## Update Policy
@@ -107,9 +110,9 @@ Only official GitHub actions are used:
 
 ### Scheduled Harvest
 
-`.github/workflows/schedule.yml` runs hourly at minute 15 UTC and can also be started manually with `workflow_dispatch`.
+Scheduled harvesting is triggered every 2 hours by a Cloudflare Worker. The GitHub Actions workflow at `.github/workflows/schedule.yml` is kept as the manual `workflow_dispatch` target that the Worker invokes.
 
-It does not build from source. Instead, it downloads the latest release binary and runs it:
+The workflow does not build from source. Instead, it downloads the latest Release binary and runs it:
 
 ```sh
 gh release download --pattern "cyber-news-feed-linux-amd64" --output cyber-news-feed
