@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-06-24T18:00:24Z",
+  "updated_at": "2026-06-24T20:00:22Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-24T18:00:24Z",
+    "last_success_at": "2026-06-24T20:00:22Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -14,8 +14,8 @@
       "id": "sha256:0fa5f5c7dd8e634005d43cc8fc8d4b6982b3157b2e28398fa61b02997cc897c0",
       "url": "https://www.stepsecurity.io/blog/supply-chain-compromise-codfish-semantic-release-action",
       "title": "codfish/semantic-release-action GitHub Action has been compromised",
-      "published_at": "2026-06-24T17:55:16Z",
-      "published_raw": "Wed, 24 Jun 2026 17:55:16 GMT",
+      "published_at": "2026-06-24T18:26:38Z",
+      "published_raw": "Wed, 24 Jun 2026 18:26:38 GMT",
       "categories": [],
       "description": "On June 24, 2026, an attacker compromised the codfish/semantic-release-action GitHub repository. At 15:39:06 UTC they force-pushed a malicious commit and repointed several version tags to that commit. As a result, any workflow running against those tags after that time executed the attacker's code inside its GitHub Actions runner.",
       "feed_id": "https://www.stepsecurity.io/blog/supply-chain-compromise-codfish-semantic-release-action",
