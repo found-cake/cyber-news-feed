@@ -9,83 +9,6 @@ import (
 	"golang.org/x/net/html/charset"
 )
 
-type envelope struct {
-	XMLName xml.Name
-	Channel rssChannel  `xml:"channel"`
-	Entries []atomEntry `xml:"entry"`
-}
-
-type rssChannel struct {
-	Items []rssItem `xml:"item"`
-}
-
-type rssItem struct {
-	Title       string      `xml:"title"`
-	Links       []rssLink   `xml:"link"`
-	GUID        rssGUID     `xml:"guid"`
-	PubDate     string      `xml:"pubDate"`
-	DCDate      string      `xml:"date"`
-	Published   string      `xml:"published"`
-	Updated     string      `xml:"updated"`
-	Categories  []string    `xml:"category"`
-	Description string      `xml:"description"`
-	Content     string      `xml:"encoded"`
-	Creators    []string    `xml:"creator"`
-	Authors     []rssAuthor `xml:"author"`
-	Thumbnails  []mediaNode `xml:"thumbnail"`
-	Media       []mediaNode `xml:"content"`
-	PostID      string      `xml:"post-id"`
-}
-
-type rssLink struct {
-	Href string `xml:"href,attr"`
-	Text string `xml:",chardata"`
-}
-
-type rssGUID struct {
-	IsPermaLink string `xml:"isPermaLink,attr"`
-	Text        string `xml:",chardata"`
-}
-
-type rssAuthor struct {
-	Text string `xml:",chardata"`
-}
-
-type atomEntry struct {
-	ID         string         `xml:"id"`
-	Title      string         `xml:"title"`
-	Links      []atomLink     `xml:"link"`
-	Published  string         `xml:"published"`
-	Updated    string         `xml:"updated"`
-	Categories []atomCategory `xml:"category"`
-	Summary    string         `xml:"summary"`
-	Content    string         `xml:"content"`
-	Authors    []atomAuthor   `xml:"author"`
-	Thumbnails []mediaNode    `xml:"thumbnail"`
-}
-
-type atomLink struct {
-	Rel  string `xml:"rel,attr"`
-	Href string `xml:"href,attr"`
-	Text string `xml:",chardata"`
-}
-
-type atomCategory struct {
-	Term string `xml:"term,attr"`
-	Text string `xml:",chardata"`
-}
-
-type atomAuthor struct {
-	Name  string `xml:"name"`
-	URI   string `xml:"uri"`
-	Email string `xml:"email"`
-}
-
-type mediaNode struct {
-	URL    string `xml:"url,attr"`
-	Medium string `xml:"medium,attr"`
-}
-
 func Parse(reader io.Reader) ([]Item, error) {
 	xmlReader, err := readerWithEscapedAmpersands(reader)
 	if err != nil {
@@ -99,7 +22,7 @@ func Parse(reader io.Reader) ([]Item, error) {
 		return nil, fmt.Errorf("decode feed XML: %w", err)
 	}
 	if len(doc.Channel.Items) > 0 {
-		return rssItems(doc.Channel.Items), nil
+		return rssItems(doc.Channel.Items, sourceImage(doc.Channel.Image)), nil
 	}
 	if len(doc.Entries) > 0 {
 		return atomItems(doc.Entries), nil
@@ -107,7 +30,7 @@ func Parse(reader io.Reader) ([]Item, error) {
 	return nil, fmt.Errorf("feed contains no rss items or atom entries")
 }
 
-func rssItems(items []rssItem) []Item {
+func rssItems(items []rssItem, channelImage SourceImage) []Item {
 	parsed := make([]Item, 0, len(items))
 	for _, item := range items {
 		rawDate := firstNonEmpty(item.PubDate, item.DCDate, item.Published, item.Updated)
@@ -123,7 +46,7 @@ func rssItems(items []rssItem) []Item {
 			FeedID:         strings.TrimSpace(item.GUID.Text),
 			Authors:        rssAuthors(item.Creators, item.Authors),
 			Media:          mediaItems(item.Thumbnails, item.Media),
-			SourceMetadata: rssMetadata(item),
+			SourceMetadata: rssMetadata(item, channelImage),
 		})
 	}
 	return parsed
@@ -248,10 +171,25 @@ func appendMedia(out []Media, seen map[string]struct{}, item mediaNode, kind str
 	return append(out, Media{URL: mediaURL, Kind: kind, Medium: strings.TrimSpace(item.Medium)})
 }
 
-func rssMetadata(item rssItem) SourceMetadata {
+func rssMetadata(item rssItem, channelImage SourceImage) SourceMetadata {
+	image := sourceImage(item.Image)
+	if image == (SourceImage{}) {
+		image = channelImage
+	}
 	return SourceMetadata{
 		GUIDIsPermalink: strings.TrimSpace(item.GUID.IsPermaLink),
+		Image:           image,
 		PostID:          strings.TrimSpace(item.PostID),
+	}
+}
+
+func sourceImage(image rssImage) SourceImage {
+	return SourceImage{
+		URL:    strings.TrimSpace(firstNonEmpty(image.Href, image.URL, image.Text)),
+		Title:  strings.TrimSpace(image.Title),
+		Link:   strings.TrimSpace(image.Link),
+		Width:  strings.TrimSpace(image.Width),
+		Height: strings.TrimSpace(image.Height),
 	}
 }
 

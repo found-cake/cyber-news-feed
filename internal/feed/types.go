@@ -28,5 +28,14 @@ type Media struct {
 
 type SourceMetadata struct {
 	GUIDIsPermalink string
+	Image           SourceImage
 	PostID          string
+}
+
+type SourceImage struct {
+	URL    string
+	Title  string
+	Link   string
+	Width  string
+	Height string
 }

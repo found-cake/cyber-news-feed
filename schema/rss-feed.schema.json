@@ -190,6 +190,35 @@
                     "type": "string"
                   }
                 }
+              },
+              "securityweek": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["image"],
+                "properties": {
+                  "image": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["url", "title", "link", "width", "height"],
+                    "properties": {
+                      "url": {
+                        "type": "string"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "link": {
+                        "type": "string"
+                      },
+                      "width": {
+                        "type": "string"
+                      },
+                      "height": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
               }
             }
           }

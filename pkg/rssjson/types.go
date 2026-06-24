@@ -74,6 +74,7 @@ type SourceMetadata struct {
 	StepSecurity      *StepSecurityMetadata      `json:"stepsecurity,omitempty"`
 	DarkReading       *DarkReadingMetadata       `json:"darkreading,omitempty"`
 	BleepingComputer  *BleepingComputerMetadata  `json:"bleepingcomputer,omitempty"`
+	SecurityWeek      *SecurityWeekMetadata      `json:"securityweek,omitempty"`
 	legacyGUID        string
 	legacyPostID      string
 }
@@ -98,6 +99,18 @@ type BleepingComputerMetadata struct {
 	GUIDIsPermalink string `json:"guid_is_permalink"`
 }
 
+type SecurityWeekMetadata struct {
+	Image SecurityWeekImage `json:"image"`
+}
+
+type SecurityWeekImage struct {
+	URL    string `json:"url"`
+	Title  string `json:"title"`
+	Link   string `json:"link"`
+	Width  string `json:"width"`
+	Height string `json:"height"`
+}
+
 func (m *SourceMetadata) UnmarshalJSON(data []byte) error {
 	var raw sourceMetadataJSON
 	if err := json.Unmarshal(data, &raw); err != nil {
@@ -110,6 +123,7 @@ func (m *SourceMetadata) UnmarshalJSON(data []byte) error {
 		StepSecurity:      raw.StepSecurity,
 		DarkReading:       raw.DarkReading,
 		BleepingComputer:  raw.BleepingComputer,
+		SecurityWeek:      raw.SecurityWeek,
 		legacyGUID:        raw.GUIDIsPermalink,
 		legacyPostID:      raw.PostID,
 	}
@@ -203,6 +217,7 @@ type sourceMetadataJSON struct {
 	StepSecurity      *StepSecurityMetadata      `json:"stepsecurity"`
 	DarkReading       *DarkReadingMetadata       `json:"darkreading"`
 	BleepingComputer  *BleepingComputerMetadata  `json:"bleepingcomputer"`
+	SecurityWeek      *SecurityWeekMetadata      `json:"securityweek"`
 	GUIDIsPermalink   string                     `json:"guid_is_permalink"`
 	PostID            string                     `json:"post_id"`
 }

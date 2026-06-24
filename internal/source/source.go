@@ -61,6 +61,7 @@ func Default() []Config {
 		{Name: "stepsecurity", Kind: StepSecurity, Feeds: []Feed{{URL: "https://www.stepsecurity.io/blog/rss.xml"}}},
 		{Name: "darkreading", Kind: DarkReading, Feeds: []Feed{{URL: "https://www.darkreading.com/rss.xml"}}},
 		{Name: "bleepingcomputer", Kind: BleepingComputer, Feeds: []Feed{{URL: "https://www.bleepingcomputer.com/feed/"}}},
+		{Name: "securityweek", Feeds: []Feed{{URL: "https://www.securityweek.com/feed/"}}},
 	}
 }
 
@@ -191,6 +192,21 @@ func sourceMetadata(sourceName string, item feed.Item) rssjson.SourceMetadata {
 		return rssjson.SourceMetadata{
 			BleepingComputer: &rssjson.BleepingComputerMetadata{
 				GUIDIsPermalink: metadata.GUIDIsPermalink,
+			},
+		}
+	case "securityweek":
+		if metadata.Image == (feed.SourceImage{}) {
+			return rssjson.SourceMetadata{}
+		}
+		return rssjson.SourceMetadata{
+			SecurityWeek: &rssjson.SecurityWeekMetadata{
+				Image: rssjson.SecurityWeekImage{
+					URL:    metadata.Image.URL,
+					Title:  metadata.Image.Title,
+					Link:   metadata.Image.Link,
+					Width:  metadata.Image.Width,
+					Height: metadata.Image.Height,
+				},
 			},
 		}
 	default:

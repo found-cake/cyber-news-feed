@@ -82,6 +82,39 @@ func Test_Parse_preserves_rss_description_content_author_media_and_metadata(t *t
 	}
 }
 
+func Test_Parse_preserves_rss_image_metadata(t *testing.T) {
+	// Given
+	input := `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<image>
+  <url>https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg</url>
+  <title>SecurityWeek</title>
+  <link>https://www.securityweek.com/</link>
+  <width>32</width>
+  <height>32</height>
+</image>
+<item>
+  <title>SecurityWeek</title>
+  <link>https://www.securityweek.com/example/</link>
+</item></channel></rss>`
+
+	// When
+	got, err := Parse(strings.NewReader(input))
+
+	// Then
+	if err != nil {
+		t.Fatalf("Parse() error = %v", err)
+	}
+	image := got[0].SourceMetadata.Image
+	if image.URL != "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg" ||
+		image.Title != "SecurityWeek" ||
+		image.Link != "https://www.securityweek.com/" ||
+		image.Width != "32" ||
+		image.Height != "32" {
+		t.Fatalf("SourceMetadata.Image = %#v", image)
+	}
+}
+
 func Test_Parse_recovers_invalid_ampersands_outside_cdata(t *testing.T) {
 	// Given
 	input := `<?xml version="1.0" encoding="UTF-8"?>

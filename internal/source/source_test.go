@@ -89,6 +89,40 @@ func Test_ArticleFromItem_preserves_feed_metadata_fields(t *testing.T) {
 	}
 }
 
+func Test_ArticleFromItem_maps_securityweek_image_to_source_metadata(t *testing.T) {
+	// Given
+	source := Config{Name: "securityweek"}
+	item := feed.Item{
+		Title: "SecurityWeek",
+		URL:   "https://www.securityweek.com/example",
+		SourceMetadata: feed.SourceMetadata{
+			Image: feed.SourceImage{
+				URL:    "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+				Title:  "SecurityWeek",
+				Link:   "https://www.securityweek.com/",
+				Width:  "32",
+				Height: "32",
+			},
+		},
+	}
+
+	// When
+	got, include := ArticleFromItem(source, Feed{}, item)
+
+	// Then
+	if !include {
+		t.Fatal("expected article to be included")
+	}
+	if got.SourceMetadata.SecurityWeek == nil ||
+		got.SourceMetadata.SecurityWeek.Image.URL != "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg" ||
+		got.SourceMetadata.SecurityWeek.Image.Title != "SecurityWeek" ||
+		got.SourceMetadata.SecurityWeek.Image.Link != "https://www.securityweek.com/" ||
+		got.SourceMetadata.SecurityWeek.Image.Width != "32" ||
+		got.SourceMetadata.SecurityWeek.Image.Height != "32" {
+		t.Fatalf("SourceMetadata = %#v", got.SourceMetadata)
+	}
+}
+
 func Test_ArticleFromItem_excludes_bleepingcomputer_without_security_category(t *testing.T) {
 	// Given
 	source := Config{Name: "bleepingcomputer", Kind: BleepingComputer}
