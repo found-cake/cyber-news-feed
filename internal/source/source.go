@@ -44,8 +44,8 @@ func Default() []Config {
 		{
 			Name: "boannews",
 			Feeds: []Feed{
-				{URL: "https://www.boannews.com/media/news_rss.xml?kind=1"},
-				{URL: "http://www.boannews.com/media/news_rss.xml?skind=5"},
+				{URL: "https://www.boannews.com/media/news_rss.xml?kind=1", Category: "사건ㆍ사고"},
+				{URL: "http://www.boannews.com/media/news_rss.xml?skind=5", Category: "긴급경보"},
 			},
 		},
 		{
