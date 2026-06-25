@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-06-25T04:00:20Z",
+  "updated_at": "2026-06-25T06:00:24Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-25T04:00:20Z",
+    "last_success_at": "2026-06-25T06:00:24Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:b2d031cc00c908b13414e426f1efb81d1917db1df2b86f276d8a941afdf9cc66",
+      "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+      "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
+      "published_at": "2026-06-25T05:46:54Z",
+      "published_raw": "2026-06-25T11:16:54.634+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "An unknown threat actor exploited a recently disclosed high-severity security flaw impacting Cisco Catalyst SD-WAN as a zero-day at least two months before it was publicly disclosed, according to new findings from Google-owned Mandiant.\n\nThe vulnerability, tracked as CVE-2026-20245 (CVSS score: 7.8), allows an authenticated, local attacker to execute arbitrary commands with elevated privileges",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-842878227522069078",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3UeGaI_Ej8KFu7-vQHTOuoohYdx04xIdI3W2B6JjCdaTSR6m-y1PAZ-aes-tH9nxtPGO2sFUiu1NwYkwT5s8bDPaHpG8nyN4t_mbZfVjf0nU8L11XujdqERtFUQlMZ85NV_nG6ZhqIQbGdAtyi8p1Oqq7TsBRs1IDn8HvOOnUPFEaL9_2cXrh9eovvaYz/s260-e100/cisco-20245.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:f0f8a55eafe852f53810477db6afb02e62996dd92404d3130e0dd1643ea3fce8",
       "url": "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
