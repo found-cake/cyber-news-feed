@@ -1,15 +1,63 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-06-25T14:00:26Z",
+  "updated_at": "2026-06-25T16:00:22Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-25T14:00:26Z",
+    "last_success_at": "2026-06-25T16:00:22Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:ccc5bf6cb957aebdaba06b966d47db7ce149f438636a67d50ba534364a1ea538",
+      "url": "https://www.stepsecurity.io/blog/maven-support-comes-to-github-checks-and-oss-package-search",
+      "title": "Maven Support Comes to GitHub Checks and OSS Package Search",
+      "published_at": "2026-06-25T15:21:35Z",
+      "published_raw": "Thu, 25 Jun 2026 15:21:35 GMT",
+      "categories": [],
+      "description": "StepSecurity now supports Maven in GitHub Checks and OSS Package Search, blocking compromised and freshly published Java dependencies in your pull requests.",
+      "feed_id": "https://www.stepsecurity.io/blog/maven-support-comes-to-github-checks-and-oss-package-search",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3d46102e4a0de02ad7f496_Covers-14.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3d46102e4a0de02ad7f496_Covers-14.jpg",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:c4351638607e2a14c696d6821f133a0a1bb68fb6b27fae9ebf68a86590164866",
+      "url": "https://www.stepsecurity.io/blog/jetbrains-malicious-plugins-ai-api-key-theft",
+      "title": "15 Malicious JetBrains Plugins Stole AI API Keys from 70,000 Developers",
+      "published_at": "2026-06-25T15:09:25Z",
+      "published_raw": "Thu, 25 Jun 2026 15:09:25 GMT",
+      "categories": [],
+      "description": "A coordinated 8-month supply chain attack planted credential-stealing code inside fake AI coding assistants on the JetBrains Marketplace, quietly exfiltrating OpenAI, DeepSeek, and SiliconFlow API keys to an attacker-controlled server in Beijing -- which our investigation found still operational today.",
+      "feed_id": "https://www.stepsecurity.io/blog/jetbrains-malicious-plugins-ai-api-key-theft",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3d440142a27b27b51e9fba_Covers-16.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3d440142a27b27b51e9fba_Covers-16.jpg",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:567a132b5a4b2b68f135ed49085e079869e560a008093bdc265545efaff293ba",
       "url": "https://www.stepsecurity.io/blog/mass-npm-supply-chain-attack-20-leo-platform-packages-compromised",
@@ -65,30 +113,6 @@
         },
         {
           "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3c089db892d45f5c83d600_SCR-20260624-tena.png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:c4351638607e2a14c696d6821f133a0a1bb68fb6b27fae9ebf68a86590164866",
-      "url": "https://www.stepsecurity.io/blog/jetbrains-malicious-plugins-ai-api-key-theft",
-      "title": "15 Malicious JetBrains Plugins Stole AI API Keys from 70,000 Developers",
-      "published_at": "2026-06-20T19:06:00Z",
-      "published_raw": "Sat, 20 Jun 2026 19:06:00 GMT",
-      "categories": [],
-      "description": "A coordinated 8-month supply chain attack planted credential-stealing code inside fake AI coding assistants on the JetBrains Marketplace, quietly exfiltrating OpenAI, DeepSeek, and SiliconFlow API keys to an attacker-controlled server in Beijing -- which our investigation found still operational today.",
-      "feed_id": "https://www.stepsecurity.io/blog/jetbrains-malicious-plugins-ai-api-key-theft",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a35a9a02077d083fa417ccc_JetBrains%20Plugins%20Cover%20(1).png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a35a9a02077d083fa417ccc_JetBrains%20Plugins%20Cover%20(1).png",
           "kind": "content",
           "medium": "image"
         }
