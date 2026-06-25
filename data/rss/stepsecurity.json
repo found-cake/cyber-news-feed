@@ -1,15 +1,39 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-06-25T00:00:21Z",
+  "updated_at": "2026-06-25T02:00:21Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-25T00:00:21Z",
+    "last_success_at": "2026-06-25T02:00:21Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:e7906a7b0403dd5d0069f87a83431e180314fcad3fa5f487b05bd9b61ab607f9",
+      "url": "https://www.stepsecurity.io/blog/simonecorsi-mawesome-github-action-has-been-compromised",
+      "title": "simonecorsi/mawesome GitHub Action has been compromised",
+      "published_at": "2026-06-25T01:38:25Z",
+      "published_raw": "Thu, 25 Jun 2026 01:38:25 GMT",
+      "categories": [],
+      "description": "On June 24, 2026, an attacker compromised the simonecorsi/mawesome GitHub repository. They force-pushed malicious commits and repointed several version tags to that commit. As a result, any workflow running against those tags after that time executed the attacker's code inside its GitHub Actions runner.",
+      "feed_id": "https://www.stepsecurity.io/blog/simonecorsi-mawesome-github-action-has-been-compromised",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3c865a00f7173aaabb1ad3_Screenshot%202026-06-24%20at%206.37.17%E2%80%AFPM.png",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3c865a00f7173aaabb1ad3_Screenshot%202026-06-24%20at%206.37.17%E2%80%AFPM.png",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:0fa5f5c7dd8e634005d43cc8fc8d4b6982b3157b2e28398fa61b02997cc897c0",
       "url": "https://www.stepsecurity.io/blog/supply-chain-compromise-codfish-semantic-release-action",
