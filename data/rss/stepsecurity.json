@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-06-25T08:00:23Z",
+  "updated_at": "2026-06-25T10:00:26Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-25T08:00:23Z",
+    "last_success_at": "2026-06-25T10:00:26Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -14,8 +14,8 @@
       "id": "sha256:567a132b5a4b2b68f135ed49085e079869e560a008093bdc265545efaff293ba",
       "url": "https://www.stepsecurity.io/blog/mass-npm-supply-chain-attack-20-leo-platform-packages-compromised",
       "title": "Mass npm Supply Chain Attack: 20 Leo Platform Packages Compromised",
-      "published_at": "2026-06-25T07:56:34Z",
-      "published_raw": "Thu, 25 Jun 2026 07:56:34 GMT",
+      "published_at": "2026-06-25T08:52:15Z",
+      "published_raw": "Thu, 25 Jun 2026 08:52:15 GMT",
       "categories": [],
       "description": "On June 24, 2026, an attacker published malicious versions of 20 npm packages belonging to the Leo Platform ecosystem in a coordinated burst spanning less than three seconds. All 20 packages carry an identical CI/CD attack toolkit that steals secrets from GitHub Actions runners, cloud credential stores, package registries, and password managers, then exfiltrates them via the victim's own GitHub token. Together these packages receive approximately 13,600 downloads per week.",
       "feed_id": "https://www.stepsecurity.io/blog/mass-npm-supply-chain-attack-20-leo-platform-packages-compromised",
