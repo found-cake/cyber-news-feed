@@ -72,6 +72,68 @@ SecurityWeek channel `image` values are stored under `source_metadata.securitywe
 
 HTML in feed-provided fields is preserved as literal JSON string content. For example, `<p>` remains `<p>` instead of being JSON-escaped as `\u003c`.
 
+## Go Usage
+
+Go applications can use `pkg/rssjson` for typed decoding of the published JSON files.
+
+```sh
+go get github.com/found-cake/cyber-news-feed
+```
+
+```go
+package main
+
+import (
+	"context"
+	"encoding/json"
+	"fmt"
+	"net/http"
+	"time"
+
+	"github.com/found-cake/cyber-news-feed/pkg/rssjson"
+)
+
+func main() {
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
+
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, "https://raw.githubusercontent.com/found-cake/cyber-news-feed/master/data/rss/securityweek.json", nil)
+	if err != nil {
+		panic(err)
+	}
+	resp, err := http.DefaultClient.Do(req)
+	if err != nil {
+		panic(err)
+	}
+	defer resp.Body.Close()
+	if resp.StatusCode != http.StatusOK {
+		panic(fmt.Sprintf("fetch RSS JSON: %s", resp.Status))
+	}
+
+	var doc rssjson.Document
+	if err := json.NewDecoder(resp.Body).Decode(&doc); err != nil {
+		panic(err)
+	}
+
+	for _, article := range doc.Articles {
+		fmt.Println(article.Title, article.URL)
+	}
+}
+```
+
+Source-specific metadata is available through `article.SourceMetadata`. For example, SecurityWeek image metadata can be read as:
+
+```go
+metadata, ok := article.SourceMetadata.Object("securityweek")
+if ok {
+	image, ok := metadata.Object("image")
+	if ok {
+		imageURL, _ := image.Text("url")
+		fmt.Println(imageURL)
+	}
+}
+```
+
 ## Update Policy
 
 - Sources are processed independently.
