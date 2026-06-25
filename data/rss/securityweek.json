@@ -1,15 +1,84 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-06-25T06:00:24Z",
+  "updated_at": "2026-06-25T08:00:23Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-25T06:00:24Z",
+    "last_success_at": "2026-06-25T08:00:23Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:4de276609c5ef36f0e4d94cf71791baa0d6685617332bbe8bd75f864e90fa8c9",
+      "url": "https://www.securityweek.com/chrome-149-update-resolves-18-severe-vulnerabilities",
+      "title": "Chrome 149 Update Resolves 18 Severe Vulnerabilities",
+      "published_at": "2026-06-25T07:56:03Z",
+      "published_raw": "Thu, 25 Jun 2026 07:56:03 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "Chrome",
+        "vulnerability"
+      ],
+      "description": "<p>More than half of the bugs are use-after-free defects, which can potentially lead to remote code execution.</p>\n<p>The post <a href=\"https://www.securityweek.com/chrome-149-update-resolves-18-severe-vulnerabilities/\">Chrome 149 Update Resolves 18 Severe Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47428",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:84c05aeb0002db207f72a45fe59c1045e5719901aa7d66e16bd4346107847fbd",
+      "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploited-months-before-patching",
+      "title": "Cisco SD-WAN Zero-Day Exploited Months Before Patching",
+      "published_at": "2026-06-25T06:08:43Z",
+      "published_raw": "Thu, 25 Jun 2026 06:08:43 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "Cisco",
+        "exploited",
+        "Mandiant",
+        "SD-WAN",
+        "Zero-Day"
+      ],
+      "description": "<p>CVE-2026-20245, the 7th Cisco SD-WAN vulnerability exploited in 2026, was used for months prior to its disclosure and patching.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisco-sd-wan-zero-day-exploited-months-before-patching/\">Cisco SD-WAN Zero-Day Exploited Months Before Patching</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47426",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:b332750a8ae7a1eb3c31ca58baf14799fabc4543b7c23babc554c92b3966f4c1",
       "url": "https://www.securityweek.com/when-information-becomes-the-attack-surface-understanding-ai-agent-traps",
