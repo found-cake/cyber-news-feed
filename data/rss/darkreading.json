@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-06-25T18:00:23Z",
+  "updated_at": "2026-06-25T20:00:21Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-25T18:00:23Z",
+    "last_success_at": "2026-06-25T20:00:21Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:9a658d4451650ce08b4a7adcb308d4f0893747f3ac439fb12a0f5b15fe9f7e53",
+      "url": "https://www.darkreading.com/threat-intelligence/police-collusion-crackdown-asian-scam-centers",
+      "title": "Local Police Collusion Hampers Crackdown on Asian Scam Centers",
+      "published_at": "2026-06-25T19:07:41Z",
+      "published_raw": "Thu, 25 Jun 2026 19:07:41 GMT",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "With tens of billions of dollars flowing into regional economies from cybercrime, scam centers continue to flourish, despite international and law-enforcement efforts.",
+      "feed_id": "https://www.darkreading.com/threat-intelligence/police-collusion-crackdown-asian-scam-centers",
+      "authors": [
+        {
+          "name": "Robert Lemos",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt721fdc64be81c12c/6a3c4c65fdbe062a481b8a46/scam-compound-T01c-SEZ-Amnesty_International.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt721fdc64be81c12c/6a3c4c65fdbe062a481b8a46/scam-compound-T01c-SEZ-Amnesty_International.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
     {
       "id": "sha256:047251bcb312acc1490f8e0793e1f95bc1d95f9b4372911797576857a2eca35c",
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-hit-cisco-sd-wan-flaw-2-months-before-disclosure",
@@ -576,78 +612,6 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltfe24b349ccd004b9/6a30716a4159275a05cb9773/loremipsum_M_rehan330_shutterstock.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:a70851045648881ad28cfc3298ccee5b60809c9efcb3ed54be8ce1bee43eae8c",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/http-2-bomb-attacks-telcos-healthcare",
-      "title": "HTTP/2 Bomb Attacks Put Telcos, Healthcare Orgs at Risk",
-      "published_at": "2026-06-15T19:31:37Z",
-      "published_raw": "Mon, 15 Jun 2026 19:31:37 GMT",
-      "categories": [
-        "vulnerabilities-threats"
-      ],
-      "description": "The denial-of-service (DoS) exploit takes advantage of two features in HTTP/2 that were designed to save Internet bandwith, not power massive amplification attacks.",
-      "feed_id": "https://www.darkreading.com/vulnerabilities-threats/http-2-bomb-attacks-telcos-healthcare",
-      "authors": [
-        {
-          "name": "Nate Nelson",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt544afdc4276297e7/6a307eff99b973302bb6b118/HTTP2-zakokor-Getty.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt544afdc4276297e7/6a307eff99b973302bb6b118/HTTP2-zakokor-Getty.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:f159ba9d5d52df3b6a7ab5f4f700066e810d76d842ef4acd903745dfae3aede0",
-      "url": "https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft",
-      "title": "Copilot 'SearchLeak' Attack Allows 1-Click Data Theft",
-      "published_at": "2026-06-15T19:27:48Z",
-      "published_raw": "Mon, 15 Jun 2026 19:27:48 GMT",
-      "categories": [
-        "application-security"
-      ],
-      "description": "The critical, three-stage attack is now patched, but it's part of a new group of AI prompt-injection issues that use hidden URLs and other variables.",
-      "feed_id": "https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft",
-      "authors": [
-        {
-          "name": "Alexander Culafi",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd943e9204f974e51/6a3053a98a78d25c2f29ab90/leaking_faucet-igorwheeler-Getty-511928310.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd943e9204f974e51/6a3053a98a78d25c2f29ab90/leaking_faucet-igorwheeler-Getty-511928310.jpg?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }
