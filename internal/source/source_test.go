@@ -56,7 +56,7 @@ func Test_ArticleFromItem_preserves_rss_categories_and_adds_filter_category(t *t
 
 func Test_ArticleFromItem_preserves_feed_metadata_fields(t *testing.T) {
 	// Given
-	source := Config{Name: "cybersecuritynews"}
+	source := Config{Name: "cybersecuritynews", Metadata: cybersecurityNewsMetadata}
 	item := feed.Item{
 		Title:          "Rich article",
 		URL:            "https://example.com/rich",
@@ -78,7 +78,10 @@ func Test_ArticleFromItem_preserves_feed_metadata_fields(t *testing.T) {
 	if got.Description != "short summary" {
 		t.Fatalf("Description = %q", got.Description)
 	}
-	if got.FeedID != "source-123" || got.SourceMetadata.CybersecurityNews == nil || got.SourceMetadata.CybersecurityNews.PostID != "987" || got.SourceMetadata.CybersecurityNews.ContentEncoded != "<p>body</p>" {
+	metadata, ok := got.SourceMetadata.Object("cybersecuritynews")
+	postID, _ := metadata.Text("post_id")
+	contentEncoded, _ := metadata.Text("content_encoded")
+	if got.FeedID != "source-123" || !ok || postID != "987" || contentEncoded != "<p>body</p>" {
 		t.Fatalf("source metadata not preserved: %#v", got)
 	}
 	if len(got.Authors) != 1 || got.Authors[0].Name != "Alice" {
@@ -91,7 +94,7 @@ func Test_ArticleFromItem_preserves_feed_metadata_fields(t *testing.T) {
 
 func Test_ArticleFromItem_maps_securityweek_image_to_source_metadata(t *testing.T) {
 	// Given
-	source := Config{Name: "securityweek"}
+	source := Config{Name: "securityweek", Metadata: securityWeekMetadata}
 	item := feed.Item{
 		Title: "SecurityWeek",
 		URL:   "https://www.securityweek.com/example",
@@ -113,12 +116,20 @@ func Test_ArticleFromItem_maps_securityweek_image_to_source_metadata(t *testing.
 	if !include {
 		t.Fatal("expected article to be included")
 	}
-	if got.SourceMetadata.SecurityWeek == nil ||
-		got.SourceMetadata.SecurityWeek.Image.URL != "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg" ||
-		got.SourceMetadata.SecurityWeek.Image.Title != "SecurityWeek" ||
-		got.SourceMetadata.SecurityWeek.Image.Link != "https://www.securityweek.com/" ||
-		got.SourceMetadata.SecurityWeek.Image.Width != "32" ||
-		got.SourceMetadata.SecurityWeek.Image.Height != "32" {
+	metadata, ok := got.SourceMetadata.Object("securityweek")
+	image, hasImage := metadata.Object("image")
+	url, _ := image.Text("url")
+	title, _ := image.Text("title")
+	link, _ := image.Text("link")
+	width, _ := image.Text("width")
+	height, _ := image.Text("height")
+	if !ok ||
+		!hasImage ||
+		url != "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg" ||
+		title != "SecurityWeek" ||
+		link != "https://www.securityweek.com/" ||
+		width != "32" ||
+		height != "32" {
 		t.Fatalf("SourceMetadata = %#v", got.SourceMetadata)
 	}
 }

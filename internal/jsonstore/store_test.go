@@ -23,11 +23,9 @@ func Test_Write_preserves_literal_html_characters(t *testing.T) {
 			Description: "<p>short & useful</p>",
 			Authors:     []rssjson.Author{},
 			Media:       []rssjson.Media{},
-			SourceMetadata: rssjson.SourceMetadata{
-				CybersecurityNews: &rssjson.CybersecurityNewsMetadata{
-					ContentEncoded: "<div><a href=\"https://example.com?a=1&b=2\">body</a></div>",
-				},
-			},
+			SourceMetadata: rssjson.NewSourceMetadata("cybersecuritynews", rssjson.MetadataObject{
+				rssjson.MetadataText("content_encoded", "<div><a href=\"https://example.com?a=1&b=2\">body</a></div>"),
+			}),
 		}},
 	}
 

@@ -9,15 +9,18 @@ import (
 )
 
 type Config struct {
-	Name  string
-	Feeds []Feed
-	Kind  Kind
+	Name     string
+	Feeds    []Feed
+	Kind     Kind
+	Metadata MetadataFunc
 }
 
 type Feed struct {
 	URL      string
 	Category string
 }
+
+type MetadataFunc func(feed.Item) rssjson.SourceMetadata
 
 type Kind int
 
@@ -57,11 +60,11 @@ func Default() []Config {
 				{URL: "https://thehackernews.com/feeds/posts/default/-/Cyber%20Attack", Category: "cyber-attack"},
 			},
 		},
-		{Name: "cybersecuritynews", Feeds: []Feed{{URL: "https://cybersecuritynews.com/feed/"}}},
+		{Name: "cybersecuritynews", Feeds: []Feed{{URL: "https://cybersecuritynews.com/feed/"}}, Metadata: cybersecurityNewsMetadata},
 		{Name: "stepsecurity", Kind: StepSecurity, Feeds: []Feed{{URL: "https://www.stepsecurity.io/blog/rss.xml"}}},
-		{Name: "darkreading", Kind: DarkReading, Feeds: []Feed{{URL: "https://www.darkreading.com/rss.xml"}}},
-		{Name: "bleepingcomputer", Kind: BleepingComputer, Feeds: []Feed{{URL: "https://www.bleepingcomputer.com/feed/"}}},
-		{Name: "securityweek", Feeds: []Feed{{URL: "https://www.securityweek.com/feed/"}}},
+		{Name: "darkreading", Kind: DarkReading, Feeds: []Feed{{URL: "https://www.darkreading.com/rss.xml"}}, Metadata: guidMetadata("darkreading")},
+		{Name: "bleepingcomputer", Kind: BleepingComputer, Feeds: []Feed{{URL: "https://www.bleepingcomputer.com/feed/"}}, Metadata: guidMetadata("bleepingcomputer")},
+		{Name: "securityweek", Feeds: []Feed{{URL: "https://www.securityweek.com/feed/"}}, Metadata: securityWeekMetadata},
 	}
 }
 
@@ -85,7 +88,7 @@ func ArticleFromItem(source Config, sourceFeed Feed, item feed.Item) (rssjson.Ar
 		FeedID:         item.FeedID,
 		Authors:        articleAuthors(item.Authors),
 		Media:          articleMedia(item.Media),
-		SourceMetadata: sourceMetadata(source.Name, item),
+		SourceMetadata: sourceMetadata(source.Metadata, item),
 	}, true
 }
 
@@ -162,56 +165,51 @@ func articleMedia(media []feed.Media) []rssjson.Media {
 	return out
 }
 
-func sourceMetadata(sourceName string, item feed.Item) rssjson.SourceMetadata {
-	metadata := item.SourceMetadata
-	switch sourceName {
-	case "cybersecuritynews":
-		if metadata.GUIDIsPermalink == "" && metadata.PostID == "" && item.ContentEncoded == "" {
-			return rssjson.SourceMetadata{}
-		}
-		return rssjson.SourceMetadata{
-			CybersecurityNews: &rssjson.CybersecurityNewsMetadata{
-				GUIDIsPermalink: metadata.GUIDIsPermalink,
-				PostID:          metadata.PostID,
-				ContentEncoded:  item.ContentEncoded,
-			},
-		}
-	case "darkreading":
-		if metadata.GUIDIsPermalink == "" {
-			return rssjson.SourceMetadata{}
-		}
-		return rssjson.SourceMetadata{
-			DarkReading: &rssjson.DarkReadingMetadata{
-				GUIDIsPermalink: metadata.GUIDIsPermalink,
-			},
-		}
-	case "bleepingcomputer":
-		if metadata.GUIDIsPermalink == "" {
-			return rssjson.SourceMetadata{}
-		}
-		return rssjson.SourceMetadata{
-			BleepingComputer: &rssjson.BleepingComputerMetadata{
-				GUIDIsPermalink: metadata.GUIDIsPermalink,
-			},
-		}
-	case "securityweek":
-		if metadata.Image == (feed.SourceImage{}) {
-			return rssjson.SourceMetadata{}
-		}
-		return rssjson.SourceMetadata{
-			SecurityWeek: &rssjson.SecurityWeekMetadata{
-				Image: rssjson.SecurityWeekImage{
-					URL:    metadata.Image.URL,
-					Title:  metadata.Image.Title,
-					Link:   metadata.Image.Link,
-					Width:  metadata.Image.Width,
-					Height: metadata.Image.Height,
-				},
-			},
-		}
-	default:
+func sourceMetadata(metadata MetadataFunc, item feed.Item) rssjson.SourceMetadata {
+	if metadata == nil {
 		return rssjson.SourceMetadata{}
 	}
+	return metadata(item)
+}
+
+func cybersecurityNewsMetadata(item feed.Item) rssjson.SourceMetadata {
+	metadata := item.SourceMetadata
+	if metadata.GUIDIsPermalink == "" && metadata.PostID == "" && item.ContentEncoded == "" {
+		return rssjson.SourceMetadata{}
+	}
+	return rssjson.NewSourceMetadata("cybersecuritynews", rssjson.MetadataObject{
+		rssjson.MetadataText("guid_is_permalink", metadata.GUIDIsPermalink),
+		rssjson.MetadataText("post_id", metadata.PostID),
+		rssjson.MetadataText("content_encoded", item.ContentEncoded),
+	})
+}
+
+func guidMetadata(source string) MetadataFunc {
+	return func(item feed.Item) rssjson.SourceMetadata {
+		metadata := item.SourceMetadata
+		if metadata.GUIDIsPermalink == "" {
+			return rssjson.SourceMetadata{}
+		}
+		return rssjson.NewSourceMetadata(source, rssjson.MetadataObject{
+			rssjson.MetadataText("guid_is_permalink", metadata.GUIDIsPermalink),
+		})
+	}
+}
+
+func securityWeekMetadata(item feed.Item) rssjson.SourceMetadata {
+	metadata := item.SourceMetadata
+	if metadata.Image == (feed.SourceImage{}) {
+		return rssjson.SourceMetadata{}
+	}
+	return rssjson.NewSourceMetadata("securityweek", rssjson.MetadataObject{
+		rssjson.MetadataNested("image", rssjson.MetadataObject{
+			rssjson.MetadataText("url", metadata.Image.URL),
+			rssjson.MetadataText("title", metadata.Image.Title),
+			rssjson.MetadataText("link", metadata.Image.Link),
+			rssjson.MetadataText("width", metadata.Image.Width),
+			rssjson.MetadataText("height", metadata.Image.Height),
+		}),
+	})
 }
 
 func mergedCategories(primary []string, rssCategories []string) []string {

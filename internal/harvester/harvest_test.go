@@ -10,7 +10,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/found-cake/cyber-news-feed/internal/feed"
 	"github.com/found-cake/cyber-news-feed/internal/source"
+	"github.com/found-cake/cyber-news-feed/pkg/rssjson"
 )
 
 func Test_runWithSources_retries_failed_sources_after_first_pass_finishes(t *testing.T) {
@@ -97,7 +99,7 @@ func Test_runWithSources_writes_securityweek_image_metadata(t *testing.T) {
 		Client:        server.Client(),
 	}
 	sources := []source.Config{
-		{Name: "securityweek", Feeds: []source.Feed{{URL: server.URL}}},
+		{Name: "securityweek", Feeds: []source.Feed{{URL: server.URL}}, Metadata: testSecurityWeekMetadata},
 	}
 
 	// When
@@ -169,4 +171,20 @@ func assertSecurityWeekImage(t *testing.T, outputDir string, want string) {
 	if len(doc.Articles) != 1 || doc.Articles[0].SourceMetadata.SecurityWeek.Image.URL != want {
 		t.Fatalf("securityweek image metadata = %#v, want %q", doc.Articles, want)
 	}
+}
+
+func testSecurityWeekMetadata(item feed.Item) rssjson.SourceMetadata {
+	metadata := item.SourceMetadata
+	if metadata.Image == (feed.SourceImage{}) {
+		return rssjson.SourceMetadata{}
+	}
+	return rssjson.NewSourceMetadata("securityweek", rssjson.MetadataObject{
+		rssjson.MetadataNested("image", rssjson.MetadataObject{
+			rssjson.MetadataText("url", metadata.Image.URL),
+			rssjson.MetadataText("title", metadata.Image.Title),
+			rssjson.MetadataText("link", metadata.Image.Link),
+			rssjson.MetadataText("width", metadata.Image.Width),
+			rssjson.MetadataText("height", metadata.Image.Height),
+		}),
+	})
 }

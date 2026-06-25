@@ -67,98 +67,6 @@ type Media struct {
 	Medium string `json:"medium"`
 }
 
-type SourceMetadata struct {
-	BoanNews          *BoanNewsMetadata          `json:"boannews,omitempty"`
-	TheHackerNews     *TheHackerNewsMetadata     `json:"thehackernews,omitempty"`
-	CybersecurityNews *CybersecurityNewsMetadata `json:"cybersecuritynews,omitempty"`
-	StepSecurity      *StepSecurityMetadata      `json:"stepsecurity,omitempty"`
-	DarkReading       *DarkReadingMetadata       `json:"darkreading,omitempty"`
-	BleepingComputer  *BleepingComputerMetadata  `json:"bleepingcomputer,omitempty"`
-	SecurityWeek      *SecurityWeekMetadata      `json:"securityweek,omitempty"`
-	legacyGUID        string
-	legacyPostID      string
-}
-
-type BoanNewsMetadata struct{}
-
-type TheHackerNewsMetadata struct{}
-
-type CybersecurityNewsMetadata struct {
-	GUIDIsPermalink string `json:"guid_is_permalink"`
-	PostID          string `json:"post_id"`
-	ContentEncoded  string `json:"content_encoded"`
-}
-
-type StepSecurityMetadata struct{}
-
-type DarkReadingMetadata struct {
-	GUIDIsPermalink string `json:"guid_is_permalink"`
-}
-
-type BleepingComputerMetadata struct {
-	GUIDIsPermalink string `json:"guid_is_permalink"`
-}
-
-type SecurityWeekMetadata struct {
-	Image SecurityWeekImage `json:"image"`
-}
-
-type SecurityWeekImage struct {
-	URL    string `json:"url"`
-	Title  string `json:"title"`
-	Link   string `json:"link"`
-	Width  string `json:"width"`
-	Height string `json:"height"`
-}
-
-func (m *SourceMetadata) UnmarshalJSON(data []byte) error {
-	var raw sourceMetadataJSON
-	if err := json.Unmarshal(data, &raw); err != nil {
-		return err
-	}
-	*m = SourceMetadata{
-		BoanNews:          raw.BoanNews,
-		TheHackerNews:     raw.TheHackerNews,
-		CybersecurityNews: raw.CybersecurityNews,
-		StepSecurity:      raw.StepSecurity,
-		DarkReading:       raw.DarkReading,
-		BleepingComputer:  raw.BleepingComputer,
-		SecurityWeek:      raw.SecurityWeek,
-		legacyGUID:        raw.GUIDIsPermalink,
-		legacyPostID:      raw.PostID,
-	}
-	return nil
-}
-
-func (m SourceMetadata) forSource(source string, contentEncoded string) SourceMetadata {
-	switch source {
-	case "cybersecuritynews":
-		if m.CybersecurityNews == nil && (m.legacyGUID != "" || m.legacyPostID != "") {
-			m.CybersecurityNews = &CybersecurityNewsMetadata{
-				GUIDIsPermalink: m.legacyGUID,
-				PostID:          m.legacyPostID,
-			}
-		}
-		if m.CybersecurityNews == nil && contentEncoded != "" {
-			m.CybersecurityNews = &CybersecurityNewsMetadata{}
-		}
-		if m.CybersecurityNews != nil && m.CybersecurityNews.ContentEncoded == "" {
-			m.CybersecurityNews.ContentEncoded = contentEncoded
-		}
-	case "darkreading":
-		if m.DarkReading == nil && m.legacyGUID != "" {
-			m.DarkReading = &DarkReadingMetadata{GUIDIsPermalink: m.legacyGUID}
-		}
-	case "bleepingcomputer":
-		if m.BleepingComputer == nil && m.legacyGUID != "" {
-			m.BleepingComputer = &BleepingComputerMetadata{GUIDIsPermalink: m.legacyGUID}
-		}
-	}
-	m.legacyGUID = ""
-	m.legacyPostID = ""
-	return m
-}
-
 func (a *Article) UnmarshalJSON(data []byte) error {
 	var raw articleJSON
 	if err := json.Unmarshal(data, &raw); err != nil {
@@ -208,16 +116,4 @@ type documentJSON struct {
 	RetentionDays int       `json:"retention_days"`
 	Status        Status    `json:"status"`
 	Articles      []Article `json:"articles"`
-}
-
-type sourceMetadataJSON struct {
-	BoanNews          *BoanNewsMetadata          `json:"boannews"`
-	TheHackerNews     *TheHackerNewsMetadata     `json:"thehackernews"`
-	CybersecurityNews *CybersecurityNewsMetadata `json:"cybersecuritynews"`
-	StepSecurity      *StepSecurityMetadata      `json:"stepsecurity"`
-	DarkReading       *DarkReadingMetadata       `json:"darkreading"`
-	BleepingComputer  *BleepingComputerMetadata  `json:"bleepingcomputer"`
-	SecurityWeek      *SecurityWeekMetadata      `json:"securityweek"`
-	GUIDIsPermalink   string                     `json:"guid_is_permalink"`
-	PostID            string                     `json:"post_id"`
 }

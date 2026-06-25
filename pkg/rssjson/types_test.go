@@ -100,11 +100,14 @@ func Test_Document_UnmarshalJSON_promotes_legacy_flat_source_metadata(t *testing
 	if err != nil {
 		t.Fatalf("UnmarshalJSON() error = %v", err)
 	}
-	metadata := got.Articles[0].SourceMetadata.CybersecurityNews
-	if metadata == nil {
+	metadata, ok := got.Articles[0].SourceMetadata.Object("cybersecuritynews")
+	if !ok {
 		t.Fatal("CybersecurityNews metadata missing")
 	}
-	if metadata.GUIDIsPermalink != "false" || metadata.PostID != "123" || metadata.ContentEncoded != "<p>legacy body</p>" {
+	guid, _ := metadata.Text("guid_is_permalink")
+	postID, _ := metadata.Text("post_id")
+	contentEncoded, _ := metadata.Text("content_encoded")
+	if guid != "false" || postID != "123" || contentEncoded != "<p>legacy body</p>" {
 		t.Fatalf("CybersecurityNews metadata = %#v", metadata)
 	}
 }
