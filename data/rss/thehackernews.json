@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-06-26T10:00:22Z",
+  "updated_at": "2026-06-26T12:00:22Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-26T10:00:22Z",
+    "last_success_at": "2026-06-26T12:00:22Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -119,53 +119,26 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:33ab805fdf38edbbafe2ff87d93fc41aabcd7994b3c2ab47e542e52dfab23755",
-      "url": "https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html",
-      "title": "Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive",
-      "published_at": "2026-06-16T11:30:00Z",
-      "published_raw": "2026-06-16T17:00:00.000+05:30",
+      "id": "sha256:e0deeaecb1191050da81584d7703e689a1d1d8570bdcf2034b2af568f4c762c2",
+      "url": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
+      "title": "New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets",
+      "published_at": "2026-06-26T11:51:35Z",
+      "published_raw": "2026-06-26T17:21:35.712+05:30",
       "categories": [
-        "threat-intelligence"
+        "vulnerability"
       ],
-      "description": "Security teams have never had more IP data at their disposal. Every day, analysts ingest enrichment feeds, geolocation data, reputation scores, telemetry, and threat intelligence from a growing ecosystem of vendors and platforms.\n\nYet despite this abundance of information, many organizations continue to face a fundamental challenge: sifting through the noise to understand who is behind an IP and",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-238768046779727557",
+      "description": "DirtyClone is a new Linux kernel privilege escalation in the DirtyFrag family.&nbsp;JFrog Security Research published a working exploit walkthrough&nbsp;for the flaw on June 25, the first public demonstration for this variant.\n\nTracked as&nbsp;CVE-2026-43503&nbsp;(CVSS 8.8), it lets a local user corrupt file-backed memory through a cloned network packet and gain root. The patch landed in",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-616425911639286603",
       "authors": [
         {
-          "name": "Unknown",
-          "uri": "",
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
           "email": "noreply@blogger.com"
         }
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIjJejsRU4njToU8avtW_XwlouRy_HhUCWBUzgTtjb0e-LWzIO6zQprJ_tRqq6KO0Dvn64NNH35d6lYYadq7WSWAjn4jG_onOHYaJYrdg5CgUeVxyXBQJu7LUIAeVrEhFziJvlITCbj4kN9GSi9vp4ZpRpVwnxYCHKskOjUiFf-KIue9JlZzAJqJZUsxE/s260-e100/Spur-IP-Intel-Study-Feature.png",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:c86e0f6679d8e834c8e292d1a09c171bb6049cc673812d440e3ab0fa3eb64948",
-      "url": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
-      "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
-      "published_at": "2026-06-16T10:30:41Z",
-      "published_raw": "2026-06-16T16:00:41.440+05:30",
-      "categories": [
-        "threat-intelligence"
-      ],
-      "description": "Bad actors are exploiting multiple security vulnerabilities in Fortinet FortiSandbox, according to threat intelligence firm Defused Cyber.\n\nIn a post shared on X, the company said it has observed exploitation of CVE-2026-39813, CVE-2026-39808, and CVE-2026-25089 over the past 24 hours.\n\nCVE-2026-39813 (CVSS score: 9.1) refers to a path traversal vulnerability in FortiSandbox JRPC API that could",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2153202671124162836",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisozpc0YfCvHjGAyEZf7c1G10iEOgszA-mkIIrhG3A4VYcq8_Hih8U0hO66iBoDPPJZhfq7Dc3fGTsMLDiFiGSk6-xS7ltGORLe0_sC8VyhZHlfIkeGpOkMTcbQ0R7BeDtDmZFb-VB_GF3le8p0mx2ZMD-CLZb5eWlMJPiBhdu9ljzlh_E01hIon9dA-Y3/s260-e100/Fortinet.png",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidrcFiZh5KSQ9sYpF7Fafoy8kYny6olyD5WlY_oaAdYt0krMeOL8eNiTItqYmEmJ55wueKdZJlhIKMun7kwQR8AbbFPKTw0Nv-qJbPiaKA1n2J1rUHBV3YuRmdJHQpOTlsKctFMXoO8ogpgHC8rXls3FGamF7p7K1gxc-7dmU2va58Es1c40FV8AZFR-w/s260-e100/dirtyclone.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
