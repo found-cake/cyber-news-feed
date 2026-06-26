@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-06-26T20:00:22Z",
+  "updated_at": "2026-06-26T22:00:23Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-26T20:00:22Z",
+    "last_success_at": "2026-06-26T22:00:23Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:80f8b1925827cc57d29bfc8148ce0df7bdacce90ad109a66999ab3ea5a39d2b0",
+      "url": "https://www.darkreading.com/application-security/initiative-tackles-security-end-of-life-open-source",
+      "title": "New Initiative Tackles Security for End-of-Life Open Source Software",
+      "published_at": "2026-06-26T16:32:30Z",
+      "published_raw": "Fri, 26 Jun 2026 16:32:30 GMT",
+      "categories": [
+        "application-security"
+      ],
+      "description": "The Open Source Sustainability Initiative's goal is to help enterprises manage and secure aging open source projects while maintaining regulatory compliance.",
+      "feed_id": "https://www.darkreading.com/application-security/initiative-tackles-security-end-of-life-open-source",
+      "authors": [
+        {
+          "name": "Arielle Waldman",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb28e347d4c1f6e89/678529a3a527d254da4ed749/open_source_(1800)_Wavebreakmedia_Ltd_FUS1407_Alamy.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb28e347d4c1f6e89/678529a3a527d254da4ed749/open_source_(1800)_Wavebreakmedia_Ltd_FUS1407_Alamy.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
     {
       "id": "sha256:37c7764bfc87501fa762d0f6fe908dde5fe215da6a5c73d4ff465e35eceae046",
       "url": "https://www.darkreading.com/application-security/robinhood-reengineered-access-approvals-for-high-velocity-development",
@@ -612,78 +648,6 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltadd77c0d4b04586d/6a31b475a17ff4000802a374/browser_Wirestock_Creators_shutterstpck.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:78c2e6dbb9f431d1ce6c8b2b3ad17054c1f37f548b3e5c9b9ef01409a8c780c6",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/security-community-slams-us-ban-on-exporting-mythos-fable",
-      "title": "Security Community Slams US Ban on Exporting Mythos, Fable",
-      "published_at": "2026-06-16T22:00:06Z",
-      "published_raw": "Tue, 16 Jun 2026 22:00:06 GMT",
-      "categories": [
-        "vulnerabilities-threats"
-      ],
-      "description": "An open letter signed by dozens of security experts asked the government to reverse export restrictions on Anthropic's Claude Fable 5 and Mythos 5 models.",
-      "feed_id": "https://www.darkreading.com/vulnerabilities-threats/security-community-slams-us-ban-on-exporting-mythos-fable",
-      "authors": [
-        {
-          "name": "Alexander Culafi",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9052366ce100fbde/6a319e7db95bcb00087d45a5/containers_and_fence-takenobu-getty-503860814.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9052366ce100fbde/6a319e7db95bcb00087d45a5/containers_and_fence-takenobu-getty-503860814.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:7ed50a622402204d87ec2c3261ef0cfa7c37bad8b8f9368da6d13066bd6a209e",
-      "url": "https://www.darkreading.com/threat-intelligence/sprysocks-windows-variant-kernel-drivers",
-      "title": "SprySOCKS Windows Variant Abuses Kernel Drivers to Evade Detection",
-      "published_at": "2026-06-16T20:11:48Z",
-      "published_raw": "Tue, 16 Jun 2026 20:11:48 GMT",
-      "categories": [
-        "threat-intelligence"
-      ],
-      "description": "FishMonger, a China-nexus threat group, has deployed an undocumented version of the Linux backdoor against government targets in Honduras, Taiwan, Thailand, and Pakistan.",
-      "feed_id": "https://www.darkreading.com/threat-intelligence/sprysocks-windows-variant-kernel-drivers",
-      "authors": [
-        {
-          "name": "Rob Wright",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltfe5e902d31634190/6a317c8da9a64d0008e8660f/backdoor-BeeBright-Getty-823310866.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltfe5e902d31634190/6a317c8da9a64d0008e8660f/backdoor-BeeBright-Getty-823310866.jpg?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }
