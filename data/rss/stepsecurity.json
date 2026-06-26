@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-06-26T16:00:23Z",
+  "updated_at": "2026-06-26T18:00:23Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-26T16:00:23Z",
+    "last_success_at": "2026-06-26T18:00:23Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -14,8 +14,8 @@
       "id": "sha256:e6ee7814ed19f4095f90a687877b4d36a332f488c44da03ba5aeee605422ae63",
       "url": "https://www.stepsecurity.io/blog/immobiliarelabs-npm-packages-compromised",
       "title": "Multiple @immobiliarelabs Backstage Plugins Compromised on npm",
-      "published_at": "2026-06-26T15:58:43Z",
-      "published_raw": "Fri, 26 Jun 2026 15:58:43 GMT",
+      "published_at": "2026-06-26T16:12:03Z",
+      "published_raw": "Fri, 26 Jun 2026 16:12:03 GMT",
       "categories": [],
       "description": "Compromised versions run a malicious payload at npm install time through a binding.gyp node-gyp hook, harvesting credentials from sources like GitHub Actions secrets, cloud provider keys, and package registry tokens, while trying to persist in AI coding assistant configs. Static analysis of version 2.1.2 against the clean 2.1.1 release revealed a new 5 MB index.js and an added binding.gyp, both absent from earlier releases.",
       "feed_id": "https://www.stepsecurity.io/blog/immobiliarelabs-npm-packages-compromised",

@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-06-26T16:00:23Z",
+  "updated_at": "2026-06-26T18:00:23Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-26T16:00:23Z",
+    "last_success_at": "2026-06-26T18:00:23Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -21,7 +21,13 @@
       ],
       "description": "The fintech company's engineering-first application security team re-engineered the process for granting system access, making it easier and more secure for developers working on their projects. Here are the lessons learned from Robinhood's experience.",
       "feed_id": "https://www.darkreading.com/application-security/robinhood-reengineered-access-approvals-for-high-velocity-development",
-      "authors": [],
+      "authors": [
+        {
+          "name": "Ericka Chickowski",
+          "uri": "",
+          "email": ""
+        }
+      ],
       "media": [
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt702a5bf42e4e4366/64f171e1523617b5bc948dac/office-workshop-Dzianis_Apolka-Alamy.jpg?width=720&quality=80&disable=upscale",
@@ -678,42 +684,6 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltfe5e902d31634190/6a317c8da9a64d0008e8660f/backdoor-BeeBright-Getty-823310866.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:1724b58bf9aebe69c901151db038529edb0b683f2d7488ed0afc529dc9e463aa",
-      "url": "https://www.darkreading.com/endpoint-security/rokarolla-android-trojan",
-      "title": "Rokarolla Android Trojan Levels Up to Full Device Control, Persistence",
-      "published_at": "2026-06-16T17:32:32Z",
-      "published_raw": "Tue, 16 Jun 2026 17:32:32 GMT",
-      "categories": [
-        "endpoint-security"
-      ],
-      "description": "The emerging malware, spread via fake TikTok and Chrome downloads, has evolved by combining banking fraud with extensive device surveillance and remote control.",
-      "feed_id": "https://www.darkreading.com/endpoint-security/rokarolla-android-trojan",
-      "authors": [
-        {
-          "name": "Elizabeth Montalbano",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte944aecde0e52350/6a31316af04b690008856967/androidmalware_rafapress_shutterstock.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte944aecde0e52350/6a31316af04b690008856967/androidmalware_rafapress_shutterstock.jpg?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }
