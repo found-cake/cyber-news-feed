@@ -1,15 +1,39 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-06-26T14:00:24Z",
+  "updated_at": "2026-06-26T16:00:23Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-26T14:00:24Z",
+    "last_success_at": "2026-06-26T16:00:23Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:e6ee7814ed19f4095f90a687877b4d36a332f488c44da03ba5aeee605422ae63",
+      "url": "https://www.stepsecurity.io/blog/immobiliarelabs-npm-packages-compromised",
+      "title": "Multiple @immobiliarelabs Backstage Plugins Compromised on npm",
+      "published_at": "2026-06-26T15:58:43Z",
+      "published_raw": "Fri, 26 Jun 2026 15:58:43 GMT",
+      "categories": [],
+      "description": "Compromised versions run a malicious payload at npm install time through a binding.gyp node-gyp hook, harvesting credentials from sources like GitHub Actions secrets, cloud provider keys, and package registry tokens, while trying to persist in AI coding assistant configs. Static analysis of version 2.1.2 against the clean 2.1.1 release revealed a new 5 MB index.js and an added binding.gyp, both absent from earlier releases.",
+      "feed_id": "https://www.stepsecurity.io/blog/immobiliarelabs-npm-packages-compromised",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3e9d27300a5c41549f65e4_SCR-20260626-sgco.png",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3e9d27300a5c41549f65e4_SCR-20260626-sgco.png",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:ccc5bf6cb957aebdaba06b966d47db7ce149f438636a67d50ba534364a1ea538",
       "url": "https://www.stepsecurity.io/blog/maven-support-comes-to-github-checks-and-oss-package-search",
