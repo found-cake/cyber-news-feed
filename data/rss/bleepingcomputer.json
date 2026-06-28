@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-06-28T14:00:20Z",
+  "updated_at": "2026-06-28T16:00:21Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-28T14:00:20Z",
+    "last_success_at": "2026-06-28T16:00:21Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:10c01cfaa214b9574578b93108988c4489861a2d3f994bf4ef5b7a42dee0a8cd",
+      "url": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps",
+      "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
+      "published_at": "2026-06-28T14:13:46Z",
+      "published_raw": "Sun, 28 Jun 2026 10:13:46 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:d30d4a9e300f0094911e8365dfa9a4cd0cd7deab2da417cdff81e7226c31b3fd",
       "url": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware",
@@ -1043,27 +1064,6 @@
       "authors": [
         {
           "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:5cdfaef5de1d812288622997db9af956b3815667b016f356176f7ae2d2693360",
-      "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks",
-      "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
-      "published_at": "2026-06-18T14:19:50Z",
-      "published_raw": "Thu, 18 Jun 2026 10:19:50 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Market intelligence platform Klue suffered a OAuth breach that enabled the \"Icarus\" threat actors to steal Salesforce CRM data from multiple organizations in an ongoing extortion campaign. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
           "uri": "",
           "email": ""
         }
