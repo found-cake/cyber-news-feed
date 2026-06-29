@@ -1,15 +1,53 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-06-29T04:00:23Z",
+  "updated_at": "2026-06-29T06:00:21Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-06-29T02:00:21Z",
-    "last_error_at": "2026-06-29T04:00:23Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": dial tcp 211.237.5.10:443: i/o timeout (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-06-29T06:00:21Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:1ed64854d995844a371ef7f1e349799d04772ce12e88ce5b148ae048e1d2434b",
+      "url": "http://www.boannews.com/media/view.asp?idx=144374&kind=1&sub_kind=",
+      "title": "아마존Q 고위험 결함 발견... 악성 저장소 열면 클라우드 권한 탈취",
+      "published_at": "2026-06-29T04:55:00Z",
+      "published_raw": "Mon, 29 Jun 2026 13:55:00 +0900",
+      "categories": [],
+      "description": "[보안뉴스 강현주 기자] 개발자가 악성 저장소(Repository)를 열어보는 것만으로 클라우드 자격 증명을 탈취 당할 수 있는 고위험 취약점이 아마존Q(Amazon Q)에서 발견됐다.아마존Q는 생성형 AI 기반 코딩 및 업무보조 도구다. 보안기업 위즈의 연구원들에 따르면, 비주얼 스튜디오 코드용 ‘아마존Q 디벨로퍼’ 확장 프로그램에서 공격자가 개발자의 클",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[강현주기자 (jjoo@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:8ef95fdcdd26b38e080dd70688d10fc2f902bfd875377243c1762cc1299765e8",
+      "url": "http://www.boannews.com/media/view.asp?idx=144372&kind=1&sub_kind=",
+      "title": "트렌드AI, 글래스윙 이어 ‘데이브레이크’ 합류",
+      "published_at": "2026-06-29T04:07:00Z",
+      "published_raw": "Mon, 29 Jun 2026 13:07:00 +0900",
+      "categories": [],
+      "description": "오픈AI 사이버 파트너 프로그램 공인 파트너 선정[보안뉴스 강현주 기자] 트렌드마이크로의 엔터프라이즈 사이버 보안 사업 부문인 트렌드AI(TrendAI, 한국지사장 김진광)는 ‘데이브레이크 사이버 파트너 프로그램’에 합류했다고 29일 발표했다. 이를 통해 트렌드AI는 사이버 보안 목적에 특화된 오픈AI의 프론티어 AI 역량을 활용할 수 있게 됐다. 오픈AI",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[강현주기자 (jjoo@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:5ff6ac22e48f25644494f5d211f8bd19d2c238ce7cc314671734694f267f7100",
       "url": "http://www.boannews.com/media/view.asp?idx=144354&kind=1&sub_kind=",
@@ -155,44 +193,6 @@
       "authors": [
         {
           "name": "[강현주기자 (jjoo@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:1e6876e1098c5d90306ab1ca5150771b5768682c450b8a59987821a2b4635a79",
-      "url": "http://www.boannews.com/media/view.asp?idx=144256&kind=1&sub_kind=",
-      "title": "에스투더블유, 글로벌 온라인 인증 표준화 기구 ‘FIDO 얼라이언스’ 합류",
-      "published_at": "2026-06-21T23:53:00Z",
-      "published_raw": "Mon, 22 Jun 2026 08:53:00 +0900",
-      "categories": [],
-      "description": "사이버 범죄 생태계 변화상 실시간 추적인증 체계 전반에 대한 위협 가시성 제공[보안뉴스 강현주 기자] 빅데이터 분석 인공지능(AI) 기업 에스투더블유(S2W, 대표 서상덕)가 전 세계 주요 기술 기업 및 정부·금융기관 등이 참여하는 글로벌 온라인 인증 표준화 기구 ‘FIDO 얼라이언스’(FIDO Alliance)에 합류했다고 22일 밝혔다. FIDO 얼라이",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[강현주기자 (jjoo@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:b93608d5d9670ecb28007fcc072ef90119d04ece7479d60192f755146b275b57",
-      "url": "http://www.boannews.com/media/view.asp?idx=144233&kind=1&sub_kind=",
-      "title": "시장 정보 플랫폼 Klue 공급망 공격으로 사이버 보안 기업들 피해 입어",
-      "published_at": "2026-06-21T06:51:00Z",
-      "published_raw": "Sun, 21 Jun 2026 15:51:00 +0900",
-      "categories": [],
-      "description": "헌트레스와 레코디드 퓨처 등 클루 고객, 세일즈포스(Salesforce) DB에서 데이터 탈취당해[보안뉴스 원병철 기자] 사이버 보안 기업인 헌트레스(Huntress)와 레코디드 퓨처(Recorded Future)가 시장 정보 플랫폼 ‘Klue’를 겨냥한 공급망 공격으로 인해 피해를 입었다고 밝혔다. 클루(Klue)는 B2B 시장 분석 및 경쟁사 분석 솔루",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[원병철기자 (boanone@boannews.com)]",
           "uri": "",
           "email": ""
         }
@@ -364,6 +364,44 @@
       "authors": [
         {
           "name": "[강초희기자 (choh@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:1e6876e1098c5d90306ab1ca5150771b5768682c450b8a59987821a2b4635a79",
+      "url": "http://www.boannews.com/media/view.asp?idx=144256&kind=1&sub_kind=",
+      "title": "에스투더블유, 글로벌 온라인 인증 표준화 기구 ‘FIDO 얼라이언스’ 합류",
+      "published_at": "2026-06-21T23:53:00Z",
+      "published_raw": "Mon, 22 Jun 2026 08:53:00 +0900",
+      "categories": [],
+      "description": "사이버 범죄 생태계 변화상 실시간 추적인증 체계 전반에 대한 위협 가시성 제공[보안뉴스 강현주 기자] 빅데이터 분석 인공지능(AI) 기업 에스투더블유(S2W, 대표 서상덕)가 전 세계 주요 기술 기업 및 정부·금융기관 등이 참여하는 글로벌 온라인 인증 표준화 기구 ‘FIDO 얼라이언스’(FIDO Alliance)에 합류했다고 22일 밝혔다. FIDO 얼라이",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[강현주기자 (jjoo@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:b93608d5d9670ecb28007fcc072ef90119d04ece7479d60192f755146b275b57",
+      "url": "http://www.boannews.com/media/view.asp?idx=144233&kind=1&sub_kind=",
+      "title": "시장 정보 플랫폼 Klue 공급망 공격으로 사이버 보안 기업들 피해 입어",
+      "published_at": "2026-06-21T06:51:00Z",
+      "published_raw": "Sun, 21 Jun 2026 15:51:00 +0900",
+      "categories": [],
+      "description": "헌트레스와 레코디드 퓨처 등 클루 고객, 세일즈포스(Salesforce) DB에서 데이터 탈취당해[보안뉴스 원병철 기자] 사이버 보안 기업인 헌트레스(Huntress)와 레코디드 퓨처(Recorded Future)가 시장 정보 플랫폼 ‘Klue’를 겨냥한 공급망 공격으로 인해 피해를 입었다고 밝혔다. 클루(Klue)는 B2B 시장 분석 및 경쟁사 분석 솔루",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[원병철기자 (boanone@boannews.com)]",
           "uri": "",
           "email": ""
         }
