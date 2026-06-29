@@ -1,15 +1,86 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-06-29T10:00:22Z",
+  "updated_at": "2026-06-29T12:00:29Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-29T10:00:22Z",
+    "last_success_at": "2026-06-29T12:00:29Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:1a601309cbcd4fea7628a4bc6340c3db10b61417dc9bd05df249d0600ffc40d9",
+      "url": "https://www.securityweek.com/dirtyclone-linux-kernel-vulnerability-leads-to-root-access",
+      "title": "‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access",
+      "published_at": "2026-06-29T11:20:13Z",
+      "published_raw": "Mon, 29 Jun 2026 11:20:13 +0000",
+      "categories": [
+        "Endpoint Security",
+        "Vulnerabilities",
+        "DirtyClone",
+        "kernel",
+        "Linux",
+        "Linux vulnerability"
+      ],
+      "description": "<p>A variant of DirtyFrag, the flaw allows unprivileged local users to manipulate the Linux page cache and gain root privileges.</p>\n<p>The post <a href=\"https://www.securityweek.com/dirtyclone-linux-kernel-vulnerability-leads-to-root-access/\">&#8216;DirtyClone&#8217; Linux Kernel Vulnerability Leads to Root Access</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47515",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:6bc5aa250b9926584152277e5044bf5843e9f6fd1b5b92054fc6f7d0a10d750e",
+      "url": "https://www.securityweek.com/openai-and-anthropic-limit-new-ai-models-to-trump-approved-customers-during-cybersecurity-review",
+      "title": "OpenAI and Anthropic Limit New AI Models to Trump-Approved Customers During Cybersecurity Review",
+      "published_at": "2026-06-29T10:14:01Z",
+      "published_raw": "Mon, 29 Jun 2026 10:14:01 +0000",
+      "categories": [
+        "Artificial Intelligence",
+        "Government",
+        "AI",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "description": "<p>ChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump’s administration.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-and-anthropic-limit-new-ai-models-to-trump-approved-customers-during-cybersecurity-review/\">OpenAI and Anthropic Limit New AI Models to Trump-Approved Customers During Cybersecurity Review</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47510",
+      "authors": [
+        {
+          "name": "Associated Press",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:6dd1f7676c911832a03b94ed189d4303c3749536d23b7bf54426eccb08aeda76",
       "url": "https://www.securityweek.com/us-offers-10-million-bounty-for-russian-state-hackers-as-messaging-app-attacks-evolve",
