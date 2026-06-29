@@ -1,15 +1,57 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-06-29T20:00:23Z",
+  "updated_at": "2026-06-29T22:00:23Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-29T20:00:23Z",
+    "last_success_at": "2026-06-29T22:00:23Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:be462ea130ece5333ed9f8fa1a8be5f37a14b27c3cebc417d8506eea4a78ef9b",
+      "url": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks",
+      "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
+      "published_at": "2026-06-29T20:40:44Z",
+      "published_raw": "Mon, 29 Jun 2026 16:40:44 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Nissan is warning that it suffered a data breach affecting current and former employees after threat actors exploited an Oracle PeopleSoft vulnerability in data theft attacks previously linked to the ShinyHunters extortion group. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:716dd4c36bb6b66a6c7c19ff47ee68a769c60c7ed984b2241f2d1d1bb98f028d",
+      "url": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach",
+      "title": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
+      "published_at": "2026-06-29T20:30:28Z",
+      "published_raw": "Mon, 29 Jun 2026 16:30:28 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "The National Association of Insurance Commissioners (NAIC) says the ShinyHunters extortion group stole only publicly available data, outdated logs, and configuration files after breaching its systems by exploiting a zero-day vulnerability in an Oracle PeopleSoft server. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:a687c538483a158b674488a9706feea9d73171c43a4261da1ef797d048ff3072",
       "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number",
@@ -1024,27 +1066,6 @@
       "authors": [
         {
           "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:78f806d3dbeeef611e0889fc9031389f1b5460ad8a2f26424d2b32d6b9528dad",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin",
-      "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
-      "published_at": "2026-06-19T20:25:02Z",
-      "published_raw": "Fri, 19 Jun 2026 16:25:02 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Threat actors are exploiting an unauthenticated information disclosure vulnerability in the WordPress plugin Gravity SMTP, active on 100,000 sites. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
           "uri": "",
           "email": ""
         }
