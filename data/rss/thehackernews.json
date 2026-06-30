@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-06-30T06:00:23Z",
+  "updated_at": "2026-06-30T08:00:21Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-30T06:00:23Z",
+    "last_success_at": "2026-06-30T08:00:21Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -85,6 +85,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3UeGaI_Ej8KFu7-vQHTOuoohYdx04xIdI3W2B6JjCdaTSR6m-y1PAZ-aes-tH9nxtPGO2sFUiu1NwYkwT5s8bDPaHpG8nyN4t_mbZfVjf0nU8L11XujdqERtFUQlMZ85NV_nG6ZhqIQbGdAtyi8p1Oqq7TsBRs1IDn8HvOOnUPFEaL9_2cXrh9eovvaYz/s260-e100/cisco-20245.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:b67780783342b2077fcc45fd6b682b070c9f2feed18899f7da9d3eca2ca893fe",
+      "url": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
+      "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
+      "published_at": "2026-06-30T07:38:07Z",
+      "published_raw": "2026-06-30T13:08:07.157+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "A critical vulnerability in Progress Kemp LoadMaster can let an unauthenticated attacker execute arbitrary commands as root on the appliance by sending a crafted request to its API.\n\nThe flaw, tracked as&nbsp;CVE-2026-8037, carries a CVSS score of&nbsp;9.8 according to ZDI. A patch is available. If you run LoadMaster with the API enabled, update now.\n\nProgress&nbsp;published its advisory on June",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8356181993046142926",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtFZGtJwnGA8dQHmNpd8Pzgx4p0wSq_e2hyphenhyphen2bZwWBQEDK8QPAi2CEOR_Nbns5jhRw9mMSPv6RBe2IqRO1c9fIMvMlUAV14B3VQE7-csMvfMQK6Qr3THGlxQY3C9HiYW_TYHGzok-TWFmMoMkto0OA8fNsQuvADEaJNFQYdIrXXzHGJEhyqpKRC2IFCaRM6/s260-e100/loadmaster.jpg",
           "kind": "thumbnail",
           "medium": ""
         }

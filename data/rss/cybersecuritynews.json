@@ -1,15 +1,50 @@
 {
   "schema_version": 1,
   "source": "cybersecuritynews",
-  "updated_at": "2026-06-30T06:00:23Z",
+  "updated_at": "2026-06-30T08:00:21Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-30T06:00:23Z",
+    "last_success_at": "2026-06-30T08:00:21Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:caea77c10922ed60b1a5bf0cd1131c4ae19deec8dfe26852fc5b4a733fae940a",
+      "url": "https://cybersecuritynews.com/kali-linux-2026-2-released",
+      "title": "Kali Linux 2026.2 Released With 9 New Tools and VM Boot Tweaking",
+      "published_at": "2026-06-30T07:09:58Z",
+      "published_raw": "Tue, 30 Jun 2026 07:09:58 +0000",
+      "categories": [
+        "Cyber Security",
+        "Cyber Security News",
+        "Kali Linux"
+      ],
+      "description": "<p>Kali Linux team officially released Kali Linux 2026.2 right on schedule at the close of Q2 2026, delivering a compelling mix of desktop environment upgrades, infrastructure modernization, VM performance enhancements, and nine brand-new tools for penetration testers and security researchers. This release bumps two major desktop environments to their latest versions. GNOME 50 arrives with [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kali-linux-2026-2-released/\">Kali Linux 2026.2 Released With 9 New Tools and VM Boot Tweaking</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=154188",
+      "authors": [
+        {
+          "name": "Guru Baran",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/06/Kali-Linux-2026.2-Released.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "154188",
+          "content_encoded": "<p class=\"wp-block-paragraph\"><a href=\"https://cybersecuritynews.com/?s=Kali+Linux\" target=\"_blank\" rel=\"noreferrer noopener\">Kali Linux</a> team officially released Kali Linux 2026.2 right on schedule at the close of Q2 2026, delivering a compelling mix of desktop environment upgrades, infrastructure modernization, VM performance enhancements, and nine brand-new tools for penetration testers and security researchers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This release bumps two major desktop environments to their latest versions. GNOME 50 arrives with significant file manager optimizations, faster thumbnail and icon loading, reduced memory usage, a revamped accessibility preferences window, and support for document annotations directly within the Document Viewer app.</p>\n\n\n\n<p class=\"wp-block-paragraph\">KDE Plasma 6.6 focuses on accessibility and usability, introducing a new on-screen keyboard, OCR-powered text extraction via the Spectacle screenshot utility, color-vision support options, and adoption of the standardized Reduced Motion setting.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh71opniRdSWXe2vO5eQ2ia90rzuT_JNV4UTHLYAI8bsrWJyTfZ5bkCbd1kVvSsYHa63Y1ijhtsAYSsTbvZkJHr1BQ595GO59xqKdBRx-EZtVPHMPfCsfGnQzMNf8vG6o4WHWtvpMOXVJ96zyDIWffvnToErMX0v8-cEMSYQ3ZztgiCH4p-kTnNyGezfhGQ/s16000/KDE%20Plasma.webp\" alt=\"\"/><figcaption class=\"wp-element-caption\">KDE Plasma 6.6 (Source: Kali)</figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">One of the headline changes in 2026.2 is a major overhaul of how graphics firmware is handled in virtual machine environments. Previously, pre-built Kali images shipped with graphics firmware for NVIDIA, AMD, and Intel GPUs, consuming nearly 300 MB and bloating the initrd to approximately 200 MB, directly contributing to slow boot times.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In 2026.2, pre-built VM images no longer include graphics firmware, and the installer now detects VM environments and skips graphics firmware installation accordingly. The result is a leaner 60 MB initrd and boot times approximately 3x faster for QEMU VM users. Bare-metal users are unaffected and continue to receive full firmware pre-installation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Kali 2026.2 retires the long-standing <code>/etc/apt/sources.list</code> file in favor of the new deb822-style format at <code>/etc/apt/sources.list.d/kali.sources</code>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">With 2026.2, multiple packages have been updated to use unified helper scripts that now consistently handle all of the following:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Manage the service — start and stop it cleanly.</li>\n\n\n\n<li>Check if already running — prevents accidental double-start.</li>\n\n\n\n<li>Show service status — clear, readable output every time.</li>\n\n\n\n<li>Display default credentials — no more hunting through documentation.</li>\n\n\n\n<li>Show access detai<strong>ls</strong> — for web UI-based tools, the URL is shown and automatically opened in the browser.</li>\n</ul>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4KGP5E2lfcVZGMtph57GJvgusiSmKUzphXPgtDjyPKM-VRXvrIRSOKoIKO-JIPHIEj6bYr3aso67yhMHzOJ66dZG_YgNebYKZiuhDxDp27piGtwYCdd7Oj11lfjsb46FUyBzOR7DVGqteISdlUgJg4avvO0oCfWEbPI-4_In85eb3mJJJjJ1wpwRqd4aL/s16000/Kali%20helper%20scripts.webp\" alt=\"\"/><figcaption class=\"wp-element-caption\">Helper Scripts (Source: Kali)</figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Freshly installed systems will use the new format automatically, while existing installations will continue to function, though APT will eventually warn users to migrate. This aligns Kali with changes already underway in Debian and Ubuntu derivatives.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Kali 2026.2 ships with Linux kernel 6.19, a deliberate choice to avoid compatibility breakage with NVIDIA DKMS drivers reported against kernel 7.0 in Debian. Users who want the bleeding-edge 7.0 kernel can opt in via the <code>kali-experimental</code> repository.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Additionally, this release includes disruptive updates requiring a system reboot specifically for polkit (to avoid failures when running GUI applications as root) and xrdp/xorgxrdp v0.10 (relevant for Hyper-V Enhanced Session Mode users).</p>\n\n\n\n<h2 id=\"h-9-new-tools-added\" class=\"wp-block-heading\"><strong>9 New Tools Added</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Kali 2026.2 <a href=\"https://www.kali.org/blog/kali-linux-2026-2-release/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">expands its toolset</a> with nine new additions to the network repositories:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>arsenal-ng — Go-based command library with 200+ cybersecurity cheat-sheets</li>\n\n\n\n<li>hydra-gtk — Re-added GTK+ GUI for the fast network logon cracker</li>\n\n\n\n<li>legba — Multiprotocol credentials bruteforcer and password sprayer</li>\n\n\n\n<li>oletools — Analysis toolkit for MS OLE2 files and Office documents</li>\n\n\n\n<li>penelope — Powerful shell handler for post-exploitation</li>\n\n\n\n<li>shell-gpt — AI-powered LLM command-line productivity tool</li>\n\n\n\n<li>tailscale — Secure connectivity platform</li>\n\n\n\n<li>tookie-osint — OSINT tool for social media account discovery</li>\n\n\n\n<li>uro — URL declutter utility for web crawling and pentesting</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">On the mobile front, the NetHunter app now launches instantly with bug fixes for custom commands and chroot management. A milestone achievement is the Qcacld-3.0 injection patch, enabling Wi-Fi injection support across devices including OnePlus 7/9, POCO X3 Pro, Redmi Note 10, Samsung A73, and Xiaomi Mi A3.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe title=\"Kali NetHunter Podcast Episode 3 - Kristopher Wilson\" width=\"696\" height=\"392\" src=\"https://www.youtube.com/embed/up06ODWJqog?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">New NetHunter Pro bare-metal support has been extended to over 20 additional devices spanning Google Pixel, Sony Xperia, Samsung, and Xiaomi lineups.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Users can upgrade existing Kali installations via <code>sudo apt update &amp;&amp; sudo apt full-upgrade</code>, or download fresh images at <a href=\"https://www.kali.org/get-kali/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">kali.org</a>.</p>\n\n\n\n<p class=\"has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 87%,rgb(169,184,195) 100%)\"><strong>&nbsp;Strengthen Your SOC by Accelerating Threat Detection &amp; Rapid Investigations.&nbsp;-&gt; <a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate ANY.RUN With Your SOC </a><strong><a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Now</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/kali-linux-2026-2-released/\">Kali Linux 2026.2 Released With 9 New Tools and VM Boot Tweaking</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
     {
       "id": "sha256:ffb06a17da44b59c7345d2dcbf954fda309fb5a8cdb851917e06c041d0447470",
       "url": "https://cybersecuritynews.com/nissan-confirms-data-breach",
