@@ -1,15 +1,59 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-06-30T14:00:27Z",
+  "updated_at": "2026-06-30T16:00:29Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-30T14:00:27Z",
+    "last_success_at": "2026-06-30T16:00:29Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:541b37d11df4403ed5fd8c5d942f6c4c3e590f13100b9f71e61293aeb235780a",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches",
+      "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
+      "published_at": "2026-06-30T15:46:19Z",
+      "published_raw": "Tue, 30 Jun 2026 11:46:19 -0400",
+      "categories": [
+        "security",
+        "Artificial Intelligence"
+      ],
+      "description": "A malicious extension in the Chrome Web Store is masquerading as the Perplexity AI answer engine, intercepting search traffic and collecting browsing information. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:fa86682a9d92a9ba571c2d707a0a3b5f03e040b7d4772d7f26749928fc446b07",
+      "url": "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise",
+      "title": "Lessons from the Underground: How to Combat Business Email Compromise",
+      "published_at": "2026-06-30T14:00:10Z",
+      "published_raw": "Tue, 30 Jun 2026 10:00:10 -0400",
+      "categories": [
+        "security",
+        "Technology"
+      ],
+      "description": "Business Email Compromise is more than an email scam. It's a coordinated operation involving compromised accounts, financial research, and cash-out networks. Flare explores how underground forums reveal how BEC attacks are planned and executed. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/",
+      "authors": [
+        {
+          "name": "Sponsored by Flare",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:79a7d2da03c240ad79c76bbfe733e8a6d8a9a8f3031457909e98f2ad6bf0d9da",
       "url": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack",
@@ -32,8 +76,8 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:fd390c88824706bfac0f9b727da365b7b8fe89a2509302d9da83f209a5f722a8",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/mircosoft-adds-smarter-bot-protection-to-teams-meetings",
+      "id": "sha256:dcb4953b97782b19f1496cc818cc06cfe99cd76ecfba52479fe67be291cd82d4",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-smarter-bot-protection-to-teams-meetings",
       "title": "Microsoft adds smarter bot protection to Teams meetings",
       "published_at": "2026-06-30T10:52:26Z",
       "published_raw": "Tue, 30 Jun 2026 06:52:26 -0400",
@@ -42,7 +86,7 @@
         "Microsoft"
       ],
       "description": "Microsoft has introduced a new Teams admin policy that allows organizers to prevent third-party bots from joining meetings without approval. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/mircosoft-adds-smarter-bot-protection-to-teams-meetings/",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-smarter-bot-protection-to-teams-meetings/",
       "authors": [
         {
           "name": "Sergiu Gatlan",
@@ -278,6 +322,28 @@
       ],
       "description": "Attackers have begun exploiting a critical vulnerability (CVE-2026-46817) in the Oracle E-Business Suite (EBS) financial application, according to threat intelligence company Defused. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
+      "authors": [
+        {
+          "name": "Sergiu Gatlan",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:fd390c88824706bfac0f9b727da365b7b8fe89a2509302d9da83f209a5f722a8",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/mircosoft-adds-smarter-bot-protection-to-teams-meetings",
+      "title": "Microsoft adds smarter bot protection to Teams meetings",
+      "published_at": "2026-06-30T10:52:26Z",
+      "published_raw": "Tue, 30 Jun 2026 06:52:26 -0400",
+      "categories": [
+        "security",
+        "Microsoft"
+      ],
+      "description": "Microsoft has introduced a new Teams admin policy that allows organizers to prevent third-party bots from joining meetings without approval. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/mircosoft-adds-smarter-bot-protection-to-teams-meetings/",
       "authors": [
         {
           "name": "Sergiu Gatlan",
@@ -1110,48 +1176,6 @@
       "authors": [
         {
           "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:f15f9b4f3f0ccc7527e2dda2be6dfcfe4fd05525494390b0019f3376667a1807",
-      "url": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption",
-      "title": "New Prinz Eugen ransomware prioritizes recent files for encryption",
-      "published_at": "2026-06-20T15:23:46Z",
-      "published_raw": "Sat, 20 Jun 2026 11:23:46 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A new ransomware operation named 'Prinz Eugen' prioritizes recently modified files for encryption and leaves no ransom note on the system. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:d4f0b40398eec58e06e072cec5514c4288cfc7d441becc89754caf080d4b68d9",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers",
-      "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
-      "published_at": "2026-06-20T14:09:19Z",
-      "published_raw": "Sat, 20 Jun 2026 10:09:19 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Microsoft has attributed a recent Mastra AI supply chain attack that compromised more than 140 npm packages to the North Korean hacking group Sapphire Sleet, also known as BlueNoroff. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
           "uri": "",
           "email": ""
         }
