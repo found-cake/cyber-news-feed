@@ -1,15 +1,119 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-06-30T12:00:26Z",
+  "updated_at": "2026-06-30T14:00:27Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-30T12:00:26Z",
+    "last_success_at": "2026-06-30T14:00:27Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:da96219c03bfef72a08f369c69070624d377cf27af45adff0056303aea8470f7",
+      "url": "https://www.securityweek.com/bluehammer-vulnerability-exploited-in-ransomware-attacks",
+      "title": "BlueHammer Vulnerability Exploited in Ransomware Attacks",
+      "published_at": "2026-06-30T13:56:07Z",
+      "published_raw": "Tue, 30 Jun 2026 13:56:07 +0000",
+      "categories": [
+        "Ransomware",
+        "Vulnerabilities",
+        "BlueHammer",
+        "CISA KEV",
+        "exploited"
+      ],
+      "description": "<p>The Microsoft Defender vulnerability CVE-2026-33825 was exploited in the wild as a zero-day before patches were released.</p>\n<p>The post <a href=\"https://www.securityweek.com/bluehammer-vulnerability-exploited-in-ransomware-attacks/\">BlueHammer Vulnerability Exploited in Ransomware Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47563",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:7a155a2d1b470d09724edc3b3eac7c3cbb245f558704d5be041054f74e814368",
+      "url": "https://www.securityweek.com/decades-old-bash-tricks-expose-ai-coding-agents-to-supply-chain-attacks",
+      "title": "Decades-Old Bash Tricks Expose AI Coding Agents to Supply Chain Attacks",
+      "published_at": "2026-06-30T13:00:00Z",
+      "published_raw": "Tue, 30 Jun 2026 13:00:00 +0000",
+      "categories": [
+        "Artificial Intelligence",
+        "Supply Chain Security",
+        "Vulnerabilities",
+        "AI",
+        "supply chain attack"
+      ],
+      "description": "<p>Decades-old Bash shell tricks can bypass safeguards in most open source AI coding agents, potentially turning malicious repositories into supply chain attack vectors.</p>\n<p>The post <a href=\"https://www.securityweek.com/decades-old-bash-tricks-expose-ai-coding-agents-to-supply-chain-attacks/\">Decades-Old Bash Tricks Expose AI Coding Agents to Supply Chain Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47547",
+      "authors": [
+        {
+          "name": "Kevin Townsend",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:3b7fae71a7ffaf77bfa5613cba49e0ef428d5eac6dc949378344bbc3e7c0740a",
+      "url": "https://www.securityweek.com/aflac-japan-data-breach-impacts-4-38-million",
+      "title": "Aflac Japan Data Breach Impacts 4.38 Million",
+      "published_at": "2026-06-30T12:52:33Z",
+      "published_raw": "Tue, 30 Jun 2026 12:52:33 +0000",
+      "categories": [
+        "Data Breaches",
+        "Aflac",
+        "data breach",
+        "Japan"
+      ],
+      "description": "<p>Hackers accessed the insurance giant’s policyholder portal multiple times between June 15 and June 25.</p>\n<p>The post <a href=\"https://www.securityweek.com/aflac-japan-data-breach-impacts-4-38-million/\">Aflac Japan Data Breach Impacts 4.38 Million</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47554",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:ad7fd2f41148bb735750e2c8cadd721b8b9df3046ff6b9e533c246c3687db383",
       "url": "https://www.securityweek.com/hacker-conversations-chris-thompson-former-head-of-ibm-x-force-red-co-founder-of-remotethreat",
@@ -154,6 +258,7 @@
       "categories": [
         "Data Breaches",
         "data breach",
+        "Featured",
         "Nissan",
         "Oracle PeopleSoft",
         "ShinyHunters"

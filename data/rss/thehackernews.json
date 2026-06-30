@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-06-30T12:00:26Z",
+  "updated_at": "2026-06-30T14:00:27Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-30T12:00:26Z",
+    "last_success_at": "2026-06-30T14:00:27Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:cf4749442d70c5d6c862a28bc92db421244202eb8ac403d1c4d7eed0ad501c7c",
+      "url": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
+      "title": "282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic Study",
+      "published_at": "2026-06-30T13:49:34Z",
+      "published_raw": "2026-06-30T19:19:34.799+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Researchers tested 444 AI chatbot apps for iPhone and found that 282 of them, nearly two-thirds, exposed paid AI access through their network traffic.\n\nIn many cases, the path in was visible just by watching what the app sent: a plaintext API key, a reusable token, or a backend server that accepted requests with no key at all.\n\nWhoever grabs it can send model requests on the developer's account,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2553557549564125329",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJ9nmTBu_vYBf5fRZV4Jc-qtFGPySofVDYHUd-9-ogdve-M4Qd4j7_CnH9Zmvln6O3nfXSsDqQiMoL3rDYBSXZSrXlkCnSWSQUdAYJX1PkRzmytlVaYAc2AyrFOCpo9doU58gO6Gl5fQ-0SZ5D3yGP2SspNgK0U4f5jViSBnY_PAMUOjr42Nt8OLrhnTsQ/s260-e100/llm-keys.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:441553fad7f4db8c11115c3ef2fcc195eff16c202ed0d9b7cd840352fdfc75d1",
       "url": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
