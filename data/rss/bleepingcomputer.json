@@ -1,15 +1,80 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-06-30T20:00:22Z",
+  "updated_at": "2026-06-30T22:00:21Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-06-30T20:00:22Z",
+    "last_success_at": "2026-06-30T22:00:21Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:9a0b2777556f2e645b7a849657bc5fd4fcdbd86501437c3c064fc8342ff1dd4a",
+      "url": "https://www.bleepingcomputer.com/news/security/new-bioshocking-attack-manipulates-ai-browser-into-data-theft",
+      "title": "New BioShocking attack manipulates AI browser into data theft",
+      "published_at": "2026-06-30T21:50:24Z",
+      "published_raw": "Tue, 30 Jun 2026 17:50:24 -0400",
+      "categories": [
+        "security",
+        "Artificial Intelligence"
+      ],
+      "description": "A new prompt injection attack dubbed \"BioShocking\" could trick AI-powered browsers into treating real-world risky actions as part of a fictional scenario, causing them to ignore any safety guardrails. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/new-bioshocking-attack-manipulates-ai-browser-into-data-theft/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:e61267adae8c2a171342b7d7ee380074540a2b83ba1bc4f9513e89e404664b65",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-accelerates-quantum-safe-roadmap-as-risks-grow",
+      "title": "Microsoft accelerates quantum-safe roadmap as risks grow",
+      "published_at": "2026-06-30T21:20:06Z",
+      "published_raw": "Tue, 30 Jun 2026 17:20:06 -0400",
+      "categories": [
+        "security",
+        "Microsoft"
+      ],
+      "description": "Microsoft announced today that it is accelerating its quantum-safe security roadmap, saying advances in quantum computing are bringing the need to replace today's encryption standards sooner than previously expected. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-accelerates-quantum-safe-roadmap-as-risks-grow/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:ecfb99f0de140f8d126ea28d514bbc6f107767924837b30037b75d034d62754e",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers",
+      "title": "Malicious PyPI packages give hackers control of Telegram bot servers",
+      "published_at": "2026-06-30T21:02:55Z",
+      "published_raw": "Tue, 30 Jun 2026 17:02:55 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A campaign active since last November has been targeting Python developers building Telegram bots with trojanized Pyrogram forks that allow attackers to read arbitrary files on compromised servers. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:541b37d11df4403ed5fd8c5d942f6c4c3e590f13100b9f71e61293aeb235780a",
       "url": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches",
