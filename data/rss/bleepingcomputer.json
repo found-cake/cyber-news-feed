@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-01T14:00:25Z",
+  "updated_at": "2026-07-01T16:00:31Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-01T14:00:25Z",
+    "last_success_at": "2026-07-01T16:00:31Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:dc84d8247d33a028f67e4090a1fba84f57bc53dc2443a7db8d489237ea3009ac",
+      "url": "https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip",
+      "title": "Turning Indicators into Intelligence in OpenCTI with Criminal IP",
+      "published_at": "2026-07-01T14:01:11Z",
+      "published_raw": "Wed, 01 Jul 2026 10:01:11 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Threat intelligence is only as useful as the context behind it. Criminal IP explains how its integration enriches threat indicators in OpenCTI with risk scoring, infrastructure intelligence, and phishing analysis. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/",
+      "authors": [
+        {
+          "name": "Sponsored by Criminal IP",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:326c67d51cf45826b362baf78d801c5e93c4da52c8d2a2acf66519e9185625f7",
       "url": "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks",
@@ -1283,27 +1304,6 @@
       "authors": [
         {
           "name": "Sponsored by Flare",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:87a683d0a0c1b75bf3f9bc0c19546726e134bee1b476d6a97bd68b2f655ec105",
-      "url": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide",
-      "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
-      "published_at": "2026-06-21T14:14:22Z",
-      "published_raw": "Sun, 21 Jun 2026 10:14:22 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A previously undocumented malware botnet named AryStinger has compromised more than 4,000 outdated routers to turn them into proxies for malicious traffic. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
           "uri": "",
           "email": ""
         }
