@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-01T04:00:20Z",
+  "updated_at": "2026-07-01T06:00:22Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-01T04:00:20Z",
+    "last_success_at": "2026-07-01T06:00:22Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:96018ae748e76824fd1f9de39dc1e2d2d390e97239c69793363e0f6f9bd9201a",
+      "url": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
+      "title": "Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery",
+      "published_at": "2026-07-01T05:32:12Z",
+      "published_raw": "2026-07-01T11:02:12.598+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "ClickFix, the trick that fools people into running malware by hand, has quietly grown a back office.\n\nNew research shows the malicious commands behind its fake \"prove you're human\" pages are now handed out by API-driven servers that give each visitor the same malware in a different disguise. The same research also turned up a new delivery method built to slip past Windows' script scanning.",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-452987471235001924",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXEaR4unJmt3rBY1LzI0Gq_veoF7Qzi-yPQNUcoR2oNV802lQ4MZAviyeq7bBh73PLAyp1quTozDq0ki_zm_9qsJIIfAUTaG8jFTv5dpxvuDUPJZA2BU4Zo11wIVyysWeMROXv8z2XOZoPOoJPVqMEJEhCI_OE1mM5wnSCFHJ1sgjl5411fZ4srklq5Fbs/s260-e100/clickfix-payloads.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:cf4749442d70c5d6c862a28bc92db421244202eb8ac403d1c4d7eed0ad501c7c",
       "url": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
