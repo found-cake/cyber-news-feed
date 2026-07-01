@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-07-01T18:00:26Z",
+  "updated_at": "2026-07-01T20:00:22Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-01T14:00:25Z",
-    "last_error_at": "2026-07-01T18:00:26Z",
-    "last_error": "fetch https://www.darkreading.com/rss.xml: unexpected feed response: unexpected status 404"
+    "ok": true,
+    "last_success_at": "2026-07-01T20:00:22Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:949f13f8ba86aa5f85793e4780731e139f91bb4e75d8cdde9070691ad1730ee6",
+      "url": "https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat",
+      "title": "'Phantom Squatting': An Emerging AI-Driven Supply Chain Threat",
+      "published_at": "2026-07-01T15:17:14Z",
+      "published_raw": "Wed, 01 Jul 2026 15:17:14 GMT",
+      "categories": [
+        "endpoint-security"
+      ],
+      "description": "LLMs consistently hallucinate Web domains for legitimate brands that attackers can register for malicious activity in a difficult-to-detect attack vector.",
+      "feed_id": "https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat",
+      "authors": [
+        {
+          "name": "Elizabeth Montalbano",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf79bae173d4ef4ed/6a4528715f6bc22783935f56/phantoms-Cavan_Images-Getty-961114482.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf79bae173d4ef4ed/6a4528715f6bc22783935f56/phantoms-Cavan_Images-Getty-961114482.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
     {
       "id": "sha256:8f800a366e7d333d6d9352f3d9cb30f1563cbd6763a7e9628fafdc7952bb49ee",
       "url": "https://www.darkreading.com/threat-intelligence/safe-events-threat-intel-digital-security",
@@ -85,7 +121,7 @@
     {
       "id": "sha256:0ac952c35ba4cfe2ae1daf40df0f4fd2f40521c57ca69039089c1777759ca69a",
       "url": "https://www.darkreading.com/cloud-security/attackers-hijack-exposed-ai-endpoints-power-offensive-ops",
-      "title": "Attackers Hijack Exposed AI Endpoints to Power Offensive Ops",
+      "title": "Attackers Seize Exposed AI Endpoints to Power Offensive Ops",
       "published_at": "2026-06-30T21:01:58Z",
       "published_raw": "Tue, 30 Jun 2026 21:01:58 GMT",
       "categories": [
