@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-07-01T12:00:24Z",
+  "updated_at": "2026-07-01T14:00:25Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-01T12:00:24Z",
+    "last_success_at": "2026-07-01T14:00:25Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:8f800a366e7d333d6d9352f3d9cb30f1563cbd6763a7e9628fafdc7952bb49ee",
+      "url": "https://www.darkreading.com/threat-intelligence/safe-events-threat-intel-digital-security",
+      "title": "Safe Events Start With Threat Intel and Digital Security",
+      "published_at": "2026-07-01T13:00:00Z",
+      "published_raw": "Wed, 01 Jul 2026 13:00:00 GMT",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Planning ahead to defend against cyber threats is the work that keeps events uneventful.",
+      "feed_id": "https://www.darkreading.com/threat-intelligence/safe-events-threat-intel-digital-security",
+      "authors": [
+        {
+          "name": "Olga Polishchuk",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb5a54e9ec66608df/6a441c188b73521f66a1d1a5/Dog_in_fourth_of_july_parade_Nathan_Bilow_Getty_Images.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb5a54e9ec66608df/6a441c188b73521f66a1d1a5/Dog_in_fourth_of_july_parade_Nathan_Bilow_Getty_Images.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
     {
       "id": "sha256:f36c3438aa5a9fd97c71fc0949189d2b29798b116784e103dd767568aa007862",
       "url": "https://www.darkreading.com/threat-intelligence/china-linked-group-targets-southeast-asia-critical-systems",
@@ -55,7 +91,7 @@
       "categories": [
         "cloud-security"
       ],
-      "description": "Attackers don't need any special authentication to reach a target endpoint — they just need to know where it is.",
+      "description": "Threat actors don't need any special authentication to reach a target endpoint — they just need to know where it is.",
       "feed_id": "https://www.darkreading.com/cloud-security/attackers-hijack-exposed-ai-endpoints-power-offensive-ops",
       "authors": [
         {
