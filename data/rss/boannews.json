@@ -1,15 +1,53 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-01T08:00:21Z",
+  "updated_at": "2026-07-01T10:00:23Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-01T06:00:22Z",
-    "last_error_at": "2026-07-01T08:00:21Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-07-01T10:00:23Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:dc610b2612fbe22d5ba616063d62be88ac8a8974b7878fea4abbd04b578462f4",
+      "url": "http://www.boannews.com/media/view.asp?idx=144444&kind=1&sub_kind=",
+      "title": "사후약방문 넘어 AI 보안 본 궤도? 이통사 보안 투자 3600억 돌파",
+      "published_at": "2026-07-01T08:57:00Z",
+      "published_raw": "Wed, 1 Jul 2026 17:57:00 +0900",
+      "categories": [],
+      "description": "SK텔레콤·KT·LG유플러스 보안 예산 3675억, 전년 대비 22%↑이통3사 전담 인력도 평균 398명으로 양적 팽창 두드러져[보안뉴스 조재호 기자] 한국인터넷진흥원(KISA)의 정보보호 공시 시스템에 따르면 국내 이동통신 3사의 정보보호 투자 합산액이 3675억원으로 전년 대비 22% 급증해 역대 최대 규모를 기록했다. 지난해 대규모 침해사고를 겪은 통",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:488e4596d1ab44712d8d15852adbf96d4862af66dcf80affbb51f4145ee3450a",
+      "url": "http://www.boannews.com/media/view.asp?idx=144426&kind=1&sub_kind=",
+      "title": "[이슈칼럼] 오픈소스는 공공재인가, 공격의 통로인가: AI 시대의 새로운 사회적 계약",
+      "published_at": "2026-07-01T06:36:00Z",
+      "published_raw": "Wed, 1 Jul 2026 15:36:00 +0900",
+      "categories": [],
+      "description": "오픈소스, AI 에이전트가 자동화된 속도로 파고드는 ‘가장 낮은 방어선’이자 ‘공격의 통로’로공격과 방어 속도의 비대칭 해결 필요...보안, 사후 점검이 아닌 ‘실시간 기술적 보증’으로 전환돼야[보안뉴스= 최윤성 고려대학교 SW보안학과 교수] 최근 보안 업계에서 ‘오픈소스’를 바라보는 시선이 변하고 있다. 지난 수십 년간 IT 생태계의 민주화와 혁신을 이끈",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:1a585f0ffe350206a650aff7c11afd9805a088f0a0e527a8b686823ac7042948",
       "url": "http://www.boannews.com/media/view.asp?idx=144434&kind=1&sub_kind=",
@@ -155,44 +193,6 @@
       "authors": [
         {
           "name": "[지진솔기자 (digital@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:b6b536dec451c46dc53c910a5e2dd6b2113126f466d4230086b67cc9956774cf",
-      "url": "http://www.boannews.com/media/view.asp?idx=144328&kind=1&sub_kind=",
-      "title": "외우지 말고 맡겨 관리하자, ‘비밀번호 관리자’ 활용 가이드",
-      "published_at": "2026-06-25T09:06:00Z",
-      "published_raw": "Thu, 25 Jun 2026 18:06:00 +0900",
-      "categories": [],
-      "description": "브라우저 동기화로 PC-모바일 계정 통합 관리비밀번호 진단, 생체 인식 연동으로 개인 보안 거버넌스 강화[보안뉴스 조재호 기자] 비밀번호 돌려쓰기는 IT 보안에서 가장 취약한 고리로 꼽힌다. 해커들은 다크웹 등에서 유출된 로그인 정보를 다른 웹사이트에 무작위로 대입하는 ‘크리덴셜 스터핑’(Credential Stuffing) 기법으로 우리들의 자산을 노린다",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[조재호기자 (zephyr@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:ae810dbf1b4a559e2ad46b86180f81d5a9f9da3abaf9c3a2a0e8296d91cdae9c",
-      "url": "http://www.boannews.com/media/view.asp?idx=143722&kind=1&sub_kind=",
-      "title": "[만화로 보는 피싱] #4. 딸 번호로 “엄마 내가 사채를”... 번호 조작 사기꾼 주의",
-      "published_at": "2026-06-25T07:46:00Z",
-      "published_raw": "Thu, 25 Jun 2026 16:46:00 +0900",
-      "categories": [],
-      "description": "번호 조작 계정 악용해 자녀·지인·공공기관 사칭목소리와 내용 의심되면 다시 걸어 반드시 확인[보안뉴스 강현주 기자] 쇼파에 앉아 뉴스를 보다 딸 전화를 받는 순영씨. ‘우리 딸 주현이’라고 스마트폰 화면에 뜬다.“엄마, 급하게 돈이 필요해요. 내가 친구 사채 보증을 서는 바람에...”“응? 네가 보증을 왜 선거야? 돈을 보내달라고?”“네 엄마, 이상한 사람",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[강현주기자 (jjoo@boannews.com)]",
           "uri": "",
           "email": ""
         }
@@ -353,17 +353,36 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:d84399a35bac25e561971c3d9201a8725ea1dc8db6ad1bbf245690b440c81252",
-      "url": "http://www.boannews.com/media/view.asp?idx=144233&kind=&sub_kind=",
-      "title": "시장 정보 플랫폼 Klue 공급망 공격으로 사이버 보안 기업들 피해 입어",
-      "published_at": "2026-06-21T06:51:00Z",
-      "published_raw": "Sun, 21 Jun 2026 15:51:00 +0900",
+      "id": "sha256:b6b536dec451c46dc53c910a5e2dd6b2113126f466d4230086b67cc9956774cf",
+      "url": "http://www.boannews.com/media/view.asp?idx=144328&kind=1&sub_kind=",
+      "title": "외우지 말고 맡겨 관리하자, ‘비밀번호 관리자’ 활용 가이드",
+      "published_at": "2026-06-25T09:06:00Z",
+      "published_raw": "Thu, 25 Jun 2026 18:06:00 +0900",
       "categories": [],
-      "description": "헌트레스와 레코디드 퓨처 등 클루 고객, 세일즈포스(Salesforce) DB에서 데이터 탈취당해[보안뉴스 원병철 기자] 사이버 보안 기업인 헌트레스(Huntress)와 레코디드 퓨처(Recorded Future)가 시장 정보 플랫폼 ‘Klue’를 겨냥한 공급망 공격으로 인해 피해를 입었다고 밝혔다. 클루(Klue)는 B2B 시장 분석 및 경쟁사 분석 솔루",
+      "description": "브라우저 동기화로 PC-모바일 계정 통합 관리비밀번호 진단, 생체 인식 연동으로 개인 보안 거버넌스 강화[보안뉴스 조재호 기자] 비밀번호 돌려쓰기는 IT 보안에서 가장 취약한 고리로 꼽힌다. 해커들은 다크웹 등에서 유출된 로그인 정보를 다른 웹사이트에 무작위로 대입하는 ‘크리덴셜 스터핑’(Credential Stuffing) 기법으로 우리들의 자산을 노린다",
       "feed_id": "",
       "authors": [
         {
-          "name": "[원병철기자 (boanone@boannews.com)]",
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:ae810dbf1b4a559e2ad46b86180f81d5a9f9da3abaf9c3a2a0e8296d91cdae9c",
+      "url": "http://www.boannews.com/media/view.asp?idx=143722&kind=1&sub_kind=",
+      "title": "[만화로 보는 피싱] #4. 딸 번호로 “엄마 내가 사채를”... 번호 조작 사기꾼 주의",
+      "published_at": "2026-06-25T07:46:00Z",
+      "published_raw": "Thu, 25 Jun 2026 16:46:00 +0900",
+      "categories": [],
+      "description": "번호 조작 계정 악용해 자녀·지인·공공기관 사칭목소리와 내용 의심되면 다시 걸어 반드시 확인[보안뉴스 강현주 기자] 쇼파에 앉아 뉴스를 보다 딸 전화를 받는 순영씨. ‘우리 딸 주현이’라고 스마트폰 화면에 뜬다.“엄마, 급하게 돈이 필요해요. 내가 친구 사채 보증을 서는 바람에...”“응? 네가 보증을 왜 선거야? 돈을 보내달라고?”“네 엄마, 이상한 사람",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[강현주기자 (jjoo@boannews.com)]",
           "uri": "",
           "email": ""
         }
@@ -459,25 +478,6 @@
       "authors": [
         {
           "name": "[강현주기자 (jjoo@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:b93608d5d9670ecb28007fcc072ef90119d04ece7479d60192f755146b275b57",
-      "url": "http://www.boannews.com/media/view.asp?idx=144233&kind=1&sub_kind=",
-      "title": "시장 정보 플랫폼 Klue 공급망 공격으로 사이버 보안 기업들 피해 입어",
-      "published_at": "2026-06-21T06:51:00Z",
-      "published_raw": "Sun, 21 Jun 2026 15:51:00 +0900",
-      "categories": [],
-      "description": "헌트레스와 레코디드 퓨처 등 클루 고객, 세일즈포스(Salesforce) DB에서 데이터 탈취당해[보안뉴스 원병철 기자] 사이버 보안 기업인 헌트레스(Huntress)와 레코디드 퓨처(Recorded Future)가 시장 정보 플랫폼 ‘Klue’를 겨냥한 공급망 공격으로 인해 피해를 입었다고 밝혔다. 클루(Klue)는 B2B 시장 분석 및 경쟁사 분석 솔루",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[원병철기자 (boanone@boannews.com)]",
           "uri": "",
           "email": ""
         }
