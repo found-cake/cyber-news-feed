@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-02T14:00:44Z",
+  "updated_at": "2026-07-02T16:00:23Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-02T14:00:44Z",
+    "last_success_at": "2026-07-02T16:00:23Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:98b0c6d9ad69dfaf96cf14d86b19ebed005bc0513d05b750d4dfa41637741c29",
+      "url": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds",
+      "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
+      "published_at": "2026-07-02T14:00:10Z",
+      "published_raw": "Thu, 02 Jul 2026 10:00:10 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "ConsentFix and ClickFix attacks steal Microsoft 365 tokens in seconds using fake prompts and OAuth flows. Learn how these MFA bypass tactics work and how to defend against them. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
+      "authors": [
+        {
+          "name": "Sponsored by Huntress Labs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:33ffdc64707fe7e45bebde41515faf831a132c72d597a139b6194d20cf868b45",
       "url": "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw",
@@ -1517,27 +1538,6 @@
       "authors": [
         {
           "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:400511b66b433f25e418afde69536e6e356c55e9988152c359e9eb955f0838b5",
-      "url": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials",
-      "title": "A Glimpse into the “Search Your Target” Market for Stolen Credentials",
-      "published_at": "2026-06-22T14:05:15Z",
-      "published_raw": "Mon, 22 Jun 2026 10:05:15 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Attackers no longer need to sift through massive credential dumps. They can pay others to do it for them. Flare explores how an emerging underground market searches stolen credential databases for specific companies, domains, and accounts. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
-      "authors": [
-        {
-          "name": "Sponsored by Flare",
           "uri": "",
           "email": ""
         }
