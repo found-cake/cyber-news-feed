@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-07-02T16:00:23Z",
+  "updated_at": "2026-07-02T18:00:43Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-02T14:00:44Z",
-    "last_error_at": "2026-07-02T16:00:23Z",
-    "last_error": "fetch https://www.darkreading.com/rss.xml: unexpected feed response: unexpected status 404"
+    "ok": true,
+    "last_success_at": "2026-07-02T18:00:43Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
     {
@@ -157,7 +157,7 @@
     {
       "id": "sha256:8f800a366e7d333d6d9352f3d9cb30f1563cbd6763a7e9628fafdc7952bb49ee",
       "url": "https://www.darkreading.com/threat-intelligence/safe-events-threat-intel-digital-security",
-      "title": "Safe Events Start With Threat Intel and Digital Security",
+      "title": "Safe Events Start With Threat Intel &amp; Digital Security",
       "published_at": "2026-07-01T13:00:00Z",
       "published_raw": "Wed, 01 Jul 2026 13:00:00 GMT",
       "categories": [
@@ -900,42 +900,6 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5e56dffba0c7c4e2/6a3994ea41818a1608d11925/man_listening_in-Olena_Bartienieva-Getty-2206181252.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:e82375f83874ba9c6f4fc39684e78926151e7e6e0d915fcbc084b70d80bd3776",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign",
-      "title": "Crypto Heist Fueled by Elaborate Fake Reputation-Boosting Campaign",
-      "published_at": "2026-06-22T16:10:10Z",
-      "published_raw": "Mon, 22 Jun 2026 16:10:10 GMT",
-      "categories": [
-        "cyberattacks-data-breaches"
-      ],
-      "description": "Attackers are using multiple online channels — including GitHub, YouTube, and VirusTotal — to build an illusion of trust to spread a cross-platform clipboard hijacker.",
-      "feed_id": "https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign",
-      "authors": [
-        {
-          "name": "Elizabeth Montalbano",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt488625da6dcc5e36/6a3956fde4fc4e3dbf65d2b3/bitcoinstolen_KeremYucel-Getty-902191710.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt488625da6dcc5e36/6a3956fde4fc4e3dbf65d2b3/bitcoinstolen_KeremYucel-Getty-902191710.jpg?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }
