@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-03T14:00:41Z",
+  "updated_at": "2026-07-03T16:00:42Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-03T14:00:41Z",
+    "last_success_at": "2026-07-03T16:00:42Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:d64bb70c9cde7bbc5bea99f1643136f21f98fdfbebd3ae9009a575f5deb36347",
+      "url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit",
+      "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
+      "published_at": "2026-07-03T14:12:22Z",
+      "published_raw": "Fri, 03 Jul 2026 10:12:22 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A new phishing-as-a-service (PhaaS) platform dubbed \"ARToken\" appears to operate as an affiliate of the EvilTokens phishing platform, giving researchers a glimpse into an extensive toolkit designed to compromise Microsoft 365. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:98b0c6d9ad69dfaf96cf14d86b19ebed005bc0513d05b750d4dfa41637741c29",
       "url": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds",
@@ -1346,49 +1367,6 @@
       "authors": [
         {
           "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:f47edeb8ffed8299ad8ee0e08e3265755116f5f7a19c4d34cb076e8dcd34eeb4",
-      "url": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london",
-      "title": "Scattered Spider members plead guilty to hacking Transport for London",
-      "published_at": "2026-06-23T15:31:59Z",
-      "published_raw": "Tue, 23 Jun 2026 11:31:59 -0400",
-      "categories": [
-        "security",
-        "Legal"
-      ],
-      "description": "Two members of the 'Scattered Spider' cybercrime group pleaded guilty to hacking the Transport for London (TfL) systems in 2024. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:781e4591e553b7a8accea0920229957bd4ed77405e6bb9a7a60c9c8879dcdebe",
-      "url": "https://www.bleepingcomputer.com/news/security/the-exploit-doesnt-exist-you-can-still-prove-it-works-against-you",
-      "title": "The Exploit Doesn't Exist. You Can Still Prove It Works Against You",
-      "published_at": "2026-06-23T14:01:11Z",
-      "published_raw": "Tue, 23 Jun 2026 10:01:11 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Attackers can now weaponize newly disclosed vulnerabilities far faster than most organizations can patch them. Picus Security explains how security teams can validate exploitability before a public exploit even exists. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/the-exploit-doesnt-exist-you-can-still-prove-it-works-against-you/",
-      "authors": [
-        {
-          "name": "Sponsored by Picus Security",
           "uri": "",
           "email": ""
         }
