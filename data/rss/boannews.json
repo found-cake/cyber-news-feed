@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-04T00:00:11Z",
+  "updated_at": "2026-07-04T02:00:11Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-03T22:00:42Z",
-    "last_error_at": "2026-07-04T00:00:11Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": dial tcp 211.237.5.10:443: i/o timeout (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-07-04T02:00:11Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
     {
@@ -459,25 +459,6 @@
       "authors": [
         {
           "name": "[조재호기자 (zephyr@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:1161a575b4db8785588b0792bf766fb1eba171f22816798945a1f3f616bb58fc",
-      "url": "http://www.boannews.com/media/view.asp?idx=144299&kind=1&sub_kind=",
-      "title": "인도 타타일렉트로닉스, 해킹 공격으로 내부 데이터 유출... 위탁 생산 애플 제품 정보 유출 가능성",
-      "published_at": "2026-06-24T01:38:00Z",
-      "published_raw": "Wed, 24 Jun 2026 10:38:00 +0900",
-      "categories": [],
-      "description": "해커 그룹 월드리크스 소행 추정[보안뉴스 한세희 기자] 인도 전자제품 위탁생산 기업 타타일렉트로닉스가 해킹 공격으로 기업 정보가 유출됐다. 이 회사는 애플과 테슬라 제품을 생산한다.  타타일렉트로닉스는 몇주 전  IT 인프라 일부에 사이버 공격을 받았다고 언론에 확인했다. 다만, 회사 운영은 정상적으로 이뤄지고 있다고 밝혔다. 타타일렉트로닉스는 공격 주체를",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[한세희기자 (hahn@boannews.com)]",
           "uri": "",
           "email": ""
         }
