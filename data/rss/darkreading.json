@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-07-06T16:00:14Z",
+  "updated_at": "2026-07-06T18:00:13Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-06T16:00:14Z",
+    "last_success_at": "2026-07-06T18:00:13Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:c0578c58cbb475c426c302660f2121736a9978185c35ba5b240b4425b5ad3374",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack",
+      "title": "JadePuffer: The First Complete LLM-Driven Ransomware Attack",
+      "published_at": "2026-07-06T16:36:50Z",
+      "published_raw": "Mon, 06 Jul 2026 16:36:50 GMT",
+      "categories": [
+        "cyberattacks-data-breaches"
+      ],
+      "description": "An &quot;agentic threat actor&quot; successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.",
+      "feed_id": "https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack",
+      "authors": [
+        {
+          "name": "Elizabeth Montalbano",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltbc06310368e21110/6a4bdbe6a6d4757864059ce1/llm-Boy_Wirat-Getty-2149059417.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltbc06310368e21110/6a4bdbe6a6d4757864059ce1/llm-Boy_Wirat-Getty-2149059417.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
     {
       "id": "sha256:25a0b7ea35d756b4a2341468fb68bd473b999025fc02cb61155890dea4501d05",
       "url": "https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs",
@@ -540,42 +576,6 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt739efb26c97e2c21/6a4262393ad9ac7b4208de76/AI_agents_(1800)_Kiattisak_Lamchan_Alamy.png?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:80f8b1925827cc57d29bfc8148ce0df7bdacce90ad109a66999ab3ea5a39d2b0",
-      "url": "https://www.darkreading.com/application-security/initiative-tackles-security-end-of-life-open-source",
-      "title": "New Initiative Tackles Security for End-of-Life Open Source Software",
-      "published_at": "2026-06-26T16:32:30Z",
-      "published_raw": "Fri, 26 Jun 2026 16:32:30 GMT",
-      "categories": [
-        "application-security"
-      ],
-      "description": "The Open Source Sustainability Initiative's goal is to help enterprises manage and secure aging open source projects while maintaining regulatory compliance.",
-      "feed_id": "https://www.darkreading.com/application-security/initiative-tackles-security-end-of-life-open-source",
-      "authors": [
-        {
-          "name": "Arielle Waldman",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb28e347d4c1f6e89/678529a3a527d254da4ed749/open_source_(1800)_Wavebreakmedia_Ltd_FUS1407_Alamy.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb28e347d4c1f6e89/678529a3a527d254da4ed749/open_source_(1800)_Wavebreakmedia_Ltd_FUS1407_Alamy.jpg?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }
