@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-06T00:00:10Z",
+  "updated_at": "2026-07-06T02:00:10Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-05T22:00:09Z",
-    "last_error_at": "2026-07-06T00:00:10Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-07-06T02:00:10Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
     {
@@ -345,25 +345,6 @@
       "authors": [
         {
           "name": "[강현주기자 (jjoo@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:493997566212507229d342a5472b734e644b5524d7dda2bfcaceefa2395806d1",
-      "url": "http://www.boannews.com/media/view.asp?idx=144331&kind=1&sub_kind=",
-      "title": "[카드뉴스] 보이지 않는 층 뚫리자 인프라 ‘초토화’… 가상화 서버 마스터키 탈취당하는 기업들",
-      "published_at": "2026-06-26T02:00:00Z",
-      "published_raw": "Fri, 26 Jun 2026 11:00:00 +0900",
-      "categories": [],
-      "description": "가상화 환경에서 하위 하드웨어와 상위 운영체제를 중전하는 시스템 밑바닥의 ‘보이지 않는 층’인 하이퍼바이저 취약점을 노린 사이버 공격이 새로운 보안 위협으로 급부상했다. 하이퍼바이저가 장악당할 경우 해커가 인프라 전체의 마스터키를 쥐게 되므로, 개별 가상 머신(VM)에 구축된 기존 방화벽과 보안 정책을 완전히 우회하여 전사 서버를 무제한 조종할 수 있게 된",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[지진솔기자 (digital@boannews.com)]",
           "uri": "",
           "email": ""
         }
