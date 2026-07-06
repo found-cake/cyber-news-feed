@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-06T14:00:12Z",
+  "updated_at": "2026-07-06T16:00:14Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-06T14:00:12Z",
+    "last_success_at": "2026-07-06T16:00:14Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:3bbf96578888a7a41cea1f4174a820faa7d5ca025793872e4956ae379bfc3ce2",
+      "url": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt",
+      "title": "Software Is Now Written at the Speed of Thought. Security Isn't.",
+      "published_at": "2026-07-06T14:00:10Z",
+      "published_raw": "Mon, 06 Jul 2026 10:00:10 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Every evolution in software development has reduced the friction between an idea and a deployable application. AI may remove the final barrier, but it also removes many of the moments where security decisions have traditionally taken place. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/",
+      "authors": [
+        {
+          "name": "Sponsored by BeyondTrust",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:1105ebb378138c25be1f1c65b26665691e99f815939fb7df7b2317052d82041d",
       "url": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks",
@@ -19,7 +40,7 @@
       "categories": [
         "security"
       ],
-      "description": "Attackers are now exploiting a maximum-severity Adobe ColdFusion vulnerability tracked as CVE-2026-48282, the Canadian Center for Cyber Security (CCCS) warned on Thursday. [...]",
+      "description": "Attackers are now exploiting a maximum-severity Adobe ColdFusion vulnerability tracked as CVE-2026-48282, according to vulnerability intelligence company KEVIntel. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/",
       "authors": [
         {
@@ -1026,27 +1047,6 @@
       "authors": [
         {
           "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:e867049a4b80701f810f4810d4547beb22a44e9bbd1f7e9a8c5bd8c28e81c9f3",
-      "url": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough",
-      "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
-      "published_at": "2026-06-26T14:01:11Z",
-      "published_raw": "Fri, 26 Jun 2026 10:01:11 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "AI won't replace GRC analysts, but it can eliminate much of the repetitive work they do. Anecdotes walks through building an agent that continuously monitors controls, identifies evidence gaps, and opens remediation tasks. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
-      "authors": [
-        {
-          "name": "Sponsored by Anecdotes",
           "uri": "",
           "email": ""
         }
