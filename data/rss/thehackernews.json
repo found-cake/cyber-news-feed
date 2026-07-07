@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-07T12:00:39Z",
+  "updated_at": "2026-07-07T14:00:37Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-07T12:00:39Z",
+    "last_success_at": "2026-07-07T14:00:37Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:5055043985a48955f9cb54ebcd5cce640c7bc8a3da5c1a52c60e67f03d5d901d",
+      "url": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
+      "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
+      "published_at": "2026-07-07T13:27:20Z",
+      "published_raw": "2026-07-07T18:57:20.022+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "U.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal complaint.\n\nMicrosoft records tied that ID first to the account the attackers used to keep access during the May 2025 intrusion, then to online accounts prosecutors say belong to 19-year-old Peter Stokes.\n\nStokes is",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5352955327399702283",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRD_854zsswRvh7xWklnbEkAjmk7UZy_-dQzlueMbq1ib7deDs-QH0av7XRZ1WEq3vcX57cDDcioIdkebKCiF7qr8xC9Evw7GmFuDS0kQt3mnpXgb3Q2H62eHPIgCy3rk1Mj3uM-Mge0XTfMgSCGaumk3i5KatoyrFnu_PUhg8cZGY1ZAd185qsNqZ1jE/s260-e100/md-id.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:d447c49000adf520fc89b7d7cc25983c311e39f9da59bf8ddbd5d5616faae26e",
       "url": "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
@@ -409,6 +436,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4479X60pqma2HNkNzrVQuQlGImd-48w4eYTTW-wylTLfK7XfLPtmNOMi79oy48LNiFg-4a_vqF378ZobR2Dy6VTO38VxbsFc_l8xQypwe-V43txSB7f73JS142E4uBXjrLKx0lcS-UOUMZ45kLeYgaqCjg2Je2TElLosoBvARIQpzam5q3ckk5CVXsoAF/s260-e100/india-china.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:2a81d9b7c9192c38ec626f27c83a7af76bd82a461fd56888fe335ddd341cb8b3",
+      "url": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
+      "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
+      "published_at": "2026-07-07T13:27:09Z",
+      "published_raw": "2026-07-07T18:57:09.574+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer, an enterprise generative artificial intelligence (AI) platform, that could result in cross-tenant compromise.\n\nThe one-click vulnerability has been codenamed WriteOut by the Sand Security Research team.\n\n\"An outsider could go from having no access to taking over any Writer AI",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-9080043440605043614",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH0EnuZfnTZVOg-ACF0jKSHBB8TemRtJ6vlDerjpWy9giH2VsJTP_XiktA9SCytwnDcP95jn4gyQaPk2r92S-J-4EcB7FDvenxXiNwJKtg1VQkV_f564nT6mrS6S3wuMX3SC22kdd5nJM9y4IecNKJ3CRq569DtujHzUgaVOAwQDpfvCgkCrSrfeRjT1CQ/s260-e100/writerai.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
