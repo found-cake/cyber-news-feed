@@ -1,15 +1,58 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-07T14:00:37Z",
+  "updated_at": "2026-07-07T16:00:39Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-07T14:00:37Z",
+    "last_success_at": "2026-07-07T16:00:39Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:6b43b18d9889d2bbc83bd11d86826a34cf6ac52659639bccc9f9e3a5a922e577",
+      "url": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups",
+      "title": "Spain arrests suspected member of pro-Russian hacktivist groups",
+      "published_at": "2026-07-07T15:21:21Z",
+      "published_raw": "Tue, 07 Jul 2026 11:21:21 -0400",
+      "categories": [
+        "security",
+        "Legal"
+      ],
+      "description": "The National Police in Spain have arrested a man who is suspected of being an active member of the CyberArmy of Russia Reborn (CARR) and Z-Pentest, both pro-Russian hacktivist groups. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:3debe70fb96163c798de3af2d5f51faefae9d811499aed1aad918a7ba40a0824",
+      "url": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss",
+      "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
+      "published_at": "2026-07-07T14:01:11Z",
+      "published_raw": "Tue, 07 Jul 2026 10:01:11 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "ActiveState explains how GitHub Actions attack chains can evade traditional CI security scanners, why passing a scan doesn't guarantee a secure pipeline, and how organizations can better govern their CI/CD workflows. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
+      "authors": [
+        {
+          "name": "Sponsored by ActiveState",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:16fabc96e8577565ed28bec6d6aa31c44ca7668a92642a5ab4900d8d24fcfdec",
       "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense",
@@ -1065,27 +1108,6 @@
       ],
       "description": "Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:d30d4a9e300f0094911e8365dfa9a4cd0cd7deab2da417cdff81e7226c31b3fd",
-      "url": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware",
-      "title": "Clean GitHub repo tricks AI coding agents into running malware",
-      "published_at": "2026-06-27T14:22:36Z",
-      "published_raw": "Sat, 27 Jun 2026 10:22:36 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "An agentic coding tool tasked with cloning and setting up a seemingly benign GitHub repository could execute a malicious payload that remains invisible to security scanners, AI agents, and human reviewers. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
       "authors": [
         {
           "name": "Bill Toulas",
