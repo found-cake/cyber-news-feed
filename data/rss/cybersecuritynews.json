@@ -1,15 +1,84 @@
 {
   "schema_version": 1,
   "source": "cybersecuritynews",
-  "updated_at": "2026-07-07T04:00:09Z",
+  "updated_at": "2026-07-07T06:00:10Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-07T02:00:11Z",
-    "last_error_at": "2026-07-07T04:00:09Z",
-    "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+    "ok": true,
+    "last_success_at": "2026-07-07T06:00:10Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:ce852ce2de53200390a9b75e51807b3080c7bf3c9b8a5dee997e6bfc9ff53b62",
+      "url": "https://cybersecuritynews.com/windows-device-identifier-tracking",
+      "title": "Windows Device Identifier Used to Arrest Scattered Spider Hacking Group Member",
+      "published_at": "2026-07-07T04:15:23Z",
+      "published_raw": "Tue, 07 Jul 2026 04:15:23 +0000",
+      "categories": [
+        "Cyber Security",
+        "Cyber Security News"
+      ],
+      "description": "<p>A persistent Microsoft device identifier was used to unravel the anonymity of an alleged Scattered Spider operator, according to a federal superseding complaint filed in the Northern District of Illinois. Peter Stokes, 19, a dual U.S.–Estonian citizen who allegedly used the handles &#8220;Bouquet,&#8221; &#8220;Spencer,&#8221; and &#8220;Jordan,&#8221; was arrested in Finland on April 10, 2026, while [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-device-identifier-tracking/\">Windows Device Identifier Used to Arrest Scattered Spider Hacking Group Member</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=154892",
+      "authors": [
+        {
+          "name": "Guru Baran",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Windows-Device-Identifier-Tracking.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "154892",
+          "content_encoded": "<p class=\"wp-block-paragraph\">A persistent Microsoft device identifier was used to unravel the anonymity of an alleged Scattered Spider operator, according to a federal superseding complaint filed in the Northern District of Illinois.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://cybersecuritynews.com/alleged-scattered-spider-member-extradited/\" target=\"_blank\" rel=\"noreferrer noopener\">Peter Stokes, 19, a dual U.S.–Estonian citizen</a> who allegedly used the handles &#8220;Bouquet,&#8221; &#8220;Spencer,&#8221; and &#8220;Jordan,&#8221; was arrested in Finland on April 10, 2026, while attempting to board a flight to Japan.</p>\n\n\n\n<p class=\"wp-block-paragraph\">When detained, he was carrying two two-terabyte hard drives, according to the filing. He is being held pending extradition and faces charges under the Computer Fraud and Abuse Act, as well as wire fraud and conspiracy counts.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Prosecutors allege he is a member of Scattered Spider also tracked as <a href=\"https://cybersecuritynews.com/microsoft-unveils-playbook/\" target=\"_blank\" rel=\"noreferrer noopener\">Octo Tempest</a>, UNC3944, and 0ktapus a group linked to more than 100 intrusions and over $100 million in ransom payments.</p>\n\n\n\n<p class=\"wp-block-paragraph\">He was extradited to the United States pursuant to an Interpol Red Notice and now faces federal charges in the Northern District of Illinois for conspiracy, computer intrusion, and fraud.</p>\n\n\n\n<h2 id=\"h-microsoft-global-device-identifier-used-to-unmask\" class=\"wp-block-heading\"><strong>Microsoft Global Device Identifier Used to Unmask</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.justice.gov/usao-ndil/media/1450651/dl?inline\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Court documents reveal that</a> a Microsoft Global Device Identifier, or GDID, was central to unmasking Stokes. A GDID is a unique code embedded in every Windows installation, used by Microsoft for diagnostic telemetry, crash reporting, feature-usage analysis, and license verification, which is why swapping a major hardware component can sometimes revoke a Windows activation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That durability undermined the operator&#8217;s operational security. According to the complaint, the intrusion at &#8220;Company F,&#8221; a multibillion-dollar luxury retailer, began on May 12, 2025, with voice-phishing calls to the IT help desk.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4zPrVy4Hgle5lBg6CC4MlKMpwXDEUVSe5KP8AL2Q-ObwT8_KQbEuLIYaPj7S6QN_hND_uCayTsGLWp8QULK-g1uDc0s1YbDK1v9yqW6Iaq72qWE4UZ8cosIG6DQz6T5gX8MYAGgtEGyKPxxJKgiaI1iaH74QyaDpPRi-1PqK9cX9bXiPtQWb0c-PfEfrZ/w640-h580/Image%20shared.webp\" alt=\"\"/><figcaption class=\"wp-element-caption\">(Source: DoJ)</figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">Threat actors impersonated employees, triggered MFA resets, and compromised three accounts, including two high-privilege IT administrator accounts, within two to three hours.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The attackers then downloaded and executed an ngrok agent on a Company F virtual server, opening an encrypted tunnel to bypass perimeter defenses. Investigators tied the ngrok account, created May 12 at 19:21 UTC, to IP address 68.235.46.168, a Tzulo-hosted VPN proxy in Mount Prospect, Illinois.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Data was ultimately exfiltrated using Teleport.sh and Amazon S3, totaling at least 77 GB, followed by a thwarted ransomware deployment and an $8 million extortion demand that went unpaid.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft records placed the device carrying the GDID on ngrok&#8217;s signup page at the exact minute the account was created, and later browsing Company F&#8217;s website through the same <code>.168</code> proxy. From there, the FBI correlated the GDID&#8217;s IP history against accounts known to belong to Stokes: Apple, Snapchat, Facebook, and even a Ubisoft/Growtopia game login.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrq0cqZ22YEDpL2a5_lZHJnxAtNCaB3netd383ocimmzvAlGanra8jl0PKNmR0KaV_9HFSeMw8hTeUVdze1VbeC3P5fI5b1hfmmD0mEE-h0_hxrKMPOcucoozaDt-ZRiiL1XthrmZJLMAUlgX2hehGBCOYZpGXMNYCusoLuIpqlLaNA9bOQAVfyLuSfYhl/w640-h624/Microsoft%20GDID.png\" alt=\"\"/><figcaption class=\"wp-element-caption\">Court Documents (Source: DoJ)</figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">The overlaps were specific. The same device and the same personal accounts surfaced on identical IPs geolocated to Tallinn, Estonia; New York; and Thailand, each matching Stokes&#8217;s State Department travel records and his own social-media posts from luxury hotels. The VPN masked the network endpoint, but the Windows installation identifier did not rotate with it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The case is a reminder that anonymity infrastructure protects the network layer, not the endpoint. There is no published, comprehensive Microsoft policy detailing when GDID data gets shared with law enforcement, no known consumer opt-out mechanism, and no transparency report that specifically breaks out GDID disclosures.</p>\n\n\n\n<p class=\"has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 87%,rgb(169,184,195) 100%)\"><strong>&nbsp;Strengthen Your SOC by Accelerating Threat Detection &amp; Rapid Investigations.&nbsp;-&gt; <a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate ANY.RUN With Your SOC </a><strong><a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Now</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-device-identifier-tracking/\">Windows Device Identifier Used to Arrest Scattered Spider Hacking Group Member</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
+    {
+      "id": "sha256:2dc6b95286224d99e43bbdefcd0453b65b03e1db24593e2b2701a940765219b8",
+      "url": "https://cybersecuritynews.com/fast-mcp-telegram-vulnerability",
+      "title": "Fast-mcp-telegram Vulnerability Allow Attackers to Access Sensitive Files",
+      "published_at": "2026-07-07T02:40:00Z",
+      "published_raw": "Tue, 07 Jul 2026 02:40:00 +0000",
+      "categories": [
+        "Cyber Security News",
+        "Vulnerability News",
+        "cyber security"
+      ],
+      "description": "<p>A critical security flaw has been discovered in the&#160;fast-mcp-telegram&#160;package that could allow remote attackers to access sensitive Telegram session data and perform unauthorized actions. The vulnerability, tracked as CVE-2026-52830 , affects all versions up to 0.19.0 and has been fixed in version 0.19.1. The issue stems from improper validation of HTTP Bearer tokens used for [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fast-mcp-telegram-vulnerability/\">Fast-mcp-telegram Vulnerability Allow Attackers to Access Sensitive Files</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=154843",
+      "authors": [
+        {
+          "name": "Abinaya",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Fast-mcp-telegram-Vulnerability-Allow-Attackers-to-Access-Sensitive-Files.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "154843",
+          "content_encoded": "<p class=\"wp-block-paragraph\">A critical security flaw has been discovered in the&nbsp;fast-mcp-telegram&nbsp;package that could allow remote attackers to access sensitive <a href=\"https://cybersecuritynews.com/hackers-use-pastebin-hosted-powershell-script/\" target=\"_blank\" rel=\"noreferrer noopener\">Telegram session data</a> and perform unauthorized actions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability, tracked as CVE-2026-52830 , affects all versions up to 0.19.0 and has been fixed in version 0.19.1.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The issue stems from improper validation of HTTP Bearer tokens used for authentication. In fast-mcp-telegram, bearer tokens are used directly to construct file paths to session files.</p>\n\n\n\n<p class=\"wp-block-paragraph\">While the application attempts to block the reserved session name “telegram,” it fails to sanitize or normalize user-supplied input properly. This oversight allows attackers to exploit <a href=\"https://cybersecuritynews.com/vulnerable-code-pattern-exposes-github-projects/\" target=\"_blank\" rel=\"noreferrer noopener\">path traversal techniques </a>to bypass restrictions.</p>\n\n\n\n<h2 id=\"h-fast-mcp-telegram-vulnerability\" class=\"wp-block-heading\"><strong>Fast-mcp-telegram Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Specifically, the vulnerability allows attackers to supply crafted tokens such as “../fast-mcp-telegram/telegram,” which resolve to the default session file path on the server.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Although the exact token “telegram” is blocked, this traversal variant reaches the same file and is accepted by the system. As a result, an unauthenticated attacker can access the default Telegram session without a valid token.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This flaw becomes particularly dangerous in environments where the default session file exists, typically located at ~/.config/fast-mcp-telegram/telegram.session.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Once authenticated through this bypass, the attacker can interact with Telegram <a href=\"https://cybersecuritynews.com/chatgpt-mcp-tools-private-data/\" target=\"_blank\" rel=\"noreferrer noopener\">MCP tools</a> associated with that account.</p>\n\n\n\n<p class=\"wp-block-paragraph\">These actions may include reading messages, sending messages, invoking MTProto API calls, and accessing attachments exposed through the tool interface.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/advisories/GHSA-rxw2-pc8j-vxwm\" id=\"https://github.com/advisories/GHSA-rxw2-pc8j-vxwm\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">According to the GitHub Advisory Database</a>, the vulnerability stems from a classic path traversal flaw combined with weak input validation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The application does not restrict characters such as “/”, “..”, or absolute paths, nor does it verify whether the resolved file path stays within the intended directory.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As a result, the authentication boundary is effectively broken, allowing filesystem paths to dictate access-control decisions. Security researchers demonstrated the issue using a controlled proof-of-concept that confirmed the bypass.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The test showed that while legitimate tokens behave correctly and invalid paths are rejected, traversal-based tokens successfully authenticate and map to the protected default session.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Additionally, even though account-prefix controls remain in place, they do not mitigate the core authentication bypass.</p>\n\n\n\n<p class=\"wp-block-paragraph\">To address the issue, developers are advised to enforce strict validation of bearer tokens. Tokens should be treated as opaque identifiers and limited to a safe character set, such as alphanumeric strings.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Applications should also normalize and securely resolve file paths, ensuring they remain within the designated session directory. Any tokens containing path traversal sequences or invalid characters must be rejected outright.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The maintainers have released version 0.19.1, and users are strongly urged to upgrade immediately to prevent potential exploitation, especially on deployments exposing HTTP authentication endpoints.</p>\n\n\n\n<p class=\"has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 87%,rgb(169,184,195) 100%)\"><strong>&nbsp;Strengthen Your SOC by Accelerating Threat Detection &amp; Rapid Investigations.&nbsp;-&gt; <a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate ANY.RUN With Your SOC </a><strong><a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Now</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/fast-mcp-telegram-vulnerability/\">Fast-mcp-telegram Vulnerability Allow Attackers to Access Sensitive Files</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
     {
       "id": "sha256:f4f2f3fee2a69f414c10b688ca110cd48242ff0864f3f5171430cec60be1cfa0",
       "url": "https://cybersecuritynews.com/best-next-generation-firewall",
