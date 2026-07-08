@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-08T06:00:36Z",
+  "updated_at": "2026-07-08T08:00:39Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-08T06:00:36Z",
+    "last_success_at": "2026-07-08T08:00:39Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:91df66f4c034c61726d7cbe48fa58f81731a657f80d289738f0cabf545e47a68",
+      "url": "http://www.boannews.com/media/view.asp?idx=144575&kind=1&sub_kind=",
+      "title": "[카드뉴스] 파일 하나 누락에 거인 붕괴… AI 공급망 무너뜨리는 ‘인적 리스크’와 대응책",
+      "published_at": "2026-07-08T06:34:00Z",
+      "published_raw": "Wed, 8 Jul 2026 15:34:00 +0900",
+      "categories": [],
+      "description": "글로벌 AI 기업 앤트로픽의 ‘클로드’ 내부 소스코드 51만 줄이 외부에 유출되는 사고가 발생했으며, 그 원인은 외부 해커의 침투가 아닌 배포 설정 오류인 것으로 밝혀졌다. 이번 사고는 .npmignore 명령어 한 줄이 누락되는 사소한 인적 오류(Human Error)가 시스템 자동화를 타고 대규모 ‘자율형 유출’로 확산된 소프트웨어 공급망의 전형적인 보",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[지진솔기자 (digital@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:6016515b572400418e506aad76e6232a9b4c16518290188e5adf01f737b05c7a",
       "url": "http://www.boannews.com/media/view.asp?idx=144555&kind=1&sub_kind=",
@@ -182,25 +201,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:488e4596d1ab44712d8d15852adbf96d4862af66dcf80affbb51f4145ee3450a",
-      "url": "http://www.boannews.com/media/view.asp?idx=144426&kind=1&sub_kind=",
-      "title": "[이슈칼럼] 오픈소스는 공공재인가, 공격의 통로인가: AI 시대의 새로운 사회적 계약",
-      "published_at": "2026-07-01T06:36:00Z",
-      "published_raw": "Wed, 1 Jul 2026 15:36:00 +0900",
-      "categories": [],
-      "description": "오픈소스, AI 에이전트가 자동화된 속도로 파고드는 ‘가장 낮은 방어선’이자 ‘공격의 통로’로공격과 방어 속도의 비대칭 해결 필요...보안, 사후 점검이 아닌 ‘실시간 기술적 보증’으로 전환돼야[보안뉴스= 최윤성 고려대학교 SW보안학과 교수] 최근 보안 업계에서 ‘오픈소스’를 바라보는 시선이 변하고 있다. 지난 수십 년간 IT 생태계의 민주화와 혁신을 이끈",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[조재호기자 (zephyr@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:13ee9059e4cdc6cf3fe4cf8aa55930ebcb788eacec71537f31894ab555dff394",
       "url": "http://www.boannews.com/media/view.asp?idx=144574&kind=&sub_kind=",
       "title": "개인정보위, API 보안 주의보,,, “설계부터 개인정보 최소화해야”",
@@ -326,6 +326,25 @@
       "authors": [
         {
           "name": "[강현주기자 (jjoo@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:488e4596d1ab44712d8d15852adbf96d4862af66dcf80affbb51f4145ee3450a",
+      "url": "http://www.boannews.com/media/view.asp?idx=144426&kind=1&sub_kind=",
+      "title": "[이슈칼럼] 오픈소스는 공공재인가, 공격의 통로인가: AI 시대의 새로운 사회적 계약",
+      "published_at": "2026-07-01T06:36:00Z",
+      "published_raw": "Wed, 1 Jul 2026 15:36:00 +0900",
+      "categories": [],
+      "description": "오픈소스, AI 에이전트가 자동화된 속도로 파고드는 ‘가장 낮은 방어선’이자 ‘공격의 통로’로공격과 방어 속도의 비대칭 해결 필요...보안, 사후 점검이 아닌 ‘실시간 기술적 보증’으로 전환돼야[보안뉴스= 최윤성 고려대학교 SW보안학과 교수] 최근 보안 업계에서 ‘오픈소스’를 바라보는 시선이 변하고 있다. 지난 수십 년간 IT 생태계의 민주화와 혁신을 이끈",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
           "uri": "",
           "email": ""
         }
