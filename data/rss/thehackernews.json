@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-08T10:00:40Z",
+  "updated_at": "2026-07-08T12:00:40Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-08T10:00:40Z",
+    "last_success_at": "2026-07-08T12:00:40Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -517,6 +517,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4479X60pqma2HNkNzrVQuQlGImd-48w4eYTTW-wylTLfK7XfLPtmNOMi79oy48LNiFg-4a_vqF378ZobR2Dy6VTO38VxbsFc_l8xQypwe-V43txSB7f73JS142E4uBXjrLKx0lcS-UOUMZ45kLeYgaqCjg2Je2TElLosoBvARIQpzam5q3ckk5CVXsoAF/s260-e100/india-china.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:7e51bd617a403d5c75634ef4de6a735b5c2bdfc151a76330492bd6fb50cc969e",
+      "url": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html",
+      "title": "GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking Signatures",
+      "published_at": "2026-07-08T11:51:24Z",
+      "published_raw": "2026-07-08T17:21:24.977+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "New research shows that a signed Git commit's hash is not the one-of-a-kind name that much of the software world assumes it to be. Given any signed commit, someone without the signing key can mint a second commit with the same files, author, and date, and a valid signature, GitHub still stamps \"Verified.\"\n\nEverything a reviewer would check matches. The commit's hash does not. That matters",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8152578427657885508",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifE8OSGx2cVUZ1jiVnMC-LHyladj2cJ1FWw2-t0wDJEK4Icxrhk_bFReZr8jCiNkmpamFxdBGLpgruMJh1g7c687TCf4R76GG8xJEzB9kzPLTXo18DUZkT9_T5LHeikWsoEDeBm-gapabqgRUl2sAyhaPeYOWIs7Re0-jr2CMoKVn5AzlXdU1W6oWIy6mv/s260-e100/git-hash.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
