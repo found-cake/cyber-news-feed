@@ -1,15 +1,39 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-07-08T18:00:35Z",
+  "updated_at": "2026-07-08T20:00:34Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-08T18:00:35Z",
+    "last_success_at": "2026-07-08T20:00:34Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:70db1f82d8114e68af25c5f8cef12b3faf7c3a9c20913caec21beead53ef3572",
+      "url": "https://www.stepsecurity.io/blog/introducing-secret-exfiltration-protection-for-github-actions",
+      "title": "Introducing Secret Exfiltration Protection for GitHub Actions",
+      "published_at": "2026-07-08T19:46:41Z",
+      "published_raw": "Wed, 08 Jul 2026 19:46:41 GMT",
+      "categories": [],
+      "description": "StepSecurity now blocks and detects secret exfiltration in GitHub Actions, stopping attacks that plant malicious workflows to steal your repository secrets.",
+      "feed_id": "https://www.stepsecurity.io/blog/introducing-secret-exfiltration-protection-for-github-actions",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a4ea31b2142bf09f179062d_image%20(128).png",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a4ea31b2142bf09f179062d_image%20(128).png",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:80b680d985931469e60e724406bf949a6ca9a8fd318320b4981c03815ce641e7",
       "url": "https://www.stepsecurity.io/blog/github-secret-scanning-public-monitoring-for-enterprises-coverage-and-gaps",
