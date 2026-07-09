@@ -1,15 +1,122 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-09T10:00:35Z",
+  "updated_at": "2026-07-09T12:00:34Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-09T10:00:35Z",
+    "last_success_at": "2026-07-09T12:00:34Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:30cf2a6742808934cd2e09309914dfce76a6e0f3ef07a177c95518353d609f0f",
+      "url": "https://www.securityweek.com/15-year-old-linux-vulnerability-ghostlock-earns-researchers-92k-from-google",
+      "title": "15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google",
+      "published_at": "2026-07-09T11:52:35Z",
+      "published_raw": "Thu, 09 Jul 2026 11:52:35 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "GhostLock",
+        "google",
+        "kernel",
+        "Linux",
+        "Linux vulnerability"
+      ],
+      "description": "<p>Affecting every major distribution since 2011, the Linux kernel vulnerability allows attackers to gain root access.</p>\n<p>The post <a href=\"https://www.securityweek.com/15-year-old-linux-vulnerability-ghostlock-earns-researchers-92k-from-google/\">15-Year-Old Linux Vulnerability &#8216;GhostLock&#8217; Earns Researchers $92k From Google</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47706",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:5c6046140caf5ab6382af8c0d59c24b021ef838ec46d4cc0d81b413cbd53f630",
+      "url": "https://www.securityweek.com/microsoft-patches-defender-rogueplanet-vulnerability",
+      "title": "Microsoft Patches Defender ‘RoguePlanet’ Vulnerability",
+      "published_at": "2026-07-09T10:28:35Z",
+      "published_raw": "Thu, 09 Jul 2026 10:28:35 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "Chaotic Eclipse",
+        "Microsoft Defender",
+        "Patch",
+        "RoguePlanet",
+        "vulnerability"
+      ],
+      "description": "<p>The privilege escalation vulnerability tracked as CVE-2026-50656 has been patched with a Microsoft Malware Protection Engine update.</p>\n<p>The post <a href=\"https://www.securityweek.com/microsoft-patches-defender-rogueplanet-vulnerability/\">Microsoft Patches Defender &#8216;RoguePlanet&#8217; Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47704",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:0d2ae7df6f6838c4564c7ea9e686a8bc5827a585c2f8435cdef9ca6c105c9afb",
+      "url": "https://www.securityweek.com/mount-royal-university-confirms-data-stolen-in-ransomware-attack",
+      "title": "Mount Royal University Confirms Data Stolen in Ransomware Attack",
+      "published_at": "2026-07-09T10:06:18Z",
+      "published_raw": "Thu, 09 Jul 2026 10:06:18 +0000",
+      "categories": [
+        "Data Breaches",
+        "Ransomware",
+        "data breach",
+        "Mount Royal University",
+        "university"
+      ],
+      "description": "<p>Hackers accessed the institution’s internal network and deleted two drives containing employee, student, and university data.</p>\n<p>The post <a href=\"https://www.securityweek.com/mount-royal-university-confirms-data-stolen-in-ransomware-attack/\">Mount Royal University Confirms Data Stolen in Ransomware Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47700",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:7b374a362db7a72c1453b13c80307af024cff93a59dc8462487c10e8b337f935",
       "url": "https://www.securityweek.com/ai-coding-tools-tricked-into-hacking-developer-machine-via-decades-old-technique",
@@ -2025,77 +2132,6 @@
       "authors": [
         {
           "name": "Eduard Kovacs",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:1a601309cbcd4fea7628a4bc6340c3db10b61417dc9bd05df249d0600ffc40d9",
-      "url": "https://www.securityweek.com/dirtyclone-linux-kernel-vulnerability-leads-to-root-access",
-      "title": "‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access",
-      "published_at": "2026-06-29T11:20:13Z",
-      "published_raw": "Mon, 29 Jun 2026 11:20:13 +0000",
-      "categories": [
-        "Endpoint Security",
-        "Vulnerabilities",
-        "DirtyClone",
-        "kernel",
-        "Linux",
-        "Linux vulnerability"
-      ],
-      "description": "<p>A variant of DirtyFrag, the flaw allows unprivileged local users to manipulate the Linux page cache and gain root privileges.</p>\n<p>The post <a href=\"https://www.securityweek.com/dirtyclone-linux-kernel-vulnerability-leads-to-root-access/\">&#8216;DirtyClone&#8217; Linux Kernel Vulnerability Leads to Root Access</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47515",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:6bc5aa250b9926584152277e5044bf5843e9f6fd1b5b92054fc6f7d0a10d750e",
-      "url": "https://www.securityweek.com/openai-and-anthropic-limit-new-ai-models-to-trump-approved-customers-during-cybersecurity-review",
-      "title": "OpenAI and Anthropic Limit New AI Models to Trump-Approved Customers During Cybersecurity Review",
-      "published_at": "2026-06-29T10:14:01Z",
-      "published_raw": "Mon, 29 Jun 2026 10:14:01 +0000",
-      "categories": [
-        "Artificial Intelligence",
-        "Government",
-        "AI",
-        "Anthropic",
-        "OpenAI"
-      ],
-      "description": "<p>ChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump’s administration.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-and-anthropic-limit-new-ai-models-to-trump-approved-customers-during-cybersecurity-review/\">OpenAI and Anthropic Limit New AI Models to Trump-Approved Customers During Cybersecurity Review</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47510",
-      "authors": [
-        {
-          "name": "Associated Press",
           "uri": "",
           "email": ""
         }
