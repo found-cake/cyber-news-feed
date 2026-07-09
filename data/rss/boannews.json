@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-09T02:00:32Z",
+  "updated_at": "2026-07-09T04:00:31Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-08T22:00:32Z",
-    "last_error_at": "2026-07-09T02:00:32Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-07-09T04:00:31Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:abdf257586c2022c40b973389e7b3495f5f08d53dc5c17e29eeb17e57c9a9516",
+      "url": "http://www.boannews.com/media/view.asp?idx=144596&kind=1&sub_kind=",
+      "title": "락앤락, 집주소 등 130만명 개인정보 유출... 5억300만원 과징금",
+      "published_at": "2026-07-09T02:25:00Z",
+      "published_raw": "Thu, 9 Jul 2026 11:25:00 +0900",
+      "categories": [],
+      "description": "공개 취약점 미조치 및 구매자 정보 미파기유베이스 및 썬포토에도 과징금 부과[보안뉴스 강현주 기자] 락앤락이 집주소를 포함한 130만명의 개인정보 유출 및 구매자 정보 미파기 등으로 5억300만원의 과징금을 부과받았다. 유베이스, 썬포토도 개인정보보호법 위반으로 과징금을 부과받았다. 개인정보보호위원회(위원장 송경희)는 8일 제13회 전체회의를 열고, 개인정",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[강현주기자 (jjoo@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:91df66f4c034c61726d7cbe48fa58f81731a657f80d289738f0cabf545e47a68",
       "url": "http://www.boannews.com/media/view.asp?idx=144575&kind=1&sub_kind=",
@@ -182,25 +201,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:dc610b2612fbe22d5ba616063d62be88ac8a8974b7878fea4abbd04b578462f4",
-      "url": "http://www.boannews.com/media/view.asp?idx=144444&kind=1&sub_kind=",
-      "title": "사후약방문 넘어 AI 보안 본 궤도? 이통사 보안 투자 3600억 돌파",
-      "published_at": "2026-07-01T08:57:00Z",
-      "published_raw": "Wed, 1 Jul 2026 17:57:00 +0900",
-      "categories": [],
-      "description": "SK텔레콤·KT·LG유플러스 보안 예산 3675억, 전년 대비 22%↑이통3사 전담 인력도 평균 398명으로 양적 팽창 두드러져[보안뉴스 조재호 기자] 한국인터넷진흥원(KISA)의 정보보호 공시 시스템에 따르면 국내 이동통신 3사의 정보보호 투자 합산액이 3675억원으로 전년 대비 22% 급증해 역대 최대 규모를 기록했다. 지난해 대규모 침해사고를 겪은 통",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[조재호기자 (zephyr@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:13ee9059e4cdc6cf3fe4cf8aa55930ebcb788eacec71537f31894ab555dff394",
       "url": "http://www.boannews.com/media/view.asp?idx=144574&kind=&sub_kind=",
       "title": "개인정보위, API 보안 주의보,,, “설계부터 개인정보 최소화해야”",
@@ -307,6 +307,25 @@
       "authors": [
         {
           "name": "[강현주기자 (jjoo@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:dc610b2612fbe22d5ba616063d62be88ac8a8974b7878fea4abbd04b578462f4",
+      "url": "http://www.boannews.com/media/view.asp?idx=144444&kind=1&sub_kind=",
+      "title": "사후약방문 넘어 AI 보안 본 궤도? 이통사 보안 투자 3600억 돌파",
+      "published_at": "2026-07-01T08:57:00Z",
+      "published_raw": "Wed, 1 Jul 2026 17:57:00 +0900",
+      "categories": [],
+      "description": "SK텔레콤·KT·LG유플러스 보안 예산 3675억, 전년 대비 22%↑이통3사 전담 인력도 평균 398명으로 양적 팽창 두드러져[보안뉴스 조재호 기자] 한국인터넷진흥원(KISA)의 정보보호 공시 시스템에 따르면 국내 이동통신 3사의 정보보호 투자 합산액이 3675억원으로 전년 대비 22% 급증해 역대 최대 규모를 기록했다. 지난해 대규모 침해사고를 겪은 통",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
           "uri": "",
           "email": ""
         }
