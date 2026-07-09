@@ -1,15 +1,84 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-09T12:00:34Z",
+  "updated_at": "2026-07-09T14:00:36Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-09T12:00:34Z",
+    "last_success_at": "2026-07-09T14:00:36Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:f9fec104abf0b2aed12f1325f1fd384380b50ee23d77be8b64c309559395cf49",
+      "url": "https://www.securityweek.com/palo-alto-networks-patches-13-vulnerabilities",
+      "title": "Palo Alto Networks Patches 13 Vulnerabilities",
+      "published_at": "2026-07-09T13:49:42Z",
+      "published_raw": "Thu, 09 Jul 2026 13:49:42 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "Palo Alto Networks",
+        "Patch",
+        "patches",
+        "vulnerability"
+      ],
+      "description": "<p>Buffer overflow, DoS, command injection, SSRF, authentication bypass, and other types of vulnerabilities have been found in PAN-OS software.</p>\n<p>The post <a href=\"https://www.securityweek.com/palo-alto-networks-patches-13-vulnerabilities/\">Palo Alto Networks Patches 13 Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47710",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:c2c3ede096119262dd6b1baba551c1738e9a2ca81f75a65327597b008aa027d6",
+      "url": "https://www.securityweek.com/12-million-impacted-by-data-breach-at-japanese-telco-kddi",
+      "title": "12 Million Impacted by Data Breach at Japanese Telco KDDI",
+      "published_at": "2026-07-09T12:18:46Z",
+      "published_raw": "Thu, 09 Jul 2026 12:18:46 +0000",
+      "categories": [
+        "Data Breaches",
+        "data breach",
+        "Japan",
+        "KDDI"
+      ],
+      "description": "<p>Hackers exploited a zero-day vulnerability in a third-party system to access a KDDI email system for ISPs.</p>\n<p>The post <a href=\"https://www.securityweek.com/12-million-impacted-by-data-breach-at-japanese-telco-kddi/\">12 Million Impacted by Data Breach at Japanese Telco KDDI</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47708",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:30cf2a6742808934cd2e09309914dfce76a6e0f3ef07a177c95518353d609f0f",
       "url": "https://www.securityweek.com/15-year-old-linux-vulnerability-ghostlock-earns-researchers-92k-from-google",
@@ -55,6 +124,7 @@
       "categories": [
         "Vulnerabilities",
         "Chaotic Eclipse",
+        "Featured",
         "Microsoft Defender",
         "Patch",
         "RoguePlanet",
@@ -2098,40 +2168,6 @@
       "authors": [
         {
           "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:879da2268981fac03a8f86fc741260318d9fe65cf9127d3f27f1d68bffece083",
-      "url": "https://www.securityweek.com/insurance-regulators-group-naic-hit-in-oracle-peoplesoft-hack",
-      "title": "Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack",
-      "published_at": "2026-06-29T13:42:28Z",
-      "published_raw": "Mon, 29 Jun 2026 13:42:28 +0000",
-      "categories": [
-        "Data Breaches",
-        "data breach",
-        "NAIC",
-        "ShinyHunters"
-      ],
-      "description": "<p>The ShinyHunters extortion group claims to have stolen 3.1 TB of data from the organization.</p>\n<p>The post <a href=\"https://www.securityweek.com/insurance-regulators-group-naic-hit-in-oracle-peoplesoft-hack/\">Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47517",
-      "authors": [
-        {
-          "name": "Eduard Kovacs",
           "uri": "",
           "email": ""
         }
