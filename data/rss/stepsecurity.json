@@ -1,15 +1,39 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-07-09T16:00:39Z",
+  "updated_at": "2026-07-09T18:00:38Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-09T16:00:39Z",
+    "last_success_at": "2026-07-09T18:00:38Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:bc25121e66f73858c33beda28516aee790ff1819e8b171dcd6695d2cf688196d",
+      "url": "https://www.stepsecurity.io/blog/injective-npm-supply-chain-attack-18-packages-backdoored-to-steal-crypto-wallet-keys",
+      "title": "Injective npm Supply Chain Attack: 18 Packages Backdoored to Steal Crypto Wallet Keys",
+      "published_at": "2026-07-09T16:42:42Z",
+      "published_raw": "Thu, 09 Jul 2026 16:42:42 GMT",
+      "categories": [],
+      "description": "On July 8, 2026, attackers used access to a trusted developer's account to slip a backdoor into a widely used software development kit for the Injective blockchain. Disguised as harmless analytics, the code quietly captured wallet recovery phrases and private keys and sent them to an attacker-controlled server the moment a wallet was created or loaded. Automatic publishing pushed the tainted code out to 18 related packages within minutes, and it stayed live for less than an hour before being pulled and fixed. If your application installed any of the affected packages during that window, or picked up a cached copy since, treat any wallet secrets it touched as exposed.",
+      "feed_id": "https://www.stepsecurity.io/blog/injective-npm-supply-chain-attack-18-packages-backdoored-to-steal-crypto-wallet-keys",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a4fcd3cbdab81af47cdd2e3_Screenshot%202026-07-09%20at%2010.02.35%E2%80%AFPM.png",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a4fcd3cbdab81af47cdd2e3_Screenshot%202026-07-09%20at%2010.02.35%E2%80%AFPM.png",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:70db1f82d8114e68af25c5f8cef12b3faf7c3a9c20913caec21beead53ef3572",
       "url": "https://www.stepsecurity.io/blog/introducing-secret-exfiltration-protection-for-github-actions",
