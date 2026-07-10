@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-10T14:00:18Z",
+  "updated_at": "2026-07-10T16:00:16Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-10T14:00:18Z",
+    "last_success_at": "2026-07-10T16:00:16Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -625,6 +625,87 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXEaR4unJmt3rBY1LzI0Gq_veoF7Qzi-yPQNUcoR2oNV802lQ4MZAviyeq7bBh73PLAyp1quTozDq0ki_zm_9qsJIIfAUTaG8jFTv5dpxvuDUPJZA2BU4Zo11wIVyysWeMROXv8z2XOZoPOoJPVqMEJEhCI_OE1mM5wnSCFHJ1sgjl5411fZ4srklq5Fbs/s260-e100/clickfix-payloads.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:fd4596900851b0c2c62cf707b825dc9fcda78dfac66465ffff0d383743c874fe",
+      "url": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
+      "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
+      "published_at": "2026-07-10T15:57:14Z",
+      "published_raw": "2026-07-10T21:27:14.264+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Researchers at firmware security firm&nbsp;Binarly&nbsp;have found six new flaws in U-Boot, the small program that starts up hardware as varied as home routers, smart cameras, and the management chips inside data-center servers.\n\nFour of the bugs can crash a device. The other two could let an attacker who slips a malicious image in front of the bootloader run their own code, before the device",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6918554905178854437",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihuE5rUYRadx5Q2auJjv9dVeFNIP8XSwSTaH0PDwGLUA54MXlPy3AyI532a8OnhXadtWnCCH30qvUKW9C3rCOu1LPld1or5_lXwNhRVqbohHNInDzNd1f9E77Sox5yB-ir7H69LmlYRKnoqnFASOMFa2TIK2RfTThJvu_oofIXHCpiRbXGXWy-bquBWsw/s260-e100/bootloader.gif",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:2910e42f04a2858ccce87496c2e81af60a2bcc41ae59b9171c1243524c678d42",
+      "url": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
+      "title": "Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched",
+      "published_at": "2026-07-10T14:51:49Z",
+      "published_raw": "2026-07-10T20:21:49.821+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Researchers at Ledger's&nbsp;Donjon security team&nbsp;have shown that a precisely timed laser pulse, aimed at the chip inside a Tangem crypto wallet card, can reset the card's password to anything the attacker picks.\n\nNo old password. No backup card. Once it is reset, whoever did it controls the wallet and can move the coins&nbsp;out.\n\nThis is not an emergency for most owners. The attack needs",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8108065621436043230",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0BbJcQ3TUJxFvOCpAChyC5saD3RGgDCtLtVG-Wupee7poBksO2TzSWFtzQmjjoXuZ-9hnCNR3HuWdSsBv7YZl477fdOcjoOBh72RY4vJ9R0hxUWktV2R7wgTsRa-_Zz5Bj_ZGfQOVT8v292QJ55C9hMumk-IgXd-PVZ6LFu2ZDyCGwjNtJhCYb4W-mPDO/s260-e100/ll.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:fafcd912b165396df623ca4ba335b1151f5dd33400a57c724ced16be221b7e27",
+      "url": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
+      "title": "Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws",
+      "published_at": "2026-07-10T14:19:50Z",
+      "published_raw": "2026-07-10T19:49:50.408+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Details have emerged about three now-patched security flaws in the OpenClaw personal artificial intelligence (AI) assistant that, if successfully exploited, could enable credential theft, privilege escalation, and arbitrary code execution on the host.\n\nA brief description of the high-severity vulnerabilities is as follows&nbsp;-\n\n\n  GHSA-hjr6-g723-hmfm (CVSS score: 8.8) - An operating system",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7149585766686881324",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs80_SEcGa8Q18LOUd4Y3fWiWZRh6MOX6U3LhAyAVVewqJVSd1cq2bgepE_2vS0eg9qvr0iM1JOYnYd9GPDQ-LZiTP4-J8oEpZjAMc2ivQ9QiNTMbf1BYONSvBOvZaVat_1PUWjM9O72K_pdF74UKhHm-dd-wXKLp8BDoV4dQZTi1HWOUCWbozpd4muH0i/s260-e100/openclaw-whatsapp.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1327,33 +1408,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2XzOOqoX4E_CfxUMxd0YAH9MRjvZ8-kBBiVhd2VvCvbie3zla8PA80fO2xZ4Ux3_gmreVKG7ANFrSGpDk1lsURfQZuVVapjqi565oGmkqImmFdiQsQFL5z7V9s7TTkH4KgmGbEFnpdAQz94DrXip4q8Qa-ec9K1B1cmeL3szEBWUq9nX-MWppatyug3A/s260-e100/RustDuck.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:e0c03dad168c1e562526b2d6c1c9df19592738cfd85d3e762d229251f5d5db62",
-      "url": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
-      "title": "Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints",
-      "published_at": "2026-06-30T15:47:20Z",
-      "published_raw": "2026-06-30T21:17:20.349+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Threat actors are continuing to exploit a critical Langflow vulnerability as part of fresh attacks designed to deliver a Monero cryptocurrency miner.\n\nThe activity has been found to weaponize CVE-2026-33017 (CVSS score: 9.3), an unauthenticated remote code execution (RCE) vulnerability in Langflow, indicating threat actors are scanning and targeting exposed artificial intelligence (AI)",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2623101255125765379",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA2GvsvmPnHZF-e1GDbhOVW4DxQZr79HzSMLp7-YKaA9DC-V2fVo6cmBig0bxUxWjK0Kz1mTm2Cmg6CrjaKgNhxC7xE6SsBxRx8DW5ljkMWPuJ0-7WUzxYbSrRWFdix8Nks8tobGkIY5cpNjczspeiKYyXYVSgoVct-7u1SFpWXB0mEi8AB5X-Wcp59Vca/s260-e100/Langflow.jpg",
           "kind": "thumbnail",
           "medium": ""
         }

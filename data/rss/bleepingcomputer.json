@@ -1,15 +1,79 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-10T14:00:18Z",
+  "updated_at": "2026-07-10T16:00:16Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-10T14:00:18Z",
+    "last_success_at": "2026-07-10T16:00:16Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:a4e991bbef674fb4bcc3c170d75f07741bc961b94b76c7716761becc2a4c55ac",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image",
+      "title": "Hackers exploit critical auth bypass in Gitea Docker image",
+      "published_at": "2026-07-10T15:48:38Z",
+      "published_raw": "Fri, 10 Jul 2026 11:48:38 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Hackers are actively exploiting a critical vulnerability in the official Docker image for the Gitea self-hosted Git service that allows attackers to impersonate any user, including administrators. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:cada9482574ab0048797e57f7a35279b74b3b7404c53ccdc364a9f280fc793b7",
+      "url": "https://www.bleepingcomputer.com/news/security/money-launderer-accused-of-stealing-seized-crypto-while-in-prison",
+      "title": "Money launderer accused of stealing seized crypto while in prison",
+      "published_at": "2026-07-10T15:30:19Z",
+      "published_raw": "Fri, 10 Jul 2026 11:30:19 -0400",
+      "categories": [
+        "security",
+        "CryptoCurrency"
+      ],
+      "description": "A Bulgarian national has been charged with stealing $290,000 in government-seized cryptocurrency while serving 121 months in prison for helping launder millions stolen from American fraud victims. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/money-launderer-accused-of-stealing-seized-crypto-while-in-prison/",
+      "authors": [
+        {
+          "name": "Sergiu Gatlan",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:baf61f7f6b8f7ab3aff018058dd3527c5d4c54e29975fa1235daed3dd65245e6",
+      "url": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap",
+      "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
+      "published_at": "2026-07-10T14:00:10Z",
+      "published_raw": "Fri, 10 Jul 2026 10:00:10 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "AI agents are accelerating the growth of non-human identities, making it harder for organizations to understand what exists, who owns it, and what it can access. Netwrix explains why stronger visibility and identity governance are essential as AI expands the enterprise attack surface. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
+      "authors": [
+        {
+          "name": "Sponsored by Netwrix",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:e92d32ca73567c69aa372961a1fe0bf5b429b4aa065a6ca9d1b457f49d10abd5",
       "url": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw",
@@ -1191,28 +1255,6 @@
       ],
       "description": "A campaign active since last November has been targeting Python developers building Telegram bots with trojanized Pyrogram forks that allow attackers to read arbitrary files on compromised servers. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:541b37d11df4403ed5fd8c5d942f6c4c3e590f13100b9f71e61293aeb235780a",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches",
-      "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
-      "published_at": "2026-06-30T15:46:19Z",
-      "published_raw": "Tue, 30 Jun 2026 11:46:19 -0400",
-      "categories": [
-        "security",
-        "Artificial Intelligence"
-      ],
-      "description": "A malicious extension in the Chrome Web Store is masquerading as the Perplexity AI answer engine, intercepting search traffic and collecting browsing information. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
       "authors": [
         {
           "name": "Bill Toulas",
