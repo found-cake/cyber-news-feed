@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-10T10:00:18Z",
+  "updated_at": "2026-07-10T12:00:15Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-10T10:00:18Z",
+    "last_success_at": "2026-07-10T12:00:15Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:3d14a355740b65bb6635df9bc49457d7b843819c0419a96edde050b9b7c54c55",
+      "url": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
+      "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
+      "published_at": "2026-07-10T11:30:02Z",
+      "published_raw": "2026-07-10T17:00:02.475+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the operation's inner workings: the hacking tools, the activity logs, and target lists naming more than 1.4 million websites.\n\nFar fewer were actually broken into, but the exposed files showed researchers how a mass site-hacking operation runs from the inside.\n\nThe operation, now tracked as",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7896147651212900912",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgruetcUTsay2-ledgCIdCPKK_bPRiTzuXzYeUiLR3xuazZgHTmxO4Gz6PyyuwdFUVoHHOCbq5PksEMW18dSsdzCJddBMr8vQ3TQO3PIqXExF_17RGVfKRD8cPltNjh6eV1fgXM-pYYlwZnWaZcf7oo50CahUBY5AWt8-IS1K7KxhlL9GFLDcAk1ruwMSI/s260-e100/hacker-server.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:107733d883d24ed35c8089c8a07189c1d66d70710f978f0e2e5ea96472c72c7e",
       "url": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
@@ -632,15 +659,42 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:605a1c16a58a0af68297c041d443ef25253eca9065694c51af87596f79145983",
+      "url": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
+      "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
+      "published_at": "2026-07-10T11:47:43Z",
+      "published_raw": "2026-07-10T17:17:43.887+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch.\n\nFoxIO researcher Sébastien Féry&nbsp;disclosed the flaw on July 8&nbsp;and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-843839132265065302",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQHphr7bXE4J4-EmYSWy0cjHarUBibR2JrXpFbwDKMZnsWbiUsC9UE7g3x2r8WFDLB7BBZlH2kDJ3I9QqF8IIGLPiZda93wKUaDqJC8Nv11yrd7VPm9RmBOky0yRXGRhhcDqbwNCZvHiGTkKRb06XAwFiGl0juzUeFBn3LUDwFfxZVNlInVmXTNI4cMLI/s260-e100/XQUIC-demo.gif",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:e7072c365c4f14e2943c8ecbed82d018f48d70ceff463832e5ca2241ee487b31",
       "url": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
-      "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
+      "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Cryptocurrency Wallets",
       "published_at": "2026-07-10T09:00:05Z",
       "published_raw": "2026-07-10T14:30:05.020+05:30",
       "categories": [
         "vulnerability"
       ],
-      "description": "Security firm&nbsp;Coinspect&nbsp;has disclosed a crypto wallet flaw it calls&nbsp;Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words that control the money. When that phrase is made with weak randomness, an attacker can work it out and take everything it controls.\n\nCoinspect has confirmed one coordinated sweep on May",
+      "description": "Security firm&nbsp;Coinspect&nbsp;has disclosed a crypto wallet flaw it calls&nbsp;Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words that control the money. When that phrase is made with weak randomness, an attacker can work it out and take everything it controls.\n\nThe firm has confirmed one coordinated sweep on May 27",
       "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7094792729580444555",
       "authors": [
         {
