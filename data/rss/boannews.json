@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-10T00:00:19Z",
+  "updated_at": "2026-07-10T02:00:16Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-09T22:00:15Z",
-    "last_error_at": "2026-07-10T00:00:19Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-07-10T02:00:16Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:e1b197875370c23e7243add7af24f87f3755905d1bcf99a9098ed2ff0941ec3d",
+      "url": "http://www.boannews.com/media/view.asp?idx=144616&kind=1&sub_kind=",
+      "title": "[카드뉴스] “유출 자격증명 2,700만건 차단” 유로폴·MS 합작 ‘오퍼레이션 엔드게임’ 악성코드 공장 소탕 전말",
+      "published_at": "2026-07-10T01:40:00Z",
+      "published_raw": "Fri, 10 Jul 2026 10:40:00 +0900",
+      "categories": [],
+      "description": "전 세계 유관 사법 기관과 마이크로소프트가 협력한 역대급 합동 타격 작전 ‘오퍼레이션 엔드게임’을 통해 사이버 범죄의 핵심 중추인 봇넷 인프라가 대거 소탕되었다. 이번 작전은 무려 2,700만 건의 유출 자격 증명을 기반으로 정보 탈취 조립 라인을 가동하며 랜섬웨어 유포의 방아쇠 역할을 하던 ‘속골리쉬’와 ‘아마데이’ 전송망을 타겟으로 삼았다. 개별 악성코",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[지진솔기자 (digital@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:abdf257586c2022c40b973389e7b3495f5f08d53dc5c17e29eeb17e57c9a9516",
       "url": "http://www.boannews.com/media/view.asp?idx=144596&kind=1&sub_kind=",
@@ -182,25 +201,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:f6addf112f3491b6ebcec87657125513f79d47858bcecea2ae671f3a2cec0d6a",
-      "url": "http://www.boannews.com/media/view.asp?idx=144456&kind=1&sub_kind=",
-      "title": "아카마이-엔비디아, ‘AI 팩토리’에 제로트러스트 심는다",
-      "published_at": "2026-07-02T01:24:00Z",
-      "published_raw": "Thu, 2 Jul 2026 10:24:00 +0900",
-      "categories": [],
-      "description": "가디코어 세그멘테이션과 DOCA·블루필드-4 통합 발표하드웨어 인프라에 보안망 내재화해 컴퓨팅 성능 저하 없는 방어[보안뉴스 조재호 기자] 아카마이와 엔비디아가 협력해 에이전틱 시대의 근간이 되는 ‘AI 팩토리’에 첨단 보안 아키텍처를 도입한다.양사는 엔비디아 DOCA 소프트웨어 플랫폼 기반으로 작동하는 ‘엔비디아 베라 블루필드-4 STX’ 스토리지 아키텍",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[조재호기자 (zephyr@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:13ee9059e4cdc6cf3fe4cf8aa55930ebcb788eacec71537f31894ab555dff394",
       "url": "http://www.boannews.com/media/view.asp?idx=144574&kind=&sub_kind=",
       "title": "개인정보위, API 보안 주의보,,, “설계부터 개인정보 최소화해야”",
@@ -284,6 +284,25 @@
       "published_raw": "Tue, 30 Jun 2026 11:48:00 +0900",
       "categories": [],
       "description": "나이·직업·소득 등 민감한 개인정보 집중된 DB 무단 침입 시도 포착연이은 해킹 사고 여파? 엠브레인 긴급 공지 통해 비밀번호 변경 권고[보안뉴스 조재호 기자] 마크로밀엠브레인이 운영하는 설문조사 플랫폼 엠브레인 패널파워에서 ‘크리덴셜 스터핑’(Credential Stuffing) 공격으로 추정되는 비정상적 로그인 시도가 대거 포착됐다. 회사 측은 홈페이지",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:f6addf112f3491b6ebcec87657125513f79d47858bcecea2ae671f3a2cec0d6a",
+      "url": "http://www.boannews.com/media/view.asp?idx=144456&kind=1&sub_kind=",
+      "title": "아카마이-엔비디아, ‘AI 팩토리’에 제로트러스트 심는다",
+      "published_at": "2026-07-02T01:24:00Z",
+      "published_raw": "Thu, 2 Jul 2026 10:24:00 +0900",
+      "categories": [],
+      "description": "가디코어 세그멘테이션과 DOCA·블루필드-4 통합 발표하드웨어 인프라에 보안망 내재화해 컴퓨팅 성능 저하 없는 방어[보안뉴스 조재호 기자] 아카마이와 엔비디아가 협력해 에이전틱 시대의 근간이 되는 ‘AI 팩토리’에 첨단 보안 아키텍처를 도입한다.양사는 엔비디아 DOCA 소프트웨어 플랫폼 기반으로 작동하는 ‘엔비디아 베라 블루필드-4 STX’ 스토리지 아키텍",
       "feed_id": "",
       "authors": [
         {
