@@ -1,15 +1,49 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-10T12:00:15Z",
+  "updated_at": "2026-07-10T14:00:18Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-10T12:00:15Z",
+    "last_success_at": "2026-07-10T14:00:18Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:c3fd01e268dd75d2f1874b5a568e21ae01f6dfcc931fc66f1d92d7f692ace767",
+      "url": "https://www.securityweek.com/third-us-security-expert-sentenced-to-prison-for-helping-ransomware-gang",
+      "title": "Third US Security Expert Sentenced to Prison for Helping Ransomware Gang",
+      "published_at": "2026-07-10T12:58:39Z",
+      "published_raw": "Fri, 10 Jul 2026 12:58:39 +0000",
+      "categories": [
+        "Cybercrime",
+        "hacker",
+        "Ransomware",
+        "sentenced"
+      ],
+      "description": "<p>Angelo Martino, a former ransomware negotiator, was sentenced to 70 months for helping the BlackCat/Alphv group.</p>\n<p>The post <a href=\"https://www.securityweek.com/third-us-security-expert-sentenced-to-prison-for-helping-ransomware-gang/\">Third US Security Expert Sentenced to Prison for Helping Ransomware Gang</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47743",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:ab087eaad8566831906fe7f4329d3e20d777b8ee8020728ffddfa54d0dd18f77",
       "url": "https://www.securityweek.com/china-india-linked-hackers-both-targeted-same-pakistani-police-force",
@@ -55,6 +89,7 @@
       "published_raw": "Fri, 10 Jul 2026 11:06:36 +0000",
       "categories": [
         "Phishing",
+        "Featured",
         "Microsft 365",
         "Okta",
         "vishing"
@@ -1930,111 +1965,6 @@
       "authors": [
         {
           "name": "Eduard Kovacs",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:da96219c03bfef72a08f369c69070624d377cf27af45adff0056303aea8470f7",
-      "url": "https://www.securityweek.com/bluehammer-vulnerability-exploited-in-ransomware-attacks",
-      "title": "BlueHammer Vulnerability Exploited in Ransomware Attacks",
-      "published_at": "2026-06-30T13:56:07Z",
-      "published_raw": "Tue, 30 Jun 2026 13:56:07 +0000",
-      "categories": [
-        "Ransomware",
-        "Vulnerabilities",
-        "BlueHammer",
-        "CISA KEV",
-        "exploited"
-      ],
-      "description": "<p>The Microsoft Defender vulnerability CVE-2026-33825 was exploited in the wild as a zero-day before patches were released.</p>\n<p>The post <a href=\"https://www.securityweek.com/bluehammer-vulnerability-exploited-in-ransomware-attacks/\">BlueHammer Vulnerability Exploited in Ransomware Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47563",
-      "authors": [
-        {
-          "name": "Eduard Kovacs",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:7a155a2d1b470d09724edc3b3eac7c3cbb245f558704d5be041054f74e814368",
-      "url": "https://www.securityweek.com/decades-old-bash-tricks-expose-ai-coding-agents-to-supply-chain-attacks",
-      "title": "Decades-Old Bash Tricks Expose AI Coding Agents to Supply Chain Attacks",
-      "published_at": "2026-06-30T13:00:00Z",
-      "published_raw": "Tue, 30 Jun 2026 13:00:00 +0000",
-      "categories": [
-        "Artificial Intelligence",
-        "Supply Chain Security",
-        "Vulnerabilities",
-        "AI",
-        "Featured",
-        "supply chain attack"
-      ],
-      "description": "<p>Decades-old Bash shell tricks can bypass safeguards in most open source AI coding agents, potentially turning malicious repositories into supply chain attack vectors.</p>\n<p>The post <a href=\"https://www.securityweek.com/decades-old-bash-tricks-expose-ai-coding-agents-to-supply-chain-attacks/\">Decades-Old Bash Tricks Expose AI Coding Agents to Supply Chain Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47547",
-      "authors": [
-        {
-          "name": "Kevin Townsend",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:3b7fae71a7ffaf77bfa5613cba49e0ef428d5eac6dc949378344bbc3e7c0740a",
-      "url": "https://www.securityweek.com/aflac-japan-data-breach-impacts-4-38-million",
-      "title": "Aflac Japan Data Breach Impacts 4.38 Million",
-      "published_at": "2026-06-30T12:52:33Z",
-      "published_raw": "Tue, 30 Jun 2026 12:52:33 +0000",
-      "categories": [
-        "Data Breaches",
-        "Aflac",
-        "data breach",
-        "Japan"
-      ],
-      "description": "<p>Hackers accessed the insurance giant’s policyholder portal multiple times between June 15 and June 25.</p>\n<p>The post <a href=\"https://www.securityweek.com/aflac-japan-data-breach-impacts-4-38-million/\">Aflac Japan Data Breach Impacts 4.38 Million</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47554",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
           "uri": "",
           "email": ""
         }
