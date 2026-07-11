@@ -1,15 +1,39 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-07-11T16:00:23Z",
+  "updated_at": "2026-07-11T18:00:31Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-11T16:00:23Z",
+    "last_success_at": "2026-07-11T18:00:31Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:685e653989418b5f953311f108a6cb8f3030532ce0a40da64c77d1d6bd048fb5",
+      "url": "https://www.stepsecurity.io/blog/jscrambler-npm-package-publishes-malicious-preinstall-binary",
+      "title": "jscrambler npm package publishes malicious preinstall binary",
+      "published_at": "2026-07-11T17:20:14Z",
+      "published_raw": "Sat, 11 Jul 2026 17:20:14 GMT",
+      "categories": [],
+      "description": "On July 11, 2026, version 8.14.0 of jscrambler was published to npm carrying a malicious preinstall hook that drops and executes a platform-specific native binary on Linux, Windows, and macOS. jscrambler is the official CLI client for the Jscrambler Code Integrity API, a commercial JavaScript obfuscation and web-app protection service, with a clean version history dating back to 0.1.0. The compromised release was flagged by StepSecurity's AI Release Analyzer with a suspicion score of 0 (the maximum suspicion rating) on publish.",
+      "feed_id": "https://www.stepsecurity.io/blog/jscrambler-npm-package-publishes-malicious-preinstall-binary",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a526ef0bc2d869a6e016e6c_SCR-20260711-szrx.png",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a526ef0bc2d869a6e016e6c_SCR-20260711-szrx.png",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:bc25121e66f73858c33beda28516aee790ff1819e8b171dcd6695d2cf688196d",
       "url": "https://www.stepsecurity.io/blog/injective-npm-supply-chain-attack-18-packages-backdoored-to-steal-crypto-wallet-keys",
