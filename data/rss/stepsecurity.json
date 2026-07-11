@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-07-11T18:00:31Z",
+  "updated_at": "2026-07-11T20:00:28Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-11T18:00:31Z",
+    "last_success_at": "2026-07-11T20:00:28Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -124,163 +124,6 @@
         },
         {
           "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a45160e2b80f8bc9eb74962_image%20(124).png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:29d393a5b704e1a8bac95e9cab752d935a5414721ea359f475c71bc6cd89b31e",
-      "url": "https://www.stepsecurity.io/blog/secure-registry-now-tells-you-which-machine-pulled-a-compromised-package",
-      "title": "Secure Registry now tells you which machine pulled a compromised package",
-      "published_at": "2026-07-01T18:02:52Z",
-      "published_raw": "Wed, 01 Jul 2026 18:02:52 GMT",
-      "categories": [],
-      "description": "Secure Registry now traces every npm and PyPI install back to the developer machine or CI pipeline behind it, so you can scope a compromised package in minutes.",
-      "feed_id": "https://www.stepsecurity.io/blog/secure-registry-now-tells-you-which-machine-pulled-a-compromised-package",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a450f4577095927b158f4e8_Cover1-18.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a450f4577095927b158f4e8_Cover1-18.jpg",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:e6ee7814ed19f4095f90a687877b4d36a332f488c44da03ba5aeee605422ae63",
-      "url": "https://www.stepsecurity.io/blog/immobiliarelabs-npm-packages-compromised",
-      "title": "Multiple @immobiliarelabs Backstage Plugins Compromised on npm",
-      "published_at": "2026-07-01T18:02:52Z",
-      "published_raw": "Wed, 01 Jul 2026 18:02:52 GMT",
-      "categories": [],
-      "description": "Compromised versions run a malicious payload at npm install time through a binding.gyp node-gyp hook, harvesting credentials from sources like GitHub Actions secrets, cloud provider keys, and package registry tokens, while trying to persist in AI coding assistant configs. Static analysis of version 2.1.2 against the clean 2.1.1 release revealed a new 5 MB index.js and an added binding.gyp, both absent from earlier releases.",
-      "feed_id": "https://www.stepsecurity.io/blog/immobiliarelabs-npm-packages-compromised",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3e9d27300a5c41549f65e4_SCR-20260626-sgco.png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3e9d27300a5c41549f65e4_SCR-20260626-sgco.png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:ccc5bf6cb957aebdaba06b966d47db7ce149f438636a67d50ba534364a1ea538",
-      "url": "https://www.stepsecurity.io/blog/maven-support-comes-to-github-checks-and-oss-package-search",
-      "title": "Maven Support Comes to GitHub Checks and OSS Package Search",
-      "published_at": "2026-07-01T18:02:52Z",
-      "published_raw": "Wed, 01 Jul 2026 18:02:52 GMT",
-      "categories": [],
-      "description": "StepSecurity now supports Maven in GitHub Checks and OSS Package Search, blocking compromised and freshly published Java dependencies in your pull requests.",
-      "feed_id": "https://www.stepsecurity.io/blog/maven-support-comes-to-github-checks-and-oss-package-search",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3d46102e4a0de02ad7f496_Covers-14.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3d46102e4a0de02ad7f496_Covers-14.jpg",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:567a132b5a4b2b68f135ed49085e079869e560a008093bdc265545efaff293ba",
-      "url": "https://www.stepsecurity.io/blog/mass-npm-supply-chain-attack-20-leo-platform-packages-compromised",
-      "title": "Mass npm Supply Chain Attack: 20 Leo Platform Packages Compromised",
-      "published_at": "2026-07-01T18:02:52Z",
-      "published_raw": "Wed, 01 Jul 2026 18:02:52 GMT",
-      "categories": [],
-      "description": "On June 24, 2026, an attacker published malicious versions of 20 npm packages belonging to the Leo Platform ecosystem in a coordinated burst spanning less than three seconds. All 20 packages carry an identical CI/CD attack toolkit that steals secrets from GitHub Actions runners, cloud credential stores, package registries, and password managers, then exfiltrates them via the victim's own GitHub token. Together these packages receive approximately 13,600 downloads per week.",
-      "feed_id": "https://www.stepsecurity.io/blog/mass-npm-supply-chain-attack-20-leo-platform-packages-compromised",
-      "authors": [],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:e7906a7b0403dd5d0069f87a83431e180314fcad3fa5f487b05bd9b61ab607f9",
-      "url": "https://www.stepsecurity.io/blog/simonecorsi-mawesome-github-action-has-been-compromised",
-      "title": "simonecorsi/mawesome GitHub Action has been compromised",
-      "published_at": "2026-07-01T18:02:52Z",
-      "published_raw": "Wed, 01 Jul 2026 18:02:52 GMT",
-      "categories": [],
-      "description": "On June 24, 2026, an attacker compromised the simonecorsi/mawesome GitHub repository. They force-pushed malicious commits and repointed several version tags to that commit. As a result, any workflow running against those tags after that time executed the attacker's code inside its GitHub Actions runner.",
-      "feed_id": "https://www.stepsecurity.io/blog/simonecorsi-mawesome-github-action-has-been-compromised",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3c865a00f7173aaabb1ad3_Screenshot%202026-06-24%20at%206.37.17%E2%80%AFPM.png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3c865a00f7173aaabb1ad3_Screenshot%202026-06-24%20at%206.37.17%E2%80%AFPM.png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:0fa5f5c7dd8e634005d43cc8fc8d4b6982b3157b2e28398fa61b02997cc897c0",
-      "url": "https://www.stepsecurity.io/blog/supply-chain-compromise-codfish-semantic-release-action",
-      "title": "codfish/semantic-release-action GitHub Action has been compromised",
-      "published_at": "2026-07-01T18:02:52Z",
-      "published_raw": "Wed, 01 Jul 2026 18:02:52 GMT",
-      "categories": [],
-      "description": "On June 24, 2026, an attacker compromised the codfish/semantic-release-action GitHub repository. At 15:39:06 UTC they force-pushed a malicious commit and repointed several version tags to that commit. As a result, any workflow running against those tags after that time executed the attacker's code inside its GitHub Actions runner.",
-      "feed_id": "https://www.stepsecurity.io/blog/supply-chain-compromise-codfish-semantic-release-action",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3c089db892d45f5c83d600_SCR-20260624-tena.png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3c089db892d45f5c83d600_SCR-20260624-tena.png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:c4351638607e2a14c696d6821f133a0a1bb68fb6b27fae9ebf68a86590164866",
-      "url": "https://www.stepsecurity.io/blog/jetbrains-malicious-plugins-ai-api-key-theft",
-      "title": "15 Malicious JetBrains Plugins Stole AI API Keys from 70,000 Developers",
-      "published_at": "2026-07-01T18:02:52Z",
-      "published_raw": "Wed, 01 Jul 2026 18:02:52 GMT",
-      "categories": [],
-      "description": "A coordinated 8-month supply chain attack planted credential-stealing code inside fake AI coding assistants on the JetBrains Marketplace, quietly exfiltrating OpenAI, DeepSeek, and SiliconFlow API keys to an attacker-controlled server in Beijing -- which our investigation found still operational today.",
-      "feed_id": "https://www.stepsecurity.io/blog/jetbrains-malicious-plugins-ai-api-key-theft",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3d440142a27b27b51e9fba_Covers-16.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a3d440142a27b27b51e9fba_Covers-16.jpg",
           "kind": "content",
           "medium": "image"
         }
