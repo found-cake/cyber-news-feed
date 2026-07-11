@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-11T08:00:29Z",
+  "updated_at": "2026-07-11T10:00:28Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-11T08:00:29Z",
+    "last_success_at": "2026-07-11T10:00:28Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:489004af7bfd490703be558080a5fc47cdfcd771ea786046c113ba26aafa3911",
+      "url": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets",
+      "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
+      "published_at": "2026-07-11T09:03:57Z",
+      "published_raw": "Sat, 11 Jul 2026 05:03:57 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A PNG hiding a prompt injection could steal your repo's secrets, researchers demonstrate. The technique, dubbed 'Ghostcommit,' slipped past AI code reviewers CodeRabbit and Bugbot, which never open image files at all, then convinced a coding agent to read a repo's .env and write every secret into the code as a list of numbers. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
+      "authors": [
+        {
+          "name": "Ax Sharma",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:4e65c8e9fd1180d3dd5f344edbb00a7e3862172ddaa7a554f7faee09fff891c6",
       "url": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks",
@@ -1233,27 +1254,6 @@
       ],
       "description": "Over 900 Oracle E-Business Suite (EBS) instances have been found exposed online amid ongoing attacks exploiting a critical security flaw. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:0dd3443c22918f676c1b63d7524d95d1257997ba23d1b396812293bea1483ec3",
-      "url": "https://www.bleepingcomputer.com/news/security/amazon-fined-225m-for-withholding-evidence-from-fraud-victims",
-      "title": "Amazon fined $2.25M for withholding evidence from fraud victims",
-      "published_at": "2026-07-01T09:43:27Z",
-      "published_raw": "Wed, 01 Jul 2026 05:43:27 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The U.S. Federal Trade Commission (FTC) says Amazon will pay a $2.25 million civil penalty to settle charges that it blocked identity theft victims' access to transaction records. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/amazon-fined-225m-for-withholding-evidence-from-fraud-victims/",
       "authors": [
         {
           "name": "Sergiu Gatlan",
