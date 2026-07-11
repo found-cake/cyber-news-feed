@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-11T06:00:27Z",
+  "updated_at": "2026-07-11T08:00:29Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-11T06:00:27Z",
+    "last_success_at": "2026-07-11T08:00:29Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -578,26 +578,26 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:7479cc50fb44aa114a0d8295a37dd52b2e07dad5ba029d1f30d71f9a6b225078",
-      "url": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
-      "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
-      "published_at": "2026-07-01T07:20:51Z",
-      "published_raw": "2026-07-01T12:50:51.191+05:30",
+      "id": "sha256:2764346b77ff5d266c6d581f0eaf4a77a26e5ce08165215e30ea8dcbaaa41941",
+      "url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+      "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
+      "published_at": "2026-07-11T06:45:55Z",
+      "published_raw": "2026-07-11T12:15:55.409+05:30",
       "categories": [
-        "threat-intelligence"
+        "vulnerability"
       ],
-      "description": "Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way.\n\nPalo Alto Networks'&nbsp;Unit 42&nbsp;calls the trick phantom squatting, and its new research shows it is already happening in the wild.\n\nThe reason it matters is",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2561811679616126291",
+      "description": "Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution.\n\nThe vulnerability has been described as a case of stored cross-site scripting (XSS) that could allow specially crafted emails to execute malicious scripts in a user's session. It has yet to be assigned a CVE identifier.\n\n\"The",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1237714872054874281",
       "authors": [
         {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
           "email": "noreply@blogger.com"
         }
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX2IWQhpupx-U0U70hWTg9afsBb41pslrGP733mXXdBKValODZrPoYD3UQqGVq1j9fSgmgf9rqDyxEAx1iKzblSnc_AcfO_CzQ-CA4G24vKEO5YC9P1vC_K_K01RfbMAvN1eaqgRjJUYRIyWZVLQjxYVleEsgcgD_Ifm04sjBCp08xk6W7QjbX4Rgm2vXp/s260-e100/ai-domains.jpg",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirVz95zYTg61VRro9unfJCWWwwUrv3pQdtyNT7rPL8iCg6n0S6bky4dqPiluQHfSvQMIO9cyYgrz-07ZCx8yG_qND_J9XJ_0BoUON9p3zj0etafNvjg45txAeu4uCDEMxGDNv2tIxNuqrC0OsKG_sWZp5QIlEkbqZ_g_EEcAdXUQbuo_EgsXwT3mERTTk/s260-e100/zimbra-email-hack.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
