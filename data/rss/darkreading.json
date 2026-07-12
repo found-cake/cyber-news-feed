@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-07-12T20:00:53Z",
+  "updated_at": "2026-07-12T22:00:54Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-12T18:00:53Z",
-    "last_error_at": "2026-07-12T20:00:53Z",
-    "last_error": "fetch https://www.darkreading.com/rss.xml: unexpected feed response: unexpected status 404"
+    "ok": true,
+    "last_success_at": "2026-07-12T22:00:54Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
     {
@@ -432,78 +432,6 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltbc06310368e21110/6a4bdbe6a6d4757864059ce1/llm-Boy_Wirat-Getty-2149059417.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:25a0b7ea35d756b4a2341468fb68bd473b999025fc02cb61155890dea4501d05",
-      "url": "https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs",
-      "title": "FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs",
-      "published_at": "2026-07-02T19:11:33Z",
-      "published_raw": "Thu, 02 Jul 2026 19:11:33 GMT",
-      "categories": [
-        "threat-intelligence"
-      ],
-      "description": "After gaining a foothold in thousands of Fortinet firewalls, the attackers are starting to monetize that access, and are also piling on a Nextcloud zero-day bug.",
-      "feed_id": "https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs",
-      "authors": [
-        {
-          "name": "Rob Wright",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6c22b787d3880a22/6a469e8782b5bc23f1d3a21e/ransomware-Just_Super-Getty-1399980046.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6c22b787d3880a22/6a469e8782b5bc23f1d3a21e/ransomware-Just_Super-Getty-1399980046.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:32296d38ced90303b60cd25984f20c184c040f23d34a8bcf91e0e69031921481",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-interpol-lure-target-small-businesses",
-      "title": "Ransomware Thugs Masquerade as Interpol to Entice Small Biz",
-      "published_at": "2026-07-02T18:07:40Z",
-      "published_raw": "Thu, 02 Jul 2026 18:07:40 GMT",
-      "categories": [
-        "cyberattacks-data-breaches"
-      ],
-      "description": "The ransomware campaign relies on basic social engineering and stretches across multiple regions, including the US, Europe, Middle East, and elsewhere.",
-      "feed_id": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-interpol-lure-target-small-businesses",
-      "authors": [
-        {
-          "name": "Jai Vijayan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt788d90ba1818143b/6a4697d699a6c999ae9e947e/smb_Andrey_Popov_shutterstck.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt788d90ba1818143b/6a4697d699a6c999ae9e947e/smb_Andrey_Popov_shutterstck.jpg?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }
