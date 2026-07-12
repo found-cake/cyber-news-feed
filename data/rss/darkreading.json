@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-07-12T14:00:53Z",
+  "updated_at": "2026-07-12T16:00:54Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-12T12:00:54Z",
-    "last_error_at": "2026-07-12T14:00:53Z",
-    "last_error": "fetch https://www.darkreading.com/rss.xml: unexpected feed response: unexpected status 404"
+    "ok": true,
+    "last_success_at": "2026-07-12T16:00:54Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
     {
@@ -504,42 +504,6 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt788d90ba1818143b/6a4697d699a6c999ae9e947e/smb_Andrey_Popov_shutterstck.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:792cebfc0f480e91d096fe08227a57dbbeba599bd72d5bb3e13cea2dc78e94c1",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/anthropic-s-ai-finds-bugs-ibm-bets-5b-it-can-fix-them-",
-      "title": "Anthropic's AI Finds Bugs. IBM Bets $5B It Can Fix Them.",
-      "published_at": "2026-07-02T12:33:57Z",
-      "published_raw": "Thu, 02 Jul 2026 12:33:57 GMT",
-      "categories": [
-        "vulnerabilities-threats"
-      ],
-      "description": "IBM and Red Hat assign 20,000 engineers to the new Project Lightwell service as Anthropic's Mythos findings ignite debate over how to secure the open source software supply chain.",
-      "feed_id": "https://www.darkreading.com/vulnerabilities-threats/anthropic-s-ai-finds-bugs-ibm-bets-5b-it-can-fix-them-",
-      "authors": [
-        {
-          "name": "Jeffrey Schwartz",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blteeda9139b627cb5e/69389770c9923c42c04a9c31/bugs_Cagkan_Sayin_shutterstock.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blteeda9139b627cb5e/69389770c9923c42c04a9c31/bugs_Cagkan_Sayin_shutterstock.jpg?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }
