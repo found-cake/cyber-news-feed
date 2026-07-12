@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-07-12T08:00:31Z",
+  "updated_at": "2026-07-12T10:01:30Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-12T08:00:31Z",
+    "last_success_at": "2026-07-12T10:01:30Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -14,8 +14,8 @@
       "id": "sha256:685e653989418b5f953311f108a6cb8f3030532ce0a40da64c77d1d6bd048fb5",
       "url": "https://www.stepsecurity.io/blog/jscrambler-npm-package-publishes-malicious-preinstall-binary",
       "title": "jscrambler npm package publishes malicious preinstall binary",
-      "published_at": "2026-07-11T17:20:14Z",
-      "published_raw": "Sat, 11 Jul 2026 17:20:14 GMT",
+      "published_at": "2026-07-12T08:32:37Z",
+      "published_raw": "Sun, 12 Jul 2026 08:32:37 GMT",
       "categories": [],
       "description": "On July 11, 2026, version 8.14.0 of jscrambler was published to npm carrying a malicious preinstall hook that drops and executes a platform-specific native binary on Linux, Windows, and macOS. jscrambler is the official CLI client for the Jscrambler Code Integrity API, a commercial JavaScript obfuscation and web-app protection service, with a clean version history dating back to 0.1.0. The compromised release was flagged by StepSecurity's AI Release Analyzer with a suspicion score of 0 (the maximum suspicion rating) on publish.",
       "feed_id": "https://www.stepsecurity.io/blog/jscrambler-npm-package-publishes-malicious-preinstall-binary",
