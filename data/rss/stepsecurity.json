@@ -1,15 +1,39 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-07-13T20:00:44Z",
+  "updated_at": "2026-07-13T22:00:42Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-13T20:00:44Z",
+    "last_success_at": "2026-07-13T22:00:42Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:70db1f82d8114e68af25c5f8cef12b3faf7c3a9c20913caec21beead53ef3572",
+      "url": "https://www.stepsecurity.io/blog/introducing-secret-exfiltration-protection-for-github-actions",
+      "title": "Introducing Secret Exfiltration Protection for GitHub Actions",
+      "published_at": "2026-07-13T10:07:05Z",
+      "published_raw": "Mon, 13 Jul 2026 10:07:05 GMT",
+      "categories": [],
+      "description": "StepSecurity now blocks and detects secret exfiltration in GitHub Actions, stopping attacks that plant malicious workflows to steal your repository secrets.",
+      "feed_id": "https://www.stepsecurity.io/blog/introducing-secret-exfiltration-protection-for-github-actions",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a54b8b1fdafe326aa2ceb93_image%20(130).png",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a54b8b1fdafe326aa2ceb93_image%20(130).png",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:685e653989418b5f953311f108a6cb8f3030532ce0a40da64c77d1d6bd048fb5",
       "url": "https://www.stepsecurity.io/blog/jscrambler-npm-package-publishes-malicious-preinstall-binary",
@@ -52,30 +76,6 @@
         },
         {
           "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a4fcd3cbdab81af47cdd2e3_Screenshot%202026-07-09%20at%2010.02.35%E2%80%AFPM.png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:70db1f82d8114e68af25c5f8cef12b3faf7c3a9c20913caec21beead53ef3572",
-      "url": "https://www.stepsecurity.io/blog/introducing-secret-exfiltration-protection-for-github-actions",
-      "title": "Introducing Secret Exfiltration Protection for GitHub Actions",
-      "published_at": "2026-07-08T19:46:41Z",
-      "published_raw": "Wed, 08 Jul 2026 19:46:41 GMT",
-      "categories": [],
-      "description": "StepSecurity now blocks and detects secret exfiltration in GitHub Actions, stopping attacks that plant malicious workflows to steal your repository secrets.",
-      "feed_id": "https://www.stepsecurity.io/blog/introducing-secret-exfiltration-protection-for-github-actions",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a4ea31b2142bf09f179062d_image%20(128).png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a4ea31b2142bf09f179062d_image%20(128).png",
           "kind": "content",
           "medium": "image"
         }
