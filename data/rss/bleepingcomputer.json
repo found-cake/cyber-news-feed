@@ -1,15 +1,78 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-13T14:00:56Z",
+  "updated_at": "2026-07-13T16:00:57Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-13T14:00:56Z",
+    "last_success_at": "2026-07-13T16:00:57Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:918efbdf473415c94fe3742c6c115720f0af2b070de8219e4d5d31e3a6b87340",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions",
+      "title": "CISA warns of actively exploited RCE flaws in Joomla extensions",
+      "published_at": "2026-07-13T15:20:16Z",
+      "published_raw": "Mon, 13 Jul 2026 11:20:16 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are exploiting vulnerabilities in the iCagenda and Balbooa Forms extensions for Joomla to achieve remote code execution through arbitrary file uploads. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:30c4aa8a669853e8bd17f291fe756dc06d0362dde36fdb02e7e1ef5a4ec988fa",
+      "url": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack",
+      "title": "Lidl discloses online shop breach after service provider hack",
+      "published_at": "2026-07-13T14:19:43Z",
+      "published_raw": "Mon, 13 Jul 2026 10:19:43 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "German discount supermarket chain Lidl notified customers in Germany, Belgium, and the Netherlands that attackers stole their personal information in a breach at a service provider. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
+      "authors": [
+        {
+          "name": "Sergiu Gatlan",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:4daa55399f8591a295ccb199d507309678646cb9d2c8007fa256a0ccf3fcdada",
+      "url": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf",
+      "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
+      "published_at": "2026-07-13T14:01:11Z",
+      "published_raw": "Mon, 13 Jul 2026 10:01:11 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Learn how attackers abuse Entra ID through a free hands-on Capture the Flag. Varonis created the Breach at the Beach CTF to teach defenders how to investigate Entra ID attack techniques using realistic scenarios. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
+      "authors": [
+        {
+          "name": "Sponsored by Varonis",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:0415f0630a18805c44b2a4b1e3b000876b00810484a5d04de05bb222f883f117",
       "url": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform",
@@ -1045,27 +1108,6 @@
       "authors": [
         {
           "name": "Ionut Ilascu",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:d64bb70c9cde7bbc5bea99f1643136f21f98fdfbebd3ae9009a575f5deb36347",
-      "url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit",
-      "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
-      "published_at": "2026-07-03T14:12:22Z",
-      "published_raw": "Fri, 03 Jul 2026 10:12:22 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A new phishing-as-a-service (PhaaS) platform dubbed \"ARToken\" appears to operate as an affiliate of the EvilTokens phishing platform, giving researchers a glimpse into an extensive toolkit designed to compromise Microsoft 365. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
           "uri": "",
           "email": ""
         }
