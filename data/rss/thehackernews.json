@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-13T10:00:54Z",
+  "updated_at": "2026-07-13T12:00:59Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-13T10:00:54Z",
+    "last_success_at": "2026-07-13T12:00:59Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:af8ae50feb023e74af4b4f0092ab79e72cd34e3a42754270ba421e1cad6634b3",
+      "url": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
+      "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
+      "published_at": "2026-07-13T11:02:33Z",
+      "published_raw": "2026-07-13T16:32:33.059+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration.\n\n\"The script looked for the Domain Controller (DC) and mapped users, computers, and domains, before creating a directory and exporting out a number of files, and finally creating AD_Report.html to measure the success of the",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8253170662646714580",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh43TJKqVkJoN7Q3donw2FnXp1IrJEr6vvDteFOBCSR-PptAc8fMXXCq07kvKWoDacCHo6gi5-eUoX9mIBHggv-KXsoH31yBi0-_MZBjxYbiYNlhvAu8V_xhjuKHgnQj43x5S2pORBIGONxE_yLZdZOnDCmcjMegQjhwZtHDThg_4nlhZqwSizsMRCfZFQW/s260-e100/ps-ai.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:b23bf6e48280a3fd1f3f0b7db37a15e9a1938e07269536c759cbbe206903190d",
       "url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",

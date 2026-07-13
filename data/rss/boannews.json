@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-13T10:00:54Z",
+  "updated_at": "2026-07-13T12:00:59Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-13T08:00:53Z",
-    "last_error_at": "2026-07-13T10:00:54Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-07-13T12:00:59Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:76fdbd00dfa19a88fbd1c1355d1e0e9ecccababe0d1995eb85aca010296d21f3",
+      "url": "http://www.boannews.com/media/view.asp?idx=144663&kind=1&sub_kind=",
+      "title": "北 APT37 ‘오퍼레이션 캡슐 볼트’ 공격... “연구계 정보 유출 비상”",
+      "published_at": "2026-07-13T08:21:00Z",
+      "published_raw": "Mon, 13 Jul 2026 17:21:00 +0900",
+      "categories": [],
+      "description": "외교·안보 연구진 정보 교류 관행 노린 다단계 침투 전략 구사레거시 확장자 악용 및 ‘임베드 페이로드 v2’ 아키텍처로 탐지 우회EDR 기반 메모리 감시 및 보안 규정 점검 등 전방위 보안 점검 필요해[보안뉴스 조재호 기자] 북한 해킹 조직 ‘APT37’ 소행으로 추정되는 신종 사이버 공격 캠페인 ‘오퍼레이션 캡슐 볼트’(Operation Capsule V",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:76dbab1f786c01a7b1726bd3bfd82a4011a971293e517c4b2e4a69b5280674c9",
       "url": "http://www.boannews.com/media/view.asp?idx=144654&kind=1&sub_kind=",
@@ -182,13 +201,13 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:6d253ae6606520c9e017d36337b47bc7237d46cf638a26f2115158e03bec5896",
-      "url": "http://www.boannews.com/media/view.asp?idx=144518&kind=1&sub_kind=",
-      "title": "北 ‘폴린라이더’ 캠페인, 개발자 노린 악성 패키지 108개 유포",
-      "published_at": "2026-07-06T08:00:00Z",
-      "published_raw": "Mon, 6 Jul 2026 17:00:00 +0900",
+      "id": "sha256:506e3503ff28991f9b0eba8e971650f597fb8fa7f7ecb737506aff771a548567",
+      "url": "http://www.boannews.com/media/view.asp?idx=144663&kind=&sub_kind=",
+      "title": "北 APT37 ‘오퍼레이션 캡슐 볼트’ 공격... “연구계 정보 유출 비상”",
+      "published_at": "2026-07-13T08:21:00Z",
+      "published_raw": "Mon, 13 Jul 2026 17:21:00 +0900",
       "categories": [],
-      "description": "소켓 연구팀 최신 분석 결과, 개발자 저장소에 162개 악성 배포물 살포위장 구직 제안하는 ‘컨테이저스 인터뷰’ 캠페인 일환으로 개발자 단말 정조준[보안뉴스 김형근 기자] 북한과 연계된 해커들이 개발자와 암호화폐 업계 종사자를 겨냥해 108개의 고도화된 악성 패키지와 웹 브라우저 확장 프로그램을 유포한 사실이 새롭게 드러났다.사이버보안 기업 소켓(Socke",
+      "description": "외교·안보 연구진 정보 교류 관행 노린 다단계 침투 전략 구사레거시 확장자 악용 및 ‘임베드 페이로드 v2’ 아키텍처로 탐지 우회EDR 기반 메모리 감시 및 보안 규정 점검 등 전방위 보안 점검 필요해[보안뉴스 조재호 기자] 북한 해킹 조직 ‘APT37’ 소행으로 추정되는 신종 사이버 공격 캠페인 ‘오퍼레이션 캡슐 볼트’(Operation Capsule V",
       "feed_id": "",
       "authors": [
         {
@@ -277,6 +296,25 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:6d253ae6606520c9e017d36337b47bc7237d46cf638a26f2115158e03bec5896",
+      "url": "http://www.boannews.com/media/view.asp?idx=144518&kind=1&sub_kind=",
+      "title": "北 ‘폴린라이더’ 캠페인, 개발자 노린 악성 패키지 108개 유포",
+      "published_at": "2026-07-06T08:00:00Z",
+      "published_raw": "Mon, 6 Jul 2026 17:00:00 +0900",
+      "categories": [],
+      "description": "소켓 연구팀 최신 분석 결과, 개발자 저장소에 162개 악성 배포물 살포위장 구직 제안하는 ‘컨테이저스 인터뷰’ 캠페인 일환으로 개발자 단말 정조준[보안뉴스 김형근 기자] 북한과 연계된 해커들이 개발자와 암호화폐 업계 종사자를 겨냥해 108개의 고도화된 악성 패키지와 웹 브라우저 확장 프로그램을 유포한 사실이 새롭게 드러났다.사이버보안 기업 소켓(Socke",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:e13184be7224493b2674a49d9384826c7e6af5cf1be2fd7a5fb0e95b4b294c2e",
       "url": "http://www.boannews.com/media/view.asp?idx=144503&kind=1&sub_kind=",
       "title": "미 지방 정부, 데이터 유출 막으려 러 배후 해킹 조직에 100만달러 지불",
@@ -288,25 +326,6 @@
       "authors": [
         {
           "name": "[한세희기자 (hahn@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:b6cb188e3812710cd75d180e774893b80f5d0854bc9114c77c8fabdef5838617",
-      "url": "http://www.boannews.com/media/view.asp?idx=144489&kind=1&sub_kind=",
-      "title": "AI 망분리 규제 완화 앞두고... 우리은행, 연계정보 1.7만건 유출",
-      "published_at": "2026-07-03T10:26:00Z",
-      "published_raw": "Fri, 3 Jul 2026 19:26:00 +0900",
-      "categories": [],
-      "description": "티빙 1953만명에 이어 우리은행 1만7551건 유출, 이기종 데이터 결합 리스크 급증2014년 카드사 유출 사건 데자뷰... 지난해 종합감사 지적 사항 잊었나[보안뉴스 조재호 기자] 우리은행이 1만7551건의 연계정보(CI) 유출 사고를 공지했다. 최근 ‘AI 망분리 예외’를 두고 금융권의 AI 경쟁이 심화되는 가운데 기본적 내부망 통제에 실패하면서 체면",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[조재호기자 (zephyr@boannews.com)]",
           "uri": "",
           "email": ""
         }
