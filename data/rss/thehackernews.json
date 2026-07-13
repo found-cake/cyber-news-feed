@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-13T06:00:56Z",
+  "updated_at": "2026-07-13T08:00:53Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-13T06:00:56Z",
+    "last_success_at": "2026-07-13T08:00:53Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:b23bf6e48280a3fd1f3f0b7db37a15e9a1938e07269536c759cbbe206903190d",
+      "url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
+      "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
+      "published_at": "2026-07-13T07:30:00Z",
+      "published_raw": "2026-07-13T13:00:00.000+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it:&nbsp;python3 -m http.server 8080, was still sitting in the readable&nbsp;.bash_history.\n\nFrom that one lapse, French security firm&nbsp;Lexfo&nbsp;lifted the operator's entire toolkit and pivoted through it to two more",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2734385988498240605",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVh0XoiKxyvhXW_SN-Ynau8iPG3vd2ltt4cDr4L_cGUhc5oBmsogZt5A_l2qbTdPG8Ciu73I0mHhRBDRJ2uWasrA_vqnkdvpbQcdh0ipe-d_cz2HTFJWOCBNxplCO0RuppogFhl1OONqWWXOLQWhH_Bt89c160ZzHtkrnDJN6PsnYWNV1W510diYait_g/s260-e100/phishing-server-ms.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:5a78286d4eea74fb31f26c8096b3dbd1db3cfbb7dcbea67fa05af998d14bd608",
       "url": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",

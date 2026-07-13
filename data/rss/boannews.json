@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-13T06:00:56Z",
+  "updated_at": "2026-07-13T08:00:53Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-13T04:01:19Z",
-    "last_error_at": "2026-07-13T06:00:56Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-07-13T08:00:53Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
     {
@@ -307,25 +307,6 @@
       "authors": [
         {
           "name": "[조재호기자 (zephyr@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:41d45d7304e2ded62813a8ca093c81d283563e64619e2cb85019ba25d68c6af0",
-      "url": "http://www.boannews.com/media/view.asp?idx=144483&kind=1&sub_kind=",
-      "title": "[카드뉴스] “아군 위성망이 적의 조종기로?”… 전장 뒤흔드는 ‘불법 교차 활용’ 해킹의 공포",
-      "published_at": "2026-07-03T07:26:00Z",
-      "published_raw": "Fri, 3 Jul 2026 16:26:00 +0900",
-      "categories": [],
-      "description": "국경이 없는 상업용 위성 네트워크 인프라를 적대 세력이 해킹하여 자국 드론의 실시간 제어 스펙트럼으로 가로채 쓰는 ‘불법 교차 활용(Illicit Use)’ 리스크가 현대 지정학적 분쟁의 거대한 위협으로 떠올랐다. 이에 대응하기 위해 국가 및 군 안보 당국은 사전에 검증되어 화이트리스트(Whitelist)에 등록된 기기 세트 외의 모든 접근 요소를 실시간으",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[지진솔기자 (digital@boannews.com)]",
           "uri": "",
           "email": ""
         }
