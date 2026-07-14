@@ -1,15 +1,39 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-07-14T08:00:42Z",
+  "updated_at": "2026-07-14T10:00:41Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-14T08:00:42Z",
+    "last_success_at": "2026-07-14T10:00:41Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:b6a66cc20f679975112f1f24e14e3c15dde5a116d91632b68a56563fa0b0a985",
+      "url": "https://www.stepsecurity.io/blog/compromised-next-branch-pushes-malicious-asyncapi-generator-generator-helpers-and-generator-components-to-npm",
+      "title": "Coordinated AsyncAPI Supply Chain Attack: Miasma RAT Delivered via Compromised CI/CD Pipelines in Two Repositories",
+      "published_at": "2026-07-14T09:55:12Z",
+      "published_raw": "Tue, 14 Jul 2026 09:55:12 GMT",
+      "categories": [],
+      "description": "On July 14, 2026 at 07:10 UTC, three packages in the AsyncAPI generator monorepo (@asyncapi/generator@3.3.1, @asyncapi/generator-helpers@1.1.1, and @asyncapi/generator-components@0.7.1) were published to npm carrying an obfuscated dropper that fires the moment the library is loaded, not on install. The packages were published through the project's own legitimate GitHub Actions release workflow and carry valid npm OIDC provenance attestations, because the attacker didn't steal an npm token: they gained push access to the repository's next branch and let the project's real CI/CD pipeline do the publishing for them.",
+      "feed_id": "https://www.stepsecurity.io/blog/compromised-next-branch-pushes-malicious-asyncapi-generator-generator-helpers-and-generator-components-to-npm",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a55f0bda13a3d3211d6f7ec_SCR-20260714-mhvs.png",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a55f0bda13a3d3211d6f7ec_SCR-20260714-mhvs.png",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:70db1f82d8114e68af25c5f8cef12b3faf7c3a9c20913caec21beead53ef3572",
       "url": "https://www.stepsecurity.io/blog/introducing-secret-exfiltration-protection-for-github-actions",
