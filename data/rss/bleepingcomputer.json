@@ -1,15 +1,79 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-14T12:00:43Z",
+  "updated_at": "2026-07-14T14:00:48Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-14T12:00:43Z",
+    "last_success_at": "2026-07-14T14:00:48Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:fbb90be8e1263258cf4e35cd17e8ab67a433a946707a70812c6c3ac27d034f7f",
+      "url": "https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable",
+      "title": "You Don't Have to Run an Exploit to Know If You're Vulnerable",
+      "published_at": "2026-07-14T14:00:10Z",
+      "published_raw": "Tue, 14 Jul 2026 10:00:10 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Many vulnerabilities cannot be safely validated with live exploits, either because no exploit exists or the affected systems are too critical to test. Picus explains how TTP chaining helps organizations determine exploitability by validating the attack techniques an exploit depends on, without launching the exploit itself. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/",
+      "authors": [
+        {
+          "name": "Sponsored by Picus Software",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:7defe16790c1c7bf970575dedbfc4eb409ed0b95139875e4a823d67e53f3fe65",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september",
+      "title": "Microsoft Entra ID gets passkeys default authentication starting September",
+      "published_at": "2026-07-14T12:49:56Z",
+      "published_raw": "Tue, 14 Jul 2026 08:49:56 -0400",
+      "categories": [
+        "security",
+        "Microsoft"
+      ],
+      "description": "Microsoft has announced that passkeys will become the default authentication method for the Entra ID enterprise identity service starting September 2026. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/",
+      "authors": [
+        {
+          "name": "Sergiu Gatlan",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:d668a60975a9be8dc8f2eece165025fdad117e8b7e3a9b319f1b5baf59c8e5c2",
+      "url": "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa",
+      "title": "New phishing kits target Microsoft 365 accounts, evade MFA",
+      "published_at": "2026-07-14T12:49:00Z",
+      "published_raw": "Tue, 14 Jul 2026 08:49:00 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Two new phishing kits, Jalisco and OmegaLord, have been discovered in attacks targeting Microsoft 365 accounts, using techniques that defeat multi-factor authentication (MFA). [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:a6434bb6763d08ab9ebe6725cc0274ed71fe54e037cfd3e908c9291f7270d74d",
       "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud",

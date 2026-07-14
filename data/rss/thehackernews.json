@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-14T12:00:43Z",
+  "updated_at": "2026-07-14T14:00:48Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-14T12:00:43Z",
+    "last_success_at": "2026-07-14T14:00:48Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -524,26 +524,53 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:05aacbc9930d8717a22d1345f396c16afe94a00080014114e3c89931322e0dc5",
-      "url": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
-      "title": "U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case",
-      "published_at": "2026-07-04T12:47:53Z",
-      "published_raw": "2026-07-04T18:17:53.526+05:30",
+      "id": "sha256:32eaa1c6bd97f7231ce2ac92ecb5a3c74c7d86a0b986d7ae150266e0760aa4b9",
+      "url": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+      "published_at": "2026-07-14T13:48:07Z",
+      "published_raw": "2026-07-14T19:18:07.296+05:30",
       "categories": [
-        "threat-intelligence"
+        "vulnerability"
       ],
-      "description": "A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new&nbsp;case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left.\n\nThe odd part: the group that took the money calls itself Kairos, but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-359325861349533295",
+      "description": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries.\n\nMiggo's security team, which discovered and reported the flaws, said one \"leaks the broker's confidential OAuth",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3094422647084508762",
       "authors": [
         {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
           "email": "noreply@blogger.com"
         }
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEfi15-eigOUF4SV157a0LsEW4uNvhRyEIhWWYVNo8tn0tfMjuJ0Cr6zYUDeVh6VfzA-7MpWgIVX8sJgieRMD6e0KSBmB2zNmTU1ko1KPMbkBd-JHMBluVBUOjV06SebkYq4AKFssmEQ6DdGw4yy4X3qesVYJcwwgZSsQFUu4Wfy3un9alrX2Qy8IjacE/s260-e100/county-hacked.jpg",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhhRQ9rN4_5eYqXiJ7svWKwWY0dcPiiALZ6EkDG05ruFzTANJtwyw_w2Ht29dON1oFiLAkQkE0M75FYExbXmvFSr4jU0K0sNlwRxG3Q1rU51ouVIt3UtnrazRwhCer3coTHbU3So1dXx_8Frh1KhJKKXc7Lq2h5DZTGkBq35Y2ngnGVg6wAGubf8cVRx0F/s260-e100/rebbitmq.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:6f88e63f0b0c7123c6e054816b40119dbc58c2b800c75d40bb7bbb9a5a99a012",
+      "url": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
+      "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
+      "published_at": "2026-07-14T12:46:18Z",
+      "published_raw": "2026-07-14T18:16:18.477+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the modern firmware standard.\n\n\"An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware,\"",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2839728313708754175",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzgVI5ZeWhnWkl-lXmJYMLjAOXmxw21Y3sgxeF9rrOS_JqjQ7k_yyV_2KU_ELhmsm3nA3qNV0farc_31WCAhPPZRq7iIrYm90R_24lvc1f68Gv-yZPsM3bwDiUuCaCBAzq-S8ymLrrD7dx349vEjlR0eID2LXm5SO3Ocq1sG8sWkhAEG9RWX07avTOu3dW/s260-e100/shim.gif",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1091,6 +1118,33 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:dea00217b895566a8c6f268eaf74b8a05328db88c4a1ca65c5b0b564b6af0422",
+      "url": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
+      "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
+      "published_at": "2026-07-07T09:10:51Z",
+      "published_raw": "2026-07-07T14:40:51.959+05:30",
+      "categories": [
+        "cyber-attack"
+      ],
+      "description": "A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign.\n\nThe activity involves the exploitation of now-patched, critical security flaws in the open-source email solution, such as CVE-2024-42009 (CVSS score: 9.3), to siphon credentials,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4049296224195848726",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitErUXjxgvdr7CLGa67wtfentIJSFkobxbyIMtQNK4mzNTyf_3Mq9mckQNCGONMFqVaCvkvNKf7FqJfevWKstiWEOxt5wDlV_Fus-Ob3bo9vkMb3m5natJZjHhG-0r4FbH5UUBP4aiGtLcJ7mFIIwLw7IPIHOqw5ln1kAC_ZsiOvllGmVXws4bCXBGugBu/s260-e100/server-hacker.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:3d9df116e5edd7c5e58abb79cc3b60b11c73cfb1a48a0f5ba318e548e4aad9fe",
       "url": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
       "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
@@ -1138,33 +1192,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH0EnuZfnTZVOg-ACF0jKSHBB8TemRtJ6vlDerjpWy9giH2VsJTP_XiktA9SCytwnDcP95jn4gyQaPk2r92S-J-4EcB7FDvenxXiNwJKtg1VQkV_f564nT6mrS6S3wuMX3SC22kdd5nJM9y4IecNKJ3CRq569DtujHzUgaVOAwQDpfvCgkCrSrfeRjT1CQ/s260-e100/writerai.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:dea00217b895566a8c6f268eaf74b8a05328db88c4a1ca65c5b0b564b6af0422",
-      "url": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
-      "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
-      "published_at": "2026-07-07T09:10:51Z",
-      "published_raw": "2026-07-07T14:40:51.959+05:30",
-      "categories": [
-        "cyber-attack"
-      ],
-      "description": "A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign.\n\nThe activity involves the exploitation of now-patched, critical security flaws in the open-source email solution, such as CVE-2024-42009 (CVSS score: 9.3), to siphon credentials,",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4049296224195848726",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitErUXjxgvdr7CLGa67wtfentIJSFkobxbyIMtQNK4mzNTyf_3Mq9mckQNCGONMFqVaCvkvNKf7FqJfevWKstiWEOxt5wDlV_Fus-Ob3bo9vkMb3m5natJZjHhG-0r4FbH5UUBP4aiGtLcJ7mFIIwLw7IPIHOqw5ln1kAC_ZsiOvllGmVXws4bCXBGugBu/s260-e100/server-hacker.jpg",
           "kind": "thumbnail",
           "medium": ""
         }

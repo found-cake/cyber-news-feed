@@ -1,15 +1,83 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-14T12:00:43Z",
+  "updated_at": "2026-07-14T14:00:48Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-14T12:00:43Z",
+    "last_success_at": "2026-07-14T14:00:48Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:0f1b5cbc6ad1e58e3898ca7770d934068e66f7e041f15ee3a63d1e1092fdd7cf",
+      "url": "https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load-balancer",
+      "title": "7 Severe Vulnerabilities Patched in VMware Avi Load Balancer",
+      "published_at": "2026-07-14T13:55:41Z",
+      "published_raw": "Tue, 14 Jul 2026 13:55:41 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "Avi Load Balancer",
+        "VMware",
+        "vulnerability"
+      ],
+      "description": "<p>The flaws can be exploited for authentication bypass, remote code execution, privilege escalation, and directory traversal.</p>\n<p>The post <a href=\"https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load-balancer/\">7 Severe Vulnerabilities Patched in VMware Avi Load Balancer</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47814",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:851c07a36426d86c559298b8953c50664ed44339f5d53d10c00b3f24e35724e5",
+      "url": "https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar",
+      "title": "Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar",
+      "published_at": "2026-07-14T13:00:00Z",
+      "published_raw": "Tue, 14 Jul 2026 13:00:00 +0000",
+      "categories": [
+        "Artificial Intelligence",
+        "AI",
+        "Claude",
+        "vulnerability"
+      ],
+      "description": "<p>A ClaudeBleed-linked vulnerability reportedly persists across eight patches, exposing potentially sensitive data to other extensions. </p>\n<p>The post <a href=\"https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/\">Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47811",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:1b0ac946567b90c273af8eb7e3067a3485c696c83c6e79a9f3bb38845db0cd38",
       "url": "https://www.securityweek.com/sap-patches-critical-vulnerabilities-in-netweaver-approuter-commerce-cloud",
