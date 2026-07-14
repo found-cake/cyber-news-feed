@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-14T16:00:44Z",
+  "updated_at": "2026-07-14T18:00:46Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-14T16:00:44Z",
+    "last_success_at": "2026-07-14T18:00:46Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:bb49257ac2827077c3346e36b02605cb3d03d49f8f3361d44b623b9fc5895f27",
+      "url": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
+      "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
+      "published_at": "2026-07-14T16:52:37Z",
+      "published_raw": "2026-07-14T22:22:37.225+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments.\n\n\"LabubaRAT creates a reusable foothold for hands-on activity,\" Blackpoint Cyber researchers Sam Decker and Nevan Beal said in an analysis published today. \"Once deployed, it can profile the host,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3179843749562304170",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpSmSwv3hz6LMJIQCrVej_pophE9XNTZyveEV1GctCyQMSNoac_Mx3CfmAHLgYkpDkymvscLLY71u2Kq-7z-7bDemSeKHryPVH3h7FNxw9e64D3jTeoLOzmWW305j1Rctz5kdiwFV29lFNqo33TUZMGWCaZqtyKNPYARGtrrhZ0Bsc4LMLXhnRgzKXjKYb/s260-e100/NVIDIA-rat.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:af8ae50feb023e74af4b4f0092ab79e72cd34e3a42754270ba421e1cad6634b3",
       "url": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
@@ -517,6 +544,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVcOvCD8qFylCqOCpN8Rnl9cnxNkIeGxNbVKzlsKXY_7Nuw2xvYsckNEHKVM5ntvT2JAureArFIyApOvGLu52wpCG1xbHO8Y5xBmOAkSI3RoyEegmlNxs_gJip32Uzv_inXS7seOeRB1d3mw9SNIggoqgIApupRF2etBx5U_IFkuQz4_WNBL0Q1oi1l77q/s260-e100/javarat.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:216158fa47db25733644bdd67ae3e0ffe03a133789dffd7c6b69505121b15d8a",
+      "url": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
+      "title": "Researcher Claims Claude for Chrome Flaw Could Let Permitted Extensions Trigger Agent Tasks",
+      "published_at": "2026-07-14T17:27:23Z",
+      "published_raw": "2026-07-14T22:57:23.956+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Any other browser extension that can run a script on claude.ai can still trigger Claude for Chrome tasks aimed at your Gmail, your latest Google Doc and its comments, and your Calendar.\n\nUnlike ClaudeBleed, which a zero-permission extension could exploit, this one needs an extension you have already granted access to claude.ai. Anthropic restricted the arbitrary-prompt path in May as part of its",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1138362661855838861",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6dKqmptCkoLw0bB5PV9wa9zqqfMmsIU0yrc4vQ2FdIFYClQBeZyUifVSr4wny1umoGovVKP57bzeh3-8RjmK8VktgN_y8TGTnkkw6Ua49L3xfWT_n8Ks6ob2NpIy78NSAV4-XU7HxfdmYqAZcKYz7DIjihqBI8OsQIgW3a4vca7taNTohCTDrqEamAk4/s260-e100/claude-chrome-flaw.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1091,33 +1145,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:4a3aefd50bae8a4a25b4f41f0fe3692c3e273bfae5eeff115846d435bf7e26ea",
-      "url": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
-      "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
-      "published_at": "2026-07-07T16:37:33Z",
-      "published_raw": "2026-07-07T22:07:33.816+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project.\n\nFrom there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password.\n\nSecurity firm Varonis found it",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7895056142295715366",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9i8xIVWZcplpj-QuKnJKGAJjGi0Xq-q2R_luyy-HYXWkpsAPTYASmVbm2w2DoNOQkA81fyu0OQsbflhLykcYQpv66UDBeRxU1v5-xq7kQDQMS0cmvsCFmZI36jfyGxh6xrroU4hNhH_8_nOyXV_WG07om2t4riI-HP4wzE3HJr2KJ3-sUnKxbTNhV84k/s260-e100/google-chatbots.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:dea00217b895566a8c6f268eaf74b8a05328db88c4a1ca65c5b0b564b6af0422",
       "url": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
       "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
@@ -1138,6 +1165,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitErUXjxgvdr7CLGa67wtfentIJSFkobxbyIMtQNK4mzNTyf_3Mq9mckQNCGONMFqVaCvkvNKf7FqJfevWKstiWEOxt5wDlV_Fus-Ob3bo9vkMb3m5natJZjHhG-0r4FbH5UUBP4aiGtLcJ7mFIIwLw7IPIHOqw5ln1kAC_ZsiOvllGmVXws4bCXBGugBu/s260-e100/server-hacker.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:4a3aefd50bae8a4a25b4f41f0fe3692c3e273bfae5eeff115846d435bf7e26ea",
+      "url": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
+      "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
+      "published_at": "2026-07-07T16:37:33Z",
+      "published_raw": "2026-07-07T22:07:33.816+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project.\n\nFrom there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password.\n\nSecurity firm Varonis found it",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7895056142295715366",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9i8xIVWZcplpj-QuKnJKGAJjGi0Xq-q2R_luyy-HYXWkpsAPTYASmVbm2w2DoNOQkA81fyu0OQsbflhLykcYQpv66UDBeRxU1v5-xq7kQDQMS0cmvsCFmZI36jfyGxh6xrroU4hNhH_8_nOyXV_WG07om2t4riI-HP4wzE3HJr2KJ3-sUnKxbTNhV84k/s260-e100/google-chatbots.jpg",
           "kind": "thumbnail",
           "medium": ""
         }

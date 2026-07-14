@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-07-14T16:00:44Z",
+  "updated_at": "2026-07-14T18:00:46Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-14T16:00:44Z",
+    "last_success_at": "2026-07-14T18:00:46Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -14,8 +14,8 @@
       "id": "sha256:b6a66cc20f679975112f1f24e14e3c15dde5a116d91632b68a56563fa0b0a985",
       "url": "https://www.stepsecurity.io/blog/compromised-next-branch-pushes-malicious-asyncapi-generator-generator-helpers-and-generator-components-to-npm",
       "title": "Coordinated AsyncAPI Supply Chain Attack: Miasma RAT Delivered via Compromised CI/CD Pipelines in Two Repositories",
-      "published_at": "2026-07-14T13:54:10Z",
-      "published_raw": "Tue, 14 Jul 2026 13:54:10 GMT",
+      "published_at": "2026-07-14T17:15:14Z",
+      "published_raw": "Tue, 14 Jul 2026 17:15:14 GMT",
       "categories": [],
       "description": "On July 14, 2026 at 07:10 UTC, three packages in the AsyncAPI generator monorepo (@asyncapi/generator@3.3.1, @asyncapi/generator-helpers@1.1.1, and @asyncapi/generator-components@0.7.1) were published to npm carrying an obfuscated dropper that fires the moment the library is loaded, not on install. The packages were published through the project's own legitimate GitHub Actions release workflow and carry valid npm OIDC provenance attestations, because the attacker didn't steal an npm token: they gained push access to the repository's next branch and let the project's real CI/CD pipeline do the publishing for them.",
       "feed_id": "https://www.stepsecurity.io/blog/compromised-next-branch-pushes-malicious-asyncapi-generator-generator-helpers-and-generator-components-to-npm",
