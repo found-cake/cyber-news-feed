@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-07-15T16:00:21Z",
+  "updated_at": "2026-07-15T18:00:21Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-15T16:00:21Z",
+    "last_success_at": "2026-07-15T18:00:21Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:5536ea32a95d5bb3ae7805d9489cabbe42cb23777fb6bce910e41e45fab688db",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/claude-flaw-malicious-prompts-ai-agents",
+      "title": "Claude Flaw Automatically Sends Malicious Prompts to AI Agents",
+      "published_at": "2026-07-15T15:27:35Z",
+      "published_raw": "Wed, 15 Jul 2026 15:27:35 GMT",
+      "categories": [
+        "vulnerabilities-threats"
+      ],
+      "description": "When combined with another exploit, the &quot;PromptFiction&quot; vulnerability, which has been fixed, could have enabled an end-to-end attack on a targeted system.",
+      "feed_id": "https://www.darkreading.com/vulnerabilities-threats/claude-flaw-malicious-prompts-ai-agents",
+      "authors": [
+        {
+          "name": "Elizabeth Montalbano",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltede07faf29a87872/6a577279bf753e837abb9a32/claude_RalfLiebhold_Alamy.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltede07faf29a87872/6a577279bf753e837abb9a32/claude_RalfLiebhold_Alamy.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
     {
       "id": "sha256:398e4c92e6fbd7a1d722f687a34de5b1ec26838fdf09214fbafa9831e321b288",
       "url": "https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover",
