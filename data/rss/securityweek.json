@@ -1,15 +1,86 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-15T14:00:21Z",
+  "updated_at": "2026-07-15T16:00:21Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-15T14:00:21Z",
+    "last_success_at": "2026-07-15T16:00:21Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:55fefd309bef3bc698c542d61bdebac41e7fc8b1e05b324bec568304053b3ace",
+      "url": "https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution",
+      "title": "Unpatched Cursor Vulnerability Exposes Users to Code Execution",
+      "published_at": "2026-07-15T14:37:13Z",
+      "published_raw": "Wed, 15 Jul 2026 14:37:13 +0000",
+      "categories": [
+        "Artificial Intelligence",
+        "Vulnerabilities",
+        "AI",
+        "Cursor",
+        "vulnerability"
+      ],
+      "description": "<p>An attacker can create a malicious repository containing a git.exe in the project root, and Cursor executes it automatically.</p>\n<p>The post <a href=\"https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/\">Unpatched Cursor Vulnerability Exposes Users to Code Execution</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47877",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:ecda0ef536556936c5ececc5a1bf0084a7c63b1d59baa9709e5b3653f79b7697",
+      "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-sharepoint-vulnerabilities",
+      "title": "CISA Urges Immediate Patching of Exploited SharePoint Vulnerabilities",
+      "published_at": "2026-07-15T14:07:44Z",
+      "published_raw": "Wed, 15 Jul 2026 14:07:44 +0000",
+      "categories": [
+        "Risk Management",
+        "Vulnerabilities",
+        "alert",
+        "CISA",
+        "exploited",
+        "SharePoint"
+      ],
+      "description": "<p>Three vulnerabilities are actively exploited in attacks, including two that have been targeted as zero-days.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-sharepoint-vulnerabilities/\">CISA Urges Immediate Patching of Exploited SharePoint Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47873",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:9e86682c52a6c5000b3df86efbf01ca577dab3f177acdae7b54dfedc1e748b2b",
       "url": "https://www.securityweek.com/windows-bind-link-attacks-can-hide-malware-from-edr-tools",

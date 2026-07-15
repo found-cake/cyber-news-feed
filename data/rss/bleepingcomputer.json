@@ -1,15 +1,57 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-15T14:00:21Z",
+  "updated_at": "2026-07-15T16:00:21Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-15T14:00:21Z",
+    "last_success_at": "2026-07-15T16:00:21Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:a4b4f80b8b7c0f70b96630e7085f9d1c81626fd57cafe82b05c613bef11228c6",
+      "url": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware",
+      "title": "​    ​AsyncAPI npm packages infected with credential-stealing malware",
+      "published_at": "2026-07-15T15:37:27Z",
+      "published_raw": "Wed, 15 Jul 2026 11:37:27 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Five malicious versions of AsyncAPI packages were published to the Node Package Manager (npm) in a supply-chain attack that delivered a remote access trojan with info-stealing capabilities. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:d93f4ddf2730b2b2fa56fc1f28fb7b69a3178d9cc739976d21f6b4622c1ef6a4",
+      "url": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out",
+      "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
+      "published_at": "2026-07-15T14:01:11Z",
+      "published_raw": "Wed, 15 Jul 2026 10:01:11 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Intruder built an AI-powered \"vulnerability vending machine\" that combines code slicing with LLMs to automatically discover complex software vulnerabilities. The company explains how the system found and exploited a previously unknown WordPress plugin zero-day, with additional discoveries already under responsible disclosure. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
+      "authors": [
+        {
+          "name": "Sponsored by Intruder",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:e2762460bb9e1251274f08e140ed96892a13e198a88050e1c414bcd37d028429",
       "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws",
@@ -127,7 +169,7 @@
         "security",
         "Microsoft"
       ],
-      "description": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes the July 2026 Patch Tuesday security updates for 570 vulnerabilities, along with additional security fixes. [...]",
+      "description": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes this month's record-breaking July 2026 Patch Tuesday fixes, along with additional security improvements. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/",
       "authors": [
         {
@@ -1407,27 +1449,6 @@
       "authors": [
         {
           "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:317b2bb67f9ef520feaf699a639de790a3907e80cd7d9a5776b0ab1aaba7949a",
-      "url": "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help",
-      "title": "Flipper Zero firmware development continues with community help",
-      "published_at": "2026-07-05T14:14:52Z",
-      "published_raw": "Sun, 05 Jul 2026 10:14:52 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Flipper Devices says development of the Flipper Zero firmware will continue, albeit with a smaller internal team and greater reliance on community contributions. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
           "uri": "",
           "email": ""
         }
