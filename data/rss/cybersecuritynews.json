@@ -1,15 +1,50 @@
 {
   "schema_version": 1,
   "source": "cybersecuritynews",
-  "updated_at": "2026-07-15T02:00:41Z",
+  "updated_at": "2026-07-15T04:00:42Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-14T22:00:41Z",
-    "last_error_at": "2026-07-15T02:00:41Z",
-    "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+    "ok": true,
+    "last_success_at": "2026-07-15T04:00:42Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:7f11e12a1bb5bacf8ebbab1327bfb42dca9b6c6850cdf1ef91e2f2c3cad795f8",
+      "url": "https://cybersecuritynews.com/windows-bitlocker-0-day-vulnerability-2",
+      "title": "Windows BitLocker 0‑Day Vulnerability Allows Hackers to Bypass Security Feature",
+      "published_at": "2026-07-15T03:10:30Z",
+      "published_raw": "Wed, 15 Jul 2026 03:10:30 +0000",
+      "categories": [
+        "Cyber Security",
+        "Cyber Security News",
+        "Vulnerability News"
+      ],
+      "description": "<p>A newly disclosed Windows BitLocker 0‑day vulnerability, tracked as CVE-2026-50661, exposes encrypted devices to physical attacks that can completely undermine Microsoft’s disk encryption guarantees. The flaw, classified as a security feature bypass, stems from a protection mechanism failure in BitLocker’s device encryption workflow, allowing an unauthorized attacker with hands-on access to a system to circumvent [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-bitlocker-0-day-vulnerability-2/\">Windows BitLocker 0‑Day Vulnerability Allows Hackers to Bypass Security Feature</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=155890",
+      "authors": [
+        {
+          "name": "Guru Baran",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/BitLocker-0‑Day-Vulnerability.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "155890",
+          "content_encoded": "<p class=\"wp-block-paragraph\">A newly disclosed Windows BitLocker 0‑day vulnerability, tracked as CVE-2026-50661, exposes encrypted devices to physical attacks that can completely undermine Microsoft’s disk encryption guarantees.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw, classified as a security feature bypass, stems from a protection mechanism failure in BitLocker’s device encryption workflow, allowing an unauthorized attacker with hands-on access to a system to circumvent BitLocker and access data stored on the system drive.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft lists CVE-2026-50661 as publicly disclosed but not yet observed in active exploitation at the time of the <a href=\"https://cybersecuritynews.com/microsoft-patch-tuesday-update-july-2026/\" target=\"_blank\" rel=\"noreferrer noopener\">July 2026 Patch Tuesday release</a>, and rates exploitation as “Less Likely” in its exploitability index.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That assessment reflects the requirement for physical device access and the absence of remote attack vectors, but the impact for organizations relying on BitLocker to enforce data-at-rest protection, especially for laptops, branch servers, and cloud-adjacent infrastructure, remains significant.</p>\n\n\n\n<h2 id=\"h-bitlocker-0-day-vulnerability\" class=\"wp-block-heading\"><strong>BitLocker 0‑Day Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50661\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">According to Microsoft’s advisory</a>, a successful attacker can bypass the BitLocker Device Encryption feature on the system storage device, effectively nullifying disk encryption guarantees.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In practice, this means that if an attacker acquires a powered-off or seized Windows endpoint or server protected by BitLocker, they may be able to leverage this flaw to unlock the drive without knowing the BitLocker PIN, password, or recovery key.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The issue is rooted in a failure of BitLocker’s protection mechanisms rather than a classic code execution bug, aligning it with a growing class of “security feature bypass” flaws affecting Windows’ native protection stack.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Similar recent <a href=\"https://cybersecuritynews.com/windows-bitlocker-0-day-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">BitLocker bypasses (such as “YellowKey”)</a> have abused weaknesses in the Windows Recovery Environment and boot-time trust assumptions, illustrating that physical-access scenarios continue to be a fertile ground for bypassing encryption and secure boot controls.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CVE-2026-50661 affects a wide range of supported Windows client and server platforms, including multiple Windows 10, Windows 11, and Windows Server releases. Microsoft has shipped security feature bypass fixes for this vulnerability in the July 14, 2026 cumulative updates, with dedicated knowledge base articles and build increments for each branch.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Notable patches tied to the BitLocker security feature bypass include KB5099535 for Windows 10 Version 1607 and Windows Server 2016, KB5099538 for Windows 10 Version 1809 and Windows Server 2019, KB5099539 for Windows 10 Versions 21H2 and 22H2, KB5099540 for Windows Server 2022, and KB5101649 / KB5101650 for recent Windows 11 releases (including 24H2, 25H2, and 26H1) and Windows Server 2025. These updates raise build numbers across client and server SKUs, signaling integration of the BitLocker protection hardening.</p>\n\n\n\n<p class=\"wp-block-paragraph\">While Microsoft’s exploitability assessment labels attacks as “Exploitation Less Likely,” the threat model is particularly relevant for scenarios involving stolen laptops, compromised branch offices, or data center hardware exposed during supply-chain or on-site intrusion events. Attackers do not need existing credentials or elevated privileges, only physical access and the ability to interact with the device during boot or recovery flows.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators are urged to deploy the <a href=\"https://cybersecuritynews.com/microsoft-patch-tuesday-update-july-2026/\" target=\"_blank\" rel=\"noreferrer noopener\">July 2026 security updates</a> across all affected Windows 10, Windows 11, and Windows Server instances and verify that BitLocker remains enabled and correctly configured after patching.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations with high assurance needs should also consider layered controls such as pre-boot PINs, secure boot enforcement, and hardware-backed key storage to reduce residual risk from any future BitLocker bypasses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft credits an anonymous researcher for coordinated disclosure and directs customers to its support lifecycle documentation and update catalog for platform-specific patch guidance.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 87%,rgb(169,184,195) 100%)\"><strong>Attackers Move in Seconds. Defenses Take Hours! Blackpoint Built the Answer &#8211; </strong><a href=\"https://blackpointcyber.com/webinar/webinar-blackpoint-ai-a-decade-in-the-making/?utm_source=3s_cybersecuritynews&amp;utm_medium=&amp;utm_campaign=26q3_webinar_blackpoint-ai-a-decade-in-the-making&amp;utm_content=&amp;utm_term=\"><strong>Attend a Free Webinar</strong></a><strong> on AI SOC Agent to contain a live attack.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-bitlocker-0-day-vulnerability-2/\">Windows BitLocker 0‑Day Vulnerability Allows Hackers to Bypass Security Feature</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
     {
       "id": "sha256:11cbbeb0367897d7ba60a6cabea82652d95d905375deb37f71f76057598c35c9",
       "url": "https://cybersecuritynews.com/tego-ai-finds-claude-tag-slack-integration-can-trigger-unauthorized-enterprise-actions",
