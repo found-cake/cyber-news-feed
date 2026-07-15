@@ -1,15 +1,50 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-15T04:00:42Z",
+  "updated_at": "2026-07-15T06:00:42Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-15T04:00:42Z",
+    "last_success_at": "2026-07-15T06:00:42Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:dbea76942ceabf5e0db836f5af66b12d13c35671c1598076c2672611dda53430",
+      "url": "https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits",
+      "title": "SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits",
+      "published_at": "2026-07-15T05:19:42Z",
+      "published_raw": "Wed, 15 Jul 2026 05:19:42 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "exploited",
+        "SMA1000",
+        "SonicWall",
+        "Zero-Day"
+      ],
+      "description": "<p>SonicWall SMA1000 zero-day vulnerabilities CVE-2026-15409 and CVE-2026-15410 can be exploited for remote code execution.</p>\n<p>The post <a href=\"https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/\">SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47838",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:82f6dfa40ed4b6fd844ac055ba1add9cd4b4f6847530c8b97a0cfbbd777616db",
       "url": "https://www.securityweek.com/microsoft-patches-record-622-vulnerabilities-including-two-exploited-zero-days",
@@ -19,6 +54,7 @@
       "categories": [
         "Vulnerabilities",
         "exploited",
+        "Featured",
         "Microsoft",
         "Patch Tuesday",
         "Zero-Day"

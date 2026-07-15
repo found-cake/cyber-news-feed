@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-15T04:00:42Z",
+  "updated_at": "2026-07-15T06:00:42Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-15T04:00:42Z",
+    "last_success_at": "2026-07-15T06:00:42Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:20232cfce6cfb3c603522a53394e171d1042edc02dc896a573b0c224064d4fb7",
+      "url": "http://www.boannews.com/media/view.asp?idx=144696&kind=1&sub_kind=",
+      "title": "포티넷, 엔드포인트 내 ‘섀도우 AI’ 통제 나선다",
+      "published_at": "2026-07-15T05:28:00Z",
+      "published_raw": "Wed, 15 Jul 2026 14:28:00 +0900",
+      "categories": [],
+      "description": "‘포티엔드포인트’ 업데이트 통해 미승인 AI 도구 식별·접근 관리데이터 유출 방지 엔진 내장해 민감 정보 검사 및 사용자 안내[보안뉴스 조재호 기자] 포티넷이 자사의 통합 엔드포인트 플랫폼 ‘포티엔드포인트’(FortiEndpoint)의 AI 애플리케이션 중심 보안 가시성 및 데이터 통제 역량을 강화한다고 15일 밝혔다. 신규 기능은 2026년 3분기 정식",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:4d3938e1602e4ed6768ab4341411e023c385ffe4d1698bb92e157e280792a59f",
       "url": "http://www.boannews.com/media/view.asp?idx=144693&kind=1&sub_kind=",
@@ -182,25 +201,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:91df66f4c034c61726d7cbe48fa58f81731a657f80d289738f0cabf545e47a68",
-      "url": "http://www.boannews.com/media/view.asp?idx=144575&kind=1&sub_kind=",
-      "title": "[카드뉴스] 파일 하나 누락에 거인 붕괴… AI 공급망 무너뜨리는 ‘인적 리스크’와 대응책",
-      "published_at": "2026-07-08T06:34:00Z",
-      "published_raw": "Wed, 8 Jul 2026 15:34:00 +0900",
-      "categories": [],
-      "description": "글로벌 AI 기업 앤트로픽의 ‘클로드’ 내부 소스코드 51만 줄이 외부에 유출되는 사고가 발생했으며, 그 원인은 외부 해커의 침투가 아닌 배포 설정 오류인 것으로 밝혀졌다. 이번 사고는 .npmignore 명령어 한 줄이 누락되는 사소한 인적 오류(Human Error)가 시스템 자동화를 타고 대규모 ‘자율형 유출’로 확산된 소프트웨어 공급망의 전형적인 보",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[지진솔기자 (digital@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:35b7723c49a6da28fd3c42570d83ce11f65af2c9ab2357adae4a25b6c19712b3",
       "url": "http://www.boannews.com/media/view.asp?idx=144693&kind=&sub_kind=",
       "title": "‘저금리’ 유혹 주의...대출 사기 피싱 162% 증가",
@@ -326,6 +326,25 @@
       "authors": [
         {
           "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:91df66f4c034c61726d7cbe48fa58f81731a657f80d289738f0cabf545e47a68",
+      "url": "http://www.boannews.com/media/view.asp?idx=144575&kind=1&sub_kind=",
+      "title": "[카드뉴스] 파일 하나 누락에 거인 붕괴… AI 공급망 무너뜨리는 ‘인적 리스크’와 대응책",
+      "published_at": "2026-07-08T06:34:00Z",
+      "published_raw": "Wed, 8 Jul 2026 15:34:00 +0900",
+      "categories": [],
+      "description": "글로벌 AI 기업 앤트로픽의 ‘클로드’ 내부 소스코드 51만 줄이 외부에 유출되는 사고가 발생했으며, 그 원인은 외부 해커의 침투가 아닌 배포 설정 오류인 것으로 밝혀졌다. 이번 사고는 .npmignore 명령어 한 줄이 누락되는 사소한 인적 오류(Human Error)가 시스템 자동화를 타고 대규모 ‘자율형 유출’로 확산된 소프트웨어 공급망의 전형적인 보",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[지진솔기자 (digital@boannews.com)]",
           "uri": "",
           "email": ""
         }
