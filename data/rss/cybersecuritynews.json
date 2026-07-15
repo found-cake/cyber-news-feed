@@ -1,15 +1,84 @@
 {
   "schema_version": 1,
   "source": "cybersecuritynews",
-  "updated_at": "2026-07-15T08:00:19Z",
+  "updated_at": "2026-07-15T10:00:22Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-15T08:00:19Z",
+    "last_success_at": "2026-07-15T10:00:22Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:f1462cd519d84b444d3fd5d872aeb51b5f59d77fd3081609c40b9d2c055c1f2f",
+      "url": "https://cybersecuritynews.com/sonicwall-firewall-0-day-vulnerabilities-exploited",
+      "title": "Critical SonicWall Firewall 0-Day Vulnerabilities Actively Exploited in Attacks",
+      "published_at": "2026-07-15T08:21:57Z",
+      "published_raw": "Wed, 15 Jul 2026 08:21:57 +0000",
+      "categories": [
+        "Cyber Security News",
+        "Vulnerability News",
+        "cyber security"
+      ],
+      "description": "<p>SonicWall has issued an urgent security advisory regarding two vulnerabilities affecting its SMA1000 Series appliances. The company is warning that attackers are actively exploiting these flaws in real-world attacks. The most critical issue, tracked as CVE-2026-15409, carries a maximum CVSS severity score of 10.0 and can be exploited remotely without requiring authentication. The vulnerabilities impact [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/sonicwall-firewall-0-day-vulnerabilities-exploited/\">Critical SonicWall Firewall 0-Day Vulnerabilities Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=155951",
+      "authors": [
+        {
+          "name": "Abinaya",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Critical-SonicWall-Firewall-0-Day-Vulnerabilities-Actively-Exploited-in-Attacks-.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "155951",
+          "content_encoded": "<p class=\"wp-block-paragraph\">SonicWall has issued an urgent security advisory regarding two <a href=\"https://cybersecuritynews.com/sonicwall-sma1000-0-day-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">vulnerabilities affecting its SMA1000</a> Series appliances. The company is warning that attackers are actively exploiting these flaws in real-world attacks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The most critical issue, tracked as CVE-2026-15409, carries a maximum CVSS severity score of 10.0 and can be exploited remotely without requiring authentication.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerabilities impact SonicWall SMA1000 models 6210, 7210, and 8200, specifically those running certain versions of platform-hotfix releases 12.4.3 and 12.5.0.</p>\n\n\n\n<h2 id=\"h-sonicwall-firewall-0-day-vulnerabilities\" class=\"wp-block-heading\"><strong>SonicWall Firewall 0-Day Vulnerabilities</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">SonicWall clarified that these flaws do not affect <a href=\"https://cybersecuritynews.com/edr-killer-via-sonicwall-sslvpn/\" target=\"_blank\" rel=\"noreferrer noopener\">SSL-VPN services</a> on its firewall products or the SMA 100 Series appliance line. CVE-2026-15409 is a server-side request forgery (SSRF) vulnerability found in the SMA1000 Workplace interface.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An unauthenticated remote attacker could exploit this flaw to force a vulnerable appliance to send requests to unintended internal or external locations.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://cybersecuritynews.com/exchange-ssrf-poc-exploit-released/\" target=\"_blank\" rel=\"noreferrer noopener\">SSRF vulnerabilities</a> may allow attackers to access services that are typically not reachable from the internet, probe internal network resources, or facilitate further compromise.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The second issue, CVE-2026-15410, is a post-authentication code injection vulnerability within the SMA1000 Appliance Management Console, which has a CVSS score of 7.2.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Under certain conditions, an authenticated administrator could <a href=\"https://cybersecuritynews.com/akira-ransomware-uses-sonicwall-vpn-exploit/\" target=\"_blank\" rel=\"noreferrer noopener\">exploit this vulnerability </a>to execute arbitrary operating system commands on the appliance.</p>\n\n\n\n<p class=\"wp-block-paragraph\">While this flaw requires administrator-level access, it could give an attacker full control over the affected system if they obtain credentials or compromise an administrative session.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The SonicWall Product Security Incident Response Team (PSIRT) has investigated multiple incidents involving the active exploitation of these vulnerabilities.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Although the company did not disclose technical details about the threat actors or specific attacks, it strongly urges customers to install the available hotfix immediately, as no workaround is currently available.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations using affected devices should upgrade their SMA1000 appliances to platform-hotfix version 12.4.3-0345 or later for the 12.4.3 branch, or version 12.5.0-0283 or later for the 12.5.0 branch. The hotfix can be accessed via the MySonicWall customer portal.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should also review appliance logs and configuration files for signs of exploitation. <a href=\"https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0008\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">SonicWall identified</a> suspicious requests to /api/login or /api/logout that return HTTP 200 responses in extraweb_access.log as potential indicators of compromise.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Requests to /wsproxy with suspicious host parameters that return HTTP 101 responses may also signify malicious activity. Other warning signs include hotfix rollback entries with path traversal-like names in ctrl-service.log.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should inspect /var/lib/unit/conf.json for routes that involve /api/login or /api/logout, as these paths do not belong to legitimate SMA1000 configurations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If any evidence of compromise is found, SonicWall recommends re-imaging the affected hardware appliances or redeploying the virtual appliances.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should also reset all user and administrator passwords, as well as reset time-based one-time password tokens to invalidate potentially stolen authentication credentials.</p>\n\n\n\n<p class=\"wp-block-paragraph\">SonicWall credited PSIRT researcher Adam Babis for reporting the vulnerabilities and thanked Sean Koessel and Steven Adair of Volexity for assisting with the investigation and helping identify an additional indicator of compromise.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 87%,rgb(169,184,195) 100%)\"><strong>Attackers Move in Seconds. Defenses Take Hours! Blackpoint Built the Answer &#8211; </strong><a href=\"https://blackpointcyber.com/webinar/webinar-blackpoint-ai-a-decade-in-the-making/?utm_source=3s_cybersecuritynews&amp;utm_medium=&amp;utm_campaign=26q3_webinar_blackpoint-ai-a-decade-in-the-making&amp;utm_content=&amp;utm_term=\"><strong>Attend a Free Webinar</strong></a><strong> on AI SOC Agent to contain a live attack.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/sonicwall-firewall-0-day-vulnerabilities-exploited/\">Critical SonicWall Firewall 0-Day Vulnerabilities Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
+    {
+      "id": "sha256:44bb16e317eb2edb2d4837f613c9fafd5c7f43c6686713d1cc8e388bf1eacdbf",
+      "url": "https://cybersecuritynews.com/researcher-bypass-of-eu-age-verification",
+      "title": "Researcher Claims Bypass of EU Age Verification App Using Chrome Extension",
+      "published_at": "2026-07-15T08:16:28Z",
+      "published_raw": "Wed, 15 Jul 2026 08:16:28 +0000",
+      "categories": [
+        "Cyber Security",
+        "Cyber Security News"
+      ],
+      "description": "<p>Security researcher Paul Moore has once again exposed critical weaknesses in the EU’s flagship age verification system, this time by bypassing the latest app release (version 2026.07-1) using a Chrome extension powered by ClaudeAI. The proof-of-concept shows that, despite months of “security hardening,” a fundamental design flaw in the anonymous age verification model still allows [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/researcher-bypass-of-eu-age-verification/\">Researcher Claims Bypass of EU Age Verification App Using Chrome Extension</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=155946",
+      "authors": [
+        {
+          "name": "Guru Baran",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Researcher-Bypass-of-EU-Age-Verification.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "155946",
+          "content_encoded": "<p class=\"wp-block-paragraph\">Security researcher Paul Moore has <a href=\"https://cybersecuritynews.com/eus-age-verification-app/\" target=\"_blank\" rel=\"noreferrer noopener\">once again exposed critical weaknesses</a> in the EU’s flagship age verification system, this time by bypassing the latest app release (version 2026.07-1) using a Chrome extension powered by ClaudeAI.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The proof-of-concept shows that, despite months of “security hardening,” a fundamental design flaw in the anonymous age verification model still allows reusable over‑18 attestations without tying them to a real user identity.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In a newly published video on X, Paul demonstrates how the updated EU age verification app can be tricked into repeatedly accepting the same “over 18” token in the browser, without any fresh verification or identity linkage.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-x wp-block-embed-x\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"embed-x\"><blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Bypassing the latest <a href=\"https://x.com/hashtag/EU?src=hash&amp;ref_src=twsrc%5Etfw\">#EU</a> <a href=\"https://x.com/hashtag/ageVerification?src=hash&amp;ref_src=twsrc%5Etfw\">#ageVerification</a> app (2026.07-1) with a Chrome extension&#8230; again.<br><br>Despite 3 months of security hardening and genuine improvements across the board, the fundamental issue cannot be solved.<br><br>Anonymous age verification doesn&#39;t work. <a href=\"https://t.co/NSfvuQAeXz\">https://t.co/NSfvuQAeXz</a> <a href=\"https://t.co/hwRTxiZiwZ\">pic.twitter.com/hwRTxiZiwZ</a></p>&mdash; Paul Moore &#8211; Security Consultant  (@Paul_Reviews) <a href=\"https://x.com/Paul_Reviews/status/2077029355587334526?ref_src=twsrc%5Etfw\">July 14, 2026</a></blockquote><script async src=\"https://platform.x.com/widgets.js\" charset=\"utf-8\"></script></div>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Instead of attacking the cryptography or breaking server-side checks, the Chrome extension intercepts and replays the anonymous age proof whenever a site requests age verification, effectively reusing a single successful attestation across multiple sessions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Because the app is designed to confirm only that a user is above a certain age while deliberately withholding personal information, the relying website never knows whether the proof belongs to the person actually at the keyboard. This separation between age assertion and user identity becomes the core weakness the extension exploits.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-x wp-block-embed-x\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"embed-x\"><blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Notes:<br>This PoC was created entirely by <a href=\"https://x.com/hashtag/ClaudeAI?src=hash&amp;ref_src=twsrc%5Etfw\">#ClaudeAI</a> in a matter of minutes.<br>Don&#39;t focus on enrolment (that part is invalid in a test environment). Instead, focus on the presentation and the fact the verifier has *absolutely no information* other than an &quot;over 18&quot; attestation, so…</p>&mdash; Paul Moore &#8211; Security Consultant  (@Paul_Reviews) <a href=\"https://x.com/Paul_Reviews/status/2077029358221332892?ref_src=twsrc%5Etfw\">July 14, 2026</a></blockquote><script async src=\"https://platform.x.com/widgets.js\" charset=\"utf-8\"></script></div>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">At the heart of the issue is the EU’s policy goal: “privacy-preserving” age checks that do not share names, IDs, or other sensitive data with websites. Technically, this translates into an anonymous attestation model, where the verifier receives a binary statement such as “user is over 18” rather than a full identity profile.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Paul’s bypass shows that, in practice, this anonymity prevents robust binding between the attestation, the user, and the specific session. If a single valid over‑18 token can be captured and replayed, the system cannot distinguish legitimate use from abuse.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The result is a situation where any technically capable user or a malicious actor can effectively turn one genuine verification into a generic “adult access pass” for multiple sites and contexts.</p>\n\n\n\n<p class=\"wp-block-paragraph\">EU officials have claimed that the app has undergone three months of security improvements, including better storage of secrets and hardened client-side protections.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Yet Paul said that incremental patches cannot solve the underlying architectural problem: the trust model still hinges on anonymous, reusable proofs with limited context and weak resistance to replay or automation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">From a security engineering standpoint, this is less a “bug” and more a structural mismatch between privacy requirements and enforcement needs.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For website operators preparing for EU age verification mandates, Paul’s work is a warning that relying solely on the official app may not deliver the intended protection.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Attackers do not need zero-day exploits or complex malware; they can leverage browser automation and extension logic to bypass policy controls at the integration layer.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 87%,rgb(169,184,195) 100%)\"><strong>Attackers Move in Seconds. Defenses Take Hours! Blackpoint Built the Answer &#8211; </strong><a href=\"https://blackpointcyber.com/webinar/webinar-blackpoint-ai-a-decade-in-the-making/?utm_source=3s_cybersecuritynews&amp;utm_medium=&amp;utm_campaign=26q3_webinar_blackpoint-ai-a-decade-in-the-making&amp;utm_content=&amp;utm_term=\"><strong>Attend a Free Webinar</strong></a><strong> on AI SOC Agent to contain a live attack.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/researcher-bypass-of-eu-age-verification/\">Researcher Claims Bypass of EU Age Verification App Using Chrome Extension</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
     {
       "id": "sha256:9d9d64d637d3b4f16f9e7afc521c8839cd52dd7131e3d9382985015c1791a066",
       "url": "https://cybersecuritynews.com/chinese-hackers-ai-attacks",
