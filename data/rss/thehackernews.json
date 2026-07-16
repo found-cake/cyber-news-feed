@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-16T12:00:20Z",
+  "updated_at": "2026-07-16T14:01:11Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-16T12:00:20Z",
+    "last_success_at": "2026-07-16T14:01:11Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:9a667808f9a4bf6d5ea20081b8289f2caf9d129b37a9122e6757696f3421b5c0",
+      "url": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
+      "title": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
+      "published_at": "2026-07-16T12:50:13Z",
+      "published_raw": "2026-07-16T18:20:13.209+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Cybersecurity researchers have called attention to a new modular malware called TELEPUZ that's been spreading via websites infected with ClickFix lures since late April 2026.\n\n\"The malware is full-featured, lightweight, and modular,\" Elastic Security Labs researcher Cyril François said in a technical report. \"While the number of C2 [command-and-control] domains is currently small, the daily",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5852319058335790014",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhv5Rn7Ccy_az1UqogtcMmy8m09NuHcnSuylWjVMecOfxDKbvUAt4FnqKIJp4uZUcOPUmnYGIywea1nJG-yiSqcQbPC-ULonG5US-gEbUnkEHbGN3cVnQdkqbxKGt0EY4We_j8V9RrH4NVgtbPFEfc5mdMxV9sTOWSx_p3ShB0LWleupJbo74xMVlGHistw/s260-e100/click-malware.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:bb49257ac2827077c3346e36b02605cb3d03d49f8f3361d44b623b9fc5895f27",
       "url": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
@@ -490,6 +517,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge0sNgi3moDw0JpFy3UdFB6bK0oxjaqc8ORZFecu5QqxA_wgpoWT1t56L9u2wScSkxYHP2aLO3N01yCPd8IkTBEyc_MvxIaG6BKzneB0LcXuwO_nEorvNvyvuEL3Krp003q6xOF0gePQCXN_bDswxBIhqV7q89_HY9mIxJ5ySShQwtU_jSa9FQnt0tq0RU/s260-e100/admin.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:ae03488274cf3725120a47f888f22806fc59c11f99de4ee17467ef1d81e688d9",
+      "url": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
+      "title": "n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer",
+      "published_at": "2026-07-16T13:33:25Z",
+      "published_raw": "2026-07-16T19:03:25.069+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "n8n, the workflow automation platform, handed out the wrong accounts at login. On Enterprise instances configured to trust more than one external token issuer, it matched an incoming JWT to a local user on the&nbsp;sub&nbsp;claim alone and ignored&nbsp;iss.\n\nA valid token from issuer A carrying a&nbsp;sub&nbsp;that belongs to someone under issuer B logged you in as them. Their password never",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-110589297598925061",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1Pvezsft8WXzYy1Lw3zKDZrkf0TNZfj95rzTnuQgzbJuztRDNDFK35ahO9UfhNJOicjjuzyZGFCtC_idBl8vgNdw4kzfeYFo6LwUur66S5qUTO2Bl3WVLwCDWoDTnw4dlZdj_ZQ1T2JcG1dWfJeoO3WDZs94EVm9z0hZ8VPL36KDpaAmw7fH9hSWSSaw/s260-e100/n8n-main.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1118,33 +1172,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:e7072c365c4f14e2943c8ecbed82d018f48d70ceff463832e5ca2241ee487b31",
-      "url": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
-      "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Cryptocurrency Wallets",
-      "published_at": "2026-07-10T09:00:05Z",
-      "published_raw": "2026-07-10T14:30:05.020+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Security firm&nbsp;Coinspect&nbsp;has disclosed a crypto wallet flaw it calls&nbsp;Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words that control the money. When that phrase is made with weak randomness, an attacker can work it out and take everything it controls.\n\nThe firm has confirmed one coordinated sweep on May 27",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7094792729580444555",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAkED95MupJS7PoLW-VquW2mYDI869jXcCfUDUH240NRo4Yo_T63CRuicNBeGadfXW4MvDfie5vJqJ-bXkfD0VQPUl6_iUSR6C0csoL_JDjEeQmQGBoO9DDfdwzNpS8G4dendKvweGkYQypGPVx-_z0cQd_kmdVIA4YFRxNJiIwKpwU1wIUC5H8gnGDgg/s260-e100/crypto-wallet.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:4e6a511c59f1852d42cf810653617173fbb20c7f0bc2977cb09c4db19d4e483e",
       "url": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
       "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
@@ -1219,6 +1246,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitErUXjxgvdr7CLGa67wtfentIJSFkobxbyIMtQNK4mzNTyf_3Mq9mckQNCGONMFqVaCvkvNKf7FqJfevWKstiWEOxt5wDlV_Fus-Ob3bo9vkMb3m5natJZjHhG-0r4FbH5UUBP4aiGtLcJ7mFIIwLw7IPIHOqw5ln1kAC_ZsiOvllGmVXws4bCXBGugBu/s260-e100/server-hacker.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:e7072c365c4f14e2943c8ecbed82d018f48d70ceff463832e5ca2241ee487b31",
+      "url": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
+      "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Cryptocurrency Wallets",
+      "published_at": "2026-07-10T09:00:05Z",
+      "published_raw": "2026-07-10T14:30:05.020+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Security firm&nbsp;Coinspect&nbsp;has disclosed a crypto wallet flaw it calls&nbsp;Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words that control the money. When that phrase is made with weak randomness, an attacker can work it out and take everything it controls.\n\nThe firm has confirmed one coordinated sweep on May 27",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7094792729580444555",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAkED95MupJS7PoLW-VquW2mYDI869jXcCfUDUH240NRo4Yo_T63CRuicNBeGadfXW4MvDfie5vJqJ-bXkfD0VQPUl6_iUSR6C0csoL_JDjEeQmQGBoO9DDfdwzNpS8G4dendKvweGkYQypGPVx-_z0cQd_kmdVIA4YFRxNJiIwKpwU1wIUC5H8gnGDgg/s260-e100/crypto-wallet.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1570,33 +1624,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG42lgj1grtq5EQICr-9RYvPU59uHFRBluzVoZ3TZLXEXBcF5bOPerpb_Ck-e6oNz6P4MO1VAiqbBXuPbImhng1CoRnRYHWSZTGOloHmYB5khhpCK5wW348uMgqmWIjTQPnOwCGV7OiPXJoJDWV0n1IPGP80hADXD3AnmRKbTb8jxyGQenhlgIpvNo29I/s260-e100/linux-kvm.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:cd04d93b37a55539278314e0d781db67e7df90b184eee0286dd98fb7a2816f28",
-      "url": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
-      "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
-      "published_at": "2026-07-06T13:01:14Z",
-      "published_raw": "2026-07-06T18:31:14.814+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "A streaming box should not need a threat model. Neither should a username field, a demo repo, a reset flow, or a browser permission prompt. That is the irritating part this week: the risky pieces were ordinary.\n\nHome devices became a routing cover. Clean code pulled dirt from a dependency. Identity shortcuts aged badly. AI systems trusted the wrong instructions. Same soft spot throughout: trust",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5220500187640187073",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLyTSo2j_jLDBALDaJ6S4gpQf2xkxgGWRslJKuVLIrY-J7nsEG-zNgi02OKeABO5BNXCI1C05oTO1TdYYMtzjCHE7ugevubBOybwilFTXFY6wgXDBVkzMV3-cyYyZUfd-sfXmlfTtgyouay2kJYwxfclTk2M6PPOaLWdR-26P3TYuIm1l5wjQfoPVzk-ca/s260-e100/recapss.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
