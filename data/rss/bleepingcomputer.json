@@ -1,15 +1,57 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-16T20:01:09Z",
+  "updated_at": "2026-07-16T22:01:06Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-16T20:01:09Z",
+    "last_success_at": "2026-07-16T22:01:06Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:330f595d2bf5ee3b6aebf29819a08d463d533f5a184da6ebae5dc102fc9f1174",
+      "url": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password",
+      "title": "New ClickLock macOS malware traps users into revealing login password",
+      "published_at": "2026-07-16T21:52:54Z",
+      "published_raw": "Thu, 16 Jul 2026 17:52:54 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:f05c64d67acdc2f54ae346fa73b49cfc8cb782392754d390d2df82e8d180ea6c",
+      "url": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production",
+      "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
+      "published_at": "2026-07-16T21:09:41Z",
+      "published_raw": "Thu, 16 Jul 2026 17:09:41 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspending production of Fairlife products across the United States. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:5f56279bc91c9b896f55758c28ad7d34d4dd4ceba2f7be041b668fb8534f3895",
       "url": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions",
@@ -1577,48 +1619,6 @@
       "authors": [
         {
           "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:81492081c73379ec9223d72b1e8a47b43034efea503c2e8fed8c2c431eafc60c",
-      "url": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts",
-      "title": "Phishing poses as big-brand job interview to steal Google accounts",
-      "published_at": "2026-07-06T20:27:37Z",
-      "published_raw": "Mon, 06 Jul 2026 16:27:37 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A phishing campaign is impersonating more than 30 well-known brands, including Adobe, Netflix, Coca-Cola, and OpenAI, in fake job interviews to steal Google account credentials from marketing professionals. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
-      "authors": [
-        {
-          "name": "Ionut Ilascu",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:9f9dcf40f5042933b7290859e7d6cb8816673cfcb293be631956cb6759f4b766",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware",
-      "title": "Fake IT support calls on Microsoft Teams push EtherRAT malware",
-      "published_at": "2026-07-06T20:23:45Z",
-      "published_raw": "Mon, 06 Jul 2026 16:23:45 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Threat actors are abusing Microsoft Teams voice calls by impersonating corporate IT support staff to trick employees into installing the EtherRAT malware, giving attackers initial access to corporate networks. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
           "uri": "",
           "email": ""
         }
