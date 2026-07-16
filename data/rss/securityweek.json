@@ -1,15 +1,87 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-16T10:00:20Z",
+  "updated_at": "2026-07-16T12:00:20Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-16T10:00:20Z",
+    "last_success_at": "2026-07-16T12:00:20Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:8e3a3f802df1c41800f180707f2bd7f17322c52bc0812b5072a0a10e9051897d",
+      "url": "https://www.securityweek.com/oak-emerges-from-stealth-mode-with-60-million-in-funding",
+      "title": "Oak Emerges From Stealth Mode With $60 Million in Funding",
+      "published_at": "2026-07-16T11:23:56Z",
+      "published_raw": "Thu, 16 Jul 2026 11:23:56 +0000",
+      "categories": [
+        "Cybersecurity Funding",
+        "Identity & Access",
+        "emerge from stealth",
+        "funding",
+        "identity",
+        "Oak",
+        "seed funding"
+      ],
+      "description": "<p>The startup has built an AI-powered Identity Operating System that governs all identities across an organization’s environment.</p>\n<p>The post <a href=\"https://www.securityweek.com/oak-emerges-from-stealth-mode-with-60-million-in-funding/\">Oak Emerges From Stealth Mode With $60 Million in Funding</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47913",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:f136444ffb02dd224288f1d527629f2e764bf2c30a72e036908dac94fb6881ff",
+      "url": "https://www.securityweek.com/splunk-zoom-patch-critical-vulnerabilities",
+      "title": "Splunk, Zoom Patch Critical Vulnerabilities",
+      "published_at": "2026-07-16T10:54:34Z",
+      "published_raw": "Thu, 16 Jul 2026 10:54:34 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "patches",
+        "Splunk",
+        "vulnerability",
+        "Zoom"
+      ],
+      "description": "<p>The flaws could allow attackers to access credentials and data, take over accounts, and escalate their privileges.</p>\n<p>The post <a href=\"https://www.securityweek.com/splunk-zoom-patch-critical-vulnerabilities/\">Splunk, Zoom Patch Critical Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47911",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:83959c8a432f3cd4dd6d549a1b1a7ef18a2427777140c3af0ec1ac3378b54d19",
       "url": "https://www.securityweek.com/f5-patches-multiple-nginx-big-ip-vulnerabilities",
@@ -2468,39 +2540,6 @@
       ],
       "description": "<p>Organizations are urged to patch after proof-of-concept code makes the Linux root escalation flaw easier to exploit.</p>\n<p>The post <a href=\"https://www.securityweek.com/proof-of-concept-exploit-released-for-linux-bad-epoll-root-access-vulnerability/\">Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
       "feed_id": "https://www.securityweek.com/?p=47632",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:b6054fef6b7eb795ba55c03b30841c4ca3febafa1b115a3a805cf13ce77de862",
-      "url": "https://www.securityweek.com/prompt-injection-attacks-trick-ai-agents-into-making-crypto-payments",
-      "title": "Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments",
-      "published_at": "2026-07-06T11:19:47Z",
-      "published_raw": "Mon, 06 Jul 2026 11:19:47 +0000",
-      "categories": [
-        "Artificial Intelligence",
-        "Cybercrime",
-        "cryptocurrency"
-      ],
-      "description": "<p>Researchers uncovered two campaigns embedding indirect prompt injections in malicious websites to exploit autonomous AI agents browsing the web.</p>\n<p>The post <a href=\"https://www.securityweek.com/prompt-injection-attacks-trick-ai-agents-into-making-crypto-payments/\">Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47630",
       "authors": [
         {
           "name": "Ionut Arghire",
