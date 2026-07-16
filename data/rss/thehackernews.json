@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-16T16:01:13Z",
+  "updated_at": "2026-07-16T18:01:08Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-16T16:01:13Z",
+    "last_success_at": "2026-07-16T18:01:08Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -490,33 +490,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj80nucNUGoxxOtE3SUY1SkDSu77qENrl96c2MUoLWdwAo3ZVoA4FS2QfOdM9c5bsZUJdX1ZxIsXgu7pvVfUzXz3GMZJHmblFTjv5C08dbxvLqXol72iHaD-zH950EZdXUCS-b7F2T-bn8SgqQb9nXA-uOPIaX5V0eaNNmKlQJfWHAKaPAhqsgNL0wTgJH6/s260-e100/cavern.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:4488624860bdc457aeacdd2a38bcd358a244a54a6b84ca074e94a486992535ab",
-      "url": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
-      "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
-      "published_at": "2026-07-06T16:28:59Z",
-      "published_raw": "2026-07-06T21:58:59.864+05:30",
-      "categories": [
-        "threat-intelligence"
-      ],
-      "description": "Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig.\n\nThe vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the \"X-WEBAUTH-USER\" header from any source IP address, effectively allowing an unauthenticated internet client to get elevated",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5788298597453887338",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge0sNgi3moDw0JpFy3UdFB6bK0oxjaqc8ORZFecu5QqxA_wgpoWT1t56L9u2wScSkxYHP2aLO3N01yCPd8IkTBEyc_MvxIaG6BKzneB0LcXuwO_nEorvNvyvuEL3Krp003q6xOF0gePQCXN_bDswxBIhqV7q89_HY9mIxJ5ySShQwtU_jSa9FQnt0tq0RU/s260-e100/admin.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1624,33 +1597,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim5I3ndx1DHNKSznD7AT_CM4ApiaXDfZcQAwsCSDnHq7u8dkGcOzway-IBZJ44bFJintaRMSry4yHbaacESRFOJsRC_UBV6N9l_K4ICcqWsZ2E4zQ5BGibAkxjxm0qPYiiLEvAvDizmPZVYwXC6jN9pgB5G-3xZ9ifiEWisKsZoi9rBjJN1mepJjPl61s9/s260-e100/bt.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:006a797fc25d645ec856667bfe9f2282bcdb1cfe4f1df71448d9d506080c6b8a",
-      "url": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
-      "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
-      "published_at": "2026-07-06T17:37:01Z",
-      "published_raw": "2026-07-06T23:07:01.469+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it.\n\nDubbed 'Januscape' and tracked as&nbsp;CVE-2026-53359, the flaw sits in the shadow MMU code that KVM shares across both Intel and AMD. The public proof-of-concept panics the host; the researcher claims that a separate, unreleased exploit",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1231965332043116366",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG42lgj1grtq5EQICr-9RYvPU59uHFRBluzVoZ3TZLXEXBcF5bOPerpb_Ck-e6oNz6P4MO1VAiqbBXuPbImhng1CoRnRYHWSZTGOloHmYB5khhpCK5wW348uMgqmWIjTQPnOwCGV7OiPXJoJDWV0n1IPGP80hADXD3AnmRKbTb8jxyGQenhlgIpvNo29I/s260-e100/linux-kvm.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
