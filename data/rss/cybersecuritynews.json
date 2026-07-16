@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "cybersecuritynews",
-  "updated_at": "2026-07-16T02:00:20Z",
+  "updated_at": "2026-07-16T04:00:19Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-16T02:00:20Z",
+    "last_success_at": "2026-07-16T04:00:19Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:26ef79638192247a4a6efe54cd796bc9ffa1e48db8a7cffcfc93f49dde814a43",
+      "url": "https://cybersecuritynews.com/f5-patches-multiple-nginx-vulnerabilities",
+      "title": "F5 Patches Multiple NGINX Vulnerabilities Enabling Heap Buffer Overflow and Code Execution Attacks",
+      "published_at": "2026-07-16T03:31:09Z",
+      "published_raw": "Thu, 16 Jul 2026 03:31:09 +0000",
+      "categories": [
+        "Cyber Security News",
+        "Vulnerability News",
+        "cyber security",
+        "vulnerability"
+      ],
+      "description": "<p>F5 has disclosed three high-severity vulnerabilities affecting NGINX Plus and NGINX Open Source, warning that unauthenticated attackers could exploit them to trigger memory corruption, crash worker processes, or, in the worst case, execute arbitrary code. The vulnerabilities, published on July 15, 2026, affect widely used NGINX components, including the Ingress Controller, Gateway Fabric, App Protect [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/f5-patches-multiple-nginx-vulnerabilities/\">F5 Patches Multiple NGINX Vulnerabilities Enabling Heap Buffer Overflow and Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=156067",
+      "authors": [
+        {
+          "name": "Guru Baran",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/F5-Patches-Multiple-NGINX-Vulnerabilities.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "156067",
+          "content_encoded": "<p class=\"wp-block-paragraph\">F5 has disclosed three high-severity vulnerabilities affecting <a href=\"https://cybersecuritynews.com/nginx-vulnerability-patched/\" target=\"_blank\" rel=\"noreferrer noopener\">NGINX Plus and NGINX Open Source</a>, warning that unauthenticated attackers could exploit them to trigger memory corruption, crash worker processes, or, in the worst case, execute arbitrary code.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerabilities, published on July 15, 2026, affect widely used NGINX components, including the Ingress Controller, Gateway Fabric, App Protect WAF, and Instance Manager.</p>\n\n\n\n<h3 id=\"h-cve-2026-42533-heap-buffer-overflow\" class=\"wp-block-heading\"><strong><a href=\"https://my.f5.com/manage/s/article/K000162097\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CVE-2026-42533: Heap Buffer Overflow</a></strong></h3>\n\n\n\n<p class=\"wp-block-paragraph\">The most serious of the three, CVE-2026-42533, carries a CVSS v3.1 score of 8.1 (High) and a CVSS v4.0 score of 9.2 (Critical). It stems from how the <code>map</code> directive handles regex matching when a string expression references capture variables before the map&#8217;s output variable. An attacker can send crafted HTTP requests to trigger a heap buffer overflow (CWE-122) in the NGINX worker process.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Beyond crashing the service, F5 warns attackers could achieve code execution on systems where Address Space Layout Randomization (ASLR) is disabled or bypassed. F5 recommends switching to named regex captures instead of unnamed ones as a mitigation.</p>\n\n\n\n<h3 id=\"h-cve-2026-60005-uninitialized-memory-disclosure\" class=\"wp-block-heading\"><strong><a href=\"https://my.f5.com/manage/s/article/K000162100\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CVE-2026-60005: Uninitialized Memory Disclosure</a></strong></h3>\n\n\n\n<p class=\"wp-block-paragraph\">This flaw (CVSS 8.2/8.8) affects the <code>ngx_http_slice_module</code>, which isn&#8217;t enabled by default and requires the <code>--with-http_slice_module</code> build flag.</p>\n\n\n\n<p class=\"wp-block-paragraph\">When the <code>slice</code> directive is paired with unnamed regex captures, or during background cache updates, attackers can access uninitialized memory, causing limited data leakage or a worker restart. Mitigation again involves using named captures.</p>\n\n\n\n<h3 id=\"h-cve-2026-56434-use-after-free\" class=\"wp-block-heading\"><strong><a href=\"https://my.f5.com/manage/s/article/K000162098\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CVE-2026-56434: Use-After-Free</a></strong></h3>\n\n\n\n<p class=\"wp-block-paragraph\">Rated Medium/High (6.5 CVSS v3.1, 8.3 CVSS v4.0), this bug affects the <code>ngx_http_ssi_module</code> when Server-Side Includes are used alongside <code>proxy_pass</code> and <code>proxy_buffering off</code>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A man-in-the-middle attacker controlling upstream responses could trigger a <a href=\"https://cybersecuritynews.com/use-after-free-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">use-after-free (CWE-416)</a>, leading to limited memory modification or a crash. No mitigation exists beyond patching.</p>\n\n\n\n<p class=\"wp-block-paragraph\">All three vulnerabilities affect the same range of products:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>NGINX Plus (37.x): fixed in 37.0.3.1</li>\n\n\n\n<li>NGINX Open Source (1.x): fixed in 1.31.3 / 1.30.4</li>\n\n\n\n<li>NGINX Ingress Controller, Gateway Fabric, App Protect WAF, and Instance Manager are also affected, with fixes rolling out per branch (some branches still awaiting patches)</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Notably, BIG-IP, BIG-IQ, F5 Distributed Cloud, F5OS, and F5 AI Gateway are not vulnerable; the issues are confined to NGINX&#8217;s data plane components.</p>\n\n\n\n<p class=\"wp-block-paragraph\">NGINX powers a massive share of internet-facing infrastructure, making these flaws attractive targets for opportunistic attackers, especially CVE-2026-42533 given its code-execution potential.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations running affected NGINX Plus, Ingress Controller, or Gateway Fabric deployments should prioritize patching immediately, particularly if <code>map</code> directives with regex captures, or the SSI module are in active use.</p>\n\n\n\n<p class=\"wp-block-paragraph\">F5 credited over a dozen independent researchers — including teams from AntAISecurityLab, EVO.company, and Vodafone Türkiye — for responsibly disclosing CVE-2026-42533, while CVE-2026-60005 was found internally and CVE-2026-56434 was reported by researcher p4p3r.</p>\n\n\n\n<p class=\"has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 87%,rgb(169,184,195) 100%)\"><strong> Strengthen Your SOC by Accelerating Threat Detection &amp; Rapid Investigations. -> <a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate ANY.RUN With Your SOC </a><strong><a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Now</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/f5-patches-multiple-nginx-vulnerabilities/\">F5 Patches Multiple NGINX Vulnerabilities Enabling Heap Buffer Overflow and Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
     {
       "id": "sha256:62c1712a36e0121edcbe0a759a6e7ba4b8589c227ad79a3a6f734cedaf640f6f",
       "url": "https://cybersecuritynews.com/hackers-expanding-destiny-stealer-across-the-us-and-europe-is-your-organization-ready-to-defend",
