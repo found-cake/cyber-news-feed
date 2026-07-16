@@ -1,15 +1,58 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-16T18:01:08Z",
+  "updated_at": "2026-07-16T20:01:09Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-16T18:01:08Z",
+    "last_success_at": "2026-07-16T20:01:09Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:5f56279bc91c9b896f55758c28ad7d34d4dd4ceba2f7be041b668fb8534f3895",
+      "url": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions",
+      "title": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
+      "published_at": "2026-07-16T19:26:07Z",
+      "published_raw": "Thu, 16 Jul 2026 15:26:07 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A flaw in Anthropic's Claude for Chrome browser extension could allow a malicious extension to trigger predefined AI actions by simulating user clicks, potentially allowing it to abuse Claude's access to connected services such as Gmail, Google Docs, Google Calendar, and Salesforce. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:e492f0cda836b6b32bf9a036b336f596fc4bb9025c11ae00f9682e37e6f5182c",
+      "url": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto",
+      "title": "New OkoBot framework deploys 20 payloads to steal data, crypto",
+      "published_at": "2026-07-16T19:09:35Z",
+      "published_raw": "Thu, 16 Jul 2026 15:09:35 -0400",
+      "categories": [
+        "security",
+        "CryptoCurrency"
+      ],
+      "description": "A new malicious framework called OkoBot is delivering more than 20 payloads in attacks focused on stealing cryptocurrency wallet seed phrases, credentials, and other sensitive data. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:8cac003c9be79fb6659770ad9dd8acd813b1b107917d74bc303d4f21d5b8a1b5",
       "url": "https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it",
@@ -1576,27 +1619,6 @@
       "authors": [
         {
           "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:1441d2bdc28edc8b8b1f55b72a572304e7e36dd40bc956d9b08f216dae62f4a1",
-      "url": "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service",
-      "title": "Vietnam arrests suspects behind HiAnime anime piracy service",
-      "published_at": "2026-07-06T18:25:06Z",
-      "published_raw": "Mon, 06 Jul 2026 14:25:06 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "​Vietnamese authorities have arrested and are prosecuting seven suspects believed to have run HiAnime, the largest anime piracy streaming service before its shutdown in June. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
           "uri": "",
           "email": ""
         }
