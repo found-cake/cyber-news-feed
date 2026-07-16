@@ -1,15 +1,81 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-16T08:00:23Z",
+  "updated_at": "2026-07-16T10:00:20Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-16T08:00:23Z",
+    "last_success_at": "2026-07-16T10:00:20Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:83959c8a432f3cd4dd6d549a1b1a7ef18a2427777140c3af0ec1ac3378b54d19",
+      "url": "https://www.securityweek.com/f5-patches-multiple-nginx-big-ip-vulnerabilities",
+      "title": "F5 Patches Multiple NGINX, BIG-IP Vulnerabilities",
+      "published_at": "2026-07-16T09:20:10Z",
+      "published_raw": "Thu, 16 Jul 2026 09:20:10 +0000",
+      "categories": [
+        "Vulnerabilities"
+      ],
+      "description": "<p>Attackers could exploit the bugs to modify configurations, terminate or restart processes, cross security boundaries, leak memory, and execute code.</p>\n<p>The post <a href=\"https://www.securityweek.com/f5-patches-multiple-nginx-big-ip-vulnerabilities/\">F5 Patches Multiple NGINX, BIG-IP Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47899",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:f8cae7e770dee34435e18b7818cd3a6ceddfdf7496266543d48d6eac03bd473f",
+      "url": "https://www.securityweek.com/chinas-top-cybersecurity-firms-hit-by-mounting-military-procurement-bans",
+      "title": "China’s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans",
+      "published_at": "2026-07-16T08:49:27Z",
+      "published_raw": "Thu, 16 Jul 2026 08:49:27 +0000",
+      "categories": [
+        "Government",
+        "Management & Strategy",
+        "China",
+        "China APT",
+        "Military"
+      ],
+      "description": "<p>Chinese cybersecurity firms are facing action from the country’s military, but it’s not due to product or technical failures.</p>\n<p>The post <a href=\"https://www.securityweek.com/chinas-top-cybersecurity-firms-hit-by-mounting-military-procurement-bans/\">China&#8217;s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47891",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:c32a107fe69b6a20280f4ac4c46b5e24bd1fd97b8c2fec041184d5e00891b685",
       "url": "https://www.securityweek.com/old-uefi-shims-expose-systems-to-secure-boot-bypass",
@@ -89,6 +155,7 @@
       "categories": [
         "Endpoint Security",
         "Vulnerabilities",
+        "Featured",
         "security product",
         "security product vulnerability",
         "vulnerability"
