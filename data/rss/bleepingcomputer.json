@@ -1,15 +1,57 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-17T14:01:10Z",
+  "updated_at": "2026-07-17T16:01:08Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-17T14:01:10Z",
+    "last_success_at": "2026-07-17T16:01:08Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:8450d3c17f99dd5756782f510926c80e4093d1677c964bbd6dfb1fcde61f91b2",
+      "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack",
+      "title": "Ernst & Young discloses data breach after support system hack",
+      "published_at": "2026-07-17T14:55:28Z",
+      "published_raw": "Fri, 17 Jul 2026 10:55:28 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:b05e211c176c434d6048db1b1c57188a102db5b8798ee953904430089cccce26",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding",
+      "title": "Inside the Search for \"Clean\" Residential Proxies for Carding",
+      "published_at": "2026-07-17T14:00:10Z",
+      "published_raw": "Fri, 17 Jul 2026 10:00:10 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek \"clean\" residential proxies and combine them with browser fingerprints, device profiles, and other identity signals to evade modern fraud detection. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
+      "authors": [
+        {
+          "name": "Sponsored by Flare",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:82338eff9a45f0c7a3cbd3242fe3b8f389764b2eec052471a7af72cf05ac3350",
       "url": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access",
@@ -1577,49 +1619,6 @@
       "authors": [
         {
           "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:6b43b18d9889d2bbc83bd11d86826a34cf6ac52659639bccc9f9e3a5a922e577",
-      "url": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups",
-      "title": "Spain arrests suspected member of pro-Russian hacktivist groups",
-      "published_at": "2026-07-07T15:21:21Z",
-      "published_raw": "Tue, 07 Jul 2026 11:21:21 -0400",
-      "categories": [
-        "security",
-        "Legal"
-      ],
-      "description": "The National Police in Spain have arrested a man who is suspected of being an active member of the CyberArmy of Russia Reborn (CARR) and Z-Pentest, both pro-Russian hacktivist groups. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:3debe70fb96163c798de3af2d5f51faefae9d811499aed1aad918a7ba40a0824",
-      "url": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss",
-      "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
-      "published_at": "2026-07-07T14:01:11Z",
-      "published_raw": "Tue, 07 Jul 2026 10:01:11 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "ActiveState explains how GitHub Actions attack chains can evade traditional CI security scanners, why passing a scan doesn't guarantee a secure pipeline, and how organizations can better govern their CI/CD workflows. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
-      "authors": [
-        {
-          "name": "Sponsored by ActiveState",
           "uri": "",
           "email": ""
         }
