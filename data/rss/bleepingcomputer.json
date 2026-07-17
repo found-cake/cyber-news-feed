@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-17T16:01:08Z",
+  "updated_at": "2026-07-17T18:01:08Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-17T16:01:08Z",
+    "last_success_at": "2026-07-17T18:01:08Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:db01ad41c43f50b909e5bf70f7d09f911208cb39d0f55b67d2ec664197b48ade",
+      "url": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload",
+      "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
+      "published_at": "2026-07-17T17:56:21Z",
+      "published_raw": "Fri, 17 Jul 2026 13:56:21 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:8450d3c17f99dd5756782f510926c80e4093d1677c964bbd6dfb1fcde61f91b2",
       "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack",
@@ -1594,28 +1615,6 @@
       ],
       "description": "Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet-facing networking devices, primarily unpatched Ruckus routers. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:4ef61f1e1551ab83a05c6f285325a92a0ac13a87c57f115c5a99bc22a0fe1ad6",
-      "url": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access",
-      "title": "Hidden backdoor in Tenda router firmware grants admin access",
-      "published_at": "2026-07-07T17:27:22Z",
-      "published_raw": "Tue, 07 Jul 2026 13:27:22 -0400",
-      "categories": [
-        "security",
-        "Hardware"
-      ],
-      "description": "A hidden authentication backdoor has been found in multiple Tenda router firmware versions, potentially allowing an attacker to gain administrative access to the device's web management panel. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
       "authors": [
         {
           "name": "Bill Toulas",
