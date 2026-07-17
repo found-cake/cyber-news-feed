@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-17T08:01:07Z",
+  "updated_at": "2026-07-17T10:01:08Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-17T06:01:08Z",
-    "last_error_at": "2026-07-17T08:01:07Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-07-17T10:01:08Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
     {
@@ -459,25 +459,6 @@
       "authors": [
         {
           "name": "[조재호기자 (zephyr@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:f4a1c90b5f386bde4292e9674e304b79a82ffc998d000588adc77d7f50524088",
-      "url": "http://www.boannews.com/media/view.asp?idx=144547&kind=1&sub_kind=",
-      "title": "개인정보위, 제3기 ‘가명정보 전문가 풀’ 위촉",
-      "published_at": "2026-07-07T08:11:00Z",
-      "published_raw": "Tue, 7 Jul 2026 17:11:00 +0900",
-      "categories": [],
-      "description": "인공지능(AI) 시대, 혁신적인 데이터 활용을 이끈다활동실적과 현장경험을 갖춘 전문가, 2년간 가명정보 활용 현장 지원[보안뉴스 원병철 기자] 개인정보보호위원회(위원장 송경희, 개인정보위)는 7월 7일 인공지능(AI) 시대 데이터 활용 현장을 지원할 제3기 ‘가명정보 전문가 풀’(이하 ‘전문가 풀’) 위촉식을 개최하고, 전문가 대표들과 간담회를 진행했다.‘",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[원병철기자 (boanone@boannews.com)]",
           "uri": "",
           "email": ""
         }
