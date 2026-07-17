@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-07-17T20:01:11Z",
+  "updated_at": "2026-07-17T22:01:07Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-17T20:01:11Z",
+    "last_success_at": "2026-07-17T22:01:07Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:61fdf19a9d229a88a07140f39d8df31a4e992c1e140dd4e479952b5328a3d152",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
+      "title": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
+      "published_at": "2026-07-17T20:01:13Z",
+      "published_raw": "Fri, 17 Jul 2026 20:01:13 GMT",
+      "categories": [
+        "vulnerabilities-threats"
+      ],
+      "description": "When chained together, the two vulnerabilities allow threat actors to gain root-level capabilities on SonicWall's mobile access appliances.",
+      "feed_id": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
+      "authors": [
+        {
+          "name": "Nate Nelson",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blteaaf936e441aafd2/6a5a7c032292771ec0f65c59/Wall-PM_Images-Getty.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blteaaf936e441aafd2/6a5a7c032292771ec0f65c59/Wall-PM_Images-Getty.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
     {
       "id": "sha256:0a8de0a06c38cd417fe5e4db7f3387aa1f86ed29e6a36d468af14dc59f1f73da",
       "url": "https://www.darkreading.com/application-security/real-ai-threat-blind-trust",
@@ -756,78 +792,6 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltef5da1ce256ae254/6a4e4ce57265bc2b954afdde/malvertising_Bits_And_Splits_shutterstock.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:32ada41670635e6811a2df842bb0556a328c42ebc93154ee63777d41f9bc426a",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts",
-      "title": "Big Brand Jobs Scam Targets Marketing Pros' Google Accounts",
-      "published_at": "2026-07-07T21:02:29Z",
-      "published_raw": "Tue, 07 Jul 2026 21:02:29 GMT",
-      "categories": [
-        "cyberattacks-data-breaches"
-      ],
-      "description": "The phishing campaign uses several tactics, including nested redirects, to evade detection and steal credentials from unsuspecting targets.",
-      "feed_id": "https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts",
-      "authors": [
-        {
-          "name": "Rob Wright",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt446e24d69e36537b/6a4d61e6da407598830165a7/phishing-Supatman-Getty-2220462827.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt446e24d69e36537b/6a4d61e6da407598830165a7/phishing-Supatman-Getty-2220462827.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:98dd274704d7f5fe04847bfb817de57bc352a9c20665d7fda4d0aed16ab56fd0",
-      "url": "https://www.darkreading.com/application-security/dialogflow-cx-rogue-agent-flaw-enabled-ai-chatbot-data-theft",
-      "title": "Dialogflow CX 'Rogue Agent' Flaw Enabled AI Chatbot Data Theft",
-      "published_at": "2026-07-07T20:36:43Z",
-      "published_raw": "Tue, 07 Jul 2026 20:36:43 GMT",
-      "categories": [
-        "application-security"
-      ],
-      "description": "Varonis reported the flaw to Google in late 2025 and it has been addressed, but it reminds defenders to take a fresh look at their AI Infrastructure security.",
-      "feed_id": "https://www.darkreading.com/application-security/dialogflow-cx-rogue-agent-flaw-enabled-ai-chatbot-data-theft",
-      "authors": [
-        {
-          "name": "Alexander Culafi",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blteca04007bb68f1f6/6a4d5127491628186986abc0/Agent_breaking_through_firewall-Richard_Drury-Getty-2219277246.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blteca04007bb68f1f6/6a4d5127491628186986abc0/Agent_breaking_through_firewall-Richard_Drury-Getty-2219277246.jpg?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }
