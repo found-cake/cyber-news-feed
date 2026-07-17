@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-17T12:01:11Z",
+  "updated_at": "2026-07-17T14:01:10Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-17T12:01:11Z",
+    "last_success_at": "2026-07-17T14:01:10Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:026220a342125cd46cbd766b0070858dd8a2c618246ed608109de6b40a62ff22",
+      "url": "https://www.securityweek.com/podcast-broken-governance-agentic-ai-and-the-mindstone-agent-exclusive",
+      "title": "Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive",
+      "published_at": "2026-07-17T12:11:22Z",
+      "published_raw": "Fri, 17 Jul 2026 12:11:22 +0000",
+      "categories": [
+        "Artificial Intelligence",
+        "ICS/OT",
+        "Uncategorized",
+        "ICS",
+        "OT",
+        "Podcast"
+      ],
+      "description": "<p>(Video) Artificial intelligence is transforming cybersecurity, but are governance, compliance, and security practices evolving fast enough to keep up?</p>\n<p>The post <a href=\"https://www.securityweek.com/podcast-broken-governance-agentic-ai-and-the-mindstone-agent-exclusive/\">Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47959",
+      "authors": [
+        {
+          "name": "SecurityWeek News",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:00e9b57a1419fca5a874d93c8b004224e3ceca6d2faa415a41bf2b2e65b74d01",
       "url": "https://www.securityweek.com/beacon-security-raises-13-million-for-security-data-platform",
@@ -2521,108 +2557,6 @@
       ],
       "description": "<p>Attackers are exploiting the critical Gitea vulnerability CVE-2026-20896 to bypass authentication with a single HTTP header and access vulnerable repositories and secrets.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/\">Critical Gitea Flaw Under Active Exploitation, Researchers Warn</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
       "feed_id": "https://www.securityweek.com/?p=47662",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:ad047bf12107f0a9ff7cf857298ce255b5094a0f7da2b129d5fd0c2ed33681f4",
-      "url": "https://www.securityweek.com/cisa-reportedly-using-anthropics-mythos-to-scan-government-software-for-flaws",
-      "title": "CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws",
-      "published_at": "2026-07-07T13:13:02Z",
-      "published_raw": "Tue, 07 Jul 2026 13:13:02 +0000",
-      "categories": [
-        "Artificial Intelligence",
-        "Government",
-        "AI",
-        "Anthropic",
-        "Mythos"
-      ],
-      "description": "<p>The audits are reportedly being spearheaded by CISA’s Attack Surface Evaluation team, a specialized unit tasked with conducting digital defense assessments and simulated hacking exercises.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisa-reportedly-using-anthropics-mythos-to-scan-government-software-for-flaws/\">CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47656",
-      "authors": [
-        {
-          "name": "Mike Lennon",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:d8fab2ad7a1d0d430e237a7a3c1755ce22195c506c142f03f2e73a560450e5b6",
-      "url": "https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks",
-      "title": "Critical Adobe ColdFusion Vulnerability Exploited in Attacks",
-      "published_at": "2026-07-07T12:38:34Z",
-      "published_raw": "Tue, 07 Jul 2026 12:38:34 +0000",
-      "categories": [
-        "Vulnerabilities",
-        "ColdFusion",
-        "CVE-2026-48282",
-        "vulnerability"
-      ],
-      "description": "<p>Hackers are exploiting a recently patched critical vulnerability (CVE-2026-48282) in Adobe ColdFusion that carries a CVSS score of 10/10.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/\">Critical Adobe ColdFusion Vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47653",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:bad8f001b64f36c313b62cd673d7cd3e5d4a2718b503af80bf46f022102c2a56",
-      "url": "https://www.securityweek.com/iran-linked-hackers-using-modular-cc-framework-in-cyberattacks",
-      "title": "Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks",
-      "published_at": "2026-07-07T12:21:56Z",
-      "published_raw": "Tue, 07 Jul 2026 12:21:56 +0000",
-      "categories": [
-        "Cyberwarfare",
-        "Featured",
-        "Iran"
-      ],
-      "description": "<p>Researchers say the Iran-linked threat actor used an adaptable modular malware framework and compromised IT service providers to reach high-value targets in Israel.</p>\n<p>The post <a href=\"https://www.securityweek.com/iran-linked-hackers-using-modular-cc-framework-in-cyberattacks/\">Iran-Linked Hackers Using Modular C&amp;C Framework in Cyberattacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47649",
       "authors": [
         {
           "name": "Ionut Arghire",
