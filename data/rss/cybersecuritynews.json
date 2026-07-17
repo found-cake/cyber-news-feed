@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "cybersecuritynews",
-  "updated_at": "2026-07-17T18:01:08Z",
+  "updated_at": "2026-07-17T20:01:11Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-17T18:01:08Z",
+    "last_success_at": "2026-07-17T20:01:11Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:7724baebf359e6cbe8935cd4c96d198ae177c88c2aec903bda48bbd228c49616",
+      "url": "https://cybersecuritynews.com/openssl-hollowbyte-vulnerability",
+      "title": "OpenSSL “HollowByte” Vulnerability Lets Hackers Crash Servers With Just 11 Bytes",
+      "published_at": "2026-07-17T18:21:11Z",
+      "published_raw": "Fri, 17 Jul 2026 18:21:11 +0000",
+      "categories": [
+        "Cyber Security",
+        "Cyber Security News",
+        "Vulnerability News",
+        "vulnerability"
+      ],
+      "description": "<p>A newly disclosed vulnerability in OpenSSL, dubbed &#8220;HollowByte,&#8221; allows a remote, unauthenticated attacker to trigger a denial-of-service (DoS) condition using a malicious payload as small as 11 bytes. Discovered by the Okta Red Team, the flaw exploits how OpenSSL pre-allocates memory during the TLS handshake, forcing servers to reserve massive memory chunks before any authentication [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssl-hollowbyte-vulnerability/\">OpenSSL &#8220;HollowByte&#8221; Vulnerability Lets Hackers Crash Servers With Just 11 Bytes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=156310",
+      "authors": [
+        {
+          "name": "Guru Baran",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/OpenSSL-_HollowByte_-Vulnerability.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "156310",
+          "content_encoded": "<p class=\"wp-block-paragraph\">A newly disclosed vulnerability in OpenSSL, dubbed &#8220;HollowByte,&#8221; allows a remote, unauthenticated attacker to trigger a denial-of-service (DoS) condition using a malicious payload as small as 11 bytes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Discovered by the Okta Red Team, the flaw exploits how OpenSSL pre-allocates memory during the TLS handshake, forcing servers to reserve massive memory chunks before any authentication ever occurs.</p>\n\n\n\n<h2 id=\"h-openssl-hollowbyte-vulnerability\" class=\"wp-block-heading\"><strong>OpenSSL &#8220;HollowByte&#8221; Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Every TLS handshake begins with a ClientHello message wrapped in a record carrying a 4-byte header that declares the size of the incoming message body. In older OpenSSL versions, the library allocates a receive buffer based purely on that attacker-declared length before any actual data arrives.</p>\n\n\n\n<p class=\"wp-block-paragraph\">When a crafted 11-byte payload lands, the TLS state machine reads the header and triggers the following unvalidated allocation chain:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Read Header → grow_init_buf() → OPENSSL_clear_realloc() → malloc(attacker_size)</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Since no validation occurs at this stage, a single malicious packet can force malloc() to allocate up to 131 KB based solely on the attacker&#8217;s claim. The worker thread then blocks indefinitely, waiting for data that never arrives.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Classic connection-exhaustion attacks like Slowloris rely on holding connections open to starve server threads. HollowByte compounds this with a memory-fragmentation problem rooted in how glibc manages freed memory.</p>\n\n\n\n<p class=\"wp-block-paragraph\">When an attacking connection drops, OpenSSL frees the buffer, but glibc does not immediately return small-to-medium allocations to the operating system; it retains them for potential reuse.</p>\n\n\n\n<p class=\"wp-block-paragraph\">By launching waves of connections with randomized claimed sizes, attackers prevent the allocator from reusing these freed chunks, causing the server&#8217;s Resident Set Size (RSS) to climb continuously and permanently, even after the attacker disconnects. The only remedy is killing the process itself.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Okta Red Team testing on unpatched OpenSSL instances running NGINX revealed severe consequences:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>In a 1 GB RAM environment, the server was OOM-killed after accumulating 547 MB of frozen, fragmented memory.</li>\n\n\n\n<li>In a 16 GB RAM environment, the attack locked up 25% of total system memory while staying under standard connection ceilings — meaning typical connection-limiting defenses fail to stop it.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Because OpenSSL underpins a vast swath of internet infrastructure, the vulnerability&#8217;s blast radius extends to web servers like Apache and NGINX, language runtimes including Node.js, Python, Ruby, and PHP, and databases such as MySQL and PostgreSQL.</p>\n\n\n\n<p class=\"wp-block-paragraph\">OpenSSL resolved the issue by shifting to incremental buffer growth, merged via pull requests #30792, #30793, and #30794. Instead of trusting the header&#8217;s claim outright, OpenSSL now expands the buffer only as bytes actually arrive on the wire — meaning an empty claim costs the server nothing.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The fix was quietly folded <a href=\"https://openssl-library.org/source/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">into OpenSSL v4.0.1</a>, with silent backports to 3.6.3, 3.5.7, 3.4.6, and 3.0.21. Notably, OpenSSL treated this as a hardening improvement rather than issuing a formal CVE advisory, a pattern seen in other recent OpenSSL disclosures where DoS-class issues are addressed without high-profile CVE designations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Because HollowByte received silent-patch treatment rather than a CVE, many organizations may not flag it through standard vulnerability scanning. Given OpenSSL&#8217;s ubiquity across web servers, runtimes, and databases, security teams should treat this as a priority patch regardless of CVE status.</p>\n\n\n\n<h2 id=\"h-tip-for-defenders\" class=\"wp-block-heading\"><strong>Tip for Defenders</strong></h2>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Upgrade to OpenSSL 4.0.1 or the relevant backported version (3.6.3, 3.5.7, 3.4.6, or 3.0.21) immediately.</li>\n\n\n\n<li>Audit embedded OpenSSL versions in language runtimes (Node.js, Python, Ruby, PHP) since OS-level patches alone won&#8217;t fix bundled copies</li>\n\n\n\n<li>Monitor RSS memory trends on TLS-terminating servers for signs of gradual, unexplained memory bloat consistent with fragmentation attacks.</li>\n</ul>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 87%,rgb(169,184,195) 100%)\"><strong>&nbsp;Strengthen Your SOC by Accelerating Threat Detection &amp; Rapid Investigations.&nbsp;-&gt;&nbsp;<a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate ANY.RUN With Your SOC&nbsp;</a><strong><a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Now</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssl-hollowbyte-vulnerability/\">OpenSSL &#8220;HollowByte&#8221; Vulnerability Lets Hackers Crash Servers With Just 11 Bytes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
     {
       "id": "sha256:f4eee5167ecab69e28ec50b35dba1142641476d55e3ea98decde5866c40a81dd",
       "url": "https://cybersecuritynews.com/coca-cola-owned-fairlife-cyberattack",
