@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-18T16:00:45Z",
+  "updated_at": "2026-07-18T18:00:41Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-18T16:00:45Z",
+    "last_success_at": "2026-07-18T18:00:41Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:6e9fdbb4614c7a4055268bfe9ff9bc3ab59397b40b832917ec18beabefb62a0c",
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now",
+      "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
+      "published_at": "2026-07-18T17:22:47Z",
+      "published_raw": "Sat, 18 Jul 2026 13:22:47 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Public exploits have been released for the critical \"wp2shell\" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:29f82bb5679d8fa84f25e49f0fca7650f1b6861a0243f2594a868a23051212d3",
       "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers",
@@ -1510,27 +1531,6 @@
       ],
       "description": "A China-linked threat cluster has been exploiting vulnerable Roundcube servers at U.S. and Canadian universities to steal credentials and deploy backdoor malware. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:954c417abcefb58cecae1303e5f86b5401970f843a8407485184fd2f28414157",
-      "url": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users",
-      "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
-      "published_at": "2026-07-08T16:47:25Z",
-      "published_raw": "Wed, 08 Jul 2026 12:47:25 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A threat actor has been targeting organizations across multiple sectors with voice-based fake security requests that ask Microsoft 365 users to enroll a new Entra passkey. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
       "authors": [
         {
           "name": "Bill Toulas",
