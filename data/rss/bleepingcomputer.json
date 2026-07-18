@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-18T18:00:41Z",
+  "updated_at": "2026-07-18T20:00:43Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-18T18:00:41Z",
+    "last_success_at": "2026-07-18T20:00:43Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:4734728284e7d09a30189f17f53079e61f038b0c98bbf4e268f1e6fe6c92a5d6",
+      "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives",
+      "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
+      "published_at": "2026-07-18T19:32:02Z",
+      "published_raw": "Sat, 18 Jul 2026 15:32:02 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:6e9fdbb4614c7a4055268bfe9ff9bc3ab59397b40b832917ec18beabefb62a0c",
       "url": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now",
@@ -1488,49 +1509,6 @@
       ],
       "description": "Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university's network. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:6750becb38dc173fed85699b1f0a00a38b7c0b7ffb1c17a532ce8ba636582985",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials",
-      "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
-      "published_at": "2026-07-08T19:54:59Z",
-      "published_raw": "Wed, 08 Jul 2026 15:54:59 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Malicious packages on the Node Package Manager (npm) and the Python Package Index (PyPI) delivered stealer malware to developers and users of Paysafe, Skrill, and Neteller payment applications. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:0ebef6ce3265416859ecccd2735312740056450463fad8c954f677cf2ed92e21",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers",
-      "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
-      "published_at": "2026-07-08T18:56:02Z",
-      "published_raw": "Wed, 08 Jul 2026 14:56:02 -0400",
-      "categories": [
-        "security",
-        "Education"
-      ],
-      "description": "A China-linked threat cluster has been exploiting vulnerable Roundcube servers at U.S. and Canadian universities to steal credentials and deploy backdoor malware. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
       "authors": [
         {
           "name": "Bill Toulas",
