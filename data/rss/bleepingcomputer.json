@@ -1,15 +1,37 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-19T14:00:13Z",
+  "updated_at": "2026-07-19T16:00:16Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-19T14:00:13Z",
+    "last_success_at": "2026-07-19T16:00:16Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:c21c6926c77c2309327da49286540b6a6e0d86ec5fce54426ed49ca9c5ba0a60",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies",
+      "title": "Hackers abuse ViPNet software to target Russian govt agencies",
+      "published_at": "2026-07-19T14:23:46Z",
+      "published_raw": "Sun, 19 Jul 2026 10:23:46 -0400",
+      "categories": [
+        "security",
+        "Government"
+      ],
+      "description": "An advanced threat actor is abusing the update mechanism for the ViPNet private networking product suite to target Russian organizations, including government agencies. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:4734728284e7d09a30189f17f53079e61f038b0c98bbf4e268f1e6fe6c92a5d6",
       "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives",
@@ -1384,48 +1406,6 @@
       "authors": [
         {
           "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:dc3d571189a6914e96daa5aec27e55335dc894d9dc916edcc178b25b760ccf6c",
-      "url": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts",
-      "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
-      "published_at": "2026-07-09T14:39:51Z",
-      "published_raw": "Thu, 09 Jul 2026 10:39:51 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A new phishing-as-a-service (PhaaS) operation called Forg365 focuses on stealing Microsoft 365 accounts by combining adversary-in-the-middle (AiTM) and device code methods with AI-assisted lure generation. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:35b3c78ad0d392420f7e93080a21b71d35f7c8451c88bee041a3bf945b4f2a70",
-      "url": "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage",
-      "title": "The Hidden Security Risks of Reduced Summer IT Coverage",
-      "published_at": "2026-07-09T14:02:12Z",
-      "published_raw": "Thu, 09 Jul 2026 10:02:12 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Security operations don't slow down when IT teams take vacation, but staffing levels often do. Kaseya explains how AI-driven automation can help organizations maintain consistent security operations and reduce reliance on manual processes year-round. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/",
-      "authors": [
-        {
-          "name": "Sponsored by Kaseya",
           "uri": "",
           "email": ""
         }
