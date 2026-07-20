@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-20T14:00:23Z",
+  "updated_at": "2026-07-20T16:00:19Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-20T14:00:23Z",
+    "last_success_at": "2026-07-20T16:00:19Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:3b4cfb0a9f93d5f14bfa034488f8e77da22df2dba1eb7418ca92e6de8dac33b7",
+      "url": "https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders",
+      "title": "An AI SOC Evaluation Guide for Security Leaders",
+      "published_at": "2026-07-20T14:01:11Z",
+      "published_raw": "Mon, 20 Jul 2026 10:01:11 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Choosing an AI SOC platform requires understanding how it will perform in your own environment, not just during an evaluation. Prophet Security shares a practical framework for assessing AI SOC solutions, including how to validate accuracy, operating models, long-term reliability, and production readiness. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/",
+      "authors": [
+        {
+          "name": "Sponsored by Prophet Security",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:d3d92b39a2426616906e87f082089b4c88254021081f6764c71fc63ab69798ca",
       "url": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials",
@@ -1255,49 +1276,6 @@
       "authors": [
         {
           "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:a4e991bbef674fb4bcc3c170d75f07741bc961b94b76c7716761becc2a4c55ac",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image",
-      "title": "Hackers exploit critical auth bypass in Gitea Docker image",
-      "published_at": "2026-07-10T15:48:38Z",
-      "published_raw": "Fri, 10 Jul 2026 11:48:38 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Hackers are actively exploiting a critical vulnerability in the official Docker image for the Gitea self-hosted Git service that allows attackers to impersonate any user, including administrators. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:cada9482574ab0048797e57f7a35279b74b3b7404c53ccdc364a9f280fc793b7",
-      "url": "https://www.bleepingcomputer.com/news/security/money-launderer-accused-of-stealing-seized-crypto-while-in-prison",
-      "title": "Money launderer accused of stealing seized crypto while in prison",
-      "published_at": "2026-07-10T15:30:19Z",
-      "published_raw": "Fri, 10 Jul 2026 11:30:19 -0400",
-      "categories": [
-        "security",
-        "CryptoCurrency"
-      ],
-      "description": "A Bulgarian national has been charged with stealing $290,000 in government-seized cryptocurrency while serving 121 months in prison for helping launder millions stolen from American fraud victims. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/money-launderer-accused-of-stealing-seized-crypto-while-in-prison/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
           "uri": "",
           "email": ""
         }
