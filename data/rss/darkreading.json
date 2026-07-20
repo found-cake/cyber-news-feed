@@ -1,15 +1,87 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-07-20T20:00:20Z",
+  "updated_at": "2026-07-20T22:00:15Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-20T18:00:22Z",
-    "last_error_at": "2026-07-20T20:00:20Z",
-    "last_error": "fetch https://www.darkreading.com/rss.xml: unexpected feed response: unexpected status 404"
+    "ok": true,
+    "last_success_at": "2026-07-20T22:00:15Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:546ed8fa5cc92a365465c753253cfac3b1467a8249a4367cf5b52bba674b1006",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover",
+      "title": "'WP2Shell' Opens Millions of WordPress Sites to Remote Takeover",
+      "published_at": "2026-07-20T21:38:18Z",
+      "published_raw": "Mon, 20 Jul 2026 21:38:18 GMT",
+      "categories": [
+        "cyberattacks-data-breaches"
+      ],
+      "description": "Barely three days after disclosure, attackers are widely chaining together CVE-2026-60137 and CVE-2026-63030 to lob exploit attempts against one of the largest attack surfaces on the Internet.",
+      "feed_id": "https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover",
+      "authors": [
+        {
+          "name": "Jai Vijayan",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb1df0898ba4c4a15/6a5e837c6c884d291eb9cdc9/wordpress_Silver_Wings_shutterstock.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb1df0898ba4c4a15/6a5e837c6c884d291eb9cdc9/wordpress_Silver_Wings_shutterstock.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
+    {
+      "id": "sha256:a422168c0886cc811c04b05aace1f25a9e1e57e7b8ba7784c7cc15374bdef543",
+      "url": "https://www.darkreading.com/endpoint-security/attackers-combo-evasion-tactics-bec-phishing",
+      "title": "Attackers Combo Up Evasion Tactics for BEC Phishing",
+      "published_at": "2026-07-20T18:30:22Z",
+      "published_raw": "Mon, 20 Jul 2026 18:30:22 GMT",
+      "categories": [
+        "endpoint-security"
+      ],
+      "description": "&quot;The TFF Trap&quot; uses fileless techniques and loaders with low detection rates to deploy various RATs and stealers, including Agent Tesla, Remcos, XWorm, and Best Private Logger.",
+      "feed_id": "https://www.darkreading.com/endpoint-security/attackers-combo-evasion-tactics-bec-phishing",
+      "authors": [
+        {
+          "name": "Elizabeth Montalbano",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2bb343e182f4af3e/6a5e0b48c714ec6091e7ebc7/Phishing_ronstik_Alamy.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2bb343e182f4af3e/6a5e0b48c714ec6091e7ebc7/Phishing_ronstik_Alamy.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
     {
       "id": "sha256:61fdf19a9d229a88a07140f39d8df31a4e992c1e140dd4e479952b5328a3d152",
       "url": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
@@ -85,7 +157,7 @@
     {
       "id": "sha256:1e88af52030715e89effc5fe8f6ede7d8ffbd93a1d236c620c8fe0c01216abca",
       "url": "https://www.darkreading.com/vulnerabilities-threats/gold-eagle-clearinghouse-targets-security-gap",
-      "title": "Gold Eagle Clearinghouse Targets Security Gap, but How Is Unclear",
+      "title": "Gold Eagle Clearinghouse Targets Security Gap, But How Is Unclear",
       "published_at": "2026-07-17T13:00:00Z",
       "published_raw": "Fri, 17 Jul 2026 13:00:00 GMT",
       "categories": [

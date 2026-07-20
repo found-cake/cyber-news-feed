@@ -1,15 +1,58 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-20T20:00:20Z",
+  "updated_at": "2026-07-20T22:00:15Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-20T20:00:20Z",
+    "last_success_at": "2026-07-20T22:00:15Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:96bbd954a81a4ddaf771b523d8e51b911673d2249257b5379b5827d37a20545d",
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes",
+      "title": "Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
+      "published_at": "2026-07-20T21:14:42Z",
+      "published_raw": "Mon, 20 Jul 2026 17:14:42 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Researchers escaped the sandboxes in Cursor, Codex, Gemini CLI and Antigravity by having the AI agent write files that trusted host tools later run. Multiple CVEs, patches, and Google downgrading two Antigravity findings. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
+      "authors": [
+        {
+          "name": "Ax Sharma",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:cd7a54b348129d005604f1d257ea2c250760fda372040da00c312c3a2c4caad3",
+      "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware",
+      "title": "JadePuffer agentic attacks now target AI model data with ransomware",
+      "published_at": "2026-07-20T21:08:02Z",
+      "published_raw": "Mon, 20 Jul 2026 17:08:02 -0400",
+      "categories": [
+        "security",
+        "Artificial Intelligence"
+      ],
+      "description": "The JadePuffer autonomous AI agent has upgraded with custom malware called EncForge that focuses on encrypting AI assets, such as training datasets, vector databases, and model checkpoints. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:ff2f182a06f135bea27beb5b3a5e1bb5358aa677e7bc41a3498959255ca6f8fb",
       "url": "https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms",
@@ -1212,27 +1255,6 @@
       "authors": [
         {
           "name": "Ax Sharma",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:4e65c8e9fd1180d3dd5f344edbb00a7e3862172ddaa7a554f7faee09fff891c6",
-      "url": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks",
-      "title": "New U-Boot flaws could enable stealthy firmware attacks",
-      "published_at": "2026-07-10T21:59:02Z",
-      "published_raw": "Fri, 10 Jul 2026 17:59:02 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Six vulnerabilities in the widely used U-Boot bootloader have been discovered that could allow attackers to execute malicious code during device boot, potentially enabling stealthy firmware attacks that compromise security protections and install persistent malware. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
           "uri": "",
           "email": ""
         }
