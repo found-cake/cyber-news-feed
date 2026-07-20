@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-20T10:00:19Z",
+  "updated_at": "2026-07-20T12:00:16Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-20T08:00:18Z",
-    "last_error_at": "2026-07-20T10:00:19Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-07-20T12:00:16Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:a1af2ee6dcfa8e04057bc32cfda51db2f394abacaf74937374305bcdce2ab8ae",
+      "url": "http://www.boannews.com/media/view.asp?idx=144765&kind=1&sub_kind=",
+      "title": "외교부 국립외교원, 온라인 교육 시스템 해킹... 9개월 간 몰라",
+      "published_at": "2026-07-20T09:22:00Z",
+      "published_raw": "Mon, 20 Jul 2026 18:22:00 +0900",
+      "categories": [],
+      "description": "9개월간 불법 접속 지속... 외교 교육대상자 정보 등 저장5개월째 시스템 차단하고 조사 중[보안뉴스 한세희 기자] 외교부 산하 국립외교원이 장기간 해킹을 당한 사실이 드러났다.외교부는 “올해 2월 초 국립외교원 온라인교육시스템에 대한 비정상적 접근 상황을 관계 기관으로부터 통보받은 후 시스템을 긴급 차단했다”고 20일 밝혔다.국립외교원은 외교 인재 교육·",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[한세희기자 (hahn@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:9814e74c062316f8077cf9c17183756b68f9efffe93ce398c5845e0ea21d8dc0",
       "url": "http://www.boannews.com/media/view.asp?idx=144747&kind=1&sub_kind=",
@@ -182,25 +201,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:07c0976031eede348b47905ac2ab14dd86e2ffd0978da188e493fedf81b34738",
-      "url": "http://www.boannews.com/media/view.asp?idx=144666&kind=1&sub_kind=",
-      "title": "“설치만 해도 개발자 PC 탈취”... 제이스크램블러 npm 배포판, Rust 악성코드 오염",
-      "published_at": "2026-07-14T01:04:00Z",
-      "published_raw": "Tue, 14 Jul 2026 10:04:00 +0900",
-      "categories": [],
-      "description": "[보안뉴스 김형근 기자] 자바스크립트 보안 솔루션 제이스크램블러(Jscrambler)의 엔피엠(npm) 공식 배포 인증 정보가 유출됐다.이로 인해 설치 시 정보 탈취형 악성코드 러스트(Rust)를 자동 실행하는 오염된 배포판이 유포돼 글로벌 공급망 생태계의 심각한 위협으로 부상했다.공격자들은 유출된 배포 인증 정보로 정상적인 검증 절차를 우회한 뒤, 사전",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[강현주기자 (jjoo@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:a104d29c3e71d6883266ba68f5c83578f6be02030ba5847f2e53d4b730b06163",
       "url": "http://www.boannews.com/media/view.asp?idx=144755&kind=&sub_kind=",
       "title": "원격으로 정보탈취하는 ‘크리스탈엑스 RAT’, 서비스형 악성코드로 유통 중",
@@ -364,6 +364,25 @@
       "authors": [
         {
           "name": "[원병철기자 (boanone@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:07c0976031eede348b47905ac2ab14dd86e2ffd0978da188e493fedf81b34738",
+      "url": "http://www.boannews.com/media/view.asp?idx=144666&kind=1&sub_kind=",
+      "title": "“설치만 해도 개발자 PC 탈취”... 제이스크램블러 npm 배포판, Rust 악성코드 오염",
+      "published_at": "2026-07-14T01:04:00Z",
+      "published_raw": "Tue, 14 Jul 2026 10:04:00 +0900",
+      "categories": [],
+      "description": "[보안뉴스 김형근 기자] 자바스크립트 보안 솔루션 제이스크램블러(Jscrambler)의 엔피엠(npm) 공식 배포 인증 정보가 유출됐다.이로 인해 설치 시 정보 탈취형 악성코드 러스트(Rust)를 자동 실행하는 오염된 배포판이 유포돼 글로벌 공급망 생태계의 심각한 위협으로 부상했다.공격자들은 유출된 배포 인증 정보로 정상적인 검증 절차를 우회한 뒤, 사전",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[강현주기자 (jjoo@boannews.com)]",
           "uri": "",
           "email": ""
         }

@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-20T10:00:19Z",
+  "updated_at": "2026-07-20T12:00:16Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-20T10:00:19Z",
+    "last_success_at": "2026-07-20T12:00:16Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:d3d92b39a2426616906e87f082089b4c88254021081f6764c71fc63ab69798ca",
+      "url": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials",
+      "title": "Hugging Face discloses breach linked to autonomous AI agent",
+      "published_at": "2026-07-20T11:56:28Z",
+      "published_raw": "Mon, 20 Jul 2026 07:56:28 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI agent system. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
+      "authors": [
+        {
+          "name": "Sergiu Gatlan",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:f6a843a9a3d9490fa77fb50ed1b15ac84a794ce048b2a51aef6fc4ab40ea9e1f",
       "url": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks",
@@ -1298,27 +1319,6 @@
       "authors": [
         {
           "name": "Sponsored by Netwrix",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:e92d32ca73567c69aa372961a1fe0bf5b429b4aa065a6ca9d1b457f49d10abd5",
-      "url": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw",
-      "title": "Zimbra urges customers to patch critical web client XSS flaw",
-      "published_at": "2026-07-10T11:47:38Z",
-      "published_raw": "Fri, 10 Jul 2026 07:47:38 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The Zimbra security team urged customers to patch a critical vulnerability affecting the Classic Web Client used to access the Zimbra Collaboration suite. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
           "uri": "",
           "email": ""
         }
