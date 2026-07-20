@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-20T16:00:19Z",
+  "updated_at": "2026-07-20T18:00:22Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-20T16:00:19Z",
+    "last_success_at": "2026-07-20T18:00:22Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:c7c7b6f182da24086037a32d9c0cfaf9c4abcbc5b3b9e753285295b08c8b53bd",
+      "url": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
+      "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
+      "published_at": "2026-07-20T17:29:50Z",
+      "published_raw": "2026-07-20T22:59:50.810+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder notes, and two campaign chains. One was already live against Windows users in Mexico, delivering an infostealer through a fake government ID-lookup site over WebDAV.\n\nWhat makes it more than a",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6276232097404834489",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJtNDirNuc1FHpVkk7dexa4KTcD8h3fSmxpGMZQeRtlzNpIhC5hOXVEu-aPc5tsCIi9-csPtQVmdoW9FeyyBytXkPWfbwYZEGSJrIiqSEqUsdQwGOepqr23C4pz6jnGWI5ledB7UC19S0ORrc_jyP6Lajqu0X4FsTX6ooTVJvJffKOjRmg2ndJLDj17-E/s260-e100/phishing-ai.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:d7859924946fd9b5e0c153e509e6f70bf856aef7db8e514c6984be31d6bdbd0b",
       "url": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
@@ -1084,33 +1111,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirVz95zYTg61VRro9unfJCWWwwUrv3pQdtyNT7rPL8iCg6n0S6bky4dqPiluQHfSvQMIO9cyYgrz-07ZCx8yG_qND_J9XJ_0BoUON9p3zj0etafNvjg45txAeu4uCDEMxGDNv2tIxNuqrC0OsKG_sWZp5QIlEkbqZ_g_EEcAdXUQbuo_EgsXwT3mERTTk/s260-e100/zimbra-email-hack.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:903b418d1fc24610907358c4890bdae47def24fae427659c20e91bab153c192b",
-      "url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-      "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
-      "published_at": "2026-07-10T16:30:00Z",
-      "published_raw": "2026-07-10T22:00:00.000+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a \"credible external security threat.\"\n\nThe company has temporarily disabled access to the affected accounts, a step it says it took \"out of an abundance of caution\" while it works with internal and external security",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2845505831017136011",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgULXOG2_Ph1198nw2lOea2pYE9u1GkPHaaMlzhpO48pOmejpWKFuHbchUac5JIRQHGiIMMTefXq-LktA8AjsqqMIsBS54bLaludxIJbq7chYfo_Vsoqf9Xi7YomnSUL9wHAYa5InCST76k1aP10VMmNKK_MDLD3o5zNXyB4ODMRMl0DbLkz9f2mg2k2S8/s260-e100/progress.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
