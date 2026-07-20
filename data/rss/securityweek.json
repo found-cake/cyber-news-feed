@@ -1,15 +1,48 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-20T12:00:16Z",
+  "updated_at": "2026-07-20T14:00:23Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-20T12:00:16Z",
+    "last_success_at": "2026-07-20T14:00:23Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:bf7a5256e6ff36cec5ee812c8d7124e2bd774da67270a0e0a62be84a2e608af5",
+      "url": "https://www.securityweek.com/openssl-silently-fixes-hollowbyte-dos-vulnerability",
+      "title": "OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability",
+      "published_at": "2026-07-20T12:32:40Z",
+      "published_raw": "Mon, 20 Jul 2026 12:32:40 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "OpenSSL",
+        "vulnerability"
+      ],
+      "description": "<p>Attackers could send waves of malicious payloads to trigger buffer pre-allocations that are not freed, exhausting server memory.</p>\n<p>The post <a href=\"https://www.securityweek.com/openssl-silently-fixes-hollowbyte-dos-vulnerability/\">OpenSSL Silently Fixes &#8216;HollowByte&#8217; DoS Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47997",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:1123da1687bf5df2b2ddfaf0466e139c1b897f56c7be39fd014b395421d89a72",
       "url": "https://www.securityweek.com/new-index-tracks-material-breaches-and-refuses-to-add-up-the-losses",
@@ -1935,40 +1968,6 @@
       "authors": [
         {
           "name": "SecurityWeek News",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:c3fd01e268dd75d2f1874b5a568e21ae01f6dfcc931fc66f1d92d7f692ace767",
-      "url": "https://www.securityweek.com/third-us-security-expert-sentenced-to-prison-for-helping-ransomware-gang",
-      "title": "Third US Security Expert Sentenced to Prison for Helping Ransomware Gang",
-      "published_at": "2026-07-10T12:58:39Z",
-      "published_raw": "Fri, 10 Jul 2026 12:58:39 +0000",
-      "categories": [
-        "Cybercrime",
-        "hacker",
-        "Ransomware",
-        "sentenced"
-      ],
-      "description": "<p>Angelo Martino, a former ransomware negotiator, was sentenced to 70 months for helping the BlackCat/Alphv group.</p>\n<p>The post <a href=\"https://www.securityweek.com/third-us-security-expert-sentenced-to-prison-for-helping-ransomware-gang/\">Third US Security Expert Sentenced to Prison for Helping Ransomware Gang</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47743",
-      "authors": [
-        {
-          "name": "Eduard Kovacs",
           "uri": "",
           "email": ""
         }
