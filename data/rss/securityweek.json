@@ -1,15 +1,150 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-21T10:00:42Z",
+  "updated_at": "2026-07-21T12:00:44Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-21T10:00:42Z",
+    "last_success_at": "2026-07-21T12:00:44Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:bb28f911ea9e413e7345159d21789cf7dde5eb3015de5e0bac379c31ef84d036",
+      "url": "https://www.securityweek.com/new-hollowgraph-malware-abuses-microsoft-365-calendar-for-cc-communication",
+      "title": "New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication",
+      "published_at": "2026-07-21T11:55:28Z",
+      "published_raw": "Tue, 21 Jul 2026 11:55:28 +0000",
+      "categories": [
+        "Malware & Threats",
+        "HollowGraph",
+        "malware"
+      ],
+      "description": "<p>Part of a larger toolkit, HollowGraph uses a compromised 365 account’s calendar as a two-way dead-drop.</p>\n<p>The post <a href=\"https://www.securityweek.com/new-hollowgraph-malware-abuses-microsoft-365-calendar-for-cc-communication/\">New HollowGraph Malware Abuses Microsoft 365 Calendar for C&#038;C Communication</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48020",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:ffa65fbf4efc5c3f26432e15a9b93f72c72c46362a7c946fabc9c2b9f2a6e1c2",
+      "url": "https://www.securityweek.com/ciso-conversations-andreas-gaetje-from-economics-to-ciso-at-korber-ag",
+      "title": "CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG",
+      "published_at": "2026-07-21T11:30:00Z",
+      "published_raw": "Tue, 21 Jul 2026 11:30:00 +0000",
+      "categories": [
+        "CISO Conversations"
+      ],
+      "description": "<p>Gaetje’s story shows that you don’t need to be a ‘deep bit-crawler’ to become a Chief Information Security Officer.</p>\n<p>The post <a href=\"https://www.securityweek.com/ciso-conversations-andreas-gaetje-from-economics-to-ciso-at-korber-ag/\">CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=47784",
+      "authors": [
+        {
+          "name": "Kevin Townsend",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:9551dde697c8f4332f22b9293086a46ad3b9baea2212bc4917b63535596daaaf",
+      "url": "https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack",
+      "title": "Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack",
+      "published_at": "2026-07-21T11:12:33Z",
+      "published_raw": "Tue, 21 Jul 2026 11:12:33 +0000",
+      "categories": [
+        "Data Breaches",
+        "Ransomware",
+        "Cl0p",
+        "data breach",
+        "Estee Lauder",
+        "Oracle EBS"
+      ],
+      "description": "<p>Hackers exfiltrated personal, financial, and health information from the company’s Oracle EBS instance in August 2025.</p>\n<p>The post <a href=\"https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/\">Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48017",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:efe4d5d7e631925c5f0018fe8dcaff91921e70714f0cb5ea71946fa372f88c4d",
+      "url": "https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data",
+      "title": "Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data",
+      "published_at": "2026-07-21T10:19:21Z",
+      "published_raw": "Tue, 21 Jul 2026 10:19:21 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "bug bounty",
+        "data leak",
+        "Meta",
+        "vulnerability"
+      ],
+      "description": "<p>A security researcher discovered a broken access control vulnerability in Meta’s support infrastructure.</p>\n<p>The post <a href=\"https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/\">Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48013",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:c8060d8a159faab17c7a07bf452cf300dd8b595a2f97680a348386c53636cbdd",
       "url": "https://www.securityweek.com/clover-health-investments-discloses-data-breach",
