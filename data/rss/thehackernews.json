@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-21T08:00:41Z",
+  "updated_at": "2026-07-21T10:00:42Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-21T08:00:41Z",
+    "last_success_at": "2026-07-21T10:00:42Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:1af09c10cfc038418757e649f9e283ea637a81620f88489149503459e8b18911",
+      "url": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
+      "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
+      "published_at": "2026-07-21T08:59:30Z",
+      "published_raw": "2026-07-21T14:29:30.944+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise of vulnerable websites.\n\nThe two security flaws, tracked as CVE-2026-63030 and CVE-2026-60137, have been codenamed wp2shell.\n\n\"By the early hours of Saturday morning (UTC), successful exploitation was already well",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-375152032914934863",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4qOga3YGcLZ3JclK_mkOkQ-pRmQowUUqu6Hp3fj1QTmsNuuhkSj4OiFqgAtL7e6yeGkv-K1jC0v4bRayI40oDQ8UMeYishuNzRap3E5RYmIEbjRbmq-uAk4iWKWwIfMdNi6owJrVWE_3fcWzj5lZgVm9P96ddcqghwnp3rGx3pM3N6hck6UiaFUgVRbtC/s260-e100/wordpress-ex.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:0edace9f3bea69f2acf988512fa492ff0b8483183f83509e3c1e4ae0145954a0",
       "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
