@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-21T14:00:42Z",
+  "updated_at": "2026-07-21T16:00:44Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-21T14:00:42Z",
+    "last_success_at": "2026-07-21T16:00:44Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:0991b56a5a6e57d05cf85e813e456e6233d2436e19511cb5978abaa87b38f5e2",
+      "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security",
+      "title": "Closing the Identity Gaps in Critical Infrastructure Security",
+      "published_at": "2026-07-21T14:00:10Z",
+      "published_raw": "Tue, 21 Jul 2026 10:00:10 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Critical infrastructure attacks often begin with stolen credentials, compromised devices, or trusted accounts. Specops Software explains why Zero Trust should verify both user identities and device trust before granting access to critical systems. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/",
+      "authors": [
+        {
+          "name": "Sponsored by Specops Software",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:7e023570d7d3f8faef242fc6ef2e6ecfb473a122c0f5cf8202a76460940ecf23",
       "url": "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains",
@@ -1338,27 +1359,6 @@
       ],
       "description": "A new version of the RedHook Android malware abuses the Android Wireless Debugging (Wireless ADB) mechanism in a novel way to gain shell-level privileges without requiring a computer connection. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:9c1ee0108d5043e2e60fb4a5ecb11a60035c82cd464f8b7c3c528db15ea18ce6",
-      "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms",
-      "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
-      "published_at": "2026-07-11T14:18:23Z",
-      "published_raw": "Sat, 11 Jul 2026 10:18:23 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The Australian Cyber Security Centre (ACSC) issued an alert about a global exploitation campaign targeting vulnerable content management systems (CMS) and plugins. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
       "authors": [
         {
           "name": "Bill Toulas",
