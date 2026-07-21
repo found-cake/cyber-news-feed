@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-21T04:00:36Z",
+  "updated_at": "2026-07-21T06:00:40Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-21T04:00:36Z",
+    "last_success_at": "2026-07-21T06:00:40Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:43e1d9e4aa11eb2158fdf1a3e725277d72105e46f49e985b01deabb31bbde382",
+      "url": "http://www.boannews.com/media/view.asp?idx=144767&kind=1&sub_kind=",
+      "title": "24시간 만에 네트워크 장악... 신종 랜섬웨어 ‘스파이럴스’ 발견",
+      "published_at": "2026-07-21T05:56:00Z",
+      "published_raw": "Tue, 21 Jul 2026 14:56:00 +0900",
+      "categories": [],
+      "description": "윈도우 디펜더 무력화 및 백업 프로세스 강제 종료러스트 언어 기반 풀스택 암호화 도구로 이중 갈취[보안뉴스 김형근 기자] 지난남아시아 IT 기업을 대상으로 신종 랜섬웨어 ‘스파이럴스’(Spirals)가 발견됐다. 이들은 최초 침투부터 네트워크 전체 암호화까지 24시간이 걸리지 않는 초고속 장악력을 보이며, 보안업계에 충격을 줬다. 이 악성코드는 이번 공격을",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:a1af2ee6dcfa8e04057bc32cfda51db2f394abacaf74937374305bcdce2ab8ae",
       "url": "http://www.boannews.com/media/view.asp?idx=144765&kind=1&sub_kind=",
@@ -182,25 +201,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:93680557dd1500417612b4c8ca89b263fdb8c9178fcdef1eec8c11498611656b",
-      "url": "http://www.boannews.com/media/view.asp?idx=144685&kind=1&sub_kind=",
-      "title": "깃허브 PAT 대량 유출... 경찰청, 내부망 연쇄 침투 경고",
-      "published_at": "2026-07-14T09:13:00Z",
-      "published_raw": "Tue, 14 Jul 2026 18:13:00 +0900",
-      "categories": [],
-      "description": "비공개 저장소 노린 ‘개인 액세스 토큰’ 탈취 정황 발견로그 점검·접속 키 관리·스캐닝 기능 활성화 권고[보안뉴스 조재호 기자] 경찰청 국가수사본부 수사국 사이버테러대응과는 국내외 기업과 개발자가 사용하는 소프트웨어 개발 플랫폼 깃허브(GitHub)의 ‘개인 액세스 토큰’(PAT) 다수가 유출된 정황을 파악하고 14일 긴급 보안 권고문을 발표했다.경찰청 수",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[조재호기자 (zephyr@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:5df56d761c76c7d38f6aa9d9787b71b1d51556525e422b0a483a8a2d82859247",
       "url": "http://www.boannews.com/media/view.asp?idx=144769&kind=&sub_kind=",
       "title": "AI 생태계 노린 신종 봇넷 ‘내드매시’(NadMesh) 멜웨어 주의",
@@ -360,6 +360,25 @@
       "published_raw": "Mon, 13 Jul 2026 10:15:00 +0900",
       "categories": [],
       "description": "가짜 마이크로소프트 팀즈 화면으로 터미널 명령어 실행 유도애플스크립트 기반으로 키체인 및 브라우저 정보 탈취해 C2 서버 전송[보안뉴스 김형근 기자] 최근 애플 macOS를 표적으로 삼는 신종 정보 탈취 악성코드 ‘오디세이 스틸러’(Odyssey Stealer)가 전 세계 100여 개국 이상에서 창궐해 각별한 주의가 요구된다. 이 악성코드는 과거 기승을 부",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:93680557dd1500417612b4c8ca89b263fdb8c9178fcdef1eec8c11498611656b",
+      "url": "http://www.boannews.com/media/view.asp?idx=144685&kind=1&sub_kind=",
+      "title": "깃허브 PAT 대량 유출... 경찰청, 내부망 연쇄 침투 경고",
+      "published_at": "2026-07-14T09:13:00Z",
+      "published_raw": "Tue, 14 Jul 2026 18:13:00 +0900",
+      "categories": [],
+      "description": "비공개 저장소 노린 ‘개인 액세스 토큰’ 탈취 정황 발견로그 점검·접속 키 관리·스캐닝 기능 활성화 권고[보안뉴스 조재호 기자] 경찰청 국가수사본부 수사국 사이버테러대응과는 국내외 기업과 개발자가 사용하는 소프트웨어 개발 플랫폼 깃허브(GitHub)의 ‘개인 액세스 토큰’(PAT) 다수가 유출된 정황을 파악하고 14일 긴급 보안 권고문을 발표했다.경찰청 수",
       "feed_id": "",
       "authors": [
         {
