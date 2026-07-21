@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-21T20:00:44Z",
+  "updated_at": "2026-07-21T22:00:37Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-21T20:00:44Z",
+    "last_success_at": "2026-07-21T22:00:37Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:4d39a7d6e2be3bbb76160d4c7a771661f10961c4f72ecdecc2f6399ecd342bd5",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys",
+      "title": "Critical SharePoint RCE flaw exploited to steal machine keys",
+      "published_at": "2026-07-21T20:06:55Z",
+      "published_raw": "Tue, 21 Jul 2026 16:06:55 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:de297bbc06aaee09eaf3a575359300c991a9c906d92940bb24816be2ff07e668",
       "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak",
