@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-21T12:00:44Z",
+  "updated_at": "2026-07-21T14:00:42Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-21T10:00:42Z",
-    "last_error_at": "2026-07-21T12:00:44Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-07-21T14:00:42Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:9691276f6eb81c628b8a4e3dc0a4315df3a6e88fa044d04156da37f2d488e038",
+      "url": "http://www.boannews.com/media/view.asp?idx=144781&kind=1&sub_kind=",
+      "title": "[부고] 한규돈 레코디드퓨쳐 지사장 부친상",
+      "published_at": "2026-07-21T10:06:00Z",
+      "published_raw": "Tue, 21 Jul 2026 19:06:00 +0900",
+      "categories": [],
+      "description": "△내용: 한규돈 레코디드퓨쳐 지사장 부친상△고인: 故 한경희님(향년 87세)△빈소: 삼성서울병원장례식장 6호△발인: 2026년 7월 23일(목) 11시 00분△장지: 1차 성남영생원 / 2차 안성추모공원[엄호식 기자(eomhs@boannews.com)]&lt;저작권자: 보안뉴스(www.boannews.com) 무단전재-재배포금지&gt;",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[엄호식기자 (eomhs@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:b13be62e48a2ffb31e853665fb5295300e854dee9852b5fa4f5d6cc7d94394c1",
       "url": "http://www.boannews.com/media/view.asp?idx=144776&kind=1&sub_kind=",
@@ -174,25 +193,6 @@
       "authors": [
         {
           "name": "[조재호기자 (zephyr@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:653112f1408cfdea8c464314cb0d676a34dc93cf7c047cc1645b2e2d3f87599b",
-      "url": "http://www.boannews.com/media/view.asp?idx=144703&kind=1&sub_kind=",
-      "title": "[카드뉴스] “아이디·비번도 없이 송금” 대기업 저격한 금융 공급망 마비 랜섬웨어 위협의 실체",
-      "published_at": "2026-07-15T06:54:00Z",
-      "published_raw": "Wed, 15 Jul 2026 15:54:00 +0900",
-      "categories": [],
-      "description": "기업의 자금 출금 버튼 및 결제 인프라 자체를 인질로 삼아 기업 자금망을 동시 마비시키는 고도화된 ‘금융 공급망 랜섬웨어’ 위협이 긴급 포착되었다. 해당 공격은 다크웹 비공개 익스플로잇을 악용하며, 정상적인 ID/비밀번호 인증 없이 자금 송신 핵심 파일인 ibytransmit을 직접 읽고 결제 처리를 유도하는 방식을 취한다. 기존의 정형화된 시그니처 방패로",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[지진솔기자 (digital@boannews.com)]",
           "uri": "",
           "email": ""
         }
@@ -383,6 +383,25 @@
       "authors": [
         {
           "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:653112f1408cfdea8c464314cb0d676a34dc93cf7c047cc1645b2e2d3f87599b",
+      "url": "http://www.boannews.com/media/view.asp?idx=144703&kind=1&sub_kind=",
+      "title": "[카드뉴스] “아이디·비번도 없이 송금” 대기업 저격한 금융 공급망 마비 랜섬웨어 위협의 실체",
+      "published_at": "2026-07-15T06:54:00Z",
+      "published_raw": "Wed, 15 Jul 2026 15:54:00 +0900",
+      "categories": [],
+      "description": "기업의 자금 출금 버튼 및 결제 인프라 자체를 인질로 삼아 기업 자금망을 동시 마비시키는 고도화된 ‘금융 공급망 랜섬웨어’ 위협이 긴급 포착되었다. 해당 공격은 다크웹 비공개 익스플로잇을 악용하며, 정상적인 ID/비밀번호 인증 없이 자금 송신 핵심 파일인 ibytransmit을 직접 읽고 결제 처리를 유도하는 방식을 취한다. 기존의 정형화된 시그니처 방패로",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[지진솔기자 (digital@boannews.com)]",
           "uri": "",
           "email": ""
         }
