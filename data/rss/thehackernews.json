@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-21T06:00:40Z",
+  "updated_at": "2026-07-21T08:00:41Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-21T06:00:40Z",
+    "last_success_at": "2026-07-21T08:00:41Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:0edace9f3bea69f2acf988512fa492ff0b8483183f83509e3c1e4ae0145954a0",
+      "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
+      "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
+      "published_at": "2026-07-21T07:34:32Z",
+      "published_raw": "2026-07-21T13:04:32.424+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month.\n\nThe same operator has now been spotted deploying ENCFORGE, a new compiled Go ransomware designed to encrypt model weights, vector indexes, training datasets, and other AI infrastructure files across the host filesystem.\n\nThe entry",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6662673774537018889",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDTNXJkg3w9ziG7euHnlaoQkTjogtjIhtwE-ZudPv_9wOpJUCUNVc-i_BtBkDTCflKzRSfUOEp5xHyRWAOcQWv18pf2kv9-yuI75SOM52X3akV3VrguZf6GDH9MZejxFG7FoJGMIgARuiWyncCOmNznSofFT8Fn9Zu2ZGmk0V_Ni3niha2I9qAO59VKHw/s260-e100/ransomware-ai.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:0823fe2e9d3257827a981a80c0c54ee0d9f939339f37c19cbc9675474750563c",
       "url": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
@@ -355,6 +382,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimRVwRIhs54UhNHyRll9YzVxICmTpgqwjAK1Sy7vYt6FAzb9oImcFpuM0J8dOWdtdjCdlROkternhP9r5jZD9HNvwVwcyRzhesdYgbVjUpJk7p4rxDDJSdEUibs1Gk-Ihy1bTcxs8fA7kgG49ImfTWEZO6068Ui-_X6sTTraCg8lFuucYJrUJi2RhdXyG2/s260-e100/pakistan.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:c8dac0ed07a67a1ce46ba95ec84e4d7162f0e3453b34f8a44684bc0ccd4ee7aa",
+      "url": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
+      "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
+      "published_at": "2026-07-21T06:29:26Z",
+      "published_raw": "2026-07-21T11:59:26.739+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber.\n\nIn a post shared on X, the threat intelligence firm said it's observing in-the-wild exploitation of CVE-2026-6875 (CVSS score: 9.5), a sandbox escape vulnerability that could allow an unauthenticated user to run arbitrary code.\n\nPatches for the flaw were",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7753372096806433217",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAYYV6u5s-uKU-FXeqsoZ9Bk7nvzW1gPYVuoykmnuzLBQCK0jvX7rAO12mK5FVX06ovTJHZLUUXDkFmYk88oyKdFSYByRPSL5MUuAqikrTIVEpVzOcR9j4Rn0Fmje7-VwBAO09Yl8Y4cTUVNFwTXf2FV2c9C8oyNi5coAMCMLn5WF5Fbqtyt-tDZ3MVsO0/s260-e100/servicenow.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1111,33 +1165,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8FM8eXCuapKSUef3nzFlgzqlX4a5mJChM9YqCdHOi6QybQ8AM1xbM9NNTyAjS3iyz7iAX6vC8QVHl5zFlAgNyBIgm5FHgFkEGzOg5l3ZXNXI8ILA2GIGKtvYDuy-qpXmfeMHYxheps3XuPCtgedFa9vcimwad9kBjpbF0SEhhxpZoWsWybn0zcgNtppI/s260-e100/cisa-joomla.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:2764346b77ff5d266c6d581f0eaf4a77a26e5ce08165215e30ea8dcbaaa41941",
-      "url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
-      "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
-      "published_at": "2026-07-11T06:45:55Z",
-      "published_raw": "2026-07-11T12:15:55.409+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution.\n\nThe vulnerability has been described as a case of stored cross-site scripting (XSS) that could allow specially crafted emails to execute malicious scripts in a user's session. It has yet to be assigned a CVE identifier.\n\n\"The",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1237714872054874281",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirVz95zYTg61VRro9unfJCWWwwUrv3pQdtyNT7rPL8iCg6n0S6bky4dqPiluQHfSvQMIO9cyYgrz-07ZCx8yG_qND_J9XJ_0BoUON9p3zj0etafNvjg45txAeu4uCDEMxGDNv2tIxNuqrC0OsKG_sWZp5QIlEkbqZ_g_EEcAdXUQbuo_EgsXwT3mERTTk/s260-e100/zimbra-email-hack.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
