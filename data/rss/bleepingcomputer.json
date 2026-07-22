@@ -1,15 +1,57 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-22T14:00:40Z",
+  "updated_at": "2026-07-22T16:00:46Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-22T14:00:40Z",
+    "last_success_at": "2026-07-22T16:00:46Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:716393ec1372d83805d0e58bf8d41edd2a100456115e832f96d324de0c3be514",
+      "url": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it",
+      "title": "How enterprise GenAI can amplify ransomware risk — and how to contain it",
+      "published_at": "2026-07-22T15:30:00Z",
+      "published_raw": "Wed, 22 Jul 2026 11:30:00 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Enterprise AI can accelerate ransomware attacks when AI assistants and agents inherit excessive permissions or compromised identities. Acronis explains how identity controls, governance, and least-privilege access help reduce AI-enabled ransomware risk while supporting secure AI adoption. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
+      "authors": [
+        {
+          "name": "Sponsored by Acronis",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:1b4b996c667a9403af7b70a86fc4047b2680316700bc837d37e207004656b8c8",
+      "url": "https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first",
+      "title": "New InfraTrust report reveals infrastructure flaws admins should patch first",
+      "published_at": "2026-07-22T14:15:00Z",
+      "published_raw": "Wed, 22 Jul 2026 10:15:00 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Eclypsium has launched InfraTrust, a new infrastructure cybersecurity knowledge base and monthly InfraTrust Pulse report designed to help organizations prioritize vulnerabilities affecting infrastructure, firmware, networking, and edge devices. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:7b201b4060d122ff14de373b92f9e99d47eae9f3300a219382d7db4d87a6789d",
       "url": "https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats",
@@ -1574,28 +1616,6 @@
       "authors": [
         {
           "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:83ed2baea747099cbeabdbe9634272f042d52c9dae0dce0f52c1cb6f4eb78c0f",
-      "url": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access",
-      "title": "RedHook Android malware now uses Wireless ADB for shell access",
-      "published_at": "2026-07-12T14:27:32Z",
-      "published_raw": "Sun, 12 Jul 2026 10:27:32 -0400",
-      "categories": [
-        "security",
-        "Mobile"
-      ],
-      "description": "A new version of the RedHook Android malware abuses the Android Wireless Debugging (Wireless ADB) mechanism in a novel way to gain shell-level privileges without requiring a computer connection. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
           "uri": "",
           "email": ""
         }
