@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-22T00:00:39Z",
+  "updated_at": "2026-07-22T02:00:42Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-22T00:00:39Z",
+    "last_success_at": "2026-07-22T02:00:42Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:72a316ad059256d1ec7eac07d9a51be33acb61abf589e1c4d05737816f3930f6",
+      "url": "http://www.boannews.com/media/view.asp?idx=144784&kind=1&sub_kind=",
+      "title": "“정찰부터 암호화까지 초고속”... CVE-2026-0257 킬린 랜섬웨어 주의보",
+      "published_at": "2026-07-22T01:33:00Z",
+      "published_raw": "Wed, 22 Jul 2026 10:33:00 +0900",
+      "categories": [],
+      "description": "아크틱울프랩스, 킬린의 신규 공격 캠페인 분석한층 더 빨라진 공격 템포와 더불어 다중 협박 전술의 파괴력 재확인[보안뉴스 김형근 기자] 최근 광범위한 활동을 펼치며 요주의 대상이 된 해킹그룹 ‘킬린’(Qilin)이 CVE-2026-0257 취약점을 악용해 공격 표면을 확장하는 가운데, 보안 전문가들은 신속한 패치와 선제적 보안을 핵심 과제로 꼽았다.보안 기",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:9691276f6eb81c628b8a4e3dc0a4315df3a6e88fa044d04156da37f2d488e038",
       "url": "http://www.boannews.com/media/view.asp?idx=144781&kind=1&sub_kind=",
@@ -174,25 +193,6 @@
       "authors": [
         {
           "name": "[지진솔기자 (digital@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:bb83ca2d8147711a61712f80ef766ae32db3fbe1ab30a2be50491277ae7b1b7b",
-      "url": "http://www.boannews.com/media/view.asp?idx=144712&kind=1&sub_kind=",
-      "title": "합성 클릭에 뚫린 AI... 클로드 크롬 확장 프로그램, 권한 탈취 취약점 노출",
-      "published_at": "2026-07-16T05:11:00Z",
-      "published_raw": "Thu, 16 Jul 2026 14:11:00 +0900",
-      "categories": [],
-      "description": "이벤트 신뢰성 검증 누락 악용한 지메일 열람 메커니즘 경고‘묻지 않고 실행’ 모드에서 CVSS 9.6... 자동화 해제 조치 필요[보안뉴스 김형근 기자] 앤트로픽의 공식 브라우저 확장 프로그램 ‘클로드 포 크롬’(Claude for Chrome)에시 권한 탈취 취약점이 발견됐다. 이 취약점을 악용하면 제3의 외부 확장 프로그램이 사용자의 지메일, 구글 문서",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[조재호기자 (zephyr@boannews.com)]",
           "uri": "",
           "email": ""
         }
@@ -379,6 +379,25 @@
       "published_raw": "Mon, 13 Jul 2026 17:21:00 +0900",
       "categories": [],
       "description": "외교·안보 연구진 정보 교류 관행 노린 다단계 침투 전략 구사레거시 확장자 악용 및 ‘임베드 페이로드 v2’ 아키텍처로 탐지 우회EDR 기반 메모리 감시 및 보안 규정 점검 등 전방위 보안 점검 필요해[보안뉴스 조재호 기자] 북한 해킹 조직 ‘APT37’ 소행으로 추정되는 신종 사이버 공격 캠페인 ‘오퍼레이션 캡슐 볼트’(Operation Capsule V",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:bb83ca2d8147711a61712f80ef766ae32db3fbe1ab30a2be50491277ae7b1b7b",
+      "url": "http://www.boannews.com/media/view.asp?idx=144712&kind=1&sub_kind=",
+      "title": "합성 클릭에 뚫린 AI... 클로드 크롬 확장 프로그램, 권한 탈취 취약점 노출",
+      "published_at": "2026-07-16T05:11:00Z",
+      "published_raw": "Thu, 16 Jul 2026 14:11:00 +0900",
+      "categories": [],
+      "description": "이벤트 신뢰성 검증 누락 악용한 지메일 열람 메커니즘 경고‘묻지 않고 실행’ 모드에서 CVSS 9.6... 자동화 해제 조치 필요[보안뉴스 김형근 기자] 앤트로픽의 공식 브라우저 확장 프로그램 ‘클로드 포 크롬’(Claude for Chrome)에시 권한 탈취 취약점이 발견됐다. 이 취약점을 악용하면 제3의 외부 확장 프로그램이 사용자의 지메일, 구글 문서",
       "feed_id": "",
       "authors": [
         {
