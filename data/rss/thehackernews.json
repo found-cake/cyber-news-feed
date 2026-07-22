@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-22T04:00:36Z",
+  "updated_at": "2026-07-22T06:00:39Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-22T04:00:36Z",
+    "last_success_at": "2026-07-22T06:00:39Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -382,6 +382,60 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVh0XoiKxyvhXW_SN-Ynau8iPG3vd2ltt4cDr4L_cGUhc5oBmsogZt5A_l2qbTdPG8Ciu73I0mHhRBDRJ2uWasrA_vqnkdvpbQcdh0ipe-d_cz2HTFJWOCBNxplCO0RuppogFhl1OONqWWXOLQWhH_Bt89c160ZzHtkrnDJN6PsnYWNV1W510diYait_g/s260-e100/phishing-server-ms.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:8c8679da622e5e3cc4400978a2dc773fbf844279c4f1b08e29c1088da67ebb2f",
+      "url": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
+      "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
+      "published_at": "2026-07-22T04:57:52Z",
+      "published_raw": "2026-07-22T10:27:52.240+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "A single invisible comment in an Azure DevOps pull request can turn a reviewer's own AI coding agent against them, driving it into projects the attacker has no rights to reach and quietly leaking what it finds.\n\nThe flaw is in Microsoft's official Azure DevOps MCP server, and it works because one of its tools returns pull request descriptions without a prompt-injection guardrail the company had",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2160333993666197092",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyPnXNVcT-TTMj4bnJJGmkaK6DFi2Lr2KDvnQZiPIyboMvPfwGP-xlkXhEAq1-bY1fkI_eSiaMEY0JxhHvMYB5X_i_aDK04yiPGrSIk9cXL9P-9cwn2ftFhqCto-5dAxILlsZITCPhQ6Kf2h0_5Ly9YSvo5T2z8sNe5ZDPZxR-S-JslYxH-q9FoPUUJtA/s260-e100/inject.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:2fbec65f1f9751ca39c4a4f1d641fce4ede94e2eae751d052c184eb8777d06ef",
+      "url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
+      "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
+      "published_at": "2026-07-22T04:18:33Z",
+      "published_raw": "2026-07-22T09:48:33.113+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted Hugging Face's production infrastructure last week.\n\nThe AI company said the models were operating with \"reduced cyber refusals for evaluation purposes\" that might otherwise limit their ability to",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3953633931416809810",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ67gB4XtAR4QxYNABuJhWfBIduFUT7TMSA0K2c9TXbTTwqdfMJwBb5busuLeMPlrljP3xuTUrhbMQxwctepF9oPtgJkqo-RAxN86O2t25jcjIHfs5A8SVvG3Y8WJJa4pqAp0UiTBzAPZtzSaNcNceJokt7ATaoq7GTXYJjbsxaQfTEs4cwdaOz4Fg72nG/s260-e100/openai.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -902,6 +956,33 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:3724184352f459b7524970d83e7904bd0e663fb4e3b1c76dcfd38ba028436f9c",
+      "url": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
+      "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
+      "published_at": "2026-07-16T11:32:28Z",
+      "published_raw": "2026-07-16T17:02:28.206+05:30",
+      "categories": [
+        "cyber-attack"
+      ],
+      "description": "Ask an AI agent to summarize the reviews on a product page, and a single planted review can make it click \"Buy Now\" instead. Ask a coding assistant to apply a maintainer's fix from a GitHub thread, and a fake comment can make it run a stranger's command on your computer.\n\nNeither trick hijacks the agent's task. Each one just corrupts the facts it trusts and lets it carry on with the job you",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1294313741125943682",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiapJDNa0fN3WsyrkYjRiRo3L8tqmE_RJm9AmQV5KO9p5To-PBWdVz7EW294xtn-VZtJ2xS_scIq3LyqyxYkPG3R5TdJoPF_axjEaLpaXSqGHK_uO274wM315GEqHtnDAMIfFN2vZlcEYJ3Ca11Ml_E-l32H63EYNfx7l9ldtjNlH8hL_19w4RL6vDpOWMz/s260-e100/adi.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:ae03488274cf3725120a47f888f22806fc59c11f99de4ee17467ef1d81e688d9",
       "url": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
       "title": "n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer",
@@ -922,33 +1003,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1Pvezsft8WXzYy1Lw3zKDZrkf0TNZfj95rzTnuQgzbJuztRDNDFK35ahO9UfhNJOicjjuzyZGFCtC_idBl8vgNdw4kzfeYFo6LwUur66S5qUTO2Bl3WVLwCDWoDTnw4dlZdj_ZQ1T2JcG1dWfJeoO3WDZs94EVm9z0hZ8VPL36KDpaAmw7fH9hSWSSaw/s260-e100/n8n-main.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:3724184352f459b7524970d83e7904bd0e663fb4e3b1c76dcfd38ba028436f9c",
-      "url": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
-      "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
-      "published_at": "2026-07-16T11:32:28Z",
-      "published_raw": "2026-07-16T17:02:28.206+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Ask an AI agent to summarize the reviews on a product page, and a single planted review can make it click \"Buy Now\" instead. Ask a coding assistant to apply a maintainer's fix from a GitHub thread, and a fake comment can make it run a stranger's command on your computer.\n\nNeither trick hijacks the agent's task. Each one just corrupts the facts it trusts and lets it carry on with the job you",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1294313741125943682",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiapJDNa0fN3WsyrkYjRiRo3L8tqmE_RJm9AmQV5KO9p5To-PBWdVz7EW294xtn-VZtJ2xS_scIq3LyqyxYkPG3R5TdJoPF_axjEaLpaXSqGHK_uO274wM315GEqHtnDAMIfFN2vZlcEYJ3Ca11Ml_E-l32H63EYNfx7l9ldtjNlH8hL_19w4RL6vDpOWMz/s260-e100/adi.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
