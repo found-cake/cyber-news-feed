@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-07-22T16:00:46Z",
+  "updated_at": "2026-07-22T18:00:42Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-22T16:00:46Z",
+    "last_success_at": "2026-07-22T18:00:42Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -76,78 +76,6 @@
         },
         {
           "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a54b8b1fdafe326aa2ceb93_image%20(130).png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:685e653989418b5f953311f108a6cb8f3030532ce0a40da64c77d1d6bd048fb5",
-      "url": "https://www.stepsecurity.io/blog/jscrambler-npm-package-publishes-malicious-preinstall-binary",
-      "title": "jscrambler npm package publishes malicious preinstall binary",
-      "published_at": "2026-07-12T17:53:39Z",
-      "published_raw": "Sun, 12 Jul 2026 17:53:39 GMT",
-      "categories": [],
-      "description": "On July 11, 2026, version 8.14.0 of jscrambler was published to npm carrying a malicious preinstall hook that drops and executes a platform-specific native binary on Linux, Windows, and macOS. jscrambler is the official CLI client for the Jscrambler Code Integrity API, a commercial JavaScript obfuscation and web-app protection service, with a clean version history dating back to 0.1.0. The compromised release was flagged by StepSecurity's AI Release Analyzer with a suspicion score of 0 (the maximum suspicion rating) on publish.",
-      "feed_id": "https://www.stepsecurity.io/blog/jscrambler-npm-package-publishes-malicious-preinstall-binary",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a526ef0bc2d869a6e016e6c_SCR-20260711-szrx.png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a526ef0bc2d869a6e016e6c_SCR-20260711-szrx.png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:bc25121e66f73858c33beda28516aee790ff1819e8b171dcd6695d2cf688196d",
-      "url": "https://www.stepsecurity.io/blog/injective-npm-supply-chain-attack-18-packages-backdoored-to-steal-crypto-wallet-keys",
-      "title": "Injective npm Supply Chain Attack: 18 Packages Backdoored to Steal Crypto Wallet Keys",
-      "published_at": "2026-07-12T17:53:39Z",
-      "published_raw": "Sun, 12 Jul 2026 17:53:39 GMT",
-      "categories": [],
-      "description": "On July 8, 2026, attackers used access to a trusted developer's account to slip a backdoor into a widely used software development kit for the Injective blockchain. Disguised as harmless analytics, the code quietly captured wallet recovery phrases and private keys and sent them to an attacker-controlled server the moment a wallet was created or loaded. Automatic publishing pushed the tainted code out to 18 related packages within minutes, and it stayed live for less than an hour before being pulled and fixed. If your application installed any of the affected packages during that window, or picked up a cached copy since, treat any wallet secrets it touched as exposed.",
-      "feed_id": "https://www.stepsecurity.io/blog/injective-npm-supply-chain-attack-18-packages-backdoored-to-steal-crypto-wallet-keys",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a4fcd3cbdab81af47cdd2e3_Screenshot%202026-07-09%20at%2010.02.35%E2%80%AFPM.png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a4fcd3cbdab81af47cdd2e3_Screenshot%202026-07-09%20at%2010.02.35%E2%80%AFPM.png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:80b680d985931469e60e724406bf949a6ca9a8fd318320b4981c03815ce641e7",
-      "url": "https://www.stepsecurity.io/blog/github-secret-scanning-public-monitoring-for-enterprises-coverage-and-gaps",
-      "title": "GitHub Secret Scanning Public Monitoring for Enterprises: Coverage and Gaps",
-      "published_at": "2026-07-12T17:53:39Z",
-      "published_raw": "Sun, 12 Jul 2026 17:53:39 GMT",
-      "categories": [],
-      "description": "GitHub's new public monitoring finds your enterprise's leaked secrets anywhere on github.com. Here is what it covers, what it cannot see, and how to close the exfiltration gap",
-      "feed_id": "https://www.stepsecurity.io/blog/github-secret-scanning-public-monitoring-for-enterprises-coverage-and-gaps",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a4d75bc9f99aad02df506c9_image%20(127).png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a4d75bc9f99aad02df506c9_image%20(127).png",
           "kind": "content",
           "medium": "image"
         }
