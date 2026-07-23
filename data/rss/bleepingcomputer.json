@@ -1,15 +1,57 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-23T08:00:38Z",
+  "updated_at": "2026-07-23T10:00:43Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-23T08:00:38Z",
+    "last_success_at": "2026-07-23T10:00:43Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:a8cdbc14ebc40e61d76a42b5a8bcefa458325b3c5d45c7c06ca969393f06d127",
+      "url": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic",
+      "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
+      "published_at": "2026-07-23T10:00:00Z",
+      "published_raw": "Thu, 23 Jul 2026 06:00:00 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "The Chaos ransomware gang is using a new backdoor dubbed msaRAT that hides command-and-control (C2) communication by routing it through the Chrome or Edge browsers. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:c526149de4f5a5e95d901f19a8563f8b99e4c804c32757c4391ddbf7de7f94a4",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks",
+      "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
+      "published_at": "2026-07-23T08:13:07Z",
+      "published_raw": "Thu, 23 Jul 2026 04:13:07 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Israeli cybersecurity firm Check Point Software has addressed an actively exploited zero-day flaw in the company's SmartConsole graphical user interface (GUI) admin panel. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
+      "authors": [
+        {
+          "name": "Sergiu Gatlan",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:0c020a540c1613ce2d4c955e4b55fada53ca9b505036eeafd40be8a8119b40d5",
       "url": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases",
@@ -1656,27 +1698,6 @@
       ],
       "description": "The European Union and the United Kingdom jointly sanctioned dozens of Russian individuals and entities and accused Russia of coordinating a network of hacking groups responsible for attacks across Europe. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:ccd4804380003845bd7c908511a20af320986814dec121b8cfa9149044be1398",
-      "url": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure",
-      "title": "US and allies warn of Russian critical infrastructure attacks",
-      "published_at": "2026-07-13T09:32:23Z",
-      "published_raw": "Mon, 13 Jul 2026 05:32:23 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Cybersecurity agencies from the United States and eight other countries have issued a joint warning that Russian state hackers are targeting vulnerable and poorly configured routers to infiltrate critical infrastructure networks. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
       "authors": [
         {
           "name": "Sergiu Gatlan",

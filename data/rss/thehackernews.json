@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-23T08:00:38Z",
+  "updated_at": "2026-07-23T10:00:43Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-23T08:00:38Z",
+    "last_success_at": "2026-07-23T10:00:43Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -382,6 +382,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh43TJKqVkJoN7Q3donw2FnXp1IrJEr6vvDteFOBCSR-PptAc8fMXXCq07kvKWoDacCHo6gi5-eUoX9mIBHggv-KXsoH31yBi0-_MZBjxYbiYNlhvAu8V_xhjuKHgnQj43x5S2pORBIGONxE_yLZdZOnDCmcjMegQjhwZtHDThg_4nlhZqwSizsMRCfZFQW/s260-e100/ps-ai.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:624c6b980255a780eff8f70d75510a4e19075dbfb46030dfe6f370ab434c92c2",
+      "url": "https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html",
+      "title": "Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs",
+      "published_at": "2026-07-23T08:04:35Z",
+      "published_raw": "2026-07-23T13:34:35.413+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "RefluXFS, a new Linux kernel flaw disclosed on July 22 and tracked as CVE-2026-64600, lets an unprivileged local user overwrite root-owned files on an XFS filesystem and gain persistent root access.\n\nQualys said default installations of Red Hat Enterprise Linux and its derivatives, Fedora Server, and Amazon Linux can meet the conditions for exploitation.\n\nThe company demonstrated the race",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7147576879151956921",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_70wKHw_bPdJz-ZYXpwrH7FBXem8uWKNtuBUyXDLbMld4PaBtBkw7Gpt9lRrVnki_eC21aw6sUezqM3-oFiTEviDqZECD20lmV3enwh0lDkRLAx38JlJYMoLzRpn-Ai4q1UbiIo8DTVjp4_blU5CM6AnW97jYgIblggBYgNIHdTE6t2Ec7by-N0Ly8YY/s260-e100/linux-root.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -956,33 +983,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:ef3919eea15f184f3b4eac9600430eb2b4b47d2bb2cac178eeac7ff139d7e771",
-      "url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
-      "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
-      "published_at": "2026-07-19T13:18:56Z",
-      "published_raw": "2026-07-19T18:48:56.877+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public disclosure since June 22, 2026.\n\nCybersecurity company Volexity is tracking the activity under the moniker UTA0533. The discovery was made following an incident response investigation earlier this",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7728276338525061312",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLomYbwprpYWKVxrxKRh3hFiGRWdVOb7WAVbhJjf_fYQAba4wVZT1PpwWAL-ZDb40MZp9T43-dj8Fru-eOjiKcrAoh5sOdyKGUUAVwK9iifXl70EvgORPztxnvYXc9HA8trGKcRZGob8DYJxUZBg0zlZFUTiRGPXGFheSbKLUoG53kZ9HR6XxyJs9GEtcA/s260-e100/sma-sonicwall.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:3724184352f459b7524970d83e7904bd0e663fb4e3b1c76dcfd38ba028436f9c",
       "url": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
       "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
@@ -1003,6 +1003,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiapJDNa0fN3WsyrkYjRiRo3L8tqmE_RJm9AmQV5KO9p5To-PBWdVz7EW294xtn-VZtJ2xS_scIq3LyqyxYkPG3R5TdJoPF_axjEaLpaXSqGHK_uO274wM315GEqHtnDAMIfFN2vZlcEYJ3Ca11Ml_E-l32H63EYNfx7l9ldtjNlH8hL_19w4RL6vDpOWMz/s260-e100/adi.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:ef3919eea15f184f3b4eac9600430eb2b4b47d2bb2cac178eeac7ff139d7e771",
+      "url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+      "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
+      "published_at": "2026-07-19T13:18:56Z",
+      "published_raw": "2026-07-19T18:48:56.877+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public disclosure since June 22, 2026.\n\nCybersecurity company Volexity is tracking the activity under the moniker UTA0533. The discovery was made following an incident response investigation earlier this",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7728276338525061312",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLomYbwprpYWKVxrxKRh3hFiGRWdVOb7WAVbhJjf_fYQAba4wVZT1PpwWAL-ZDb40MZp9T43-dj8Fru-eOjiKcrAoh5sOdyKGUUAVwK9iifXl70EvgORPztxnvYXc9HA8trGKcRZGob8DYJxUZBg0zlZFUTiRGPXGFheSbKLUoG53kZ9HR6XxyJs9GEtcA/s260-e100/sma-sonicwall.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
