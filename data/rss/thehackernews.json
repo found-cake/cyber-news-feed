@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-23T06:00:40Z",
+  "updated_at": "2026-07-23T08:00:38Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-23T06:00:40Z",
+    "last_success_at": "2026-07-23T08:00:38Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -389,26 +389,26 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:b23bf6e48280a3fd1f3f0b7db37a15e9a1938e07269536c759cbbe206903190d",
-      "url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
-      "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
-      "published_at": "2026-07-13T07:30:00Z",
-      "published_raw": "2026-07-13T13:00:00.000+05:30",
+      "id": "sha256:cf457a6325533fbcb0d0d92b06c6739020c49f8d8337aa339c0cd2ccc7309644",
+      "url": "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
+      "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
+      "published_at": "2026-07-23T06:34:36Z",
+      "published_raw": "2026-07-23T12:04:36.906+05:30",
       "categories": [
-        "threat-intelligence"
+        "vulnerability"
       ],
-      "description": "An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it:&nbsp;python3 -m http.server 8080, was still sitting in the readable&nbsp;.bash_history.\n\nFrom that one lapse, French security firm&nbsp;Lexfo&nbsp;lifted the operator's entire toolkit and pivoted through it to two more",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2734385988498240605",
+      "description": "Check Point has released security updates to address multiple vulnerabilities impacting Security Management and Multi-Domain Management (MDSM) products, including a critical flaw that has come under active exploitation in the wild.\n\nThe security flaw, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass affecting the Check Point SmartConsole login process that allows an",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3371507510839503897",
       "authors": [
         {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
           "email": "noreply@blogger.com"
         }
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVh0XoiKxyvhXW_SN-Ynau8iPG3vd2ltt4cDr4L_cGUhc5oBmsogZt5A_l2qbTdPG8Ciu73I0mHhRBDRJ2uWasrA_vqnkdvpbQcdh0ipe-d_cz2HTFJWOCBNxplCO0RuppogFhl1OONqWWXOLQWhH_Bt89c160ZzHtkrnDJN6PsnYWNV1W510diYait_g/s260-e100/phishing-server-ms.jpg",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTBN3LZDMeKkPoMsoNtsGp_s0KYwVrmhhKHQsQtqgtAN1WAKeS7L-aN1hiehoBwnPi6f1gziIEecy5GlPdAVlWKPlzVprrqHLTLE3tcMZu4NK8QDoRxxS22HEFxfIpyrXnqr8O9b9akb1VVr9dmmmdwzHmhTFTVX4Cpv6WkFwSpz62tr6XKEDvKp5m0aUu/s260-e100/checkpoint.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -983,33 +983,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:1f8fa8831f47fff50b11c062e4e9d4994e8c840adbb0060428b798b1f087e864",
-      "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
-      "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
-      "published_at": "2026-07-17T21:20:10Z",
-      "published_raw": "2026-07-18T02:50:10.645+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story below reflects all of it.\n\nAn anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8803001732165323097",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRULLT1q8L6AtUB7jgKywi_KSF8VGKkOF9yC3Snt81K1aD2XSEV1jgfIe331rXUWGqhmAyFgr1USssr4_CQmuE7HLAn0ShaQ0pHY_yvNYMjQdHtpV8i-vlk2ickhJSJDSN3amGox_DMR5hemMlrgXIk8kHoHlYKZncjpiV3ibF77ax1Yn0fEjxtgxy7tY/s260-e100/wordpress-core.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:3724184352f459b7524970d83e7904bd0e663fb4e3b1c76dcfd38ba028436f9c",
       "url": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
       "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
@@ -1030,6 +1003,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiapJDNa0fN3WsyrkYjRiRo3L8tqmE_RJm9AmQV5KO9p5To-PBWdVz7EW294xtn-VZtJ2xS_scIq3LyqyxYkPG3R5TdJoPF_axjEaLpaXSqGHK_uO274wM315GEqHtnDAMIfFN2vZlcEYJ3Ca11Ml_E-l32H63EYNfx7l9ldtjNlH8hL_19w4RL6vDpOWMz/s260-e100/adi.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:1f8fa8831f47fff50b11c062e4e9d4994e8c840adbb0060428b798b1f087e864",
+      "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+      "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
+      "published_at": "2026-07-17T21:20:10Z",
+      "published_raw": "2026-07-18T02:50:10.645+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story below reflects all of it.\n\nAn anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8803001732165323097",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRULLT1q8L6AtUB7jgKywi_KSF8VGKkOF9yC3Snt81K1aD2XSEV1jgfIe331rXUWGqhmAyFgr1USssr4_CQmuE7HLAn0ShaQ0pHY_yvNYMjQdHtpV8i-vlk2ickhJSJDSN3amGox_DMR5hemMlrgXIk8kHoHlYKZncjpiV3ibF77ax1Yn0fEjxtgxy7tY/s260-e100/wordpress-core.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
