@@ -1,15 +1,57 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-23T16:00:44Z",
+  "updated_at": "2026-07-23T18:00:40Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-23T16:00:44Z",
+    "last_success_at": "2026-07-23T18:00:40Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:47401381bf9485ecd654cceb024b02a639a10d225440ad0790abd89546e0d78d",
+      "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft",
+      "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
+      "published_at": "2026-07-23T16:49:27Z",
+      "published_raw": "Thu, 23 Jul 2026 12:49:27 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "CISA is warning that the Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is targeting organizations using Zimbra Collaboration email servers by combining phishing attacks with the exploitation of a now-patched Zimbra vulnerability. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:b15f3ff77f064779b2c56535c5a0df7a8df73e00c02c6f7fc8ca6c945818c50c",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware",
+      "title": "Hackers abuse Notepad++ plugins to stealthily install malware",
+      "published_at": "2026-07-23T16:32:35Z",
+      "published_raw": "Thu, 23 Jul 2026 12:32:35 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Ukraine's CERT has uncovered attacks distributing an archive containing the legitimate Notepad++ application and a malicious utility called LunchPoke disguised as a plugin to establish persistence. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:098a4561174d7162506f27a9f5d0261960be55ba80ed1a765a06b4d11740de95",
       "url": "https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires",
