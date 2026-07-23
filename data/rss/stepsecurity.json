@@ -1,15 +1,39 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-07-22T22:00:39Z",
+  "updated_at": "2026-07-23T00:00:40Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-22T22:00:39Z",
+    "last_success_at": "2026-07-23T00:00:40Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:46601280f60d5f7a04319f487e4d8c2adb351c5a4bbef9e5203dc84fb647910c",
+      "url": "https://www.stepsecurity.io/blog/find-unused-stale-and-oidc-replaceable-github-actions-secrets-across-your-github-organization",
+      "title": "Find Unused, Stale, and OIDC-Replaceable GitHub Actions Secrets Across Your GitHub Organization",
+      "published_at": "2026-07-22T22:45:11Z",
+      "published_raw": "Wed, 22 Jul 2026 22:45:11 GMT",
+      "categories": [],
+      "description": "StepSecurity now shows which GitHub Actions secrets are actually used, which workflows use them, and which can be replaced with OIDC.",
+      "feed_id": "https://www.stepsecurity.io/blog/find-unused-stale-and-oidc-replaceable-github-actions-secrets-across-your-github-organization",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a6140a6376cdc1230a78a4e_Cover3-24.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a6140a6376cdc1230a78a4e_Cover3-24.jpg",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:c6aed9cd80b5f4d3f95d844131da80bb7994597924fb4893f71f687eb5b9bae8",
       "url": "https://www.stepsecurity.io/blog/introducing-device-policy-enforce-approved-vs-code-extensions-across-your-fleet",
