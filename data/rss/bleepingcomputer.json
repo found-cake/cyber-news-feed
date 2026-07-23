@@ -1,15 +1,37 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-23T18:00:40Z",
+  "updated_at": "2026-07-23T20:00:41Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-23T18:00:40Z",
+    "last_success_at": "2026-07-23T20:00:41Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:15267e88890d4eba5469a31174d86d9688ad1948bda6267198e409ff222f3e65",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware",
+      "title": "Fake Claude app promoted by Bing ads pushes SectopRAT malware",
+      "published_at": "2026-07-23T19:48:30Z",
+      "published_raw": "Thu, 23 Jul 2026 15:48:30 -0400",
+      "categories": [
+        "security",
+        "Artificial Intelligence"
+      ],
+      "description": "A malvertising campaign on the Bing search service is pushing a fake Claude desktop app installer hosted on a legitimate Claude.ai domain to deliver the SectopRAT malware. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:47401381bf9485ecd654cceb024b02a639a10d225440ad0790abd89546e0d78d",
       "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft",
@@ -1635,49 +1657,6 @@
       ],
       "description": "Japan's largest taxi operator, Nihon Kotsu, announced that its systems were compromised in a cyberattack, forcing the company to shut down part of its infrastructure. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:93e963ccf0d9a14bd06e2b37f0a98f55d1fe09f1e753b0f9497e7a194d215b11",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware",
-      "title": "Hackers backdoor Jscrambler npm package with infostealer malware",
-      "published_at": "2026-07-13T19:44:19Z",
-      "published_raw": "Mon, 13 Jul 2026 15:44:19 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloaded almost 1,500 times. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:aaa03eed3285a0885b05ee7766c6344799f5cb157a9597201fd5e4543866088b",
-      "url": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool",
-      "title": "New CrashStealer malware poses as Apple crash reporting tool",
-      "published_at": "2026-07-13T19:04:02Z",
-      "published_raw": "Mon, 13 Jul 2026 15:04:02 -0400",
-      "categories": [
-        "security",
-        "Apple"
-      ],
-      "description": "A new macOS information-stealing malware called CrashStealer pretends to be Apple's crash-reporting tool to steal credentials, keychain data, and crypto wallets. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
       "authors": [
         {
           "name": "Bill Toulas",

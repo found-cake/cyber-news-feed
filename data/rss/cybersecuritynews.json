@@ -1,15 +1,50 @@
 {
   "schema_version": 1,
   "source": "cybersecuritynews",
-  "updated_at": "2026-07-23T18:00:40Z",
+  "updated_at": "2026-07-23T20:00:41Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-23T18:00:40Z",
+    "last_success_at": "2026-07-23T20:00:41Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:5c73d332b5559af43ea94da044211cdf3b5d758f92061f80d57783b201440793",
+      "url": "https://cybersecuritynews.com/hackers-abuse-notepad-plugins",
+      "title": "Hackers Abuse Notepad++ Plugins to Compromise Your System Silently",
+      "published_at": "2026-07-23T18:04:34Z",
+      "published_raw": "Thu, 23 Jul 2026 18:04:34 +0000",
+      "categories": [
+        "Cyber Attack News",
+        "Cyber Security",
+        "Cyber Security News"
+      ],
+      "description": "<p>A stealthy new campaign in which the UAC-0099 threat cluster hijacks a legitimate Notepad++ plugin to quietly plant malware on victim machines, marking a significant evolution in the group&#8217;s tactics since mid-summer 2026. Uncovered by Ukraine&#8217;s CERT-UA, the infection begins with a phishing email carrying an image that links, via a URL-shortening service, to a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-notepad-plugins/\">Hackers Abuse Notepad++ Plugins to Compromise Your System Silently</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=156995",
+      "authors": [
+        {
+          "name": "Guru Baran",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Hackers-Abuse-Notepad-Plugins.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "156995",
+          "content_encoded": "<p class=\"wp-block-paragraph\">A stealthy new campaign in which the UAC-0099 threat cluster hijacks a legitimate Notepad++ plugin to quietly plant malware on victim machines, marking a significant evolution in the group&#8217;s tactics since mid-summer 2026.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Uncovered by Ukraine&#8217;s CERT-UA, the infection begins with a phishing email carrying an image that links, via a URL-shortening service, to a file-sharing platform hosting a ZIP archive such as &#8220;Attachments to розпорядження.zip&#8221; .</p>\n\n\n\n<p class=\"wp-block-paragraph\">Inside sits a double-extension VBS script disguised as a PDF, often padded with extra spaces before the real &#8220;.vbs&#8221; extension to trick careless readers.</p>\n\n\n\n<h2 id=\"h-hackers-abuse-notepad-plugins\" class=\"wp-block-heading\"><strong>Hackers Abuse Notepad++ Plugins</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Once launched, the script fetches a decoy document plus an &#8220;Evernote.zip&#8221; package containing a <a href=\"https://cybersecuritynews.com/notepad-hijacking-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">full copy of Notepad++ 8.8.3</a> and a trojanized plugin folder.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaxCUpAfHdlNAmhTg5TjtZLZ8DQYzkRVzKQoTduM6C2hWFH1Gauu9le3tefTDgwrRHngEKLWbAOba5JV_YFkV_A362ybSygvu3mVVq6K8SBTbPa-9DokSNFctSCJzTz4DIViXdZ9O2zMilI5ilNtdCX1mHy8S4qncgqr2_8qRaeq0kl8A8qSCI99BXYtft/s1600/Hackers%20Abuse%20Notepad++%20Plugins1.webp\" alt=\"\"/></figure>\n\n\n\n<p class=\"wp-block-paragraph\">The real danger hides inside &#8220;/plugins/NppExport/&#8221;, where a rogue library named &#8220;NppExport.dll&#8221; replaces the genuine plugin file. The VBS script creates a randomized directory under %PUBLIC%, unpacks the archive, and executes notepad++.exe, which automatically loads the tampered DLL the moment the editor starts, giving attackers silent code execution without triggering typical security alerts.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This abuse of Notepad++&#8217;s plugin-loading behavior echoes the <a href=\"https://cybersecuritynews.com/notepad-hijacking-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">previously disclosed CVE-2025-56383 DLL-hijacking</a> issue affecting version 8.8.3, though CERT-UA notes the Notepad++ team disputes the CVE, calling it standard plugin architecture rather than a flaw.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The malicious &#8220;NppExport.dll&#8221; is tracked as LUNCHPOKE, a tool that builds a hidden Libraries folder, extracts a password-protected &#8220;updater.rar&#8221; containing &#8220;RemoteLibUpdater.exe&#8221; and &#8220;InitTest.dll,&#8221; then copies Windows&#8217; own schtasks.exe to disguise persistence setup.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It registers a scheduled task under a randomized name to relaunch RemoteLibUpdater.exe every three minutes with the arguments &#8220;setup nodisplay.&#8221;</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyePnL-jbVDWHhvF2MdKDe1p4W-gpajV0u2-4kRunKEvDPcUxGY1arrMY8WW8nyMVChAzbToUNfSznAp_elTHzOZ8qd_PyN-c_xTYN7RHdeYTsTnmzpLp6wOEXWmDkWjR7CjNIYQCruh3KoldCuiU8VrCd4G12BYneMC0cN-3157wD5iT9LTks_M6JTtST/s1600/Hackers%20Abuse%20Notepad++%20Plugins2.webp\" alt=\"\"/></figure>\n\n\n\n<p class=\"wp-block-paragraph\">RemoteLibUpdater.exe is classified as BURNYBEAR, whose job is loading InitTest.dll. Interestingly, if BURNYBEAR runs without its expected arguments, it switches to a resource-exhaustion routine that deliberately hogs RAM and CPU possibly a built-in anti-analysis or decoy mechanism.</p>\n\n\n\n<p class=\"wp-block-paragraph\">InitTest.dll turns out to be an upgraded MATCHBOIL.V2 loader, previously seen in earlier UAC-0099 campaigns alongside malware like MATCHWOK and DRAGSTARE.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The new version retains its core functions scheduled-task persistence, configuration updates including command-and-control addresses, and downloading additional payloads but now also leverages WinRAR to unpack downloaded components, pulling the utility from Dropbox if it isn&#8217;t already installed on the target system.</p>\n\n\n\n<h2 id=\"h-takeaway-for-defenders\" class=\"wp-block-heading\"><strong>Takeaway for Defenders</strong></h2>\n\n\n\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><thead><tr><th>Component</th><th>Role</th></tr></thead><tbody><tr><td>LUNCHPOKE (NppExport.dll)</td><td>Trojanized plugin, initial payload dropper</td></tr><tr><td>BURNYBEAR (RemoteLibUpdater.exe)</td><td>Loader for MATCHBOIL, resource-exhaustion fallback</td></tr><tr><td>MATCHBOIL.V2 (InitTest.dll)</td><td>Persistence, C2 config updates, secondary payload delivery</td></tr></tbody></table></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://cert.gov.ua/article/6318634\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CERT-UA is urging administrators</a> to keep common software patched, since threat clusters routinely exploit outdated installations for initial compromise. As of July 21, 2026, current secure versions include <a href=\"https://cybersecuritynews.com/winrar-7-23-fixes-heap-overflow-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">WinRAR 7.23</a>, <a href=\"https://cybersecuritynews.com/7-zip-vulnerability-code-execution/\" target=\"_blank\" rel=\"noreferrer noopener\">7-Zip 26.02</a>, and <a href=\"https://cybersecuritynews.com/notepad-vulnerabilities-command-injection/\" target=\"_blank\" rel=\"noreferrer noopener\">Notepad++ 8.9.7</a>, all worth verifying immediately across enterprise fleets.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should treat unsolicited ZIP attachments referencing government or municipal correspondence with heightened suspicion, monitor for unauthorized DLLs in application plugin directories, and flag scheduled tasks with randomized or unusual naming patterns as potential indicators of this ongoing UAC-0099 campaign.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 87%,rgb(169,184,195) 100%)\"><strong>&nbsp;Strengthen Your SOC by Accelerating Threat Detection &amp; Rapid Investigations.&nbsp;-&gt;&nbsp;<a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate ANY.RUN With Your SOC&nbsp;</a><strong><a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Now</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-notepad-plugins/\">Hackers Abuse Notepad++ Plugins to Compromise Your System Silently</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
     {
       "id": "sha256:aa60484640620e71233d0bf86a5546197305ebc3d60bf115338da4075c88ad09",
       "url": "https://cybersecuritynews.com/chaos-ransomware-turns-chrome-malware",
