@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-23T14:00:41Z",
+  "updated_at": "2026-07-23T16:00:44Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-23T14:00:41Z",
+    "last_success_at": "2026-07-23T16:00:44Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:098a4561174d7162506f27a9f5d0261960be55ba80ed1a765a06b4d11740de95",
+      "url": "https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires",
+      "title": "FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires",
+      "published_at": "2026-07-23T14:00:10Z",
+      "published_raw": "Thu, 23 Jul 2026 10:00:10 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "FedRAMP 20X replaces point-in-time assessments with continuous, machine-readable evidence that demonstrates security controls are working. Anecdotes explains what the transition from Rev5 to FedRAMP 20X means and how organizations can prepare for continuous, evidence-based assurance. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires/",
+      "authors": [
+        {
+          "name": "Sponsored by Anecdotes",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:007ff94ec66be5d14142e4909e801cffac9e009487393be11df5d359ad1700f2",
       "url": "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges",
@@ -1618,69 +1639,6 @@
       "authors": [
         {
           "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:918efbdf473415c94fe3742c6c115720f0af2b070de8219e4d5d31e3a6b87340",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions",
-      "title": "CISA warns of actively exploited RCE flaws in Joomla extensions",
-      "published_at": "2026-07-13T15:20:16Z",
-      "published_raw": "Mon, 13 Jul 2026 11:20:16 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are exploiting vulnerabilities in the iCagenda and Balbooa Forms extensions for Joomla to achieve remote code execution through arbitrary file uploads. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:30c4aa8a669853e8bd17f291fe756dc06d0362dde36fdb02e7e1ef5a4ec988fa",
-      "url": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack",
-      "title": "Lidl discloses online shop breach after service provider hack",
-      "published_at": "2026-07-13T14:19:43Z",
-      "published_raw": "Mon, 13 Jul 2026 10:19:43 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "German discount supermarket chain Lidl notified customers in Germany, Belgium, and the Netherlands that attackers stole their personal information in a breach at a service provider. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:4daa55399f8591a295ccb199d507309678646cb9d2c8007fa256a0ccf3fcdada",
-      "url": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf",
-      "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
-      "published_at": "2026-07-13T14:01:11Z",
-      "published_raw": "Mon, 13 Jul 2026 10:01:11 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Learn how attackers abuse Entra ID through a free hands-on Capture the Flag. Varonis created the Breach at the Beach CTF to teach defenders how to investigate Entra ID attack techniques using realistic scenarios. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
-      "authors": [
-        {
-          "name": "Sponsored by Varonis",
           "uri": "",
           "email": ""
         }
