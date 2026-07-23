@@ -1,15 +1,50 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-23T10:00:43Z",
+  "updated_at": "2026-07-23T12:00:50Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-23T10:00:43Z",
+    "last_success_at": "2026-07-23T12:00:50Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:a60c12dcb0fb68c52bc808bf8725ad38c049e8538eebe4dd3bb875afadb2c652",
+      "url": "https://www.securityweek.com/upbound-group-says-data-breach-led-to-13-million-in-fraudulent-contract-losses",
+      "title": "Upbound Group Says Data Breach Led to $13 Million in Fraudulent Contract Losses",
+      "published_at": "2026-07-23T10:49:10Z",
+      "published_raw": "Thu, 23 Jul 2026 10:49:10 +0000",
+      "categories": [
+        "Data Breaches",
+        "Fraud & Identity Theft",
+        "data breach",
+        "fraud",
+        "Upbound Group"
+      ],
+      "description": "<p>Hackers recently obtained non-sensitive customer information and other documents from the company.</p>\n<p>The post <a href=\"https://www.securityweek.com/upbound-group-says-data-breach-led-to-13-million-in-fraudulent-contract-losses/\">Upbound Group Says Data Breach Led to $13 Million in Fraudulent Contract Losses</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48093",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:531565d60c9c00fd15a691dc63c3871de4dc72568d1b19d9f4e6d70ce1910d7f",
       "url": "https://www.securityweek.com/assaf-keren-appointed-new-ciso-of-meta",
@@ -89,6 +124,7 @@
       "categories": [
         "ICS/OT",
         "alert",
+        "Featured",
         "Government",
         "ICS",
         "Iran",
@@ -2637,76 +2673,6 @@
       "authors": [
         {
           "name": "Eduard Kovacs",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:1fcd8c1b15e7be2985d52805c08861e91528f41bcc1772a95f12e7390fe52a38",
-      "url": "https://www.securityweek.com/rabbitmq-vulnerability-threatens-enterprise-systems",
-      "title": "RabbitMQ Vulnerability Threatens Enterprise Systems",
-      "published_at": "2026-07-13T12:00:00Z",
-      "published_raw": "Mon, 13 Jul 2026 12:00:00 +0000",
-      "categories": [
-        "Vulnerabilities",
-        "Featured",
-        "RabbitMQ",
-        "vulnerability"
-      ],
-      "description": "<p>Unauthenticated attackers could obtain the broker's confidential OAuth client secret, allowing them to take control of the broker.</p>\n<p>The post <a href=\"https://www.securityweek.com/rabbitmq-vulnerability-threatens-enterprise-systems/\">RabbitMQ Vulnerability Threatens Enterprise Systems</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47772",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:4deb5f2021a98e79e531bfcee87c89208d5635958a905f4e3bcdbccbb0fddb8c",
-      "url": "https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability",
-      "title": "Zimbra Patches Critical Code Execution Vulnerability",
-      "published_at": "2026-07-13T10:03:47Z",
-      "published_raw": "Mon, 13 Jul 2026 10:03:47 +0000",
-      "categories": [
-        "Email Security",
-        "Vulnerabilities",
-        "Patch",
-        "remote code execution",
-        "vulnerability",
-        "Zimbra"
-      ],
-      "description": "<p>The flaw results in malicious code embedded in crafted emails being executed when the emails are opened.</p>\n<p>The post <a href=\"https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/\">Zimbra Patches Critical Code Execution Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47769",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
           "uri": "",
           "email": ""
         }

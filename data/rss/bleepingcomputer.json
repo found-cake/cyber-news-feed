@@ -1,15 +1,37 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-23T10:00:43Z",
+  "updated_at": "2026-07-23T12:00:50Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-23T10:00:43Z",
+    "last_success_at": "2026-07-23T12:00:50Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:007ff94ec66be5d14142e4909e801cffac9e009487393be11df5d359ad1700f2",
+      "url": "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges",
+      "title": "New RefluXFS Linux flaw lets attackers gain root privileges",
+      "published_at": "2026-07-23T11:40:16Z",
+      "published_raw": "Thu, 23 Jul 2026 07:40:16 -0400",
+      "categories": [
+        "security",
+        "Linux"
+      ],
+      "description": "A nine-year-old race condition vulnerability in the Linux kernel's XFS filesystem, tracked as CVE-2026-64600, allows local attackers to overwrite protected files and gain root privileges. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/",
+      "authors": [
+        {
+          "name": "Sergiu Gatlan",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:a8cdbc14ebc40e61d76a42b5a8bcefa458325b3c5d45c7c06ca969393f06d127",
       "url": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic",
@@ -1677,27 +1699,6 @@
       ],
       "description": "UK authorities charged five people following a National Crime Agency (NCA) investigation into Russian Coms, a major caller ID spoofing platform used by criminals to make over 1.8 million scam calls. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:4da16f378bf968e7ea1e2f6beaabac401926c22aa906380ab39b2ba09429467e",
-      "url": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package",
-      "title": "EU sanctions Russian GRU military hackers over cyberattacks",
-      "published_at": "2026-07-13T11:19:05Z",
-      "published_raw": "Mon, 13 Jul 2026 07:19:05 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The European Union and the United Kingdom jointly sanctioned dozens of Russian individuals and entities and accused Russia of coordinating a network of hacking groups responsible for attacks across Europe. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
       "authors": [
         {
           "name": "Sergiu Gatlan",

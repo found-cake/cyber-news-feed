@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-23T10:00:43Z",
+  "updated_at": "2026-07-23T12:00:50Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-23T10:00:43Z",
+    "last_success_at": "2026-07-23T12:00:50Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -362,16 +362,16 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:af8ae50feb023e74af4b4f0092ab79e72cd34e3a42754270ba421e1cad6634b3",
-      "url": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
-      "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
-      "published_at": "2026-07-13T11:02:33Z",
-      "published_raw": "2026-07-13T16:32:33.059+05:30",
+      "id": "sha256:2f8c8b729b601484d357b25c3b79ea487083c2619be95d5dd3402adad7ad8719",
+      "url": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html",
+      "title": "Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers",
+      "published_at": "2026-07-23T11:28:54Z",
+      "published_raw": "2026-07-23T16:58:54.045+05:30",
       "categories": [
-        "threat-intelligence"
+        "vulnerability"
       ],
-      "description": "Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration.\n\n\"The script looked for the Domain Controller (DC) and mapped users, computers, and domains, before creating a directory and exporting out a number of files, and finally creating AD_Report.html to measure the success of the",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8253170662646714580",
+      "description": "Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into distributed attack infrastructure designed to target cPanel and WebHost Manager (WHM) instances.\n\nThe activity involves malicious Packagist development versions spanning 10 packages associated with a legitimate PHP and DevOps developer, dinushchathurya, between July 12 and 13,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3388492675737951834",
       "authors": [
         {
           "name": "Ravie Lakshmanan",
@@ -381,7 +381,7 @@
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh43TJKqVkJoN7Q3donw2FnXp1IrJEr6vvDteFOBCSR-PptAc8fMXXCq07kvKWoDacCHo6gi5-eUoX9mIBHggv-KXsoH31yBi0-_MZBjxYbiYNlhvAu8V_xhjuKHgnQj43x5S2pORBIGONxE_yLZdZOnDCmcjMegQjhwZtHDThg_4nlhZqwSizsMRCfZFQW/s260-e100/ps-ai.jpg",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrnUDzSA-4xfOL6dsXt2pFY9jJro2vbjOgvkTbiFMhSXz9Z-0WdDTORe9IPFfMr0DVr0PapP8lFuq8R12ZXRyDdMO-2v9ot7c2oy2WobbNwqn3jbKQC5XmNdgKWZB8ENBVQSADLuujJMKvd3DtNcpAFhDa5zihJDtYrQYRLMSCftHHmNg2bUiRC_gCQkFK/s260-e100/github-action.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -956,33 +956,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:89f3cdde9df9a892df0c8e7a735051d7a16b7f93e7e7830dc8941d0fbc2661fe",
-      "url": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
-      "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
-      "published_at": "2026-07-19T20:42:49Z",
-      "published_raw": "2026-07-20T02:12:49.726+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in nginx 1.30.4 (stable) and 1.31.3 (mainline), and in NGINX Plus 37.0.3.1; anyone on an earlier build should upgrade.\n\nTriggering it can crash or restart the worker, causing a denial of",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-178468218201507864",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVv10OUCjBseEZieeN1rxtwm17pPCAoe6OC1jvCTXCumjIImhz5Y08lYWBpSIGBSkDJN-wBcGmUTmPEp8U74bgd2Cv3rwmSmtUDlmOYR7f-0Xs3xL_xkjpkNm8W8vzNvFNfmTNiqs9TNcNmT1bo8xWb9XGzPnuaByxKSl9_eOqg3yDbtAtYh0epFo-4Wg/s260-e100/nginx-rce-flaw.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:3724184352f459b7524970d83e7904bd0e663fb4e3b1c76dcfd38ba028436f9c",
       "url": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
       "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
@@ -1003,6 +976,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiapJDNa0fN3WsyrkYjRiRo3L8tqmE_RJm9AmQV5KO9p5To-PBWdVz7EW294xtn-VZtJ2xS_scIq3LyqyxYkPG3R5TdJoPF_axjEaLpaXSqGHK_uO274wM315GEqHtnDAMIfFN2vZlcEYJ3Ca11Ml_E-l32H63EYNfx7l9ldtjNlH8hL_19w4RL6vDpOWMz/s260-e100/adi.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:89f3cdde9df9a892df0c8e7a735051d7a16b7f93e7e7830dc8941d0fbc2661fe",
+      "url": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
+      "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
+      "published_at": "2026-07-19T20:42:49Z",
+      "published_raw": "2026-07-20T02:12:49.726+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in nginx 1.30.4 (stable) and 1.31.3 (mainline), and in NGINX Plus 37.0.3.1; anyone on an earlier build should upgrade.\n\nTriggering it can crash or restart the worker, causing a denial of",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-178468218201507864",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVv10OUCjBseEZieeN1rxtwm17pPCAoe6OC1jvCTXCumjIImhz5Y08lYWBpSIGBSkDJN-wBcGmUTmPEp8U74bgd2Cv3rwmSmtUDlmOYR7f-0Xs3xL_xkjpkNm8W8vzNvFNfmTNiqs9TNcNmT1bo8xWb9XGzPnuaByxKSl9_eOqg3yDbtAtYh0epFo-4Wg/s260-e100/nginx-rce-flaw.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
