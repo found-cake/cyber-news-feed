@@ -1,15 +1,57 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-24T18:00:43Z",
+  "updated_at": "2026-07-24T20:00:39Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-24T18:00:43Z",
+    "last_success_at": "2026-07-24T20:00:39Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:dd96739f548246f7ee59c3ea28fc5dfb5dc72b76a9074092f720ec902144636c",
+      "url": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack",
+      "title": "OnTrac notifies customers of data breach after network hack",
+      "published_at": "2026-07-24T19:55:01Z",
+      "published_raw": "Fri, 24 Jul 2026 15:55:01 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its customers. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:6bc56c841beea94ae2b0f65f4119710c5eae463e408ab346411bb9f4c086e9ba",
+      "url": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry",
+      "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
+      "published_at": "2026-07-24T19:09:09Z",
+      "published_raw": "Fri, 24 Jul 2026 15:09:09 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A threat actor used the open-source Hermes AI agent in unattended \"YOLO\" mode to automate post-exploitation activity during an alleged breach of Thailand's Ministry of Finance. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:29c5ba30f30347e0ea5e63fc3a04cb79166f4ef6047b94259471dcb0dc3c2478",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts",
@@ -1594,71 +1636,6 @@
       "authors": [
         {
           "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:d1df2d6b973bfb89ee29be4a8e3138159e5e0f7accf1d15f8da709a7d9d94915",
-      "url": "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware",
-      "title": "Nearly 300 GitHub repos pose as legit software to push malware",
-      "published_at": "2026-07-14T19:15:17Z",
-      "published_raw": "Tue, 14 Jul 2026 15:15:17 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A threat actor has published hundreds of fake GitHub repositories impersonating legitimate software and security projects to distribute infostealer malware. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:f1d6116b2b64d6df9ec331c767f26db6d1b934d48943fcbbd260df39db5da97e",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update",
-      "title": "Microsoft releases Windows 10 KB5099539 extended security update",
-      "published_at": "2026-07-14T18:49:28Z",
-      "published_raw": "Tue, 14 Jul 2026 14:49:28 -0400",
-      "categories": [
-        "security",
-        "Microsoft"
-      ],
-      "description": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes this month's record-breaking July 2026 Patch Tuesday fixes, along with additional security improvements. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:6c7abfb83abcd6de8ba6ebac30041e2340b5569c56016832487a1e5e2d24611f",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days",
-      "title": "Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days",
-      "published_at": "2026-07-14T18:01:36Z",
-      "published_raw": "Tue, 14 Jul 2026 14:01:36 -0400",
-      "categories": [
-        "security",
-        "Microsoft"
-      ],
-      "description": "Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclosed. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
           "uri": "",
           "email": ""
         }
