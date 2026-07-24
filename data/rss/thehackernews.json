@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-24T14:00:46Z",
+  "updated_at": "2026-07-24T16:00:45Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-24T14:00:46Z",
+    "last_success_at": "2026-07-24T16:00:45Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -490,6 +490,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpSmSwv3hz6LMJIQCrVej_pophE9XNTZyveEV1GctCyQMSNoac_Mx3CfmAHLgYkpDkymvscLLY71u2Kq-7z-7bDemSeKHryPVH3h7FNxw9e64D3jTeoLOzmWW305j1Rctz5kdiwFV29lFNqo33TUZMGWCaZqtyKNPYARGtrrhZ0Bsc4LMLXhnRgzKXjKYb/s260-e100/NVIDIA-rat.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:283f9b048caadb8724bb1e7fba4e7c4f2a53dcba2ee48ae1d35c3cbe6a36d870",
+      "url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
+      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
+      "published_at": "2026-07-24T14:15:21Z",
+      "published_raw": "2026-07-24T19:45:21.228+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that machine.\n\nThey codenamed the flaw Certighost. Because Domain Controller accounts carry directory replication rights, the resulting Kerberos credential can retrieve the krbtgt secret through DCSync.",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2662719399782961681",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdJCaF3dwhncVhtS_dn9W8CUCwJSHRmtCVTK5_fXnS6RpDI4GaVTcSVoXvmo_JgxUyd-H5G3yQaRAg3Ahp__DMlq-M5r9ejhJTdk5QlVuv16HVXDWV7e3HJAijAVBRumD3XSyeyQ1O477nfXFfTvCwgFeXlYF8QIdfTN4mlYAu28JGFN7lOWTEoKwlG9g/s260-e100/certighost.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1064,33 +1091,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:04d7cf1784ec628d2aeb237a0f09ca0a6e1435c58c95274381e7671604054747",
-      "url": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
-      "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
-      "published_at": "2026-07-21T13:18:31Z",
-      "published_raw": "2026-07-21T18:48:31.163+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Zimbra has rolled out fixes to address multiple critical security issues, including a command injection flaw in the Simple Network Management Protocol (SNMP) monitoring component.\n\nAs many as nine security vulnerabilities have been patched in Zimbra 10.1.20. Topping the list is a command injection vulnerability in the SNMP monitoring component when SNMP notifications are enabled.\n\nAlso patched",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6996391868923295474",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih_Q67gFWBtG5q7zVuyna7iJj3lSm-UQRoMsami8jaf-WYMCXqQlVprQ_ifyXx-PqJg2chDHN3KrFppnZSvejTvSco4kN-P_S4U3vKQHNtvZ48g5wftlSILrMulX1WUMOeeybU4apJ5Iv8BM6ipceEVGSJucR7yRJZguIrfTUaCbbHqefGt6o2BkHrJqV0/s260-e100/zimbra.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:e1150e91b4d3d344407f5982cfead8fcc433579345b2eab9a205085d9c46aa18",
       "url": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
       "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
@@ -1138,6 +1138,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiapJDNa0fN3WsyrkYjRiRo3L8tqmE_RJm9AmQV5KO9p5To-PBWdVz7EW294xtn-VZtJ2xS_scIq3LyqyxYkPG3R5TdJoPF_axjEaLpaXSqGHK_uO274wM315GEqHtnDAMIfFN2vZlcEYJ3Ca11Ml_E-l32H63EYNfx7l9ldtjNlH8hL_19w4RL6vDpOWMz/s260-e100/adi.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:04d7cf1784ec628d2aeb237a0f09ca0a6e1435c58c95274381e7671604054747",
+      "url": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
+      "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
+      "published_at": "2026-07-21T13:18:31Z",
+      "published_raw": "2026-07-21T18:48:31.163+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Zimbra has rolled out fixes to address multiple critical security issues, including a command injection flaw in the Simple Network Management Protocol (SNMP) monitoring component.\n\nAs many as nine security vulnerabilities have been patched in Zimbra 10.1.20. Topping the list is a command injection vulnerability in the SNMP monitoring component when SNMP notifications are enabled.\n\nAlso patched",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6996391868923295474",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih_Q67gFWBtG5q7zVuyna7iJj3lSm-UQRoMsami8jaf-WYMCXqQlVprQ_ifyXx-PqJg2chDHN3KrFppnZSvejTvSco4kN-P_S4U3vKQHNtvZ48g5wftlSILrMulX1WUMOeeybU4apJ5Iv8BM6ipceEVGSJucR7yRJZguIrfTUaCbbHqefGt6o2BkHrJqV0/s260-e100/zimbra.jpg",
           "kind": "thumbnail",
           "medium": ""
         }

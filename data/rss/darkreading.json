@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-07-24T14:00:46Z",
+  "updated_at": "2026-07-24T16:00:45Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-24T14:00:46Z",
+    "last_success_at": "2026-07-24T16:00:45Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -19,7 +19,7 @@
       "categories": [
         "vulnerabilities-threats"
       ],
-      "description": "A porous API endpoint exposes, names, email addresses, location, and site status, all of which can be easily gleaned by anyone with a browser.",
+      "description": "A porous API endpoint exposes, names, email addresses, country, and site status, all of which can be easily gleaned by anyone with a browser.",
       "feed_id": "https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii",
       "authors": [
         {
@@ -36,6 +36,42 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf219cccb8d006239/6a62178fd61e3e49c64c9e23/Catholic-gelmold-Getty.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
+    {
+      "id": "sha256:0ece18eb425dfb6303fb929f7811611324fe5ff52ca7b1e03d48a007d9896fde",
+      "url": "https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover",
+      "title": "Default Azure Automation Setting Enables Cross-Tenant Identity Takeover",
+      "published_at": "2026-07-24T12:48:16Z",
+      "published_raw": "Fri, 24 Jul 2026 12:48:16 GMT",
+      "categories": [
+        "cloud-security"
+      ],
+      "description": "Microsoft addressed a public-by-default configuration and chain of code flaws in Azure Automation which could have let attackers seize another tenant's identity and access other tenants' data, credentials, and cloud workloads.",
+      "feed_id": "https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover",
+      "authors": [
+        {
+          "name": "Jeffrey Schwartz",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltee2b6459a49ecef3/64f171e51bf536263bbf9b29/Azure_SOPA_Images_Limited_Alamy.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltee2b6459a49ecef3/64f171e51bf536263bbf9b29/Azure_SOPA_Images_Limited_Alamy.jpg?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }
@@ -745,42 +781,6 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6465c10b82bc7fa0/6a56a539da02d05d49888d2d/triage_MAFPHOTOART8_shutterstock.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:c0342f40a64b833314e972a86b5234f1ed70e009c46c8d543ed2fb496a61282d",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/clickfixs-ecosystem-demands-new-defense",
-      "title": "ClickFix's Mushrooming Ecosystem Demands New Defense Tactics",
-      "published_at": "2026-07-14T15:53:54Z",
-      "published_raw": "Tue, 14 Jul 2026 15:53:54 GMT",
-      "categories": [
-        "cyberattacks-data-breaches"
-      ],
-      "description": "The attack vector is available for rent at scale, and evades AV and EDR, leaving YARA analysis as the best detection option.",
-      "feed_id": "https://www.darkreading.com/cyberattacks-data-breaches/clickfixs-ecosystem-demands-new-defense",
-      "authors": [
-        {
-          "name": "Elizabeth Montalbano",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt89ed69f46b66e8ed/6a565987201f4e6bf48f2ebe/mushrooms-maYcal-GettyImages-1048450740.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt89ed69f46b66e8ed/6a565987201f4e6bf48f2ebe/mushrooms-maYcal-GettyImages-1048450740.jpg?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }

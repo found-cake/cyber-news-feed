@@ -1,15 +1,57 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-24T14:00:46Z",
+  "updated_at": "2026-07-24T16:00:45Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-24T14:00:46Z",
+    "last_success_at": "2026-07-24T16:00:45Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:96a71e7a0f84eb25e8d4ea7d88b700b553945969278d95b968d2509b3af4c1a8",
+      "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers",
+      "title": "Chick-fil-A data breach affects more than 13,000 customers",
+      "published_at": "2026-07-24T14:04:29Z",
+      "published_raw": "Fri, 24 Jul 2026 10:04:29 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
+      "authors": [
+        {
+          "name": "Sergiu Gatlan",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:68918f258de01f63cf9320362e438321605e93384e45026efa9de133475bb183",
+      "url": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack",
+      "title": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
+      "published_at": "2026-07-24T14:01:11Z",
+      "published_raw": "Fri, 24 Jul 2026 10:01:11 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Slopsquatting, phantom squatting, and HalluSquatting all exploit the same late-binding attack pattern, where AI coding agents trust hallucinated package, repo, or domain names. ActiveState explains how pre-fetch verification and governed dependency management can help stop these attacks before malicious code enters the pipeline. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
+      "authors": [
+        {
+          "name": "Sponsored by ActiveState",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:77c6d40b549692f808e3efef81e939b6bd91998890dfa01de34b4a5af32477b8",
       "url": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown",
@@ -1617,27 +1659,6 @@
       "authors": [
         {
           "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:a0b214ad6b4ca0e07702cbd68bb9dd5b9e6e2c76d3394d687086337b69ddb462",
-      "url": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts",
-      "title": "LastPass, Bitwarden users targeted with fake security alerts",
-      "published_at": "2026-07-14T15:31:52Z",
-      "published_raw": "Tue, 14 Jul 2026 11:31:52 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "LastPass is warning users about an ongoing phishing campaign that is using fake security notices to direct them to fraudulent websites. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
           "uri": "",
           "email": ""
         }
