@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-24T06:00:40Z",
+  "updated_at": "2026-07-24T08:00:39Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-24T06:00:40Z",
+    "last_success_at": "2026-07-24T08:00:39Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:852d7225f48a5e8d4de614b3d1e1f3ae67139e2f865b24dc4de110ca7da93035",
+      "url": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
+      "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
+      "published_at": "2026-07-24T06:50:57Z",
+      "published_raw": "2026-07-24T12:20:57.958+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems.\n\nThe activity has been attributed by the agency to a threat cluster it tracks as UAC-0099, a Russia-aligned group that has previously observed weaponizing security flaws in WinRAR software to",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5437923648458231314",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCA0-yh9EAnhFa2V3NzQVw2m-sLgbCNVQ8GVMBX4Y6vUNwPXE-vHzdJLFKXVi3rdGXhx5RawHTwox7cd9ph20u5qn_H8TJUOKG8nITccTkzqfiyBKStdCgcrJOgAeGf9Mkzr1g8iCB0HrpuonkIQQTx15L2P53RPX9GeMYVIuvl51jJ2hn1jn0PcQARQaj/s260-e100/notepad-malware-code.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:fafb9124e07e3f123b2eadfd8fce3706bead703810fc332732f3d5500657848d",
       "url": "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
@@ -409,6 +436,60 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpSmSwv3hz6LMJIQCrVej_pophE9XNTZyveEV1GctCyQMSNoac_Mx3CfmAHLgYkpDkymvscLLY71u2Kq-7z-7bDemSeKHryPVH3h7FNxw9e64D3jTeoLOzmWW305j1Rctz5kdiwFV29lFNqo33TUZMGWCaZqtyKNPYARGtrrhZ0Bsc4LMLXhnRgzKXjKYb/s260-e100/NVIDIA-rat.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:dd3c71c164d4d5a58e969f2d5a4dce09adf529f67513aacdfc2e1a1a520aa187",
+      "url": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
+      "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
+      "published_at": "2026-07-24T07:41:06Z",
+      "published_raw": "2026-07-24T13:11:06.862+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found them in a six-hour review of the forum software's source code.\n\nEvery version before 4.14.0 is affected. NodeBB has fixed them all, and administrators should be on 4.14.2.\n\nThe simplest one takes a settings change. A",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1376293584051797157",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixTLaT7NCY3UuotqW1AHLiB1xN5K-nlqtpnOav_n7PWHNWWZmrSmmPTzmL6oA7N7dOgwSGxEbbBq90Q3OVK6wF2PSXdXLs7mKmBYc1dEBIc64Qsq6XEl7rYbv5PjRMViYiGXr8-ypMSs0ZJv_rJXqSWIbS4FVTuIphO7g9IfC0MG6m5dDXPXJoz7iezck/s260-e100/nodebb.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:6d85941f139ee717fb185d70f56f37b46375b1a4a336566c48d44db1a10ebb0d",
+      "url": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
+      "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say",
+      "published_at": "2026-07-24T06:58:27Z",
+      "published_raw": "2026-07-24T12:28:27.002+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Redis shipped seven security releases on July 23 after researchers published authenticated RCE PoCs for stock Redis 6.2.22, 7.4.9, 8.6.4, and 8.8.0.\n\nAll four chains require RESTORE. The Streams chains also need EVAL and XGROUP; the 8.8.0 chain needs EVAL and the bundled RedisBloom module. Redis says the underlying memory flaws may lead to remote code execution.\n\nRedis 6.2.23, 7.2.15, and 7.4.10",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5414325206775438483",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0TE9DH98zjhcQPB99o9CcCvYH1otVTUwpXl_9Af1Nbl89gqHBAqP2jtb-BFrmXdR-4OYmPOGJJoilFiac2ooKHM5Lbe_kD5kLpW1eRcdpOWsG53701lGhFi93e0UpvGrptdb2usksom4mF56GWE1of2M7KsmAZav9cENd90xYAVz7Dq3yPIBJEODDDaQ/s260-e100/redis-0day.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -956,33 +1037,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:c8dac0ed07a67a1ce46ba95ec84e4d7162f0e3453b34f8a44684bc0ccd4ee7aa",
-      "url": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
-      "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
-      "published_at": "2026-07-21T06:29:26Z",
-      "published_raw": "2026-07-21T11:59:26.739+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber.\n\nIn a post shared on X, the threat intelligence firm said it's observing in-the-wild exploitation of CVE-2026-6875 (CVSS score: 9.5), a sandbox escape vulnerability that could allow an unauthenticated user to run arbitrary code.\n\nPatches for the flaw were",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7753372096806433217",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAYYV6u5s-uKU-FXeqsoZ9Bk7nvzW1gPYVuoykmnuzLBQCK0jvX7rAO12mK5FVX06ovTJHZLUUXDkFmYk88oyKdFSYByRPSL5MUuAqikrTIVEpVzOcR9j4Rn0Fmje7-VwBAO09Yl8Y4cTUVNFwTXf2FV2c9C8oyNi5coAMCMLn5WF5Fbqtyt-tDZ3MVsO0/s260-e100/servicenow.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:e1150e91b4d3d344407f5982cfead8fcc433579345b2eab9a205085d9c46aa18",
       "url": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
       "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
@@ -1030,6 +1084,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiapJDNa0fN3WsyrkYjRiRo3L8tqmE_RJm9AmQV5KO9p5To-PBWdVz7EW294xtn-VZtJ2xS_scIq3LyqyxYkPG3R5TdJoPF_axjEaLpaXSqGHK_uO274wM315GEqHtnDAMIfFN2vZlcEYJ3Ca11Ml_E-l32H63EYNfx7l9ldtjNlH8hL_19w4RL6vDpOWMz/s260-e100/adi.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:c8dac0ed07a67a1ce46ba95ec84e4d7162f0e3453b34f8a44684bc0ccd4ee7aa",
+      "url": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
+      "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
+      "published_at": "2026-07-21T06:29:26Z",
+      "published_raw": "2026-07-21T11:59:26.739+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber.\n\nIn a post shared on X, the threat intelligence firm said it's observing in-the-wild exploitation of CVE-2026-6875 (CVSS score: 9.5), a sandbox escape vulnerability that could allow an unauthenticated user to run arbitrary code.\n\nPatches for the flaw were",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7753372096806433217",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAYYV6u5s-uKU-FXeqsoZ9Bk7nvzW1gPYVuoykmnuzLBQCK0jvX7rAO12mK5FVX06ovTJHZLUUXDkFmYk88oyKdFSYByRPSL5MUuAqikrTIVEpVzOcR9j4Rn0Fmje7-VwBAO09Yl8Y4cTUVNFwTXf2FV2c9C8oyNi5coAMCMLn5WF5Fbqtyt-tDZ3MVsO0/s260-e100/servicenow.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
