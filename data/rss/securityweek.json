@@ -1,15 +1,49 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-24T12:00:42Z",
+  "updated_at": "2026-07-24T14:00:46Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-24T12:00:42Z",
+    "last_success_at": "2026-07-24T14:00:46Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:2f6cae1f159ac31605b6a0426c8612edf7811bb32d471b87cf169f75c3a6eb09",
+      "url": "https://www.securityweek.com/aegisai-raises-36-million-for-ai-powered-email-security",
+      "title": "AegisAI Raises $36 Million for AI-Powered Email Security",
+      "published_at": "2026-07-24T12:01:18Z",
+      "published_raw": "Fri, 24 Jul 2026 12:01:18 +0000",
+      "categories": [
+        "Cybersecurity Funding",
+        "Email Security",
+        "AegisAI",
+        "funding"
+      ],
+      "description": "<p>The company has raised a total of $49 million in funding, including from Battery Ventures, Accel and Foundation Capital.</p>\n<p>The post <a href=\"https://www.securityweek.com/aegisai-raises-36-million-for-ai-powered-email-security/\">AegisAI Raises $36 Million for AI-Powered Email Security</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48134",
+      "authors": [
+        {
+          "name": "SecurityWeek News",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:3cdfb9ef05ab6652a0e014a3eee294f69473edbf95c0029e445642118a5e9728",
       "url": "https://www.securityweek.com/industry-reactions-to-openai-models-hacking-hugging-face-feedback-friday",
@@ -2613,75 +2647,6 @@
       "authors": [
         {
           "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:0f1b5cbc6ad1e58e3898ca7770d934068e66f7e041f15ee3a63d1e1092fdd7cf",
-      "url": "https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load-balancer",
-      "title": "7 Severe Vulnerabilities Patched in VMware Avi Load Balancer",
-      "published_at": "2026-07-14T13:55:41Z",
-      "published_raw": "Tue, 14 Jul 2026 13:55:41 +0000",
-      "categories": [
-        "Vulnerabilities",
-        "Avi Load Balancer",
-        "VMware",
-        "vulnerability"
-      ],
-      "description": "<p>The flaws can be exploited for authentication bypass, remote code execution, privilege escalation, and directory traversal.</p>\n<p>The post <a href=\"https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load-balancer/\">7 Severe Vulnerabilities Patched in VMware Avi Load Balancer</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47814",
-      "authors": [
-        {
-          "name": "Eduard Kovacs",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:851c07a36426d86c559298b8953c50664ed44339f5d53d10c00b3f24e35724e5",
-      "url": "https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar",
-      "title": "Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar",
-      "published_at": "2026-07-14T13:00:00Z",
-      "published_raw": "Tue, 14 Jul 2026 13:00:00 +0000",
-      "categories": [
-        "Artificial Intelligence",
-        "AI",
-        "Claude",
-        "Featured",
-        "vulnerability"
-      ],
-      "description": "<p>A ClaudeBleed-linked vulnerability reportedly persists across eight patches, exposing potentially sensitive data to other extensions. </p>\n<p>The post <a href=\"https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/\">Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47811",
-      "authors": [
-        {
-          "name": "Eduard Kovacs",
           "uri": "",
           "email": ""
         }

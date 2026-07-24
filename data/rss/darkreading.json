@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-07-24T12:00:42Z",
+  "updated_at": "2026-07-24T14:00:46Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-24T12:00:42Z",
+    "last_success_at": "2026-07-24T14:00:46Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:25d4b49dd9d7c3bdffceaf78f2a0903de3606be8d2c1fa106c1c6c90f403c61f",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii",
+      "title": "Vatican's Official Prayer App Leaks 700K+ Global Users' PII",
+      "published_at": "2026-07-24T13:00:00Z",
+      "published_raw": "Fri, 24 Jul 2026 13:00:00 GMT",
+      "categories": [
+        "vulnerabilities-threats"
+      ],
+      "description": "A porous API endpoint exposes, names, email addresses, location, and site status, all of which can be easily gleaned by anyone with a browser.",
+      "feed_id": "https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii",
+      "authors": [
+        {
+          "name": "Nate Nelson",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf219cccb8d006239/6a62178fd61e3e49c64c9e23/Catholic-gelmold-Getty.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf219cccb8d006239/6a62178fd61e3e49c64c9e23/Catholic-gelmold-Getty.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
     {
       "id": "sha256:47dd838936283eaf543f450e96b5690df3449beaaef39094366ed69e55a5a06f",
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
@@ -745,42 +781,6 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt89ed69f46b66e8ed/6a565987201f4e6bf48f2ebe/mushrooms-maYcal-GettyImages-1048450740.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:2a4f7428d669a1d934cfd9b2b0af2d4272f22475f1ca768df6ce0ecf77adf779",
-      "url": "https://www.darkreading.com/application-security/cursor-ide-malicious-code-poisoned-repos",
-      "title": "Cursor IDE Auto-Executes Malicious Code in Poisoned Repos",
-      "published_at": "2026-07-14T13:00:00Z",
-      "published_raw": "Tue, 14 Jul 2026 13:00:00 GMT",
-      "categories": [
-        "application-security"
-      ],
-      "description": "Researchers reported the vulnerability to Cursor in December, but it still remains in the popular AI coding platform and can be exploited in poisoned repository attacks.",
-      "feed_id": "https://www.darkreading.com/application-security/cursor-ide-malicious-code-poisoned-repos",
-      "authors": [
-        {
-          "name": "Alexander Culafi",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9f5cd3865ee90857/6a553fc7f7c949a9a237e0f3/poison_bottle-Olga_Yastremska-Getty-2254109959.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9f5cd3865ee90857/6a553fc7f7c949a9a237e0f3/poison_bottle-Olga_Yastremska-Getty-2254109959.jpg?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }
