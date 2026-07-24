@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-24T16:00:45Z",
+  "updated_at": "2026-07-24T18:00:43Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-24T16:00:45Z",
+    "last_success_at": "2026-07-24T18:00:43Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:29c5ba30f30347e0ea5e63fc3a04cb79166f4ef6047b94259471dcb0dc3c2478",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts",
+      "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
+      "published_at": "2026-07-24T17:50:37Z",
+      "published_raw": "Fri, 24 Jul 2026 13:50:37 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Hackers are changing the DNS settings on Wi-Fi devices at hotels and conference centers to redirect users to fake Microsoft 365 login pages. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:96a71e7a0f84eb25e8d4ea7d88b700b553945969278d95b968d2509b3af4c1a8",
       "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers",
@@ -1635,27 +1656,6 @@
       ],
       "description": "Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclosed. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:7d638254d99865a134e9e1447446d7ac62ef56926fffd56db587513be7158b37",
-      "url": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown",
-      "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
-      "published_at": "2026-07-14T16:08:47Z",
-      "published_raw": "Tue, 14 Jul 2026 12:08:47 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Progress Software has confirmed that a high-severity zero-day vulnerability is behind the emergency shutdown of ShareFile Storage Zone Controllers last week and has released security updates to patch the flaw. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
       "authors": [
         {
           "name": "Lawrence Abrams",
