@@ -1,15 +1,50 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-24T10:00:44Z",
+  "updated_at": "2026-07-24T12:00:42Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-24T10:00:44Z",
+    "last_success_at": "2026-07-24T12:00:42Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:3cdfb9ef05ab6652a0e014a3eee294f69473edbf95c0029e445642118a5e9728",
+      "url": "https://www.securityweek.com/industry-reactions-to-openai-models-hacking-hugging-face-feedback-friday",
+      "title": "Industry Reactions to OpenAI Models Hacking Hugging Face: Feedback Friday",
+      "published_at": "2026-07-24T11:19:46Z",
+      "published_raw": "Fri, 24 Jul 2026 11:19:46 +0000",
+      "categories": [
+        "Artificial Intelligence",
+        "AI",
+        "Feedback Friday",
+        "Hugging Face",
+        "OpenAI"
+      ],
+      "description": "<p>Industry professionals debate whether it represents a lab containment failure or an unprecedented agentic capability milestone.</p>\n<p>The post <a href=\"https://www.securityweek.com/industry-reactions-to-openai-models-hacking-hugging-face-feedback-friday/\">Industry Reactions to OpenAI Models Hacking Hugging Face: Feedback Friday</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48121",
+      "authors": [
+        {
+          "name": "SecurityWeek News",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:8434a8dd5e31e3e05c41187add9e77d9d45e37e3b513982fd3b470633754a4f9",
       "url": "https://www.securityweek.com/data-breach-confirmed-after-australian-energy-giant-origin-is-hacked",
@@ -21,6 +56,7 @@
         "Australia",
         "data breach",
         "energy",
+        "Featured",
         "Origin Energy",
         "Ransomware"
       ],
@@ -2646,76 +2682,6 @@
       "authors": [
         {
           "name": "Eduard Kovacs",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:1b0ac946567b90c273af8eb7e3067a3485c696c83c6e79a9f3bb38845db0cd38",
-      "url": "https://www.securityweek.com/sap-patches-critical-vulnerabilities-in-netweaver-approuter-commerce-cloud",
-      "title": "SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud",
-      "published_at": "2026-07-14T11:17:56Z",
-      "published_raw": "Tue, 14 Jul 2026 11:17:56 +0000",
-      "categories": [
-        "Vulnerabilities",
-        "Patch",
-        "SAP",
-        "vulnerability"
-      ],
-      "description": "<p>The flaws could allow attackers to access and modify data, and cause system unavailability and request-response desynchronization.</p>\n<p>The post <a href=\"https://www.securityweek.com/sap-patches-critical-vulnerabilities-in-netweaver-approuter-commerce-cloud/\">SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47808",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:b2fc2f29e34530a9ec201e102f6c3b5fe9945204cd48fc96bd2cd95e3bda378e",
-      "url": "https://www.securityweek.com/us-allies-warn-of-russian-cyberattacks-targeting-critical-infrastructure-routers",
-      "title": "US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers",
-      "published_at": "2026-07-14T10:51:01Z",
-      "published_raw": "Tue, 14 Jul 2026 10:51:01 +0000",
-      "categories": [
-        "Government",
-        "Nation-State",
-        "APT",
-        "critical infrastructure",
-        "router",
-        "Russia"
-      ],
-      "description": "<p>Multiple state-sponsored APTs are compromising poorly secured devices across critical infrastructure sector networks.</p>\n<p>The post <a href=\"https://www.securityweek.com/us-allies-warn-of-russian-cyberattacks-targeting-critical-infrastructure-routers/\">US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47806",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
           "uri": "",
           "email": ""
         }

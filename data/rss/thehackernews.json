@@ -1,15 +1,69 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-24T10:00:44Z",
+  "updated_at": "2026-07-24T12:00:42Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-24T10:00:44Z",
+    "last_success_at": "2026-07-24T12:00:42Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:8239526967df147abf93f1ff75ab59558769f50a956e1467db099da7b799768c",
+      "url": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
+      "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
+      "published_at": "2026-07-24T10:15:29Z",
+      "published_raw": "2026-07-24T15:45:29.090+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Ministry of Finance, which runs the country's treasury and tax collection.\n\nThe agent then worked through the ministry's network on its own, checking hosts for ways to gain root access, hunting through file systems, and",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-9094232846721202089",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8qmYxOjHl19UJl8lK9TMJt86it1bULCh3SK1wSiD4JjiKU98fsHnko_QWzUWuG2ZmoHG7yxLrIgSTFRCKep1Ebj0JAH8xuTLFP_aIzGpTobs7C8u5OKGGTq79vqkHpY_Iy6LIEG-AHv-_uSJTVt2kxapGAu7qjfgiT4qpIAtnlfK3bR8he5-dubMNLYs/s260-e100/hermes-agent.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:2320d2a00fa5bc02bbc4f927d8acc97ebf2bf05957e85f97e1f8513cad1041ca",
+      "url": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
+      "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
+      "published_at": "2026-07-24T10:09:24Z",
+      "published_raw": "2026-07-24T15:39:24.780+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping despite extensive public disclosures into their inner workings.\n\nThe malware families in question are: TinyEgg, ChonkyChicken, a modularized variant of ChonkyChicken, and a modified web browser credential",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3677015087389823650",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ6m42WBQBHda1ntTqYkaxPyEiKYjc2xnTFIawfUcAxMuYQ_HtOz3ebO0HTtt3qyhUIIg8NB8W92WIfldPiOjZKCY1_aTGfgWq2NnZOhrgoU_Z8y8rtfVxCdJuc1QL94IcLm0IF_h-euFZydB5Qc8z4ifT-lx84glPyRnfTX8-R31O_0aswgRZR0uUTxs1/s260-e100/malwares.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:852d7225f48a5e8d4de614b3d1e1f3ae67139e2f865b24dc4de110ca7da93035",
       "url": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
@@ -436,6 +490,60 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpSmSwv3hz6LMJIQCrVej_pophE9XNTZyveEV1GctCyQMSNoac_Mx3CfmAHLgYkpDkymvscLLY71u2Kq-7z-7bDemSeKHryPVH3h7FNxw9e64D3jTeoLOzmWW305j1Rctz5kdiwFV29lFNqo33TUZMGWCaZqtyKNPYARGtrrhZ0Bsc4LMLXhnRgzKXjKYb/s260-e100/NVIDIA-rat.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:d43d2a88720f40da74a003ed2ae10363a93e0dc3479a2bad6e07fbda033d2d15",
+      "url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+      "published_at": "2026-07-24T11:53:55Z",
+      "published_raw": "2026-07-24T17:23:55.793+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial intelligence (AI) agent inside a victim's organization.\n\nThe vulnerability has been codenamed AgentForger by Zenity Labs. The issue has since been addressed by OpenAI as of June 8,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-9143633239867691766",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWjz4Sgp8xNXyO8juw5bycoRamRay35GLzSBPG3I3UWyuUovp8-qM8hMgxWiqIwW45q1cb17EkWhEYmP8ODPyhUTk1j7P2T92fjAW_R1WKleVJsywM7kzongXurU8N9olKf1F1jxpDnBKvY0s2F_wsgoGWYgRFrzN5zAoQZciTWQjLQw5NJRL66s3S1RaT/s260-e100/chatgpt.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:3f283ad957ed4a4e992d8ef71afb5e5c0d26fabc3fcf23c9b91b53effcadaebf",
+      "url": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+      "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
+      "published_at": "2026-07-24T11:45:17Z",
+      "published_raw": "2026-07-24T17:15:17.277+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet.\n\nXBOW's testing got the same result on workers across different hosts and network ranges, so the problem sat in Bing's image tier, not on one bad machine. Microsoft issued two critical CVEs, CVE-2026-32194 and",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3272720076146144138",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirbs2h3QyfDG1ChFBHv8CQNwf9JrDdDWLaZ0AZ2WTiJrsjmmeQUXSFc8FM4OvPgxDig-z2H1Di7OMqCC_0mHbicAvDw6TGF-1jWihJ458GYQBKznb3VOehlOPqWfALnkz8k3DBfehWG2z5nmpu77OgRxJ1iQxL7lsrd1IH3YR6ZHPpSUns-tdmDYScHck/s260-e100/bing-image.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -983,60 +1091,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:bfedf6d3a03155cf509183450812f5665906cba9c334b3eba7e33e094817b9b0",
-      "url": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
-      "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
-      "published_at": "2026-07-21T11:58:00Z",
-      "published_raw": "2026-07-21T17:28:00.000+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "An Android app that can draw over other windows and write to shared storage can slip instructions to the AI agent driving that phone, in text no human eye will ever see. Two more steps, and the same app is running commands on the PC driving the agent.\n\nResearchers demonstrated that chain, plus six other attacks, against five open-source mobile agent frameworks: AppAgent, AppAgentX,",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6838477974726839669",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgT3XQmerfsXoGV-Vs_zcpVZiX_i21tKtW9mTacpOvcEntMhycVftZ4f2vkREtq3W8PH9iQRLpOunN-hFf590FJNocxmsPla_WJ1uGJxtkpXnQim-T0-wa89EiJSZSrLHxhOcx_srjqzYcb2dW2MXAU4V2HWlL9rQa1YVEE4XEQ944I7a3glRwwjkgu0U/s260-e100/ai-android-agent.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:524095d98a7adefdba7baa1de85cd6502629a11ba84cd37bca3a1d1102eada84",
-      "url": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
-      "title": "N-day is Becoming N-Hour. Patching Faster Won't Save You.",
-      "published_at": "2026-07-21T11:42:23Z",
-      "published_raw": "2026-07-21T17:12:23.041+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Every patch is a confession.\n\nThe moment a vendor ships a security fix, the diff between the old code and the new code tells anyone watching exactly what was broken and where. Turn that diff back into a working exploit, and you can hit every system that hasn't updated yet. This is N-day exploitation, and it's always been a race: the vendor patches, the clock starts, and defenders try to deploy",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2976223463706035671",
-      "authors": [
-        {
-          "name": "Unknown",
-          "uri": "",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRgv46Pyr5W2eivocnJG2MuDCYtUXj0fVas4afxPzJX2ZVXVCyjyWK_FtVCxKOaz9qwmR6EJLqgbrG448OtKTlv3X9coXsqr40xoNXrkXZbGiOO3ZHr-skaiYV3My_V-qI9YH3c3ScLO4tISLW_uI-2PD3_hdgUQW8cv_kMi6q994YyZn6JkF7gIhECC4/s260-e100/pushsecurity.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:e1150e91b4d3d344407f5982cfead8fcc433579345b2eab9a205085d9c46aa18",
       "url": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
       "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
@@ -1084,6 +1138,60 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiapJDNa0fN3WsyrkYjRiRo3L8tqmE_RJm9AmQV5KO9p5To-PBWdVz7EW294xtn-VZtJ2xS_scIq3LyqyxYkPG3R5TdJoPF_axjEaLpaXSqGHK_uO274wM315GEqHtnDAMIfFN2vZlcEYJ3Ca11Ml_E-l32H63EYNfx7l9ldtjNlH8hL_19w4RL6vDpOWMz/s260-e100/adi.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:bfedf6d3a03155cf509183450812f5665906cba9c334b3eba7e33e094817b9b0",
+      "url": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
+      "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
+      "published_at": "2026-07-21T11:58:00Z",
+      "published_raw": "2026-07-21T17:28:00.000+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "An Android app that can draw over other windows and write to shared storage can slip instructions to the AI agent driving that phone, in text no human eye will ever see. Two more steps, and the same app is running commands on the PC driving the agent.\n\nResearchers demonstrated that chain, plus six other attacks, against five open-source mobile agent frameworks: AppAgent, AppAgentX,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6838477974726839669",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgT3XQmerfsXoGV-Vs_zcpVZiX_i21tKtW9mTacpOvcEntMhycVftZ4f2vkREtq3W8PH9iQRLpOunN-hFf590FJNocxmsPla_WJ1uGJxtkpXnQim-T0-wa89EiJSZSrLHxhOcx_srjqzYcb2dW2MXAU4V2HWlL9rQa1YVEE4XEQ944I7a3glRwwjkgu0U/s260-e100/ai-android-agent.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:524095d98a7adefdba7baa1de85cd6502629a11ba84cd37bca3a1d1102eada84",
+      "url": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
+      "title": "N-day is Becoming N-Hour. Patching Faster Won't Save You.",
+      "published_at": "2026-07-21T11:42:23Z",
+      "published_raw": "2026-07-21T17:12:23.041+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Every patch is a confession.\n\nThe moment a vendor ships a security fix, the diff between the old code and the new code tells anyone watching exactly what was broken and where. Turn that diff back into a working exploit, and you can hit every system that hasn't updated yet. This is N-day exploitation, and it's always been a race: the vendor patches, the clock starts, and defenders try to deploy",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2976223463706035671",
+      "authors": [
+        {
+          "name": "Unknown",
+          "uri": "",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRgv46Pyr5W2eivocnJG2MuDCYtUXj0fVas4afxPzJX2ZVXVCyjyWK_FtVCxKOaz9qwmR6EJLqgbrG448OtKTlv3X9coXsqr40xoNXrkXZbGiOO3ZHr-skaiYV3My_V-qI9YH3c3ScLO4tISLW_uI-2PD3_hdgUQW8cv_kMi6q994YyZn6JkF7gIhECC4/s260-e100/pushsecurity.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
