@@ -1,15 +1,69 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-25T10:00:38Z",
+  "updated_at": "2026-07-25T12:00:36Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-25T10:00:38Z",
+    "last_success_at": "2026-07-25T12:00:36Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:bb8d98fdc318d866d20f859259bdbc5b708300b14a1d5953bcb21545d6ad4564",
+      "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+      "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
+      "published_at": "2026-07-25T10:14:21Z",
+      "published_raw": "2026-07-25T15:44:21.681+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose.\n\nThat model is changing.\n\nRecent investigations into insurance-focused phishing operations reveal a more immediate approach. Instead of harvesting",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3931128471034165643",
+      "authors": [
+        {
+          "name": "The Hacker News",
+          "uri": "http://www.blogger.com/profile/12293020295681152452",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH4zKTZ_Lk6D_VXZEKWwF1k02-iDwrNY9MH7zrX_sotEB_f9m7-qvQkAbfTvW5YQyBVlVdSS3D4_0ky60KOzTABlPuPKEpDXwpnWO3eTtud33d8oxf54HilW5EgDJPwo0ea4rktguzjfMBnRy0yLGch1l2vLdY4GnG12imJqBIdZzhYRb04XcVP67KaxPM/s260-e100/insuretrap.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:2771e2dd44890caa97abbd2a4593bb71930b31d126253995e3e8fcc097e13a2c",
+      "url": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
+      "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
+      "published_at": "2026-07-25T10:14:03Z",
+      "published_raw": "2026-07-25T15:44:03.538+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign.\n\n\"Attackers chain a pre-authentication information disclosure in the FlexPLM WSDL endpoint with a server-side flaw in the Windchill login servlet, enabling",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5512930860639695725",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIGAlXgFCqm8atTe__HpWBiCWISmrPOazxOVBMF-_YNrP2goBbW_4PSwGzw1Ndyue4qrnQnqrQyAR4DTaAdaiJPlVUZi7M_iceb4fqofWK0sGRLO9CHnj0lngtxdlC-tKqrppqFaKIkct2vOtGn_o5kbNa4fj-dutt8PMjiO5TVBw895aLg0TOJb8TKKtv/s260-e100/cyberattack.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:6fdd8513ac9daf93db60afb549eb76dd30a28f93c74a5f6c3e3280352f9cb67a",
       "url": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
@@ -500,12 +554,12 @@
       "id": "sha256:272cc44a5c21921f110d4955fdc03b0b10a8dfc3776e28c24c7c350f43e6eeec",
       "url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
       "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
-      "published_at": "2026-07-25T08:34:15Z",
-      "published_raw": "2026-07-25T14:04:15.923+05:30",
+      "published_at": "2026-07-25T10:14:26Z",
+      "published_raw": "2026-07-25T15:44:26.794+05:30",
       "categories": [
         "vulnerability"
       ],
-      "description": "Security researchers depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update.\n\nAny authenticated user who can push to a project can run it. The attacker commits a crafted Jupyter notebook and opens its commit diff, which leaks a heap pointer.",
+      "description": "Security researchers at&nbsp;depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update.\n\nAny authenticated user who can push to a project can run it. The attacker commits a crafted Jupyter notebook and opens its commit diff, which leaks a heap",
       "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5886616326270658196",
       "authors": [
         {
@@ -1070,7 +1124,7 @@
       "published_at": "2026-07-21T14:57:51Z",
       "published_raw": "2026-07-21T20:27:51.536+05:30",
       "categories": [
-        "vulnerability"
+        "cyber-attack"
       ],
       "description": "A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr.\n\nThe vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft Office SharePoint that could allow an unauthorized attacker to execute code over a network. Microsoft credited DEVCORE",
       "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8143379014728611265",
@@ -1678,60 +1732,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMjCjGBZhkRcB4m5BQu0Fcn-Qjs1_VPnfOlt3oFxu7CKMZ5Wc1JpvZEvhVSorBJW-AWV1pACLDkg4rFmCCcdH6vDk-pmD5ai0ZewlmPyeWPnfsmTcg-D3UJXdT902oUD32DjSm5CrBsnf2rcVTQPUo5o-LJRKUlsjOwPNfYMpN7kOfmNhnyw552cv-Gtqk/s260-e100/adobes.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:3296da29813217b1904a8a2d6960c8e8c22074e75009bf4014266b3209f4dd61",
-      "url": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
-      "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
-      "published_at": "2026-07-15T11:07:07Z",
-      "published_raw": "2026-07-15T16:37:07.181+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive.\n\nIt has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments.\n\n\"The PoC requires",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1690580217320039609",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvtiVnhkF-YVsPEXyedqj9REY5pN1-KiSsf-rCeXK5yClGbAcsL1Tg7-9UDDA8VQg5RbM0uWkV23rDxqiFFIJ2RkpkY6cn90-5LPbZOC2oktF7_3FjD5La_FGkYdVBEKeXMJGiGRZfPvxmMBXd99tncWdEZ4HxX62hbxmWEnA02eu-LSVwZtmecjuykqDb/s260-e100/windows-0day.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:48833fc438421200d33970a822b4f75a5983b48e05c2cab5ea2996a50fee4ff6",
-      "url": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
-      "title": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution",
-      "published_at": "2026-07-15T10:55:22Z",
-      "published_raw": "2026-07-15T16:25:22.658+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Open a repository in Cursor&nbsp;on Windows and, if a file named&nbsp;git.exe&nbsp;is sitting in the project root, Cursor runs it. No click, no approval dialog, no warning that anything in the folder is about to execute.\n\nWhatever that binary does, it does as you, with your source, your SSH keys and your cloud tokens. Cursor keeps re-running it for as long as the project stays open.\n\nNo prompt",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5385683792108602094",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyFnrtjbcXdDBTEYOhVnUpFO4CSqhCGj5xdvaYlhih4oUCd3phzBQTjjMogZeFDlYqTiO8Xt2jaHevba5peaV76dT417Vq9W-DZFSpu2_cEbAMtGwz-mqKZJcYgAAXmZT_Rnkdc0f3jAW-eANKWd6XZZJvYfYCt6l5Pp-2ZKjlnn4zG7G6gS7ivWruzeU/s260-e100/git.png",
           "kind": "thumbnail",
           "medium": ""
         }
