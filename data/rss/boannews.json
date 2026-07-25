@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-25T00:00:36Z",
+  "updated_at": "2026-07-25T02:00:41Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-24T22:00:38Z",
-    "last_error_at": "2026-07-25T00:00:36Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-07-25T02:00:41Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
     {
@@ -554,25 +554,6 @@
       "authors": [
         {
           "name": "[조재호기자 (zephyr@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:4d3938e1602e4ed6768ab4341411e023c385ffe4d1698bb92e157e280792a59f",
-      "url": "http://www.boannews.com/media/view.asp?idx=144693&kind=1&sub_kind=",
-      "title": "‘저금리’ 유혹 주의...대출 사기 피싱 162% 증가",
-      "published_at": "2026-07-15T01:58:00Z",
-      "published_raw": "Wed, 15 Jul 2026 10:58:00 +0900",
-      "categories": [],
-      "description": "은행, 카드사, 증권사 등 금융기관 사칭 기승메신저 채팅방 유인·URL 클릭 유도 문자 주의[보안뉴스 강현주 기자] ‘저금리’, ‘고한도’ 등의 키워드로 유혹하는 대출 사기 피싱 문자 공격이 올해 2분기 전분기 대비 162% 증가한 것으로 나타났다. 안랩(대표 강석균)이 2026년 4월부터 6월까지 에이전틱 AI 보안 플랫폼 ‘안랩 AI 플러스’(AhnLa",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[강현주기자 (jjoo@boannews.com)]",
           "uri": "",
           "email": ""
         }
