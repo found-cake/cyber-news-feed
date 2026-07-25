@@ -1,15 +1,57 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-25T14:00:36Z",
+  "updated_at": "2026-07-25T16:01:09Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-25T14:00:36Z",
+    "last_success_at": "2026-07-25T16:01:09Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:cb57ed4122cfae94edeb001eb68bf84c76d27291f6bb72e85e64fea2e4675ee1",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory",
+      "title": "Malicious sites use JavaScript to build malware in browser memory",
+      "published_at": "2026-07-25T15:21:09Z",
+      "published_raw": "Sat, 25 Jul 2026 11:21:09 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A massive malvertising campaign is using fake Solana, Luno, and TradingView webpages with malicious JavaScript that instructs browsers to assemble malware directly in memory. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:1c6254e8aafabd06e8f8ad5eaa3c4532c079b158cccd0c78e6accf640c27a23d",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam",
+      "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
+      "published_at": "2026-07-25T14:16:26Z",
+      "published_raw": "Sat, 25 Jul 2026 10:16:26 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:dd96739f548246f7ee59c3ea28fc5dfb5dc72b76a9074092f720ec902144636c",
       "url": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack",
@@ -1508,48 +1550,6 @@
       "authors": [
         {
           "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:a4b4f80b8b7c0f70b96630e7085f9d1c81626fd57cafe82b05c613bef11228c6",
-      "url": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware",
-      "title": "AsyncAPI npm packages infected with credential-stealing malware",
-      "published_at": "2026-07-15T15:37:27Z",
-      "published_raw": "Wed, 15 Jul 2026 11:37:27 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Five malicious versions of AsyncAPI packages were published to the Node Package Manager (npm) in a supply-chain attack that delivered a remote access trojan with info-stealing capabilities. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:d93f4ddf2730b2b2fa56fc1f28fb7b69a3178d9cc739976d21f6b4622c1ef6a4",
-      "url": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out",
-      "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
-      "published_at": "2026-07-15T14:01:11Z",
-      "published_raw": "Wed, 15 Jul 2026 10:01:11 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Intruder built an AI-powered \"vulnerability vending machine\" that combines code slicing with LLMs to automatically discover complex software vulnerabilities. The company explains how the system found and exploited a previously unknown WordPress plugin zero-day, with additional discoveries already under responsible disclosure. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
-      "authors": [
-        {
-          "name": "Sponsored by Intruder",
           "uri": "",
           "email": ""
         }
