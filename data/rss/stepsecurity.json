@@ -1,45 +1,21 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-07-25T02:00:41Z",
+  "updated_at": "2026-07-25T04:00:42Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-25T02:00:41Z",
+    "last_success_at": "2026-07-25T04:00:42Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
     {
-      "id": "sha256:8f32d8023d418edc7e3d83a451bbe87bc551dd945aed130fe087d6a92b0fcde9",
-      "url": "https://www.stepsecurity.io/blog/2026-mid-year-update-on-pace-for-our-biggest-year-yet",
-      "title": "2026 Mid-Year Update: On Pace for Our Biggest Year Yet",
-      "published_at": "2026-07-24T19:45:23Z",
-      "published_raw": "Fri, 24 Jul 2026 19:45:23 GMT",
-      "categories": [],
-      "description": "After 5x ARR growth in 2024 and again in 2025, StepSecurity is on pace for its biggest year yet in 2026. What is driving it, and why supply chain security is inflecting.",
-      "feed_id": "https://www.stepsecurity.io/blog/2026-mid-year-update-on-pace-for-our-biggest-year-yet",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a633b8e05cafa158a02e27d_cover-image.png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a633b8e05cafa158a02e27d_cover-image.png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:24a7a48ca804634524344bd7253988e170cec73c342023efad6cda759f30d813",
       "url": "https://www.stepsecurity.io/blog/compromised-pypi-mrmustard-0-7-4-credential-stealer",
       "title": "Compromised PyPI Package: mrmustard 0.7.4 Steals SSH, Cloud, and Kubernetes Credentials",
-      "published_at": "2026-07-24T16:14:49Z",
-      "published_raw": "Fri, 24 Jul 2026 16:14:49 GMT",
+      "published_at": "2026-07-25T01:39:02Z",
+      "published_raw": "Sat, 25 Jul 2026 01:39:02 GMT",
       "categories": [],
       "description": "mrmustard 0.7.4 on PyPI was a credential stealer that ran on import, exfiltrating SSH keys, AWS, and Kubernetes credentials. Here is the analysis, IOCs, and how to respond.",
       "feed_id": "https://www.stepsecurity.io/blog/compromised-pypi-mrmustard-0-7-4-credential-stealer",
@@ -52,6 +28,30 @@
         },
         {
           "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a6384092f0375ee9aa325fd_6a638265364967d80eded2aa_mrmustard-hero.png",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:8f32d8023d418edc7e3d83a451bbe87bc551dd945aed130fe087d6a92b0fcde9",
+      "url": "https://www.stepsecurity.io/blog/2026-mid-year-update-on-pace-for-our-biggest-year-yet",
+      "title": "2026 Mid-Year Update: On Pace for Our Biggest Year Yet",
+      "published_at": "2026-07-25T01:39:02Z",
+      "published_raw": "Sat, 25 Jul 2026 01:39:02 GMT",
+      "categories": [],
+      "description": "After 5x ARR growth in 2024 and again in 2025, StepSecurity is on pace for its biggest year yet in 2026. What is driving it, and why supply chain security is inflecting.",
+      "feed_id": "https://www.stepsecurity.io/blog/2026-mid-year-update-on-pace-for-our-biggest-year-yet",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a633b8e05cafa158a02e27d_cover-image.png",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a633b8e05cafa158a02e27d_cover-image.png",
           "kind": "content",
           "medium": "image"
         }

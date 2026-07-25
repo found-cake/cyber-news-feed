@@ -1,15 +1,53 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-25T02:00:41Z",
+  "updated_at": "2026-07-25T04:00:42Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-25T02:00:41Z",
+    "last_success_at": "2026-07-25T04:00:42Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:2eba384bd075796ee3dc2760413aacbd65c4124b5c6c6f01a09ec48c66be630d",
+      "url": "http://www.boannews.com/media/view.asp?idx=144838&kind=1&sub_kind=",
+      "title": "우분투 스냅-컨파인 취약점 발견... 일반 사용자도 루트 권한 획득 위험",
+      "published_at": "2026-07-25T03:58:00Z",
+      "published_raw": "Sat, 25 Jul 2026 12:58:00 +0900",
+      "categories": [],
+      "description": "[보안뉴스 김형근 기자] 리눅스 기반의 대표적인 오픈소스 운영체제 우분투 데스크톱24.04, 25.10, 26.04의 스냅-컨파인(snap-confine) 구성 요소에서 고위험 권한 상승 취약점(CVE-2026-8933)이 발견됐다. 이 결함은 우분투 시스템의 스냅-컨파인 바이너리가 샌드박스를 초기화하고 최소 권한 원칙을 적용하다 의도치 않은 레이스 컨디션",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[강현주기자 (jjoo@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:0ac2bf1f29084e321dd6e8ce4157146ff5555fbb6986c2fb0a20f4edf7f5260c",
+      "url": "http://www.boannews.com/media/view.asp?idx=144836&kind=1&sub_kind=",
+      "title": "AI가 통제 벗어나면 정부가 중단... 美 하원 ‘킬스위치법’ 발의",
+      "published_at": "2026-07-25T02:14:00Z",
+      "published_raw": "Sat, 25 Jul 2026 11:14:00 +0900",
+      "categories": [],
+      "description": "[보안뉴스 강현주 기자] 오픈AI의 AI 모델이 통제망을 뚫고 오픈소스  AI 플랫폼 허깅페이스를 해킹한 사건을 계기로 미 의회에서 AI가 통제를 벗어나면 중단시킬 수 있도록 하는 ‘AI 킬스위치’ 법안이 발의됐다.허깅페이스의 공동창업자인 클레망 들랑그 CEO는 23일(현지시간) 소셜미디어 X를 통해 오픈AI를 만나로 간다고 밝혔다. 해킹에 연루된 오픈AI",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[강현주기자 (jjoo@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:17f2c2c7f4f9a2890e40350240dbc0c46dd4912ae36d0dc6fad7f7f19f46be48",
       "url": "http://www.boannews.com/media/view.asp?idx=144832&kind=1&sub_kind=",
@@ -155,44 +193,6 @@
       "authors": [
         {
           "name": "[엄호식기자 (eomhs@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:b13be62e48a2ffb31e853665fb5295300e854dee9852b5fa4f5d6cc7d94394c1",
-      "url": "http://www.boannews.com/media/view.asp?idx=144776&kind=1&sub_kind=",
-      "title": "韓 외교관 전원 해킹 추정... 최대 1만건 유출",
-      "published_at": "2026-07-21T06:16:00Z",
-      "published_raw": "Tue, 21 Jul 2026 15:16:00 +0900",
-      "categories": [],
-      "description": "[보안뉴스 강현주 기자] 국립외교원 온라인교육시스템에서 한국 외교관 전원의 신상 정보가 유출된 것으로 추정된다. 외교부는 20일 국립외교원의 온라인교육시스템 서버를 신원 미상의 공격자가 지난해 4∼5월 장악한 뒤 올해 2월까지 접속했다는 내용의 보도자료를 냈다. 이어 21일 언론을 통해 “해당 시스템에 약 1만건의 데이터가 저장돼 있다”고 밝혔다. 이번 해",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[강현주기자 (jjoo@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:1e5e7858a2e7ee5ca6e3611edf3c043e2e86a2f7da7e218b54fb54084c888ffa",
-      "url": "http://www.boannews.com/media/view.asp?idx=144773&kind=1&sub_kind=",
-      "title": "따릉이 462만명 개인정보 유출... 서울시설공단, 전방위 후속 조치 착수",
-      "published_at": "2026-07-21T06:00:00Z",
-      "published_raw": "Tue, 21 Jul 2026 15:00:00 +0900",
-      "categories": [],
-      "description": "2024년 6월 서버 취약점 악용한 무단 수집으로 아이디·연락처 등 새어나가경찰 수사 결과, 제3자 유출 및 2차 피해 정황은 현재까지 확인되지 않아피해 회원 대상 따릉이 30일권 쿠폰 지급 및 비상대응센터 가동[보안뉴스 조재호 기자] 서울시설공단이 공공자전거 따릉이 서버 보안 취약점을 악용한 무단 수집으로 462만명의 회원정보가 유출됐다고 21일 밝혔다.",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[조재호기자 (zephyr@boannews.com)]",
           "uri": "",
           "email": ""
         }
@@ -353,17 +353,36 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:35b7723c49a6da28fd3c42570d83ce11f65af2c9ab2357adae4a25b6c19712b3",
-      "url": "http://www.boannews.com/media/view.asp?idx=144693&kind=&sub_kind=",
-      "title": "‘저금리’ 유혹 주의...대출 사기 피싱 162% 증가",
-      "published_at": "2026-07-15T02:20:00Z",
-      "published_raw": "Wed, 15 Jul 2026 11:20:00 +0900",
+      "id": "sha256:b13be62e48a2ffb31e853665fb5295300e854dee9852b5fa4f5d6cc7d94394c1",
+      "url": "http://www.boannews.com/media/view.asp?idx=144776&kind=1&sub_kind=",
+      "title": "韓 외교관 전원 해킹 추정... 최대 1만건 유출",
+      "published_at": "2026-07-21T06:16:00Z",
+      "published_raw": "Tue, 21 Jul 2026 15:16:00 +0900",
       "categories": [],
-      "description": "은행, 카드사, 증권사 등 금융기관 사칭 기승메신저 채팅방 유인·URL 클릭 유도 문자 주의[보안뉴스 강현주 기자] ‘저금리’, ‘고한도’ 등의 키워드로 유혹하는 대출 사기 피싱 문자 공격이 올해 2분기 전분기 대비 162% 증가한 것으로 나타났다. 안랩(대표 강석균)이 2026년 4월부터 6월까지 에이전틱 AI 보안 플랫폼 ‘안랩 AI 플러스’(AhnLa",
+      "description": "[보안뉴스 강현주 기자] 국립외교원 온라인교육시스템에서 한국 외교관 전원의 신상 정보가 유출된 것으로 추정된다. 외교부는 20일 국립외교원의 온라인교육시스템 서버를 신원 미상의 공격자가 지난해 4∼5월 장악한 뒤 올해 2월까지 접속했다는 내용의 보도자료를 냈다. 이어 21일 언론을 통해 “해당 시스템에 약 1만건의 데이터가 저장돼 있다”고 밝혔다. 이번 해",
       "feed_id": "",
       "authors": [
         {
           "name": "[강현주기자 (jjoo@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:1e5e7858a2e7ee5ca6e3611edf3c043e2e86a2f7da7e218b54fb54084c888ffa",
+      "url": "http://www.boannews.com/media/view.asp?idx=144773&kind=1&sub_kind=",
+      "title": "따릉이 462만명 개인정보 유출... 서울시설공단, 전방위 후속 조치 착수",
+      "published_at": "2026-07-21T06:00:00Z",
+      "published_raw": "Tue, 21 Jul 2026 15:00:00 +0900",
+      "categories": [],
+      "description": "2024년 6월 서버 취약점 악용한 무단 수집으로 아이디·연락처 등 새어나가경찰 수사 결과, 제3자 유출 및 2차 피해 정황은 현재까지 확인되지 않아피해 회원 대상 따릉이 30일권 쿠폰 지급 및 비상대응센터 가동[보안뉴스 조재호 기자] 서울시설공단이 공공자전거 따릉이 서버 보안 취약점을 악용한 무단 수집으로 462만명의 회원정보가 유출됐다고 21일 밝혔다.",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
           "uri": "",
           "email": ""
         }
