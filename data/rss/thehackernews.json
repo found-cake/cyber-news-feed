@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-25T12:00:36Z",
+  "updated_at": "2026-07-25T14:00:36Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-25T12:00:36Z",
+    "last_success_at": "2026-07-25T14:00:36Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:8083b86f8749ba300ef2922e99460c178b8eed195413a30f1910f6a2e5b1c6f4",
+      "url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
+      "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+      "published_at": "2026-07-25T12:52:43Z",
+      "published_raw": "2026-07-25T18:22:43.180+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process.\n\nTracked as CVE-2026-16723, the vulnerability carries an Alibaba-assigned CVSS score of 9.0. The confirmed chain requires",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3645608232770115489",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVdPXrvOB3xbf282jC7eawBsl-YwExczqZ471NiKOResjulD8TvOSelU5VGbgoHqVhNLaigBkE2N50AFtSqbOoXUQTtxgIHO05jYpTn5VyG4BPhlr1CbscCn4g8S3I4jdZ1_p67zSM91K25xq1X4-btuY3tFgVseyO-aLWlsdvZaNkwAhyphenhyphenafk4DH2l6Fs/s260-e100/fastjson.gif",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:bb8d98fdc318d866d20f859259bdbc5b708300b14a1d5953bcb21545d6ad4564",
       "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
@@ -1091,33 +1118,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:4e75cbdb57f144ea96ca44d941a09c97f70667f4a3f1c88ae055cb53f405731c",
-      "url": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
-      "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
-      "published_at": "2026-07-21T15:09:28Z",
-      "published_raw": "2026-07-21T20:39:28.256+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently.\n\nAccording to the tech giant, the model will be exclusively available to governments and trusted partners via CodeMender as part of a limited-access pilot",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-132617019304471342",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEEErOjlKug3DfeSGwzEbvNrUSCkzDF0o7uAnDNHFuE5MWaTlnB8sSfYJ4VsQaG39Kv_-L50Zc5GOJrpLYvW_2i8TFFI1xAWMRnFa-M6smZrswwGgnUMmEe-F-FB5Hw3OQWxVdSfPAKCFidVnQODRBSDT9WbF4dZmfrOsvvvhHmIAnroCkyFmmhlc_YQyC/s260-e100/gemini-cyber-flash.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:e654be4a6a911d35f0cbe0344aedcdfd1a591d1d435a3bfd8bb6dddc455fb6af",
       "url": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
       "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
@@ -1192,6 +1192,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiapJDNa0fN3WsyrkYjRiRo3L8tqmE_RJm9AmQV5KO9p5To-PBWdVz7EW294xtn-VZtJ2xS_scIq3LyqyxYkPG3R5TdJoPF_axjEaLpaXSqGHK_uO274wM315GEqHtnDAMIfFN2vZlcEYJ3Ca11Ml_E-l32H63EYNfx7l9ldtjNlH8hL_19w4RL6vDpOWMz/s260-e100/adi.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:4e75cbdb57f144ea96ca44d941a09c97f70667f4a3f1c88ae055cb53f405731c",
+      "url": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
+      "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
+      "published_at": "2026-07-21T15:09:28Z",
+      "published_raw": "2026-07-21T20:39:28.256+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently.\n\nAccording to the tech giant, the model will be exclusively available to governments and trusted partners via CodeMender as part of a limited-access pilot",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-132617019304471342",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEEErOjlKug3DfeSGwzEbvNrUSCkzDF0o7uAnDNHFuE5MWaTlnB8sSfYJ4VsQaG39Kv_-L50Zc5GOJrpLYvW_2i8TFFI1xAWMRnFa-M6smZrswwGgnUMmEe-F-FB5Hw3OQWxVdSfPAKCFidVnQODRBSDT9WbF4dZmfrOsvvvhHmIAnroCkyFmmhlc_YQyC/s260-e100/gemini-cyber-flash.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1705,33 +1732,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmKa1OIdUu8LgLPgZkc9qbOTzhARf1dEJa_fzyVt7vvSzidHy3Lrb-2R4hs2ryt9b4Aq3zOnJRtWVuQ8KHKUZ5x9Iv6Q0vGTVMPxNMLTdGaNsquyrL18QXk8TcMP2nEwFHE1snKt2aG6rEmyVMwRp7Fk4G_x_sXjk_4AmYWsH2JCvOe2Adut2PZbLVc4YI/s260-e100/tuxbot.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:19d53f59b5a41ad7c92e03a7c34189f092f424396c5dd7a6ebea0975a8086170",
-      "url": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
-      "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
-      "published_at": "2026-07-15T13:18:53Z",
-      "published_raw": "2026-07-15T18:48:53.902+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been published.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-15718, an invalid pointer in the JavaScript: WebAssembly component\n  CVE-2026-15719, a site isolation in the DOM: Navigation component\n\n\"We are aware that exploit code for this is public, however we are not aware of",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5345271640165422995",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMjCjGBZhkRcB4m5BQu0Fcn-Qjs1_VPnfOlt3oFxu7CKMZ5Wc1JpvZEvhVSorBJW-AWV1pACLDkg4rFmCCcdH6vDk-pmD5ai0ZewlmPyeWPnfsmTcg-D3UJXdT902oUD32DjSm5CrBsnf2rcVTQPUo5o-LJRKUlsjOwPNfYMpN7kOfmNhnyw552cv-Gtqk/s260-e100/adobes.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
