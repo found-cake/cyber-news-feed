@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-07-26T00:00:39Z",
+  "updated_at": "2026-07-26T02:00:39Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-26T00:00:39Z",
+    "last_success_at": "2026-07-26T02:00:39Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -14,8 +14,8 @@
       "id": "sha256:8f32d8023d418edc7e3d83a451bbe87bc551dd945aed130fe087d6a92b0fcde9",
       "url": "https://www.stepsecurity.io/blog/2026-mid-year-update-on-pace-for-our-biggest-year-yet",
       "title": "2026 Mid-Year Update: On Pace for Our Biggest Year Yet",
-      "published_at": "2026-07-25T23:38:31Z",
-      "published_raw": "Sat, 25 Jul 2026 23:38:31 GMT",
+      "published_at": "2026-07-26T00:07:10Z",
+      "published_raw": "Sun, 26 Jul 2026 00:07:10 GMT",
       "categories": [],
       "description": "After 5x ARR growth in 2024 and again in 2025, StepSecurity is on pace for its biggest year yet in 2026. What is driving it, and why supply chain security is inflecting.",
       "feed_id": "https://www.stepsecurity.io/blog/2026-mid-year-update-on-pace-for-our-biggest-year-yet",
@@ -76,78 +76,6 @@
         },
         {
           "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a6140a6376cdc1230a78a4e_Cover3-24.jpg",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:c6aed9cd80b5f4d3f95d844131da80bb7994597924fb4893f71f687eb5b9bae8",
-      "url": "https://www.stepsecurity.io/blog/introducing-device-policy-enforce-approved-vs-code-extensions-across-your-fleet",
-      "title": "Introducing Device Policy: Enforce Approved VS Code Extensions Across Your Fleet",
-      "published_at": "2026-07-16T01:20:07Z",
-      "published_raw": "Thu, 16 Jul 2026 01:20:07 GMT",
-      "categories": [],
-      "description": "Device Policy lets security teams allow-list VS Code extensions and enforce it fleet-wide through Intune, Jamf, Kandji, or the DMG agent. No MDM required.",
-      "feed_id": "https://www.stepsecurity.io/blog/introducing-device-policy-enforce-approved-vs-code-extensions-across-your-fleet",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a580d800d92199b0253ecb7_image%20(133).png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a580d800d92199b0253ecb7_image%20(133).png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:b6a66cc20f679975112f1f24e14e3c15dde5a116d91632b68a56563fa0b0a985",
-      "url": "https://www.stepsecurity.io/blog/compromised-next-branch-pushes-malicious-asyncapi-generator-generator-helpers-and-generator-components-to-npm",
-      "title": "Coordinated AsyncAPI Supply Chain Attack: Miasma RAT Delivered via Compromised CI/CD Pipelines in Two Repositories",
-      "published_at": "2026-07-16T01:20:07Z",
-      "published_raw": "Thu, 16 Jul 2026 01:20:07 GMT",
-      "categories": [],
-      "description": "On July 14, 2026 at 07:10 UTC, three packages in the AsyncAPI generator monorepo (@asyncapi/generator@3.3.1, @asyncapi/generator-helpers@1.1.1, and @asyncapi/generator-components@0.7.1) were published to npm carrying an obfuscated dropper that fires the moment the library is loaded, not on install. The packages were published through the project's own legitimate GitHub Actions release workflow and carry valid npm OIDC provenance attestations, because the attacker didn't steal an npm token: they gained push access to the repository's next branch and let the project's real CI/CD pipeline do the publishing for them.",
-      "feed_id": "https://www.stepsecurity.io/blog/compromised-next-branch-pushes-malicious-asyncapi-generator-generator-helpers-and-generator-components-to-npm",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a55f0bda13a3d3211d6f7ec_SCR-20260714-mhvs.png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a55f0bda13a3d3211d6f7ec_SCR-20260714-mhvs.png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:70db1f82d8114e68af25c5f8cef12b3faf7c3a9c20913caec21beead53ef3572",
-      "url": "https://www.stepsecurity.io/blog/introducing-secret-exfiltration-protection-for-github-actions",
-      "title": "Introducing Secret Exfiltration Protection for GitHub Actions",
-      "published_at": "2026-07-16T01:20:07Z",
-      "published_raw": "Thu, 16 Jul 2026 01:20:07 GMT",
-      "categories": [],
-      "description": "StepSecurity now blocks and detects secret exfiltration in GitHub Actions, stopping attacks that plant malicious workflows to steal your repository secrets.",
-      "feed_id": "https://www.stepsecurity.io/blog/introducing-secret-exfiltration-protection-for-github-actions",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a54b8b1fdafe326aa2ceb93_image%20(130).png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a54b8b1fdafe326aa2ceb93_image%20(130).png",
           "kind": "content",
           "medium": "image"
         }
