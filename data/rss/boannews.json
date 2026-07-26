@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-26T08:00:37Z",
+  "updated_at": "2026-07-26T10:00:37Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-07-26T06:00:37Z",
-    "last_error_at": "2026-07-26T08:00:37Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-07-26T10:00:37Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:849bf37664922580c7de5a414867338b5843c8e2cc9bd65b8d462f377400b6e5",
+      "url": "http://www.boannews.com/media/view.asp?idx=144842&kind=1&sub_kind=",
+      "title": "전기차 충천 플랫폼 채비, 개인정보 30만여건 유출 신고... “이메일 악용 피싱 주의”",
+      "published_at": "2026-07-26T07:33:00Z",
+      "published_raw": "Sun, 26 Jul 2026 16:33:00 +0900",
+      "categories": [],
+      "description": "[보안뉴스 강현주 기자] 전기차 충전 플랫폼 채비가 해킹 공격으로 개인정보 약 30만 건이 유출됐다고 26일 공지했다. 채비는 홈페이지를 통해 지난 23일 해킹 공격으로 회원 개인정보 29만 8천여 건이 유출된 사실을 확인해 관계당국에 신고했다고 밝혔다.공지에 따르면 유출된 개인정보 가운데 이메일 주소만 유출된 경우가 16만5000 건으로 가장 많았다. 일",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[강현주기자 (jjoo@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:2eba384bd075796ee3dc2760413aacbd65c4124b5c6c6f01a09ec48c66be630d",
       "url": "http://www.boannews.com/media/view.asp?idx=144838&kind=1&sub_kind=",
@@ -182,17 +201,17 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:9691276f6eb81c628b8a4e3dc0a4315df3a6e88fa044d04156da37f2d488e038",
-      "url": "http://www.boannews.com/media/view.asp?idx=144781&kind=1&sub_kind=",
-      "title": "[부고] 한규돈 레코디드퓨쳐 지사장 부친상",
-      "published_at": "2026-07-21T10:06:00Z",
-      "published_raw": "Tue, 21 Jul 2026 19:06:00 +0900",
+      "id": "sha256:b36cd201bbd332ad97e722b5277061d890c39a07b944b2d9be99b8c38fa61b85",
+      "url": "http://www.boannews.com/media/view.asp?idx=144842&kind=&sub_kind=",
+      "title": "전기차 충천 플랫폼 채비, 개인정보 30만여건 유출 신고... “이메일 악용 피싱 주의”",
+      "published_at": "2026-07-26T07:33:00Z",
+      "published_raw": "Sun, 26 Jul 2026 16:33:00 +0900",
       "categories": [],
-      "description": "△내용: 한규돈 레코디드퓨쳐 지사장 부친상△고인: 故 한경희님(향년 87세)△빈소: 삼성서울병원장례식장 6호△발인: 2026년 7월 23일(목) 11시 00분△장지: 1차 성남영생원 / 2차 안성추모공원[엄호식 기자(eomhs@boannews.com)]&lt;저작권자: 보안뉴스(www.boannews.com) 무단전재-재배포금지&gt;",
+      "description": "[보안뉴스 강현주 기자] 전기차 충전 플랫폼 채비가 해킹 공격으로 개인정보 약 30만 건이 유출됐다고 26일 공지했다. 채비는 홈페이지를 통해 지난 23일 해킹 공격으로 회원 개인정보 29만 8천여 건이 유출된 사실을 확인해 관계당국에 신고했다고 밝혔다.공지에 따르면 유출된 개인정보 가운데 이메일 주소만 유출된 경우가 16만5000 건으로 가장 많았다. 일",
       "feed_id": "",
       "authors": [
         {
-          "name": "[엄호식기자 (eomhs@boannews.com)]",
+          "name": "[강현주기자 (jjoo@boannews.com)]",
           "uri": "",
           "email": ""
         }
@@ -326,6 +345,25 @@
       "authors": [
         {
           "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:9691276f6eb81c628b8a4e3dc0a4315df3a6e88fa044d04156da37f2d488e038",
+      "url": "http://www.boannews.com/media/view.asp?idx=144781&kind=1&sub_kind=",
+      "title": "[부고] 한규돈 레코디드퓨쳐 지사장 부친상",
+      "published_at": "2026-07-21T10:06:00Z",
+      "published_raw": "Tue, 21 Jul 2026 19:06:00 +0900",
+      "categories": [],
+      "description": "△내용: 한규돈 레코디드퓨쳐 지사장 부친상△고인: 故 한경희님(향년 87세)△빈소: 삼성서울병원장례식장 6호△발인: 2026년 7월 23일(목) 11시 00분△장지: 1차 성남영생원 / 2차 안성추모공원[엄호식 기자(eomhs@boannews.com)]&lt;저작권자: 보안뉴스(www.boannews.com) 무단전재-재배포금지&gt;",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[엄호식기자 (eomhs@boannews.com)]",
           "uri": "",
           "email": ""
         }
