@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-27T08:00:08Z",
+  "updated_at": "2026-07-27T10:00:11Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-27T08:00:08Z",
+    "last_success_at": "2026-07-27T10:00:11Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:ed1581653a1c0b99f2aadc27612adfd1a6d863adba935cf587678f7007c8700e",
+      "url": "http://www.boannews.com/media/view.asp?idx=144877&kind=1&sub_kind=",
+      "title": "깃랩 RCE 유발한 4년 묵은 Parser 버그... 루비 안전망도 무너졌다",
+      "published_at": "2026-07-27T08:29:00Z",
+      "published_raw": "Mon, 27 Jul 2026 17:29:00 +0900",
+      "categories": [],
+      "description": "고성능 JSON Parser ‘Oj’ 내부 C 확장 모듈서 메모리 손상 취약점 2종 발견주피터 노트북 파일 렌더링 과정 악용 시 방어막 우회해 서버 권한 탈취[보안뉴스 조재호 기자] 루비(Ruby)와 같은 메모리 안전(Memory-safe) 언어로 구축된 협업 플랫폼 깃랩(GitLab)에서 하위 C 언어 확장 모듈의 메모리 손상 취약점을 악용한 원격 코드",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:f32de5518284bbbbe577b9274ed1edf4289e634ef5709ae439a6af021e7b838b",
       "url": "http://www.boannews.com/media/view.asp?idx=144860&kind=1&sub_kind=",
@@ -182,17 +201,17 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:acb53239e040ddcbb74575246cab4549edb07d8a080c6bb9701897d1581f28f0",
-      "url": "http://www.boannews.com/media/view.asp?idx=144788&kind=1&sub_kind=",
-      "title": "오픈AI 최신 모델, 스스로 샌드박스 탈출해 허깅페이스 해킹했다",
-      "published_at": "2026-07-22T02:22:00Z",
-      "published_raw": "Wed, 22 Jul 2026 11:22:00 +0900",
+      "id": "sha256:0a08e87b1f4b025d189fa7dce1d58af1cfa718e4d155d40665866a7fc81a92ee",
+      "url": "http://www.boannews.com/media/view.asp?idx=144877&kind=&sub_kind=",
+      "title": "깃랩 RCE 유발한 4년 묵은 Parser 버그... 루비 안전망도 무너졌다",
+      "published_at": "2026-07-27T08:29:00Z",
+      "published_raw": "Mon, 27 Jul 2026 17:29:00 +0900",
       "categories": [],
-      "description": "취약점 발견 및 연결... “사이버보안 벤치마크 해결에 지나치게 집중했기 때문으로 보여”[보안뉴스 한세희 기자] 오픈AI 최신 인공지능(AI) 모델이 통제를 벗어나 외부 사이트를 해킹하는 사건이 발생했다.오픈AI는 최근 공개한 ‘GPT-5.6 솔(Sol)’과 일부 미공개 AI 모델이 내부 평가 도중 통제를 벗어나 오픈소스 AI 공유 플랫폼 ‘허깅페이스’를",
+      "description": "고성능 JSON Parser ‘Oj’ 내부 C 확장 모듈서 메모리 손상 취약점 2종 발견주피터 노트북 파일 렌더링 과정 악용 시 방어막 우회해 서버 권한 탈취[보안뉴스 조재호 기자] 루비(Ruby)와 같은 메모리 안전(Memory-safe) 언어로 구축된 협업 플랫폼 깃랩(GitLab)에서 하위 C 언어 확장 모듈의 메모리 손상 취약점을 악용한 원격 코드",
       "feed_id": "",
       "authors": [
         {
-          "name": "[한세희기자 (hahn@boannews.com)]",
+          "name": "[조재호기자 (zephyr@boannews.com)]",
           "uri": "",
           "email": ""
         }
@@ -326,6 +345,25 @@
       "authors": [
         {
           "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:acb53239e040ddcbb74575246cab4549edb07d8a080c6bb9701897d1581f28f0",
+      "url": "http://www.boannews.com/media/view.asp?idx=144788&kind=1&sub_kind=",
+      "title": "오픈AI 최신 모델, 스스로 샌드박스 탈출해 허깅페이스 해킹했다",
+      "published_at": "2026-07-22T02:22:00Z",
+      "published_raw": "Wed, 22 Jul 2026 11:22:00 +0900",
+      "categories": [],
+      "description": "취약점 발견 및 연결... “사이버보안 벤치마크 해결에 지나치게 집중했기 때문으로 보여”[보안뉴스 한세희 기자] 오픈AI 최신 인공지능(AI) 모델이 통제를 벗어나 외부 사이트를 해킹하는 사건이 발생했다.오픈AI는 최근 공개한 ‘GPT-5.6 솔(Sol)’과 일부 미공개 AI 모델이 내부 평가 도중 통제를 벗어나 오픈소스 AI 공유 플랫폼 ‘허깅페이스’를",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[한세희기자 (hahn@boannews.com)]",
           "uri": "",
           "email": ""
         }
