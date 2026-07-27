@@ -1,15 +1,117 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-27T12:00:11Z",
+  "updated_at": "2026-07-27T14:00:10Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-27T12:00:11Z",
+    "last_success_at": "2026-07-27T14:00:10Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:4b965e16bac6f6cc2df7534fcd4fa505c77ae94e737690e18d39c9ca08b44ff2",
+      "url": "https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware-campaign",
+      "title": "PTC Windchill Vulnerability Exploited in Ransomware Campaign",
+      "published_at": "2026-07-27T13:19:30Z",
+      "published_raw": "Mon, 27 Jul 2026 13:19:30 +0000",
+      "categories": [
+        "Ransomware",
+        "Vulnerabilities",
+        "Cl0p",
+        "exploited",
+        "vulnerability"
+      ],
+      "description": "<p>The critical unsafe deserialization flaw allows attackers to execute arbitrary code remotely, without authentication.</p>\n<p>The post <a href=\"https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware-campaign/\">PTC Windchill Vulnerability Exploited in Ransomware Campaign</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48170",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:30b451f99d1f446380c13130bd1ebac200150623cdd87f2b44fa0eab4c9a4ed4",
+      "url": "https://www.securityweek.com/medusahvnc-malware-uses-hidden-windows-desktops-to-evade-detection",
+      "title": "MedusaHVNC Malware Uses Hidden Windows Desktops to Evade Detection",
+      "published_at": "2026-07-27T13:00:00Z",
+      "published_raw": "Mon, 27 Jul 2026 13:00:00 +0000",
+      "categories": [
+        "Malware & Threats",
+        "malware"
+      ],
+      "description": "<p>The malware-as-a-service operation launches legitimate browsers on an invisible desktop, giving attackers persistent and covert remote access to compromised Windows systems.</p>\n<p>The post <a href=\"https://www.securityweek.com/medusahvnc-malware-uses-hidden-windows-desktops-to-evade-detection/\">MedusaHVNC Malware Uses Hidden Windows Desktops to Evade Detection</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48166",
+      "authors": [
+        {
+          "name": "Kevin Townsend",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:40f745c4c7d1618218d6dfb343f8a10595c10c1123e8944af13ff969ed308303",
+      "url": "https://www.securityweek.com/nvidia-and-tech-giants-launch-ai-security-alliance",
+      "title": "Nvidia and Tech Giants Launch AI Security Alliance",
+      "published_at": "2026-07-27T12:25:43Z",
+      "published_raw": "Mon, 27 Jul 2026 12:25:43 +0000",
+      "categories": [
+        "Artificial Intelligence",
+        "AI",
+        "AI security",
+        "alliance",
+        "NVIDIA"
+      ],
+      "description": "<p>The Nvidia-led coalition aims to give defenders more open tools for testing, auditing and protecting AI models and agents.</p>\n<p>The post <a href=\"https://www.securityweek.com/nvidia-and-tech-giants-launch-ai-security-alliance/\">Nvidia and Tech Giants Launch AI Security Alliance</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48163",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:c097f9156ce85bd89874b30d5f4bf82825e5304c43de4b4fa679f86c127d8487",
       "url": "https://www.securityweek.com/coca-cola-confirms-data-breach-after-fairlife-ransomware-attack",
@@ -1866,42 +1968,6 @@
       ],
       "description": "<p>Noteworthy stories that might have slipped under the radar: OpenClaw AI agents exploited via WhatsApp, ransomware hits naval defense firm TKMS, Lidl discloses data breach.</p>\n<p>The post <a href=\"https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/\">In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
       "feed_id": "https://www.securityweek.com/?p=47963",
-      "authors": [
-        {
-          "name": "SecurityWeek News",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:026220a342125cd46cbd766b0070858dd8a2c618246ed608109de6b40a62ff22",
-      "url": "https://www.securityweek.com/podcast-broken-governance-agentic-ai-and-the-mindstone-agent-exclusive",
-      "title": "Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive",
-      "published_at": "2026-07-17T12:11:22Z",
-      "published_raw": "Fri, 17 Jul 2026 12:11:22 +0000",
-      "categories": [
-        "Artificial Intelligence",
-        "ICS/OT",
-        "Uncategorized",
-        "ICS",
-        "OT",
-        "Podcast"
-      ],
-      "description": "<p>(Video) Artificial intelligence is transforming cybersecurity, but are governance, compliance, and security practices evolving fast enough to keep up?</p>\n<p>The post <a href=\"https://www.securityweek.com/podcast-broken-governance-agentic-ai-and-the-mindstone-agent-exclusive/\">Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47959",
       "authors": [
         {
           "name": "SecurityWeek News",

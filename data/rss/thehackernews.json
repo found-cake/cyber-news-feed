@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-27T12:00:11Z",
+  "updated_at": "2026-07-27T14:00:10Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-27T12:00:11Z",
+    "last_success_at": "2026-07-27T14:00:10Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:3e98a5e93866883493d52cfefc368526d8f4c1804afa77954c6a39fbd356d7bf",
+      "url": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
+      "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
+      "published_at": "2026-07-27T12:37:49Z",
+      "published_raw": "2026-07-27T18:07:49.802+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate remote monitoring and management (RMM) tools.\n\n\"The victim was directed through compromised web infrastructure to a counterfeit Microsoft Store page claiming that Microsoft Teams had to be updated before the shared document could be opened,\" ZeroBEC said in",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7686531646317289004",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ69OB4Ww_Yj5rfCn7WOwEue0i4sxEuvzaqGj1v71E-W52Q6DDfFRKpesydsd2bD9_QQVghes677fGD0S-PJpJQOz10JYs_NV6wv5peadJtT-dbxFzl7eMqaavlrBl0OfePVtGIm9WvI-rEAAUcDqdFdYcBF6ByDv4iPSCzLZgbuzg0Nb-ASL0uzTb90Ag/s260-e100/teams-malware.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:7c7cdda876d9d9477d44c6233981d844490682693de9edcc2f0e8dd71fbd260c",
       "url": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
@@ -578,6 +605,33 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:a95dd26365a570d9de8915c7a3350ea2895f103f8ffed56571ad9a8a77b440f5",
+      "url": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
+      "title": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
+      "published_at": "2026-07-27T13:05:15Z",
+      "published_raw": "2026-07-27T18:35:15.556+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "n8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands on the server running the automation platform. Security Joes found the flaw while probing n8n's February fix for CVE-2026-27577 for another bypass.\n\nThe affected ranges are &lt;2.31.5 and &gt;=2.32.0,&lt;2.32.1. n8n fixed the flaw in versions 2.31.5 and",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4231481514217800160",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeKRvflcncQ0UoJ9jitnqLM9fezomqM-liKMmU5fccI5_lOaWwgmRYtpHiYQinkYD1fRUCH-wksW6bq8rWMMbKj3cdvaQ-GhA_CcUvcxCnZuzdkadQkIjZUUkVXawqqUZyYkvKO4Rg7IAmCNTBB6Ivu6yKYhBEegL68JmRFb9HimU1CKg2QyQByo8a0MQ/s260-e100/sandbox-flaw-n8n.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:272cc44a5c21921f110d4955fdc03b0b10a8dfc3776e28c24c7c350f43e6eeec",
       "url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
       "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
@@ -1091,33 +1145,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:ab0fdeb9c644c7e68cb7661a1220aca5139b9c2768b78d5ed195bce9242f4c14",
-      "url": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
-      "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
-      "published_at": "2026-07-21T16:06:12Z",
-      "published_raw": "2026-07-21T21:36:12.029+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Hidden text on a web page was enough to make Kiro, AWS's agentic coding IDE, rewrite its own configuration file and run an attacker's code on a developer's machine, with no approval step able to stop it.\n\nIntezer, in research with Kodem Security, found that a request as ordinary as asking Kiro to summarize a page could end in remote code execution. AWS has patched the issue and says it is",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2305735267835168436",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJfMUQ_pVP5as41uM_4cR8oRUsCwuXPMLLG63jNd5Djqso9kJyQZLiZgQrMQzykhRaX8BQCydIMPokGoITYY30kc3dH-8iy4Bd-ux36RoIjyNYXtKwb1F1fPdP00hoHD-9Q9s5CGD30w58s5wfyzBGOQvnIxM8JlHkig881HSQQuu4Hk6GBiDJicUYE8o/s260-e100/AWS-Kiro.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:e654be4a6a911d35f0cbe0344aedcdfd1a591d1d435a3bfd8bb6dddc455fb6af",
       "url": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
       "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
@@ -1165,6 +1192,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhehTKRdIydGsJI5vxP4R5baH5VrDh8ZNLg1RyLMhSnVOFr6cdDZRyqkKhazs4oBdZxw5YV7fNYKCcZ9tkKkTap2chfMR6XCdiG4GmUhv4S_tUVYTS7jvn8iZcTL3RuJ-3K0U1WJ0pKfq16pcJRZhAXTm1gk-xvzjzmdJ85PWEgnQ6oFK1eUPKRBiTRtEr1/s260-e100/huggingface.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:ab0fdeb9c644c7e68cb7661a1220aca5139b9c2768b78d5ed195bce9242f4c14",
+      "url": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
+      "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
+      "published_at": "2026-07-21T16:06:12Z",
+      "published_raw": "2026-07-21T21:36:12.029+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Hidden text on a web page was enough to make Kiro, AWS's agentic coding IDE, rewrite its own configuration file and run an attacker's code on a developer's machine, with no approval step able to stop it.\n\nIntezer, in research with Kodem Security, found that a request as ordinary as asking Kiro to summarize a page could end in remote code execution. AWS has patched the issue and says it is",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2305735267835168436",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJfMUQ_pVP5as41uM_4cR8oRUsCwuXPMLLG63jNd5Djqso9kJyQZLiZgQrMQzykhRaX8BQCydIMPokGoITYY30kc3dH-8iy4Bd-ux36RoIjyNYXtKwb1F1fPdP00hoHD-9Q9s5CGD30w58s5wfyzBGOQvnIxM8JlHkig881HSQQuu4Hk6GBiDJicUYE8o/s260-e100/AWS-Kiro.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
