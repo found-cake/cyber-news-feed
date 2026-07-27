@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-27T16:00:13Z",
+  "updated_at": "2026-07-27T18:00:09Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-27T16:00:13Z",
+    "last_success_at": "2026-07-27T18:00:09Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:a5319572253987401b7c279e8ab06ba0e5a6f5839b82974f7a853a42c7347db7",
+      "url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
+      "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
+      "published_at": "2026-07-27T17:16:28Z",
+      "published_raw": "2026-07-27T22:46:28.261+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and XLab, has adopted blockchain-based name services and infected-device relays after a March law-enforcement operation against JackSkid infrastructure. The researchers say the design makes the botnet harder to disrupt.\n\nCNCERT, China's national computer emergency response team, and XLab, the threat-intelligence lab of Chinese",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1803905015158284136",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIg3DnKkxpBnQZhAB8v4Wb9FDnDuh3ifKpBMF3kFhNr7_lYOk3S4CgvBoOxFD65FlCjRpoaoBNyH8zo8NtOhjTtTWriXHawlL9mndT3fd_7zlhUBU4mhjU4AvvYNzgV-PGsd52Ng0wnaDRAJMkRQtW4kUuMKlcrP0B71xxywX6cTICeHmMAjswmKhQJKo/s260-e100/blockchain-botnet.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:3e98a5e93866883493d52cfefc368526d8f4c1804afa77954c6a39fbd356d7bf",
       "url": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
@@ -551,60 +578,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:88543f91771f26b0c498bc895abd722ef7d0515dceacefe16c0ad0d18e91423e",
-      "url": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-      "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
-      "published_at": "2026-07-17T17:12:23Z",
-      "published_raw": "2026-07-17T22:42:23.743+05:30",
-      "categories": [
-        "threat-intelligence"
-      ],
-      "description": "A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys.\n\nA Shodan harvester keeps the scan queue stocked with ComfyUI, Ollama, n8n, Open WebUI, Langflow, and Gradio: the image generators, local model runners, and workflow builders that teams stand up fast and firewall late.\n\nThe intel feed behind that counter",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6994999533030729319",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm0yasBDyeN2fn4q4y7Zs2Y6FvTDTIrI3xi4iN2ZBBUIBoCxLshnVvYc8OPDOrpSuHiyUNO0MLi-50Kf05SxJSo3m1n-PDfKnM3ztP48lWYBz_2IDzR2gNQ0D3-AzQcR6ZJC9qvBgM5wX3RCIaw6mAA7zDh3xAWFFoHScqZuqKSifh-FUr8Qum5dYGQPw/s260-e100/botnet-malware.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:96d9ebe2a900947da649c189ebc72891669366dd7af39a13ed9f6721072d0cc7",
-      "url": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
-      "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
-      "published_at": "2026-07-17T16:39:16Z",
-      "published_raw": "2026-07-17T22:09:16.953+05:30",
-      "categories": [
-        "threat-intelligence"
-      ],
-      "description": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine.\n\nExpel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (aka APT-Q-27, Dragon Breath, and Miuuti Group), a Chinese cybercrime group known for its targeting of the gambling and gaming sectors using",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5914343435730165501",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixZDZh8TkRVQHu6QNFvHOayTdDxLn-JWDRkPmvVCNkvEL9vhyphenhyphensADIyUB0uXlhXmBhACxMotz-lU1B61HGsRPee80GkLfk-mypQd6Ba4Hr4K-2QCz7BtyRKFCiUYuiUlmPw71Wdn6YnNTjncnGDPQBJV-P0MyS7CjTmPd-p_aHKBCQJr0JA396lL-Yxd3A9/s260-e100/digicert-hack.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:5937bd850a8b331f12540fc30f91d8973d89d56e34e784ff61259c5c35880ed3",
       "url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
       "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
@@ -1124,7 +1097,7 @@
       "published_at": "2026-07-22T11:30:02Z",
       "published_raw": "2026-07-22T17:00:02.238+05:30",
       "categories": [
-        "vulnerability"
+        "cyber-attack"
       ],
       "description": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted Hugging Face's production infrastructure last week.\n\nThe AI company said the models were operating with \"reduced cyber refusals for evaluation purposes\" that might otherwise limit their ability to",
       "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3953633931416809810",
