@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-27T20:00:16Z",
+  "updated_at": "2026-07-27T22:00:17Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-27T20:00:16Z",
+    "last_success_at": "2026-07-27T22:00:17Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -1543,60 +1543,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLomYbwprpYWKVxrxKRh3hFiGRWdVOb7WAVbhJjf_fYQAba4wVZT1PpwWAL-ZDb40MZp9T43-dj8Fru-eOjiKcrAoh5sOdyKGUUAVwK9iifXl70EvgORPztxnvYXc9HA8trGKcRZGob8DYJxUZBg0zlZFUTiRGPXGFheSbKLUoG53kZ9HR6XxyJs9GEtcA/s260-e100/sma-sonicwall.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:1f8fa8831f47fff50b11c062e4e9d4994e8c840adbb0060428b798b1f087e864",
-      "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
-      "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
-      "published_at": "2026-07-17T21:20:10Z",
-      "published_raw": "2026-07-18T02:50:10.645+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story below reflects all of it.\n\nAn anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8803001732165323097",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRULLT1q8L6AtUB7jgKywi_KSF8VGKkOF9yC3Snt81K1aD2XSEV1jgfIe331rXUWGqhmAyFgr1USssr4_CQmuE7HLAn0ShaQ0pHY_yvNYMjQdHtpV8i-vlk2ickhJSJDSN3amGox_DMR5hemMlrgXIk8kHoHlYKZncjpiV3ibF77ax1Yn0fEjxtgxy7tY/s260-e100/wordpress-core.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:d32c6279618330fc16bb2d7abdae62df2d96aad745a1164fb5dde0315b73ec77",
-      "url": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
-      "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
-      "published_at": "2026-07-17T20:20:53Z",
-      "published_raw": "2026-07-18T01:50:53.171+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts.\n\nOpenSSL shipped the HollowByte fix in June with no CVE, no advisory, and no changelog entry pointing at it. Okta's Red Team, which reported the denial-of-service bug and named it, published the",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4226703939024113219",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk66eU1Srifu4Rdpf7MZDjg3GdNMtQK6ZW-F283kxhZ7Z0W_8nWNJynZiQ7n0ov9OLNm315P4942h3-unMI0WZ1-LH8tdQ6sv2o6q0TxKT-bVKewzkQULKKXSJOee_oANuI3YquoDgSPHsPeXEdQcFRoy8czRQimH_f0sNHJ55-5LA153sQgUPkpBBEVE/s260-e100/openssl.jpg",
           "kind": "thumbnail",
           "medium": ""
         }

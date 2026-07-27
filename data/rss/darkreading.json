@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-07-27T20:00:16Z",
+  "updated_at": "2026-07-27T22:00:17Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-27T20:00:16Z",
+    "last_success_at": "2026-07-27T22:00:17Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:c991330f722436f7d29cc43ab10faf85821a09ce2938242ee4dd832328b40da5",
+      "url": "https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure",
+      "title": "'Confused Deputy' Flaws Persist in Google Cloud, Microsoft Azure",
+      "published_at": "2026-07-27T20:57:26Z",
+      "published_raw": "Mon, 27 Jul 2026 20:57:26 GMT",
+      "categories": [
+        "cloud-security"
+      ],
+      "description": "This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers' access controls.",
+      "feed_id": "https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure",
+      "authors": [
+        {
+          "name": "Rob Wright",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt858353272bfe1d66/6a67aa58d69290224aaaac5a/confusedeputy-sjharmon-Getty-174844180.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt858353272bfe1d66/6a67aa58d69290224aaaac5a/confusedeputy-sjharmon-Getty-174844180.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
     {
       "id": "sha256:e4b1545030ea9aee899f4cdf05a90ae6238727f9590f7cb5a9a1d8eea3e950d7",
       "url": "https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook",
@@ -457,42 +493,6 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2bb343e182f4af3e/6a5e0b48c714ec6091e7ebc7/Phishing_ronstik_Alamy.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:61fdf19a9d229a88a07140f39d8df31a4e992c1e140dd4e479952b5328a3d152",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
-      "title": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
-      "published_at": "2026-07-17T20:01:13Z",
-      "published_raw": "Fri, 17 Jul 2026 20:01:13 GMT",
-      "categories": [
-        "vulnerabilities-threats"
-      ],
-      "description": "When chained together, the two vulnerabilities allow threat actors to gain root-level capabilities on SonicWall's mobile access appliances.",
-      "feed_id": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
-      "authors": [
-        {
-          "name": "Nate Nelson",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blteaaf936e441aafd2/6a5a7c032292771ec0f65c59/Wall-PM_Images-Getty.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blteaaf936e441aafd2/6a5a7c032292771ec0f65c59/Wall-PM_Images-Getty.jpg?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }
