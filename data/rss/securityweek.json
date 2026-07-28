@@ -1,15 +1,84 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-28T06:00:08Z",
+  "updated_at": "2026-07-28T08:00:10Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-28T06:00:08Z",
+    "last_success_at": "2026-07-28T08:00:10Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:7712586addf7887c8b8474bc770926b4e330c2bbbfb2029bf704838e904f313a",
+      "url": "https://www.securityweek.com/unpatched-fastjson-vulnerability-exploited-in-attacks",
+      "title": "Unpatched Fastjson Vulnerability Exploited in Attacks",
+      "published_at": "2026-07-28T07:27:55Z",
+      "published_raw": "Tue, 28 Jul 2026 07:27:55 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "exploited",
+        "Fastjson",
+        "JSON"
+      ],
+      "description": "<p>The critical remote code execution bug can be exploited without authentication, under the library’s stock default configurations.</p>\n<p>The post <a href=\"https://www.securityweek.com/unpatched-fastjson-vulnerability-exploited-in-attacks/\">Unpatched Fastjson Vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48182",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:0123f012f7a3ef6f5cc486f2f009851959d662571c9df32150a3fbd12bd9de5e",
+      "url": "https://www.securityweek.com/critical-arista-velocloud-orchestrator-vulnerability-exploited-as-zero-day",
+      "title": "Critical Arista VeloCloud Orchestrator Vulnerability Exploited as Zero-Day",
+      "published_at": "2026-07-28T06:40:36Z",
+      "published_raw": "Tue, 28 Jul 2026 06:40:36 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "Arista",
+        "exploited",
+        "vulnerability",
+        "Zero-Day"
+      ],
+      "description": "<p>Impacting on-premises deployments, the OS command injection allows attackers to access privileged internal functionality.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-arista-velocloud-orchestrator-vulnerability-exploited-as-zero-day/\">Critical Arista VeloCloud Orchestrator Vulnerability Exploited as Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48179",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:124e14dbb9b843f20a6694864135da0a66992f500371c122fd7706d0095d1c6a",
       "url": "https://www.securityweek.com/origin-energy-data-breach-affects-900000-australians",
