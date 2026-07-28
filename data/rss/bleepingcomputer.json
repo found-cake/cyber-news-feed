@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-28T12:00:15Z",
+  "updated_at": "2026-07-28T14:00:17Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-28T12:00:15Z",
+    "last_success_at": "2026-07-28T14:00:17Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:466b9b89670c30d778f61686f7b98fc5df8c231754af98a7ffc23e93bad50535",
+      "url": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw",
+      "title": "Over 24,000 exposed server BMCs leak password hash via decades-old flaw",
+      "published_at": "2026-07-28T12:10:23Z",
+      "published_raw": "Tue, 28 Jul 2026 08:10:23 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard Management Controller (BMC) interface. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:0a2ccdd23002188c6dcc65473cfb0b0d6561b32c8f20544bf48b4ae1e73e14e4",
       "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people",
@@ -1338,27 +1359,6 @@
       "authors": [
         {
           "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:f475f8ac75ed6a8bec01dd307ba33ddb99d16d12726f9d93800574d8f7961f0a",
-      "url": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device",
-      "title": "The Future of Age Verification: Your Face Never Leaves Your Device",
-      "published_at": "2026-07-18T13:15:24Z",
-      "published_raw": "Sat, 18 Jul 2026 09:15:24 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting compliance. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
-      "authors": [
-        {
-          "name": "Sponsored by Incode",
           "uri": "",
           "email": ""
         }
