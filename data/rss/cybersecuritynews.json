@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "cybersecuritynews",
-  "updated_at": "2026-07-28T18:00:12Z",
+  "updated_at": "2026-07-28T20:00:16Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-28T18:00:12Z",
+    "last_success_at": "2026-07-28T20:00:16Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:054cdd1cb151d9614af3f7e84628dd35d5d9ced7e1aad0d84afe0ed40c6ab4f3",
+      "url": "https://cybersecuritynews.com/claude-mythos-cryptographic-weaknesses",
+      "title": "Claude Mythos Preview Discovers Cryptographic Weaknesses That Human Experts Missed for Years",
+      "published_at": "2026-07-28T18:24:07Z",
+      "published_raw": "Tue, 28 Jul 2026 18:24:07 +0000",
+      "categories": [
+        "Cyber Security",
+        "Cyber Security News",
+        "Vulnerability News",
+        "vulnerability"
+      ],
+      "description": "<p>Anthropic researchers using Claude Mythos Preview have uncovered mathematical flaws in major cryptographic algorithms that human experts failed to spot for years. The AI found improved attacks against HAWK, a post-quantum digital signature scheme, and a reduced-round version of AES, the world’s most widely used symmetric cipher. Neither result threatens production systems today, but both [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-mythos-cryptographic-weaknesses/\">Claude Mythos Preview Discovers Cryptographic Weaknesses That Human Experts Missed for Years</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=157623",
+      "authors": [
+        {
+          "name": "Guru Baran",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/07/Claude-Mythos-Cryptographic-Weaknesses.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "157623",
+          "content_encoded": "<p class=\"wp-block-paragraph\">Anthropic researchers using Claude Mythos Preview have uncovered mathematical flaws in major cryptographic algorithms that human experts failed to spot for years.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The AI found improved attacks against HAWK, a post-quantum digital signature scheme, and a reduced-round version of AES, the world’s most widely used symmetric cipher. Neither result threatens production systems today, but both mark a significant shift in how artificial intelligence can stress-test the foundations of digital security.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Cryptographic algorithms protect everything from online banking to encrypted web traffic. Digital signature schemes verify that a website is authentic, while symmetric ciphers keep data private between parties sharing a secret key.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Flaws in these systems could expose billions of users. Until now, <a href=\"https://cybersecuritynews.com/anthropic-expands-project-glasswing/\" target=\"_blank\" rel=\"noreferrer noopener\">Claude Mythos Preview</a> had mainly found implementation bugs in cryptographic libraries coding mistakes that weaken encryption in practice. The new research shows the model can also identify weaknesses in the algorithms themselves.</p>\n\n\n\n<h2 id=\"h-mythos-preview-discovers-cryptographic-weaknesses\" class=\"wp-block-heading\"><strong>Mythos Preview Discovers Cryptographic Weaknesses</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The first breakthrough targets HAWK, a third-round candidate in <a href=\"https://cybersecuritynews.com/nist-finalised-3-encryption-tools-for-quantum-cyberattacks/\" target=\"_blank\" rel=\"noreferrer noopener\">NIST’s post-quantum cryptography </a>competition. NIST launched the effort to replace schemes such as RSA and ECDSA, which quantum computers could eventually break.</p>\n\n\n\n<p class=\"wp-block-paragraph\">HAWK survived two years of expert human review. Working semi-autonomously for roughly 60 hours at about $100,000 in API cost, Mythos improved the best-known key-recovery attack and effectively cut the scheme’s key strength in half.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The attack exploits a previously unused symmetry, a nontrivial automorphism, in HAWK’s lattice structure. Prior theory suggested such a symmetry could enable a faster attack, but no one had shown it existed in HAWK’s design.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The result means proposed key sizes are weaker than claimed; for example, the expected cost of breaking HAWK-256 dropped from 2^64 to 2^38 operations. Doubling key sizes would restore security but erase much of HAWK’s appeal as a compact post-quantum option.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The attack remains exponential, does not run in practical time against larger keys, and does not affect other NIST candidates or lattice cryptography in general. Anthropic shared the finding with HAWK’s authors and coordinated disclosure through NIST.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The second result improves cryptanalysis of 7-round AES-128. Full AES-128 uses 10 rounds and remains secure; researchers study reduced-round versions to probe attack techniques.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Building on meet-in-the-middle methods, Mythos invented a fingerprinting technique it called a Möbius Bridge. The method eliminates one guessing step that previously required checking 256 values, yielding an attack 200 to 800 times faster than the prior best, depending on measurement.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Discovery was almost fully autonomous after light human prompting over several days. Researchers then spent hundreds of hours validating the claims.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Anthropic has also seen promising early results against reduced-round LEA and Serpent, plus smaller gains on Salsa20, Poseidon, and SHA-1. To help the field track progress, the company partnered with ETH Zurich, Tel Aviv University, and the University of Haifa on CryptanalysisBench, a new benchmark for evaluating language models on cryptanalysis.</p>\n\n\n\n<p class=\"wp-block-paragraph\">These findings do not require changes to deployed software. HAWK is only a candidate, and the AES attack does not break the full cipher. They do show that frontier AI can accelerate the adversarial review cryptography has always relied on finding weaknesses before schemes protect real users.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As models grow more capable, human experts may increasingly focus on verifying AI-generated research. Anthropic has begun broader audits and plans academic workshops on the role of language models in security research. Used responsibly, such tools could strengthen the algorithms that safeguard the internet for everyone.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 87%,rgb(169,184,195) 100%)\"><strong>&nbsp;Strengthen Your SOC by Accelerating Threat Detection &amp; Rapid Investigations.&nbsp;-&gt;&nbsp;<a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate ANY.RUN With Your SOC&nbsp;</a><strong><a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Now</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-mythos-cryptographic-weaknesses/\">Claude Mythos Preview Discovers Cryptographic Weaknesses That Human Experts Missed for Years</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
     {
       "id": "sha256:005094abc611ec660a77e9b96d1de72449498486161858c8c63c63accd65b81c",
       "url": "https://cybersecuritynews.com/jetbrains-patch-teamcity-flaw",

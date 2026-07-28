@@ -1,15 +1,57 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-28T18:00:12Z",
+  "updated_at": "2026-07-28T20:00:16Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-28T18:00:12Z",
+    "last_success_at": "2026-07-28T20:00:16Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:a863bae13ecddf83a121a19e9f39752e3b0de76b0b0eacaf8bf2d89b5f9bfc48",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks",
+      "title": "CISA shares advice on isolating vital systems during cyberattacks",
+      "published_at": "2026-07-28T18:41:04Z",
+      "published_raw": "Tue, 28 Jul 2026 14:41:04 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital operational technology systems in the event of a cyberattack or other major disruptions. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:5b529d820eab6cdd4a34d728366b450784a26160f9bd867115e9f829f4d3631e",
+      "url": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit",
+      "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
+      "published_at": "2026-07-28T18:08:50Z",
+      "published_raw": "Tue, 28 Jul 2026 14:08:50 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:34cbee53c4538ab3ccfce834025b39347f040508b900f7fc6f0823866914e4ae",
       "url": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks",
@@ -1317,27 +1359,6 @@
       "authors": [
         {
           "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:4734728284e7d09a30189f17f53079e61f038b0c98bbf4e268f1e6fe6c92a5d6",
-      "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives",
-      "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
-      "published_at": "2026-07-18T19:32:02Z",
-      "published_raw": "Sat, 18 Jul 2026 15:32:02 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "7-Zip version 26.02 was released on June 25 to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
           "uri": "",
           "email": ""
         }
