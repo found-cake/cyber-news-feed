@@ -1,15 +1,39 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-07-28T16:00:12Z",
+  "updated_at": "2026-07-28T18:00:12Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-28T16:00:12Z",
+    "last_success_at": "2026-07-28T18:00:12Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:2e62f1f17c4e5b82bb28e5ad2cddce02fe0828f6397595fe2f005a64e6cbf93d",
+      "url": "https://www.stepsecurity.io/blog/joyfill-npm-supply-chain-compromise",
+      "title": "Compromised npm Packages: @joyfill/components and @joyfill/layouts Ship an Obfuscated Remote Access Trojan",
+      "published_at": "2026-07-28T17:03:26Z",
+      "published_raw": "Tue, 28 Jul 2026 17:03:26 GMT",
+      "categories": [],
+      "description": "Malicious beta versions of the Joyfill npm packages @joyfill/components and @joyfill/layouts hide an obfuscated remote access trojan and credential stealer. Full analysis, IOCs, and remediation from StepSecurity.",
+      "feed_id": "https://www.stepsecurity.io/blog/joyfill-npm-supply-chain-compromise",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a68e037ba6758c62d7b23bd_6a68de2397b19723407ae25d_joyfill-npm-compromise-hero.png",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a68e037ba6758c62d7b23bd_6a68de2397b19723407ae25d_joyfill-npm-compromise-hero.png",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:8f32d8023d418edc7e3d83a451bbe87bc551dd945aed130fe087d6a92b0fcde9",
       "url": "https://www.stepsecurity.io/blog/2026-mid-year-update-on-pace-for-our-biggest-year-yet",
