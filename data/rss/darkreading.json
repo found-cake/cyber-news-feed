@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-07-28T00:00:12Z",
+  "updated_at": "2026-07-28T02:00:08Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-28T00:00:12Z",
+    "last_success_at": "2026-07-28T02:00:08Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:d7bcb7e91e700eebc8f6471955a1fed1b99780bd61387bd0485c927b2a03ea2c",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance",
+      "title": "AI Agent Drives Espionage Attack on Thai Ministry of Finance",
+      "published_at": "2026-07-28T01:00:00Z",
+      "published_raw": "Tue, 28 Jul 2026 01:00:00 GMT",
+      "categories": [
+        "cyberattacks-data-breaches"
+      ],
+      "description": "Attackers used Hermes, an autonomous open source tool, in unrestricted &quot;YOLO mode&quot; to conduct espionage against Thailand's Ministry of Finance.",
+      "feed_id": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance",
+      "authors": [
+        {
+          "name": "Alexander Culafi",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5b19e9ee4e36d14d/6a67b3e6b75c8234608ace20/Thai_Baht-PATCHARIN_SAENLAKON-Getty-2262450613.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5b19e9ee4e36d14d/6a67b3e6b75c8234608ace20/Thai_Baht-PATCHARIN_SAENLAKON-Getty-2262450613.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
     {
       "id": "sha256:c991330f722436f7d29cc43ab10faf85821a09ce2938242ee4dd832328b40da5",
       "url": "https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure",
