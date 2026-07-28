@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-28T14:00:17Z",
+  "updated_at": "2026-07-28T16:00:12Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-28T14:00:17Z",
+    "last_success_at": "2026-07-28T16:00:12Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:34cbee53c4538ab3ccfce834025b39347f040508b900f7fc6f0823866914e4ae",
+      "url": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks",
+      "title": "Is Your SSO Protected Against Modern Credential Attacks?",
+      "published_at": "2026-07-28T14:00:10Z",
+      "published_raw": "Tue, 28 Jul 2026 10:00:10 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applications they protect. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
+      "authors": [
+        {
+          "name": "Sponsored by Specops Software",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:466b9b89670c30d778f61686f7b98fc5df8c231754af98a7ffc23e93bad50535",
       "url": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw",
@@ -1338,27 +1359,6 @@
       "authors": [
         {
           "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:29f82bb5679d8fa84f25e49f0fca7650f1b6861a0243f2594a868a23051212d3",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers",
-      "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
-      "published_at": "2026-07-18T14:17:19Z",
-      "published_raw": "Sat, 18 Jul 2026 10:17:19 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive documents from its enterprise customers. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
           "uri": "",
           "email": ""
         }
