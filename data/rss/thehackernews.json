@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-28T08:00:10Z",
+  "updated_at": "2026-07-28T10:00:15Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-28T08:00:10Z",
+    "last_success_at": "2026-07-28T10:00:15Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -605,6 +605,60 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:2669504f3fb39551aa8ea74c001af4473d70fa2d02d9013b0fa6d1d5146a69b7",
+      "url": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
+      "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
+      "published_at": "2026-07-28T08:11:22Z",
+      "published_raw": "2026-07-28T13:41:22.423+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution.\n\nThe vulnerability, assigned CVE-2026-63077 (CVSS score: 9.8), affects all TeamCity On-Premises versions. It has been addressed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud instances have already",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4435278990700629895",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiX3xcF2Bm9BY5obe-T5JItuKynq8bPijOxp14p5damNEjPGtAbYyuLSqp6vKN_KkhPx1qYeTXHxpgnZllCrtLvDaDuJNyHpY1qV0i8KWCe79_bnFtBtTRPCTU28LcN7OFM26h_WZdxeM3KPWBK4dlp0jY8JKrs1UILNR0qRgtxhKJqCcrht69sc3gcwsU/s260-e100/tc.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:6b4aede28ee3f8e9877b969d40a88ff2c11381478e9de7cdca6e28551ff49d22",
+      "url": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
+      "title": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit",
+      "published_at": "2026-07-28T08:04:44Z",
+      "published_raw": "2026-07-28T13:34:44.939+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "STAR Labs has published a Linux kernel exploit that turns an ordinary local user into root on the CentOS Stream 9 build it targeted. The flaw, tracked as CVE-2026-53264 (CVSS score: 7.8), is a use-after-free race in the kernel's network traffic-control subsystem.Researcher Lee Jia Jie said artificial intelligence (AI) helped him find the bug and speed up exploit development. This is local",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3249582106535045529",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgBRFXQr7hvRBIkSC-vqaka7UlRsU8Y380TbDC3jFpFlSlCK1RuVthJDLKt5KaNzAn82kMBNUWPp5s1Voug8ptjn0DiHoxbzw9QdoKXhFfR9SR9zCm1uYeE43tZUba0H7F-mlLogft-qyvtdggSASBR8qAxrRK3U3uPzvf_bkRmJPNzcWX-vfb7qW0VD8/s260-e100/linux.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:5937bd850a8b331f12540fc30f91d8973d89d56e34e784ff61259c5c35880ed3",
       "url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
       "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
@@ -1037,60 +1091,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:83c96b979abbb111297825955718407a7ae440e81097500d2b4937aeb4c75f4d",
-      "url": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
-      "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
-      "published_at": "2026-07-22T18:07:16Z",
-      "published_raw": "2026-07-22T23:37:16.732+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Cybersecurity researchers have disclosed details of a new local privilege escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger to obtain root access and gain complete control of a target environment.\n\nThe high-severity flaw, tracked as CVE-2026-8933 (CVSS score: 7.8), impacts default installations of Ubuntu Desktop 24.04, 25.10, and 26.04. The disclosure comes as",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4889828193617046076",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/10975661172932160797",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidNwrZh7WuJhViXJ0c2i53cRV82jkdqS1FS9vHeNyOd19AITMQIA03JOnpqLyp7eHJoqa8L_V-eimCMZQNyba09AUvDHQ_n1NdAzmMFOg5FPp7gSymlqtjMcJ5UdyHRtK67wQ9hhusynzExbC9AWstVxaR9koev6e0PhySMPElKOFVwmge25lODZfyQkVD/s260-e100/ubuntu.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:2145338ac03acef84ff33160f2e95997b7640c93a0a54cee8559883423c8bd00",
-      "url": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html",
-      "title": "Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data",
-      "published_at": "2026-07-22T15:01:21Z",
-      "published_raw": "2026-07-22T20:31:21.829+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Cybersecurity researchers have disclosed details of a now-patched vulnerability chain in the Adobe Acrobat Chrome extension that has over 314 million users, which, if exploited, could facilitate a silent hijack of a user's WhatsApp data.\n\nThe shortcoming has been codenamed HermeticReader by Guardio Labs. It's officially tracked as CVE-2026-48294 (CVSS score: 7.4), with the vulnerability",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7101981746104950869",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf4tAo-p42ED3dQRVz6O7qldcTuY-ztwtPbNnnJFBHd-yJDm2dJmYNPtprB3IFhF9-7xExM_6jzqElcEotSZPEXwVYoiqG7Wh6isEjRAZkqzIyL4TYXUL3pK8hp53PdCHotDcUAZ9LVCJLDPX3PPZqDKIaFDlTnB5MbaRH0-ohMCzBAmdRDC_E6O5rGUtd/s260-e100/adobe.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:2fbec65f1f9751ca39c4a4f1d641fce4ede94e2eae751d052c184eb8777d06ef",
       "url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
       "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
@@ -1165,6 +1165,60 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhehTKRdIydGsJI5vxP4R5baH5VrDh8ZNLg1RyLMhSnVOFr6cdDZRyqkKhazs4oBdZxw5YV7fNYKCcZ9tkKkTap2chfMR6XCdiG4GmUhv4S_tUVYTS7jvn8iZcTL3RuJ-3K0U1WJ0pKfq16pcJRZhAXTm1gk-xvzjzmdJ85PWEgnQ6oFK1eUPKRBiTRtEr1/s260-e100/huggingface.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:83c96b979abbb111297825955718407a7ae440e81097500d2b4937aeb4c75f4d",
+      "url": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
+      "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
+      "published_at": "2026-07-22T18:07:16Z",
+      "published_raw": "2026-07-22T23:37:16.732+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Cybersecurity researchers have disclosed details of a new local privilege escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger to obtain root access and gain complete control of a target environment.\n\nThe high-severity flaw, tracked as CVE-2026-8933 (CVSS score: 7.8), impacts default installations of Ubuntu Desktop 24.04, 25.10, and 26.04. The disclosure comes as",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4889828193617046076",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/10975661172932160797",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidNwrZh7WuJhViXJ0c2i53cRV82jkdqS1FS9vHeNyOd19AITMQIA03JOnpqLyp7eHJoqa8L_V-eimCMZQNyba09AUvDHQ_n1NdAzmMFOg5FPp7gSymlqtjMcJ5UdyHRtK67wQ9hhusynzExbC9AWstVxaR9koev6e0PhySMPElKOFVwmge25lODZfyQkVD/s260-e100/ubuntu.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:2145338ac03acef84ff33160f2e95997b7640c93a0a54cee8559883423c8bd00",
+      "url": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html",
+      "title": "Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data",
+      "published_at": "2026-07-22T15:01:21Z",
+      "published_raw": "2026-07-22T20:31:21.829+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Cybersecurity researchers have disclosed details of a now-patched vulnerability chain in the Adobe Acrobat Chrome extension that has over 314 million users, which, if exploited, could facilitate a silent hijack of a user's WhatsApp data.\n\nThe shortcoming has been codenamed HermeticReader by Guardio Labs. It's officially tracked as CVE-2026-48294 (CVSS score: 7.4), with the vulnerability",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7101981746104950869",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf4tAo-p42ED3dQRVz6O7qldcTuY-ztwtPbNnnJFBHd-yJDm2dJmYNPtprB3IFhF9-7xExM_6jzqElcEotSZPEXwVYoiqG7Wh6isEjRAZkqzIyL4TYXUL3pK8hp53PdCHotDcUAZ9LVCJLDPX3PPZqDKIaFDlTnB5MbaRH0-ohMCzBAmdRDC_E6O5rGUtd/s260-e100/adobe.jpg",
           "kind": "thumbnail",
           "medium": ""
         }

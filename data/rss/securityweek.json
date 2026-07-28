@@ -1,15 +1,48 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-28T08:00:10Z",
+  "updated_at": "2026-07-28T10:00:15Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-28T08:00:10Z",
+    "last_success_at": "2026-07-28T10:00:15Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:4b100557de7e3f65a48b3722042edc5894b2f95bd866f8281834f5a384c33044",
+      "url": "https://www.securityweek.com/google-adopts-new-threat-actor-naming-system",
+      "title": "Google Adopts New Threat Actor Naming System",
+      "published_at": "2026-07-28T08:42:52Z",
+      "published_raw": "Tue, 28 Jul 2026 08:42:52 +0000",
+      "categories": [
+        "Malware & Threats",
+        "google",
+        "naming"
+      ],
+      "description": "<p>The new two-word naming convention uses a memorable term utilized in public reporting and a cluster-categorization word.</p>\n<p>The post <a href=\"https://www.securityweek.com/google-adopts-new-threat-actor-naming-system/\">Google Adopts New Threat Actor Naming System</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48184",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:7712586addf7887c8b8474bc770926b4e330c2bbbfb2029bf704838e904f313a",
       "url": "https://www.securityweek.com/unpatched-fastjson-vulnerability-exploited-in-attacks",
@@ -54,6 +87,7 @@
         "Vulnerabilities",
         "Arista",
         "exploited",
+        "Featured",
         "vulnerability",
         "Zero-Day"
       ],
