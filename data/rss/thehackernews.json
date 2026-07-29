@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-29T14:00:13Z",
+  "updated_at": "2026-07-29T16:00:21Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-29T14:00:13Z",
+    "last_success_at": "2026-07-29T16:00:21Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -686,6 +686,60 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:19447019942cf67fe9b4bce83bb03668d5925f964053df399a585a3d69541a55",
+      "url": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+      "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+      "published_at": "2026-07-29T15:39:30Z",
+      "published_raw": "2026-07-29T21:09:30.222+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution.\n\nThe vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all versions of the project before version 3.16.3. It has been codenamed RufRoot by Noma Security's",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2162095004970693012",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCgiIKxPiETcU1yIlU2RFsHgjXg2uLgbzaJ-98y7sPuujYarFbc0FdMqSRLIKJ1hYrsGLCZTCf5k40RtQ2PgwmA2L6tLAidOymHNIduXN3vtU0u0BsI37PLgWK8gwla3oTYkdD8ggssjMfF_5PuC9-exVYpBcqjg9tvscJ7XNAaHJxeUmCj-WP8VttRSgy/s260-e100/mcp.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:4b55974fab2d353736b72916f7b6e249c7917ec7c3b0dcbf96d6e9aa0efacee2",
+      "url": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+      "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
+      "published_at": "2026-07-29T15:31:15Z",
+      "published_raw": "2026-07-29T21:01:15.061+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity.\n\nThe first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as an authentication bypass in VMware vCenter.\n\n\"A malicious actor with network access to vCenter",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6617702381499274436",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLKz0u1mJIVvPAxiFFqsvkMVXxyXqS_paYhbtTRFLoIWyl5Q_FwIrJjruxEYH0LAdzJm38P48m_T_24ycKfjPs2bg6FUoy2IWVUxH7SpNtiSJuExOy3dDEAWprGwkvhY5005OPyFUzl2qJzAztAckgZNLVzqlp34s9HtQ3wrvq6lDCcXgYwfOXKF08wtdp/s260-e100/vmware.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:aab2a0bc8fdc6bd72e671c60e91d37ee33ea64e506f0a53b7b6d11e0170d14e7",
       "url": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
       "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
@@ -1172,33 +1226,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:5518fb6b7eb971cc33861d96c9d7923b4ee92924f1d6d51a27c9751a41eab89f",
-      "url": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
-      "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
-      "published_at": "2026-07-23T18:36:08Z",
-      "published_raw": "2026-07-24T00:06:08.371+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client.\n\nThe payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it.\n\nThe NSA, CISA and partner agencies published",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8985915725396887026",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXkCZuPeRyg1ChSuRUngYAxHTfN5dCHgGrSaCg3hA40XvmX2vRmKxgGJ7Pzli72_i9XK9XgCQhhRNK5dE3XJ_EklUH_Nzoqx4YLy7NeKSHB4RCd4KkdhrCB1vdEEcGsgnzumTMwi3_J4BxsGc3t0pjb2mhjkHfBcF5PDUqTe9F0wZPaC94Y6AwMXICZ9E/s260-e100/zimbra-exploit.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:2fbec65f1f9751ca39c4a4f1d641fce4ede94e2eae751d052c184eb8777d06ef",
       "url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
       "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
@@ -1273,6 +1300,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhehTKRdIydGsJI5vxP4R5baH5VrDh8ZNLg1RyLMhSnVOFr6cdDZRyqkKhazs4oBdZxw5YV7fNYKCcZ9tkKkTap2chfMR6XCdiG4GmUhv4S_tUVYTS7jvn8iZcTL3RuJ-3K0U1WJ0pKfq16pcJRZhAXTm1gk-xvzjzmdJ85PWEgnQ6oFK1eUPKRBiTRtEr1/s260-e100/huggingface.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:5518fb6b7eb971cc33861d96c9d7923b4ee92924f1d6d51a27c9751a41eab89f",
+      "url": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
+      "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
+      "published_at": "2026-07-23T18:36:08Z",
+      "published_raw": "2026-07-24T00:06:08.371+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client.\n\nThe payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it.\n\nThe NSA, CISA and partner agencies published",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8985915725396887026",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXkCZuPeRyg1ChSuRUngYAxHTfN5dCHgGrSaCg3hA40XvmX2vRmKxgGJ7Pzli72_i9XK9XgCQhhRNK5dE3XJ_EklUH_Nzoqx4YLy7NeKSHB4RCd4KkdhrCB1vdEEcGsgnzumTMwi3_J4BxsGc3t0pjb2mhjkHfBcF5PDUqTe9F0wZPaC94Y6AwMXICZ9E/s260-e100/zimbra-exploit.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
