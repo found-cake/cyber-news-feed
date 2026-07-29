@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-29T06:00:14Z",
+  "updated_at": "2026-07-29T08:00:19Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-29T06:00:14Z",
+    "last_success_at": "2026-07-29T08:00:19Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:94065782ad9a3a03d33d803c32f0a8ab196ff832212ffae5fbc4402caad0f5d1",
+      "url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
+      "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
+      "published_at": "2026-07-29T07:07:23Z",
+      "published_raw": "2026-07-29T12:37:23.972+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control panels and certificates to 170 internet servers.\n\nThey linked the framework to a fake \"公安一网通办\" Public Security service application targeting Android users in China. The kit supports payment-password",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7639311314998742127",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOpdosdOAoAjpR73DY5i_8YN9dHOY7KsBws53ivjlY3iVg0-EZAO6CliWbdg61_hT6eI9_Im9aiH_c312ttIHamIl4IIxe2omPSWjC4OaCfbNKZC7Gr85jXs12NObtpiSAK1PNljccRdmzvITRijNNh16c2IDK3kWmL5Ce3lbzQNCJaMy4wgKwWyB2oiI/s260-e100/android-rat.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:25a6aa3b9fadee7c14ee89880144c66f97f0d539a41cdc0ea7a90d2756ae2f65",
       "url": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
@@ -659,6 +686,60 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:01627ef4584aebe7500ea4ffa4f01b5eb3c563767668f9e0b888d2055bbeaa68",
+      "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+      "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+      "published_at": "2026-07-29T07:51:00Z",
+      "published_raw": "2026-07-29T13:21:00.379+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment, and also hacked multiple third-party accounts and services as part of the attack.\n\nThe latest disclosure shows that the security incident, which stemmed from an internal security test, was more extensive in scope than",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4165882855520812036",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqsDw-FCPzIqH_GCkBZgDD96kt0ZtwQzjSe3SOunA8WWGUTXqCB2FG_28DY0JgdD6zh07gHisKrTi2Wh5VVNAcoUMyJ9tZ_VGzPM73iid2PPg15oqKMbnRhk9CcTJlevxRQJL5Sq2MbJjYCIgQ_zOEsgyu_Jy72ubSLAvy_YK499pDr48Rp9Plh322h8_P/s260-e100/openai-breach.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:e6e8cfad2170ead0e1ade0cb8e5dc8564033ad1468b687f6999aaf38b8f1fbe2",
+      "url": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
+      "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
+      "published_at": "2026-07-29T07:47:19Z",
+      "published_raw": "2026-07-29T13:17:19.059+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account.\n\nTracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2606675054778197253",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm9I3aoAsUS5yCtKTvSX6LYxjKfJu-RShA1QmcUiBLu760VFfeqd6D4NfH3ttKHoQkfWT57oL0_4KJBovY7nshgiGQ4R5wimWh-2k48f9qjdlJtjKqK0oM5vxquJFPuguLbBkbqzA7xc4NgjQaxkcU7tVSQ0a3GyXreEyvdvR4NmERWPbkiR6Um2thKfY/s260-e100/Gitea-rce.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:81917f51ec1dcd5caa08b8ebac9bcd939d1b52aa6b4db6f45f24e8155bd5ae71",
       "url": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
       "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
@@ -1118,33 +1199,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:2f8c8b729b601484d357b25c3b79ea487083c2619be95d5dd3402adad7ad8719",
-      "url": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html",
-      "title": "Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers",
-      "published_at": "2026-07-23T11:28:54Z",
-      "published_raw": "2026-07-23T16:58:54.045+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into distributed attack infrastructure designed to target cPanel and WebHost Manager (WHM) instances.\n\nThe activity involves malicious Packagist development versions spanning 10 packages associated with a legitimate PHP and DevOps developer, dinushchathurya, between July 12 and 13,",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3388492675737951834",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrnUDzSA-4xfOL6dsXt2pFY9jJro2vbjOgvkTbiFMhSXz9Z-0WdDTORe9IPFfMr0DVr0PapP8lFuq8R12ZXRyDdMO-2v9ot7c2oy2WobbNwqn3jbKQC5XmNdgKWZB8ENBVQSADLuujJMKvd3DtNcpAFhDa5zihJDtYrQYRLMSCftHHmNg2bUiRC_gCQkFK/s260-e100/github-action.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:2fbec65f1f9751ca39c4a4f1d641fce4ede94e2eae751d052c184eb8777d06ef",
       "url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
       "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
@@ -1219,6 +1273,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhehTKRdIydGsJI5vxP4R5baH5VrDh8ZNLg1RyLMhSnVOFr6cdDZRyqkKhazs4oBdZxw5YV7fNYKCcZ9tkKkTap2chfMR6XCdiG4GmUhv4S_tUVYTS7jvn8iZcTL3RuJ-3K0U1WJ0pKfq16pcJRZhAXTm1gk-xvzjzmdJ85PWEgnQ6oFK1eUPKRBiTRtEr1/s260-e100/huggingface.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:2f8c8b729b601484d357b25c3b79ea487083c2619be95d5dd3402adad7ad8719",
+      "url": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html",
+      "title": "Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers",
+      "published_at": "2026-07-23T11:28:54Z",
+      "published_raw": "2026-07-23T16:58:54.045+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into distributed attack infrastructure designed to target cPanel and WebHost Manager (WHM) instances.\n\nThe activity involves malicious Packagist development versions spanning 10 packages associated with a legitimate PHP and DevOps developer, dinushchathurya, between July 12 and 13,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3388492675737951834",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrnUDzSA-4xfOL6dsXt2pFY9jJro2vbjOgvkTbiFMhSXz9Z-0WdDTORe9IPFfMr0DVr0PapP8lFuq8R12ZXRyDdMO-2v9ot7c2oy2WobbNwqn3jbKQC5XmNdgKWZB8ENBVQSADLuujJMKvd3DtNcpAFhDa5zihJDtYrQYRLMSCftHHmNg2bUiRC_gCQkFK/s260-e100/github-action.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
