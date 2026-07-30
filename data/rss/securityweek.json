@@ -1,15 +1,121 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-30T08:00:14Z",
+  "updated_at": "2026-07-30T10:00:17Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-30T08:00:14Z",
+    "last_success_at": "2026-07-30T10:00:17Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:d3ee034c195ea21feb3e33dbe36cba2d3e50e3a44d5ddddb6436e065f558fa30",
+      "url": "https://www.securityweek.com/critical-ruflo-flaw-lets-attackers-spawn-rogue-ai-swarms",
+      "title": "Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms",
+      "published_at": "2026-07-30T09:56:10Z",
+      "published_raw": "Thu, 30 Jul 2026 09:56:10 +0000",
+      "categories": [
+        "Artificial Intelligence",
+        "Vulnerabilities",
+        "AI",
+        "Ruflo",
+        "RufRoot",
+        "vulnerability"
+      ],
+      "description": "<p>Unauthenticated attackers could send HTTP requests to an exposed endpoint to execute commands inside the MCP bridge container.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-ruflo-flaw-lets-attackers-spawn-rogue-ai-swarms/\">Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48253",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:5ee1000b09deb69677b61cad626f069760d83a457c79552578e523f25bf26b2e",
+      "url": "https://www.securityweek.com/1-in-5-data-center-assets-are-within-easy-reach-of-attackers",
+      "title": "1 in 5 Data Center Assets Are Within Easy Reach of Attackers",
+      "published_at": "2026-07-30T09:28:37Z",
+      "published_raw": "Thu, 30 Jul 2026 09:28:37 +0000",
+      "categories": [
+        "ICS/OT",
+        "Claroty",
+        "data center",
+        "OT",
+        "Report"
+      ],
+      "description": "<p>Claroty has analyzed 750,000 cyber-physical systems across some of the world’s largest data center facilities.</p>\n<p>The post <a href=\"https://www.securityweek.com/1-in-5-data-center-assets-are-within-easy-reach-of-attackers/\">1 in 5 Data Center Assets Are Within Easy Reach of Attackers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48251",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:fe008006dfa792a424268523c8d234e5de1d093b19299901b425765dd2bbed9c",
+      "url": "https://www.securityweek.com/us-and-allies-update-sbom-guidance",
+      "title": "US and Allies Update SBOM Guidance",
+      "published_at": "2026-07-30T08:21:19Z",
+      "published_raw": "Thu, 30 Jul 2026 08:21:19 +0000",
+      "categories": [
+        "Application Security",
+        "Government",
+        "Government Policy",
+        "guidance",
+        "SBOM"
+      ],
+      "description": "<p>Five years after the initial release, the refresh introduces new elements, removes others, and updates terminology.</p>\n<p>The post <a href=\"https://www.securityweek.com/us-and-allies-update-sbom-guidance/\">US and Allies Update SBOM Guidance</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48247",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:2a5924cc86aecf8938923344594677c3a331454931aff27289afaeb990e175bf",
       "url": "https://www.securityweek.com/chrome-151-patches-370-vulnerabilities",
@@ -2709,75 +2815,6 @@
       "authors": [
         {
           "name": "Mike Lennon",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:6251c125b86eadd6601ac99de813039be8c7c16dc0a85f613960d11020742e79",
-      "url": "https://www.securityweek.com/hugging-face-hacked-in-autonomous-ai-attack",
-      "title": "Hugging Face Hacked in Autonomous AI Attack",
-      "published_at": "2026-07-20T09:36:15Z",
-      "published_raw": "Mon, 20 Jul 2026 09:36:15 +0000",
-      "categories": [
-        "Data Breaches",
-        "data breach",
-        "Hacked",
-        "Hugging Face"
-      ],
-      "description": "<p>Targeting production infrastructure, the attack compromised internal datasets and service credentials.</p>\n<p>The post <a href=\"https://www.securityweek.com/hugging-face-hacked-in-autonomous-ai-attack/\">Hugging Face Hacked in Autonomous AI Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47979",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:2a3c92d6af3d4cd2a6e7f432c96140cbfb48257478f728938ee3339d58ee1ece",
-      "url": "https://www.securityweek.com/chrome-150-update-patches-severe-memory-safety-bugs",
-      "title": "Chrome 150 Update Patches Severe Memory Safety Bugs",
-      "published_at": "2026-07-20T08:12:19Z",
-      "published_raw": "Mon, 20 Jul 2026 08:12:19 +0000",
-      "categories": [
-        "Vulnerabilities",
-        "Chrome",
-        "memory safety",
-        "Patch",
-        "vulnerability"
-      ],
-      "description": "<p>The fresh security update resolves six critical and high-severity use-after-free vulnerabilities.</p>\n<p>The post <a href=\"https://www.securityweek.com/chrome-150-update-patches-severe-memory-safety-bugs/\">Chrome 150 Update Patches Severe Memory Safety Bugs</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=47977",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
           "uri": "",
           "email": ""
         }
