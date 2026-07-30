@@ -1,15 +1,58 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-30T16:00:18Z",
+  "updated_at": "2026-07-30T18:00:13Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-30T16:00:18Z",
+    "last_success_at": "2026-07-30T18:00:13Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:23c8e71145d8859c4e7288c26caf25fe04e0cd0451848bc6f8191568489edcfb",
+      "url": "https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases",
+      "title": "Google says AI helped Chrome fix 1,072 security bugs in two releases",
+      "published_at": "2026-07-30T17:00:00Z",
+      "published_raw": "Thu, 30 Jul 2026 13:00:00 -0400",
+      "categories": [
+        "security",
+        "Google"
+      ],
+      "description": "Google says artificial intelligence is dramatically increasing the number of security vulnerabilities it can find and fix in Chrome, with more than 1,000 security bugs patched across the browser's two most recent releases as it expands its use of AI. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:35b65a83bfd64e2e4eb4787668126a4e85fdd0cfdf9d57505a5c807a3a100ad7",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data",
+      "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
+      "published_at": "2026-07-30T16:46:15Z",
+      "published_raw": "Thu, 30 Jul 2026 12:46:15 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
+      "authors": [
+        {
+          "name": "Ionut Ilascu",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:ffd243a26ec78bf470d806ac001556a08d86613d63d0f7acb70f1bb46d1c7a41",
       "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks",
@@ -1503,27 +1546,6 @@
       ],
       "description": "The JadePuffer autonomous AI agent has upgraded with custom malware called EncForge that focuses on encrypting AI assets, such as training datasets, vector databases, and model checkpoints. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:ff2f182a06f135bea27beb5b3a5e1bb5358aa677e7bc41a3498959255ca6f8fb",
-      "url": "https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms",
-      "title": "New HollowGraph malware uses Microsoft Graph for stealthy C2 comms",
-      "published_at": "2026-07-20T17:43:01Z",
-      "published_raw": "Mon, 20 Jul 2026 13:43:01 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A malicious component dubbed HollowGraph uses the calendar feature in compromised Microsoft 365 mailboxes as a command-and-control channel to receive attacker commands and exfiltrate stolen data. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms/",
       "authors": [
         {
           "name": "Bill Toulas",
