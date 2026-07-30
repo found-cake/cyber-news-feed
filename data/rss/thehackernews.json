@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-30T04:00:12Z",
+  "updated_at": "2026-07-30T06:00:08Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-30T04:00:12Z",
+    "last_success_at": "2026-07-30T06:00:08Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -686,6 +686,33 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:5b323651846af4f48bd2f7e2950f6d90faa99ede356f99eec145c47f8c3bdc26",
+      "url": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
+      "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
+      "published_at": "2026-07-30T05:08:39Z",
+      "published_raw": "2026-07-30T10:38:39.165+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation.\n\nThe vulnerability, assigned CVE-2026-20316 (CVSS score: 5.3), could permit an unauthenticated, remote attacker to log",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5703622199882049761",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFSDmsE6q7010reBwpOwS1ESkJSxlBlgRBbtjEVAdeClQFAkRfpriRQWUpL0Br8xnFdF1mctv4Ttj1Nv77MMIKm9qlNehPtTLYzOQwcZAWR4Vw1HzjAvItevYjwQkUo_2JNRluc2_OeJ3vOZ-P8meai9NLLWBvothfh7GDqoOpMPmKpOO-hjAeY-Pxa-BV/s260-e100/cisco.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:5226afe42a903f3d903c66bb3448ffefb7ac2fba0ffdb692d1c5c93c7c2f9e11",
       "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
       "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
@@ -1199,33 +1226,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:dd3c71c164d4d5a58e969f2d5a4dce09adf529f67513aacdfc2e1a1a520aa187",
-      "url": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
-      "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
-      "published_at": "2026-07-24T07:41:06Z",
-      "published_raw": "2026-07-24T13:11:06.862+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found them in a six-hour review of the forum software's source code.\n\nEvery version before 4.14.0 is affected. NodeBB has fixed them all, and administrators should be on 4.14.2.\n\nThe simplest one takes a settings change. A",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1376293584051797157",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixTLaT7NCY3UuotqW1AHLiB1xN5K-nlqtpnOav_n7PWHNWWZmrSmmPTzmL6oA7N7dOgwSGxEbbBq90Q3OVK6wF2PSXdXLs7mKmBYc1dEBIc64Qsq6XEl7rYbv5PjRMViYiGXr8-ypMSs0ZJv_rJXqSWIbS4FVTuIphO7g9IfC0MG6m5dDXPXJoz7iezck/s260-e100/nodebb.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:2fbec65f1f9751ca39c4a4f1d641fce4ede94e2eae751d052c184eb8777d06ef",
       "url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
       "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
@@ -1280,26 +1280,26 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:e1150e91b4d3d344407f5982cfead8fcc433579345b2eab9a205085d9c46aa18",
-      "url": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
-      "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
-      "published_at": "2026-07-20T05:27:26Z",
-      "published_raw": "2026-07-20T10:57:26.058+05:30",
+      "id": "sha256:dd3c71c164d4d5a58e969f2d5a4dce09adf529f67513aacdfc2e1a1a520aa187",
+      "url": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
+      "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
+      "published_at": "2026-07-24T07:41:06Z",
+      "published_raw": "2026-07-24T13:11:06.862+05:30",
       "categories": [
-        "cyber-attack"
+        "vulnerability"
       ],
-      "description": "In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system.\n\nThe company said it detected and responded to the incident targeting its production infrastructure earlier last week.\n\n\"We identified unauthorized access to a limited set of internal datasets and to several credentials used by",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2933632441973864449",
+      "description": "Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found them in a six-hour review of the forum software's source code.\n\nEvery version before 4.14.0 is affected. NodeBB has fixed them all, and administrators should be on 4.14.2.\n\nThe simplest one takes a settings change. A",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1376293584051797157",
       "authors": [
         {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
           "email": "noreply@blogger.com"
         }
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhehTKRdIydGsJI5vxP4R5baH5VrDh8ZNLg1RyLMhSnVOFr6cdDZRyqkKhazs4oBdZxw5YV7fNYKCcZ9tkKkTap2chfMR6XCdiG4GmUhv4S_tUVYTS7jvn8iZcTL3RuJ-3K0U1WJ0pKfq16pcJRZhAXTm1gk-xvzjzmdJ85PWEgnQ6oFK1eUPKRBiTRtEr1/s260-e100/huggingface.jpg",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixTLaT7NCY3UuotqW1AHLiB1xN5K-nlqtpnOav_n7PWHNWWZmrSmmPTzmL6oA7N7dOgwSGxEbbBq90Q3OVK6wF2PSXdXLs7mKmBYc1dEBIc64Qsq6XEl7rYbv5PjRMViYiGXr8-ypMSs0ZJv_rJXqSWIbS4FVTuIphO7g9IfC0MG6m5dDXPXJoz7iezck/s260-e100/nodebb.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
