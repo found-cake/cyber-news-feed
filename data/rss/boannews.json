@@ -1,15 +1,53 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-07-30T02:00:14Z",
+  "updated_at": "2026-07-30T04:00:12Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-30T02:00:14Z",
+    "last_success_at": "2026-07-30T04:00:12Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:c9b99b578c3915f90a87f7f2d7a612cf93538a2b7cb1fdf8d3cb1370aef91ed4",
+      "url": "http://www.boannews.com/media/view.asp?idx=144939&kind=1&sub_kind=",
+      "title": "KT, 1만6647명 개인정보 유출로 539억원 과징금... 은폐한 LGU+는 수사의뢰",
+      "published_at": "2026-07-30T02:35:00Z",
+      "published_raw": "Thu, 30 Jul 2026 11:35:00 +0900",
+      "categories": [],
+      "description": "KT 거짓 자료 제출 등 조사 방해는 고발 조치LGU+ 증거 은닉·폐기로 드러난 규제 사각지대KT “고개숙여 사과”... LGU+ “수사 성실히 임할 것”[보안뉴스 강현주 기자] KT가 불법 펨토셀을 통한 개인정보 유출에 대한 안전조치 위반으로 과징금 539억7900만원을 부과받았다, 악성코드 감염 사실을 신고하지 않고 로그 삭제, 거짓 자료 제출 등으로",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[강현주기자 (jjoo@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:b3ce61fdc3d23992fcf47553fb7c3a47d9e872a7ac99383a7e45d49f90a838c9",
+      "url": "http://www.boannews.com/media/view.asp?idx=144933&kind=1&sub_kind=",
+      "title": "[ISEC 2026 미리보기] “관리자 뚫려도 데이터는 지킨다”... 한국보안인증의 ‘D-포트리스’",
+      "published_at": "2026-07-30T02:14:00Z",
+      "published_raw": "Thu, 30 Jul 2026 11:14:00 +0900",
+      "categories": [],
+      "description": "지능형 공격에 맞선 하드웨어 기반 일방통행 기술 ‘데이터 다이오드’대기업부터 중소 제조업까지 수용할 수 있는 고강도 사이버 복원력[보안뉴스 조재호 기자] 관리자 권한 탈취로 백업 데이터까지 암호화되는 지능형 랜섬웨어 위협에 대응해, 한국보안인증이 물리적 일방통행 통신 기술과 2차 인증을 번들화한 차세대 데이터 금고 아키텍처를 제시한다.한국보안인증(대표 백건",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:ad96d2868217d2a1af441035fb9a7a9541d53c6f4130c9faaa06bf0a11ff8d8f",
       "url": "http://www.boannews.com/media/view.asp?idx=144928&kind=1&sub_kind=",
@@ -163,44 +201,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:2eba384bd075796ee3dc2760413aacbd65c4124b5c6c6f01a09ec48c66be630d",
-      "url": "http://www.boannews.com/media/view.asp?idx=144838&kind=1&sub_kind=",
-      "title": "우분투 스냅-컨파인 취약점 발견... 일반 사용자도 루트 권한 획득 위험",
-      "published_at": "2026-07-25T03:58:00Z",
-      "published_raw": "Sat, 25 Jul 2026 12:58:00 +0900",
-      "categories": [],
-      "description": "[보안뉴스 김형근 기자] 리눅스 기반의 대표적인 오픈소스 운영체제 우분투 데스크톱24.04, 25.10, 26.04의 스냅-컨파인(snap-confine) 구성 요소에서 고위험 권한 상승 취약점(CVE-2026-8933)이 발견됐다. 이 결함은 우분투 시스템의 스냅-컨파인 바이너리가 샌드박스를 초기화하고 최소 권한 원칙을 적용하다 의도치 않은 레이스 컨디션",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[강현주기자 (jjoo@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:0ac2bf1f29084e321dd6e8ce4157146ff5555fbb6986c2fb0a20f4edf7f5260c",
-      "url": "http://www.boannews.com/media/view.asp?idx=144836&kind=1&sub_kind=",
-      "title": "AI가 통제 벗어나면 정부가 중단... 美 하원 ‘킬스위치법’ 발의",
-      "published_at": "2026-07-25T02:14:00Z",
-      "published_raw": "Sat, 25 Jul 2026 11:14:00 +0900",
-      "categories": [],
-      "description": "[보안뉴스 강현주 기자] 오픈AI의 AI 모델이 통제망을 뚫고 오픈소스  AI 플랫폼 허깅페이스를 해킹한 사건을 계기로 미 의회에서 AI가 통제를 벗어나면 중단시킬 수 있도록 하는 ‘AI 킬스위치’ 법안이 발의됐다.허깅페이스의 공동창업자인 클레망 들랑그 CEO는 23일(현지시간) 소셜미디어 X를 통해 오픈AI를 만나로 간다고 밝혔다. 해킹에 연루된 오픈AI",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[강현주기자 (jjoo@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:5c74e8c8497c7e0626ee6f1b6f80ef3bc96fd5d661982a3e4e10d110ce288ce1",
       "url": "http://www.boannews.com/media/view.asp?idx=144913&kind=&sub_kind=",
       "title": "20만대 규모 디스포리아 봇넷 확산... 취약한 계정 설정·IoT 장비 패치 시급",
@@ -334,13 +334,32 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:a104d29c3e71d6883266ba68f5c83578f6be02030ba5847f2e53d4b730b06163",
-      "url": "http://www.boannews.com/media/view.asp?idx=144755&kind=&sub_kind=",
-      "title": "원격으로 정보탈취하는 ‘크리스탈엑스 RAT’, 서비스형 악성코드로 유통 중",
-      "published_at": "2026-07-20T02:25:00Z",
-      "published_raw": "Mon, 20 Jul 2026 11:25:00 +0900",
+      "id": "sha256:2eba384bd075796ee3dc2760413aacbd65c4124b5c6c6f01a09ec48c66be630d",
+      "url": "http://www.boannews.com/media/view.asp?idx=144838&kind=1&sub_kind=",
+      "title": "우분투 스냅-컨파인 취약점 발견... 일반 사용자도 루트 권한 획득 위험",
+      "published_at": "2026-07-25T03:58:00Z",
+      "published_raw": "Sat, 25 Jul 2026 12:58:00 +0900",
       "categories": [],
-      "description": "정보 탈취·키 입력 기록·클리퍼·스파이웨어까지MaaS로 유튜브나 텔레그램을 통해 유포[보안뉴스 강현주 기자] 정보 탈취·키 입력 기록·클리퍼·스파이웨어까지 갖춘 악성코드 ‘크리스탈엑스 RAT’(CrystalX RAT)가 서비스형 악성코드(MaaS) 형태로 제3자에게 유통되고 있는 것으로 나타났다. 카스퍼스키(한국지사장 이효은)는 카스퍼스키 글로벌 연구분석팀",
+      "description": "[보안뉴스 김형근 기자] 리눅스 기반의 대표적인 오픈소스 운영체제 우분투 데스크톱24.04, 25.10, 26.04의 스냅-컨파인(snap-confine) 구성 요소에서 고위험 권한 상승 취약점(CVE-2026-8933)이 발견됐다. 이 결함은 우분투 시스템의 스냅-컨파인 바이너리가 샌드박스를 초기화하고 최소 권한 원칙을 적용하다 의도치 않은 레이스 컨디션",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[강현주기자 (jjoo@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:0ac2bf1f29084e321dd6e8ce4157146ff5555fbb6986c2fb0a20f4edf7f5260c",
+      "url": "http://www.boannews.com/media/view.asp?idx=144836&kind=1&sub_kind=",
+      "title": "AI가 통제 벗어나면 정부가 중단... 美 하원 ‘킬스위치법’ 발의",
+      "published_at": "2026-07-25T02:14:00Z",
+      "published_raw": "Sat, 25 Jul 2026 11:14:00 +0900",
+      "categories": [],
+      "description": "[보안뉴스 강현주 기자] 오픈AI의 AI 모델이 통제망을 뚫고 오픈소스  AI 플랫폼 허깅페이스를 해킹한 사건을 계기로 미 의회에서 AI가 통제를 벗어나면 중단시킬 수 있도록 하는 ‘AI 킬스위치’ 법안이 발의됐다.허깅페이스의 공동창업자인 클레망 들랑그 CEO는 23일(현지시간) 소셜미디어 X를 통해 오픈AI를 만나로 간다고 밝혔다. 해킹에 연루된 오픈AI",
       "feed_id": "",
       "authors": [
         {
