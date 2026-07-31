@@ -1,15 +1,58 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-07-31T20:01:05Z",
+  "updated_at": "2026-07-31T22:01:04Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-31T20:01:05Z",
+    "last_success_at": "2026-07-31T22:01:04Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:7ba29da8dc2810354398e27da5bcfc1f3e0f4f0b7a3e3e5b8ed9fd226d09261c",
+      "url": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood",
+      "title": "Arch Linux disables AUR package adoption to stop malware flood",
+      "published_at": "2026-07-31T21:38:08Z",
+      "published_raw": "Fri, 31 Jul 2026 17:38:08 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packages. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:62defa99934a97d318696bba936e6cef3402dd6a6c20077c57c78883353729c0",
+      "url": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency",
+      "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
+      "published_at": "2026-07-31T21:09:25Z",
+      "published_raw": "Fri, 31 Jul 2026 17:09:25 -0400",
+      "categories": [
+        "security",
+        "CryptoCurrency"
+      ],
+      "description": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:012aadde4ca7b0b94307d79f0cf75d0ac0d88b53f8ce3328123141abc4b5bfed",
       "url": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers",
@@ -1460,27 +1503,6 @@
       ],
       "description": "A large-scale operation dubbed 'FakeGit' is pushing SmartLoader and StealC malware through 7,600 malicious GitHub repositories that accumulated more than 14 million downloads. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:4d39a7d6e2be3bbb76160d4c7a771661f10961c4f72ecdecc2f6399ecd342bd5",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys",
-      "title": "Critical SharePoint RCE flaw exploited to steal machine keys",
-      "published_at": "2026-07-21T20:06:55Z",
-      "published_raw": "Tue, 21 Jul 2026 16:06:55 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
       "authors": [
         {
           "name": "Bill Toulas",
