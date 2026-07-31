@@ -1,15 +1,87 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-07-31T08:01:05Z",
+  "updated_at": "2026-07-31T10:01:09Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-31T08:01:05Z",
+    "last_success_at": "2026-07-31T10:01:09Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:74feee3463e70b645a1697026a0d157cbc16bedb9025b28603a71b88cb41acce",
+      "url": "https://www.securityweek.com/after-openai-disclosure-anthropic-finds-its-own-models-hacked-3-organizations",
+      "title": "Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations",
+      "published_at": "2026-07-31T09:39:57Z",
+      "published_raw": "Fri, 31 Jul 2026 09:39:57 +0000",
+      "categories": [
+        "Artificial Intelligence",
+        "AI",
+        "Anthropic",
+        "Claude",
+        "Featured"
+      ],
+      "description": "<p>A security company’s systems were hacked after it installed a malicious Python package deployed by Claude. </p>\n<p>The post <a href=\"https://www.securityweek.com/after-openai-disclosure-anthropic-finds-its-own-models-hacked-3-organizations/\">Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48292",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:d048cbc501b7ee31a48db9750996a24fe433d5f5052b25456ed4c0715599f420",
+      "url": "https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage",
+      "title": "Critical Flaw Led to Azure Cosmos DB Pwnage",
+      "published_at": "2026-07-31T09:04:02Z",
+      "published_raw": "Fri, 31 Jul 2026 09:04:02 +0000",
+      "categories": [
+        "Cloud Security",
+        "Vulnerabilities",
+        "Azure",
+        "Cosmos DB",
+        "CosmosEscape",
+        "database",
+        "Patch"
+      ],
+      "description": "<p>Named CosmosEscape, the vulnerability exposed the primary key for Cosmos DB accounts, granting full read and write access.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage/\">Critical Flaw Led to Azure Cosmos DB Pwnage</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48290",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:20b73f5ecfefb551fa167c042b3ec86175325698fd432318342e88e87b942dbb",
       "url": "https://www.securityweek.com/carecloud-data-breach-impacts-over-350000",
@@ -2886,108 +2958,6 @@
       "authors": [
         {
           "name": "Eduard Kovacs",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:c8060d8a159faab17c7a07bf452cf300dd8b595a2f97680a348386c53636cbdd",
-      "url": "https://www.securityweek.com/clover-health-investments-discloses-data-breach",
-      "title": "Clover Health Investments Discloses Data Breach",
-      "published_at": "2026-07-21T09:36:51Z",
-      "published_raw": "Tue, 21 Jul 2026 09:36:51 +0000",
-      "categories": [
-        "Data Breaches",
-        "Clover Health Investments",
-        "data breach",
-        "healthcare"
-      ],
-      "description": "<p>Using social engineering, hackers compromised employee accounts with access to personal and health information.</p>\n<p>The post <a href=\"https://www.securityweek.com/clover-health-investments-discloses-data-breach/\">Clover Health Investments Discloses Data Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48009",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:22f8c8b0ef49baa8e4b26bdf9647784c1b5822cb181058beb1a93b3a1cc92b45",
-      "url": "https://www.securityweek.com/exploitation-of-servicenow-vulnerability-seen-days-after-disclosure",
-      "title": "Exploitation of ServiceNow Vulnerability Seen Days After Disclosure",
-      "published_at": "2026-07-21T08:41:53Z",
-      "published_raw": "Tue, 21 Jul 2026 08:41:53 +0000",
-      "categories": [
-        "Vulnerabilities",
-        "exploited",
-        "Featured",
-        "ServiceNow",
-        "vulnerability"
-      ],
-      "description": "<p>The ServiceNow AI platform vulnerability tracked as CVE-2026-6875 can be exploited for remote code execution.</p>\n<p>The post <a href=\"https://www.securityweek.com/exploitation-of-servicenow-vulnerability-seen-days-after-disclosure/\">Exploitation of ServiceNow Vulnerability Seen Days After Disclosure</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48007",
-      "authors": [
-        {
-          "name": "Eduard Kovacs",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:a3fb294c815e95c70e8aa2b9b73eb93fbc5b087a557b30a5f341b3e1a1ba2b7a",
-      "url": "https://www.securityweek.com/zimbra-update-patches-critical-vulnerabilities",
-      "title": "Zimbra Update Patches Critical Vulnerabilities",
-      "published_at": "2026-07-21T08:20:08Z",
-      "published_raw": "Tue, 21 Jul 2026 08:20:08 +0000",
-      "categories": [
-        "Vulnerabilities",
-        "vulnerability",
-        "Zimbra"
-      ],
-      "description": "<p>The latest Zimbra refresh resolves command injection, XSS, restriction bypass, and SSRF security defects.</p>\n<p>The post <a href=\"https://www.securityweek.com/zimbra-update-patches-critical-vulnerabilities/\">Zimbra Update Patches Critical Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48005",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
           "uri": "",
           "email": ""
         }
