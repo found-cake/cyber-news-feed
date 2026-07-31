@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-07-31T10:01:09Z",
+  "updated_at": "2026-07-31T12:01:09Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-07-31T10:01:09Z",
+    "last_success_at": "2026-07-31T12:01:09Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:e6ea006c3681d918b688e92e346309de49dcd399f360c8f6d1c33ed7e4882ca6",
+      "url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
+      "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
+      "published_at": "2026-07-31T11:21:27Z",
+      "published_raw": "2026-07-31T16:51:27.362+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously.\n\nAfter an initial Telegram instruction, the agent found internet-facing systems and selected public exploits. The researchers recovered no further operator input in the session.\n\nThe operator, tracked through the aliases knaithe and KnYuan,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7355892805763499732",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2dGysHIR6yJWx6hMxq6lAct7fi4YTury_WDkrcenDv-psd-fU7I8K3RbM6Blox_5OE3MQojew5bnPamtI_DPzdBX6fOk295hhQh6rBkA2f9a1sN7t7ZbSyU-kWdLoIb7XnseOHKPmLOGRb9wRRvmV0scVZ4rhMtxSmqOLZmZIUjtg_IHT4FBg5gzeX50/s260-e100/deepseek-telegram.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:e63683e834969b44f44a9b2ef7d1f01fddd13c6bbecd2a90b026e9098096a2a1",
       "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
@@ -659,6 +686,33 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:8be23122adabfc50df6bc597bce02196b431dd3505fd03670c14b1b8593f2bfd",
+      "url": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
+      "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
+      "published_at": "2026-07-31T11:55:00Z",
+      "published_raw": "2026-07-31T17:25:00.000+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "An academic study has disclosed a \"widespread class\" of security vulnerabilities impacting 4G and 5G core networks that, if successfully exploited, could trigger denial-of-service (DoS) attacks and even session hijacking, allowing an attacker to seize control of a user's network session.\n\nThe findings have been released by a group of researchers from Singapore's Nanyang Technological University",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-891339506107996243",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx5Qzkfu4WC4nW5n_nmFDP3CoZsw91wzaKcfKRZBx7DXHggnqqxqun757BOQey3jOUCGe4928DBU6fy4dPX04Cmp94xqWdNkZgkp1DuenVewYZFxSs9YSQdArKp1Ma3hAGkDAIA7zH8_7hXubNrJbP27r6XxIlCrzrYYoi3vAVFaLVdu1tnN6blLhE61xE/s260-e100/ifinder.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:82d450915eb17be12ff549f777c57df68ddba25c5f5caf71975de8108f370106",
       "url": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
       "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
@@ -1199,60 +1253,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:5937bd850a8b331f12540fc30f91d8973d89d56e34e784ff61259c5c35880ed3",
-      "url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
-      "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
-      "published_at": "2026-07-27T14:40:00Z",
-      "published_raw": "2026-07-27T20:10:00.432+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user.\n\nSSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1935392970822613408",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy6sn1o691sSAfGgdjo_965YlKkz8ky30drnmHXJz3Y5wO6grXeyoDFvZGYeU-TS4IbxJUtrpqOy_Z2ropf7JAd-KpV6yYgQFo8YUREleUm2A39nchCOv8ydf5ZvOjpSHmDP_W1uJm_HvWK936xBi4xu_3VrHkiDB0MwX6qTdwjXHREYmSBIA0IzyqbVA/s260-e100/vBulletin.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:cfc6397c37eceb5fa7d078d890ee033be25eb6a1b9dfe009e30af12d65dbd80a",
-      "url": "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html",
-      "title": "⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More",
-      "published_at": "2026-07-27T14:10:54Z",
-      "published_raw": "2026-07-27T19:40:54.158+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Monday starts with the usual promise that everything is under control. Then the logs wake up.\n\nThis week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking services. Nothing looked strange at first. That helped.\n\nThat is the mood. Here is the full recap.\n\n⚡ Threat of the Week\n\nOpenAI Says Its AI Agent Went Rogue",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2620910699346169683",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZShQJv7u2hWKu_7xOJWw1-8rjxg7jwXoaFDJqqKPTzPa2-u608uDu_uxZ4fn2DmullQ7Kkx6YUIbjK0cKuZNxaQuirr5icArrmvx70FFuvnWkrxulAHi-_chuqNvTCWtBGyS7qkCnGh28qubTDmQC_YCmj8Q77Y_bp7McFTJlAv9oT5KqPRUGxlVoXli8/s260-e100/recap-thn.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:2fbec65f1f9751ca39c4a4f1d641fce4ede94e2eae751d052c184eb8777d06ef",
       "url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
       "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
@@ -1300,6 +1300,60 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEiY-8bLYm125By8D7AuLG0iHjE5hB2_ysYdB1WkSc0wxB_virPrL19JZ0Ow8Nzsu0DkoTWboikIsKEyDs9393o1yaFJ0LZMFy64Hzk4XGzOqnpjJMgptlxVsHnmDm6twDSVhCkT1HFTFVmDW2zvlmz3qvQP9vftatDZFCw_GvauRT_2yEF-REvZlXyb_I/s260-e100/sharepoint.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:5937bd850a8b331f12540fc30f91d8973d89d56e34e784ff61259c5c35880ed3",
+      "url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
+      "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
+      "published_at": "2026-07-27T14:40:00Z",
+      "published_raw": "2026-07-27T20:10:00.432+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user.\n\nSSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1935392970822613408",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy6sn1o691sSAfGgdjo_965YlKkz8ky30drnmHXJz3Y5wO6grXeyoDFvZGYeU-TS4IbxJUtrpqOy_Z2ropf7JAd-KpV6yYgQFo8YUREleUm2A39nchCOv8ydf5ZvOjpSHmDP_W1uJm_HvWK936xBi4xu_3VrHkiDB0MwX6qTdwjXHREYmSBIA0IzyqbVA/s260-e100/vBulletin.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:cfc6397c37eceb5fa7d078d890ee033be25eb6a1b9dfe009e30af12d65dbd80a",
+      "url": "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html",
+      "title": "⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More",
+      "published_at": "2026-07-27T14:10:54Z",
+      "published_raw": "2026-07-27T19:40:54.158+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Monday starts with the usual promise that everything is under control. Then the logs wake up.\n\nThis week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking services. Nothing looked strange at first. That helped.\n\nThat is the mood. Here is the full recap.\n\n⚡ Threat of the Week\n\nOpenAI Says Its AI Agent Went Rogue",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2620910699346169683",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZShQJv7u2hWKu_7xOJWw1-8rjxg7jwXoaFDJqqKPTzPa2-u608uDu_uxZ4fn2DmullQ7Kkx6YUIbjK0cKuZNxaQuirr5icArrmvx70FFuvnWkrxulAHi-_chuqNvTCWtBGyS7qkCnGh28qubTDmQC_YCmj8Q77Y_bp7McFTJlAv9oT5KqPRUGxlVoXli8/s260-e100/recap-thn.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1921,60 +1975,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih_Q67gFWBtG5q7zVuyna7iJj3lSm-UQRoMsami8jaf-WYMCXqQlVprQ_ifyXx-PqJg2chDHN3KrFppnZSvejTvSco4kN-P_S4U3vKQHNtvZ48g5wftlSILrMulX1WUMOeeybU4apJ5Iv8BM6ipceEVGSJucR7yRJZguIrfTUaCbbHqefGt6o2BkHrJqV0/s260-e100/zimbra.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:bfedf6d3a03155cf509183450812f5665906cba9c334b3eba7e33e094817b9b0",
-      "url": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
-      "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
-      "published_at": "2026-07-21T11:58:00Z",
-      "published_raw": "2026-07-21T17:28:00.000+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "An Android app that can draw over other windows and write to shared storage can slip instructions to the AI agent driving that phone, in text no human eye will ever see. Two more steps, and the same app is running commands on the PC driving the agent.\n\nResearchers demonstrated that chain, plus six other attacks, against five open-source mobile agent frameworks: AppAgent, AppAgentX,",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6838477974726839669",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgT3XQmerfsXoGV-Vs_zcpVZiX_i21tKtW9mTacpOvcEntMhycVftZ4f2vkREtq3W8PH9iQRLpOunN-hFf590FJNocxmsPla_WJ1uGJxtkpXnQim-T0-wa89EiJSZSrLHxhOcx_srjqzYcb2dW2MXAU4V2HWlL9rQa1YVEE4XEQ944I7a3glRwwjkgu0U/s260-e100/ai-android-agent.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:524095d98a7adefdba7baa1de85cd6502629a11ba84cd37bca3a1d1102eada84",
-      "url": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
-      "title": "N-day is Becoming N-Hour. Patching Faster Won't Save You.",
-      "published_at": "2026-07-21T11:42:23Z",
-      "published_raw": "2026-07-21T17:12:23.041+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Every patch is a confession.\n\nThe moment a vendor ships a security fix, the diff between the old code and the new code tells anyone watching exactly what was broken and where. Turn that diff back into a working exploit, and you can hit every system that hasn't updated yet. This is N-day exploitation, and it's always been a race: the vendor patches, the clock starts, and defenders try to deploy",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2976223463706035671",
-      "authors": [
-        {
-          "name": "Unknown",
-          "uri": "",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRgv46Pyr5W2eivocnJG2MuDCYtUXj0fVas4afxPzJX2ZVXVCyjyWK_FtVCxKOaz9qwmR6EJLqgbrG448OtKTlv3X9coXsqr40xoNXrkXZbGiOO3ZHr-skaiYV3My_V-qI9YH3c3ScLO4tISLW_uI-2PD3_hdgUQW8cv_kMi6q994YyZn6JkF7gIhECC4/s260-e100/pushsecurity.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
