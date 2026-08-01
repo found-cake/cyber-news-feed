@@ -1,15 +1,49 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-01T10:01:09Z",
+  "updated_at": "2026-08-01T12:01:10Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-01T10:01:09Z",
+    "last_success_at": "2026-08-01T12:01:10Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:d11ae3f62afb99fc12e5a388d6483beb4fc4e049aa764f82d120b451b9262cf8",
+      "url": "https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability",
+      "title": "Ruby on Rails Patches Critical Vulnerability",
+      "published_at": "2026-08-01T11:15:00Z",
+      "published_raw": "Sat, 01 Aug 2026 11:15:00 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "Ruby",
+        "Ruby on Rails",
+        "vulnerability"
+      ],
+      "description": "<p>The flaw can be exploited by unauthenticated attackers to read arbitrary files and potentially achieve remote code execution (RCE).</p>\n<p>The post <a href=\"https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/\">Ruby on Rails Patches Critical Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48319",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:60c9935a752625b70eedd52abbefde682caad9cc6066ce39d68c02a6af88a860",
       "url": "https://www.securityweek.com/in-other-news-openai-open-source-tool-aws-links-hacks-to-north-korea-mythos-crypto-research",
@@ -2643,40 +2677,6 @@
       "authors": [
         {
           "name": "Kevin Townsend",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:45826f6a7ba19d15ba1a1c71030b9a573843777d5c3b4adc6f4430ee8ac7d872",
-      "url": "https://www.securityweek.com/fourth-sharepoint-vulnerability-exploited-in-past-months-wave-of-attacks",
-      "title": "Fourth SharePoint Vulnerability Exploited in Past Month’s Wave of Attacks",
-      "published_at": "2026-07-22T11:29:16Z",
-      "published_raw": "Wed, 22 Jul 2026 11:29:16 +0000",
-      "categories": [
-        "Vulnerabilities",
-        "exploited",
-        "SharePoint",
-        "vulnerability"
-      ],
-      "description": "<p>CVE-2026-50522 is being exploited by threat actors to steal machine keys and retain long-term access.</p>\n<p>The post <a href=\"https://www.securityweek.com/fourth-sharepoint-vulnerability-exploited-in-past-months-wave-of-attacks/\">Fourth SharePoint Vulnerability Exploited in Past Month&#8217;s Wave of Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48066",
-      "authors": [
-        {
-          "name": "Eduard Kovacs",
           "uri": "",
           "email": ""
         }
