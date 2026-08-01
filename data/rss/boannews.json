@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-08-01T00:01:06Z",
+  "updated_at": "2026-08-01T02:01:02Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-01T00:01:06Z",
+    "last_success_at": "2026-08-01T02:01:02Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:86dd9cf5dbfe19d7ba546efe964e6d7fe12faa8a96830e941821aed82488d9d1",
+      "url": "http://www.boannews.com/media/view.asp?idx=144871&kind=1&sub_kind=",
+      "title": "2026년 8월, 물리&사이버보안 기업이 찾는 인재는 누구?",
+      "published_at": "2026-08-01T01:07:00Z",
+      "published_raw": "Sat, 1 Aug 2026 10:07:00 +0900",
+      "categories": [],
+      "description": "CCTV/NVR 영상분석 엔지니어, 정보보안 솔루션 영업, B2B 영업, 해외 영업AI 소프트웨어 영업, 구매 조달, 기술지원 및 유지보소, 생산, 펌웨어 개발, 물류/자재 관리 등[보안뉴스 엄호식 기자] 무더위가 피크에 달하는 8월은 직장인들이 가장 많이 휴가를 떠나는 시기다. 여름 휴가를 통해 더위를 피하는 것은 물론 상반기를 마무리하고 하반기를 대비하",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[엄호식기자 (eomhs@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:5df5dc11cefedae775ebdcf92eaff98b0aeda474571e661725de6912135aa23a",
       "url": "http://www.boannews.com/media/view.asp?idx=144966&kind=1&sub_kind=",
@@ -182,13 +201,13 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:ed1581653a1c0b99f2aadc27612adfd1a6d863adba935cf587678f7007c8700e",
-      "url": "http://www.boannews.com/media/view.asp?idx=144877&kind=1&sub_kind=",
-      "title": "깃랩 RCE 유발한 4년 묵은 Parser 버그... 루비 안전망도 무너졌다",
-      "published_at": "2026-07-27T08:29:00Z",
-      "published_raw": "Mon, 27 Jul 2026 17:29:00 +0900",
+      "id": "sha256:d5726aefea77fd6126a6a3b61009eb45c8784ca0f4fc5ef9c2fdfc6e6ad5af22",
+      "url": "http://www.boannews.com/media/view.asp?idx=144970&kind=&sub_kind=",
+      "title": "“채용하니 北 해커”... 위장 취업에 국제사회 공동 대응",
+      "published_at": "2026-08-01T00:46:00Z",
+      "published_raw": "Sat, 1 Aug 2026 09:46:00 +0900",
       "categories": [],
-      "description": "고성능 JSON Parser ‘Oj’ 내부 C 확장 모듈서 메모리 손상 취약점 2종 발견주피터 노트북 파일 렌더링 과정 악용 시 방어막 우회해 서버 권한 탈취[보안뉴스 조재호 기자] 루비(Ruby)와 같은 메모리 안전(Memory-safe) 언어로 구축된 협업 플랫폼 깃랩(GitLab)에서 하위 C 언어 확장 모듈의 메모리 손상 취약점을 악용한 원격 코드",
+      "description": "한국 외교부·경찰청 등 10개국 관계기관 참여해 위장 취업 및 사이버 위협 경고프록시 기반 ‘랩톱 농장’ 악용해 접속지 속이고 가상자산으로 자금 세탁[보안뉴스 조재호 기자] 외교부와 경찰청은 미국, 일본, 영국, 호주, 캐나다, 프랑스 등 주요 국가 관계기관과 합동으로 북한 IT 인력의 위장 취업을 경고하는 사이버 보안 공동주의보를 발표했다. 이번 조치는",
       "feed_id": "",
       "authors": [
         {
@@ -288,6 +307,25 @@
       "authors": [
         {
           "name": "[강현주기자 (jjoo@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:ed1581653a1c0b99f2aadc27612adfd1a6d863adba935cf587678f7007c8700e",
+      "url": "http://www.boannews.com/media/view.asp?idx=144877&kind=1&sub_kind=",
+      "title": "깃랩 RCE 유발한 4년 묵은 Parser 버그... 루비 안전망도 무너졌다",
+      "published_at": "2026-07-27T08:29:00Z",
+      "published_raw": "Mon, 27 Jul 2026 17:29:00 +0900",
+      "categories": [],
+      "description": "고성능 JSON Parser ‘Oj’ 내부 C 확장 모듈서 메모리 손상 취약점 2종 발견주피터 노트북 파일 렌더링 과정 악용 시 방어막 우회해 서버 권한 탈취[보안뉴스 조재호 기자] 루비(Ruby)와 같은 메모리 안전(Memory-safe) 언어로 구축된 협업 플랫폼 깃랩(GitLab)에서 하위 C 언어 확장 모듈의 메모리 손상 취약점을 악용한 원격 코드",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
           "uri": "",
           "email": ""
         }
@@ -478,25 +516,6 @@
       "authors": [
         {
           "name": "[한세희기자 (hahn@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:72a316ad059256d1ec7eac07d9a51be33acb61abf589e1c4d05737816f3930f6",
-      "url": "http://www.boannews.com/media/view.asp?idx=144784&kind=1&sub_kind=",
-      "title": "“정찰부터 암호화까지 초고속”... CVE-2026-0257 킬린 랜섬웨어 주의보",
-      "published_at": "2026-07-22T01:33:00Z",
-      "published_raw": "Wed, 22 Jul 2026 10:33:00 +0900",
-      "categories": [],
-      "description": "아크틱울프랩스, 킬린의 신규 공격 캠페인 분석한층 더 빨라진 공격 템포와 더불어 다중 협박 전술의 파괴력 재확인[보안뉴스 김형근 기자] 최근 광범위한 활동을 펼치며 요주의 대상이 된 해킹그룹 ‘킬린’(Qilin)이 CVE-2026-0257 취약점을 악용해 공격 표면을 확장하는 가운데, 보안 전문가들은 신속한 패치와 선제적 보안을 핵심 과제로 꼽았다.보안 기",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[조재호기자 (zephyr@boannews.com)]",
           "uri": "",
           "email": ""
         }
