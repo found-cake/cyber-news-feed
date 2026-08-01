@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-01T14:01:09Z",
+  "updated_at": "2026-08-01T16:01:04Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-01T14:01:09Z",
+    "last_success_at": "2026-08-01T16:01:04Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:761f301096455783982a359821dceb45816358a4967638c9308fc345e815ddc7",
+      "url": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential",
+      "title": "Rails patches critical Active Storage flaw with RCE potential",
+      "published_at": "2026-08-01T14:20:30Z",
+      "published_raw": "Sat, 01 Aug 2026 10:20:30 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:5a1395bdf7a3a4b6a4386804717283e866f0ec74d463d1c900fc619e07aca428",
       "url": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info",
@@ -1314,48 +1335,6 @@
       "authors": [
         {
           "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:716393ec1372d83805d0e58bf8d41edd2a100456115e832f96d324de0c3be514",
-      "url": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it",
-      "title": "How enterprise GenAI can amplify ransomware risk — and how to contain it",
-      "published_at": "2026-07-22T15:30:00Z",
-      "published_raw": "Wed, 22 Jul 2026 11:30:00 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Enterprise AI can accelerate ransomware attacks when AI assistants and agents inherit excessive permissions or compromised identities. Acronis explains how identity controls, governance, and least-privilege access help reduce AI-enabled ransomware risk while supporting secure AI adoption. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
-      "authors": [
-        {
-          "name": "Sponsored by Acronis",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:1b4b996c667a9403af7b70a86fc4047b2680316700bc837d37e207004656b8c8",
-      "url": "https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first",
-      "title": "New InfraTrust report reveals infrastructure flaws admins should patch first",
-      "published_at": "2026-07-22T14:15:00Z",
-      "published_raw": "Wed, 22 Jul 2026 10:15:00 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Eclypsium has launched InfraTrust, a new infrastructure cybersecurity knowledge base and monthly InfraTrust Pulse report designed to help organizations prioritize vulnerabilities affecting infrastructure, firmware, networking, and edge devices. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
           "uri": "",
           "email": ""
         }
