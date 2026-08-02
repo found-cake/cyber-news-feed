@@ -1,15 +1,37 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-02T20:01:07Z",
+  "updated_at": "2026-08-02T22:01:13Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-02T20:01:07Z",
+    "last_success_at": "2026-08-02T22:01:13Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:1d82d50f3710a1ed3e839b1b13d6b516e0f8e8a948d6fc04157f9192a6e1ab40",
+      "url": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft",
+      "title": "COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft",
+      "published_at": "2026-08-02T21:14:29Z",
+      "published_raw": "Sun, 02 Aug 2026 17:14:29 -0400",
+      "categories": [
+        "security",
+        "CryptoCurrency"
+      ],
+      "description": "A vulnerability in COLDCARD hardware wallet firmware allowed attackers to steal an estimated $88.6 million in Bitcoin from thousands of wallets whose seeds were generated using a flawed random number generator. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:4d355b80d696b8ff161001fdbedf1d9123ca922f0d3d14c61324a6f67ca5a6c7",
       "url": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default",
@@ -1102,48 +1124,6 @@
       "authors": [
         {
           "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:f7a3865a79e3b4b33d04b3249c12da1688bc2239f8d0fff625ac82ae93c03691",
-      "url": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets",
-      "title": "New Dolphin X malware uses AI to rank high-value targets",
-      "published_at": "2026-07-23T21:20:34Z",
-      "published_raw": "Thu, 23 Jul 2026 17:20:34 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A new Dolphin X remote access trojan claims to use an AI-powered profiling feature to score and rank infected users, helping cybercriminals identify which victims should be targeted first. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:10539ed6ed3e72979d153e5e532714e79e103d5e9fe48b7826c31a6364433452",
-      "url": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data",
-      "title": "Australian energy provider Origin says data breach exposes client data",
-      "published_at": "2026-07-23T20:14:35Z",
-      "published_raw": "Thu, 23 Jul 2026 16:14:35 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Origin Energy has confirmed that an unauthorized party accessed and subsequently leaked customer data online, exposing sensitive personally identifiable information (PII), among others. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
           "uri": "",
           "email": ""
         }
