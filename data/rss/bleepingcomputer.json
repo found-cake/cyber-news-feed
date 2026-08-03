@@ -1,15 +1,57 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-03T14:01:07Z",
+  "updated_at": "2026-08-03T16:01:11Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-03T14:01:07Z",
+    "last_success_at": "2026-08-03T16:01:11Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:1a354a6aff7db9f135a2b8ad45c99c305ad134b417914e74955336816ed053e8",
+      "url": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff",
+      "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
+      "published_at": "2026-08-03T15:04:39Z",
+      "published_raw": "Mon, 03 Aug 2026 11:04:39 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A cyberattack on the U.K.'s Police National Legal Database (PNLD) has compromised contact data of more than 100,000 police officers and other criminal justice professionals. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:422bdc5cf108d130a30f455b3bdad5522db384468b58744fb250f3e2fd87625e",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat",
+      "title": "Inside the Underground Business of the Android BTMOB RAT malware",
+      "published_at": "2026-08-03T14:45:55Z",
+      "published_raw": "Mon, 03 Aug 2026 10:45:55 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Flare researchers analyzed thousands of underground posts to examine how the BTMOB Android malware operation evolved into a fragmented ecosystem of resellers, source-code vendors, custom versions, and competing sales channels. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/",
+      "authors": [
+        {
+          "name": "Sponsored by Flare",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:1d82d50f3710a1ed3e839b1b13d6b516e0f8e8a948d6fc04157f9192a6e1ab40",
       "url": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft",
@@ -1019,48 +1061,6 @@
       "authors": [
         {
           "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:96a71e7a0f84eb25e8d4ea7d88b700b553945969278d95b968d2509b3af4c1a8",
-      "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers",
-      "title": "Chick-fil-A data breach affects more than 13,000 customers",
-      "published_at": "2026-07-24T14:04:29Z",
-      "published_raw": "Fri, 24 Jul 2026 10:04:29 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:68918f258de01f63cf9320362e438321605e93384e45026efa9de133475bb183",
-      "url": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack",
-      "title": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
-      "published_at": "2026-07-24T14:01:11Z",
-      "published_raw": "Fri, 24 Jul 2026 10:01:11 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Slopsquatting, phantom squatting, and HalluSquatting all exploit the same late-binding attack pattern, where AI coding agents trust hallucinated package, repo, or domain names. ActiveState explains how pre-fetch verification and governed dependency management can help stop these attacks before malicious code enters the pipeline. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
-      "authors": [
-        {
-          "name": "Sponsored by ActiveState",
           "uri": "",
           "email": ""
         }
