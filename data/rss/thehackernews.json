@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-03T08:01:14Z",
+  "updated_at": "2026-08-03T10:01:09Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-03T08:01:14Z",
+    "last_success_at": "2026-08-03T10:01:09Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -686,6 +686,33 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:000b4c51e3b2ed33ec252758c04ce59f2ce5e4d041e7be79e43d108647e29772",
+      "url": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
+      "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
+      "published_at": "2026-08-03T08:05:30Z",
+      "published_raw": "2026-08-03T13:35:30.563+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them.\n\nThe vendor's July 31 security bulletin says nearly undetectable changes to .fsa and .hid outputs could occur if laboratory controls are circumvented.\n\nThermo Fisher tracks the issue as CVE-2026-17583 and rates it",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2012981119088417911",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMO8eh_7kmo0QAAphjdYIXsjfGspFVU9gV5XInqqhs4WnFNCm_hP-EBdmVln7vSrwWkmo9pdvoxAQbaC17M8sYg7VzBX8RJnRIb6E6pBr5euW9WweOeeZk9XpN8O5I5vF_OGypfqp9WO-SO_C81D4DDui3uTp0jBvV5_C7qIjuRgtoMd4bKQ1y8QEnC3c/s260-e100/dna.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:0a3d3912cd46c461b65c40551d1078dec596fb7e06e281113c04012ce3653ead",
       "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
       "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
@@ -1226,16 +1253,16 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:03429ea5c1ea7e0e76468efec567899889c1ae88041b640ff558fac9d566b51e",
-      "url": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
-      "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
-      "published_at": "2026-07-28T13:33:47Z",
-      "published_raw": "2026-07-28T19:03:47.123+05:30",
+      "id": "sha256:a71a79482b5b08780929b60521457e585ead0ea19bc1ee512f63fdc43cbd0cdc",
+      "url": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
+      "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
+      "published_at": "2026-08-03T09:13:56Z",
+      "published_raw": "2026-08-03T14:43:56.604+05:30",
       "categories": [
-        "vulnerability"
+        "cyber-attack"
       ],
-      "description": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment.\n\nArtifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved laterally until they reached an internet-connected node. JFrog says it has since developed and released fixes for cloud",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2157486306697680267",
+      "description": "The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web.\n\nThe data included names, organisations and work email addresses belonging to police officers, police staff, criminal justice professionals, government partners and customers.\n\nThe incident, identified on July 26, also exposed some names",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8713317729381427193",
       "authors": [
         {
           "name": "Swati Khandelwal",
@@ -1245,7 +1272,7 @@
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVRTEATuhKwW2BlflaNjqHVV9mJlq6m3_rFzsUHv3RXATsLWdyJvG-XoWDftscxMF9r_-551JELumQMj7Jhp_iY-GTj79r3RxYKEEJkPo8B7Zd5SuiBnPRWjM1MBygMvV0Za1ZLItcoSjsCY4gDwbV-ZOkXLEzi2vohrqrlYSJL4Ut0GmmDvhEhiGti1U/s260-e100/openai-0day.jpg",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguFnLbEr199EuLksobp-I8Z6liAUmM4EKRi94ttPtanQN2aiwvNh1qHK_kkGhOBfWTzLzANlQ3jd6FmJOHWbdn8rFfg1sHvYqmBaVM5kfak1JxRhqPEfNR94zY_pibMdsbWMIx8gqcZZjoYLhKk03Gw3PrYKF6JQzrNLV6HiE5U7UtYPSwmH-OmDmjl8c/s260-e100/exfilsquad.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1273,6 +1300,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX-el4ovGAmKfllRfhupL0SzdEoZKlouDb1_YmhCOl3owxN1ks0Do-WphuD77rka_3ukbqvPxSmFYMdBKBirYyw0DJpvSxVP5riGBR_vd7wKwnpgZfNm0RFEDLTzsvzzQB7qGtawMvpccd700dfNM2zZeFTy9cyHf4oFyHSASKRU3gmxbMgTJRtDFsSNs/s260-e100/adform.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:03429ea5c1ea7e0e76468efec567899889c1ae88041b640ff558fac9d566b51e",
+      "url": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
+      "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
+      "published_at": "2026-07-28T13:33:47Z",
+      "published_raw": "2026-07-28T19:03:47.123+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment.\n\nArtifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved laterally until they reached an internet-connected node. JFrog says it has since developed and released fixes for cloud",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2157486306697680267",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVRTEATuhKwW2BlflaNjqHVV9mJlq6m3_rFzsUHv3RXATsLWdyJvG-XoWDftscxMF9r_-551JELumQMj7Jhp_iY-GTj79r3RxYKEEJkPo8B7Zd5SuiBnPRWjM1MBygMvV0Za1ZLItcoSjsCY4gDwbV-ZOkXLEzi2vohrqrlYSJL4Ut0GmmDvhEhiGti1U/s260-e100/openai-0day.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
