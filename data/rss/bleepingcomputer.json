@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-03T20:01:06Z",
+  "updated_at": "2026-08-03T22:01:06Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-03T20:01:06Z",
+    "last_success_at": "2026-08-03T22:01:06Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:43ae4af0cd6d961c49da0d774068e20d2faca7a369e96b42897a596bb7d9c3eb",
+      "url": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images",
+      "title": "New DOUBLECUP ClickFix service hides malware in browser cache images",
+      "published_at": "2026-08-03T20:01:22Z",
+      "published_raw": "Mon, 03 Aug 2026 16:01:22 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A new Russian loader-as-a-service named DOUBLECUP uses ClickFix attacks to hide malicious code in PNG images cached by victims' browsers, ultimately delivering CountLoader to Windows and macOS devices and a new remote access trojan named DeviceManager to Windows systems. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:c43ec9f4824e94c7b6665fbf0cbd71d5ef7bc50b8a92ebce1a3603892b027b6f",
       "url": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware",
