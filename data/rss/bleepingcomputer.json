@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-03T16:01:11Z",
+  "updated_at": "2026-08-03T18:01:04Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-03T16:01:11Z",
+    "last_success_at": "2026-08-03T18:01:04Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:94c507dcc7bfc84fbe38a7eb50bf010874299416743a389f3b27b6fbf152ad65",
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks",
+      "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
+      "published_at": "2026-08-03T17:00:56Z",
+      "published_raw": "Mon, 03 Aug 2026 13:00:56 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:1a354a6aff7db9f135a2b8ad45c99c305ad134b417914e74955336816ed053e8",
       "url": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff",
@@ -1040,27 +1061,6 @@
       "authors": [
         {
           "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:29c5ba30f30347e0ea5e63fc3a04cb79166f4ef6047b94259471dcb0dc3c2478",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts",
-      "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
-      "published_at": "2026-07-24T17:50:37Z",
-      "published_raw": "Fri, 24 Jul 2026 13:50:37 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Hackers are changing the DNS settings on Wi-Fi devices at hotels and conference centers to redirect users to fake Microsoft 365 login pages. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
           "uri": "",
           "email": ""
         }
