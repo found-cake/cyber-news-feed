@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-03T06:01:06Z",
+  "updated_at": "2026-08-03T08:01:14Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-03T06:01:06Z",
+    "last_success_at": "2026-08-03T08:01:14Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:44aca34a590464aee2812459631bad1e421ed243da3dc3958b2c1c87ce8eb4a9",
+      "url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
+      "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
+      "published_at": "2026-08-03T06:41:46Z",
+      "published_raw": "2026-08-03T12:11:46.372+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers.\n\nIts first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2026.3.1.7. N-able shipped build 2026.3.1.7 on August 2 as the first unaffected version.\n\nN-central is the remote monitoring and management platform",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1264605318967736624",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs1H8Wx5_ZrUFksG2Tgb_6qho5XHULdP13qVeYXx1xWPPt8B2rH68XC6IhzBk-dczgsdWvpZ_dVTI7AIMsgK1EeU3B89WVUJu2N5B71FQ4GnlZDRlvNiD4pGO2hBCJGVowjUVDMSHAO_0CPlYthpa8jx-Af5OwB6ZMDr-PKTYDJKjP4pGCZZolbjbGi44/s260-e100/n-able.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:33d64b684b386f21f4b0aac2f0d2804a5e1ea8528a9236ae89ca8573093db3a1",
       "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
@@ -659,16 +686,16 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:2320d2a00fa5bc02bbc4f927d8acc97ebf2bf05957e85f97e1f8513cad1041ca",
-      "url": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
-      "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
-      "published_at": "2026-07-24T10:09:24Z",
-      "published_raw": "2026-07-24T15:39:24.780+05:30",
+      "id": "sha256:0a3d3912cd46c461b65c40551d1078dec596fb7e06e281113c04012ce3653ead",
+      "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
+      "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
+      "published_at": "2026-08-03T06:40:31Z",
+      "published_raw": "2026-08-03T12:10:31.167+05:30",
       "categories": [
-        "threat-intelligence"
+        "vulnerability"
       ],
-      "description": "The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping despite extensive public disclosures into their inner workings.\n\nThe malware families in question are: TinyEgg, ChonkyChicken, a modularized variant of ChonkyChicken, and a modified web browser credential",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3677015087389823650",
+      "description": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk.\n\n\"These vulnerabilities are bypassing trust_remote_code, the safeguard designed to stop unreviewed code from running in the",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8739581094929262445",
       "authors": [
         {
           "name": "Ravie Lakshmanan",
@@ -678,7 +705,7 @@
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ6m42WBQBHda1ntTqYkaxPyEiKYjc2xnTFIawfUcAxMuYQ_HtOz3ebO0HTtt3qyhUIIg8NB8W92WIfldPiOjZKCY1_aTGfgWq2NnZOhrgoU_Z8y8rtfVxCdJuc1QL94IcLm0IF_h-euFZydB5Qc8z4ifT-lx84glPyRnfTX8-R31O_0aswgRZR0uUTxs1/s260-e100/malwares.jpg",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWQmUt2QHxTfiXiolir9akmVh8dT5di3UBDtD7H2IJlkWQ4x4VmeTUEZo8CUvz2q2FXCvxTJDHenWPzqPeSbnlCYSRTNGULKdWRJnsmVg7SVJT_BBPABxqRuvr22Z9V2C6P51fRjSGzgAlHMzEn-MjA4yTMfCaM91ujVajF8GJqYg9ZaZELXsCc-GMnYq8/s260-e100/hugging.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1226,6 +1253,60 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:0fa86a6b2f57fc9d8dcf3f8c68488f84bfac5b17578d4d88192938889e10b17c",
+      "url": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
+      "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
+      "published_at": "2026-08-01T09:03:07Z",
+      "published_raw": "2026-08-01T14:33:07.329+05:30",
+      "categories": [
+        "cyber-attack"
+      ],
+      "description": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses.\n\nAdform detected the incident on July 27, 2026, removed the malicious code, notified affected clients, and reported it to authorities.\n\nAnyone who visited a site carrying the affected script on July 27 and copied a Bitcoin,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3707719218707952234",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX-el4ovGAmKfllRfhupL0SzdEoZKlouDb1_YmhCOl3owxN1ks0Do-WphuD77rka_3ukbqvPxSmFYMdBKBirYyw0DJpvSxVP5riGBR_vd7wKwnpgZfNm0RFEDLTzsvzzQB7qGtawMvpccd700dfNM2zZeFTy9cyHf4oFyHSASKRU3gmxbMgTJRtDFsSNs/s260-e100/adform.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:2320d2a00fa5bc02bbc4f927d8acc97ebf2bf05957e85f97e1f8513cad1041ca",
+      "url": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
+      "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
+      "published_at": "2026-07-24T10:09:24Z",
+      "published_raw": "2026-07-24T15:39:24.780+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping despite extensive public disclosures into their inner workings.\n\nThe malware families in question are: TinyEgg, ChonkyChicken, a modularized variant of ChonkyChicken, and a modified web browser credential",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3677015087389823650",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ6m42WBQBHda1ntTqYkaxPyEiKYjc2xnTFIawfUcAxMuYQ_HtOz3ebO0HTtt3qyhUIIg8NB8W92WIfldPiOjZKCY1_aTGfgWq2NnZOhrgoU_Z8y8rtfVxCdJuc1QL94IcLm0IF_h-euFZydB5Qc8z4ifT-lx84glPyRnfTX8-R31O_0aswgRZR0uUTxs1/s260-e100/malwares.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:507ba26671cda44a19fc50d36c892657567cf3060cdbc32eea0ca89bb1513676",
       "url": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
       "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
@@ -1273,60 +1354,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiX3xcF2Bm9BY5obe-T5JItuKynq8bPijOxp14p5damNEjPGtAbYyuLSqp6vKN_KkhPx1qYeTXHxpgnZllCrtLvDaDuJNyHpY1qV0i8KWCe79_bnFtBtTRPCTU28LcN7OFM26h_WZdxeM3KPWBK4dlp0jY8JKrs1UILNR0qRgtxhKJqCcrht69sc3gcwsU/s260-e100/tc.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:0fa86a6b2f57fc9d8dcf3f8c68488f84bfac5b17578d4d88192938889e10b17c",
-      "url": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
-      "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
-      "published_at": "2026-08-01T09:03:07Z",
-      "published_raw": "2026-08-01T14:33:07.329+05:30",
-      "categories": [
-        "cyber-attack"
-      ],
-      "description": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses.\n\nAdform detected the incident on July 27, 2026, removed the malicious code, notified affected clients, and reported it to authorities.\n\nAnyone who visited a site carrying the affected script on July 27 and copied a Bitcoin,",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3707719218707952234",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX-el4ovGAmKfllRfhupL0SzdEoZKlouDb1_YmhCOl3owxN1ks0Do-WphuD77rka_3ukbqvPxSmFYMdBKBirYyw0DJpvSxVP5riGBR_vd7wKwnpgZfNm0RFEDLTzsvzzQB7qGtawMvpccd700dfNM2zZeFTy9cyHf4oFyHSASKRU3gmxbMgTJRtDFsSNs/s260-e100/adform.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:852d7225f48a5e8d4de614b3d1e1f3ae67139e2f865b24dc4de110ca7da93035",
-      "url": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
-      "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
-      "published_at": "2026-07-24T06:50:57Z",
-      "published_raw": "2026-07-24T12:20:57.958+05:30",
-      "categories": [
-        "threat-intelligence"
-      ],
-      "description": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems.\n\nThe activity has been attributed by the agency to a threat cluster it tracks as UAC-0099, a Russia-aligned group that has previously observed weaponizing security flaws in WinRAR software to",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5437923648458231314",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCA0-yh9EAnhFa2V3NzQVw2m-sLgbCNVQ8GVMBX4Y6vUNwPXE-vHzdJLFKXVi3rdGXhx5RawHTwox7cd9ph20u5qn_H8TJUOKG8nITccTkzqfiyBKStdCgcrJOgAeGf9Mkzr1g8iCB0HrpuonkIQQTx15L2P53RPX9GeMYVIuvl51jJ2hn1jn0PcQARQaj/s260-e100/notepad-malware-code.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1543,60 +1570,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirbs2h3QyfDG1ChFBHv8CQNwf9JrDdDWLaZ0AZ2WTiJrsjmmeQUXSFc8FM4OvPgxDig-z2H1Di7OMqCC_0mHbicAvDw6TGF-1jWihJ458GYQBKznb3VOehlOPqWfALnkz8k3DBfehWG2z5nmpu77OgRxJ1iQxL7lsrd1IH3YR6ZHPpSUns-tdmDYScHck/s260-e100/bing-image.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:dd3c71c164d4d5a58e969f2d5a4dce09adf529f67513aacdfc2e1a1a520aa187",
-      "url": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
-      "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
-      "published_at": "2026-07-24T07:41:06Z",
-      "published_raw": "2026-07-24T13:11:06.862+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found them in a six-hour review of the forum software's source code.\n\nEvery version before 4.14.0 is affected. NodeBB has fixed them all, and administrators should be on 4.14.2.\n\nThe simplest one takes a settings change. A",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1376293584051797157",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixTLaT7NCY3UuotqW1AHLiB1xN5K-nlqtpnOav_n7PWHNWWZmrSmmPTzmL6oA7N7dOgwSGxEbbBq90Q3OVK6wF2PSXdXLs7mKmBYc1dEBIc64Qsq6XEl7rYbv5PjRMViYiGXr8-ypMSs0ZJv_rJXqSWIbS4FVTuIphO7g9IfC0MG6m5dDXPXJoz7iezck/s260-e100/nodebb.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:6d85941f139ee717fb185d70f56f37b46375b1a4a336566c48d44db1a10ebb0d",
-      "url": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
-      "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say",
-      "published_at": "2026-07-24T06:58:27Z",
-      "published_raw": "2026-07-24T12:28:27.002+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Redis shipped seven security releases on July 23 after researchers published authenticated RCE PoCs for stock Redis 6.2.22, 7.4.9, 8.6.4, and 8.8.0.\n\nAll four chains require RESTORE. The Streams chains also need EVAL and XGROUP; the 8.8.0 chain needs EVAL and the bundled RedisBloom module. Redis says the underlying memory flaws may lead to remote code execution.\n\nRedis 6.2.23, 7.2.15, and 7.4.10",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5414325206775438483",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0TE9DH98zjhcQPB99o9CcCvYH1otVTUwpXl_9Af1Nbl89gqHBAqP2jtb-BFrmXdR-4OYmPOGJJoilFiac2ooKHM5Lbe_kD5kLpW1eRcdpOWsG53701lGhFi93e0UpvGrptdb2usksom4mF56GWE1of2M7KsmAZav9cENd90xYAVz7Dq3yPIBJEODDDaQ/s260-e100/redis-0day.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
