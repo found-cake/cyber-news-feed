@@ -1,15 +1,85 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-04T08:01:06Z",
+  "updated_at": "2026-08-04T10:01:08Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-04T08:01:06Z",
+    "last_success_at": "2026-08-04T10:01:08Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:09f8ba46b8d895c582694cc428791feac153093084211508c2bfe1896454e9a1",
+      "url": "https://www.securityweek.com/decades-old-bmc-vulnerability-exposes-thousands-of-data-centers-to-attacks",
+      "title": "Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks",
+      "published_at": "2026-08-04T09:56:06Z",
+      "published_raw": "Tue, 04 Aug 2026 09:56:06 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "BMC",
+        "data center",
+        "vulnerability"
+      ],
+      "description": "<p>Over 24,000 internet-accessible server-management interfaces disclose authentication hashes before login.</p>\n<p>The post <a href=\"https://www.securityweek.com/decades-old-bmc-vulnerability-exposes-thousands-of-data-centers-to-attacks/\">Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48383",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:22d81f922fb8ebe6bf29dbe8cedc8973f67fc4570450de43efdfe83df9a72543",
+      "url": "https://www.securityweek.com/150000-impacted-by-madera-community-hospital-data-breach",
+      "title": "150,000 Impacted by Madera Community Hospital Data Breach",
+      "published_at": "2026-08-04T08:33:45Z",
+      "published_raw": "Tue, 04 Aug 2026 08:33:45 +0000",
+      "categories": [
+        "Data Breaches",
+        "Ransomware",
+        "data breach",
+        "healthcare",
+        "hospital",
+        "Madera Hospital"
+      ],
+      "description": "<p>An extortion group stole personal, financial, and medical information from the hospital’s network.</p>\n<p>The post <a href=\"https://www.securityweek.com/150000-impacted-by-madera-community-hospital-data-breach/\">150,000 Impacted by Madera Community Hospital Data Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48381",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:71892e22b56d8a81f73595a0f3ee3261a46ac3ec5e9bbb7696a8122c3e2af7b6",
       "url": "https://www.securityweek.com/microsoft-bug-bounty-program-20-million-paid-to-500-researchers",
@@ -19,6 +89,7 @@
       "categories": [
         "Vulnerabilities",
         "bug bounty program",
+        "Featured",
         "Microsoft",
         "vulnerability"
       ],
@@ -2420,42 +2491,6 @@
       ],
       "description": "<p>The PEAR ransomware group claimed to have stolen 3 TB of information from the medical business management company.</p>\n<p>The post <a href=\"https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals/\">MCBS Data Breach Affects 1.2 Million Individuals</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
       "feed_id": "https://www.securityweek.com/?p=48144",
-      "authors": [
-        {
-          "name": "Eduard Kovacs",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:d497a16eb3f60ecaa9b65ce8c436f2c7bc1369db57e816f91a4d4a34db118c99",
-      "url": "https://www.securityweek.com/rockwell-patches-code-execution-flaws-in-arena-simulation-software",
-      "title": "Rockwell Patches Code Execution Flaws in Arena Simulation Software",
-      "published_at": "2026-07-25T08:30:00Z",
-      "published_raw": "Sat, 25 Jul 2026 08:30:00 +0000",
-      "categories": [
-        "ICS/OT",
-        "Vulnerabilities",
-        "Featured",
-        "ICS",
-        "Rockwell",
-        "vulnerability"
-      ],
-      "description": "<p>A researcher has explained how an attacker could exploit these vulnerabilities to target industrial organizations.</p>\n<p>The post <a href=\"https://www.securityweek.com/rockwell-patches-code-execution-flaws-in-arena-simulation-software/\">Rockwell Patches Code Execution Flaws in Arena Simulation Software</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48138",
       "authors": [
         {
           "name": "Eduard Kovacs",
