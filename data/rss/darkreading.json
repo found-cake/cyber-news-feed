@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-08-04T18:01:10Z",
+  "updated_at": "2026-08-04T20:01:06Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-08-04T16:01:09Z",
-    "last_error_at": "2026-08-04T18:01:10Z",
-    "last_error": "fetch https://www.darkreading.com/rss.xml: unexpected feed response: unexpected status 404"
+    "ok": true,
+    "last_success_at": "2026-08-04T20:01:06Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:50d47382aca8905402524cf0764e238b2cde6d9f026fafa43d8fe6d4b1811302",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook",
+      "title": "Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook",
+      "published_at": "2026-08-04T18:37:35Z",
+      "published_raw": "Tue, 04 Aug 2026 18:37:35 GMT",
+      "categories": [
+        "cyberattacks-data-breaches"
+      ],
+      "description": "The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.",
+      "feed_id": "https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook",
+      "authors": [
+        {
+          "name": "Elizabeth Montalbano",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6b501fd239cea948/6a7205c2f2df87f4451c6c0b/Playbook(1800)_Ivelin_Radkov_Alamy.png?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6b501fd239cea948/6a7205c2f2df87f4451c6c0b/Playbook(1800)_Ivelin_Radkov_Alamy.png?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
     {
       "id": "sha256:5c96f6a77e0eadff75fcaf0ac7ba85a16ecd3b21251082cae07372390ab7ab38",
       "url": "https://www.darkreading.com/application-security/ai-notetaker-spy-government-corporate-video-calls",
