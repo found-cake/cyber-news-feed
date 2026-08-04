@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-08-04T00:01:06Z",
+  "updated_at": "2026-08-04T02:01:10Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-04T00:01:06Z",
+    "last_success_at": "2026-08-04T02:01:10Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -100,30 +100,6 @@
         },
         {
           "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a6780f55203475da8af33c2_image%20(4).png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:24a7a48ca804634524344bd7253988e170cec73c342023efad6cda759f30d813",
-      "url": "https://www.stepsecurity.io/blog/compromised-pypi-mrmustard-0-7-4-credential-stealer",
-      "title": "Compromised PyPI Package: mrmustard 0.7.4 Steals SSH, Cloud, and Kubernetes Credentials",
-      "published_at": "2026-07-25T01:39:02Z",
-      "published_raw": "Sat, 25 Jul 2026 01:39:02 GMT",
-      "categories": [],
-      "description": "mrmustard 0.7.4 on PyPI was a credential stealer that ran on import, exfiltrating SSH keys, AWS, and Kubernetes credentials. Here is the analysis, IOCs, and how to respond.",
-      "feed_id": "https://www.stepsecurity.io/blog/compromised-pypi-mrmustard-0-7-4-credential-stealer",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a6384092f0375ee9aa325fd_6a638265364967d80eded2aa_mrmustard-hero.png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a6384092f0375ee9aa325fd_6a638265364967d80eded2aa_mrmustard-hero.png",
           "kind": "content",
           "medium": "image"
         }
