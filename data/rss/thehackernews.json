@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-04T06:01:04Z",
+  "updated_at": "2026-08-04T08:01:06Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-04T06:01:04Z",
+    "last_success_at": "2026-08-04T08:01:06Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -659,6 +659,33 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:da4061a77e664dfa9d5b33938fac8ff54e5c898c81e2b0757640b423ed59744b",
+      "url": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
+      "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
+      "published_at": "2026-08-04T07:00:13Z",
+      "published_raw": "2026-08-04T12:30:13.893+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog following reports of active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-18577 (CVSS score: 8.2), is a case of incomplete patching for CVE-2026-18556 (CVSS score: 8.2) that allows",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6928961207199492367",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbA9omGpwD_xkaXsQD13QewwbHkZMx1FrBHBvsnFkbjkFTY6F679EEe_xtesc1R6ToZIZlHq4osq4AmGAI-74IHaagkIP7KhQp3X_QtlwaMx2ALTqs_sZTdtpmJNd1UHf_Mq2F9jfmz8viAlapY4gFUa5ZLAEtF_VjjzebWZApbU1VDElceFwS4sa2rR5C/s260-e100/cisa.png",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:5264422e426d2ea1d9b9b3c8e2506eabe8edb2e2ce21e0301b534c834562400a",
       "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
       "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
@@ -1199,33 +1226,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:aab2a0bc8fdc6bd72e671c60e91d37ee33ea64e506f0a53b7b6d11e0170d14e7",
-      "url": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
-      "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
-      "published_at": "2026-07-29T11:57:00Z",
-      "published_raw": "2026-07-29T17:27:00.839+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise Tor Browser.\n\nTracked as CVE-2026-10702, the bug provides arbitrary code execution inside the browser's renderer process. Mozilla rated it High and fixed it in the Firefox 151.0.3 update.\n\n\"No settings or additional user interaction are required,\" Eten Zou,",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5992639043967605003",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOwFIxqT8kRBNj9LdZBZhO1g2RPJwUttxQosrS_mPoNXkIR-JB-yM87HPzuPZ1tazourGhRg9Sco6YQEGZkC77DSqXBYjp0DkNDAUHOaAOnIisRYNPAQfNWwqnmoILXOgR0wwyGVNlU3kSVRU6TcfyAx5ztaAWZfbKnCDJYgUeIVsM7n7O2zq7fGc-xnI/s260-e100/tor-exploit.gif",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:a71a79482b5b08780929b60521457e585ead0ea19bc1ee512f63fdc43cbd0cdc",
       "url": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
       "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
@@ -1327,6 +1327,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqsDw-FCPzIqH_GCkBZgDD96kt0ZtwQzjSe3SOunA8WWGUTXqCB2FG_28DY0JgdD6zh07gHisKrTi2Wh5VVNAcoUMyJ9tZ_VGzPM73iid2PPg15oqKMbnRhk9CcTJlevxRQJL5Sq2MbJjYCIgQ_zOEsgyu_Jy72ubSLAvy_YK499pDr48Rp9Plh322h8_P/s260-e100/openai-breach.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:aab2a0bc8fdc6bd72e671c60e91d37ee33ea64e506f0a53b7b6d11e0170d14e7",
+      "url": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
+      "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
+      "published_at": "2026-07-29T11:57:00Z",
+      "published_raw": "2026-07-29T17:27:00.839+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise Tor Browser.\n\nTracked as CVE-2026-10702, the bug provides arbitrary code execution inside the browser's renderer process. Mozilla rated it High and fixed it in the Firefox 151.0.3 update.\n\n\"No settings or additional user interaction are required,\" Eten Zou,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5992639043967605003",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOwFIxqT8kRBNj9LdZBZhO1g2RPJwUttxQosrS_mPoNXkIR-JB-yM87HPzuPZ1tazourGhRg9Sco6YQEGZkC77DSqXBYjp0DkNDAUHOaAOnIisRYNPAQfNWwqnmoILXOgR0wwyGVNlU3kSVRU6TcfyAx5ztaAWZfbKnCDJYgUeIVsM7n7O2zq7fGc-xnI/s260-e100/tor-exploit.gif",
           "kind": "thumbnail",
           "medium": ""
         }
