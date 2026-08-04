@@ -1,15 +1,57 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-04T14:01:07Z",
+  "updated_at": "2026-08-04T16:01:09Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-04T14:01:07Z",
+    "last_success_at": "2026-08-04T16:01:09Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:4c5a3c35d64b38ee30c6fb71064eb690833d05ffb7ff8720c738ae752b0cf5bc",
+      "url": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages",
+      "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
+      "published_at": "2026-08-04T15:24:35Z",
+      "published_raw": "Tue, 04 Aug 2026 11:24:35 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Self-propagating malware named 'ChainDrop' has compromised more than 1,300 packages with a combined 2 billion monthly downloads on the Node Package Manager (npm) registry. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:65b095a8b030b5844bd47865938ec7fd860d0bebb5d156dd05c9b559d44d50d9",
+      "url": "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries",
+      "title": "Varonis Agent IBAC keeps AI agents within their intended boundaries",
+      "published_at": "2026-08-04T14:00:10Z",
+      "published_raw": "Tue, 04 Aug 2026 10:00:10 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "AI agents need broad access to be useful, but traditional access controls cannot determine whether an action aligns with a user's intent. Varonis explains how Agent IBAC detects intent drift and enforces real-time guardrails to keep agents within their intended boundaries. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/",
+      "authors": [
+        {
+          "name": "Sponsored by Varonis",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:a554b127e2ea07dfe6df15b0fc34cc48cabf6d06d5e4419f49c69a0419b781be",
       "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts",
@@ -1059,48 +1101,6 @@
       ],
       "description": "Steam discussion forums are being abused in ClickFix attacks that pretend to be fixes for game and computer problems but actually infect devices with cryptominers. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:cb57ed4122cfae94edeb001eb68bf84c76d27291f6bb72e85e64fea2e4675ee1",
-      "url": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory",
-      "title": "Malicious sites use JavaScript to build malware in browser memory",
-      "published_at": "2026-07-25T15:21:09Z",
-      "published_raw": "Sat, 25 Jul 2026 11:21:09 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A massive malvertising campaign is using fake Solana, Luno, and TradingView webpages with malicious JavaScript that instructs browsers to assemble malware directly in memory. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:1c6254e8aafabd06e8f8ad5eaa3c4532c079b158cccd0c78e6accf640c27a23d",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam",
-      "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
-      "published_at": "2026-07-25T14:16:26Z",
-      "published_raw": "Sat, 25 Jul 2026 10:16:26 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
       "authors": [
         {
           "name": "Lawrence Abrams",
