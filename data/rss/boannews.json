@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-08-05T04:01:09Z",
+  "updated_at": "2026-08-05T06:01:12Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-08-05T02:01:04Z",
-    "last_error_at": "2026-08-05T04:01:09Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-08-05T06:01:12Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:d2de82755356c145238e2736c5142a774b5a35348f41202a837567ab8ec46ca4",
+      "url": "http://www.boannews.com/media/view.asp?idx=145027&kind=1&sub_kind=",
+      "title": "티오리 ‘진트 코드’(Xint Code), 애플 OS서 CVSS 9.8점대 취약점 발견",
+      "published_at": "2026-08-05T02:46:00Z",
+      "published_raw": "Wed, 5 Aug 2026 11:46:00 +0900",
+      "categories": [],
+      "description": "기기 강제 종료 유발하는 제로 클릭 커널 결함 등 2종 패치 기여소스코드 분석해 실제 증명 가능한 공격 재현 코드(PoC) 명확히 제시[보안뉴스 조재호 기자] 티오리가 자사의 AI 기반 소스코드 보안 분석 솔루션 ‘진트 코드’(Xint Code)를 통해 애플 주요 운영체제(OS)에서 치명적인 보안 취약점을 발견하고 공식 패치를 이끌어냈다고 5일 밝혔다.애플",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:1d488aa9efa91e538fd0f94a692ea3fae5c1e46bc20dda43a6f7513cbada604f",
       "url": "http://www.boannews.com/media/view.asp?idx=145023&kind=1&sub_kind=",
@@ -182,25 +201,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:3c044e16fa7c379ae33e7082827fea2633f35910409f258162e19d3f28e29485",
-      "url": "http://www.boannews.com/media/view.asp?idx=144909&kind=1&sub_kind=",
-      "title": "[부고] 안재천 트루엔 대표 처상",
-      "published_at": "2026-07-28T23:15:00Z",
-      "published_raw": "Wed, 29 Jul 2026 08:15:00 +0900",
-      "categories": [],
-      "description": "△내용: 안재천 트루엔 대표 처상△고인: 故 이윤숙님△빈소: 가톨릭학원 서울성모장례식장 31호실△발인: 2026년 07월 31일(금) 7시 40분△장지: 용인 양지 선영[강초희 기자(choh@boannews.com)]www.boannews.com) 무단전재-재배포금지>",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[강초희기자 (choh@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:d5726aefea77fd6126a6a3b61009eb45c8784ca0f4fc5ef9c2fdfc6e6ad5af22",
       "url": "http://www.boannews.com/media/view.asp?idx=144970&kind=&sub_kind=",
       "title": "“채용하니 北 해커”... 위장 취업에 국제사회 공동 대응",
@@ -288,6 +288,25 @@
       "authors": [
         {
           "name": "[강현주기자 (jjoo@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:3c044e16fa7c379ae33e7082827fea2633f35910409f258162e19d3f28e29485",
+      "url": "http://www.boannews.com/media/view.asp?idx=144909&kind=1&sub_kind=",
+      "title": "[부고] 안재천 트루엔 대표 처상",
+      "published_at": "2026-07-28T23:15:00Z",
+      "published_raw": "Wed, 29 Jul 2026 08:15:00 +0900",
+      "categories": [],
+      "description": "△내용: 안재천 트루엔 대표 처상△고인: 故 이윤숙님△빈소: 가톨릭학원 서울성모장례식장 31호실△발인: 2026년 07월 31일(금) 7시 40분△장지: 용인 양지 선영[강초희 기자(choh@boannews.com)]www.boannews.com) 무단전재-재배포금지>",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[강초희기자 (choh@boannews.com)]",
           "uri": "",
           "email": ""
         }
