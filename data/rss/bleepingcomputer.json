@@ -1,15 +1,79 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-05T14:01:07Z",
+  "updated_at": "2026-08-05T16:01:08Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-05T14:01:07Z",
+    "last_success_at": "2026-08-05T16:01:08Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:72f3c3aa42b0baaa71b0a113963dc5244f09034cb8e2df8907035772da289dc1",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws",
+      "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
+      "published_at": "2026-08-05T15:51:33Z",
+      "published_raw": "Wed, 05 Aug 2026 11:51:33 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
+      "authors": [
+        {
+          "name": "Ionut Ilascu",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:2c28f8ee39409892c2492b3675dedbbee212fb28a8b8e8fb82412a4523ed892d",
+      "url": "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive",
+      "title": "Google Blogger locks hundreds of blogs in malware false positive",
+      "published_at": "2026-08-05T14:59:29Z",
+      "published_raw": "Wed, 05 Aug 2026 10:59:29 -0400",
+      "categories": [
+        "security",
+        "Google"
+      ],
+      "description": "Google has locked hundreds of Blogger websites after a false positive claimed they violated its \"Malware and Similar Malicious Content\" policy, with some sites deleted from the platform. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive/",
+      "authors": [
+        {
+          "name": "Mayank Parmar",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:97022e0fd4f10c3665b64f997cdf29b4dcdec814c042cf75bc8c8a131947fb5a",
+      "url": "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good",
+      "title": "How AI-powered phishing killed blocklists for good",
+      "published_at": "2026-08-05T14:01:11Z",
+      "published_raw": "Wed, 05 Aug 2026 10:01:11 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "AI is helping attackers create disposable phishing infrastructure and rapidly evolving toolkits that blocklists cannot track fast enough. Push Security explains why browser-level, technique-based detection offers a more durable defense than relying on domains, signatures, and other known-bad indicators. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
+      "authors": [
+        {
+          "name": "Sponsored by Push Security",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:e25900acc416d310b5d3afdf5dc6b15b1b5a0ec3b0573e7c4fcbb6f8fbc642b2",
       "url": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests",
@@ -1168,27 +1232,6 @@
       "authors": [
         {
           "name": "Sponsored by Nudge Security",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:7e77707705a9d9e526b95fa1891e16de3de98633e6a7844089ef3c9de6b0d791",
-      "url": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks",
-      "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
-      "published_at": "2026-07-26T14:13:39Z",
-      "published_raw": "Sun, 26 Jul 2026 10:13:39 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
           "uri": "",
           "email": ""
         }

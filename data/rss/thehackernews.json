@@ -1,25 +1,52 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-05T14:01:07Z",
+  "updated_at": "2026-08-05T16:01:08Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-05T14:01:07Z",
+    "last_success_at": "2026-08-05T16:01:08Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
     {
+      "id": "sha256:45c69e058649c376d611ed04636c19bc537e8b631fcca110be2a9e62d4c81034",
+      "url": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
+      "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
+      "published_at": "2026-08-05T15:36:03Z",
+      "published_raw": "2026-08-05T21:06:03.571+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums and messaging platforms.\n\nOne such service, Poison Claude, claims to offer access to Anthropic's large language models (LLMs), including Opus 4.8, Opus 4.7, Opus 4.6, and Sonnet 4.6.\n\n\"Advertisements for Poison Claude",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1746453044227222564",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhp3V9f5UsiH1E6dHfRvy0DEOYvcK14BatMbbLVfdPjLbu3PMInRmVXDi4xoGw-pSIuxUjZS1rdv4X7N1V9xRoV9RRVfaYdAWI6OTxKZzOhAlHYh6dKZNeAWCPkaPdGAvwgcOwFQ0atoRBUxKfE_KfhJpnm1yV1tXr5_Wv2yqND0vZCMMEfRB0V220SZbne/s260-e100/ai-access.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:66d9046cc862a96644b42c0a4e68727d23e9e49fc401e1a22c69cc2c46b55e88",
       "url": "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
-      "title": "Trojanized npm Packages Decode C2 IP From Ethereum Recipient Addresses",
+      "title": "Trojanized npm Packages Employ NullReceiver Tactic to Decode C2 IP from Blockchain",
       "published_at": "2026-08-05T13:41:27Z",
       "published_raw": "2026-08-05T19:11:27.442+05:30",
       "categories": [
         "threat-intelligence"
       ],
-      "description": "Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up destination address of a completely empty Ethereum transfer.\n\nThe new dead drop resolver approach, observed in two trojanized npm package \"bianira-ui\" and \"fluid-type-ui,\" has been codenamed NullReceiver by",
+      "description": "Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up destination address of a completely empty Ethereum transfer.\n\nThe new dead drop resolver approach, observed in two trojanized npm packages \"bianira-ui\" and \"fluid-type-ui,\" has been codenamed NullReceiver by",
       "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4051960533728551416",
       "authors": [
         {
@@ -659,26 +686,53 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:e5e6a527b664ed39bd551b9793d0b47826d463c7190a1ad45f86e5c7b6e98af8",
-      "url": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
-      "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
-      "published_at": "2026-07-27T08:48:47Z",
-      "published_raw": "2026-07-27T14:18:47.599+05:30",
+      "id": "sha256:0edaefefe6d3d073166eb96f9399cf72c446f59220e04233f0ba781f505e58bd",
+      "url": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
+      "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
+      "published_at": "2026-08-05T15:14:05Z",
+      "published_raw": "2026-08-05T20:44:05.334+05:30",
       "categories": [
-        "threat-intelligence"
+        "vulnerability"
       ],
-      "description": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East.\n\nThe intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, and BINDCLOAK, according to Zscaler ThreatLabz. The cybersecurity firm said it detected the campaign earlier this month.",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-9138194787506351810",
+      "description": "Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both paths rely on importing a malicious agent and starting it.\n\nA third flaw could expose sensitive data and control-plane details through application programming interface (API) routes",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-673935668735631257",
       "authors": [
         {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
           "email": "noreply@blogger.com"
         }
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikuWOQRYm6WQ1zHmOlYkI7jlVOUUKGBIlo68iWyUVuaZ5n3i7ODu8DYpntAk2aGZQ_7LsYpXpp5v0PcQMLxP8LQOajtKl-WaDBb7_wDpo8P3-iCcAwr74JY4rXNeHJJv9h6EB447wPEnrZE08YfDO_WI9N4B_C1lPvxILfvv00Z_J8yHntLSfNYbPVCDjS/s260-e100/telegram-c2.jpg",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnNyDWyCEMrA99LxVQMqKNr188rBBjKa6Kg3nHdjVLxWCCVgfqa0cChHo_JWbHgbSLHgZVpcgWn0kw0FUySWhScczQi6LNme-wY9rkUAxE-IvoFLvfum-zWxEnppDBu6bAHBO0ObN39kCDwSK4jnsqdCAOhCPGG0FtoLX_2vvCi2DcoWPmzGUk6Hs_gB4/s260-e100/paperclipai.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:bf12718855e8aa2ad5138a0059961091e5047c7efebbc1e0e29977f5ed6f3743",
+      "url": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
+      "title": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug",
+      "published_at": "2026-08-05T14:27:30Z",
+      "published_raw": "2026-08-05T19:57:30.158+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django.\n\nThe three most serious:\n\n\n  An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5\n  A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3673785559273316714",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGDed_n3TJGLHvhq2MkwkQTsKgIv_rOw24MRfYCoHnHiOK7r-VbitMrwXXF9H_Gwbegba20Dla1FLyK70-OQRVxiHfikBFrz6jei3QK5u4ApbR4aYuLikQj1YHU2IzA1V4fnR7Wgcp8H1NoYzSeTTOUd4dNTuE71jNUNq-P4yk0H9FkW55wivMDdNe0nE/s260-e100/veeam.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1226,33 +1280,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:08772ea58b8c9e26ae3b8b54638cb5627afaeb02da8c74de9b8f50cb47940f24",
-      "url": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
-      "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
-      "published_at": "2026-07-30T07:40:48Z",
-      "published_raw": "2026-07-30T13:10:48.390+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European government entities, as well as the telecommunications, financial, hospitality, and aerospace sectors.\n\nThe activity, which began on July 22, 2026, involves the",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4732347486136030150",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAHLuK9rcrkKZxWdmWf50USFH75iYP3nViQrL7sP_6gBJUipIQfUTU0XmA2xnOTR57ZCQWd83Y2joLatEV3XVV10ph4uQV7LrrYLzDCfW4dBiDyvVtpyhD3fgrGY7J2hFbNtCzzp4CGU7DxDYCxnuzJtgCJKCMFuRxloks-iW4dXJlZADetaMQK5rZiUKF/s260-e100/outlook.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:a71a79482b5b08780929b60521457e585ead0ea19bc1ee512f63fdc43cbd0cdc",
       "url": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
       "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
@@ -1354,6 +1381,60 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqsDw-FCPzIqH_GCkBZgDD96kt0ZtwQzjSe3SOunA8WWGUTXqCB2FG_28DY0JgdD6zh07gHisKrTi2Wh5VVNAcoUMyJ9tZ_VGzPM73iid2PPg15oqKMbnRhk9CcTJlevxRQJL5Sq2MbJjYCIgQ_zOEsgyu_Jy72ubSLAvy_YK499pDr48Rp9Plh322h8_P/s260-e100/openai-breach.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:e5e6a527b664ed39bd551b9793d0b47826d463c7190a1ad45f86e5c7b6e98af8",
+      "url": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
+      "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
+      "published_at": "2026-07-27T08:48:47Z",
+      "published_raw": "2026-07-27T14:18:47.599+05:30",
+      "categories": [
+        "cyber-attack"
+      ],
+      "description": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East.\n\nThe intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, and BINDCLOAK, according to Zscaler ThreatLabz. The cybersecurity firm said it detected the campaign earlier this month.",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-9138194787506351810",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikuWOQRYm6WQ1zHmOlYkI7jlVOUUKGBIlo68iWyUVuaZ5n3i7ODu8DYpntAk2aGZQ_7LsYpXpp5v0PcQMLxP8LQOajtKl-WaDBb7_wDpo8P3-iCcAwr74JY4rXNeHJJv9h6EB447wPEnrZE08YfDO_WI9N4B_C1lPvxILfvv00Z_J8yHntLSfNYbPVCDjS/s260-e100/telegram-c2.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:08772ea58b8c9e26ae3b8b54638cb5627afaeb02da8c74de9b8f50cb47940f24",
+      "url": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
+      "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
+      "published_at": "2026-07-30T07:40:48Z",
+      "published_raw": "2026-07-30T13:10:48.390+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European government entities, as well as the telecommunications, financial, hospitality, and aerospace sectors.\n\nThe activity, which began on July 22, 2026, involves the",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4732347486136030150",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAHLuK9rcrkKZxWdmWf50USFH75iYP3nViQrL7sP_6gBJUipIQfUTU0XmA2xnOTR57ZCQWd83Y2joLatEV3XVV10ph4uQV7LrrYLzDCfW4dBiDyvVtpyhD3fgrGY7J2hFbNtCzzp4CGU7DxDYCxnuzJtgCJKCMFuRxloks-iW4dXJlZADetaMQK5rZiUKF/s260-e100/outlook.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
