@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-08-05T00:01:05Z",
+  "updated_at": "2026-08-05T02:01:04Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-08-04T22:01:12Z",
-    "last_error_at": "2026-08-05T00:01:05Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": dial tcp 211.237.5.10:443: i/o timeout (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-08-05T02:01:04Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:1d488aa9efa91e538fd0f94a692ea3fae5c1e46bc20dda43a6f7513cbada604f",
+      "url": "http://www.boannews.com/media/view.asp?idx=145023&kind=1&sub_kind=",
+      "title": "[카드뉴스] “충전기 꽂자 도시 전체 정전?”… 전기차 충전망(OCPP) 뚫려 전력망 마비되는 실체",
+      "published_at": "2026-08-05T00:45:00Z",
+      "published_raw": "Wed, 5 Aug 2026 09:45:00 +0900",
+      "categories": [],
+      "description": "개방형 충전 프로토콜(OCPP)의 인증 허점을 악용해 수천 대의 전기차 충전기를 봇넷으로 점령하는 사이버 공격 위험이 급증하고 있다. 공격자가 충전기를 동시에 고출력 가동시킬 경우, 과부하로 인해 변전소 등 물리적 인프라가 파괴되며 도시 전체 전력망이 마비되는 블랙아웃으로 이어질 수 있다. 사이버 공격에 의한 물리적 인프라 붕괴를 막기 위해 충전망 프로토콜",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[지진솔기자 (digital@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:86dd9cf5dbfe19d7ba546efe964e6d7fe12faa8a96830e941821aed82488d9d1",
       "url": "http://www.boannews.com/media/view.asp?idx=144871&kind=1&sub_kind=",
@@ -182,25 +201,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:c44f25f3103285ef4ce428f6110647e6f0685b85cc264fc8210c5df1e1334b41",
-      "url": "http://www.boannews.com/media/view.asp?idx=144894&kind=1&sub_kind=",
-      "title": "가짜 줌 미팅에 속아... 북한 블루노르프, 텔레그램 계정 탈취해 ‘릭픽스’ 유포",
-      "published_at": "2026-07-28T02:31:00Z",
-      "published_raw": "Tue, 28 Jul 2026 11:31:00 +0900",
-      "categories": [],
-      "description": "가짜 줌·MS 팀즈 링크 발송해 웹캠 화면 탈취탈취 계정 이용해 지인들에게도 피싱 확산[보안뉴스 김형근 기자] 북한 라자루스(Lazarus) 산하 블루노로프(BlueNoroff) 조직이 관련 업계 관계자의 실제 텔레그램 계정을 탈취해 피싱 공격에 악용하고 있는 것으로 나타났다. 공격자들은 탈취한 관계자의 계정을 악용해 가상자산 및 웹3 기업 고위 임직원들에",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[강현주기자 (jjoo@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:d5726aefea77fd6126a6a3b61009eb45c8784ca0f4fc5ef9c2fdfc6e6ad5af22",
       "url": "http://www.boannews.com/media/view.asp?idx=144970&kind=&sub_kind=",
       "title": "“채용하니 北 해커”... 위장 취업에 국제사회 공동 대응",
@@ -284,6 +284,25 @@
       "published_raw": "Sun, 26 Jul 2026 16:33:00 +0900",
       "categories": [],
       "description": "[보안뉴스 강현주 기자] 전기차 충전 플랫폼 채비가 해킹 공격으로 개인정보 약 30만 건이 유출됐다고 26일 공지했다. 채비는 홈페이지를 통해 지난 23일 해킹 공격으로 회원 개인정보 29만 8천여 건이 유출된 사실을 확인해 관계당국에 신고했다고 밝혔다.공지에 따르면 유출된 개인정보 가운데 이메일 주소만 유출된 경우가 16만5000 건으로 가장 많았다. 일",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[강현주기자 (jjoo@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:c44f25f3103285ef4ce428f6110647e6f0685b85cc264fc8210c5df1e1334b41",
+      "url": "http://www.boannews.com/media/view.asp?idx=144894&kind=1&sub_kind=",
+      "title": "가짜 줌 미팅에 속아... 북한 블루노르프, 텔레그램 계정 탈취해 ‘릭픽스’ 유포",
+      "published_at": "2026-07-28T02:31:00Z",
+      "published_raw": "Tue, 28 Jul 2026 11:31:00 +0900",
+      "categories": [],
+      "description": "가짜 줌·MS 팀즈 링크 발송해 웹캠 화면 탈취탈취 계정 이용해 지인들에게도 피싱 확산[보안뉴스 김형근 기자] 북한 라자루스(Lazarus) 산하 블루노로프(BlueNoroff) 조직이 관련 업계 관계자의 실제 텔레그램 계정을 탈취해 피싱 공격에 악용하고 있는 것으로 나타났다. 공격자들은 탈취한 관계자의 계정을 악용해 가상자산 및 웹3 기업 고위 임직원들에",
       "feed_id": "",
       "authors": [
         {
