@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-05T10:01:11Z",
+  "updated_at": "2026-08-05T12:01:07Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-05T10:01:11Z",
+    "last_success_at": "2026-08-05T12:01:07Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:716e0f587a9c7e8e7c69a62d1491a2766949b02521e83489c4b42cf3801bfb54",
+      "url": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
+      "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
+      "published_at": "2026-08-05T11:43:19Z",
+      "published_raw": "2026-08-05T17:13:19.362+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Kali365 is turning a legitimate Microsoft login into a gateway to corporate data.\n\nThe phishing kit targets US organizations with attacker-controlled device codes that victims approve on Microsoft's real authentication page. Once access and refresh tokens are issued, attackers may retain access to email, documents, and cloud resources, creating a direct path to data exposure, financial fraud,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6123173526727841429",
+      "authors": [
+        {
+          "name": "Unknown",
+          "uri": "",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW4SMtq8o2R4j-NiqM2jQTNNSKABhkghGsH1AkUpqHf7sms7KTAr63IKabEzV2vAfAFO3XxYjh6YH8rDNtNVuu41JePoUdB_WQB-WWtJt4A-FWfmT6rwyzKAL_scAorwzVMt5R_7LZp2qzmUAAKfAodH__3_HLwa-nFV6b6TEng-5Cjviybn07c-ZNKUoU/s260-e100/main-anyrun.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:81a8a88680d37b170d3ccf6bc24b0c5aef6583cf32a84a18fc980273db5fcf8b",
       "url": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
@@ -632,6 +659,60 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:8cfe78538442a3b78be2b58ec0acc4fc4e075bfebc1de006529bb8e73e6b4fe8",
+      "url": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
+      "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
+      "published_at": "2026-08-05T11:43:27Z",
+      "published_raw": "2026-08-05T17:13:27.215+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-built records for roughly 800 kernel builds.\n\nThe vulnerability, tracked as CVE-2026-64531 (CVSS score: 7.8) and codenamed OVSwrap by its discoverer, was disclosed by security researcher Asim",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3996384304080053914",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhWC9UfjMK9e0KvUrcCjymLYZzuDDgZpArW3oZPtcds7CJ1pr1GleT46Wlm2_aWWpoe6TpgYcdnz_jhVOgjK6mnW_gekJkMotmfRiQ0xcp5v7mdx6CvVvUID0IyfSplGHGX-8JGoMJ1OLyEA96qVMTWwhEjKf21thNfvkBCg2DSgNjSkVEDyAugdcyJfk/s260-e100/linux-exploit.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:53e4a2d1364299370a26d925798da07131943729ec7aea4434d13b35960ddc55",
+      "url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+      "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+      "published_at": "2026-08-05T11:04:23Z",
+      "published_raw": "2026-08-05T16:34:23.792+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1.\n\nThe file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-9066459155520096458",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwgShwk2piIWpgBCF7ikGum0q7QycFbG91NuOiXNj4iRw_Uya_1R53Mx53EcLELS4lEusFjCYxTZuD0vf1VbGdXJ6rM9zq2OuNMsP20bbATKOaMUYbu9vWRbAJUQX436hP4vWvwc-jy1sWdoIIph0Uf93XMVImu-OIKnOMBUOYptMtoK9nAsP4yo48AtM/s260-e100/gitea-lfi.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:df47d13d8d896952ed574eb2d8872c90227f2778ca47922fae3c79c68d0fa5c4",
       "url": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
       "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
@@ -1145,60 +1226,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:527dcbd9b53cc56f3c09be5ba2b956caccda880a351c4c6ea429871bb1584354",
-      "url": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
-      "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
-      "published_at": "2026-07-30T07:28:43Z",
-      "published_raw": "2026-07-30T12:58:43.796+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "The Federal Communications Commission (FCC) added foreign-produced mobile robots and networked power inverters to its Covered List on July 28. The move generally prevents new models from receiving the equipment authorization required for import, marketing, or sale in the US.\n\nPreviously authorized models can still be sold, and devices people already own are unaffected. Federal purchases and use",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-230456856184194822",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipannhqI3vkI628-oBoMbtwDDVE4F2PpVmxVM9d10AE06EVVwZzrBde5sTZTddm_89YUCUkfopYwqVzuk2Y8I4g84Ete1SQLvrQ2gA8FVxyCt952gNJpTmXpReLiZZ6EIv33zLjDTFI-_KLydIHDGoIDkbv1ptGTXLdVf6NyeaKeWEEWX4yNsxx46-zyY/s260-e100/robots.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:5b323651846af4f48bd2f7e2950f6d90faa99ede356f99eec145c47f8c3bdc26",
-      "url": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
-      "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
-      "published_at": "2026-07-30T05:08:39Z",
-      "published_raw": "2026-07-30T10:38:39.165+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation.\n\nThe vulnerability, assigned CVE-2026-20316 (CVSS score: 5.3), could permit an unauthenticated, remote attacker to log",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5703622199882049761",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFSDmsE6q7010reBwpOwS1ESkJSxlBlgRBbtjEVAdeClQFAkRfpriRQWUpL0Br8xnFdF1mctv4Ttj1Nv77MMIKm9qlNehPtTLYzOQwcZAWR4Vw1HzjAvItevYjwQkUo_2JNRluc2_OeJ3vOZ-P8meai9NLLWBvothfh7GDqoOpMPmKpOO-hjAeY-Pxa-BV/s260-e100/cisco.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:a71a79482b5b08780929b60521457e585ead0ea19bc1ee512f63fdc43cbd0cdc",
       "url": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
       "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
@@ -1300,6 +1327,60 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqsDw-FCPzIqH_GCkBZgDD96kt0ZtwQzjSe3SOunA8WWGUTXqCB2FG_28DY0JgdD6zh07gHisKrTi2Wh5VVNAcoUMyJ9tZ_VGzPM73iid2PPg15oqKMbnRhk9CcTJlevxRQJL5Sq2MbJjYCIgQ_zOEsgyu_Jy72ubSLAvy_YK499pDr48Rp9Plh322h8_P/s260-e100/openai-breach.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:527dcbd9b53cc56f3c09be5ba2b956caccda880a351c4c6ea429871bb1584354",
+      "url": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
+      "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
+      "published_at": "2026-07-30T07:28:43Z",
+      "published_raw": "2026-07-30T12:58:43.796+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "The Federal Communications Commission (FCC) added foreign-produced mobile robots and networked power inverters to its Covered List on July 28. The move generally prevents new models from receiving the equipment authorization required for import, marketing, or sale in the US.\n\nPreviously authorized models can still be sold, and devices people already own are unaffected. Federal purchases and use",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-230456856184194822",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipannhqI3vkI628-oBoMbtwDDVE4F2PpVmxVM9d10AE06EVVwZzrBde5sTZTddm_89YUCUkfopYwqVzuk2Y8I4g84Ete1SQLvrQ2gA8FVxyCt952gNJpTmXpReLiZZ6EIv33zLjDTFI-_KLydIHDGoIDkbv1ptGTXLdVf6NyeaKeWEEWX4yNsxx46-zyY/s260-e100/robots.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:5b323651846af4f48bd2f7e2950f6d90faa99ede356f99eec145c47f8c3bdc26",
+      "url": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
+      "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
+      "published_at": "2026-07-30T05:08:39Z",
+      "published_raw": "2026-07-30T10:38:39.165+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation.\n\nThe vulnerability, assigned CVE-2026-20316 (CVSS score: 5.3), could permit an unauthenticated, remote attacker to log",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5703622199882049761",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFSDmsE6q7010reBwpOwS1ESkJSxlBlgRBbtjEVAdeClQFAkRfpriRQWUpL0Br8xnFdF1mctv4Ttj1Nv77MMIKm9qlNehPtTLYzOQwcZAWR4Vw1HzjAvItevYjwQkUo_2JNRluc2_OeJ3vOZ-P8meai9NLLWBvothfh7GDqoOpMPmKpOO-hjAeY-Pxa-BV/s260-e100/cisco.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
