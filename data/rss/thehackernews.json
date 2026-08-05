@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-05T18:01:07Z",
+  "updated_at": "2026-08-05T20:01:15Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-05T18:01:07Z",
+    "last_success_at": "2026-08-05T20:01:15Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:f35a2396c40124f822cb24889e849e983766f7214b99f2ef949087d18847ce8d",
+      "url": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
+      "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
+      "published_at": "2026-08-05T18:44:31Z",
+      "published_raw": "2026-08-06T00:14:31.948+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on infrastructure it had been watching for weeks.\n\nThe server-side gate hides the malicious page from crawlers and sandboxes while presenting selected Mac users with a fake software download. Microsoft",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8612379732945900694",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzEMAtBAmz-q78zPppsCxMiU-EtelOA3FQy_T6Qzb9KpWEsc9wNMT1f_dDjf65q2W_nrioQ033KClusfHFXexSM8V30mReU5V3nbRY4W0_F3cg2ehG51P1nnWa1iKiGX3hJ_yUUYLF92TanEEE0HifpkzdqRQeqe8qFYXq0SPRx6pW9IrfS7sK_lPzWRM/s260-e100/mackos-finger.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:45c69e058649c376d611ed04636c19bc537e8b631fcca110be2a9e62d4c81034",
       "url": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
@@ -652,33 +679,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ69OB4Ww_Yj5rfCn7WOwEue0i4sxEuvzaqGj1v71E-W52Q6DDfFRKpesydsd2bD9_QQVghes677fGD0S-PJpJQOz10JYs_NV6wv5peadJtT-dbxFzl7eMqaavlrBl0OfePVtGIm9WvI-rEAAUcDqdFdYcBF6ByDv4iPSCzLZgbuzg0Nb-ASL0uzTb90Ag/s260-e100/teams-malware.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:7c7cdda876d9d9477d44c6233981d844490682693de9edcc2f0e8dd71fbd260c",
-      "url": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
-      "title": "Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware",
-      "published_at": "2026-07-27T10:51:45Z",
-      "published_raw": "2026-07-27T16:21:45.614+05:30",
-      "categories": [
-        "threat-intelligence"
-      ],
-      "description": "The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed using a sophisticated crypter service called Cruciferra.\n\nAccording to a new analysis by Proofpoint, Cruciferra has been utilized by various unrelated cybercriminal threat clusters to deliver a wide array of remote",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7792642264553971702",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBorVFXLroQ9D9Ao8QPsDAQpmoMeD2ciyHIBw3YYRHLBLAeDIjFZ6V9lzrrtmNq3KrIRqHhJUfKAx2sXIsMYCjyFzRV9awIVSLOuujkMY8hOeUkaNlFgM421aS8pVQaiLmjwKcNNLy5TcU389YEAPfCnB8uVeFtUY9BCJ0lz4IjQoD2UZp9pVDP7IzLurf/s260-e100/malware-hacker.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1408,6 +1408,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikuWOQRYm6WQ1zHmOlYkI7jlVOUUKGBIlo68iWyUVuaZ5n3i7ODu8DYpntAk2aGZQ_7LsYpXpp5v0PcQMLxP8LQOajtKl-WaDBb7_wDpo8P3-iCcAwr74JY4rXNeHJJv9h6EB447wPEnrZE08YfDO_WI9N4B_C1lPvxILfvv00Z_J8yHntLSfNYbPVCDjS/s260-e100/telegram-c2.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:7c7cdda876d9d9477d44c6233981d844490682693de9edcc2f0e8dd71fbd260c",
+      "url": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
+      "title": "Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware",
+      "published_at": "2026-07-27T10:51:45Z",
+      "published_raw": "2026-07-27T16:21:45.614+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed using a sophisticated crypter service called Cruciferra.\n\nAccording to a new analysis by Proofpoint, Cruciferra has been utilized by various unrelated cybercriminal threat clusters to deliver a wide array of remote",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7792642264553971702",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBorVFXLroQ9D9Ao8QPsDAQpmoMeD2ciyHIBw3YYRHLBLAeDIjFZ6V9lzrrtmNq3KrIRqHhJUfKAx2sXIsMYCjyFzRV9awIVSLOuujkMY8hOeUkaNlFgM421aS8pVQaiLmjwKcNNLy5TcU389YEAPfCnB8uVeFtUY9BCJ0lz4IjQoD2UZp9pVDP7IzLurf/s260-e100/malware-hacker.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
