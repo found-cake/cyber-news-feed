@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-05T06:01:12Z",
+  "updated_at": "2026-08-05T08:01:06Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-05T06:01:12Z",
+    "last_success_at": "2026-08-05T08:01:06Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -632,6 +632,33 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:df47d13d8d896952ed574eb2d8872c90227f2778ca47922fae3c79c68d0fa5c4",
+      "url": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
+      "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
+      "published_at": "2026-08-05T07:40:39Z",
+      "published_raw": "2026-08-05T13:10:39.992+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild.\n\nThe list of vulnerabilities is as follows -\n\n\n  CVE-2026-9198 (CVSS score: 9.8) - A code injection vulnerability in Langflow that allows unauthenticated attackers to achieve full remote",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5349629700208609198",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU9CZ3zh4mWF0SVRdcylBR7IyGB6j797LrHqyND8vcsBbiE6mcDlqaufSOBg2Av4Ej_HZ_gMxbzR-KS6GvXX0hLPgSFlh5gwxKwhjx3FvcdsQ7XP65x70cxeadgTM7uETFglAUoZrxwq9Rmx6i1T4yS-E7c7Szx9igRmM_GqG-8L5xfKYk2i3fhQGEHjez/s260-e100/cisa.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:06b31a39b35c050a4faead51c1cd19e7635dcc786db67ecda5503a3c0da111ca",
       "url": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
       "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
@@ -1172,33 +1199,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:5226afe42a903f3d903c66bb3448ffefb7ac2fba0ffdb692d1c5c93c7c2f9e11",
-      "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
-      "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
-      "published_at": "2026-07-29T18:10:00Z",
-      "published_raw": "2026-07-29T23:40:00.590+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads.\n\nTracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials,",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4769253413210293736",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjswJ2Clfk448ySFwyQiVVviqzKzT4B9iwnvVio4_dzvA1TXPnNuDJUI8MozBddPvdWmL2JH3jVvzTxg8A2Z6X9qNPYtxjuVx7RKQkMW8vNVBIEs0sgcrLfywQVufYMEKpxa0vgo2k24bNa_EJaudCFTsvlqQKqbT3jsuzRJdI26GR4pRJrkNKAFx_xiKk/s260-e100/rubyrails.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:a71a79482b5b08780929b60521457e585ead0ea19bc1ee512f63fdc43cbd0cdc",
       "url": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
       "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
@@ -1300,6 +1300,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqsDw-FCPzIqH_GCkBZgDD96kt0ZtwQzjSe3SOunA8WWGUTXqCB2FG_28DY0JgdD6zh07gHisKrTi2Wh5VVNAcoUMyJ9tZ_VGzPM73iid2PPg15oqKMbnRhk9CcTJlevxRQJL5Sq2MbJjYCIgQ_zOEsgyu_Jy72ubSLAvy_YK499pDr48Rp9Plh322h8_P/s260-e100/openai-breach.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:5226afe42a903f3d903c66bb3448ffefb7ac2fba0ffdb692d1c5c93c7c2f9e11",
+      "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+      "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+      "published_at": "2026-07-29T18:10:00Z",
+      "published_raw": "2026-07-29T23:40:00.590+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads.\n\nTracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4769253413210293736",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjswJ2Clfk448ySFwyQiVVviqzKzT4B9iwnvVio4_dzvA1TXPnNuDJUI8MozBddPvdWmL2JH3jVvzTxg8A2Z6X9qNPYtxjuVx7RKQkMW8vNVBIEs0sgcrLfywQVufYMEKpxa0vgo2k24bNa_EJaudCFTsvlqQKqbT3jsuzRJdI26GR4pRJrkNKAFx_xiKk/s260-e100/rubyrails.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
