@@ -1,15 +1,99 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-06T14:01:13Z",
+  "updated_at": "2026-08-06T20:01:06Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-06T14:01:13Z",
+    "last_success_at": "2026-08-06T20:01:06Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:71033428794f3f1130671992814ecc899b0ba9d5e848699a40ffaf05e8c0f406",
+      "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts",
+      "title": "Swiss government SharePoint breach compromised 200 accounts",
+      "published_at": "2026-08-06T18:14:19Z",
+      "published_raw": "Thu, 06 Aug 2026 14:14:19 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:3b0f7767ae7c7cadbfab7736fac2c34aa5fc693e9412c3a329289b407f1d15f5",
+      "url": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes",
+      "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
+      "published_at": "2026-08-06T18:03:45Z",
+      "published_raw": "Thu, 06 Aug 2026 14:03:45 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
+      "authors": [
+        {
+          "name": "Ionut Ilascu",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:60aa66e21a76414c2d1a9f0af60c7aade0eeed887917a5bbd830ee942eb4f4be",
+      "url": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test",
+      "title": "Meta AI model hacked a company during misconfigured cyber test",
+      "published_at": "2026-08-06T16:11:39Z",
+      "published_raw": "Thu, 06 Aug 2026 12:11:39 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Meta has become the latest AI company to confirm that one of its models hacked a real organization during cybersecurity testing, as similar incidents continue to emerge following OpenAI'sOpenAI's initial disclosure that its agents breached Hugging Face. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/",
+      "authors": [
+        {
+          "name": "Lawrence Abrams",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:95b8f265ffb49ef85c85ec0a85bdf69d9f307b89ab7dca08acc38c294f798740",
+      "url": "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore",
+      "title": "How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore",
+      "published_at": "2026-08-06T14:02:12Z",
+      "published_raw": "Thu, 06 Aug 2026 10:02:12 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "AI did not create a new browser security problem. It exposed one that enterprises have long been able to ignore. Skyhigh Security explains why browsers have become a critical control point for governing data movement, AI interactions, and modern work. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/",
+      "authors": [
+        {
+          "name": "Sponsored by Skyhigh Security",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:dfd55b0fc6548042c45b3c70d3e5870968c48d7d51f87f0bbb7ac2c8ecf45722",
       "url": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison",
@@ -1228,70 +1312,6 @@
       ],
       "description": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:73309cda8781ccd51f4e0845ec9a38a9fbbe0e31606671f23cddc4e949dcfd9b",
-      "url": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin",
-      "title": "Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin",
-      "published_at": "2026-07-27T17:29:07Z",
-      "published_raw": "Mon, 27 Jul 2026 13:29:07 -0400",
-      "categories": [
-        "security",
-        "Apple"
-      ],
-      "description": "Apple is being sued by three people who claim approximately $1.8 million in Bitcoin was stolen after downloading and using a fraudulent Sparrow Wallet application from the App Store. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:0859a1a65a2dd1d7210f5044988a7394b334e5088748be4aed7b11a785043483",
-      "url": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack",
-      "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
-      "published_at": "2026-07-27T15:39:51Z",
-      "published_raw": "Mon, 27 Jul 2026 11:39:51 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:d899b349a43a8203499ed377789ff635052fcf77faa4088094d5ef9de289af25",
-      "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang",
-      "title": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
-      "published_at": "2026-07-27T15:12:27Z",
-      "published_raw": "Mon, 27 Jul 2026 11:12:27 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
       "authors": [
         {
           "name": "Lawrence Abrams",
