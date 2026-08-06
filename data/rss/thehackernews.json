@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-06T10:01:12Z",
+  "updated_at": "2026-08-06T12:01:14Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-06T10:01:12Z",
+    "last_success_at": "2026-08-06T12:01:14Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -686,6 +686,60 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:4f4e67e509edb3c0d493c0d4d407aa700fb74d1e94ca7502c5490fe0f9983d0f",
+      "url": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
+      "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
+      "published_at": "2026-08-06T11:49:48Z",
+      "published_raw": "2026-08-06T17:19:48.267+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Coinspect has identified CryptoJS.lib.WordArray.random() as the weak random number generator behind the Ill Bloom wallet drains.\n\nIntroduced in the JavaScript cryptography library 12 years ago, the function supplied weak entropy that affected wallet apps used to generate recovery phrases. Coinspect's on-chain analysis puts the measured theft across two sweeps since late May at a lower bound of",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8599014417801833589",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOLyOOoRbj7XXsr5asbHmKbRetYhjWcAZap4b6VUBQ3ENWpeB46A78vztXFJGUDMDHNskXyUMH6yu9Quv-WLut657FS4Dk4-SICypcAVTLuI7fYUxC7Y4qEUI6A8NMIS-GZ8KkzjRULoNZAPD1TIamWyp-T5vgrjMDQKMD0lmR6pZU8P4VeOwWEo7KxWA/s260-e100/CRYPTOJS.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:73f30e8ce33026a3376e8b9cdf14f4a398ba39a144c2c7301273f769ca09cefb",
+      "url": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
+      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
+      "published_at": "2026-08-06T11:33:08Z",
+      "published_raw": "2026-08-06T17:03:08.424+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address.\n\nIntroduced with iOS 15, iCloud Private Relay employs a dual-hop architecture to ensure users' privacy by routing their Safari web traffic through two relays so that no single third-party, including Apple, can determine where the request is originating from",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6218282711769729277",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi53VbynsVNPTCihg9qrqybX7Yu90yM3Tm7KlJnJCHz2_MOUQPyJys1uK6H5QkVqxGekck8qe-pA55tcy19IDYQ4_ndOKasvoaFiPJCI_NJClfHv6G14Ga5P_FPr0zyNijjRMBM-GBlt-XYRqCGAcrZxm9ETsAAu4kPh829ZKABQonHDlx2GuWG9-B-V383/s260-e100/apple-relay.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:4c338a28ee4465db8153a5a71145a2e37b6cf1833a9f628193176b7769d5de71",
       "url": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
       "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
@@ -1226,60 +1280,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:82d450915eb17be12ff549f777c57df68ddba25c5f5caf71975de8108f370106",
-      "url": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
-      "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
-      "published_at": "2026-07-31T06:41:44Z",
-      "published_raw": "2026-07-31T12:11:44.053+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organizations during cybersecurity testing without its knowledge.\n\nThe AI firm said the earliest incidents date back to April 2026, adding it made the discoveries after launching a \"",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2269397007642837659",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ3hIjH82iCzMILnA0uACotjW9waDLj4siTRhyphenhyphenBSiVyis0Ul0j7-7FcWyDzmCAzZPLJ72iYRezpbd9dUAB_UMw5G4eMBRwph0Sb_aQr9yCRXeLXAkjGiNFekM_qDtOZNFsSk6LLC81Ef74JaqIrcJN58-5p2ShHmUuhKC1IYeVgpQ7D76NWXLnR44RN6G6/s260-e100/claude.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:c6d3aa7464e49af64f8ae73ef789cbc4ea51b42864278a95096acf5b852ecd04",
-      "url": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
-      "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
-      "published_at": "2026-07-30T15:25:57Z",
-      "published_raw": "2026-07-30T20:55:57.720+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "A lot of security still comes down to trusting the wrong screen.\n\nThis week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credentials, exposed systems, quiet loaders, abused trust, and exploit paths that should have been harder.\n\nSome defenses improved. The loose parts still got found first. Anyway,",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5169757105437407299",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNfPEjoHY1NDIrmCVPaZ_dmWbOk0MZwMlh6Odxpqfchn-5rOvsj4PhaBZs4LJvoj5iXhgbBTZzKCNYOPbblXU6kSnVNxEfQER6bNIuhROsSBTrhS6P_mPySTbAS5CvbYgu7lOANl0C6YuLR92om_sS_-9skmNqYT4BDmy_07cTMVj75vUUES70gPicrgGW/s260-e100/threatsday.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:ee969749e0fc37aac1b848cfd6dde84366928c374497e4dc73471fabe77d8c22",
       "url": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
       "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
@@ -1415,6 +1415,60 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:82d450915eb17be12ff549f777c57df68ddba25c5f5caf71975de8108f370106",
+      "url": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+      "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
+      "published_at": "2026-07-31T06:41:44Z",
+      "published_raw": "2026-07-31T12:11:44.053+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organizations during cybersecurity testing without its knowledge.\n\nThe AI firm said the earliest incidents date back to April 2026, adding it made the discoveries after launching a \"",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2269397007642837659",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ3hIjH82iCzMILnA0uACotjW9waDLj4siTRhyphenhyphenBSiVyis0Ul0j7-7FcWyDzmCAzZPLJ72iYRezpbd9dUAB_UMw5G4eMBRwph0Sb_aQr9yCRXeLXAkjGiNFekM_qDtOZNFsSk6LLC81Ef74JaqIrcJN58-5p2ShHmUuhKC1IYeVgpQ7D76NWXLnR44RN6G6/s260-e100/claude.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:c6d3aa7464e49af64f8ae73ef789cbc4ea51b42864278a95096acf5b852ecd04",
+      "url": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
+      "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
+      "published_at": "2026-07-30T15:25:57Z",
+      "published_raw": "2026-07-30T20:55:57.720+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "A lot of security still comes down to trusting the wrong screen.\n\nThis week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credentials, exposed systems, quiet loaders, abused trust, and exploit paths that should have been harder.\n\nSome defenses improved. The loose parts still got found first. Anyway,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5169757105437407299",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNfPEjoHY1NDIrmCVPaZ_dmWbOk0MZwMlh6Odxpqfchn-5rOvsj4PhaBZs4LJvoj5iXhgbBTZzKCNYOPbblXU6kSnVNxEfQER6bNIuhROsSBTrhS6P_mPySTbAS5CvbYgu7lOANl0C6YuLR92om_sS_-9skmNqYT4BDmy_07cTMVj75vUUES70gPicrgGW/s260-e100/threatsday.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:c286bac49280d314b3ca26c4f6153c498f802a2dcd9530c48a1653469ef2102d",
       "url": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
       "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
@@ -1489,33 +1543,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGU7u7ESWcaN4Xy7bCwiH5yVHsr1vMjqCu05UKJ7c4tsJ4gSRsQXwg-WOe69VD1dLiRuf9FC3HTcjp1ia1NZPPg85MUmHz2TCOplJKSC002w7OMu0X9KWtXTN0MljVt88tQlfABhP7p4pnndpOJoplI5fnqheI8LZwBp623A6gx1HyurT4ZBHRSSils1g/s260-e100/south-korea.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:7c7cdda876d9d9477d44c6233981d844490682693de9edcc2f0e8dd71fbd260c",
-      "url": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
-      "title": "Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware",
-      "published_at": "2026-07-27T10:51:45Z",
-      "published_raw": "2026-07-27T16:21:45.614+05:30",
-      "categories": [
-        "threat-intelligence"
-      ],
-      "description": "The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed using a sophisticated crypter service called Cruciferra.\n\nAccording to a new analysis by Proofpoint, Cruciferra has been utilized by various unrelated cybercriminal threat clusters to deliver a wide array of remote",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7792642264553971702",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBorVFXLroQ9D9Ao8QPsDAQpmoMeD2ciyHIBw3YYRHLBLAeDIjFZ6V9lzrrtmNq3KrIRqHhJUfKAx2sXIsMYCjyFzRV9awIVSLOuujkMY8hOeUkaNlFgM421aS8pVQaiLmjwKcNNLy5TcU389YEAPfCnB8uVeFtUY9BCJ0lz4IjQoD2UZp9pVDP7IzLurf/s260-e100/malware-hacker.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
