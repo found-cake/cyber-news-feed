@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-07T10:00:52Z",
+  "updated_at": "2026-08-07T12:00:49Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-07T10:00:52Z",
+    "last_success_at": "2026-08-07T12:00:49Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -578,26 +578,26 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:3961ed94abdabaf2dc6b241ccb4a4cb9a75b951b02660d97871a63c3b4f7e2ad",
-      "url": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
-      "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
-      "published_at": "2026-07-28T11:55:20Z",
-      "published_raw": "2026-07-28T17:25:20.341+05:30",
+      "id": "sha256:897a98755e75ee3ffcc0387b88b07237b13fc9bd132793d3a3bbc0ab49859561",
+      "url": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
+      "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
+      "published_at": "2026-08-07T11:10:33Z",
+      "published_raw": "2026-08-07T16:40:33.767+05:30",
       "categories": [
-        "threat-intelligence"
+        "vulnerability"
       ],
-      "description": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South Asia.\n\nThe intrusions involve the use of a previously undocumented Windows backdoor called NightLedger and two custom WebSocket tunnelers,",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1908561438884884460",
+      "description": "A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath.\n\nThe flaw has existed since 2008. The fix already shipped: stable kernels 7.1.6, 6.18.42, 6.12.101 and 6.6.148, released August 3, close it. Anyone running an older kernel with SCTP reachable should update.",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5578660910271229183",
       "authors": [
         {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
           "email": "noreply@blogger.com"
         }
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-Whbx97t7xBrrpM26fYSbwg29hdKR8zskNLIwlrWC0Jd3Rrf4INhiCTI3WMw8NzmJ1iETQlt-CKdUxBzL2hef4pgQBOoI1rrrtRbU96hJRUXtTGy5dT40mP2B1AshyphenhyphenM4mc1K1-IISWwY6PSPyGXNBHplHM8kuxX9e5Di6RmMybyO2Q7Guu__CK8jOOkja/s260-e100/proxy.jpg",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmTGemKyDLZPr_sBbt2AdOQMEBEcRFzic8_Ddtkx92vtPOfFdoiwxJ60b00usecTjHuIGUJuUIR2aB8MU2P7-GLc0NOuWsa3ctofrA2-wD38wgI4Fke3moSskWjiRJEXT8Yxl7Ye56NgGl9DZKr8zf974rHRsc1PtHie_iIPVyD18HMx49S02tGZ2EeDY/s260-e100/linux-sctp.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -608,8 +608,8 @@
       "id": "sha256:db7fd783f4de3ba0565565c4711cd7e3c122ac45e93092d1bed50afcad9c2029",
       "url": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
       "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
-      "published_at": "2026-08-07T09:32:57Z",
-      "published_raw": "2026-08-07T15:02:57.151+05:30",
+      "published_at": "2026-08-07T10:58:38Z",
+      "published_raw": "2026-08-07T16:28:38.291+05:30",
       "categories": [
         "vulnerability"
       ],
@@ -625,6 +625,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx8dmEkj0rsX2NREBfPOczKn7zadWRaVVOyVPVeaCPzCDdBAPhocCwP1CVbX_p1pj4Q7DVYsdusvWc9u9G7lO4BGYihT6BXnXY099zIs1B1PBefH71cXCHZucxaG2gEzqKdf9B3FVr9MJ34SntVezm4gNXWSxIMF05DpYUNF6qmfhb0hMiyNpsWDOtuRE/s260-e100/NatJack.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:862642bee841f0265480a7c64a273d532a62d63a2cb440276aec2147ea8e19d9",
+      "url": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+      "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
+      "published_at": "2026-08-07T10:09:54Z",
+      "published_raw": "2026-08-07T15:39:54.612+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors.\n\nPortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8411459252197294869",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgynSSg0CZ1sssmMR8F0u09LmQ82liuj5nt2aor3klmi-xPcKTmalo4JLFQ7jd2mU9Ycnltsrnw2MiVVjmlT-wcYR74Ob7NMN31KNnny14lqVRdrmj30r3yqTSxapzCmQPk9lPG7v9GDSVKQwE4ufB-jWfsx1lc2O5GNd0bHd5M6FbMNah3dcLzu2EAFXo/s260-e100/Desync.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1226,60 +1253,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:5c95936bd15988709385d25ba539ba834d4d686d8fb173aea2b4937c7288a556",
-      "url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
-      "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
-      "published_at": "2026-08-03T16:15:13Z",
-      "published_raw": "2026-08-03T21:45:13.685+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances.\n\nIn a report published over the weekend, Resecurity said it observed the INC Ransomware accelerating its activity since the beginning of August 2026, listing multiple victims on its data leak site. Per",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5440525949101921090",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghC22v1WIfuZutm_-lxuOPzdipffNmYvZ5KA9l_AUg-8EgQr9Gy0ouYijU_Vab5m5aIpGChViq6kpC4_h1fZfjBw415YHCINhU9GXTkil94vJv_Ct241xptfhjyt34cV348Q5VHlRVlKSj32-uj1u0PocPhDf9CBYuhFfPhvLjiHTqPYOPZBpXUyhiAe5Q/s260-e100/sonicwall-ransomware.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:05bc9225a21d8a356b799bc82576e53797c446018dcf14d48ef91e0ad78a7fb3",
-      "url": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
-      "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
-      "published_at": "2026-08-03T14:03:11Z",
-      "published_raw": "2026-08-03T19:33:11.026+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows all gave away more than intended.\n\nSome of it was clever. Most of it was just access left lying around: old bugs, exposed gear, poisoned dependencies, weak defaults, and tooling that moved from",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-399700346133976461",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoiIM6TX9TShDQoVLnmGNE_LZPas3bK4cwsNviskgSjdFASOmzcJPOixde9rkt0uawGd5D5IRHc09j5etqie865lUafh95s-TggQm3PluElF3XhILbJUCkl6vJy6lAM5FSu0GBNu6eWHcVzH7d9X86fvxOjnhwylSgakxghEq_05FsWzZ8mSVMHWYr5HBS/s260-e100/weeklyrecap.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:ee969749e0fc37aac1b848cfd6dde84366928c374497e4dc73471fabe77d8c22",
       "url": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
       "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
@@ -1408,6 +1381,60 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqsDw-FCPzIqH_GCkBZgDD96kt0ZtwQzjSe3SOunA8WWGUTXqCB2FG_28DY0JgdD6zh07gHisKrTi2Wh5VVNAcoUMyJ9tZ_VGzPM73iid2PPg15oqKMbnRhk9CcTJlevxRQJL5Sq2MbJjYCIgQ_zOEsgyu_Jy72ubSLAvy_YK499pDr48Rp9Plh322h8_P/s260-e100/openai-breach.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:5c95936bd15988709385d25ba539ba834d4d686d8fb173aea2b4937c7288a556",
+      "url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
+      "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
+      "published_at": "2026-08-03T16:15:13Z",
+      "published_raw": "2026-08-03T21:45:13.685+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances.\n\nIn a report published over the weekend, Resecurity said it observed the INC Ransomware accelerating its activity since the beginning of August 2026, listing multiple victims on its data leak site. Per",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5440525949101921090",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghC22v1WIfuZutm_-lxuOPzdipffNmYvZ5KA9l_AUg-8EgQr9Gy0ouYijU_Vab5m5aIpGChViq6kpC4_h1fZfjBw415YHCINhU9GXTkil94vJv_Ct241xptfhjyt34cV348Q5VHlRVlKSj32-uj1u0PocPhDf9CBYuhFfPhvLjiHTqPYOPZBpXUyhiAe5Q/s260-e100/sonicwall-ransomware.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:05bc9225a21d8a356b799bc82576e53797c446018dcf14d48ef91e0ad78a7fb3",
+      "url": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
+      "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
+      "published_at": "2026-08-03T14:03:11Z",
+      "published_raw": "2026-08-03T19:33:11.026+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows all gave away more than intended.\n\nSome of it was clever. Most of it was just access left lying around: old bugs, exposed gear, poisoned dependencies, weak defaults, and tooling that moved from",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-399700346133976461",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoiIM6TX9TShDQoVLnmGNE_LZPas3bK4cwsNviskgSjdFASOmzcJPOixde9rkt0uawGd5D5IRHc09j5etqie865lUafh95s-TggQm3PluElF3XhILbJUCkl6vJy6lAM5FSu0GBNu6eWHcVzH7d9X86fvxOjnhwylSgakxghEq_05FsWzZ8mSVMHWYr5HBS/s260-e100/weeklyrecap.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
