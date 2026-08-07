@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-08-07T08:00:51Z",
+  "updated_at": "2026-08-07T10:00:52Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-07T08:00:51Z",
+    "last_success_at": "2026-08-07T10:00:52Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:75f97d83bad0118ff6777159f5e9aa7a1c51feb07a2b3a5377d5edea0e47643f",
+      "url": "http://www.boannews.com/media/view.asp?idx=145071&kind=1&sub_kind=",
+      "title": "[카드뉴스] 무료 선물 링크의 덫… 방화벽 뚫고 들어오는 사이버 공격 실체",
+      "published_at": "2026-08-07T08:19:00Z",
+      "published_raw": "Fri, 7 Aug 2026 17:19:00 +0900",
+      "categories": [],
+      "description": "무료 리소스 링크 등을 가장한 트로이 목마형 악성코드 유입과 사회공학적 공격이 기업 디지털 자산을 심각하게 위협하고 있다. 단순 경계망 방화벽을 넘어 엔드포인트 백신 모듈, 익명성 제어 기술, 무결성 점검이 결합된 다층 방어 체계 구축이 요구된다. 기업은 사이버 위협의 유입을 원천 차단하고 사내 네트워크를 보호하기 위해 상시 단말 무결성 점검과 통합 보안",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[지진솔기자 (digital@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:5a9014ca22f730841da82a95569f3057b207d4155bb548644759ac1e2f6b0f73",
       "url": "http://www.boannews.com/media/view.asp?idx=145061&kind=1&sub_kind=",
@@ -182,25 +201,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:b3ce61fdc3d23992fcf47553fb7c3a47d9e872a7ac99383a7e45d49f90a838c9",
-      "url": "http://www.boannews.com/media/view.asp?idx=144933&kind=1&sub_kind=",
-      "title": "[ISEC 2026 미리보기] “관리자 뚫려도 데이터는 지킨다”... 한국보안인증의 ‘D-포트리스’",
-      "published_at": "2026-07-30T02:14:00Z",
-      "published_raw": "Thu, 30 Jul 2026 11:14:00 +0900",
-      "categories": [],
-      "description": "지능형 공격에 맞선 하드웨어 기반 일방통행 기술 ‘데이터 다이오드’대기업부터 중소 제조업까지 수용할 수 있는 고강도 사이버 복원력[보안뉴스 조재호 기자] 관리자 권한 탈취로 백업 데이터까지 암호화되는 지능형 랜섬웨어 위협에 대응해, 한국보안인증이 물리적 일방통행 통신 기술과 2차 인증을 번들화한 차세대 데이터 금고 아키텍처를 제시한다.한국보안인증(대표 백건",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[조재호기자 (zephyr@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:7bc9a98b857cb0907c728b70399eab0b5b403544467e564eb5dc0d01cfaf9046",
       "url": "http://www.boannews.com/media/view.asp?idx=145039&kind=&sub_kind=",
       "title": "아파치 톰캣 암호화 우회 취약점 비상... CISA, KEV 긴급 등재",
@@ -269,6 +269,25 @@
       "authors": [
         {
           "name": "[강현주기자 (jjoo@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:b3ce61fdc3d23992fcf47553fb7c3a47d9e872a7ac99383a7e45d49f90a838c9",
+      "url": "http://www.boannews.com/media/view.asp?idx=144933&kind=1&sub_kind=",
+      "title": "[ISEC 2026 미리보기] “관리자 뚫려도 데이터는 지킨다”... 한국보안인증의 ‘D-포트리스’",
+      "published_at": "2026-07-30T02:14:00Z",
+      "published_raw": "Thu, 30 Jul 2026 11:14:00 +0900",
+      "categories": [],
+      "description": "지능형 공격에 맞선 하드웨어 기반 일방통행 기술 ‘데이터 다이오드’대기업부터 중소 제조업까지 수용할 수 있는 고강도 사이버 복원력[보안뉴스 조재호 기자] 관리자 권한 탈취로 백업 데이터까지 암호화되는 지능형 랜섬웨어 위협에 대응해, 한국보안인증이 물리적 일방통행 통신 기술과 2차 인증을 번들화한 차세대 데이터 금고 아키텍처를 제시한다.한국보안인증(대표 백건",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
           "uri": "",
           "email": ""
         }
