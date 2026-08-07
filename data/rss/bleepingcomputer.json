@@ -1,15 +1,37 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-07T20:00:52Z",
+  "updated_at": "2026-08-07T22:00:50Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-07T20:00:52Z",
+    "last_success_at": "2026-08-07T22:00:50Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:cc802708c6ad2c029f87ba529efcc2ba8a9defb5ee7acf52e5f316d0e0c83a8d",
+      "url": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks",
+      "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
+      "published_at": "2026-08-07T20:14:46Z",
+      "published_raw": "Fri, 07 Aug 2026 16:14:46 -0400",
+      "categories": [
+        "security",
+        "Software"
+      ],
+      "description": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
+      "authors": [
+        {
+          "name": "Mayank Parmar",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:ce423812032a94fc5dd1df487e9bb8514219d093a55bacf317c7564d299fbbac",
       "url": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people",
@@ -1207,48 +1229,6 @@
       ],
       "description": "Buying a new computer in 2026 is a unique experience. Rather than deal with incredibly high tech prices, more shoppers are opting for high-quality refurbished tech. This ASUS Chromebook CM30 refurb is in near-mint condition with a grade \"A\" rating, but it still only costs $144.97 (reg. $369.99) on sale. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:e72abef9757683aa8bae8cbeab1dfe39db6deeebd5cc60070903d5ca4fc068f8",
-      "url": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic",
-      "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
-      "published_at": "2026-07-28T21:17:39Z",
-      "published_raw": "Tue, 28 Jul 2026 17:17:39 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "CubePilot, an Australian firm that designs flight controllers for drones (UAVs), announced a severe operational disruption caused by a DNS hijacking attack. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:15169dd18ed1156ef7ab82fed8c708da408d21b5e7c273cc69e4eef7ed4a4cc2",
-      "url": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet",
-      "title": "OpenAI models used Artifactory zero-days to escape to the internet",
-      "published_at": "2026-07-28T20:37:06Z",
-      "published_raw": "Tue, 28 Jul 2026 16:37:06 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attacking Hugging Face. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
       "authors": [
         {
           "name": "Lawrence Abrams",
