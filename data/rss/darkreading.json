@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-08-07T16:00:54Z",
+  "updated_at": "2026-08-07T18:00:53Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-07T16:00:54Z",
+    "last_success_at": "2026-08-07T18:00:53Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:a08bb624a7323ff0855e89998b846506cbc3867462174a946396a8ca714ff816",
+      "url": "https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time",
+      "title": "AI-Generated Patches Fail Half the Time",
+      "published_at": "2026-08-07T16:47:43Z",
+      "published_raw": "Fri, 07 Aug 2026 16:47:43 GMT",
+      "categories": [
+        "application-security"
+      ],
+      "description": "A study of more than 6,000 patches found that even working patches can introduce new bugs, break something else, or are open to bypass.",
+      "feed_id": "https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time",
+      "authors": [
+        {
+          "name": "Robert Lemos",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt51cfa43c126c431d/6a75005453cbbc62a56894c9/patches-in-denim-nnattalli-shutterstock.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt51cfa43c126c431d/6a75005453cbbc62a56894c9/patches-in-denim-nnattalli-shutterstock.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
     {
       "id": "sha256:844584cc082091b1aaf52a94f8853d0d057b48ebc64ad2f7adf47f5d745137e6",
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement",
@@ -828,42 +864,6 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt94af172165d49722/6a690498bd5a135ff4077c33/Sandbox-Ukususha-Getty-530496540.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:af56a0a4d6169e085186a19e16e02381c9946f59c4f0480ceab48be51fb8cea7",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates",
-      "title": "'Certighost' Flaw Haunts Microsoft Active Directory Certificates",
-      "published_at": "2026-07-28T16:38:48Z",
-      "published_raw": "Tue, 28 Jul 2026 16:38:48 GMT",
-      "categories": [
-        "vulnerabilities-threats"
-      ],
-      "description": "Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.",
-      "feed_id": "https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates",
-      "authors": [
-        {
-          "name": "Elizabeth Montalbano",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt35fd3da4c4c2a452/6a68a091fd13417d8c592367/ghost-Connect_Images-Alamy.png?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt35fd3da4c4c2a452/6a68a091fd13417d8c592367/ghost-Connect_Images-Alamy.png?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }
