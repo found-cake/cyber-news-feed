@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-07T12:00:49Z",
+  "updated_at": "2026-08-07T14:00:52Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-07T12:00:49Z",
+    "last_success_at": "2026-08-07T14:00:52Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:52a17d766b32228d2cd655188f4039d2aeb60eaed72d33cf8441ca48bc756d05",
+      "url": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations",
+      "title": "North Carolina Ports confirms cyberattack disrupting operations",
+      "published_at": "2026-08-07T13:34:40Z",
+      "published_raw": "Fri, 07 Aug 2026 09:34:40 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:29eb1cdcc8c8c9f5441fdb3632e2975072776ef829f350b74d0325fb18b4cbe5",
       "url": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks",
@@ -1206,48 +1227,6 @@
       ],
       "description": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:34cbee53c4538ab3ccfce834025b39347f040508b900f7fc6f0823866914e4ae",
-      "url": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks",
-      "title": "Is Your SSO Protected Against Modern Credential Attacks?",
-      "published_at": "2026-07-28T14:00:10Z",
-      "published_raw": "Tue, 28 Jul 2026 10:00:10 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applications they protect. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
-      "authors": [
-        {
-          "name": "Sponsored by Specops Software",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:466b9b89670c30d778f61686f7b98fc5df8c231754af98a7ffc23e93bad50535",
-      "url": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw",
-      "title": "Over 24,000 exposed server BMCs leak password hash via decades-old flaw",
-      "published_at": "2026-07-28T12:10:23Z",
-      "published_raw": "Tue, 28 Jul 2026 08:10:23 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard Management Controller (BMC) interface. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
       "authors": [
         {
           "name": "Bill Toulas",
