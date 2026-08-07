@@ -1,15 +1,37 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-07T18:00:53Z",
+  "updated_at": "2026-08-07T20:00:52Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-07T18:00:53Z",
+    "last_success_at": "2026-08-07T20:00:52Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:ce423812032a94fc5dd1df487e9bb8514219d093a55bacf317c7564d299fbbac",
+      "url": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people",
+      "title": "Unlimited Technology Systems breach impacts 3.8 million people",
+      "published_at": "2026-08-07T19:30:41Z",
+      "published_raw": "Fri, 07 Aug 2026 15:30:41 -0400",
+      "categories": [
+        "security",
+        "Healthcare"
+      ],
+      "description": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:6a9a19234fef971a4d5129446e9a88f78d2281555438834d271cc84d5a142f5b",
       "url": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack",
@@ -1230,48 +1252,6 @@
       "authors": [
         {
           "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:a863bae13ecddf83a121a19e9f39752e3b0de76b0b0eacaf8bf2d89b5f9bfc48",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks",
-      "title": "CISA shares advice on isolating vital systems during cyberattacks",
-      "published_at": "2026-07-28T18:41:04Z",
-      "published_raw": "Tue, 28 Jul 2026 14:41:04 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital operational technology systems in the event of a cyberattack or other major disruptions. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:5b529d820eab6cdd4a34d728366b450784a26160f9bd867115e9f829f4d3631e",
-      "url": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit",
-      "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
-      "published_at": "2026-07-28T18:08:50Z",
-      "published_raw": "Tue, 28 Jul 2026 14:08:50 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
           "uri": "",
           "email": ""
         }
