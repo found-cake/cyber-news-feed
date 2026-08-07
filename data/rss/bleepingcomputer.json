@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-06T22:00:53Z",
+  "updated_at": "2026-08-07T00:00:52Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-06T22:00:53Z",
+    "last_success_at": "2026-08-07T00:00:52Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:29eb1cdcc8c8c9f5441fdb3632e2975072776ef829f350b74d0325fb18b4cbe5",
+      "url": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks",
+      "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
+      "published_at": "2026-08-06T22:37:17Z",
+      "published_raw": "Thu, 06 Aug 2026 18:37:17 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
+      "authors": [
+        {
+          "name": "Ionut Ilascu",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:1e2d2c44d5c74e6b152645359ad66da7db3de4d41e76ab2e13c24ce2c5126f87",
       "url": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group",
@@ -19,7 +40,7 @@
       "categories": [
         "security"
       ],
-      "description": "A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to UNC6671, an extortion group reportedly associated with the BlackFile campaign extortion group. [...]",
+      "description": "A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to UNC6671, an extortion group reportedly associated with the BlackFile threat actors. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
       "authors": [
         {
@@ -1252,48 +1273,6 @@
       "authors": [
         {
           "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:3fb3feb7dc8a107b6369e424406d13dbbd89aa0a6f09572a37401e3fd4474e57",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks",
-      "title": "Hackers target US firms in FastJson RCE zero-day attacks",
-      "published_at": "2026-07-27T23:49:44Z",
-      "published_raw": "Mon, 27 Jul 2026 19:49:44 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Hackers are actively exploiting a vulnerability in the FastJson open-source Java library, allowing remote code execution without user interaction or elevated privileges. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:cae7aa5b1d9fdf6a36dd09c017483551f5693473c3023b6a7ee6bf9ad48a0148",
-      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks",
-      "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
-      "published_at": "2026-07-27T22:49:44Z",
-      "published_raw": "Mon, 27 Jul 2026 18:49:44 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
           "uri": "",
           "email": ""
         }
