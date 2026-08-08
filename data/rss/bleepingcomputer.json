@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-08T14:00:57Z",
+  "updated_at": "2026-08-08T16:00:51Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-08T14:00:57Z",
+    "last_success_at": "2026-08-08T16:00:51Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:85c07a888f51c96d59f96c945dddb812b1c06205871deebff3ecc7773157f300",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors",
+      "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
+      "published_at": "2026-08-08T14:16:23Z",
+      "published_raw": "Sat, 08 Aug 2026 10:16:23 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:cc802708c6ad2c029f87ba529efcc2ba8a9defb5ee7acf52e5f316d0e0c83a8d",
       "url": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks",
@@ -1169,48 +1190,6 @@
       "authors": [
         {
           "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:fa7975cbb2511823f78cc01de90746f4ad7832a56f53c9a6c7cb4335a59a87c1",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack",
-      "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
-      "published_at": "2026-07-29T14:55:57Z",
-      "published_raw": "Wed, 29 Jul 2026 10:55:57 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated cyberattack.\" [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
-      "authors": [
-        {
-          "name": "Ionut Ilascu",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:1ceaee28f11ea0b7d238f7539ae06a41e59be7f9c7a25dec8460d1ba14804b18",
-      "url": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage",
-      "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
-      "published_at": "2026-07-29T14:02:12Z",
-      "published_raw": "Wed, 29 Jul 2026 10:02:12 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, intent-based access controls, and least privilege are becoming the foundation for securing agentic AI. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
-      "authors": [
-        {
-          "name": "Sponsored by Token Security",
           "uri": "",
           "email": ""
         }

@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-08T14:00:57Z",
+  "updated_at": "2026-08-08T16:00:51Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-08T14:00:57Z",
+    "last_success_at": "2026-08-08T16:00:51Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -1840,60 +1840,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjswJ2Clfk448ySFwyQiVVviqzKzT4B9iwnvVio4_dzvA1TXPnNuDJUI8MozBddPvdWmL2JH3jVvzTxg8A2Z6X9qNPYtxjuVx7RKQkMW8vNVBIEs0sgcrLfywQVufYMEKpxa0vgo2k24bNa_EJaudCFTsvlqQKqbT3jsuzRJdI26GR4pRJrkNKAFx_xiKk/s260-e100/rubyrails.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:19447019942cf67fe9b4bce83bb03668d5925f964053df399a585a3d69541a55",
-      "url": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
-      "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
-      "published_at": "2026-07-29T15:39:30Z",
-      "published_raw": "2026-07-29T21:09:30.222+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution.\n\nThe vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all versions of the project before version 3.16.3. It has been codenamed RufRoot by Noma Security's",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2162095004970693012",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCgiIKxPiETcU1yIlU2RFsHgjXg2uLgbzaJ-98y7sPuujYarFbc0FdMqSRLIKJ1hYrsGLCZTCf5k40RtQ2PgwmA2L6tLAidOymHNIduXN3vtU0u0BsI37PLgWK8gwla3oTYkdD8ggssjMfF_5PuC9-exVYpBcqjg9tvscJ7XNAaHJxeUmCj-WP8VttRSgy/s260-e100/mcp.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:4b55974fab2d353736b72916f7b6e249c7917ec7c3b0dcbf96d6e9aa0efacee2",
-      "url": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
-      "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
-      "published_at": "2026-07-29T15:31:15Z",
-      "published_raw": "2026-07-29T21:01:15.061+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity.\n\nThe first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as an authentication bypass in VMware vCenter.\n\n\"A malicious actor with network access to vCenter",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6617702381499274436",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLKz0u1mJIVvPAxiFFqsvkMVXxyXqS_paYhbtTRFLoIWyl5Q_FwIrJjruxEYH0LAdzJm38P48m_T_24ycKfjPs2bg6FUoy2IWVUxH7SpNtiSJuExOy3dDEAWprGwkvhY5005OPyFUzl2qJzAztAckgZNLVzqlp34s9HtQ3wrvq6lDCcXgYwfOXKF08wtdp/s260-e100/vmware.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
