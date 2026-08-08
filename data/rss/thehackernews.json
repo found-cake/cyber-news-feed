@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-08T08:00:50Z",
+  "updated_at": "2026-08-08T10:00:56Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-08T08:00:50Z",
+    "last_success_at": "2026-08-08T10:00:56Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -551,6 +551,60 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:ab2cf02445d4050eb2a042ccfbda3d29515934a092e115467cc449c3b608854a",
+      "url": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+      "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
+      "published_at": "2026-08-08T08:54:50Z",
+      "published_raw": "2026-08-08T14:24:50.896+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirmed closed.\n\nPromptArmor, an AI security firm, hid the instructions in content Rovo reads. It said an uploaded file was",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6601393518698015906",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFYjJTxVoOMkR9DDRPZ5PkeR_EWAqmBScR3TPw3mlweipGlnQKq0OdfVqR2f26QIV3kBJWQIM65f8XwMSFq3zT6Bl4fsTvkPHxJiU2LilhK9s0tcreXt2gotEpE8sKoDrLQJ3SSVY9B-RS0FsS2dC480op8OV-caeaZvNyTiIipQbeNFJGMnAcjWEVq7g/s260-e100/rovo.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:92a77f3ffeabd187872485bbaa3fcc2f67567145007d337d9da0abe0b55602a9",
+      "url": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
+      "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
+      "published_at": "2026-08-08T08:03:57Z",
+      "published_raw": "2026-08-08T13:33:57.693+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "New research shows content inside an email can escape its message boundary and interfere with the webmail interface.\n\nAcross attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party accounts, leak tokens, hijack trusted UI actions, and manipulate AI tools that read email.\n\nPortSwigger researcher Gareth",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1836816046713815764",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCUnWbFb6UGu3ML1MqcuVXYwk0yoD6WzgXIQmi8ijkZQjS6M3g1F3kgV-RanNgyP1bdpNxDOOqMJzJnutZGh4MUVyYCbbu98sNXtAp-GWxueyKH9fDo3z9HmBl4tL-rj91kb11bhdhRvWGAYe56YGYMEzJgGIZeUqj9eGH10Bynj0YE6WMLl0J7O-HhLc/s260-e100/css-bomb.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:ecc4777c9ae87466f333c26238c4e461dc2f07715990b822776d4cab3300e5d6",
       "url": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
       "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
@@ -613,7 +667,7 @@
       "categories": [
         "vulnerability"
       ],
-      "description": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator interacts with an attacker-controlled page.\n\nTracked as&nbsp;CVE-2026-64638&nbsp;(CVSS score: 8.9), the",
+      "description": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator interacts with an attacker-controlled page.\n\nTracked as&nbsp;CVE-2026-64638&nbsp;(CVSS score: 8.9), the high-severity",
       "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3664194536160536617",
       "authors": [
         {
@@ -624,7 +678,7 @@
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge2pF0kPrHXARehOfrgRZzC4bsZvLQSss2mm4xJwNfV53riYQHKateFgF6HvgO5WoDDzjKhc8JFT_6pD2ggOORpEuUIBbySYIy79R_UTRAB4NpEUEi3dhenfNInEROpfShqpE6cTx_VqNfL1hf6fFJpzXLV7-RiFaJguVGvF-l_Ras_0YomMVjeV4ZdfM/s260-e100/wordpress-xss.jpg",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAXYZlxtz4bLTF4gNuVpVMMykRZpDR7IKjIFSR7jhL6CBKSsE1PZ7aIRpSGE57XGGb69NbrYV7wMJLjsRG_lP4SJzyvNZ0nUj9SHArph87e8bWBHKUsOGy1-9rymiMesSAcvUFrPP2Xrf_EuUXiOmKJC2MeBYFRcXmgxKhAv5UBcRzV0ku-_DLEONVLQuV/s260-e100/word.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1145,60 +1199,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:53e4a2d1364299370a26d925798da07131943729ec7aea4434d13b35960ddc55",
-      "url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
-      "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
-      "published_at": "2026-08-05T11:04:23Z",
-      "published_raw": "2026-08-05T16:34:23.792+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1.\n\nThe file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-9066459155520096458",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwgShwk2piIWpgBCF7ikGum0q7QycFbG91NuOiXNj4iRw_Uya_1R53Mx53EcLELS4lEusFjCYxTZuD0vf1VbGdXJ6rM9zq2OuNMsP20bbATKOaMUYbu9vWRbAJUQX436hP4vWvwc-jy1sWdoIIph0Uf93XMVImu-OIKnOMBUOYptMtoK9nAsP4yo48AtM/s260-e100/gitea-lfi.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:df47d13d8d896952ed574eb2d8872c90227f2778ca47922fae3c79c68d0fa5c4",
-      "url": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
-      "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
-      "published_at": "2026-08-05T07:40:39Z",
-      "published_raw": "2026-08-05T13:10:39.992+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild.\n\nThe list of vulnerabilities is as follows -\n\n\n  CVE-2026-9198 (CVSS score: 9.8) - A code injection vulnerability in Langflow that allows unauthenticated attackers to achieve full remote",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5349629700208609198",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU9CZ3zh4mWF0SVRdcylBR7IyGB6j797LrHqyND8vcsBbiE6mcDlqaufSOBg2Av4Ej_HZ_gMxbzR-KS6GvXX0hLPgSFlh5gwxKwhjx3FvcdsQ7XP65x70cxeadgTM7uETFglAUoZrxwq9Rmx6i1T4yS-E7c7Szx9igRmM_GqG-8L5xfKYk2i3fhQGEHjez/s260-e100/cisa.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:ee969749e0fc37aac1b848cfd6dde84366928c374497e4dc73471fabe77d8c22",
       "url": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
       "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
@@ -1280,16 +1280,43 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:07443345164ec12b05255595f5df262e35c71128d767214c82034acc98430a00",
-      "url": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
-      "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
-      "published_at": "2026-07-29T08:58:27Z",
-      "published_raw": "2026-07-29T14:28:27.032+05:30",
+      "id": "sha256:53e4a2d1364299370a26d925798da07131943729ec7aea4434d13b35960ddc55",
+      "url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+      "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+      "published_at": "2026-08-05T11:04:23Z",
+      "published_raw": "2026-08-05T16:34:23.792+05:30",
       "categories": [
-        "cyber-attack"
+        "vulnerability"
       ],
-      "description": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass in the SmartConsole login process that",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5993941950359417930",
+      "description": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1.\n\nThe file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-9066459155520096458",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwgShwk2piIWpgBCF7ikGum0q7QycFbG91NuOiXNj4iRw_Uya_1R53Mx53EcLELS4lEusFjCYxTZuD0vf1VbGdXJ6rM9zq2OuNMsP20bbATKOaMUYbu9vWRbAJUQX436hP4vWvwc-jy1sWdoIIph0Uf93XMVImu-OIKnOMBUOYptMtoK9nAsP4yo48AtM/s260-e100/gitea-lfi.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:df47d13d8d896952ed574eb2d8872c90227f2778ca47922fae3c79c68d0fa5c4",
+      "url": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
+      "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
+      "published_at": "2026-08-05T07:40:39Z",
+      "published_raw": "2026-08-05T13:10:39.992+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild.\n\nThe list of vulnerabilities is as follows -\n\n\n  CVE-2026-9198 (CVSS score: 9.8) - A code injection vulnerability in Langflow that allows unauthenticated attackers to achieve full remote",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5349629700208609198",
       "authors": [
         {
           "name": "Ravie Lakshmanan",
@@ -1299,7 +1326,7 @@
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIxq_zUC231fexQTfY9VPvqP7FWVRurT9fbUUS3YMpMX2SRmJu9eXIlH7v6fnvqJGtirQwXJVjs1h-hbUM7j-R6DlfpW7M4kt28q9EoxMt7jJFjUjaAoVsuTWSsBZOFcDj99U8ApvFR4B4sDQ37QHYeWXjJsowFBP3n8-TBfzcKB2Rl-de-OluIkzbJIYb/s260-e100/cp-poc.jpg",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU9CZ3zh4mWF0SVRdcylBR7IyGB6j797LrHqyND8vcsBbiE6mcDlqaufSOBg2Av4Ej_HZ_gMxbzR-KS6GvXX0hLPgSFlh5gwxKwhjx3FvcdsQ7XP65x70cxeadgTM7uETFglAUoZrxwq9Rmx6i1T4yS-E7c7Szx9igRmM_GqG-8L5xfKYk2i3fhQGEHjez/s260-e100/cisa.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
