@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-08T10:00:56Z",
+  "updated_at": "2026-08-08T12:00:49Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-08T10:00:56Z",
+    "last_success_at": "2026-08-08T12:00:49Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:610fa57647e338664aa3d7fc25bffc6073f63a2e2d22000417caf9c59986f4eb",
+      "url": "https://www.securityweek.com/critical-one-click-vulnerability-in-atlassians-rovo-ai-exposed-enterprise-data",
+      "title": "Critical One-Click Vulnerability in Atlassian’s Rovo AI Exposed Enterprise Data",
+      "published_at": "2026-08-08T11:30:00Z",
+      "published_raw": "Sat, 08 Aug 2026 11:30:00 +0000",
+      "categories": [
+        "Artificial Intelligence",
+        "Vulnerabilities",
+        "AI",
+        "Atlassian",
+        "data theft",
+        "Rovo"
+      ],
+      "description": "<p>The RovoBlast attack method identified by Varonis researchers could have been exploited to steal Confluence, Jira and SharePoint data.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-one-click-vulnerability-in-atlassians-rovo-ai-exposed-enterprise-data/\">Critical One-Click Vulnerability in Atlassian&#8217;s Rovo AI Exposed Enterprise Data</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48482",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:065cab117fbb129f148d65b28ff5be1c6e9e324a01137adabd691f63dcf548b7",
       "url": "https://www.securityweek.com/in-other-news-ai-slop-limits-apple-bounties-north-carolina-port-attacks-hackers-target-wall-street",
@@ -2634,114 +2670,6 @@
       ],
       "description": "<p>The company was previously valued at $1.6 billion, and the latest raise has significantly increased that valuation.</p>\n<p>The post <a href=\"https://www.securityweek.com/threatlocker-raises-190-million-in-series-f-funding/\">ThreatLocker Raises $190 Million in Series F Funding</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
       "feed_id": "https://www.securityweek.com/?p=48225",
-      "authors": [
-        {
-          "name": "Eduard Kovacs",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:b200cf158a3f7e9d3c762dfded03695816c65809995e822943533f826f2411e4",
-      "url": "https://www.securityweek.com/critical-vm-escape-vulnerability-patched-in-vmware-esxi",
-      "title": "Critical VM Escape Vulnerability Patched in VMware ESXi",
-      "published_at": "2026-07-29T11:42:38Z",
-      "published_raw": "Wed, 29 Jul 2026 11:42:38 +0000",
-      "categories": [
-        "Vulnerabilities",
-        "Featured",
-        "Patch",
-        "VMware",
-        "vulnerability"
-      ],
-      "description": "<p>A total of five vulnerabilities have been patched in VMware ESXi, vCenter, Workstation, and Fusion.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-vm-escape-vulnerability-patched-in-vmware-esxi/\">Critical VM Escape Vulnerability Patched in VMware ESXi</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48221",
-      "authors": [
-        {
-          "name": "Eduard Kovacs",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:f03e11bf2c2b14dfa99d6ab20f1165f6ca26d59f35724e529b40d4e7cfae31be",
-      "url": "https://www.securityweek.com/us-australia-release-ot-isolation-guidance-for-critical-infrastructure",
-      "title": "US, Australia Release OT Isolation Guidance for Critical Infrastructure",
-      "published_at": "2026-07-29T10:58:44Z",
-      "published_raw": "Wed, 29 Jul 2026 10:58:44 +0000",
-      "categories": [
-        "ICS/OT",
-        "Risk Management",
-        "critical infrastructure",
-        "guidance",
-        "ICS",
-        "isolation",
-        "OT"
-      ],
-      "description": "<p>The guidance details steps organizations can take to isolate vital OT and supporting systems, and operate in isolation for an extended period.</p>\n<p>The post <a href=\"https://www.securityweek.com/us-australia-release-ot-isolation-guidance-for-critical-infrastructure/\">US, Australia Release OT Isolation Guidance for Critical Infrastructure </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48219",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:ee58778a92d4365f62ece48801bc1d61ef9696546a92588b6176ef70183eba49",
-      "url": "https://www.securityweek.com/openais-rogue-ai-ventured-beyond-hugging-face",
-      "title": "OpenAI’s Rogue AI Ventured Beyond Hugging Face",
-      "published_at": "2026-07-29T10:10:09Z",
-      "published_raw": "Wed, 29 Jul 2026 10:10:09 +0000",
-      "categories": [
-        "Artificial Intelligence",
-        "AI",
-        "Featured",
-        "Hacked",
-        "Hugging Face",
-        "OpenAI"
-      ],
-      "description": "<p>Hugging Face has published an anatomy of the attack and OpenAI has shared additional information from its investigation.</p>\n<p>The post <a href=\"https://www.securityweek.com/openais-rogue-ai-ventured-beyond-hugging-face/\">OpenAI&#8217;s Rogue AI Ventured Beyond Hugging Face</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48215",
       "authors": [
         {
           "name": "Eduard Kovacs",
