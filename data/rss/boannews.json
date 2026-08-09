@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-08-09T08:00:11Z",
+  "updated_at": "2026-08-09T10:00:10Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-08-09T04:00:11Z",
-    "last_error_at": "2026-08-09T08:00:11Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-08-09T10:00:10Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
     {
@@ -250,44 +250,6 @@
       "authors": [
         {
           "name": "[조재호기자 (zephyr@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:63e18a3edbb5e6f6e35ecc7c0cd1a24561b14a334c9169f41f2d59c0f756ddd2",
-      "url": "http://www.boannews.com/media/view.asp?idx=144956&kind=&sub_kind=",
-      "title": "한국형 ‘플러그인 생태계’ 정조준... 정부, 합동 보안 권고문 발표",
-      "published_at": "2026-07-30T06:48:00Z",
-      "published_raw": "Thu, 30 Jul 2026 15:48:00 +0900",
-      "categories": [],
-      "description": "방치된 구형 전자서명·인증 프로그램 취약점 노린 정교한 ‘워터링홀’ 기승오래된 전자서명·인증 프로그램 삭제 권고, 기업은 네트워크 분리·SBOM 관리[보안뉴스 조재호 기자] 뉴스나 병원 사이트 방문만으로도 오래된 보안 프로그램 취약점을 통해 악성코드에 감염되는 ‘워터링홀’ 공격이 기승을 부리면서, 정부 및 보안 유관기관이 민관 합동 사이버보안 권고문을 발표",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[조재호기자 (zephyr@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:9fb4aa79c3fd2465cb95c89c980eb3c1e01d0954abc947c34139df50d9e32b4e",
-      "url": "http://www.boannews.com/media/view.asp?idx=144945&kind=1&sub_kind=",
-      "title": "고등학생 체험형 보안 교육... ‘2026 사이버 가디언즈 CMX 대회’ 참가자 모집",
-      "published_at": "2026-07-30T04:42:00Z",
-      "published_raw": "Thu, 30 Jul 2026 13:42:00 +0900",
-      "categories": [],
-      "description": "과기정통부·KISIA, 8월 5일까지 접수[보안뉴스 강현주 기자] 과학기술정보통신부(부총리 겸 장관 배경훈)와 한국정보보호산업협회(KISIA, 회장 김진수)는 정보보호에 관심 있는 전국 고등학생을 대상으로 ‘2026 사이버 가디언즈  CMX 대회’ 참가자를 8월 5일까지 모집한다고 밝혔다. KISIA는 올해부터 정보보호 저변 확대와 잠재인력의 조기발굴을 위",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[강현주기자 (jjoo@boannews.com)]",
           "uri": "",
           "email": ""
         }
