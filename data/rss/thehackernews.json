@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-10T16:00:12Z",
+  "updated_at": "2026-08-10T18:00:17Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-10T16:00:12Z",
+    "last_success_at": "2026-08-10T18:00:17Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -362,16 +362,16 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:b854b6f9db795aeb0451395e51435a703c6564873a0f438fd09642b16052d97c",
-      "url": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
-      "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
-      "published_at": "2026-07-31T16:39:31Z",
-      "published_raw": "2026-07-31T22:09:31.272+05:30",
+      "id": "sha256:4c624f6c9bd5a27e21068cdbd69f5edad2ff19100e24304eb67662e9c7e37ef6",
+      "url": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
+      "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
+      "published_at": "2026-08-10T16:38:37Z",
+      "published_raw": "2026-08-10T22:08:37.322+05:30",
       "categories": [
-        "threat-intelligence"
+        "vulnerability"
       ],
-      "description": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka.\n\nAccording to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4998290476306884594",
+      "description": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor.\n\nThe use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Microsoft Threat Intelligence Team said.\n\n\"StormEncryptor is written in C++ and appends the file name extension .encrypted",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8742064568513055717",
       "authors": [
         {
           "name": "Ravie Lakshmanan",
@@ -381,7 +381,7 @@
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjOaqDYzKWLfOEp56DfMjSmDMudw7Y3DBFUY_xOhGNTnzRYlKw9YCNNbjLvepf-vDHB_KVSSA-KZjx2dNXjJR3ZpTpS_IgGSfhLRjyR2P8ocr_uWQ1w5UcYpuXnycnyv2tPtDqXoZMvD9pqgCNCPDrYMwAup0ftaycFLYzxHvdoOWhEA1ZXffc9ahBpkj5/s260-e100/law-firm.jpg",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNv5C82jT_6YlarerdXnoAR_tT3E8xP65ZWuJfpvOKU9baBT5UACUTb88XvDQgQA6RrYuqPK3FstaqwacR9gDjD0qwk3HUYl0wK848phyphenhyphenFuqRrOA1AqdISQaA6tpEqg0n2XJIA22NeNNbhei1bAgcyghnc2qaVfSvh4fd9J1oD4xVi-DQcNSOYWQovyUst/s260-e100/strom-ransomware.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1010,33 +1010,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:f0d571f1a1d49753b19f208cab809da15572a17c7e61b68dce49515ae7b4e218",
-      "url": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
-      "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
-      "published_at": "2026-08-06T08:57:30Z",
-      "published_raw": "2026-08-06T14:27:30.931+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them.\n\nIn several of the attack paths, the model never ran at all, so system prompts, content filters, and model-level guardrails never got a chance to intervene.\n\nThe affected products include Amazon",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1086564626192498055",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNMtOKfZBxSDQ1928IVtFay3f8_6go4rnTY6yFaQYCzAdGt3e6uBkZfZkoFtHbS_cEbTCri3ZNVVO7BbuvoVpjGCLSpdphneotNbiXRT3vciQT6dzPa0K81_ee8Al2rxx7GlT5qTS3_B2MKjCCUcHut1pdIeqaLBRjoD5ZqttMcHxZ5AwKea3eL-wruta7/s260-e100/agent-sdk.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:ee969749e0fc37aac1b848cfd6dde84366928c374497e4dc73471fabe77d8c22",
       "url": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
       "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
@@ -1138,6 +1111,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX-el4ovGAmKfllRfhupL0SzdEoZKlouDb1_YmhCOl3owxN1ks0Do-WphuD77rka_3ukbqvPxSmFYMdBKBirYyw0DJpvSxVP5riGBR_vd7wKwnpgZfNm0RFEDLTzsvzzQB7qGtawMvpccd700dfNM2zZeFTy9cyHf4oFyHSASKRU3gmxbMgTJRtDFsSNs/s260-e100/adform.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:f0d571f1a1d49753b19f208cab809da15572a17c7e61b68dce49515ae7b4e218",
+      "url": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
+      "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
+      "published_at": "2026-08-06T08:57:30Z",
+      "published_raw": "2026-08-06T14:27:30.931+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them.\n\nIn several of the attack paths, the model never ran at all, so system prompts, content filters, and model-level guardrails never got a chance to intervene.\n\nThe affected products include Amazon",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1086564626192498055",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNMtOKfZBxSDQ1928IVtFay3f8_6go4rnTY6yFaQYCzAdGt3e6uBkZfZkoFtHbS_cEbTCri3ZNVVO7BbuvoVpjGCLSpdphneotNbiXRT3vciQT6dzPa0K81_ee8Al2rxx7GlT5qTS3_B2MKjCCUcHut1pdIeqaLBRjoD5ZqttMcHxZ5AwKea3eL-wruta7/s260-e100/agent-sdk.jpg",
           "kind": "thumbnail",
           "medium": ""
         }

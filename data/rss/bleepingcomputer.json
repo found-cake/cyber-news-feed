@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-10T16:00:12Z",
+  "updated_at": "2026-08-10T18:00:17Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-10T16:00:12Z",
+    "last_success_at": "2026-08-10T18:00:17Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:007e14ccd65dfc63822147977d9388840a4226bc0136b7ad084d64bcf88361bd",
+      "url": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate",
+      "title": "New StormEncryptor ransomware used by former Medusa affiliate",
+      "published_at": "2026-08-10T17:42:00Z",
+      "published_raw": "Mon, 10 Aug 2026 13:42:00 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormEncryptor. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:36f7facae6105d40736956d8d19f030ec23cc9f5cc07ce8c427e98b98011888c",
       "url": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs",
@@ -953,49 +974,6 @@
       ],
       "description": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:012aadde4ca7b0b94307d79f0cf75d0ac0d88b53f8ce3328123141abc4b5bfed",
-      "url": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers",
-      "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
-      "published_at": "2026-07-31T17:35:35Z",
-      "published_raw": "Fri, 31 Jul 2026 13:35:35 -0400",
-      "categories": [
-        "security",
-        "Artificial Intelligence"
-      ],
-      "description": "A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers with limited human involvement. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:afa4fbb222f18fe0ee2ea0eb384232d46b053df74dda20979c76b77d3123758e",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities",
-      "title": "CISA warns of cyberattacks disrupting U.S. water utilities",
-      "published_at": "2026-07-31T16:49:49Z",
-      "published_raw": "Fri, 31 Jul 2026 12:49:49 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a significant increase in attacks targeting internet-exposed programmable logic controllers (PLCs) in the water and wastewater systems sector. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/",
       "authors": [
         {
           "name": "Bill Toulas",
