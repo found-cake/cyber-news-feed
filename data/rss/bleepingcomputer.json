@@ -1,15 +1,57 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-10T14:00:21Z",
+  "updated_at": "2026-08-10T16:00:12Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-10T14:00:21Z",
+    "last_success_at": "2026-08-10T16:00:12Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:36f7facae6105d40736956d8d19f030ec23cc9f5cc07ce8c427e98b98011888c",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs",
+      "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
+      "published_at": "2026-08-10T14:34:32Z",
+      "published_raw": "Mon, 10 Aug 2026 10:34:32 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity server-side request forgery (SSRF) flaw. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
+      "authors": [
+        {
+          "name": "Sergiu Gatlan",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:1d01b1e06f7835c9352a283cdc1f3db5e9cd38c12324aecfe2a0882d12053065",
+      "url": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era",
+      "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
+      "published_at": "2026-08-10T14:01:11Z",
+      "published_raw": "Mon, 10 Aug 2026 10:01:11 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "AI is making phishing, credential theft, and social engineering faster and more efficient, while traditional trust signals such as passwords, MFA, IP reputation, and geolocation become easier to bypass. Specops explains why organizations are increasingly adding device trust to their Zero Trust strategies. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/",
+      "authors": [
+        {
+          "name": "Sponsored by Specops Software",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:8372a1625ac90f2b9bb762e10ede86bbf9632ddc3c8290573d85d4c3320808b9",
       "url": "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion",
@@ -957,27 +999,6 @@
       "authors": [
         {
           "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:69b98a6237b699ce603c43306b38a566455096890fb8af1035039e29627d5a54",
-      "url": "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware",
-      "title": "ESET tracks rise in malicious AI skills and adaptable malware",
-      "published_at": "2026-07-31T14:01:11Z",
-      "published_raw": "Fri, 31 Jul 2026 10:01:11 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Attackers are adapting established techniques to AI platforms, emerging technologies, and changing user behavior. ESET's new threat report examines the rise of malicious AI skills, AI-assisted malware, ClickFix attacks, record quishing activity, and ransomware tools designed to disable security software. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/",
-      "authors": [
-        {
-          "name": "Sponsored by ESET",
           "uri": "",
           "email": ""
         }
