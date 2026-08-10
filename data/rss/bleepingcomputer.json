@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-10T20:00:29Z",
+  "updated_at": "2026-08-10T22:00:10Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-10T20:00:29Z",
+    "last_success_at": "2026-08-10T22:00:10Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:16de36090919cac7354d6c0006bf693bf76e79ee45db0e8b40a641f005f2d0c9",
+      "url": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins",
+      "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins",
+      "published_at": "2026-08-10T21:12:10Z",
+      "published_raw": "Mon, 10 Aug 2026 17:12:10 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators' browsers to create rogue admin accounts. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:fd16736a6bcdad493425bc35c7f249b8e55ba5867b5d48056991aed2dfa30582",
       "url": "https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users",
@@ -956,49 +977,6 @@
       "authors": [
         {
           "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:7ba29da8dc2810354398e27da5bcfc1f3e0f4f0b7a3e3e5b8ed9fd226d09261c",
-      "url": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood",
-      "title": "Arch Linux disables AUR package adoption to stop malware flood",
-      "published_at": "2026-07-31T21:38:08Z",
-      "published_raw": "Fri, 31 Jul 2026 17:38:08 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packages. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:62defa99934a97d318696bba936e6cef3402dd6a6c20077c57c78883353729c0",
-      "url": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency",
-      "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
-      "published_at": "2026-07-31T21:09:25Z",
-      "published_raw": "Fri, 31 Jul 2026 17:09:25 -0400",
-      "categories": [
-        "security",
-        "CryptoCurrency"
-      ],
-      "description": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
           "uri": "",
           "email": ""
         }
