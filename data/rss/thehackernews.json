@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-10T10:00:11Z",
+  "updated_at": "2026-08-10T12:00:12Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-10T10:00:11Z",
+    "last_success_at": "2026-08-10T12:00:12Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -389,26 +389,26 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:e6ea006c3681d918b688e92e346309de49dcd399f360c8f6d1c33ed7e4882ca6",
-      "url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
-      "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
-      "published_at": "2026-07-31T11:21:27Z",
-      "published_raw": "2026-07-31T16:51:27.362+05:30",
+      "id": "sha256:8cd19c7c9cd43bd13e6088bc5d9db25603b1ddf2466fba6c56c4119a2b2d4086",
+      "url": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
+      "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
+      "published_at": "2026-08-10T11:33:41Z",
+      "published_raw": "2026-08-10T17:03:41.983+05:30",
       "categories": [
-        "threat-intelligence"
+        "vulnerability"
       ],
-      "description": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously.\n\nAfter an initial Telegram instruction, the agent found internet-facing systems and selected public exploits. The researchers recovered no further operator input in the session.\n\nThe operator, tracked through the aliases knaithe and KnYuan,",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7355892805763499732",
+      "description": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors.\n\nRussian cybersecurity vendor Kaspersky said it detected the attacks in July 2026.\n\nThe activity involves exploiting a vulnerability chain",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6141527794520335683",
       "authors": [
         {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
           "email": "noreply@blogger.com"
         }
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2dGysHIR6yJWx6hMxq6lAct7fi4YTury_WDkrcenDv-psd-fU7I8K3RbM6Blox_5OE3MQojew5bnPamtI_DPzdBX6fOk295hhQh6rBkA2f9a1sN7t7ZbSyU-kWdLoIb7XnseOHKPmLOGRb9wRRvmV0scVZ4rhMtxSmqOLZmZIUjtg_IHT4FBg5gzeX50/s260-e100/deepseek-telegram.jpg",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwaZH1uRwKD4SlLCwgb-7zVkEGjYYXdFxb21glBm3grBdwOZ_M-ECnOmNVFPPY6mg6wXUCf4R4xm9mI8mBiEm21Ixh6y9GXYvL9DKQgKEBkTN65AVQqFz9DJpMs6BRmrGWjGC5vDC-cFgx774ASr7j73D0wiRxrs9tKNdovUbwmLuGicKgcZeQR53z71bT/s260-e100/trueconf.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1037,33 +1037,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:bf12718855e8aa2ad5138a0059961091e5047c7efebbc1e0e29977f5ed6f3743",
-      "url": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
-      "title": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug",
-      "published_at": "2026-08-05T14:27:30Z",
-      "published_raw": "2026-08-05T19:57:30.158+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django.\n\nThe three most serious:\n\n\n  An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5\n  A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3673785559273316714",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGDed_n3TJGLHvhq2MkwkQTsKgIv_rOw24MRfYCoHnHiOK7r-VbitMrwXXF9H_Gwbegba20Dla1FLyK70-OQRVxiHfikBFrz6jei3QK5u4ApbR4aYuLikQj1YHU2IzA1V4fnR7Wgcp8H1NoYzSeTTOUd4dNTuE71jNUNq-P4yk0H9FkW55wivMDdNe0nE/s260-e100/veeam.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:ee969749e0fc37aac1b848cfd6dde84366928c374497e4dc73471fabe77d8c22",
       "url": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
       "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
@@ -1138,6 +1111,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX-el4ovGAmKfllRfhupL0SzdEoZKlouDb1_YmhCOl3owxN1ks0Do-WphuD77rka_3ukbqvPxSmFYMdBKBirYyw0DJpvSxVP5riGBR_vd7wKwnpgZfNm0RFEDLTzsvzzQB7qGtawMvpccd700dfNM2zZeFTy9cyHf4oFyHSASKRU3gmxbMgTJRtDFsSNs/s260-e100/adform.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:bf12718855e8aa2ad5138a0059961091e5047c7efebbc1e0e29977f5ed6f3743",
+      "url": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
+      "title": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug",
+      "published_at": "2026-08-05T14:27:30Z",
+      "published_raw": "2026-08-05T19:57:30.158+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django.\n\nThe three most serious:\n\n\n  An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5\n  A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3673785559273316714",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGDed_n3TJGLHvhq2MkwkQTsKgIv_rOw24MRfYCoHnHiOK7r-VbitMrwXXF9H_Gwbegba20Dla1FLyK70-OQRVxiHfikBFrz6jei3QK5u4ApbR4aYuLikQj1YHU2IzA1V4fnR7Wgcp8H1NoYzSeTTOUd4dNTuE71jNUNq-P4yk0H9FkW55wivMDdNe0nE/s260-e100/veeam.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1516,33 +1516,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqUoKsOzzL1DJubfk79p5F7EfcWUNP-tPwTMNDt329zqRohKeX2tE3qxMCciII-FZEHofHM72OihyAfF_7Eqs48MRmxxVOcGZyKML5LHynh5Akf1fWeNSsDlY2D-EaGLx2T9wy6y2jNfOGx-5xmKNhf0koUmkpIGcuShRA47RVW_207PVhnxdlPijMUmkx/s260-e100/chrome.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:8be23122adabfc50df6bc597bce02196b431dd3505fd03670c14b1b8593f2bfd",
-      "url": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
-      "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
-      "published_at": "2026-07-31T11:55:00Z",
-      "published_raw": "2026-07-31T17:25:00.000+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "An academic study has disclosed a \"widespread class\" of security vulnerabilities impacting 4G and 5G core networks that, if successfully exploited, could trigger denial-of-service (DoS) attacks and even session hijacking, allowing an attacker to seize control of a user's network session.\n\nThe findings have been released by a group of researchers from Singapore's Nanyang Technological University",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-891339506107996243",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx5Qzkfu4WC4nW5n_nmFDP3CoZsw91wzaKcfKRZBx7DXHggnqqxqun757BOQey3jOUCGe4928DBU6fy4dPX04Cmp94xqWdNkZgkp1DuenVewYZFxSs9YSQdArKp1Ma3hAGkDAIA7zH8_7hXubNrJbP27r6XxIlCrzrYYoi3vAVFaLVdu1tnN6blLhE61xE/s260-e100/ifinder.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
