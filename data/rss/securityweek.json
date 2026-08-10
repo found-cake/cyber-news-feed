@@ -1,15 +1,83 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-10T08:00:12Z",
+  "updated_at": "2026-08-10T10:00:11Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-10T08:00:12Z",
+    "last_success_at": "2026-08-10T10:00:11Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:f695b8db66fa8e3c0a200102dfc5f3f29757502981cf82de2cc0bfcf865f510d",
+      "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability",
+      "title": "CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability",
+      "published_at": "2026-08-10T09:31:51Z",
+      "published_raw": "Mon, 10 Aug 2026 09:31:51 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "CISA KEV",
+        "exploited",
+        "Kemp LoadMaster",
+        "Progress Software"
+      ],
+      "description": "<p>The critical-severity flaw allows unauthenticated, remote attackers to execute arbitrary commands.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/\">CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48496",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:5637d42c822a3e4f580e29a733274cf53642bf7032f9d8a5e92a923a5e6e86c2",
+      "url": "https://www.securityweek.com/corporate-data-stolen-in-levi-strauss-cyberattack",
+      "title": "Corporate Data Stolen in Levi Strauss Cyberattack",
+      "published_at": "2026-08-10T08:55:44Z",
+      "published_raw": "Mon, 10 Aug 2026 08:55:44 +0000",
+      "categories": [
+        "Data Breaches",
+        "data breach",
+        "Levi Strauss"
+      ],
+      "description": "<p>Using social engineering, a threat actor accessed the computers of three employees and exfiltrated data from them.</p>\n<p>The post <a href=\"https://www.securityweek.com/corporate-data-stolen-in-levi-strauss-cyberattack/\">Corporate Data Stolen in Levi Strauss Cyberattack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48493",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:70ca08c5223a42b19598d08d782425ad4cd05cd667e70bad8f3c9aa8bd005346",
       "url": "https://www.securityweek.com/critical-flaws-discovered-in-belgian-eid-software-used-by-2-million-people",
@@ -22,6 +90,7 @@
         "Connective",
         "eID",
         "electronic signature",
+        "Featured",
         "Nitro",
         "vulnerability"
       ],
@@ -1915,112 +1984,6 @@
       ],
       "description": "<p>The internet giant has built an agent harness to find vulnerabilities across Chrome’s codebase.</p>\n<p>The post <a href=\"https://www.securityweek.com/googles-ai-agent-uncovers-13-year-old-chrome-flaw-amid-record-patching-pace/\">Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
       "feed_id": "https://www.securityweek.com/?p=48296",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:c28ad21ef6098ed02b704d5a4f3f9437062a5b5d6977bce4133ea3ce66f85e47",
-      "url": "https://www.securityweek.com/eu-to-crack-down-on-ai-deepfakes-illicit-imagery-and-hacking-with-new-team-in-brussels",
-      "title": "EU to Crack Down on AI Deepfakes, Illicit Imagery and Hacking With New Team in Brussels",
-      "published_at": "2026-07-31T10:00:00Z",
-      "published_raw": "Fri, 31 Jul 2026 10:00:00 +0000",
-      "categories": [
-        "Artificial Intelligence",
-        "Government",
-        "AI",
-        "EU"
-      ],
-      "description": "<p>When the AI Act comes into force, AI companies will be required to make clear to consumers with labels or digital watermarks that chatbots or imagery are generated with AI.</p>\n<p>The post <a href=\"https://www.securityweek.com/eu-to-crack-down-on-ai-deepfakes-illicit-imagery-and-hacking-with-new-team-in-brussels/\">EU to Crack Down on AI Deepfakes, Illicit Imagery and Hacking With New Team in Brussels</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48303",
-      "authors": [
-        {
-          "name": "Associated Press",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:74feee3463e70b645a1697026a0d157cbc16bedb9025b28603a71b88cb41acce",
-      "url": "https://www.securityweek.com/after-openai-disclosure-anthropic-finds-its-own-models-hacked-3-organizations",
-      "title": "Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations",
-      "published_at": "2026-07-31T09:39:57Z",
-      "published_raw": "Fri, 31 Jul 2026 09:39:57 +0000",
-      "categories": [
-        "Artificial Intelligence",
-        "AI",
-        "Anthropic",
-        "Claude",
-        "Featured"
-      ],
-      "description": "<p>A security company’s systems were hacked after it installed a malicious Python package deployed by Claude. </p>\n<p>The post <a href=\"https://www.securityweek.com/after-openai-disclosure-anthropic-finds-its-own-models-hacked-3-organizations/\">Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48292",
-      "authors": [
-        {
-          "name": "Eduard Kovacs",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:d048cbc501b7ee31a48db9750996a24fe433d5f5052b25456ed4c0715599f420",
-      "url": "https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage",
-      "title": "Critical Flaw Allowed to Azure Cosmos DB Pwnage",
-      "published_at": "2026-07-31T09:04:02Z",
-      "published_raw": "Fri, 31 Jul 2026 09:04:02 +0000",
-      "categories": [
-        "Cloud Security",
-        "Vulnerabilities",
-        "Azure",
-        "Cosmos DB",
-        "CosmosEscape",
-        "database",
-        "Patch"
-      ],
-      "description": "<p>Named CosmosEscape, the vulnerability exposed the primary key for Cosmos DB accounts, granting full read and write access.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage/\">Critical Flaw Allowed to Azure Cosmos DB Pwnage</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48290",
       "authors": [
         {
           "name": "Ionut Arghire",
