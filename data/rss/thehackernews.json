@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-11T16:01:13Z",
+  "updated_at": "2026-08-11T18:01:13Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-11T16:01:13Z",
+    "last_success_at": "2026-08-11T18:01:13Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:5eca0a7b43d27d46b66c3042e3f3cfcf835724d9af687dc56a4a0ab49ebcfed2",
+      "url": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
+      "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
+      "published_at": "2026-08-11T16:35:27Z",
+      "published_raw": "2026-08-11T22:05:27.200+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience.\n\n\"Its recovery ecosystem combines the Session messaging network with blockchain-backed services that store and deliver resources used throughout the extortion process,\" the Microsoft Threat",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5444503069255769684",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHe7Kt8X_4eEC2ICocbCp-eg1Vs7xknMUYEnZzepw5j6mg7v7C7DmPvzf4S-Z4wGhofTJco3eW95xPm3x7nDEzdfF9dpJAEriyIAGsXqNcLT02br6Em30kPnD5vYp4CrHHAR8TvvNr6glr8mIeRwhPANZqTSG7w_tR1-8QUNgYWg4AXgVPrmob7CFzwLmA/s260-e100/deadlock.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:5019d0f42a889b71cb4a45e0a213c8c90d8ce0706ccf97cd130fb5f41030c7de",
       "url": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
@@ -362,16 +389,16 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:33d64b684b386f21f4b0aac2f0d2804a5e1ea8528a9236ae89ca8573093db3a1",
-      "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
-      "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
-      "published_at": "2026-08-01T17:17:22Z",
-      "published_raw": "2026-08-01T22:47:22.535+05:30",
+      "id": "sha256:83f9b708b132a336fbed77b57a5a1a7316e921a1d74a966f7b3a020ce5440ef8",
+      "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+      "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+      "published_at": "2026-08-11T16:47:44Z",
+      "published_raw": "2026-08-11T22:17:44.667+05:30",
       "categories": [
-        "threat-intelligence"
+        "vulnerability"
       ],
-      "description": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet made by Canadian firm Coinkite.\n\nA March 2021 firmware integration error routed seed generation to a deterministic software pseudorandom number generator (PRNG",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-997265288036760211",
+      "description": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent.\n\nThe flaw, tracked as&nbsp;CVE-2026-55040&nbsp;(CVSS 9.1), affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Server 2016. Microsoft's",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5033550381851555795",
       "authors": [
         {
           "name": "Swati Khandelwal",
@@ -381,7 +408,7 @@
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiea5Kw_2TLtPI4Ts3s3anmPIQr3S8VxO0G9yL-UV1dSlRrW1Z_L41XoHcSFuk2ThCBDKLFy-xZl_y7DnA0FM2nWHk4G1TpV2iMx6-X6EDT3gK7s0pJu6e1wMUoEsuPifcXseXuqOIHL3W9voWoD_se5gKJPyii4X0mJY7sxJ3uOPlTWVfAyrKs4ixa-18/s260-e100/coldcard.jpg",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbDSDTAbeeAZ8pykGFRAGcCDs_3LZBuD8tYUJfh0jG35r_o84zM_bNo7q3TWcoEMPmZqvhzucujEF72b2c2HnzfDjowsj4Iw4psQEwcgADR_rVMCXVw18arcpSB0WLblkZeypa-bgJPsD0qwrqBUk2umKezFZTtuDpbi_kQlsGUSiveb2suBMRyc3oZhQ/s260-e100/admin.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -983,33 +1010,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:23bdedbf23716bd51b26eb6973f473cea77602f33ff73916ecd6a880ab8a2c7b",
-      "url": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
-      "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
-      "published_at": "2026-08-06T16:17:13Z",
-      "published_raw": "2026-08-06T21:47:13.906+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run.\n\nMIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the technique INTERRUPT INJECTION. On an AMD Zen 2 machine running Linux 6.14 with every default Spectre v2 mitigation on,",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5622961549219836098",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA_BgCPUTlxOgmh4ljCoOazIkcoSA_BHUGZmfAuhxD8TiUzui2nhB5b5KV_lv50ocFWI14FG5RIe8rqrm6D8ZC8ACR7mY1bXE4JADKcTRIY1bfIeXtnYs07yXk2T9Jsv0-vcxPkKbl6FuNXxXylv5BQQQLTDSpJ2XSyqxvIsxYy5d2X1Kwt_2CSJegj9Tv/s260-e100/place.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:6c0fe6acb311af0f2aff2d8d8a2afcb7e2f7e7b2802050bc100619eed42bf8d6",
       "url": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
       "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
@@ -1138,6 +1138,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguFnLbEr199EuLksobp-I8Z6liAUmM4EKRi94ttPtanQN2aiwvNh1qHK_kkGhOBfWTzLzANlQ3jd6FmJOHWbdn8rFfg1sHvYqmBaVM5kfak1JxRhqPEfNR94zY_pibMdsbWMIx8gqcZZjoYLhKk03Gw3PrYKF6JQzrNLV6HiE5U7UtYPSwmH-OmDmjl8c/s260-e100/exfilsquad.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:23bdedbf23716bd51b26eb6973f473cea77602f33ff73916ecd6a880ab8a2c7b",
+      "url": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
+      "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
+      "published_at": "2026-08-06T16:17:13Z",
+      "published_raw": "2026-08-06T21:47:13.906+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run.\n\nMIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the technique INTERRUPT INJECTION. On an AMD Zen 2 machine running Linux 6.14 with every default Spectre v2 mitigation on,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5622961549219836098",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA_BgCPUTlxOgmh4ljCoOazIkcoSA_BHUGZmfAuhxD8TiUzui2nhB5b5KV_lv50ocFWI14FG5RIe8rqrm6D8ZC8ACR7mY1bXE4JADKcTRIY1bfIeXtnYs07yXk2T9Jsv0-vcxPkKbl6FuNXxXylv5BQQQLTDSpJ2XSyqxvIsxYy5d2X1Kwt_2CSJegj9Tv/s260-e100/place.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
