@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-08-11T04:00:17Z",
+  "updated_at": "2026-08-11T06:00:10Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-11T04:00:17Z",
+    "last_success_at": "2026-08-11T06:00:10Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:ec4a801e1d00cfef1b6cd7e6de814fd22a47b85693b55ab5c76cb64ccad5e87a",
+      "url": "http://www.boannews.com/media/view.asp?idx=145114&kind=1&sub_kind=",
+      "title": "[ISEC 2026] 박용규 KISA 본부장 “AI 보안, 실패해도 도전해야 발전 가능”",
+      "published_at": "2026-08-11T05:30:00Z",
+      "published_raw": "Tue, 11 Aug 2026 14:30:00 +0900",
+      "categories": [],
+      "description": "ISEC 2026 특별강연 ‘사이버위협 속에서의 AI 위치와 활용 방향’ 도전과 실패 과정에서 얻은 데이터를 다시 활용하며 학습 루프 만들어야[보안뉴스 원병철 기자] 미토스의 등장 이후 AI는 보안 분야에 큰 영향을 미치고 있다. 2026년 3월 미토스의 등장으로 자율 AI 해킹 공격이 현실화됐고, 프로젝트 글래스윙이 출범하며 공동 협력에 나섰다. 우리 정",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[원병철기자 (boanone@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:5218d02172bd7c84fe61c5829af03c0a51aaac2839fdd6d7816204541259055e",
       "url": "http://www.boannews.com/media/view.asp?idx=145096&kind=1&sub_kind=",
@@ -182,25 +201,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:d2de82755356c145238e2736c5142a774b5a35348f41202a837567ab8ec46ca4",
-      "url": "http://www.boannews.com/media/view.asp?idx=145027&kind=1&sub_kind=",
-      "title": "티오리 ‘진트 코드’(Xint Code), 애플 OS서 CVSS 9.8점대 취약점 발견",
-      "published_at": "2026-08-05T02:46:00Z",
-      "published_raw": "Wed, 5 Aug 2026 11:46:00 +0900",
-      "categories": [],
-      "description": "기기 강제 종료 유발하는 제로 클릭 커널 결함 등 2종 패치 기여소스코드 분석해 실제 증명 가능한 공격 재현 코드(PoC) 명확히 제시[보안뉴스 조재호 기자] 티오리가 자사의 AI 기반 소스코드 보안 분석 솔루션 ‘진트 코드’(Xint Code)를 통해 애플 주요 운영체제(OS)에서 치명적인 보안 취약점을 발견하고 공식 패치를 이끌어냈다고 5일 밝혔다.애플",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[조재호기자 (zephyr@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:c33e0c90448a3e8cf48154a1025759acc3154295578c3fee4fe982c3b5ea2ce9",
       "url": "http://www.boannews.com/media/view.asp?idx=145089&kind=&sub_kind=",
       "title": "단순 미끼 넘어 자동화, 北 해킹조직의 AI 무기화 진화",
@@ -265,6 +265,25 @@
       "published_raw": "Thu, 6 Aug 2026 11:16:00 +0900",
       "categories": [],
       "description": "중국계 해커, AI 악용해 ‘리버스 셸’ 배포 등 실제 침해 사고 발생CISA, 연방 기관에 조치 불가 시 제품 사용 중단 초강수 지침[보안뉴스 김형근 기자] 미국 사이버보안및인프라보안국(CISA)이 실제 현장 공격에 악용 중인 아파치 톰캣(Apache Tomcat)의 고위험 암호화 우회 취약점(CVE-2026-34486)을 KEV 카탈로그에 추가했다.이번",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:d2de82755356c145238e2736c5142a774b5a35348f41202a837567ab8ec46ca4",
+      "url": "http://www.boannews.com/media/view.asp?idx=145027&kind=1&sub_kind=",
+      "title": "티오리 ‘진트 코드’(Xint Code), 애플 OS서 CVSS 9.8점대 취약점 발견",
+      "published_at": "2026-08-05T02:46:00Z",
+      "published_raw": "Wed, 5 Aug 2026 11:46:00 +0900",
+      "categories": [],
+      "description": "기기 강제 종료 유발하는 제로 클릭 커널 결함 등 2종 패치 기여소스코드 분석해 실제 증명 가능한 공격 재현 코드(PoC) 명확히 제시[보안뉴스 조재호 기자] 티오리가 자사의 AI 기반 소스코드 보안 분석 솔루션 ‘진트 코드’(Xint Code)를 통해 애플 주요 운영체제(OS)에서 치명적인 보안 취약점을 발견하고 공식 패치를 이끌어냈다고 5일 밝혔다.애플",
       "feed_id": "",
       "authors": [
         {
