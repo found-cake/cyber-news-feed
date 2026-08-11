@@ -1,15 +1,87 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-11T10:01:12Z",
+  "updated_at": "2026-08-11T12:01:13Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-11T10:01:12Z",
+    "last_success_at": "2026-08-11T12:01:13Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:1107c317b3ef60490f56cbd83de11cf1b16a8a7f4a601ab82611e7a8caf2beaa",
+      "url": "https://www.securityweek.com/corma-raises-60-million-for-defensive-cybersecurity-ai-model",
+      "title": "Corma Raises $60 Million for Defensive Cybersecurity AI Model",
+      "published_at": "2026-08-11T12:01:46Z",
+      "published_raw": "Tue, 11 Aug 2026 12:01:46 +0000",
+      "categories": [
+        "Artificial Intelligence",
+        "Cybersecurity Funding",
+        "AI",
+        "Corma",
+        "emerge from stealth",
+        "funding"
+      ],
+      "description": "<p>Corma emerged from stealth with seed funding from Sequoia Capital, Khosla Ventures, and Coatue.</p>\n<p>The post <a href=\"https://www.securityweek.com/corma-raises-60-million-for-defensive-cybersecurity-ai-model/\">Corma Raises $60 Million for Defensive Cybersecurity AI Model</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48531",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:f80cd41ad7d620dce626b2b641a741a3cc784a4bf31d365cfe1d22ba16833731",
+      "url": "https://www.securityweek.com/extension-banned-for-stealing-ai-chats-returns-to-chrome-store-resumes-malicious-activities",
+      "title": "Extension Banned for Stealing AI Chats Returns to Chrome Store, Resumes Malicious Activities",
+      "published_at": "2026-08-11T11:15:15Z",
+      "published_raw": "Tue, 11 Aug 2026 11:15:15 +0000",
+      "categories": [
+        "Malware & Threats",
+        "AI sidebar",
+        "Chrome",
+        "data theft",
+        "extension",
+        "fraud"
+      ],
+      "description": "<p>The extension amassed over 300,000 installs and a 4.6 rating before Google removed it for stealing data.</p>\n<p>The post <a href=\"https://www.securityweek.com/extension-banned-for-stealing-ai-chats-returns-to-chrome-store-resumes-malicious-activities/\">Extension Banned for Stealing AI Chats Returns to Chrome Store, Resumes Malicious Activities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48529",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:1f1d9f6707e599cf3db0641819679822dafa3bc2e591f06eb6b47f3e021339ee",
       "url": "https://www.securityweek.com/hacker-conversations-marcus-hutchins",
@@ -52,6 +124,7 @@
       "categories": [
         "Artificial Intelligence",
         "AI",
+        "Featured",
         "GPT-5.6-Cyber",
         "OpenAI"
       ],
@@ -2204,40 +2277,6 @@
       "authors": [
         {
           "name": "Mike Lennon",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:d11ae3f62afb99fc12e5a388d6483beb4fc4e049aa764f82d120b451b9262cf8",
-      "url": "https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability",
-      "title": "Ruby on Rails Patches Critical Vulnerability",
-      "published_at": "2026-08-01T11:15:00Z",
-      "published_raw": "Sat, 01 Aug 2026 11:15:00 +0000",
-      "categories": [
-        "Vulnerabilities",
-        "Ruby",
-        "Ruby on Rails",
-        "vulnerability"
-      ],
-      "description": "<p>The flaw can be exploited by unauthenticated attackers to read arbitrary files and potentially achieve remote code execution (RCE).</p>\n<p>The post <a href=\"https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/\">Ruby on Rails Patches Critical Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48319",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
           "uri": "",
           "email": ""
         }
