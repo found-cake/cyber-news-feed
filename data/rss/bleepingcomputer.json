@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-11T14:01:15Z",
+  "updated_at": "2026-08-11T16:01:13Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-11T14:01:15Z",
+    "last_success_at": "2026-08-11T16:01:13Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:eb511374411dc9cdcc32defb147d913e72b6d031ea9f30f632cf287126a9d908",
+      "url": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft",
+      "title": "Wesco confirms security incident after ExfilSquad claims data theft",
+      "published_at": "2026-08-11T15:59:35Z",
+      "published_raw": "Tue, 11 Aug 2026 11:59:35 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:caec047df1b1f92046d25aa1b5c2a8b49767371a668f9efc421709f8d9a6dc72",
       "url": "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure",
@@ -1085,27 +1106,6 @@
       "authors": [
         {
           "name": "Mayank Parmar",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:761f301096455783982a359821dceb45816358a4967638c9308fc345e815ddc7",
-      "url": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential",
-      "title": "Rails patches critical Active Storage flaw with RCE potential",
-      "published_at": "2026-08-01T14:20:30Z",
-      "published_raw": "Sat, 01 Aug 2026 10:20:30 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
           "uri": "",
           "email": ""
         }
