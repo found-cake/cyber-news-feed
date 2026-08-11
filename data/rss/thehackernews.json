@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-11T08:00:11Z",
+  "updated_at": "2026-08-11T10:01:12Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-11T08:00:11Z",
+    "last_success_at": "2026-08-11T10:01:12Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:8b3f1bd3315e097f2c4030a0ca6273c55c78c6739dbacdebce74c6d69d43a7c4",
+      "url": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
+      "title": "Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks",
+      "published_at": "2026-08-11T09:16:24Z",
+      "published_raw": "2026-08-11T14:46:24.959+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world.\n\nTargets of these attacks include healthcare and public health, financial services, government services and facilities, and professional and nonprofit services.\n\n\"Gunra is another variant in the ongoing trend of",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5996975003287862331",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3nDJhjEnxo7k9DyrL4evBwNBVgGuv1CIsdfm0F5ed4HANv9HprVu790o5CVg8xQqft_tFRqLTrmQTrmkmZVTzEUZk08exDnnQjjnPLd4uhuicurtZbhpo-cMrv-yR_qIl58aJHvaPEP0aFgxpbnXYWKkk74qSytUvhk8LGSbewWumopWiQ6GECxsZ-1ff/s260-e100/ransomware-gunra.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:e4cbe4f1c2f955e0940f09e86e40faa8d2ca9880097d151b5998686fb6f261c8",
       "url": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
@@ -956,33 +983,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:73f30e8ce33026a3376e8b9cdf14f4a398ba39a144c2c7301273f769ca09cefb",
-      "url": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
-      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
-      "published_at": "2026-08-06T11:33:08Z",
-      "published_raw": "2026-08-06T17:03:08.424+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address.\n\nIntroduced with iOS 15, iCloud Private Relay employs a dual-hop architecture to ensure users' privacy by routing their Safari web traffic through two relays so that no single third-party, including Apple, can determine where the request is originating from",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6218282711769729277",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi53VbynsVNPTCihg9qrqybX7Yu90yM3Tm7KlJnJCHz2_MOUQPyJys1uK6H5QkVqxGekck8qe-pA55tcy19IDYQ4_ndOKasvoaFiPJCI_NJClfHv6G14Ga5P_FPr0zyNijjRMBM-GBlt-XYRqCGAcrZxm9ETsAAu4kPh829ZKABQonHDlx2GuWG9-B-V383/s260-e100/apple-relay.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:21ad1a2bf2fd1f2ae23eb84819371f514350d8681eea79da9ff3fefdbd04a27f",
       "url": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
       "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
@@ -1091,26 +1091,26 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:0fa86a6b2f57fc9d8dcf3f8c68488f84bfac5b17578d4d88192938889e10b17c",
-      "url": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
-      "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
-      "published_at": "2026-08-01T09:03:07Z",
-      "published_raw": "2026-08-01T14:33:07.329+05:30",
+      "id": "sha256:73f30e8ce33026a3376e8b9cdf14f4a398ba39a144c2c7301273f769ca09cefb",
+      "url": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
+      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
+      "published_at": "2026-08-06T11:33:08Z",
+      "published_raw": "2026-08-06T17:03:08.424+05:30",
       "categories": [
-        "cyber-attack"
+        "vulnerability"
       ],
-      "description": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses.\n\nAdform detected the incident on July 27, 2026, removed the malicious code, notified affected clients, and reported it to authorities.\n\nAnyone who visited a site carrying the affected script on July 27 and copied a Bitcoin,",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3707719218707952234",
+      "description": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address.\n\nIntroduced with iOS 15, iCloud Private Relay employs a dual-hop architecture to ensure users' privacy by routing their Safari web traffic through two relays so that no single third-party, including Apple, can determine where the request is originating from",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6218282711769729277",
       "authors": [
         {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
           "email": "noreply@blogger.com"
         }
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX-el4ovGAmKfllRfhupL0SzdEoZKlouDb1_YmhCOl3owxN1ks0Do-WphuD77rka_3ukbqvPxSmFYMdBKBirYyw0DJpvSxVP5riGBR_vd7wKwnpgZfNm0RFEDLTzsvzzQB7qGtawMvpccd700dfNM2zZeFTy9cyHf4oFyHSASKRU3gmxbMgTJRtDFsSNs/s260-e100/adform.jpg",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi53VbynsVNPTCihg9qrqybX7Yu90yM3Tm7KlJnJCHz2_MOUQPyJys1uK6H5QkVqxGekck8qe-pA55tcy19IDYQ4_ndOKasvoaFiPJCI_NJClfHv6G14Ga5P_FPr0zyNijjRMBM-GBlt-XYRqCGAcrZxm9ETsAAu4kPh829ZKABQonHDlx2GuWG9-B-V383/s260-e100/apple-relay.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
