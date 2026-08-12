@@ -1,15 +1,39 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-08-12T11:00:39Z",
+  "updated_at": "2026-08-12T12:00:40Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-12T11:00:39Z",
+    "last_success_at": "2026-08-12T12:00:40Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:c10d6189850d0d97bb3e555eb449e9a1db47e3db86325a606c511cb68bd6175d",
+      "url": "https://www.stepsecurity.io/blog/control-which-package-registries-your-ci-jobs-and-developer-machines-use",
+      "title": "Control Which Package Registries Your CI Jobs and Developer Machines Use",
+      "published_at": "2026-08-12T11:25:26Z",
+      "published_raw": "Wed, 12 Aug 2026 11:25:26 GMT",
+      "categories": [],
+      "description": "Two StepSecurity controls show every CI job and developer machine that still installs from public registries. Once you can see them, you can block public registries in CI and centrally set the registry configuration on every developer machine.",
+      "feed_id": "https://www.stepsecurity.io/blog/control-which-package-registries-your-ci-jobs-and-developer-machines-use",
+      "authors": [],
+      "media": [
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a7c543b36f98ef75c65956b_image%20(139).png",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a7c543b36f98ef75c65956b_image%20(139).png",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:d1b4b956d2a6becef2b55faa930340c443653f751633e027ed70baf6d481ba61",
       "url": "https://www.stepsecurity.io/blog/chaindrop-npm-worm",
