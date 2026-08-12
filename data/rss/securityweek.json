@@ -1,15 +1,86 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-12T08:00:40Z",
+  "updated_at": "2026-08-12T09:00:42Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-12T08:00:40Z",
+    "last_success_at": "2026-08-12T09:00:42Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:44822d5dc0002539eab64ca6eb80de59a398a90d9fd7c17f8b1fedeff0995433",
+      "url": "https://www.securityweek.com/fresh-windows-zero-day-exploited-in-north-korean-cyberattacks",
+      "title": "Fresh Windows Zero-Day Exploited in North Korean Cyberattacks",
+      "published_at": "2026-08-12T08:45:53Z",
+      "published_raw": "Wed, 12 Aug 2026 08:45:53 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "APT",
+        "exploited",
+        "Lazarus",
+        "North Korea",
+        "Windows",
+        "Zero-Day"
+      ],
+      "description": "<p>The bug allowed attackers to gain full control of the victims’ systems and deploy the ForestTiger backdoor.</p>\n<p>The post <a href=\"https://www.securityweek.com/fresh-windows-zero-day-exploited-in-north-korean-cyberattacks/\">Fresh Windows Zero-Day Exploited in North Korean Cyberattacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48556",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:f96a049beaa463853a0a98c4923de82773b0caa19102b8e901a5f6896da834cf",
+      "url": "https://www.securityweek.com/ivanti-epm-update-patches-remotely-exploitable-flaws",
+      "title": "Ivanti EPM Update Patches Remotely Exploitable Flaws",
+      "published_at": "2026-08-12T08:14:46Z",
+      "published_raw": "Wed, 12 Aug 2026 08:14:46 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "Ivanti",
+        "Patch",
+        "vulnerability"
+      ],
+      "description": "<p>The vulnerabilities could be exploited to leak credentials for external SQL connections or crash an agent service.</p>\n<p>The post <a href=\"https://www.securityweek.com/ivanti-epm-update-patches-remotely-exploitable-flaws/\">Ivanti EPM Update Patches Remotely Exploitable Flaws</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48554",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:4a9a6227c7032f3141d5e882e00c0c4a0b94ef4d5ce692f93b69631bb3656ac2",
       "url": "https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-phoenix-contact-2",
@@ -87,6 +158,7 @@
         "Vulnerabilities",
         "Cisco",
         "exploited",
+        "Featured",
         "firewall",
         "vulnerability",
         "Zero-Day"
