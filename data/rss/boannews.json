@@ -1,15 +1,53 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-08-12T02:01:09Z",
+  "updated_at": "2026-08-12T04:01:16Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-08-12T00:01:08Z",
-    "last_error_at": "2026-08-12T02:01:09Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-08-12T04:01:16Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:bec4a65cf796f4959b5528350949baf7572605cb14580677d67c9ef1f3ee4fa9",
+      "url": "http://www.boannews.com/media/view.asp?idx=145121&kind=1&sub_kind=",
+      "title": "ADT캡스, 전국 지사 대상 혹서기 안전관리 강화",
+      "published_at": "2026-08-12T02:18:00Z",
+      "published_raw": "Wed, 12 Aug 2026 11:18:00 +0900",
+      "categories": [],
+      "description": "민기식 대표·신우철 안전보건최고경영책임자, 대구·양산지사 방문해 폭염 대응 점검여름 온열질환 예방부터 집중호우·태풍 대응까지 계절별 현장 관리체계 운영‘오늘도 무사출동’ 캠페인 통해 구성원 보호와 안전문화 정착 추진[보안뉴스 엄호식 기자] SK쉴더스(대표 민기식)의 물리보안 브랜드 ADT캡스가 기록적인 폭염이 이어지는 가운데 고객 현장을 책임지는 구성원들의",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[엄호식기자 (eomhs@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:5e363fcd38244d44bad451d8508dfffd2d2cd5d24528e00e9bdc462924e4335c",
+      "url": "http://www.boannews.com/media/view.asp?idx=145101&kind=1&sub_kind=",
+      "title": "[카드뉴스] “AI 가전 10대 중 6대 무단 수집”... 편리함 뒤에 숨은 ‘상시 도청’ 경고",
+      "published_at": "2026-08-12T00:41:00Z",
+      "published_raw": "Wed, 12 Aug 2026 09:41:00 +0900",
+      "categories": [],
+      "description": "최근 스마트 TV, AI 스피커, 지능형 가전 등 온디바이스(On-Device) AI 기술이 대중화됨에 따라, 가정 내 오디오 센서 및 로컬 단말을 통한 개인정보 및 사생활 음성 데이터의 무단 수집 리스크가 심각한 프라이버시 문제로 급부상하고 있다. 글로벌 소비자 리포트 조사에 따르면 조사 대상 온디바이스 AI 가전의 60%가 암호화되지 않은 개인식별정보(",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[지진솔기자 (digital@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:ec4a801e1d00cfef1b6cd7e6de814fd22a47b85693b55ab5c76cb64ccad5e87a",
       "url": "http://www.boannews.com/media/view.asp?idx=145114&kind=1&sub_kind=",
@@ -163,36 +201,17 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:8f10ffa470e11c699d7dd076ba2341651d6e72e96c6601b0bb9e0c80bd078a13",
-      "url": "http://www.boannews.com/media/view.asp?idx=145052&kind=1&sub_kind=",
-      "title": "[롯데카드 CISO 제재 파문-①] 총알받이 전락한 CISO... 금융권 보안 인재 엑소더스 시작되나?",
-      "published_at": "2026-08-06T08:32:00Z",
-      "published_raw": "Thu, 6 Aug 2026 17:32:00 +0900",
+      "id": "sha256:9482bcb40b62a0fa00d7f9e03d556521283494f850dcf96cc8a365f0810464f2",
+      "url": "http://www.boannews.com/media/view.asp?idx=145120&kind=&sub_kind=",
+      "title": "폴란드 열병합발전소, 사설이동통신망 악용한 은닉형 사이버공격 뒤늦게 확인",
+      "published_at": "2026-08-12T02:23:00Z",
+      "published_raw": "Wed, 12 Aug 2026 11:23:00 +0900",
       "categories": [],
-      "description": "금감원, 롯데카드 해킹 사태 관련 정보보호 책임자 고강도 제재... 보안 인력 동요정보보호 사고 특성 무시, 모든 과실 개인에 전가“보안은 개인 아닌 조직 전체의 거버넌스 과제”[보안뉴스 조재호 기자] 금융감독원이 지난해 발생한 297만명 규모의 고객 개인신용정보 유출 사고와 관련해 롯데카드 전현직 정보보호최고책임자(CISO)에게 정직 3개월 등 중징계를",
+      "description": "풍력발전소 방화벽 통해 기본 비밀번호 방치된 발전소 제어기까지 교차 침투조기 수습으로 난방 중단은 면했으나 증거 파괴 등 정교한 공격 정황 확인[보안뉴스 김형근 기자] 폴란드 사이버보안 당국이 지난 겨울 한파 당시 주민 5만명에게 난방을 공급하는 소규모 열병합발전소를 겨냥한 사이버공격을 뒤늦게 파악했다. 당시에는 단순 운영 장애로 처리됐던 사건이 수개월간의",
       "feed_id": "",
       "authors": [
         {
-          "name": "[조재호기자 (zephyr@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:83de6b148249aa57bb4976371103ae19125270f7af09d138a17e2173b8d75efa",
-      "url": "http://www.boannews.com/media/view.asp?idx=145039&kind=1&sub_kind=",
-      "title": "아파치 톰캣 암호화 우회 취약점 비상... CISA, KEV 긴급 등재",
-      "published_at": "2026-08-06T02:16:00Z",
-      "published_raw": "Thu, 6 Aug 2026 11:16:00 +0900",
-      "categories": [],
-      "description": "중국계 해커, AI 악용해 ‘리버스 셸’ 배포 등 실제 침해 사고 발생CISA, 연방 기관에 조치 불가 시 제품 사용 중단 초강수 지침[보안뉴스 김형근 기자] 미국 사이버보안및인프라보안국(CISA)이 실제 현장 공격에 악용 중인 아파치 톰캣(Apache Tomcat)의 고위험 암호화 우회 취약점(CVE-2026-34486)을 KEV 카탈로그에 추가했다.이번",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "name": "[강초희기자 (choh@boannews.com)]",
           "uri": "",
           "email": ""
         }
@@ -260,6 +279,44 @@
     {
       "id": "sha256:7bc9a98b857cb0907c728b70399eab0b5b403544467e564eb5dc0d01cfaf9046",
       "url": "http://www.boannews.com/media/view.asp?idx=145039&kind=&sub_kind=",
+      "title": "아파치 톰캣 암호화 우회 취약점 비상... CISA, KEV 긴급 등재",
+      "published_at": "2026-08-06T02:16:00Z",
+      "published_raw": "Thu, 6 Aug 2026 11:16:00 +0900",
+      "categories": [],
+      "description": "중국계 해커, AI 악용해 ‘리버스 셸’ 배포 등 실제 침해 사고 발생CISA, 연방 기관에 조치 불가 시 제품 사용 중단 초강수 지침[보안뉴스 김형근 기자] 미국 사이버보안및인프라보안국(CISA)이 실제 현장 공격에 악용 중인 아파치 톰캣(Apache Tomcat)의 고위험 암호화 우회 취약점(CVE-2026-34486)을 KEV 카탈로그에 추가했다.이번",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:8f10ffa470e11c699d7dd076ba2341651d6e72e96c6601b0bb9e0c80bd078a13",
+      "url": "http://www.boannews.com/media/view.asp?idx=145052&kind=1&sub_kind=",
+      "title": "[롯데카드 CISO 제재 파문-①] 총알받이 전락한 CISO... 금융권 보안 인재 엑소더스 시작되나?",
+      "published_at": "2026-08-06T08:32:00Z",
+      "published_raw": "Thu, 6 Aug 2026 17:32:00 +0900",
+      "categories": [],
+      "description": "금감원, 롯데카드 해킹 사태 관련 정보보호 책임자 고강도 제재... 보안 인력 동요정보보호 사고 특성 무시, 모든 과실 개인에 전가“보안은 개인 아닌 조직 전체의 거버넌스 과제”[보안뉴스 조재호 기자] 금융감독원이 지난해 발생한 297만명 규모의 고객 개인신용정보 유출 사고와 관련해 롯데카드 전현직 정보보호최고책임자(CISO)에게 정직 3개월 등 중징계를",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:83de6b148249aa57bb4976371103ae19125270f7af09d138a17e2173b8d75efa",
+      "url": "http://www.boannews.com/media/view.asp?idx=145039&kind=1&sub_kind=",
       "title": "아파치 톰캣 암호화 우회 취약점 비상... CISA, KEV 긴급 등재",
       "published_at": "2026-08-06T02:16:00Z",
       "published_raw": "Thu, 6 Aug 2026 11:16:00 +0900",
