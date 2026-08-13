@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-13T16:01:05Z",
+  "updated_at": "2026-08-13T17:01:03Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-13T16:01:05Z",
+    "last_success_at": "2026-08-13T17:01:03Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:3a6f2d443fea5782f5cd3d97ea51801b0999a7117ef275c6d68acc2b69a78023",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access",
+      "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
+      "published_at": "2026-08-13T16:40:23Z",
+      "published_raw": "Thu, 13 Aug 2026 12:40:23 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:740c794a9a91ea14c4bf8bc7c41b971c5c2d5ccd293051bd00c9f85eca4247fc",
       "url": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers",
@@ -1443,27 +1464,6 @@
       ],
       "description": "Fake Xeno Executor installers are infecting unsuspecting Roblox players with malware that provides remote access and steals sensitive information. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:94c507dcc7bfc84fbe38a7eb50bf010874299416743a389f3b27b6fbf152ad65",
-      "url": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks",
-      "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
-      "published_at": "2026-08-03T17:00:56Z",
-      "published_raw": "Mon, 03 Aug 2026 13:00:56 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
       "authors": [
         {
           "name": "Bill Toulas",
