@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-13T15:01:04Z",
+  "updated_at": "2026-08-13T16:01:05Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-13T15:01:04Z",
+    "last_success_at": "2026-08-13T16:01:05Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:740c794a9a91ea14c4bf8bc7c41b971c5c2d5ccd293051bd00c9f85eca4247fc",
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers",
+      "title": "Trezor discloses data breach affecting nearly 14,000 customers",
+      "published_at": "2026-08-13T15:13:19Z",
+      "published_raw": "Thu, 13 Aug 2026 11:13:19 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provider, was hacked [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
+      "authors": [
+        {
+          "name": "Sergiu Gatlan",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:7258aa79394230aeeef4906b721befc5af26d786f49e2c3a2c4d43af688bfe66",
       "url": "https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion",
@@ -1443,27 +1464,6 @@
       ],
       "description": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:1a354a6aff7db9f135a2b8ad45c99c305ad134b417914e74955336816ed053e8",
-      "url": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff",
-      "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
-      "published_at": "2026-08-03T15:04:39Z",
-      "published_raw": "Mon, 03 Aug 2026 11:04:39 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A cyberattack on the U.K.'s Police National Legal Database (PNLD) has compromised contact data of more than 100,000 police officers and other criminal justice professionals. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
       "authors": [
         {
           "name": "Bill Toulas",

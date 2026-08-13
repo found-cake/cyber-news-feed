@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-08-13T15:01:04Z",
+  "updated_at": "2026-08-13T16:01:05Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-13T15:01:04Z",
+    "last_success_at": "2026-08-13T16:01:05Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -163,7 +163,7 @@
       "categories": [
         "application-security"
       ],
-      "description": "Security experts say prioritization should be the main focus for the August updates, not the massive CVE volume.",
+      "description": "The most concerning bug in the batch is CVE-2026-62878 (CVSS: 9.8), a remote code execution (RCE) vulnerability in Windows DNS Server that requires no user interaction.",
       "feed_id": "https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues",
       "authors": [
         {
@@ -828,42 +828,6 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt38063499658fdf3d/6a70e89e220415e290089159/N_able_Ontario_Office-JHVEPhoto-GettyImages-2153902736.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:506af16cb0e064d46f7ad99f4f5f4a68e2977af901e0b2bc18cc014afcaced73",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm",
-      "title": "Chinese Actor Weaponizes Deepseek AI Agent to Attack Security Firm",
-      "published_at": "2026-08-03T15:42:18Z",
-      "published_raw": "Mon, 03 Aug 2026 15:42:18 GMT",
-      "categories": [
-        "cyberattacks-data-breaches"
-      ],
-      "description": "Researchers intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking to launch further attacks.",
-      "feed_id": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm",
-      "authors": [
-        {
-          "name": "Elizabeth Montalbano",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5b326661c25a73c5/6a70f5e542103f14fb72de26/aiagents-wildpixel-Getty-1499492092.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5b326661c25a73c5/6a70f5e542103f14fb72de26/aiagents-wildpixel-Getty-1499492092.jpg?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }
