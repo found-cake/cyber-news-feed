@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-13T20:01:05Z",
+  "updated_at": "2026-08-13T21:01:02Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-13T20:01:05Z",
+    "last_success_at": "2026-08-13T21:01:02Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:286ed9b0bccd6111bf1225f14d7ef54d31d488376a0f8f3f05e90b70587bd4db",
+      "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt",
+      "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
+      "published_at": "2026-08-13T20:47:02Z",
+      "published_raw": "Thu, 13 Aug 2026 16:47:02 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:b28e693aa8316a6a46248382c571d63e81aa905d9b5501ca1d7a34491af3f6e0",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud",
@@ -1463,27 +1484,6 @@
       ],
       "description": "Security researchers have discovered three attacks that allow malware on already-compromised Windows devices to abuse Google Password Manager's synced passkeys to take over accounts, bypass user verification, and extract passkey private keys. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:43ae4af0cd6d961c49da0d774068e20d2faca7a369e96b42897a596bb7d9c3eb",
-      "url": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images",
-      "title": "New DOUBLECUP ClickFix service hides malware in browser cache images",
-      "published_at": "2026-08-03T20:01:22Z",
-      "published_raw": "Mon, 03 Aug 2026 16:01:22 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A new Russian loader-as-a-service named DOUBLECUP uses ClickFix attacks to hide malicious code in PNG images cached by victims' browsers, ultimately delivering CountLoader to Windows and macOS devices and a new remote access trojan named DeviceManager to Windows systems. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
       "authors": [
         {
           "name": "Lawrence Abrams",
