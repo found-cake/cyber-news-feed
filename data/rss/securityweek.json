@@ -1,15 +1,84 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-13T09:01:10Z",
+  "updated_at": "2026-08-13T10:01:05Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-13T09:01:10Z",
+    "last_success_at": "2026-08-13T10:01:05Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:086d01ba1c7c38d6861a21fe6d70dd206c9deaf9c3d9265bf3a8e034db488c58",
+      "url": "https://www.securityweek.com/white-house-mobilizes-security-firms-for-operations-against-foreign-cybercrime-gangs",
+      "title": "White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs",
+      "published_at": "2026-08-13T09:53:04Z",
+      "published_raw": "Thu, 13 Aug 2026 09:53:04 +0000",
+      "categories": [
+        "Government",
+        "hack back",
+        "memorandum",
+        "Offensive Security",
+        "White House"
+      ],
+      "description": "<p>Contracts may require a $1 million bond, which will be forfeited if a company fails to comply with operational requirements.</p>\n<p>The post <a href=\"https://www.securityweek.com/white-house-mobilizes-security-firms-for-operations-against-foreign-cybercrime-gangs/\">White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48587",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:9bfdeaafbb4aa2a9f07f24573cb5bfbd4df3e373e9a02a020d1b86289119b1b0",
+      "url": "https://www.securityweek.com/critical-vmware-vcenter-vulnerability-in-attackers-crosshairs",
+      "title": "Critical VMware vCenter Vulnerability in Attackers’ Crosshairs",
+      "published_at": "2026-08-13T09:06:40Z",
+      "published_raw": "Thu, 13 Aug 2026 09:06:40 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "exploited",
+        "VMware",
+        "vulnerability"
+      ],
+      "description": "<p>Tracked as CVE-2026–59310, the directory traversal bug allows remote attackers to execute arbitrary code.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-vmware-vcenter-vulnerability-in-attackers-crosshairs/\">Critical VMware vCenter Vulnerability in Attackers&#8217; Crosshairs</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48582",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:a50881d7b3cf1f4729d2a74ff701acda9a4e0463b89c4fca1167c12d90d75bb4",
       "url": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-shieldbreak",
@@ -2834,43 +2903,6 @@
       ],
       "description": "<p>The INC Ransomware gang has been targeting vulnerable SMA1000 appliances for root access and lateral movement.</p>\n<p>The post <a href=\"https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/\">Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
       "feed_id": "https://www.securityweek.com/?p=48336",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:023593ce5dc8e098f6087b5d0393fd2ad4fa92d6b9342617b636bfacb5cf585e",
-      "url": "https://www.securityweek.com/russian-state-apt-linked-to-recent-public-wi-fi-gateway-hacking",
-      "title": "Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking",
-      "published_at": "2026-08-03T09:17:37Z",
-      "published_raw": "Mon, 03 Aug 2026 09:17:37 +0000",
-      "categories": [
-        "Mobile & Wireless",
-        "Phishing",
-        "APT",
-        "Microsoft",
-        "Midnight Blizzard",
-        "Russia",
-        "Wi-Fi"
-      ],
-      "description": "<p>Midnight Blizzard has been stealing Microsoft account credentials via compromised Wi-Fi networks at hospitality organizations.</p>\n<p>The post <a href=\"https://www.securityweek.com/russian-state-apt-linked-to-recent-public-wi-fi-gateway-hacking/\">Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48333",
       "authors": [
         {
           "name": "Ionut Arghire",

@@ -1,15 +1,34 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-08-13T09:01:10Z",
+  "updated_at": "2026-08-13T10:01:05Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-08-13T08:01:06Z",
-    "last_error_at": "2026-08-13T09:01:10Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "ok": true,
+    "last_success_at": "2026-08-13T10:01:05Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:24b55bd476df4155fe14f2c390dfdb4653a03eba25544a20fd4036c7b4748338",
+      "url": "http://www.boannews.com/media/view.asp?idx=145147&kind=1&sub_kind=",
+      "title": "北 라자루스, 윈도우 미패치 취약점 노려 고도화된 ‘푸드모듈’ 루트킷 유포",
+      "published_at": "2026-08-13T08:13:00Z",
+      "published_raw": "Thu, 13 Aug 2026 17:13:00 +0900",
+      "categories": [],
+      "description": "푸드모듈 루트킷의 업그레이드 버전 유포 위해 윈도우 커널 제로데이 취약점(CVE-2026-68820) 악용[보안뉴스 원병철 기자] 북한 연계 해킹그룹 라자루스가 악명 높은 푸드모듈(FudModule) 루트킷의 업그레이드 버전을 유포하기 위해 윈도우 커널 제로데이 취약점(CVE-2026-68820)을 악용하다가 적발됐다고 보안업체 체크포인트 리서치가 밝혔다.",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[원병철기자 (boanone@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:d46436aeaad5877ef2c483832597c8e552d1b74ee48c2d677b93d27ab5d6fe05",
       "url": "http://www.boannews.com/media/view.asp?idx=145134&kind=1&sub_kind=",
@@ -182,17 +201,17 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:75f97d83bad0118ff6777159f5e9aa7a1c51feb07a2b3a5377d5edea0e47643f",
-      "url": "http://www.boannews.com/media/view.asp?idx=145071&kind=1&sub_kind=",
-      "title": "[카드뉴스] 무료 선물 링크의 덫… 방화벽 뚫고 들어오는 사이버 공격 실체",
-      "published_at": "2026-08-07T08:19:00Z",
-      "published_raw": "Fri, 7 Aug 2026 17:19:00 +0900",
+      "id": "sha256:75fbdcf782c48d31e3bbf79621b52a39a03e9b22acaf54a914bef9c5a233d26a",
+      "url": "http://www.boannews.com/media/view.asp?idx=145147&kind=&sub_kind=",
+      "title": "北 라자루스, 윈도우 미패치 취약점 노려 고도화된 ‘푸드모듈’ 루트킷 유포",
+      "published_at": "2026-08-13T08:13:00Z",
+      "published_raw": "Thu, 13 Aug 2026 17:13:00 +0900",
       "categories": [],
-      "description": "무료 리소스 링크 등을 가장한 트로이 목마형 악성코드 유입과 사회공학적 공격이 기업 디지털 자산을 심각하게 위협하고 있다. 단순 경계망 방화벽을 넘어 엔드포인트 백신 모듈, 익명성 제어 기술, 무결성 점검이 결합된 다층 방어 체계 구축이 요구된다. 기업은 사이버 위협의 유입을 원천 차단하고 사내 네트워크를 보호하기 위해 상시 단말 무결성 점검과 통합 보안",
+      "description": "푸드모듈 루트킷의 업그레이드 버전 유포 위해 윈도우 커널 제로데이 취약점(CVE-2026-68820) 악용[보안뉴스 원병철 기자] 북한 연계 해킹그룹 라자루스가 악명 높은 푸드모듈(FudModule) 루트킷의 업그레이드 버전을 유포하기 위해 윈도우 커널 제로데이 취약점(CVE-2026-68820)을 악용하다가 적발됐다고 보안업체 체크포인트 리서치가 밝혔다.",
       "feed_id": "",
       "authors": [
         {
-          "name": "[지진솔기자 (digital@boannews.com)]",
+          "name": "[원병철기자 (boanone@boannews.com)]",
           "uri": "",
           "email": ""
         }
@@ -288,6 +307,25 @@
       "authors": [
         {
           "name": "[조재호기자 (zephyr@boannews.com)]",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:75f97d83bad0118ff6777159f5e9aa7a1c51feb07a2b3a5377d5edea0e47643f",
+      "url": "http://www.boannews.com/media/view.asp?idx=145071&kind=1&sub_kind=",
+      "title": "[카드뉴스] 무료 선물 링크의 덫… 방화벽 뚫고 들어오는 사이버 공격 실체",
+      "published_at": "2026-08-07T08:19:00Z",
+      "published_raw": "Fri, 7 Aug 2026 17:19:00 +0900",
+      "categories": [],
+      "description": "무료 리소스 링크 등을 가장한 트로이 목마형 악성코드 유입과 사회공학적 공격이 기업 디지털 자산을 심각하게 위협하고 있다. 단순 경계망 방화벽을 넘어 엔드포인트 백신 모듈, 익명성 제어 기술, 무결성 점검이 결합된 다층 방어 체계 구축이 요구된다. 기업은 사이버 위협의 유입을 원천 차단하고 사내 네트워크를 보호하기 위해 상시 단말 무결성 점검과 통합 보안",
+      "feed_id": "",
+      "authors": [
+        {
+          "name": "[지진솔기자 (digital@boannews.com)]",
           "uri": "",
           "email": ""
         }
