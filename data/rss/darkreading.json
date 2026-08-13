@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-08-13T21:01:02Z",
+  "updated_at": "2026-08-13T22:01:03Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-13T21:01:02Z",
+    "last_success_at": "2026-08-13T22:01:03Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:7a20fee85e3db3a9b0a25fb53a57cc12edf12798d00f8664c7e33ba06ef84414",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw",
+      "title": "Global Threat Campaign Hits Critical VMware vCenter Flaw",
+      "published_at": "2026-08-13T20:45:17Z",
+      "published_raw": "Thu, 13 Aug 2026 20:45:17 GMT",
+      "categories": [
+        "vulnerabilities-threats"
+      ],
+      "description": "Exploitation against CVE-2026–59310 began earlier this month, and patching the vulnerability may not be enough to fully mitigate the threat.",
+      "feed_id": "https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw",
+      "authors": [
+        {
+          "name": "Rob Wright",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf3a1b76742bf9f5e/6a7e21b20030f83b5312474b/vmware-MaboHH-Getty-474325206.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf3a1b76742bf9f5e/6a7e21b20030f83b5312474b/vmware-MaboHH-Getty-474325206.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
     {
       "id": "sha256:0d9304a57c79cd9a5214df53fbde985f3b730e8cca3b823f238d319d691585b8",
       "url": "https://www.darkreading.com/threat-intelligence/jewelbug-apt-state-espionage-cryptocurrency-theft",
@@ -792,42 +828,6 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltacd93dbe5fa30f62/6a6fb9993e6bcafcff0bbab9/Video_call_AiTM-jack191-Getty.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
-      "id": "sha256:f765a9e7adb05a6b7c412589a6871570d09bc1feb49936ded97f544655bb2b81",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
-      "title": "Attackers Exploit N-able Patch Bypass Flaw on RMM Servers",
-      "published_at": "2026-08-03T21:21:11Z",
-      "published_raw": "Mon, 03 Aug 2026 21:21:11 GMT",
-      "categories": [
-        "vulnerabilities-threats"
-      ],
-      "description": "Over the weekend, the vendor discovered another vector of authentication bypass CVE-2026-18577 that gives attackers administrator access.",
-      "feed_id": "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
-      "authors": [
-        {
-          "name": "Alexander Culafi",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt38063499658fdf3d/6a70e89e220415e290089159/N_able_Ontario_Office-JHVEPhoto-GettyImages-2153902736.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt38063499658fdf3d/6a70e89e220415e290089159/N_able_Ontario_Office-JHVEPhoto-GettyImages-2153902736.jpg?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }
