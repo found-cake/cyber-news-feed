@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-13T06:01:06Z",
+  "updated_at": "2026-08-13T07:01:05Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-13T06:01:06Z",
+    "last_success_at": "2026-08-13T07:01:05Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -470,26 +470,26 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:44aca34a590464aee2812459631bad1e421ed243da3dc3958b2c1c87ce8eb4a9",
-      "url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
-      "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
-      "published_at": "2026-08-03T06:41:46Z",
-      "published_raw": "2026-08-03T12:11:46.372+05:30",
+      "id": "sha256:3c5ef5fa5324c56d0088ebd0c255bc52445049f09368b126e7e180b72ff900db",
+      "url": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+      "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+      "published_at": "2026-08-13T06:09:48Z",
+      "published_raw": "2026-08-13T11:39:48.468+05:30",
       "categories": [
-        "threat-intelligence"
+        "vulnerability"
       ],
-      "description": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers.\n\nIts first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2026.3.1.7. N-able shipped build 2026.3.1.7 on August 2 as the first unaffected version.\n\nN-central is the remote monitoring and management platform",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1264605318967736624",
+      "description": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code.\n\nThe vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates.\n\n\"The authentication",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8352487863604946919",
       "authors": [
         {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
           "email": "noreply@blogger.com"
         }
       ],
       "media": [
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs1H8Wx5_ZrUFksG2Tgb_6qho5XHULdP13qVeYXx1xWPPt8B2rH68XC6IhzBk-dczgsdWvpZ_dVTI7AIMsgK1EeU3B89WVUJu2N5B71FQ4GnlZDRlvNiD4pGO2hBCJGVowjUVDMSHAO_0CPlYthpa8jx-Af5OwB6ZMDr-PKTYDJKjP4pGCZZolbjbGi44/s260-e100/n-able.jpg",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_e1WsuZlqC_AfMpdI4wXB0wzIA6nGpPb5ktYmwO5jRhFqH2t56eGghhYAV7he6u0qTqiPacKD-Wf3c1vXxUmBV159KAObOJUTEDGdDafl9B0makdRgyKTUwWHZ5qxLpGbWRg33JJl_0KaY0K0fiWLaV2xghWX4KqUSeaoNgD9Z5ql1Q5VesZQyH-1eO7W/s260-e100/poc.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1037,33 +1037,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:ecc4777c9ae87466f333c26238c4e461dc2f07715990b822776d4cab3300e5d6",
-      "url": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
-      "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
-      "published_at": "2026-08-08T06:58:31Z",
-      "published_raw": "2026-08-08T12:28:31.691+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day.\n\nThe vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5271370877219891386",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjv2q8ukeawl9ALLfPnkrRkD2a9umOrSxPHUJdclgLcKj5zM8k19y-NWuTGLrV1yIU4u0F2-QbAsD4zO-NkeEuWPwDqdUYbVFDG69EgOl0v55K0Brjp7lfIb6hExJGyVj9rj5KjeZPtoU97DwoaHAi_umLzQVqpedMMt08eas1akWBhNXUZ2WHOqVXczAf4/s260-e100/metabase.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:6c0fe6acb311af0f2aff2d8d8a2afcb7e2f7e7b2802050bc100619eed42bf8d6",
       "url": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
       "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
@@ -1111,6 +1084,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS_4KcVdL2QogjCtjg4yqVFuDNgQ9a8SYCzjsxUKME896DBso0Zwpvb8gH9T5gMPOqM2LU-A-7IyKOqKpKiXgLWAdiABf4RrVvAq9nNpDDC2TNppKWt9RKVXmNr2-Z9Y1kIBNVi8fETA6Aj6K2s_gU0Hmc8CKDi1q1wbqD9G9uUP5cPpuwk5h88mfD9I0/s260-e100/power-plant.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:ecc4777c9ae87466f333c26238c4e461dc2f07715990b822776d4cab3300e5d6",
+      "url": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
+      "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
+      "published_at": "2026-08-08T06:58:31Z",
+      "published_raw": "2026-08-08T12:28:31.691+05:30",
+      "categories": [
+        "cyber-attack"
+      ],
+      "description": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day.\n\nThe vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5271370877219891386",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjv2q8ukeawl9ALLfPnkrRkD2a9umOrSxPHUJdclgLcKj5zM8k19y-NWuTGLrV1yIU4u0F2-QbAsD4zO-NkeEuWPwDqdUYbVFDG69EgOl0v55K0Brjp7lfIb6hExJGyVj9rj5KjeZPtoU97DwoaHAi_umLzQVqpedMMt08eas1akWBhNXUZ2WHOqVXczAf4/s260-e100/metabase.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -2002,33 +2002,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMO8eh_7kmo0QAAphjdYIXsjfGspFVU9gV5XInqqhs4WnFNCm_hP-EBdmVln7vSrwWkmo9pdvoxAQbaC17M8sYg7VzBX8RJnRIb6E6pBr5euW9WweOeeZk9XpN8O5I5vF_OGypfqp9WO-SO_C81D4DDui3uTp0jBvV5_C7qIjuRgtoMd4bKQ1y8QEnC3c/s260-e100/dna.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:0a3d3912cd46c461b65c40551d1078dec596fb7e06e281113c04012ce3653ead",
-      "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
-      "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
-      "published_at": "2026-08-03T06:40:31Z",
-      "published_raw": "2026-08-03T12:10:31.167+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk.\n\n\"These vulnerabilities are bypassing trust_remote_code, the safeguard designed to stop unreviewed code from running in the",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8739581094929262445",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWQmUt2QHxTfiXiolir9akmVh8dT5di3UBDtD7H2IJlkWQ4x4VmeTUEZo8CUvz2q2FXCvxTJDHenWPzqPeSbnlCYSRTNGULKdWRJnsmVg7SVJT_BBPABxqRuvr22Z9V2C6P51fRjSGzgAlHMzEn-MjA4yTMfCaM91ujVajF8GJqYg9ZaZELXsCc-GMnYq8/s260-e100/hugging.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
