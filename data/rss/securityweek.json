@@ -1,15 +1,49 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-13T12:01:05Z",
+  "updated_at": "2026-08-13T13:01:06Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-13T12:01:05Z",
+    "last_success_at": "2026-08-13T13:01:06Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:a305578e4213d356afa0062a8f94f9bb4c94e63188932e430666e3c247ff9eac",
+      "url": "https://www.securityweek.com/wordpress-7-0-4-patches-remote-code-execution-vulnerability",
+      "title": "WordPress 7.0.4 Patches Remote Code Execution Vulnerability",
+      "published_at": "2026-08-13T12:53:56Z",
+      "published_raw": "Thu, 13 Aug 2026 12:53:56 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "RCE",
+        "vulnerability",
+        "WordPress"
+      ],
+      "description": "<p>Attackers with Author-level user or higher permissions could exploit the flaw via malicious Postscript files.</p>\n<p>The post <a href=\"https://www.securityweek.com/wordpress-7-0-4-patches-remote-code-execution-vulnerability/\">WordPress 7.0.4 Patches Remote Code Execution Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48594",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:ba6155990f5535f7dc0ae6036fb987ed5909fccf2158ffd56052a5149c5e240d",
       "url": "https://www.securityweek.com/venture-firm-team8-secures-additional-365-million",
@@ -85,6 +119,7 @@
       "published_raw": "Thu, 13 Aug 2026 09:53:04 +0000",
       "categories": [
         "Government",
+        "Featured",
         "hack back",
         "memorandum",
         "Offensive Security",
@@ -2835,73 +2870,6 @@
       "authors": [
         {
           "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:9f9858ee7a611821cf45f577bcd710400c4d9fe96f73b900c45bf136c276da5f",
-      "url": "https://www.securityweek.com/horizon3-raises-250-million-to-fund-continuing-growth",
-      "title": "Horizon3 Raises $250 Million to Fund Continuing Growth",
-      "published_at": "2026-08-03T13:00:00Z",
-      "published_raw": "Mon, 03 Aug 2026 13:00:00 +0000",
-      "categories": [
-        "Cybersecurity Funding",
-        "funding"
-      ],
-      "description": "<p>Venture financing has become an essential factor in growing new business in today’s fast moving economy. Horizon3’s latest funding explains how and why.</p>\n<p>The post <a href=\"https://www.securityweek.com/horizon3-raises-250-million-to-fund-continuing-growth/\">Horizon3 Raises $250 Million to Fund Continuing Growth</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48343",
-      "authors": [
-        {
-          "name": "Kevin Townsend",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:f1c8ab398f481198a6835a12148957f44440190f1843bce73cb13af782adc473",
-      "url": "https://www.securityweek.com/n-able-patches-vulnerability-exploited-to-hack-n-central-servers",
-      "title": "N‑able Patches Vulnerability Exploited to Hack N-central Servers",
-      "published_at": "2026-08-03T12:34:06Z",
-      "published_raw": "Mon, 03 Aug 2026 12:34:06 +0000",
-      "categories": [
-        "Vulnerabilities",
-        "exploited",
-        "N-able",
-        "N-central",
-        "vulnerability"
-      ],
-      "description": "<p>The N‑central vulnerability CVE-2026-18577 has been exploited in the wild after threat actors found a patch bypass.</p>\n<p>The post <a href=\"https://www.securityweek.com/n-able-patches-vulnerability-exploited-to-hack-n-central-servers/\">N‑able Patches Vulnerability Exploited to Hack N-central Servers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48344",
-      "authors": [
-        {
-          "name": "Eduard Kovacs",
           "uri": "",
           "email": ""
         }
