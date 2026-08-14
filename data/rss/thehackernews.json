@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-14T10:01:02Z",
+  "updated_at": "2026-08-14T11:00:57Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-14T10:01:02Z",
+    "last_success_at": "2026-08-14T11:00:57Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:1fa54606e9767c74021ba41a5411455db7ba92fe8b8fd93e84c8f150cdceb3e1",
+      "url": "https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html",
+      "title": "Apple Warns Users in 110 Countries They May Be Targets of Mercenary Spyware",
+      "published_at": "2026-08-14T10:44:34Z",
+      "published_raw": "2026-08-14T16:14:34.662+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Apple on Thursday sent a fresh batch of notifications to customers whom it suspects may have been targeted by mercenary spyware attacks.\n\nIn a statement shared with TechCrunch, the iPhone maker said it alerted an unspecified number of users targeted in 110 countries and that it has notified customers in over 150 countries to date. Apple began sending threat notifications to users in late 2021.",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7326500109970597932",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTrk440S7PXJ5sSmKnZIdesVK6PyZSDythFcN4mRxAPn-e4zfJ7ArPi_4Uya1_1N94uKeXMg7prAAOV7e968w2bLcngT-4ultLDyikYTR3bano0-5Qhb1QsR50RH5RGwiPoAZ9rHjmAzdFc6FTyHEDJHuUgd1qIC6_Wq59PZFg6H-8yz2WDbBos1OneV0n/s260-e100/apple.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:b9b4425fac0b0dd56d7840d22212ff74a9c52ed03b1f79957047e8f6c6dd57b0",
       "url": "https://thehackernews.com/2026/08/north-korean-remote-workers-are.html",
@@ -1867,33 +1894,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLUUlqxE9AYL9PyFAlWMsG9czDcrU9p2kMUsumVIYx5SnlMAO0z-n_weUWeX-CiMHQBbkGK1lV-78vp003-bAeRP4gQRyGXlq5blzx5dJdd9zFttd2tjhGlNUFLNk-6ro9GfXMkRCFVLs-ex3gWHoJh-87sZifOeTKohLNoypvvqLUUPLkGUsjKXfAj7A/s260-e100/google.gif",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:df5a94b50e3dd023090c7a0d0ff7dc0839c25cfc9677d8978dce4d33201530d4",
-      "url": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
-      "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
-      "published_at": "2026-08-04T10:36:27Z",
-      "published_raw": "2026-08-04T16:06:27.032+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a targeted security release that closes two other routes past account boundaries.\n\nThe database bug is tracked as CVE-2026-58048 (CVSS 4.0 score: 9.4) and affects",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2035724213420098728",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2LFB09rf16kl1_PinOnHkAY4GiI38_azQ2t-EWYRicFndp5DX-5KSfwVVEJxwEKp07oouBfkFg71MxwilLY_M2i3clk82hs5-Xr-PgDj69JeYzTsPjp_8sdNZIminQFonHRq2GqWDXJuwGqpT4Na485_pILlvMSlBdSMqWYWqTHDrUC_9OdOW-kCdSeM/s260-e100/cpanel.jpg",
           "kind": "thumbnail",
           "medium": ""
         }

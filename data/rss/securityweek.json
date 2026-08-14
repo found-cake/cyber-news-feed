@@ -1,15 +1,87 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-14T10:01:02Z",
+  "updated_at": "2026-08-14T11:00:57Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-14T10:01:02Z",
+    "last_success_at": "2026-08-14T11:00:57Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:5af9a03699ba12b0aaec0285516c583acb56813ce67e2702a4383d81840330ac",
+      "url": "https://www.securityweek.com/google-cloud-sets-out-post-quantum-roadmap-with-2029-readiness-goal",
+      "title": "Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal",
+      "published_at": "2026-08-14T11:00:00Z",
+      "published_raw": "Fri, 14 Aug 2026 11:00:00 +0000",
+      "categories": [
+        "Data Protection",
+        "google",
+        "Google Cloud",
+        "PQC",
+        "Quantum",
+        "Quantum Computing",
+        "roadmap"
+      ],
+      "description": "<p>Google Cloud outlines its roadmap to full post-quantum cryptography readiness, with key milestones targeted for 2027 and 2028.</p>\n<p>The post <a href=\"https://www.securityweek.com/google-cloud-sets-out-post-quantum-roadmap-with-2029-readiness-goal/\">Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48621",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:ec33614852dbf6b07cab03abfdaced5ea6d99850ad1ac9d8fc89fbf6b18d8319",
+      "url": "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach",
+      "title": "1.6 Million Likely Impacted by RingCentral Data Breach",
+      "published_at": "2026-08-14T10:24:03Z",
+      "published_raw": "Fri, 14 Aug 2026 10:24:03 +0000",
+      "categories": [
+        "Data Breaches",
+        "data breach",
+        "data leak",
+        "RingCentral",
+        "ShinyHunters"
+      ],
+      "description": "<p>The hackers published the allegedly stolen information, including names, addresses, email addresses, and phone numbers.</p>\n<p>The post <a href=\"https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/\">1.6 Million Likely Impacted by RingCentral Data Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48615",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:272b4651e83a3f6e4184ca04314167459a04a0419dd9b924c1b9fb3f8157062c",
       "url": "https://www.securityweek.com/over-1000-charities-hit-by-beacon-crm-data-breach",
@@ -90,6 +162,7 @@
       "categories": [
         "Vulnerabilities",
         "exploited",
+        "Featured",
         "GeoServer",
         "Zero-Day"
       ],
@@ -2766,42 +2839,6 @@
       "authors": [
         {
           "name": "SecurityWeek News",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:7ac5d8a05c33c3d06922711825f0eabf1b0b2f186a26c4f14d1ceaac17da9e2d",
-      "url": "https://www.securityweek.com/gemini-agent-to-agent-attack-exposed-secrets-enabled-pull-request-tampering",
-      "title": "Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering",
-      "published_at": "2026-08-04T10:54:30Z",
-      "published_raw": "Tue, 04 Aug 2026 10:54:30 +0000",
-      "categories": [
-        "Artificial Intelligence",
-        "Vulnerabilities",
-        "agent-to-agent",
-        "AI",
-        "Gemini",
-        "vulnerability"
-      ],
-      "description": "<p>A crafted prompt to a low-privilege Google ADK agent could be used to pass a malicious hand-off comment to a privileged agent.</p>\n<p>The post <a href=\"https://www.securityweek.com/gemini-agent-to-agent-attack-exposed-secrets-enabled-pull-request-tampering/\">Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48385",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
           "uri": "",
           "email": ""
         }
