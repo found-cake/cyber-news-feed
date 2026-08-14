@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-14T13:01:02Z",
+  "updated_at": "2026-08-14T14:01:02Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-14T13:01:02Z",
+    "last_success_at": "2026-08-14T14:01:02Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:53b57e9b7662e0ece71226612e9421b4ee993972e065913cfde49b90e285c283",
+      "url": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
+      "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
+      "published_at": "2026-08-14T13:08:56Z",
+      "published_raw": "2026-08-14T18:38:56.929+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "The threat actor known as HoneyMyte (aka&nbsp;Mustang Panda) has been observed deploying an updated version of the CoolClient backdoor with a signed Windows kernel-mode rootkit that can hide and protect malicious processes, files, registry objects, and command-and-control (C2) network information.\n\nRussian cybersecurity vendor Kaspersky said it identified victims in Myanmar, Mongolia, Pakistan,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6125181303199383560",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHhYwJerhs2kJO7Sh0FJfEt7_JpkOEbB1ccWjSpSyfvWWDf7waLVr1TMU9Cj-_jdAQ7bDAX0gV2Bt4Sqv1Zx4K8PJgObOX3nt1bVT5YClAvKbvyBovpcIFwpQ66fhzEqi69CJj9er_L5Z4YGDzGAPkUaWiOm6gway77Fkn5sf_-vJucFzQAZRmNiCqlzU/s260-e100/windows-rootkit.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:1fa54606e9767c74021ba41a5411455db7ba92fe8b8fd93e84c8f150cdceb3e1",
       "url": "https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html",
@@ -436,33 +463,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFQzlCdxoVUtdNgowwmPFaISlBF7Y2HsG1BQf3b-UJDQzRbPB249_W6rwU_-TSW1NES4OI-12R1z3tXQ-QlZv8cEaagpyLJVYz48Etb9W0MtuNp9BTL_13-5Wg95kz-Ey5iZ288mTkPt_5pbsxoh7Kv2KrmHqj_Tqb0KR9NSzz-jO2DuoTLthh6Dn3FUIh/s260-e100/quick.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:db6c2ae7b2b21caafca3c0a5c5f9dbfd2f59d470c8992eb4e4f9c38c0494239b",
-      "url": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
-      "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
-      "published_at": "2026-08-04T13:11:22Z",
-      "published_raw": "2026-08-04T18:41:22.729+05:30",
-      "categories": [
-        "threat-intelligence"
-      ],
-      "description": "Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance utilities to stealthily deploy Remote Monitoring and Management (RMM) programs like ConnectWise ScreenConnect.\n\nThe campaign has been codenamed SMOKE#SCREEN by Securonix Threat",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7826624965258201940",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi35nnI5-o_HtA0Eunk4tOFM1lg12NrqY7HrDNBbee-kPWR-BHHxXQtd-Tj3b7FrMlTOcWNC63XgVV9n0FEoD-G4ydCpmBv2g1PjvS-lzopLbMnODHbNL2bGMJ6nOYXST9M83vc9IYZaUOjkUqaa4Xo-LaAOtXu3bRhYAcVIUwxgDNMifc6xWI27VVca_B4/s260-e100/screenconnect.jpg",
           "kind": "thumbnail",
           "medium": ""
         }

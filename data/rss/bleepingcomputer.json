@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-14T13:01:02Z",
+  "updated_at": "2026-08-14T14:01:02Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-14T13:01:02Z",
+    "last_success_at": "2026-08-14T14:01:02Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:7b0ed15636a791f8645b548eefb36515f515d0c3e887573ec7aae9e58542dff9",
+      "url": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks",
+      "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
+      "published_at": "2026-08-14T13:45:18Z",
+      "published_raw": "Fri, 14 Aug 2026 09:45:18 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, according to threat intelligence company Defused. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
+      "authors": [
+        {
+          "name": "Sergiu Gatlan",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:519d04b3ab2b1ce2dddaf4e2e23ec970225b42506446971e32e5849e709e93af",
       "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims",
@@ -1530,27 +1551,6 @@
       "authors": [
         {
           "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:65b095a8b030b5844bd47865938ec7fd860d0bebb5d156dd05c9b559d44d50d9",
-      "url": "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries",
-      "title": "Varonis Agent IBAC keeps AI agents within their intended boundaries",
-      "published_at": "2026-08-04T14:00:10Z",
-      "published_raw": "Tue, 04 Aug 2026 10:00:10 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "AI agents need broad access to be useful, but traditional access controls cannot determine whether an action aligns with a user's intent. Varonis explains how Agent IBAC detects intent drift and enforces real-time guardrails to keep agents within their intended boundaries. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/",
-      "authors": [
-        {
-          "name": "Sponsored by Varonis",
           "uri": "",
           "email": ""
         }
