@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-14T09:01:09Z",
+  "updated_at": "2026-08-14T10:01:02Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-14T09:01:09Z",
+    "last_success_at": "2026-08-14T10:01:02Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:272b4651e83a3f6e4184ca04314167459a04a0419dd9b924c1b9fb3f8157062c",
+      "url": "https://www.securityweek.com/over-1000-charities-hit-by-beacon-crm-data-breach",
+      "title": "Over 1,000 Charities Hit by Beacon CRM Data Breach",
+      "published_at": "2026-08-14T09:20:28Z",
+      "published_raw": "Fri, 14 Aug 2026 09:20:28 +0000",
+      "categories": [
+        "Data Breaches",
+        "Beacon",
+        "charity",
+        "CRM",
+        "data breach",
+        "UK"
+      ],
+      "description": "<p>The root cause of the incident is believed to be a compromised AWS access key that was exposed in publicly available JavaScript build artifacts.</p>\n<p>The post <a href=\"https://www.securityweek.com/over-1000-charities-hit-by-beacon-crm-data-breach/\">Over 1,000 Charities Hit by Beacon CRM Data Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48612",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:f6e0cd69ff19784effd3d1cf775ff60ebfca13b0666e290098a1da139960d6e5",
       "url": "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk",
@@ -2763,41 +2799,6 @@
       ],
       "description": "<p>A crafted prompt to a low-privilege Google ADK agent could be used to pass a malicious hand-off comment to a privileged agent.</p>\n<p>The post <a href=\"https://www.securityweek.com/gemini-agent-to-agent-attack-exposed-secrets-enabled-pull-request-tampering/\">Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
       "feed_id": "https://www.securityweek.com/?p=48385",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:09f8ba46b8d895c582694cc428791feac153093084211508c2bfe1896454e9a1",
-      "url": "https://www.securityweek.com/decades-old-bmc-vulnerability-exposes-thousands-of-data-centers-to-attacks",
-      "title": "Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks",
-      "published_at": "2026-08-04T09:56:06Z",
-      "published_raw": "Tue, 04 Aug 2026 09:56:06 +0000",
-      "categories": [
-        "Vulnerabilities",
-        "BMC",
-        "data center",
-        "Featured",
-        "vulnerability"
-      ],
-      "description": "<p>Over 24,000 internet-accessible server-management interfaces disclose authentication hashes before login.</p>\n<p>The post <a href=\"https://www.securityweek.com/decades-old-bmc-vulnerability-exposes-thousands-of-data-centers-to-attacks/\">Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48383",
       "authors": [
         {
           "name": "Ionut Arghire",
