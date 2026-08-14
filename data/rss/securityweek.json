@@ -1,15 +1,82 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-14T11:00:57Z",
+  "updated_at": "2026-08-14T12:01:02Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-14T11:00:57Z",
+    "last_success_at": "2026-08-14T12:01:02Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:6329661ced79a53288719a5e1f92650db9bd9a1584e178f9a8ede0917985b36a",
+      "url": "https://www.securityweek.com/in-other-news-rapid7-layoffs-hacking-a-boeing-737-refrigeration-system-vulnerabilities",
+      "title": "In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities",
+      "published_at": "2026-08-14T11:57:51Z",
+      "published_raw": "Fri, 14 Aug 2026 11:57:51 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "In Other News"
+      ],
+      "description": "<p>Noteworthy stories that might have slipped under the radar: government AI platform deal sparks outrage, North Korean IT worker breaches federal agency, DEF CON attendee blamed for Delta flight disruption.</p>\n<p>The post <a href=\"https://www.securityweek.com/in-other-news-rapid7-layoffs-hacking-a-boeing-737-refrigeration-system-vulnerabilities/\">In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48628",
+      "authors": [
+        {
+          "name": "SecurityWeek News",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:d74cb019f78a666863ecf67bf4ef2515f4cefb4a553654015e5b59042906b077",
+      "url": "https://www.securityweek.com/trivy-not-litellm-behind-the-2500-org-compromise",
+      "title": "Trivy, Not LiteLLM Behind the 2,500 Org Compromise",
+      "published_at": "2026-08-14T11:35:23Z",
+      "published_raw": "Fri, 14 Aug 2026 11:35:23 +0000",
+      "categories": [
+        "Supply Chain Security",
+        "LiteLLM",
+        "Supply Chain",
+        "supply chain attack",
+        "Trivy"
+      ],
+      "description": "<p>Over 95% of the affected companies were exposed before the malicious LiteLLM packages were published.</p>\n<p>The post <a href=\"https://www.securityweek.com/trivy-not-litellm-behind-the-2500-org-compromise/\">Trivy, Not LiteLLM Behind the 2,500 Org Compromise</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48624",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:5af9a03699ba12b0aaec0285516c583acb56813ce67e2702a4383d81840330ac",
       "url": "https://www.securityweek.com/google-cloud-sets-out-post-quantum-roadmap-with-2029-readiness-goal",
@@ -2767,78 +2834,6 @@
       "authors": [
         {
           "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:c48a8c5ce16131e5f38e8b699dfd88fae110b6eb46a1bf19dc3644934d423303",
-      "url": "https://www.securityweek.com/tp-link-omada-ztp-vulnerabilities-chain-into-full-network-takeover",
-      "title": "TP-Link Omada ZTP Vulnerabilities Chain Into Full Network Takeover",
-      "published_at": "2026-08-04T12:00:00Z",
-      "published_raw": "Tue, 04 Aug 2026 12:00:00 +0000",
-      "categories": [
-        "Network Security",
-        "Vulnerabilities",
-        "Omada",
-        "router",
-        "TP-Link",
-        "vulnerability"
-      ],
-      "description": "<p>Forescout researchers have found 15 new vulnerabilities in the TP-Link Omada networking ecosystem.</p>\n<p>The post <a href=\"https://www.securityweek.com/tp-link-omada-ztp-vulnerabilities-chain-into-full-network-takeover/\">TP-Link Omada ZTP Vulnerabilities Chain Into Full Network Takeover</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48365",
-      "authors": [
-        {
-          "name": "Eduard Kovacs",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:1d4d7d0253682b8592773e90b14352edb3fd52141006ffd3dd2240276cb92a99",
-      "url": "https://www.securityweek.com/obsidian-security-raises-85-million-at-1-1-billion-valuation",
-      "title": "Obsidian Security Raises $85 Million at $1.1 Billion Valuation",
-      "published_at": "2026-08-04T12:00:00Z",
-      "published_raw": "Tue, 04 Aug 2026 12:00:00 +0000",
-      "categories": [
-        "Application Security",
-        "Artificial Intelligence",
-        "Cybersecurity Funding",
-        "AI",
-        "funding",
-        "Obsidian Security"
-      ],
-      "description": "<p>Obsidian Security has developed a platform for governing AI agents across third-party applications.</p>\n<p>The post <a href=\"https://www.securityweek.com/obsidian-security-raises-85-million-at-1-1-billion-valuation/\">Obsidian Security Raises $85 Million at $1.1 Billion Valuation</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48388",
-      "authors": [
-        {
-          "name": "SecurityWeek News",
           "uri": "",
           "email": ""
         }
