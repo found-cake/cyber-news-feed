@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-15T08:00:59Z",
+  "updated_at": "2026-08-15T09:01:03Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-15T08:00:59Z",
+    "last_success_at": "2026-08-15T09:01:03Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:32f4f04d99f80d4410f446901498845d1c102dce6377962b8473d80229e6dd63",
+      "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
+      "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
+      "published_at": "2026-08-15T08:38:46Z",
+      "published_raw": "2026-08-15T14:08:46.306+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts.\n\nThe vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It relates to an instance of insufficient authorization checks and input validation.\n\n\"SAP Commerce Cloud allows an unauthenticated attacker to abuse a default authentication client and submit",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5192906613403480707",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8_2sx5UM3v1F5xNjCrlFAeBp6t7ioSfSER_6yl7jFtH3NvB_wwrwdT2Njk21qvm5m_dh2UZ3u-3UnZOWSz9sawqkuPmg0FLwuOEeLYhMlqP8lWjeXhg7ETTrRx19wiPebTSCcGeqC-Gz3zpiYPZz69kKTlL2mWSO1xW_-RotwAT4poWJ8VhQ6yklDDebs/s260-e100/sap-flaw.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:ffc565ec11c51be86778246ac24346b9925ed2f770168a44522724e1e760eb34",
       "url": "https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html",
@@ -499,7 +526,7 @@
     {
       "id": "sha256:92db34388e8952707d9aa67bb234cea33af5a1ebc69ef6b21c627be0eb705d4b",
       "url": "https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html",
-      "title": "Unpatched GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE",
+      "title": "GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE",
       "published_at": "2026-08-13T18:45:12Z",
       "published_raw": "2026-08-14T00:15:12.138+05:30",
       "categories": [
@@ -1010,33 +1037,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:cdcb04f053b50d7b593de00f643c86b8b00eb828491e5c6be76f990f355b3930",
-      "url": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
-      "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
-      "published_at": "2026-08-10T12:25:04Z",
-      "published_raw": "2026-08-10T17:55:04.684+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on.\n\nPasskeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authentication material that Windows had exposed, abused a cloud-synced passkey system from malware already on the victim's machine, and used a&nbsp;",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4115649765874347434",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXmfqNoa09hdS94VkCzlDhqshyphenhyphenLXM3mo93MtChM8pXBFJxCEh6iP7mlU-wcwnWZGROVidduvOqpGfWajbLA5PaTrH7tibyCqcvmlnS-b4c0yBcGZJ7eJLPPXxoutiEEt_rqGlPf4pSFUjWfmuuME7kegCwQam0Kf7VivC9nAUjKIvxYeBETap8ElXjck5R/s260-e100/intraid.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:6c0fe6acb311af0f2aff2d8d8a2afcb7e2f7e7b2802050bc100619eed42bf8d6",
       "url": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
       "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
@@ -1192,6 +1192,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaatZ2xKx3CMoWOXqKbIp1Sd-rMbET1_QE2Lh10XAVc_g_Z18UUlW_RyR8BR0Nj-gqy9SZhnEq0ZBv_z63FfCBu-XGfH5yEzUsKBLicrlfXK2-iMsgZYkDDTW-HiEPV29TEjFSFF1PYXyDkZcyfe6LuUKkgu2nRe4E_XFNPOcxSrBmUZwi3tX_GgHafeZ9/s260-e100/cisa-teamcity.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:cdcb04f053b50d7b593de00f643c86b8b00eb828491e5c6be76f990f355b3930",
+      "url": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
+      "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
+      "published_at": "2026-08-10T12:25:04Z",
+      "published_raw": "2026-08-10T17:55:04.684+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on.\n\nPasskeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authentication material that Windows had exposed, abused a cloud-synced passkey system from malware already on the victim's machine, and used a&nbsp;",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4115649765874347434",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXmfqNoa09hdS94VkCzlDhqshyphenhyphenLXM3mo93MtChM8pXBFJxCEh6iP7mlU-wcwnWZGROVidduvOqpGfWajbLA5PaTrH7tibyCqcvmlnS-b4c0yBcGZJ7eJLPPXxoutiEEt_rqGlPf4pSFUjWfmuuME7kegCwQam0Kf7VivC9nAUjKIvxYeBETap8ElXjck5R/s260-e100/intraid.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
