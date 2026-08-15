@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-15T14:01:15Z",
+  "updated_at": "2026-08-15T15:01:18Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-15T14:01:15Z",
+    "last_success_at": "2026-08-15T15:01:18Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:ece78d75a16264d28bc74250fb5d52a3bb1f72b53553c24b8e0660c270dcd6a3",
+      "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes",
+      "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
+      "published_at": "2026-08-15T14:14:38Z",
+      "published_raw": "Sat, 15 Aug 2026 10:14:38 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:49d686ec44bd851435703d63888157bf9cc7bc4326c4a8107232b2400df26a1d",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw",
@@ -1446,28 +1467,6 @@
       "authors": [
         {
           "name": "Ionut Ilascu",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:2c28f8ee39409892c2492b3675dedbbee212fb28a8b8e8fb82412a4523ed892d",
-      "url": "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive",
-      "title": "Google Blogger locks hundreds of blogs in malware false positive",
-      "published_at": "2026-08-05T14:59:29Z",
-      "published_raw": "Wed, 05 Aug 2026 10:59:29 -0400",
-      "categories": [
-        "security",
-        "Google"
-      ],
-      "description": "Google has locked hundreds of Blogger websites after a false positive claimed they violated its \"Malware and Similar Malicious Content\" policy, with some sites deleted from the platform. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive/",
-      "authors": [
-        {
-          "name": "Mayank Parmar",
           "uri": "",
           "email": ""
         }
