@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-16T16:01:13Z",
+  "updated_at": "2026-08-16T17:00:26Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-16T16:01:13Z",
+    "last_success_at": "2026-08-16T17:00:26Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -1408,33 +1408,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzkSwdiUeH8rB-KgSkEXrT-oNL19IyghM7Ks8UDOedxPYB5czgwO8pXNf0YUt7OHqAbRRDJkRvJffzJ0lfpEdqfLn-w-Bc9pwOa_1FNJjJkrVbD-diaZu9HRFqAlOBWogXEsZ4sSFRDW-HYmsaUmVD98QGQoyq2rHep_dwDa5ueafTUO0Lh6zsA-Czd3he/s260-e100/cisco-flaws.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:23bdedbf23716bd51b26eb6973f473cea77602f33ff73916ecd6a880ab8a2c7b",
-      "url": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
-      "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
-      "published_at": "2026-08-06T16:17:13Z",
-      "published_raw": "2026-08-06T21:47:13.906+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run.\n\nMIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the technique INTERRUPT INJECTION. On an AMD Zen 2 machine running Linux 6.14 with every default Spectre v2 mitigation on,",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5622961549219836098",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA_BgCPUTlxOgmh4ljCoOazIkcoSA_BHUGZmfAuhxD8TiUzui2nhB5b5KV_lv50ocFWI14FG5RIe8rqrm6D8ZC8ACR7mY1bXE4JADKcTRIY1bfIeXtnYs07yXk2T9Jsv0-vcxPkKbl6FuNXxXylv5BQQQLTDSpJ2XSyqxvIsxYy5d2X1Kwt_2CSJegj9Tv/s260-e100/place.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
