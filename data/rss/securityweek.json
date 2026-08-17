@@ -1,15 +1,50 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-17T12:00:32Z",
+  "updated_at": "2026-08-17T13:00:32Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-17T12:00:32Z",
+    "last_success_at": "2026-08-17T13:00:32Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:c5a50c5aa8e7dfd2abe42ec37fb0760552c0bdd433e86fdab462ded4ab42a7e3",
+      "url": "https://www.securityweek.com/irregular-details-how-a-naming-error-let-ai-models-attack-a-real-company",
+      "title": "Irregular Details How a Naming Error Let AI Models Attack a Real Company",
+      "published_at": "2026-08-17T12:11:00Z",
+      "published_raw": "Mon, 17 Aug 2026 12:11:00 +0000",
+      "categories": [
+        "Artificial Intelligence",
+        "AI",
+        "AI testing",
+        "Anthropic",
+        "Irregular"
+      ],
+      "description": "<p>The AI security testing firm has shared information on a recently disclosed incident involving Anthropic AI models.</p>\n<p>The post <a href=\"https://www.securityweek.com/irregular-details-how-a-naming-error-let-ai-models-attack-a-real-company/\">Irregular Details How a Naming Error Let AI Models Attack a Real Company </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48650",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:fd5613984b2d62b4e7de0548d8b50e7cafde36e352d19f73ef8244f54f275376",
       "url": "https://www.securityweek.com/conflicting-test-goals-pushed-claude-agents-to-deploy-self-replicating-malware",
@@ -87,6 +122,7 @@
       "categories": [
         "Vulnerabilities",
         "exploited",
+        "Featured",
         "macOS",
         "Screen Sharing",
         "vulnerability"
