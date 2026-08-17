@@ -1,15 +1,50 @@
 {
   "schema_version": 1,
   "source": "cybersecuritynews",
-  "updated_at": "2026-08-17T15:00:40Z",
+  "updated_at": "2026-08-17T16:00:35Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-17T15:00:40Z",
+    "last_success_at": "2026-08-17T16:00:35Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:46ba523b160cf770312bfb180b42cb747ec2b4367a3d30151f94d23c2c01f08f",
+      "url": "https://cybersecuritynews.com/github-outage-worldwide",
+      "title": "GitHub Outage Disrupts Developers Worldwide Amid Ongoing Investigation",
+      "published_at": "2026-08-17T15:30:32Z",
+      "published_raw": "Mon, 17 Aug 2026 15:30:32 +0000",
+      "categories": [
+        "Tech News",
+        "cyber security",
+        "cyber security news"
+      ],
+      "description": "<p>GitHub, the world&#8217;s largest code-hosting platform, is grappling with a significant service disruption that began around 13:40 UTC on August 17, 2026, leaving developers, enterprises, and DevOps teams scrambling as core services including Pull Requests, Issues, Actions, Webhooks, and Copilot continue to experience degraded performance more than two hours into the incident. According to GitHub&#8217;s [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/github-outage-worldwide/\">GitHub Outage Disrupts Developers Worldwide Amid Ongoing Investigation</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=159727",
+      "authors": [
+        {
+          "name": "Guru Baran",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/GitHub-Outage-Worldwide.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "159727",
+          "content_encoded": "<p class=\"wp-block-paragraph\">GitHub, the world&#8217;s largest code-hosting platform, is grappling with a significant service disruption that began around 13:40 UTC on August 17, 2026, leaving developers, enterprises, and DevOps teams scrambling as core services including Pull Requests, Issues, Actions, Webhooks, and Copilot continue to experience degraded performance more than two hours into the incident.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to GitHub&#8217;s official status page, the platform is currently seeing error rates of roughly 20% across general web experiences and API traffic, a figure that has held steady even as engineers work through mitigation steps.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The damage is far more severe for specific functions: archive downloads and raw repository content downloads are failing at an approximate 50% error rate, effectively cutting the reliability of those operations in half for the duration of the incident.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Enterprise customers face an additional layer of pain, as SAML and OIDC authentication, SCIM provisioning, and Team Sync have all been flagged as impacted, which threatens single sign-on access for organizations that rely on GitHub Enterprise Cloud.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The outage&#8217;s ripple effect has been methodical rather than sudden. GitHub first acknowledged &#8220;impacted performance for some GitHub services&#8221; at 13:40 UTC, then confirmed degraded API Requests, Actions, and Webhooks within the following hour.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Issues and Pull Requests were added shortly after, and Copilot joined the list of affected components around 14:31 UTC. Independent monitoring service Downdetector reported that user complaints began spiking near 13:30 UTC, roughly consistent with GitHub&#8217;s own timeline, while Microsoft, GitHub&#8217;s parent company, has publicly confirmed the platform is experiencing worldwide issues.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As of GitHub&#8217;s most recent status update, the engineering team says it is &#8220;currently performing mitigations based on our investigation thus far and are monitoring for improvement,&#8221; but a root cause has not been publicly disclosed. This pattern of repeated, escalating status updates without a clear culprit suggests the underlying fault may be tied to infrastructure-level saturation or a cascading failure across dependent services rather than an isolated bug, though GitHub has not confirmed specifics.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For individual developers, the practical fallout means pull requests may fail to merge, <a href=\"https://cybersecuritynews.com/north-korean-hackers-abuse-mastra-npm-supply-chain/\" target=\"_blank\" rel=\"noreferrer noopener\">CI/CD pipelines</a> built on Actions could stall or error out, and issue tracking may become unreliable mid-sprint. Teams that depend on webhooks for automation, such as triggering deployments or notifying chat tools, should expect delayed or dropped events until the platform stabilizes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">There is currently no user-side workaround; affected teams are advised to delay non-critical repository operations and monitor GitHub&#8217;s status page directly for real-time updates rather than relying on cached dashboards.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This incident lands just months after GitHub rolled out a more transparent status-reporting framework in April 2026, which introduced granular severity tiers and 90-day uptime metrics for each individual service, giving today&#8217;s outage unusually detailed visibility compared with past disruptions.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.githubstatus.com/incidents/zkxwbgr0cnmx\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">GitHub has not yet provided</a> an estimated time to resolution, and the company is expected to publish a full incident postmortem once services are restored, consistent with its monthly availability report practice.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 87%,rgb(169,184,195) 100%)\"><strong>&nbsp;Strengthen Your SOC by Accelerating Threat Detection &amp; Rapid Investigations.&nbsp;-&gt;&nbsp;<a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate ANY.RUN With Your SOC&nbsp;</a><strong><a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Now</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/github-outage-worldwide/\">GitHub Outage Disrupts Developers Worldwide Amid Ongoing Investigation</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
     {
       "id": "sha256:4e853134c9ef656c2ac1023ed2be614fba3c4c1df01f39f424560c30b9de941d",
       "url": "https://cybersecuritynews.com/best-software-defined-perimeter-solutions",
