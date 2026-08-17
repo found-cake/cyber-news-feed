@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-17T09:00:30Z",
+  "updated_at": "2026-08-17T10:00:32Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-17T09:00:30Z",
+    "last_success_at": "2026-08-17T10:00:32Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:7637e999c644164664d7c4b1c2b65be3df8908831baed78e35396360e96341db",
+      "url": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+      "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
+      "published_at": "2026-08-17T09:29:55Z",
+      "published_raw": "2026-08-17T14:59:55.621+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn internet-facing devices into SOCKS proxies.\n\n\"While the malware reuses the DDoS engine from the publicly leaked Mirai source code, it extends the original framework with numerous capabilities, including",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7654142036189845498",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIDrkyaW1magTuvTfLfkhtk_8stt1zYUxgonTZX1yaI_OGxsGMV9wCRE8bglbRubclVma7bkghEbmah6ku4T2ZVnpSngl6k5Cw0iCXgNNpuy6I2ZNPQOYYIfqKNgcVQxkqZdgvFLLM82bK1By0hrAm4i9slLnFQwQmwLmpR8I9eb8Paze2sf2UJMlol81Q/s260-e100/linux-botnet.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:f632e57bed8cc4fc2270c81edd57116bc47c3ae68416dfbecfcaa8767330eb02",
       "url": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
@@ -902,33 +929,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:4c624f6c9bd5a27e21068cdbd69f5edad2ff19100e24304eb67662e9c7e37ef6",
-      "url": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
-      "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
-      "published_at": "2026-08-10T16:38:37Z",
-      "published_raw": "2026-08-10T22:08:37.322+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor.\n\nThe use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Microsoft Threat Intelligence Team said.\n\n\"StormEncryptor is written in C++ and appends the file name extension .encrypted",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8742064568513055717",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNv5C82jT_6YlarerdXnoAR_tT3E8xP65ZWuJfpvOKU9baBT5UACUTb88XvDQgQA6RrYuqPK3FstaqwacR9gDjD0qwk3HUYl0wK848phyphenhyphenFuqRrOA1AqdISQaA6tpEqg0n2XJIA22NeNNbhei1bAgcyghnc2qaVfSvh4fd9J1oD4xVi-DQcNSOYWQovyUst/s260-e100/strom-ransomware.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:6c0fe6acb311af0f2aff2d8d8a2afcb7e2f7e7b2802050bc100619eed42bf8d6",
       "url": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
       "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
@@ -1030,6 +1030,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsaNpVaG83aDE1lJwcNllVSeS-ebafbbt4FgaKHH1_4dt1i4qvCtw-dYVrE_MiWf2GZ5vyGPhyphenhyphenCieChBz2IChMJew0I1Ze2HEYJpB-j3rB2VnfNrzbFpPDD7VFkWCkYBn2CJRLpOBIKNaeKPXlVPHpz7-1Wx9go7IfyUKSVNliDO644rNsoMmAk5a3Qf_W/s260-e100/nc.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:4c624f6c9bd5a27e21068cdbd69f5edad2ff19100e24304eb67662e9c7e37ef6",
+      "url": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
+      "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
+      "published_at": "2026-08-10T16:38:37Z",
+      "published_raw": "2026-08-10T22:08:37.322+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor.\n\nThe use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Microsoft Threat Intelligence Team said.\n\n\"StormEncryptor is written in C++ and appends the file name extension .encrypted",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8742064568513055717",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNv5C82jT_6YlarerdXnoAR_tT3E8xP65ZWuJfpvOKU9baBT5UACUTb88XvDQgQA6RrYuqPK3FstaqwacR9gDjD0qwk3HUYl0wK848phyphenhyphenFuqRrOA1AqdISQaA6tpEqg0n2XJIA22NeNNbhei1bAgcyghnc2qaVfSvh4fd9J1oD4xVi-DQcNSOYWQovyUst/s260-e100/strom-ransomware.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
