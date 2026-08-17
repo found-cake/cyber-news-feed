@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "source": "boannews",
-  "updated_at": "2026-08-17T16:00:35Z",
+  "updated_at": "2026-08-17T17:00:32Z",
   "retention_days": 10,
   "status": {
-    "ok": true,
+    "ok": false,
     "last_success_at": "2026-08-17T16:00:35Z",
-    "last_error_at": null,
-    "last_error": null
+    "last_error_at": "2026-08-17T17:00:32Z",
+    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: do request: Get \"https://www.boannews.com/media/news_rss.xml?kind=1\": dial tcp 211.237.5.10:443: i/o timeout (Client.Timeout exceeded while awaiting headers)"
   },
   "articles": [
     {
