@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-17T08:00:33Z",
+  "updated_at": "2026-08-17T09:00:30Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-17T08:00:33Z",
+    "last_success_at": "2026-08-17T09:00:30Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -1300,60 +1300,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgynSSg0CZ1sssmMR8F0u09LmQ82liuj5nt2aor3klmi-xPcKTmalo4JLFQ7jd2mU9Ycnltsrnw2MiVVjmlT-wcYR74Ob7NMN31KNnny14lqVRdrmj30r3yqTSxapzCmQPk9lPG7v9GDSVKQwE4ufB-jWfsx1lc2O5GNd0bHd5M6FbMNah3dcLzu2EAFXo/s260-e100/Desync.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:2749aa1817e210383a8864db42dab34bfbc86483b912d384caa9d02d19a0a68e",
-      "url": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
-      "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
-      "published_at": "2026-08-07T08:52:11Z",
-      "published_raw": "2026-08-07T14:22:11.878+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft Entra ID.\n\nThe attacker can then establish longer-term cloud access, register a device it controls, obtain a Primary Refresh Token (PRT), and add further authentication methods where tenant policies",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7615828288231754542",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj81b6_YckjrqqfRrJQNRdIf3nu4xfqLNScukFYEao4VeF5QNlt16sbEwrdutizdB9Q1nOWRQpqeSZg4gYZsL8cIhRSJ43XJqMKWKgdKF28oeTl19HQQ75dnOKVHsa6DtXr4zhlmIF43nbUWV5jyEh4D1TjIvBKjgoAX2MpUbjJH3cN4hd4zDvIu_t4Jec/s260-e100/windows-hello-keys.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:8eab464cc4e63c7731109fc3d551bf8eff4cac2b9836eb49651b7aba1fe1092e",
-      "url": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
-      "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
-      "published_at": "2026-08-07T08:18:35Z",
-      "published_raw": "2026-08-07T13:48:35.982+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run.\n\nNovee Security ran the attack against each vendor's agent in the configuration that the vendor ships by default, and presented the work at Black Hat USA on August 5.",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5631803174328864208",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguukj-eRhx9RtAq9X96hAxHi0IU3ZWgM_W5XkdWhF8ezevuBQygkpv-ku5PSri9Gt5hRkNVxe6HmJJr5Mg33X_PhOGziqaho9bwm-mkRZSBl2jo94XF3jRwTZOb_PocueKWJkEtvl7kG_YqmbVfUxNht8_ODzLOERIqQteMdPxnWpobM-c9-fHhn0cLMQ/s260-e100/claude-github.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
