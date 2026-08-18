@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-18T11:00:32Z",
+  "updated_at": "2026-08-18T12:00:31Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-18T11:00:32Z",
+    "last_success_at": "2026-08-18T12:00:31Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:6f9e97f4de864e46a839df51c7d1eb1ccc67e418670a2433297a79ff77f1bc67",
+      "url": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
+      "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
+      "published_at": "2026-08-18T11:30:00Z",
+      "published_raw": "2026-08-18T17:00:00.000+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "A single piece of infrastructure has been pulling records out of Salesforce and ServiceNow customer portals across multiple industries for more than a year, according to research published this week by agent security platform Reco.\n\nThe activity, which Reco has named the City Forum campaign after a domain tied to the attacker's IP address, traces back to one server: 158.220.87.79, hosted on a",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4349993591610162402",
+      "authors": [
+        {
+          "name": "Unknown",
+          "uri": "",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijGpzrXApP6QuAgCJDVSMHyi1nEVE7liFsNRwcNTWzkwbjmzqv8vGi8qalq_aWVgtgrD2CC_ZT-qXCsj_Bkj8njgIFQExo0gg5PG_dVIQfo9-wW6lIBh6OLp6z4nBeephIQACe1GX_KOP6nzqe10CM4H8p7EwRIlWGImwXgXjsSIYKCCVlSB7Oe1LWAIQ/s260-e100/reco.gif",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:c8f5936ef6e384974ae051132761f17e479eb3160b2e52bb8987c0628a8afd68",
       "url": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
