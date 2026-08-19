@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-19T06:00:29Z",
+  "updated_at": "2026-08-19T07:00:31Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-19T06:00:29Z",
+    "last_success_at": "2026-08-19T07:00:31Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:c0cb35055ffec7a2b84b4d1d72cb1ec23366fa2f4c4090fa2009200492b07d8c",
+      "url": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
+      "title": "Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure",
+      "published_at": "2026-08-19T06:01:53Z",
+      "published_raw": "2026-08-19T11:31:53.538+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing infrastructure, tracing the malware from payload retrieval through data collection, staging, and exfiltration.\n\nThe tech giant said it required multiple endpoint and network behaviors to align before",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-9152501985097129603",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLR2UjD4FhPqPT7MZpKuuqDl82K13qHQ_ob2-S_fK62g7UtwW6jn6YafX4RcZcqFgZWFbXiuCTkLbeD9zC_ws4mOUL0xVJgJ315fMiFlqxDFnhyphenhyphenIe2K8IXv3Vn1ZfWJevZywKd01wSpTS0BT08VlGtSoksz8y0ihBug5XqbRN48jy_NoQx-4fRc52Khzg/s260-e100/apple-macos.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:77045d80f7ad69e1de8a596e9c7a7edd18b7d94e5bad1a22b5dfa375268485a9",
       "url": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
