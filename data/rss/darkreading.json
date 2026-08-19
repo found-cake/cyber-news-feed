@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
   "source": "darkreading",
-  "updated_at": "2026-08-19T16:00:32Z",
+  "updated_at": "2026-08-19T17:00:32Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-19T16:00:32Z",
+    "last_success_at": "2026-08-19T17:00:32Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:5790559cab4910b589325c7347fc71db21b92bccd8f40627af3114f172cdc2cf",
+      "url": "https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats",
+      "title": "SilkParasite Threatens Central Asian Orgs With Flurry of RATs",
+      "published_at": "2026-08-19T16:58:23Z",
+      "published_raw": "Wed, 19 Aug 2026 16:58:23 GMT",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "A spear-phishing campaign by a Chinese-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by China's APTs.",
+      "feed_id": "https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats",
+      "authors": [
+        {
+          "name": "Elizabeth Montalbano",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf72b6d96243f3ad0/6a85b7da026bc525d4e194a5/rats-Andyworks-Getty-2192975649.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf72b6d96243f3ad0/6a85b7da026bc525d4e194a5/rats-Andyworks-Getty-2192975649.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
     {
       "id": "sha256:b7712547b45eb56e7062a94453fa19af08e874c5715ea9e63d353482153f44f3",
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack",
@@ -119,42 +155,6 @@
       }
     },
     {
-      "id": "sha256:1f616d071c66b5ee2eb816039e287026fba181ef2a2e72e06f62c198f56040a7",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
-      "title": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
-      "published_at": "2026-08-18T13:00:00Z",
-      "published_raw": "Tue, 18 Aug 2026 13:00:00 GMT",
-      "categories": [
-        "cyberattacks-data-breaches"
-      ],
-      "description": "A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
-      "feed_id": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
-      "authors": [
-        {
-          "name": "Alexander Culafi",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd51dac9db97608a9/6a83674527cfd1d34eec915a/Ransomware_encryption-AndreyPopov-GettyImages-2225634481.jpg?width=720&quality=80&disable=upscale",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd51dac9db97608a9/6a83674527cfd1d34eec915a/Ransomware_encryption-AndreyPopov-GettyImages-2225634481.jpg?width=720&quality=80&disable=upscale",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {
-        "darkreading": {
-          "guid_is_permalink": "false"
-        }
-      }
-    },
-    {
       "id": "sha256:f626add06be0c495b3fafa9d98eb8c4c932b5e170517566024354150e3b79837",
       "url": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
       "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
@@ -180,6 +180,42 @@
         },
         {
           "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6eacfb49185ef44e/6a844f6877eb9365311e809b/Cloud-Security_Aleksia_Alamy.jpg?width=720&quality=80&disable=upscale",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "darkreading": {
+          "guid_is_permalink": "false"
+        }
+      }
+    },
+    {
+      "id": "sha256:1f616d071c66b5ee2eb816039e287026fba181ef2a2e72e06f62c198f56040a7",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
+      "title": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
+      "published_at": "2026-08-18T13:00:00Z",
+      "published_raw": "Tue, 18 Aug 2026 13:00:00 GMT",
+      "categories": [
+        "cyberattacks-data-breaches"
+      ],
+      "description": "A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
+      "feed_id": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
+      "authors": [
+        {
+          "name": "Alexander Culafi",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd51dac9db97608a9/6a83674527cfd1d34eec915a/Ransomware_encryption-AndreyPopov-GettyImages-2225634481.jpg?width=720&quality=80&disable=upscale",
+          "kind": "thumbnail",
+          "medium": ""
+        },
+        {
+          "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd51dac9db97608a9/6a83674527cfd1d34eec915a/Ransomware_encryption-AndreyPopov-GettyImages-2225634481.jpg?width=720&quality=80&disable=upscale",
           "kind": "content",
           "medium": "image"
         }
