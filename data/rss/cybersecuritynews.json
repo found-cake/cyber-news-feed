@@ -1,15 +1,86 @@
 {
   "schema_version": 1,
   "source": "cybersecuritynews",
-  "updated_at": "2026-08-19T02:00:30Z",
+  "updated_at": "2026-08-19T03:00:31Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-19T02:00:30Z",
+    "last_success_at": "2026-08-19T03:00:31Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:26474a94bc020930afa0f433b65401a29efd58bc6d598e651cf210604d2f9a13",
+      "url": "https://cybersecuritynews.com/copilot-cosnitch-vulnerability",
+      "title": "Critical Microsoft Copilot CoSnitch Vulnerability Lets Attackers Steal Sensitive Data With One Click",
+      "published_at": "2026-08-19T02:32:43Z",
+      "published_raw": "Wed, 19 Aug 2026 02:32:43 +0000",
+      "categories": [
+        "Cyber Security",
+        "Cyber Security News",
+        "Vulnerability News",
+        "vulnerability"
+      ],
+      "description": "<p>A critical vulnerability in Microsoft Copilot Personal, tracked as CVE-2026-24301 and nicknamed CoSnitch, lets attackers silently siphon sensitive data from a victim&#8217;s connected accounts with nothing more than a single click on a malicious link. The flaw discovered by Varonis Threat Labs has already been patched by Microsoft as of August 18, 2026, but the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/copilot-cosnitch-vulnerability/\">Critical Microsoft Copilot CoSnitch Vulnerability Lets Attackers Steal Sensitive Data With One Click</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=159935",
+      "authors": [
+        {
+          "name": "Guru Baran",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Copilot-CoSnitch-Vulnerability.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "159935",
+          "content_encoded": "<p class=\"wp-block-paragraph\">A critical vulnerability in Microsoft Copilot Personal, <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24301\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">tracked as CVE-2026-24301</a> and nicknamed CoSnitch, lets attackers silently siphon sensitive data from a victim&#8217;s connected accounts with nothing more than a single click on a malicious link.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw discovered by Varonis Threat Labs has already been patched by Microsoft as of August 18, 2026, but the way it was discovered may be just as significant as the bug itself.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CoSnitch is the third Copilot vulnerability Varonis has uncovered this year, following <a href=\"https://cybersecuritynews.com/microsoft-365-copilot-one-click-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">Reprompt</a>, which bypassed Copilot&#8217;s safety guardrails simply by asking a question twice, and <a href=\"https://cybersecuritynews.com/microsoft-365-copilot-one-click-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">SearchLeak</a>, which turned Microsoft 365 Copilot Enterprise into a covert exfiltration channel.</p>\n\n\n\n<p class=\"wp-block-paragraph\">All three exploits share a common thread: a single click on what looks like an ordinary link is all it takes to trigger the attack chain, with no obvious warning signs for the victim or their security team.</p>\n\n\n\n<h2 id=\"h-microsoft-copilot-cosnitch-vulnerability\" class=\"wp-block-heading\"><strong>Microsoft Copilot CoSnitch Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability actually stemmed from three separate weaknesses working in sequence. First, an undocumented URL parameter, combined with Copilot&#8217;s standard &#8220;?q=&#8221; query parameter, allowed an attacker-crafted prompt to execute automatically the moment a victim&#8217;s browser loaded the page, without a click, keystroke, or confirmation of any kind.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Second, once that prompt fired, Copilot could query the victim&#8217;s linked apps, such as Gmail, Google Drive, and Calendar, and quietly funnel the retrieved data to an attacker-controlled server using Copilot&#8217;s own built-in URL-fetching feature.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2Lt_y4Id120vfjlvgQ6Rm0rW8WDL1jLk4pfqM6fNLIOUtYi9tnBBJrgd1tlbY_5XrEFWdlzOWacUptAKW3YDnKH3zCAUc-JRj1lDLYanUlJm-Irk_2bUlsCWwiZQS86nG9KjQmwf18aGnuzOgb83uUEmsB_-nX_CV0DGXx288y6Gnoa4iQNJxdZ7WHdyh/s1600/CoSnitch%20data%20exfil.webp\" alt=\"\"/><figcaption class=\"wp-element-caption\">Victim&#8217;s linked apps (Source: Varonis)</figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">Because the stolen data was base64-encoded and shipped out as a routine outbound web request, it looked identical to Copilot&#8217;s normal browsing activity, giving security tools nothing unusual to flag.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Third, and perhaps most concerning, a booby-trapped webpage could be summarized by Copilot in a way that injected hidden instructions directly into the assistant&#8217;s permanent memory. That poisoned memory persisted even through password changes, session revocations, and device re-enrollment, meaning standard incident response steps would not remove it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">What sets this discovery apart is the technique Varonis used to find it. Rather than reverse-engineering the code, researchers repeatedly questioned Copilot about why automatic execution &#8220;wasn&#8217;t possible,&#8221; reframing each of its refusals as a natural follow-up question.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Copilot&#8217;s own explanations, meant to demonstrate the exploit was infeasible, ended up mapping its internal architecture and ultimately revealing the exact undocumented parameter needed to pull it off. Varonis calls this approach meta-hacking, essentially social engineering the AI&#8217;s reasoning process rather than attacking its code directly.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.varonis.com/blog/cosnitch\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Varonis reported CoSnitch</a> to Microsoft in December 2025, and the company says it has found no evidence of active exploitation before the patch shipped.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Even so, the case underscores a broader problem: as AI copilots gain deeper access to enterprise email, files, calendars, and chat histories, a single compromised link can move large volumes of sensitive data through what looks like completely routine assistant behavior.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Security teams are being urged to audit which third-party apps remain connected to Copilot, treat the assistant as a privileged insider requiring the same access oversight as a human employee, and confirm their monitoring tools can actually detect anomalous data access originating from AI assistants, a blind spot many organizations may not realize they have.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 87%,rgb(169,184,195) 100%)\"><strong>&nbsp;Strengthen Your SOC by Accelerating Threat Detection &amp; Rapid Investigations.&nbsp;-&gt;&nbsp;<a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate ANY.RUN With Your SOC&nbsp;</a><strong><a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Now</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/copilot-cosnitch-vulnerability/\">Critical Microsoft Copilot CoSnitch Vulnerability Lets Attackers Steal Sensitive Data With One Click</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
+    {
+      "id": "sha256:cbaa9084dffeae0c2c6281b2044eeaf985d16c84d43ea5caac62042962b35da9",
+      "url": "https://cybersecuritynews.com/irregular-pushes-stronger-secure-frontier-ai-cyber-evaluations",
+      "title": "Irregular Pushes Stronger Containment Standards for Secure Frontier AI Cyber Evaluations",
+      "published_at": "2026-08-19T02:06:28Z",
+      "published_raw": "Wed, 19 Aug 2026 02:06:28 +0000",
+      "categories": [
+        "AI",
+        "Cyber Security News",
+        "cyber security"
+      ],
+      "description": "<p>Irregular has detailed an investigation into an AI cyber-evaluation incident in which internet access unintentionally allowed models to interact with real-world systems. The company said the issue was contained and fixed before the first public disclosure on July 30, with no active issues remaining. The incident involved one evaluation scenario rather than several separate breaches. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/irregular-pushes-stronger-secure-frontier-ai-cyber-evaluations/\">Irregular Pushes Stronger Containment Standards for Secure Frontier AI Cyber Evaluations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=159817",
+      "authors": [
+        {
+          "name": "Abinaya",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Irregular-Pushes-Stronger-Containment-Standards-for-Secure-Frontier-AI-Cyber-Evaluations-.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "159817",
+          "content_encoded": "<p class=\"wp-block-paragraph\">Irregular has detailed an investigation into an AI cyber-evaluation incident in which internet access unintentionally allowed models to interact with real-world systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company said the issue was contained and fixed before the first public disclosure on July 30, with no active issues remaining. The incident involved one evaluation scenario rather than <a href=\"https://cybersecuritynews.com/how-infostealer-logs-became-the-fuel/\" target=\"_blank\" rel=\"noreferrer noopener\">several separate breaches</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Irregular stated that it found no evidence that a customer’s systems were breached or that customer data was leaked. Affected parties were notified, while the company delayed its full report to align with customer disclosure processes.</p>\n\n\n\n<h2 id=\"h-irregular-pushes-secure-frontier-ai-standards\" class=\"wp-block-heading\"><strong>Irregular Pushes Secure Frontier AI Standards</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Irregularly conducted cybersecurity <a href=\"https://cybersecuritynews.com/aembit-joins-snowflake-to-tackle-ais-next-security-frontier-trusted-agent-interoperability/\" target=\"_blank\" rel=\"noreferrer noopener\">evaluations for frontier AI labs</a> before new models are released. These tests assess whether a model can plan, research, and execute multi-stage cyberattack workflows. Such simulations may include reconnaissance, credential discovery, exploitation attempts, data access, and evasion behavior.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company said realistic cyber evaluations sometimes require controlled internet access because real attackers rely on online services, public code repositories, vulnerabilities, and exposed infrastructure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">However, that access also creates a containment risk if a model mistakes an external target for part of a simulated environment. In the reported case, engineers selected a fictional company name for an insider-threat scenario involving <a href=\"https://cybersecuritynews.com/chick-fil-a-customers-passwords-reset/\" target=\"_blank\" rel=\"noreferrer noopener\">unauthorized access</a> to a database.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The name was believed to be fictional, but it overlapped with a real and relatively obscure internet domain. While most model runs stayed inside the intended lab environment, a small number attempted to access the real domain.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Because internet access was enabled, some models treated the real domain as part of the evaluation. Occasionally, some models performed offensive actions, including <a href=\"https://cybersecuritynews.com/hackers-exploiting-one-in-four-vulnerabilities/\" target=\"_blank\" rel=\"noreferrer noopener\">exploiting vulnerabilities</a>, extracting credentials, and attempting to access a production database.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In one case, a model reached a similarly named website and found credentials that had already been publicly exposed. The company stressed that the incident did not demonstrate unusual behavior by one specific frontier model.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.irregular.com/research/addressing-recent-incidents-ongoing-findings-and-path-forward\" data-type=\"link\" data-id=\"https://www.irregular.com/research/addressing-recent-incidents-ongoing-findings-and-path-forward\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">According to Irregular</a>, the exposed domain lacked several basic security protections, making it relatively easy for modern frontier models to compromise. The behavior also appeared rarely, occurring in fewer than 1 in 10,000 advanced simulations and often only after hundreds of interaction turns.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Irregular disabled the affected evaluation, reviewed relevant logs, and added safeguards designed to prevent similar mistakes. The company is expanding manual review of model activity and forming an internal team focused on challenging assumptions around containment, access controls, and model behavior.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The incident also highlights a major monitoring problem for <a href=\"https://cybersecuritynews.com/gpt-5-6-release/\" target=\"_blank\" rel=\"noreferrer noopener\">AI cyber evaluations</a>. Evaluation environments generate large volumes of activity that may resemble real attacks by design.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Traditional detection tools can flag legitimate test behavior as malicious, making it difficult to identify the rare action that crosses a containment boundary. Plans to publish an irregular whitepaper on secure evaluation practices.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It expects the document to address clearer setup documentation, stronger log monitoring, faster incident coordination, secure sharing of <a href=\"https://cybersecuritynews.com/iphone-and-macbook-forensics-investigation/\" target=\"_blank\" rel=\"noreferrer noopener\">forensic evidence</a> such as model transcripts, and recurring checks for conflicts between fictional scenario names and newly registered real-world domains.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As cyber-capable AI systems become more advanced, evaluation providers will need stronger defense-in-depth controls. These should include strict egress filtering, domain allowlists, sinkholed infrastructure, automated real-time alerts, human review of high-risk actions, and continuous validation to ensure simulated targets cannot map to live systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The incident reinforces a central challenge for frontier AI safety: evaluations must be realistic enough to identify dangerous capabilities, but sufficiently contained so that testing those capabilities does not cause real-world harm.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 87%,rgb(169,184,195) 100%)\"><strong>&nbsp;Strengthen Your SOC by Accelerating Threat Detection &amp; Rapid Investigations.&nbsp;-&gt;&nbsp;<a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate ANY.RUN With Your SOC&nbsp;</a><strong><a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=links&amp;utm_campaign=sandbox&amp;utm_content=enterprise&amp;utm_term=0626#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Now</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/irregular-pushes-stronger-secure-frontier-ai-cyber-evaluations/\">Irregular Pushes Stronger Containment Standards for Secure Frontier AI Cyber Evaluations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
     {
       "id": "sha256:afbb07b753b97219fe6f9227eeb018f728ba2ea4ff451d839e341498be955972",
       "url": "https://cybersecuritynews.com/medusa-ransomware",
