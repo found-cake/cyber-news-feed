@@ -1,15 +1,42 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-20T20:00:47Z",
+  "updated_at": "2026-08-20T21:00:50Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-20T20:00:47Z",
+    "last_success_at": "2026-08-20T21:00:50Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:41850b0deaa2721c28cf98877ea6a8396886477f723b14ee0e1afdadcb0ebc52",
+      "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+      "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
+      "published_at": "2026-08-20T20:22:35Z",
+      "published_raw": "2026-08-21T01:52:35.781+05:30",
+      "categories": [
+        "threat-intelligence"
+      ],
+      "description": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation.\n\nThe affected releases are arrayref 0.3.10, internment 0.8.7, and append-only-vec 0.1.9, all published from the same owner",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1221033276012390576",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgshVe5DUMbByJkLQGRgak37eOf3HddCtrF6KCJfISPdm7l2ZwLFlnjQM3pN2mxPDpc9lWwSoH2fYfucYKBKk3vpuGAKdR5U685IZh8EFbMxWcyVenuRMyqIgvbFUa0_5Sx9pVl9Imu5omju6i7eRE0sKKxiCSKYEV1Say1LLhQHEufY10dgovzX0Nt7as/s260-e100/rust.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:42c3afc04079c9f579ba9befa22640bb84de8c15215e93bbb80aef950e7247c0",
       "url": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
