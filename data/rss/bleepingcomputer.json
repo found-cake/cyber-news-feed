@@ -1,15 +1,57 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-20T14:00:48Z",
+  "updated_at": "2026-08-20T15:00:49Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-20T14:00:48Z",
+    "last_success_at": "2026-08-20T15:00:49Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:a9dbc5f8c54c30e0025a7177de11f878941ff2721a38934bedfb22362a73c725",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks",
+      "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
+      "published_at": "2026-08-20T14:39:48Z",
+      "published_raw": "Thu, 20 Aug 2026 10:39:48 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:034c7deac6f7ea37687d40d560677fea23528eef9626f4068886842bed485168",
+      "url": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss",
+      "title": "How MSPs can catch phishing attacks email filters miss",
+      "published_at": "2026-08-20T14:01:11Z",
+      "published_raw": "Thu, 20 Aug 2026 10:01:11 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detect and contain attacks that make it past the inbox. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
+      "authors": [
+        {
+          "name": "Sponsored by Kaseya",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:dfc81765f022129bb80ec7761e3203d889b073e50040be698fc054021d0f8a5c",
       "url": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible",
@@ -1601,48 +1643,6 @@
       "authors": [
         {
           "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:36f7facae6105d40736956d8d19f030ec23cc9f5cc07ce8c427e98b98011888c",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs",
-      "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
-      "published_at": "2026-08-10T14:34:32Z",
-      "published_raw": "Mon, 10 Aug 2026 10:34:32 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity server-side request forgery (SSRF) flaw. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:1d01b1e06f7835c9352a283cdc1f3db5e9cd38c12324aecfe2a0882d12053065",
-      "url": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era",
-      "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
-      "published_at": "2026-08-10T14:01:11Z",
-      "published_raw": "Mon, 10 Aug 2026 10:01:11 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "AI is making phishing, credential theft, and social engineering faster and more efficient, while traditional trust signals such as passwords, MFA, IP reputation, and geolocation become easier to bypass. Specops explains why organizations are increasingly adding device trust to their Zero Trust strategies. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/",
-      "authors": [
-        {
-          "name": "Sponsored by Specops Software",
           "uri": "",
           "email": ""
         }
