@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-20T06:00:53Z",
+  "updated_at": "2026-08-20T07:00:45Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-20T06:00:53Z",
+    "last_success_at": "2026-08-20T07:00:45Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -632,6 +632,33 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:b1da55ba01341c8882c40cb13eaeb0c9b25d52e2bed676067f93a15db45852e1",
+      "url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
+      "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
+      "published_at": "2026-08-20T06:04:34Z",
+      "published_raw": "2026-08-20T11:34:34.449+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution.\n\nThe vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of unrestricted upload of a file with a dangerous type.\n\n\"The flaw lives in the Forms module's File",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1964953964852855066",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitKWjeNJOL_DEahUmMAYpH9qh94s2iFi8igtfSlAzOVWiUBU-EIM0MWMsFYPmA5NDL6Rs9E-w9vvCmw3Cc6Og0q-TDt87Q2hwYIePNAQ0xQ3OJYHzgCizDFm-YK9SxW4ncWnuVLaOzgb3SPO7Qpx17zHMaFzBQfYllgz5IP-p1jMALgWlasRkj1nV3Tq3G/s260-e100/wordpress.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:ef4c1d5e9e0fb7ea9b29a64b658e252fb34ce65e5d2458f8bdda0b67a6ad3dfd",
       "url": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
       "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
@@ -1091,33 +1118,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:ee8b70611ea8e86f90bcbdb4b3438e72901935b7ae8dc5c92fb9872149c94ee8",
-      "url": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
-      "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
-      "published_at": "2026-08-12T11:13:03Z",
-      "published_raw": "2026-08-12T16:43:03.459+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation.\n\nThe most severe of the flaws are listed below -\n\n\n  CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4655283795435125224",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj36vXq6xqWIDA09DIFwTp0gAZyTEpTdUoOrczmHr0NAOmxBDBySv4K6oEmzSup0sZylULeZlzf2unPADh99H5kx8-oktejFUPTM2t5aM6WrdTy99m6Qs12z4A58UYbqU2LhZRa20yY9FGy8FFB-pMvUFsA3MolrrA4nYOWVf9IS42Y0vUn3sMtu0BCty3g/s260-e100/adobe-cve.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:6c0fe6acb311af0f2aff2d8d8a2afcb7e2f7e7b2802050bc100619eed42bf8d6",
       "url": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
       "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
@@ -1165,6 +1165,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS_4KcVdL2QogjCtjg4yqVFuDNgQ9a8SYCzjsxUKME896DBso0Zwpvb8gH9T5gMPOqM2LU-A-7IyKOqKpKiXgLWAdiABf4RrVvAq9nNpDDC2TNppKWt9RKVXmNr2-Z9Y1kIBNVi8fETA6Aj6K2s_gU0Hmc8CKDi1q1wbqD9G9uUP5cPpuwk5h88mfD9I0/s260-e100/power-plant.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:ee8b70611ea8e86f90bcbdb4b3438e72901935b7ae8dc5c92fb9872149c94ee8",
+      "url": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
+      "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
+      "published_at": "2026-08-12T11:13:03Z",
+      "published_raw": "2026-08-12T16:43:03.459+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation.\n\nThe most severe of the flaws are listed below -\n\n\n  CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4655283795435125224",
+      "authors": [
+        {
+          "name": "Ravie Lakshmanan",
+          "uri": "http://www.blogger.com/profile/09767675513435997467",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj36vXq6xqWIDA09DIFwTp0gAZyTEpTdUoOrczmHr0NAOmxBDBySv4K6oEmzSup0sZylULeZlzf2unPADh99H5kx8-oktejFUPTM2t5aM6WrdTy99m6Qs12z4A58UYbqU2LhZRa20yY9FGy8FFB-pMvUFsA3MolrrA4nYOWVf9IS42Y0vUn3sMtu0BCty3g/s260-e100/adobe-cve.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
