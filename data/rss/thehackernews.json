@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-20T11:00:46Z",
+  "updated_at": "2026-08-20T12:00:46Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-20T11:00:46Z",
+    "last_success_at": "2026-08-20T12:00:46Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -632,6 +632,60 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:6740d03ebc5ee612343ea69b0c9de1918c9522362cb5b6686b9f533743e753fd",
+      "url": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
+      "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
+      "published_at": "2026-08-20T11:39:35Z",
+      "published_raw": "2026-08-20T17:09:35.922+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to the websites they front, amplifying a low-bandwidth request stream by up to 350x against the origin server.\n\nThe attacks, collectively named \"CDN Tsunami,\" were evaluated against Alibaba, Baidu,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3480975684679821465",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDFisNx669R67D6R9VnkWr_DIhB1VjYqDPrXqKAoeCz0YxbSngLxB15XYLtuKb00YSEE0rxQEfop5v7JIr2SMVOErIM2r_GZqA6q1FDNl_wBeAaukVoAse6l0kXv35dJRTQjT8R0DhS9ihwYUXNd9cFuqYM3GS0o28NyIBAgliuQR8XhKQqhixFcjdZpo/s260-e100/cdn-boost.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:0d465eec631531857f0133ab1597525f383d985d7d7918b79ca84b4a5fd49b41",
+      "url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
+      "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
+      "published_at": "2026-08-20T11:05:11Z",
+      "published_raw": "2026-08-20T16:35:11.712+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL's open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacker to issue arbitrary commands to the software's spacecraft and instrument command bus.\n\nThe chain, tracked as GHSA-p9r8-2q67-fp86 and rated 9.4 on the CVSS v3.1 scoring system, impacts AIT-GUI",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1596334674641462452",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0aHi13XpphD98KUUKTJJB0T5eJW8TLe8qecYWanC8lqujxWOn4dtJUXThwqpfnrd9daSkiLMxXb7r6EFFbYY2fy3qSZteMtPB5Sl5t4K01MKoHywiyohPzUQX17h3oj126zywGtTEP8twGQnbs0wjaecaY8nLhAWXLw0anuJuL2iSJmKBVnzlZhy842E/s260-e100/nasa.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:b1da55ba01341c8882c40cb13eaeb0c9b25d52e2bed676067f93a15db45852e1",
       "url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
       "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
@@ -1091,33 +1145,6 @@
       "source_metadata": {}
     },
     {
-      "id": "sha256:685f5af5505e3a91f9aa17d496da212db318298b10b693c11cb7a992a4211a55",
-      "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
-      "published_at": "2026-08-12T11:47:38Z",
-      "published_raw": "2026-08-12T17:17:38.428+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords.\n\nThe weakness affected encrypted reasoning objects used by the providers' reasoning APIs, where a block created in one session could be replayed into another and, during testing,",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1066383333655676214",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZP21lJn1EY_0JXWBul8gpBgRD_ryI4ACYqFiu6icbKCgIMyta9UqjQrtnzjTkO1Yi9tdzTaQw6X949lzMwtQPKUPPIxA5_EwFjJqjMDwBtFSc56vaCyybwJNcsjVZMfMW4KHQ_VVCjz3AVeovFEtsI8ENZTQmQuc9rDIF5yd0n9uciJmwqlWS_EKf5mo/s260-e100/ai-models.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
       "id": "sha256:6c0fe6acb311af0f2aff2d8d8a2afcb7e2f7e7b2802050bc100619eed42bf8d6",
       "url": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
       "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
@@ -1165,6 +1192,33 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS_4KcVdL2QogjCtjg4yqVFuDNgQ9a8SYCzjsxUKME896DBso0Zwpvb8gH9T5gMPOqM2LU-A-7IyKOqKpKiXgLWAdiABf4RrVvAq9nNpDDC2TNppKWt9RKVXmNr2-Z9Y1kIBNVi8fETA6Aj6K2s_gU0Hmc8CKDi1q1wbqD9G9uUP5cPpuwk5h88mfD9I0/s260-e100/power-plant.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:685f5af5505e3a91f9aa17d496da212db318298b10b693c11cb7a992a4211a55",
+      "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+      "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
+      "published_at": "2026-08-12T11:47:38Z",
+      "published_raw": "2026-08-12T17:17:38.428+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords.\n\nThe weakness affected encrypted reasoning objects used by the providers' reasoning APIs, where a block created in one session could be replayed into another and, during testing,",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1066383333655676214",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZP21lJn1EY_0JXWBul8gpBgRD_ryI4ACYqFiu6icbKCgIMyta9UqjQrtnzjTkO1Yi9tdzTaQw6X949lzMwtQPKUPPIxA5_EwFjJqjMDwBtFSc56vaCyybwJNcsjVZMfMW4KHQ_VVCjz3AVeovFEtsI8ENZTQmQuc9rDIF5yd0n9uciJmwqlWS_EKf5mo/s260-e100/ai-models.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
@@ -1570,33 +1624,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXmfqNoa09hdS94VkCzlDhqshyphenhyphenLXM3mo93MtChM8pXBFJxCEh6iP7mlU-wcwnWZGROVidduvOqpGfWajbLA5PaTrH7tibyCqcvmlnS-b4c0yBcGZJ7eJLPPXxoutiEEt_rqGlPf4pSFUjWfmuuME7kegCwQam0Kf7VivC9nAUjKIvxYeBETap8ElXjck5R/s260-e100/intraid.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:8cd19c7c9cd43bd13e6088bc5d9db25603b1ddf2466fba6c56c4119a2b2d4086",
-      "url": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
-      "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
-      "published_at": "2026-08-10T11:33:41Z",
-      "published_raw": "2026-08-10T17:03:41.983+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors.\n\nRussian cybersecurity vendor Kaspersky said it detected the attacks in July 2026.\n\nThe activity involves exploiting a vulnerability chain",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6141527794520335683",
-      "authors": [
-        {
-          "name": "Ravie Lakshmanan",
-          "uri": "http://www.blogger.com/profile/09767675513435997467",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwaZH1uRwKD4SlLCwgb-7zVkEGjYYXdFxb21glBm3grBdwOZ_M-ECnOmNVFPPY6mg6wXUCf4R4xm9mI8mBiEm21Ixh6y9GXYvL9DKQgKEBkTN65AVQqFz9DJpMs6BRmrGWjGC5vDC-cFgx774ASr7j73D0wiRxrs9tKNdovUbwmLuGicKgcZeQR53z71bT/s260-e100/trueconf.jpg",
           "kind": "thumbnail",
           "medium": ""
         }

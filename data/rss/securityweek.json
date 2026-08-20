@@ -1,15 +1,86 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-20T11:00:46Z",
+  "updated_at": "2026-08-20T12:00:46Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-20T11:00:46Z",
+    "last_success_at": "2026-08-20T12:00:46Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:cc17a875b07f469424adb9277d87ed166ca567e9ec82a19c328886c8803d9dc6",
+      "url": "https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities",
+      "title": "Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities",
+      "published_at": "2026-08-20T11:46:04Z",
+      "published_raw": "Thu, 20 Aug 2026 11:46:04 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "Cisco",
+        "patches",
+        "vulnerability"
+      ],
+      "description": "<p>The flaws could lead to remote code execution, authentication bypasses, and path traversal attacks.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/\">Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48746",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:1a25459b9ca1674d1dadc0508e9282f1a1b7436f30c2a23dd2e8cf1d15401543",
+      "url": "https://www.securityweek.com/ai-assisted-tool-helped-secure-satellite-communication-system-after-2022-russian-hacking",
+      "title": "AI-Assisted Tool Helped Secure Satellite Communication System After 2022 Russian Hacking",
+      "published_at": "2026-08-20T11:08:00Z",
+      "published_raw": "Thu, 20 Aug 2026 11:08:00 +0000",
+      "categories": [
+        "Artificial Intelligence",
+        "ICS/OT",
+        "AI",
+        "OT",
+        "Russia",
+        "Satellite",
+        "security product"
+      ],
+      "description": "<p>Atalanta's Argo product is now being used to prove the resilience of Viasat’s satellite communications network.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-assisted-tool-helped-secure-satellite-communication-system-after-2022-russian-hacking/\">AI-Assisted Tool Helped Secure Satellite Communication System After 2022 Russian Hacking</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48744",
+      "authors": [
+        {
+          "name": "Associated Press",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:33397f842b3e084df22c8eb2994a713de12ce020d39d0a5ec3c20334a4570be7",
       "url": "https://www.securityweek.com/openai-overhauls-model-security-with-sandboxing-30-minute-alerts-and-training-pauses",
@@ -2471,74 +2542,6 @@
       ],
       "description": "<p>An AI agent executes instructions that an attacker has planted in the log or alert that records a blocked request word for word.</p>\n<p>The post <a href=\"https://www.securityweek.com/ghostjacking-attack-uses-poisoned-logs-to-turn-ai-agents-bad/\">&#8216;Ghostjacking&#8217; Attack Uses Poisoned Logs to Turn AI Agents Bad</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
       "feed_id": "https://www.securityweek.com/?p=48506",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:2b92a4ae7421e2056087390406b186877703803fcd404ee5ea130cf464213582",
-      "url": "https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks",
-      "title": "New Jersey, Alabama Join States Targeted in Water Cyberattacks",
-      "published_at": "2026-08-10T11:44:26Z",
-      "published_raw": "Mon, 10 Aug 2026 11:44:26 +0000",
-      "categories": [
-        "ICS/OT",
-        "ICS",
-        "OT",
-        "Water"
-      ],
-      "description": "<p>Hackers linked to Iran targeted industrial control systems (ICS) at water facilities in at least a dozen US states.</p>\n<p>The post <a href=\"https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks/\">New Jersey, Alabama Join States Targeted in Water Cyberattacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48504",
-      "authors": [
-        {
-          "name": "Eduard Kovacs",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:f9e849358d0ad1466308dbd853a8aa180cef368ca23e3ed99acbb71593afd336",
-      "url": "https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day",
-      "title": "Metabase Patches Vulnerability Exploited as Zero-Day",
-      "published_at": "2026-08-10T11:03:55Z",
-      "published_raw": "Mon, 10 Aug 2026 11:03:55 +0000",
-      "categories": [
-        "Vulnerabilities",
-        "exploited",
-        "Metabase",
-        "Zero-Day"
-      ],
-      "description": "<p>The security defect allows unauthenticated, remote attackers to gain administrative access to Metabase instances.</p>\n<p>The post <a href=\"https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/\">Metabase Patches Vulnerability Exploited as Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48502",
       "authors": [
         {
           "name": "Ionut Arghire",
