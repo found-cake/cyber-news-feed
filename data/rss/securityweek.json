@@ -1,15 +1,84 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-20T12:00:46Z",
+  "updated_at": "2026-08-20T13:00:48Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-20T12:00:46Z",
+    "last_success_at": "2026-08-20T13:00:48Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:5bbaa5bf532662e130c3bb3769b2a50535bf2c22d59a7144cfc5293203ca0a9c",
+      "url": "https://www.securityweek.com/atlassian-splunk-patch-dozens-of-critical-high-severity-vulnerabilities",
+      "title": "Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities",
+      "published_at": "2026-08-20T12:24:53Z",
+      "published_raw": "Thu, 20 Aug 2026 12:24:53 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "Atlassian",
+        "patches",
+        "Splunk",
+        "vulnerability"
+      ],
+      "description": "<p>The flaws could be exploited to execute arbitrary code, access sensitive information, and elevate privileges.</p>\n<p>The post <a href=\"https://www.securityweek.com/atlassian-splunk-patch-dozens-of-critical-high-severity-vulnerabilities/\">Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48751",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:5ac4228ed00b6fc4ae16c10a082dffc381dc2ff9c0bed8b6d7f1d685465efc53",
+      "url": "https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft",
+      "title": "MLflow Vulnerability Exploited for Cloud Credential Theft",
+      "published_at": "2026-08-20T12:05:55Z",
+      "published_raw": "Thu, 20 Aug 2026 12:05:55 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "exploited",
+        "MLflow",
+        "vulnerability"
+      ],
+      "description": "<p>The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information.</p>\n<p>The post <a href=\"https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/\">MLflow Vulnerability Exploited for Cloud Credential Theft</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48748",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:cc17a875b07f469424adb9277d87ed166ca567e9ec82a19c328886c8803d9dc6",
       "url": "https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities",
@@ -2509,39 +2578,6 @@
       ],
       "description": "<p>Remote, unauthenticated attackers could exploit the bugs to cause a denial-of-service (DoS) condition.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisco-warns-of-high-severity-clamav-vulnerabilities-with-public-poc/\">Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
       "feed_id": "https://www.securityweek.com/?p=48510",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:6c7a587eb4af85c6ab440f42b82d538c6fd99a14f4d2f6c2c0b1258dc0e3c625",
-      "url": "https://www.securityweek.com/ghostjacking-attack-uses-poisoned-logs-to-turn-ai-agents-bad",
-      "title": "‘Ghostjacking’ Attack Uses Poisoned Logs to Turn AI Agents Bad",
-      "published_at": "2026-08-10T12:59:34Z",
-      "published_raw": "Mon, 10 Aug 2026 12:59:34 +0000",
-      "categories": [
-        "Artificial Intelligence",
-        "AI",
-        "Ghostjacking"
-      ],
-      "description": "<p>An AI agent executes instructions that an attacker has planted in the log or alert that records a blocked request word for word.</p>\n<p>The post <a href=\"https://www.securityweek.com/ghostjacking-attack-uses-poisoned-logs-to-turn-ai-agents-bad/\">&#8216;Ghostjacking&#8217; Attack Uses Poisoned Logs to Turn AI Agents Bad</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48506",
       "authors": [
         {
           "name": "Ionut Arghire",

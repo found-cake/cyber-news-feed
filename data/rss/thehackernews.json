@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-20T12:00:46Z",
+  "updated_at": "2026-08-20T13:00:48Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-20T12:00:46Z",
+    "last_success_at": "2026-08-20T13:00:48Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -632,6 +632,33 @@
       "source_metadata": {}
     },
     {
+      "id": "sha256:b398c0708051478251ce1cf93974258e5ca04b6737972bc97b2e5e6b577585a8",
+      "url": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
+      "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
+      "published_at": "2026-08-20T12:01:24Z",
+      "published_raw": "2026-08-20T17:31:24.497+05:30",
+      "categories": [
+        "vulnerability"
+      ],
+      "description": "Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a point-of-sale (POS) terminal reads over near-field communication (NFC), without breaking any of the card's cryptography.\n\nThe attack, which the researchers named \"Zombie Card,\" requires physical",
+      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4225341716644192986",
+      "authors": [
+        {
+          "name": "Swati Khandelwal",
+          "uri": "http://www.blogger.com/profile/06009796704238391750",
+          "email": "noreply@blogger.com"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsJMUJluWegBU4C6RiZ4QHg6rTqhFHMt5JJt3RR2K7l06c3FOFlnq8gIVuBqVUX8qsJFiAh6KKAlDXpVAydAoC2rM0dUKUayta50sqRXoW36_V2OgSXJBKaaAFY4boBYhtHkqeyBaBZavbo7bz3S8otNwyb3NUmW9j88edph6zAfnyJikYhLBrAHuCdBA/s260-e100/visa.jpg",
+          "kind": "thumbnail",
+          "medium": ""
+        }
+      ],
+      "source_metadata": {}
+    },
+    {
       "id": "sha256:6740d03ebc5ee612343ea69b0c9de1918c9522362cb5b6686b9f533743e753fd",
       "url": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
       "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
@@ -1124,7 +1151,7 @@
       "published_at": "2026-08-13T06:09:48Z",
       "published_raw": "2026-08-13T11:39:48.468+05:30",
       "categories": [
-        "vulnerability"
+        "cyber-attack"
       ],
       "description": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code.\n\nThe vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates.\n\n\"The authentication",
       "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8352487863604946919",
@@ -1597,33 +1624,6 @@
       "media": [
         {
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtXmkUOPD6prrNPMK9N1Rhu2dm3QFGQ2DUTiu3xrj2WWbauZ_IK2HemME36-4WBIqGh01SFOkNJuutFeXLgS_ZMUBFn5ZDzIP5_IeNrwJWDfKcOPQgZl3spOFVS8R84Hbthy6o3sx9IWJ1yRo4FiW5acGYGBrf2nljmx6yvSd55LWRrkX6JhJ9b5bHJX0g/s260-e100/recaps.jpg",
-          "kind": "thumbnail",
-          "medium": ""
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:cdcb04f053b50d7b593de00f643c86b8b00eb828491e5c6be76f990f355b3930",
-      "url": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
-      "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
-      "published_at": "2026-08-10T12:25:04Z",
-      "published_raw": "2026-08-10T17:55:04.684+05:30",
-      "categories": [
-        "vulnerability"
-      ],
-      "description": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on.\n\nPasskeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authentication material that Windows had exposed, abused a cloud-synced passkey system from malware already on the victim's machine, and used a&nbsp;",
-      "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4115649765874347434",
-      "authors": [
-        {
-          "name": "Swati Khandelwal",
-          "uri": "http://www.blogger.com/profile/06009796704238391750",
-          "email": "noreply@blogger.com"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXmfqNoa09hdS94VkCzlDhqshyphenhyphenLXM3mo93MtChM8pXBFJxCEh6iP7mlU-wcwnWZGROVidduvOqpGfWajbLA5PaTrH7tibyCqcvmlnS-b4c0yBcGZJ7eJLPPXxoutiEEt_rqGlPf4pSFUjWfmuuME7kegCwQam0Kf7VivC9nAUjKIvxYeBETap8ElXjck5R/s260-e100/intraid.jpg",
           "kind": "thumbnail",
           "medium": ""
         }
