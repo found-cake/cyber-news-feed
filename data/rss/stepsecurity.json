@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "stepsecurity",
-  "updated_at": "2026-08-20T10:00:48Z",
+  "updated_at": "2026-08-20T11:00:46Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-20T10:00:48Z",
+    "last_success_at": "2026-08-20T11:00:46Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -14,20 +14,20 @@
       "id": "sha256:ff6234b4185301805e7b75f3e4a62adefffb192d18ca223a25d39ea3fcc5e926",
       "url": "https://www.stepsecurity.io/blog/arrayref-rust-crate-supply-chain-attack",
       "title": "Rust Supply-Chain Attack: arrayref 0.3.10 and the proc-macro1 Typosquat Execute a Remote Payload at Build Time",
-      "published_at": "2026-08-20T09:39:30Z",
-      "published_raw": "Thu, 20 Aug 2026 09:39:30 GMT",
+      "published_at": "2026-08-20T10:44:59Z",
+      "published_raw": "Thu, 20 Aug 2026 10:44:59 GMT",
       "categories": [],
-      "description": "Rust Supply-Chain Attack: arrayref 0.3.10 and the proc-macro1 Typosquat Execute a Remote Payload at Build Time",
+      "description": "The Rust crate arrayref 0.3.10 is compromised: it pulls in the typosquatted proc-macro1 1.0.107, whose build script downloads and runs a remote binary at build time. Full technical analysis: timeline, dropper dissection, runtime detection, IOCs, and remediation.",
       "feed_id": "https://www.stepsecurity.io/blog/arrayref-rust-crate-supply-chain-attack",
       "authors": [],
       "media": [
         {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a86c99a66d27c09156211c7_6a86c7bdbc2204635f6bc0b1_arrayref-supply-chain-compromise-hero.png",
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a86da93294c9cd04d6aded5_rust-supply-chain-cover.png",
           "kind": "thumbnail",
           "medium": ""
         },
         {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a86c99a66d27c09156211c7_6a86c7bdbc2204635f6bc0b1_arrayref-supply-chain-compromise-hero.png",
+          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a86da93294c9cd04d6aded5_rust-supply-chain-cover.png",
           "kind": "content",
           "medium": "image"
         }
