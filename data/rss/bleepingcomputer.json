@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-20T17:00:52Z",
+  "updated_at": "2026-08-20T18:00:49Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-20T17:00:52Z",
+    "last_success_at": "2026-08-20T18:00:49Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:d0ce69e87323647d33692c6e9755e61a1be2e43aa62af88d8422416871084364",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware",
+      "title": "Hackers poison arrayref Rust crate to push infostealer malware",
+      "published_at": "2026-08-20T17:53:52Z",
+      "published_raw": "Thu, 20 Aug 2026 13:53:52 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:a9dbc5f8c54c30e0025a7177de11f878941ff2721a38934bedfb22362a73c725",
       "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks",
@@ -1622,27 +1643,6 @@
       "authors": [
         {
           "name": "Mayank Parmar",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:007e14ccd65dfc63822147977d9388840a4226bc0136b7ad084d64bcf88361bd",
-      "url": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate",
-      "title": "New StormEncryptor ransomware used by former Medusa affiliate",
-      "published_at": "2026-08-10T17:42:00Z",
-      "published_raw": "Mon, 10 Aug 2026 13:42:00 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormEncryptor. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
           "uri": "",
           "email": ""
         }
