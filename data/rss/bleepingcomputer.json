@@ -1,15 +1,37 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-21T11:00:46Z",
+  "updated_at": "2026-08-21T12:00:51Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-21T11:00:46Z",
+    "last_success_at": "2026-08-21T12:00:51Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:d0cd6de0583aff28d90b5dd0fc96ba207ac267800160df8b1dca96bad184b229",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks",
+      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
+      "published_at": "2026-08-21T11:04:10Z",
+      "published_raw": "Fri, 21 Aug 2026 07:04:10 -0400",
+      "categories": [
+        "security",
+        "Microsoft"
+      ],
+      "description": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+      "authors": [
+        {
+          "name": "Sergiu Gatlan",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:c729d73132e660523425c006d57d77f41f5a1b10a66206945c507cb6538a333d",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware",
@@ -1576,27 +1598,6 @@
       ],
       "description": "CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, which has been flagged as actively exploited since early July. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:d00d85ba3b847bbbb2fe1ae4ffa3205e8d37a96081c27fec2833a8f5d7c54906",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits",
-      "title": "Cisco warns of high-severity ClamAV flaws with public exploits",
-      "published_at": "2026-08-11T11:03:01Z",
-      "published_raw": "Tue, 11 Aug 2026 07:03:01 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Cisco warned of two high-severity vulnerabilities affecting the Secure Endpoint Connector that allow threat actors to crash the ClamAV scanning process in denial-of-service (DoS) attacks. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/",
       "authors": [
         {
           "name": "Sergiu Gatlan",
