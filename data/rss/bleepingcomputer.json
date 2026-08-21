@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-21T18:00:46Z",
+  "updated_at": "2026-08-21T19:00:47Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-21T18:00:46Z",
+    "last_success_at": "2026-08-21T19:00:47Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:0b5e0e6c8159c62d0872262d07ccd77e07524eb57d9b602071fc4401a4fc7741",
+      "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign",
+      "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
+      "published_at": "2026-08-21T18:01:30Z",
+      "published_raw": "Fri, 21 Aug 2026 14:01:30 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:adcae21846f713001b34fd1002cd881f1ec37e401c467102b2a7125a82a08eb8",
       "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts",
@@ -1511,49 +1532,6 @@
       ],
       "description": "Cisco is warning that a high-severity denial-of-service vulnerability in Secure Firewall ASA and Threat Defense (FTD) software is being actively exploited in attacks to remotely crash affected devices. [...]",
       "feed_id": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:7d6d8ced5459e633aa4d9fd902036c5e4af8cb2c52458d69b1ca188300df06fe",
-      "url": "https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees",
-      "title": "Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees",
-      "published_at": "2026-08-11T18:34:23Z",
-      "published_raw": "Tue, 11 Aug 2026 14:34:23 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Delta Air Lines is investigating an unauthorized Wi-Fi network that appeared aboard a flight from Las Vegas to Atlanta carrying passengers who had attended the DEF CON hacker convention. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/",
-      "authors": [
-        {
-          "name": "Ionut Ilascu",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:4c427955a3867f06ddcb1205f39f9aa44a0dd2429d106236b713b08d7ba05c1c",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days",
-      "title": "Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days",
-      "published_at": "2026-08-11T18:08:50Z",
-      "published_raw": "Tue, 11 Aug 2026 14:08:50 -0400",
-      "categories": [
-        "security",
-        "Microsoft"
-      ],
-      "description": "Today is Microsoft's August 2026 Patch Tuesday, and with it comes security updates for a massive 400 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/",
       "authors": [
         {
           "name": "Lawrence Abrams",
