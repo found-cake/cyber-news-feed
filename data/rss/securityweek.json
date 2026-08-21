@@ -1,15 +1,80 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-21T14:00:49Z",
+  "updated_at": "2026-08-21T15:00:48Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-21T14:00:49Z",
+    "last_success_at": "2026-08-21T15:00:48Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:792ab2b92ec957eaa460c2eecc2db06551dd12569b3f74094242163b4b23874d",
+      "url": "https://www.securityweek.com/encrypted-prompts-bypass-ai-safety-guardrails-in-grok-and-gemini",
+      "title": "Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini",
+      "published_at": "2026-08-21T14:34:05Z",
+      "published_raw": "Fri, 21 Aug 2026 14:34:05 +0000",
+      "categories": [
+        "Artificial Intelligence",
+        "AI",
+        "Featured"
+      ],
+      "description": "<p>Researchers say the new ‘Cryptographic Context Injection’ technique conceals malicious instructions until they are decrypted inside a trusted execution environment.</p>\n<p>The post <a href=\"https://www.securityweek.com/encrypted-prompts-bypass-ai-safety-guardrails-in-grok-and-gemini/\">Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48783",
+      "authors": [
+        {
+          "name": "Kevin Townsend",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "sha256:92478a349751d75c8722dac2e5e72f5f29eefc43c0d68a9d41f5154a1a32248d",
+      "url": "https://www.securityweek.com/new-phishing-toolkit-uses-passkeys-to-maintain-access-after-password-resets",
+      "title": "New Phishing Toolkit Uses Passkeys to Maintain Access After Password Resets",
+      "published_at": "2026-08-21T14:22:06Z",
+      "published_raw": "Fri, 21 Aug 2026 14:22:06 +0000",
+      "categories": [
+        "Phishing",
+        "phishing kit"
+      ],
+      "description": "<p>Researchers say iAuthFlow V2 can register an attacker-controlled passkey, enabling persistent access even after passwords are changed and active sessions revoked.</p>\n<p>The post <a href=\"https://www.securityweek.com/new-phishing-toolkit-uses-passkeys-to-maintain-access-after-password-resets/\">New Phishing Toolkit Uses Passkeys to Maintain Access After Password Resets</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48781",
+      "authors": [
+        {
+          "name": "Kevin Townsend",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:3d1d8edf1e875643d7034d1aacd7398cfb11230d5106d218052615ea2a17978f",
       "url": "https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host",
@@ -2472,109 +2537,6 @@
       "authors": [
         {
           "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:ac147361eb058a9b586a034c9eec1ec9eee47d5a0ef32d05001ce03a8c00c7aa",
-      "url": "https://www.securityweek.com/the-ai-governance-gap-is-a-leadership-problem-waiting-wont-close-it",
-      "title": "The AI Governance Gap Is a Leadership Problem: Waiting Won’t Close It",
-      "published_at": "2026-08-11T15:00:00Z",
-      "published_raw": "Tue, 11 Aug 2026 15:00:00 +0000",
-      "categories": [
-        "Artificial Intelligence",
-        "AI",
-        "governance"
-      ],
-      "description": "<p>Organizations are rushing to implement AI without fully grasping where its legal protections begin and end.</p>\n<p>The post <a href=\"https://www.securityweek.com/the-ai-governance-gap-is-a-leadership-problem-waiting-wont-close-it/\">The AI Governance Gap Is a Leadership Problem: Waiting Won&#8217;t Close It</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48537",
-      "authors": [
-        {
-          "name": "Steve Durbin",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:d8bbc07e5917c3050c4c37d6498943c0bdd131dcb0290696fb79f09f38b40ca6",
-      "url": "https://www.securityweek.com/sap-patches-critical-code-injection-memory-corruption-vulnerabilities",
-      "title": "SAP Patches Critical Code Injection, Memory Corruption Vulnerabilities",
-      "published_at": "2026-08-11T14:14:32Z",
-      "published_raw": "Tue, 11 Aug 2026 14:14:32 +0000",
-      "categories": [
-        "Vulnerabilities",
-        "Patch Tuesday",
-        "patches",
-        "SAP",
-        "vulnerability"
-      ],
-      "description": "<p>SAP released 28 new and two updated security notes, including four notes dealing with critical-severity bugs.</p>\n<p>The post <a href=\"https://www.securityweek.com/sap-patches-critical-code-injection-memory-corruption-vulnerabilities/\">SAP Patches Critical Code Injection, Memory Corruption Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48535",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:6110a81ce4f383be0d18bf69fb2a370af7fd1f172c42520c0f3b6a6d9d593216",
-      "url": "https://www.securityweek.com/us-water-systems-get-cyber-boost-from-new-senate-bill-and-water-watch-center",
-      "title": "US Water Systems Get Cyber Boost From New Senate Bill and ‘Water Watch Center’",
-      "published_at": "2026-08-11T14:03:32Z",
-      "published_raw": "Tue, 11 Aug 2026 14:03:32 +0000",
-      "categories": [
-        "Government",
-        "bill",
-        "Government Policy",
-        "legislation",
-        "Water"
-      ],
-      "description": "<p>The Water Watch Center launched at DEF CON aims to help under-resourced utilities protect their systems against hackers.</p>\n<p>The post <a href=\"https://www.securityweek.com/us-water-systems-get-cyber-boost-from-new-senate-bill-and-water-watch-center/\">US Water Systems Get Cyber Boost From New Senate Bill and &#8216;Water Watch Center&#8217;</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48533",
-      "authors": [
-        {
-          "name": "Eduard Kovacs",
           "uri": "",
           "email": ""
         }
