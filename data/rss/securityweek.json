@@ -1,15 +1,48 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-21T12:00:51Z",
+  "updated_at": "2026-08-21T13:00:47Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-21T12:00:51Z",
+    "last_success_at": "2026-08-21T13:00:47Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:3d1d8edf1e875643d7034d1aacd7398cfb11230d5106d218052615ea2a17978f",
+      "url": "https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host",
+      "title": "Critical Isolated-vm Vulnerability Leads to RCE on Host",
+      "published_at": "2026-08-21T12:26:07Z",
+      "published_raw": "Fri, 21 Aug 2026 12:26:07 +0000",
+      "categories": [
+        "Vulnerabilities",
+        "Isolated-vm",
+        "vulnerability"
+      ],
+      "description": "<p>The type confusion bug can lead to V8 sandbox escape and control-flow hijacking of the host process.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/\">Critical Isolated-vm Vulnerability Leads to RCE on Host</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48775",
+      "authors": [
+        {
+          "name": "Ionut Arghire",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:fb626bf76e296c577d9a80be449996e99df0a360cd2eff329f95dc3122cbfefe",
       "url": "https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers",
@@ -83,17 +116,18 @@
     {
       "id": "sha256:1587e3105eb543187e6288db322264c5888f3fa5f69c1a7a5503fd067ef6d6ee",
       "url": "https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches",
-      "title": "Microsoft Rolls Out 22 Fresh Security Patches",
+      "title": "Microsoft Patches Exploited Entra ID Vulnerability",
       "published_at": "2026-08-21T08:12:19Z",
       "published_raw": "Fri, 21 Aug 2026 08:12:19 +0000",
       "categories": [
         "Cloud Security",
         "Vulnerabilities",
+        "Featured",
         "Microsoft",
         "patches",
         "vulnerability"
       ],
-      "description": "<p>Most of the fixes resolve code execution, privilege escalation, and information disclosure vulnerabilities.</p>\n<p>The post <a href=\"https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/\">Microsoft Rolls Out 22 Fresh Security Patches</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "description": "<p>A total of 22 patches were releaased, a majority for code execution, privilege escalation, and information disclosure vulnerabilities.</p>\n<p>The post <a href=\"https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/\">Microsoft Patches Exploited Entra ID Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
       "feed_id": "https://www.securityweek.com/?p=48765",
       "authors": [
         {
@@ -2541,42 +2575,6 @@
       "authors": [
         {
           "name": "Eduard Kovacs",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:1107c317b3ef60490f56cbd83de11cf1b16a8a7f4a601ab82611e7a8caf2beaa",
-      "url": "https://www.securityweek.com/corma-raises-60-million-for-defensive-cybersecurity-ai-model",
-      "title": "Corma Raises $60 Million for Defensive Cybersecurity AI Model",
-      "published_at": "2026-08-11T12:01:46Z",
-      "published_raw": "Tue, 11 Aug 2026 12:01:46 +0000",
-      "categories": [
-        "Artificial Intelligence",
-        "Cybersecurity Funding",
-        "AI",
-        "Corma",
-        "emerge from stealth",
-        "funding"
-      ],
-      "description": "<p>Corma emerged from stealth with seed funding from Sequoia Capital, Khosla Ventures, and Coatue.</p>\n<p>The post <a href=\"https://www.securityweek.com/corma-raises-60-million-for-defensive-cybersecurity-ai-model/\">Corma Raises $60 Million for Defensive Cybersecurity AI Model</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48531",
-      "authors": [
-        {
-          "name": "SecurityWeek News",
           "uri": "",
           "email": ""
         }

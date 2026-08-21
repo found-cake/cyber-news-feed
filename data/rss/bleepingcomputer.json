@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-21T12:00:51Z",
+  "updated_at": "2026-08-21T13:00:47Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-21T12:00:51Z",
+    "last_success_at": "2026-08-21T13:00:47Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:ea314ca0e3d66c2f08dff9face46b66be908d8a6697010c1c4c0a5e9909fc774",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws",
+      "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
+      "published_at": "2026-08-21T12:25:33Z",
+      "published_raw": "Fri, 21 Aug 2026 08:25:33 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
+      "authors": [
+        {
+          "name": "Sergiu Gatlan",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:d0cd6de0583aff28d90b5dd0fc96ba207ac267800160df8b1dca96bad184b229",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks",
@@ -1558,49 +1579,6 @@
       "authors": [
         {
           "name": "Sponsored by Token Security",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:1434f3b88992007fd65e9d14968442d08ccf3bcb3cf2c0ff80d7e2d4a12e11b7",
-      "url": "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter",
-      "title": "DDoS attacks over 1 Tbps surged fivefold in the second quarter",
-      "published_at": "2026-08-11T13:00:00Z",
-      "published_raw": "Tue, 11 Aug 2026 09:00:00 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Cloudflare says it mitigated more than 800 network-layer distributed denial-of-service (DDoS) attacks exceeding 1 Tbps in the second quarter of the year. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:78b8baf603569974bc979cc301d7103eed3ba34c8a056751062fd89c44cc3cd0",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks",
-      "title": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
-      "published_at": "2026-08-11T12:12:16Z",
-      "published_raw": "Tue, 11 Aug 2026 08:12:16 -0400",
-      "categories": [
-        "security",
-        "Microsoft"
-      ],
-      "description": "CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, which has been flagged as actively exploited since early July. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
           "uri": "",
           "email": ""
         }
