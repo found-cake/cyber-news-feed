@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "source": "thehackernews",
-  "updated_at": "2026-08-21T17:00:46Z",
+  "updated_at": "2026-08-21T18:00:46Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-21T17:00:46Z",
+    "last_success_at": "2026-08-21T18:00:46Z",
     "last_error_at": null,
     "last_error": null
   },
@@ -40,13 +40,13 @@
     {
       "id": "sha256:630ad3fed036364e1f3f4869ee229c078b17675341b1ad1e5ddbfa86c8dff0e9",
       "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
-      "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+      "title": "Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution",
       "published_at": "2026-08-21T06:06:11Z",
       "published_raw": "2026-08-21T11:36:11.050+05:30",
       "categories": [
         "threat-intelligence"
       ],
-      "description": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required.\n\nThe vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a case of remote code execution impacting the tech giant's cloud-based identity and access management service. It was previously called Azure Active Directory",
+      "description": "Update: The story was updated after publication to note that the vulnerability has not been exploited.\n\nAlthough the security bulletin originally marked the \"Exploited\" field under the Exploitability Assessment table as \"Yes,\" on August 21, 2026, Microsoft corrected the \"Exploited\" status to \"No\" after The Hacker News contacted the company for comment. It also noted, \"this vulnerability was not",
       "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5981637457497793334",
       "authors": [
         {
