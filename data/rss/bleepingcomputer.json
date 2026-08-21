@@ -1,15 +1,57 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-21T10:00:47Z",
+  "updated_at": "2026-08-21T11:00:46Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-21T10:00:47Z",
+    "last_success_at": "2026-08-21T11:00:46Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:c729d73132e660523425c006d57d77f41f5a1b10a66206945c507cb6538a333d",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware",
+      "title": "Hackers abuse FTP server banners to deliver new Windows malware",
+      "published_at": "2026-08-21T11:00:00Z",
+      "published_raw": "Fri, 21 Aug 2026 07:00:00 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
+    {
+      "id": "sha256:6149f50a4513859dd03721315881c73f248b75ddc068815c8bfe173efbc08c94",
+      "url": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info",
+      "title": "SickKids data breach exposes employee and job applicant info",
+      "published_at": "2026-08-21T10:10:42Z",
+      "published_raw": "Fri, 21 Aug 2026 06:10:42 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third-party software. Clinical systems and patient records were not affected. (264) [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
+      "authors": [
+        {
+          "name": "Ax Sharma",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:d0ce69e87323647d33692c6e9755e61a1be2e43aa62af88d8422416871084364",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware",
