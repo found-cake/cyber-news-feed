@@ -1,15 +1,36 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-22T13:00:46Z",
+  "updated_at": "2026-08-22T14:00:48Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-22T13:00:46Z",
+    "last_success_at": "2026-08-22T14:00:48Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:f6dc153cff3da66a215e444072386d1519e9f1ea431cd09aae2c6c5fe94ec72a",
+      "url": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication",
+      "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
+      "published_at": "2026-08-22T13:00:09Z",
+      "published_raw": "Sat, 22 Aug 2026 09:00:09 -0400",
+      "categories": [
+        "security"
+      ],
+      "description": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command authorization, strict input validation, and narrowly scoped privileges can help secure named-pipe communication. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
+      "authors": [
+        {
+          "name": "Sponsored by ThreatLocker",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:0b5e0e6c8159c62d0872262d07ccd77e07524eb57d9b602071fc4401a4fc7741",
       "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign",
