@@ -1,6 +1,6 @@
 module github.com/found-cake/cyber-news-feed
 
-go 1.26
+go 1.27
 
 require golang.org/x/net v0.57.0
 
