@@ -15,7 +15,10 @@ import (
 	"golang.org/x/net/html/charset"
 )
 
-const boanNewsPageMaxBytes = 2 << 20
+const (
+	boanNewsPageDrainMaxBytes = 64 << 10
+	boanNewsPageMaxBytes      = 2 << 20
+)
 
 var (
 	errBoanNewsClassificationMissing = errors.New("boannews classification metadata missing")
@@ -64,11 +67,11 @@ func (enricher boanNewsEnricher) fetchCategories(ctx context.Context, articleURL
 		if err := validateBoanNewsArticleURL(request.URL.String()); err != nil {
 			return err
 		}
-		if checkRedirect != nil {
-			return checkRedirect(request, via)
-		}
 		if len(via) >= 10 {
 			return errBoanNewsRedirectLimit
+		}
+		if checkRedirect != nil {
+			return checkRedirect(request, via)
 		}
 		return nil
 	}
@@ -89,7 +92,7 @@ func (enricher boanNewsEnricher) fetchCategories(ctx context.Context, articleURL
 		return nil, fmt.Errorf("fetch boannews article: %w", err)
 	}
 	defer func() {
-		_, drainErr := io.Copy(io.Discard, response.Body)
+		_, drainErr := io.Copy(io.Discard, io.LimitReader(response.Body, boanNewsPageDrainMaxBytes))
 		closeErr := response.Body.Close()
 		if err == nil {
 			err = errors.Join(drainErr, closeErr)
