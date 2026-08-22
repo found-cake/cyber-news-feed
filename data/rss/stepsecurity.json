@@ -1,110 +1,86 @@
 {
-  "schema_version": 1,
-  "source": "stepsecurity",
-  "updated_at": "2026-08-22T15:00:45Z",
-  "retention_days": 10,
-  "status": {
-    "ok": true,
-    "last_success_at": "2026-08-22T15:00:45Z",
-    "last_error_at": null,
-    "last_error": null
-  },
-  "articles": [
+ "schema_version": 1,
+ "source": "stepsecurity",
+ "updated_at": "2026-08-22T16:00:27Z",
+ "retention_days": 10,
+ "status": {
+  "ok": true,
+  "last_success_at": "2026-08-22T16:00:27Z",
+  "last_error_at": null,
+  "last_error": null
+ },
+ "articles": [
+  {
+   "id": "sha256:ff6234b4185301805e7b75f3e4a62adefffb192d18ca223a25d39ea3fcc5e926",
+   "url": "https://www.stepsecurity.io/blog/arrayref-rust-crate-supply-chain-attack",
+   "title": "Rust Supply-Chain Attack: arrayref, internment, and append-only-vec Poisoned by the proc-macro1 Build-Time Dropper",
+   "published_at": "2026-08-20T19:02:00Z",
+   "published_raw": "Thu, 20 Aug 2026 19:02:00 GMT",
+   "categories": [],
+   "description": "Three Rust crates are compromised: arrayref 0.3.10, internment 0.8.7, and append-only-vec 0.1.9 each added a typosquatted build-time dependency (proc-macro1, proc-macro-en) whose build script downloads and runs a remote binary during cargo build. Full technical analysis: timeline, dropper dissection, runtime detection, IOCs, and remediation.",
+   "feed_id": "https://www.stepsecurity.io/blog/arrayref-rust-crate-supply-chain-attack",
+   "authors": [],
+   "media": [
     {
-      "id": "sha256:ff6234b4185301805e7b75f3e4a62adefffb192d18ca223a25d39ea3fcc5e926",
-      "url": "https://www.stepsecurity.io/blog/arrayref-rust-crate-supply-chain-attack",
-      "title": "Rust Supply-Chain Attack: arrayref, internment, and append-only-vec Poisoned by the proc-macro1 Build-Time Dropper",
-      "published_at": "2026-08-20T19:02:00Z",
-      "published_raw": "Thu, 20 Aug 2026 19:02:00 GMT",
-      "categories": [],
-      "description": "Three Rust crates are compromised: arrayref 0.3.10, internment 0.8.7, and append-only-vec 0.1.9 each added a typosquatted build-time dependency (proc-macro1, proc-macro-en) whose build script downloads and runs a remote binary during cargo build. Full technical analysis: timeline, dropper dissection, runtime detection, IOCs, and remediation.",
-      "feed_id": "https://www.stepsecurity.io/blog/arrayref-rust-crate-supply-chain-attack",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a86da93294c9cd04d6aded5_rust-supply-chain-cover.png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a86da93294c9cd04d6aded5_rust-supply-chain-cover.png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a86da93294c9cd04d6aded5_rust-supply-chain-cover.png",
+     "kind": "thumbnail",
+     "medium": ""
     },
     {
-      "id": "sha256:d1b4b956d2a6becef2b55faa930340c443653f751633e027ed70baf6d481ba61",
-      "url": "https://www.stepsecurity.io/blog/chaindrop-npm-worm",
-      "title": "ChainDrop npm Worm: Bun-loaded CI/CD credential harvester with Ethereum dead-drop C2",
-      "published_at": "2026-08-16T01:13:00Z",
-      "published_raw": "Sun, 16 Aug 2026 01:13:00 GMT",
-      "categories": [],
-      "description": "ChainDrop npm worm: 444 packages and 2,212 versions poisoned, starting with keyv@6.0.0. Payload analysis, affected package list, IOCs, and remediation steps.",
-      "feed_id": "https://www.stepsecurity.io/blog/chaindrop-npm-worm",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a723b0ba6c7f796afa5e3b7_6a723ae26e9994582a4de843_chaindrop-hero-blast-radius.png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a723b0ba6c7f796afa5e3b7_6a723ae26e9994582a4de843_chaindrop-hero-blast-radius.png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:71bbb21f377e540326baf12ce228a489bfac57d0fb1965e1a7488d4e352be7a6",
-      "url": "https://www.stepsecurity.io/blog/teampcp-supply-chain-attack-cicd-secrets-cloudsek-disclosure",
-      "title": "Team PCP Stole 78,330 Secrets From 2,186 Organizations. CloudSEK Just Published the List.",
-      "published_at": "2026-08-15T21:40:21Z",
-      "published_raw": "Sat, 15 Aug 2026 21:40:21 GMT",
-      "categories": [],
-      "description": "Team PCP exfiltrated 78,330 secrets from 2,186 organizations via CI/CD pipelines. Analysis of the CloudSEK disclosure, why attackers target CI/CD, and how to defend.",
-      "feed_id": "https://www.stepsecurity.io/blog/teampcp-supply-chain-attack-cicd-secrets-cloudsek-disclosure",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a7df57a3edb84f4c2ad6e9f_6a7df3c4cb4fd4b6be9b6a23_teampcp-cloudsek-cover.png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a7df57a3edb84f4c2ad6e9f_6a7df3c4cb4fd4b6be9b6a23_teampcp-cloudsek-cover.png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:c10d6189850d0d97bb3e555eb449e9a1db47e3db86325a606c511cb68bd6175d",
-      "url": "https://www.stepsecurity.io/blog/control-which-package-registries-your-ci-jobs-and-developer-machines-use",
-      "title": "Control Which Package Registries Your CI Jobs and Developer Machines Use",
-      "published_at": "2026-08-12T15:12:25Z",
-      "published_raw": "Wed, 12 Aug 2026 15:12:25 GMT",
-      "categories": [],
-      "description": "Two StepSecurity controls show every CI job and developer machine that still installs from public registries. Once you can see them, you can block public registries in CI and centrally set the registry configuration on every developer machine.",
-      "feed_id": "https://www.stepsecurity.io/blog/control-which-package-registries-your-ci-jobs-and-developer-machines-use",
-      "authors": [],
-      "media": [
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a7c543b36f98ef75c65956b_image%20(139).png",
-          "kind": "thumbnail",
-          "medium": ""
-        },
-        {
-          "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a7c543b36f98ef75c65956b_image%20(139).png",
-          "kind": "content",
-          "medium": "image"
-        }
-      ],
-      "source_metadata": {}
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a86da93294c9cd04d6aded5_rust-supply-chain-cover.png",
+     "kind": "content",
+     "medium": "image"
     }
-  ]
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d1b4b956d2a6becef2b55faa930340c443653f751633e027ed70baf6d481ba61",
+   "url": "https://www.stepsecurity.io/blog/chaindrop-npm-worm",
+   "title": "ChainDrop npm Worm: Bun-loaded CI/CD credential harvester with Ethereum dead-drop C2",
+   "published_at": "2026-08-16T01:13:00Z",
+   "published_raw": "Sun, 16 Aug 2026 01:13:00 GMT",
+   "categories": [],
+   "description": "ChainDrop npm worm: 444 packages and 2,212 versions poisoned, starting with keyv@6.0.0. Payload analysis, affected package list, IOCs, and remediation steps.",
+   "feed_id": "https://www.stepsecurity.io/blog/chaindrop-npm-worm",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a723b0ba6c7f796afa5e3b7_6a723ae26e9994582a4de843_chaindrop-hero-blast-radius.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a723b0ba6c7f796afa5e3b7_6a723ae26e9994582a4de843_chaindrop-hero-blast-radius.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:71bbb21f377e540326baf12ce228a489bfac57d0fb1965e1a7488d4e352be7a6",
+   "url": "https://www.stepsecurity.io/blog/teampcp-supply-chain-attack-cicd-secrets-cloudsek-disclosure",
+   "title": "Team PCP Stole 78,330 Secrets From 2,186 Organizations. CloudSEK Just Published the List.",
+   "published_at": "2026-08-15T21:40:21Z",
+   "published_raw": "Sat, 15 Aug 2026 21:40:21 GMT",
+   "categories": [],
+   "description": "Team PCP exfiltrated 78,330 secrets from 2,186 organizations via CI/CD pipelines. Analysis of the CloudSEK disclosure, why attackers target CI/CD, and how to defend.",
+   "feed_id": "https://www.stepsecurity.io/blog/teampcp-supply-chain-attack-cicd-secrets-cloudsek-disclosure",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a7df57a3edb84f4c2ad6e9f_6a7df3c4cb4fd4b6be9b6a23_teampcp-cloudsek-cover.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a7df57a3edb84f4c2ad6e9f_6a7df3c4cb4fd4b6be9b6a23_teampcp-cloudsek-cover.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  }
+ ]
 }

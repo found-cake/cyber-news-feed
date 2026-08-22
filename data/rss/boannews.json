@@ -1,394 +1,1280 @@
 {
-  "schema_version": 1,
-  "source": "boannews",
-  "updated_at": "2026-08-22T15:00:45Z",
-  "retention_days": 10,
-  "status": {
-    "ok": false,
-    "last_success_at": "2026-08-20T06:00:53Z",
-    "last_error_at": "2026-08-22T15:00:45Z",
-    "last_error": "fetch https://www.boannews.com/media/news_rss.xml?kind=1: unexpected feed response: unexpected status 404"
-  },
-  "articles": [
+ "schema_version": 1,
+ "source": "boannews",
+ "updated_at": "2026-08-22T16:00:27Z",
+ "retention_days": 10,
+ "status": {
+  "ok": true,
+  "last_success_at": "2026-08-22T16:00:27Z",
+  "last_error_at": null,
+  "last_error": null
+ },
+ "articles": [
+  {
+   "id": "sha256:6f7211dfd97cff054791aad61312f02824a7c9afad1f2a388f7596d053b5d0c9",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145340",
+   "title": "기업 절반, 양자내성암호 전환 책임자 없어... 양자보안 시대 대비 ‘허점’",
+   "published_at": "2026-08-22T10:22:54Z",
+   "published_raw": "2026-08-22 10:22:54",
+   "categories": [
+    "IT·과학",
+    "국제"
+   ],
+   "description": "기업들은 양자 컴퓨팅이 초래할 보안 위협에 스스로 대비하고 있다고 믿고 있지만 총괄 책임자의 부재, 실전 검증 부족, 가시성 한계 등으로 인해 양자내성암호(PQC)로의 전환 과정에서 상당한 난항을 겪을 수 있다는 주장이 제기됐다.보안 기업 액시아드(Axiad)의 보고서에 따르면, 기업의 46%가 양자내성암호(PQC) 전환을 전담 지휘할 총괄 책임자를 지정하지 않은 것으로 드러났다. 응답 기업의 75%가 암호화 키와 인증서 목록을 관리하고 있지만 명확한 책임자가 없고, 실전 검증도 부족해 실제 전환 준비는 미흡하다고 이 보고서는 지적",
+   "feed_id": "",
+   "authors": [
     {
-      "id": "sha256:8b4261790c8ffe65dfd2fea14dd8a759ae3276f929230d9369fd7662f7106921",
-      "url": "http://www.boannews.com/media/view.asp?idx=145202&kind=1&sub_kind=",
-      "title": "맥도날드·갭 등 포춘 500대 기업 겨냥... 해커 “MS 애저 계정 364만 건 탈취” 주장",
-      "published_at": "2026-08-19T02:19:00Z",
-      "published_raw": "Wed, 19 Aug 2026 11:19:00 +0900",
-      "categories": [],
-      "description": "맥도날드, 보다폰 등 글로벌 기업 364만 건 데이터 다크웹 매물로 등장기업들, “과거 기본 정보일 뿐, 침해 흔적 없어” 일축 [보안뉴스 김형근 기자] 다크웹에서 ‘더햇맨’(TheHatman)이라는 닉네임으로 활동하는 위협 행위자가 포춘 500대 기업들의 마이크로소프트 애저(MS Azure) 인프라에서 탈취했다고 주장하는 364만건 규모의 계정 데이터를",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[한세희기자 (hahn@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:2b3934b5f4dc51a60dc386ef07c74aeb6c8e59c58f5d7cdd07a5f7eb0b52d39a",
-      "url": "http://www.boannews.com/media/view.asp?idx=145201&kind=1&sub_kind=",
-      "title": "트루엔, 2년 연속 ‘한국거래소 코스닥 라이징 스타’ 선정",
-      "published_at": "2026-08-19T02:04:00Z",
-      "published_raw": "Wed, 19 Aug 2026 11:04:00 +0900",
-      "categories": [],
-      "description": "코스닥 라이징스타 18개사 선정선정 기업, 1년간 연부과금 및 상장수수료 면제 및 IR 개최 지원, 금융기관 연계 등 지원[보안뉴스 엄호식 기자] 트루엔은 한국거래소가 주관하는 ‘코스닥 라이징스타’에 2년 연속 선정됐다고 19일 밝혔다.  코스닥 라이징스타는 한국거래소가 2009년부터 운영하고 있는 제도로 코스닥기업 중 세계시장에서 높은 시장지배력을 보유하",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[엄호식기자 (eomhs@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:b3bfb408e8d95bd8014204254524cfde09ec253178315c25cfada259c001accd",
-      "url": "http://www.boannews.com/media/view.asp?idx=145185&kind=1&sub_kind=",
-      "title": "프랑스 국세청 해킹? 해커 “피해자 60만명” 주장",
-      "published_at": "2026-08-18T04:10:00Z",
-      "published_raw": "Tue, 18 Aug 2026 13:10:00 +0900",
-      "categories": [],
-      "description": "공격자, 재정경제부 산하 재정총국(DGFiP) 시스템 무단 접근... 정확한 유출 범위 공개 안돼해커 ‘ZeroBytes’, 본인 소행 밝히며 피해자 60만명이라고 공개[보안뉴스 원병철 기자] 프랑스 국세청이 해킹으로 인해 개인 및 기업 데이터가 유출됐다고 밝혔다. 최근 프랑스는 국립은행계좌부터 교육부, 국립보안문서청 등 정부 사이트가 연이어 해킹 피해를",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[원병철기자 (boanone@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:c508365b235dc7265f1a6275a2350bd6a9994cd638da5b4b08f0d035f3cc0090",
-      "url": "http://www.boannews.com/media/view.asp?idx=145176&kind=1&sub_kind=",
-      "title": "중국 연계 추정 해킹그룹, Babuk 랜섬웨어 변종 유포... VMware vCenter 취약점 악용",
-      "published_at": "2026-08-17T09:02:00Z",
-      "published_raw": "Mon, 17 Aug 2026 18:02:00 +0900",
-      "categories": [],
-      "description": "CVSS 점수 9.8점에 달할 정도로 치명적... 7월 28일 패치 완료인증 우회 취약점 CVE-2026-59309도 함께 악용... 중국 APT 그룹 소행 추정[보안뉴스 한세희 기자] 중국 정부와 연계된 것으로 추정되는 지능형 지속 위협(APT) 그룹이 최근 패치된 VMware vCenter의 보안 취약점을 악용해 바북(Babuk) 랜섬웨어 변종을 유포한",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[한세희기자 (hahn@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:bbc126c3ee22cf69646cb661809cb560f67ba228b076e8606d975087b491fda0",
-      "url": "http://www.boannews.com/media/view.asp?idx=145174&kind=1&sub_kind=",
-      "title": "英 국가 핵심 전력망 운영사 해킹 당했나...  내부 기술 데이터 40GB 유출 주장 제기",
-      "published_at": "2026-08-16T08:19:00Z",
-      "published_raw": "Sun, 16 Aug 2026 17:19:00 +0900",
-      "categories": [],
-      "description": "소스 코드·클라우드 설정 등 5500여 개 파일 다크웹 포럼에 공개... 인프라 설계 정보 노출 따른 2차 피해 우려[보안뉴스 한세희 기자] 영국 잉글랜드 및 웨일스 지역 등의 송배전 인프라를 총괄하는 에너지 기업 ‘내셔널그리드’(National Grid)의 내부 소프트웨어 및 인프라 구성 데이터가 사이버 범죄 포럼에 대규모로 유출됐다는 주장이 나왔다. 핵",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[한세희기자 (hahn@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:36da984bd7d37cf45e638dbc17080ed1f7de847ecc2f236edee301e9d21abf74",
-      "url": "http://www.boannews.com/media/view.asp?idx=145172&kind=1&sub_kind=",
-      "title": "서강대 개인정보 18만건 유출... 박근혜 전 대통령 등 재학생·졸업생 정보 포함",
-      "published_at": "2026-08-15T07:04:00Z",
-      "published_raw": "Sat, 15 Aug 2026 16:04:00 +0900",
-      "categories": [],
-      "description": "외부공격 정황... 이름, 소속, 휴대폰 번호, 비밀번호 등 유출[보안뉴스 한세희 기자] 서강대 재학생과 졸업생, 교직원 등 개인정보 약 18만건이 유출됐다.서강대는 “통합 로그인 계정 정보에 대해 신원 미상의 외부 공격으로 일부 정보의 유출 정황을 확인했다”고 15일 밝혔다. 유출된 개인정보엔 학번·사번, 성명, 아이디, 소속, 이메일 주소, 휴대전화 번",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[한세희기자 (hahn@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:181b4dce30259efcf7f711e4616aa3b345fb879cc50fd145d27a57a89ebf9b8c",
-      "url": "http://www.boannews.com/media/view.asp?idx=145163&kind=1&sub_kind=",
-      "title": "[카드뉴스] 3D 집 구조가 침입자 정찰용으로… 로봇청소기 ‘공간 데이터 유출’ 실태",
-      "published_at": "2026-08-14T06:30:00Z",
-      "published_raw": "Fri, 14 Aug 2026 15:30:00 +0900",
-      "categories": [],
-      "description": "로봇청소기 라이다 센서가 생성한 3D 공간 도면이 무암호화 상태로 전송되어 외부로 노출되는 취약점이 발견되었다. 유출된 실내 구조 및 가구 배치 데이터는 침입자의 사전 정찰 정보로 오용될 수 있어 사이버 데이터 유출이 물리적 주거 범죄로 이어지는 위험을 초래한다. 스마트홈 프라이버시를 지키기 위해 가전 단말의 ‘공간 데이터 암호화’ 적용과 외부 클라우드 전",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[지진솔기자 (digital@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:db047566731bf5e6734287539ccab8d7982558863b32ed6ea89eeffc6f4aea61",
-      "url": "http://www.boannews.com/media/view.asp?idx=145162&kind=1&sub_kind=",
-      "title": "美 CISA, “北 취업 사기 공작에 악용된 윈도우 제로데이 패치 시행하라”",
-      "published_at": "2026-08-14T05:56:00Z",
-      "published_raw": "Fri, 14 Aug 2026 14:56:00 +0900",
-      "categories": [],
-      "description": "방산·항공우주 타깃 권한 상승 취약점(CVE-2026-68820)... 25일까지 조치 요구[보안뉴스 김형근 기자] 미국 사이버보안및인프라보안국(CISA)이 북한 해커 조직이 실제 공격에 악용한 마이크로소프트(MS) 윈도우 취약점(CVE-2026-68820)에 대해 25일까지 보안 패치를 완료하라는 지침을 연방기관에 하달했다.이 취약점은 네트워크 통신을 중",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[한세희기자 (hahn@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:24b55bd476df4155fe14f2c390dfdb4653a03eba25544a20fd4036c7b4748338",
-      "url": "http://www.boannews.com/media/view.asp?idx=145147&kind=1&sub_kind=",
-      "title": "北 라자루스, 윈도우 미패치 취약점 노려 고도화된 ‘푸드모듈’ 루트킷 유포",
-      "published_at": "2026-08-13T08:13:00Z",
-      "published_raw": "Thu, 13 Aug 2026 17:13:00 +0900",
-      "categories": [],
-      "description": "푸드모듈 루트킷의 업그레이드 버전 유포 위해 윈도우 커널 제로데이 취약점(CVE-2026-68820) 악용[보안뉴스 원병철 기자] 북한 연계 해킹그룹 라자루스가 악명 높은 푸드모듈(FudModule) 루트킷의 업그레이드 버전을 유포하기 위해 윈도우 커널 제로데이 취약점(CVE-2026-68820)을 악용하다가 적발됐다고 보안업체 체크포인트 리서치가 밝혔다.",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[원병철기자 (boanone@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:d46436aeaad5877ef2c483832597c8e552d1b74ee48c2d677b93d27ab5d6fe05",
-      "url": "http://www.boannews.com/media/view.asp?idx=145134&kind=1&sub_kind=",
-      "title": "[인터뷰] Ron HO 케이토 네트웍스 South Asia 부사장 “한국 SASE 시장 공략위해 파트너 협업 강화할 것”",
-      "published_at": "2026-08-13T01:02:00Z",
-      "published_raw": "Thu, 13 Aug 2026 10:02:00 +0900",
-      "categories": [],
-      "description": "오용원 케이토 코리아 지사장 “우리는 파트너 드리븐 기업, 한국시장에 맞춘 협력 프로그램 적용”케이토 네트웍스, 한국 SASE 시장 활성화에 중점...채널 파트너 협력 프로그램 통해 지원 강화[보안뉴스 원병철 기자] 글로벌 보안기업 케이토 네트웍스(Cato Networks)는 2015년 설립해 ‘SASE’(Secure Access Service Edge)",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[원병철기자 (boanone@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:fe429effb874119348ea9b5a87301469586362342005d941a94a85464a498012",
-      "url": "http://www.boannews.com/media/view.asp?idx=145185&kind=&sub_kind=",
-      "title": "프랑스 국세청 해킹? 해커 “피해자 60만명” 주장",
-      "published_at": "2026-08-18T04:10:00Z",
-      "published_raw": "Tue, 18 Aug 2026 13:10:00 +0900",
-      "categories": [],
-      "description": "공격자, 재정경제부 산하 재정총국(DGFiP) 시스템 무단 접근... 정확한 유출 범위 공개 안돼해커 ‘ZeroBytes’, 본인 소행 밝히며 피해자 60만명이라고 공개[보안뉴스 원병철 기자] 프랑스 국세청이 해킹으로 인해 개인 및 기업 데이터가 유출됐다고 밝혔다. 최근 프랑스는 국립은행계좌부터 교육부, 국립보안문서청 등 정부 사이트가 연이어 해킹 피해를",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[원병철기자 (boanone@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:344df116c2928d7c90d4a1d7ba4d29962db60f0d2cb6a359e1a69135f65763f3",
-      "url": "http://www.boannews.com/media/view.asp?idx=145176&kind=&sub_kind=",
-      "title": "중국 연계 추정 해킹그룹, Babuk 랜섬웨어 변종 유포... VMware vCenter 취약점 악용",
-      "published_at": "2026-08-17T09:02:00Z",
-      "published_raw": "Mon, 17 Aug 2026 18:02:00 +0900",
-      "categories": [],
-      "description": "CVSS 점수 9.8점에 달할 정도로 치명적... 7월 28일 패치 완료인증 우회 취약점 CVE-2026-59309도 함께 악용... 중국 APT 그룹 소행 추정[보안뉴스 한세희 기자] 중국 정부와 연계된 것으로 추정되는 지능형 지속 위협(APT) 그룹이 최근 패치된 VMware vCenter의 보안 취약점을 악용해 바북(Babuk) 랜섬웨어 변종을 유포한",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[한세희기자 (hahn@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:6548505ac0afa73a84559677810e2d662596f508adfff7fc473ae504600eac95",
-      "url": "http://www.boannews.com/media/view.asp?idx=145172&kind=&sub_kind=",
-      "title": "서강대 개인정보 18만건 유출... 박근혜 전 대통령 등 재학생·졸업생 정보 포함",
-      "published_at": "2026-08-15T07:04:00Z",
-      "published_raw": "Sat, 15 Aug 2026 16:04:00 +0900",
-      "categories": [],
-      "description": "외부공격 정황... 이름, 소속, 휴대폰 번호, 비밀번호 등 유출[보안뉴스 한세희 기자] 서강대 재학생과 졸업생, 교직원 등 개인정보 약 18만건이 유출됐다.서강대는 “통합 로그인 계정 정보에 대해 신원 미상의 외부 공격으로 일부 정보의 유출 정황을 확인했다”고 15일 밝혔다. 유출된 개인정보엔 학번·사번, 성명, 아이디, 소속, 이메일 주소, 휴대전화 번",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[한세희기자 (hahn@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:edd946a9f3a61f7cac32ba2220a2ea57d5d418ff4d66ce1d44c1444570730264",
-      "url": "http://www.boannews.com/media/view.asp?idx=145165&kind=&sub_kind=",
-      "title": "2026년 상반기, 시간당 5300건의 DDoS 공격 몰아쳤다",
-      "published_at": "2026-08-14T06:53:00Z",
-      "published_raw": "Fri, 14 Aug 2026 15:53:00 +0900",
-      "categories": [],
-      "description": "클라우드플레어, ‘2026 상반기 DDoS 위협 보고서’ 발표1Tbps+ 대형 공격 6배 급증 및 초단기 기습 공격(Ultra-Short Burst) 늘어[보안뉴스 원병철 기자] 2026년 상반기(1~6월) 동안 발생한 2320만건의 네트워크 계층 공격이 발생했으며, 이는 시간당 5300건 이상의 DDoS 공격이 몰아친 셈이라고 클라우드플레어가 ‘2026",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[원병철기자 (boanone@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:75fbdcf782c48d31e3bbf79621b52a39a03e9b22acaf54a914bef9c5a233d26a",
-      "url": "http://www.boannews.com/media/view.asp?idx=145147&kind=&sub_kind=",
-      "title": "北 라자루스, 윈도우 미패치 취약점 노려 고도화된 ‘푸드모듈’ 루트킷 유포",
-      "published_at": "2026-08-13T08:13:00Z",
-      "published_raw": "Thu, 13 Aug 2026 17:13:00 +0900",
-      "categories": [],
-      "description": "푸드모듈 루트킷의 업그레이드 버전 유포 위해 윈도우 커널 제로데이 취약점(CVE-2026-68820) 악용[보안뉴스 원병철 기자] 북한 연계 해킹그룹 라자루스가 악명 높은 푸드모듈(FudModule) 루트킷의 업그레이드 버전을 유포하기 위해 윈도우 커널 제로데이 취약점(CVE-2026-68820)을 악용하다가 적발됐다고 보안업체 체크포인트 리서치가 밝혔다.",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[원병철기자 (boanone@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:9482bcb40b62a0fa00d7f9e03d556521283494f850dcf96cc8a365f0810464f2",
-      "url": "http://www.boannews.com/media/view.asp?idx=145120&kind=&sub_kind=",
-      "title": "폴란드 열병합발전소, 사설이동통신망 악용한 은닉형 사이버공격 뒤늦게 확인",
-      "published_at": "2026-08-12T02:23:00Z",
-      "published_raw": "Wed, 12 Aug 2026 11:23:00 +0900",
-      "categories": [],
-      "description": "풍력발전소 방화벽 통해 기본 비밀번호 방치된 발전소 제어기까지 교차 침투조기 수습으로 난방 중단은 면했으나 증거 파괴 등 정교한 공격 정황 확인[보안뉴스 김형근 기자] 폴란드 사이버보안 당국이 지난 겨울 한파 당시 주민 5만명에게 난방을 공급하는 소규모 열병합발전소를 겨냥한 사이버공격을 뒤늦게 파악했다. 당시에는 단순 운영 장애로 처리됐던 사건이 수개월간의",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[강초희기자 (choh@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:bec4a65cf796f4959b5528350949baf7572605cb14580677d67c9ef1f3ee4fa9",
-      "url": "http://www.boannews.com/media/view.asp?idx=145121&kind=1&sub_kind=",
-      "title": "ADT캡스, 전국 지사 대상 혹서기 안전관리 강화",
-      "published_at": "2026-08-12T02:18:00Z",
-      "published_raw": "Wed, 12 Aug 2026 11:18:00 +0900",
-      "categories": [],
-      "description": "민기식 대표·신우철 안전보건최고경영책임자, 대구·양산지사 방문해 폭염 대응 점검여름 온열질환 예방부터 집중호우·태풍 대응까지 계절별 현장 관리체계 운영‘오늘도 무사출동’ 캠페인 통해 구성원 보호와 안전문화 정착 추진[보안뉴스 엄호식 기자] SK쉴더스(대표 민기식)의 물리보안 브랜드 ADT캡스가 기록적인 폭염이 이어지는 가운데 고객 현장을 책임지는 구성원들의",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[엄호식기자 (eomhs@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:5e363fcd38244d44bad451d8508dfffd2d2cd5d24528e00e9bdc462924e4335c",
-      "url": "http://www.boannews.com/media/view.asp?idx=145101&kind=1&sub_kind=",
-      "title": "[카드뉴스] “AI 가전 10대 중 6대 무단 수집”... 편리함 뒤에 숨은 ‘상시 도청’ 경고",
-      "published_at": "2026-08-12T00:41:00Z",
-      "published_raw": "Wed, 12 Aug 2026 09:41:00 +0900",
-      "categories": [],
-      "description": "최근 스마트 TV, AI 스피커, 지능형 가전 등 온디바이스(On-Device) AI 기술이 대중화됨에 따라, 가정 내 오디오 센서 및 로컬 단말을 통한 개인정보 및 사생활 음성 데이터의 무단 수집 리스크가 심각한 프라이버시 문제로 급부상하고 있다. 글로벌 소비자 리포트 조사에 따르면 조사 대상 온디바이스 AI 가전의 60%가 암호화되지 않은 개인식별정보(",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[지진솔기자 (digital@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:ec4a801e1d00cfef1b6cd7e6de814fd22a47b85693b55ab5c76cb64ccad5e87a",
-      "url": "http://www.boannews.com/media/view.asp?idx=145114&kind=1&sub_kind=",
-      "title": "[ISEC 2026] 박용규 KISA 본부장 “AI 보안, 실패해도 도전해야 발전 가능”",
-      "published_at": "2026-08-11T05:30:00Z",
-      "published_raw": "Tue, 11 Aug 2026 14:30:00 +0900",
-      "categories": [],
-      "description": "ISEC 2026 특별강연 ‘사이버위협 속에서의 AI 위치와 활용 방향’ 도전과 실패 과정에서 얻은 데이터를 다시 활용하며 학습 루프 만들어야[보안뉴스 원병철 기자] 미토스의 등장 이후 AI는 보안 분야에 큰 영향을 미치고 있다. 2026년 3월 미토스의 등장으로 자율 AI 해킹 공격이 현실화됐고, 프로젝트 글래스윙이 출범하며 공동 협력에 나섰다. 우리 정",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[원병철기자 (boanone@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:5218d02172bd7c84fe61c5829af03c0a51aaac2839fdd6d7816204541259055e",
-      "url": "http://www.boannews.com/media/view.asp?idx=145096&kind=1&sub_kind=",
-      "title": "SK쉴더스 EQST, 데프콘 34 AI CTF서 5위",
-      "published_at": "2026-08-10T06:46:00Z",
-      "published_raw": "Mon, 10 Aug 2026 15:46:00 +0900",
-      "categories": [],
-      "description": "에이전틱 AI 활용한 공방 기술 겨뤄... 국제 연합팀으로 본선도 맹활약“실전 해킹 경험 바탕으로 AI 레드팀 연구 및 보안 기술 고도화 나설 것”[보안뉴스 조재호 기자] SK쉴더스가 자사 화이트해커 그룹 EQST가 미국 라스베이거스에서 열린 세계 최대 해킹·보안 컨퍼런스 ‘데프콘’(DEF CON) 34의 AI 빌리지 CTF에서 최종 5위에 올랐다고 10일",
-      "feed_id": "",
-      "authors": [
-        {
-          "name": "[조재호기자 (zephyr@boannews.com)]",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
+     "name": "김형근 기자",
+     "uri": "",
+     "email": ""
     }
-  ]
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:a720239ab4d5d65f95c82a176522084aba993a7c62b6448a102a62f9542e187e",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145339",
+   "title": "캐나다 최대 아동병원 ‘SickKids’, 해킹으로 전·현직 직원 데이터 또 유출",
+   "published_at": "2026-08-22T10:06:43Z",
+   "published_raw": "2026-08-22 10:06:43",
+   "categories": [
+    "사건·사고",
+    "인사이트"
+   ],
+   "description": "캐나다 최대 규모의 소아 전문 의료기관이 최근 발생한 사이버 보안 침해 사고로 전·현직 직원들의 개인정보가 유출됐다.2022년 랜섬웨어 공격으로 일부 시스템 마비 사태를 겪었던 토론토 아동병원(The Hospital for Sick Children)은 협력사 소프트웨어 애플리케이션의 취약점과 연관된 것으로 추정되는 데이터 유출 사고를 공식 발표하고 주의를 당부했다. 보통 '식키즈’(SickKids)로도 불리는 병원 측은 이번 침해 사고가 진료·임상 시스템이나 환자 의료 정보에는 영향을 미치지 않았다고 공식 발표했다.또한 잠재적 피해",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "김형근 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:493a43f9c7ec85894f943dcd373090692536229b8f3d5bee626298249d72c83f",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145305",
+   "title": "美 의료 기록 업체 케어클라우드 해킹 피해… 환자 370만 명 정보 유출",
+   "published_at": "2026-08-22T07:23:00Z",
+   "published_raw": "2026-08-22 07:23:00",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "미국 헬스케어 IT 기업 케어클라우드(CareCloud)가 3월 발생한 데이터 유출 사고로 375만6469명이 피해를 입었다고 보건당국에 신고했다.조사 결과, 공격자는 3월 10일부터 16일(현지시간)까지 케어클라우드의 아마존웹서비스(AWS) 클라우드 인프라에 무단 접근했다. 특히 핵심 전자의무기록(EHR) 환경에 약 8시간 동안 머무르며 민감 데이터를 집중적으로 탈취했다.유출 데이터에는 피해자 이름, 사회보장번호(SSN), 신분증 번호, 결제 카드 정보, 진료 기록, 건강보험 데이터 등 민감 정보들이 포함돼 있다. 회사는 사법 당",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "김형근 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:f58e3bcc5afdbd71e6ab1479747dc01ef7b9d1f489c20130ca0febc8d543c336",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145243",
+   "title": "[2026 사이버보험 솔루션 리포트] 디지털재난 시대, 기업 ‘해킹 위험’ 담보할 ‘사이버보험’ 생태계 터트려야",
+   "published_at": "2026-08-21T16:19:03Z",
+   "published_raw": "2026-08-21 16:19:03",
+   "categories": [
+    "비즈니스",
+    "보안 리포트"
+   ],
+   "description": "2025년 11월 발생한 쿠팡의 3370만건 개인정보 노출 사태는 단 한 번의 보안 뚫림이 어디까지 사회적 재난으로 확산할 수 있는지를 경고했다. 소비자의 일상 정보 유출은 고객 이탈과 소상공인의 연쇄 피해로 이어졌고, 특정 기업의 보안 실패는 국가 경제 전체의 시스템적 리스크로 번져나갔다.사법부 전산망부터 GS리테일, SK텔레콤, 대형 법인보험대리점(GA)까지 사이버 침해는 공공과 민간을 가리지 않고 전방위로 침투하고 있다. 이에 한 가지 질문을 던지지 않을 수 없다. “우리 산업 생태계는 이 거대한 폭탄을 받아낼 최소한의 재무적",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강초희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6a30280fddeed8c3197633c747fd15136f724f396551a9d15c5879c2f3d883d5",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145334",
+   "title": "용인대, 용인 G-앵커(RISE) 사업 성공적 수행 위한 전략 포럼 개최",
+   "published_at": "2026-08-21T15:57:21Z",
+   "published_raw": "2026-08-21 15:57:21",
+   "categories": [
+    "공공·정책"
+   ],
+   "description": "용인대학교 용인G-앵커사업단은 21일 ‘용인대학교 용인G-앵커(RISE)사업의 성공적 수행을 위한 전략 포럼’을 개최했다. 이번 포럼은 지역혁신중심 대학지원체계 RISE사업이 2026년 지역성장 인재양성체계를 의미하는 앵커 사업으로 전면 개편, 재구조화됨에 따라 앵커사업을 성공적으로 수행하기 위한 방안을 모색하기 위해 마련됐다.박윤규 용인대 총장은 “앵커사업을 통해 용인대학교는 지역 전략 산업에 꼭 필요한 맞춤형 융합 인재를 양성하고 기업과의 공동 R&D 및 기술 사업화를 촉진하여 지역 경제에 새로운 활력을 불어넣을 것으로 확신한다",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "한세희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e93bb067e31c152b1c19835796cacf5b4574d2be7a789a4a1a15259f11cb25a2",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145298",
+   "title": "와이즈콘 ‘WiseTherm’, 지능형 영상감시가 ‘열’까지 본다",
+   "published_at": "2026-08-21T15:45:36Z",
+   "published_raw": "2026-08-21 15:45:36",
+   "categories": [
+    "시큐리티월드",
+    "물리보안"
+   ],
+   "description": "와이즈콘(대표 홍두영)이 AI 기반 열화상 브랜드 ‘WiseTherm’으로 지능형 영상보안의 영역을 ‘열’(熱)까지 확장한다. 전기실과 EV충전소m 산업설비의 화재 징후를 카메라 한 대로 감지하는 신규 라인업 4종은 ONVIF·RTSP 표준을 지원해 기존 VMS와 즉시 연동된다.EV 충전소 화재, 지하주차장 배터리 열폭주, 데이터센터 배선반 과열 등 ‘보이지 않는 곳에서 시작되는 사고’가 부각되면서 통합관제의 대응 영역이 열까지 확장되고 있다. 한국전기안전공사에 따르면 2024년 전기화재 비중은 22.9%, 산업설비에서만 1535건",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강초희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:428b9d50b76e28fd40e4302055e982bfb4d6b804c86708ce0d11c4ff858953b3",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145215",
+   "title": "JP Yu 프루프포인트 SAK 부사장 “AI 에이전트 시대, 보안의 핵심은 혁신을 돕는 가드레일”",
+   "published_at": "2026-08-21T13:35:10Z",
+   "published_raw": "2026-08-21 13:35:10",
+   "categories": [
+    "비즈니스"
+   ],
+   "description": "AI 에이전트가 사람을 대신해 업무를 수행하는 시대, 보안이 지켜야 할 대상도 사람에서 에이전트로 확장되고 있다. 전 세계 이메일 트래픽의 3분의 1을 분석하며 사람 중심의 사이버보안 시장을 이끌어온 프루프포인트(Proofpoint)는 그 오랜 데이터와 경험을 발판 삼아 AI·데이터 보안 영역으로 빠르게 무게중심을 옮기고 있다.‘ISEC 2026’으로 한국을 찾은 JP Yu 프루프포인트 SAK(Southeast Asia and Korea) 총괄 부사장을 만나 AI 시대에 대응하는 프루프포인트의 통합 보안 전략과 한국 시장 공략을 위",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강초희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e864d365abcf408cd528465a4b5bd8ee1f8db4cbf97a2c9e975d40a16590dfc0",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145326",
+   "title": "AI 기반 미래 국방 연구성과 공유‘제6회 국방AI해커톤대회’ 성료",
+   "published_at": "2026-08-21T13:26:45Z",
+   "published_raw": "2026-08-21 13:26:45",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "서울과학기술대학교(총장 김동환)는 국방 현장의 문제를 인공지능 기술로 해결하기 위한 연구성과를 공유하는 자리를 가졌다.서울과학기술대학교는 교내 어의관에서 ‘AI로 열어가는 미래 국방’을 주제로 제6회 국방AI해커톤대회를 18일 성료했다.올해로 6회를 맞은 국방AI해커톤대회는 국방 현장의 문제를 인공지능 기술로 해결하기 위한 연구성과를 공유하고, 군·연구기관·방산기업과 대학 간 협력을 확대하기 위해 마련됐다.단순한 아이디어 경진대회를 넘어 방산기업과 국방 현장의 실제 기술수요를 학생들의 교육·연구와 직접 연결하고, 그 결과를 군·산·",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강현주 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b262d64c3404f19a3d91548721c20e6039cb642f9f0051b92354c91c3acc19d0",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145311",
+   "title": "[카드뉴스]  \"수술실 불 꺼진 이유가 외주업체 때문?\"… 병원 덮친 '제3자 공급망 해킹'의 공포",
+   "published_at": "2026-08-21T13:04:03Z",
+   "published_raw": "2026-08-21 13:04:03",
+   "categories": [
+    "사건·사고",
+    "카드뉴스"
+   ],
+   "description": "병원 본원이 아닌 보안이 취약한 제3자 외주 솔루션망을 통해 침투하여 병원 전산 시스템을 마비시키는 사이버 공급망 공격이 급증하고 있다. 외주망 오염은 환자 전자의무기록 마비와 수술 중단, 응급실 폐쇄로 이어지는 사이버-물리 연쇄 피해를 일으켜 환자의 생명을 직접적으로 위협한다. 의료 대란을 방지하기 위해 내부 방어벽에만 의존하지 말고, 연계된 외부 제3자 공급망 전체에 대한 상시 '무결성 검증' 및 접근 제어 체계 도입이 필수적이다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "지진솔 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:33bee60514c17515ebd6dff070fb6340e9ac5f6f2a3f71f1b231873acd2f1888",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145322",
+   "title": "넷스카우트, DDoS 공격 자동 탐지·완화 ‘적응형 DDoS 보호’(ADP) 발표",
+   "published_at": "2026-08-21T11:52:28Z",
+   "published_raw": "2026-08-21 11:52:28",
+   "categories": [
+    "비즈니스",
+    "신제품 정보"
+   ],
+   "description": "넷스카우트(지사장 김재욱)는 서비스 제공업체가 아웃바운드 분산형 서비스 거부(DDoS) 공격 트래픽을 자동으로 탐지하고 완화할 수 있도록 적응형 DDoS 보호(ADP, Adaptive DDoS Protection) 솔루션 기능을 확대했다고 21일 밝혔다. 공격 대상뿐 아니라 공격 출발지까지 방어 범위를 확장, 침해된 가입자 기기 때문에 네트워크가 중단되거나 네트워크 용량이 소모되고, 인터넷 전반의 고객과 조직을 대상으로 공격이 발생하는 것을 방지하도록 지원한다.최근 소비자용 공유기, 보안 카메라 등 인터넷에 연결된 IoT 기기가 대",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "한세희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c77bbdeea41d46c15b7e2da4f0e0cd2b6ae7c0c5e6a12b164e9da89bfb89c19b",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145323",
+   "title": "AI 개발에 ‘개인정보 활용’ 가능해져… ‘개인정보 보호법’ 개정안 국회 본회의 통과",
+   "published_at": "2026-08-21T11:51:53Z",
+   "published_raw": "2026-08-21 11:51:53",
+   "categories": [
+    "공공·정책"
+   ],
+   "description": "개인정보보호위원회(위원장 송경희, 이하 ‘개인정보위’)는 인공지능(AI) 기술 개발을 위한 개인정보 활용 특례를 담은 ‘개인정보 보호법’ 개정안이 8월 20일 국회 본회의를 통과했다고 밝혔다.그간 현장에서는 인공지능 산업 경쟁력 강화를 위해 신속하고 광범위한 고품질 학습데이터 확보가 필요하다는 요구가 지속적으로 제기되어 왔다. 그러나 현행법상 정보주체의 동의나 계약 등을 통해 적법하게 수집한 개인정보를 다른 목적으로 이용하려면 정보주체의 별도 동의를 받거나, 법률상 근거가 있어야 한다. 또는 개인정보를 가명·익명정보 형태로 활용해야",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "원병철 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:72fce7593cb44facb6e86ea262f1922ed25713fe53f523ae55d896bc6b978326",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145304",
+   "title": "美 CISA·FBI , “AI 동원해 지멘스 장비 노리는 사이버 공격 포착” 경고",
+   "published_at": "2026-08-21T11:15:00Z",
+   "published_raw": "2026-08-21 11:15:00",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "미국 사이버보안및인프라보안국(CISA), 연방수사국(FBI), 국가안보국(NSA) 등 국가 보안기관들은 공동으로 에너지·수도·방산 등 국가 핵심 기반시설에 널리 쓰이는 지멘스 S7 PLC를 겨냥한 인공지능(AI) 기반 사이버 공격에 대해 공식 경고했다.이에 따르면 해커들은 인터넷에 무방비로 노출되거나 지원이 종료된 구형 산업용 제어 기기를 집중 공략하고 있다.이들은 정상 모니터링 프로그램으로 위장한 AI 생성 익스플로잇 스크립트를 공격에 적극 활용하고 있다. AI로 생성한 악성 코드로 초기 침투, 계정 탈취, 서비스 거부(DoS)",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "김형근 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:366874e1736479e4a52cc342a99994b57f02bc08b11e61db948cd6a898079eeb",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145314",
+   "title": "고등학생 해킹대회 ‘2026 사이버 가디언즈 CMX 대회’ 첫 개최 성료",
+   "published_at": "2026-08-21T11:11:07Z",
+   "published_raw": "2026-08-21 11:11:07",
+   "categories": [
+    "공공·정책",
+    "보도자료"
+   ],
+   "description": "본선이 처음으로 개최돼 성료했다고 과학기술정보통신부(부총리 겸 장관 배경훈, 이하 과기정통부)와 한국정보보호산업협회(KISIA, 회장 김진수)가 21일 밝혔다. 최우수상은 ‘혜성이와함께춰라쿠카라차’팀에게 돌아갔다.‘2026 사이버 가디언즈 CMX 대회’ 본선은 18일 서울 코엑스 마곡 르웨스트 B홀에서 성황리에 마무리됐다.올해 처음 열린 이번 대회는 참가자들이 해킹과 정보보호를 어렵고 낯선 분야가 아닌 다양한 콘텐츠를 통해 직접 체험하며 배울 수 있는 흥미로운 분야로 느낄 수 있도록 마련됐다. 전국 고등학생을 대상으로, 8월 8일",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강현주 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:0b88d8e9b5da5d4a572580e2506300f728ab932ff0abebef128829053205e829",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145312",
+   "title": "2분기 랜섬웨어 피해규모 48% 급증... “한 곳 뚫리면 여러 기업 피해”",
+   "published_at": "2026-08-21T10:46:16Z",
+   "published_raw": "2026-08-21 10:46:16",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "올해 2분기 랜섬웨어 피해 규모는 전년 동기 대비 약 48% 증가한 것으로 나타났다.상반기 전 세계 랜섬웨어 피해 건수는 총 4744건으로 집계됐다. 하나의 취약점이나 계정 침해가 여러기업 연쇄 피해로 이어지고 있다.21일 SK쉴더스(대표 민기식)는 2026년 상반기 글로벌 랜섬웨어 공격 동향과 주요 사례를 분석한 카라(KARA, Korea Anti Ransomware Alliance) 랜섬웨어 동향 보고서를 발간하며 이같이 밝혔다.SK쉴더스는 이번 보고서를 통해 최근 랜섬웨어 공격의 핵심 침투 경로가 악성코드 자체보다 기업의 보안",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강현주 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:fff4e4f87206475b75c6b3be4b8f2b49736374daaaef158f48f954cb20935f41",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145310",
+   "title": "“공공조달 AI 대전환 속도 낸다” 조달청, ‘인공지능조달혁신과’ 출범",
+   "published_at": "2026-08-21T10:34:22Z",
+   "published_raw": "2026-08-21 10:34:22",
+   "categories": [
+    "시큐리티월드",
+    "보도자료"
+   ],
+   "description": "조달청(청장 백승보)은 공공조달 AI 대전환을 본격화하기 위해 전담조직인 ‘인공지능조달혁신과’를 신설하고 8월 21일부터 본격 운영한다.‘인공지능조달혁신과’는 공공조달 AI 대전환 컨트롤타워로서 AI 전략 수립과 대외협력을 총괄하고, 조달 현장의 AI 서비스 수요와 아이디어를 발굴해 관련 사업을 추진한다. 또한, 조달 데이터 구축과 AI 인프라 운영을 담당하고 자체 개발이 가능한 AI 서비스와 AI 에이전트를 직접 개발해 조달업무 전반에 활용할 계획이다.공공조달은 다양한 수요기관과 조달기업이 참여하고, 계약·가격 정보 등 방대한 데",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강초희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:2875f67c1ea2305280ad774b6b3f78a8be8804503b2f771e92864f7865276adf",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145300",
+   "title": "﻿통신망에 보안을 입히다... LG유플러스가 그리는  ‘텔코 네이티브’의 미래",
+   "published_at": "2026-08-21T10:28:05Z",
+   "published_raw": "2026-08-21 10:28:05",
+   "categories": [
+    "비즈니스",
+    "인터뷰"
+   ],
+   "description": "클라우드 전환과 AI 시대 진입으로 기업의 사이버 공격 표면이 급증하는 가운데, 통신망 자체에 보안을 내재화하는 ‘텔코 네이티브’(Telco-Native) 전략이 새로운 대안으로 부상하고 있다. 이에 최종보 LG유플러스 엔터프라이즈부문 보안사업담당을 만나 파편화된 보안 환경을 하나로 엮는 ‘사이버 시큐리티 메시 아키텍처’(CSMA) 비전과 2026년 하반기 보안 시장 공략을 위한 로드맵을 들어봤다. ‘통신사 네이티브 보안’이라는 개념을 제시하셨습니다. 지금 보안 시장에서 통신사의 역할이 중요해진 이유는 무엇입니까.기존 거점 위주의",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "조재호 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:1cd155e77540f41ce12e8906791938099e020a7b1a6e40574e82aea779e522e7",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145308",
+   "title": "해커조직 ‘StopAndProtect’, 웹사이트 2000곳 장악해 대규모 데이터 갈취 작전 전개",
+   "published_at": "2026-08-21T09:30:00Z",
+   "published_raw": "2026-08-21 09:30:00",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "글로벌 보안 기업 체크포인트(Check Point)는 탈취한 워드프레스 웹사이트 2000여 개를 봇넷 인프라로 악용해 운영해 온 대규모 사이버 범죄망 ‘스톱앤프로텍트’(StopAndProtect)의 실체를 밝혀냈다.공격자들은 보안 패치가 끊긴 구형 워드프레스와 플러그인의 취약점을 악용해 웹서버를 장악했다. 이들이 장악한 웹사이트들은 악성코드 유포지, C2 명령제어 서버, 탈취 데이터 저장소로 활용됐다.공격자들은 웹사이트 방문자에게 가짜 캡차(CAPTCHA) 인증 창을 띄워 속인 뒤, 악성 파워셸(PowerShell) 명령어를 직접",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "김형근 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:cc88db987a4fdf4a5bed23853a168f35000b4c1f0e55f27d552464cf24800231",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145307",
+   "title": "라트비아, 대규모 사이버 공격으로 120만 명 정보 유출… 고위 공직자들 줄사퇴",
+   "published_at": "2026-08-21T08:50:00Z",
+   "published_raw": "2026-08-21 08:50:00",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "라트비아 도로교통안전국(CSDD)이 대규모 해킹 공격을 받아 전체 인구의 3분의 2에 달하는 120만 명의 개인정보가 유출됐다.공격자들은 2008년부터 축적된 차량 결제 영수증 데이터베이스에 무단 접근해 20만개 기업 정보까지 탈취했다. 유출 항목에는 주민등록번호(개인 식별 번호), 사업자 번호, 차량 번호판, 결제 내역, 주소 등 민감한 정보가 포함됐다.라트비아 침해사고대응팀(CERT.LV)은 범죄자들이 탈취 데이터를 피싱과 사회공학적 금융 사기에 악용할 수 있다고 경고했다.조사 결과 해커들은 인터넷에 무방비로 노출된 CSDD 시",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "김형근 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b567dbc99d74f9298c818fa582fb6c67d9ea0d926b8ccf57fcd756b6adfa6ab9",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145303",
+   "title": "1년간 200곳 털었다… 美 CISA, 메두사 랜섬웨어 위협 경고",
+   "published_at": "2026-08-21T08:31:08Z",
+   "published_raw": "2026-08-21 08:31:08",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "미국 사이버보안및인프라보안국(CISA)과 연방수사국(FBI)은 2021년 메두사(Medusa) 랜섬웨어 조직 출범 이후 지난 4월까지 누적 피해자가 500곳을 돌파했다고 발표했다.메두사는 2025년 기준 300곳이던 피해 규모를 지난 1년간 200여 곳 더 늘리며 핵심 기반시설과 의료 부문을 집중 타격했다. 이들은 4월 미시시피 대학의료센터(UMMC)를 공격해 아동 병원과 중환자실 등 핵심 의료망을 마비시켰다.메두사는 취약점이 세상에 알려지기 최대 1주일 전 암시장에서 익스플로잇을 입수해 악용하거나, 공식 공시 후 24시간도 지나지",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "김형근 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d9b343a43321c083fa71a0a04a6f042b1e391aa5a574330964507c4d6458234f",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145299",
+   "title": "“AI 도입 걸림돌 1위는 보안?”... 기업 절반은 ‘문서중앙화·권한통제’ 안했다",
+   "published_at": "2026-08-20T19:41:41Z",
+   "published_raw": "2026-08-20 19:41:41",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "문서 중앙화 및 AI 전문 기업 엠클라우독(대표 유상열)이 지난 8월 11~12일 서울 코엑스에서 열린 ‘ISEC 2026’ 부스를 찾은 실무자 373명을 대상으로 진행한 ‘AI 준비도 진단’ 설문 결과를 20일 발표했다. 이번 조사는 기업의 AI 활용 현황, 문서 보안 체계, 검색·자동화 수준, 도입 시 핵심 고민 등 5개 문항으로 구성됐다.AI 도입 최대 걸림돌은 ‘보안 유출 우려’ 56.6%로 압도적 1위가장 눈에 띄는 결과는 AI 도입을 가로막는 최대 걸림돌로 ‘보안 유출 우려’가 56.6%를 차지했다는 점이다. 이는 응답",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "원병철 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c719722310557ef7ecc60df506cfc5139e42157541df9ff56a00789226ab13fc",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145290",
+   "title": "[김정덕의 지속가능 보안-4] CISO 패러독스: ‘최고’의 책임과 ‘최소’의 권한",
+   "published_at": "2026-08-20T17:15:55Z",
+   "published_raw": "2026-08-20 17:15:55",
+   "categories": [
+    "오피니언"
+   ],
+   "description": "오늘날 기업 환경에서 ‘정보보호최고책임자(CISO)’라는 직함은 겉보기에 상당한 무게감을 지닙니다. CEO(최고경영자)나 CFO(최고재무책임자)처럼, CISO 역시 조직의 보안 전략을 수립하고 자원을 배분하는 막강한 통제권을 가진 ‘C-Level’ 임원처럼 보이기 때문입니다.그러나 대부분의 CISO에게 이러한 통제권은 허상에 불과합니다. 정보 자산을 수호할 무한 책임을 지면서도, 정작 이를 수행할 의사결정 권한과 예산·인력 통제권은 거의 갖지 못하기 때문입니다. 보안 아키텍처의 '최소 권한의 원칙(Principle of Least",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "한세희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6aa2822b6a6f769c5bb3da89520f7efd9315ce9a3209477541fbfb0750231215",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145287",
+   "title": "소프트캠프-인미래전략 연구원, 국방 보안 시장 거점 확대 협력",
+   "published_at": "2026-08-20T16:07:28Z",
+   "published_raw": "2026-08-20 16:07:28",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "사이버보안 전문기업 소프트캠프(대표 배환국)는 19일 과천 DX타워 본사에서 전략컨설팅 전문기관인 인미래전략연구원(대표원장 최인영)과 공공·국방 시장 진출을 위한 업무 계약을 체결했다.소프트캠프의 보안 기술력과 인미래전략연구원의 정책자문 역량을 결합해 공공 조달 시장 및 국방 시장 확대를 위한 협력 체계를 구축하기로 했다.최근 공공기관과 국방 분야에서는 업무 환경의 클라우드 전환과 인공지능(AI) 도입이 확산되면서 문서보안, 망간 자료전송, 공급망 보안 등에 대한 요구가 함께 커지고 있다. 다만 공공·국방 조달은 사업 발굴부터 등록",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강현주 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d364ed11190970ff0ab450e95a8debf69cdf286d3e4e796e9456f705d6757e12",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145284",
+   "title": "경찰청 \"인증기관 해킹으로 靑 인사 개인정보 유출\"",
+   "published_at": "2026-08-20T16:03:57Z",
+   "published_raw": "2026-08-20 16:03:57",
+   "categories": [
+    "사건·사고",
+    "긴급경보"
+   ],
+   "description": "경찰청은 20일 국내 민간 인증기관 서버 해킹으로 청와대 인사를 비롯한 국내 주요 인물들의 개인정보가 유출된 정황이 확인돼 수사에 나선다고 밝혔다. 경찰청 측은 \"해커에 의해 국내 민간 인증기관 서버가 해킹됐으며, 해킹된 자료를 분석하는 과정에서 국내 주요 인물의 개인정보가 포함된 것을 확인했다\"고 밝혔다. 개인정보는 이름, 휴대전화 번호 등 명함에 기재된 수준의 정보로 추정된다.청와대 인사의 개인정보가 포함됐지만 청와대 서버 자체가 해킹된 것은 아니라는 게 경찰청 측 설명이다. 경찰은 이와 함께 국가 배후 해킹조직이 언론사 서버",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강현주 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:130db1cf8eb7c3d7da33ee4ee52d45894afad4a839a265f24e0f31b4cd5009e6",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145272",
+   "title": "포티넷, '버추 AI' 인수… 에이전트 취약점 사전진단 및 실시간 위협 차단",
+   "published_at": "2026-08-20T15:29:12Z",
+   "published_raw": "2026-08-20 15:29:12",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "네트워크 보안 융합 솔루션 기업 포티넷(CEO 켄 지)이 AI 런타임 보호, 자동화된 AI 검증, AI 에이전트 보안 기능을 제공하는 AI 보안 기업 버추 AI(Virtue AI)를 인수했다고 20일 발표했다.이번 인수는 포티게이트 하이퍼스케일 방화벽 등 기존 AI 보안 제품군에 버추 AI의 기술을 더해, 기업들이 AI를 안전하게 도입 및 운영할 수 있도록 지원한다는 포티넷의 전략을 강화한다. 기업들이 AI 애플리케이션과 자율 에이전트를 빠르게 도입하면서 공격 표면은 네트워크, 사용자, 엔드포인트, 애플리케이션, 클라우드를 넘어 프",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강현주 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:bef48a3345af44bc94954decb13624bb8e370c1b9a27185aab551316ee47ecdb",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145247",
+   "title": "한국재난안전산업협회, 김영진 행안위원장과 첨단 재난안전산업 발전방안 논의",
+   "published_at": "2026-08-20T14:51:29Z",
+   "published_raw": "2026-08-20 14:51:29",
+   "categories": [
+    "시큐리티월드",
+    "보도자료"
+   ],
+   "description": "한국재난안전산업협회(회장 서병일)는 8월 18일 국회에서 김영진 국회 행정안전위원장을 예방하고, 재난안전산업 발전과 국민안전 향상을 위한 산업계 현안에 대해 의견을 나눴다. 이날 면담에는 서병일 회장을 비롯해 김홍수·박주경 부회장, 박광영·최영호 이사, 유광구 사무국장이 참석했다.면담에서는 재난안전산업의 정책적 위상과 발전방향, AI·IoT 등 신기술이 적용된 재난안전제품의 인증 활성화와 현장 적용, 국회와 산업계 간 정책소통 확대 등이 폭넓게 논의됐다.서병일 회장은 재난안전산업이 아직 성장 과정에 있는 만큼 정부 정책과 산업현장이",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "엄호식 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:78e6935effc7b244a7741a86b3cc01f9da5538293f31cfc639d1fe01e976f98e",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145270",
+   "title": "AI 에이전트 간 ‘마인드 바이러스’ 전파된다... 시스템 프롬프트 파일이 매개",
+   "published_at": "2026-08-20T14:49:30Z",
+   "published_raw": "2026-08-20 14:49:30",
+   "categories": [
+    "IT·과학",
+    "인사이트"
+   ],
+   "description": "인공지능(AI) 에이전트가 세션 간 상태를 유지하기 위해 사용하는 시스템 프롬프트 파일을 매개로 자기복제형 악성 페이로드가 전파될 수 있다는 연구 결과가 나왔다.앤트로픽과 스위스 로잔연방공과대(EPFL) 연구진은 자율형 에이전트 환경에서 에이전트 간 감염을 유발하는 이른바 ‘마인드 바이러스’(Mind Virus) 전파 실험 결과를 발표했다. 이 연구 결과는 논문 공유 사이트 ‘아카이브’(arXjv)에 공개됐다.연구 결과, 각 에이전트가 세션 리셋 후에도 참조하는 상태 저장 파일(SOUL.md)에 악성 페이로드가 기록될 경우 다음 에",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "김형근 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:4561fd6af13abcd9d27828c6852eaf1abe2ddb3ef4c6b0c76cc8e1b70d09d97c",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145258",
+   "title": "“해커들의 축제 중심에 서다”... 데프콘 34 클라우드 빌리지 K-보안 현장기",
+   "published_at": "2026-08-20T13:55:41Z",
+   "published_raw": "2026-08-20 13:55:41",
+   "categories": [
+    "오피니언",
+    "전시·콘퍼런스"
+   ],
+   "description": "[보안뉴스= 김동현 OWASP 서울챕터 리더·크리밋 대표] 미국 라스베이거스 컨벤션센터에서 지난 7일 개막해 9일 막을 내린 세계 최대 해킹 컨퍼런스 ‘데프콘(DEF CON) 34’ 현장은 세계 해커들 열기로 가득 찼다. 이 중 클라우드 보안 영역을 다루는 커뮤니티 공간 ‘클라우드 빌리지(Cloud Village)’에선 768개팀 1018명이 참가한 해킹 경진대회(CTF) ‘에이펙스 파크(Apex Park)’가 진행됐다.영화 쥬라기 공원 세계관을 모티브로 아마존웹서비스(AWS)와 구글클라우드플랫폼(GCP), 마이크로소프트 애저(Az",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "조재호 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c924abde0d34e7dd067afc3004c5287636c11a6b92a8c49cd5844e9a09489fe7",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145253",
+   "title": "트레저, ‘2026 KISIA 정보보호 경진대회’ 최우수상",
+   "published_at": "2026-08-20T13:19:09Z",
+   "published_raw": "2026-08-20 13:19:09",
+   "categories": [
+    "공공·정책",
+    "보도자료"
+   ],
+   "description": "‘2026 KISIA 정보보호 경진대회’ 최우수상은 ‘트레저’(Trezor) 팀이 차지했다. 과학기술정보통신부(부총리 겸 장관 배경훈, 이하 과기정통부)와 한국정보보호산업협회(KISIA, 회장 김진수)는 차세대 사이버보안 인재 발굴을 위한 ‘2026 KISIA 정보보호 경진대회’ 본선을 성료했다고 20일 밝혔다. 이번 행사는 서울 코엑스 마곡 르웨스트에서 18일 열렸다. 전국 대학(원)생이 팀을 이뤄 해킹 방어 실력을 겨루는 CTF 방식의 경진대회다. 총 163개 팀 450여 명이 지원해 약 6.5 대 1의 경쟁률을 기록했으며, 지",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강현주 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:ea2dfec52fd2cd5cf4e891d1e46d112b76e82c914a825fa600cac6e3e13e8564",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145252",
+   "title": "다크웹 AI 기반 해킹 도구 거래 활발... 초보도 APT급 공격 가능",
+   "published_at": "2026-08-20T10:22:03Z",
+   "published_raw": "2026-08-20 10:22:03",
+   "categories": [
+    "사건·사고",
+    "인사이트"
+   ],
+   "description": "사이버 보안 기업 트렐릭스(Trellix)는 최근 보고서에서 다크웹 지하 포럼에서 다양한 AI 기반 해킹 도구와 서비스가 활발히 거래되고 있다고 밝혔다.이 보고서에 따르면 지하 암시장에서는 정찰 도구, 자격 증명 유통, 서비스형 AI(AIaaS) 플랫폼 등 고도화된 공격 툴이 유통 중이다.이들 도구 가운데 ‘에이펙스AI’(APEX AI)는 목표 도메인만 입력하면 국가 지원 해커 수준의 맞춤형 공격 시나리오와 랜섬웨어 유포 계획을 자동으로 완성해 준다. 상용 암호화 도구 ‘메타모픽크립터’(Metamorphic Crypter)는 윈도우",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "김형근 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:500b458a00a0fcc97ecf96d77ab2bec1a182b6bb23f9534fe4581feb00c336d3",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145244",
+   "title": "유락, 엔비디아 ‘엔업’ 선정… “온디바이스 AI 포렌식 기술 선도”",
+   "published_at": "2026-08-20T09:01:52Z",
+   "published_raw": "2026-08-20 09:01:52",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "AI 디지털 포렌식 전문기업 유락(대표 유봉석)이 중소벤처기업부가 추진하고 엔비디아(NVIDIA)가 지원하는 ‘글로벌 기업 협업 프로그램 엔업’(N-UP)에 선정됐다고 19일 밝혔다. 유락은 이번 선정을 계기로 온디바이스 AI 기반 현장형 디지털 포렌식 기술을 고도화하고, 포렌식 전용 AI 엣지 디바이스 제품화에 속도를 낸다. 특히 인터넷 연결이 제한된 폐쇄망에서도 데이터 수집과 분석을 독립적으로 수행하는 현장형 AI 포렌식 플랫폼을 앞세워 국내외 시장 경쟁력을 강화한다는 전략이다. 엔업은 혁신 기술을 보유한 국내 유망 스타트업의",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강현주 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:0d7de9dfc803a5305e048aeb7e369f0c4e242d93e82ed8e4a57ded821c7c1457",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145226",
+   "title": "삼오씨엔에스, 개인정보 접속기록관리 솔루션 ‘파르고스’ 공공·금융권 잇단 수주",
+   "published_at": "2026-08-20T08:59:44Z",
+   "published_raw": "2026-08-20 08:59:44",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "삼오씨엔에스(대표 김현철)는 자사의 개인정보 접속기록관리 솔루션 ‘파르고스’(PARGOS)가 전남 함평군청에 구축을 완료하고 우리투자증권, 기획예산처, 창업진흥원를 신규 고객사로 확보하며 공공·금융권에서 레퍼런스를 넓히고 있다고 19일 밝혔다.파르고스는 개인정보처리시스템의 접속기록을 에이전트 기반으로 수집하고 빅데이터 플랫폼에서 저장·분석해, 개인정보 오·남용 등 이상행위를 AI로 탐지하고 소명 처리 현황까지 관리하는 통합 솔루션이다. ‘개인정보의 안전성 확보조치 기준’ 등 관련 법령이 요구하는 접속기록 점검과 접근권한 관리 업무를",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강현주 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:2e0a73988aefe73fff87d6b6e3b30bd6f3524794a2c8e7a90e9597b827d09379",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145246",
+   "title": "카카오, 공정거래 자율준수 프로그램 도입 2주년… 자율준수 체계 고도화",
+   "published_at": "2026-08-19T18:57:53Z",
+   "published_raw": "2026-08-19 18:57:53",
+   "categories": [
+    "비즈니스"
+   ],
+   "description": "카카오(대표이사 정신아)가 공정거래 자율준수 프로그램(Compliance Program, 이하 CP) 도입 2주년을 맞아 전사적으로 지난 2년간의 운영 성과와 방향성을 공유했다. 지난 2년간의 운영 경험을 바탕으로 자율준수 문화를 더욱 강화하고, 전 임직원 참여와 실무 활용 중심의 CP 운영을 한층 고도화해 나간다는 방침이다.정신아 카카오 대표이사는 사내 공지사항을 통해 “지난 2년간의 노력으로 카카오는 공정거래 관련 규정과 정책을 체계적으로 정비하고, 사업 과정에서 발생할 수 있는 리스크를 미리 점검하고 관리할 수 있는 체계를 갖",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "한세희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c0483fad7a9d88a54c24647ad343113bc7b04a5f28166963fa51af9216ce5138",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145212",
+   "title": "한국요꼬가와전기-VNTG, 제조기업 AI 도입 지원 위한 MOU 체결",
+   "published_at": "2026-08-19T18:15:04Z",
+   "published_raw": "2026-08-19 18:15:04",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "한국요꼬가와전기(대표이사 마츠카와 마사루, 한국요꼬가와)와 브이엔티지(대표이사 김태근, VNTG)가 국내 제조기업의 AI 도입과 활용을 함께 지원하기 위한 업무협약(MOU)을 체결했다고 30일 밝혔다.양사는 지난 29일 서울 마포구 세아타워에서 협약식을 갖고, 전사 IT 시스템과 제조 현장의 OT(운영기술) 데이터를 연결한 통합 데이터 체계를 구축하고 그 위에 AI를 적용하는 공동 솔루션 및 사업모델을 개발하기로 했다. 도입 검토 단계부터 운영까지 전 과정을 함께 지원해 제조기업의 AX 전환(AI Transformation)을 실행",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강초희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:813fc5c2c823656d27712576e70f54adcd98ef7ef145f378e733f945eb17c003",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145211",
+   "title": "“국방 시장 본격 확대” 모빌린트, 해군 차세대 AI 경계체계에 AI 반도체 공급",
+   "published_at": "2026-08-19T18:05:13Z",
+   "published_raw": "2026-08-19 18:05:13",
+   "categories": [
+    "시큐리티월드",
+    "보도자료"
+   ],
+   "description": "AI 반도체 전문기업 모빌린트(대표 신동주)가 해군의 ‘NPU 기반 지능형 영상감시체계 시범 구축 사업’에 자체 AI 반도체 기반 추론 플랫폼을 공급하며 국방 AI 시장으로 사업 영역을 확대한다.이번 공급은 공공·산업 현장을 중심으로 적용 범위를 넓혀온 모빌린트의 AI 반도체가 국방 분야의 실제 운용 환경까지 도입된 사례라는 점에서 의미가 있다. 모빌린트는 최근 다양한 AI 영상분석 프로젝트를 통해 제품 공급과 현장 적용을 확대하고 있으며, 이번 해군 사업을 통해 국방 분야에서도 새로운 레퍼런스를 확보하게 됐다.해당 사업은 기존 C",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강초희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:dbf5cd1381efb1df06da332de672311ce472984f8b21457e36e3a6be36d7388b",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145227",
+   "title": "에스에스알, ‘바다’ 사업부 인수… CCE 시장 점유율 70% 굳힌다",
+   "published_at": "2026-08-19T17:53:59Z",
+   "published_raw": "2026-08-19 17:53:59",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "에스에스알(SSR)이 지란지교에스앤씨 IT 인프라 취약점 진단 솔루션 ‘바다(VADA)’ 사업부를 인수하며 정보시스템 보안 설정 취약점(CCE) 사업 경쟁력 강화에 나선다.이번 인수는 지란지교그룹이 추진하는 ‘선택과 집중’과 계열사 간 사업 시너지 확대 전략 일환이다. 지란지교에스앤씨는 IT 솔루션 유통과 영업 역량에 집중하고 에스에스알은 통합 보안 진단 플랫폼 개발과 보안 솔루션 사업 역량을 강화하는 방향으로 그룹 내 역할을 재편한다.사업부 인수와 함께 계열사 투자도 이뤄진다. 지란지교에스앤씨는 바다 사업부 양도 대가 상당 부분인",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "조재호 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c8ce708369ee829e5dd3a8bda57d7334af3c60f2d159527a54eb92dd098ac2b8",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145217",
+   "title": "KT, 국산 반도체와 AI 모델 일체형 ‘소버린 AI 어플라이언스’ 출시",
+   "published_at": "2026-08-19T17:23:48Z",
+   "published_raw": "2026-08-19 17:23:48",
+   "categories": [
+    "비즈니스",
+    "신제품 정보"
+   ],
+   "description": "KT(대표 박윤영)가 국산 AI 반도체와 국산 언어모델(LLM)을 하나의 서버에 통합한 기업용 소버린 AI 어플라이언스(하드웨어와 소프트웨어가 결합된 완제품형 장치)를 출시했다고 19일 밝혔다. KT가 선보인 ‘KT NPU LLM 스테이션’은 국내 AI 반도체 기업 리벨리온의 NPU ‘아톰-맥스’(ATOM-MAX)에 KT의 독자 개발 LLM ‘믿음 K 2.5 프로’, 운영 API 플랫폼까지 탑재한 일체형 제품이다. 아톰-맥스는 추론에 특화된 국산 NPU로, 공인 시험을 통해 동급 GPU 대비 높은 처리 성능과 전력 효율을 검증받았다",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강현주",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:5645590fbf5d37fd32c1aefb265ab3d7c5851cbd06493cfe2d372ce63df3ff7d",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145204",
+   "title": "K-보안 역량과 토종 LLM 만났다... 라온시큐어, 업스테이지 ‘독파모’ 합류",
+   "published_at": "2026-08-19T11:49:00Z",
+   "published_raw": "2026-08-19 11:49:00",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "과기정통부 2차 통과한 ‘솔라’ 기반 자율형 보안 체계 고도화국가 핵심 인프라 보호·보안 전문가 업무 자동화 공동 실증[보안뉴스 조재호 기자] 라온시큐어가 업스테이지 주도 ‘독자 AI 파운데이션 모델 프로젝트(독파모)’ 개발 컨소시엄에 보안 분야 파트너로 합류했다고 19일 밝혔다. 업스테이지는 18일 과학기술정보통신부 주관 심사에서 독파모 2차 단계평가를 통과해 최종 3차 프로젝트에 진출했다. 연내 예정된 최종 정예팀 선정을 목표로 거대언어모델(LLM) ‘솔라(Solar)’ 산업 실증을 확대하고 활용성을 높이는 데 집중한다.라온시큐",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "조재호 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:94600527868fc6f9bbcf6044cdc29848cdc754c3b24c17d4afbbbc069dfd5e16",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145203",
+   "title": "LG유플러스-연세대 맞손, AI-RAN 통신망 끊김 없는 전환 실증",
+   "published_at": "2026-08-19T11:48:00Z",
+   "published_raw": "2026-08-19 11:48:00",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "LG유플러스는 연세대학교와 함께 AI 라디오 액세스 네트워크(AI-RAN) 환경에서 네트워크가 전환되는 상황에서도 연결을 유지할 수 있는 기술을 검증했다고 19일 밝혔다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "조재호 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:ccef827287d0e44195c6de22de30695c20d0a34490975ab4f8f63aa6043cc953",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145196",
+   "title": "쿠도커뮤니케이션, 구성원의 ‘경험을 잇(IT)다’... 사람 중심 성장문화 내재화",
+   "published_at": "2026-08-19T11:37:00Z",
+   "published_raw": "2026-08-19 11:37:00",
+   "categories": [
+    "시큐리티월드",
+    "물리보안"
+   ],
+   "description": "AI·ICT 전문기업 쿠도커뮤니케이션(대표 김용식)은 구성원의 업무 경험과 성장 노하우를 조직의 지식 자산으로 확산하기 위한 사내 강연 프로그램 ‘경험을 잇(IT)다’를 새롭게 운영한다고 밝혔다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강초희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:791aa83c08b18f23b1b2ea49bbe4e7d6a6c17ca462f4d1aadfaae5e63643b700",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145199",
+   "title": "“AI 해킹 방어, 핵심은 예측과 사람” 그룹아이비 반 데르 벨데 CPO·셰카르 CSO",
+   "published_at": "2026-08-19T11:27:00Z",
+   "published_raw": "2026-08-19 11:27:00",
+   "categories": [
+    "비즈니스",
+    "인사이트"
+   ],
+   "description": "﻿사이버보안 시장이 AI 무기화와 에이전트를 노린 공격으로 전환되며 거대한 변곡점을 지나고 있다. 이런 흐름 속에서 2003년 설립 이래 인터폴·유로폴 등 국제 법 집행기관과 유기적으로 협력해 온 글로벌 보안 기업 그룹아이비(Group-IB)가 주목받고 있다. 그룹아이비의 레이몬 반 데르 벨데(Raymond van der Velde) 최고제품책임자(CPO)와 셰카르 바가트(Shekar Bhagat) 아시아태평양·일본 지역 최고영업책임자(CSO)를 만나 2026년 하반기 보안 패러다임과 대응 전략을 들어봤다.AI 해킹의 비대칭성과 ‘",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "조재호 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:f3262d55b2ac67d09480ab80a467b70df5e508bfbc438b8675096d07ed1ad357",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145202",
+   "title": "맥도날드·갭 등 포춘 500대 기업 겨냥... 해커 “MS 애저 계정 364만 건 탈취” 주장",
+   "published_at": "2026-08-19T11:19:00Z",
+   "published_raw": "2026-08-19 11:19:00",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "다크웹에서 ‘더햇맨’(TheHatman)이라는 닉네임으로 활동하는 위협 행위자가 포춘 500대 기업들의 마이크로소프트 애저(MS Azure) 인프라에서 탈취했다고 주장하는 364만건 규모의 계정 데이터를 판매 매물로 내놓았다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "한세희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:2fd413d39f3d17209245bd5148a00ad99cf863be4b5b7f18c9c6a8704dde4ea1",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145201",
+   "title": "트루엔, 2년 연속 ‘한국거래소 코스닥 라이징 스타’ 선정",
+   "published_at": "2026-08-19T11:04:00Z",
+   "published_raw": "2026-08-19 11:04:00",
+   "categories": [
+    "시큐리티월드",
+    "물리보안"
+   ],
+   "description": "트루엔이 한국거래소가 주관하는 ‘코스닥 라이징스타’에 2년 연속 선정됐다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "엄호식 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:076f0442890d056a854be0609bc116bac526ec8ddde4e21c3d9cad2d882e29fd",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145200",
+   "title": "다온기술, 국내 유일 CAASM 플랫폼 ‘RiskMap’ 나라장터 등록... 보이지 않던 자산까지 조달로 잡는다",
+   "published_at": "2026-08-19T10:55:00Z",
+   "published_raw": "2026-08-19 10:55:00",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "다온기술(대표 조주한)은 미식별 자산까지 찾아내 취약점 관리와 위험도 평가로 연결하는 CAASM(Cyber Asset Attack Surface Management) 플랫폼 ‘RiskMap’이 지난 7월 30일 조달청 나라장터 종합쇼핑몰에 등록됐다고 밝혔다. 이번 등록으로 공공기관과 금융권, 기업 수요기관은 나라장터 종합쇼핑몰을 통해 별도의 개별 입찰 절차 없이 RiskMap을 신속하게 도입할 수 있는 길이 열렸다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "원병철 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:fba850345ce6237c504c7ef36e33887bf9ae7efb6a3c385d9f1394924cbf34d7",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145195",
+   "title": "SGA솔루션즈-키페어 맞손... PQC 제로 트러스트 보안 모델 공동 개발",
+   "published_at": "2026-08-19T10:54:00Z",
+   "published_raw": "2026-08-19 10:54:00",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "정부가 양자 기술을 국가 미래성장동력으로 삼고 100큐비트 양자프로세서 확보에 속도를 내는 가운데, SGA솔루션즈와 키페어가 각자의 특화 영역인 제로 트러스트와 PQC를 결합하며 공공·국방 보안 시장을 정조준했다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "조재호 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:bbf5c145a274aae8e889021693336b2e2e625395b8967994fa81ec0c68c19f31",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145198",
+   "title": "“인공지능은 보안이다”... 카이스트 ‘2026 Security@KAIST Fair’ 개최",
+   "published_at": "2026-08-19T10:51:00Z",
+   "published_raw": "2026-08-19 10:51:00",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "9월 10일 대전 본원서 정보보호대학원·사이버보안연구센터 공동 주관 행사대규모 언어 모델부터 자율주행·양자보안 아우른 11팀 최신 연구 성과 발표[보안뉴스 조재호 기자] 코드를 직접 작성하는 인공지능 시대가 도래한 가운데, AI에 끌려가지 않고 능동적으로 통제하기 위한 보안 전문가들의 미래 비전과 혁신 연구 성과가 카이스트(KAIST)에서 대거 공개된다. KAIST 정보보호대학원(GSIS)과 사이버보안연구센터(CSRC)가 9월 10일 대전 KAIST 본원 장영신 학생회관에서 ‘2026 Security@KAIST Fair’를 개최한다",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "조재호 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:432002716f5779d8f856533d515cdf08ac93f605cbe75d768c18d27b64bad468",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145197",
+   "title": "AI 안전성 평가 기업 이레귤러, AI 샌드박스 탈출 사고 축소 해명 논란",
+   "published_at": "2026-08-19T10:35:00Z",
+   "published_raw": "2026-08-19 10:35:00",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "트로픽 AI 모델의 외부 사이트 침해 사건과 관련, 이들 기업에 AI 모델 평가 환경을 제공한 이레귤러(Irregular)가 사후 분석 보고서를 내놓았다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "한세희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:1275e1d94b406d36f23db176a05d202c8ae568c7a0a1f30194c5d462760cb77c",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145194",
+   "title": "“비인간 대상 보안 중요”… SK쉴더스, 제로트러스트 기반 NHI 보안 컨설팅 제공",
+   "published_at": "2026-08-19T10:10:00Z",
+   "published_raw": "2026-08-19 10:10:00",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "“AI 에이전트 확산으로 보안 관리 대상이 AI까지 확대”[보안뉴스 강현주 기자] SK쉴더스(대표 민기식)가 AI 에이전트 확산으로 기업의 보안 관리 대상이 사람을 넘어 AI까지 확대되는 수요에 대응하기 위해 제로트러스트 기반 AI 보안 사업을 강화한다고 19일 밝혔다.최근 기업들은 AI를 업무에 활용하는 수준을 넘어 AI가 실제 업무를 수행하는 단계로 빠르게 전환하고 있다. 이에 따라 AI는 기업 시스템과 데이터에 접근해 업무를 처리하는 새로운 비인간 주체(NHI, Non-Human Identity)로 부상하고 있다. 비인간 주체",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강현주 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6588fd4d2e196468a3d4b4102ec368bb3e7d6b9f4d61f5d1467cbcb002106ba3",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=144241",
+   "title": "[속담으로 배우는 100가지 보안 습관 87] 소 잃고 외양간 고친다(7)-대출 문자 링크, 왜 100% 사기일까",
+   "published_at": "2026-08-19T10:08:00Z",
+   "published_raw": "2026-08-19 10:08:00",
+   "categories": [
+    "IT·과학",
+    "생활 속 보안"
+   ],
+   "description": "대출 권유 문자에 포함된 앱 설치 링크는 100% 사기입니다보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐, 안 지키느냐의 차이다. 나 하나의 습관이 모두를 지킨다는 생각으로 사소한 습관부터 실천해 보자. [편집자 주][보안뉴스 박미영 기자] 대출 권유 문자에 앱 설치 링크가 포",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "박미영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:bb4a98cac386dbdae779d753135280d2a27061df0fb9709590020279bd063e70",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145192",
+   "title": "어드밴텍, GPU 기반 DAQ 시스템으로 고속 데이터 수집·실시간 AI 처리 통합 지원",
+   "published_at": "2026-08-19T09:48:00Z",
+   "published_raw": "2026-08-19 09:48:00",
+   "categories": [
+    "시큐리티월드",
+    "물리보안"
+   ],
+   "description": "반도체 검사와 의료 진단, 전력 모니터링, 자동차 시험 등 고정밀 산업 분야에서는 대용량 데이터를 실시간으로 처리해야 하는 요구가 커지고 있다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강초희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:585941810e4dd08346b429ed0818d2d4e428d3d63726fa9c1ca5878fe70fc633",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145193",
+   "title": "티오리, SaaS 제품군 데이터 보호 수준 입증... ‘SOC 2 타입 2’ 취득",
+   "published_at": "2026-08-19T09:39:00Z",
+   "published_raw": "2026-08-19 09:39:00",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "글로벌 B2B 시장 공략 가속화[보안뉴스 강현주 기자] 오펜시브 사이버보안 전문 기업 티오리(Theori, 대표 박세준)가 글로벌 보안 표준인 ‘SOC 2 타입 2’(System and Organization Controls Type II) 보고서를 취득했다고 19일 밝혔다.SOC 2는 미국공인회계사협회(AICPA)가 제정한 글로벌 보안 감사 표준이다. 클라우드 기반 서비스를 제공하는 기업의 데이터 보호 및 통제 수준을 평가한다. 보안 절차의 설계 적합성만을 검증하는 타입 1 인증과 달리, 타입 2 인증은 해당 보안 통제 체계가 실",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강현주 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e7f1a50b091d6c38941156f022d9120db85b3b80e3ce09d037f03801b16fd928",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145185",
+   "title": "프랑스 국세청 해킹? 해커 “피해자 60만명” 주장",
+   "published_at": "2026-08-18T04:10:00Z",
+   "published_raw": "Tue, 18 Aug 2026 13:10:00 +0900",
+   "categories": [],
+   "description": "공격자, 재정경제부 산하 재정총국(DGFiP) 시스템 무단 접근... 정확한 유출 범위 공개 안돼해커 ‘ZeroBytes’, 본인 소행 밝히며 피해자 60만명이라고 공개[보안뉴스 원병철 기자] 프랑스 국세청이 해킹으로 인해 개인 및 기업 데이터가 유출됐다고 밝혔다. 최근 프랑스는 국립은행계좌부터 교육부, 국립보안문서청 등 정부 사이트가 연이어 해킹 피해를",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "[원병철기자 (boanone@boannews.com)]",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:1e5dbb2121db992a2814e03b028c846502b3ea916fc0ba844c757ff16e264233",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145176",
+   "title": "중국 연계 추정 해킹그룹, Babuk 랜섬웨어 변종 유포... VMware vCenter 취약점 악용",
+   "published_at": "2026-08-17T09:02:00Z",
+   "published_raw": "Mon, 17 Aug 2026 18:02:00 +0900",
+   "categories": [],
+   "description": "CVSS 점수 9.8점에 달할 정도로 치명적... 7월 28일 패치 완료인증 우회 취약점 CVE-2026-59309도 함께 악용... 중국 APT 그룹 소행 추정[보안뉴스 한세희 기자] 중국 정부와 연계된 것으로 추정되는 지능형 지속 위협(APT) 그룹이 최근 패치된 VMware vCenter의 보안 취약점을 악용해 바북(Babuk) 랜섬웨어 변종을 유포한",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "[한세희기자 (hahn@boannews.com)]",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e3f2a82f84ac522cc3e380a02cfabc436c7cae96e11cfd96d1379afa97d3b87b",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145174",
+   "title": "英 국가 핵심 전력망 운영사 해킹 당했나...  내부 기술 데이터 40GB 유출 주장 제기",
+   "published_at": "2026-08-16T08:19:00Z",
+   "published_raw": "Sun, 16 Aug 2026 17:19:00 +0900",
+   "categories": [],
+   "description": "소스 코드·클라우드 설정 등 5500여 개 파일 다크웹 포럼에 공개... 인프라 설계 정보 노출 따른 2차 피해 우려[보안뉴스 한세희 기자] 영국 잉글랜드 및 웨일스 지역 등의 송배전 인프라를 총괄하는 에너지 기업 ‘내셔널그리드’(National Grid)의 내부 소프트웨어 및 인프라 구성 데이터가 사이버 범죄 포럼에 대규모로 유출됐다는 주장이 나왔다. 핵",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "[한세희기자 (hahn@boannews.com)]",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:27d0081cb5a200d2c8dcdc0b6cd58f5ef92cef7985cb08661486cd7293c2ceff",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145172",
+   "title": "서강대 개인정보 18만건 유출... 박근혜 전 대통령 등 재학생·졸업생 정보 포함",
+   "published_at": "2026-08-15T07:04:00Z",
+   "published_raw": "Sat, 15 Aug 2026 16:04:00 +0900",
+   "categories": [],
+   "description": "외부공격 정황... 이름, 소속, 휴대폰 번호, 비밀번호 등 유출[보안뉴스 한세희 기자] 서강대 재학생과 졸업생, 교직원 등 개인정보 약 18만건이 유출됐다.서강대는 “통합 로그인 계정 정보에 대해 신원 미상의 외부 공격으로 일부 정보의 유출 정황을 확인했다”고 15일 밝혔다. 유출된 개인정보엔 학번·사번, 성명, 아이디, 소속, 이메일 주소, 휴대전화 번",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "[한세희기자 (hahn@boannews.com)]",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6c7c0e4800acc23b5c45ec16a668144c00f51e3052a0e09847f9e9013a9a7dc6",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145163",
+   "title": "[카드뉴스] 3D 집 구조가 침입자 정찰용으로… 로봇청소기 ‘공간 데이터 유출’ 실태",
+   "published_at": "2026-08-14T06:30:00Z",
+   "published_raw": "Fri, 14 Aug 2026 15:30:00 +0900",
+   "categories": [],
+   "description": "로봇청소기 라이다 센서가 생성한 3D 공간 도면이 무암호화 상태로 전송되어 외부로 노출되는 취약점이 발견되었다. 유출된 실내 구조 및 가구 배치 데이터는 침입자의 사전 정찰 정보로 오용될 수 있어 사이버 데이터 유출이 물리적 주거 범죄로 이어지는 위험을 초래한다. 스마트홈 프라이버시를 지키기 위해 가전 단말의 ‘공간 데이터 암호화’ 적용과 외부 클라우드 전",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "[지진솔기자 (digital@boannews.com)]",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:3ac78edd7c4933ba7ef8bfe897a726954031c34b4191ff343256b04d33804f51",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145162",
+   "title": "美 CISA, “北 취업 사기 공작에 악용된 윈도우 제로데이 패치 시행하라”",
+   "published_at": "2026-08-14T05:56:00Z",
+   "published_raw": "Fri, 14 Aug 2026 14:56:00 +0900",
+   "categories": [],
+   "description": "방산·항공우주 타깃 권한 상승 취약점(CVE-2026-68820)... 25일까지 조치 요구[보안뉴스 김형근 기자] 미국 사이버보안및인프라보안국(CISA)이 북한 해커 조직이 실제 공격에 악용한 마이크로소프트(MS) 윈도우 취약점(CVE-2026-68820)에 대해 25일까지 보안 패치를 완료하라는 지침을 연방기관에 하달했다.이 취약점은 네트워크 통신을 중",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "[한세희기자 (hahn@boannews.com)]",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b9ad73d8baffae558d532dd43403420669ff5a9e9c3fbf5fcc7fc91c1493ec43",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145147",
+   "title": "北 라자루스, 윈도우 미패치 취약점 노려 고도화된 ‘푸드모듈’ 루트킷 유포",
+   "published_at": "2026-08-13T08:13:00Z",
+   "published_raw": "Thu, 13 Aug 2026 17:13:00 +0900",
+   "categories": [],
+   "description": "푸드모듈 루트킷의 업그레이드 버전 유포 위해 윈도우 커널 제로데이 취약점(CVE-2026-68820) 악용[보안뉴스 원병철 기자] 북한 연계 해킹그룹 라자루스가 악명 높은 푸드모듈(FudModule) 루트킷의 업그레이드 버전을 유포하기 위해 윈도우 커널 제로데이 취약점(CVE-2026-68820)을 악용하다가 적발됐다고 보안업체 체크포인트 리서치가 밝혔다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "[원병철기자 (boanone@boannews.com)]",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:69ea5b6b6a0e80d5297e53f12ac2af4a2720048a49da44a6bee757cb5e86f113",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145134",
+   "title": "[인터뷰] Ron HO 케이토 네트웍스 South Asia 부사장 “한국 SASE 시장 공략위해 파트너 협업 강화할 것”",
+   "published_at": "2026-08-13T01:02:00Z",
+   "published_raw": "Thu, 13 Aug 2026 10:02:00 +0900",
+   "categories": [],
+   "description": "오용원 케이토 코리아 지사장 “우리는 파트너 드리븐 기업, 한국시장에 맞춘 협력 프로그램 적용”케이토 네트웍스, 한국 SASE 시장 활성화에 중점...채널 파트너 협력 프로그램 통해 지원 강화[보안뉴스 원병철 기자] 글로벌 보안기업 케이토 네트웍스(Cato Networks)는 2015년 설립해 ‘SASE’(Secure Access Service Edge)",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "[원병철기자 (boanone@boannews.com)]",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:17093f2e01389dd8530c1de37011674cff8b6e39431b7cc5703baa95af4a5fc6",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145165",
+   "title": "2026년 상반기, 시간당 5300건의 DDoS 공격 몰아쳤다",
+   "published_at": "2026-08-14T06:53:00Z",
+   "published_raw": "Fri, 14 Aug 2026 15:53:00 +0900",
+   "categories": [],
+   "description": "클라우드플레어, ‘2026 상반기 DDoS 위협 보고서’ 발표1Tbps+ 대형 공격 6배 급증 및 초단기 기습 공격(Ultra-Short Burst) 늘어[보안뉴스 원병철 기자] 2026년 상반기(1~6월) 동안 발생한 2320만건의 네트워크 계층 공격이 발생했으며, 이는 시간당 5300건 이상의 DDoS 공격이 몰아친 셈이라고 클라우드플레어가 ‘2026",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "[원병철기자 (boanone@boannews.com)]",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  }
+ ]
 }

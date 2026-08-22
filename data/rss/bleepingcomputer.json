@@ -1,1397 +1,1376 @@
 {
-  "schema_version": 1,
-  "source": "bleepingcomputer",
-  "updated_at": "2026-08-22T15:00:45Z",
-  "retention_days": 10,
-  "status": {
-    "ok": true,
-    "last_success_at": "2026-08-22T15:00:45Z",
-    "last_error_at": null,
-    "last_error": null
-  },
-  "articles": [
-    {
-      "id": "sha256:36bc5e95e951e1690e69c743678d30c69161321c7393b045267d22510b6c4aea",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware",
-      "title": "Hackers infect Android car head units with proxy botnet malware",
-      "published_at": "2026-08-22T14:14:24Z",
-      "published_raw": "Sat, 22 Aug 2026 10:14:24 -0400",
-      "categories": [
-        "security",
-        "Hardware"
-      ],
-      "description": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:f6dc153cff3da66a215e444072386d1519e9f1ea431cd09aae2c6c5fe94ec72a",
-      "url": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication",
-      "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
-      "published_at": "2026-08-22T13:00:09Z",
-      "published_raw": "Sat, 22 Aug 2026 09:00:09 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command authorization, strict input validation, and narrowly scoped privileges can help secure named-pipe communication. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
-      "authors": [
-        {
-          "name": "Sponsored by ThreatLocker",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:0b5e0e6c8159c62d0872262d07ccd77e07524eb57d9b602071fc4401a4fc7741",
-      "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign",
-      "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
-      "published_at": "2026-08-21T18:01:30Z",
-      "published_raw": "Fri, 21 Aug 2026 14:01:30 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:adcae21846f713001b34fd1002cd881f1ec37e401c467102b2a7125a82a08eb8",
-      "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts",
-      "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
-      "published_at": "2026-08-21T15:55:15Z",
-      "published_raw": "Fri, 21 Aug 2026 11:55:15 -0400",
-      "categories": [
-        "security",
-        "Cloud"
-      ],
-      "description": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:4fcd25f7c8c82c08fda42287de5ac7c4d4b2b040bdb000e52d05a924d5c434f4",
-      "url": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help",
-      "title": "Is Online Privacy Possible? How Digital Identities Can Help",
-      "published_at": "2026-08-21T14:00:10Z",
-      "published_raw": "Fri, 21 Aug 2026 10:00:10 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Anonyome Labs explains how separate digital personas can reduce correlation and limit the impact of breaches, spam, and identity theft. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
-      "authors": [
-        {
-          "name": "Sponsored by ANONYOME LABS",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:ea314ca0e3d66c2f08dff9face46b66be908d8a6697010c1c4c0a5e9909fc774",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws",
-      "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
-      "published_at": "2026-08-21T12:25:33Z",
-      "published_raw": "Fri, 21 Aug 2026 08:25:33 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:d0cd6de0583aff28d90b5dd0fc96ba207ac267800160df8b1dca96bad184b229",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks",
-      "title": "Microsoft patches max severity code execution, privilege escalation flaws",
-      "published_at": "2026-08-21T11:04:10Z",
-      "published_raw": "Fri, 21 Aug 2026 07:04:10 -0400",
-      "categories": [
-        "security",
-        "Microsoft"
-      ],
-      "description": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:c729d73132e660523425c006d57d77f41f5a1b10a66206945c507cb6538a333d",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware",
-      "title": "Hackers abuse FTP server banners to deliver new Windows malware",
-      "published_at": "2026-08-21T11:00:00Z",
-      "published_raw": "Fri, 21 Aug 2026 07:00:00 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:6149f50a4513859dd03721315881c73f248b75ddc068815c8bfe173efbc08c94",
-      "url": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info",
-      "title": "SickKids data breach exposes employee and job applicant info",
-      "published_at": "2026-08-21T10:10:42Z",
-      "published_raw": "Fri, 21 Aug 2026 06:10:42 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third-party software. Clinical systems and patient records were not affected. (264) [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
-      "authors": [
-        {
-          "name": "Ax Sharma",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:d0ce69e87323647d33692c6e9755e61a1be2e43aa62af88d8422416871084364",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware",
-      "title": "Hackers poison arrayref Rust crate to push infostealer malware",
-      "published_at": "2026-08-20T17:53:52Z",
-      "published_raw": "Thu, 20 Aug 2026 13:53:52 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:a9dbc5f8c54c30e0025a7177de11f878941ff2721a38934bedfb22362a73c725",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks",
-      "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
-      "published_at": "2026-08-20T14:39:48Z",
-      "published_raw": "Thu, 20 Aug 2026 10:39:48 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:034c7deac6f7ea37687d40d560677fea23528eef9626f4068886842bed485168",
-      "url": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss",
-      "title": "How MSPs can catch phishing attacks email filters miss",
-      "published_at": "2026-08-20T14:01:11Z",
-      "published_raw": "Thu, 20 Aug 2026 10:01:11 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detect and contain attacks that make it past the inbox. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
-      "authors": [
-        {
-          "name": "Sponsored by Kaseya",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:dfc81765f022129bb80ec7761e3203d889b073e50040be698fc054021d0f8a5c",
-      "url": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible",
-      "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
-      "published_at": "2026-08-20T12:14:38Z",
-      "published_raw": "Thu, 20 Aug 2026 08:14:38 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:8366fa87b87c9cea28ab8e248fdecac305a97dbdd4d846ed99d2626dbde751c1",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability",
-      "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
-      "published_at": "2026-08-20T11:06:14Z",
-      "published_raw": "Thu, 20 Aug 2026 07:06:14 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:2103718972be9460018ba8a93dbc8d4e6e9e8d3719f83d431bf1df194692c443",
-      "url": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices",
-      "title": "New Manic Android malware can exfiltrate data through nearby devices",
-      "published_at": "2026-08-20T10:02:02Z",
-      "published_raw": "Thu, 20 Aug 2026 06:02:02 -0400",
-      "categories": [
-        "security",
-        "Mobile"
-      ],
-      "description": "A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:9c0f0b601f506985b0096112b117ffe7b9351387a00ef67ccaa56d5853448d84",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks",
-      "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
-      "published_at": "2026-08-20T09:46:54Z",
-      "published_raw": "Thu, 20 Aug 2026 05:46:54 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:f8480e53f861535966186ee80ca31dff1a490700dec6551e3d614cd89c60a327",
-      "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm",
-      "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
-      "published_at": "2026-08-19T20:59:58Z",
-      "published_raw": "Wed, 19 Aug 2026 16:59:58 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A suspected ransomware affiliate is posing as a ransomware recovery service called \"Ransom Busters,\" contacting the victims before the attacks become public and claiming to be able to provide decryption keys and delete stolen data for a fee. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:2924ff0d7806d41fe8e0a83af2154fd9b74d06396340e9c003aba14aabcc3c77",
-      "url": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts",
-      "title": "Sakura Internet hack exposes data of up to 1.36 million accounts",
-      "published_at": "2026-08-19T20:53:38Z",
-      "published_raw": "Wed, 19 Aug 2026 16:53:38 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Japanese cloud and data center service provider Sakura Internet disclosed that hackers accessed its sales management system, where customer contract and membership information is stored. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:ede32e3c52d7fbffd996aec292e8ba04c7a0e9d7bfef1238e4e8c50995ebac9d",
-      "url": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients",
-      "title": "Healthtech firm CareCloud data breach impacts 3.7 million patients",
-      "published_at": "2026-08-19T20:07:12Z",
-      "published_raw": "Wed, 19 Aug 2026 16:07:12 -0400",
-      "categories": [
-        "security",
-        "Healthcare"
-      ],
-      "description": "U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:287da47d5779930565280206dbc6d695e381af516e5d189a7f9e4d78ace6a764",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign",
-      "title": "Hackers compromise 14,500 Dahua web cameras in 35-day campaign",
-      "published_at": "2026-08-19T18:09:13Z",
-      "published_raw": "Wed, 19 Aug 2026 14:09:13 -0400",
-      "categories": [
-        "security",
-        "Hardware"
-      ],
-      "description": "In a large-scale campaign that researchers dubbed CameraSwarm, hackers compromised more than 14,500 Dahua IP cameras mostly in Ukraine and Russia. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:28cbb89b37cc5c04b0bc8be5e9d10fe449a91453b4b14b3b8f68c9aa1d7d56bf",
-      "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure",
-      "title": "US warns of AI-powered attacks on Siemens PLCs in critical infrastructure",
-      "published_at": "2026-08-19T17:50:01Z",
-      "published_raw": "Wed, 19 Aug 2026 13:50:01 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "U.S. cybersecurity agencies warn that threat actors are using AI-generated scripts to exploit Siemens S7 Series programmable logic controllers (PLCs) in U.S. critical infrastructure. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:8630c1716f44083b67824b08a5c7eddef9bc6fe60ef80d5e0feef1eded5140e0",
-      "url": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft",
-      "title": "US charges Iranian hackers over $3.4 billion intellectual property theft",
-      "published_at": "2026-08-19T15:56:09Z",
-      "published_raw": "Wed, 19 Aug 2026 11:56:09 -0400",
-      "categories": [
-        "security",
-        "Legal"
-      ],
-      "description": "The U.S. has charged 17 Iranians, alleged members of a hacking-for-hire company called Mabna Institute, involved in years-long operations that stole data from American organizations. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:0b6d9d0dbe2cfe5653393ba559e180ac86dae5754dea714a6e5fddab26bd0689",
-      "url": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps",
-      "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
-      "published_at": "2026-08-19T14:00:10Z",
-      "published_raw": "Wed, 19 Aug 2026 10:00:10 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Huntress observed a 155x increase in password spraying attacks in H1 2026, including a campaign that generated more than 81 million login attempts in two weeks. The attacks exploited legacy authentication and gaps in MFA policies that left some login flows unprotected. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
-      "authors": [
-        {
-          "name": "Sponsored by Huntress Labs",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:a7d5d9a9f98153696ddf1b264a85606913529e426df1c3de89ae1dff70da4445",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes",
-      "title": "Microsoft fixes known issue causing Windows Defender crashes",
-      "published_at": "2026-08-19T11:14:28Z",
-      "published_raw": "Wed, 19 Aug 2026 07:14:28 -0400",
-      "categories": [
-        "security",
-        "Microsoft"
-      ],
-      "description": "Microsoft has resolved a bug that caused Windows Defender to crash after a recent security update, resulting in 0xc0000005 access violation errors on some affected systems. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:24143d2c31c195f763a69c8cb281a7c588b1696bb8ee73e084b492b5ed0ec2fb",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks",
-      "title": "Critical RCE flaw in Windows IKE Extension now actively exploited",
-      "published_at": "2026-08-19T10:12:24Z",
-      "published_raw": "Wed, 19 Aug 2026 06:12:24 -0400",
-      "categories": [
-        "security",
-        "Microsoft"
-      ],
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity remote code execution (RCE) flaw in the Windows Internet Key Exchange (IKE) Service Extensions component. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:0cd4f22b67cbdb8aee4fb3240f16a45e95bf295a422ca20ca43238fb0a0d13e0",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs",
-      "title": "CISA: Medusa ransomware hit over 500 critical infrastructure orgs",
-      "published_at": "2026-08-19T08:00:48Z",
-      "published_raw": "Wed, 19 Aug 2026 04:00:48 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June 2021. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:9096783d6c260e706adc838bfc64a8e7e5bf65a346df3685c87309bae8dc26f6",
-      "url": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector",
-      "title": "Comcast turns your Xfinity WiFi into a home motion detector",
-      "published_at": "2026-08-18T20:14:58Z",
-      "published_raw": "Tue, 18 Aug 2026 16:14:58 -0400",
-      "categories": [
-        "security",
-        "Technology"
-      ],
-      "description": "Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless devices to detect people moving through a home without cameras or motion sensors. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:9425bd0ad57a24ce1b2f5be2364001a043909062c83953344089e1ee6726464d",
-      "url": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks",
-      "title": "Clop created custom web shell for Windchill data theft attacks",
-      "published_at": "2026-08-18T17:29:51Z",
-      "published_raw": "Tue, 18 Aug 2026 13:29:51 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file repositories, and steal files. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:e33cf50ac091ab51291c82c6749e77a06802ab99d555d6a8480972c0f8f31350",
-      "url": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior",
-      "title": "Your Controls Block Known Attacks. What About the Behavior?",
-      "published_at": "2026-08-18T14:01:11Z",
-      "published_raw": "Tue, 18 Aug 2026 10:01:11 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Security controls can block a familiar attack method while missing quieter ways to achieve the same objective. Picus Security's Blue Report 2026 shows how prevention rates can vary dramatically by technique and why behavioral testing is needed to uncover those gaps. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
-      "authors": [
-        {
-          "name": "Sponsored by Picus Security",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:e2a5507650868f59ba8f5b7f6d594ceb998a60329beab440c6829fe5046ddf6f",
-      "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-data-recovery-firm",
-      "title": "Rogue ransomware affiliate poses as data recovery firm to steal payments",
-      "published_at": "2026-08-19T20:59:58Z",
-      "published_raw": "Wed, 19 Aug 2026 16:59:58 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A suspected ransomware affiliate is posing as a ransomware recovery service called \"Ransom Busters,\" contacting the victims before the attacks become public and claiming to be able to provide decryption keys and delete stolen data for a fee. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-data-recovery-firm/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:fb5631674644d2939c798634e4045504c7701c6c09fd9d55c8c312ccb7fd162c",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs",
-      "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
-      "published_at": "2026-08-18T10:32:16Z",
-      "published_raw": "Tue, 18 Aug 2026 06:32:16 -0400",
-      "categories": [
-        "security",
-        "Microsoft"
-      ],
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:fd19367d493cf0cf59cbf235917d575050fe4aa635ae65e08ee50d16e033d540",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds",
-      "title": "Microsoft starts removing WMIC tool used by cybercriminals",
-      "published_at": "2026-08-18T08:12:08Z",
-      "published_raw": "Tue, 18 Aug 2026 04:12:08 -0400",
-      "categories": [
-        "security",
-        "Microsoft"
-      ],
-      "description": "Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well as from Windows 11 beta builds released this week. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:b3f25eaea336ba77f44076a887c97433deb44c0305f493689f8e2cd7cbe0bc96",
-      "url": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies",
-      "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
-      "published_at": "2026-08-17T19:35:01Z",
-      "published_raw": "Mon, 17 Aug 2026 15:35:01 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A threat actor is selling employee databases allegedly stolen from the Microsoft Azure infrastructure of multiple Fortune 500 companies after gaining access using compromised credentials. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
-      "authors": [
-        {
-          "name": "Ionut Ilascu",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:5caa308f48e09eca219e877683c025c1af2527ab85b20d94c721db38e4d1865b",
-      "url": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders",
-      "title": "Pokémon Center data breach exposes customer info, cancels some orders",
-      "published_at": "2026-08-17T19:12:39Z",
-      "published_raw": "Mon, 17 Aug 2026 15:12:39 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Pokémon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole customer personal and order information from third-party logistics provider CEVA Logistics. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:2351199b922f2546870eece34257e34a31c53bf58ffc50b08ecbbbd794b11a43",
-      "url": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority",
-      "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
-      "published_at": "2026-08-17T14:00:10Z",
-      "published_raw": "Mon, 17 Aug 2026 10:00:10 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier 0 identity infrastructure it has always been. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
-      "authors": [
-        {
-          "name": "Sponsored by BeyondTrust",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:e87d9b85944d441cdffc817d3a73d467f8450acaeb21a00affa27ca37974a5c7",
-      "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims",
-      "title": "Philips and GE investigating Clop ransomware data theft claims",
-      "published_at": "2026-08-17T11:25:02Z",
-      "published_raw": "Mon, 17 Aug 2026 07:25:02 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:34c36287139f501298d805f0dbbf6bc75bc74fb96e4fab96797ac956d093f4d1",
-      "url": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals",
-      "title": "French tax authority data breach affects 678,000 individuals",
-      "published_at": "2026-08-17T10:09:48Z",
-      "published_raw": "Mon, 17 Aug 2026 06:09:48 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:59177f935aef3b0aa9274be7c5e76a7c518a11289680a5fef876d39877a6b0be",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day",
-      "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
-      "published_at": "2026-08-17T09:05:33Z",
-      "published_raw": "Mon, 17 Aug 2026 05:05:33 -0400",
-      "categories": [
-        "security",
-        "Microsoft"
-      ],
-      "description": "Microsoft is working on a security patch for the \"ShieldBreak\" zero-day vulnerability disclosed last week by security researcher \"Nightmare Eclipse\" and now tracked as CVE-2026-69414. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:0e4fc8b3c94966bc387fc73cd7182601fea8ad19fae16aba939e12b796d94a71",
-      "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale",
-      "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
-      "published_at": "2026-08-16T23:47:06Z",
-      "published_raw": "Sun, 16 Aug 2026 19:47:06 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be selling the stolen data. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:429ca27754ad0bb34424d5a161723f3f93e25a0c2e3ec8eb491ddae20607857f",
-      "url": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service",
-      "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
-      "published_at": "2026-08-16T17:29:52Z",
-      "published_raw": "Sun, 16 Aug 2026 13:29:52 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Multiple distributed denial-of-service (DDoS) attacks targeted the Threema secure messaging service earlier this week, causing severe disruptions to communications. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
-      "authors": [
-        {
-          "name": "Ionut Ilascu",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:8424d844c507d7a86ca2259fac64915d1604c5cb604212d6c0e135843153f14b",
-      "url": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control",
-      "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
-      "published_at": "2026-08-16T15:07:44Z",
-      "published_raw": "Sun, 16 Aug 2026 11:07:44 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's web browser. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:ece78d75a16264d28bc74250fb5d52a3bb1f72b53553c24b8e0660c270dcd6a3",
-      "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes",
-      "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
-      "published_at": "2026-08-15T14:14:38Z",
-      "published_raw": "Sat, 15 Aug 2026 10:14:38 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:49d686ec44bd851435703d63888157bf9cc7bc4326c4a8107232b2400df26a1d",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw",
-      "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
-      "published_at": "2026-08-14T18:04:26Z",
-      "published_raw": "Fri, 14 Aug 2026 14:04:26 -0400",
-      "categories": [
-        "security",
-        "Legal"
-      ],
-      "description": "Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from Commerzbank customers' bank accounts. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:705b3c21bff49cdf212b2675a9de85eb9c08be4c4107f5737c42f9844fdaa8a8",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner",
-      "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
-      "published_at": "2026-08-14T14:59:55Z",
-      "published_raw": "Fri, 14 Aug 2026 10:59:55 -0400",
-      "categories": [
-        "security",
-        "Apple"
-      ],
-      "description": "The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnerability after public exploit code emerged. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:0f227e7a089699dc00033d4739ff1d99d51b57d27791ef08c54ae69fbacaf141",
-      "url": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai",
-      "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
-      "published_at": "2026-08-14T14:00:10Z",
-      "published_raw": "Fri, 14 Aug 2026 10:00:10 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Material Security explains why organizations need defenses that cover the entire Workspace attack chain. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
-      "authors": [
-        {
-          "name": "Sponsored by Material Security",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:7b0ed15636a791f8645b548eefb36515f515d0c3e887573ec7aae9e58542dff9",
-      "url": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks",
-      "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
-      "published_at": "2026-08-14T13:45:18Z",
-      "published_raw": "Fri, 14 Aug 2026 09:45:18 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, according to threat intelligence company Defused. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:519d04b3ab2b1ce2dddaf4e2e23ec970225b42506446971e32e5849e709e93af",
-      "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims",
-      "title": "Shell investigates 'potential incident' after Clop data theft claims",
-      "published_at": "2026-08-14T11:55:45Z",
-      "published_raw": "Fri, 14 Aug 2026 07:55:45 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:15557cd9aac01ee0044ae9e536af784b70824028c490e1a74e51e12432bb1388",
-      "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts",
-      "title": "RingCentral data breach exposed info of 1.6 million accounts",
-      "published_at": "2026-08-14T10:52:05Z",
-      "published_raw": "Fri, 14 Aug 2026 06:52:05 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:c6f2cac6550798ed5601c13bfb6e0d1e5a7d526ba3d59d90501390634e686515",
-      "url": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer",
-      "title": "Data analyst sent to prison for stealing data, extorting employer",
-      "published_at": "2026-08-14T08:27:18Z",
-      "published_raw": "Fri, 14 Aug 2026 04:27:18 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A former data analyst contractor for Brightly Software has been sentenced to two years in prison for targeting his employer in a $2.5 million extortion scheme. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:7cb9087241576c43ed40a199866689b6ab4a7148d37999971f5f73b93e410eff",
-      "url": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks",
-      "title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
-      "published_at": "2026-08-14T01:19:12Z",
-      "published_raw": "Thu, 13 Aug 2026 21:19:12 -0400",
-      "categories": [
-        "security",
-        "Apple"
-      ],
-      "description": "You're not alone if you just received an \"Apple Threat Notification\" saying it detected a \"mercenary spyware attack targeted at your iPhone.\" [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
-      "authors": [
-        {
-          "name": "Mayank Parmar",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:7ba1d3ec13f91733ec75fbb9f5ba3e9f74f91d4940068017038812637f2a658b",
-      "url": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash",
-      "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
-      "published_at": "2026-08-13T21:12:47Z",
-      "published_raw": "Thu, 13 Aug 2026 17:12:47 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain access to bank accounts. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:286ed9b0bccd6111bf1225f14d7ef54d31d488376a0f8f3f05e90b70587bd4db",
-      "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt",
-      "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
-      "published_at": "2026-08-13T20:47:02Z",
-      "published_raw": "Thu, 13 Aug 2026 16:47:02 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:b28e693aa8316a6a46248382c571d63e81aa905d9b5501ca1d7a34491af3f6e0",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud",
-      "title": "Hackers breach govt webmail while running parallel crypto fraud",
-      "published_at": "2026-08-13T18:15:19Z",
-      "published_raw": "Thu, 13 Aug 2026 14:15:19 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:72338f9707abc132cf2c052336a9d9bf3e6eefd92eed2f753149b8781009a176",
-      "url": "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work",
-      "title": "AI 'watermark removers' flood the web. Almost none can prove they work.",
-      "published_at": "2026-08-13T17:33:28Z",
-      "published_raw": "Thu, 13 Aug 2026 13:33:28 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Multiple 'watermark removers' have surfaced days after Anthropic began watermarking text generated by Claude, including an open source project with over 4,500 GitHub stars and paid AI detection evasion services. None of the tools' claims about defeating the text watermark can be verified, as Anthropic has not released a detector. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/",
-      "authors": [
-        {
-          "name": "Ax Sharma",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:3a6f2d443fea5782f5cd3d97ea51801b0999a7117ef275c6d68acc2b69a78023",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access",
-      "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
-      "published_at": "2026-08-13T16:40:23Z",
-      "published_raw": "Thu, 13 Aug 2026 12:40:23 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:740c794a9a91ea14c4bf8bc7c41b971c5c2d5ccd293051bd00c9f85eca4247fc",
-      "url": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers",
-      "title": "Trezor discloses data breach affecting nearly 14,000 customers",
-      "published_at": "2026-08-13T15:13:19Z",
-      "published_raw": "Thu, 13 Aug 2026 11:13:19 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provider, was hacked [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:7258aa79394230aeeef4906b721befc5af26d786f49e2c3a2c4d43af688bfe66",
-      "url": "https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion",
-      "title": "Who Vets AI’s Code? The Scale Challenge Facing Open Source Ingestion",
-      "published_at": "2026-08-13T14:00:10Z",
-      "published_raw": "Thu, 13 Aug 2026 10:00:10 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "AI coding tools can introduce unvetted or hallucinated open source dependencies faster than traditional security reviews can keep pace. ActiveState explains why organizations should govern packages at the point of selection, before they enter the development pipeline. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/",
-      "authors": [
-        {
-          "name": "Sponsored by ActiveState",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:b4e444fad7871f388524e59986bbc701c4b1b055664fac7f957c8d44e2e0c8df",
-      "url": "https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations",
-      "title": "White House taps security firms for offensive hack-back operations",
-      "published_at": "2026-08-13T13:30:53Z",
-      "published_raw": "Thu, 13 Aug 2026 09:30:53 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "A new White House memo signed by U.S. President Donald Trump instructs the National Coordination Center (NCC) to establish a program that would allow private security companies to apply for approval to hack foreign cybercrime organizations. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:a7f0ad4715cf2adeff102b0e573eec69968e1e6398973baee5ec222b4bab2b6f",
-      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages",
-      "title": "WhatsApp rolls out new feature that flags potential scam messages",
-      "published_at": "2026-08-13T11:50:22Z",
-      "published_raw": "Thu, 13 Aug 2026 07:50:22 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "WhatsApp has begun rolling out a new optional \"Scam Alert\" feature, which uses a local machine learning model to warn users when scammers are targeting them. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:bd3c6a08d913995adfcacd02bb12dc75c0c4d551bdb17eb7b319b87a1a12f893",
-      "url": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals",
-      "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
-      "published_at": "2026-08-12T23:07:23Z",
-      "published_raw": "Wed, 12 Aug 2026 19:07:23 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "An ongoing data theft campaign uses custom tools to steal data exposed to anonymous users through Salesforce Experience Cloud and ServiceNow customer portals. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:eda1b996cb5167f9d2c5c4c7c90ad0ca0e6ae76e7a4adceaa3df49344579ba5f",
-      "url": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards",
-      "title": "Android malware combo takes out loans and relays victims' credit cards",
-      "published_at": "2026-08-12T22:22:57Z",
-      "published_raw": "Wed, 12 Aug 2026 18:22:57 -0400",
-      "categories": [
-        "security",
-        "Mobile"
-      ],
-      "description": "A new Android NFC relay malware called WindRelay is being used alongside the SpyNote remote administration tool (RAT) to steal live card data and send it to attackers in real time. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:e7b7801b9a028120dc3f35f5fdc59972ce0072a8ff0b3b643bfb5e51ecde4250",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts",
-      "title": "Hackers exploit critical Adobe Commerce flaw to hijack customer accounts",
-      "published_at": "2026-08-12T20:54:59Z",
-      "published_raw": "Wed, 12 Aug 2026 16:54:59 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Attempts to exploit a critical vulnerability (CVE-2026-71362) in Adobe's Commerce and Magento e-commerce platforms have been detected, potentially allowing attackers to hijack customer accounts. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:965eb2e6b5c9c8edb14ec9033332acf400704e78aac87f79631fa6c40ddad687",
-      "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy",
-      "title": "Hundreds of fake Chrome VPN extensions route traffic through a proxy",
-      "published_at": "2026-08-12T18:54:57Z",
-      "published_raw": "Wed, 12 Aug 2026 14:54:57 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "More than 737 browser extensions published on the Chrome Web Store impersonated well-known VPN and proxy services while routing users' traffic through SOCKS5 proxies operated by a single provider. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:97dc6e7e1939380b984f848ad62c106e58ddc658c25e67e5ce0d4085be244537",
-      "url": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access",
-      "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
-      "published_at": "2026-08-12T16:05:12Z",
-      "published_raw": "Wed, 12 Aug 2026 12:05:12 -0400",
-      "categories": [
-        "security",
-        "Microsoft"
-      ],
-      "description": "Security researchers have disclosed new \"Plug and Pwn\" attacks that abuse the Windows Plug and Play feature to trigger Windows into installing vulnerable or insecure vendor software and gain SYSTEM privileges. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
-      "authors": [
-        {
-          "name": "Lawrence Abrams",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:37cab2af0ebfd56fe349a453f99be31631ad95ab522ccb31d80948364761289f",
-      "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms",
-      "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
-      "published_at": "2026-08-12T15:38:08Z",
-      "published_raw": "Wed, 12 Aug 2026 11:38:08 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "North Korean hackers have been exploiting a Windows zero-day vulnerability (CVE-2026-68820) to target defense-sector companies as part of the Operation Dream Job campaign. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
-      "authors": [
-        {
-          "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
+ "schema_version": 1,
+ "source": "bleepingcomputer",
+ "updated_at": "2026-08-22T16:00:27Z",
+ "retention_days": 10,
+ "status": {
+  "ok": true,
+  "last_success_at": "2026-08-22T16:00:27Z",
+  "last_error_at": null,
+  "last_error": null
+ },
+ "articles": [
+  {
+   "id": "sha256:36bc5e95e951e1690e69c743678d30c69161321c7393b045267d22510b6c4aea",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware",
+   "title": "Hackers infect Android car head units with proxy botnet malware",
+   "published_at": "2026-08-22T14:14:24Z",
+   "published_raw": "Sat, 22 Aug 2026 10:14:24 -0400",
+   "categories": [
+    "security",
+    "Hardware"
+   ],
+   "description": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
     }
-  ]
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:f6dc153cff3da66a215e444072386d1519e9f1ea431cd09aae2c6c5fe94ec72a",
+   "url": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication",
+   "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
+   "published_at": "2026-08-22T13:00:09Z",
+   "published_raw": "Sat, 22 Aug 2026 09:00:09 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command authorization, strict input validation, and narrowly scoped privileges can help secure named-pipe communication. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
+   "authors": [
+    {
+     "name": "Sponsored by ThreatLocker",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:0b5e0e6c8159c62d0872262d07ccd77e07524eb57d9b602071fc4401a4fc7741",
+   "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign",
+   "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
+   "published_at": "2026-08-21T18:01:30Z",
+   "published_raw": "Fri, 21 Aug 2026 14:01:30 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:adcae21846f713001b34fd1002cd881f1ec37e401c467102b2a7125a82a08eb8",
+   "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts",
+   "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
+   "published_at": "2026-08-21T15:55:15Z",
+   "published_raw": "Fri, 21 Aug 2026 11:55:15 -0400",
+   "categories": [
+    "security",
+    "Cloud"
+   ],
+   "description": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:4fcd25f7c8c82c08fda42287de5ac7c4d4b2b040bdb000e52d05a924d5c434f4",
+   "url": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help",
+   "title": "Is Online Privacy Possible? How Digital Identities Can Help",
+   "published_at": "2026-08-21T14:00:10Z",
+   "published_raw": "Fri, 21 Aug 2026 10:00:10 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Anonyome Labs explains how separate digital personas can reduce correlation and limit the impact of breaches, spam, and identity theft. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
+   "authors": [
+    {
+     "name": "Sponsored by ANONYOME LABS",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:ea314ca0e3d66c2f08dff9face46b66be908d8a6697010c1c4c0a5e9909fc774",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws",
+   "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
+   "published_at": "2026-08-21T12:25:33Z",
+   "published_raw": "Fri, 21 Aug 2026 08:25:33 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d0cd6de0583aff28d90b5dd0fc96ba207ac267800160df8b1dca96bad184b229",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks",
+   "title": "Microsoft patches max severity code execution, privilege escalation flaws",
+   "published_at": "2026-08-21T11:04:10Z",
+   "published_raw": "Fri, 21 Aug 2026 07:04:10 -0400",
+   "categories": [
+    "security",
+    "Microsoft"
+   ],
+   "description": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c729d73132e660523425c006d57d77f41f5a1b10a66206945c507cb6538a333d",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware",
+   "title": "Hackers abuse FTP server banners to deliver new Windows malware",
+   "published_at": "2026-08-21T11:00:00Z",
+   "published_raw": "Fri, 21 Aug 2026 07:00:00 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6149f50a4513859dd03721315881c73f248b75ddc068815c8bfe173efbc08c94",
+   "url": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info",
+   "title": "SickKids data breach exposes employee and job applicant info",
+   "published_at": "2026-08-21T10:10:42Z",
+   "published_raw": "Fri, 21 Aug 2026 06:10:42 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third-party software. Clinical systems and patient records were not affected. (264) [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
+   "authors": [
+    {
+     "name": "Ax Sharma",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d0ce69e87323647d33692c6e9755e61a1be2e43aa62af88d8422416871084364",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware",
+   "title": "Hackers poison arrayref Rust crate to push infostealer malware",
+   "published_at": "2026-08-20T17:53:52Z",
+   "published_raw": "Thu, 20 Aug 2026 13:53:52 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:a9dbc5f8c54c30e0025a7177de11f878941ff2721a38934bedfb22362a73c725",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks",
+   "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
+   "published_at": "2026-08-20T14:39:48Z",
+   "published_raw": "Thu, 20 Aug 2026 10:39:48 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:034c7deac6f7ea37687d40d560677fea23528eef9626f4068886842bed485168",
+   "url": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss",
+   "title": "How MSPs can catch phishing attacks email filters miss",
+   "published_at": "2026-08-20T14:01:11Z",
+   "published_raw": "Thu, 20 Aug 2026 10:01:11 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detect and contain attacks that make it past the inbox. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
+   "authors": [
+    {
+     "name": "Sponsored by Kaseya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:dfc81765f022129bb80ec7761e3203d889b073e50040be698fc054021d0f8a5c",
+   "url": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible",
+   "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
+   "published_at": "2026-08-20T12:14:38Z",
+   "published_raw": "Thu, 20 Aug 2026 08:14:38 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:8366fa87b87c9cea28ab8e248fdecac305a97dbdd4d846ed99d2626dbde751c1",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability",
+   "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
+   "published_at": "2026-08-20T11:06:14Z",
+   "published_raw": "Thu, 20 Aug 2026 07:06:14 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:2103718972be9460018ba8a93dbc8d4e6e9e8d3719f83d431bf1df194692c443",
+   "url": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices",
+   "title": "New Manic Android malware can exfiltrate data through nearby devices",
+   "published_at": "2026-08-20T10:02:02Z",
+   "published_raw": "Thu, 20 Aug 2026 06:02:02 -0400",
+   "categories": [
+    "security",
+    "Mobile"
+   ],
+   "description": "A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:9c0f0b601f506985b0096112b117ffe7b9351387a00ef67ccaa56d5853448d84",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks",
+   "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
+   "published_at": "2026-08-20T09:46:54Z",
+   "published_raw": "Thu, 20 Aug 2026 05:46:54 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:f8480e53f861535966186ee80ca31dff1a490700dec6551e3d614cd89c60a327",
+   "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm",
+   "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
+   "published_at": "2026-08-19T20:59:58Z",
+   "published_raw": "Wed, 19 Aug 2026 16:59:58 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A suspected ransomware affiliate is posing as a ransomware recovery service called \"Ransom Busters,\" contacting the victims before the attacks become public and claiming to be able to provide decryption keys and delete stolen data for a fee. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:2924ff0d7806d41fe8e0a83af2154fd9b74d06396340e9c003aba14aabcc3c77",
+   "url": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts",
+   "title": "Sakura Internet hack exposes data of up to 1.36 million accounts",
+   "published_at": "2026-08-19T20:53:38Z",
+   "published_raw": "Wed, 19 Aug 2026 16:53:38 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Japanese cloud and data center service provider Sakura Internet disclosed that hackers accessed its sales management system, where customer contract and membership information is stored. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:ede32e3c52d7fbffd996aec292e8ba04c7a0e9d7bfef1238e4e8c50995ebac9d",
+   "url": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients",
+   "title": "Healthtech firm CareCloud data breach impacts 3.7 million patients",
+   "published_at": "2026-08-19T20:07:12Z",
+   "published_raw": "Wed, 19 Aug 2026 16:07:12 -0400",
+   "categories": [
+    "security",
+    "Healthcare"
+   ],
+   "description": "U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:287da47d5779930565280206dbc6d695e381af516e5d189a7f9e4d78ace6a764",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign",
+   "title": "Hackers compromise 14,500 Dahua web cameras in 35-day campaign",
+   "published_at": "2026-08-19T18:09:13Z",
+   "published_raw": "Wed, 19 Aug 2026 14:09:13 -0400",
+   "categories": [
+    "security",
+    "Hardware"
+   ],
+   "description": "In a large-scale campaign that researchers dubbed CameraSwarm, hackers compromised more than 14,500 Dahua IP cameras mostly in Ukraine and Russia. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:28cbb89b37cc5c04b0bc8be5e9d10fe449a91453b4b14b3b8f68c9aa1d7d56bf",
+   "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure",
+   "title": "US warns of AI-powered attacks on Siemens PLCs in critical infrastructure",
+   "published_at": "2026-08-19T17:50:01Z",
+   "published_raw": "Wed, 19 Aug 2026 13:50:01 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "U.S. cybersecurity agencies warn that threat actors are using AI-generated scripts to exploit Siemens S7 Series programmable logic controllers (PLCs) in U.S. critical infrastructure. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:8630c1716f44083b67824b08a5c7eddef9bc6fe60ef80d5e0feef1eded5140e0",
+   "url": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft",
+   "title": "US charges Iranian hackers over $3.4 billion intellectual property theft",
+   "published_at": "2026-08-19T15:56:09Z",
+   "published_raw": "Wed, 19 Aug 2026 11:56:09 -0400",
+   "categories": [
+    "security",
+    "Legal"
+   ],
+   "description": "The U.S. has charged 17 Iranians, alleged members of a hacking-for-hire company called Mabna Institute, involved in years-long operations that stole data from American organizations. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:0b6d9d0dbe2cfe5653393ba559e180ac86dae5754dea714a6e5fddab26bd0689",
+   "url": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps",
+   "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
+   "published_at": "2026-08-19T14:00:10Z",
+   "published_raw": "Wed, 19 Aug 2026 10:00:10 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Huntress observed a 155x increase in password spraying attacks in H1 2026, including a campaign that generated more than 81 million login attempts in two weeks. The attacks exploited legacy authentication and gaps in MFA policies that left some login flows unprotected. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
+   "authors": [
+    {
+     "name": "Sponsored by Huntress Labs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:a7d5d9a9f98153696ddf1b264a85606913529e426df1c3de89ae1dff70da4445",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes",
+   "title": "Microsoft fixes known issue causing Windows Defender crashes",
+   "published_at": "2026-08-19T11:14:28Z",
+   "published_raw": "Wed, 19 Aug 2026 07:14:28 -0400",
+   "categories": [
+    "security",
+    "Microsoft"
+   ],
+   "description": "Microsoft has resolved a bug that caused Windows Defender to crash after a recent security update, resulting in 0xc0000005 access violation errors on some affected systems. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:24143d2c31c195f763a69c8cb281a7c588b1696bb8ee73e084b492b5ed0ec2fb",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks",
+   "title": "Critical RCE flaw in Windows IKE Extension now actively exploited",
+   "published_at": "2026-08-19T10:12:24Z",
+   "published_raw": "Wed, 19 Aug 2026 06:12:24 -0400",
+   "categories": [
+    "security",
+    "Microsoft"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity remote code execution (RCE) flaw in the Windows Internet Key Exchange (IKE) Service Extensions component. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:0cd4f22b67cbdb8aee4fb3240f16a45e95bf295a422ca20ca43238fb0a0d13e0",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs",
+   "title": "CISA: Medusa ransomware hit over 500 critical infrastructure orgs",
+   "published_at": "2026-08-19T08:00:48Z",
+   "published_raw": "Wed, 19 Aug 2026 04:00:48 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June 2021. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:9096783d6c260e706adc838bfc64a8e7e5bf65a346df3685c87309bae8dc26f6",
+   "url": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector",
+   "title": "Comcast turns your Xfinity WiFi into a home motion detector",
+   "published_at": "2026-08-18T20:14:58Z",
+   "published_raw": "Tue, 18 Aug 2026 16:14:58 -0400",
+   "categories": [
+    "security",
+    "Technology"
+   ],
+   "description": "Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless devices to detect people moving through a home without cameras or motion sensors. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:9425bd0ad57a24ce1b2f5be2364001a043909062c83953344089e1ee6726464d",
+   "url": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks",
+   "title": "Clop created custom web shell for Windchill data theft attacks",
+   "published_at": "2026-08-18T17:29:51Z",
+   "published_raw": "Tue, 18 Aug 2026 13:29:51 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file repositories, and steal files. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e33cf50ac091ab51291c82c6749e77a06802ab99d555d6a8480972c0f8f31350",
+   "url": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior",
+   "title": "Your Controls Block Known Attacks. What About the Behavior?",
+   "published_at": "2026-08-18T14:01:11Z",
+   "published_raw": "Tue, 18 Aug 2026 10:01:11 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Security controls can block a familiar attack method while missing quieter ways to achieve the same objective. Picus Security's Blue Report 2026 shows how prevention rates can vary dramatically by technique and why behavioral testing is needed to uncover those gaps. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
+   "authors": [
+    {
+     "name": "Sponsored by Picus Security",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e2a5507650868f59ba8f5b7f6d594ceb998a60329beab440c6829fe5046ddf6f",
+   "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-data-recovery-firm",
+   "title": "Rogue ransomware affiliate poses as data recovery firm to steal payments",
+   "published_at": "2026-08-19T20:59:58Z",
+   "published_raw": "Wed, 19 Aug 2026 16:59:58 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A suspected ransomware affiliate is posing as a ransomware recovery service called \"Ransom Busters,\" contacting the victims before the attacks become public and claiming to be able to provide decryption keys and delete stolen data for a fee. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-data-recovery-firm/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:fb5631674644d2939c798634e4045504c7701c6c09fd9d55c8c312ccb7fd162c",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs",
+   "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
+   "published_at": "2026-08-18T10:32:16Z",
+   "published_raw": "Tue, 18 Aug 2026 06:32:16 -0400",
+   "categories": [
+    "security",
+    "Microsoft"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:fd19367d493cf0cf59cbf235917d575050fe4aa635ae65e08ee50d16e033d540",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds",
+   "title": "Microsoft starts removing WMIC tool used by cybercriminals",
+   "published_at": "2026-08-18T08:12:08Z",
+   "published_raw": "Tue, 18 Aug 2026 04:12:08 -0400",
+   "categories": [
+    "security",
+    "Microsoft"
+   ],
+   "description": "Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well as from Windows 11 beta builds released this week. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b3f25eaea336ba77f44076a887c97433deb44c0305f493689f8e2cd7cbe0bc96",
+   "url": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies",
+   "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
+   "published_at": "2026-08-17T19:35:01Z",
+   "published_raw": "Mon, 17 Aug 2026 15:35:01 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A threat actor is selling employee databases allegedly stolen from the Microsoft Azure infrastructure of multiple Fortune 500 companies after gaining access using compromised credentials. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
+   "authors": [
+    {
+     "name": "Ionut Ilascu",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:5caa308f48e09eca219e877683c025c1af2527ab85b20d94c721db38e4d1865b",
+   "url": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders",
+   "title": "Pokémon Center data breach exposes customer info, cancels some orders",
+   "published_at": "2026-08-17T19:12:39Z",
+   "published_raw": "Mon, 17 Aug 2026 15:12:39 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Pokémon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole customer personal and order information from third-party logistics provider CEVA Logistics. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:2351199b922f2546870eece34257e34a31c53bf58ffc50b08ecbbbd794b11a43",
+   "url": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority",
+   "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
+   "published_at": "2026-08-17T14:00:10Z",
+   "published_raw": "Mon, 17 Aug 2026 10:00:10 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier 0 identity infrastructure it has always been. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+   "authors": [
+    {
+     "name": "Sponsored by BeyondTrust",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e87d9b85944d441cdffc817d3a73d467f8450acaeb21a00affa27ca37974a5c7",
+   "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims",
+   "title": "Philips and GE investigating Clop ransomware data theft claims",
+   "published_at": "2026-08-17T11:25:02Z",
+   "published_raw": "Mon, 17 Aug 2026 07:25:02 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:34c36287139f501298d805f0dbbf6bc75bc74fb96e4fab96797ac956d093f4d1",
+   "url": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals",
+   "title": "French tax authority data breach affects 678,000 individuals",
+   "published_at": "2026-08-17T10:09:48Z",
+   "published_raw": "Mon, 17 Aug 2026 06:09:48 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:59177f935aef3b0aa9274be7c5e76a7c518a11289680a5fef876d39877a6b0be",
+   "url": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day",
+   "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
+   "published_at": "2026-08-17T09:05:33Z",
+   "published_raw": "Mon, 17 Aug 2026 05:05:33 -0400",
+   "categories": [
+    "security",
+    "Microsoft"
+   ],
+   "description": "Microsoft is working on a security patch for the \"ShieldBreak\" zero-day vulnerability disclosed last week by security researcher \"Nightmare Eclipse\" and now tracked as CVE-2026-69414. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:0e4fc8b3c94966bc387fc73cd7182601fea8ad19fae16aba939e12b796d94a71",
+   "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale",
+   "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
+   "published_at": "2026-08-16T23:47:06Z",
+   "published_raw": "Sun, 16 Aug 2026 19:47:06 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be selling the stolen data. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:429ca27754ad0bb34424d5a161723f3f93e25a0c2e3ec8eb491ddae20607857f",
+   "url": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service",
+   "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
+   "published_at": "2026-08-16T17:29:52Z",
+   "published_raw": "Sun, 16 Aug 2026 13:29:52 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Multiple distributed denial-of-service (DDoS) attacks targeted the Threema secure messaging service earlier this week, causing severe disruptions to communications. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
+   "authors": [
+    {
+     "name": "Ionut Ilascu",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:8424d844c507d7a86ca2259fac64915d1604c5cb604212d6c0e135843153f14b",
+   "url": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control",
+   "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
+   "published_at": "2026-08-16T15:07:44Z",
+   "published_raw": "Sun, 16 Aug 2026 11:07:44 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's web browser. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:ece78d75a16264d28bc74250fb5d52a3bb1f72b53553c24b8e0660c270dcd6a3",
+   "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes",
+   "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
+   "published_at": "2026-08-15T14:14:38Z",
+   "published_raw": "Sat, 15 Aug 2026 10:14:38 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:49d686ec44bd851435703d63888157bf9cc7bc4326c4a8107232b2400df26a1d",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw",
+   "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
+   "published_at": "2026-08-14T18:04:26Z",
+   "published_raw": "Fri, 14 Aug 2026 14:04:26 -0400",
+   "categories": [
+    "security",
+    "Legal"
+   ],
+   "description": "Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from Commerzbank customers' bank accounts. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:705b3c21bff49cdf212b2675a9de85eb9c08be4c4107f5737c42f9844fdaa8a8",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner",
+   "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
+   "published_at": "2026-08-14T14:59:55Z",
+   "published_raw": "Fri, 14 Aug 2026 10:59:55 -0400",
+   "categories": [
+    "security",
+    "Apple"
+   ],
+   "description": "The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnerability after public exploit code emerged. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:0f227e7a089699dc00033d4739ff1d99d51b57d27791ef08c54ae69fbacaf141",
+   "url": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai",
+   "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
+   "published_at": "2026-08-14T14:00:10Z",
+   "published_raw": "Fri, 14 Aug 2026 10:00:10 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Material Security explains why organizations need defenses that cover the entire Workspace attack chain. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
+   "authors": [
+    {
+     "name": "Sponsored by Material Security",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:7b0ed15636a791f8645b548eefb36515f515d0c3e887573ec7aae9e58542dff9",
+   "url": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks",
+   "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
+   "published_at": "2026-08-14T13:45:18Z",
+   "published_raw": "Fri, 14 Aug 2026 09:45:18 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, according to threat intelligence company Defused. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:519d04b3ab2b1ce2dddaf4e2e23ec970225b42506446971e32e5849e709e93af",
+   "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims",
+   "title": "Shell investigates 'potential incident' after Clop data theft claims",
+   "published_at": "2026-08-14T11:55:45Z",
+   "published_raw": "Fri, 14 Aug 2026 07:55:45 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:15557cd9aac01ee0044ae9e536af784b70824028c490e1a74e51e12432bb1388",
+   "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts",
+   "title": "RingCentral data breach exposed info of 1.6 million accounts",
+   "published_at": "2026-08-14T10:52:05Z",
+   "published_raw": "Fri, 14 Aug 2026 06:52:05 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c6f2cac6550798ed5601c13bfb6e0d1e5a7d526ba3d59d90501390634e686515",
+   "url": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer",
+   "title": "Data analyst sent to prison for stealing data, extorting employer",
+   "published_at": "2026-08-14T08:27:18Z",
+   "published_raw": "Fri, 14 Aug 2026 04:27:18 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A former data analyst contractor for Brightly Software has been sentenced to two years in prison for targeting his employer in a $2.5 million extortion scheme. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:7cb9087241576c43ed40a199866689b6ab4a7148d37999971f5f73b93e410eff",
+   "url": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks",
+   "title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
+   "published_at": "2026-08-14T01:19:12Z",
+   "published_raw": "Thu, 13 Aug 2026 21:19:12 -0400",
+   "categories": [
+    "security",
+    "Apple"
+   ],
+   "description": "You're not alone if you just received an \"Apple Threat Notification\" saying it detected a \"mercenary spyware attack targeted at your iPhone.\" [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
+   "authors": [
+    {
+     "name": "Mayank Parmar",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:7ba1d3ec13f91733ec75fbb9f5ba3e9f74f91d4940068017038812637f2a658b",
+   "url": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash",
+   "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
+   "published_at": "2026-08-13T21:12:47Z",
+   "published_raw": "Thu, 13 Aug 2026 17:12:47 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain access to bank accounts. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:286ed9b0bccd6111bf1225f14d7ef54d31d488376a0f8f3f05e90b70587bd4db",
+   "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt",
+   "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
+   "published_at": "2026-08-13T20:47:02Z",
+   "published_raw": "Thu, 13 Aug 2026 16:47:02 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b28e693aa8316a6a46248382c571d63e81aa905d9b5501ca1d7a34491af3f6e0",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud",
+   "title": "Hackers breach govt webmail while running parallel crypto fraud",
+   "published_at": "2026-08-13T18:15:19Z",
+   "published_raw": "Thu, 13 Aug 2026 14:15:19 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:72338f9707abc132cf2c052336a9d9bf3e6eefd92eed2f753149b8781009a176",
+   "url": "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work",
+   "title": "AI 'watermark removers' flood the web. Almost none can prove they work.",
+   "published_at": "2026-08-13T17:33:28Z",
+   "published_raw": "Thu, 13 Aug 2026 13:33:28 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Multiple 'watermark removers' have surfaced days after Anthropic began watermarking text generated by Claude, including an open source project with over 4,500 GitHub stars and paid AI detection evasion services. None of the tools' claims about defeating the text watermark can be verified, as Anthropic has not released a detector. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/",
+   "authors": [
+    {
+     "name": "Ax Sharma",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:3a6f2d443fea5782f5cd3d97ea51801b0999a7117ef275c6d68acc2b69a78023",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access",
+   "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
+   "published_at": "2026-08-13T16:40:23Z",
+   "published_raw": "Thu, 13 Aug 2026 12:40:23 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:740c794a9a91ea14c4bf8bc7c41b971c5c2d5ccd293051bd00c9f85eca4247fc",
+   "url": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers",
+   "title": "Trezor discloses data breach affecting nearly 14,000 customers",
+   "published_at": "2026-08-13T15:13:19Z",
+   "published_raw": "Thu, 13 Aug 2026 11:13:19 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provider, was hacked [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:7258aa79394230aeeef4906b721befc5af26d786f49e2c3a2c4d43af688bfe66",
+   "url": "https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion",
+   "title": "Who Vets AI’s Code? The Scale Challenge Facing Open Source Ingestion",
+   "published_at": "2026-08-13T14:00:10Z",
+   "published_raw": "Thu, 13 Aug 2026 10:00:10 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "AI coding tools can introduce unvetted or hallucinated open source dependencies faster than traditional security reviews can keep pace. ActiveState explains why organizations should govern packages at the point of selection, before they enter the development pipeline. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/",
+   "authors": [
+    {
+     "name": "Sponsored by ActiveState",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b4e444fad7871f388524e59986bbc701c4b1b055664fac7f957c8d44e2e0c8df",
+   "url": "https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations",
+   "title": "White House taps security firms for offensive hack-back operations",
+   "published_at": "2026-08-13T13:30:53Z",
+   "published_raw": "Thu, 13 Aug 2026 09:30:53 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A new White House memo signed by U.S. President Donald Trump instructs the National Coordination Center (NCC) to establish a program that would allow private security companies to apply for approval to hack foreign cybercrime organizations. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:a7f0ad4715cf2adeff102b0e573eec69968e1e6398973baee5ec222b4bab2b6f",
+   "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages",
+   "title": "WhatsApp rolls out new feature that flags potential scam messages",
+   "published_at": "2026-08-13T11:50:22Z",
+   "published_raw": "Thu, 13 Aug 2026 07:50:22 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "WhatsApp has begun rolling out a new optional \"Scam Alert\" feature, which uses a local machine learning model to warn users when scammers are targeting them. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:bd3c6a08d913995adfcacd02bb12dc75c0c4d551bdb17eb7b319b87a1a12f893",
+   "url": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals",
+   "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
+   "published_at": "2026-08-12T23:07:23Z",
+   "published_raw": "Wed, 12 Aug 2026 19:07:23 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "An ongoing data theft campaign uses custom tools to steal data exposed to anonymous users through Salesforce Experience Cloud and ServiceNow customer portals. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:eda1b996cb5167f9d2c5c4c7c90ad0ca0e6ae76e7a4adceaa3df49344579ba5f",
+   "url": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards",
+   "title": "Android malware combo takes out loans and relays victims' credit cards",
+   "published_at": "2026-08-12T22:22:57Z",
+   "published_raw": "Wed, 12 Aug 2026 18:22:57 -0400",
+   "categories": [
+    "security",
+    "Mobile"
+   ],
+   "description": "A new Android NFC relay malware called WindRelay is being used alongside the SpyNote remote administration tool (RAT) to steal live card data and send it to attackers in real time. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e7b7801b9a028120dc3f35f5fdc59972ce0072a8ff0b3b643bfb5e51ecde4250",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts",
+   "title": "Hackers exploit critical Adobe Commerce flaw to hijack customer accounts",
+   "published_at": "2026-08-12T20:54:59Z",
+   "published_raw": "Wed, 12 Aug 2026 16:54:59 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Attempts to exploit a critical vulnerability (CVE-2026-71362) in Adobe's Commerce and Magento e-commerce platforms have been detected, potentially allowing attackers to hijack customer accounts. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:965eb2e6b5c9c8edb14ec9033332acf400704e78aac87f79631fa6c40ddad687",
+   "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy",
+   "title": "Hundreds of fake Chrome VPN extensions route traffic through a proxy",
+   "published_at": "2026-08-12T18:54:57Z",
+   "published_raw": "Wed, 12 Aug 2026 14:54:57 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "More than 737 browser extensions published on the Chrome Web Store impersonated well-known VPN and proxy services while routing users' traffic through SOCKS5 proxies operated by a single provider. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:97dc6e7e1939380b984f848ad62c106e58ddc658c25e67e5ce0d4085be244537",
+   "url": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access",
+   "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
+   "published_at": "2026-08-12T16:05:12Z",
+   "published_raw": "Wed, 12 Aug 2026 12:05:12 -0400",
+   "categories": [
+    "security",
+    "Microsoft"
+   ],
+   "description": "Security researchers have disclosed new \"Plug and Pwn\" attacks that abuse the Windows Plug and Play feature to trigger Windows into installing vulnerable or insecure vendor software and gain SYSTEM privileges. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  }
+ ]
 }
