@@ -1,15 +1,37 @@
 {
   "schema_version": 1,
   "source": "bleepingcomputer",
-  "updated_at": "2026-08-22T14:00:48Z",
+  "updated_at": "2026-08-22T15:00:45Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-22T14:00:48Z",
+    "last_success_at": "2026-08-22T15:00:45Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:36bc5e95e951e1690e69c743678d30c69161321c7393b045267d22510b6c4aea",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware",
+      "title": "Hackers infect Android car head units with proxy botnet malware",
+      "published_at": "2026-08-22T14:14:24Z",
+      "published_raw": "Sat, 22 Aug 2026 10:14:24 -0400",
+      "categories": [
+        "security",
+        "Hardware"
+      ],
+      "description": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
+      "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
+      "authors": [
+        {
+          "name": "Bill Toulas",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {}
+    },
     {
       "id": "sha256:f6dc153cff3da66a215e444072386d1519e9f1ea431cd09aae2c6c5fe94ec72a",
       "url": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication",
@@ -1364,48 +1386,6 @@
       "authors": [
         {
           "name": "Bill Toulas",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:5cd5612d7f788954ada69c9befe61c4dd03dfbf0e38e21719312a496870795be",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos",
-      "title": "FBI: Hackers target online accounts to steal nude photos",
-      "published_at": "2026-08-12T14:15:09Z",
-      "published_raw": "Wed, 12 Aug 2026 10:15:09 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "The FBI warns that cybercriminals are targeting adults' and children's social media and other online accounts to steal sexually explicit images or videos. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos/",
-      "authors": [
-        {
-          "name": "Sergiu Gatlan",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {}
-    },
-    {
-      "id": "sha256:1e9863357cbba1b1c5ed322aafa80d197e42ebfa5106088112866bd0fc1919e4",
-      "url": "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in",
-      "title": "The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In",
-      "published_at": "2026-08-12T14:01:11Z",
-      "published_raw": "Wed, 12 Aug 2026 10:01:11 -0400",
-      "categories": [
-        "security"
-      ],
-      "description": "Fake remote workers can exploit gaps between hiring checks, device delivery, and account access to enter organizations under false identities. Specops Software explains how document verification and biometric liveness checks can help organizations confirm that the person receiving access is the legitimate new hire. [...]",
-      "feed_id": "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
-      "authors": [
-        {
-          "name": "Sponsored by Specops Software",
           "uri": "",
           "email": ""
         }
