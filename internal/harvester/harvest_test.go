@@ -13,6 +13,7 @@ import (
 	"testing"
 
 	"github.com/found-cake/cyber-news-feed/internal/feed"
+	"github.com/found-cake/cyber-news-feed/internal/jsonstore"
 	"github.com/found-cake/cyber-news-feed/internal/source"
 	"github.com/found-cake/cyber-news-feed/pkg/rssjson"
 )
@@ -117,14 +118,14 @@ func Test_runWithSources_writes_securityweek_image_metadata(t *testing.T) {
 	assertSecurityWeekImage(t, cfg.OutputDir, "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg")
 }
 
-func Test_fetchSource_enriches_BoanNews_categories_from_article_pages(t *testing.T) {
+func Test_runWithSources_enriches_BoanNews_categories_from_article_pages(t *testing.T) {
 	// Given
 	client := &http.Client{Transport: roundTripFunc(func(request *http.Request) (*http.Response, error) {
 		switch request.URL.Hostname() {
 		case "feed.test":
 			return rssResponse(`
-<item><title>First</title><link>https://www.boannews.com/news/articleView.html?idxno=1</link><category>rss</category></item>
-<item><title>Second</title><link>https://www.boannews.com/news/articleView.html?idxno=2</link><category>rss</category></item>`), nil
+<item><title>First</title><link>https://www.boannews.com/news/articleView.html?idxno=1</link></item>
+<item><title>Second</title><link>https://www.boannews.com/news/articleView.html?idxno=2</link></item>`), nil
 		case "www.boannews.com":
 			classification := "비즈니스 &gt; 인사이트"
 			if request.URL.Query().Get("idxno") == "2" {
@@ -140,14 +141,23 @@ func Test_fetchSource_enriches_BoanNews_categories_from_article_pages(t *testing
 		Kind:  source.BoanNews,
 		Feeds: []source.Feed{{URL: "https://feed.test/rss"}},
 	}
+	cfg := Config{OutputDir: t.TempDir(), RetentionDays: 10, Client: client}
 
 	// When
-	articles, err := fetchSource(context.Background(), client, src, false)
+	summary, err := runWithSources(context.Background(), cfg, slog.New(slog.NewTextHandler(os.Stderr, nil)), []source.Config{src})
 
 	// Then
 	if err != nil {
-		t.Fatalf("fetchSource() error = %v", err)
+		t.Fatalf("runWithSources() error = %v", err)
 	}
+	if summary.Failed != 0 {
+		t.Fatalf("Summary = %#v", summary)
+	}
+	document, err := jsonstore.Load(cfg.OutputDir, "boannews")
+	if err != nil {
+		t.Fatalf("load harvested document: %v", err)
+	}
+	articles := document.Articles
 	if len(articles) != 2 {
 		t.Fatalf("articles = %#v, want 2", articles)
 	}
@@ -169,7 +179,7 @@ func Test_fetchSource_does_not_fetch_article_pages_for_other_sources(t *testing.
 	src := source.Config{Name: "other", Feeds: []source.Feed{{URL: "https://feed.test/rss"}}}
 
 	// When
-	articles, err := fetchSource(context.Background(), client, src, false)
+	articles, err := fetchSource(context.Background(), fetchSourceRequest{client: client, src: src})
 
 	// Then
 	if err != nil {

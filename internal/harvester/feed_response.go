@@ -9,6 +9,14 @@ import (
 
 var errUnexpectedFeedResponse = errors.New("unexpected feed response")
 
+type unexpectedHTTPStatusError struct {
+	statusCode int
+}
+
+func (err *unexpectedHTTPStatusError) Error() string {
+	return fmt.Sprintf("unexpected HTTP status %d", err.statusCode)
+}
+
 func ensureFeedBody(contentType string, body []byte) error {
 	trimmed := bytes.TrimSpace(body)
 	if len(trimmed) == 0 {

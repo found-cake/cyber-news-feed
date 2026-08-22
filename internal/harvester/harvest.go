@@ -8,12 +8,14 @@ import (
 	"io"
 	"log/slog"
 	"net/http"
+	"slices"
 	"time"
 
 	"github.com/found-cake/cyber-news-feed/internal/feed"
 	"github.com/found-cake/cyber-news-feed/internal/jsonstore"
 	"github.com/found-cake/cyber-news-feed/internal/rssdoc"
 	"github.com/found-cake/cyber-news-feed/internal/source"
+	"github.com/found-cake/cyber-news-feed/internal/urlnorm"
 )
 
 func Run(ctx context.Context, cfg Config, logger *slog.Logger) (Summary, error) {
@@ -32,7 +34,7 @@ func runWithSources(ctx context.Context, cfg Config, logger *slog.Logger, source
 	pendingRetry := make([]source.Config, 0)
 
 	for _, src := range sources {
-		ok, err := processSource(ctx, processSourceRequest{
+		result, err := processSource(ctx, processSourceRequest{
 			cfg:    cfg,
 			logger: logger,
 			now:    now,
@@ -41,13 +43,15 @@ func runWithSources(ctx context.Context, cfg Config, logger *slog.Logger, source
 		if err != nil {
 			return summary, err
 		}
-		if !ok {
+		if result.retry {
 			pendingRetry = append(pendingRetry, src)
+		} else if !result.succeeded {
+			summary.Failed++
 		}
 		summary.Processed++
 	}
 	for _, src := range pendingRetry {
-		ok, err := processSource(ctx, processSourceRequest{
+		result, err := processSource(ctx, processSourceRequest{
 			cfg:       cfg,
 			logger:    logger,
 			now:       now,
@@ -57,7 +61,7 @@ func runWithSources(ctx context.Context, cfg Config, logger *slog.Logger, source
 		if err != nil {
 			return summary, err
 		}
-		if !ok {
+		if !result.succeeded {
 			summary.Failed++
 		}
 	}
@@ -72,18 +76,36 @@ type processSourceRequest struct {
 	skipCache bool
 }
 
-func processSource(ctx context.Context, req processSourceRequest) (bool, error) {
+type processSourceResult struct {
+	succeeded bool
+	retry     bool
+}
+
+func processSource(ctx context.Context, req processSourceRequest) (processSourceResult, error) {
 	existing, err := jsonstore.Load(req.cfg.OutputDir, req.src.Name)
 	if err != nil {
-		return false, fmt.Errorf("load %s: %w", req.src.Name, err)
+		return processSourceResult{}, fmt.Errorf("load %s: %w", req.src.Name, err)
 	}
-	articles, err := fetchSource(ctx, req.cfg.Client, req.src, req.skipCache)
+	articles, err := fetchSource(ctx, fetchSourceRequest{
+		client:    req.cfg.Client,
+		src:       req.src,
+		skipCache: req.skipCache,
+	})
 	var doc rssdoc.Document
+	retry := false
 	if err != nil {
-		if req.skipCache {
+		retry = true
+		var statusErr *unexpectedHTTPStatusError
+		if req.src.Kind == source.BoanNews && errors.As(err, &statusErr) && statusErr.statusCode == http.StatusForbidden {
+			retry = false
+		}
+		switch {
+		case req.skipCache:
 			req.logger.Warn("source retry failed", "source", req.src.Name, "error", err)
-		} else {
+		case retry:
 			req.logger.Warn("source queued for retry", "source", req.src.Name, "error", err)
+		default:
+			req.logger.Warn("source retry suppressed", "source", req.src.Name, "error", err)
 		}
 		doc = rssdoc.MergeFailure(rssdoc.MergeRequest{
 			Existing:      existing,
@@ -93,6 +115,19 @@ func processSource(ctx context.Context, req processSourceRequest) (bool, error) 
 			Err:           err,
 		})
 	} else {
+		if req.src.Kind == source.BoanNews {
+			knownCategories := make(map[string][]string, len(existing.Articles))
+			for _, article := range existing.Articles {
+				if len(article.Categories) > 0 {
+					knownCategories[urlnorm.Normalize(article.URL)] = slices.Clone(article.Categories)
+				}
+			}
+			for index := range articles {
+				if categories, exists := knownCategories[articles[index].URL]; exists {
+					articles[index].Categories = categories
+				}
+			}
+		}
 		doc = rssdoc.MergeSuccess(rssdoc.MergeRequest{
 			Existing:      existing,
 			Source:        req.src.Name,
@@ -100,31 +135,37 @@ func processSource(ctx context.Context, req processSourceRequest) (bool, error) 
 			RetentionDays: req.cfg.RetentionDays,
 			Fetched:       articles,
 		})
+		if req.src.Kind == source.BoanNews {
+			enricher := boanNewsEnricher{client: req.cfg.Client, skipCache: req.skipCache}
+			if enrichErr := enricher.enrich(ctx, doc.Articles); enrichErr != nil {
+				req.logger.Warn("boannews category enrichment incomplete", "source", req.src.Name, "error", enrichErr)
+			}
+		}
 	}
 	if err := jsonstore.Write(req.cfg.OutputDir, doc); err != nil {
-		return false, fmt.Errorf("write %s: %w", req.src.Name, err)
+		return processSourceResult{}, fmt.Errorf("write %s: %w", req.src.Name, err)
 	}
-	return err == nil, nil
+	return processSourceResult{succeeded: err == nil, retry: retry}, nil
 }
 
-func fetchSource(ctx context.Context, client *http.Client, src source.Config, skipCache bool) ([]rssdoc.Article, error) {
+type fetchSourceRequest struct {
+	client    *http.Client
+	src       source.Config
+	skipCache bool
+}
+
+func fetchSource(ctx context.Context, req fetchSourceRequest) ([]rssdoc.Article, error) {
 	articles := make([]rssdoc.Article, 0)
-	for _, sourceFeed := range src.Feeds {
-		items, err := fetchFeed(ctx, client, sourceFeed.URL, skipCache)
+	for _, sourceFeed := range req.src.Feeds {
+		items, err := fetchFeed(ctx, req.client, sourceFeed.URL, req.skipCache)
 		if err != nil {
 			return nil, fmt.Errorf("fetch %s: %w", sourceFeed.URL, err)
 		}
 		for _, item := range items {
-			article, include := source.ArticleFromItem(src, sourceFeed, item)
+			article, include := source.ArticleFromItem(req.src, sourceFeed, item)
 			if include {
 				articles = append(articles, article)
 			}
-		}
-	}
-	if src.Kind == source.BoanNews {
-		enricher := boanNewsEnricher{client: client, skipCache: skipCache}
-		if err := enricher.enrich(ctx, articles); err != nil {
-			return nil, fmt.Errorf("enrich boannews articles: %w", err)
 		}
 	}
 	return articles, nil
@@ -154,7 +195,7 @@ func fetchFeed(ctx context.Context, client *http.Client, feedURL string, skipCac
 		}
 	}()
 	if resp.StatusCode < http.StatusOK || resp.StatusCode >= http.StatusMultipleChoices {
-		return nil, fmt.Errorf("%w: unexpected status %d", errUnexpectedFeedResponse, resp.StatusCode)
+		return nil, fmt.Errorf("%w: %w", errUnexpectedFeedResponse, &unexpectedHTTPStatusError{statusCode: resp.StatusCode})
 	}
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {

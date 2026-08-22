@@ -9,17 +9,13 @@ import (
 	"net/http"
 	"net/url"
 	"strings"
-	"sync"
 
 	"github.com/found-cake/cyber-news-feed/internal/rssdoc"
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/charset"
 )
 
-const (
-	boanNewsPageConcurrency = 8
-	boanNewsPageMaxBytes    = 2 << 20
-)
+const boanNewsPageMaxBytes = 2 << 20
 
 var (
 	errBoanNewsClassificationMissing = errors.New("boannews classification metadata missing")
@@ -30,56 +26,31 @@ var (
 	errBoanNewsRedirectLimit         = errors.New("boannews article redirect limit exceeded")
 )
 
-type boanNewsClassificationResult struct {
-	categories []string
-	err        error
-}
-
 type boanNewsEnricher struct {
 	client    *http.Client
 	skipCache bool
 }
 
 func (enricher boanNewsEnricher) enrich(ctx context.Context, articles []rssdoc.Article) error {
-	if len(articles) == 0 {
-		return nil
-	}
-
-	results := make([]boanNewsClassificationResult, len(articles))
-	jobs := make(chan int)
-	workers := min(boanNewsPageConcurrency, len(articles))
-	var waitGroup sync.WaitGroup
-	for range workers {
-		waitGroup.Go(func() {
-			for index := range jobs {
-				categories, err := enricher.fetchCategories(ctx, articles[index].URL)
-				results[index] = boanNewsClassificationResult{categories: categories, err: err}
-			}
-		})
-	}
-
-schedule:
+	var enrichErrors []error
 	for index := range articles {
-		select {
-		case jobs <- index:
-		case <-ctx.Done():
-			break schedule
+		if len(articles[index].Categories) > 0 {
+			continue
 		}
-	}
-	close(jobs)
-	waitGroup.Wait()
-	if err := ctx.Err(); err != nil {
-		return fmt.Errorf("enrich boannews articles: %w", err)
-	}
-	for index, result := range results {
-		if result.err != nil {
-			return fmt.Errorf("enrich boannews article %d %s: %w", index, articles[index].URL, result.err)
+		categories, err := enricher.fetchCategories(ctx, articles[index].URL)
+		if err != nil {
+			articleErr := fmt.Errorf("enrich boannews article %d %s: %w", index, articles[index].URL, err)
+			var statusErr *unexpectedHTTPStatusError
+			forbidden := errors.As(err, &statusErr) && statusErr.statusCode == http.StatusForbidden
+			if forbidden || ctx.Err() != nil {
+				return errors.Join(append(enrichErrors, articleErr)...)
+			}
+			enrichErrors = append(enrichErrors, articleErr)
+			continue
 		}
+		articles[index].Categories = categories
 	}
-	for index, result := range results {
-		articles[index].Categories = result.categories
-	}
-	return nil
+	return errors.Join(enrichErrors...)
 }
 
 func (enricher boanNewsEnricher) fetchCategories(ctx context.Context, articleURL string) (categories []string, err error) {
@@ -125,7 +96,7 @@ func (enricher boanNewsEnricher) fetchCategories(ctx context.Context, articleURL
 		}
 	}()
 	if response.StatusCode < http.StatusOK || response.StatusCode >= http.StatusMultipleChoices {
-		return nil, fmt.Errorf("%w: status %d", errBoanNewsPageResponse, response.StatusCode)
+		return nil, fmt.Errorf("%w: %w", errBoanNewsPageResponse, &unexpectedHTTPStatusError{statusCode: response.StatusCode})
 	}
 
 	body, err := io.ReadAll(io.LimitReader(response.Body, boanNewsPageMaxBytes+1))

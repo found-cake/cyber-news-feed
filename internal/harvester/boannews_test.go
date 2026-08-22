@@ -123,7 +123,7 @@ func Test_fetchBoanNewsCategories_returns_page_classification_and_sets_request_h
 	}
 }
 
-func Test_enrichBoanNewsArticles_replaces_categories_without_reordering_articles(t *testing.T) {
+func Test_enrichBoanNewsArticles_fills_empty_categories_without_reordering_articles(t *testing.T) {
 	// Given
 	client := &http.Client{Transport: roundTripFunc(func(request *http.Request) (*http.Response, error) {
 		classification := "비즈니스 &gt; 인사이트"
@@ -133,8 +133,8 @@ func Test_enrichBoanNewsArticles_replaces_categories_without_reordering_articles
 		return htmlResponse(http.StatusOK, `<meta name="Classification" content="`+classification+`">`), nil
 	})}
 	articles := []rssdoc.Article{
-		{Title: "First", URL: "https://www.boannews.com/news/articleView.html?idxno=1", Categories: []string{"rss"}},
-		{Title: "Second", URL: "https://www.boannews.com/news/articleView.html?idxno=2", Categories: []string{"rss"}},
+		{Title: "First", URL: "https://www.boannews.com/news/articleView.html?idxno=1", Categories: []string{}},
+		{Title: "Second", URL: "https://www.boannews.com/news/articleView.html?idxno=2", Categories: []string{}},
 	}
 
 	// When
@@ -152,7 +152,7 @@ func Test_enrichBoanNewsArticles_replaces_categories_without_reordering_articles
 	}
 }
 
-func Test_enrichBoanNewsArticles_leaves_articles_unchanged_when_page_fails(t *testing.T) {
+func Test_enrichBoanNewsArticles_preserves_successful_categories_when_later_page_fails(t *testing.T) {
 	// Given
 	client := &http.Client{Transport: roundTripFunc(func(request *http.Request) (*http.Response, error) {
 		if request.URL.Query().Get("idxno") == "2" {
@@ -161,12 +161,12 @@ func Test_enrichBoanNewsArticles_leaves_articles_unchanged_when_page_fails(t *te
 		return htmlResponse(http.StatusOK, `<meta name="Classification" content="비즈니스 &gt; 인사이트">`), nil
 	})}
 	articles := []rssdoc.Article{
-		{Title: "First", URL: "https://www.boannews.com/news/articleView.html?idxno=1", Categories: []string{"rss-one"}},
-		{Title: "Second", URL: "https://www.boannews.com/news/articleView.html?idxno=2", Categories: []string{"rss-two"}},
+		{Title: "First", URL: "https://www.boannews.com/news/articleView.html?idxno=1", Categories: []string{}},
+		{Title: "Second", URL: "https://www.boannews.com/news/articleView.html?idxno=2", Categories: []string{}},
 	}
 	want := []rssdoc.Article{
-		{Title: "First", URL: "https://www.boannews.com/news/articleView.html?idxno=1", Categories: []string{"rss-one"}},
-		{Title: "Second", URL: "https://www.boannews.com/news/articleView.html?idxno=2", Categories: []string{"rss-two"}},
+		{Title: "First", URL: "https://www.boannews.com/news/articleView.html?idxno=1", Categories: []string{"비즈니스", "인사이트"}},
+		{Title: "Second", URL: "https://www.boannews.com/news/articleView.html?idxno=2", Categories: []string{}},
 	}
 
 	// When
@@ -177,15 +177,15 @@ func Test_enrichBoanNewsArticles_leaves_articles_unchanged_when_page_fails(t *te
 		t.Fatal("enrichBoanNewsArticles() error = nil, want error")
 	}
 	if !reflect.DeepEqual(articles, want) {
-		t.Fatalf("articles = %#v, want unchanged %#v", articles, want)
+		t.Fatalf("articles = %#v, want partial progress %#v", articles, want)
 	}
 }
 
-func Test_enrichBoanNewsArticles_limits_page_requests_to_eight(t *testing.T) {
+func Test_enrichBoanNewsArticles_fetches_pages_one_at_a_time(t *testing.T) {
 	// Given
 	var active atomic.Int32
 	var peak atomic.Int32
-	entered := make(chan struct{}, 8)
+	entered := make(chan struct{}, 9)
 	release := make(chan struct{})
 	client := &http.Client{Transport: roundTripFunc(func(request *http.Request) (*http.Response, error) {
 		current := active.Add(1)
@@ -212,22 +212,22 @@ func Test_enrichBoanNewsArticles_limits_page_requests_to_eight(t *testing.T) {
 	go func() {
 		done <- (boanNewsEnricher{client: client}).enrich(ctx, articles)
 	}()
-	for range 8 {
+	for range articles {
 		select {
 		case <-entered:
 		case <-ctx.Done():
-			t.Fatal("eight page requests did not start before timeout")
+			t.Fatal("page request did not start before timeout")
 		}
+		release <- struct{}{}
 	}
-	close(release)
 	err := <-done
 
 	// Then
 	if err != nil {
 		t.Fatalf("enrichBoanNewsArticles() error = %v", err)
 	}
-	if peak.Load() != 8 {
-		t.Fatalf("peak requests = %d, want 8", peak.Load())
+	if peak.Load() != 1 {
+		t.Fatalf("peak requests = %d, want 1", peak.Load())
 	}
 }
 
