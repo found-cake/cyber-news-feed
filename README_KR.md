@@ -4,7 +4,7 @@
 
 [English README](README.md)
 
-이 저장소는 의도적으로 작게 유지합니다. RSS/Atom 피드를 가져오고, 기사 메타데이터를 정규화한 뒤, 소스별 JSON을 `data/rss/` 아래에 저장합니다. 기사 본문 크롤링, LLM 요약/분류, UI는 포함하지 않습니다.
+이 저장소는 의도적으로 작게 유지합니다. RSS/Atom 피드를 가져오고, 기사 메타데이터를 정규화한 뒤, 소스별 JSON을 `data/rss/` 아래에 저장합니다. 기사 본문 크롤링·저장, LLM 요약/분류, UI는 포함하지 않습니다. 보안뉴스만 제한적으로 기사 페이지의 `Classification` 메타데이터를 읽어 발행사가 부여한 카테고리를 보존합니다.
 
 ## 데이터
 
@@ -59,7 +59,7 @@ schema/rss-feed.schema.json
 - `title`
 - `published_at`: 파싱 가능한 경우 UTC RFC3339, 실패하면 `null`
 - `published_raw`: 피드 원문 날짜 문자열
-- `categories`: 피드 카테고리와 필요한 경우 소스 필터 카테고리
+- `categories`: 피드 카테고리와 필요한 경우 소스 필터 카테고리. 보안뉴스는 기사 페이지의 `Classification` 메타데이터를 사용합니다.
 - `description`: 피드의 description 또는 Atom summary
 - `feed_id`: 피드 GUID 또는 Atom ID
 - `authors`
@@ -145,6 +145,7 @@ if ok {
   - 앞뒤 공백 제거
   - fragment 제거
   - trailing slash 제거
+  - 구형·신형 보안뉴스 기사 URL을 `https://www.boannews.com/news/articleView.html?idxno=<id>`로 통합
 - 기본 보관 기간은 10일입니다.
 - 실행 시 `RETENTION_DAYS`로 보관 기간을 바꿀 수 있습니다.
 
@@ -187,7 +188,7 @@ gh release download --pattern "cyber-news-feed-linux-amd64" --output cyber-news-
 
 요구사항:
 
-- Go 1.26 라인
+- Go 1.27 라인
 
 테스트:
 
@@ -217,6 +218,5 @@ RETENTION_DAYS=30 ./cyber-news-feed
 
 ## 참고
 
-- BoanNews RSS는 EUC-KR을 사용합니다. Go XML decoder의 charset hook으로 변환 처리합니다.
-- 하베스터는 피드에 포함된 콘텐츠만 보존합니다. 기사 페이지를 별도로 가져오지 않습니다.
+- 보안뉴스는 `https://www.boannews.com/rss/allArticle.xml`을 사용하며, 각 기사 페이지의 `<meta name="Classification">` 계층을 `>` 기준으로 나눠 순서대로 `categories`에 저장합니다.
 - 피드 HTML 안의 `&amp;`, `&#8217;` 같은 HTML entity는 피드 원문에서 온 값이므로 그대로 보존합니다.

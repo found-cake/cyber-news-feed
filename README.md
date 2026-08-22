@@ -4,7 +4,7 @@ Cyber security RSS feeds harvested into static JSON files.
 
 [한국어 README](README_KR.md)
 
-This repository is intentionally small: it fetches RSS/Atom feeds, normalizes article metadata, and publishes per-source JSON under `data/rss/`. It does not crawl article bodies, summarize with LLMs, classify content, or provide a UI.
+This repository is intentionally small: it fetches RSS/Atom feeds, normalizes article metadata, and publishes per-source JSON under `data/rss/`. It does not crawl or store article bodies, summarize with LLMs, classify content with LLMs, or provide a UI. BoanNews is the narrow exception for page access: the harvester reads its article-page `Classification` metadata to preserve the publisher's categories.
 
 ## Data
 
@@ -59,7 +59,7 @@ Each article includes:
 - `title`
 - `published_at`: UTC RFC3339 when parsable, otherwise `null`
 - `published_raw`: original feed date string
-- `categories`: feed categories plus source filter categories where applicable
+- `categories`: feed categories plus source filter categories where applicable; BoanNews categories come from article-page `Classification` metadata
 - `description`: feed-provided description or Atom summary
 - `feed_id`: feed GUID or Atom ID when present
 - `authors`
@@ -145,6 +145,7 @@ if ok {
   - trim whitespace
   - remove URL fragments
   - remove trailing slashes
+  - map legacy and current BoanNews article URLs to `https://www.boannews.com/news/articleView.html?idxno=<id>`
 - Default retention is 10 days.
 - `RETENTION_DAYS` can override retention at runtime.
 
@@ -187,7 +188,7 @@ If generated RSS data changes, the workflow commits and pushes `data/rss`.
 
 Requirements:
 
-- Go 1.26 line
+- Go 1.27 line
 
 Run tests:
 
@@ -217,6 +218,5 @@ Output is written to `data/rss/`.
 
 ## Notes
 
-- BoanNews uses EUC-KR RSS; the parser handles charset conversion through Go's XML decoder charset hook.
-- The harvester preserves feed-provided content only. It does not fetch article pages.
+- BoanNews uses `https://www.boannews.com/rss/allArticle.xml` and splits each article page's `<meta name="Classification">` hierarchy on `>` into ordered `categories`.
 - Feed HTML may contain HTML entities such as `&amp;` or `&#8217;`; those are preserved from the feed.
