@@ -1,10 +1,39 @@
 package source
 
 import (
+	"strings"
 	"testing"
 
 	"github.com/found-cake/cyber-news-feed/internal/feed"
 )
+
+func Test_Default_configures_BoanNews_all_article_feed(t *testing.T) {
+	// Given
+	const wantURL = "https://www.boannews.com/rss/allArticle.xml"
+
+	// When
+	var got Config
+	for _, candidate := range Default() {
+		if candidate.Name == "boannews" {
+			got = candidate
+			break
+		}
+	}
+
+	// Then
+	if got.Name == "" {
+		t.Fatal("boannews source was not configured")
+	}
+	if got.Kind != BoanNews {
+		t.Fatalf("Kind = %v, want BoanNews", got.Kind)
+	}
+	if len(got.Feeds) != 1 || got.Feeds[0].URL != wantURL {
+		t.Fatalf("Feeds = %#v, want only %q", got.Feeds, wantURL)
+	}
+	if strings.TrimSpace(got.Feeds[0].Category) != "" {
+		t.Fatalf("Category = %q, want empty", got.Feeds[0].Category)
+	}
+}
 
 func Test_ArticleFromItem_sets_darkreading_category_when_url_matches_allowed_slug(t *testing.T) {
 	// Given

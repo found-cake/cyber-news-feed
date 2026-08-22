@@ -26,6 +26,7 @@ type Kind int
 
 const (
 	Unfiltered Kind = iota
+	BoanNews
 	TheHackerNews
 	StepSecurity
 	DarkReading
@@ -45,11 +46,9 @@ var darkReadingCategories = []string{
 func Default() []Config {
 	return []Config{
 		{
-			Name: "boannews",
-			Feeds: []Feed{
-				{URL: "https://www.boannews.com/media/news_rss.xml?kind=1", Category: "사건ㆍ사고"},
-				{URL: "http://www.boannews.com/media/news_rss.xml?skind=5", Category: "긴급경보"},
-			},
+			Name:  "boannews",
+			Kind:  BoanNews,
+			Feeds: []Feed{{URL: "https://www.boannews.com/rss/allArticle.xml"}},
 		},
 		{
 			Name: "thehackernews",
