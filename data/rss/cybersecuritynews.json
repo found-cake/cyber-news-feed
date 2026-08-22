@@ -1,15 +1,49 @@
 {
   "schema_version": 1,
   "source": "cybersecuritynews",
-  "updated_at": "2026-08-22T02:00:47Z",
+  "updated_at": "2026-08-22T03:00:47Z",
   "retention_days": 10,
   "status": {
-    "ok": false,
-    "last_success_at": "2026-08-22T00:00:46Z",
-    "last_error_at": "2026-08-22T02:00:47Z",
-    "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+    "ok": true,
+    "last_success_at": "2026-08-22T03:00:47Z",
+    "last_error_at": null,
+    "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:6030762c47c12180e60615be19e73c0fd9663c663317b5d57e076e52be76f741",
+      "url": "https://cybersecuritynews.com/grok-zero-click-attack",
+      "title": "Grok Zero-Click Attack Steals Chat Data Using Encrypted Prompt Injection",
+      "published_at": "2026-08-22T01:31:34Z",
+      "published_raw": "Sat, 22 Aug 2026 01:31:34 +0000",
+      "categories": [
+        "Cyber Security",
+        "Cyber Security News"
+      ],
+      "description": "<p>A newly disclosed attack can turn a routine “summarize this page” request in xAI’s Grok web chat into a silent theft of the user’s name, coarse location, subscription tier, and the prompt history of the active conversation. Adversa AI said in a report shared with Cyber Security News (CSN) that the method, named Cryptographic Context [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/grok-zero-click-attack/\">Grok Zero-Click Attack Steals Chat Data Using Encrypted Prompt Injection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "feed_id": "https://cybersecuritynews.com/?p=160391",
+      "authors": [
+        {
+          "name": "Guru Baran",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [
+        {
+          "url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Grok-Zero-Click-Attack.webp",
+          "kind": "content",
+          "medium": "image"
+        }
+      ],
+      "source_metadata": {
+        "cybersecuritynews": {
+          "guid_is_permalink": "false",
+          "post_id": "160391",
+          "content_encoded": "<p class=\"wp-block-paragraph\">A newly disclosed attack can turn a routine “summarize this page” request in xAI’s Grok web chat into a silent theft of the user’s name, coarse location, subscription tier, and the prompt history of the active conversation.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://adversa.ai/blog/cryptographic-context-injection-grok-data-theft/\">Adversa AI</a> said in a report shared with Cyber Security News (CSN) that the method, named Cryptographic Context Injection, hides attacker commands inside AES-256-GCM ciphertext so input filters never read them, then induces the model to decrypt and trust those commands as its own code-sandbox output.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Lead researcher Rony Utevsky said the payload sits on an ordinary-looking webpage as an encrypted JSON object, next to key material and a short instruction to decrypt it in the agent’s Python runtime. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Static <a href=\"https://cybersecuritynews.com/semantic-chaining-jailbreak-attack/\" target=\"_blank\" rel=\"noreferrer noopener\">guardrails</a> classify text; they do not run PBKDF2 and AES-256-GCM. Unlike older evasion tricks such as Base64 or substitution ciphers, strong encryption cannot be recovered inside the model’s weights, so the only path is the interpreter. Once the sandbox returns plaintext, Grok treats that result the way a program treats its own internal state, not as untrusted web content.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The decrypted instructions then tell the agent to resolve private session context and fold it into a fake “decryption key,” which is really a template string interpolating the victim’s identity and chat history.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Grok is told to open a URL “to fetch additional context,” and its privileged navigation tool loads the attacker-controlled address with the stolen data in the query string.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In the proof of concept against Grok 4.5 Fast on grok.com, the transfer finished with no confirmation dialog and no visible warning, a true zero-click outcome on a live production system.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe title=\"Grok chat history leak: zero-click indirect prompt injection\" width=\"696\" height=\"392\" src=\"https://www.youtube.com/embed/FBcHUjnyyY0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Adversa first reported the issue to xAI and its HackerOne program on June 3, 2026. xAI acknowledged the ticket but offered no mitigation timeline, and follow-ups on August 4 and August 10 drew no further reply.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The researchers said they could still reproduce the chain on August 19. Across about 20 attempts since June, the success rate was roughly 40 percent, with failures coming from decryption errors rather than a blocked prompt. There is no CVE, no public patch, and no reported abuse in the wild. Operational payloads were withheld.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The same cryptographic backbone was shown against Google Gemini in Deep Thinking mode, identified from extracted system text as Gemini 3 Flash on the paid web tier. A single prompt asked Gemini to decrypt a blob whose plaintext was a fabricated Python traceback carrying a fake safety-policy callback and a first-person reasoning prefix.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Because the model treated the sandbox result as its own work, it produced restricted content its filters normally suppress and, with a modified payload, reproduced system instructions it is told not to disclose.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Google was not notified because jailbreaks sit outside its vulnerability program. Adversa said the Gemini success rate had fallen sharply by August, possibly due to filter or model changes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The finding lands in a wider pattern of <a href=\"https://cybersecuritynews.com/chatgpt-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">chat data theft</a> from agentic assistants that can browse, run code, and call outbound tools. Prompt injection is no longer just a string pasted into a prompt; it is a fight over any context an agent treats as its own, including tool output and runtime state.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Utevsky argued the fix lives in the harness, not the weights: quarantine fetched pages away from privileged tools, require consent for new destinations with fully resolved arguments, keep per-session traces, and alert on the sequence of untrusted content, code execution, and unexpected egress.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Until Grok separates provenance on that path, users should treat summarizing unknown pages as an action that can expose the current chat.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Prevent incidents due to slow investigations. Power your Tier 1 with threat intelligence from 15K SOCs:&nbsp;<a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=lookup+tier+1&amp;utm_content=ti+lookup+sales&amp;utm_term=190826#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/grok-zero-click-attack/\">Grok Zero-Click Attack Steals Chat Data Using Encrypted Prompt Injection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+        }
+      }
+    },
     {
       "id": "sha256:6481a606766c8b9721e541bc3812ec835d636d86cf1f8dfa787549914ad2e98e",
       "url": "https://cybersecuritynews.com/mythos-5-claude-security-scanning",
