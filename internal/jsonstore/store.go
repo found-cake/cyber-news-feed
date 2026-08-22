@@ -2,7 +2,8 @@ package jsonstore
 
 import (
 	"bytes"
-	"encoding/json"
+	"encoding/json/jsontext"
+	"encoding/json/v2"
 	"errors"
 	"fmt"
 	"os"
@@ -29,7 +30,7 @@ func Load(outputDir string, source string) (rssjson.Document, error) {
 	}()
 
 	var doc rssjson.Document
-	if err := json.NewDecoder(file).Decode(&doc); err != nil {
+	if err := json.UnmarshalRead(file, &doc); err != nil {
 		return rssjson.Document{}, fmt.Errorf("decode %s: %w", path, err)
 	}
 	return doc, nil
@@ -41,10 +42,13 @@ func Write(outputDir string, doc rssjson.Document) error {
 	}
 	path := filepath.Join(outputDir, doc.Source+".json")
 	var buf bytes.Buffer
-	encoder := json.NewEncoder(&buf)
-	encoder.SetEscapeHTML(false)
-	encoder.SetIndent("", "  ")
-	if err := encoder.Encode(doc); err != nil {
+	encoder := jsontext.NewEncoder(
+		&buf,
+		jsontext.EscapeForHTML(false),
+		jsontext.WithIndent(" "),
+	)
+
+	if err := json.MarshalEncode(encoder, doc); err != nil {
 		return fmt.Errorf("encode %s: %w", doc.Source, err)
 	}
 	if err := os.WriteFile(path, buf.Bytes(), 0o644); err != nil {
