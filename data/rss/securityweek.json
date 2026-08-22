@@ -1,15 +1,50 @@
 {
   "schema_version": 1,
   "source": "securityweek",
-  "updated_at": "2026-08-22T08:00:46Z",
+  "updated_at": "2026-08-22T09:01:51Z",
   "retention_days": 10,
   "status": {
     "ok": true,
-    "last_success_at": "2026-08-22T08:00:46Z",
+    "last_success_at": "2026-08-22T09:01:51Z",
     "last_error_at": null,
     "last_error": null
   },
   "articles": [
+    {
+      "id": "sha256:f163900cf27ea467e6fa7e0f9b06dbc9f5eef92463643bf24d6d46039c7abf28",
+      "url": "https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in-the-spotlight",
+      "title": "Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight",
+      "published_at": "2026-08-22T08:30:00Z",
+      "published_raw": "Sat, 22 Aug 2026 08:30:00 +0000",
+      "categories": [
+        "Malware & Threats",
+        "Android malware",
+        "banking trojan",
+        "malware",
+        "trojan"
+      ],
+      "description": "<p>The spyware-equipped Manic, a persistent Grandoreiro campaign in Latin America and Europe, and an expanded ToxicPanda 2.0 malware.</p>\n<p>The post <a href=\"https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in-the-spotlight/\">Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "feed_id": "https://www.securityweek.com/?p=48795",
+      "authors": [
+        {
+          "name": "Eduard Kovacs",
+          "uri": "",
+          "email": ""
+        }
+      ],
+      "media": [],
+      "source_metadata": {
+        "securityweek": {
+          "image": {
+            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+            "title": "SecurityWeek",
+            "link": "https://www.securityweek.com/",
+            "width": "32",
+            "height": "32"
+          }
+        }
+      }
+    },
     {
       "id": "sha256:0d0988d4329f3c35a81d3a591a981aad989631e8019a55caa3fd33b457c250bd",
       "url": "https://www.securityweek.com/former-nsa-director-paul-nakasone-launches-national-security-advisory-firm",
@@ -2315,77 +2350,6 @@
       ],
       "description": "<p>LiteLLM was compromised through the Trivy hack and abused to distribute information-stealing malware to its users.</p>\n<p>The post <a href=\"https://www.securityweek.com/over-2500-organizations-impacted-by-litellm-supply-chain-attack/\">Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
       "feed_id": "https://www.securityweek.com/?p=48558",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:44822d5dc0002539eab64ca6eb80de59a398a90d9fd7c17f8b1fedeff0995433",
-      "url": "https://www.securityweek.com/fresh-windows-zero-day-exploited-in-north-korean-cyberattacks",
-      "title": "Fresh Windows Zero-Day Exploited in North Korean Cyberattacks",
-      "published_at": "2026-08-12T08:45:53Z",
-      "published_raw": "Wed, 12 Aug 2026 08:45:53 +0000",
-      "categories": [
-        "Vulnerabilities",
-        "APT",
-        "exploited",
-        "Lazarus",
-        "North Korea",
-        "Windows",
-        "Zero-Day"
-      ],
-      "description": "<p>The bug allowed attackers to gain full control of the victims’ systems and deploy the ForestTiger backdoor.</p>\n<p>The post <a href=\"https://www.securityweek.com/fresh-windows-zero-day-exploited-in-north-korean-cyberattacks/\">Fresh Windows Zero-Day Exploited in North Korean Cyberattacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48556",
-      "authors": [
-        {
-          "name": "Ionut Arghire",
-          "uri": "",
-          "email": ""
-        }
-      ],
-      "media": [],
-      "source_metadata": {
-        "securityweek": {
-          "image": {
-            "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-            "title": "SecurityWeek",
-            "link": "https://www.securityweek.com/",
-            "width": "32",
-            "height": "32"
-          }
-        }
-      }
-    },
-    {
-      "id": "sha256:f96a049beaa463853a0a98c4923de82773b0caa19102b8e901a5f6896da834cf",
-      "url": "https://www.securityweek.com/ivanti-epm-update-patches-remotely-exploitable-flaws",
-      "title": "Ivanti EPM Update Patches Remotely Exploitable Flaws",
-      "published_at": "2026-08-12T08:14:46Z",
-      "published_raw": "Wed, 12 Aug 2026 08:14:46 +0000",
-      "categories": [
-        "Vulnerabilities",
-        "Ivanti",
-        "Patch",
-        "vulnerability"
-      ],
-      "description": "<p>The vulnerabilities could be exploited to leak credentials for external SQL connections or crash an agent service.</p>\n<p>The post <a href=\"https://www.securityweek.com/ivanti-epm-update-patches-remotely-exploitable-flaws/\">Ivanti EPM Update Patches Remotely Exploitable Flaws</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "feed_id": "https://www.securityweek.com/?p=48554",
       "authors": [
         {
           "name": "Ionut Arghire",
