@@ -3,11 +3,13 @@ package harvester
 import (
 	"context"
 	"encoding/json"
+	"io"
 	"log/slog"
 	"net/http"
 	"net/http/httptest"
 	"os"
 	"path/filepath"
+	"strings"
 	"testing"
 
 	"github.com/found-cake/cyber-news-feed/internal/feed"
@@ -115,6 +117,72 @@ func Test_runWithSources_writes_securityweek_image_metadata(t *testing.T) {
 	assertSecurityWeekImage(t, cfg.OutputDir, "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg")
 }
 
+func Test_fetchSource_enriches_BoanNews_categories_from_article_pages(t *testing.T) {
+	// Given
+	client := &http.Client{Transport: roundTripFunc(func(request *http.Request) (*http.Response, error) {
+		switch request.URL.Hostname() {
+		case "feed.test":
+			return rssResponse(`
+<item><title>First</title><link>https://www.boannews.com/news/articleView.html?idxno=1</link><category>rss</category></item>
+<item><title>Second</title><link>https://www.boannews.com/news/articleView.html?idxno=2</link><category>rss</category></item>`), nil
+		case "www.boannews.com":
+			classification := "비즈니스 &gt; 인사이트"
+			if request.URL.Query().Get("idxno") == "2" {
+				classification = "사건·사고 &gt; 국제"
+			}
+			return htmlResponse(http.StatusOK, `<meta name="Classification" content="`+classification+`">`), nil
+		default:
+			return htmlResponse(http.StatusNotFound, "not found"), nil
+		}
+	})}
+	src := source.Config{
+		Name:  "boannews",
+		Kind:  source.BoanNews,
+		Feeds: []source.Feed{{URL: "https://feed.test/rss"}},
+	}
+
+	// When
+	articles, err := fetchSource(context.Background(), client, src, false)
+
+	// Then
+	if err != nil {
+		t.Fatalf("fetchSource() error = %v", err)
+	}
+	if len(articles) != 2 {
+		t.Fatalf("articles = %#v, want 2", articles)
+	}
+	want := [][]string{{"비즈니스", "인사이트"}, {"사건·사고", "국제"}}
+	for index := range articles {
+		if len(articles[index].Categories) != len(want[index]) || articles[index].Categories[0] != want[index][0] || articles[index].Categories[1] != want[index][1] {
+			t.Fatalf("article %d categories = %#v, want %#v", index, articles[index].Categories, want[index])
+		}
+	}
+}
+
+func Test_fetchSource_does_not_fetch_article_pages_for_other_sources(t *testing.T) {
+	// Given
+	requests := 0
+	client := &http.Client{Transport: roundTripFunc(func(request *http.Request) (*http.Response, error) {
+		requests++
+		return rssResponse(`<item><title>Article</title><link>https://www.boannews.com/news/articleView.html?idxno=1</link><category>rss</category></item>`), nil
+	})}
+	src := source.Config{Name: "other", Feeds: []source.Feed{{URL: "https://feed.test/rss"}}}
+
+	// When
+	articles, err := fetchSource(context.Background(), client, src, false)
+
+	// Then
+	if err != nil {
+		t.Fatalf("fetchSource() error = %v", err)
+	}
+	if requests != 1 {
+		t.Fatalf("requests = %d, want only the feed request", requests)
+	}
+	if len(articles) != 1 || len(articles[0].Categories) != 1 || articles[0].Categories[0] != "rss" {
+		t.Fatalf("articles = %#v", articles)
+	}
+}
+
 func writeTestRSS(w http.ResponseWriter, title string, link string) {
 	w.Header().Set("Content-Type", "application/rss+xml")
 	_, _ = w.Write([]byte(`<?xml version="1.0" encoding="UTF-8"?>
@@ -122,6 +190,16 @@ func writeTestRSS(w http.ResponseWriter, title string, link string) {
   <title>` + title + `</title>
   <link>` + link + `</link>
 </item></channel></rss>`))
+}
+
+func rssResponse(items string) *http.Response {
+	return &http.Response{
+		StatusCode: http.StatusOK,
+		Header:     http.Header{"Content-Type": []string{"application/rss+xml"}},
+		Body: io.NopCloser(strings.NewReader(
+			`<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>` + items + `</channel></rss>`,
+		)),
+	}
 }
 
 func assertSourceOK(t *testing.T, outputDir string, name string, articles int) {

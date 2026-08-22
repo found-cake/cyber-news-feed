@@ -121,6 +121,12 @@ func fetchSource(ctx context.Context, client *http.Client, src source.Config, sk
 			}
 		}
 	}
+	if src.Kind == source.BoanNews {
+		enricher := boanNewsEnricher{client: client, skipCache: skipCache}
+		if err := enricher.enrich(ctx, articles); err != nil {
+			return nil, fmt.Errorf("enrich boannews articles: %w", err)
+		}
+	}
 	return articles, nil
 }
 
