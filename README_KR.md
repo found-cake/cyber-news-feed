@@ -13,6 +13,7 @@
 | 소스 | 파일 |
 | --- | --- |
 | 보안뉴스 | `data/rss/boannews.json` |
+| 데일리시큐 | `data/rss/dailysecu.json` |
 | The Hacker News | `data/rss/thehackernews.json` |
 | Cyber Security News | `data/rss/cybersecuritynews.json` |
 | StepSecurity | `data/rss/stepsecurity.json` |

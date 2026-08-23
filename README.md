@@ -4,7 +4,7 @@ Cyber security RSS feeds harvested into static JSON files.
 
 [한국어 README](README_KR.md)
 
-This repository is intentionally small: it fetches RSS/Atom feeds, normalizes article metadata, and publishes per-source JSON under `data/rss/`. It does not crawl or store article bodies, summarize with LLMs, classify content with LLMs, or provide a UI. BoanNews is the narrow exception for page access: the harvester reads its article-page `Classification` metadata to preserve the publisher's categories.
+This repository is intentionally small: it fetches RSS/Atom feeds, normalizes article metadata, and publishes per-source JSON under `data/rss/`. It does not crawl or store article bodies, summarize with LLMs, classify content with LLMs, or provide a UI. 보안뉴스 is the narrow exception for page access: the harvester reads its article-page `Classification` metadata to preserve the publisher's categories.
 
 ## Data
 
@@ -12,7 +12,8 @@ Source JSON files:
 
 | Source | File |
 | --- | --- |
-| BoanNews | `data/rss/boannews.json` |
+| 보안뉴스 | `data/rss/boannews.json` |
+| 데일리시큐 | `data/rss/dailysecu.json` |
 | The Hacker News | `data/rss/thehackernews.json` |
 | Cyber Security News | `data/rss/cybersecuritynews.json` |
 | StepSecurity | `data/rss/stepsecurity.json` |
@@ -59,7 +60,7 @@ Each article includes:
 - `title`
 - `published_at`: UTC RFC3339 when parsable, otherwise `null`
 - `published_raw`: original feed date string
-- `categories`: feed categories plus source filter categories where applicable; BoanNews categories come from article-page `Classification` metadata
+- `categories`: feed categories plus source filter categories where applicable; 보안뉴스 categories come from article-page `Classification` metadata
 - `description`: feed-provided description or Atom summary
 - `feed_id`: feed GUID or Atom ID when present
 - `authors`
@@ -145,7 +146,7 @@ if ok {
   - trim whitespace
   - remove URL fragments
   - remove trailing slashes
-  - map legacy and current BoanNews article URLs to `https://www.boannews.com/news/articleView.html?idxno=<id>`
+  - map legacy and current 보안뉴스 article URLs to `https://www.boannews.com/news/articleView.html?idxno=<id>`
 - Default retention is 10 days.
 - `RETENTION_DAYS` can override retention at runtime.
 
@@ -218,5 +219,5 @@ Output is written to `data/rss/`.
 
 ## Notes
 
-- BoanNews uses `https://www.boannews.com/rss/allArticle.xml` and splits each article page's `<meta name="Classification">` hierarchy on `>` into ordered `categories`.
+- 보안뉴스 uses `https://www.boannews.com/rss/allArticle.xml` and splits each article page's `<meta name="Classification">` hierarchy on `>` into ordered `categories`.
 - Feed HTML may contain HTML entities such as `&amp;` or `&#8217;`; those are preserved from the feed.
