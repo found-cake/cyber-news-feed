@@ -50,6 +50,7 @@ func Default() []Config {
 			Kind:  BoanNews,
 			Feeds: []Feed{{URL: "https://www.boannews.com/rss/allArticle.xml"}},
 		},
+		{Name: "dailysecu", Feeds: []Feed{{URL: "https://www.dailysecu.com/rss/S1N2.xml", Category: "이슈"}}},
 		{
 			Name: "thehackernews",
 			Kind: TheHackerNews,
@@ -106,7 +107,7 @@ func categoriesForItem(source Config, sourceFeed Feed, item feed.Item, canonical
 		}
 		return []string{}, false
 	default:
-		return mergedCategories(nil, item.Categories), true
+		return mergedCategories([]string{sourceFeed.Category}, item.Categories), true
 	}
 }
 

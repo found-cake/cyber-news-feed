@@ -35,6 +35,52 @@ func Test_Default_configures_BoanNews_all_article_feed(t *testing.T) {
 	}
 }
 
+func Test_Default_configures_DailySecu_issue_feed(t *testing.T) {
+	// Given
+	const wantURL = "https://www.dailysecu.com/rss/S1N2.xml"
+
+	// When
+	var got Config
+	for _, candidate := range Default() {
+		if candidate.Name == "dailysecu" {
+			got = candidate
+			break
+		}
+	}
+
+	// Then
+	if got.Name == "" {
+		t.Fatal("dailysecu source was not configured")
+	}
+	if got.Kind != Unfiltered {
+		t.Fatalf("Kind = %v, want Unfiltered", got.Kind)
+	}
+	if len(got.Feeds) != 1 || got.Feeds[0].URL != wantURL {
+		t.Fatalf("Feeds = %#v, want only %q", got.Feeds, wantURL)
+	}
+	if got.Feeds[0].Category != "이슈" {
+		t.Fatalf("Category = %q, want 이슈", got.Feeds[0].Category)
+	}
+}
+
+func Test_ArticleFromItem_applies_feed_category_for_unfiltered_source(t *testing.T) {
+	// Given
+	source := Config{Name: "dailysecu"}
+	sourceFeed := Feed{Category: "이슈"}
+	item := feed.Item{Title: "DailySecu issue", URL: "https://www.dailysecu.com/news/article/1"}
+
+	// When
+	got, include := ArticleFromItem(source, sourceFeed, item)
+
+	// Then
+	if !include {
+		t.Fatal("expected dailysecu item to be included")
+	}
+	if len(got.Categories) != 1 || got.Categories[0] != "이슈" {
+		t.Fatalf("Categories = %#v, want 이슈", got.Categories)
+	}
+}
+
 func Test_ArticleFromItem_sets_darkreading_category_when_url_matches_allowed_slug(t *testing.T) {
 	// Given
 	source := Config{Name: "darkreading", Kind: DarkReading}
