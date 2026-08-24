@@ -1,15 +1,48 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-08-24T11:00:51Z",
+ "updated_at": "2026-08-24T12:00:49Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-24T11:00:51Z",
+  "last_success_at": "2026-08-24T12:00:49Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ee384f3c1de44eba227cabe70fbc8fbcbed819ed6d90f9ab2b30e85b9f275c1e",
+   "url": "https://www.securityweek.com/91-vulnerabilities-patched-in-spring-application-framework",
+   "title": "91 Vulnerabilities Patched in Spring Application Framework",
+   "published_at": "2026-08-24T11:58:28Z",
+   "published_raw": "Mon, 24 Aug 2026 11:58:28 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "Spring",
+    "vulnerability"
+   ],
+   "description": "<p>More than 200 vulnerabilities have been patched to date this year, compared to only 16 in 2025 and 22 in 2024. </p>\n<p>The post <a href=\"https://www.securityweek.com/91-vulnerabilities-patched-in-spring-application-framework/\">91 Vulnerabilities Patched in Spring Application Framework</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=48823",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:7a4995fec800fc6270ba557ef2a91c6c258fcf9ae5c8f775936c371949668abb",
    "url": "https://www.securityweek.com/venezuelan-gets-record-federal-prison-term-for-atm-jackpotting",
@@ -1753,74 +1786,6 @@
    ],
    "description": "<p>A threat actor is claiming the exfiltration of millions of records from McDonald’s, TCS, Vodafone, and other large organizations.</p>\n<p>The post <a href=\"https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/\">Fortune 500 Companies Hit in Azure Data Theft Campaign</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=48637",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:6329661ced79a53288719a5e1f92650db9bd9a1584e178f9a8ede0917985b36a",
-   "url": "https://www.securityweek.com/in-other-news-rapid7-layoffs-hacking-a-boeing-737-refrigeration-system-vulnerabilities",
-   "title": "In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities",
-   "published_at": "2026-08-14T11:57:51Z",
-   "published_raw": "Fri, 14 Aug 2026 11:57:51 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "In Other News"
-   ],
-   "description": "<p>Noteworthy stories that might have slipped under the radar: government AI platform deal sparks outrage, North Korean IT worker breaches federal agency, DEF CON attendee blamed for Delta flight disruption.</p>\n<p>The post <a href=\"https://www.securityweek.com/in-other-news-rapid7-layoffs-hacking-a-boeing-737-refrigeration-system-vulnerabilities/\">In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48628",
-   "authors": [
-    {
-     "name": "SecurityWeek News",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:d74cb019f78a666863ecf67bf4ef2515f4cefb4a553654015e5b59042906b077",
-   "url": "https://www.securityweek.com/trivy-not-litellm-behind-the-2500-org-compromise",
-   "title": "Trivy, Not LiteLLM Behind the 2,500 Org Compromise",
-   "published_at": "2026-08-14T11:35:23Z",
-   "published_raw": "Fri, 14 Aug 2026 11:35:23 +0000",
-   "categories": [
-    "Supply Chain Security",
-    "Featured",
-    "LiteLLM",
-    "Supply Chain",
-    "supply chain attack",
-    "Trivy"
-   ],
-   "description": "<p>Over 95% of the affected companies were exposed before the malicious LiteLLM packages were published.</p>\n<p>The post <a href=\"https://www.securityweek.com/trivy-not-litellm-behind-the-2500-org-compromise/\">Trivy, Not LiteLLM Behind the 2,500 Org Compromise</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48624",
    "authors": [
     {
      "name": "Ionut Arghire",
