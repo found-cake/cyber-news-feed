@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-08-24T10:00:47Z",
+ "updated_at": "2026-08-24T11:00:51Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-24T10:00:47Z",
+  "last_success_at": "2026-08-24T11:00:51Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:1c29473a62cc27e5624764c71d557ba696f8e0a7174462bdaec6c77ca42bd683",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw",
+   "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
+   "published_at": "2026-08-24T10:45:12Z",
+   "published_raw": "Mon, 24 Aug 2026 06:45:12 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:724ab84a8a12c9f8af69ee896fb0f6c2c98fdd3a3873cd9345c20ef5a3d3ef26",
    "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play",
@@ -170,7 +191,7 @@
     "security",
     "Microsoft"
    ],
-   "description": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
+   "description": "Microsoft has patched multiple maximum-severity vulnerabilities in Entra ID, Azure Arc, and Exchange Online that allowed attackers to gain remote code execution and escalate privileges. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
    "authors": [
     {
@@ -1024,27 +1045,6 @@
    ],
    "description": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:15557cd9aac01ee0044ae9e536af784b70824028c490e1a74e51e12432bb1388",
-   "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts",
-   "title": "RingCentral data breach exposed info of 1.6 million accounts",
-   "published_at": "2026-08-14T10:52:05Z",
-   "published_raw": "Fri, 14 Aug 2026 06:52:05 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
    "authors": [
     {
      "name": "Sergiu Gatlan",
