@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-08-24T17:00:51Z",
+ "updated_at": "2026-08-24T18:00:49Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-24T17:00:51Z",
+  "last_success_at": "2026-08-24T18:00:49Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b0e5905ea4fd77161e397083672f9ed1672b4097a233b7b6035b0e376bee194e",
+   "url": "https://cybersecuritynews.com/zimbra-collaboration-suite-vulnerability-exploited",
+   "title": "Zimbra Collaboration Suite Vulnerability Actively Exploited in the Wild",
+   "published_at": "2026-08-24T17:04:30Z",
+   "published_raw": "Mon, 24 Aug 2026 17:04:30 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Vulnerability",
+    "cyber security"
+   ],
+   "description": "<p>CERT Polska has warned that threat actors are actively exploiting CVE-2026-73570, a critical OS command-injection vulnerability in Zimbra Collaboration Suite that allows remote, unauthenticated attackers to execute arbitrary shell commands as the zimbra user. The vulnerability affects Zimbra installations in which the SNMP trap service is enabled via the snmp_notify parameter and the swatchdog service [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/zimbra-collaboration-suite-vulnerability-exploited/\">Zimbra Collaboration Suite Vulnerability Actively Exploited in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=160497",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Zimbra-Collaboration-Suite-Vulnerability-Actively-Exploited-in-the-Wild.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "160497",
+     "content_encoded": "<p class=\"wp-block-paragraph\">CERT Polska has warned that threat actors are <a href=\"https://cybersecuritynews.com/zimbra-rce-vulnerability-exploited/\" target=\"_blank\" rel=\"noreferrer noopener\">actively exploiting CVE-2026-73570</a>, a critical OS command-injection vulnerability in Zimbra Collaboration Suite that allows remote, unauthenticated attackers to execute arbitrary shell commands as the zimbra user.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability affects Zimbra installations in which the SNMP trap service is enabled via the snmp_notify parameter and the swatchdog service is running.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Since swatchdog is enabled by default, exposed servers with SNMP notifications configured may face a heightened risk of compromise. Successful exploitation could give attackers a foothold on vulnerable mail servers without requiring valid credentials.</p>\n\n\n\n<p class=\"wp-block-paragraph\">From there, attackers may<a href=\"https://cybersecuritynews.com/zimbra-snmp-command-injection-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\"> execute malicious commands</a>, create or modify files, deploy web shells, steal email data, establish persistence, or use the compromised server to target other systems within an organization.</p>\n\n\n\n<h2 id=\"h-zimbra-collaboration-suite-vulnerability-exploited\" class=\"wp-block-heading\"><strong>Zimbra Collaboration Suite Vulnerability  Exploited</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">CERT Polska said the issue has already been observed in an ongoing exploitation campaign. Organizations using Zimbra Collaboration Suite should therefore treat the vulnerability as an immediate incident-response and <a href=\"https://cybersecuritynews.com/defender-driver-can-be-weaponized/\" target=\"_blank\" rel=\"noreferrer noopener\">patch-management</a> priority rather than a routine software update.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Zimbra fixed CVE-2026-73570 in version 10.1.20. Administrators should verify the installed Zimbra version and upgrade affected systems to a patched release as soon as possible.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Systems that cannot be updated immediately should be reviewed for whether SNMP trap functionality is necessary and whether the snmp_notify configuration is enabled.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Security teams should also inspect Zimbra logs for suspicious changes in service status. Relevant entries may show an unfamiliar service or command payload changing from “stopped” to “running,” or from “running” to “stopped.”</p>\n\n\n\n<p class=\"wp-block-paragraph\">These events may indicate that an attacker used the vulnerable component to trigger malicious commands through the swatchdog service.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should specifically review /var/log/zimbra.log for unexpected “Service status change” records. Any service names, command strings, or payloads that do not match normal operational activity should be investigated.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://moje.cert.pl/komunikaty/2026/145/aktywnie-wykorzystywana-podatnosc-w-zimbra-collaboration-suite/\" target=\"_blank\" rel=\"noreferrer noopener\">CERT Polska also recommends</a><a href=\"https://moje.cert.pl/komunikaty/2026/145/aktywnie-wykorzystywana-podatnosc-w-zimbra-collaboration-suite/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\"> </a>checking for recently created files owned by the zimbra user. The highest-priority directories include <code>/opt/zimbra/jetty/webapps/</code>, <code>/opt/zimbra/jetty_base/webapps/</code>, and<code> /tmp/</code>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Web application directories are especially important because attackers often place JSP-based web shells or other malicious application files there to maintain remote access after initial exploitation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Files created or modified in the past 30 days should be reviewed for unusual names, obfuscated code, unexpected archive files, executable scripts, unauthorized JSP files, and outbound network activity associated with the Zimbra server.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If signs of compromise are found, organizations should isolate the affected server, preserve logs and suspicious files for <a href=\"https://cybersecuritynews.com/forensic-analysis-in-cybersecurity/\" target=\"_blank\" rel=\"noreferrer noopener\">forensic analysis</a>, rotate potentially exposed credentials, and investigate connected systems for lateral movement. CERT Polska has requested that evidence of suspected exploitation be reported to its incident-response team.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The active exploitation of CVE-2026-73570 highlights the continued targeting of internet-facing email infrastructure. Prompt patching, log review, and web-shell hunting are essential to reduce the risk of a full Zimbra server compromise.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Prevent incidents due to slow investigations. Power your Tier 1 with threat intelligence from 15K SOCs:&nbsp;<a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=lookup+tier+1&amp;utm_content=ti+lookup+sales&amp;utm_term=190826#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/zimbra-collaboration-suite-vulnerability-exploited/\">Zimbra Collaboration Suite Vulnerability Actively Exploited in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:210f79dd4ce4e0a1e80c940c12d92f6f48e539650e912e440309ae88d0429466",
    "url": "https://cybersecuritynews.com/microsoft-teams-policy-to-block-bots",
