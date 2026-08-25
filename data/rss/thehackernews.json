@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-08-25T12:00:47Z",
+ "updated_at": "2026-08-25T13:00:48Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-25T12:00:47Z",
+  "last_success_at": "2026-08-25T13:00:48Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -598,6 +598,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN5GzIjo1DOb9leWRsG7hi5zemNCi6kb_NBf-391nF9pphXhTgf8DZLMlk-fUyp-j4rT_cFv4coBpP821rfQkUc4ydAu5YQBcn9Y6nj-SeQGDNu10DmSN2JYDmWJTzLUSXsvDYPTBQ_cQkkCFAIkdMCyRgRv5YIPdMgkp62BtqaYE49b3aWnm4QbYM7YeK/s260-e100/vmware.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:dd2b5b5f2275decff5b10d61b111ac2ec41bc444e9f445e90a4b03f801e63500",
+   "url": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
+   "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
+   "published_at": "2026-08-25T12:43:51Z",
+   "published_raw": "2026-08-25T18:13:51.158+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted notebook, according to VulnCheck's CVE Numbering Authority (CNA) record.\n\nThe CNA record says the command can run as a local subprocess when the notebook is opened in edit mode.\n\nThe vulnerability, tracked",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1490089077843018934",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpC_dsMXsEscdzMT8fjZ3uZ86XgjBqYcYWA7ZodJJUvbK6vnmafx_dANiNsjoAeqYwDxzqeTerWaWEIMIZSmp7CqfynzhkfKEnuGIoizK5vihRhSJIeOVn4cK3CdIFjnURkvQvI1VX-Gm11mqNmxOQPVK5loEBRZ2ELFzLc1Y8C_z_ajrA5beUowEfwg0/s260-e100/marimo.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
