@@ -1,15 +1,96 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-08-25T11:00:46Z",
+ "updated_at": "2026-08-25T12:00:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-25T11:00:46Z",
+  "last_success_at": "2026-08-25T12:00:47Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:99cf59e09495b7a8449fec2e71cc754534521f926995cdeab29275e5874c6e48",
+   "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+   "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
+   "published_at": "2026-08-25T11:56:15Z",
+   "published_raw": "2026-08-25T17:26:15.750+05:30",
+   "categories": [
+    "threat-intelligence"
+   ],
+   "description": "Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365 accounts by abusing legitimate login flows and bypassing two-factor authentication.\n\nAccording to ANY.RUN research, 48% of targeted email addresses were potentially compromised. Most of the affected companies are US-based.\n\nMirage2FA Campaign",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6917513361655914313",
+   "authors": [
+    {
+     "name": "Unknown",
+     "uri": "",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSPS7eK6wOjr-bcJ7RjMVB4C03l21IHeGkyUQNGJANpvXsE90ssTzIlECk6HcpnLkw5_4PYTQ7ZP9k8pj2GBmvLnIfFkv6e-0NkLC4ouAf8Hn24SrQY2egjmzprIkgcvfLRHrYrzPYtx6mXKb59jjGazFjHe_7ttNqB-7AX0OB8ZvTI_QpgCA_NCEZY8Q/s260-e100/usa.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:56d9611be30381041ca6374e24e4c7f59c03cb0174041ba05ce92e80340c584a",
+   "url": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
+   "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
+   "published_at": "2026-08-25T11:52:43Z",
+   "published_raw": "2026-08-25T17:22:43.444+05:30",
+   "categories": [
+    "threat-intelligence"
+   ],
+   "description": "Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages.\n\n\"While the malware is simply a single HTML page inside the npm package, and while downloading it wouldn't do harm, the threat actor’s use of npm isn't to infect developers who install it, but to use the",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4588409797174245654",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6XLRNvnqL3SBGR1Hrv9eIrUlQ8Tr6RhA2dwxYZYKiNoh7qZwgA8aGATBHsDqQCD6ilgXGlLdMIs54WZ5jEW4G_TjJiFyQ6u5acpyUE5vdHa-0E-SZwIliX9sTQqcOw6pNG0TlGm-lUQrvdEEKdSOnB-Mep1U7GVVW-qOQiD1PEDItN-lDv3mOjexfo29x/s260-e100/cf-phishing.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:806c3e84fa629ceeb7688d02d9e7e8cf00e83d12d6934cd168138999092cdaf5",
+   "url": "https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html",
+   "title": "E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands",
+   "published_at": "2026-08-25T11:33:44Z",
+   "published_raw": "2026-08-25T17:03:44.434+05:30",
+   "categories": [
+    "threat-intelligence"
+   ],
+   "description": "Cybersecurity researchers are calling attention to a new campaign that employs FTP banners as dead drop resolvers (DDRs) to deliver two previously unreported remote access trojans (RATs) tracked as E4del and PINHOLE.\n\nWhile threat actors are known to abuse legitimate services to point to additional command-and-control (C2) infrastructure and blend in with regular network traffic, the development",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7521393834577995450",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2i7P2s27TjJNZnYUm7sRvosSHWRKaS2x-ITabU2QoWKkFiXRH1ggmPOby95djEZo62zvTn3LviG9HuetNXjY9km-dk9XqX_yNzD0Vh6yUfisio5rUP7c0DPDhW_1J877JL4RVY0QjM2vDXXH62rGegDhL0sSPedL99_Rw8P_z-LM67zUFXCiSI1mXGhoM/s260-e100/ftp-server.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:5b092ef633bf3c926c30772bfadf96803cbaed9369602ea855d5d57567275a0e",
    "url": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
@@ -517,6 +598,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN5GzIjo1DOb9leWRsG7hi5zemNCi6kb_NBf-391nF9pphXhTgf8DZLMlk-fUyp-j4rT_cFv4coBpP821rfQkUc4ydAu5YQBcn9Y6nj-SeQGDNu10DmSN2JYDmWJTzLUSXsvDYPTBQ_cQkkCFAIkdMCyRgRv5YIPdMgkp62BtqaYE49b3aWnm4QbYM7YeK/s260-e100/vmware.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:8e54ac02ed0d70ef7ed0d994e2b7953c72b0dbf13f1586f798d4497617980f1e",
+   "url": "https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html",
+   "title": "Frontier AI: Vulnerability Management's Systemic Revolution",
+   "published_at": "2026-08-25T11:14:07Z",
+   "published_raw": "2026-08-25T16:44:07.933+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also existed for that time and has gone through waves of contention and thankfulness. While this relationship required thoughtful care and feeding from both sides, both sides were aiming to work toward a",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6923108007669130012",
+   "authors": [
+    {
+     "name": "Unknown",
+     "uri": "",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw3Y0aFTDbQ21xc915TfR8Ij8yXtuti3S7fG8opbdhlekh0FmwKsgWcuHXs8kCr01WBmZCInn_OldVjnXtLed_aDiCd41L1kkup8-CXGOkc4YLfZq7dmlkSNiaT4EHNMqcoA10SOr018r6ZElA3HMOOLWi9Ye-99WlJzKtX4vdDgPZSWwfpgT9Eo8mres/s260-e100/sans.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
