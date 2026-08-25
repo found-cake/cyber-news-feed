@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-08-25T08:00:47Z",
+ "updated_at": "2026-08-25T09:00:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-25T08:00:47Z",
+  "last_success_at": "2026-08-25T09:00:47Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:3a1289521b224513b48c5c648766bf4340b62afc687e4d66eb8ef53e3afeb7f0",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208185",
+   "title": "오라클 웹로직 CVSS 10점 취약점 실제 공격…CISA 긴급 경고",
+   "published_at": "2026-08-25T17:56:21Z",
+   "published_raw": "2026-08-25 17:56:21",
+   "categories": [
+    "이슈"
+   ],
+   "description": "미국 사이버보안·인프라보안국(CISA)이 오라클 HTTP 서버와 오라클 웹로직 서버에 영향을 미치는 치명적인 취약점 CVE-2026-21962가 실제 공격에 악용되고 있다고 경고했다.CISA는 8월 24일 이 취약점을 실제 공격에 사용된 취약점을 관리하는 ‘알려진 악용 취약점(KEV)’ 목록에 추가했다. CVSS 점수는 최고 등급인 10.0이다.인증 없이 중요 데이터 접근 가능CVE-2026-21962는 오라클 HTTP 서버와 오라클 웹로직 서버 프록시 플러그인의 접근 권한 관리 과정에서 발생하는 취약점이다.특히 공격에 계정이나 비",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6187e5130d208785d6003cfdefa73b5a72f1ea28a089dba0dcfd269801927544",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208184",
+   "title": "GTA VI 가짜 유출본에 악성코드…113GB 파일 대부분 ‘빈 데이터’",
+   "published_at": "2026-08-25T17:41:39Z",
+   "published_raw": "2026-08-25 17:41:39",
+   "categories": [
+    "이슈"
+   ],
+   "description": "출시를 앞둔 ‘그랜드 테프트 오토 VI'에 대한 높은 관심을 노린 악성코드가 발견됐다.최근 온라인에서는 플레이 가능한 GTA VI 유출본이라고 주장하는 113GB 크기의 파일이 유포됐다. 그러나 분석 결과 파일 대부분은 의미 없는 ‘0’ 데이터였고, 실제 악성코드는 약 50KB에 불과했다.악성코드에는 윈도우 디펜더가 C 드라이브 전체를 검사하지 않도록 제외하는 명령과 다른 보안 프로그램을 강제로 종료하는 기능이 포함돼 있었다. 이용자가 파일을 실행하면 보안 기능이 약화돼 추가 악성코드 감염으로 이어질 수 있다.최근 실제 GTA VI",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "우진영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:7df6804043992664128ad1174599d76e1804f8806d1de0c910f40586f6c9aa0a",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208173",

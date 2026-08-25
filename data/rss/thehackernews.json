@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-08-25T08:00:47Z",
+ "updated_at": "2026-08-25T09:00:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-25T08:00:47Z",
+  "last_success_at": "2026-08-25T09:00:47Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -524,16 +524,16 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:32f4f04d99f80d4410f446901498845d1c102dce6377962b8473d80229e6dd63",
-   "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
-   "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
-   "published_at": "2026-08-15T08:38:46Z",
-   "published_raw": "2026-08-15T14:08:46.306+05:30",
+   "id": "sha256:91c61774da1356e26b3442901aac88f05b34adef90e0c9592ea8cbd3db4742d5",
+   "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+   "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
+   "published_at": "2026-08-25T08:34:07Z",
+   "published_raw": "2026-08-25T14:04:07.086+05:30",
    "categories": [
-    "threat-intelligence"
+    "vulnerability"
    ],
-   "description": "A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts.\n\nThe vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It relates to an instance of insufficient authorization checks and input validation.\n\n\"SAP Commerce Cloud allows an unauthenticated attacker to abuse a default authentication client and submit",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5192906613403480707",
+   "description": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as any WordPress user, including administrators.\n\nThe vulnerabilities, as disclosed by Patchstack, are listed below -\n\n\n  CVE-2026-61979 (CVSS score: 8.1) - An unauthenticated privilege escalation",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8120267473685658819",
    "authors": [
     {
      "name": "Ravie Lakshmanan",
@@ -543,7 +543,7 @@
    ],
    "media": [
     {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8_2sx5UM3v1F5xNjCrlFAeBp6t7ioSfSER_6yl7jFtH3NvB_wwrwdT2Njk21qvm5m_dh2UZ3u-3UnZOWSz9sawqkuPmg0FLwuOEeLYhMlqP8lWjeXhg7ETTrRx19wiPebTSCcGeqC-Gz3zpiYPZz69kKTlL2mWSO1xW_-RotwAT4poWJ8VhQ6yklDDebs/s260-e100/sap-flaw.jpg",
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtxn6tX1r1BmVfN_4cdoh6p5jmcAe3D9ckNhjscacXx5HpxZJAdb1SvIWo404cGlwahzCLyFIRB-MdUjGcQdBLLC5pMwaCB75e9AT5jKvC49cvIP5jGIOB4IjcQGaOpibWbIPKj929DICeMilGRZn5JmVIcVslRm2hWgz5RTXIZK5d2b2N5dlEnRBBwWVO/s260-e100/wordpress-hack.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
