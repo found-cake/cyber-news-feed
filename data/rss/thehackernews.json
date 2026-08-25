@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-08-25T14:00:53Z",
+ "updated_at": "2026-08-25T15:00:52Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-25T14:00:53Z",
+  "last_success_at": "2026-08-25T15:00:52Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -605,6 +605,33 @@
    "source_metadata": {}
   },
   {
+   "id": "sha256:363f9eed78ed7fcf44231a63097b99127efc125ad3e6c60b97a76bea8a3a1582",
+   "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
+   "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
+   "published_at": "2026-08-25T14:07:37Z",
+   "published_raw": "2026-08-25T19:37:37.177+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside the model itself.\n\nThe findings were shared with The Hacker News ahead of publication, and the report says Oasis Security reported them to NVIDIA's Product Security Incident",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7219091928774777391",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMaJs9yp_YLYc3dgsmzjU4_ma-6DC3KNpG4d3KhKtoIuhtpbYSnK0Wed5_8a0Jm6epc_RdLE9PVMO0FnkH7DFwRAI7lBZBXImFEu1emv-OarT-LPYE-QymTXPMkmDsYBXsz1TB3gASsiAEgZ4Jvt1YzQM3KHYpV0HMck686hTcXB7pn7uqLu2uTLVgPyE/s260-e100/nvidia.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
    "id": "sha256:dd2b5b5f2275decff5b10d61b111ac2ec41bc444e9f445e90a4b03f801e63500",
    "url": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
    "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
@@ -1151,7 +1178,7 @@
    "published_at": "2026-08-19T05:39:25Z",
    "published_raw": "2026-08-19T11:09:25.981+05:30",
    "categories": [
-    "vulnerability"
+    "cyber-attack"
    ],
    "description": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) software, according to new findings from ReliaQuest.\n\nThe cybersecurity company characterized the web shell as a fully equipped extortion platform capable of mapping sensitive vault",
    "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4617129013933997075",

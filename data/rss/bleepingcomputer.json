@@ -1,15 +1,58 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-08-25T14:00:53Z",
+ "updated_at": "2026-08-25T15:00:52Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-25T14:00:53Z",
+  "last_success_at": "2026-08-25T15:00:52Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:9c24f80a74b034ebbbd2bc7654f3087bcdea03353300dc014765ed50f972fb93",
+   "url": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack",
+   "title": "Hospital operator Nutex Health says data stolen in cyberattack",
+   "published_at": "2026-08-25T14:44:16Z",
+   "published_raw": "Tue, 25 Aug 2026 10:44:16 -0400",
+   "categories": [
+    "security",
+    "Healthcare"
+   ],
+   "description": "Healthcare and services provider Nutex is investigating a data breach incident where an unauthorized third party exfiltrated information from company servers. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:8eafd6836cc4c61298187dda938ee9bc2764e154cd9156a790f54da3ecd69d05",
+   "url": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk",
+   "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
+   "published_at": "2026-08-25T14:01:11Z",
+   "published_raw": "Tue, 25 Aug 2026 10:01:11 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how stronger identity verification can help organizations prevent fake workers and social engineering attacks from gaining legitimate access. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
+   "authors": [
+    {
+     "name": "Sponsored by Specops Software",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:a3dde381e6b1a6862754a3901740b79f2b3b9a241076a688f1bed969f8dfdd60",
    "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys",
@@ -1086,27 +1129,6 @@
    ],
    "description": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's web browser. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:ece78d75a16264d28bc74250fb5d52a3bb1f72b53553c24b8e0660c270dcd6a3",
-   "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes",
-   "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
-   "published_at": "2026-08-15T14:14:38Z",
-   "published_raw": "Sat, 15 Aug 2026 10:14:38 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
    "authors": [
     {
      "name": "Bill Toulas",
