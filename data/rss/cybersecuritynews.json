@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-08-25T16:00:50Z",
+ "updated_at": "2026-08-25T17:00:51Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-25T16:00:50Z",
+  "last_success_at": "2026-08-25T17:00:51Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:56f4e7d808504612f9ce6e78fd9d062ae5815b08d776435761d03629daae1e0b",
+   "url": "https://cybersecuritynews.com/cisa-red-team-breaches-critical-infrastructure",
+   "title": "CISA Red Team Breaches Critical Infrastructure to Reveal SOC and Cloud Security Gaps",
+   "published_at": "2026-08-25T16:45:59Z",
+   "published_raw": "Tue, 25 Aug 2026 16:45:59 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>CISA&#8217;s latest advisory for red teams warns critical infrastructure operators that security systems can fail even if they have a lot of funding. This is because trained analysts are needed to respond to alerts effectively. The agency&#8217;s &#8220;A Tale of Two SOCs&#8221; report compares two parallel red team engagements: one against a Government Services and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-red-team-breaches-critical-infrastructure/\">CISA Red Team Breaches Critical Infrastructure to Reveal SOC and Cloud Security Gaps</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=160645",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Red-Team-Breaches-Critical-Infrastructure.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "160645",
+     "content_encoded": "<p class=\"wp-block-paragraph\">CISA&#8217;s latest advisory for red teams warns critical infrastructure operators that security systems can fail even if they have a lot of funding. This is because trained analysts are needed to respond to alerts effectively.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The agency&#8217;s &#8220;A Tale of Two SOCs&#8221; report compares two parallel red team engagements: one against a Government Services and Facilities Sector organization and another against a Water and Wastewater Systems Sector entity, using nearly identical attack tradecraft but producing starkly different outcomes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In both cases, CISA&#8217;s operators used phishing to gain an initial foothold, then leaned on <a href=\"https://cybersecuritynews.com/active-directory-misconfigurations/\" target=\"_blank\" rel=\"noreferrer noopener\">Active Directory misconfigurations</a> such as a default Machine Account Quota and misconfigured Active Directory Certificate Services templates to escalate privileges and move laterally.</p>\n\n\n\n<h2 id=\"h-cisa-red-team-breaches-critical-infrastructure\" class=\"wp-block-heading\"><strong>CISA Red Team Breaches Critical Infrastructure</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">At Organization A, the team gained elevated domain privileges and reached sensitive business systems and cloud resources entirely undetected, eventually reading SOC staff emails and deploying keyloggers on defenders&#8217; own machines without triggering a response.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organization B told a different story: its SOC isolated compromised workstations within 2 to 20 minutes of the initial phishing payload executing, cutting off command-and-control communications before the intrusion could spread.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Because Organization B caught the breach so quickly, CISA shifted to an &#8220;assume breach&#8221; model, with trusted agents granting the red team access equivalent to what they would have had if the phishing attempt had gone unnoticed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">From there, the team again escalated privileges through the same Machine Account Quota weakness, harvested cleartext credentials via a System Center Configuration Manager file, and used <a href=\"https://cybersecuritynews.com/dcsync-attack-active-directory-attack/\" target=\"_blank\" rel=\"noreferrer noopener\">DCSync attacks</a> to obtain domain controller credentials, including the sensitive krbtgt account used to forge Golden Tickets.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Despite this deep access, Organization B&#8217;s defenders isolated a compromised bastion host in the operational technology demilitarized zone and blocked a suspicious Azure sign-in flagged by Microsoft&#8217;s automated alerting, showing that layered detection kept working even after the network was assumed compromised.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CISA attributes Organization A&#8217;s blind spots not to a lack of tools but to operational dysfunction. The organization ran multiple SOCs and multiple <a href=\"https://cybersecuritynews.com/malware-crypter-services/\" target=\"_blank\" rel=\"noreferrer noopener\">EDR platforms </a>without cross-team communication, and thousands of false-positive alerts from routine business activity buried the genuine indicators of compromise.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Analysts also lacked standard operating procedures for escalating suspicious activity and had limited authority to act, so real alerts, including one tied to red team activity on an SCCM server, were dismissed as false positives after defenders simply couldn&#8217;t identify the system owner.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">The advisory&#8217;s central takeaway</a> is that detection tooling is only as effective as the humans and processes behind it. CISA is urging critical infrastructure operators to fix common Active Directory weaknesses such as unrestricted Machine Account Quotas and ESC1-vulnerable certificate templates, enforce credential expiration for service and cloud accounts, and adopt Conditional Access for workload identities to close gaps around application permissions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Just as importantly, organizations need documented escalation procedures, cross-team visibility, and empowered analysts, since Organization B&#8217;s success came down to fast triage and decisive isolation rather than any single security product.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Prevent incidents due to slow investigations. Power your Tier 1 with threat intelligence from 15K SOCs:&nbsp;<a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=lookup+tier+1&amp;utm_content=ti+lookup+sales&amp;utm_term=190826#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-red-team-breaches-critical-infrastructure/\">CISA Red Team Breaches Critical Infrastructure to Reveal SOC and Cloud Security Gaps</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:ff7f43bb045f589b30df165d2882bb858d82ad6e75df130ff8bd096bf30b85a3",
    "url": "https://cybersecuritynews.com/alice-ai-security",
