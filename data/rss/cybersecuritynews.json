@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-08-25T03:00:48Z",
+ "updated_at": "2026-08-25T04:00:49Z",
  "retention_days": 10,
  "status": {
-  "ok": false,
-  "last_success_at": "2026-08-25T01:00:45Z",
-  "last_error_at": "2026-08-25T03:00:48Z",
-  "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+  "ok": true,
+  "last_success_at": "2026-08-25T04:00:49Z",
+  "last_error_at": null,
+  "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:f3387254d159a3e93ab84498459447a94060708c2e194326776a409f4d264ba2",
+   "url": "https://cybersecuritynews.com/5-vulnerabilities-palo-alto-globalprotect",
+   "title": "Researcher Discloses Five High-Risk Vulnerabilities in Palo Alto GlobalProtect",
+   "published_at": "2026-08-25T01:54:08Z",
+   "published_raw": "Tue, 25 Aug 2026 01:54:08 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News",
+    "vulnerability"
+   ],
+   "description": "<p>A security researcher has disclosed five vulnerabilities that he responsibly reported to Palo Alto Networks, affecting GlobalProtect, the VPN and endpoint agent used across thousands of enterprise networks worldwide. The disclosure, published through a dedicated research site, has reignited debate over how vendors handle vulnerability reports even when researchers follow coordinated disclosure norms. According to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/5-vulnerabilities-palo-alto-globalprotect/\">Researcher Discloses Five High-Risk Vulnerabilities in Palo Alto GlobalProtect</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=160534",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/5-Vulnerabilities-Palo-Alto-GlobalProtect-.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "160534",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A security researcher has disclosed five vulnerabilities that he responsibly reported to Palo Alto Networks, affecting GlobalProtect, the VPN and endpoint agent used across thousands of enterprise networks worldwide.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The disclosure, published through a dedicated research site, has reignited debate over how vendors handle vulnerability reports even when researchers follow coordinated disclosure norms.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to the researcher Martijn van Ramesdonk, the five issues were originally submitted to Palo Alto Networks in early April 2026, and two of them were eventually folded into CVE-2026-0251, a set of local privilege escalation flaws in the GlobalProtect app.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo6jNNm3B_gyYn4kYFYbZ5TKn99Tx3_-3Gyltdcbs6SQeZSH64UCRznh0-hcCEZXOC8iQCNkWSsHQx7M1tqM00t1-7px1511ienv5xRWBcZMCsTyDoy0gvIppdqeZHoyfBM3S8Dtz5puuvxcUJChOcHl0dvzXPSBdV7zsvqr2CzvAqbGRW4ByIqbKQ4i3l/w640-h468/global%20unprotect.webp\" alt=\"5 Vulnerabilities Palo Alto GlobalProtect\"/></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">Palo Alto&#8217;s own advisory confirms that the bugs allow a local, low-privileged user to escalate to NT AUTHORITY\\SYSTEM on Windows and to root on macOS and Linux, giving an attacker who already has a foothold on an endpoint the ability to run arbitrary commands with full administrative control.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The National Vulnerability Database lists a CVSS 3.1 base score of 7.8, reflecting the seriousness of local privilege escalation on a widely deployed VPN client.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Beyond privilege escalation, the researcher says his work also uncovered a method to recover a user&#8217;s <a href=\"https://cybersecuritynews.com/active-directory-management-tools/\" target=\"_blank\" rel=\"noreferrer noopener\">Active Directory</a> password directly from the endpoint by abusing privileged GlobalProtect components, a finding with far more direct implications for corporate identity infrastructure than a typical local exploit.</p>\n\n\n\n<p class=\"wp-block-paragraph\">What makes this case notable is not just the technical severity but the researcher&#8217;s account of the disclosure journey itself. He says the two vulnerabilities <a href=\"https://security.paloaltonetworks.com/CVE-2026-0251\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">behind CVE-2026-0251</a> were initially patched by Palo Alto Networks without any notification to him and without credit in the accompanying advisory, prompting him to push back publicly.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Two further vulnerabilities were reportedly deemed out of scope for the vendor&#8217;s bug bounty program, while a fifth remains unpatched and undisclosed while remediation work continues.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The researcher describes more than 40 emails exchanged with Palo Alto&#8217;s Product Security Incident Response Team and multiple missed or shifting disclosure deadlines stretched across several months, a process he characterizes as symptomatic of a broken coordination model rather than a technical failure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Four proof-of-concept exploits tied to the d<a href=\"https://globalunprotect.io/exploits.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">isclosed flaws are now publicly available</a>, while the fifth is being withheld pending an official fix from Palo Alto Networks. Affected versions span multiple GlobalProtect 6.0, 6.2, and 6.3 branches on Windows, macOS, and Linux, and Palo Alto has published patched builds for each, though the vendor has stated it is not aware of active exploitation in the wild.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://cybersecuritynews.com/microsoft-end-support-for-windows-11-24h2/\" target=\"_blank\" rel=\"noreferrer noopener\">Endpoint and VPN</a> software occupies a privileged position inside enterprise networks, often bridging directly into Active Directory and identity systems, which makes local privilege escalation and credential-recovery bugs in these products disproportionately dangerous compared to flaws in less trusted applications.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The researcher&#8217;s broader point, that artificial intelligence is accelerating vulnerability discovery faster than vendors can validate, patch, and credit findings, points to a looming bottleneck: finding bugs is getting easier, but responsible, well-coordinated disclosure still depends on human judgment, mature internal processes, and accountability that no automation can substitute.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Prevent incidents due to slow investigations. Power your Tier 1 with threat intelligence from 15K SOCs:&nbsp;<a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=lookup+tier+1&amp;utm_content=ti+lookup+sales&amp;utm_term=190826#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/5-vulnerabilities-palo-alto-globalprotect/\">Researcher Discloses Five High-Risk Vulnerabilities in Palo Alto GlobalProtect</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:b0e5905ea4fd77161e397083672f9ed1672b4097a233b7b6035b0e376bee194e",
    "url": "https://cybersecuritynews.com/zimbra-collaboration-suite-vulnerability-exploited",
