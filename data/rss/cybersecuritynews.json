@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-08-25T06:00:48Z",
+ "updated_at": "2026-08-25T07:00:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-25T06:00:48Z",
+  "last_success_at": "2026-08-25T07:00:47Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:08dc1266001afc67aa093e42a19dbc2d873f101aad95022756c8ee0f1e56ff63",
+   "url": "https://cybersecuritynews.com/tp-link-archer-command-injection-flaw",
+   "title": "Multiple TP-Link Archer Vulnerabilities Enable Command Injection Attacks",
+   "published_at": "2026-08-25T06:15:54Z",
+   "published_raw": "Tue, 25 Aug 2026 06:15:54 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Vulnerability News",
+    "cyber security"
+   ],
+   "description": "<p>TP-Link has disclosed three high-severity command injection vulnerabilities affecting Archer BE800 V1, Archer BE3600 V1, and Archer AX75 V1 routers. The flaws could allow nearby attackers to run arbitrary commands with root privileges, potentially leading to full device compromise and attacks against devices connected to the local network. The security advisory, last updated on August [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tp-link-archer-command-injection-flaw/\">Multiple TP-Link Archer Vulnerabilities Enable Command Injection Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=160546",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Multiple-TP-Link-Archer-Vulnerabilities-Enables-Command-Injection-Attacks-.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "160546",
+     "content_encoded": "<p class=\"wp-block-paragraph\">TP-Link has disclosed three high-severity <a href=\"https://cybersecuritynews.com/tp-link-os-command-injection-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">command injection vulnerabilities</a> affecting Archer BE800 V1, Archer BE3600 V1, and Archer AX75 V1 routers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaws could allow nearby attackers to run arbitrary commands with root privileges, potentially leading to full device compromise and attacks against devices connected to the local network.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The security advisory, last updated on August 24, 2026, tracks the issues as CVE-2026-9254, CVE-2026-16348, and CVE-2026-78541. TP-Link has released firmware updates for all affected products and urges customers to install them promptly.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CVE-2026-9254 is an unauthenticated operating-system command-injection flaw in the parental-control function of the Archer BE800 V1, Archer BE3600 V1, and Archer AX75 V1 devices.</p>\n\n\n\n<h2 id=\"h-multiple-tp-link-archer-vulnerabilities\" class=\"wp-block-heading\"><strong>Multiple TP-Link Archer Vulnerabilities</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability stems from insufficient filtering and neutralization of special characters in certain parameters. An attacker positioned on the local network could exploit the flaw without logging in to the router.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Successful exploitation enables the injection and <a href=\"https://cybersecuritynews.com/multiple-tp-link-vulnerabilities/\" target=\"_blank\" rel=\"noreferrer noopener\">execution of arbitrary system commands</a> as the root user, giving the attacker the highest privilege level on the device.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The issue has a CVSS v4.0 score of 8.7 and is rated High. TP-Link warned that exploitation could compromise the confidentiality, integrity, and availability of both the router and the traffic passing through the network.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The second issue, CVE-2026-16348, affects the VPN connection functionality of Archer BE800 V1 routers. It is an authenticated command injection flaw that requires administrative access.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker can<a href=\"https://cybersecuritynews.com/best-business-vpn-solutions/\" target=\"_blank\" rel=\"noreferrer noopener\"> inject shell metacharacters through a VPN connection </a>and execute commands with root privileges. Although the vulnerability requires valid administrator access, the impact remains serious.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A successful attack could let threat actors establish persistent backdoors, steal credentials, conduct reconnaissance of the local network, and use the compromised router to target other connected systems. CVE-2026-16348 carries a CVSS v4.0 score of 8.5 and a High severity rating.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The third flaw, CVE-2026-78541, is a stored command injection vulnerability in the parental control module of Archer BE3600 V1 routers. An authenticated attacker with administrative access can create a crafted profile name containing shell metacharacters.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The malicious input is stored on the device. It may be processed unsafely later when the router generates its daily cloud report. This delayed execution path can result in arbitrary commands running on the router.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.tp-link.com/us/support/faq/5264/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">TP-Link assigned</a> the vulnerability a CVSS v4.0 score of 8.5. The affected firmware versions should be upgraded to the following fixed releases:</p>\n\n\n\n<figure class=\"wp-block-table is-style-stripes\"><table class=\"has-fixed-layout\"><thead><tr><th>CVE</th><th>Vulnerability</th><th>Affected Product</th><th>Fixed Firmware</th><th>CVSS</th></tr></thead><tbody><tr><td><strong>CVE-2026-9254</strong></td><td>Unauthenticated OS command injection in parental controls</td><td>Archer BE800, BE3600, AX75</td><td>BE800: 1.4.2 Build 260708; BE3600: 1.2.6 Build 20260617; AX75: 1.1.6 Build 260716</td><td>8.7</td></tr><tr><td><strong>CVE-2026-16348</strong></td><td>Authenticated command injection in VPN functionality</td><td>Archer BE800</td><td>1.4.2 Build 260708</td><td>8.5 </td></tr><tr><td><strong>CVE-2026-78541</strong></td><td>Stored OS command injection via parental-control profile names</td><td>Archer BE3600</td><td>1.2.6 Build 20260617</td><td>8.5 </td></tr></tbody></table></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Users should download the newest firmware from TP-Link’s regional support pages, confirm the installed hardware revision before updating, and replace default administrator credentials.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should also restrict router administration to trusted devices, turn off unnecessary remote management services, and monitor network logs for unexpected configuration changes or outbound traffic.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Prevent incidents due to slow investigations. Power your Tier 1 with threat intelligence from 15K SOCs:&nbsp;<a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=lookup+tier+1&amp;utm_content=ti+lookup+sales&amp;utm_term=190826#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/tp-link-archer-command-injection-flaw/\">Multiple TP-Link Archer Vulnerabilities Enable Command Injection Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:f3387254d159a3e93ab84498459447a94060708c2e194326776a409f4d264ba2",
    "url": "https://cybersecuritynews.com/5-vulnerabilities-palo-alto-globalprotect",
