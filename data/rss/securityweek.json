@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-08-26T05:00:47Z",
+ "updated_at": "2026-08-26T06:00:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-26T05:00:47Z",
+  "last_success_at": "2026-08-26T06:00:47Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:240bd10113addd2f1a03ccade0927c3940251cb89059def898c01f658f5a4b45",
+   "url": "https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability",
+   "title": "CISA Warns of Exploited Gitea Vulnerability",
+   "published_at": "2026-08-26T05:17:28Z",
+   "published_raw": "Wed, 26 Aug 2026 05:17:28 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "CISA KEV",
+    "exploited",
+    "Gitea",
+    "vulnerability"
+   ],
+   "description": "<p>CVE-2026-60004 is a remote code execution vulnerability patched by Gitea developers in late July with the release of version 1.27.1.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/\">CISA Warns of Exploited Gitea Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=48877",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:c45471f8040dee61323971aaa6aa7f8ff45f76d2c33bc9ee65ffbc6ad2bd3fe2",
    "url": "https://www.securityweek.com/linux-foundation-to-govern-trace-an-open-standard-for-ai-runtime-attestation",

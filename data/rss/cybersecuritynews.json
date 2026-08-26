@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-08-26T05:00:47Z",
+ "updated_at": "2026-08-26T06:00:47Z",
  "retention_days": 10,
  "status": {
-  "ok": false,
-  "last_success_at": "2026-08-26T04:00:47Z",
-  "last_error_at": "2026-08-26T05:00:47Z",
-  "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+  "ok": true,
+  "last_success_at": "2026-08-26T06:00:47Z",
+  "last_error_at": null,
+  "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:023fac87306382b4af55f0275723e0a9eaa87ed06d494fef5910cde872e208e1",
+   "url": "https://cybersecuritynews.com/linux-turns-35",
+   "title": "Linux Turns 35 – Hobby Kernel Now Powers Cloud, Android, and Global Cyber Defense",
+   "published_at": "2026-08-26T04:31:15Z",
+   "published_raw": "Wed, 26 Aug 2026 04:31:15 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Tech News",
+    "Linux"
+   ],
+   "description": "<p>On August 25, 1991, a 21-year-old University of Helsinki student posted a modest note to the Usenet group comp.os.minix. “I’m doing a (free) operating system (just a hobby, won’t be big and professional like gnu) for 386(486) AT clones,” Linus Torvalds wrote, adding that the project had been brewing since April and was starting to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-turns-35/\">Linux Turns 35 &#8211; Hobby Kernel Now Powers Cloud, Android, and Global Cyber Defense</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=160699",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Linux-Turns-35.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "160699",
+     "content_encoded": "<p class=\"wp-block-paragraph\" id=\"h-\">On August 25, 1991, a 21-year-old University of Helsinki student posted a modest note to the Usenet group <em>comp.os.minix</em>. “I’m doing a (free) operating system (just a hobby, won’t be big and professional like gnu) for 386(486) AT clones,” Linus Torvalds wrote, adding that the project had been brewing since April and was starting to get ready. He thought he was building something fun for himself.</p>\n\n\n\n<p class=\"wp-block-paragraph\" id=\"h-\">Thirty-five years later, that hobby sits under the internet, the public cloud, Android, and every system on the TOP500 supercomputer list.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Torvalds had leaned toward calling the project Freax, a mash of free, freak, and Unix. When a colleague uploaded the first public tree, the directory was named Linux, and the label stuck.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The first public release arrived the following month. What started as roughly 10,000 lines of code has grown past 40 million lines in the kernel source tree, expanded by hundreds of maintainers and thousands of contributors instead of any single vendor.</p>\n\n\n\n<h2 id=\"h-linux-turns-35\" class=\"wp-block-heading\"><strong>Linux Turns 35</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">That growth is now a cybersecurity story as much as a software one. Industry figures put Linux on nearly 80 percent of web servers and on virtually all of the world’s fastest 500 supercomputers. It is the most popular operating system on Microsoft Azure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Nearly four billion Android devices run Linux-derived kernels. NASA’s Ingenuity helicopter flew on Mars with a Linux stack on a commercial Snapdragon processor, and handheld systems such as Valve’s Steam Deck have carried the same kernel into consumer gaming. When a kernel bug ships, the blast radius is no longer a handful of 386 clones. It is critical infrastructure.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://x.com/ubuntu/status/2092263563381350655\">Ubuntu</a> marked the anniversary in a public post thanking every maintainer, contributor, and advocate who turned one student’s side project into “the greatest collaborative technology movement in history.”</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Linux Foundation spent August celebrating the milestone, and Open Source Summit Europe in Prague this October is expected to treat the 35-year mark as a centerpiece. Red Hat, other commercial stewards, and a familiar wave of Tux penguin tributes framed the birthday less as nostalgia than as proof that the world’s most important operating system is still built in the open.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Openness is also why Linux stays under constant pressure. Recent kernel flaws, including an <a href=\"https://cybersecuritynews.com/linux-kernel-0-day-copy-fail/\" target=\"_blank\" rel=\"noreferrer noopener\">actively exploited local privilege-escalation bug</a> and a <a href=\"https://cybersecuritynews.com/18-year-old-linux-kernel-sctp-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">use-after-free that sat in the tree for nearly 18 years</a>, show how a 40-million-line attack surface rewards both researchers and adversaries.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The project’s answer has been the same method that built it: public review, stable backports, and a growing push toward memory-safe code. Rust is no longer an experiment in the kernel.</p>\n\n\n\n<p class=\"wp-block-paragraph\">After the 2025 Kernel Maintainer Summit, maintainers declared it a permanent language, and Linux 7.0 later dropped the experimental label. New drivers in some subsystems are already expected in Rust, even as the vast C codebase remains.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Torvalds has said the 1991 version of himself never imagined the experiment would still exist. The next 35 years will be judged less on whether Linux remains everywhere it already is and more on whether maintainers can keep patching, hardening, and teaching a planet that now depends on it.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Prevent incidents due to slow investigations. Power your Tier 1 with threat intelligence from 15K SOCs:&nbsp;<a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=lookup+tier+1&amp;utm_content=ti+lookup+sales&amp;utm_term=190826#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-turns-35/\">Linux Turns 35 &#8211; Hobby Kernel Now Powers Cloud, Android, and Global Cyber Defense</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:fd418cc046ef3296f9bfa951ad82932f343f5b75c638a96291c4edca9f275d51",
    "url": "https://cybersecuritynews.com/openssl-patches-9-vulnerabilities",
