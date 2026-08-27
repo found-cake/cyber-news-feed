@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-08-27T13:00:54Z",
+ "updated_at": "2026-08-27T14:00:51Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-27T13:00:54Z",
+  "last_success_at": "2026-08-27T14:00:51Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:8d26288ea89cd836f6335eb242bbead7fe9798b05f0f16cbfb26a73a908ab56b",
+   "url": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks",
+   "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
+   "published_at": "2026-08-27T13:31:13Z",
+   "published_raw": "Thu, 27 Aug 2026 09:31:13 -0400",
+   "categories": [
+    "security",
+    "Legal"
+   ],
+   "description": "Australian authorities have arrested and charged two young men accused of belonging to TeamPCP, a hacking group linked to a string of far-reaching developer supply chain attacks. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:886c4d0ea9316b492c84ddc7ebf9b96d91b0ef26dbccc4e7e0a883330ff04c9a",
    "url": "https://www.bleepingcomputer.com/news/security/webinar-how-google-workspace-breaches-happen-and-what-to-do-next",
@@ -1323,27 +1345,6 @@
    "authors": [
     {
      "name": "Lawrence Abrams",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:2351199b922f2546870eece34257e34a31c53bf58ffc50b08ecbbbd794b11a43",
-   "url": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority",
-   "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
-   "published_at": "2026-08-17T14:00:10Z",
-   "published_raw": "Mon, 17 Aug 2026 10:00:10 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier 0 identity infrastructure it has always been. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
-   "authors": [
-    {
-     "name": "Sponsored by BeyondTrust",
      "uri": "",
      "email": ""
     }
