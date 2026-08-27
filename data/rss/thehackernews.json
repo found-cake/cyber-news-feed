@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-08-27T15:00:58Z",
+ "updated_at": "2026-08-27T16:00:53Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-27T15:00:58Z",
+  "last_success_at": "2026-08-27T16:00:53Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -632,6 +632,60 @@
    "source_metadata": {}
   },
   {
+   "id": "sha256:468035db37f9e8fac0f996e0b17329b10d5df22746ea1869b9ee8e9707325cf2",
+   "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
+   "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
+   "published_at": "2026-08-27T15:13:00Z",
+   "published_raw": "2026-08-27T20:43:00.960+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Credit:&nbsp;Hacktron\nVercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files and the other through a path traversal flaw affecting servers that use a Windows filesystem.\n\nThe Windows path traversal, tracked as&nbsp;CVE-2026-75604&",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7592756425046301870",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYbQmCgjQOeGU5sXrRRnYNbfxDed_Evv1vYrDL4L4NOguQ5wIxE6glQW7yQvhR1Dzs4Gbddc2ktadXWc2VkaGHE4pvMmjaXHMRuepjwrzefXNHb6B3Shk51VRBQw0etS5WWsS9JuNN4q_Y8lDSFtzKNEgi2X-NvAllwzw5_03HwGdC7iNJc6METEjcUNc/s260-e100/nodejs.gif",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:be461c8b17bf08f6da07f62d76bcd6189168266c7bb28a436b6d54142f8d22dd",
+   "url": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
+   "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
+   "published_at": "2026-08-27T15:12:16Z",
+   "published_raw": "2026-08-27T20:42:16.466+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine.\n\nThe rest of the week gets stranger: botnets borrowing AI, command traffic hiding in public infrastructure, malicious tools waiting before showing their real behavior, exposed systems getting scanned, and exploit windows shrinking again. Different",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3332430691878409384",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwWCb2shFhaav60Wjr2-8DoStCVaQrYqkE6EBZ8F5sREap-Khi19y-w9NVmFHyHosV6xVB0fTeN_DcSpGIyCZ621SnjqZozRVG70ceOey_D8djA5r5rpP9tFkRSESgs4kHZilTMoz2y8uqX-iTLR0JjjZkhypYjCCAEvQKzyU7xarQpt3sYvJc-fnWSWlb/s260-e100/threats.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
    "id": "sha256:e2642e92805118546c6faf35ce725beba27cae97bf4963066390fb0780b224e9",
    "url": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
    "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
@@ -1232,7 +1286,7 @@
    "published_at": "2026-08-20T16:59:44Z",
    "published_raw": "2026-08-20T22:29:44.952+05:30",
    "categories": [
-    "vulnerability"
+    "cyber-attack"
    ],
    "description": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts.\n\nThe activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs) to conduct reconnaissance and capability development using AI-generated scripts disguised as legitimate monitoring tools. That",
    "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1257008071567637531",
@@ -1246,33 +1300,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSn562AFIpj2ldmT5inFv5tGgfNbaM4F1OBNvCW-80nP-YmFewnJd9VMlbgYnhgWrUpHS81bS6uEXRgEmg37c14OqmkO29XqY3FcBCl637vmAxfqB3UDtL3Rvgio6cPAQQv3bYtLUIyRdog4bpgD8MqJJYhTLish4L2Ljt6aJ_WpjFmTXYhmrA-TguqH98/s260-e100/plc.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:eaaed4290b794f92c4770f754cec460c76e8ee21923860403b17ba7c5fa59a76",
-   "url": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
-   "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
-   "published_at": "2026-08-20T14:36:27Z",
-   "published_raw": "2026-08-20T20:06:27.502+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the user asks it to summarize an ordinary web page.\n\nThe AI security company, which has codenamed the technique \"Cryptographic Context Injection,\" said the",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6943051255897942819",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPv76ODDXuPeov3fu_Gs_V-72pKnjw38Qu9A4qXOn_2QFd9daTYFAXre2eubEQ6Fwb65SwXgv10mhyDCGE_KcvL69c-CGe2BfEiOj74UTHwv6WAhMyxNuVGOEdUZYwz0Y9v55SFmaOwjHQYHbOyzvZEofi0egkTfeFxQlJRD3Sj6ve-TZ47SM1sNfYGB0/s260-e100/grok-chat.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -1300,6 +1327,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit3cCqpn48W_lqEDCb9ewKFToGQcvhUjO939N0Gja-aTvCvRTz8kdOPZG1bhyphenhyphenED2XNeB82rjCIeVO3Nw9akDlMnQZqc7keiel8H82zgtf1A7fhb6DP3z6Qh3Ehk6AGrMt77rXkoNhLaDeEl692kDHAHVsNb7AOcDxpsavM0Hj9TZRLLJsuQ-OT3oQOvFMi/s260-e100/ptc.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:eaaed4290b794f92c4770f754cec460c76e8ee21923860403b17ba7c5fa59a76",
+   "url": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
+   "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
+   "published_at": "2026-08-20T14:36:27Z",
+   "published_raw": "2026-08-20T20:06:27.502+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the user asks it to summarize an ordinary web page.\n\nThe AI security company, which has codenamed the technique \"Cryptographic Context Injection,\" said the",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6943051255897942819",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPv76ODDXuPeov3fu_Gs_V-72pKnjw38Qu9A4qXOn_2QFd9daTYFAXre2eubEQ6Fwb65SwXgv10mhyDCGE_KcvL69c-CGe2BfEiOj74UTHwv6WAhMyxNuVGOEdUZYwz0Y9v55SFmaOwjHQYHbOyzvZEofi0egkTfeFxQlJRD3Sj6ve-TZ47SM1sNfYGB0/s260-e100/grok-chat.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
