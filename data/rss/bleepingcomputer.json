@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-08-27T09:00:48Z",
+ "updated_at": "2026-08-27T10:00:49Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-27T09:00:48Z",
+  "last_success_at": "2026-08-27T10:00:49Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:9229e49adc62366b972c3e8aafcb117452bae3003bd1c003b865a92b40c21027",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks",
+   "title": "CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday",
+   "published_at": "2026-08-27T09:16:50Z",
+   "published_raw": "Thu, 27 Aug 2026 05:16:50 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "CISA has ordered U.S. government agencies to patch their Citrix NetScaler appliances against an actively exploited remote code execution vulnerability by Saturday. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:4e5032b20f68f467e7716772694f83d07f01f44b801c8901f9766b3379fa087b",
    "url": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims",
@@ -1320,28 +1341,6 @@
    ],
    "description": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:59177f935aef3b0aa9274be7c5e76a7c518a11289680a5fef876d39877a6b0be",
-   "url": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day",
-   "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
-   "published_at": "2026-08-17T09:05:33Z",
-   "published_raw": "Mon, 17 Aug 2026 05:05:33 -0400",
-   "categories": [
-    "security",
-    "Microsoft"
-   ],
-   "description": "Microsoft is working on a security patch for the \"ShieldBreak\" zero-day vulnerability disclosed last week by security researcher \"Nightmare Eclipse\" and now tracked as CVE-2026-69414. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
    "authors": [
     {
      "name": "Sergiu Gatlan",
