@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-08-27T08:00:50Z",
+ "updated_at": "2026-08-27T09:00:48Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-27T08:00:50Z",
+  "last_success_at": "2026-08-27T09:00:48Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -659,6 +659,33 @@
    "source_metadata": {}
   },
   {
+   "id": "sha256:1cf6d1f508fdcde09b718977a42aeda863156440e2d0255764b76d900619b7ff",
+   "url": "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
+   "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
+   "published_at": "2026-08-27T08:13:11Z",
+   "published_raw": "2026-08-27T13:43:11.011+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Academic researchers have disclosed a Rowhammer attack impacting NVIDIA workstation GPUs with GDDR6 memory that defeats error correction codes (ECC), the mitigation NVIDIA recommends against GPU Rowhammer, and enables denial-of-service (DoS) and privilege escalation to a root shell.\n\nDubbed GPUThor, the attack was developed by researchers at the University of Toronto, who hammered four DRAM",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-566947795678599557",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2AxQ4SD6_1WKkpvBVi_M7oKLMeBAiKU4Ek4HbnJXHLX5xSbUg7ky1ITdUJY91n-zZGyK55-qQRd24PWRymLmik7cRl4CYPoaeZL5JuLedlsOTJGHChwF1eQWGhUE6AhOZUSW7CoajwQcKCu8E_zrYn8I6203Nrvr9NvheYL-5ISm0fs1xdWNiKGWqIs0/s260-e100/nvidia-bits.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
    "id": "sha256:038c6cd0b2efdcfa57a79b6c8af3bbc97151b7405d712e8baee25a88e56ce256",
    "url": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
    "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
@@ -1253,33 +1280,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:6740d03ebc5ee612343ea69b0c9de1918c9522362cb5b6686b9f533743e753fd",
-   "url": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
-   "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
-   "published_at": "2026-08-20T11:39:35Z",
-   "published_raw": "2026-08-20T17:09:35.922+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to the websites they front, amplifying a low-bandwidth request stream by up to 350x against the origin server.\n\nThe attacks, collectively named \"CDN Tsunami,\" were evaluated against Alibaba, Baidu,",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3480975684679821465",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDFisNx669R67D6R9VnkWr_DIhB1VjYqDPrXqKAoeCz0YxbSngLxB15XYLtuKb00YSEE0rxQEfop5v7JIr2SMVOErIM2r_GZqA6q1FDNl_wBeAaukVoAse6l0kXv35dJRTQjT8R0DhS9ihwYUXNd9cFuqYM3GS0o28NyIBAgliuQR8XhKQqhixFcjdZpo/s260-e100/cdn-boost.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:0a363bcfbc5d957d8488e5be8df82d4d1ee928b98cd61332d1b9f696ec10cd24",
    "url": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
    "title": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data",
@@ -1300,6 +1300,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit3cCqpn48W_lqEDCb9ewKFToGQcvhUjO939N0Gja-aTvCvRTz8kdOPZG1bhyphenhyphenED2XNeB82rjCIeVO3Nw9akDlMnQZqc7keiel8H82zgtf1A7fhb6DP3z6Qh3Ehk6AGrMt77rXkoNhLaDeEl692kDHAHVsNb7AOcDxpsavM0Hj9TZRLLJsuQ-OT3oQOvFMi/s260-e100/ptc.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6740d03ebc5ee612343ea69b0c9de1918c9522362cb5b6686b9f533743e753fd",
+   "url": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
+   "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
+   "published_at": "2026-08-20T11:39:35Z",
+   "published_raw": "2026-08-20T17:09:35.922+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to the websites they front, amplifying a low-bandwidth request stream by up to 350x against the origin server.\n\nThe attacks, collectively named \"CDN Tsunami,\" were evaluated against Alibaba, Baidu,",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3480975684679821465",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDFisNx669R67D6R9VnkWr_DIhB1VjYqDPrXqKAoeCz0YxbSngLxB15XYLtuKb00YSEE0rxQEfop5v7JIr2SMVOErIM2r_GZqA6q1FDNl_wBeAaukVoAse6l0kXv35dJRTQjT8R0DhS9ihwYUXNd9cFuqYM3GS0o28NyIBAgliuQR8XhKQqhixFcjdZpo/s260-e100/cdn-boost.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
