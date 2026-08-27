@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-08-27T18:00:55Z",
+ "updated_at": "2026-08-27T19:00:56Z",
  "retention_days": 10,
  "status": {
-  "ok": false,
-  "last_success_at": "2026-08-27T17:00:58Z",
-  "last_error_at": "2026-08-27T18:00:55Z",
-  "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+  "ok": true,
+  "last_success_at": "2026-08-27T19:00:56Z",
+  "last_error_at": null,
+  "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:3b62b2e61c0210b9ac719bce21a5a3bfb1afb3da44b26d5853bde05b32eb9f03",
+   "url": "https://cybersecuritynews.com/papercut-ng-mf-vulnerability-actively-exploited",
+   "title": "PaperCut NG/MF Vulnerability Actively Exploited in Attack – All Versions Impacted",
+   "published_at": "2026-08-27T17:27:34Z",
+   "published_raw": "Thu, 27 Aug 2026 17:27:34 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability",
+    "Vulnerability News"
+   ],
+   "description": "<p>PaperCut has confirmed that hackers are actively exploiting an unpatched vulnerability in its widely used PaperCut NG and PaperCut MF print management software, prompting the company to rush out an emergency patch just hours after issuing its first warning. The Australian vendor said its security response team is investigating &#8220;confirmed customer incidents&#8221; and is treating [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/papercut-ng-mf-vulnerability-actively-exploited/\">PaperCut NG/MF Vulnerability Actively Exploited in Attack &#8211; All Versions Impacted</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=160947",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/08/PaperCut-NGMF-Vulnerability-Actively-Exploited.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "160947",
+     "content_encoded": "<p class=\"wp-block-paragraph\">PaperCut has confirmed that hackers are actively exploiting an unpatched vulnerability in its widely used PaperCut NG and PaperCut MF print management software, prompting the company to rush out an emergency patch just hours after issuing its first warning.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Australian vendor said its security response team is investigating &#8220;confirmed customer incidents&#8221; and is treating the matter with the highest priority, though a formal CVE identifier has not yet been assigned.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to PaperCut&#8217;s security bulletin, the flaw affects every currently supported version of PaperCut NG and PaperCut MF, making version number irrelevant to exposure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company was alerted to the issue by a university customer&#8217;s internal security and digital forensics teams, whose findings allowed PaperCut engineers to reproduce the bug and confirm it was being actively abused in the wild.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Details of the vulnerability&#8217;s technical root cause remain undisclosed while the investigation continues, but the urgency of the response, including a same-day emergency build, signals a serious remote exploitation path against internet-facing servers.</p>\n\n\n\n<h2 id=\"h-immediate-mitigation-urged\" class=\"wp-block-heading\"><strong>Immediate Mitigation Urged</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">PaperCut is telling every customer whose Application Server is reachable from the public internet to immediately restrict access to trusted IP ranges, such as internal networks, using firewall rules or equivalent network access controls.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Crucially, the company stressed that organizations should take this step now even if they have not observed any suspicious activity, since the absence of warning signs does not confirm a system is safe.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Security teams are also being asked to hunt for possible signs of compromise. Suspicious post-exploitation behavior originating from the pc-app.exe process, missing or unexpectedly truncated server.log files, and specific log entries reading &#8220;ERROR No suitable driver found for jdbc:no:x&#8221; or &#8220;ERROR DatabaseUtils &#8211; Database error looking up cardID: VALUES CAST&#8221; may indicate an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.papercut.com/kb/Main/security-bulletin-27-aug-2026-urgent-security-advisory/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">PaperCut cautioned</a>, however, that not finding these artifacts does not rule out a breach, and it plans to publish validated indicators of compromise as the investigation matures.</p>\n\n\n\n<p class=\"wp-block-paragraph\">At 2:10 a.m. AEST on 28 August 2026, PaperCut released emergency, out-of-cycle builds for both v25 and v26 branches of NG and MF, covering Windows, Linux, and macOS installers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company explicitly labeled these as emergency releases rather than standard software updates, meant specifically for administrators running public-facing servers who cannot otherwise isolate their systems from the internet. A build for the older v24 branch is still in progress, and PaperCut is urging all customers to upgrade to the latest available version wherever feasible.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This is not the first time PaperCut&#8217;s print management platform has drawn attention from threat actors; a 2023 authentication bypass flaw, CVE-2023-27351, was previously exploited by ransomware affiliates and even reappeared in<a href=\"https://cybersecuritynews.com/page/2/?s=+CISA%27s+Known+Exploited+Vulnerabilities\" target=\"_blank\" rel=\"noreferrer noopener\"> CISA&#8217;s Known Exploited Vulnerabilities</a> catalog earlier this year.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Given that history, security researchers expect this newest bug to attract rapid attention from opportunistic attackers scanning for exposed servers, making swift patching and network segmentation essential for any organization running PaperCut in production.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Prevent incidents due to slow investigations. Power your Tier 1 with threat intelligence from 15K SOCs:&nbsp;<a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=lookup+tier+1&amp;utm_content=ti+lookup+sales&amp;utm_term=190826#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/papercut-ng-mf-vulnerability-actively-exploited/\">PaperCut NG/MF Vulnerability Actively Exploited in Attack &#8211; All Versions Impacted</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:6c47135ab7f1cfa84baec966e197445796a7005ad2dd4afe893a5ac56122c851",
    "url": "https://cybersecuritynews.com/executive-social-security-numbers",
