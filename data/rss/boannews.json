@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "boannews",
- "updated_at": "2026-08-28T05:00:47Z",
+ "updated_at": "2026-08-28T06:00:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-28T05:00:47Z",
+  "last_success_at": "2026-08-28T06:00:47Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:f6b21db1f69dcc87610d654955ad68f5c07656679cd24bdb8e844c1b91c66ad8",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145526",
+   "title": "엔비디아(NVIDIA) 보안 뚫렸다… 신종 'GPUThor' 공격에 최고 관리자 권한 빼앗겨",
+   "published_at": "2026-08-28T14:45:00Z",
+   "published_raw": "2026-08-28 14:45:00",
+   "categories": [
+    "비즈니스",
+    "인사이트"
+   ],
+   "description": "캐나다 토론토 대학교 연구진이 엔비디아(NVIDIA) 워크스테이션 GPU의 ECC 오류 보정 방어벽을 우회하는 신종 로우해머 공격 'GPUThor'를 공개했다.이번 공격은 AI 훈련과 클라우드 서버에 널리 사용되는 RTX A4000, A4500, A5000, A6000 등 GDDR6 기반 그래픽카드에서 성공적으로 실증됐다.GPUThor는 메모리 요청 병합과 TRR 활성화 주기 등 미공개 동작 특성을 분석해 하드웨어 자체 방어 기제를 피해 비균일 패턴으로 메모리를 타격했다. 비트 플립 유도 속도를 기존 연구 대비 최대 2만3597배",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "김형근 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:7065e7baec86b31d346db9c899a4a32806d5c508ce884a35b09d507b385b620c",
    "url": "https://www.boannews.com/news/articleView.html?idxno=145494",
