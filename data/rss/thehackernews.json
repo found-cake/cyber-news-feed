@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-08-28T12:00:47Z",
+ "updated_at": "2026-08-28T13:00:49Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-28T12:00:47Z",
+  "last_success_at": "2026-08-28T13:00:49Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -524,26 +524,26 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:77045d80f7ad69e1de8a596e9c7a7edd18b7d94e5bad1a22b5dfa375268485a9",
-   "url": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
-   "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
-   "published_at": "2026-08-18T12:38:20Z",
-   "published_raw": "2026-08-18T18:08:20.438+05:30",
+   "id": "sha256:6d2eb85116012530edb2ec7c649093d8b558789d48ca8188e2a00058ee60cf04",
+   "url": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+   "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
+   "published_at": "2026-08-28T12:07:24Z",
+   "published_raw": "2026-08-28T17:37:24.809+05:30",
    "categories": [
-    "threat-intelligence"
+    "vulnerability"
    ],
-   "description": "Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT.\n\n\"TWINLOOT is a modular, PyArmor-hardened Python implant designed to operate its entire command-and-control infrastructure inside trusted Microsoft services,\" Ontinue said in a technical report shared with The Hacker News. \"Tasking flows through SharePoint Online file",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8837712914921388108",
+   "description": "Security researcher Olivier Laflamme has disclosed two independent root remote code execution (RCE) chains affecting the Unitree G1 EDU, including a Bluetooth Low Energy (BLE) path that can reach root on the robot's Locomotion PC.\n\nThe flaws are tracked as&nbsp;CVE-2026-76639&nbsp;and&nbsp;CVE-2026-76640, with the first involving a network-adjacent path through chat_go and bashrunner and the",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1671885079063449212",
    "authors": [
     {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
      "email": "noreply@blogger.com"
     }
    ],
    "media": [
     {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIrQ96TUVfZUEVto7SlNlTp_8P2270tmrpifBbd-F8vo3gQz3Na40YH60oRh2dEazLOZInJzCGa66bxl9t85Usl30eG_Db_yjMWup2eOM3BmaPhILk_Ihs-yo6AdB-DWG99L7OXK9bdD8Jygu2imWU71-Ap3bPtYLOgqu-vO2Zbr5egp6A5HNcXDSaa0o2/s260-e100/windows-malware.jpg",
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKqNVrCXSaUDXfrGPJkoRoXBPQW4qwhdYqm2SMVaunZNwBrQ4FbURK-gtVawzaje20fK_m9q2dKepfj-dxmkvfKL4se3ZQ1YAI3iogqCft1UjVadJa_uBoQxFuoBpWfx2Dh3S4-jQLa7c4E9OOyQfVAT5BVKVShPykiPWEuYcchIPHFC4e5GduyW4iBio/s260-e100/Humanoid.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -1199,33 +1199,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:88f21efe833b4a1d88636c372201514ed0e9ac901f07b12347ff3a448b875fe2",
-   "url": "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html",
-   "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
-   "published_at": "2026-08-24T11:30:00Z",
-   "published_raw": "2026-08-24T17:00:00.000+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Big security risks come in small packages. While enterprise security teams focus on policing the proliferation of employees using ChatGPT and Claude for quick drafting tasks, a more urgent threat is posed by a handful of AI super-adopters who are quietly hardcoding unvetted tools into critical business operations.\n\nAccording to new research published by Akamai, the top 5% of enterprise power",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7964014843847156236",
-   "authors": [
-    {
-     "name": "Unknown",
-     "uri": "",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieDz2kEMi471xtnJ2B7i_ZktQTUHhbJAIOlNAaFfVdJVPWDC-3EqH2REiyGuaUl95lmXvtcl-oPpQy3MO0-5uulT4L4Uyheni6apbwxzycAw7yVmuYqAWaSjYbEw_BaJKsmGhrUPrb6hVeatf488NrNMVX-xorjY66ZIG9wR50pUdFBOs9avzlu9b91iw/s260-e100/ai-usage.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:827ef3b45efd4e47181c51e48a7f400d24b257aef6542015deb2ce6aab9c8f24",
    "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
    "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
@@ -1273,6 +1246,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit3cCqpn48W_lqEDCb9ewKFToGQcvhUjO939N0Gja-aTvCvRTz8kdOPZG1bhyphenhyphenED2XNeB82rjCIeVO3Nw9akDlMnQZqc7keiel8H82zgtf1A7fhb6DP3z6Qh3Ehk6AGrMt77rXkoNhLaDeEl692kDHAHVsNb7AOcDxpsavM0Hj9TZRLLJsuQ-OT3oQOvFMi/s260-e100/ptc.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:88f21efe833b4a1d88636c372201514ed0e9ac901f07b12347ff3a448b875fe2",
+   "url": "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html",
+   "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
+   "published_at": "2026-08-24T11:30:00Z",
+   "published_raw": "2026-08-24T17:00:00.000+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Big security risks come in small packages. While enterprise security teams focus on policing the proliferation of employees using ChatGPT and Claude for quick drafting tasks, a more urgent threat is posed by a handful of AI super-adopters who are quietly hardcoding unvetted tools into critical business operations.\n\nAccording to new research published by Akamai, the top 5% of enterprise power",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7964014843847156236",
+   "authors": [
+    {
+     "name": "Unknown",
+     "uri": "",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieDz2kEMi471xtnJ2B7i_ZktQTUHhbJAIOlNAaFfVdJVPWDC-3EqH2REiyGuaUl95lmXvtcl-oPpQy3MO0-5uulT4L4Uyheni6apbwxzycAw7yVmuYqAWaSjYbEw_BaJKsmGhrUPrb6hVeatf488NrNMVX-xorjY66ZIG9wR50pUdFBOs9avzlu9b91iw/s260-e100/ai-usage.jpg",
      "kind": "thumbnail",
      "medium": ""
     }

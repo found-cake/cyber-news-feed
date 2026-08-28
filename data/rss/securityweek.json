@@ -1,15 +1,54 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-08-28T12:00:47Z",
+ "updated_at": "2026-08-28T13:00:49Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-28T12:00:47Z",
+  "last_success_at": "2026-08-28T13:00:49Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:0f67175071027cc5706d8d8515a431cdb72627dc3eefefd616f2f3fd5b64393b",
+   "url": "https://www.securityweek.com/openai-agents-exploited-linux-kernel-flaw-on-companys-own-systems",
+   "title": "OpenAI Agents Exploited Linux Kernel Flaw on Company’s Own Systems",
+   "published_at": "2026-08-28T12:36:53Z",
+   "published_raw": "Fri, 28 Aug 2026 12:36:53 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "Vulnerabilities",
+    "AI",
+    "CISA KEV",
+    "exploited",
+    "Linux",
+    "Linux kernel",
+    "OpenAI",
+    "vulnerability"
+   ],
+   "description": "<p>CISA has added the exploited flaw, CVE-2026-53362, to its KEV catalog, alongside a JFrog vulnerability exploited by OpenAI agents.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-agents-exploited-linux-kernel-flaw-on-companys-own-systems/\">OpenAI Agents Exploited Linux Kernel Flaw on Company&#8217;s Own Systems</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=48950",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:727d2ff2d6ad7c4bf71707af511dd6f7fba24bfabee5a6b2dbaaa2b9a4ee5a06",
    "url": "https://www.securityweek.com/tech-cybersecurity-giants-unite-behind-openai-led-cyber-defense-pledge",
@@ -2420,111 +2459,6 @@
    "authors": [
     {
      "name": "Kevin Townsend",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:acbce873c607e8b0e076f68e455b1c5bc9b685ae348086e20872640020eb945d",
-   "url": "https://www.securityweek.com/ai-driven-vulnerability-surge-breaks-the-traditional-patching-model",
-   "title": "AI-Driven Vulnerability Surge Breaks the Traditional Patching Model",
-   "published_at": "2026-08-18T13:00:00Z",
-   "published_raw": "Tue, 18 Aug 2026 13:00:00 +0000",
-   "categories": [
-    "Artificial Intelligence",
-    "Vulnerabilities",
-    "AI",
-    "Patch",
-    "vulnerability"
-   ],
-   "description": "<p>Rapid7 warns that traditional patch cycles cannot keep pace with soaring vulnerability disclosures and faster exploitation, forcing defenders to prioritize exposure over severity scores.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-driven-vulnerability-surge-breaks-the-traditional-patching-model/\">AI-Driven Vulnerability Surge Breaks the Traditional Patching Model</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48675",
-   "authors": [
-    {
-     "name": "Kevin Townsend",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:c783da7933340d9b957ef357ef8fc65110ace64ee8f11efafb3606ceaae77845",
-   "url": "https://www.securityweek.com/xpander-raises-7-5-million-for-ai-management-and-governance",
-   "title": "Xpander Raises $7.5 Million for AI Management and Governance",
-   "published_at": "2026-08-18T12:29:08Z",
-   "published_raw": "Tue, 18 Aug 2026 12:29:08 +0000",
-   "categories": [
-    "Artificial Intelligence",
-    "Cybersecurity Funding",
-    "funding",
-    "Xpander"
-   ],
-   "description": "<p>Xpander’s platform uses a universal agent harness that executes AI agents as portable workloads and securely renders interfaces on demand.</p>\n<p>The post <a href=\"https://www.securityweek.com/xpander-raises-7-5-million-for-ai-management-and-governance/\">Xpander Raises $7.5 Million for AI Management and Governance</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48689",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:53db5d9a361f87c9a7f357fc50fd04c554af7a9743d2ecd07a3355c2102de566",
-   "url": "https://www.securityweek.com/fortinet-acquires-ai-security-company-virtue-ai",
-   "title": "Fortinet Acquires AI Security Company Virtue AI",
-   "published_at": "2026-08-18T12:06:21Z",
-   "published_raw": "Tue, 18 Aug 2026 12:06:21 +0000",
-   "categories": [
-    "Funding/M&A",
-    "M&A Tracker",
-    "Acquisition",
-    "Fortinet",
-    "M&A",
-    "Virtue AI"
-   ],
-   "description": "<p>Fortinet will use Virtue AI technology to enhance its AI security portfolio, including for AI models, applications, and agentic systems.</p>\n<p>The post <a href=\"https://www.securityweek.com/fortinet-acquires-ai-security-company-virtue-ai/\">Fortinet Acquires AI Security Company Virtue AI</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48687",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
      "uri": "",
      "email": ""
     }
