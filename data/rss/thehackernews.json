@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-08-28T09:00:47Z",
+ "updated_at": "2026-08-28T10:00:48Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-28T09:00:47Z",
+  "last_success_at": "2026-08-28T10:00:48Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -571,6 +571,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijGpzrXApP6QuAgCJDVSMHyi1nEVE7liFsNRwcNTWzkwbjmzqv8vGi8qalq_aWVgtgrD2CC_ZT-qXCsj_Bkj8njgIFQExo0gg5PG_dVIQfo9-wW6lIBh6OLp6z4nBeephIQACe1GX_KOP6nzqe10CM4H8p7EwRIlWGImwXgXjsSIYKCCVlSB7Oe1LWAIQ/s260-e100/reco.gif",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c079f13fec47f90b7c10669bcd9792da1532c6fe7638ce5c75e5d2f61750f081",
+   "url": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+   "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
+   "published_at": "2026-08-28T09:45:15Z",
+   "published_raw": "2026-08-28T15:15:15.885+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as the root user.\n\nThe vulnerability, assigned the CVE identifier CVE-2026-65643, impacts all supported versions of cPanel &amp; WHM.\n\ncPanel described the issue as a critical security vulnerability and said that an",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5595949284773239728",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtKp2lGcxPfp8ymA88FIBXB0Bn9fcUSaU_UIl1pfAjDSC2usRwUE73vhQEeP6jar9U9k10yotgyYl_tIk6dQA-MFIr2bJ3LN_azGt9kDU6hpW448HgmBuJbc6TWSo1vfpmhoK0J3_5rhF6VIpWd7NYf0G1YSYHdqKubWgQwa1yU6KRAL-bnDGd8HmCmPk/s260-e100/cpanel-root.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -1226,33 +1253,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:7850fb529146db3c12d4cf5a98b147555d2f1ab06cd7f89f81b1ea355605c5ff",
-   "url": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
-   "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
-   "published_at": "2026-08-21T07:04:25Z",
-   "published_raw": "2026-08-21T12:34:25.738+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr.\n\nThe vulnerability in question is CVE-2026-19478 (CVSS score: 9.4), a case of code injection that allows an unauthenticated attacker to modify or delete publicly accessible GitLab projects and rewrite their data under certain conditions without requiring",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5034838800185445602",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8jpyIqzuMd0vBKcxrQRj7eBbEebcRgNHLRFpx7YuxJlTPksUDEar7HPu4unQPNaOzpChBl1-dYyPHwuyjhgetrrh6PZ9OHPRqnc6nXeNdaX9f8AcSDe6gpmRecFfryf3-3BgsNoxvOyNc6xz703Qzsd7hJLuKbQt4Q6bgVxRZDGdpFzy8O2SByvUouC3J/s260-e100/gitlab-cve.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:827ef3b45efd4e47181c51e48a7f400d24b257aef6542015deb2ce6aab9c8f24",
    "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
    "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
@@ -1300,6 +1300,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit3cCqpn48W_lqEDCb9ewKFToGQcvhUjO939N0Gja-aTvCvRTz8kdOPZG1bhyphenhyphenED2XNeB82rjCIeVO3Nw9akDlMnQZqc7keiel8H82zgtf1A7fhb6DP3z6Qh3Ehk6AGrMt77rXkoNhLaDeEl692kDHAHVsNb7AOcDxpsavM0Hj9TZRLLJsuQ-OT3oQOvFMi/s260-e100/ptc.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:7850fb529146db3c12d4cf5a98b147555d2f1ab06cd7f89f81b1ea355605c5ff",
+   "url": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
+   "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
+   "published_at": "2026-08-21T07:04:25Z",
+   "published_raw": "2026-08-21T12:34:25.738+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr.\n\nThe vulnerability in question is CVE-2026-19478 (CVSS score: 9.4), a case of code injection that allows an unauthenticated attacker to modify or delete publicly accessible GitLab projects and rewrite their data under certain conditions without requiring",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5034838800185445602",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8jpyIqzuMd0vBKcxrQRj7eBbEebcRgNHLRFpx7YuxJlTPksUDEar7HPu4unQPNaOzpChBl1-dYyPHwuyjhgetrrh6PZ9OHPRqnc6nXeNdaX9f8AcSDe6gpmRecFfryf3-3BgsNoxvOyNc6xz703Qzsd7hJLuKbQt4Q6bgVxRZDGdpFzy8O2SByvUouC3J/s260-e100/gitlab-cve.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -1597,33 +1624,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOzcJe940Ayk9JrnE-tmotZ-mEHZiA5Jc0A8Sw9IZIfYEnH61X8whAW6jJZTnzLIQYA37foce9X_fshoAVwjLyBKrjvHbkuhhtwZ2Mewxtf1Syn9FBOvZBqwcMWXOCKFNnASyrCOQ9XTF6f174Aa4O55O7tbU6evYcrrV0H_psoYYq3uQQ_GvZqsu0e0ik/s260-e100/mlflow.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:5e10185b7da23e8ffcc9e9dc66386ac3a87f187a12bf65ea7dc5b29d5982be4b",
-   "url": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
-   "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
-   "published_at": "2026-08-18T09:10:45Z",
-   "published_raw": "2026-08-18T14:40:45.451+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "SafePal has disclosed that an authorization flaw in an order-tracking plug-in exposed the names, email addresses, shipping addresses, phone numbers, and purchase details of approximately 39,798 customers.\n\nThe hardware wallet maker said all affected customers were notified individually by email on August 16 from security@safepal.com, with the subject line \"[Important] Your SafePal Order",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3534304998684747594",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFTKWlpW6A2F_jXpwDsCbJmaJ7-TnZPoCNsW0BG5pa4F8X8I1zzCRAMefU00NEQHKlqdqGchFbSTQ_aADgjlJeIHpUKswwnwNiP7WnbAftpciT_4FAFzPKi5NYnBtI0R0VEhP4JIHXFpm6hhyQFASu7IP1kFP2FmlLVejJDiG3Tgxf2ofz-J0Aq02AoF8/s260-e100/safe.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
