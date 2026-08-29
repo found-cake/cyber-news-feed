@@ -1,15 +1,39 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-08-28T23:00:48Z",
+ "updated_at": "2026-08-29T00:00:46Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-28T23:00:48Z",
+  "last_success_at": "2026-08-29T00:00:46Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d4d938e599feef83804d47fec0ebf2cf5f7d66893f313786cabd48a91293c4eb",
+   "url": "https://www.stepsecurity.io/blog/7nohe-openapi-react-query-codegen-compromised-npm-publishing-workflow",
+   "title": "@7nohe/openapi-react-query-codegen Compromised Through an Exposed npm Publishing Workflow",
+   "published_at": "2026-08-28T23:15:06Z",
+   "published_raw": "Fri, 28 Aug 2026 23:15:06 GMT",
+   "categories": [],
+   "description": "Ten malicious versions of @7nohe/openapi-react-query-codegen were published through an exposed npm publishing workflow. IOCs and recovery steps inside.",
+   "feed_id": "https://www.stepsecurity.io/blog/7nohe-openapi-react-query-codegen-compromised-npm-publishing-workflow",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a921121d9c8bbe8229939ae_6a921044245387f333557f80_openapi-rqc-hero.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a921121d9c8bbe8229939ae_6a921044245387f333557f80_openapi-rqc-hero.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:9d33f4a06ef1fa65062bcc0a72c76afa6f4524fd33f3c013f22626cad39ec72c",
    "url": "https://www.stepsecurity.io/blog/dev-machine-guard-now-inventories-where-developer-credentials-live",
