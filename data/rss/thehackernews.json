@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-08-29T16:00:46Z",
+ "updated_at": "2026-08-29T17:01:32Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-29T16:00:46Z",
+  "last_success_at": "2026-08-29T17:01:32Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -409,6 +409,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5vbtHH6C3JbT58Yghw2KNalqy-xoKLuJlsV9AGd_j2mQj4NKzVgWiOc9CDvUsT2JY0AchCk5140WhvNgZdKY2fwmeGEEi9FMvSSJvrBYVWndOKV9R47OEMZ59OOjv56DkPgpKo55fvHT7JSRW4yvh9_Xp5KBbw9xyJg2EGStHzg8ctloKfsJJPDLss1xR/s260-e100/zimbra.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:20d327a204a5298e63074340c6e8ca4de0e808c3f887b5d17f1252a2384ab3f2",
+   "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+   "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+   "published_at": "2026-08-29T16:25:03Z",
+   "published_raw": "2026-08-29T21:55:03.963+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution.\n\nThe vulnerabilities, according to Wordfence and Patchstack, are listed below -\n\n\n  CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4198398808591118077",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiROOqCRPV4u9cWfJL8nvCYKi4Ake-ki3_uh8Qn8RJ0P20h3Mz_qxVfF856pJ9DQZMHy922CeLwOHDc37Gpb4p1UCTMx6cMT5HeeAP_w4RitCuQficYcGDDkqpDVfW_nA3M7qWT-WyM6A5Adk3J2e8kMWSG1GSUOatrcVBmc7fmb2-ovadVS3fOdkd1ubFx/s260-e100/wordpress-themes.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -1064,33 +1091,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:91c61774da1356e26b3442901aac88f05b34adef90e0c9592ea8cbd3db4742d5",
-   "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
-   "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
-   "published_at": "2026-08-25T08:34:07Z",
-   "published_raw": "2026-08-25T14:04:07.086+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as any WordPress user, including administrators.\n\nThe vulnerabilities, as disclosed by Patchstack, are listed below -\n\n\n  CVE-2026-61979 (CVSS score: 8.1) - An unauthenticated privilege escalation",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8120267473685658819",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtxn6tX1r1BmVfN_4cdoh6p5jmcAe3D9ckNhjscacXx5HpxZJAdb1SvIWo404cGlwahzCLyFIRB-MdUjGcQdBLLC5pMwaCB75e9AT5jKvC49cvIP5jGIOB4IjcQGaOpibWbIPKj929DICeMilGRZn5JmVIcVslRm2hWgz5RTXIZK5d2b2N5dlEnRBBwWVO/s260-e100/wordpress-hack.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:827ef3b45efd4e47181c51e48a7f400d24b257aef6542015deb2ce6aab9c8f24",
    "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
    "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
@@ -1111,6 +1111,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSn562AFIpj2ldmT5inFv5tGgfNbaM4F1OBNvCW-80nP-YmFewnJd9VMlbgYnhgWrUpHS81bS6uEXRgEmg37c14OqmkO29XqY3FcBCl637vmAxfqB3UDtL3Rvgio6cPAQQv3bYtLUIyRdog4bpgD8MqJJYhTLish4L2Ljt6aJ_WpjFmTXYhmrA-TguqH98/s260-e100/plc.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:91c61774da1356e26b3442901aac88f05b34adef90e0c9592ea8cbd3db4742d5",
+   "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+   "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
+   "published_at": "2026-08-25T08:34:07Z",
+   "published_raw": "2026-08-25T14:04:07.086+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as any WordPress user, including administrators.\n\nThe vulnerabilities, as disclosed by Patchstack, are listed below -\n\n\n  CVE-2026-61979 (CVSS score: 8.1) - An unauthenticated privilege escalation",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8120267473685658819",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtxn6tX1r1BmVfN_4cdoh6p5jmcAe3D9ckNhjscacXx5HpxZJAdb1SvIWo404cGlwahzCLyFIRB-MdUjGcQdBLLC5pMwaCB75e9AT5jKvC49cvIP5jGIOB4IjcQGaOpibWbIPKj929DICeMilGRZn5JmVIcVslRm2hWgz5RTXIZK5d2b2N5dlEnRBBwWVO/s260-e100/wordpress-hack.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
