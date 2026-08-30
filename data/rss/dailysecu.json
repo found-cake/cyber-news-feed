@@ -1,15 +1,99 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-08-30T03:00:49Z",
+ "updated_at": "2026-08-30T04:00:45Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-30T03:00:49Z",
+  "last_success_at": "2026-08-30T04:00:45Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:be057e6d1a5e1fcea7543b6ba7f78e7a198fde0b736676afca93c137f984847f",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208262",
+   "title": "700개 AI 에이전트가 허깅 페이스 공격…스스로 역할 나누고 취약점 공략",
+   "published_at": "2026-08-30T12:58:32Z",
+   "published_raw": "2026-08-30 12:58:32",
+   "categories": [
+    "이슈"
+   ],
+   "description": "인공지능 에이전트 수백 개가 서로 정보를 공유하고 역할을 나눠 실제 외부 기업 시스템을 공격한 사건의 구체적인 내용이 공개됐다.오픈AI와 독립 평가기관 METR가 8월 26일 공개한 조사 결과에 따르면, 약 1,200개의 AI 에이전트가 비인가 메시지 공간을 이용해 7만건이 넘는 메시지와 파일을 주고받았다. 이 가운데 약 700개 에이전트가 허깅 페이스(Hugging Face) 공격에 참여했다.이번 사건은 오픈AI가 내부 사이버보안 평가 환경인 익스플로잇짐에서 AI 모델의 취약점 공격 능력을 시험하는 과정에서 발생했다. 원래 각 에",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:8f5ac696eb5fd12bc661d775d6ecce839fa110080eebfc7dd37e2b0a6a35a7ee",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208261",
+   "title": "안드로이드 17, 접속 사이트 노출 줄인다...웹 접속 도메인 추적 차단 강화",
+   "published_at": "2026-08-30T12:44:44Z",
+   "published_raw": "2026-08-30 12:44:44",
+   "categories": [
+    "이슈"
+   ],
+   "description": "구글이 안드로이드 17에 암호화 클라이언트 헬로를 지원하면서 모바일 인터넷 접속정보 보호를 강화했다.구글은 8월 27일 안드로이드 17에 ECH를 비롯해 로컬 네트워크 보호, 인증서 투명성, 2G 네트워크 차단 기능 등을 적용한다고 공개했다.ECH는 HTTPS 연결 과정에서 외부에 노출될 수 있었던 서버 이름 표시를 암호화하는 기술이다. HTTPS가 통신 내용을 암호화하더라도 기존에는 인터넷서비스사업자(ISP)나 와이파이 운영자가 사용자가 접속한 도메인을 확인할 수 있었다.안드로이드 17은 프라이빗 DNS와 ECH를 함께 사용해 이",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:66ca22b0c38bcfb937797c600a4f3a934cafbb297f79a418b8f2d679c49bdd77",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208260",
+   "title": "러시아 해킹 조직 APT28, 유럽 정부·외교기관 공격…신종 백도어 ‘HOOKEDGE’ 사용",
+   "published_at": "2026-08-30T12:36:28Z",
+   "published_raw": "2026-08-30 12:36:28",
+   "categories": [
+    "이슈"
+   ],
+   "description": "러시아 연계 해킹그룹 APT28이 유럽 정부와 외교기관을 대상으로 새로운 백도어 ‘훅엣지(HOOKEDGE)’를 사용한 사이버 스파이 활동을 벌인 정황이 확인됐다. 공격은 2025년 9월 말부터 2026년 4월 초까지 스페인, 루마니아, 튀르키예의 정부·외교·방산 관련 조직을 중심으로 관측됐다.이번 공격에 대한 상세 분석은 2026년 8월 27일 공개됐다. 공격 주체로 지목된 APT28은 팬시 베어, 포레스트 블리자드, 블루델타 등의 이름으로 추적되고 있다. 영국 국가사이버보안센터(NCSC)는 APT28을 러시아군 총정보국(GRU)",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:9426c3075cd07bf902c09a4ae0750a7e8911e1bae364d7e7a18012ea1fa6fd85",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208259",
+   "title": "워드프레스 플러그인·테마서 치명적 취약점 5종…사이트 탈취·원격코드실행 위험",
+   "published_at": "2026-08-30T12:21:55Z",
+   "published_raw": "2026-08-30 12:21:55",
+   "categories": [
+    "이슈"
+   ],
+   "description": "워드프레스에서 널리 사용되는 플러그인과 테마에서 사이트 관리자 권한 탈취나 원격코드실행으로 이어질 수 있는 치명적 취약점 5종이 잇따라 공개됐다. 영향을 받는 제품은 WPMU DEV 대시보드, 아바다, 트랜슬레이트프레스, 포즈, 기브WP다.공개된 취약점의 CVSS 점수는 9.8~10.0이다. 일부 취약점은 로그인하지 않은 외부 공격자가 관리자 계정을 장악할 수 있으며, 기브WP와 아바다 취약점은 조건이 충족되면 서버에서 임의의 코드를 실행할 수 있다.다만 제품마다 공격에 필요한 조건이 다르기 때문에 해당 플러그인을 설치했다는 이유만",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:1515084f5cf38a0c0bccb65f1636053d10a26e1e672d4c779f71709224607b52",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208236",
