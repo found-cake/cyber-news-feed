@@ -1,15 +1,58 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-08-30T14:00:49Z",
+ "updated_at": "2026-08-30T15:00:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-30T14:00:49Z",
+  "last_success_at": "2026-08-30T15:00:47Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:4cbff6ac24036978c0324ef2b94fa190e2bee27447e3b305db54debb03769249",
+   "url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data",
+   "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
+   "published_at": "2026-08-30T15:00:21Z",
+   "published_raw": "Sun, 30 Aug 2026 11:00:21 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "FulcrumSec claims it stole 86 GB of data from Manchester Airports Group. BleepingComputer validated one traveller's record, while samples revealed detailed customer, booking, and travel information beyond what MAG initially disclosed. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
+   "authors": [
+    {
+     "name": "Ax Sharma",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:84f685770c0f51b44b406690dc99e390f8706b54af95f917d4b46545167bae6e",
+   "url": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data",
+   "title": "Chrome Web Store extensions caught stealing crypto, browser data",
+   "published_at": "2026-08-30T14:17:44Z",
+   "published_raw": "Sun, 30 Aug 2026 10:17:44 -0400",
+   "categories": [
+    "security",
+    "CryptoCurrency"
+   ],
+   "description": "Multiple extensions for Google Chrome and Microsoft Edge delivered a malware framework that deployed modules to steal cryptocurrency, sensitive data, and browser history, as well as inject ClickFix lures. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:d4e143de4d8fe3dd9ba42526e75e3b3380ab57f204d6805c23800c581994967e",
    "url": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking",
@@ -1153,48 +1196,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:a9dbc5f8c54c30e0025a7177de11f878941ff2721a38934bedfb22362a73c725",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks",
-   "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
-   "published_at": "2026-08-20T14:39:48Z",
-   "published_raw": "Thu, 20 Aug 2026 10:39:48 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:034c7deac6f7ea37687d40d560677fea23528eef9626f4068886842bed485168",
-   "url": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss",
-   "title": "How MSPs can catch phishing attacks email filters miss",
-   "published_at": "2026-08-20T14:01:11Z",
-   "published_raw": "Thu, 20 Aug 2026 10:01:11 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detect and contain attacks that make it past the inbox. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
-   "authors": [
-    {
-     "name": "Sponsored by Kaseya",
      "uri": "",
      "email": ""
     }
