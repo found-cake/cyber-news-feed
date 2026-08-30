@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-08-30T13:00:49Z",
+ "updated_at": "2026-08-30T14:00:49Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-30T13:00:49Z",
+  "last_success_at": "2026-08-30T14:00:49Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -382,33 +382,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix5lAWOEf4I8fcz0CJYg-EBclOrTPnlbsf6tKT2-L8xsfQ4XqtjOq15iU6EBbIsWlqQq3e1-hIXrPe7MMg4JwSGj6mSwjSwG8V3UFMrfgYD-Lo9bKvncTGJ9lPbZoxq-1RNmKLyL_jZSiurWVgGuIxjgYYJeXW_wE51PRTDUhT7kRxp0MMpc3YflI9bntb/s260-e100/google-whatsapp.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:572e047ecd00903a139a62ccc4f1794e3feb92c9dd1236ba422517807e4e9617",
-   "url": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
-   "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
-   "published_at": "2026-08-20T13:24:28Z",
-   "published_raw": "2026-08-20T18:54:28.708+05:30",
-   "categories": [
-    "threat-intelligence"
-   ],
-   "description": "A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska).\n\nThe vulnerability in question is CVE-2026-73570 (CVSS score: 8.9), which refers to a case of command injection that can lead to remote code execution.\n\n\"A remote code execution vulnerability exists in Zimbra",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7752707518383896157",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5vbtHH6C3JbT58Yghw2KNalqy-xoKLuJlsV9AGd_j2mQj4NKzVgWiOc9CDvUsT2JY0AchCk5140WhvNgZdKY2fwmeGEEi9FMvSSJvrBYVWndOKV9R47OEMZ59OOjv56DkPgpKo55fvHT7JSRW4yvh9_Xp5KBbw9xyJg2EGStHzg8ctloKfsJJPDLss1xR/s260-e100/zimbra.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -1381,60 +1354,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPv76ODDXuPeov3fu_Gs_V-72pKnjw38Qu9A4qXOn_2QFd9daTYFAXre2eubEQ6Fwb65SwXgv10mhyDCGE_KcvL69c-CGe2BfEiOj74UTHwv6WAhMyxNuVGOEdUZYwz0Y9v55SFmaOwjHQYHbOyzvZEofi0egkTfeFxQlJRD3Sj6ve-TZ47SM1sNfYGB0/s260-e100/grok-chat.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:01bed0d17131f818eb2f25b2bca6186b09b7788b997fc56bbb9f48f193c7e592",
-   "url": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
-   "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
-   "published_at": "2026-08-20T13:48:24Z",
-   "published_raw": "2026-08-20T19:18:24.200+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment.\n\nThe vulnerability (\"GHSA-864f-rcv7-6rh4\"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6416389565176784276",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ3-aEfGwe03ZMojsoiYaQ4TNjUiAPEFK-m68uY5JSlF8knbnGWOcBrqiB_4s6J47lPjyhQEuWdUMHnktRU6YfOcltn7_lXga77C8TNH4GOVAPrmIH_T0MsFKFkmQSMnvf42bnLlH0pC4BVMEpAZJLLTH51GpgfZybiZ_UWNLhKxx1oGi8PyD3bOUGG0_F/s260-e100/nodejs.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:88c8957eed48de4f3b652ae6c89b2b9f0244d92991738c8192d8c97d709d92b0",
-   "url": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
-   "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
-   "published_at": "2026-08-20T13:35:13Z",
-   "published_raw": "2026-08-20T19:05:13.079+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability.\n\nAccording to the cloud computing and virtualization technology company, the issues affect customer-managed NetScaler ADC and NetScaler Gateway, including certain FIPS and NDcPP builds, as well as SecurAccess",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1676516301717763085",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCXrYMA_j7aJrrdIZKt2gQwTWYXhhHZTfBvrNcgpLLBTa5hzcmDNguBKwBhiD8p7kO5K2OeQYVbIPg2HHDBwu9LNzR6oAFE-znmFWIgjY_XzA0qdy-rA8XzV_uGvsxLWRNXCyyOlUKdDV0LGrXPN15wxYsTuZslyecGQ1cqE2OKdX5cocpp74uXenwdj0/s260-e100/citrix.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
