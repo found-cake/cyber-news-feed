@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-08-31T08:00:48Z",
+ "updated_at": "2026-08-31T09:00:48Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-31T08:00:48Z",
+  "last_success_at": "2026-08-31T09:00:48Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:74ad871abf391f429e84fffeeb1e4f4998422f8df065b49a9fb491521a1f30a8",
+   "url": "https://www.securityweek.com/berlin-wont-pay-extortion-group-claiming-data-theft",
+   "title": "Berlin Won’t Pay Extortion Group Claiming Data Theft",
+   "published_at": "2026-08-31T08:49:36Z",
+   "published_raw": "Mon, 31 Aug 2026 08:49:36 +0000",
+   "categories": [
+    "Data Breaches",
+    "Ransomware",
+    "Berlin",
+    "data breach",
+    "Rhysida"
+   ],
+   "description": "<p>The Rhysida ransomware group has claimed the exfiltration of over 5TB of data, including personal information and credentials.</p>\n<p>The post <a href=\"https://www.securityweek.com/berlin-wont-pay-extortion-group-claiming-data-theft/\">Berlin Won’t Pay Extortion Group Claiming Data Theft</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=48974",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:82d26cef085cc97a92f7a6f7b6c55adb6ea3a0a465e0d2d7cb8ece7625560f59",
    "url": "https://www.securityweek.com/more-details-emerge-on-exploited-papercut-vulnerabilities",
@@ -1756,76 +1791,6 @@
    ],
    "description": "<p>Hackers pushed a poisoned arrayref version that added a dependency to fetch a malicious payload from a remote server.</p>\n<p>The post <a href=\"https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/\">Rust Supply Chain Attack Linked to North Korean Hackers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=48770",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:026b2b8d3fce449ee7a8170a507fbd4eb6451a0de59de48feb713cc95b3e768e",
-   "url": "https://www.securityweek.com/contractors-cmmc-confidence-rises-as-ability-to-prove-it-falls-behind",
-   "title": "Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind",
-   "published_at": "2026-08-21T08:41:06Z",
-   "published_raw": "Fri, 21 Aug 2026 08:41:06 +0000",
-   "categories": [
-    "Compliance",
-    "Government",
-    "CMMC",
-    "Report"
-   ],
-   "description": "<p>Two industry surveys released this week by Kiteworks and CyberSheath paint a consistent picture of the defense industrial base.</p>\n<p>The post <a href=\"https://www.securityweek.com/contractors-cmmc-confidence-rises-as-ability-to-prove-it-falls-behind/\">Contractors&#8217; CMMC Confidence Rises as Ability to Prove It Falls Behind</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48767",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:1587e3105eb543187e6288db322264c5888f3fa5f69c1a7a5503fd067ef6d6ee",
-   "url": "https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches",
-   "title": "Microsoft Patches Exploited Entra ID Vulnerability",
-   "published_at": "2026-08-21T08:12:19Z",
-   "published_raw": "Fri, 21 Aug 2026 08:12:19 +0000",
-   "categories": [
-    "Cloud Security",
-    "Vulnerabilities",
-    "Featured",
-    "Microsoft",
-    "patches",
-    "vulnerability"
-   ],
-   "description": "<p>A total of 22 patches were releaased, a majority for code execution, privilege escalation, and information disclosure vulnerabilities.</p>\n<p>The post <a href=\"https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/\">Microsoft Patches Exploited Entra ID Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48765",
    "authors": [
     {
      "name": "Ionut Arghire",
