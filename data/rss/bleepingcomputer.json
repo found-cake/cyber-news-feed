@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-08-31T18:00:59Z",
+ "updated_at": "2026-08-31T19:00:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-31T18:00:59Z",
+  "last_success_at": "2026-08-31T19:00:47Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:a33bda7d2d1fa083f9d04439f9103d501b2cd469b8f5dc8ecc6d59c792050c63",
+   "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels",
+   "title": "Microsoft warns of TerminalFix attacks deploying reverse tunnels",
+   "published_at": "2026-08-31T18:51:04Z",
+   "published_raw": "Mon, 31 Aug 2026 14:51:04 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A new ClickFix variant dubbed TerminalFix uses fake Cloudflare CAPTCHA prompts on compromised websites to trick victims into running malicious PowerShell commands in Windows Terminal. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:11c86572051ce856f5731689c2414d7b0f2a471e05c3a33e24180fb1620157ca",
    "url": "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms",
@@ -1132,27 +1153,6 @@
    "authors": [
     {
      "name": "Sponsored by ThreatLocker",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:0b5e0e6c8159c62d0872262d07ccd77e07524eb57d9b602071fc4401a4fc7741",
-   "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign",
-   "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
-   "published_at": "2026-08-21T18:01:30Z",
-   "published_raw": "Fri, 21 Aug 2026 14:01:30 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
