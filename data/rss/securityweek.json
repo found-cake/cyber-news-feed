@@ -1,15 +1,85 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-08-31T12:00:55Z",
+ "updated_at": "2026-08-31T13:00:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-31T12:00:55Z",
+  "last_success_at": "2026-08-31T13:00:47Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d2ee0c00a53fcf8b4608c5c287e9d5e0e7d642aaf0fc385166a02535fa81c02f",
+   "url": "https://www.securityweek.com/what-the-hugging-face-incident-teaches-security-leaders-about-ai-agent-access",
+   "title": "What the Hugging Face Incident Teaches Security Leaders About AI Agent Access",
+   "published_at": "2026-08-31T12:15:00Z",
+   "published_raw": "Mon, 31 Aug 2026 12:15:00 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "Identity & Access",
+    "AI",
+    "Hugging Face"
+   ],
+   "description": "<p>Security teams must treat autonomous agents as highly privileged identities.</p>\n<p>The post <a href=\"https://www.securityweek.com/what-the-hugging-face-incident-teaches-security-leaders-about-ai-agent-access/\">What the Hugging Face Incident Teaches Security Leaders About AI Agent Access</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=48985",
+   "authors": [
+    {
+     "name": "Etay Maor",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:ba66baa096a0aeba5754c85138a024fb37fa1a6b35f3c0b9e41f8b5dccf43c01",
+   "url": "https://www.securityweek.com/anthropic-warns-claude-users-of-infostealer-malware-infections",
+   "title": "Anthropic Warns Claude Users of Infostealer Malware Infections",
+   "published_at": "2026-08-31T12:11:58Z",
+   "published_raw": "Mon, 31 Aug 2026 12:11:58 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "Malware & Threats",
+    "AI",
+    "Anthropic",
+    "Claude",
+    "malware"
+   ],
+   "description": "<p>The AI giant is logging customers out of their accounts and removing payment data to prevent unauthorized Claude usage.</p>\n<p>The post <a href=\"https://www.securityweek.com/anthropic-warns-claude-users-of-infostealer-malware-infections/\">Anthropic Warns Claude Users of Infostealer Malware Infections</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=48988",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:b66a75b02fff175fbfd2d6fd4cea4495289a3cab8febf5f940470e81e14a6d65",
    "url": "https://www.securityweek.com/critical-ruby-on-rails-vulnerability-in-attackers-crosshairs",
@@ -1863,39 +1933,6 @@
    "authors": [
     {
      "name": "Kevin Townsend",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:3d1d8edf1e875643d7034d1aacd7398cfb11230d5106d218052615ea2a17978f",
-   "url": "https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host",
-   "title": "Critical Isolated-vm Vulnerability Leads to RCE on Host",
-   "published_at": "2026-08-21T12:26:07Z",
-   "published_raw": "Fri, 21 Aug 2026 12:26:07 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "Isolated-vm",
-    "vulnerability"
-   ],
-   "description": "<p>The type confusion bug can lead to V8 sandbox escape and control-flow hijacking of the host process.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/\">Critical Isolated-vm Vulnerability Leads to RCE on Host</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48775",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
      "uri": "",
      "email": ""
     }
