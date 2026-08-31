@@ -1,15 +1,54 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-08-31T14:00:53Z",
+ "updated_at": "2026-08-31T15:00:51Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-31T14:00:53Z",
+  "last_success_at": "2026-08-31T15:00:51Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d456a87bbcaf3fcde0ba948ea8af2016bc74f06331fef6e93da0720e5bde1588",
+   "url": "https://www.securityweek.com/nightmare-eclipse-drops-hardbreacher-kaspersky-product-exploit",
+   "title": "Nightmare Eclipse Drops ‘HardBreacher’ Kaspersky Product Exploit",
+   "published_at": "2026-08-31T14:32:34Z",
+   "published_raw": "Mon, 31 Aug 2026 14:32:34 +0000",
+   "categories": [
+    "Endpoint Security",
+    "Vulnerabilities",
+    "Chaotic Eclipse",
+    "HardBreacher",
+    "Kaspersky",
+    "PoC exploit",
+    "security products",
+    "vulnerability",
+    "Zero-Day"
+   ],
+   "description": "<p>Kaspersky told SecurityWeek that it patched the vulnerability affecting its Endpoint Security product.</p>\n<p>The post <a href=\"https://www.securityweek.com/nightmare-eclipse-drops-hardbreacher-kaspersky-product-exploit/\">Nightmare Eclipse Drops &#8216;HardBreacher&#8217; Kaspersky Product Exploit</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=48997",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:4f1680a799fc4fbadef7476cbfc4215b531f7338f2fccab2cc71b55dfc3502d0",
    "url": "https://www.securityweek.com/servicenow-patches-3-critical-code-injection-vulnerabilities",
@@ -1938,71 +1977,6 @@
    "authors": [
     {
      "name": "SecurityWeek News",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:792ab2b92ec957eaa460c2eecc2db06551dd12569b3f74094242163b4b23874d",
-   "url": "https://www.securityweek.com/encrypted-prompts-bypass-ai-safety-guardrails-in-grok-and-gemini",
-   "title": "Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini",
-   "published_at": "2026-08-21T14:34:05Z",
-   "published_raw": "Fri, 21 Aug 2026 14:34:05 +0000",
-   "categories": [
-    "Artificial Intelligence",
-    "AI",
-    "Featured"
-   ],
-   "description": "<p>Researchers say the new ‘Cryptographic Context Injection’ technique conceals malicious instructions until they are decrypted inside a trusted execution environment.</p>\n<p>The post <a href=\"https://www.securityweek.com/encrypted-prompts-bypass-ai-safety-guardrails-in-grok-and-gemini/\">Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48783",
-   "authors": [
-    {
-     "name": "Kevin Townsend",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:92478a349751d75c8722dac2e5e72f5f29eefc43c0d68a9d41f5154a1a32248d",
-   "url": "https://www.securityweek.com/new-phishing-toolkit-uses-passkeys-to-maintain-access-after-password-resets",
-   "title": "New Phishing Toolkit Uses Passkeys to Maintain Access After Password Resets",
-   "published_at": "2026-08-21T14:22:06Z",
-   "published_raw": "Fri, 21 Aug 2026 14:22:06 +0000",
-   "categories": [
-    "Phishing",
-    "phishing kit"
-   ],
-   "description": "<p>Researchers say iAuthFlow V2 can register an attacker-controlled passkey, enabling persistent access even after passwords are changed and active sessions revoked.</p>\n<p>The post <a href=\"https://www.securityweek.com/new-phishing-toolkit-uses-passkeys-to-maintain-access-after-password-resets/\">New Phishing Toolkit Uses Passkeys to Maintain Access After Password Resets</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48781",
-   "authors": [
-    {
-     "name": "Kevin Townsend",
      "uri": "",
      "email": ""
     }
