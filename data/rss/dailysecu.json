@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-08-31T00:00:45Z",
+ "updated_at": "2026-08-31T01:00:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-31T00:00:45Z",
+  "last_success_at": "2026-08-31T01:00:47Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -671,69 +671,6 @@
     "이슈"
    ],
    "description": "미국 정부가 메두사(Medusa) 랜섬웨어 조직이 새로 공개된 취약점을 불과 24시간 안에 실제 공격에 활용하고 있다며 긴급 대응을 당부했다.미국 사이버보안·인프라보안국(CISA), FBI, 보건복지부(HHS)는 8월 18일 메두사 랜섬웨어에 대한 공동 보안 권고문 ‘AA25-071A’를 업데이트했다. 조사 결과 메두사는 2026년 4월까지 의료, 교육, 법률, 보험, 기술, 제조 등 핵심 인프라 분야 500곳 이상에 피해를 준 것으로 파악됐다.새 취약점 나오면 하루 만에 공격가장 주목할 부분은 공격 속도다. 메두사는 특정 기업이나",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "우진영 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:c22e6844380c7a92559e333529feaef4514fe8f11e5283587a8f1ea985b400f1",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208137",
-   "title": "안드로이드 뱅킹 악성코드 진화…스마트폰 안에서 송금까지 조작한다",
-   "published_at": "2026-08-21T00:30:19Z",
-   "published_raw": "2026-08-21 00:30:19",
-   "categories": [
-    "이슈"
-   ],
-   "description": "안드로이드 스마트폰을 노린 뱅킹 악성코드가 단순히 로그인 정보만 훔치는 수준을 넘어 피해자 기기 안에서 금융 앱을 직접 조작하는 단계로 진화하고 있다.최근 분석된 ‘톡식판다 2.0(ToxicPanda 2.0)’과 ‘골드디거(GoldDigger)’는 안드로이드 접근성 서비스를 악용해 화면 정보를 읽고 버튼을 누르거나 문자를 입력할 수 있다. 공격자가 탈취한 계정 정보를 다른 기기에서 사용하는 대신 피해자의 스마트폰에서 직접 금융거래를 실행하는 ‘온디바이스 사기’가 핵심 공격 방식이다.톡식판다 2.0, 167개 원격 명령…표적 금융서비",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "우진영 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:126047530ac4f01eaa5c5d790f2bf6c5ebc65f307056ce08100be9caa5d20f90",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208136",
-   "title": "폐기한 비자카드도 안심 못한다…NFC 유효기간 조작해 결제 성공",
-   "published_at": "2026-08-21T00:19:08Z",
-   "published_raw": "2026-08-21 00:19:08",
-   "categories": [
-    "이슈"
-   ],
-   "description": "유효기간이 끝난 비자(Visa) 신용카드를 다시 비접촉 결제에 사용할 수 있는 이른바 ‘좀비 카드’ 공격이 공개됐다. 카드의 암호체계를 깨는 방식이 아니라 카드와 결제단말기 사이에서 전달되는 유효기간 정보를 바꿔 단말기가 정상 카드로 인식하도록 만드는 공격이다.미국 매사추세츠대학교 애머스트 연구진 라자 하스나인 안와르, 제라드 드쿠냐, 무하마드 타키 라자는 해당 연구를 8월 12일부터 14일까지 미국 볼티모어에서 열린 ‘제35회 USENIX Security Symposium’에서 공개했다. 논문 제목은 ‘Zombie Cards Ba",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:f1e858c18f22c38ecb1388b5a2a25232869887000d542eb4944ac408c6209290",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208135",
-   "title": "시트릭스 넷스케일러 인증 우회 취약점 공개…“인터넷 노출 장비 신속 패치 필요”",
-   "published_at": "2026-08-21T00:09:06Z",
-   "published_raw": "2026-08-21 00:09:06",
-   "categories": [
-    "이슈"
-   ],
-   "description": "시트릭스가 넷스케일러 ADC와 넷스케일러 게이트웨이에서 인증을 우회할 수 있는 치명적인 보안 취약점을 공개했다.시트릭스는 2026년 8월 19일 CVE-2026-19490과 CVE-2026-19489 등 2건의 취약점을 공개하고 보안 업데이트를 배포했다.가장 위험한 취약점은 CVE-2026-19490이다. CVSS 9.3점의 인증 우회 취약점으로, 공격자가 별도의 로그인이나 사용자 동작 없이 네트워크를 통해 공격할 수 있다.영향 대상은 넷스케일러가 SSL VPN, ICA 프록시, CVPN, RDP 프록시 등의 게이트웨이 또는 AAA",
    "feed_id": "",
    "authors": [
     {
