@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "darkreading",
- "updated_at": "2026-08-31T20:00:49Z",
+ "updated_at": "2026-08-31T21:00:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-08-31T20:00:49Z",
+  "last_success_at": "2026-08-31T21:00:47Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:8af7257c694a7c84a35bf7819471ccfa12985a6e8421f2acf7cdc679b4523905",
+   "url": "https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks",
+   "title": "'TerminalFix' Campaign Weaponizes PowerShell for Enterprise Attacks",
+   "published_at": "2026-08-31T20:25:36Z",
+   "published_raw": "Mon, 31 Aug 2026 20:25:36 GMT",
+   "categories": [
+    "threat-intelligence"
+   ],
+   "description": "The ClickFix-style campaign features a sophisticated, multistage attack chain that includes reverse tunnels into victim organizations' networks.",
+   "feed_id": "https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks",
+   "authors": [
+    {
+     "name": "Alexander Culafi",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt20cb8eccfb020b93/6a95d0de3450f0664b0636bb/PowerShell_icon-Think_About_Life-GettyImages-2153775274.jpg?width=720&quality=80&disable=upscale",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt20cb8eccfb020b93/6a95d0de3450f0664b0636bb/PowerShell_icon-Think_About_Life-GettyImages-2153775274.jpg?width=720&quality=80&disable=upscale",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "darkreading": {
+     "guid_is_permalink": "false"
+    }
+   }
+  },
   {
    "id": "sha256:48f08d72895e53cfd2bfcd1100115d36a71a7e446cba17b060ce9fbb829aea9e",
    "url": "https://www.darkreading.com/cyberattacks-data-breaches/hundreds-openai-agents-invaded-hugging-face-servers",
@@ -426,42 +462,6 @@
     },
     {
      "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4791042d5aa25a17/6a88a5d2e27d718cb883bc1e/Sink-Des_Green-Getty.jpg?width=720&quality=80&disable=upscale",
-     "kind": "content",
-     "medium": "image"
-    }
-   ],
-   "source_metadata": {
-    "darkreading": {
-     "guid_is_permalink": "false"
-    }
-   }
-  },
-  {
-   "id": "sha256:88260a5bdced9c0b9448d275deed62ea8fffc3ef6bb53e9720d498491775cdef",
-   "url": "https://www.darkreading.com/ics-ot-security/how-emerging-industrial-protocol-family-put-ot-at-risk",
-   "title": "How an Emerging Industrial Protocol Family Could Put OT at Risk",
-   "published_at": "2026-08-21T20:24:42Z",
-   "published_raw": "Fri, 21 Aug 2026 20:24:42 GMT",
-   "categories": [
-    "ics-ot-security"
-   ],
-   "description": "New research shows how attacks against some unprotected TSN protocols could allow attackers to disrupt or manipulate physical processes.",
-   "feed_id": "https://www.darkreading.com/ics-ot-security/how-emerging-industrial-protocol-family-put-ot-at-risk",
-   "authors": [
-    {
-     "name": "Ericka Chickowski",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [
-    {
-     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1efd0fa99d504896/66db40230f75ddd226316a68/ICS_PopTika_shutterstock.jpg?width=720&quality=80&disable=upscale",
-     "kind": "thumbnail",
-     "medium": ""
-    },
-    {
-     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1efd0fa99d504896/66db40230f75ddd226316a68/ICS_PopTika_shutterstock.jpg?width=720&quality=80&disable=upscale",
      "kind": "content",
      "medium": "image"
     }
