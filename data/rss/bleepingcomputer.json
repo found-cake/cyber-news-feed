@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-01T12:01:01Z",
+ "updated_at": "2026-09-01T13:00:55Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-01T12:01:01Z",
+  "last_success_at": "2026-09-01T13:00:55Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:588327545256385caee6f688afdf078c7b2477c82a7b252f8071197de25d1998",
+   "url": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks",
+   "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
+   "published_at": "2026-09-01T12:38:35Z",
+   "published_raw": "Tue, 01 Sep 2026 08:38:35 -0400",
+   "categories": [
+    "security",
+    "Microsoft"
+   ],
+   "description": "Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attackers to hijack all user mailboxes. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:77a2412a7854a80789d9bff3a4809936fdaad0cde9bc6e0f36d163d087883714",
    "url": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us",
@@ -1196,27 +1218,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:f6dc153cff3da66a215e444072386d1519e9f1ea431cd09aae2c6c5fe94ec72a",
-   "url": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication",
-   "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
-   "published_at": "2026-08-22T13:00:09Z",
-   "published_raw": "Sat, 22 Aug 2026 09:00:09 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command authorization, strict input validation, and narrowly scoped privileges can help secure named-pipe communication. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
-   "authors": [
-    {
-     "name": "Sponsored by ThreatLocker",
      "uri": "",
      "email": ""
     }

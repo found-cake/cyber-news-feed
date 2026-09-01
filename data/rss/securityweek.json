@@ -1,15 +1,88 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-09-01T12:01:01Z",
+ "updated_at": "2026-09-01T13:00:55Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-01T12:01:01Z",
+  "last_success_at": "2026-09-01T13:00:55Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:da0341888ef9afc624b276636d7e8529145c3e1491c1733fda90b2b84d50f7da",
+   "url": "https://www.securityweek.com/experiment-porting-a-plc-exploit-with-ai-takes-hours-and-hundreds-of-dollars",
+   "title": "Experiment: Porting a PLC Exploit With AI Takes Hours and Hundreds of Dollars",
+   "published_at": "2026-09-01T12:37:15Z",
+   "published_raw": "Tue, 01 Sep 2026 12:37:15 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "ICS/OT",
+    "AI",
+    "exploit",
+    "ICS",
+    "PLC",
+    "WAGO"
+   ],
+   "description": "<p>Forescout researchers used Claude AI to port a remote code execution exploit between WAGO PLC models.</p>\n<p>The post <a href=\"https://www.securityweek.com/experiment-porting-a-plc-exploit-with-ai-takes-hours-and-hundreds-of-dollars/\">Experiment: Porting a PLC Exploit With AI Takes Hours and Hundreds of Dollars</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49020",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:efa536d727400d85021c26e4efaf334b1403c9befdde478e7353f43e5e7dd7c6",
+   "url": "https://www.securityweek.com/hackers-start-exploiting-critical-langflow-vulnerability",
+   "title": "Hackers Start Exploiting Critical Langflow Vulnerability",
+   "published_at": "2026-09-01T12:07:54Z",
+   "published_raw": "Tue, 01 Sep 2026 12:07:54 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "Vulnerabilities",
+    "AI",
+    "exploited",
+    "Langflow",
+    "vulnerability"
+   ],
+   "description": "<p>Tracked as CVE-2026-0768, the security defect allows unauthenticated attackers to execute arbitrary Python code remotely.</p>\n<p>The post <a href=\"https://www.securityweek.com/hackers-start-exploiting-critical-langflow-vulnerability/\">Hackers Start Exploiting Critical Langflow Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49016",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:993d543b65aead0580144aad91d51f47438f226bc0acabaa925551af3cf340dd",
    "url": "https://www.securityweek.com/five-venezuelans-plead-guilty-in-us-court-to-atm-jackpotting",
@@ -90,6 +163,7 @@
    "categories": [
     "Vulnerabilities",
     "exploited",
+    "Featured",
     "JFrog",
     "JFrog Artifactory",
     "vulnerability"
