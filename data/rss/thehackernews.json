@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-01T11:00:48Z",
+ "updated_at": "2026-09-01T12:01:01Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-01T11:00:48Z",
+  "last_success_at": "2026-09-01T12:01:01Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -247,6 +247,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAU29lFKKhJ4-37mroz3wn9p8YejZSqMG70AcTu4Z_FLB6hhof-kGO8-6KOfJcE5TXPvrziWpqDpLu_Mi64u8ilPMtdicwexovYdtmVQhhFOTlAeEamKEccbGQf4Y15ufNQRggwtyzLJy32qocItBHu4FX7FLYDYbnjBXuYMtflnNB4ttrzIdynMPcquxs/s260-e100/silver.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6a32dcc2b873f1220704b7f36fe9ecb57a081c072d6c57fdab250c430e566b3d",
+   "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
+   "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
+   "published_at": "2026-09-01T11:30:00Z",
+   "published_raw": "2026-09-01T17:00:00.000+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The most common way into a company last year was to ask.\n\nA web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command on their clipboard. Then it talks them through opening a terminal and pasting it in. The technique is called ClickFix, and it was the most common initial access method Microsoft’s team observed last year, accounting",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5698110230689662738",
+   "authors": [
+    {
+     "name": "Unknown",
+     "uri": "",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXRNAAGu1amxjm97oXzRGvVBD23d-thmuPvBbQm10hKlACH58ndu51swo4ggT2P2FJw1vbmWy6qdMZSyTRrgAXoi19O0Zf0vCcS47oMuhMuPSyKc1kL7bpIySVrQwgrIaYJkc4IiavU0rucYYMYWHwXgDCmsPLanV2LZv3mt__srP93r0vLWSz8Vp_L0o/s260-e100/click.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -908,7 +935,7 @@
    "published_at": "2026-08-26T06:27:07Z",
    "published_raw": "2026-08-26T11:57:07.042+05:30",
    "categories": [
-    "vulnerability"
+    "cyber-attack"
    ],
    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea.\n\nThe vulnerability in question is CVE-2026-60004 (CVSS score: 9.8), a case of remote code execution that allows an attacker with ordinary write access to a repository to execute arbitrary shell commands as the",
    "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3141460629742876909",

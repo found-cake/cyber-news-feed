@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-01T11:00:48Z",
+ "updated_at": "2026-09-01T12:01:01Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-01T11:00:48Z",
+  "last_success_at": "2026-09-01T12:01:01Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:1ec9e2e6373c825a59139b318a361b933e63e6e3bea7eb79dd74c8c1fbd149ac",
+   "url": "https://cybersecuritynews.com/poc-microsoft-exchange-server-pre-auth-rce",
+   "title": "Public PoC Released for Microsoft Exchange Server Pre-auth RCE Vulnerability",
+   "published_at": "2026-09-01T11:28:53Z",
+   "published_raw": "Tue, 01 Sep 2026 11:28:53 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Microsoft",
+    "Vulnerability",
+    "cyber security"
+   ],
+   "description": "<p>A public proof-of-concept exploit has been released for CVE-2026-62911, a Microsoft Exchange Server vulnerability linked to an authentication capture-and-replay weakness. While Microsoft classifies the issue as an elevation-of-privilege flaw, the published research describes an attack chain that can lead to unauthenticated remote code execution and a SYSTEM-level compromise on vulnerable Exchange environments. The PoC, published [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-microsoft-exchange-server-pre-auth-rce/\">Public PoC Released for Microsoft Exchange Server Pre-auth RCE Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=161500",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Public-PoC-Released-Microsoft-Exchange-Server-Pre-auth-RCE-Vulnerability.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "161500",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A public proof-of-concept <a href=\"https://cybersecuritynews.com/microsoft-exchange-server-vulnerabilities-rce/\" target=\"_blank\" rel=\"noreferrer noopener\">exploit has been released for CVE-2026-62911</a>, a Microsoft Exchange Server vulnerability linked to an authentication capture-and-replay weakness.</p>\n\n\n\n<p class=\"wp-block-paragraph\">While Microsoft classifies the issue as an elevation-of-privilege flaw, the published research describes an attack chain that can lead to unauthenticated remote code execution and a SYSTEM-level compromise on vulnerable Exchange environments.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The PoC, published on GitHub by researcher Nguyen Van Hiep, targets the Exchange Mailbox Replication Proxy service, commonly known as MRSProxy.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The exploit documentation claims that a reachable HTTP. sys-hosted MRSProxy endpoint does not enforce Extended Protection for Authentication, enabling an attacker to relay NTLM authentication from an Exchange machine account to the service.                                                                                                                                                                                                                                                                                            </p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://cybersecuritynews.com/microsoft-patch-tuesday-update-august-2026/\" target=\"_blank\" rel=\"noreferrer noopener\">Microsoft disclosed CVE-2026-62911 in August 2026</a> as an authentication-bypass capture-replay issue affecting on-premises Microsoft Exchange Server.</p>\n\n\n\n<h2 id=\"h-public-poc-for-exchange-server-pre-auth-rce\" class=\"wp-block-heading\"><strong>Public PoC For Exchange Server Pre-Auth RCE </strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft’s public description states that an authorized attacker could elevate privileges over a network. In contrast, the available PoC increases practical risk by demonstrating an NTLM relay path that may eliminate the need for prior Exchange credentials in certain configurations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to the technical analysis, Exchange exposes MRSProxy through separate endpoints. Extended Protection protects the IIS-hosted /EWS/MRSProxy.svc path.</p>\n\n\n\n<p class=\"wp-block-paragraph\">However, the HTTPsys-hosted MailboxReplicationService ProxyService endpoint may not validate channel bindings. This creates a relay opportunity where a captured machine-account authentication attempt can be forwarded to the vulnerable Exchange service.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The attack chain begins by coercing an Exchange server to authenticate to an attacker-controlled listener through a technique such as PetitPotam. The attacker can then relay the <a href=\"https://cybersecuritynews.com/hackers-exploit-ntlm-authentication-flaws-to-target-windows-systems/\" target=\"_blank\" rel=\"noreferrer noopener\">NTLM authentication</a> to a second vulnerable Exchange server.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If the relay succeeds, the machine account is treated as authenticated by MRSProxy. It receives access to Exchange mailbox replication functionality.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/hypnguyen1209/CVE-2026-62911\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">The PoC reportedly abuses</a> WCF methods within the replication service, including IMailbox_Config6 and IMailbox_Connect. The first method accepts a file path, while the second may cause Exchange to write content to that location.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker could attempt to place an ASPX webshell into a web-accessible IIS or Exchange virtual directory, then access the file remotely to execute commands under the Exchange service context. Public reporting and technical analysis describe a potential SYSTEM-level outcome.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability is associated with a <a href=\"https://cybersecuritynews.com/microsoft-exchange-windows-11-and-cursor-zero-days-exploited-pwn2own/\" target=\"_blank\" rel=\"noreferrer noopener\">three-bug chain demonstrated by Orange Tsai</a> of DEVCORE at Pwn2Own Berlin 2026. The Exchange compromise earned a $200,000 reward during the competition, underscoring the security impact of chained authentication and service-level weaknesses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Affected products include Exchange Server 2016 CU23, Exchange Server 2019 CU14 and CU15, and Exchange Server Subscription Edition RTM. Organizations should deploy Microsoft’s August 2026 Exchange security updates immediately.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Fixed builds include Exchange 2016 CU23 (version 15.1.2507.72), Exchange 2019 CU14 (version 15.2.1544.44), Exchange 2019 CU15 (version 15.2.1748.49), and Exchange Server Subscription Edition (version 15.2.2562.46).</p>\n\n\n\n<p class=\"wp-block-paragraph\">Exchange 2016 reached end of support in October 2025, meaning organizations without <a href=\"https://cybersecuritynews.com/microsoft-exchange-server-0-day-exploited/\" target=\"_blank\" rel=\"noreferrer noopener\">Extended Security Updates</a> may not have a supported remediation path.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should also verify Extended Protection settings, reduce unnecessary exposure of Exchange services, monitor for unusual NTLM relay activity, and investigate unexpected ASPX files in Exchange and IIS directories.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Prevent incidents due to slow investigations. Power your Tier 1 with threat intelligence from 15K SOCs:&nbsp;<a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=lookup+tier+1&amp;utm_content=ti+lookup+sales&amp;utm_term=190826#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-microsoft-exchange-server-pre-auth-rce/\">Public PoC Released for Microsoft Exchange Server Pre-auth RCE Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:38e307de024ca86e4283ab297c18259bdf1054096faf5d03a392baf54a86187f",
    "url": "https://cybersecuritynews.com/new-windows-backdoor-2",
