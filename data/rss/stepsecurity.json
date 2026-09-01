@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-09-01T14:01:02Z",
+ "updated_at": "2026-09-01T15:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-01T14:01:02Z",
+  "last_success_at": "2026-09-01T15:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -100,30 +100,6 @@
     },
     {
      "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a89be878775ce81a7be517e_6a89bdc48775ce81a7bdfbe6_sca-2026-dark2-hero.png",
-     "kind": "content",
-     "medium": "image"
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:ff6234b4185301805e7b75f3e4a62adefffb192d18ca223a25d39ea3fcc5e926",
-   "url": "https://www.stepsecurity.io/blog/arrayref-rust-crate-supply-chain-attack",
-   "title": "Rust Supply-Chain Attack: arrayref, internment, and append-only-vec Poisoned by the proc-macro1 Build-Time Dropper",
-   "published_at": "2026-08-22T14:04:13Z",
-   "published_raw": "Sat, 22 Aug 2026 14:04:13 GMT",
-   "categories": [],
-   "description": "Three Rust crates are compromised: arrayref 0.3.10, internment 0.8.7, and append-only-vec 0.1.9 each added a typosquatted build-time dependency (proc-macro1, proc-macro-en) whose build script downloads and runs a remote binary during cargo build. Full technical analysis: timeline, dropper dissection, runtime detection, IOCs, and remediation.",
-   "feed_id": "https://www.stepsecurity.io/blog/arrayref-rust-crate-supply-chain-attack",
-   "authors": [],
-   "media": [
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a86da93294c9cd04d6aded5_rust-supply-chain-cover.png",
-     "kind": "thumbnail",
-     "medium": ""
-    },
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a86da93294c9cd04d6aded5_rust-supply-chain-cover.png",
      "kind": "content",
      "medium": "image"
     }

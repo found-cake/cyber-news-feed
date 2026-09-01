@@ -1,15 +1,79 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-01T14:01:02Z",
+ "updated_at": "2026-09-01T15:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-01T14:01:02Z",
+  "last_success_at": "2026-09-01T15:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:11c4595161cf06243fc81c5be00b1496937486809bb0289bb9dee484601f11c0",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack",
+   "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
+   "published_at": "2026-09-01T14:45:06Z",
+   "published_raw": "Tue, 01 Sep 2026 10:45:06 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Hackers delivered malicious updates to the Virtualizor VPS management software after hijacking BGP routing for its update infrastructure and redirecting update requests to malicious servers. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:aef8c9d36d013f62edfdd7d5116ef2f0823fdd866c1fd31461554c2f84cfe21f",
+   "url": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients",
+   "title": "Novocure data breach affects more than 1,400 cancer patients",
+   "published_at": "2026-09-01T14:28:40Z",
+   "published_raw": "Tue, 01 Sep 2026 10:28:40 -0400",
+   "categories": [
+    "security",
+    "Healthcare"
+   ],
+   "description": "Healthtech company Novocure says the data of an undisclosed number of employees and more than 1,400 U.S. cancer patients has been exposed in a mid-August cyberattack. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:555a3703aabc040e7564820999fda01b581c74db68833d354328c3038fd35a8b",
+   "url": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions",
+   "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
+   "published_at": "2026-09-01T14:01:11Z",
+   "published_raw": "Tue, 01 Sep 2026 10:01:11 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Attackers can hide behind residential proxies, VPNs, and other infrastructure that makes malicious sessions appear legitimate to existing edge security controls. Spur explains how session enrichment adds data points that help organizations identify risky sessions and make stronger enforcement decisions. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
+   "authors": [
+    {
+     "name": "Sponsored by Spur Intelligence",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:588327545256385caee6f688afdf078c7b2477c82a7b252f8071197de25d1998",
    "url": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks",
@@ -1193,28 +1257,6 @@
    ],
    "description": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:36bc5e95e951e1690e69c743678d30c69161321c7393b045267d22510b6c4aea",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware",
-   "title": "Hackers infect Android car head units with proxy botnet malware",
-   "published_at": "2026-08-22T14:14:24Z",
-   "published_raw": "Sat, 22 Aug 2026 10:14:24 -0400",
-   "categories": [
-    "security",
-    "Hardware"
-   ],
-   "description": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
    "authors": [
     {
      "name": "Bill Toulas",
