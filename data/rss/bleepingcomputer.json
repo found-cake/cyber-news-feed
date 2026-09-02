@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-02T19:00:55Z",
+ "updated_at": "2026-09-02T20:00:39Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-02T19:00:55Z",
+  "last_success_at": "2026-09-02T20:00:39Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:59ab4140cebb78498a9f699b6e0235baa6a8538fc8a350561a46b5d4ed991a54",
+   "url": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks",
+   "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
+   "published_at": "2026-09-02T19:28:46Z",
+   "published_raw": "Wed, 02 Sep 2026 15:28:46 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "An SQL injection vulnerability in the All-in-One WP Migration and Backup plugin for WordPress could allow unauthenticated attackers to execute remote code and take control of affected websites. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:7c9182b03b424759b8c858adef0d1d0d9d4065e8b1f5f8992722f4b8c97e92ea",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens",
