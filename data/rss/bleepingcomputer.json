@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-02T20:00:39Z",
+ "updated_at": "2026-09-02T21:00:37Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-02T20:00:39Z",
+  "last_success_at": "2026-09-02T21:00:37Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:68b76c3eabe4dd38065a33b7da3ccecc54c267e85b47d6c1cba1533214628140",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells",
+   "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
+   "published_at": "2026-09-02T21:00:13Z",
+   "published_raw": "Wed, 02 Sep 2026 17:00:13 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead to remote code execution. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:59ab4140cebb78498a9f699b6e0235baa6a8538fc8a350561a46b5d4ed991a54",
    "url": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks",
