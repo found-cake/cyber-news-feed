@@ -1,15 +1,85 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-02T08:00:45Z",
+ "updated_at": "2026-09-02T09:00:46Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-02T08:00:45Z",
+  "last_success_at": "2026-09-02T09:00:46Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:94fb3e18487b9077ed6226dcbe909bb21db5efab3a29edcd11ce1184125a9c84",
+   "url": "https://cybersecuritynews.com/sonicwall-remote-code-execution-vulnerabilities",
+   "title": "Critical SonicWall Remote Code Execution Vulnerabilities Actively Exploited in Attacks",
+   "published_at": "2026-09-02T08:44:59Z",
+   "published_raw": "Wed, 02 Sep 2026 08:44:59 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Vulnerabilities",
+    "cyber security"
+   ],
+   "description": "<p>SonicWall has warned that attackers are actively exploiting two critical vulnerabilities affecting SMA1000 Series secure mobile access appliances. The flaws could allow unauthenticated attackers to access sensitive functionality and enable administrators with authenticated access to execute arbitrary operating system commands. The company published advisory SNWLID-2026-0016 on September 1, 2026, confirming that its Product Security Incident [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/sonicwall-remote-code-execution-vulnerabilities/\">Critical SonicWall Remote Code Execution Vulnerabilities Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=161713",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Critical-SonicWall-Remote-Code-Execution-Vulnerability-Actively-Exploited-in-Attacks.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "161713",
+     "content_encoded": "<p class=\"wp-block-paragraph\">SonicWall has warned that attackers are <a href=\"https://cybersecuritynews.com/sonicwall-firewall-0-day-vulnerabilities-exploited/\" target=\"_blank\" rel=\"noreferrer noopener\">actively exploiting two critical vulnerabilities</a> affecting SMA1000 Series secure mobile access appliances.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaws could allow unauthenticated attackers to access sensitive functionality and enable administrators with authenticated access to execute arbitrary operating system commands.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company published advisory SNWLID-2026-0016 on September 1, 2026, confirming that its Product Security Incident Response Team investigated a case indicating active exploitation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">SonicWall urged organizations to install the available platform hotfixes immediately and review exposed systems for signs of compromise.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerabilities affect SMA1000 6210, 7210, and 8200v appliances running version 12.4.3-03453 or earlier, as well as version 12.5.0-02835 or earlier. SonicWall stated that<a href=\"https://cybersecuritynews.com/sonicwall-sma1000-vulnerabilities-exploited/\" target=\"_blank\" rel=\"noreferrer noopener\"> SSL-VPN services running on SonicWall firewalls</a> and the SMA 100 Series product line are not affected.</p>\n\n\n\n<h2 id=\"h-sonicwall-rce-vulnerabilities-exploited\" class=\"wp-block-heading\"><strong> SonicWall RCE Vulnerabilities Exploited </strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The most severe issue is tracked as CVE-2026-83548 and carries a CVSS score of 10.0. It is a pre-authentication<a href=\"https://cybersecuritynews.com/sonicwall-sma1000-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\"> server-side request forgery vulnerability</a> in the SMA1000 Appliance Workplace interface.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to SonicWall, the flaw stems from an unintended alternate access path that can serve as a forward proxy. A remote, unauthenticated attacker could exploit this path to access sensitive internal functionality and perform unauthorized operations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability is associated with CWE-918, covering server-side request forgery, and CWE-441, which describes an unintended proxy or confused-deputy condition.</p>\n\n\n\n<p class=\"wp-block-paragraph\">SSRF vulnerabilities are especially dangerous in remote-access appliances because they can allow attackers to make requests from the device itself, potentially bypassing network restrictions designed to protect internal services.</p>\n\n\n\n<p class=\"wp-block-paragraph\">SonicWall also addressed CVE-2026-83549, a post-authentication <a href=\"https://cybersecuritynews.com/infratrust-flags-26-vulnerabilities/\" target=\"_blank\" rel=\"noreferrer noopener\">remote code execution flaw in the SMA1000 Appliance</a> Management Console.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability has a CVSS score of 7.8 and stems from improper neutralization of special characters in operating system commands.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An authenticated attacker with administrator privileges could exploit the command injection issue to execute arbitrary commands on the appliance operating system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">While this vulnerability requires valid administrator access, it could be especially damaging when chained with another weakness that provides <a href=\"https://cybersecuritynews.com/sonicwall-vulnerabilities-sql-injection/\" target=\"_blank\" rel=\"noreferrer noopener\">unauthorized access</a> to appliance functions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Remote-access infrastructure remains a high-value target because it often sits at the edge of enterprise networks and handles user authentication, VPN connectivity, and access to internal resources.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A compromised SMA appliance may provide attackers with a foothold for credential theft, lateral movement, and further network intrusion.</p>\n\n\n\n<p class=\"wp-block-paragraph\">There is no workaround for either issue. Organizations should upgrade SMA1000 appliances to version 12.4.3-03526 or later, or to version 12.5.0-02952 or later, depending on the software branch they have deployed.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0016\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">SonicWall also recommends</a> contacting technical support to review appliances for indicators of compromise. If compromise indicators are found, organizations should re-image affected physical appliances or redeploy affected virtual appliances.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should then change all user and administrator passwords and reset TOTP tokens to invalidate potentially stolen authentication factors.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Prevent incidents due to slow investigations. Power your Tier 1 with threat intelligence from 15K SOCs:&nbsp;<a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=lookup+tier+1&amp;utm_content=ti+lookup+sales&amp;utm_term=190826#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/sonicwall-remote-code-execution-vulnerabilities/\">Critical SonicWall Remote Code Execution Vulnerabilities Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:6d12f0b1250681fe7ccb11bf3086fbfd62c862ca69ac3af3dc1a94a60b3d8c5d",
+   "url": "https://cybersecuritynews.com/hpe-fabric-composer-flaws",
+   "title": "Critical HPE Fabric Composer Flaws Let Unauthenticated Attackers Execute Code and Take Over Systems",
+   "published_at": "2026-09-02T08:35:59Z",
+   "published_raw": "Wed, 02 Sep 2026 08:35:59 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Vulnerability News",
+    "cyber security"
+   ],
+   "description": "<p>HPE has released security updates for HPE Networking Fabric Composer following the discovery of a large set of vulnerabilities that could allow unauthenticated attackers to gain administrator access, run arbitrary commands, and fully compromise affected systems. The flaws affect HPE Networking Fabric Composer version 7.3.3 and earlier. Fabric Composer is used to manage and automate [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hpe-fabric-composer-flaws/\">Critical HPE Fabric Composer Flaws Let Unauthenticated Attackers Execute Code and Take Over Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=161704",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Critical-HPE-Fabric-Composer-Flaws-Let-Unauthenticated-Attackers-Execute-Code-and-Take-Over-Systems.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "161704",
+     "content_encoded": "<p class=\"wp-block-paragraph\">HPE has released security updates for HPE Networking Fabric Composer following the discovery of a<a href=\"https://cybersecuritynews.com/hpe-aruba-vulnerabilities/\" target=\"_blank\" rel=\"noreferrer noopener\"> large set of vulnerabilities</a> that could allow unauthenticated attackers to gain administrator access, run arbitrary commands, and fully compromise affected systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaws affect HPE Networking Fabric Composer version 7.3.3 and earlier. Fabric Composer is used to manage and automate data-center network fabrics, making a successful compromise particularly serious because the platform can control important network infrastructure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The most severe vulnerabilities are tracked as CVE-2026-76657 and CVE-2026-76658. Both received a maximum CVSS score of 10.0.</p>\n\n\n\n<p class=\"wp-block-paragraph\">HPE said the API authentication-bypass flaw, CVE-2026-76657, could allow a remote attacker to circumvent existing authentication controls and obtain administrative privileges without valid credentials. This access could lead to a complete takeover of the Fabric Composer host.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CVE-2026-76658 affects the product’s SSH daemon. An unauthenticated remote attacker could exploit the issue to gain administrative access and <a href=\"https://cybersecuritynews.com/hpe-aruba-vulnerabilities/\" target=\"_blank\" rel=\"noreferrer noopener\">execute arbitrary commands</a> as a privileged user on the underlying operating system.</p>\n\n\n\n<h2 id=\"h-hpe-fabric-composer-flaws\" class=\"wp-block-heading\"><strong>HPE Fabric Composer Flaws</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">In practical terms, a successful exploit may give an attacker control of the appliance and the ability to alter its configuration, steal information, or use it as a foothold for further movement inside an organization’s network.</p>\n\n\n\n<p class=\"wp-block-paragraph\">HPE also fixed CVE-2026-19766, an adjacent-network <a href=\"https://cybersecuritynews.com/21-critical-ubiquiti-unifi-flaws/\" target=\"_blank\" rel=\"noreferrer noopener\">authentication bypass</a> rated 9.6. The vulnerability could allow an unauthenticated attacker on a connected network segment to execute arbitrary code with privileged operating-system permissions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Other serious findings include unauthenticated remote code execution bugs, stored cross-site scripting issues, command injection, arbitrary file write, SQL injection, privilege escalation, information disclosure, and denial-of-service flaws.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Several weaknesses are especially concerning because they can be chained. For example, an attacker may first use an information-disclosure bug to understand internal services, then exploit an authentication bypass or <a href=\"https://cybersecuritynews.com/hpe-aruba-networking-clearpass-policy-manager-vulnerabilities/\" target=\"_blank\" rel=\"noreferrer noopener\">remote code execution flaw</a> to take control of the server.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Lower-privileged Fabric Composer users may also be able to exploit API and web interface flaws to escalate to administrative access.</p>\n\n\n\n<p class=\"wp-block-paragraph\">HPE said its internal security researchers discovered the vulnerabilities. At the time the advisory was released, the company said it was not aware of public exploit code or public discussion targeting the issues.</p>\n\n\n\n<p class=\"wp-block-paragraph\">However, the broad range and high severity of the bugs make <a href=\"https://cybersecuritynews.com/promptflux-malware-using-gemini-api/\" target=\"_blank\" rel=\"noreferrer noopener\">prompt patching</a> important, particularly for systems whose management interfaces are reachable from untrusted networks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations using Fabric Composer should upgrade to version 7.4.0 or later in the 7.4 branch, or version 7.3.4 or later in the 7.3 branch.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05133en_us&amp;docLocale=en_US\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">HPE also recommends</a> restricting command-line and web-based management interfaces to a dedicated Layer 2 segment or VLAN, enforcing Layer 3 firewall controls, and using logging and accounting controls to track access and user activity.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Older releases that have reached End of Maintenance should be treated as potentially exposed unless HPE has explicitly stated otherwise.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should identify all Fabric Composer installations, confirm their running versions, apply the vendor’s fixes, and review administrator accounts, SSH exposure, API access, and network management logs for suspicious activity.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Prevent incidents due to slow investigations. Power your Tier 1 with threat intelligence from 15K SOCs:&nbsp;<a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=lookup+tier+1&amp;utm_content=ti+lookup+sales&amp;utm_term=190826#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/hpe-fabric-composer-flaws/\">Critical HPE Fabric Composer Flaws Let Unauthenticated Attackers Execute Code and Take Over Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:c888f67796101435f1d7739f81eaf1a7ae23904926f43129a0b8af9db5dc140a",
    "url": "https://cybersecuritynews.com/remote-access-trojan",
