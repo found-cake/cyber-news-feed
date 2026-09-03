@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-03T15:01:17Z",
+ "updated_at": "2026-09-03T16:00:44Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-03T15:01:17Z",
+  "last_success_at": "2026-09-03T16:00:44Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -193,6 +193,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM9ML6Oc83309fnrqC5YOyteVjfKTYCzrm3KoKbrmts4w0P7kQoBMu9btpIWFoYZePuTnU0TL7Olt7jVqdJylmuxwKcI0_NaKNuHxe0pQwi6W2mz7D-qS4WvW1da7E-QG2eEfNf-MbqmB3GR0psJTTT8RO-NtFnx9yVe8dlItdO2G0Dh4wXFNLs_WIqAHP/s260-e100/mine.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:10869e1cb2f94267097db0303e292e744802aa16350ebfbffb0af4494701542b",
+   "url": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
+   "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
+   "published_at": "2026-09-03T15:52:07Z",
+   "published_raw": "2026-09-03T21:22:07.541+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute code as root, alongside an IOS XR hardening release bundling 7 umbrella CVEs, 2 of which are rated 9.8, with no workaround for any IOS XR version.\n\nThe Nexus vulnerability, tracked as CVE-2026-20212 (CVSS score: 9.8), is",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6804803725967527775",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj9su2Wd6Yb88IvMpg5v1P8IyPg4KWKTeBXjerFgxz0U5WLKO2U50jymR-fKujsKeMFZ3q1VEupMRFZUz5gD47JRzVceagYJJ3bCTT8t532rY63po54kanBCPX4_hmKsxe-1b52IGrYc__TH5Y2F13G6L32HNKPQxL34iqzEPuBGynDCu6xFdKHplXvdY/s260-e100/cisco-flaws.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -848,33 +875,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:468035db37f9e8fac0f996e0b17329b10d5df22746ea1869b9ee8e9707325cf2",
-   "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
-   "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
-   "published_at": "2026-08-27T15:13:00Z",
-   "published_raw": "2026-08-27T20:43:00.960+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Credit:&nbsp;Hacktron\nVercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files and the other through a path traversal flaw affecting servers that use a Windows filesystem.\n\nThe Windows path traversal, tracked as&nbsp;CVE-2026-75604&",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7592756425046301870",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYbQmCgjQOeGU5sXrRRnYNbfxDed_Evv1vYrDL4L4NOguQ5wIxE6glQW7yQvhR1Dzs4Gbddc2ktadXWc2VkaGHE4pvMmjaXHMRuepjwrzefXNHb6B3Shk51VRBQw0etS5WWsS9JuNN4q_Y8lDSFtzKNEgi2X-NvAllwzw5_03HwGdC7iNJc6METEjcUNc/s260-e100/nodejs.gif",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:8ba2097a32dfd06212266bde7f0056ad361890637fe4f3ea9b5fa4c59e01be70",
    "url": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
    "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
@@ -895,6 +895,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfnIeYEGY0lITUrkeCakPqo92gxAk1t2Rduq3Vvt-EkhAxg_vRxWngUZQjifYgv1MUnKyZMOzTPFtlOpkMfpn6K5V0ofNKBc5w0y4X2Kb3Zeoal_5J-yhUX8oPUHY8KUkDHvGc7mwp5mWm1q4pS8Xssnm13SVe9Ziunr0UeNwTq2smwxIXAP7yU_iY2rtz/s260-e100/cisa-git.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:468035db37f9e8fac0f996e0b17329b10d5df22746ea1869b9ee8e9707325cf2",
+   "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
+   "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
+   "published_at": "2026-08-27T15:13:00Z",
+   "published_raw": "2026-08-27T20:43:00.960+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Credit:&nbsp;Hacktron\nVercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files and the other through a path traversal flaw affecting servers that use a Windows filesystem.\n\nThe Windows path traversal, tracked as&nbsp;CVE-2026-75604&",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7592756425046301870",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYbQmCgjQOeGU5sXrRRnYNbfxDed_Evv1vYrDL4L4NOguQ5wIxE6glQW7yQvhR1Dzs4Gbddc2ktadXWc2VkaGHE4pvMmjaXHMRuepjwrzefXNHb6B3Shk51VRBQw0etS5WWsS9JuNN4q_Y8lDSFtzKNEgi2X-NvAllwzw5_03HwGdC7iNJc6METEjcUNc/s260-e100/nodejs.gif",
      "kind": "thumbnail",
      "medium": ""
     }
