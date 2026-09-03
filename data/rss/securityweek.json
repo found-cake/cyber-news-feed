@@ -1,15 +1,118 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-09-03T10:00:39Z",
+ "updated_at": "2026-09-03T11:00:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-03T10:00:39Z",
+  "last_success_at": "2026-09-03T11:00:47Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:dc8895e2478babdc1542226491fce1690b637a26a2dd4e0375039390ec208bc6",
+   "url": "https://www.securityweek.com/153-million-driver-license-images-offered-on-dark-web",
+   "title": "153 Million Driver License Images Offered on Dark Web",
+   "published_at": "2026-09-03T10:54:18Z",
+   "published_raw": "Thu, 03 Sep 2026 10:54:18 +0000",
+   "categories": [
+    "Cybercrime",
+    "Data Breaches",
+    "Featured",
+    "Nexus"
+   ],
+   "description": "<p>Cybercriminals are offering digital scans of US and Canadian driver’s licenses, likely stolen from IDScan.net.</p>\n<p>The post <a href=\"https://www.securityweek.com/153-million-driver-license-images-offered-on-dark-web/\">153 Million Driver License Images Offered on Dark Web</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49076",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:be188fd5a946eee6e4052f5ea60a5f6a58c663b0a553649b02158fe217936df5",
+   "url": "https://www.securityweek.com/over-3-million-wordpress-sites-affected-by-migration-plugin-vulnerability",
+   "title": "Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability",
+   "published_at": "2026-09-03T10:40:00Z",
+   "published_raw": "Thu, 03 Sep 2026 10:40:00 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "CVE-2026-19949",
+    "vulnerability",
+    "WordPress"
+   ],
+   "description": "<p>The high-severity SQL injection flaw (CVE-2026-19949) could allow unauthenticated attackers to achieve remote code execution.</p>\n<p>The post <a href=\"https://www.securityweek.com/over-3-million-wordpress-sites-affected-by-migration-plugin-vulnerability/\">Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49074",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:63a0a8e05880e72d52dbc52fbd717ce3a748531927d6550a2e9c1b4708f361d1",
+   "url": "https://www.securityweek.com/cisco-warns-of-unpatched-secure-email-flaws-patches-critical-switch-vulnerabilities",
+   "title": "Cisco Warns of Unpatched Secure Email Flaws, Patches Critical Switch Vulnerabilities",
+   "published_at": "2026-09-03T10:30:00Z",
+   "published_raw": "Thu, 03 Sep 2026 10:30:00 +0000",
+   "categories": [
+    "Network Security",
+    "Vulnerabilities",
+    "Cisco",
+    "CVE-2026-20354",
+    "CVE-2026-20355"
+   ],
+   "description": "<p>Publicly disclosed S/MIME flaws could expose encrypted email content, while critical IOS XR and Nexus bugs could enable remote code execution and authentication bypass.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisco-warns-of-unpatched-secure-email-flaws-patches-critical-switch-vulnerabilities/\">Cisco Warns of Unpatched Secure Email Flaws, Patches Critical Switch Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49072",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:e492d14c6ffaf0dacd4fa07aaec91991c53664f48460c7f0b33e2766ecd1c5d0",
    "url": "https://www.securityweek.com/openleash-adds-a-human-check-to-risky-ai-agent-actions",
@@ -2401,73 +2504,6 @@
    ],
    "description": "<p>More than 200 vulnerabilities have been patched to date this year, compared to only 16 in 2025 and 22 in 2024. </p>\n<p>The post <a href=\"https://www.securityweek.com/91-vulnerabilities-patched-in-spring-application-framework/\">91 Vulnerabilities Patched in Spring Application Framework</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=48823",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:7a4995fec800fc6270ba557ef2a91c6c258fcf9ae5c8f775936c371949668abb",
-   "url": "https://www.securityweek.com/venezuelan-gets-record-federal-prison-term-for-atm-jackpotting",
-   "title": "Venezuelan Gets Record Federal Prison Term for ATM Jackpotting",
-   "published_at": "2026-08-24T10:59:30Z",
-   "published_raw": "Mon, 24 Aug 2026 10:59:30 +0000",
-   "categories": [
-    "Cybercrime",
-    "ATM jackpotting"
-   ],
-   "description": "<p>Juan Manuel Gouveia-Aguilera has been sentenced to 8 years in prison for his role in an ATM jackpotting scheme that caused millions in losses.</p>\n<p>The post <a href=\"https://www.securityweek.com/venezuelan-gets-record-federal-prison-term-for-atm-jackpotting/\">Venezuelan Gets Record Federal Prison Term for ATM Jackpotting</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48816",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:3f6ad35cd520c201504d1f482caae59082cc153f15fd7dd43081c1bd2f058a3f",
-   "url": "https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach",
-   "title": "Personal Information Exposed in Apollo Global Data Breach",
-   "published_at": "2026-08-24T10:08:42Z",
-   "published_raw": "Mon, 24 Aug 2026 10:08:42 +0000",
-   "categories": [
-    "Data Breaches",
-    "Apollo",
-    "cybercrime",
-    "data breach",
-    "Featured"
-   ],
-   "description": "<p>The private equity firm appears to have been targeted as part of a campaign focusing on major financial companies.</p>\n<p>The post <a href=\"https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/\">Personal Information Exposed in Apollo Global Data Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48813",
    "authors": [
     {
      "name": "Eduard Kovacs",
