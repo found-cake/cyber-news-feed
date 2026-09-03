@@ -1,15 +1,38 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-03T21:01:40Z",
+ "updated_at": "2026-09-03T22:01:26Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-03T21:01:40Z",
+  "last_success_at": "2026-09-03T22:01:26Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ac14418d802d4ea7401c8f9af5f68002db06036d1db29c0b6649f0a00fd52572",
+   "url": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000",
+   "title": "French hospital fined €500,000 after breach exposes data of 727,000",
+   "published_at": "2026-09-03T22:01:37Z",
+   "published_raw": "Thu, 03 Sep 2026 18:01:37 -0400",
+   "categories": [
+    "security",
+    "Healthcare",
+    "Legal"
+   ],
+   "description": "France's data protection authority (CNIL) has fined Hôpital privé de la Loire €500,000 ($580,000) for failing to adequately protect patients' and their relatives' data. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:3f3e69d4bd74a63bab19507f3b58a4f073c023a5d56b7ada01ca88f1f3588a5f",
    "url": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules",
@@ -1472,28 +1495,6 @@
    "authors": [
     {
      "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:646a34990ea279dc442b272e9d2ba94bcafc7e0ae844255a975150a1fa3b14a5",
-   "url": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices",
-   "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
-   "published_at": "2026-08-24T21:14:30Z",
-   "published_raw": "Mon, 24 Aug 2026 17:14:30 -0400",
-   "categories": [
-    "security",
-    "Hardware"
-   ],
-   "description": "An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers used by multiple U.S. broadband providers allows remote, unauthenticated attackers to create port-forwarding rules that can expose local network devices to the public internet. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
