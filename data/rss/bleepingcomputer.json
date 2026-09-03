@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-03T13:00:55Z",
+ "updated_at": "2026-09-03T14:00:48Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-03T13:00:55Z",
+  "last_success_at": "2026-09-03T14:00:48Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:220fdea6c47a42b105665c1cb5d29f222ba47c149ae2efa0b9d7a8261230ab35",
+   "url": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what",
+   "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
+   "published_at": "2026-09-03T13:50:59Z",
+   "published_raw": "Thu, 03 Sep 2026 09:50:59 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Infostealers can expose far more than passwords, including authenticated sessions that may let attackers bypass MFA. Flare explains how defenders can prioritize compromised identities, determine whether stolen access is still usable, and respond before it leads to account takeover. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
+   "authors": [
+    {
+     "name": "Sponsored by Flare",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:fb48d4e693b8b28b0363b1e66cb69242ea0456763962ea7e2cc3842dd13003c3",
    "url": "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately",
@@ -1452,48 +1473,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:4b2fb010ae467a30a35552a685678b9f9121ab587dc3eba738b0a15e9e6f5d46",
-   "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings",
-   "title": "Microsoft Teams now lets admins block external bots from meetings",
-   "published_at": "2026-08-24T14:00:19Z",
-   "published_raw": "Mon, 24 Aug 2026 10:00:19 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Microsoft is rolling out a new Teams meeting protection policy that allows administrators to automatically block all identified external bots from joining Teams meetings. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:f3e772e0a1784580b20b33aba126d8f1daaec2df06c813ca927a77acafbf6e94",
-   "url": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures",
-   "title": "South Korean startup platform breach exposes key management failures",
-   "published_at": "2026-08-24T14:00:10Z",
-   "published_raw": "Mon, 24 Aug 2026 10:00:10 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "A breach at South Korea's government-backed startup platform exposed encrypted personal data after an encryption key was included in an API. Penta Security explains why encryption keys must be securely managed and kept separate from the data they protect. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
-   "authors": [
-    {
-     "name": "Sponsored by Penta Security",
      "uri": "",
      "email": ""
     }
