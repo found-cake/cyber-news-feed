@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-03T20:01:34Z",
+ "updated_at": "2026-09-03T21:01:40Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-03T20:01:34Z",
+  "last_success_at": "2026-09-03T21:01:40Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:3f3e69d4bd74a63bab19507f3b58a4f073c023a5d56b7ada01ca88f1f3588a5f",
+   "url": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules",
+   "title": "Coder's registry infrastructure compromised to push malicious modules",
+   "published_at": "2026-09-03T20:04:24Z",
+   "published_raw": "Thu, 03 Sep 2026 16:04:24 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:fe4cf839054657626af8152cd13168a3e2fc16b2210afc371aa74c1de980b96a",
    "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw",
