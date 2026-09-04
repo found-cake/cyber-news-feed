@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-04T07:01:19Z",
+ "updated_at": "2026-09-04T08:01:17Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-04T07:01:19Z",
+  "last_success_at": "2026-09-04T08:01:17Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -166,6 +166,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2i7P2s27TjJNZnYUm7sRvosSHWRKaS2x-ITabU2QoWKkFiXRH1ggmPOby95djEZo62zvTn3LviG9HuetNXjY9km-dk9XqX_yNzD0Vh6yUfisio5rUP7c0DPDhW_1J877JL4RVY0QjM2vDXXH62rGegDhL0sSPedL99_Rw8P_z-LM67zUFXCiSI1mXGhoM/s260-e100/ftp-server.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:08f9037c31db0cc25ffe9108f99d0a841c89e3b271df8434d11a442e93d2bf8f",
+   "url": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
+   "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
+   "published_at": "2026-09-04T07:35:14Z",
+   "published_raw": "2026-09-04T13:05:14.094+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws.\n\nThe fixes are available in Plex Media Server 1.43.3 and Plex Desktop 1.115.0. The streaming media service did not elaborate on what those issues are, but said CVE identifiers have been requested for them.\n\n\"We recommend all server owners and Desktop users",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7555753951445589999",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7RQQCR9QxY1NZ80GCfpUjvGGcw9QDirshH7KrSyc097EIaNqLLVGgnnlOE095qTOt2q9CTu91gJ_Pf7Y9-AcZahb35e7XG2YrA8D4O0FPwVRSzBzMT5ecKzu0bnAxP603K5q8R_7IZrE-iSAAJQsmMWXBt8IPwHIIz3u6Kf-okZyo0G1fLoe9VOzZEEQF/s260-e100/plex.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:49749711ba07df5a4d9ea4b4f1812555860772af23fd3219e591fde608fd2cc8",
+   "url": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+   "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
+   "published_at": "2026-09-04T07:18:47Z",
+   "published_raw": "2026-09-04T12:48:47.848+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), has been described as a type confusion bug in V8, Chrome's JavaScript and WebAssembly engine.\n\n\"Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-123534187292654348",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjelmC2UuYemuI1nBeaecfPBZ1Bfb5nz6T51_OhCUPHJivX8ioIjrYMVtVsjsrcA0xbEe_O4iMthJ2xwXWJVhAb5CCJlhnJS4McM9IpmPww86RSznT3h7pg5DYOXlnwon616y-1s2qwbWbmR40B5JCvYbtwM8lD5Fk5yLHWS7IKmH5pXQ8qO4SfEasBhhsq/s260-e100/chrome-v8-exploit.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -794,6 +848,33 @@
    "source_metadata": {}
   },
   {
+   "id": "sha256:8ba2097a32dfd06212266bde7f0056ad361890637fe4f3ea9b5fa4c59e01be70",
+   "url": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
+   "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
+   "published_at": "2026-08-26T06:27:07Z",
+   "published_raw": "2026-08-26T11:57:07.042+05:30",
+   "categories": [
+    "cyber-attack"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea.\n\nThe vulnerability in question is CVE-2026-60004 (CVSS score: 9.8), a case of remote code execution that allows an attacker with ordinary write access to a repository to execute arbitrary shell commands as the",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3141460629742876909",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfnIeYEGY0lITUrkeCakPqo92gxAk1t2Rduq3Vvt-EkhAxg_vRxWngUZQjifYgv1MUnKyZMOzTPFtlOpkMfpn6K5V0ofNKBc5w0y4X2Kb3Zeoal_5J-yhUX8oPUHY8KUkDHvGc7mwp5mWm1q4pS8Xssnm13SVe9Ziunr0UeNwTq2smwxIXAP7yU_iY2rtz/s260-e100/cisa-git.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
    "id": "sha256:00d295a0cb00f84e4ca44177b9635be31a59568dcf810a8881f8e41a89609ce1",
    "url": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
    "title": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
@@ -841,33 +922,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtKp2lGcxPfp8ymA88FIBXB0Bn9fcUSaU_UIl1pfAjDSC2usRwUE73vhQEeP6jar9U9k10yotgyYl_tIk6dQA-MFIr2bJ3LN_azGt9kDU6hpW448HgmBuJbc6TWSo1vfpmhoK0J3_5rhF6VIpWd7NYf0G1YSYHdqKubWgQwa1yU6KRAL-bnDGd8HmCmPk/s260-e100/cpanel-root.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:8ba2097a32dfd06212266bde7f0056ad361890637fe4f3ea9b5fa4c59e01be70",
-   "url": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
-   "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
-   "published_at": "2026-08-26T06:27:07Z",
-   "published_raw": "2026-08-26T11:57:07.042+05:30",
-   "categories": [
-    "cyber-attack"
-   ],
-   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea.\n\nThe vulnerability in question is CVE-2026-60004 (CVSS score: 9.8), a case of remote code execution that allows an attacker with ordinary write access to a repository to execute arbitrary shell commands as the",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3141460629742876909",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfnIeYEGY0lITUrkeCakPqo92gxAk1t2Rduq3Vvt-EkhAxg_vRxWngUZQjifYgv1MUnKyZMOzTPFtlOpkMfpn6K5V0ofNKBc5w0y4X2Kb3Zeoal_5J-yhUX8oPUHY8KUkDHvGc7mwp5mWm1q4pS8Xssnm13SVe9Ziunr0UeNwTq2smwxIXAP7yU_iY2rtz/s260-e100/cisa-git.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
