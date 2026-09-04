@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-04T15:01:13Z",
+ "updated_at": "2026-09-04T16:01:32Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-04T15:01:13Z",
+  "last_success_at": "2026-09-04T16:01:32Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -85,6 +85,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ7ibePn1YRPkAC27RIrMl_O-41pR7ieF0Mkpr8WUTkzCddWjpttUiIrXWI3CYGukgNR8eoppnOFUYjzSbEm66XiK4ttGge7-KicMnSf49N5L-wKXyf4NIzWi1Yi5JbKQXPYpmtWfZfMADrNswG9-ZfOOE9LjWwUFl7twHmvEskgU9iXPR5AGEQ4hUETo/s260-e100/iphone-passcode.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d7ed15b40cfe81867e53a959ad03b92cc658875ba2f7754ce0067bcd84a96ebe",
+   "url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+   "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+   "published_at": "2026-09-04T15:20:19Z",
+   "published_raw": "2026-09-04T20:50:19.582+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server.\n\nThe flaw, tracked as CVE-2026-6471 (CVSS score: 7.2), has been present since logical decoding was introduced in PostgreSQL 9.4 in 2014. Versions before PostgreSQL 18.6, 17.11, 16.15, 15.19, and 14.24 are",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2564189566243019986",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2Gb4Wd-HSxdrPbdtUFxmldzzEkPEZcW1NkT7tV9-EfTAjDENSExJBWmOey_IJ5UKjszQfCNGkVoBtuxya00rFMrh_lJUAuS66Gr3kvU8GgFjMr7DF-7Ux1rUqwz-aDhum8HkVjxNKQTc6DXHG203CPXwg9sOMcA7nfsq6A81C9cJhb3HUu9GZDIj7FZY/s260-e100/PostgreSQL.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -740,33 +767,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:6d2eb85116012530edb2ec7c649093d8b558789d48ca8188e2a00058ee60cf04",
-   "url": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
-   "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
-   "published_at": "2026-08-28T12:07:24Z",
-   "published_raw": "2026-08-28T17:37:24.809+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Security researcher Olivier Laflamme has disclosed two independent root remote code execution (RCE) chains affecting the Unitree G1 EDU, including a Bluetooth Low Energy (BLE) path that can reach root on the robot's Locomotion PC.\n\nThe flaws are tracked as&nbsp;CVE-2026-76639&nbsp;and&nbsp;CVE-2026-76640, with the first involving a network-adjacent path through chat_go and bashrunner and the",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1671885079063449212",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKqNVrCXSaUDXfrGPJkoRoXBPQW4qwhdYqm2SMVaunZNwBrQ4FbURK-gtVawzaje20fK_m9q2dKepfj-dxmkvfKL4se3ZQ1YAI3iogqCft1UjVadJa_uBoQxFuoBpWfx2Dh3S4-jQLa7c4E9OOyQfVAT5BVKVShPykiPWEuYcchIPHFC4e5GduyW4iBio/s260-e100/Humanoid.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:8ba2097a32dfd06212266bde7f0056ad361890637fe4f3ea9b5fa4c59e01be70",
    "url": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
    "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
@@ -787,6 +787,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfnIeYEGY0lITUrkeCakPqo92gxAk1t2Rduq3Vvt-EkhAxg_vRxWngUZQjifYgv1MUnKyZMOzTPFtlOpkMfpn6K5V0ofNKBc5w0y4X2Kb3Zeoal_5J-yhUX8oPUHY8KUkDHvGc7mwp5mWm1q4pS8Xssnm13SVe9Ziunr0UeNwTq2smwxIXAP7yU_iY2rtz/s260-e100/cisa-git.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6d2eb85116012530edb2ec7c649093d8b558789d48ca8188e2a00058ee60cf04",
+   "url": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+   "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
+   "published_at": "2026-08-28T12:07:24Z",
+   "published_raw": "2026-08-28T17:37:24.809+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Security researcher Olivier Laflamme has disclosed two independent root remote code execution (RCE) chains affecting the Unitree G1 EDU, including a Bluetooth Low Energy (BLE) path that can reach root on the robot's Locomotion PC.\n\nThe flaws are tracked as&nbsp;CVE-2026-76639&nbsp;and&nbsp;CVE-2026-76640, with the first involving a network-adjacent path through chat_go and bashrunner and the",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1671885079063449212",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKqNVrCXSaUDXfrGPJkoRoXBPQW4qwhdYqm2SMVaunZNwBrQ4FbURK-gtVawzaje20fK_m9q2dKepfj-dxmkvfKL4se3ZQ1YAI3iogqCft1UjVadJa_uBoQxFuoBpWfx2Dh3S4-jQLa7c4E9OOyQfVAT5BVKVShPykiPWEuYcchIPHFC4e5GduyW4iBio/s260-e100/Humanoid.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
