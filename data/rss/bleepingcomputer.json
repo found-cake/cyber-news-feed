@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-04T13:01:19Z",
+ "updated_at": "2026-09-04T14:01:34Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-04T13:01:19Z",
+  "last_success_at": "2026-09-04T14:01:34Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:8a0e2780f6893da63c138424a50d19f85e0a89f26073a19638a58c5685b1f3d6",
+   "url": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges",
+   "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
+   "published_at": "2026-09-04T13:22:01Z",
+   "published_raw": "Fri, 04 Sep 2026 09:22:01 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" that lets attackers escalate privileges on up-to-date Windows systems. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:14b1ea90767ef9616659bfad43321edba93d3e061aafecb6c7d6b253af71fddf",
    "url": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks",
@@ -1432,27 +1453,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:8eafd6836cc4c61298187dda938ee9bc2764e154cd9156a790f54da3ecd69d05",
-   "url": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk",
-   "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
-   "published_at": "2026-08-25T14:01:11Z",
-   "published_raw": "Tue, 25 Aug 2026 10:01:11 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how stronger identity verification can help organizations prevent fake workers and social engineering attacks from gaining legitimate access. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
-   "authors": [
-    {
-     "name": "Sponsored by Specops Software",
      "uri": "",
      "email": ""
     }

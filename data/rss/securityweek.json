@@ -1,15 +1,46 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-09-04T13:01:19Z",
+ "updated_at": "2026-09-04T14:01:34Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-04T13:01:19Z",
+  "last_success_at": "2026-09-04T14:01:34Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:9a6b3638edacea39c3905125b5826128c3a5ff3b2191f5b508029c76674090d3",
+   "url": "https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild",
+   "title": "Sangoma Switchvox Vulnerabilities Exploited in the Wild",
+   "published_at": "2026-09-04T13:23:12Z",
+   "published_raw": "Fri, 04 Sep 2026 13:23:12 +0000",
+   "categories": [
+    "Vulnerabilities"
+   ],
+   "description": "<p>Tracked as CVE-2026-9586, the unauthenticated SQL injection flaw can be exploited remotely for arbitrary code execution.</p>\n<p>The post <a href=\"https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild/\">Sangoma Switchvox Vulnerabilities Exploited in the Wild</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49102",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:39c7734ca57162f9f40e76399676a4dc1f66d94ae5f422da001ab5ab33a37c86",
    "url": "https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover",
@@ -2426,41 +2457,6 @@
    "authors": [
     {
      "name": "SecurityWeek News",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:1d9c0b68991c2ea3c46fd194625d96f91ffdd7b864e337b2e24b50f3563a530d",
-   "url": "https://www.securityweek.com/wordpress-websites-targeted-via-miniorange-plugin-vulnerabilities",
-   "title": "WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities",
-   "published_at": "2026-08-25T13:33:12Z",
-   "published_raw": "Tue, 25 Aug 2026 13:33:12 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "exploited",
-    "MiniOrange",
-    "vulnerability",
-    "WordPress"
-   ],
-   "description": "<p>CVE-2026-61979 and CVE-2026-15981 are authentication bypass vulnerabilities affecting the MiniOrange SAML 2.0 SSO plugin.</p>\n<p>The post <a href=\"https://www.securityweek.com/wordpress-websites-targeted-via-miniorange-plugin-vulnerabilities/\">WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48870",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
      "uri": "",
      "email": ""
     }
