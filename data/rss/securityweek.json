@@ -1,15 +1,112 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-09-04T16:01:32Z",
+ "updated_at": "2026-09-04T17:01:24Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-04T16:01:32Z",
+  "last_success_at": "2026-09-04T17:01:24Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:95e67a2601c458c927a934023553454f0171baceb927f88ab909763cfc661d7b",
+   "url": "https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation",
+   "title": "In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation",
+   "published_at": "2026-09-04T16:18:30Z",
+   "published_raw": "Fri, 04 Sep 2026 16:18:30 +0000",
+   "categories": [
+    "Network Security",
+    "In Other News"
+   ],
+   "description": "<p>Noteworthy stories that might have slipped under the radar: Microsoft rolled out patches for cloud services, hackers compromised 5,000 Dropbox accounts, and Guardio is now valued at $1.1 billion. </p>\n<p>The post <a href=\"https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation/\">In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49117",
+   "authors": [
+    {
+     "name": "SecurityWeek News",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:20522a1cb72e62283f16666b0d404101b34d888655aa25c8fcc1e0a654ca2a36",
+   "url": "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx",
+   "title": "HPE Patches Critical RCE Vulnerabilities in AOS-CX",
+   "published_at": "2026-09-04T16:11:06Z",
+   "published_raw": "Fri, 04 Sep 2026 16:11:06 +0000",
+   "categories": [
+    "Network Security"
+   ],
+   "description": "<p>Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates.</p>\n<p>The post <a href=\"https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/\">HPE Patches Critical RCE Vulnerabilities in AOS-CX</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49114",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:14366f43a839b101172e1329f2357a1342e23686e54c41e28db34f1fcd46b9c2",
+   "url": "https://www.securityweek.com/openai-pledges-1-billion-to-bring-frontier-ai-to-critical-infrastructure-defenders",
+   "title": "OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders",
+   "published_at": "2026-09-04T16:07:22Z",
+   "published_raw": "Fri, 04 Sep 2026 16:07:22 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "ICS/OT",
+    "Featured",
+    "OpenAI"
+   ],
+   "description": "<p>The Daybreak initiative will provide subsidized AI cyber capabilities, training and technical assistance, though OpenAI has disclosed few details about costs and eligibility.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-pledges-1-billion-to-bring-frontier-ai-to-critical-infrastructure-defenders/\">OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49111",
+   "authors": [
+    {
+     "name": "Kevin Townsend",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:9a6b3638edacea39c3905125b5826128c3a5ff3b2191f5b508029c76674090d3",
    "url": "https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild",
@@ -2381,44 +2478,6 @@
    ],
    "description": "<p>CVE-2026-60004 is a remote code execution vulnerability patched by Gitea developers in late July with the release of version 1.27.1.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/\">CISA Warns of Exploited Gitea Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=48877",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:c45471f8040dee61323971aaa6aa7f8ff45f76d2c33bc9ee65ffbc6ad2bd3fe2",
-   "url": "https://www.securityweek.com/linux-foundation-to-govern-trace-an-open-standard-for-ai-runtime-attestation",
-   "title": "Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation",
-   "published_at": "2026-08-25T16:23:45Z",
-   "published_raw": "Tue, 25 Aug 2026 16:23:45 +0000",
-   "categories": [
-    "Artificial Intelligence",
-    "Data Protection",
-    "Management & Strategy",
-    "AI",
-    "Featured",
-    "Linux Foundation",
-    "standard",
-    "TRACE"
-   ],
-   "description": "<p>TRACE was developed by AMD, Intel, Microsoft, OPAQUE, and TII and contributed to the Linux Foundation.</p>\n<p>The post <a href=\"https://www.securityweek.com/linux-foundation-to-govern-trace-an-open-standard-for-ai-runtime-attestation/\">Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48875",
    "authors": [
     {
      "name": "Eduard Kovacs",
