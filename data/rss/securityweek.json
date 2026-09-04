@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-09-04T12:01:14Z",
+ "updated_at": "2026-09-04T13:01:19Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-04T12:01:14Z",
+  "last_success_at": "2026-09-04T13:01:19Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:39c7734ca57162f9f40e76399676a4dc1f66d94ae5f422da001ab5ab33a37c86",
+   "url": "https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover",
+   "title": "12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover",
+   "published_at": "2026-09-04T12:06:13Z",
+   "published_raw": "Fri, 04 Sep 2026 12:06:13 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "CVE-2026-6471",
+    "Featured",
+    "PostgreSQL"
+   ],
+   "description": "<p>Dubbed PostGREShell, CVE-2026-6471 turns low-level replication access into code execution, permanent superuser privileges and a persistent database backdoor.</p>\n<p>The post <a href=\"https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover/\">12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49096",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:ec8a9a7306ce15d184d5417265b5bc7d71bdfba11b3512de37f97211157c8d3e",
    "url": "https://www.securityweek.com/catch-raises-5-million-for-ai-executive-assistant-with-guardrails",
@@ -93,6 +127,39 @@
    "authors": [
     {
      "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:85811ffd87aeab338b24ae3db468d2ce812b637ceaa87ab9dd08d11cfe9a50fe",
+   "url": "https://www.securityweek.com/nvidia-is-buying-ai-platform-hugging-face-for-13-billion",
+   "title": "Nvidia Is Buying AI Platform Hugging Face for $13 Billion",
+   "published_at": "2026-09-04T10:00:00Z",
+   "published_raw": "Fri, 04 Sep 2026 10:00:00 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "Hugging Face",
+    "NVIDIA"
+   ],
+   "description": "<p>The deal highlights Nvidia’s push to champion increasingly popular open-source AI models.</p>\n<p>The post <a href=\"https://www.securityweek.com/nvidia-is-buying-ai-platform-hugging-face-for-13-billion/\">Nvidia Is Buying AI Platform Hugging Face for $13 Billion</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49099",
+   "authors": [
+    {
+     "name": "Associated Press",
      "uri": "",
      "email": ""
     }
@@ -2394,74 +2461,6 @@
    "authors": [
     {
      "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:04fb0e8240bd2322f241fec77b13aa48ebef86b92f3cde3e4c27f24dce9dbfd0",
-   "url": "https://www.securityweek.com/whatsapp-adds-multiple-passkeys-and-stronger-2sv-in-account-security-update",
-   "title": "WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account Security Update",
-   "published_at": "2026-08-25T13:00:00Z",
-   "published_raw": "Tue, 25 Aug 2026 13:00:00 +0000",
-   "categories": [
-    "Identity & Access",
-    "account security",
-    "passkey",
-    "WhatsApp"
-   ],
-   "description": "<p>When Android users get a call from a non-contact, they will see more information about the caller, including their country.</p>\n<p>The post <a href=\"https://www.securityweek.com/whatsapp-adds-multiple-passkeys-and-stronger-2sv-in-account-security-update/\">WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account Security Update</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48862",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:ad1fe675346f45357251615b853d0143960313b1ae3e8206b35f56c890c85294",
-   "url": "https://www.securityweek.com/hands-on-cyber-physical-systems-training-returns-to-ics-cybersecurity-conference",
-   "title": "Hands-On Cyber-Physical Systems Training Returns to ICS Cybersecurity Conference",
-   "published_at": "2026-08-25T12:57:59Z",
-   "published_raw": "Tue, 25 Aug 2026 12:57:59 +0000",
-   "categories": [
-    "ICS/OT",
-    "ICS",
-    "OT",
-    "Training"
-   ],
-   "description": "<p>Hands-on Cyber Attack Methods course returns to SecurityWeek’s ICS Cybersecurity Conference, October 6–8 at the W Nashville.</p>\n<p>The post <a href=\"https://www.securityweek.com/hands-on-cyber-physical-systems-training-returns-to-ics-cybersecurity-conference/\">Hands-On Cyber-Physical Systems Training Returns to ICS Cybersecurity Conference</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48866",
-   "authors": [
-    {
-     "name": "Mike Lennon",
      "uri": "",
      "email": ""
     }
