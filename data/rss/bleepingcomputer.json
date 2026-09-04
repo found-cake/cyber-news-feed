@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-04T14:01:34Z",
+ "updated_at": "2026-09-04T15:01:13Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-04T14:01:34Z",
+  "last_success_at": "2026-09-04T15:01:13Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:7ccadd08a56752a6d68f7746d436ef0f5f1baf7b4ee921d84d01332f64141ebe",
+   "url": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication",
+   "title": "39 New Methods That Compromise Passkey Authentication",
+   "published_at": "2026-09-04T14:01:11Z",
+   "published_raw": "Fri, 04 Sep 2026 10:01:11 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication prompts, synced credentials, enrollment, recovery, and other trust boundaries without breaking FIDO2 cryptography. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
+   "authors": [
+    {
+     "name": "Sponsored by Token",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:8a0e2780f6893da63c138424a50d19f85e0a89f26073a19638a58c5685b1f3d6",
    "url": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges",
@@ -1428,28 +1449,6 @@
    ],
    "description": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services used by the public sector. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:9c24f80a74b034ebbbd2bc7654f3087bcdea03353300dc014765ed50f972fb93",
-   "url": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack",
-   "title": "Hospital operator Nutex Health says data stolen in cyberattack",
-   "published_at": "2026-08-25T14:44:16Z",
-   "published_raw": "Tue, 25 Aug 2026 10:44:16 -0400",
-   "categories": [
-    "security",
-    "Healthcare"
-   ],
-   "description": "Healthcare and services provider Nutex is investigating a data breach incident where an unauthorized third party exfiltrated information from company servers. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
    "authors": [
     {
      "name": "Bill Toulas",
