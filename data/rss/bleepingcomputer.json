@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-05T14:01:17Z",
+ "updated_at": "2026-09-05T15:01:16Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-05T14:01:17Z",
+  "last_success_at": "2026-09-05T15:01:16Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:eeb760af96645c6db3b4de5482cbb6257c111c1b4fb83b19308f8f21f4a5db4c",
+   "url": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain",
+   "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
+   "published_at": "2026-09-05T14:29:13Z",
+   "published_raw": "Sat, 05 Sep 2026 10:29:13 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:c472661fa84bbfe99a4e01cb66e7ad4cf447d54633a4df723418cc14a3189125",
    "url": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident",
@@ -1322,48 +1343,6 @@
    ],
    "description": "Medical technology company Boston Scientific has been targeted in a cyberattack that disrupted some of its IT systems, causing operational disruptions globally. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:356a7f991b0feb25020f5f477f7c10fc753f9ebd581423c44b78d2a1c36f3f18",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit",
-   "title": "Hackers target Microsoft SharePoint RCE chain with PoC exploit",
-   "published_at": "2026-08-26T14:47:51Z",
-   "published_raw": "Wed, 26 Aug 2026 10:47:51 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Attackers are now targeting a chain of two Microsoft SharePoint vulnerabilities that can allow them to execute arbitrary code on unpatched servers, according to threat intelligence company Defused. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:76546ab6a77e6ec47dc3954ddae4fa7e29fee6e0e4175932223e2c724ef2cb85",
-   "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations",
-   "title": "FBI disrupts proxy network enabling Chinese espionage operations",
-   "published_at": "2026-08-26T14:17:59Z",
-   "published_raw": "Wed, 26 Aug 2026 10:17:59 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "The FBI has disrupted infrastructure associated with a technical \"quartermaster\" that provided reconnaissance, proxy management, and operational routing capabilities for Chinese cyber espionage activities. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations/",
    "authors": [
     {
      "name": "Bill Toulas",
