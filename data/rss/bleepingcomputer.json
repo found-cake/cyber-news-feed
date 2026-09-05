@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-05T11:01:19Z",
+ "updated_at": "2026-09-05T12:01:12Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-05T11:01:19Z",
+  "last_success_at": "2026-09-05T12:01:12Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c472661fa84bbfe99a4e01cb66e7ad4cf447d54633a4df723418cc14a3189125",
+   "url": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident",
+   "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
+   "published_at": "2026-09-05T11:11:50Z",
+   "published_raw": "Sat, 05 Sep 2026 07:11:50 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model \"misalignment\" rather than a security breach. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
+   "authors": [
+    {
+     "name": "Ax Sharma",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:3d69c192271a8e735f2df86dac11377abe000bd8be23286562a2bcdc10a3b331",
    "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers",
@@ -1385,27 +1406,6 @@
    ],
    "description": "Ubiquiti has released security patches for three new maximum-severity vulnerabilities that threat actors can exploit remotely without privileges. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-security-vulnerabilities/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:dbcc68bdeabb4ec7e25eeef1cde5990a38efccef0869d888396293d28a97b87e",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks",
-   "title": "Hackers now exploit critical Gitea flaw in code injection attacks",
-   "published_at": "2026-08-26T11:07:48Z",
-   "published_raw": "Wed, 26 Aug 2026 07:07:48 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Attackers are now exploiting a critical-severity vulnerability in the Gitea self-hosted Git service, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
    "authors": [
     {
      "name": "Sergiu Gatlan",
