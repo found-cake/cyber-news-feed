@@ -1,15 +1,69 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-05T16:01:20Z",
+ "updated_at": "2026-09-05T17:01:12Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-05T16:01:20Z",
+  "last_success_at": "2026-09-05T17:01:12Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:913cdf66682bb19c7843ef56b2996c1bd59057aaffd4466496885b6c64289550",
+   "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+   "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+   "published_at": "2026-09-05T16:52:33Z",
+   "published_raw": "2026-09-05T22:22:33.133+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment.\n\n\"Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions,\" JetBrains said.",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8000706964495551426",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjH4sbUEhtXF9n1_8s2f6ChnKMmjUv4Ht-DvEtZyLDPuSNhKFoi41aNlu3-u5kJLXUva81rNFwlsprMXE11cnbXc_es968eO-ANvWm0j1Cyi9SaoVUfneQqNINCR7lRs3qkkYdsSoyMu34Mgxs7B4pKclAt4atPw8B-RCFOTChtgeji9NTes_NEdZ2KKu2_/s260-e100/jet.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e74c4bc78631a2537c1666a1f85bb666592c6c9619df8b8ac895f947854f7b99",
+   "url": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
+   "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+   "published_at": "2026-09-05T16:05:08Z",
+   "published_raw": "2026-09-05T21:35:08.780+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain conditions.\n\nThe vulnerability, tracked as CVE-2026-59346 (CVSS score: 9.3), is an integer-overflow vulnerability that a local attacker with elevated privileges can exploit to run arbitrary code.\n\n\"A",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6501038275982840079",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzExwAd4Vsd2Xz-9kex6ucfK6MDmftPVCfiOGQICWDKrgxMJ6fOj0EttLP2kpYBDv4xSYdrEXt8Wntz916Oa2tyrMnaSHDLH9vb5RF4ncjvwdkeFU8GwaqWvT6zLHRTKIF-BOGK8p24Im4NwqlqZxTokMsYOfXSBdA0-jXxMbMozfjdK-iyyavdAywjAAh/s260-e100/vmware-host.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:28549037149e3e816adc732a41af3cf3358a486bf2e24fe79f52c1e0f0db26c9",
    "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
@@ -632,40 +686,13 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:20d327a204a5298e63074340c6e8ca4de0e808c3f887b5d17f1252a2384ab3f2",
-   "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
-   "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
-   "published_at": "2026-08-29T16:25:03Z",
-   "published_raw": "2026-08-29T21:55:03.963+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution.\n\nThe vulnerabilities, according to Wordfence and Patchstack, are listed below -\n\n\n  CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4198398808591118077",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiROOqCRPV4u9cWfJL8nvCYKi4Ake-ki3_uh8Qn8RJ0P20h3Mz_qxVfF856pJ9DQZMHy922CeLwOHDc37Gpb4p1UCTMx6cMT5HeeAP_w4RitCuQficYcGDDkqpDVfW_nA3M7qWT-WyM6A5Adk3J2e8kMWSG1GSUOatrcVBmc7fmb2-ovadVS3fOdkd1ubFx/s260-e100/wordpress-themes.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:65777cda99e57c318fe1f1f1a1056e8d6fe6796f87be463e2cd9eb57319535cf",
    "url": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
    "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
    "published_at": "2026-08-28T20:38:47Z",
    "published_raw": "2026-08-29T02:08:47.025+05:30",
    "categories": [
-    "vulnerability"
+    "cyber-attack"
    ],
    "description": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026.\n\nThe vulnerability, designated GHSA-7g4w-cg88-2cq2, is rated Critical by Cosmos Labs and was published without a CVE identifier, a weakness classification, or a CVSS score.\n\nAffected versions are &lt; 0.6.2 and &gt;=",
    "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6076728970761460618",
@@ -706,6 +733,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdtPabCvuR_F2UFdCw8LS5eoXtD-jOpbuCy8WZYRycSP2vu_6yQK45qTehHimhoS-eXFPMTwg5jNM3m_X7ma5ELVz60Rjt3rlQhrqE4iTz8ggysLCt388GyaBVQbT28sGDv9a6drKNZooBiQNy0L3v8Gc3vxB9JILUD-eTtj5LZAlBbA3EyLlp5SkgIKPG/s260-e100/1000103914.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:20d327a204a5298e63074340c6e8ca4de0e808c3f887b5d17f1252a2384ab3f2",
+   "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+   "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+   "published_at": "2026-08-29T16:25:03Z",
+   "published_raw": "2026-08-29T21:55:03.963+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution.\n\nThe vulnerabilities, according to Wordfence and Patchstack, are listed below -\n\n\n  CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4198398808591118077",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiROOqCRPV4u9cWfJL8nvCYKi4Ake-ki3_uh8Qn8RJ0P20h3Mz_qxVfF856pJ9DQZMHy922CeLwOHDc37Gpb4p1UCTMx6cMT5HeeAP_w4RitCuQficYcGDDkqpDVfW_nA3M7qWT-WyM6A5Adk3J2e8kMWSG1GSUOatrcVBmc7fmb2-ovadVS3fOdkd1ubFx/s260-e100/wordpress-themes.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
