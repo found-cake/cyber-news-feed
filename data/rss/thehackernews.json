@@ -1,15 +1,42 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-06T09:01:10Z",
+ "updated_at": "2026-09-06T10:01:16Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-06T09:01:10Z",
+  "last_success_at": "2026-09-06T10:01:16Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:bec3d4c719cb03958c036b9d2272ba2b2c5f6d783c02fbc9de6264c5a2938164",
+   "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+   "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+   "published_at": "2026-09-06T09:32:38Z",
+   "published_raw": "2026-09-06T15:02:38.446+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication, according to&nbsp;CERT Polska's attack warning, published on September 5.\n\nSuccessful attacks date to at least September 2. The Hacker News’s September 6 review of the warning found no victim count or",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4690972164505905573",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiSiBDO5j21gorWS-UjrLlDl0RzniibBPjfO4xfPBBLbH1yTQIB88G-hUBRtYNufYwkPpVjWWLu0GXk1TB7pv_x8KbQCbfsL5Ft8JlZLa6iZfvuHU-vKSPNq5Li-e9DtoOvZIOXPYmibx9uc_imnug4ZJUog31KwlA3YKmY8ghOpROVQR8mwPj9qb-1kA/s260-e100/micro.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:9eeec10be375e2cad531eca6b5069c09b66a3c2d7fee881e2b2939645a062ae4",
    "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
@@ -659,33 +686,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:9d1d25eb12ecc8ff09e1cffad8d8235cf823abd0a0c0d5a74b785c6b39361afb",
-   "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
-   "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
-   "published_at": "2026-09-01T07:22:30Z",
-   "published_raw": "2026-09-01T12:52:30.101+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck.\n\nThe vulnerabilities in question are listed below -\n\n\n  CVE-2026-0768 (CVSS score: 9.8) - A lack of proper validation of a user-supplied input vulnerability that could be exploited to execute arbitrary Python code in the context of the root user.\n  CVE-2026-66066 aka",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-630456353113805024",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9_EygYWh8fZRphLL1V9dg-h1jgQ0f9xmlVuPwPAaaEUUCBkKbQ4nTaL27WIevCJg42GWtDGMKyRvzBUz9MWtD2FxPx7vCKwXLirO-N1YRcpPy0mX_B_fTG2gBS-JPRJGXfCh_I2yHJgoi1V5lve7Opcm-M0ApWs6gohPjNhBi-0CsP49guHlM2lzHLsiD/s260-e100/lang.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:65777cda99e57c318fe1f1f1a1056e8d6fe6796f87be463e2cd9eb57319535cf",
    "url": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
    "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
@@ -733,6 +733,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdtPabCvuR_F2UFdCw8LS5eoXtD-jOpbuCy8WZYRycSP2vu_6yQK45qTehHimhoS-eXFPMTwg5jNM3m_X7ma5ELVz60Rjt3rlQhrqE4iTz8ggysLCt388GyaBVQbT28sGDv9a6drKNZooBiQNy0L3v8Gc3vxB9JILUD-eTtj5LZAlBbA3EyLlp5SkgIKPG/s260-e100/1000103914.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:9d1d25eb12ecc8ff09e1cffad8d8235cf823abd0a0c0d5a74b785c6b39361afb",
+   "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+   "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+   "published_at": "2026-09-01T07:22:30Z",
+   "published_raw": "2026-09-01T12:52:30.101+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck.\n\nThe vulnerabilities in question are listed below -\n\n\n  CVE-2026-0768 (CVSS score: 9.8) - A lack of proper validation of a user-supplied input vulnerability that could be exploited to execute arbitrary Python code in the context of the root user.\n  CVE-2026-66066 aka",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-630456353113805024",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9_EygYWh8fZRphLL1V9dg-h1jgQ0f9xmlVuPwPAaaEUUCBkKbQ4nTaL27WIevCJg42GWtDGMKyRvzBUz9MWtD2FxPx7vCKwXLirO-N1YRcpPy0mX_B_fTG2gBS-JPRJGXfCh_I2yHJgoi1V5lve7Opcm-M0ApWs6gohPjNhBi-0CsP49guHlM2lzHLsiD/s260-e100/lang.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
