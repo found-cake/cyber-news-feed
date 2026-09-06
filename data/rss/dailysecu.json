@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-09-06T15:01:21Z",
+ "updated_at": "2026-09-06T16:01:22Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-06T15:01:21Z",
+  "last_success_at": "2026-09-06T16:01:22Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:da5ea18392fa51a337c7b314069fbe74d023d70706e40cb82ac83bf42be2daf4",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208345",
+   "title": "마이크로틱 라우터 ‘인증 없이 관리자 탈취’ 공격 확산…SSH 외부 노출 장비 주의",
+   "published_at": "2026-09-07T00:46:37Z",
+   "published_raw": "2026-09-07 00:46:37",
+   "categories": [
+    "이슈"
+   ],
+   "description": "마이크로틱(MikroTik)의 라우터 운영체제 라우터OS(RouterOS) 취약점을 악용해 인증 없이 장비 관리자 권한을 탈취하는 공격이 실제 발생한 것으로 확인됐다.폴란드 국가 침해사고 대응기관 CERT 폴스카(CERT Polska)는 2026년 9월 5일 RouterOS 취약점 6개를 공개하고, 이 가운데 CVE-2026-67276과 CVE-2026-86060을 결합한 공격이 실제 악용되고 있다고 밝혔다. CERT 폴스카는 이 공격을 ‘마이크로트릭(MikroTrick)’으로 명명했다.SSH 인증 우회해 최고 관리자 권한 획득공격",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:b916061478c1706ec184c64e131a35ca614e2f308786802ad99a680e88a6dcc6",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208331",
@@ -419,27 +440,6 @@
     "이슈"
    ],
    "description": "워드프레스에서 널리 사용되는 플러그인과 테마에서 사이트 관리자 권한 탈취나 원격코드실행으로 이어질 수 있는 치명적 취약점 5종이 잇따라 공개됐다. 영향을 받는 제품은 WPMU DEV 대시보드, 아바다, 트랜슬레이트프레스, 포즈, 기브WP다.공개된 취약점의 CVSS 점수는 9.8~10.0이다. 일부 취약점은 로그인하지 않은 외부 공격자가 관리자 계정을 장악할 수 있으며, 기브WP와 아바다 취약점은 조건이 충족되면 서버에서 임의의 코드를 실행할 수 있다.다만 제품마다 공격에 필요한 조건이 다르기 때문에 해당 플러그인을 설치했다는 이유만",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:1515084f5cf38a0c0bccb65f1636053d10a26e1e672d4c779f71709224607b52",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208236",
-   "title": "KISA-한국교통안전공단, 자동차 사이버보안 강화 위한 업무협약 체결",
-   "published_at": "2026-08-27T15:05:00Z",
-   "published_raw": "2026-08-27 15:05:00",
-   "categories": [
-    "이슈"
-   ],
-   "description": "한국인터넷진흥원(KISA)이 한국교통안전공단(TS)과 함께 자동차 사이버보안 강화를 위한 업무협약을 경기 화성 자동차안전연구원에서 체결했다.최근 자동차가 소프트웨어와 통신망을 품은 커넥티드 카나 자율주행차로 진화하면서 보안 위협이 커지는 상황에 선제적으로 대응하기 위한 조치다.두 기관은 이번 협약을 통해 정보보호와 자동차 안전 분야의 전문성을 결합한다. 앞으로 자동차 사이버보안 가이드 및 정책 개발을 지원하고, 자동차 제작사와 부품사를 대상으로 한 교육을 진행한다. 아울러 기술 협력과 정보 공유 체계도 다진다.실질적인 대응 능력을",
    "feed_id": "",
    "authors": [
     {
