@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-06T03:01:18Z",
+ "updated_at": "2026-09-06T04:01:15Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-06T03:01:18Z",
+  "last_success_at": "2026-09-06T04:01:15Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:9631f0b592162fd02392563884c5f3195a846f3855232542839450beeef271c5",
+   "url": "https://cybersecuritynews.com/magento-and-adobe-commerce-0-day-rce",
+   "title": "Hackers Actively Exploiting Magento and Adobe Commerce 0-Day RCE Vulnerability",
+   "published_at": "2026-09-06T03:52:46Z",
+   "published_raw": "Sun, 06 Sep 2026 03:52:46 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News",
+    "vulnerability"
+   ],
+   "description": "<p>A newly discovered zero-day vulnerability in Magento Open Source and Adobe Commerce is being actively exploited by attackers to seize full control of online stores, and there is still no official patch available. Dutch e-commerce security firm Sansec disclosed the flaw, dubbed StyleSmuggler, on September 5, 2026, warning that unauthenticated attackers can achieve remote code [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/magento-and-adobe-commerce-0-day-rce/\">Hackers Actively Exploiting Magento and Adobe Commerce 0-Day RCE Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=162219",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Magento-and-Adobe-Commerce-0-Day-RCE.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "162219",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A newly discovered zero-day vulnerability in <a href=\"https://cybersecuritynews.com/magento-cache-plugin-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">Magento Open Source</a> and Adobe Commerce is being actively exploited by attackers to seize full control of online stores, and there is still no official patch available.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Dutch e-commerce security firm Sansec disclosed the flaw, dubbed StyleSmuggler, on September 5, 2026, warning that unauthenticated attackers can achieve remote code execution on vulnerable installations and that live attacks began the previous day .</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company said it was publishing its findings early, before completing its full technical analysis, &#8220;because stores are being compromised right now&#8221;.</p>\n\n\n\n<p class=\"wp-block-paragraph\">StyleSmuggler affects every current version of Magento and Adobe Commerce, including the latest 2.4.9 release, and requires no authentication whatsoever to exploit.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Sansec reproduced the complete unauthenticated attack chain on clean installations of Magento Open Source 2.4.7, 2.4.8, and 2.4.9, confirming the bug is not tied to any single outdated build.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Disturbingly, the first identified victim was running 2.4.6-p15 with July and August 2026 security patches fully applied, meaning fully patched stores were compromised just as easily as neglected ones.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As of September 6, Adobe has not issued an advisory, assigned a CVE identifier, or released any official fix or workaround, and the company&#8217;s most recent Commerce security bulletin still dates to August 11.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The exploit unfolds in two distinct stages that abuse Magento&#8217;s own template rendering and email systems rather than a single obvious injection point. In the first stage, attackers plant malicious PHP code inside a file that Magento itself writes during normal operation, such as a payment failure report, by manipulating &#8220;styles&#8221; properties within a GraphQL request to slip past existing input sanitization.</p>\n\n\n\n<h2 id=\"h-magento-and-adobe-commerce-0-day-rce\" class=\"wp-block-heading\"><strong>Magento and Adobe Commerce 0-Day RCE</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Independent analysis from Magento hosting firm Disrex Group, which handled two breached stores, found that a crafted directive inside the injected text forces a chain of Magento&#8217;s own classes to execute code that was only ever meant to run through the command-line dependency-injection compiler, ultimately including the attacker-poisoned log file.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The second stage triggers execution. Sansec found that StyleSmuggler deliberately causes Magento to send its standard &#8220;Payment Transaction Failed Reminder&#8221; email, and the poisoned code runs the moment Magento renders that message internally, meaning nobody has to open or even receive the email for the attack to succeed.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDVA_8Ka3hdV5w_BancVi3ghOYshAi3lz_wsY0NhVk1iDT6hUUXHJErWcnFxXFRw1BVOM0FZIt0RDGeCJcNg0CoacNw70nXV2Psna18KHw7AHpojDN2GDq3iI25y-wx5roOSb2lzUOwq2-KGZdZDyw6SmVgvZBjX95zEAMIwqrnQs8-7DyAgF7tL0yKGnk/s1600/Magento%20Attack%20Chain.webp\" alt=\"\"/><figcaption class=\"wp-element-caption\">Attack chain (Source: Disrex)</figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">Once triggered, a PHP dropper cycles through six different PHP functions until it finds one capable of spawning a process, then downloads and launches a persistent implant. Disrex described the malware as a small, statically linked Rust binary of roughly 1.9 megabytes, compiled for both x86-64 and ARM64 architectures, disguised as a Linux kernel thread named &#8220;[kworker/u:8:0]&#8221; and restarted every five minutes through a cron entry written directly into the crontab spool file to avoid leaving normal system logs.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Detecting an infection is harder than it sounds because the malware actively evades naive checks. A genuine Linux kernel worker thread is owned by root and consumes no resident memory, so any bracketed &#8220;[kworker]&#8221; process running under a website&#8217;s own user account with real memory usage is a red flag.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/disrex-group/stylesmuggler-mitigation/blob/main/HOW-IT-WORKS.md\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Disrex also discovered</a> that the binary running in memory sometimes differs from the file sitting on disk, meaning defenders should hash both the file and the live process to be thorough.</p>\n\n\n\n<p class=\"wp-block-paragraph\">On one compromised store, the implant made no outbound internet connections at all, instead opening 28 simultaneous connections to the site&#8217;s own Redis instance to read live Magento session data, which let it operate almost invisibly to network-based monitoring.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://sansec.io/research/stylesmuggler\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Sansec&#8217;s own detection guidance</a> searches Magento&#8217;s var/report directory for a marker string, but Disrex found both of its breached stores were actually poisoned through var/log/system.log instead, meaning administrators need to check both locations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">With Adobe&#8217;s next scheduled security release set for September 8 and no confirmation it will address this flaw, store owners are left relying on stopgap measures. Sansec recommends temporarily disabling GraphQL entirely for stores that don&#8217;t rely on headless or progressive web app storefronts, since classic and Hyvä themes generally don&#8217;t need it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Disrex, security researcher ProxiBlue, and vendor Graycore have each independently published unofficial code patches that guard specific Magento classes and email template functions, though all three stress these are hardening measures rather than a genuine fix, and Disrex specifically warns its rules only block the current attack traffic pattern, not the underlying vulnerability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Server-level protections that don&#8217;t depend on understanding the exploit chain at all, such as disabling PHP&#8217;s proc_open function and mounting temporary directories with noexec, have also proven effective at stopping the dropper from launching its payload.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Learn 7 Metric-Gated AI SOC Deployment Phases &#8211; <strong><strong><a href=\"https://underdefense.com/ai-soc-deployment-playbook-from-assessment-to-autonomy/?utm_source=cybersecuritynews.com&amp;utm_medium=online_media&amp;utm_campaign=csn_linkedin_newsletter_ai_soc_deployment_playbook_september_2026\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Download Free AI SOC Deployment Playbook 2026</a></strong></strong>.</strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/magento-and-adobe-commerce-0-day-rce/\">Hackers Actively Exploiting Magento and Adobe Commerce 0-Day RCE Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:56c3620d2b89d48303c0ec59e0d2bec900c62d9af0f6344218fc7912b146c6d9",
    "url": "https://cybersecuritynews.com/microsoft-teams-desktop-client-fails",
