@@ -1,15 +1,118 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-09-07T12:01:49Z",
+ "updated_at": "2026-09-07T13:01:17Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-07T12:01:49Z",
+  "last_success_at": "2026-09-07T13:01:17Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:cf59e475efb6a113c6878c178715f23b2fb4d89b8f88a9ddae4020e9bb9f49b3",
+   "url": "https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits",
+   "title": "Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits",
+   "published_at": "2026-09-07T12:15:57Z",
+   "published_raw": "Mon, 07 Sep 2026 12:15:57 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "CrowdStrike",
+    "exploit",
+    "NVIDIA",
+    "Zero-Day"
+   ],
+   "description": "<p>The proof-of-concept (PoC) exploits lead to privilege escalation, spawning a shell with System privileges.</p>\n<p>The post <a href=\"https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits/\">Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49134",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:2267b2960a6b9853c13c81a0b93855b4632a2f1057eea6644b2e6cd07a8699fb",
+   "url": "https://www.securityweek.com/north-korean-hackers-deploy-new-linux-espionage-toolkit",
+   "title": "North Korean Hackers Deploy New Linux Espionage Toolkit",
+   "published_at": "2026-09-07T12:12:08Z",
+   "published_raw": "Mon, 07 Sep 2026 12:12:08 +0000",
+   "categories": [
+    "Malware & Threats",
+    "Linux",
+    "North Korea"
+   ],
+   "description": "<p>The stealthy toolkit embeds a backdoor in HAProxy and targets automotive and media organizations in South Korea for long-term surveillance.</p>\n<p>The post <a href=\"https://www.securityweek.com/north-korean-hackers-deploy-new-linux-espionage-toolkit/\">North Korean Hackers Deploy New Linux Espionage Toolkit</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49132",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:5914517d0f2c20ca8a8cdae220cb73990beb5a645748d30b1a67c07a8fafa27d",
+   "url": "https://www.securityweek.com/openai-agents-hijack-another-victim-website",
+   "title": "OpenAI Agents Hijack Another Victim Website",
+   "published_at": "2026-09-07T12:03:04Z",
+   "published_raw": "Mon, 07 Sep 2026 12:03:04 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "AI",
+    "Attacks",
+    "Featured",
+    "OpenAI"
+   ],
+   "description": "<p>OpenAI agents made 15,000–18,000 autonomous edits to a German wiki over three months, evading moderation and echoing tactics seen in the Hugging Face breach.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-agents-hijack-another-victim-website/\">OpenAI Agents Hijack Another Victim Website</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49130",
+   "authors": [
+    {
+     "name": "Kevin Townsend",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:d70a518200b3328d332eb8531cd8ef9452985a90c0dfb5b09200bae87882368a",
    "url": "https://www.securityweek.com/adobe-commerce-zero-day-exploited-to-backdoor-online-stores",
@@ -1837,46 +1940,6 @@
    ],
    "description": "<p>The Bureau of Alcohol, Tobacco, Firearms and Explosives has described it as a ‘major incident’ and it’s conducting an investigation with the DOJ.</p>\n<p>The post <a href=\"https://www.securityweek.com/atf-confirms-cyber-incident-after-ransomware-group-claims-attack/\">ATF Confirms Cyber Incident After Ransomware Group Claims Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=48955",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:0f67175071027cc5706d8d8515a431cdb72627dc3eefefd616f2f3fd5b64393b",
-   "url": "https://www.securityweek.com/openai-agents-exploited-linux-kernel-flaw-on-companys-own-systems",
-   "title": "OpenAI Agents Exploited Linux Kernel Flaw on Company’s Own Systems",
-   "published_at": "2026-08-28T12:36:53Z",
-   "published_raw": "Fri, 28 Aug 2026 12:36:53 +0000",
-   "categories": [
-    "Artificial Intelligence",
-    "Vulnerabilities",
-    "AI",
-    "CISA KEV",
-    "exploited",
-    "Featured",
-    "Linux",
-    "Linux kernel",
-    "OpenAI",
-    "vulnerability"
-   ],
-   "description": "<p>CISA has added the exploited flaw, CVE-2026-53362, to its KEV catalog, alongside a JFrog vulnerability exploited by OpenAI agents.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-agents-exploited-linux-kernel-flaw-on-companys-own-systems/\">OpenAI Agents Exploited Linux Kernel Flaw on Company&#8217;s Own Systems</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48950",
    "authors": [
     {
      "name": "Eduard Kovacs",
