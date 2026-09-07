@@ -1,15 +1,42 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-07T08:01:14Z",
+ "updated_at": "2026-09-07T09:01:10Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-07T08:01:14Z",
+  "last_success_at": "2026-09-07T09:01:10Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d35595c1e92df27a669bfbf94b744757fd350247839646748c9dcbb4227f6951",
+   "url": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+   "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+   "published_at": "2026-09-07T08:31:12Z",
+   "published_raw": "2026-09-07T14:01:12.791+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its release notes say that is unconfirmed.\n\nN-able has released its&nbsp;fourth hotfix&nbsp;in five weeks for the N-central remote monitoring and management (RMM) platform, this time for a",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6272452887251679057",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOtysh_bb-hej1pQzey0RUhPD2w29ONlPDQMzE9Nc4lM529hKaHhuLKfGXEnqVZyUkMKhJchEeoN1clSKo3-opm2_BQkN6FJ72xBZOZwxX6sTwU4Zzk_j6taOwBpioZOnolR9idUjpydUlQ84TQ9pdWUlUm61JH0Xh8-6_0fo3VieeW3xVQwk4UvXcSu4/s260-e100/nable.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:bec3d4c719cb03958c036b9d2272ba2b2c5f6d783c02fbc9de6264c5a2938164",
    "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
@@ -665,7 +692,7 @@
    "published_at": "2026-09-01T09:05:30Z",
    "published_raw": "2026-09-01T14:35:30.243+05:30",
    "categories": [
-    "vulnerability"
+    "cyber-attack"
    ],
    "description": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out long-horizon, agentic tasks, disclosed that it suffered \"two notable security incidents\" where external actors attempted to gain unauthorized access to its systems.\n\nNo sensitive information is believed to",
    "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6320490168137822016",
@@ -949,33 +976,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtKp2lGcxPfp8ymA88FIBXB0Bn9fcUSaU_UIl1pfAjDSC2usRwUE73vhQEeP6jar9U9k10yotgyYl_tIk6dQA-MFIr2bJ3LN_azGt9kDU6hpW448HgmBuJbc6TWSo1vfpmhoK0J3_5rhF6VIpWd7NYf0G1YSYHdqKubWgQwa1yU6KRAL-bnDGd8HmCmPk/s260-e100/cpanel-root.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:f774114eb52e3b3c8954f49cb5d6e0e1cbf68b279d841ef0ee92731309f25354",
-   "url": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
-   "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
-   "published_at": "2026-08-28T08:25:36Z",
-   "published_raw": "2026-08-28T13:55:36.584+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks.\n\nThe company has released an emergency patch for v25 and v26 to address the issue. It said it's \"aware of confirmed customer incidents and is treating this matter with the highest priority.\" An",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4998484901475165860",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3avAnoYOOKqF8JpZv9Lng1lKE0AqmHOqM-Mq2T297NQrtDBM90yMYIzzVMHgzqytcCvFz7LuBXoPp-d9mRh0_dywBaM8NxZaiKPG0gDuYbSt2oRJdxSkHG5tWjxAMKvWUYZe6YINf_-7i5zUS7xGrDcaXulRvT5jVihWDJzAHSlaXQ6UYlHa6cPMpxbDC/s260-e100/papercut.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
