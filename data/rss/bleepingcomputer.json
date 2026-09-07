@@ -1,15 +1,58 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-07T10:01:10Z",
+ "updated_at": "2026-09-07T11:01:10Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-07T10:01:10Z",
+  "last_success_at": "2026-09-07T11:01:10Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:db90b4fe1f6382bc2c6bb404e95ff61919bfd978a3e282186badff593da46384",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers",
+   "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
+   "published_at": "2026-09-07T10:32:40Z",
+   "published_raw": "Mon, 07 Sep 2026 06:32:40 -0400",
+   "categories": [
+    "security",
+    "Hardware"
+   ],
+   "description": "Hackers are exploiting a chain of two recently disclosed vulnerabilities in MikroTik routers to take control of devices with SSH services exposed to the internet. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6f15749b6d6962e8c0766b9a576ebc2e98364b0d5affd3d3a5684b43913b4a54",
+   "url": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch",
+   "title": "ConnectWise warns of new ScreenConnect flaw without patch",
+   "published_at": "2026-09-07T10:06:38Z",
+   "published_raw": "Mon, 07 Sep 2026 06:06:38 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "ConnectWise has shared temporary mitigation measures for a new ScreenConnect Remote Access vulnerability that it plans to patch later this week. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:7cde922df0a0022ee88d1bbe3c92e10fe99faa5f1a503d8ad64f3a4cba497340",
    "url": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks",
@@ -1065,27 +1108,6 @@
    ],
    "description": "Hasbro, one of the world's largest toy and game companies, has disclosed that attackers have accessed the personal and financial information of an undisclosed number of employees. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:ecab0ad3a063fc252cb71f13606c01ddca7cf441ce9bc749a9296dee3a7f511e",
-   "url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities",
-   "title": "ServiceNow warns of three max severity security vulnerabilities",
-   "published_at": "2026-08-28T10:29:42Z",
-   "published_raw": "Fri, 28 Aug 2026 06:29:42 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "ServiceNow released security patches for three new maximum-severity AI Platform vulnerabilities that can be exploited in code injection, SQL injection, and privilege escalation attacks. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
    "authors": [
     {
      "name": "Sergiu Gatlan",
