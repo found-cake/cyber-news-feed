@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-09-07T03:01:12Z",
+ "updated_at": "2026-09-07T04:01:14Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-07T03:01:12Z",
+  "last_success_at": "2026-09-07T04:01:14Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:435c6a7921f1ed93559baed6261f6fe1e6fcb98ef30da408a06b42610af72320",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208349",
+   "title": "루트 존 암호키 교체 임박...국내 DNS 서버 신규 키 반영 필수",
+   "published_at": "2026-09-07T12:26:40Z",
+   "published_raw": "2026-09-07 12:26:40",
+   "categories": [
+    "이슈"
+   ],
+   "description": "국제인터넷주소기구(ICANN)가 다음 달 12일 오전 1시(한국 표준시 기준) 루트 존의 DNSSEC 키서명키(KSK) 교체를 단행한다. 이에 따라 국내 캐시 DNS 서버 운영기관들의 신규 암호키 반영 여부 점검이 시급해졌다.캐시 DNS는 인터넷 이용자가 도메인 이름을 입력했을 때 실제 IP 주소를 찾아 연결해 주는 핵심 시스템이다. 루트 존은 닷케이알(.kr)이나 닷컴(.com) 같은 최상위도메인 주소를 찾는 데 필요한 최상위 정보를 제공한다. DNSSEC은 이러한 주소 정보가 위변조되지 않았는지 검증하는 보안 기술이며, KSK는",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:f891f2f111bbf4b7c1b60408da8d16809717c5b6809105b9505d724a5efac3b5",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208348",
