@@ -1,15 +1,59 @@
 {
  "schema_version": 1,
  "source": "boannews",
- "updated_at": "2026-09-07T02:01:14Z",
+ "updated_at": "2026-09-07T03:01:12Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-07T02:01:14Z",
+  "last_success_at": "2026-09-07T03:01:12Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:56f344ce1b75318219641fb37c9bfec8d1b500886fe4e23711d752790d3e50d6",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145684",
+   "title": "접속 끊어질라... KISA, “국내 DNS 서버 ‘신규 암호키’ 반영해 달라”",
+   "published_at": "2026-09-07T12:00:00Z",
+   "published_raw": "2026-09-07 12:00:00",
+   "categories": [
+    "공공·정책",
+    "긴급경보"
+   ],
+   "description": "국제인터넷주소기구(ICANN)의 루트 존(Root Zone) 암호키 교체에 대비, 한국인터넷진흥원(KISA)이 7일 국내 캐시 도메인이름시스템(DNS) 서버 운영기관들에 선제적 점검을 권고했다. 신규 키를 반영하지 않으면 인터넷 접속 장애가 우려된다.이번 조치는 ICANN이 한국 표준시 기준 10월 12일 오전 1시 루트 존의 도메인이름시스템 보안확장(DNSSEC) 키서명키(KSK)를 교체하는 데 따른 것이다. DNSSEC는 인터넷 주소를 조회할 때 제공되는 정보의 위변조 여부를 검증하는 보안 기술이며, KSK는 이 검증에서 신뢰",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "조재호 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:448fdd4f924ccdedd0eb6d8e64f0aae70b741d1160407177648ea9d422a2f1e2",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=145689",
+   "title": "재택근무 노렸다... 시트릭스 넷스케일러 인증 우회 시도 포착",
+   "published_at": "2026-09-07T11:59:53Z",
+   "published_raw": "2026-09-07 11:59:53",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "기업이 외부 접속 관문으로 사용하는 시트릭스(Citrix) 넷스케일러 장비에서 인증 절차를 통째로 우회할 수 있는 취약점을 노린 공격 시도가 포착됐다.문제의 취약점은 CVE-2026-19490이다. 직원이 회사 밖에서 사내망에 접속할 때 거치는 관문, 즉 넷스케일러를 SSL VPN이나 원격 데스크톱 연결용으로 구성해 둔 환경이 대상이다.이런 환경에서는 계정이 없는 공격자도 원격에서 로그인 절차를 건너뛰고 내부로 들어올 수 있다. 관문 자체가 무력화되는 만큼 위험도가 높다.공격 시도는 신뢰할 만한 개념증명(PoC) 코드가 인터넷에 공",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강현주 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:0c06e5030faaf7b341e258fe6d32b0a7c0ab5813c66cb6ab080529e59218625d",
    "url": "https://www.boannews.com/news/articleView.html?idxno=145687",
