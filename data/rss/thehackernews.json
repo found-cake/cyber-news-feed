@@ -1,15 +1,69 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-07T11:01:10Z",
+ "updated_at": "2026-09-07T12:01:49Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-07T11:01:10Z",
+  "last_success_at": "2026-09-07T12:01:49Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:3fabea4df5b3511709367d81da1044b5bb368e8c17a86dfdbd4241752f436e16",
+   "url": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+   "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+   "published_at": "2026-09-07T11:36:39Z",
+   "published_raw": "2026-09-07T17:06:39.292+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems.\n\nAccording to Huntress, three unrelated incidents have been found to use diverse initial access methods, namely a Quick Assist tech-support scam, a phishing-delivered MSI installer, and a fake",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-9082299479018908308",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWA_nxvqJuKkqq0ab1I-XR1YtpsM6BadhHDNOIheZmBflLWaQ018JFJsAUBVuyWWTYI4pyT8OQNXhui8Annde3SnOIScH9B0ohMq-OzXLjvPeAXQnz4mAUdEMS_07i7gLaWqPVpHaPvyLJdZQKUTs2MLGhjB9UZ0A83CGcSeDCJFKn7hNjiyf6dbzbHogp/s260-e100/screen.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:ff2a8ecee2aa5028dadc3df9b235308488ffba6cd23fc1241f999b132355bdfc",
+   "url": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+   "title": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
+   "published_at": "2026-09-07T11:20:14Z",
+   "published_raw": "2026-09-07T16:50:14.047+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A TantoSec proof-of-concept turns an AES-CBC \"padding oracle\" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default configuration, and Progress patched the chain in July. There are no confirmed reports of exploitation in the wild.\n\nSecurity firm TantoSec has published a working exploit chain targeting vulnerabilities",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6890619596459694803",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOwlnNFKd-mH5uyY-AjtXSVx57m9MDT4WRtoQStPY9HoNxOP3ps7znRzENJAK7ZzF4homlCzVGVPFuFZ1sXYGciKyA3rZN_NYewwTXhwpRxCUFaPmUmdgP_TdJQtf57falTD12A0GJewAS23pnxttANQ1meOeRFnr_IqZqAngg0rc9ov998VwQlANB0cE/s260-e100/tel.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:d35595c1e92df27a669bfbf94b744757fd350247839646748c9dcbb4227f6951",
    "url": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
@@ -632,40 +686,13 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:2e1433965ded5055aabb83ee9f802459105e3968a6a85abcdf2a7a5ae985ae89",
-   "url": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
-   "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
-   "published_at": "2026-09-01T14:07:20Z",
-   "published_raw": "2026-09-01T19:37:20.704+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS devices.\n\n\"The injected code runs two operations against a site's visitors: a mobile ad-fraud and gambling-redirect",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5664598731925943009",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB8expOvrNoEO7Mb5MSWWRnW2eVksJz4NGRldHmcBuWZ76ojuMDD6HJk_i043g-KHOi2zjcYQtsvYGXL2lyzPNy-vwRTD5jzMz5qdEXwfvYqt9K1Uu0Z5fpEMV2EVh9Ap0JRUD391nDM_TjgEXXGnI_dHRpxwv1H5VLiyQN4F3LBpRaEnmtbmCqdllIob2/s260-e100/iphone.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:6a32dcc2b873f1220704b7f36fe9ecb57a081c072d6c57fdab250c430e566b3d",
    "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
    "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
    "published_at": "2026-09-01T11:30:00Z",
    "published_raw": "2026-09-01T17:00:00.000+05:30",
    "categories": [
-    "vulnerability"
+    "cyber-attack"
    ],
    "description": "The most common way into a company last year was to ask.\n\nA web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command on their clipboard. Then it talks them through opening a terminal and pasting it in. The technique is called ClickFix, and it was the most common initial access method Microsoft’s team observed last year, accounting",
    "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5698110230689662738",
@@ -760,6 +787,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdtPabCvuR_F2UFdCw8LS5eoXtD-jOpbuCy8WZYRycSP2vu_6yQK45qTehHimhoS-eXFPMTwg5jNM3m_X7ma5ELVz60Rjt3rlQhrqE4iTz8ggysLCt388GyaBVQbT28sGDv9a6drKNZooBiQNy0L3v8Gc3vxB9JILUD-eTtj5LZAlBbA3EyLlp5SkgIKPG/s260-e100/1000103914.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:2e1433965ded5055aabb83ee9f802459105e3968a6a85abcdf2a7a5ae985ae89",
+   "url": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
+   "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
+   "published_at": "2026-09-01T14:07:20Z",
+   "published_raw": "2026-09-01T19:37:20.704+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS devices.\n\n\"The injected code runs two operations against a site's visitors: a mobile ad-fraud and gambling-redirect",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5664598731925943009",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB8expOvrNoEO7Mb5MSWWRnW2eVksJz4NGRldHmcBuWZ76ojuMDD6HJk_i043g-KHOi2zjcYQtsvYGXL2lyzPNy-vwRTD5jzMz5qdEXwfvYqt9K1Uu0Z5fpEMV2EVh9Ap0JRUD391nDM_TjgEXXGnI_dHRpxwv1H5VLiyQN4F3LBpRaEnmtbmCqdllIob2/s260-e100/iphone.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -895,33 +949,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKqNVrCXSaUDXfrGPJkoRoXBPQW4qwhdYqm2SMVaunZNwBrQ4FbURK-gtVawzaje20fK_m9q2dKepfj-dxmkvfKL4se3ZQ1YAI3iogqCft1UjVadJa_uBoQxFuoBpWfx2Dh3S4-jQLa7c4E9OOyQfVAT5BVKVShPykiPWEuYcchIPHFC4e5GduyW4iBio/s260-e100/Humanoid.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:1510fb277d3c7983f8d487129883b023d584d6200dfc5f2403073e1b59e7d34c",
-   "url": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
-   "title": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
-   "published_at": "2026-08-28T11:20:32Z",
-   "published_raw": "2026-08-28T16:50:32.843+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "ServiceNow has released patches for four security flaws impacting the ServiceNow AI Platform, three of them rated 10.0 on the CVSS scoring system and exploitable, in certain circumstances, by an unauthenticated attacker.\n\nThe company said it deployed a security update to hosted instances and provided the update to its partners and self-hosted customers, which leaves organizations that run their",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1198162890584101570",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitiido-BqtV-H4U0qEAovU_m3NGb3PHF5O3IEh53W_rllGDplhA8aluEKIUULFq3L7iNQue-NLxQDR3wSF7PaaAhGg14rWdqHoB6jBZC1YfslM0wyj5xhESZKTbIxgjO_lnZqVOrKx_E2hK-wXtE85EPJW-pV8D3eMv9CWgMF8eXzsJgq3xevdBY9hCs0/s260-e100/servicenow.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
