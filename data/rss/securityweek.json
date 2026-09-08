@@ -1,15 +1,48 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-09-08T14:01:12Z",
+ "updated_at": "2026-09-08T15:01:14Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-08T14:01:12Z",
+  "last_success_at": "2026-09-08T15:01:14Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:5ee93892b1c9632214906127e72dc904109c78d898553c8fd6e64d8ca3337190",
+   "url": "https://www.securityweek.com/sap-patches-critical-extended-passport-processing-vulnerability",
+   "title": "SAP Patches Critical Extended Passport Processing Vulnerability",
+   "published_at": "2026-09-08T14:55:06Z",
+   "published_raw": "Tue, 08 Sep 2026 14:55:06 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "CVE-2026-44756",
+    "SAP"
+   ],
+   "description": "<p>Affecting the SAP kernel code, the flaw allows unauthenticated, remote attackers to run arbitrary commands, recover secrets, and modify data.</p>\n<p>The post <a href=\"https://www.securityweek.com/sap-patches-critical-extended-passport-processing-vulnerability/\">SAP Patches Critical Extended Passport Processing Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49156",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:9a7a12ff29a344f5bd5003a2dfece4866154246ad406732addf57978dc0f242c",
    "url": "https://www.securityweek.com/partys-over-for-crypto-scammers-who-went-on-a-spending-spree-after-a-240-million-bitcoin-theft",

@@ -1,15 +1,58 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-08T14:01:12Z",
+ "updated_at": "2026-09-08T15:01:14Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-08T14:01:12Z",
+  "last_success_at": "2026-09-08T15:01:14Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c80171e3be8ae4238aa168e57216c9704b8179abb62205f2de5d0911f84c6450",
+   "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability",
+   "title": "SAP warns of maximum severity 'OVERPASS' kernel vulnerability",
+   "published_at": "2026-09-08T14:55:20Z",
+   "published_raw": "Tue, 08 Sep 2026 10:55:20 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "SAP has addressed 20 vulnerabilities across multiple products in its September 2026 security updates, including a maximum-severity memory corruption flaw in the SAP Kernel code. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:f9a86150e0337469d96774ca107524ebec820e93d043ad9c263b173473821ec1",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor",
+   "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
+   "published_at": "2026-09-08T14:40:32Z",
+   "published_raw": "Tue, 08 Sep 2026 10:40:32 -0400",
+   "categories": [
+    "security",
+    "Artificial Intelligence"
+   ],
+   "description": "OpenAI confirmed that GPT-6 Astra is the first model it has broadly deployed to reach the \"Critical level\" for cybersecurity capabilities. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/",
+   "authors": [
+    {
+     "name": "Mayank Parmar",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:d765cf9075b6aaccea1e1e976cf7dd0b35da2026fe35c24ecffae9ad79705003",
    "url": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers",
@@ -1107,28 +1150,6 @@
    ],
    "description": "Multiple extensions for Google Chrome and Microsoft Edge delivered a malware framework that deployed modules to steal cryptocurrency, sensitive data, and browser history, as well as inject ClickFix lures. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:d4e143de4d8fe3dd9ba42526e75e3b3380ab57f204d6805c23800c581994967e",
-   "url": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking",
-   "title": "Brave browser adds email aliases to help users evade tracking",
-   "published_at": "2026-08-29T14:19:23Z",
-   "published_raw": "Sat, 29 Aug 2026 10:19:23 -0400",
-   "categories": [
-    "security",
-    "Software"
-   ],
-   "description": "The latest version of the Brave browser, 1.94, introduces a feature called 'Email Aliases' that allows users to generate disposable email addresses when signing up to a new service. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
    "authors": [
     {
      "name": "Bill Toulas",
