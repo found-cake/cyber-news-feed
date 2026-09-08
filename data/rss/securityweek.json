@@ -1,15 +1,48 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-09-08T11:01:08Z",
+ "updated_at": "2026-09-08T12:01:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-08T11:01:08Z",
+  "last_success_at": "2026-09-08T12:01:47Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:31c6d0ee8cdbf4900406404d106f23538493f7d5269c5ad7bccd576c5235226f",
+   "url": "https://www.securityweek.com/mikrotik-patches-critical-flaws-chained-to-hack-routers",
+   "title": "MikroTik Patches Critical Flaws Chained to Hack Routers",
+   "published_at": "2026-09-08T11:15:00Z",
+   "published_raw": "Tue, 08 Sep 2026 11:15:00 +0000",
+   "categories": [
+    "Network Security",
+    "Vulnerabilities",
+    "mikrotik"
+   ],
+   "description": "<p>Dubbed MikroTrick, the bugs allow attackers to bypass authentication, overwrite configuration files, and take over devices.</p>\n<p>The post <a href=\"https://www.securityweek.com/mikrotik-patches-critical-flaws-chained-to-hack-routers/\">MikroTik Patches Critical Flaws Chained to Hack Routers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49145",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:ac68ec43cbf2f30745116ed544c9f82f6a87c728654d8ca269d5201482543c71",
    "url": "https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people",
@@ -1909,40 +1942,6 @@
    ],
    "description": "<p>PaperCut has released a second emergency patch for the exploited vulnerabilities, which are now tracked as CVE-2026-82078 and CVE-2026-81578.</p>\n<p>The post <a href=\"https://www.securityweek.com/more-details-emerge-on-exploited-papercut-vulnerabilities/\">More Details Emerge on Exploited PaperCut Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=48972",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:7cf92b91522b6c92d79791d8aba45c4f9aa67fc375ae5c0067582e6b113a0020",
-   "url": "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information",
-   "title": "Hasbro Data Breach Exposed Employee Personal Information",
-   "published_at": "2026-08-29T11:55:00Z",
-   "published_raw": "Sat, 29 Aug 2026 11:55:00 +0000",
-   "categories": [
-    "Data Breaches",
-    "data breach",
-    "Featured",
-    "Hasbro"
-   ],
-   "description": "<p>A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach.</p>\n<p>The post <a href=\"https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/\">Hasbro Data Breach Exposed Employee Personal Information</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48968",
    "authors": [
     {
      "name": "Eduard Kovacs",
