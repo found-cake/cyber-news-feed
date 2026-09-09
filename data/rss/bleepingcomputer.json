@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-09T14:01:17Z",
+ "updated_at": "2026-09-09T15:01:12Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-09T14:01:17Z",
+  "last_success_at": "2026-09-09T15:01:12Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:cadccff6d41f54702cc7da0c869995262fd84cfee9be2f9d35c06fa43145e71f",
+   "url": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path",
+   "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
+   "published_at": "2026-09-09T14:01:11Z",
+   "published_raw": "Wed, 09 Sep 2026 10:01:11 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "MFA makes account takeover harder, but attackers are increasingly targeting the recovery processes used to reset passwords and authentication methods. Specops explains why stronger identity verification at the service desk is critical to preventing social engineering attacks from turning account recovery into account takeover. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
+   "authors": [
+    {
+     "name": "Sponsored by Specops Software",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:2362dac14e96c36a223b6b66904989113e6a06fd222eee097696d1e6ee540e37",
    "url": "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws",
@@ -1302,49 +1323,6 @@
    "authors": [
     {
      "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:4cbff6ac24036978c0324ef2b94fa190e2bee27447e3b305db54debb03769249",
-   "url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data",
-   "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
-   "published_at": "2026-08-30T15:00:21Z",
-   "published_raw": "Sun, 30 Aug 2026 11:00:21 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "FulcrumSec claims it stole 86 GB of data from Manchester Airports Group. BleepingComputer validated one traveller's record, while samples revealed detailed customer, booking, and travel information beyond what MAG initially disclosed. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
-   "authors": [
-    {
-     "name": "Ax Sharma",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:84f685770c0f51b44b406690dc99e390f8706b54af95f917d4b46545167bae6e",
-   "url": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data",
-   "title": "Chrome Web Store extensions caught stealing crypto, browser data",
-   "published_at": "2026-08-30T14:17:44Z",
-   "published_raw": "Sun, 30 Aug 2026 10:17:44 -0400",
-   "categories": [
-    "security",
-    "CryptoCurrency"
-   ],
-   "description": "Multiple extensions for Google Chrome and Microsoft Edge delivered a malware framework that deployed modules to steal cryptocurrency, sensitive data, and browser history, as well as inject ClickFix lures. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
