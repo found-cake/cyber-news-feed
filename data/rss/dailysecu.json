@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-09-09T06:01:11Z",
+ "updated_at": "2026-09-09T07:01:10Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-09T06:01:11Z",
+  "last_success_at": "2026-09-09T07:01:10Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:fec820314a54220fa7e7798b9bc84c7affc637bf771d5ee67d0d57b361179996",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208379",
+   "title": "[단독] 해커는 왜 버그바운티 대신 기관 제보 택했나…대형 PG 사고 둘러싼 의문과 팩트 체크 내용",
+   "published_at": "2026-09-09T14:53:25Z",
+   "published_raw": "2026-09-09 14:53:25",
+   "categories": [
+    "이슈"
+   ],
+   "description": "최근 국내 전자결제업체들을 둘러싼 해킹 논란과 관련해 데일리시큐가 8일 최초 단독 보도 한 이후 추가 취재 결과, 앞서 제기됐던 국내 대형 PG사의 내부 시스템이 직접 해킹된 것은 아닌 것으로 파악됐다.이번 사고의 핵심은 특정 가맹점에서 외부로 노출된 결제 연동 인증키를 제3자가 확보한 뒤, 해당 키를 이용해 정상적인 API 호출 방식으로 결제내역을 조회한 데 있었다.즉 방화벽을 뚫거나 PG사 내부 서버의 취약점을 공격해 침입한 전형적인 해킹과는 성격이 다르다. 공격자가 이미 유효한 인증키를 확보했기 때문에 시스템 입장에서는 일정",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:717f7608ad2f058655b5c94db2030231f02f4dd5a8f3833497194c7253fa6c02",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208372",
