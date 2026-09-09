@@ -1,15 +1,42 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-09T10:01:11Z",
+ "updated_at": "2026-09-09T11:01:07Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-09T10:01:11Z",
+  "last_success_at": "2026-09-09T11:01:07Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:6724d5b1aa8774968772018ffb882768555cc1ec89387b6d9de745458202d82e",
+   "url": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
+   "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
+   "published_at": "2026-09-09T10:43:04Z",
+   "published_raw": "2026-09-09T16:13:04.435+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Bitcoin wallet company Alby has&nbsp;warned of a critical flaw&nbsp;in Alby Hub that could have let an attacker take over a wallet and send its funds, but only where the owner had made the Hub reachable from the internet.\n\nAlby Hub is a self-hosted Lightning wallet, meaning the owner runs it on their own computer or server, and it holds their bitcoin. The flaw affects versions v1.7.0 through",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5878735594730625337",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfzwXsolZOaoU8mikO234FpoGAc_3wiI_OZ-Acpc-yPphzhUWmDh13CKiEG9xFbotf8RFEBh9jljS6pwUS4gryY-kk5UzPc7Mtb4Ds3mDpAhjyFoJibRDmnGXrLNt4VjGpTs1W5l6la2q4jO7D9hytPbAnLEFCHYVxxpcj7H-XNRDpGLfYSWAYqF7pl54/s260-e100/alby-warning.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:375dd8a3b2ed53b2a949659779634d8e6b3b1ed0987325eac351e3335fe5c1a0",
    "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
@@ -659,33 +686,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:08f9037c31db0cc25ffe9108f99d0a841c89e3b271df8434d11a442e93d2bf8f",
-   "url": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
-   "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
-   "published_at": "2026-09-04T07:35:14Z",
-   "published_raw": "2026-09-04T13:05:14.094+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws.\n\nThe fixes are available in Plex Media Server 1.43.3 and Plex Desktop 1.115.0. The streaming media service did not elaborate on what those issues are, but said CVE identifiers have been requested for them.\n\n\"We recommend all server owners and Desktop users",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7555753951445589999",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7RQQCR9QxY1NZ80GCfpUjvGGcw9QDirshH7KrSyc097EIaNqLLVGgnnlOE095qTOt2q9CTu91gJ_Pf7Y9-AcZahb35e7XG2YrA8D4O0FPwVRSzBzMT5ecKzu0bnAxP603K5q8R_7IZrE-iSAAJQsmMWXBt8IPwHIIz3u6Kf-okZyo0G1fLoe9VOzZEEQF/s260-e100/plex.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:6a32dcc2b873f1220704b7f36fe9ecb57a081c072d6c57fdab250c430e566b3d",
    "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
    "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
@@ -733,6 +733,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2b-1gQHvYc7ZLc86QFtZ2LoJ7zFalpJtSy_e_laxiM_f4Ftnhuvp5eCJZRSk2NL_0tZAZAl2z1UPYfOBSTbdGOPOZexgt3GkuUqsrZPgFB2F-qG2Ir_c7Ioj6zcJVdWjzBo90HpcObPWan5eID2df6OXyn3F7-LRpdOvO8TfiZSp8L2j89p2UbsDi3zM4/s260-e100/metr.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:08f9037c31db0cc25ffe9108f99d0a841c89e3b271df8434d11a442e93d2bf8f",
+   "url": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
+   "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
+   "published_at": "2026-09-04T07:35:14Z",
+   "published_raw": "2026-09-04T13:05:14.094+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws.\n\nThe fixes are available in Plex Media Server 1.43.3 and Plex Desktop 1.115.0. The streaming media service did not elaborate on what those issues are, but said CVE identifiers have been requested for them.\n\n\"We recommend all server owners and Desktop users",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7555753951445589999",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7RQQCR9QxY1NZ80GCfpUjvGGcw9QDirshH7KrSyc097EIaNqLLVGgnnlOE095qTOt2q9CTu91gJ_Pf7Y9-AcZahb35e7XG2YrA8D4O0FPwVRSzBzMT5ecKzu0bnAxP603K5q8R_7IZrE-iSAAJQsmMWXBt8IPwHIIz3u6Kf-okZyo0G1fLoe9VOzZEEQF/s260-e100/plex.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
