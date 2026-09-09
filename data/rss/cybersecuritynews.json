@@ -1,15 +1,86 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-09T04:01:08Z",
+ "updated_at": "2026-09-09T05:01:12Z",
  "retention_days": 10,
  "status": {
-  "ok": false,
-  "last_success_at": "2026-09-09T03:01:18Z",
-  "last_error_at": "2026-09-09T04:01:08Z",
-  "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+  "ok": true,
+  "last_success_at": "2026-09-09T05:01:12Z",
+  "last_error_at": null,
+  "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:5e53df8de633060e48e8e6c5b456559270335810cb2d4e5f2d78cc7db4aaa687",
+   "url": "https://cybersecuritynews.com/chrome-153-released",
+   "title": "Chrome 153 Fixes 230 Vulnerabilities, Including One 0-Day Exploited in the Wild",
+   "published_at": "2026-09-09T04:46:12Z",
+   "published_raw": "Wed, 09 Sep 2026 04:46:12 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News",
+    "vulnerability"
+   ],
+   "description": "<p>Google has rolled out Chrome 153 to the stable channel for Windows, Mac, and Linux, shipping as version 153.0.8010.36 on Linux and 153.0.8010.36/.37 on Windows and Mac. The update will reach users over the coming days and weeks and includes 230 security fixes, one of the largest patch batches in recent Chrome release history. Actively [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-153-released/\">Chrome 153 Fixes 230 Vulnerabilities, Including One 0-Day Exploited in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=162665",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Chrome-153-Released.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "162665",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Google has rolled out Chrome 153 to the stable channel for Windows, Mac, and Linux, shipping as version 153.0.8010.36 on Linux and 153.0.8010.36/.37 on Windows and Mac.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The update will reach users over the coming days and weeks and includes 230 security fixes, one of the largest patch batches in recent Chrome release history.</p>\n\n\n\n<h2 id=\"h-actively-exploited-0-day\" class=\"wp-block-heading\"><strong>Actively Exploited 0-Day</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The most critical issue in this release is CVE-2026-87491, a Medium-severity out-of-bounds write vulnerability in V8, Chrome&#8217;s JavaScript and WebAssembly engine. Google has confirmed that an exploit for this flaw already exists in the wild, making immediate updates essential for all users.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Jihyeon Jeong of Compsec Lab at Seoul National University reported the bug and earned a $ 2,500 bounty for the discovery. Despite its &#8220;Medium&#8221; classification, active exploitation of a V8 memory-corruption bug matters, since V8 flaws are often chained with sandbox-escape vulnerabilities to achieve remote code execution.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Beyond the zero-day, Chrome 153 closes five Critical-rated vulnerabilities, most involving <a href=\"https://cybersecuritynews.com/use-after-free-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">use-after-free</a> and <a href=\"https://cybersecuritynews.com/out-of-bounds-read-and-write/\" target=\"_blank\" rel=\"noreferrer noopener\">out-of-bounds write</a> conditions in WebGL and Cast components. Notable entries include CVE-2026-87464, CVE-2026-87488, CVE-2026-87438, CVE-2026-87527, and CVE-2026-87628, several of which Google&#8217;s security team discovered internally.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The update also resolves 43 High-severity bugs spanning ANGLE, PDFium, V8, Views, DevTools, Web Authentication, and Payments modules. Several of these, including CVE-2026-87512 in ANGLE and CVE-2026-87585 in PDFium, carried bounty rewards of up to 2,500 dollars.</p>\n\n\n\n<p class=\"wp-block-paragraph\">External researchers flagged several high-severity issues using AI-assisted tools, including OpenAI&#8217;s Codex Security team, reflecting the growing role of automated vulnerability discovery in browser security.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">The bulk of the release consists</a> of 141 Medium-severity fixes and 41 Low-severity fixes, covering categories such as incorrect authorization, missing authorization, UI misrepresentation, and information leaks across components like FileSystem, ServiceWorker, Extensions, Safebrowsing, and Payments.</p>\n\n\n\n<p class=\"wp-block-paragraph\">One standout bounty went to CVE-2026-87504, a use-after-free in Core rewarded at 5,000 dollars, while CVE-2026-87640 in WebView earned 3,000 dollars, both credited to the same researcher.</p>\n\n\n\n<h2 id=\"h-why-this-update-is-important\" class=\"wp-block-heading\"><strong>Why This Update Is Important</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">With 230 fixes packed into a single release and confirmed in-the-wild exploitation of at least one flaw, Chrome 153 represents a high-priority update for enterprises and individual users alike.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Google continues to rely on tools like AddressSanitizer, MemorySanitizer, and libFuzzer to catch these issues before they reach production, but the scale of this fix batch underscores how actively browser engines remain a target for both researchers and threat actors.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Users should update to build 153.0.8010.36 or later without delay.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Learn 7 Metric-Gated AI SOC Deployment Phases &#8211; <strong><strong><a href=\"https://underdefense.com/ai-soc-deployment-playbook-from-assessment-to-autonomy/?utm_source=cybersecuritynews.com&amp;utm_medium=online_media&amp;utm_campaign=csn_linkedin_newsletter_ai_soc_deployment_playbook_september_2026\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Download Free AI SOC Deployment Playbook 2026</a></strong></strong>.</strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-153-released/\">Chrome 153 Fixes 230 Vulnerabilities, Including One 0-Day Exploited in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:898a2fa749b1bd55df3452b8476847eab224d9166cf8f3aee7673aa0a34f1c9c",
+   "url": "https://cybersecuritynews.com/fortisandbox-vulnerability-access-sensitive-data",
+   "title": "FortiSandbox Vulnerability Allows Attackers to Access Sensitive Information via Crafted HTTP Requests",
+   "published_at": "2026-09-09T03:08:26Z",
+   "published_raw": "Wed, 09 Sep 2026 03:08:26 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Vulnerability",
+    "Vulnerability News"
+   ],
+   "description": "<p>Fortinet has disclosed a new high-severity vulnerability affecting its FortiSandbox platform, warning that unauthenticated attackers could exploit weaknesses in the product&#8217;s web interface to siphon off sensitive information without ever needing valid credentials. The flaw, tracked as CVE-2026-26084, stems from improper access control in the graphical user interface component that FortiSandbox, FortiSandbox Cloud, and FortiSandbox [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortisandbox-vulnerability-access-sensitive-data/\">FortiSandbox Vulnerability Allows Attackers to Access Sensitive Information via Crafted HTTP Requests</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=162626",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/FortiSandbox-Vulnerability-access-sensitive-Data.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "162626",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Fortinet has disclosed a new high-severity vulnerability affecting its <a href=\"https://cybersecuritynews.com/fortinet-fortisandbox-vulnerability-exploited/\" target=\"_blank\" rel=\"noopener\">FortiSandbox platform</a>, warning that unauthenticated attackers could exploit weaknesses in the product&#8217;s web interface to siphon off sensitive information without ever needing valid credentials. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw, tracked as CVE-2026-26084, stems from improper access control in the graphical user interface component that FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS all share, and it has been assigned a CVSS v3.1 score of 8.9, placing it firmly in the high-severity category.</p>\n\n\n\n<p class=\"wp-block-paragraph\">FortiSandbox is widely deployed across enterprise and government networks as an advanced threat detection appliance, using sandboxing techniques to analyze suspicious files and network traffic for zero-day malware and other advanced threats. </p>\n\n\n\n<h2 id=\"h-fortisandbox-vulnerability-exposes-sensitive-information\" class=\"wp-block-heading\"><strong>FortiSandbox Vulnerability Exposes Sensitive Information</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.fortiguard.com/psirt/FG-IR-26-166\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">According to Fortinet&#8217;s advisory</a>, the vulnerability is classified under CWE-284, Improper Access Control. In practical terms, this means the WEB UI fails to properly verify whether a request originates from an authorized session before returning sensitive data.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker who understands the structure of the application&#8217;s internal API endpoints can craft specially formed HTTP requests and send them directly to the FortiSandbox web interface, bypassing the authentication checks that would normally gate access to that information.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The advisory notes that exploitation requires no user interaction and no prior privileges, which is reflected in the CVSS vector&#8217;s designation of the attack as unauthenticated. </p>\n\n\n\n<p class=\"wp-block-paragraph\">While the vulnerability does not grant an attacker the ability to modify data or execute code, the confidentiality impact is still significant enough to warrant urgent patching, since exposed information from a security appliance like FortiSandbox could include configuration details, logs, or other operational data that attackers could use to plan follow-on intrusions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Fortinet credits Adham El Karn of its own Product Security team with discovering and reporting the issue internally, rather than through an external researcher or bug bounty submission.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company has stated there is no evidence that the vulnerability has been exploited in the wild, and it carries an &#8220;Internal&#8221; discovery tag along with a &#8220;No&#8221; rating for known exploitation as of the publication date.</p>\n\n\n\n<p class=\"wp-block-paragraph\">FortiSandbox 5.2 is not affected, giving administrators on the latest version extra time to manage it. However, FortiSandbox 5.0 versions from 5.0.0 through 5.0.5 are vulnerable, and Fortinet recommends upgrading to 5.0.6 or later to close the gap. Similarly, FortiSandbox 4.4 versions between 4.4.0 and 4.4.8 are exposed, with 4.4.9 or above serving as the fixed release.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The cloud and platform-as-a-service variants show a mixed picture. FortiSandbox Cloud 5.0 is affected in the 5.0.4 through 5.0.5 range, again requiring an upgrade to 5.0.6 or above, while FortiSandbox Cloud 4.4 escapes the issue entirely. </p>\n\n\n\n<p class=\"wp-block-paragraph\">On the PaaS side, FortiSandbox PaaS 5.2 is unaffected, but FortiSandbox PaaS 5.0 versions 5.0.4 through 5.0.5 need the same 5.0.6 upgrade path. </p>\n\n\n\n<figure class=\"wp-block-table is-style-stripes\"><table class=\"has-fixed-layout\"><thead><tr><td><strong>Product / Deployment Variant</strong></td><td><strong>Affected Versions</strong></td><td><strong>Recommended Remediation</strong></td><td><strong>Severity &amp; Classification</strong></td></tr></thead><tbody><tr><td><strong>FortiSandbox (On-Premises)</strong></td><td>5.0.0 through 5.0.5<br>4.4.0 through 4.4.8</td><td>Upgrade to version 5.0.6 or above<br>Upgrade to version 4.4.9 or above</td><td>High (CVSS 8.9) / CWE-284 Improper Access Control</td></tr><tr><td><strong>FortiSandbox Cloud</strong></td><td>5.0.4 through 5.0.5</td><td>Upgrade to version 5.0.6 or above</td><td>High (CVSS 8.9) / Unauthenticated info disclosure</td></tr><tr><td><strong>FortiSandbox PaaS</strong></td><td>5.0.4 through 5.0.5</td><td>Upgrade to version 5.0.6 or above</td><td>High (CVSS 8.9) / Web UI authentication bypass</td></tr><tr><td><strong>Unaffected Releases</strong></td><td>FortiSandbox 5.2, Cloud 4.4, PaaS 5.2</td><td>No action required</td><td>Not vulnerable to CVE-2026-26084</td></tr></tbody></table></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Attackers who gain visibility into sandbox configurations, sample metadata, or internal logs can use that intelligence to evade detection or identify other soft spots in an organization&#8217;s infrastructure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This disclosure also fits a broader pattern seen across Fortinet&#8217;s product line over the past several months, where multiple FortiSandbox and related appliances have faced scrutiny for <a href=\"https://cybersecuritynews.com/fortisandbox-vulnerability-command-execution/\" target=\"_blank\" rel=\"noopener\">authorization weaknesses</a> in their web-based management consoles. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations running any vulnerable version of FortiSandbox, FortiSandbox Cloud, or FortiSandbox PaaS should move to the corresponding fixed release without delay. </p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Learn 7 Metric-Gated AI SOC Deployment Phases &#8211; <strong><strong><a href=\"https://underdefense.com/ai-soc-deployment-playbook-from-assessment-to-autonomy/?utm_source=cybersecuritynews.com&amp;utm_medium=online_media&amp;utm_campaign=csn_linkedin_newsletter_ai_soc_deployment_playbook_september_2026\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Download Free AI SOC Deployment Playbook 2026</a></strong></strong>.</strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortisandbox-vulnerability-access-sensitive-data/\">FortiSandbox Vulnerability Allows Attackers to Access Sensitive Information via Crafted HTTP Requests</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:df2c02503db903f1c639e037cca1977d212b1c35363ce685bbf37ef938620e94",
    "url": "https://cybersecuritynews.com/phishing-powers-80-of-attacks-on-us-companies-how-socs-can-detect-it-early",
