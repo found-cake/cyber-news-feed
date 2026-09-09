@@ -1,15 +1,42 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-09T16:01:14Z",
+ "updated_at": "2026-09-09T17:01:14Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-09T16:01:14Z",
+  "last_success_at": "2026-09-09T17:01:14Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:9927501cbbee3b724e98e57628c97305d129e939bf3064dfe2f8b3e85c6cf12e",
+   "url": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+   "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+   "published_at": "2026-09-09T16:34:05Z",
+   "published_raw": "2026-09-09T22:04:05.815+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome.\n\nThe first in-the-wild use of BlueMoon has been attributed to the China-aligned state-sponsored group tracked as APT31 (aka Bronze Vinewood, Judgement Panda, JungleBamboo,",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8215137575346111595",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxouoVfK0MjZpruL0J1chmWnC7avUov1fOLbgX-XyFGrTcXeOh08tVntBjzJ7wBMmOB3P-PpxMr6E868Wpsaky-b-Nrf1LajzoQFfmjnkI1KHQzGXrCcVnC57nF2ndYZHCLx5WA3dENCWmCbZlSAb5TC-p8DXCGWxWB7I3iRIsdMMk6SS6IV03722lZIS4/s260-e100/spy.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:8abca2d5974c3170aac370fbf07368d943b91ce0c59bdd6c060ecc7d023d5020",
    "url": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
@@ -659,33 +686,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:c08f05268e88427c90137fefa10b93a213ccaef122cbdecab19e085ed9ab2004",
-   "url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
-   "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
-   "published_at": "2026-09-05T07:31:53Z",
-   "published_raw": "2026-09-05T13:01:53.170+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe.\n\nThe Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 – an authentication bypass and remote code execution chain – to conduct command execution and reconnaissance, as well as",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3339162264183325165",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguiDwimIl7rewJeRtSYeCkmhBUPSN0lsURwcKXrBtQ4vANRZqEkbjcPBIjODR0kFgIbLqwLiaBcB6lX8M6rilVclrxZcsKogB3NNhnwqJz3dZwgWGZ-6NHnAEGM-ENsEebYhn81lWBN0-nqfYrMLlHoQ3ebfHB7V74NpbKpOZZ84WZYyli7w1lDKJrCtds/s260-e100/papercut-hacks.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:6a32dcc2b873f1220704b7f36fe9ecb57a081c072d6c57fdab250c430e566b3d",
    "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
    "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
@@ -733,6 +733,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2b-1gQHvYc7ZLc86QFtZ2LoJ7zFalpJtSy_e_laxiM_f4Ftnhuvp5eCJZRSk2NL_0tZAZAl2z1UPYfOBSTbdGOPOZexgt3GkuUqsrZPgFB2F-qG2Ir_c7Ioj6zcJVdWjzBo90HpcObPWan5eID2df6OXyn3F7-LRpdOvO8TfiZSp8L2j89p2UbsDi3zM4/s260-e100/metr.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c08f05268e88427c90137fefa10b93a213ccaef122cbdecab19e085ed9ab2004",
+   "url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
+   "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
+   "published_at": "2026-09-05T07:31:53Z",
+   "published_raw": "2026-09-05T13:01:53.170+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe.\n\nThe Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 – an authentication bypass and remote code execution chain – to conduct command execution and reconnaissance, as well as",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3339162264183325165",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguiDwimIl7rewJeRtSYeCkmhBUPSN0lsURwcKXrBtQ4vANRZqEkbjcPBIjODR0kFgIbLqwLiaBcB6lX8M6rilVclrxZcsKogB3NNhnwqJz3dZwgWGZ-6NHnAEGM-ENsEebYhn81lWBN0-nqfYrMLlHoQ3ebfHB7V74NpbKpOZZ84WZYyli7w1lDKJrCtds/s260-e100/papercut-hacks.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
