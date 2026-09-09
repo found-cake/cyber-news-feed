@@ -1,15 +1,42 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-09T09:01:12Z",
+ "updated_at": "2026-09-09T10:01:11Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-09T09:01:12Z",
+  "last_success_at": "2026-09-09T10:01:11Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:375dd8a3b2ed53b2a949659779634d8e6b3b1ed0987325eac351e3335fe5c1a0",
+   "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+   "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+   "published_at": "2026-09-09T09:11:03Z",
+   "published_raw": "2026-09-09T14:41:03.041+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 (CVSS score: N/A), has been described as an out-of-bounds bug in V8, Chrome's JavaScript and WebAssembly engine.\n\n\"Out-of-bounds write in V8 in Google Chrome prior to",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3812872817927413581",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZvl2DE9GFM-4rdFgtQOOp1Dk3Xgp7xWysUv5zKTFwxqWYTurcgXgE-PDMn3_2AAIihh4YeiRvmwpb6GVDB1-8kxqasUWwX-FFa4mA41kXpFbzdt9hOvzW4xcyKBFttqIzbFSl-1SSSO0P_URv3Sy9QamkQZ55qzX5Y9Kmv5NdBCBHXCcUziiO6mfrqURE/s260-e100/chrome-zeroday.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:369f97b0285eecf9977fe412b9e9ac4a51d48f05307bc88de5c0c57856dda356",
    "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
@@ -659,33 +686,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:49749711ba07df5a4d9ea4b4f1812555860772af23fd3219e591fde608fd2cc8",
-   "url": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
-   "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
-   "published_at": "2026-09-04T07:18:47Z",
-   "published_raw": "2026-09-04T12:48:47.848+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), has been described as a type confusion bug in V8, Chrome's JavaScript and WebAssembly engine.\n\n\"Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-123534187292654348",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjelmC2UuYemuI1nBeaecfPBZ1Bfb5nz6T51_OhCUPHJivX8ioIjrYMVtVsjsrcA0xbEe_O4iMthJ2xwXWJVhAb5CCJlhnJS4McM9IpmPww86RSznT3h7pg5DYOXlnwon616y-1s2qwbWbmR40B5JCvYbtwM8lD5Fk5yLHWS7IKmH5pXQ8qO4SfEasBhhsq/s260-e100/chrome-v8-exploit.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:6a32dcc2b873f1220704b7f36fe9ecb57a081c072d6c57fdab250c430e566b3d",
    "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
    "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
@@ -733,6 +733,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2b-1gQHvYc7ZLc86QFtZ2LoJ7zFalpJtSy_e_laxiM_f4Ftnhuvp5eCJZRSk2NL_0tZAZAl2z1UPYfOBSTbdGOPOZexgt3GkuUqsrZPgFB2F-qG2Ir_c7Ioj6zcJVdWjzBo90HpcObPWan5eID2df6OXyn3F7-LRpdOvO8TfiZSp8L2j89p2UbsDi3zM4/s260-e100/metr.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:49749711ba07df5a4d9ea4b4f1812555860772af23fd3219e591fde608fd2cc8",
+   "url": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+   "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
+   "published_at": "2026-09-04T07:18:47Z",
+   "published_raw": "2026-09-04T12:48:47.848+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), has been described as a type confusion bug in V8, Chrome's JavaScript and WebAssembly engine.\n\n\"Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-123534187292654348",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjelmC2UuYemuI1nBeaecfPBZ1Bfb5nz6T51_OhCUPHJivX8ioIjrYMVtVsjsrcA0xbEe_O4iMthJ2xwXWJVhAb5CCJlhnJS4McM9IpmPww86RSznT3h7pg5DYOXlnwon616y-1s2qwbWbmR40B5JCvYbtwM8lD5Fk5yLHWS7IKmH5pXQ8qO4SfEasBhhsq/s260-e100/chrome-v8-exploit.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
