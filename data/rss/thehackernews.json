@@ -1,15 +1,69 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-09T11:01:07Z",
+ "updated_at": "2026-09-09T12:01:15Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-09T11:01:07Z",
+  "last_success_at": "2026-09-09T12:01:15Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:8abca2d5974c3170aac370fbf07368d943b91ce0c59bdd6c060ecc7d023d5020",
+   "url": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
+   "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
+   "published_at": "2026-09-09T11:57:36Z",
+   "published_raw": "2026-09-09T17:27:36.604+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed?\n\nFor many security teams, answering that means jumping between vulnerability scanners, endpoint tools, cloud inventories, SBOMs, repositories, and application data to build enough context to act.\n\nAs AI accelerates vulnerability discovery and research, that delay matters more",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6984996824537517729",
+   "authors": [
+    {
+     "name": "Unknown",
+     "uri": "",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6J-Pt0v8CDXEvzMCsK37Gumde1WYysaqiuzK3Rg_dGXBeFEhbxFpLRbwaFSMOVcAz5XsbJXD9977trBg0eHEY-x4mZiu9W4ASLWGnIIA4kWkTmtIF-uBYlQWfLhQjAUL0llbl1Jn2hKfz5Wr78TR4Retzt9PlGD4mEGifQCvrEfFfqMy5966fDGvFHgY/s260-e100/tines-webinar.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c33829733f1a8e1bb99008c13e51c6a04377b35d772d5f55e215d6c417eaa53b",
+   "url": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
+   "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
+   "published_at": "2026-09-09T11:17:07Z",
+   "published_raw": "2026-09-09T16:47:07.239+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own sandbox with a single command.\n\nThe tool runs an agent's commands inside an operating-system sandbox, so that an agent working on untrusted files cannot write outside its workspace. The agent could remove that limit by calling the tool's own web",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3525999956997343161",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0fUTc6rz4ZeeaMmjDLOfb2qNhnJf_TdNHK3F3qbNCQLLJbaF-nbSw5YPdeSAwg1HjoGwfQJZaXBpwvEbasFDhQb5ZkUm158shateq7uubMyrlejW4SDZAAzNQGUYkYdsxHupipxzRA7dQwTwTt9ArVJgU-wA5bGxIXduJj3CdyBF69Ixp6_qAU1LGzfI/s260-e100/deepseek.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:6724d5b1aa8774968772018ffb882768555cc1ec89387b6d9de745458202d82e",
    "url": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
@@ -632,60 +686,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:d7ed15b40cfe81867e53a959ad03b92cc658875ba2f7754ce0067bcd84a96ebe",
-   "url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
-   "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
-   "published_at": "2026-09-04T15:20:19Z",
-   "published_raw": "2026-09-04T20:50:19.582+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server.\n\nThe flaw, tracked as CVE-2026-6471 (CVSS score: 7.2), has been present since logical decoding was introduced in PostgreSQL 9.4 in 2014. Versions before PostgreSQL 18.6, 17.11, 16.15, 15.19, and 14.24 are",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2564189566243019986",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2Gb4Wd-HSxdrPbdtUFxmldzzEkPEZcW1NkT7tV9-EfTAjDENSExJBWmOey_IJ5UKjszQfCNGkVoBtuxya00rFMrh_lJUAuS66Gr3kvU8GgFjMr7DF-7Ux1rUqwz-aDhum8HkVjxNKQTc6DXHG203CPXwg9sOMcA7nfsq6A81C9cJhb3HUu9GZDIj7FZY/s260-e100/PostgreSQL.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:7eb26d7003dcb87e477704e8847eae18615b5255444eec6470d3131d13709387",
-   "url": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
-   "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
-   "published_at": "2026-09-04T08:48:45Z",
-   "published_raw": "2026-09-04T14:18:45.357+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence.\n\nThe vulnerabilities in question are -\n\n\n  CVE-2026-14894 (CVSS score: 9.8) - A missing file type validation vulnerability in Super Forms – Drag &amp; Drop Form Builder that allows unauthenticated attackers to upload files of any type, including",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1270165091463334989",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9jQ8JSakEpnqxzsAZhwXnVvTMB0Lrbj7shOcXtSJzA30wcMTbkAIUGvSZPiBXOLeAW66Jpuysxn56W8YWD00hsCNB742oLqeyvgD8MXdIHHqwyeehyoyXx9G9c6XjxwN10Co_XVZuBkRjMquzgf9V17gh2Gw-xff0qJ9rh3sPO4tBq4OjjS0dxsl73WKT/s260-e100/wp-main.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:6a32dcc2b873f1220704b7f36fe9ecb57a081c072d6c57fdab250c430e566b3d",
    "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
    "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
@@ -733,6 +733,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2b-1gQHvYc7ZLc86QFtZ2LoJ7zFalpJtSy_e_laxiM_f4Ftnhuvp5eCJZRSk2NL_0tZAZAl2z1UPYfOBSTbdGOPOZexgt3GkuUqsrZPgFB2F-qG2Ir_c7Ioj6zcJVdWjzBo90HpcObPWan5eID2df6OXyn3F7-LRpdOvO8TfiZSp8L2j89p2UbsDi3zM4/s260-e100/metr.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d7ed15b40cfe81867e53a959ad03b92cc658875ba2f7754ce0067bcd84a96ebe",
+   "url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+   "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+   "published_at": "2026-09-04T15:20:19Z",
+   "published_raw": "2026-09-04T20:50:19.582+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server.\n\nThe flaw, tracked as CVE-2026-6471 (CVSS score: 7.2), has been present since logical decoding was introduced in PostgreSQL 9.4 in 2014. Versions before PostgreSQL 18.6, 17.11, 16.15, 15.19, and 14.24 are",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2564189566243019986",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2Gb4Wd-HSxdrPbdtUFxmldzzEkPEZcW1NkT7tV9-EfTAjDENSExJBWmOey_IJ5UKjszQfCNGkVoBtuxya00rFMrh_lJUAuS66Gr3kvU8GgFjMr7DF-7Ux1rUqwz-aDhum8HkVjxNKQTc6DXHG203CPXwg9sOMcA7nfsq6A81C9cJhb3HUu9GZDIj7FZY/s260-e100/PostgreSQL.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:7eb26d7003dcb87e477704e8847eae18615b5255444eec6470d3131d13709387",
+   "url": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
+   "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
+   "published_at": "2026-09-04T08:48:45Z",
+   "published_raw": "2026-09-04T14:18:45.357+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence.\n\nThe vulnerabilities in question are -\n\n\n  CVE-2026-14894 (CVSS score: 9.8) - A missing file type validation vulnerability in Super Forms – Drag &amp; Drop Form Builder that allows unauthenticated attackers to upload files of any type, including",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1270165091463334989",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9jQ8JSakEpnqxzsAZhwXnVvTMB0Lrbj7shOcXtSJzA30wcMTbkAIUGvSZPiBXOLeAW66Jpuysxn56W8YWD00hsCNB742oLqeyvgD8MXdIHHqwyeehyoyXx9G9c6XjxwN10Co_XVZuBkRjMquzgf9V17gh2Gw-xff0qJ9rh3sPO4tBq4OjjS0dxsl73WKT/s260-e100/wp-main.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
