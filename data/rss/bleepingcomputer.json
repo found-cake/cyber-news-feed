@@ -1,15 +1,78 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-10T14:01:09Z",
+ "updated_at": "2026-09-10T15:01:25Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-10T14:01:09Z",
+  "last_success_at": "2026-09-10T15:01:25Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:0778c3fb96ab28de64e5f265ee6e36c8a56fce96b4497c6c0c4630e3a2be0f26",
+   "url": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses",
+   "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
+   "published_at": "2026-09-10T14:55:33Z",
+   "published_raw": "Thu, 10 Sep 2026 10:55:33 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Identity verification company IDScan has confirmed that hackers accessed customer data stored in its cloud platform, days after reports linked the company to a massive database containing more than 153 million driver's license scans. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c22f22acb6c19b6521b6554a57de202ad70b662d1754af30d051f1bf67d46214",
+   "url": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws",
+   "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
+   "published_at": "2026-09-10T14:11:34Z",
+   "published_raw": "Thu, 10 Sep 2026 10:11:34 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Multiple cyber-espionage groups deployed an exploit kit dubbed \"BlueMoon\" that leveraged zero-day vulnerabilities in Microsoft Windows and Google Chrome. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:7594909f1bed5e77782faeff6a0bb14e02d8f6110a0e51e9788cc03efd8cee5c",
+   "url": "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter",
+   "title": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
+   "published_at": "2026-09-10T14:00:10Z",
+   "published_raw": "Thu, 10 Sep 2026 10:00:10 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Identity was the target in roughly half of all confirmed malicious activity. Prophet Security breaks down the four main attack patterns seen across customer environments between May and July 2026, and explains why some attacks succeeded while others were blocked. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
+   "authors": [
+    {
+     "name": "Sponsored by Prophet Security",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:dee12289918b47dafaebf181e1ecfe851ea0619b7691e796f859a174755af128",
    "url": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks",
@@ -1364,27 +1427,6 @@
    ],
    "description": "A new ClickFix variant dubbed TerminalFix uses fake Cloudflare CAPTCHA prompts on compromised websites to trick victims into running malicious PowerShell commands in Windows Terminal. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:11c86572051ce856f5731689c2414d7b0f2a471e05c3a33e24180fb1620157ca",
-   "url": "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms",
-   "title": "Chinese Fire Ant hackers turn Cisco routers into spying platforms",
-   "published_at": "2026-08-31T14:52:03Z",
-   "published_raw": "Mon, 31 Aug 2026 10:52:03 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "The researchers discovered Fire Ant's new tactic after finding an active GRE (Generic Routing Encapsulation) tunnel interface on a Cisco IOS XR router that could not be explained by a running configuration or commit history. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/",
    "authors": [
     {
      "name": "Bill Toulas",
