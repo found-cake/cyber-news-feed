@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-09-10T10:01:18Z",
+ "updated_at": "2026-09-10T11:01:13Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-10T10:01:18Z",
+  "last_success_at": "2026-09-10T11:01:13Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:3a9db8ec744ff3f71ea220af1f646d3dac23baa10803d178bbef805b67875f99",
+   "url": "https://www.securityweek.com/organizations-warned-of-cisco-secure-fmc-exploitation",
+   "title": "Organizations Warned of Cisco Secure FMC Exploitation",
+   "published_at": "2026-09-10T10:06:20Z",
+   "published_raw": "Thu, 10 Sep 2026 10:06:20 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "Cisco",
+    "exploited",
+    "firewall",
+    "FMC",
+    "vulnerability"
+   ],
+   "description": "<p>Cisco and CISA have flagged exploitation of CVE-2026-20079, a vulnerability disclosed in March 2026.</p>\n<p>The post <a href=\"https://www.securityweek.com/organizations-warned-of-cisco-secure-fmc-exploitation/\">Organizations Warned of Cisco Secure FMC Exploitation</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49212",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:4af67481ddd0e12e00fda08be12a1bff6687e4597480cf19561fc97b33f77f64",
    "url": "https://www.securityweek.com/new-shieldcrash-zero-day-exploit-targets-microsoft-defender",
@@ -2487,74 +2523,6 @@
    ],
    "description": "<p>Named KindaRails2Shell, the arbitrary file read flaw allows attackers to extract secrets and execute arbitrary code remotely.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-ruby-on-rails-vulnerability-in-attackers-crosshairs/\">Critical Ruby on Rails Vulnerability in Attackers&#8217; Crosshairs</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=48984",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:556062b42172843d6b8d077fc1eb65b0d4e037e7e8c0a3c6883ec9046d1e5f44",
-   "url": "https://www.securityweek.com/boston-scientific-still-recovering-from-cyberattack",
-   "title": "Boston Scientific Still Recovering From Cyberattack",
-   "published_at": "2026-08-31T10:50:57Z",
-   "published_raw": "Mon, 31 Aug 2026 10:50:57 +0000",
-   "categories": [
-    "Incident Response",
-    "Boston Scientific",
-    "cyberattack",
-    "disruption"
-   ],
-   "description": "<p>The company has called in CrowdStrike and others to investigate the attack that caused global network disruption.</p>\n<p>The post <a href=\"https://www.securityweek.com/boston-scientific-still-recovering-from-cyberattack/\">Boston Scientific Still Recovering From Cyberattack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48982",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:1e933b006548e5a90c999c844711560e19a497da6c29eb924c87ff67952dfdf4",
-   "url": "https://www.securityweek.com/extortion-group-claims-manchester-airports-group-data-breach",
-   "title": "Extortion Group Claims Manchester Airports Group Data Breach",
-   "published_at": "2026-08-31T10:29:10Z",
-   "published_raw": "Mon, 31 Aug 2026 10:29:10 +0000",
-   "categories": [
-    "Data Breaches",
-    "Ransomware",
-    "airport",
-    "data breach"
-   ],
-   "description": "<p>FulcrumSec says it stole over 80 GB of data from Manchester Airports Group and plans to leak it online.</p>\n<p>The post <a href=\"https://www.securityweek.com/extortion-group-claims-manchester-airports-group-data-breach/\">Extortion Group Claims Manchester Airports Group Data Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48980",
    "authors": [
     {
      "name": "Ionut Arghire",
