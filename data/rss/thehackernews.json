@@ -1,15 +1,69 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-10T11:01:13Z",
+ "updated_at": "2026-09-10T12:01:25Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-10T11:01:13Z",
+  "last_success_at": "2026-09-10T12:01:25Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:33af29f71c8c922142379d8629f55388d5af9ede192d46f6db112e2f7ad771c0",
+   "url": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
+   "title": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE",
+   "published_at": "2026-09-10T11:45:05Z",
+   "published_raw": "2026-09-10T17:15:05.997+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Check Point has patched two critical vulnerabilities in the way its firewall and management products handle VPN certificates. The company says both could allow an unauthenticated remote attacker to run code, but only \"under specific conditions\" that it has not described.\n\nOne flaw affects Check Point's Security Gateways, its firewall appliances. The other affects those gateways and the Security",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8385862754518897463",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyc0Kqar7_6N4y9ymGxw8ukQCQbqQ_pGCfnoXYMBZoNZK1w3ljkO26S_rhVhJaIVcx8rcEK95njKyaYj5g63VByKh8ncf_s84nUBWoyEbWZH6uaLYjnu5fNt_TC9wz-r6P_RTJgZ83Z5wmurzSb9_lHVfV1t9STts4WCZr18AH-3XRHTn5pj15uURIM-0/s260-e100/checkpoint.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:cd20e349d2f5a9cf928353b6a2bf9c07dc13b1601848206d1461a85ec1d35bd0",
+   "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
+   "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
+   "published_at": "2026-09-10T11:41:53Z",
+   "published_raw": "2026-09-10T17:11:53.824+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security flaws in PaperCut NG/MF and break into hundreds of instances.\n\nAccording to independent reports from Blackpoint Cyber and GreyNoise, the activity originates from \"45.142.193[.]132,\" an IP address that has been linked to",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3120241237279291508",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkLW3i6mB4uE2g7Ze6CDAess3UTTeol7YmRP-N3uTkLJHPglZc0BHvTlESyulvcTp05ObPwuGY5XHqV9q599pqLmK-ypamAPNUdHa9y-34Q4IEE3EBId9UrN9L0J3zK1TTf1Atovhkz51Gk_2gul7DmjvLmJd7BbwgqMhmVODTiQUuqu_IdFFGJt0WAiC_/s260-e100/paper.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:10251c3ec1ce997ee06919e22b5f6504d930560a80f96a543ece42f0640f34f8",
    "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
@@ -632,60 +686,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:9eeec10be375e2cad531eca6b5069c09b66a3c2d7fee881e2b2939645a062ae4",
-   "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
-   "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
-   "published_at": "2026-09-05T20:14:47Z",
-   "published_raw": "2026-09-06T01:44:47.921+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce security company Sansec said in an&nbsp;advisory published on September 5.\n\nSansec, which discovered the flaw and named it StyleSmuggler, said attacks started on September 4. \"Sansec is",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4857473911949958412",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjghsT_skiIfdOHK2B0WWDfWnSK0G5Ih7BqsX98tKrY4TH7I77oLEmnldtVHuUMEQaIiZZBSPJGI2t8Me7h9kDtE4YGZ9-5NypnAu2-yFFrXsWYkR6OJPlbqkZDEHBAXCmRjWm6Mk4h0Ni48JT0nrDWMYygztjoi4HuHPbe2y-2jreFVkzrxO8r4IhHIEU/s260-e100/adobe-exploit.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:913cdf66682bb19c7843ef56b2996c1bd59057aaffd4466496885b6c64289550",
-   "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
-   "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
-   "published_at": "2026-09-05T16:52:33Z",
-   "published_raw": "2026-09-05T22:22:33.133+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment.\n\n\"Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions,\" JetBrains said.",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8000706964495551426",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjH4sbUEhtXF9n1_8s2f6ChnKMmjUv4Ht-DvEtZyLDPuSNhKFoi41aNlu3-u5kJLXUva81rNFwlsprMXE11cnbXc_es968eO-ANvWm0j1Cyi9SaoVUfneQqNINCR7lRs3qkkYdsSoyMu34Mgxs7B4pKclAt4atPw8B-RCFOTChtgeji9NTes_NEdZ2KKu2_/s260-e100/jet.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:6a32dcc2b873f1220704b7f36fe9ecb57a081c072d6c57fdab250c430e566b3d",
    "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
    "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
@@ -733,6 +733,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2b-1gQHvYc7ZLc86QFtZ2LoJ7zFalpJtSy_e_laxiM_f4Ftnhuvp5eCJZRSk2NL_0tZAZAl2z1UPYfOBSTbdGOPOZexgt3GkuUqsrZPgFB2F-qG2Ir_c7Ioj6zcJVdWjzBo90HpcObPWan5eID2df6OXyn3F7-LRpdOvO8TfiZSp8L2j89p2UbsDi3zM4/s260-e100/metr.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:9eeec10be375e2cad531eca6b5069c09b66a3c2d7fee881e2b2939645a062ae4",
+   "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+   "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+   "published_at": "2026-09-05T20:14:47Z",
+   "published_raw": "2026-09-06T01:44:47.921+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce security company Sansec said in an&nbsp;advisory published on September 5.\n\nSansec, which discovered the flaw and named it StyleSmuggler, said attacks started on September 4. \"Sansec is",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4857473911949958412",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjghsT_skiIfdOHK2B0WWDfWnSK0G5Ih7BqsX98tKrY4TH7I77oLEmnldtVHuUMEQaIiZZBSPJGI2t8Me7h9kDtE4YGZ9-5NypnAu2-yFFrXsWYkR6OJPlbqkZDEHBAXCmRjWm6Mk4h0Ni48JT0nrDWMYygztjoi4HuHPbe2y-2jreFVkzrxO8r4IhHIEU/s260-e100/adobe-exploit.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:913cdf66682bb19c7843ef56b2996c1bd59057aaffd4466496885b6c64289550",
+   "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+   "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+   "published_at": "2026-09-05T16:52:33Z",
+   "published_raw": "2026-09-05T22:22:33.133+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment.\n\n\"Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions,\" JetBrains said.",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8000706964495551426",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjH4sbUEhtXF9n1_8s2f6ChnKMmjUv4Ht-DvEtZyLDPuSNhKFoi41aNlu3-u5kJLXUva81rNFwlsprMXE11cnbXc_es968eO-ANvWm0j1Cyi9SaoVUfneQqNINCR7lRs3qkkYdsSoyMu34Mgxs7B4pKclAt4atPw8B-RCFOTChtgeji9NTes_NEdZ2KKu2_/s260-e100/jet.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
