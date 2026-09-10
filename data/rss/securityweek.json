@@ -1,15 +1,55 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-09-10T06:01:18Z",
+ "updated_at": "2026-09-10T07:01:11Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-10T06:01:18Z",
+  "last_success_at": "2026-09-10T07:01:11Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:9d20522853f1ada06c1be3af6a0e1cd65fdaf1239cede83030b114ec5ad84726",
+   "url": "https://www.securityweek.com/fortinet-code-execution-flaw-exploited-in-pivotc2-rat-attacks",
+   "title": "Fortinet Code Execution Flaw Exploited in PivotC2 RAT Attacks",
+   "published_at": "2026-09-10T06:33:36Z",
+   "published_raw": "Thu, 10 Sep 2026 06:33:36 +0000",
+   "categories": [
+    "Malware & Threats",
+    "Vulnerabilities",
+    "exploited",
+    "Featured",
+    "FortiGate",
+    "Fortinet",
+    "malware",
+    "PivotC2",
+    "RAT",
+    "vulnerability"
+   ],
+   "description": "<p>The high-severity, unauthenticated vulnerability tracked as CVE-2025-25249 was patched in January 2026.</p>\n<p>The post <a href=\"https://www.securityweek.com/fortinet-code-execution-flaw-exploited-in-pivotc2-rat-attacks/\">Fortinet Code Execution Flaw Exploited in PivotC2 RAT Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49208",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:bed06b8b1d2c9f96de4d3da79880106379b044d545d45ccbafae03f87c1372ee",
    "url": "https://www.securityweek.com/helmguard-raises-7-3-million-for-agentic-grc-and-security",
@@ -2554,42 +2594,6 @@
    "authors": [
     {
      "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:82d26cef085cc97a92f7a6f7b6c55adb6ea3a0a465e0d2d7cb8ece7625560f59",
-   "url": "https://www.securityweek.com/more-details-emerge-on-exploited-papercut-vulnerabilities",
-   "title": "More Details Emerge on Exploited PaperCut Vulnerabilities",
-   "published_at": "2026-08-31T06:51:31Z",
-   "published_raw": "Mon, 31 Aug 2026 06:51:31 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "exploited",
-    "Featured",
-    "PaperCut",
-    "vulnerability",
-    "Zero-Day"
-   ],
-   "description": "<p>PaperCut has released a second emergency patch for the exploited vulnerabilities, which are now tracked as CVE-2026-82078 and CVE-2026-81578.</p>\n<p>The post <a href=\"https://www.securityweek.com/more-details-emerge-on-exploited-papercut-vulnerabilities/\">More Details Emerge on Exploited PaperCut Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=48972",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
      "uri": "",
      "email": ""
     }
