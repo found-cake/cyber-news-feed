@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "darkreading",
- "updated_at": "2026-09-10T15:01:25Z",
+ "updated_at": "2026-09-10T16:01:16Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-10T15:01:25Z",
+  "last_success_at": "2026-09-10T16:01:16Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:fd125d81e655ed07caf154f1b3e0c9c984559ea0a5035f662327f299499d933f",
+   "url": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit",
+   "title": "Nightmare-Eclipse Strikes Again with 'ShieldCrash' Windows Exploit",
+   "published_at": "2026-09-10T15:29:12Z",
+   "published_raw": "Thu, 10 Sep 2026 15:29:12 GMT",
+   "categories": [
+    "vulnerabilities-threats"
+   ],
+   "description": "The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.",
+   "feed_id": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit",
+   "authors": [
+    {
+     "name": "Elizabeth Montalbano",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd6923f7af78d46ee/6aa28ac3d94910375384f4f1/Hacker_(1800)_Andriy_Popov_Alamy.png?width=720&quality=80&disable=upscale",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd6923f7af78d46ee/6aa28ac3d94910375384f4f1/Hacker_(1800)_Andriy_Popov_Alamy.png?width=720&quality=80&disable=upscale",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "darkreading": {
+     "guid_is_permalink": "false"
+    }
+   }
+  },
   {
    "id": "sha256:323b6c23b480cd5cfb7eb7c78a5b71199ccd4f9292e989c9560245880ef3ba60",
    "url": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
@@ -19,7 +55,7 @@
    "categories": [
     "application-security"
    ],
-   "description": "An analysis of Project Glasswing findings shows only a fraction have reached disclosure, and an even smaller number have been fixed.",
+   "description": "An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.",
    "feed_id": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
    "authors": [
     {
@@ -127,7 +163,7 @@
    "categories": [
     "vulnerabilities-threats"
    ],
-   "description": "Attackers are actively exploiting two of the vulnerabilities and another 58 are more likely to be exploited, according to Microsoft.",
+   "description": "Attackers are actively exploiting two of the vulnerabilities, and another 58 are more likely to be exploited, according to Microsoft.",
    "feed_id": "https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves",
    "authors": [
     {
@@ -199,7 +235,7 @@
    "categories": [
     "cyberattacks-data-breaches"
    ],
-   "description": "Researchers and OpenAI disagree on whether the earlier incident involving DseWiki, which the company did not disclose, was a “hack.&quot;",
+   "description": "Researchers and OpenAI disagree on whether an earlier incident involving DseWiki, which the company did not disclose, was a “hack.&quot;",
    "feed_id": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack",
    "authors": [
     {
