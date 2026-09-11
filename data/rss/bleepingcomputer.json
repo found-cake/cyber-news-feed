@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-11T14:01:02Z",
+ "updated_at": "2026-09-11T15:00:51Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-11T14:01:02Z",
+  "last_success_at": "2026-09-11T15:00:51Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:fa4f4d6db04213aa3234d930a39ec9d961811d4ed0d5f3c04ce27952f8ab8cce",
+   "url": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface",
+   "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
+   "published_at": "2026-09-11T14:01:11Z",
+   "published_raw": "Fri, 11 Sep 2026 10:01:11 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI users through weaponized Claude Artifacts, shared AI conversations, sponsored search results, and ClickFix-style lures. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
+   "authors": [
+    {
+     "name": "Sponsored by Huntress Labs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:cdbb9de85fb06b6d9f9d25a215609fd668dde285e6c6f123bef5d0ebf0fcdb30",
    "url": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw",
@@ -1410,70 +1431,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:11c4595161cf06243fc81c5be00b1496937486809bb0289bb9dee484601f11c0",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack",
-   "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
-   "published_at": "2026-09-01T14:45:06Z",
-   "published_raw": "Tue, 01 Sep 2026 10:45:06 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Hackers delivered malicious updates to the Virtualizor VPS management software after hijacking BGP routing for its update infrastructure and redirecting update requests to malicious servers. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:aef8c9d36d013f62edfdd7d5116ef2f0823fdd866c1fd31461554c2f84cfe21f",
-   "url": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients",
-   "title": "Novocure data breach affects more than 1,400 cancer patients",
-   "published_at": "2026-09-01T14:28:40Z",
-   "published_raw": "Tue, 01 Sep 2026 10:28:40 -0400",
-   "categories": [
-    "security",
-    "Healthcare"
-   ],
-   "description": "Healthtech company Novocure says the data of an undisclosed number of employees and more than 1,400 U.S. cancer patients has been exposed in a mid-August cyberattack. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:555a3703aabc040e7564820999fda01b581c74db68833d354328c3038fd35a8b",
-   "url": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions",
-   "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
-   "published_at": "2026-09-01T14:01:11Z",
-   "published_raw": "Tue, 01 Sep 2026 10:01:11 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Attackers can hide behind residential proxies, VPNs, and other infrastructure that makes malicious sessions appear legitimate to existing edge security controls. Spur explains how session enrichment adds data points that help organizations identify risky sessions and make stronger enforcement decisions. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
-   "authors": [
-    {
-     "name": "Sponsored by Spur Intelligence",
      "uri": "",
      "email": ""
     }
