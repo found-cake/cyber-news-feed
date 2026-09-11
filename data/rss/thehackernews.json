@@ -1,15 +1,42 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-11T11:01:07Z",
+ "updated_at": "2026-09-11T12:01:02Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-11T11:01:07Z",
+  "last_success_at": "2026-09-11T12:01:02Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:336c262bc83ef09401876afe67f4051db83548563deaf343aeaab7aeefc9001f",
+   "url": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
+   "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
+   "published_at": "2026-09-11T11:30:00Z",
+   "published_raw": "2026-09-11T17:00:00.000+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually create a path to compromise.\n\nA critical vulnerability may look alarming on a scanner report, but if it sits behind strong segmentation, identity controls, and other defenses that prevent an attacker",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-217916837299982814",
+   "authors": [
+    {
+     "name": "Unknown",
+     "uri": "",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPPe_ve3Cylrq2fJ8HTFPebWF7lR7tvzMvL3mwFcGZNF2KWesOGc66BfO7NbiPxmsiao8jcItyikguKNqsEGfpJEcAvacbP7rflAaAT-e0Y1IbsNCNvdqvXMbwERLlPpV0PMhk9c5esoEjCE97wglh8rU9xZ7eGz2N4BOpzFYTb9-Ln3FaBRQiscqzK7U/s260-e100/breachlock.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:6d77d0f66755e664316574d6dc01a3211b0c46ad7969092097387309098cc45e",
    "url": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
@@ -679,33 +706,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_xdakttovno7kFgFYIw5XGFGcSZibVvXYB64vih4iZpc4_WY_t7oe1X3igSPGXBa8UTkf4z4xn_GzZ_n7PmuFFvYC8Wsmb04PxYP5z-XHjZZFe_SASihwZNg1dxHXQzz8hBRo-6LhvQmwyo_MA9Kj6hrcci6ouvOX1D4f-0dNvs57M6WneQHC61yZkF_o/s260-e100/magento.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:6a32dcc2b873f1220704b7f36fe9ecb57a081c072d6c57fdab250c430e566b3d",
-   "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
-   "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
-   "published_at": "2026-09-01T11:30:00Z",
-   "published_raw": "2026-09-01T17:00:00.000+05:30",
-   "categories": [
-    "cyber-attack"
-   ],
-   "description": "The most common way into a company last year was to ask.\n\nA web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command on their clipboard. Then it talks them through opening a terminal and pasting it in. The technique is called ClickFix, and it was the most common initial access method Microsoft’s team observed last year, accounting",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5698110230689662738",
-   "authors": [
-    {
-     "name": "Unknown",
-     "uri": "",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXRNAAGu1amxjm97oXzRGvVBD23d-thmuPvBbQm10hKlACH58ndu51swo4ggT2P2FJw1vbmWy6qdMZSyTRrgAXoi19O0Zf0vCcS47oMuhMuPSyKc1kL7bpIySVrQwgrIaYJkc4IiavU0rucYYMYWHwXgDCmsPLanV2LZv3mt__srP93r0vLWSz8Vp_L0o/s260-e100/click.jpg",
      "kind": "thumbnail",
      "medium": ""
     }

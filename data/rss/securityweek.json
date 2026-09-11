@@ -1,15 +1,84 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-09-11T11:01:07Z",
+ "updated_at": "2026-09-11T12:01:02Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-11T11:01:07Z",
+  "last_success_at": "2026-09-11T12:01:02Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ea6cdd59e51d4877a6ea2b64a804650d40a8c75a63a766b739bb13e635c28348",
+   "url": "https://www.securityweek.com/ukrainian-conti-ransomware-developer-sentenced-to-4-years-in-us-prison",
+   "title": "Ukrainian Conti Ransomware Developer Sentenced to 4 Years in US Prison",
+   "published_at": "2026-09-11T11:29:09Z",
+   "published_raw": "Fri, 11 Sep 2026 11:29:09 +0000",
+   "categories": [
+    "Cybercrime",
+    "Ransomware",
+    "Conti",
+    "hacker",
+    "sentenced"
+   ],
+   "description": "<p>Oleksii Oleksiyovych Lytvynenko has been sentenced to 4 years in prison after he was arrested in Ireland in 2023.</p>\n<p>The post <a href=\"https://www.securityweek.com/ukrainian-conti-ransomware-developer-sentenced-to-4-years-in-us-prison/\">Ukrainian Conti Ransomware Developer Sentenced to 4 Years in US Prison</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49260",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:e0be12ca942b3a91ece5345a60e3aba7c7301eac45d76ec35e60ae15ed0f5d7e",
+   "url": "https://www.securityweek.com/check-point-patches-critical-vpn-vulnerabilities",
+   "title": "Check Point Patches Critical VPN Vulnerabilities",
+   "published_at": "2026-09-11T11:10:02Z",
+   "published_raw": "Fri, 11 Sep 2026 11:10:02 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "Check Point",
+    "VPN",
+    "vulnerability"
+   ],
+   "description": "<p>Tracked as CVE-2026-85102 and CVE-2026-85103, the flaws could be exploited for remote code execution.</p>\n<p>The post <a href=\"https://www.securityweek.com/check-point-patches-critical-vpn-vulnerabilities/\">Check Point Patches Critical VPN Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49254",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:dd449cf9be18f30399f08828debf44a083b0d09476b48412ad9d7b42c7dbc945",
    "url": "https://www.securityweek.com/kiteworks-acquires-bonfy-ai-to-fill-the-ai-gap-in-data-governance",
@@ -2546,41 +2615,6 @@
    ],
    "description": "<p>Tracked as CVE-2026-0768, the security defect allows unauthenticated attackers to execute arbitrary Python code remotely.</p>\n<p>The post <a href=\"https://www.securityweek.com/hackers-start-exploiting-critical-langflow-vulnerability/\">Hackers Start Exploiting Critical Langflow Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=49016",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:993d543b65aead0580144aad91d51f47438f226bc0acabaa925551af3cf340dd",
-   "url": "https://www.securityweek.com/five-venezuelans-plead-guilty-in-us-court-to-atm-jackpotting",
-   "title": "Five Venezuelans Plead Guilty in US Court to ATM Jackpotting",
-   "published_at": "2026-09-01T11:24:25Z",
-   "published_raw": "Tue, 01 Sep 2026 11:24:25 +0000",
-   "categories": [
-    "Cybercrime",
-    "Malware & Threats",
-    "ATM jackpotting",
-    "malware",
-    "plead guilty"
-   ],
-   "description": "<p>The defendants unsuccessfully attempted to physically install malware on ATMs to force them to dispense cash.</p>\n<p>The post <a href=\"https://www.securityweek.com/five-venezuelans-plead-guilty-in-us-court-to-atm-jackpotting/\">Five Venezuelans Plead Guilty in US Court to ATM Jackpotting</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49012",
    "authors": [
     {
      "name": "Ionut Arghire",
