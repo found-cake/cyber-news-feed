@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-11T17:00:53Z",
+ "updated_at": "2026-09-11T18:00:57Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-11T17:00:53Z",
+  "last_success_at": "2026-09-11T18:00:57Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:0fbd39958205d3e9f2cdda4972c63da7cb67c0bd55d303f5690351995a6a43a0",
+   "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft",
+   "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
+   "published_at": "2026-09-11T17:26:50Z",
+   "published_raw": "Fri, 11 Sep 2026 13:26:50 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social engineering attacks to compromise corporate Microsoft accounts and steal data from Microsoft 365 services. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:41cfd5817ebb0c2fede8e77b98209f6bd3f78d2c697ee10807550ccfc4f5ad6a",
    "url": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware",
@@ -1428,27 +1449,6 @@
    ],
    "description": "Aesto LLC, operating as Aesto Health, disclosed that a data breach discovered recently affects more than 9.5 million individuals. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:20f2f9e2f38a7a695e67c025de8d9b99e39b021d6b62ec039a046c67f5c23f30",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys",
-   "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
-   "published_at": "2026-09-01T17:54:22Z",
-   "published_raw": "Tue, 01 Sep 2026 13:54:22 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building AI applications, to steal credentials, tokens, and keys. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
    "authors": [
     {
      "name": "Bill Toulas",
