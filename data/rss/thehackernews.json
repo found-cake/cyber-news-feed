@@ -1,15 +1,42 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-11T16:00:43Z",
+ "updated_at": "2026-09-11T17:00:53Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-11T16:00:43Z",
+  "last_success_at": "2026-09-11T17:00:53Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:a8b89596a45d74f224ef68bc8f12267559b424fc23b6ddc8fd4de3d5ee46e479",
+   "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+   "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+   "published_at": "2026-09-11T16:30:18Z",
+   "published_raw": "2026-09-11T22:00:18.938+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure.\n\nThe vulnerability in question is CVE-2026-85706 (CVSS score: 10.0), a path traversal issue in the repository commits API that could allow an unauthenticated user to read arbitrary files from the GitLab server under",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8207261269349575298",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioFH6aWhF9NgRW1O3yFExc7paTA9akN5-3IUQF8mvEiSTaFJjKvm6YQzFX6MP2uimYplHe1MJXz6eZtPtnxaLy25jJBhU6KuhsWFpIlnqhbn6OI6QTcfp6Olp1-VDUEF4KEYFF7hQDBdmgtxibsg9MkvbcOJIlR8Of2Flyw2m9zYfXC6gUm-TV8XA6vU43/s260-e100/gitlab-wild.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:336c262bc83ef09401876afe67f4051db83548563deaf343aeaab7aeefc9001f",
    "url": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
