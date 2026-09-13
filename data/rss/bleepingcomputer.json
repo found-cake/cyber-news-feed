@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-13T14:00:38Z",
+ "updated_at": "2026-09-13T15:00:48Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-13T14:00:38Z",
+  "last_success_at": "2026-09-13T15:00:48Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:4b763108e4358d9a102f14d2c85bc417a4b6253c398fa2ed2cddd3e1e5877d4b",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware",
+   "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+   "published_at": "2026-09-13T14:26:32Z",
+   "published_raw": "Sun, 13 Sep 2026 10:26:32 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit backdoor. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:c6032d8b77e31a9fdf96a05312979a6a2dc8d5f8fadb99dea21acd3c9fd3f1d2",
    "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent",
@@ -1216,27 +1237,6 @@
    ],
    "description": "Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote code execution. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:3a90b5a484afadf6acb4a817799ebcc10c48294b5584028d28c4eeba73d5b24e",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites",
-   "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
-   "published_at": "2026-09-03T14:52:20Z",
-   "published_raw": "Thu, 03 Sep 2026 10:52:20 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deliver a webshell payload and execute arbitrary commands on the server. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
    "authors": [
     {
      "name": "Bill Toulas",
