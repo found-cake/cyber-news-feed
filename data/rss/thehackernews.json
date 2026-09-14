@@ -1,15 +1,42 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-14T15:00:35Z",
+ "updated_at": "2026-09-14T16:00:34Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-14T15:00:35Z",
+  "last_success_at": "2026-09-14T16:00:34Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:0c1a781fba3e0a0af363f056ebd751a286d5532946d29ad9b48f25f443dc9589",
+   "url": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
+   "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
+   "published_at": "2026-09-14T16:00:04Z",
+   "published_raw": "2026-09-14T21:30:04.174+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "WordPress has announced it's launching an automated security review for every release of a plugin before it's distributed through the WordPress.org update API so as to analyze it for potential security issues and ensure there are no risks involved.\n\n\"New plugins are reviewed before they enter the directory, but updates ship continuously after that,\" David Perez, WordPress Official Plugin",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7272229754543414838",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6NRxf0-3Ca12cwdQVS-bicsxwk-06KQZJaLMbd2d217NkuO82Bld3P_E96WP8OEqZXSjDoLtW0JfnRYkQSyl0BlQDNkQoBOf7x-Q5wOmpc59Z4v1ycux0YWShQpPIyvYmMmIRJ0c5Zv_38VFrhwtdcdoxycqIm0b5Df7AeYjbr-8KCJlbujHVhmpvdtrk/s260-e100/wordpress-auto.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:161dd11ccccf6c5948903133bc0fedeb9d4da64a5c9e3e768ebeba05bc4dbabe",
    "url": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
@@ -1111,33 +1138,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguiDwimIl7rewJeRtSYeCkmhBUPSN0lsURwcKXrBtQ4vANRZqEkbjcPBIjODR0kFgIbLqwLiaBcB6lX8M6rilVclrxZcsKogB3NNhnwqJz3dZwgWGZ-6NHnAEGM-ENsEebYhn81lWBN0-nqfYrMLlHoQ3ebfHB7V74NpbKpOZZ84WZYyli7w1lDKJrCtds/s260-e100/papercut-hacks.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:d7ed15b40cfe81867e53a959ad03b92cc658875ba2f7754ce0067bcd84a96ebe",
-   "url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
-   "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
-   "published_at": "2026-09-04T15:20:19Z",
-   "published_raw": "2026-09-04T20:50:19.582+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server.\n\nThe flaw, tracked as CVE-2026-6471 (CVSS score: 7.2), has been present since logical decoding was introduced in PostgreSQL 9.4 in 2014. Versions before PostgreSQL 18.6, 17.11, 16.15, 15.19, and 14.24 are",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2564189566243019986",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2Gb4Wd-HSxdrPbdtUFxmldzzEkPEZcW1NkT7tV9-EfTAjDENSExJBWmOey_IJ5UKjszQfCNGkVoBtuxya00rFMrh_lJUAuS66Gr3kvU8GgFjMr7DF-7Ux1rUqwz-aDhum8HkVjxNKQTc6DXHG203CPXwg9sOMcA7nfsq6A81C9cJhb3HUu9GZDIj7FZY/s260-e100/PostgreSQL.jpg",
      "kind": "thumbnail",
      "medium": ""
     }

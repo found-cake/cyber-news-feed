@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-14T15:00:35Z",
+ "updated_at": "2026-09-14T16:00:34Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-14T15:00:35Z",
+  "last_success_at": "2026-09-14T16:00:34Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ee4a0c53a00a83e33bac0a7b1347fd7bdb58520cc0b6b013762a3f0991ae2472",
+   "url": "https://cybersecuritynews.com/aws-systems-manager-agent-vulnerability",
+   "title": "AWS Systems Manager Agent Vulnerability Allows Attackers to Bypass Port-Forwarding Restrictions",
+   "published_at": "2026-09-14T15:14:39Z",
+   "published_raw": "Mon, 14 Sep 2026 15:14:39 +0000",
+   "categories": [
+    "AWS",
+    "Cyber Security News",
+    "Vulnerability",
+    "cyber security"
+   ],
+   "description": "<p>A critical vulnerability in the AWS Systems Manager Agent could let authenticated attackers bypass remote-host port-forwarding restrictions and access sensitive link-local services, including the Amazon EC2 Instance Metadata Service. The flaw, tracked as CVE-2026-89049, affects Amazon SSM Agent versions earlier than 3.3.4851.0 and has been fixed in version 3.3.4851.0. AWS Systems Manager Agent runs on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aws-systems-manager-agent-vulnerability/\">AWS Systems Manager Agent Vulnerability Allows Attackers to Bypass Port-Forwarding Restrictions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=163227",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/AWS-Systems-Manager-Agent-Vulnerability-allows-Attackers-to-bypass-port-forwarding-restrictions.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "163227",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A critical vulnerability in the AWS Systems Manager Agent could let authenticated attackers bypass remote-host port-forwarding restrictions and access sensitive link-local services, including the Amazon EC2 Instance Metadata Service.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw, tracked as CVE-2026-89049, affects Amazon SSM Agent versions earlier than 3.3.4851.0 and has been fixed in version 3.3.4851.0.</p>\n\n\n\n<p class=\"wp-block-paragraph\">AWS Systems Manager Agent <a href=\"https://cybersecuritynews.com/aws-power-outage/\" target=\"_blank\" rel=\"noreferrer noopener\">runs on Amazon EC2 instances</a>, on-premises servers, and virtual machines to enable remote management capabilities such as Run Command and Session Manager.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Session Manager also supports port forwarding, allowing authorized users to create secure tunnels from a managed instance to a remote destination without exposing inbound network ports.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The issue exists in the remote-host port-forwarding feature used through the&nbsp;AWS-StartPortForwardingSessionToRemoteHost&nbsp;SSM document.</p>\n\n\n\n<h2 id=\"h-aws-systems-manager-agent-vulnerability\" class=\"wp-block-heading\"><strong>AWS Systems Manager Agent Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/aws/amazon-ssm-agent/security/advisories/GHSA-w9jw-h72g-6hxc\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">According to the GitHub advisory</a>, the agent’s denylist protection for link-local addresses can be bypassed because it does not properly validate equivalent address representations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Link-local IP addresses are normally blocked because they can <a href=\"https://cybersecuritynews.com/cloud-service-providers/\" target=\"_blank\" rel=\"noreferrer noopener\">expose internal cloud services</a> that should not be reachable through user-controlled tunnels. A primary target is the EC2 Instance Metadata Service, commonly available at 169.254.169.254.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This service can provide temporary credentials associated with the IAM role attached to an EC2 instance. An attacker must already have authenticated AWS access and permission to initiate a remote-host port-forwarding session.</p>\n\n\n\n<p class=\"wp-block-paragraph\">However, successful exploitation could let that user route traffic to restricted link-local endpoints by using an alternative representation of a blocked destination address. The vulnerability is classified as <a href=\"https://cybersecuritynews.com/angular-ssr-request-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">server-side request forgery, or SSRF,</a> and improper validation of unsafe equivalent input.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If the attacker retrieves instance profile credentials from the metadata service, they could use those credentials outside the compromised EC2 instance to make AWS API calls. The effective impact depends on the permissions assigned to the instance’s IAM role.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Overly permissive roles could enable <a href=\"https://cybersecuritynews.com/amazon-s3-buckets-as-file-system/\" target=\"_blank\" rel=\"noreferrer noopener\">access to S3 buckets</a>, Secrets Manager secrets, databases, Lambda functions, or other cloud resources.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The advisory assigns the flaw a Critical severity rating with a CVSS v3.1 vector of AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H. This indicates that exploitation is network-reachable, requires low complexity and low privileges, needs no user interaction, and can affect confidentiality, integrity, and availability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should immediately update affected systems to SSM Agent version 3.3.4851.0 or later. AWS also recommends reviewing forked or derivative builds of the agent to ensure they incorporate the validation fix.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Until patching is complete, administrators should restrict access to the&nbsp;AWS-StartPortForwardingSessionToRemoteHost&nbsp;document. IAM permissions for&nbsp;ssm: StartSession&nbsp;should be scoped so untrusted users, automation identities, and broadly assigned roles cannot establish remote-host port-forwarding sessions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Security teams should additionally audit Session Manager activity, review IAM roles attached to EC2 instances, and apply least-privilege controls to instance profiles.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Amazon SSM Agent configuration includes a default list of denied metadata and link-local endpoints. However, this vulnerability demonstrates why address validation must account for alternate representations rather than relying only on straightforward string matching.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Learn 7 Metric-Gated AI SOC Deployment Phases &#8211; <strong><strong><a href=\"https://underdefense.com/ai-soc-deployment-playbook-from-assessment-to-autonomy/?utm_source=cybersecuritynews.com&amp;utm_medium=online_media&amp;utm_campaign=csn_linkedin_newsletter_ai_soc_deployment_playbook_september_2026\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Download Free AI SOC Deployment Playbook 2026</a></strong></strong>.</strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/aws-systems-manager-agent-vulnerability/\">AWS Systems Manager Agent Vulnerability Allows Attackers to Bypass Port-Forwarding Restrictions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:b16bda28e325cd3ad9059205cd6cf4ace3c691bc65db63edb18a3fdcacf107ec",
    "url": "https://cybersecuritynews.com/malicious-twitch-extension",
