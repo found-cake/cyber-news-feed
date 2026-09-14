@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-09-13T23:00:47Z",
+ "updated_at": "2026-09-14T00:00:53Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-13T23:00:47Z",
+  "last_success_at": "2026-09-14T00:00:53Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b28d1c07f7ca0f2aed83ac414c87d3b606c76650c8229e15d0a409af69561f47",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208433",
+   "title": "중국 연계 해커, ‘Sogou 입력기’ 취약점 실제 악용…클릭 한 번에 백도어 설치",
+   "published_at": "2026-09-14T08:24:39Z",
+   "published_raw": "2026-09-14 08:24:39",
+   "categories": [
+    "이슈"
+   ],
+   "description": "중국 연계 해킹그룹이 중국에서 널리 사용되는 윈도우용 중국어 입력기 ‘Sogou Input Method’의 취약점을 실제 공격에 악용한 것으로 확인됐다.공격그룹 UNC3569는 Sogou Input Method의 원격코드실행 취약점인 CVE-2026-51990을 이용해 피해자 시스템에 ‘GRAYRABBIT’ 백도어를 설치했다.Sogou Input Method는 중국어 입력에 사용되는 프로그램으로, 내부에 웹 콘텐츠를 처리하는 브라우저 엔진과 프로그램 간 통신을 위한 커스텀 프로토콜 기능을 포함하고 있다.공격자는 조작한 링크를 피해자",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "우진영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:46ef724a8c43ae7f0c51d4ea3a87f9de1dc7dce3ef1892e531f80f2c1e3bc8c1",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208425",
