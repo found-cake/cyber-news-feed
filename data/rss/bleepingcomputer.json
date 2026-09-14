@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-14T16:00:34Z",
+ "updated_at": "2026-09-14T17:00:37Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-14T16:00:34Z",
+  "last_success_at": "2026-09-14T17:00:37Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:43819476aab2a60a049702409c1bcfc47be08b02cc4fa116a777ee5afe1ecb50",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets",
+   "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
+   "published_at": "2026-09-14T16:15:58Z",
+   "published_raw": "Mon, 14 Sep 2026 12:15:58 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A mass-scanning campaign targeting internet-exposed Vite development servers is attempting to steal cloud credentials and configurations from AWS and Azure deployments. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:0bd2f62f5cd1499aaf675be090bd9f7a67a8d6c852dd872826a2cb28059a19f2",
    "url": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator",
@@ -1153,28 +1174,6 @@
    "authors": [
     {
      "name": "Ax Sharma",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:3d69c192271a8e735f2df86dac11377abe000bd8be23286562a2bcdc10a3b331",
-   "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers",
-   "title": "IDScan sued over alleged data breach affecting 153 million drivers",
-   "published_at": "2026-09-04T16:56:45Z",
-   "published_raw": "Fri, 04 Sep 2026 12:56:45 -0400",
-   "categories": [
-    "security",
-    "Legal"
-   ],
-   "description": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's licenses. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }

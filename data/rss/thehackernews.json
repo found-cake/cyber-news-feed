@@ -1,15 +1,69 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-14T16:00:34Z",
+ "updated_at": "2026-09-14T17:00:37Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-14T16:00:34Z",
+  "last_success_at": "2026-09-14T17:00:37Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d1e3ec21956720a9ee1f45d31272f848bdec4cc93506e6226bb120d1e660ff99",
+   "url": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+   "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
+   "published_at": "2026-09-14T16:58:42Z",
+   "published_raw": "2026-09-14T22:28:42.262+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's memory, so the processor keeps reading old encrypted data as if it were current.\n\nThe attack requires an attacker who already controls the server's software and can briefly access the machine to insert a small circuit",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3648128236961754602",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4IfzHWVZbbX-Jlw_WME4viVgnupLfVdkxzfZ0skzjQpB5I32f-nua5-Gt6UJGJ9-cwTyrHqaCxBFndtNkIFx_Tj9sf3LnxfrqlecJ0zh0N83i5YRdukZRTpTiUP-kVrkpF4gMJZN-tONZy7jjk2gqdq87ELsUHDlyjQDFCIX6Rioz3ljHItZ2IeLDqb-w/s260-e100/DDRop.gif",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:09d1dd4eafdffbfc8d8e23989218f89b5c06920b5a513a18d45db57a93dba409",
+   "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+   "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+   "published_at": "2026-09-14T16:56:30Z",
+   "published_raw": "2026-09-14T22:26:30.413+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-national campaign.\n\n\"Red Heron scanned 1,386 Gitea instances across seven countries and maintained a separate dataset of 477 Taiwan-based systems,\" Acronis Threat Research Unit (TRU) said in an",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-376626838165366440",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijvj2lBIP05rWNCbhHf0wzhfJ35HBSL0rrr99VOwBa-AzBrvlz0hpopABC1zCHMLj6mqJTNSiij7cFcocgbHUyRbh1QV3V7OCWDLXn3fJ_fRJQxaj63BC8UOjjNlcBdwZ0jdD3zWDA6XpA3Xt2an-6vAE-kyo3sPOpjNa5tzWnntDxaeia-0zzKa-PuywC/s260-e100/gitea-hacked.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:0c1a781fba3e0a0af363f056ebd751a286d5532946d29ad9b48f25f443dc9589",
    "url": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
