@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-14T14:00:42Z",
+ "updated_at": "2026-09-14T15:00:35Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-14T14:00:42Z",
+  "last_success_at": "2026-09-14T15:00:35Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:0bd2f62f5cd1499aaf675be090bd9f7a67a8d6c852dd872826a2cb28059a19f2",
+   "url": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator",
+   "title": "Why Patch Automation Needs Brakes, Not Just an Accelerator",
+   "published_at": "2026-09-14T14:01:11Z",
+   "published_raw": "Mon, 14 Sep 2026 10:01:11 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Patch automation can help IT teams keep pace with growing update volumes, but deploying faster also means bad updates can spread faster. Action1 explains how update rings, predefined success criteria, and human oversight can make automated patching faster without sacrificing control. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/",
+   "authors": [
+    {
+     "name": "Sponsored by Action1",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:34bb656642f05835d9d8a103f1addfd6e3f1ae29750b4c0f3d79ae67bb497cee",
    "url": "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches",
@@ -1175,27 +1196,6 @@
    "authors": [
     {
      "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:7ccadd08a56752a6d68f7746d436ef0f5f1baf7b4ee921d84d01332f64141ebe",
-   "url": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication",
-   "title": "39 New Methods That Compromise Passkey Authentication",
-   "published_at": "2026-09-04T14:01:11Z",
-   "published_raw": "Fri, 04 Sep 2026 10:01:11 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication prompts, synced credentials, enrollment, recovery, and other trust boundaries without breaking FIDO2 cryptography. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
-   "authors": [
-    {
-     "name": "Sponsored by Token",
      "uri": "",
      "email": ""
     }
