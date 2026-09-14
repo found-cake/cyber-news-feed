@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-14T05:00:43Z",
+ "updated_at": "2026-09-14T06:00:49Z",
  "retention_days": 10,
  "status": {
-  "ok": false,
-  "last_success_at": "2026-09-14T04:00:48Z",
-  "last_error_at": "2026-09-14T05:00:43Z",
-  "last_error": "fetch https://cybersecuritynews.com/feed/: do request: Get \"https://cybersecuritynews.com/feed/\": dial tcp 35.212.63.154:443: i/o timeout (Client.Timeout exceeded while awaiting headers)"
+  "ok": true,
+  "last_success_at": "2026-09-14T06:00:49Z",
+  "last_error_at": null,
+  "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b49b9ffd8b1f6d757624bcee2068bc1c978a2ab5146c555f933b617410dc0758",
+   "url": "https://cybersecuritynews.com/ncsc-warns-check-point-vpn-flaws-exploitation",
+   "title": "NCSC Warns of Critical Check Point VPN Flaws as Large-Scale Exploitation Is Expected",
+   "published_at": "2026-09-14T05:11:54Z",
+   "published_raw": "Mon, 14 Sep 2026 05:11:54 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Vulnerability News",
+    "cyber security"
+   ],
+   "description": "<p>The Dutch National Cyber Security Center (NCSC) has issued an urgent warning over two critical vulnerabilities in Check Point VPN products, saying it expects large-scale exploitation attempts in the near term. Organizations using affected Check Point gateways, management systems, or Spark Firewall products should deploy the available fixes immediately. Tracked as CVE-2026-85102 and CVE-2026-85103, both [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ncsc-warns-check-point-vpn-flaws-exploitation/\">NCSC Warns of Critical Check Point VPN Flaws as Large-Scale Exploitation Is Expected</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=163204",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/NCSC-Warns-of-Critical-Check-Point-VPN-Flaws-as-Large-Scale-Exploitation-Is-Expected.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "163204",
+     "content_encoded": "<p class=\"wp-block-paragraph\">The Dutch National Cyber Security Center (NCSC) has issued an urgent warning over two critical vulnerabilities in Check Point VPN products, saying it expects large-scale exploitation attempts in the near term.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations using affected Check Point gateways, management systems, or Spark Firewall products should deploy the available fixes immediately.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Tracked as<a href=\"https://cybersecuritynews.com/check-point-vpn-vulnerabilities/\" target=\"_blank\" rel=\"noreferrer noopener\"> CVE-2026-85102 and CVE-2026-85103</a>, both flaws carry a CVSS severity score of 9.8 out of 10. The vulnerabilities can allow an unauthenticated remote attacker to execute arbitrary code, creating a serious risk for internet-facing VPN infrastructure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Check Point VPN products commonly connect employees, offices, and networks securely over the internet. Because these systems sit at the network perimeter and often have privileged access to internal resources, a successful compromise could give attackers a path into enterprise environments.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CVE-2026-85102 affects the VPN negotiation process in Check Point Quantum Security Gateway devices. The issue stems from improper validation of certificate trust data during VPN connection setup.</p>\n\n\n\n<h2 id=\"h-ncsc-warns-of-check-point-vpn-flaws-exploitation\" class=\"wp-block-heading\"><strong>NCSC Warns of Check Point VPN Flaws Exploitation</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">An external attacker may exploit the flaw without valid credentials, <a href=\"https://cybersecuritynews.com/hackers-exploiting-checkpoints-driver/\" target=\"_blank\" rel=\"noreferrer noopener\">bypass authentication checks</a>, and execute arbitrary code on a vulnerable Security Gateway.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability affects Security Gateway and Check Point Spark Firewall products when Remote Access VPN or Site-to-Site VPN is enabled.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The second vulnerability, CVE-2026-85103, is a heap-based buffer overflow in the ASN.1 decoding flow for VPN certificates. ASN.1 is a data format commonly used in digital certificates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A specially crafted certificate structure could trigger the memory corruption issue and enable remote code execution. Unlike the first flaw, this issue can affect Check Point Security Management Server deployments as well as Security Gateway and Spark Firewall products.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.ncsc.nl/alerts/kritieke-kwetsbaarheden-in-check-point-vpn-producten-met-actief-misbruik-verwacht-update-nu\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">The NCSC said </a>it has not seen public exploit code for the vulnerabilities, but assessed both the likelihood of exploitation and the potential impact as high.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The agency expects attackers to begin attempting widespread exploitation soon, making patching a priority rather than routine maintenance.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Successful exploitation could allow a threat actor to take control of an exposed appliance, access or alter confidential information, move further into connected networks, or disrupt business operations. A <a href=\"https://cybersecuritynews.com/how-to-check-what-happens-when-your-vpn-connection-drops/\" target=\"_blank\" rel=\"noreferrer noopener\">compromised VPN gateway</a> can be especially valuable to attackers because it may provide trusted access to internal systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Check Point released emergency updates on September 9, 2026. Supported deployments should install the latest Jumbo Hotfix Accumulator, including R82.10 Take 44 or later, R82 Take 126 or later, and R81.20 Take 166 or later. Check Point LivePatch protection also began rolling out on September 9 for eligible systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For Site-to-Site VPN environments, administrators should also turn off implied VPN rules and explicitly limit UDP port 500 and UDP port 4500 access to known peer IP addresses. This reduces unnecessary exposure while patches are being validated and deployed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should identify every externally reachable Check Point VPN appliance, confirm the installed software release and hotfix level, apply the appropriate update, and review logs for suspicious VPN negotiation or certificate-processing activity.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Learn 7 Metric-Gated AI SOC Deployment Phases &#8211; <strong><strong><a href=\"https://underdefense.com/ai-soc-deployment-playbook-from-assessment-to-autonomy/?utm_source=cybersecuritynews.com&amp;utm_medium=online_media&amp;utm_campaign=csn_linkedin_newsletter_ai_soc_deployment_playbook_september_2026\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Download Free AI SOC Deployment Playbook 2026</a></strong></strong>.</strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/ncsc-warns-check-point-vpn-flaws-exploitation/\">NCSC Warns of Critical Check Point VPN Flaws as Large-Scale Exploitation Is Expected</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:a3ece0884de5ff36bfa64740d427d720038b5c76e79dbdd7aff834b65ac2aee9",
    "url": "https://cybersecuritynews.com/cybersecurity-weekly-newsletter-bulletin-september",
