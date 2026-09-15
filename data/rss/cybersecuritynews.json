@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-15T18:00:50Z",
+ "updated_at": "2026-09-15T19:00:41Z",
  "retention_days": 10,
  "status": {
-  "ok": false,
-  "last_success_at": "2026-09-15T17:00:37Z",
-  "last_error_at": "2026-09-15T18:00:50Z",
-  "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+  "ok": true,
+  "last_success_at": "2026-09-15T19:00:41Z",
+  "last_error_at": null,
+  "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:38ac24d28cea1c14f9b4572abdd5111dffdc16fc7bb3048b18fb8f5c29dd3d3a",
+   "url": "https://cybersecuritynews.com/cisa-nist-identity-token-security",
+   "title": "CISA and NIST Release Technical Checklist for Safeguarding Identity Tokens From Theft and Misuse",
+   "published_at": "2026-09-15T17:04:37Z",
+   "published_raw": "Tue, 15 Sep 2026 17:04:37 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>The Cybersecurity and Infrastructure Security Agency (CISA) and the National Institute of Standards and Technology (NIST) have released final technical guidance to stop attackers from forging, stealing, replaying, or misusing identity and access tokens. Published as NIST Interagency Report 8587 on September 15, 2026, it gives federal agencies and cloud service providers a roadmap for [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-nist-identity-token-security/\">CISA and NIST Release Technical Checklist for Safeguarding Identity Tokens From Theft and Misuse</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=163474",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/CISA-NIST-Identity-Token-Security.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "163474",
+     "content_encoded": "<p class=\"wp-block-paragraph\">The Cybersecurity and Infrastructure Security Agency (CISA) and the National Institute of Standards and Technology (NIST) have released final technical guidance to stop attackers from forging, stealing, replaying, or misusing <a href=\"https://cybersecuritynews.com/hackers-steal-claude-login-sessions/\" target=\"_blank\" rel=\"noreferrer noopener\">identity and access tokens</a>. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Published as NIST Interagency Report 8587 on September 15, 2026, it gives federal agencies and cloud service providers a roadmap for securing single sign-on, identity federation, API access, and machine-to-machine authentication environments.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Identity tokens and signed assertions allow applications to trust authentication performed by an identity provider rather than repeatedly challenging users for credentials. </p>\n\n\n\n<h2 id=\"h-cisa-nist-identity-token-security\" class=\"wp-block-heading\"><strong>CISA NIST Identity Token Security</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">However, adversaries who steal a legitimate token, compromise a signing key, or exploit weak validation can <a href=\"https://cybersecuritynews.com/hackers-bypass-microsoft-365-mfa/\" target=\"_blank\" rel=\"noreferrer noopener\">bypass multifactor authentication</a> and access connected resources as trusted users. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The report cites incidents involving forged SAML assertions and improperly scoped signing keys, including one that exposed more than 60,000 emails from a federal agency.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to the technical guidance <a href=\"https://csrc.nist.gov/pubs/ir/8587/final\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">published by NIST,</a> the report expands on the IA-13 “Identity Providers and Authorization Servers” control introduced in NIST SP 800-53 Release 5.1.1.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should document token architectures, protocols, lifetimes, validation processes, key management, revocation procedures, session controls, logging, and incident response. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Conformance remains voluntary unless made binding through policy or contract, although the terms “MUST” and “SHOULD” establish measurable implementation expectations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A central requirement is stronger protection for the cryptographic keys used to sign tokens. Keys must use approved algorithms and FIPS 140-validated modules, be inventoried by purpose, move through protected channels, and never be exported in plaintext. </p>\n\n\n\n<p class=\"wp-block-paragraph\">For moderate-impact systems and above, signing keys must use hardware-based, hardware-backed, or otherwise isolated storage. High-impact systems must also isolate signing operations from general-purpose applications and operating systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">NIST recommends frequent, risk-based key rotation supported by automated rollover workflows. Signing keys for high-impact systems should remain active for no more than 90 days, while keys for moderate- and low-impact systems should generally be used for less than one year. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Rollover plans should cover creation, publication, activation, overlap, deactivation, removal, emergency revocation, and destruction.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The technical checklist also tightens token verification. Assertions and tokens must identify the issuer, subject or client, intended audience, issuance time, validity window, unique token identifier or nonce, authentication time, and signature. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Resource servers must verify the signature, source, integrity, scope, and audience before granting access, while signing keys should be restricted to the lowest practical boundary, such as a tenant, customer group, application, or deployment environment. This prevents cross-tenant abuse in which one environment incorrectly accepts another environment’s key.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Token lifetime is another major control. Access and identity tokens should generally expire within one hour, with shorter periods applied to higher-risk resources. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Refresh tokens require expiration, replay protections, secure storage, and revocation policies. Where compromise is suspected, authorization services must not accept associated refresh tokens without first reauthenticating the user.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For theft and replay resistance, the agencies recommend sender-constrained mechanisms such as mutual TLS and Demonstrating Proof of Possession, explicit audience restrictions, and fine-grained conditional-access decisions informed by device, network, geolocation, and behavioral context. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Workload identities and automated services should receive tightly scoped, short-lived credentials from approved identity platforms instead of relying on static secrets.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Continuous monitoring is equally important. Token activity must feed tamper-resistant logs and integrate with SIEM, UEBA, or cloud-native security tools, but raw tokens and personal data must never be logged. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The report also warns against exposing tokens in CI/CD logs, console output, cache directories, or build artifacts, and says any discovered exposure should be handled as a security incident.</p>\n\n\n\n<p class=\"wp-block-paragraph\">NIST IR 8587 extends these safeguards to agentic AI systems when agents use signed tokens to reach tools, data, APIs, or services, while noting that broader AI identity risks require additional standards. </p>\n\n\n\n<p class=\"wp-block-paragraph\">It also urges agencies and CSPs to inventory public-key cryptography and prepare for <a href=\"https://cybersecuritynews.com/best-post-quantum-cryptographic-solutions/\" target=\"_blank\" rel=\"noreferrer noopener\">post-quantum migration</a>, since larger quantum-resistant keys and signatures may strain JWTs, browser cookies, and HTTP headers. </p>\n\n\n\n<p class=\"wp-block-paragraph\">For defenders, the message is clear: token security must be engineered as a continuously monitored lifecycle rather than treated as a one-time identity-platform configuration.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Learn 7 Metric-Gated AI SOC Deployment Phases &#8211; <strong><strong><a href=\"https://underdefense.com/ai-soc-deployment-playbook-from-assessment-to-autonomy/?utm_source=cybersecuritynews.com&amp;utm_medium=online_media&amp;utm_campaign=csn_linkedin_newsletter_ai_soc_deployment_playbook_september_2026\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Download Free AI SOC Deployment Playbook 2026</a></strong></strong>.</strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-nist-identity-token-security/\">CISA and NIST Release Technical Checklist for Safeguarding Identity Tokens From Theft and Misuse</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:ed25bd2b64139d753ee41781d0142874d5b4c81e4e9b239e8f6b6b507c0ae006",
    "url": "https://cybersecuritynews.com/cisa-active-directory-attack-techniques",
