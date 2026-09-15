@@ -1,15 +1,69 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-15T06:00:33Z",
+ "updated_at": "2026-09-15T07:00:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-15T06:00:33Z",
+  "last_success_at": "2026-09-15T07:00:47Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:7c09d00af3deeda7e85aae44adb90e2765a05b33592d3659134a4c8a95d07901",
+   "url": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+   "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+   "published_at": "2026-09-15T06:52:16Z",
+   "published_raw": "2026-09-15T12:22:16.285+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an&nbsp;advisory published on September 14.\n\nOn such servers, many customers' sites run on a single machine, and an attacker with one of those hosting accounts could exploit the flaw to access or alter other sites and the server itself,",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-9177081223912856188",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRVzSne-2lfRX57xj9CbnkpX1fjEWXYoPN0tDsXwgBwaE_LVqYBKtWbO1nudNLKp89aR90EeszJUqsNvZN4ZLzU1i7hm89ihV-lK1mIKiNXl6GWAWkn6uz7WlRVfIdJrS7Nfn6x-1Cclf6oTs3RxVNWxQSVBsvhzDjMBnmU3l3oERVu3b5hqag5mSeKoU/s260-e100/litespeed.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:afc835b3ebd293cb78098b197b87636fea7485b9b61cdbac5dc98511b1a22d9f",
+   "url": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+   "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+   "published_at": "2026-09-15T06:11:11Z",
+   "published_raw": "2026-09-15T11:41:11.497+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-76461, carries a CVSS score of 9.8 out of a maximum of 10.0. It has been described as a case of insufficient validation in the email parsing logic that could allow an unauthenticated, remote attacker",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5860074501755513963",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu8z5yuk0NLq0i2IvKx9dibCdw5at8BanYNBhjn665PLV0EanY_s0UV0D4D0wcPijyd5r8sS4eCMDwKdsVQ9GktnqcPRympe7ZqI7Bh8ZSBukLsxFSQ3-SFRb10ylKsDPl7tU2-M3w_E0eNSe_ytrRE-JZ62fvAExuQCawQJZFjYwArFC550Ri8mOQ1q1s/s260-e100/cisco-email.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:689ffb8dd99a9fcf19b4340d56ae61602dceef019ad9c89f18f75ba7c5920db1",
    "url": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
