@@ -1,15 +1,69 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-15T11:00:46Z",
+ "updated_at": "2026-09-15T12:00:37Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-15T11:00:46Z",
+  "last_success_at": "2026-09-15T12:00:37Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:f78f80e44815d15028f54b90e61e70b03d0caa6c7148838043f211381cb454d9",
+   "url": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
+   "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
+   "published_at": "2026-09-15T11:52:28Z",
+   "published_raw": "2026-09-15T17:22:28.091+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just as swiftly after gaining initial access.\n\nIn one instance highlighted by the cloud security company, the threat actor pivoted from a vulnerable Marimo notebook to an SSH",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1227380961517466649",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzWVpv5OsfVGAYPz4or_uMgVNDXTSzyXpTB8XLtCFHdzk9IliH8Aydez_Zo9hDGSj7__A0cFwnjKUpRWn5nn4CSd5wlaIJ1-BpU29tUyeh3pC63H_kXIn9ANQna1FBENp-td6TCC6z50ZEcAeNjAZMA-tIA9_x9nYrlHqbnJOijQpbeHsQmW5tKMczy4ek/s260-e100/marimo%20%281%29.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:bf27a701dddcbc6001e31a4407137f507e369e6d1e7e7d92d392b03eb657033c",
+   "url": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
+   "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
+   "published_at": "2026-09-15T11:12:32Z",
+   "published_raw": "2026-09-15T16:42:32.423+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data.\n\nThe first is an automated effort aimed at internet-exposed Vite development servers that's designed to steal cloud credentials, configurations from Amazon Web Services (AWS) and Microsoft Azure instances, and infrastructure state files, per F5 Labs.\n\nThe",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1727506930963635237",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDvoBVfJIN7YwGuf64F0CQWt9GrAVzaxDWGJetCrAGM_QgGEfpZm_I7f3FTkWBydY7v_iV4n8RWPAr4jfp7ZhN9DVbVZGDryBYlZiL6dn5RuYzLd811NH_sARdjbwWIpf9kOj-jtXfLzb7BTuy-iMpHbsgB9n8J5T7Hx0qp0D1_XeJR-ANcGQ5p88YH3fE/s260-e100/vite.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:7c09d00af3deeda7e85aae44adb90e2765a05b33592d3659134a4c8a95d07901",
    "url": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
