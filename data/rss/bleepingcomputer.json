@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-15T15:00:47Z",
+ "updated_at": "2026-09-15T16:00:42Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-15T15:00:47Z",
+  "last_success_at": "2026-09-15T16:00:42Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c19aea47c3662d773e949db9ed323ab2a8e871dcecd7480d28c7af68011244cf",
+   "url": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt",
+   "title": "BambooToken malware controls Windows and Linux systems via MQTT",
+   "published_at": "2026-09-15T15:00:00Z",
+   "published_raw": "Tue, 15 Sep 2026 11:00:00 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A previously unknown malware framework called BambooToken, active since at least 2023, is now using the Message Queuing Telemetry Transport (MQTT) protocol to communicate with Windows and Linux systems. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:a2307bc073cf862e670599bbfb0e6e5da3c047e3af3e5b85a67407640049f86d",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin",
