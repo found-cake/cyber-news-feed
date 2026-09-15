@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-15T04:00:35Z",
+ "updated_at": "2026-09-15T05:00:36Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-15T04:00:35Z",
+  "last_success_at": "2026-09-15T05:00:36Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:0d2158db24bd7c8958bab0d3a1eecb82527bb9c46bc23def00fa39b6014c5e46",
+   "url": "https://cybersecuritynews.com/cisco-secure-email-gateway-flaw-exploited",
+   "title": "Hackers Exploit Critical Cisco Secure Email Gateway Vulnerability in the Wild to Run Malicious Code",
+   "published_at": "2026-09-15T04:14:12Z",
+   "published_raw": "Tue, 15 Sep 2026 04:14:12 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Vulnerability News",
+    "cyber security"
+   ],
+   "description": "<p>Cisco has issued an urgent warning regarding an actively exploited zero-day vulnerability in its Secure Email Gateway appliances that allows remote, unauthenticated attackers to execute arbitrary commands with highest-level root privileges. Tracked as CVE-2026-76461, the flaw stems from a severe parsing breakdown in Cisco AsyncOS Software, enabling adversaries to compromise both physical and virtual deployments [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisco-secure-email-gateway-flaw-exploited/\">Hackers Exploit Critical Cisco Secure Email Gateway Vulnerability in the Wild to Run Malicious Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=163335",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Cisco-Secure-Email-Gateway-Flaw-Exploited.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "163335",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Cisco has issued an urgent warning regarding an actively exploited zero-day vulnerability in its Secure Email Gateway appliances that allows remote, unauthenticated attackers to execute arbitrary commands with highest-level root privileges.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Tracked as CVE-2026-76461, the flaw stems from a severe parsing breakdown in <a href=\"https://cybersecuritynews.com/cisco-asyncos-0-day-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">Cisco AsyncOS Software</a>, enabling adversaries to compromise both physical and virtual deployments simply by routing a maliciously crafted email message through an exposed gateway.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The security defect lies in AsyncOS&#8217;s email parsing logic, where insufficient input sanitization lets threat actors embed malicious SQL statements directly into inbound email payloads. Upon receipt and processing by the appliance, these crafted queries execute unchecked, triggering a command injection vector that escalates directly into full root operating system access.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Because the flaw can be triggered remotely without prior credentials or complex network staging, it presents a substantial risk of enterprise boundary takeover, corporate espionage, and stealthy persistence across downstream infrastructure.</p>\n\n\n\n<h2 id=\"h-cisco-secure-email-gateway-vulnerability-exploited\" class=\"wp-block-heading\"><strong>Cisco Secure Email Gateway Vulnerability Exploited</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Cisco’s Product Security Incident Response Team confirmed</a> that threat actors have actively weaponized this flaw in the wild throughout September 2026.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability emerged during an investigation of an internal support case handled by the Cisco Technical Assistance Center, which subsequently exposed active intrusions across corporate appliances and instances hosted within Cisco Secure Email Cloud.</p>\n\n\n\n<p class=\"wp-block-paragraph\">While Cisco has notified impacted cloud tenants and deployed server-side remediations across its managed cloud environments, on-premises administrators remain solely responsible for applying security patches to protect their organizations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Investigating suspected intrusions presents distinct operational hurdles due to the extensive privileges acquired during compromise. Cisco advises security teams to inspect their text mail logs for anomalies, specifically hunting for rogue database syntax using commands such as <code>grep -i \"COPY.*TO PROGRAM\" mail_logs</code> across all clustered nodes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">However, because root-level adversaries can effortlessly delete local logs, tamper with audit trails, and manipulate running processes, internal forensics alone may prove inconclusive.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Incident responders must cross-check perimeter firewall flows and outbound network telemetry to detect unexpected external connections, unusual data exfiltration, or secondary-stage payload downloads.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Because no practical workarounds exist for CVE-2026-76461, immediate patching is imperative. Cisco has remediated the security flaw in AsyncOS updates, designating Release 16.5.0-780 as the primary target build, alongside earlier release branches including versions 16.0.4-3021 and 15.5.5-0141.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For administrators running on-premises virtual gateway instances showing signs of prior exploitation, Cisco strongly recommends preserving volatile forensic snapshots, destroying the suspect virtual machines, and rebuilding clean configurations from scratch, along with rolling all appliance credentials and internal certificates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Beyond deploying immediate software updates, organizations should reinforce their gateway architecture to minimize future exposure. Administrators must isolate mail routing from management interfaces, restrict administrative portal access to verified internal bastions, and place all email security appliances behind robust, two-layer filtering firewalls to stop unauthenticated command-execution attempts at the perimeter.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Learn 7 Metric-Gated AI SOC Deployment Phases &#8211; <strong><strong><a href=\"https://underdefense.com/ai-soc-deployment-playbook-from-assessment-to-autonomy/?utm_source=cybersecuritynews.com&amp;utm_medium=online_media&amp;utm_campaign=csn_linkedin_newsletter_ai_soc_deployment_playbook_september_2026\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Download Free AI SOC Deployment Playbook 2026</a></strong></strong>.</strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisco-secure-email-gateway-flaw-exploited/\">Hackers Exploit Critical Cisco Secure Email Gateway Vulnerability in the Wild to Run Malicious Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:f2cfd37f05584aaf8bf87ac9dc318a238c1356b0e077909ea98672a585f5f4ce",
    "url": "https://cybersecuritynews.com/fintech-revolut-data-breach",
