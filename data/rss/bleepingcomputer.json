@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-15T14:00:42Z",
+ "updated_at": "2026-09-15T15:00:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-15T14:00:42Z",
+  "last_success_at": "2026-09-15T15:00:47Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:a2307bc073cf862e670599bbfb0e6e5da3c047e3af3e5b85a67407640049f86d",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin",
+   "title": "Hackers target WordPress sites via third-party WooCommerce plugin",
+   "published_at": "2026-09-15T14:45:10Z",
+   "published_raw": "Tue, 15 Sep 2026 10:45:10 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Hackers are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture premium plugin for WordPress to upload a PHP backdoor. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:fbebea31c1d436ff15854621a38eeaa8e11662b8c8a7159424fbe5bf9f150fca",
    "url": "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era",
@@ -1299,27 +1320,6 @@
    ],
    "description": "Threat actors have adopted the ASCII smuggling technique in phishing campaigns, using invisible Unicode characters to evade email security filters. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:eeb760af96645c6db3b4de5482cbb6257c111c1b4fb83b19308f8f21f4a5db4c",
-   "url": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain",
-   "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
-   "published_at": "2026-09-05T14:29:13Z",
-   "published_raw": "Sat, 05 Sep 2026 10:29:13 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
    "authors": [
     {
      "name": "Bill Toulas",
