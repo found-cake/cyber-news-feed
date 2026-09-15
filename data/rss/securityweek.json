@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-09-15T12:00:37Z",
+ "updated_at": "2026-09-15T13:00:39Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-15T12:00:37Z",
+  "last_success_at": "2026-09-15T13:00:39Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:83a9795f2bbdd80b532bd370bd21677f31d58c43afd86c1a8114bb81cef25cd0",
+   "url": "https://www.securityweek.com/openai-investigates-report-linking-ai-agents-to-rubygems-attack",
+   "title": "OpenAI Investigates Report Linking AI Agents to RubyGems Attack",
+   "published_at": "2026-09-15T12:42:32Z",
+   "published_raw": "Tue, 15 Sep 2026 12:42:32 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "AI",
+    "OpenAI",
+    "RubyGems"
+   ],
+   "description": "<p>The incident occurred in May, when RubyGems maintainers suspended new account registrations due to what appeared like malicious activity.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-investigates-report-linking-ai-agents-to-rubygems-attack/\">OpenAI Investigates Report Linking AI Agents to RubyGems Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49327",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:d10e74c111bb37a1c1526b8de818759ed1c96dcaac782c00269e62c31518b3c2",
    "url": "https://www.securityweek.com/240000-hit-by-data-breach-at-japans-digital-agency",
@@ -2276,39 +2310,6 @@
    ],
    "description": "<p>The attacks rely on backdoored ScreenConnect instances to transfer and execute payloads to newly connected clients.</p>\n<p>The post <a href=\"https://www.securityweek.com/modified-screenconnect-clients-used-in-worm-like-campaign/\">Modified ScreenConnect Clients Used in Worm-Like Campaign</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=49126",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:49c55cfdaf92de7ef168454cf247b259fc828523cb3b00bedfa8a2ba08789739",
-   "url": "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites",
-   "title": "Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites",
-   "published_at": "2026-09-05T13:00:28Z",
-   "published_raw": "Sat, 05 Sep 2026 13:00:28 +0000",
-   "categories": [
-    "Application Security",
-    "Vulnerabilities",
-    "WordPress"
-   ],
-   "description": "<p>Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions.</p>\n<p>The post <a href=\"https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/\">Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49122",
    "authors": [
     {
      "name": "Ionut Arghire",
