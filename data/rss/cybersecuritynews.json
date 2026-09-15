@@ -1,15 +1,84 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-15T13:00:39Z",
+ "updated_at": "2026-09-15T14:00:42Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-15T13:00:39Z",
+  "last_success_at": "2026-09-15T14:00:42Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:f012f99f68b4745c734a85536471f44bb29d6d93c6136d5c5e3232ae09ebb65c",
+   "url": "https://cybersecuritynews.com/homebrew-7-0-0-adds-vulnerability-scanner",
+   "title": "Homebrew 7.0.0 Adds Built-In Vulnerability Scanner and Stronger Package Sandboxing",
+   "published_at": "2026-09-15T13:55:02Z",
+   "published_raw": "Tue, 15 Sep 2026 13:55:02 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Homebrew has released version 7.0.0, introducing a native vulnerability scanner, a Homebrew-specific advisory database, stronger sandboxing, and faster package installation workflows. The release also ends support for macOS Catalina 10.15 and moves Intel-based Macs to Tier 3 support. The most security-focused addition is the new&#160;brew vulns&#160;command. It allows users and security teams to scan installed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/homebrew-7-0-0-adds-vulnerability-scanner/\">Homebrew 7.0.0 Adds Built-In Vulnerability Scanner and Stronger Package Sandboxing</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=163391",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Homebrew-7.0.0-Adds-Built-In-Vulnerability-Scanner-and-Stronger-Package-Sandboxing.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "163391",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Homebrew has released version 7.0.0, introducing a native<a href=\"https://cybersecuritynews.com/augustus-llm-vulnerability-scanner/\" target=\"_blank\" rel=\"noreferrer noopener\"> vulnerability scanner, </a>a Homebrew-specific advisory database, stronger sandboxing, and faster package installation workflows.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The release also ends support for macOS Catalina 10.15 and moves Intel-based Macs to Tier 3 support. The most security-focused addition is the new&nbsp;brew vulns&nbsp;command.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It allows users and security teams to scan installed formulae for known vulnerabilities without installing a separate tap or Ruby gem. The command uses Homebrew’s new advisory database and OSV.dev vulnerability data to <a href=\"https://cybersecuritynews.com/clickfix-abuses-legitimate-homebrew-workflow/\" target=\"_blank\" rel=\"noreferrer noopener\">identify affected packages</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The scanner can check installed formulae, dependencies, and Brewfiles. Users can filter findings by severity, view packages with available fixes, identify vulnerabilities that have no current remediation, and list packages skipped because they came from untrusted taps.</p>\n\n\n\n<h2 id=\"h-homebrew-7-0-0-adds-vulnerability-scanner\" class=\"wp-block-heading\"><strong>Homebrew 7.0.0 Adds Vulnerability Scanner</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">This makes the command useful for developer workstations, <a href=\"https://cybersecuritynews.com/litellm-supply-chain-attack/\" target=\"_blank\" rel=\"noreferrer noopener\">CI pipelines,</a> security audits, and software inventory reviews. Homebrew’s advisory database is designed to track vulnerabilities against the exact formula versions and revisions distributed by Homebrew.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This is important because Homebrew may backport a security patch without updating a package to the newest upstream version. The database can therefore help distinguish between a package that appears outdated and one that has already received a fix.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://brew.sh/2026/09/13/homebrew-7.0.0/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Homebrew also publishes advisory</a> data through its formula API and a downloadable OSV-format index. The release strengthens package isolation on both macOS and Linux. On macOS, Homebrew now further restricts formula and cask operations inside its sandbox.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It blocks sandboxed reads from the user’s home directory by default, reducing the chance that a package build can access unrelated personal files. It also introduces private temporary directories for local build-tool communication without enabling network access.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Homebrew is also moving dependency downloads into a separate fetch phase. During fetching, packages can use network access and writable caches.</p>\n\n\n\n<p class=\"wp-block-paragraph\">During installation, network access is disabled, and caches become read-only. This design reduces the risk of unexpected downloads or external network activity during a package build.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The update fixes a moderate-severity issue tracked as GHSA-5263-whxq-77hp. A malicious cask could potentially<a href=\"https://cybersecuritynews.com/hackers-attacking-macos-users-with-spoofed-homebrew-websites/\" target=\"_blank\" rel=\"noreferrer noopener\"> execute code outside the macOS installation sandbox</a> through LaunchServices. Homebrew 7.0.0 restricts application launching, Mach services, and Unix socket connections to address the issue.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For Linux users, Homebrew replaces Bubblewrap sandboxing with Landlock. The project said Landlock avoids dependency and elevated Docker permission requirements that caused deployment <a href=\"https://cybersecuritynews.com/claude-coworks-sandbox-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">issues with Bubblewrap</a>. Systems without Landlock can still run Homebrew, but&nbsp;brew doctor&nbsp;will report the missing sandbox protection.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Homebrew 7.0.0 also improves performance by overlapping downloads, package preparation, and installation tasks. It reuses parsed API data while continuing to verify signatures, reduces startup subprocesses, and speeds up cleanup, fetch, update, and diagnostic commands.</p>\n\n\n\n<p class=\"wp-block-paragraph\">macOS Catalina 10.15 is no longer supported. Intel Macs are now Tier 3, meaning they will not receive new prebuilt bottles and may need source builds for updated formulae. Homebrew plans to stop running on Intel Macs in September 2027.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Learn 7 Metric-Gated AI SOC Deployment Phases &#8211; <strong><strong><a href=\"https://underdefense.com/ai-soc-deployment-playbook-from-assessment-to-autonomy/?utm_source=cybersecuritynews.com&amp;utm_medium=online_media&amp;utm_campaign=csn_linkedin_newsletter_ai_soc_deployment_playbook_september_2026\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Download Free AI SOC Deployment Playbook 2026</a></strong></strong>.</strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/homebrew-7-0-0-adds-vulnerability-scanner/\">Homebrew 7.0.0 Adds Built-In Vulnerability Scanner and Stronger Package Sandboxing</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:2e08b3b1f4b8f968b7933149096c9e1c7c917f26ff7e89958cd67b5aade52c2e",
+   "url": "https://cybersecuritynews.com/cpanel-litespeed-web-server-vulnerability",
+   "title": "cPanel LiteSpeed Web Server Vulnerability Allows Shared Server Users to Gain Root-Level Access",
+   "published_at": "2026-09-15T13:52:07Z",
+   "published_raw": "Tue, 15 Sep 2026 13:52:07 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Vulnerability News",
+    "cyber security"
+   ],
+   "description": "<p>cPanel has issued an urgent security advisory warning that a critical vulnerability in LiteSpeed Web Server Enterprise could allow a low-privileged shared-hosting user to gain root-level access to an affected server. Administrators are urged to upgrade LiteSpeed Enterprise to version 6.3.7 or later immediately. The flaw affects LiteSpeed Web Server Enterprise versions earlier than 6.3.7. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cpanel-litespeed-web-server-vulnerability/\">cPanel LiteSpeed Web Server Vulnerability Allows Shared Server Users to Gain Root-Level Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=163401",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Cpanel-LiteSpeed-Web-Server-Vulnerability-Allow-Shared-Server-Users-to-gain-root-level-access.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "163401",
+     "content_encoded": "<p class=\"wp-block-paragraph\">cPanel has issued an urgent security advisory warning that a critical vulnerability in LiteSpeed Web Server Enterprise could allow a low-privileged shared-hosting user to gain root-level access to an affected server. Administrators are urged to upgrade LiteSpeed Enterprise to version 6.3.7 or later immediately.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw affects <a href=\"https://cybersecuritynews.com/litespeed-cpanel-plugin-vulnerability-exploit/\" target=\"_blank\" rel=\"noreferrer noopener\">LiteSpeed Web Server Enterprise</a> versions earlier than 6.3.7. It is particularly serious for shared-hosting environments, where many separate customer websites and user accounts run on the same physical or virtual server.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to the advisory, a malicious user with access to a low-privilege website account may be able to escalate privileges and obtain root-level control of the server. Root access is the highest privilege level on Linux systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It can allow an attacker to modify system settings, access hosted files, install malware, change configurations, and create persistent backdoors.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability may also let attackers bypass expected isolation mechanisms designed to separate hosting accounts. cPanel specifically noted that the issue could bypass controls.</p>\n\n\n\n<h2 id=\"h-cpanel-litespeed-web-server-vulnerability\" class=\"wp-block-heading\">cPanel<strong> LiteSpeed Web Server Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">One of them is CageFS, a CloudLinux security feature that restricts users to their own virtualized filesystem environment. In a normal shared-hosting setup, CageFS helps prevent one customer from viewing or modifying files belonging to another customer.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If an attacker escapes that restricted environment and gains root privileges, they could access other hosted websites, steal databases and credentials, alter web content, deploy phishing pages, or compromise the underlying server.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The risk is significant because shared-hosting platforms commonly host dozens, hundreds, or even thousands of websites. A single compromised low-privilege account could therefore become an entry point for a broader server-wide incident.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://support.cpanel.net/hc/en-us/articles/43483286674583-Security-LiteSpeed-Enterprise-security-advisory-September-14-2026\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">cPanel said</a> it received notice of the critical privilege-escalation issue and recommends updating all affected LiteSpeed Enterprise deployments without delay.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company identified LiteSpeed Web Server Enterprise version 6.3.7 as the fixed release. Administrators can update LiteSpeed using the following command: <code> /usr/local/lsws/admin/misc/lsup.sh -f -v 6.3.7</code>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Server operators should verify the installed LiteSpeed version before and after patching, review privileged account activity, and investigate unusual changes in website directories, web server configuration files, cron jobs, SSH keys, or system binaries.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Hosting providers should also monitor for suspicious behavior originating from customer accounts, especially attempts to access restricted filesystem paths or<a href=\"https://cybersecuritynews.com/litespeed-cpanel-plugin-0-day-exploited/\" target=\"_blank\" rel=\"noreferrer noopener\"> execute commands </a>outside normal web application processes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations running LiteSpeed Enterprise on cPanel-based shared servers should treat the update as a high-priority maintenance task.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Because the vulnerability can undermine tenant isolation and lead to root-level compromise, delaying remediation may expose every website hosted on an affected server to potential unauthorized access or modification.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Learn 7 Metric-Gated AI SOC Deployment Phases &#8211; <strong><strong><a href=\"https://underdefense.com/ai-soc-deployment-playbook-from-assessment-to-autonomy/?utm_source=cybersecuritynews.com&amp;utm_medium=online_media&amp;utm_campaign=csn_linkedin_newsletter_ai_soc_deployment_playbook_september_2026\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Download Free AI SOC Deployment Playbook 2026</a></strong></strong>.</strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/cpanel-litespeed-web-server-vulnerability/\">cPanel LiteSpeed Web Server Vulnerability Allows Shared Server Users to Gain Root-Level Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:c62674c74fab88972f68156f5d5308d2f76bb52cfedd4bd07d318082c004d223",
    "url": "https://cybersecuritynews.com/googles-new-search",
