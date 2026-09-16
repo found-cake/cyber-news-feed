@@ -1,15 +1,141 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-09-16T13:00:34Z",
+ "updated_at": "2026-09-16T14:00:33Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-16T13:00:34Z",
+  "last_success_at": "2026-09-16T14:00:33Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:2c3e0cf647cc8e41ac1dfeae3605457e34d852568b21e424d96271333ddb1fb5",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208518",
+   "title": "AI 에이전트가 개인정보 침해 공격 수행…스페인 AEPD 첫 신고",
+   "published_at": "2026-09-16T22:47:52Z",
+   "published_raw": "2026-09-16 22:47:52",
+   "categories": [
+    "이슈"
+   ],
+   "description": "스페인 개인정보보호청(AEPD)이 AI 에이전트를 이용한 공격으로 개인정보 침해가 발생했다는 신고를 처음 접수했다고 2026년 9월 14일 공개했다.AEPD에 따르면 공격자는 AI 에이전트에 공격 목표를 부여했고, 에이전트는 일반 파일에서 취약점을 찾은 뒤 정상 로그인을 거쳐 시스템 내부를 탐색했다. 이후 추가 취약점을 찾아 개인정보를 수정하고 청구·결제 관련 기록에도 접근했다.이번 사고는 AI가 스스로 공격 대상을 선택해 해킹을 시작한 사건은 아니다. 현재까지 공개된 내용은 제3자가 AI 에이전트를 공격 도구로 사용했다는 것이다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "우진영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:fb0bddb0e88cba147a97c09b39a54886380f237dc533c4842b3a0fc897738594",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208517",
+   "title": "일본 디지털청 해킹당했다…알려진 VPN 취약점 패치 전 공격",
+   "published_at": "2026-09-16T22:38:15Z",
+   "published_raw": "2026-09-16 22:38:15",
+   "categories": [
+    "이슈"
+   ],
+   "description": "일본 정부가 여러 중앙부처에서 공동으로 사용하는 업무 시스템이 해킹돼 약 24만6000건의 개인정보가 외부로 유출됐을 가능성이 확인됐다. 공격자는 인터넷과 연결된 VPN 장비의 취약점을 이용해 시스템 내부로 침입한 것으로 조사됐다.일본 디지털청(Digital Agency)은 지난 9월 11일 정부 공통 업무환경인 가버먼트 솔루션 서비스(Government Solution Service·GSS)에 대한 외부 침입 사실을 공개했다.사건이 처음 포착된 시점은 6월 25일이었다. 디지털청은 GSS 유지·운영 담당자의 계정을 이용해 서버에",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "우진영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:005ea22dcde098b12911e568428f6832dc403430287b75e2003673d33ed9acce",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208516",
+   "title": "브이엠웨어 vCenter 치명적 RCE 실제 악용…ESXi 랜섬웨어 공격까지 확인",
+   "published_at": "2026-09-16T22:31:16Z",
+   "published_raw": "2026-09-16 22:31:16",
+   "categories": [
+    "이슈"
+   ],
+   "description": "기업 가상화 환경을 관리하는 브이엠웨어 브이센터 서버(VMware vCenter Server)의 치명적 원격코드실행 취약점 ‘CVE-2026-59310’이 실제 공격에 악용되고 있는 것으로 확인됐다. 일부 침해사고에서는 공격자가 vCenter를 장악한 뒤 브이엠웨어 ESXi 서버까지 접근해 랜섬웨어를 실행했다.브로드컴은 지난 7월 29일 보안 권고문을 통해 해당 취약점을 공개하고 패치를 배포했다. CVE-2026-59310은 vCenter의 Syslog 기능에서 발생하는 취약점으로, 네트워크 접근이 가능한 공격자가 별도 인증 없이",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c84ae6ddc5563ba73483353303e3a1a732737c8b7ef4f2c97f1675b89e98e3e2",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208515",
+   "title": "시스코 이메일 보안장비 제로데이 악용…악성 메일 한 통에 ‘루트 권한’ 탈취",
+   "published_at": "2026-09-16T22:23:44Z",
+   "published_raw": "2026-09-16 22:23:44",
+   "categories": [
+    "이슈"
+   ],
+   "description": "시스코 기업용 이메일 보안장비인 시스코 시큐어 이메일 게이트웨이(Cisco Secure Email Gateway)에서 인증 없이 원격으로 시스템 최고 권한을 탈취할 수 있는 치명적인 취약점이 발견됐다. 문제는 보안 업데이트가 공개되기 전부터 실제 공격에 악용됐다는 점이다.시스코는 2026년 9월 14일 시스코 시큐어 이메일 게이트웨이에서 발견된 SQL 인젝션 취약점 ‘CVE-2026-76461’을 공개했다. CVSS v3.1 기준 위험도는 10점 만점에 9.8로 ‘치명적(Critical)’ 등급이다. 시스코 제품보안사고대응팀(PSI",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:ef1bb809714ac4f28f1c296869f29bceafba176bda13f6dbcf7d6c25571e3709",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208514",
+   "title": "ISMS-P 인증심사 강화…현장심사·취약점 점검 확대",
+   "published_at": "2026-09-16T22:12:06Z",
+   "published_raw": "2026-09-16 22:12:06",
+   "categories": [
+    "이슈"
+   ],
+   "description": "정보보호 및 개인정보보호 관리체계(ISMS-P) 인증심사가 서류 중심에서 현장 검증을 강화하는 방향으로 개편된다. 침해사고나 개인정보 유출이 발생한 기업에 대해서는 전문 기술인력이 현장에서 취약점 진단과 모의침투를 수행할 수 있도록 제도적 근거도 마련된다.개인정보보호위원회는 ISMS-P 인증제도의 실효성을 높이기 위한 ‘개인정보 보호법 시행령’ 개정안을 마련하고 9월 16일부터 10월 26일까지 입법예고한다고 밝혔다.ISMS-P(Information Security Management System-Privacy)는 기업·기관이 운영",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:697d72cafa0bbc0f8e140fefe1fb0036d6751003c8df2e51db3b13bc07eac085",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208513",
+   "title": "뤼튼·테슬라코리아·딥시크·오픈AI·나이키, 개인정보 처리방침 후속 점검서 미흡 확인",
+   "published_at": "2026-09-16T22:05:03Z",
+   "published_raw": "2026-09-16 22:05:03",
+   "categories": [
+    "이슈"
+   ],
+   "description": "개인정보보호위원회가 ‘2025년 개인정보 처리방침 평가’에서 미흡 판정을 받은 사업자를 대상으로 후속 점검을 실시하고, 정보주체 권리행사와 국내대리인 운영이 미흡한 5개 사업자에 개선을 권고했다.개인정보위는 지난 9월 9일 제19회 전체회의에서 ㈜뤼튼테크놀로지스, 테슬라코리아(유), 딥시크(DeepSeek), 오픈에이아이(OpenAI), 나이키(Nike) 등 5개 사업자에 대한 개선 권고를 심의·의결했다고 밝혔다.이번 점검은 지난해 개인정보 처리방침 평가에서 ‘미흡’ 평가를 받은 기업이 실제 운영 과정에서도 개선 조치를 이행하고 있",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:2c3bebbf193c376661194bc56be4f0fc4f8e06004f9c2a7165df7d9a39759566",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208502",
