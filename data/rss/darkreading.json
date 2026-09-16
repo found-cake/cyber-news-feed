@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "darkreading",
- "updated_at": "2026-09-16T20:00:43Z",
+ "updated_at": "2026-09-16T21:00:40Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-16T20:00:43Z",
+  "last_success_at": "2026-09-16T21:00:40Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -121,15 +121,21 @@
   {
    "id": "sha256:990957c2387d4f0262d81067b25364c26b9c52ba191ae5e69ea21fb96e8d1ca9",
    "url": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk",
-   "title": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident",
+   "title": "Black Hat USA 2026 | OpenAI's Deep Dive Into Hugging Face Incident",
    "published_at": "2026-09-15T19:27:19Z",
    "published_raw": "Tue, 15 Sep 2026 19:27:19 GMT",
    "categories": [
     "vulnerabilities-threats"
    ],
-   "description": "<p>The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI</p>\n<p>At this Black Hat USA 2026 talk, OpenAI security engineers and researchers will reconstruct the OpenAI-Hugging Face incident and examine its implications for AI security, cyber resilience, and alignment. Throughout the session, they will share insights that address key topics raised by the Black Hat Review Board, including model safeguards, evaluation and containment practices, defensive use cases for AI, and the broader implications of increasingly autonomous systems for the cybersecurity community.</p>\n<p>The session will trace the models' attack path, including how frontier models are sandboxed during evaluations, how the models exploited a zero-day vulnerability to gain internet access, and how they identified and leveraged a remote code execution path on Hugging Face infrastructure. Drawing on the joint investigation, the speakers will explain how the activity was detected, contained, and investigated. They will also discuss the changes OpenAI is making to strengthen evaluation environments, containment controls, and monitoring capabilities, as well as the role AI systems played in supporting the investigation and response.</p>\n<p>In addition to the technical reconstruction of the incident, the session will address broader questions relevant to the security community, including lessons for improving AI system security, defensive applications of AI in incident response, and approaches to mitigating emerging risks associated with increasingly capable models.</p>\n<p>The discussion will also examine alignment challenges associated with long-running agents, including reward hacking, shifts in model behavior and persona over extended trajectories, and information sharing across multi-agent systems. Finally, the speakers will explore what this incident suggests about emerging AI cyber capabilities and how organizations can use AI to strengthen prevention, detection, investigation, and response efforts.</p>",
+   "description": "At Black Hat USA, OpenAI engineers reconstruct the Hugging Face incident and explore lessons learned about AI safeguards and cyber resilience.",
    "feed_id": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk",
-   "authors": [],
+   "authors": [
+    {
+     "name": "Black Hat Staff",
+     "uri": "",
+     "email": ""
+    }
+   ],
    "media": [
     {
      "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt886d5ec4d2c71007/6aa99c49ca8ea7e099dd4980/huggingfacescreenshot.png?width=720&quality=80&disable=upscale",
