@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-16T15:01:08Z",
+ "updated_at": "2026-09-16T16:00:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-16T15:01:08Z",
+  "last_success_at": "2026-09-16T16:00:47Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -31,6 +31,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNTaZ2mJpwks9AMkwh4I_Q5sK5sgj01Fd4eW4c47_ZsHN_8hKPjptnlJ_P0RboejQy7PB6Ad4UXLFggJXAGlVsBigp46txL8LoSlpMuwQ0sXkAPQZ4TYtg89jNIa6SLPxuv-YC-_LlNZq2FZdNHRnrP_iQUYPSj2-MzugjnlL_CrIJw80lMzbVCZEf0x8/s260-e100/pentera.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:4a519778a75aa182655b26560c0ed80a317816ee4868817e7b0281b80b3fb6f4",
+   "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+   "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+   "published_at": "2026-09-16T15:50:59Z",
+   "published_raw": "2026-09-16T21:20:59.462+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation.\n\nThe vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0 score: 9.3), which can allow an unauthenticated remote attacker to execute arbitrary operating system (OS) commands by taking advantage of a hard-coded",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3359191553631192170",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5aXi8Vt3MH8e38-ViNXz-m4hRPrbqDMGcpbMtOc3b-cDLIyEZEjqGvSscW6mR34ZrmPM4lSnv6C9XFTHlgq3UyGLA24gySGqcCzdKr-hIY2QZO8VSXnC-KAsdEz6vTkgdRnVxAZVM7NyrhgpL2xDWR8lcvPInEwgvj0pTgHkC7KStUFglwcLext7eb3w5/s260-e100/issa.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:27afdbdfcf69780c5afb5914a3674bd638ae6f9d12d48dd6fa1077e2761d07e5",
+   "url": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+   "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+   "published_at": "2026-09-16T15:27:49Z",
+   "published_raw": "2026-09-16T20:57:49.983+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.\n\nThe cybersecurity vendor said it has identified attacks mounted by NightEagle (aka APT-Q-95), a threat actor known to be active since at least 2023, that involve new techniques for persistence and lateral movement.",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6093167374553606360",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMMZZrs8eh-baUC-73E9tejQYA0JZzWyoElUJGhCi0N4_f2EzmPPhQW3xY0kmNZv775T26ywu4czdta-vHaLp1gaI03eqho2SSe3riHMZP8hLTrU1ETnIv-k1ywOpnBFvbkyQJNZt7F4Xx4NndvvS8esTt1jzaCdeN9JZNkNB8sBU1vytibSRAjMsLZzc6/s260-e100/russian-groups.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -659,40 +713,13 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:11c8b517d375b0496d90fd5b7053a9fccbb014769553e3bd5d643eace4869326",
-   "url": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
-   "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
-   "published_at": "2026-09-11T07:14:09Z",
-   "published_raw": "2026-09-11T12:44:09.735+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security company Gen Digital said in&nbsp;research published Thursday.\n\nThe attack started with a crafted link and ended with the attacker able to do anything the logged-in user could do. Tencent, which owns",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2669861340259544523",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp8vDxYtUGwWuRZlSSBh2ghvSf6GTi_VlTQSQXTaIWSlQgHY_imEfl4hyAcrhPz9w3_ejmdAKK7ZeOt5gBsNZI7mhxJsnbyLT8Bo6O6HdM01yCNuDjuz-IU64LRuAuVDOzh2Z0vLhvzwP9PUUBKE_OLn0YD7m74-kZpo1dr5c0hzCMRHxrgfIzjk9MnR4/s260-e100/chinese.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:af3b87dfbf9c12604305a1c0d7c39537afe6ee92275ca2a8ea6af80ed1fc02e9",
    "url": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
    "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
    "published_at": "2026-09-11T06:46:18Z",
    "published_raw": "2026-09-11T12:16:18.155+05:30",
    "categories": [
-    "vulnerability"
+    "cyber-attack"
    ],
    "description": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation.\n\nThe software development company said PaperCut NG/MF versions 26.0.5, 25.0.13 and 24.1.10 are now available for customers to download.\n\n\"These are Regular Maintenance Releases (MR) that",
    "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6399687826174854081",
@@ -733,6 +760,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkLW3i6mB4uE2g7Ze6CDAess3UTTeol7YmRP-N3uTkLJHPglZc0BHvTlESyulvcTp05ObPwuGY5XHqV9q599pqLmK-ypamAPNUdHa9y-34Q4IEE3EBId9UrN9L0J3zK1TTf1Atovhkz51Gk_2gul7DmjvLmJd7BbwgqMhmVODTiQUuqu_IdFFGJt0WAiC_/s260-e100/paper.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:11c8b517d375b0496d90fd5b7053a9fccbb014769553e3bd5d643eace4869326",
+   "url": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
+   "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
+   "published_at": "2026-09-11T07:14:09Z",
+   "published_raw": "2026-09-11T12:44:09.735+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security company Gen Digital said in&nbsp;research published Thursday.\n\nThe attack started with a crafted link and ended with the attacker able to do anything the logged-in user could do. Tencent, which owns",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2669861340259544523",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp8vDxYtUGwWuRZlSSBh2ghvSf6GTi_VlTQSQXTaIWSlQgHY_imEfl4hyAcrhPz9w3_ejmdAKK7ZeOt5gBsNZI7mhxJsnbyLT8Bo6O6HdM01yCNuDjuz-IU64LRuAuVDOzh2Z0vLhvzwP9PUUBKE_OLn0YD7m74-kZpo1dr5c0hzCMRHxrgfIzjk9MnR4/s260-e100/chinese.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
