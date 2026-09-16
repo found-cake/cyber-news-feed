@@ -1,15 +1,52 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-16T17:00:34Z",
+ "updated_at": "2026-09-16T18:00:37Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-16T17:00:34Z",
+  "last_success_at": "2026-09-16T18:00:37Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:3c22897a5787ca0a32d66a6276b4aeb0a1cf7925043fe6d314e4a090ebb8f34e",
+   "url": "https://cybersecuritynews.com/check-point-root-access-flaw",
+   "title": "Check Point Vulnerability Lets Remote Hackers Gain Root Access Without Authentication",
+   "published_at": "2026-09-16T17:14:35Z",
+   "published_raw": "Wed, 16 Sep 2026 17:14:35 +0000",
+   "categories": [
+    "Cyber Attack News",
+    "Cyber Security News",
+    "Vulnerability News",
+    "cyber security",
+    "vulnerability"
+   ],
+   "description": "<p>Check Point has released an urgent security fix for CVE-2026-91843, a critical stack-based buffer overflow that could let an unauthenticated remote attacker execute arbitrary code with root privileges on vulnerable security management and logging systems. The flaw carries a CVSS 3.1 score of 9.8, reflecting a network-accessible attack requiring low complexity, no privileges, and no [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/check-point-root-access-flaw/\">Check Point Vulnerability Lets Remote Hackers Gain Root Access Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=163641",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Check-Point-Root-Access-Flaw.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "163641",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Check Point has released an urgent security fix for CVE-2026-91843, a critical stack-based <a href=\"https://cybersecuritynews.com/what-is-buffer-overflow/\" target=\"_blank\" rel=\"noopener\">buffer overflow</a> that could let an unauthenticated remote attacker execute arbitrary code with root privileges on vulnerable security management and logging systems. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw carries a CVSS 3.1 score of 9.8, reflecting a network-accessible attack requiring low complexity, no privileges, and no user interaction.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability occurs during login, where an excessively long attacker-controlled username can trigger a stack overflow before authentication completes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Successful exploitation could give an adversary the highest level of operating-system control, potentially exposing management data, security policies, administrator information, and collected logs while enabling further compromise of the protected environment. </p>\n\n\n\n<h2 id=\"h-check-point-vulnerability-enables-root-access\" class=\"wp-block-heading\"><strong>Check Point Vulnerability Enables Root Access</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Check Point has not publicly described the exploit chain or said it has observed attacks in the wild. Affected products include Security Management Server, Multi-Domain Security Management Server, Log Server, and Multi-Domain Log Server.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Vulnerable releases comprise R82.20; R82.10 with Jumbo Hotfix Take 44 or earlier; R82 with Take 126 or earlier; R81.20 with Take 166 or earlier; and end-of-support R81.10 with Take 190 or earlier. R80 through R80.40 and R81, which are also end-of-support, remain affected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to the advisory <a href=\"https://support.checkpoint.com/results/sk/sk1000155\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">published by Check Point</a>, Check Point says Smart-1 Cloud is not vulnerable because the correction has already been deployed in that environment.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Defenders should immediately examine SmartConsole Audit and Admin login records for the message “Administrator failed to log in: Username too long.” </p>\n\n\n\n<p class=\"wp-block-paragraph\">This entry may indicate an attempt to deliver the oversized input associated with the flaw, although teams should investigate surrounding activity before treating it as proof of successful root-level compromise. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Preserve relevant source addresses, timestamps, administrator login events, configuration changes, and unusual management-server processes for incident-response analysis.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Check Point has delivered the correction through Check Point LivePatch. Customers with automatic <a href=\"https://cybersecuritynews.com/check-point-vpn-vulnerabilities/\" target=\"_blank\" rel=\"noopener\">security updates</a> enabled under sk175504 should receive protection automatically, but administrators should verify deployment rather than assume coverage. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Offline packages are available as urgent security update Take 29 for R82.20 and Take 28 for R82.10, R82, and R81.20. The LivePatch must be installed across every affected Security Management, Multi-Domain Security Management, and Log Server.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators can validate protection by entering Expert mode and running cplp list on each management or log server. A protected system should show the fwm:fwm patch in “armed” status with “livepatch” mode and CVE-2026-91843 in the comment field.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Until remediation is confirmed, organizations should restrict SmartConsole Trusted Clients to approved IP addresses or subnets through Manage &amp; Settings, Permissions &amp; Administrators, and Trusted Clients. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Check Point specifically warns against selecting “Any” as the client type. Because compromise would yield root access without credentials, <a href=\"https://cybersecuritynews.com/check-point-authentication-bypass-flaw/\" target=\"_blank\" rel=\"noopener\">exposed management interfaces</a> and unsupported releases warrant immediate action, with migration to a supported branch treated as a priority rather than a substitute for applying the available fix.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/check-point-root-access-flaw/\">Check Point Vulnerability Lets Remote Hackers Gain Root Access Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:7530f218c7a32199b78b538161b8e432a3c005fe1ea77e0e56bca39d437112ad",
    "url": "https://cybersecuritynews.com/centerpoint-energy-data-breach",
