@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-09-16T14:00:33Z",
+ "updated_at": "2026-09-16T15:01:08Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-16T14:00:33Z",
+  "last_success_at": "2026-09-16T15:01:08Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b2d0e525c62a543d7e957e56f7f4e10942a4d3b659b1cd297a25862aa3ad9544",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208520",
+   "title": "구글 픽셀 모뎀 제로데이 실제 악용…사용자 조작 없이 권한 상승",
+   "published_at": "2026-09-16T23:33:03Z",
+   "published_raw": "2026-09-16 23:33:03",
+   "categories": [
+    "이슈"
+   ],
+   "description": "구글이 픽셀(Pixel) 스마트폰의 셀룰러 모뎀에서 발견된 제로데이 취약점이 실제 표적 공격에 악용된 정황을 확인하고 보안 업데이트를 배포했다.구글은 9월 15일 공개한 ‘2026년 9월 픽셀 업데이트 게시판’을 통해 CVE-2026-58704 취약점을 수정했다고 밝혔다. 이 취약점은 위험도 ‘높음(High)’으로 분류됐으며 CVSS 점수는 8.0이다.구글은 “CVE-2026-58704가 제한적인 표적 공격에 악용되고 있다는 징후가 있다”고 밝혔다. 광범위한 무차별 공격보다는 특정 사용자를 노린 공격에서 사용됐을 가능성을 보여주는",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:12aa178a079ffcd9a682c3973821705f531b47699790e883d26fdb80c3ba8ace",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208519",
+   "title": "우커머스 플러그인 치명적 취약점 실제 악용…PHP 웹셸 심어 사이트 장악",
+   "published_at": "2026-09-16T23:04:02Z",
+   "published_raw": "2026-09-16 23:04:02",
+   "categories": [
+    "이슈"
+   ],
+   "description": "워드프레스 기반 온라인 쇼핑몰에서 사용하는 우커머스 도매 리드 캡처 플러그인의 치명적 취약점을 노린 실제 공격이 이어지고 있다. 공격자는 별도의 로그인 과정 없이 악성 PHP 파일을 서버에 올린 뒤 웹셸을 설치해 사이트를 장악할 수 있다.문제가 된 취약점은 CVE-2026-27540으로, CVSS 위험도는 9.8점이다. 2026년 2월 20일 공개됐으며 우커머스 도매 리드 캡처 2.0.3.1 이하 버전이 영향을 받는다. 보안 패치는 2.0.3.2 버전에 적용됐다. 이 플러그인은 약 6,000개 워드프레스 사이트에서 사용되는 것으로",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:2c3e0cf647cc8e41ac1dfeae3605457e34d852568b21e424d96271333ddb1fb5",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208518",
