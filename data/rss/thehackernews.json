@@ -1,15 +1,96 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-16T11:00:34Z",
+ "updated_at": "2026-09-16T12:00:32Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-16T11:00:34Z",
+  "last_success_at": "2026-09-16T12:00:32Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:5a937b962d20ac975d21b84f7e06b7f522e3af28dd11977d8c73eec7b0150771",
+   "url": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
+   "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
+   "published_at": "2026-09-16T11:15:48Z",
+   "published_raw": "2026-09-16T16:45:48.805+05:30",
+   "categories": [
+    "threat-intelligence"
+   ],
+   "description": "A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security teams have triaged the alert. Attackers are combining that kind of intelligence with AI-assisted exploitation to accelerate the path from exposure to breach faster than most security programs are built to react.",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1135036574254124465",
+   "authors": [
+    {
+     "name": "Unknown",
+     "uri": "",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNTaZ2mJpwks9AMkwh4I_Q5sK5sgj01Fd4eW4c47_ZsHN_8hKPjptnlJ_P0RboejQy7PB6Ad4UXLFggJXAGlVsBigp46txL8LoSlpMuwQ0sXkAPQZ4TYtg89jNIa6SLPxuv-YC-_LlNZq2FZdNHRnrP_iQUYPSj2-MzugjnlL_CrIJw80lMzbVCZEf0x8/s260-e100/pentera.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:8f4404937cb63f29b4d89ed4a114969e028ca131e8756bfc016f2a6d90bca3e7",
+   "url": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+   "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+   "published_at": "2026-09-16T11:15:58Z",
+   "published_raw": "2026-09-16T16:45:58.769+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-58704 (CVSS score: 8.0), is a privilege escalation flaw.\n\n\"In Cellular Modem, there is a possible permission bypass due to a logic error in the code,\" according to a description of the bug in the NIST National Vulnerability Database",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7136716733241952370",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdVCezHTU2PU4DuL9ysF0nQFJLLR2QyxyexdJN5iv1QQnl4-mFFupADzryOhW_lsM_nI5OgHH5krMBLOErLl9GNmyJeaGEDGQNnhhyphenhyphenNs2ZXIwBLTIY8poIVxLKPNRRAipPFbKv_a7CPzE86rB_nItrsiirydPRuCZrvkDymktX28d1O7kSbEhIgmEPh6oy/s260-e100/pixel.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:7b88c993f3771bfa6b77538b5c04df8131f56ad8949a450c491314dddc187bed",
+   "url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+   "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+   "published_at": "2026-09-16T11:08:54Z",
+   "published_raw": "2026-09-16T16:38:54.126+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions -\n\n\n  Acronis Backup plugin for cPanel &amp; WHM (Linux",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-321571732072475142",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOvbeWtAztd1-F4zbNa4Ei7kEh-C7s4QGW-rmB8ug7-mXRIcdL_mAqtAA_hqAG7QtaHUMTxSYa5dFw0080LoR66SUCPLGybqueRLeUJvQQ6unmg4WqExx08rrv0NZaZkQldGURtIDMZRpregBaFLhjws2d_eRt0I0VcZdaSGZS6twj0AvBK74TAJx-veBz/s260-e100/acronis.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:eee1a3572e34c6fdafebf2591e3dec3e0f826cc7e7cdcc14e007c9e54fbfe6dc",
    "url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
@@ -632,6 +713,33 @@
    "source_metadata": {}
   },
   {
+   "id": "sha256:cd20e349d2f5a9cf928353b6a2bf9c07dc13b1601848206d1461a85ec1d35bd0",
+   "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
+   "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
+   "published_at": "2026-09-10T11:41:53Z",
+   "published_raw": "2026-09-10T17:11:53.824+05:30",
+   "categories": [
+    "cyber-attack"
+   ],
+   "description": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security flaws in PaperCut NG/MF and break into hundreds of instances.\n\nAccording to independent reports from Blackpoint Cyber and GreyNoise, the activity originates from \"45.142.193[.]132,\" an IP address that has been linked to",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3120241237279291508",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkLW3i6mB4uE2g7Ze6CDAess3UTTeol7YmRP-N3uTkLJHPglZc0BHvTlESyulvcTp05ObPwuGY5XHqV9q599pqLmK-ypamAPNUdHa9y-34Q4IEE3EBId9UrN9L0J3zK1TTf1Atovhkz51Gk_2gul7DmjvLmJd7BbwgqMhmVODTiQUuqu_IdFFGJt0WAiC_/s260-e100/paper.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
    "id": "sha256:33af29f71c8c922142379d8629f55388d5af9ede192d46f6db112e2f7ad771c0",
    "url": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
    "title": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE",
@@ -652,33 +760,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyc0Kqar7_6N4y9ymGxw8ukQCQbqQ_pGCfnoXYMBZoNZK1w3ljkO26S_rhVhJaIVcx8rcEK95njKyaYj5g63VByKh8ncf_s84nUBWoyEbWZH6uaLYjnu5fNt_TC9wz-r6P_RTJgZ83Z5wmurzSb9_lHVfV1t9STts4WCZr18AH-3XRHTn5pj15uURIM-0/s260-e100/checkpoint.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:cd20e349d2f5a9cf928353b6a2bf9c07dc13b1601848206d1461a85ec1d35bd0",
-   "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
-   "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
-   "published_at": "2026-09-10T11:41:53Z",
-   "published_raw": "2026-09-10T17:11:53.824+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security flaws in PaperCut NG/MF and break into hundreds of instances.\n\nAccording to independent reports from Blackpoint Cyber and GreyNoise, the activity originates from \"45.142.193[.]132,\" an IP address that has been linked to",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3120241237279291508",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkLW3i6mB4uE2g7Ze6CDAess3UTTeol7YmRP-N3uTkLJHPglZc0BHvTlESyulvcTp05ObPwuGY5XHqV9q599pqLmK-ypamAPNUdHa9y-34Q4IEE3EBId9UrN9L0J3zK1TTf1Atovhkz51Gk_2gul7DmjvLmJd7BbwgqMhmVODTiQUuqu_IdFFGJt0WAiC_/s260-e100/paper.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
