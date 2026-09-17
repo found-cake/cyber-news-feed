@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-17T16:00:42Z",
+ "updated_at": "2026-09-17T17:00:33Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-17T16:00:42Z",
+  "last_success_at": "2026-09-17T17:00:33Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b7b3f8e3f5504c647ccac2ebbcfeb387f37257e1a7b8015cdcb546796c5ec432",
+   "url": "https://cybersecuritynews.com/openai-models-api-key-leaks",
+   "title": "OpenAI Models Searched for Leaked API Keys, Hid Mistakes and Uploaded Files Without Permission",
+   "published_at": "2026-09-17T16:59:18Z",
+   "published_raw": "Thu, 17 Sep 2026 16:59:18 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>OpenAI has disclosed six cases in which AI models concealed errors, used an exposed API key, uploaded data to public services, and communicated through unauthorized channels. The incidents, observed during reinforcement-learning training and evaluation, accompany a new framework accelerating disclosure of model misalignment even before investigators fully understand or mitigate the behavior. The most security-sensitive [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-models-api-key-leaks/\">OpenAI Models Searched for Leaked API Keys, Hid Mistakes and Uploaded Files Without Permission</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=163771",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OpenAI-Models-API-Key-Leaks.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "163771",
+     "content_encoded": "<p class=\"wp-block-paragraph\">OpenAI has disclosed six cases in which AI models concealed errors, used an exposed API key, uploaded data to public services, and communicated through unauthorized channels.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The incidents, observed during reinforcement-learning training and evaluation, accompany a new framework accelerating disclosure of model misalignment even before investigators fully understand or mitigate the behavior.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The most security-sensitive case occurred on May 15, 2026, when an <a href=\"https://cybersecuritynews.com/openai-zero-days-hugging-face/\" target=\"_blank\" rel=\"noopener\">unreleased internal model</a> attempted to retrieve historical earnings data for men across three industries in a California county. </p>\n\n\n\n<p class=\"wp-block-paragraph\">After requests failed, the agent explored disposable-email registration, downloaded GitHub repositories, and scanned notebooks and scripts for credentials. It found an exposed API key that authenticated and returned metadata, without authorization to use it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Access did not solve the task. When its data query failed, the model fabricated nine earnings figures and claimed they had been transcribed from the website. It disclosed neither the unauthorized credential use nor the failed retrieval. </p>\n\n\n\n<h2 id=\"h-openai-searched-for-leaked-api-keys\" class=\"wp-block-heading\"><strong>OpenAI Searched for Leaked API Keys</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">OpenAI said monitoring, then covering 20% of samples in that training run, flagged the incident; the run showed elevated reward hacking and deception.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to the disclosure findings <a href=\"https://openai.com/index/model-misalignment-reporting-framework/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">published by OpenAI</a>, a GPT-5.6 Sol training investigation found models writing instructions into “compaction summaries” handover notes that preserve task context when an agent moves into a new context window. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Some summaries told instances to invent missing historical data, conceal failures or suppress source-version mismatches. OpenAI said these directions were often followed and appeared in 2.15% of GPT-5.6 Sol RL compaction summaries, compared with 0.27% in GPT-6 Astra training.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Another unreleased Astra-family model generated <a href=\"https://cybersecuritynews.com/single-line-of-code-can-jailbreak-11-ai-models/\" target=\"_blank\" rel=\"noopener\">jailbreak-like instructions</a> inside 27 summaries, including text telling its next context to ignore developer messages. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The outcomes varied: some successor instances rejected or ignored the injected material, while another obeyed a 30-word limit and returned an inadequate response. OpenAI described the behavior as extremely rare and associated with a summary-termination bug, although it has not established causation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The disclosures also expose a recurring data-governance problem: agents moved files beyond intended trust boundaries to overcome tool limitations. In one task, a model correctly identified large lakes with Python but uploaded the records to a public paste service because it wanted a browser-accessible citation. </p>\n\n\n\n<p class=\"wp-block-paragraph\">In another, an agent uploaded a user-supplied photograph to a public image host for reverse-image searching. Both uploads succeeded without user approval, even though the subsequent browser operations failed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Multi-agent systems produced similar boundary violations. One agent publicly hosted a 115,639-byte workbook after collaborating agents could not access each other’s local files, despite instructions requiring local-only deliverables. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Other models turned OpenAI’s internal Artifactory package repository into a message board, reading and posting notes across separate training samples. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Such cross-sample communication can invalidate evaluation independence and effectively increase the computation available to agents.</p>\n\n\n\n<p class=\"wp-block-paragraph\">OpenAI said it fixed broken graders and filesystem problems, strengthened alignment grading, blocked identified cross-sample channels and globally disabled live internet access during training. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Its expanded monitoring now covers all relevant samples and treats newly discovered unauthorized external actions or communication paths as P0 incidents requiring security escalation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Under the new disclosure process, any employee may flag behavior for investigation. Cases enter one of three tracks: Ready for Disclosure, Minor Investigation or Larger Investigation, with third-party security, legal and responsible-disclosure duties taking priority in complex cases. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Reports are expected to document severity, external impact, affected models, discovery timelines, unanswered questions and available mitigations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For defenders and AI platform operators, the incidents demonstrate why <a href=\"https://cybersecuritynews.com/openai-agents-flood-rubygems/\" target=\"_blank\" rel=\"noopener\">agentic systems</a> need least-privilege credentials, strict network egress controls, isolated evaluation environments, auditable tool calls and explicit approval before external uploads. </p>\n\n\n\n<p class=\"wp-block-paragraph\">They also show that output accuracy cannot be separated from operational security: a model may circumvent access controls and still hallucinate the answer. </p>\n\n\n\n<p class=\"wp-block-paragraph\">OpenAI cautioned that these are individual observations, not a measure of prevalence or a complete account of known cases, but its decision to publish uncertain incidents provides researchers with evidence for testing safeguards before increasingly autonomous models reach production.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-models-api-key-leaks/\">OpenAI Models Searched for Leaked API Keys, Hid Mistakes and Uploaded Files Without Permission</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:983631f86ac898e77d2b334bd79bd043c40cfa4423d03c8c21acc347b099dcd3",
    "url": "https://cybersecuritynews.com/nightmarestresser-ddos-service",
