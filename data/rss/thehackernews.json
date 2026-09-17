@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-17T07:00:33Z",
+ "updated_at": "2026-09-17T08:00:32Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-17T07:00:33Z",
+  "last_success_at": "2026-09-17T08:00:32Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -31,6 +31,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNTaZ2mJpwks9AMkwh4I_Q5sK5sgj01Fd4eW4c47_ZsHN_8hKPjptnlJ_P0RboejQy7PB6Ad4UXLFggJXAGlVsBigp46txL8LoSlpMuwQ0sXkAPQZ4TYtg89jNIa6SLPxuv-YC-_LlNZq2FZdNHRnrP_iQUYPSj2-MzugjnlL_CrIJw80lMzbVCZEf0x8/s260-e100/pentera.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6829fa0c1a468f194cc62ce4cda2e186d6ebe75071c86a528a3be2d9c1d6f4ca",
+   "url": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
+   "title": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
+   "published_at": "2026-09-17T08:00:29Z",
+   "published_raw": "2026-09-17T13:30:29.932+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The Internet Systems Consortium (ISC) has released&nbsp;BIND 9.20.29 and 9.21.26&nbsp;to fix fourteen security flaws it&nbsp;disclosed&nbsp;on 16 September in BIND 9, its open-source DNS server software. One of them affects any BIND server that answers DNS-over-HTTPS (DoH).\n\nA sender with no credentials can crash the server process,&nbsp;named, with a single request that carries an invalid SIG",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8744789023319182803",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEd6WLqBvkSx9Y2P6HrNL-VApj7Xb05Wlhnw4pPW6-X9NwGiAeAm_Hf4KYj_1hEy6uITGe8kh3xgYeTAha8nR5inx0snMzfWGP2Qd8kRuiOp0h4O49J-33kPpA1cuGhClV2qAvPyhyr2BqSYj9ZIvI6c-wncUNGESpGK-3tivnS-HIrOj9ZdSJALq_8Ts/s260-e100/bind9.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:9b2affb8fdaab7e27581ffe0d0ce5050493537258d261ff8d5a5195271ca89a5",
+   "url": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
+   "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
+   "published_at": "2026-09-17T07:30:01Z",
+   "published_raw": "2026-09-17T13:00:01.997+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A security breach at Gyazo, Helpfeel's image-sharing service, exposed about 23.62 million user records, including email addresses and password hashes, the Kyoto-based company said in a&nbsp;notice&nbsp;published Wednesday.\n\nIt also exposed about 490 million image metadata records, mostly for images from January 2019 or earlier, including the IDs that make up Gyazo image links.\n\nHelpfeel said",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6884133441255088271",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjo_VMcM5A8FocwrVqXOjmk-BvMd3D_JA6RIur9wT4Gca5jQjiLLinldpcu3u2hWmJQeJZg5nhVRBwxHe2y0BHg1TZEd046RkPLatyX5JN-7_WtuRyPMX3VnMCAs7tfCYOSghFuBCUT6HFyCBH-bLeAPWlAj9TPtAn1sitCktd2vp_pJr6VtzHd2_EFDpo/s260-e100/gyazo.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -659,60 +713,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:a8b89596a45d74f224ef68bc8f12267559b424fc23b6ddc8fd4de3d5ee46e479",
-   "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
-   "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
-   "published_at": "2026-09-11T16:30:18Z",
-   "published_raw": "2026-09-11T22:00:18.938+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure.\n\nThe vulnerability in question is CVE-2026-85706 (CVSS score: 10.0), a path traversal issue in the repository commits API that could allow an unauthenticated user to read arbitrary files from the GitLab server under",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8207261269349575298",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioFH6aWhF9NgRW1O3yFExc7paTA9akN5-3IUQF8mvEiSTaFJjKvm6YQzFX6MP2uimYplHe1MJXz6eZtPtnxaLy25jJBhU6KuhsWFpIlnqhbn6OI6QTcfp6Olp1-VDUEF4KEYFF7hQDBdmgtxibsg9MkvbcOJIlR8Of2Flyw2m9zYfXC6gUm-TV8XA6vU43/s260-e100/gitlab-wild.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:336c262bc83ef09401876afe67f4051db83548563deaf343aeaab7aeefc9001f",
-   "url": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
-   "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
-   "published_at": "2026-09-11T11:30:00Z",
-   "published_raw": "2026-09-11T17:00:00.000+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually create a path to compromise.\n\nA critical vulnerability may look alarming on a scanner report, but if it sits behind strong segmentation, identity controls, and other defenses that prevent an attacker",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-217916837299982814",
-   "authors": [
-    {
-     "name": "Unknown",
-     "uri": "",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPPe_ve3Cylrq2fJ8HTFPebWF7lR7tvzMvL3mwFcGZNF2KWesOGc66BfO7NbiPxmsiao8jcItyikguKNqsEGfpJEcAvacbP7rflAaAT-e0Y1IbsNCNvdqvXMbwERLlPpV0PMhk9c5esoEjCE97wglh8rU9xZ7eGz2N4BOpzFYTb9-Ln3FaBRQiscqzK7U/s260-e100/breachlock.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:af3b87dfbf9c12604305a1c0d7c39537afe6ee92275ca2a8ea6af80ed1fc02e9",
    "url": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
    "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
@@ -760,6 +760,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkLW3i6mB4uE2g7Ze6CDAess3UTTeol7YmRP-N3uTkLJHPglZc0BHvTlESyulvcTp05ObPwuGY5XHqV9q599pqLmK-ypamAPNUdHa9y-34Q4IEE3EBId9UrN9L0J3zK1TTf1Atovhkz51Gk_2gul7DmjvLmJd7BbwgqMhmVODTiQUuqu_IdFFGJt0WAiC_/s260-e100/paper.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:a8b89596a45d74f224ef68bc8f12267559b424fc23b6ddc8fd4de3d5ee46e479",
+   "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+   "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+   "published_at": "2026-09-11T16:30:18Z",
+   "published_raw": "2026-09-11T22:00:18.938+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure.\n\nThe vulnerability in question is CVE-2026-85706 (CVSS score: 10.0), a path traversal issue in the repository commits API that could allow an unauthenticated user to read arbitrary files from the GitLab server under",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8207261269349575298",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioFH6aWhF9NgRW1O3yFExc7paTA9akN5-3IUQF8mvEiSTaFJjKvm6YQzFX6MP2uimYplHe1MJXz6eZtPtnxaLy25jJBhU6KuhsWFpIlnqhbn6OI6QTcfp6Olp1-VDUEF4KEYFF7hQDBdmgtxibsg9MkvbcOJIlR8Of2Flyw2m9zYfXC6gUm-TV8XA6vU43/s260-e100/gitlab-wild.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:336c262bc83ef09401876afe67f4051db83548563deaf343aeaab7aeefc9001f",
+   "url": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
+   "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
+   "published_at": "2026-09-11T11:30:00Z",
+   "published_raw": "2026-09-11T17:00:00.000+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually create a path to compromise.\n\nA critical vulnerability may look alarming on a scanner report, but if it sits behind strong segmentation, identity controls, and other defenses that prevent an attacker",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-217916837299982814",
+   "authors": [
+    {
+     "name": "Unknown",
+     "uri": "",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPPe_ve3Cylrq2fJ8HTFPebWF7lR7tvzMvL3mwFcGZNF2KWesOGc66BfO7NbiPxmsiao8jcItyikguKNqsEGfpJEcAvacbP7rflAaAT-e0Y1IbsNCNvdqvXMbwERLlPpV0PMhk9c5esoEjCE97wglh8rU9xZ7eGz2N4BOpzFYTb9-Ln3FaBRQiscqzK7U/s260-e100/breachlock.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
