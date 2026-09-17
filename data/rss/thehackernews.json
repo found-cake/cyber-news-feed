@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-17T15:00:33Z",
+ "updated_at": "2026-09-17T16:00:42Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-17T15:00:33Z",
+  "last_success_at": "2026-09-17T16:00:42Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -31,6 +31,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNTaZ2mJpwks9AMkwh4I_Q5sK5sgj01Fd4eW4c47_ZsHN_8hKPjptnlJ_P0RboejQy7PB6Ad4UXLFggJXAGlVsBigp46txL8LoSlpMuwQ0sXkAPQZ4TYtg89jNIa6SLPxuv-YC-_LlNZq2FZdNHRnrP_iQUYPSj2-MzugjnlL_CrIJw80lMzbVCZEf0x8/s260-e100/pentera.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c7d368380dd4413bae99eca7e351f8eb153b293d7b182ed5ae05d8e9ff168dab",
+   "url": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
+   "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
+   "published_at": "2026-09-17T15:37:56Z",
+   "published_raw": "2026-09-17T21:07:56.355+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Docker warns in a&nbsp;security announcement&nbsp;on September 15.\n\nThe escape runs with the rights of the host account that runs the virtual machine. The flaw,&nbsp;CVE-2026-77179, is rated Critical, affects versions",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1927707051539910948",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJbYvRH1MRTGK43JYSWe2X3djxWAuNa3_r94FvOPBjt9sWrkRiEQi7D0DPksj3NH9vDPjm7MGSGY9UEc7JqePjd4aA-c4zuMzLZXH0Y5NWKWGnzNgbFe0tYlEFSFLrJFWVRuRKs_PQN8IKkdzYYNn8T7YWuUkZC4_2skq3deXYAw7i0aqWdx6G0FQwVzs/s260-e100/docker-macos.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -686,33 +713,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:0c1a781fba3e0a0af363f056ebd751a286d5532946d29ad9b48f25f443dc9589",
-   "url": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
-   "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
-   "published_at": "2026-09-14T16:00:04Z",
-   "published_raw": "2026-09-14T21:30:04.174+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "WordPress has announced it's launching an automated security review for every release of a plugin before it's distributed through the WordPress.org update API so as to analyze it for potential security issues and ensure there are no risks involved.\n\n\"New plugins are reviewed before they enter the directory, but updates ship continuously after that,\" David Perez, WordPress Official Plugin",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7272229754543414838",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6NRxf0-3Ca12cwdQVS-bicsxwk-06KQZJaLMbd2d217NkuO82Bld3P_E96WP8OEqZXSjDoLtW0JfnRYkQSyl0BlQDNkQoBOf7x-Q5wOmpc59Z4v1ycux0YWShQpPIyvYmMmIRJ0c5Zv_38VFrhwtdcdoxycqIm0b5Df7AeYjbr-8KCJlbujHVhmpvdtrk/s260-e100/wordpress-auto.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:0ddc7c58e041304080d6a0b0c9112048113b0133c17e5268e4c73655190613eb",
    "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
    "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
@@ -787,6 +787,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkLW3i6mB4uE2g7Ze6CDAess3UTTeol7YmRP-N3uTkLJHPglZc0BHvTlESyulvcTp05ObPwuGY5XHqV9q599pqLmK-ypamAPNUdHa9y-34Q4IEE3EBId9UrN9L0J3zK1TTf1Atovhkz51Gk_2gul7DmjvLmJd7BbwgqMhmVODTiQUuqu_IdFFGJt0WAiC_/s260-e100/paper.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:0c1a781fba3e0a0af363f056ebd751a286d5532946d29ad9b48f25f443dc9589",
+   "url": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
+   "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
+   "published_at": "2026-09-14T16:00:04Z",
+   "published_raw": "2026-09-14T21:30:04.174+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "WordPress has announced it's launching an automated security review for every release of a plugin before it's distributed through the WordPress.org update API so as to analyze it for potential security issues and ensure there are no risks involved.\n\n\"New plugins are reviewed before they enter the directory, but updates ship continuously after that,\" David Perez, WordPress Official Plugin",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7272229754543414838",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6NRxf0-3Ca12cwdQVS-bicsxwk-06KQZJaLMbd2d217NkuO82Bld3P_E96WP8OEqZXSjDoLtW0JfnRYkQSyl0BlQDNkQoBOf7x-Q5wOmpc59Z4v1ycux0YWShQpPIyvYmMmIRJ0c5Zv_38VFrhwtdcdoxycqIm0b5Df7AeYjbr-8KCJlbujHVhmpvdtrk/s260-e100/wordpress-auto.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
