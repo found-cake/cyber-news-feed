@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-09-18T14:00:31Z",
+ "updated_at": "2026-09-18T15:00:37Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-18T14:00:31Z",
+  "last_success_at": "2026-09-18T15:00:37Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:4b0cb8cbbf871a462a77a84ef855ddd38861abe699e08425631b9188444644c1",
+   "url": "https://www.securityweek.com/in-other-news-ransomware-developer-sentenced-plugin4shell-ai-attack-critical-sap-flaw",
+   "title": "In Other News: Ransomware Developer Sentenced, Plugin4Shell AI Attack, Critical SAP Flaw",
+   "published_at": "2026-09-18T14:25:00Z",
+   "published_raw": "Fri, 18 Sep 2026 14:25:00 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "Cybercrime",
+    "Vulnerabilities",
+    "In Other News"
+   ],
+   "description": "<p>Noteworthy stories that might have slipped under the radar: Mandiant's 2026 AI risk report, PhantomRaven malware used by bug bounty hunter, WordPress plugin bug exploited.</p>\n<p>The post <a href=\"https://www.securityweek.com/in-other-news-ransomware-developer-sentenced-plugin4shell-ai-attack-critical-sap-flaw/\">In Other News: Ransomware Developer Sentenced, Plugin4Shell AI Attack, Critical SAP Flaw</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49440",
+   "authors": [
+    {
+     "name": "SecurityWeek News",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:9d71115024b9abde2d56fbcb37bc9feaccc14b89657a31561b68925106528241",
    "url": "https://www.securityweek.com/ai-built-exploit-and-sign-in-flaw-opened-path-to-internal-openai-code",
@@ -3319,39 +3353,6 @@
    "authors": [
     {
      "name": "Mike Lennon",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:5ee93892b1c9632214906127e72dc904109c78d898553c8fd6e64d8ca3337190",
-   "url": "https://www.securityweek.com/sap-patches-critical-extended-passport-processing-vulnerability",
-   "title": "SAP Patches Critical Extended Passport Processing Vulnerability",
-   "published_at": "2026-09-08T14:55:06Z",
-   "published_raw": "Tue, 08 Sep 2026 14:55:06 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "CVE-2026-44756",
-    "SAP"
-   ],
-   "description": "<p>Affecting the SAP kernel code, the flaw allows unauthenticated, remote attackers to run arbitrary commands, recover secrets, and modify data.</p>\n<p>The post <a href=\"https://www.securityweek.com/sap-patches-critical-extended-passport-processing-vulnerability/\">SAP Patches Critical Extended Passport Processing Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49156",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
      "uri": "",
      "email": ""
     }
