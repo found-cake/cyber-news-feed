@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-18T11:00:30Z",
+ "updated_at": "2026-09-18T12:00:34Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-18T11:00:30Z",
+  "last_success_at": "2026-09-18T12:00:34Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -31,6 +31,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNTaZ2mJpwks9AMkwh4I_Q5sK5sgj01Fd4eW4c47_ZsHN_8hKPjptnlJ_P0RboejQy7PB6Ad4UXLFggJXAGlVsBigp46txL8LoSlpMuwQ0sXkAPQZ4TYtg89jNIa6SLPxuv-YC-_LlNZq2FZdNHRnrP_iQUYPSj2-MzugjnlL_CrIJw80lMzbVCZEf0x8/s260-e100/pentera.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:68651eea862d133227bbc7fcd32f4ed2ba6541645b6dc62c29f5691973a4b922",
+   "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+   "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+   "published_at": "2026-09-18T11:01:01Z",
+   "published_raw": "2026-09-18T16:31:01.326+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm&nbsp;Air Security said on Thursday.\n\nThe firm said Anthropic has patched the flaw in Claude Code 2.1.179 and OpenAI in Codex 0.146.0, that GitHub Copilot has no",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-482687862344000368",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizNK9maRYTbrRVwr9_9b7Sm_IizPdRJh0AbH1GtKU1BNPrcxJydnUdRQxRxauE5p1ejpfk4ihANpP7HAoXbRCDD1Pu-ZZD1dnfzLFjysOSJm7gGRKYrkUjxVF-tX-0neJMQtN87iyk1DRD70hKKtFU_J6idWK4aoZr3k4DAz4q8pkjTfKTX10Vttaiwag/s260-e100/coding-agents.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -692,7 +719,7 @@
    "published_at": "2026-09-14T18:01:49Z",
    "published_raw": "2026-09-14T23:31:49.776+05:30",
    "categories": [
-    "vulnerability"
+    "cyber-attack"
    ],
    "description": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said.\n\nThe company uncovered the intrusion by examining a server the attacker had left open on the internet, which held the attacker's own tools and a list of",
    "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7726984315490046847",
@@ -1543,60 +1570,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0jB-6O69dYNeqBTcSFXPcSQCqwabmHwmdGzC_ne5LyuUH-9v0MpLbJ1cgApFSqTuGG0Z_fKAD4A7gLcBcTdw6oUIv0nh_Pmyb5Obv7XhRY0jVGwPQ50S7rUnYZR8FUvYntVxL03GYJ010-iagkPkeZJ8oV6gvbEaVJPGw-L2rabD5pqOOu2HYW9g_nFcT/s260-e100/chatgpt-gmail.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:9d6faaed701db5fba3b5a1e43abfb8b50e925b500282eb9f80b28d1f6c1588ce",
-   "url": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
-   "title": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls",
-   "published_at": "2026-09-08T11:54:29Z",
-   "published_raw": "2026-09-08T17:24:29.435+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and&nbsp;demonstrated it spreading&nbsp;among three test phones.\n\nThe person being called does not have to answer or touch their phone for it to work, but the caller must already be one of their WeChat contacts. Calif reported the flaw to Tencent in July and says the company has since",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8833146584062251325",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMjSG5iYgxvsWLWeFe2E-z5UDx0S4Q6zBQjkFEiKuFxcfplz39pE90jWcuiV7NcYqT6t2l8j5WWVBHdV-upHuzQVoy-pt4nL4WP7l-Uz_9AYFqOw1Pn0yI8LzM6OThlXJZY8_b4RVK0WzZYIsjWL96-2O-HHY1SH2FCtrE5c6nV0QJ0aU1X8FVlIvOs3g/s260-e100/wechat.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:9af5dfe944e1aeb426f02e2b4b754369e7cbb2b7962f02b1e034a5f2368b7bb3",
-   "url": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
-   "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
-   "published_at": "2026-09-08T11:22:07Z",
-   "published_raw": "2026-09-08T16:52:07.235+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says.\n\nFreeIPA is the system that determines who may log in across a Linux domain and maintains all identities in a 389 Directory Server database accessed via LDAP. The attack needs a second flaw in that database software.\n\nThe",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7137098154710920010",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSKAVaHcAsULrGXPVkGXRyf94eoG7Kv3X0wwK2lRC64l3Em-S4_H5iE8-poK04yzrAC18tuHqpZyHhJvFTgliu_z8jo4QR78Mi4ghhCA-cUVL4oj2zjoLGiWKmD16oV4i44VfY45DYll0Uij_Exf4U2JMSLJEyH8jZk_xXKq7O_7D73q7vTYCCc4hrTnQ/s260-e100/freeipa.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
