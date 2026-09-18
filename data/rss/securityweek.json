@@ -1,15 +1,92 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-09-18T10:00:36Z",
+ "updated_at": "2026-09-18T11:00:30Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-18T10:00:36Z",
+  "last_success_at": "2026-09-18T11:00:30Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:f48af9c3b8a8a97f33e17e2ab7042cdc42d2fe0ec95ba2c5c2afc9eedf60e868",
+   "url": "https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products",
+   "title": "Microsoft Patches 18 Vulnerabilities in AI, Cloud Products",
+   "published_at": "2026-09-18T10:57:03Z",
+   "published_raw": "Fri, 18 Sep 2026 10:57:03 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "Cloud Security",
+    "Vulnerabilities",
+    "AI",
+    "Azure",
+    "cloud",
+    "Copilot",
+    "Microsoft",
+    "patches",
+    "vulnerability"
+   ],
+   "description": "<p>Microsoft fixed vulnerabilities across Azure and AI-branded products, with privilege escalation flaws accounting for the majority.</p>\n<p>The post <a href=\"https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/\">Microsoft Patches 18 Vulnerabilities in AI, Cloud Products</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49431",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:f289c528e52b9f18283b2becd74e28ccad26103920990b2788138eed778d56ca",
+   "url": "https://www.securityweek.com/nightmarestresser-ddos-service-disrupted-in-international-operation",
+   "title": "NightmareStresser DDoS Service Disrupted in International Operation",
+   "published_at": "2026-09-18T10:12:33Z",
+   "published_raw": "Fri, 18 Sep 2026 10:12:33 +0000",
+   "categories": [
+    "Cybercrime",
+    "Tracking & Law Enforcement",
+    "DDoS",
+    "disrupted",
+    "law enforcement",
+    "NightmareStresser",
+    "takedown"
+   ],
+   "description": "<p>Active since at least 2022, NightmareStresser was one of the longest-running DDoS-for-hire services in the world.</p>\n<p>The post <a href=\"https://www.securityweek.com/nightmarestresser-ddos-service-disrupted-in-international-operation/\">NightmareStresser DDoS Service Disrupted in International Operation</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49428",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:34f78417b6de57905508e1ecb72ed9d33437fc1c4ee50b8cc00876347615fe2a",
    "url": "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites",
@@ -3266,74 +3343,6 @@
    ],
    "description": "<p>Dubbed MikroTrick, the bugs allow attackers to bypass authentication, overwrite configuration files, and take over devices.</p>\n<p>The post <a href=\"https://www.securityweek.com/mikrotik-patches-critical-flaws-chained-to-hack-routers/\">MikroTik Patches Critical Flaws Chained to Hack Routers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=49145",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:ac68ec43cbf2f30745116ed544c9f82f6a87c728654d8ca269d5201482543c71",
-   "url": "https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people",
-   "title": "Mathspace Data Breach Exposes Over 1 Million People",
-   "published_at": "2026-09-08T10:47:36Z",
-   "published_raw": "Tue, 08 Sep 2026 10:47:36 +0000",
-   "categories": [
-    "Data Breaches",
-    "data breach",
-    "Mathspace"
-   ],
-   "description": "<p>Hackers stole the information of students, teachers, staff, and parents/guardians from a self-hosted Metabase instance.</p>\n<p>The post <a href=\"https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/\">Mathspace Data Breach Exposes Over 1 Million People</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49143",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:b69fd79cd4d554c89f1d1ff345f3dbfa22c9077d098126bdfd8faf845c2107d2",
-   "url": "https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central",
-   "title": "N-able Patches Critical Zero-Day in N-central",
-   "published_at": "2026-09-08T10:37:58Z",
-   "published_raw": "Tue, 08 Sep 2026 10:37:58 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "CVE-2026-86218",
-    "Featured",
-    "N-central",
-    "Zero-Day"
-   ],
-   "description": "<p>Administrators are advised to check their deployments for newly created user accounts they don’t recognize.</p>\n<p>The post <a href=\"https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/\">N-able Patches Critical Zero-Day in N-central</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49141",
    "authors": [
     {
      "name": "Ionut Arghire",
