@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-19T15:00:37Z",
+ "updated_at": "2026-09-19T16:00:32Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-19T15:00:37Z",
+  "last_success_at": "2026-09-19T16:00:32Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:0c293eaf706a9d304c1ec57f022d6202bade78421ff0cc5d332f9c90d52d0d24",
+   "url": "https://cybersecuritynews.com/linux-kernel-vulnerabilities-actively-exploited",
+   "title": "CISA Warns of Linux Kernel Vulnerabilities Actively Exploited in Attacks",
+   "published_at": "2026-09-19T15:09:43Z",
+   "published_raw": "Sat, 19 Sep 2026 15:09:43 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned that attackers are actively exploiting three Linux kernel vulnerabilities, creating an urgent patching and investigation deadline. CISA added CVE-2025-39682, CVE-2026-53266, and CVE-2025-39964 to its Known Exploited Vulnerabilities catalog on September 18, 2026, with remediation required by September 21 under Binding Operational Directive 26-04. The KEV [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kernel-vulnerabilities-actively-exploited/\">CISA Warns of Linux Kernel Vulnerabilities Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=164019",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Linux-Kernel-Vulnerabilities-Actively-Exploited.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "164019",
+     "content_encoded": "<p class=\"wp-block-paragraph\">The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned that attackers are actively exploiting three Linux kernel vulnerabilities, creating an urgent patching and investigation deadline.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CISA added <a href=\"https://nvd.nist.gov/vuln/detail/cve-2025-39682\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CVE-2025-39682</a>, <a href=\"https://nvd.nist.gov/vuln/detail/cve-2026-53266\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CVE-2026-53266</a>, and <a href=\"https://nvd.nist.gov/vuln/detail/cve-2025-39964\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CVE-2025-39964</a> to its Known Exploited Vulnerabilities catalog on September 18, 2026, with remediation required by September 21 under Binding Operational Directive 26-04.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The KEV catalog tracks vulnerabilities exploited in real-world attacks, while BOD 26-04 requires covered federal civilian agencies to accelerate remediation based on operational risk.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CISA also marked all three vulnerabilities as requiring forensic triage, meaning affected agencies must investigate potentially exposed assets for evidence of compromise rather than treating patch installation as the only response activity.</p>\n\n\n\n<h2 id=\"h-linux-kernel-vulnerabilities-actively-exploited\" class=\"wp-block-heading\"><strong>Linux Kernel Vulnerabilities Actively Exploited</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The most severe issue, CVE-2025-39682, is a critical improper-condition check in the Linux kernel’s <a href=\"https://cybersecuritynews.com/greatness-phaas/\" target=\"_blank\" rel=\"noreferrer noopener\">Transport Layer Security</a> receive path. The CVE record assigns it a CVSS score of 9.8 and describes a corner case in which a zero-length record retrieved from the <code>rx_list</code> bypasses intended <code>recvmsg()</code> record-type handling. Subsequent TLS records could therefore be processed using incorrect zero-copy and queuing assumptions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw is relevant when kernel TLS, commonly called kTLS, is enabled and attached to TCP sockets. Red Hat says the affected code path can be triggered remotely when this functionality is used, making internet-accessible services employing kTLS a particularly important remediation priority.</p>\n\n\n\n<p class=\"wp-block-paragraph\">At the source-code level, the vulnerability breaks an important receive-path rule: one <code>recvmsg()</code> operation should process either contiguous data records or a single non-data record. When the initial queued record has zero length, the type-transition check may be skipped, potentially producing unsafe socket-buffer state.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Upstream stable-kernel patches are available, but administrators should use distribution-provided kernel packages containing the fix instead of assessing exposure solely through generic version numbers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CVE-2026-53266 is a high-severity out-of-bounds write vulnerability in the netfilter bridge ebtables SNAT target, carrying a CVSS score of 8.8. During an optional Address Resolution Protocol sender hardware-address rewrite, the kernel may call <code>skb_store_bits()</code> without ensuring the destination range is writable. If that data remains in a nonlinear socket-buffer fragment backed by a splice-imported file page, the operation can write directly into the underlying page.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Red Hat warns that a local attacker targeting a system configured with specific bridge <a href=\"https://cybersecuritynews.com/linux-kernel-use-after-free-vulnerability-exploited/\" target=\"_blank\" rel=\"noreferrer noopener\">netfilter rules</a> could trigger memory corruption, denial of service, or potential privilege escalation. The upstream correction ensures that the ARP sender hardware-address range is writable before the kernel reads the ARP header and performs the modification.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CVE-2025-39964 is a race condition in the kernel’s AF_ALG cryptographic interface. Concurrent writes to the same AF_ALG socket can become unpredictably interleaved and leave its internal state inconsistent.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability carries a CVSS score of 7.8, with its vector indicating a local, low-privilege attack path and potentially high confidentiality, integrity, and availability impact. The fix adds exclusive write ownership so only one writer can use <code>sendmsg()</code> at a time.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CISA has not publicly identified the attackers, victims, or exploitation techniques associated with these incidents, and ransomware involvement remains unknown. The lack of campaign details does not reduce the risk because KEV inclusion confirms that exploitation has occurred in the wild.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should install vendor-provided kernel updates, reboot into the corrected kernel, and verify the active version afterward. Where patches are unavailable, CISA advises applying vendor mitigations, following cloud-specific BOD 26-04 guidance, or discontinuing unsupported products.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Temporary protections may include disabling unused kTLS functionality, removing ARP-rewriting ebtables SNAT rules, restricting<code>CAP_NET_ADMIN</code>, or preventing the <code>af_alg</code> module from loading after carefully evaluating operational impact.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Before remediation, security teams should preserve relevant telemetry and inspect exposed systems for kernel crashes, suspicious privilege changes, unexpected namespace activity, and unauthorized netfilter modifications.</p>\n\n\n\n<p class=\"wp-block-paragraph\">With the September 21 deadline approaching, defenders should combine rapid patching with forensic assessment to determine whether vulnerable Linux systems were compromised before fixes were deployed.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kernel-vulnerabilities-actively-exploited/\">CISA Warns of Linux Kernel Vulnerabilities Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:ccf96f83f1b21f1636e8d6dec879dd37de93be34773d51c6561bc2b8af80a82c",
    "url": "https://cybersecuritynews.com/tanstack-supply-chain-attack",
