@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-19T11:00:32Z",
+ "updated_at": "2026-09-19T12:00:31Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-19T11:00:32Z",
+  "last_success_at": "2026-09-19T12:00:31Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ccf96f83f1b21f1636e8d6dec879dd37de93be34773d51c6561bc2b8af80a82c",
+   "url": "https://cybersecuritynews.com/tanstack-supply-chain-attack",
+   "title": "TanStack Supply Chain Attack Lets Hackers Steal 170 Private CrowdSec GitHub Repositories",
+   "published_at": "2026-09-19T11:21:50Z",
+   "published_raw": "Sat, 19 Sep 2026 11:21:50 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>CrowdSec has disclosed that attackers copied about 170 private GitHub repositories after a former employee’s account was compromised through May’s TanStack npm supply chain attack. The May 22 theft remained undetected until stolen source code appeared on a cybercrime forum on September 16, showing how a poisoned dependency can outlive its infection window and undermine [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tanstack-supply-chain-attack/\">TanStack Supply Chain Attack Lets Hackers Steal 170 Private CrowdSec GitHub Repositories</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=164011",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/TanStack-Supply-Chain-Attack.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "164011",
+     "content_encoded": "<p class=\"wp-block-paragraph\">CrowdSec has disclosed that attackers copied about 170 private GitHub repositories after a former employee’s account was compromised through May’s TanStack npm supply chain attack.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The May 22 theft remained undetected until stolen source code appeared on a cybercrime forum on September 16, showing how a poisoned dependency can outlive its infection window and undermine developer identities.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhG4MfbZjee4et9N6d2ojA1Kdsr0AfzZt5cQ1VduaXduLcSzyEgo5u6MjlGyyhpEJkmtO64mqH_F8Igg5KQ4BcJq7RyjCiVSIB3QDeAG7WvlUIUhcmG0s2mJlaJ1TYnUHWK1jTl3kHEUMDzn8chOhRfDadEt71QNe-2PlHWONfgn5un8y7qJdZA_PUA3K8y/w640-h424/TanStack%20Supply%20Chain%20Attack1.webp\" alt=\"\"/><figcaption class=\"wp-element-caption\">Data Leak Claim</figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">The incident traces to <a href=\"https://cybersecuritynews.com/fbi-warns-teampcp-hackers-compromise-developer-tools/\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2026-45321</a>, the compromise of TanStack’s Router and Start ecosystem. On May 11, the threat actor chained an unsafe <code>pull_request_target</code> workflow, GitHub Actions cache poisoning, and runtime extraction of an OpenID Connect token to publish 84 malicious releases across 42 <code>@tanstack</code> packages.</p>\n\n\n\n<h2 id=\"h-tanstack-supply-chain-attack\" class=\"wp-block-heading\"><strong>TanStack Supply Chain Attack</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Each package executed an obfuscated install-time payload designed to harvest GitHub and npm tokens, cloud credentials, Kubernetes and Vault secrets, and SSH keys from systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CrowdSec said the compromised account belonged to a developer who recently left but retained GitHub access to finish work. Between 05:52 and 06:01 UTC on May 22, the intruder used an OAuth token associated with that account to clone the private repositories from an IP address in Toronto, Canada.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CrowdSec removed the former employee from its GitHub organization on May 25, three days after the unauthorized downloads, unaware the repositories had already been copied.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Clues inside the leaked archive proved decisive. A <code>.git/config</code> file contained a GitHub credential beginning with <code>gho_</code>, the prefix assigned to OAuth access tokens, while timestamps and the latest commits narrowed the theft to May 22.</p>\n\n\n\n<p class=\"wp-block-paragraph\">GitHub support later reconstructed the expired token’s lifecycle and supplied activity records for the two-hour period, helping CrowdSec connect the cloning activity to the former employee and the TanStack compromise.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The stolen material included CrowdSec’s SaaS console, data-science scripts and models, deployment and automation tools, and its consensus algorithm for adding malicious IP addresses to blocklists.</p>\n\n\n\n<p class=\"wp-block-paragraph\">More than 130 repositories in the archive were already public. CrowdSec said its production infrastructure and databases were not accessed, no source code or <a href=\"https://cybersecuritynews.com/ci-cd-security/\" target=\"_blank\" rel=\"noreferrer noopener\">CI/CD pipeline</a> was modified, and the exposed account performed only Git fetch operations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The leak contained sensitive information. CrowdSec identified email addresses belonging to 83 users, representing less than 0.05% of its 150,000 users, along with names, email addresses, and investment context for 51 potential investors from 2020.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An active AWS credential for sending SNS notifications was exposed, but the role was restricted to publishing to one topic. Someone tested it on August 17 using <code>GetCallerIdentity</code> and <code>ListTopics</code>, with no evidence of further access.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CrowdSec rotated credentials, reviewed cloud and GitHub activity, notified affected people, and increased monitoring. It enforced endpoint detection and response on developer workstations, supplementing existing controls such as two-factor authentication, hardware keys, secret storage, automated code scanning, package-age restrictions, and onboarding and offboarding procedures.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This security episode highlights two lessons. First, <a href=\"https://cybersecuritynews.com/multifactor-authentication-is-mandatory-for-azure/\" target=\"_blank\" rel=\"noreferrer noopener\">multifactor authentication</a> cannot stop malware from stealing an already authorized OAuth token from a developer endpoint.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Second, delayed discovery can erase evidence: GitHub’s enterprise audit log retains Git events for only seven days unless organizations stream them externally, making independent, long-term logging essential for source-code investigations.github+1</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations that installed affected versions should treat the host as compromised, rebuild it from a trusted image, rotate every credential reachable by the package installer, and inspect cloud and source-control logs for unauthorized activity.</p>\n\n\n\n<p class=\"wp-block-paragraph\">They should also remove stale access immediately when employees leave, restrict OAuth applications, disable unnecessary npm lifecycle scripts, pin dependencies, and monitor developer endpoints for credential theft.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.crowdsec.net/blog/tanstack-supply-chain-attack-analysis\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">The company says its rapidly changing codebase</a>, scoped privileges, and distributed consensus design limit that risk, but the breach remains a stark reminder that modern supply chain attacks target identities and trust relationships as aggressively as software itself.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/tanstack-supply-chain-attack/\">TanStack Supply Chain Attack Lets Hackers Steal 170 Private CrowdSec GitHub Repositories</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:b22814fcb0fc7eec80e3b3970d2786bc181cdce6a929fb5d890c8de993cc29fb",
    "url": "https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies",
