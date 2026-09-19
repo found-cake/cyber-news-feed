@@ -1,15 +1,58 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-19T14:00:29Z",
+ "updated_at": "2026-09-19T15:00:37Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-19T14:00:29Z",
+  "last_success_at": "2026-09-19T15:00:37Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:cc5d6512f04ba8d7a9b54fdd9305ea396b602fa5e7864b92545b351dc89b8903",
+   "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions",
+   "title": "BragJack attacks hijack AI browser agents through malicious extensions",
+   "published_at": "2026-09-19T14:56:31Z",
+   "published_raw": "Sat, 19 Sep 2026 10:56:31 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "BragJack, a proof-of-concept attack from Forever Security's Gal Weizman, hijacks the AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and Claude in Chrome using one malicious extension. The Prompt Forcing technique earned over $20,000 in bounties and two CVEs. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
+   "authors": [
+    {
+     "name": "Ax Sharma",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c549523ff50a2042a3d5574b09576fdc62a4ea5484b07b1b92306be06624bb42",
+   "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide",
+   "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
+   "published_at": "2026-09-19T14:05:15Z",
+   "published_raw": "Sat, 19 Sep 2026 10:05:15 -0400",
+   "categories": [
+    "security",
+    "CryptoCurrency"
+   ],
+   "description": "A joint law enforcement advisory warns that the North Korean hacking group WaterPlum compromised at least 30,000 devices worldwide from December 2025 through July 2026 and transferred more than $10.7 million in stolen cryptocurrency to North Korea. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:9112ec33d6152498bf06c3aeeee6dfe0175431965548b3435ce10b471f77543a",
    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang",
@@ -1386,27 +1429,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:cadccff6d41f54702cc7da0c869995262fd84cfee9be2f9d35c06fa43145e71f",
-   "url": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path",
-   "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
-   "published_at": "2026-09-09T14:01:11Z",
-   "published_raw": "Wed, 09 Sep 2026 10:01:11 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "MFA makes account takeover harder, but attackers are increasingly targeting the recovery processes used to reset passwords and authentication methods. Specops explains why stronger identity verification at the service desk is critical to preventing social engineering attacks from turning account recovery into account takeover. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
-   "authors": [
-    {
-     "name": "Sponsored by Specops Software",
      "uri": "",
      "email": ""
     }
