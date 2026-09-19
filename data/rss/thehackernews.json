@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-19T06:00:34Z",
+ "updated_at": "2026-09-19T07:00:31Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-19T06:00:34Z",
+  "last_success_at": "2026-09-19T07:00:31Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -31,6 +31,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNTaZ2mJpwks9AMkwh4I_Q5sK5sgj01Fd4eW4c47_ZsHN_8hKPjptnlJ_P0RboejQy7PB6Ad4UXLFggJXAGlVsBigp46txL8LoSlpMuwQ0sXkAPQZ4TYtg89jNIa6SLPxuv-YC-_LlNZq2FZdNHRnrP_iQUYPSj2-MzugjnlL_CrIJw80lMzbVCZEf0x8/s260-e100/pentera.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:7abc6bd4255fe18917bfbf7e442b2a1cbda47f18cfa0268d3152364d07d12d32",
+   "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+   "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+   "published_at": "2026-09-19T06:24:10Z",
+   "published_raw": "2026-09-19T11:54:10.046+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2025-39682 (CVSS score: 9.8) - An improper check for unusual or exceptional conditions vulnerability in the TLS receive path",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2232157193495804344",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcKuQ4GC9r1-4fQ3Ap_CQko0y3nMI0SnATF3WNSv48uFtNskrV4PqnyW4s0L7sXcojrHoJCEZRazGJNz5JhxrTTSYZSAQeD-xwdquE3X7pJ_ylBUerrybIiaE3V-i1vXdiLr_N1KCM9GTmeAKLlgySqEr0QeCB5ckvnppiEHSZhnEqv0IfUnqCKdA1kKsN/s260-e100/cisa-linux.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -686,33 +713,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:7c09d00af3deeda7e85aae44adb90e2765a05b33592d3659134a4c8a95d07901",
-   "url": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
-   "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
-   "published_at": "2026-09-15T06:52:16Z",
-   "published_raw": "2026-09-15T12:22:16.285+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an&nbsp;advisory published on September 14.\n\nOn such servers, many customers' sites run on a single machine, and an attacker with one of those hosting accounts could exploit the flaw to access or alter other sites and the server itself,",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-9177081223912856188",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRVzSne-2lfRX57xj9CbnkpX1fjEWXYoPN0tDsXwgBwaE_LVqYBKtWbO1nudNLKp89aR90EeszJUqsNvZN4ZLzU1i7hm89ihV-lK1mIKiNXl6GWAWkn6uz7WlRVfIdJrS7Nfn6x-1Cclf6oTs3RxVNWxQSVBsvhzDjMBnmU3l3oERVu3b5hqag5mSeKoU/s260-e100/litespeed.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:2e4ea22accc39550c1ec2a6ae5eb27806ba23a0f4beed8fc531c0cfbb3f00226",
    "url": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
    "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
@@ -814,6 +814,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkLW3i6mB4uE2g7Ze6CDAess3UTTeol7YmRP-N3uTkLJHPglZc0BHvTlESyulvcTp05ObPwuGY5XHqV9q599pqLmK-ypamAPNUdHa9y-34Q4IEE3EBId9UrN9L0J3zK1TTf1Atovhkz51Gk_2gul7DmjvLmJd7BbwgqMhmVODTiQUuqu_IdFFGJt0WAiC_/s260-e100/paper.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:7c09d00af3deeda7e85aae44adb90e2765a05b33592d3659134a4c8a95d07901",
+   "url": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+   "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+   "published_at": "2026-09-15T06:52:16Z",
+   "published_raw": "2026-09-15T12:22:16.285+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an&nbsp;advisory published on September 14.\n\nOn such servers, many customers' sites run on a single machine, and an attacker with one of those hosting accounts could exploit the flaw to access or alter other sites and the server itself,",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-9177081223912856188",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRVzSne-2lfRX57xj9CbnkpX1fjEWXYoPN0tDsXwgBwaE_LVqYBKtWbO1nudNLKp89aR90EeszJUqsNvZN4ZLzU1i7hm89ihV-lK1mIKiNXl6GWAWkn6uz7WlRVfIdJrS7Nfn6x-1Cclf6oTs3RxVNWxQSVBsvhzDjMBnmU3l3oERVu3b5hqag5mSeKoU/s260-e100/litespeed.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -1489,60 +1516,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIA552mINL2oyFm7mf9nHTwjJGJUVAtfYnMXbqYsowSEsDMzVsAgHG8MHKn5_EmwZ9bgRmhEndE20FhQAN4rvOLv5ESSAu0kHTV4QyygvUePYCJ1fvda0bU0Mzi5B9J8LHhULDeRRI9HGC84dntx8jaLu6WFLOz6OOhEwKNnSf6zzFRyAtlLKDQzHvygg/s260-e100/f5-malware.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:b163f3fc8d811565cb6b2ffbdf7b94750c27b04290e99072a0fa4b6a80db1059",
-   "url": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
-   "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
-   "published_at": "2026-09-09T06:47:27Z",
-   "published_raw": "2026-09-09T12:17:27.668+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender.\n\nThe vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for CVE-2026-69414 (CVSS score: 7.8), also called ShieldBreak, which the researcher reported last month.\n\n\"Microsoft has failed to properly patch ShieldBreak CVE-2026-69414,\" Chaotic",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4028098204896398745",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZtPq88H-iuD1vEn_DT-1UgFvWXy-P5eKMUm280xVsPt3_Dja1q22icfvF49OduVCGmazXmVmi51Oj58t-2H6JMA4e89X_-obRVRVORjeAZoQzNnw3Io6ad_LofQ1kfum9XeiHC9cijCgAiRL-RsRYjECDVPD_ZT3w61CFj1lkwe2sSZ_1_eSn6Oruh9MJ/s260-e100/windows-poc.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:419df1f3701a7cb8cff37d0bae874becd77f88744e7e4da1441949574dd22d7c",
-   "url": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
-   "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
-   "published_at": "2026-09-09T06:25:45Z",
-   "published_raw": "2026-09-09T11:55:45.264+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the confidentiality, integrity, and availability of the application\n\nThe vulnerability, tracked as CVE-2026-44756 (CVSS score: 10.0), has been described as a case of memory corruption. Discovered and reported by SAP",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-337083722411957406",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwUnFS6EAvkjYM7AC_3-k8C6QSAmpatuThkiXaa1WxvtiZU7M-n384kpPN4-VSAQfwL8PCTPUVd3iYeTDn_V5ZoZGEfuizJSZghdAw4Ldq_wFg7rxWyKBbwdMctiiBaykAmL40L6wappUeeyIr58u8SFFSszCP-rszf5ioHsaz0dtKilEpkw1LTEmtaCtZ/s260-e100/sap-flaws.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
