@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-19T18:00:33Z",
+ "updated_at": "2026-09-19T19:00:35Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-19T18:00:33Z",
+  "last_success_at": "2026-09-19T19:00:35Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -38,6 +38,33 @@
    "source_metadata": {}
   },
   {
+   "id": "sha256:cccf7b5fb8fe09a0cf8ced87470792be18f09382ae005d9c88c9c951d8153339",
+   "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+   "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+   "published_at": "2026-09-19T18:36:53Z",
+   "published_raw": "2026-09-20T00:06:53.697+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.\n\nThe chain began with a bug in the software that runs OpenAI's public help forum and moved through a weakness in OpenAI's own login system.\n\nThis was security research,",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8356118008259752771",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAElV4rXwWf_kTjj5e0UJFsEG-a0B7MUsCFqhFLYEA76kk2A7UeXbaG0DfRt-Syf7dxx4bHUanr0lVvwIUFyFgtPIfhyphenhyphenx61ccuo3oDZr6-wKROoEAVWjrAcKWuZ5WdlvL_pmKC91i9juBrsnI3FiLTGGgjnnJRAnjTgAxAbMjcbCTxZSWybZPPtG8HN1E/s260-e100/claude-openai.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
    "id": "sha256:852ff302b4ad29e14138d39ba46052549c9ec4e0cf18e855a15e032c406bf426",
    "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
    "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
@@ -58,33 +85,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVgJqM9WZF6u_WZBeTJKqe35CDnh_4kxjLjZa3w63XbqfKBRNUENbTh5HGVrgYUGtmLRW9Px3GGzNcewMJWzd7CRxsk66eY1D70or8gasHUroPNdbUJ6ordqjxb7s8gKqQwuyWxCWC2BT0Matusn6PLXV9xus1PlqqqD3JITL_Unxt2xP8UK6zlX9Tmr0A/s260-e100/cves.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:cccf7b5fb8fe09a0cf8ced87470792be18f09382ae005d9c88c9c951d8153339",
-   "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-   "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-   "published_at": "2026-09-19T13:28:35Z",
-   "published_raw": "2026-09-19T18:58:35.558+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.\n\nThe chain began with a bug in the software that runs OpenAI's public help forum and moved through a weakness in OpenAI's own login system.\n\nThis was security research,",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8356118008259752771",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAElV4rXwWf_kTjj5e0UJFsEG-a0B7MUsCFqhFLYEA76kk2A7UeXbaG0DfRt-Syf7dxx4bHUanr0lVvwIUFyFgtPIfhyphenhyphenx61ccuo3oDZr6-wKROoEAVWjrAcKWuZ5WdlvL_pmKC91i9juBrsnI3FiLTGGgjnnJRAnjTgAxAbMjcbCTxZSWybZPPtG8HN1E/s260-e100/claude-openai.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
