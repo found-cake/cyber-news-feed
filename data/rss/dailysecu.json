@@ -1,15 +1,78 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-09-19T12:00:31Z",
+ "updated_at": "2026-09-19T13:00:34Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-19T12:00:31Z",
+  "last_success_at": "2026-09-19T13:00:34Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c4bd2a990d9fd95253c1cde241f5e164083d08071344f2a0c837ade53f5a813a",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208553",
+   "title": "AI가 취약점 공격 개발 가속…오픈AI 직원 챗GPT·코덱스 계정까지 탈취",
+   "published_at": "2026-09-19T21:52:44Z",
+   "published_raw": "2026-09-19 21:52:44",
+   "categories": [
+    "이슈"
+   ],
+   "description": "AI를 이용해 이미지 처리 라이브러리의 메모리 취약점을 실제 원격코드실행 공격으로 발전시키고, 이를 오픈AI의 인증 시스템 문제와 연계해 직원의 챗GPT와 코덱스 계정까지 탈취한 보안 연구 결과가 공개됐다.보안업체 핵트론(Hacktron) 연구진은 앤트로픽 클로드 오퍼스 5를 활용해 오픈AI 커뮤니티 포럼에서 코드 실행 권한을 확보한 뒤 오픈AI 직원 계정과 내부 코드 저장소까지 접근 가능한 공격경로를 확인했다고 밝혔다. 연구진은 실제 악성 공격이 아닌 보안 연구 과정에서 문제를 발견해 오픈AI와 디스코스에 신고했다.앞서 공개된 자",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6b0baa234aaefa5f216db4a734facba026e2d14e7c92e7f60f84d1db4c03899c",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208552",
+   "title": "‘플러그인4셸’…AI 코딩 에이전트 플러그인 검증 허점에 제로클릭 원격코드실행 위험",
+   "published_at": "2026-09-19T21:44:06Z",
+   "published_raw": "2026-09-19 21:44:06",
+   "categories": [
+    "이슈"
+   ],
+   "description": "주요 AI 코딩 에이전트의 플러그인 설치·업데이트 과정에서 검증된 코드와 실제 실행되는 코드가 달라질 수 있는 공급망 취약점이 공개됐다.AI 보안업체 에어 시큐리티(AIR Security)는 앤스로픽의 클로드 코드(Claude Code), 오픈AI 코덱스(Codex), 깃허브 코파일럿(GitHub Copilot), 구글 제미나이 CLI(Gemini CLI)에 영향을 주는 취약점을 발견하고 이를 ‘플러그인4셸(Plugin4Shell)’이라고 명명했다.“검증한 버전이라고 믿었지만 다른 코드 실행 가능”문제의 핵심은 플러그인의 무결성을",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:bfb527fe5153fc38e258c0e691b4ed80a08e73c804387ca1edde832e98a3d45d",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208551",
+   "title": "체크포인트 보안관리 서버 치명적 RCE…인증 없이 루트 권한 코드 실행 가능",
+   "published_at": "2026-09-19T21:07:57Z",
+   "published_raw": "2026-09-19 21:07:57",
+   "categories": [
+    "이슈"
+   ],
+   "description": "기업의 방화벽 정책과 관리자 접근, 보안로그를 중앙에서 관리하는 체크포인트 보안관리 서버에서 인증 없이 원격코드실행(RCE)이 가능한 치명적 취약점이 공개돼 신속한 패치가 요구된다.체크포인트는 9월 16일 보안관리 서버(Security Management Server)와 로그 서버(Log Server)에 영향을 미치는 CVE-2026-91843을 공개하고 긴급 보안 업데이트를 권고했다. 취약점의 CVSS 점수는 9.8로 평가됐다.CVE-2026-91843은 사용자 인증이 완료되기 전 로그인 처리 과정에서 발생하는 스택 기반 버퍼 오",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:2f7b70f855ce8b20f2ed388c01999c48689ec5db5764ebd29c6f89820642912b",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208547",
