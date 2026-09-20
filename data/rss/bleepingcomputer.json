@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-20T14:00:31Z",
+ "updated_at": "2026-09-20T15:00:36Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-20T14:00:31Z",
+  "last_success_at": "2026-09-20T15:00:36Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:401fcab5596dc0a6a0b0a2dd48b04436912c5b28140dee1c97b174c7728d85a8",
+   "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime",
+   "title": "Malicious npm packages evade install-script defenses at runtime",
+   "published_at": "2026-09-20T14:11:21Z",
+   "published_raw": "Sun, 20 Sep 2026 10:11:21 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scripts. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:1e64b8d25afc1ce9c2d7be005e7056d244d367b261043ac42be172ac83c19cab",
    "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host",
@@ -1258,48 +1279,6 @@
    "authors": [
     {
      "name": "Lawrence Abrams",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:0778c3fb96ab28de64e5f265ee6e36c8a56fce96b4497c6c0c4630e3a2be0f26",
-   "url": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses",
-   "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
-   "published_at": "2026-09-10T14:55:33Z",
-   "published_raw": "Thu, 10 Sep 2026 10:55:33 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Identity verification company IDScan has confirmed that hackers accessed customer data stored in its cloud platform, days after reports linked the company to a massive database containing more than 153 million driver's license scans. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
-   "authors": [
-    {
-     "name": "Lawrence Abrams",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:c22f22acb6c19b6521b6554a57de202ad70b662d1754af30d051f1bf67d46214",
-   "url": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws",
-   "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
-   "published_at": "2026-09-10T14:11:34Z",
-   "published_raw": "Thu, 10 Sep 2026 10:11:34 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Multiple cyber-espionage groups deployed an exploit kit dubbed \"BlueMoon\" that leveraged zero-day vulnerabilities in Microsoft Windows and Google Chrome. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
