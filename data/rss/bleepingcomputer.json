@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-21T20:00:38Z",
+ "updated_at": "2026-09-21T21:00:32Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-21T20:00:38Z",
+  "last_success_at": "2026-09-21T21:00:32Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:3848bc7f1327d4267dc4464905f17a132abbeef3ac3d14fa51db4e8a373f3206",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws",
+   "title": "CISA alerts of active exploitation of three Linux kernel flaws",
+   "published_at": "2026-09-21T20:12:17Z",
+   "published_raw": "Mon, 21 Sep 2026 16:12:17 -0400",
+   "categories": [
+    "security",
+    "Linux"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:d58af62f079f24c4956a2964aa2eabbf942d003dafcb2856eff100c9387a611d",
    "url": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server",
@@ -1106,28 +1128,6 @@
    ],
    "description": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CVE-2026-85102 and CVE-2026-85103. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:697053ae673224b9be2ab41b2b99ef4c25d727c71e6072a2b2082783bc45780a",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps",
-   "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
-   "published_at": "2026-09-11T20:19:09Z",
-   "published_raw": "Fri, 11 Sep 2026 16:19:09 -0400",
-   "categories": [
-    "security",
-    "Artificial Intelligence"
-   ],
-   "description": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
    "authors": [
     {
      "name": "Bill Toulas",
