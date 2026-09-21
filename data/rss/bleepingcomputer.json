@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-21T14:00:34Z",
+ "updated_at": "2026-09-21T15:00:31Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-21T14:00:34Z",
+  "last_success_at": "2026-09-21T15:00:31Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:175425b8fe1e2a4f0390c9e52cdcfcbb13a94974b8c37bc7dea448cfefcb8f20",
+   "url": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know",
+   "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
+   "published_at": "2026-09-21T14:02:12Z",
+   "published_raw": "Mon, 21 Sep 2026 10:02:12 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more continuous security assessment. Specops explains what changed and how agencies can address password, MFA, and identity requirements as they prepare for upcoming audits. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
+   "authors": [
+    {
+     "name": "Sponsored by Specops Software",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:bea41f256f73a80cf2aa2df54a83ed0479d0d8e5bf15ebfdbca597bb279340c6",
    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys",
@@ -1129,27 +1150,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:fa4f4d6db04213aa3234d930a39ec9d961811d4ed0d5f3c04ce27952f8ab8cce",
-   "url": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface",
-   "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
-   "published_at": "2026-09-11T14:01:11Z",
-   "published_raw": "Fri, 11 Sep 2026 10:01:11 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI users through weaponized Claude Artifacts, shared AI conversations, sponsored search results, and ClickFix-style lures. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
-   "authors": [
-    {
-     "name": "Sponsored by Huntress Labs",
      "uri": "",
      "email": ""
     }
