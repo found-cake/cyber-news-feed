@@ -1,15 +1,84 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-09-22T11:00:36Z",
+ "updated_at": "2026-09-22T12:00:33Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-22T11:00:36Z",
+  "last_success_at": "2026-09-22T12:00:33Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:68c3931e8d4a251a1353f21281ac32ea78de95a91e5ac96651e96fc597709caa",
+   "url": "https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers",
+   "title": "Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers",
+   "published_at": "2026-09-22T11:55:20Z",
+   "published_raw": "Tue, 22 Sep 2026 11:55:20 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "exploited",
+    "switch",
+    "vulnerability",
+    "Zyxel"
+   ],
+   "description": "<p>A Chinese threat actor has exploited the bug to exfiltrate sensitive information from nearly 1,000 ZyXEL switches.</p>\n<p>The post <a href=\"https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers/\">Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49482",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:e437a7fdd3aa855f81323f076017a4215f04a0952f59eb2caeb7ede6a56abe35",
+   "url": "https://www.securityweek.com/malicious-b-tree-npm-package-accumulates-millions-of-downloads",
+   "title": "Malicious B-tree NPM Package Accumulates Millions of Downloads",
+   "published_at": "2026-09-22T11:33:59Z",
+   "published_raw": "Tue, 22 Sep 2026 11:33:59 +0000",
+   "categories": [
+    "Application Security",
+    "Supply Chain Security",
+    "NPM",
+    "supply chain attack"
+   ],
+   "description": "<p>Posing as the legitimate sorted-btree package, indexed-btree hides a malware trigger in its prototype method.</p>\n<p>The post <a href=\"https://www.securityweek.com/malicious-b-tree-npm-package-accumulates-millions-of-downloads/\">Malicious B-tree NPM Package Accumulates Millions of Downloads</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49480",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:192282e275e20cb74ed2df7e8e574f9ae6622682e3f72a9c8f468a3188e1f121",
    "url": "https://www.securityweek.com/wordpress-patches-click2shell-vulnerability",
@@ -2430,43 +2499,6 @@
    "authors": [
     {
      "name": "Associated Press",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:bb53dc8d49334b1fb958a1970594037a4be3cc63afabe2430dc9fab2ed823ffd",
-   "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days",
-   "title": "BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days",
-   "published_at": "2026-09-12T11:10:00Z",
-   "published_raw": "Sat, 12 Sep 2026 11:10:00 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "BlueMoon",
-    "Chrome",
-    "exploit kit",
-    "exploited",
-    "Windows",
-    "Zero-Day"
-   ],
-   "description": "<p>Multiple espionage-motivated threat actors have adopted BlueMoon in opportunistic, rushed deployments.</p>\n<p>The post <a href=\"https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/\">BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49264",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
      "uri": "",
      "email": ""
     }
