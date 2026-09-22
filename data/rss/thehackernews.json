@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-22T05:00:29Z",
+ "updated_at": "2026-09-22T06:00:33Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-22T05:00:29Z",
+  "last_success_at": "2026-09-22T06:00:33Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -31,6 +31,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNTaZ2mJpwks9AMkwh4I_Q5sK5sgj01Fd4eW4c47_ZsHN_8hKPjptnlJ_P0RboejQy7PB6Ad4UXLFggJXAGlVsBigp46txL8LoSlpMuwQ0sXkAPQZ4TYtg89jNIa6SLPxuv-YC-_LlNZq2FZdNHRnrP_iQUYPSj2-MzugjnlL_CrIJw80lMzbVCZEf0x8/s260-e100/pentera.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b6c97dd33bcff55ff56f619be0c87f080686efe8aa49195d3a254bc7031fd62e",
+   "url": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+   "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+   "published_at": "2026-09-22T05:31:59Z",
+   "published_raw": "2026-09-22T11:01:59.536+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3880969892080573616",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj9eouOxeSvnYBzl5A8tWvEQ4w_CCx94YcFmpBAXXqHWNqvFBWj4vOgeZdHYAf0MU-chY63biCpHDnzRC0pwR7s3pTdQAWwPAVI-olRZuBwG0ilgAxnIY_1KofE3cpuA8lKOE01U26EFHYE_nLrXYXOWl47G1KaoFTZ5UOO81Cw0Kb20pFSfAc1b9i9E_K/s260-e100/veeam.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -686,33 +713,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:7b88c993f3771bfa6b77538b5c04df8131f56ad8949a450c491314dddc187bed",
-   "url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
-   "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
-   "published_at": "2026-09-16T11:08:54Z",
-   "published_raw": "2026-09-16T16:38:54.126+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions -\n\n\n  Acronis Backup plugin for cPanel &amp; WHM (Linux",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-321571732072475142",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOvbeWtAztd1-F4zbNa4Ei7kEh-C7s4QGW-rmB8ug7-mXRIcdL_mAqtAA_hqAG7QtaHUMTxSYa5dFw0080LoR66SUCPLGybqueRLeUJvQQ6unmg4WqExx08rrv0NZaZkQldGURtIDMZRpregBaFLhjws2d_eRt0I0VcZdaSGZS6twj0AvBK74TAJx-veBz/s260-e100/acronis.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:2e4ea22accc39550c1ec2a6ae5eb27806ba23a0f4beed8fc531c0cfbb3f00226",
    "url": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
    "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
@@ -760,6 +760,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhva55LDIsAmtR2cRnUJw2XZ3Rvo4YhdJe39cfng8EZ1oHjLevxwRcYoFdg-ydI2I7fdt9OxGj7aMcaHMekZmy9hwSlopIZ4_KQgRnmiSy0OfGh8zO26StiEeOsHaQ4fYed0dbEUCUcz4gJM9Lu6Wt7m-ppDmI7iMl52-cRfQfsu9d90Sp2ncuvbVpAPupe/s260-e100/jj.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:7b88c993f3771bfa6b77538b5c04df8131f56ad8949a450c491314dddc187bed",
+   "url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+   "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+   "published_at": "2026-09-16T11:08:54Z",
+   "published_raw": "2026-09-16T16:38:54.126+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions -\n\n\n  Acronis Backup plugin for cPanel &amp; WHM (Linux",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-321571732072475142",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOvbeWtAztd1-F4zbNa4Ei7kEh-C7s4QGW-rmB8ug7-mXRIcdL_mAqtAA_hqAG7QtaHUMTxSYa5dFw0080LoR66SUCPLGybqueRLeUJvQQ6unmg4WqExx08rrv0NZaZkQldGURtIDMZRpregBaFLhjws2d_eRt0I0VcZdaSGZS6twj0AvBK74TAJx-veBz/s260-e100/acronis.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
