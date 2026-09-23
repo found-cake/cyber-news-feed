@@ -1,13 +1,38 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-09-23T12:00:56Z",
+ "updated_at": "2026-09-23T13:00:55Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-23T12:00:56Z",
+  "last_success_at": "2026-09-23T13:00:55Z",
   "last_error_at": null,
   "last_error": null
  },
- "articles": []
+ "articles": [
+  {
+   "id": "sha256:08cd5ea6b46dcc52754abd45717516c326c986c1a756d24ffeda37b983ff2d2c",
+   "url": "https://www.stepsecurity.io/blog/sckit-supply-chain-worm-hits-memtensor-npm-pypi-scopes",
+   "title": "Sckit Supply Chain Worm Hits MemTensor npm & PyPi scopes",
+   "published_at": "2026-09-23T12:52:50Z",
+   "published_raw": "Wed, 23 Sep 2026 12:52:50 GMT",
+   "categories": [],
+   "description": "Compromised MemTensor npm releases turn an AI memory plugin into a credential-harvesting entry point, exposing prompts and creating a path to further package compromise.",
+   "feed_id": "https://www.stepsecurity.io/blog/sckit-supply-chain-worm-hits-memtensor-npm-pypi-scopes",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ab3c64d19ec77c366bdfd7c_SCR-20260923-ptgg.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ab3c64d19ec77c366bdfd7c_SCR-20260923-ptgg.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  }
+ ]
 }
