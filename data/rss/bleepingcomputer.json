@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-23T14:01:00Z",
+ "updated_at": "2026-09-23T15:00:55Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-23T14:01:00Z",
+  "last_success_at": "2026-09-23T15:00:55Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:475dc601afb7d058931acda58c75acd3a7c0101a447b0703405db0cd83dff876",
+   "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack",
+   "title": "InfraTrust report warns network management systems under attack",
+   "published_at": "2026-09-23T14:35:26Z",
+   "published_raw": "Wed, 23 Sep 2026 10:35:26 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclosed them. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:f6ef53c8921c0ddf3290e9fbb17c6ec4985a28ec45e0bd8ff4b5319181bf26de",
+   "url": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization",
+   "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
+   "published_at": "2026-09-23T14:01:11Z",
+   "published_raw": "Wed, 23 Sep 2026 10:01:11 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to Google Kubernetes Config Connector. Varonis explains how this confused deputy problem can turn a single Kubernetes YAML file into a path to organization-wide privilege escalation. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
+   "authors": [
+    {
+     "name": "Sponsored by Varonis",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:933ce3b851822ae7d29f05b7d2e2d3a308a034e19161d8f829a931f1722acb93",
    "url": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day",
@@ -1429,27 +1471,6 @@
    "authors": [
     {
      "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:4b763108e4358d9a102f14d2c85bc417a4b6253c398fa2ed2cddd3e1e5877d4b",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware",
-   "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
-   "published_at": "2026-09-13T14:26:32Z",
-   "published_raw": "Sun, 13 Sep 2026 10:26:32 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit backdoor. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
