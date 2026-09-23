@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-23T22:00:56Z",
+ "updated_at": "2026-09-23T23:00:56Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-23T22:00:56Z",
+  "last_success_at": "2026-09-23T23:00:56Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:8bfc479773c02457ce4f01f0669f34c0f2f947f26954e51bb0ee51352ec14070",
+   "url": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks",
+   "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
+   "published_at": "2026-09-23T22:46:01Z",
+   "published_raw": "Wed, 23 Sep 2026 18:46:01 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples, is serving a fake Cloudflare verification page that attempts to trick Windows users into executing PowerShell commands. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:0cd0437c9bfc7d372c0657e9b19c40bff8b9ea819efd262c047fd67ceac5bc1d",
    "url": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada",
