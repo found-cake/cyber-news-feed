@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "darkreading",
- "updated_at": "2026-09-23T21:00:59Z",
+ "updated_at": "2026-09-23T22:00:56Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-23T21:00:59Z",
+  "last_success_at": "2026-09-23T22:00:56Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ce08fe4b2a6e7129300e6a58740ed2c9e926a13a977cbf57f0129adddc2c656f",
+   "url": "https://www.darkreading.com/endpoint-security/edr-evasion-stack-helps-process-injection-slip-past-defenses",
+   "title": "EDR Evasion Stack Helps Process Injection Slip Past Defenses",
+   "published_at": "2026-09-23T21:03:01Z",
+   "published_raw": "Wed, 23 Sep 2026 21:03:01 GMT",
+   "categories": [
+    "endpoint-security"
+   ],
+   "description": "A process parameter-poisoning technique evades EDR by injecting code into process initialization structures without using the Windows APIs that EDR tools typically watch out for.",
+   "feed_id": "https://www.darkreading.com/endpoint-security/edr-evasion-stack-helps-process-injection-slip-past-defenses",
+   "authors": [
+    {
+     "name": "Alexander Culafi",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5729777b5599bc1e/6ab427662474c510d68cbd53/special_agent_dark_corridor-Kemter-GettyImages-503113022.jpg?width=720&quality=80&disable=upscale",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5729777b5599bc1e/6ab427662474c510d68cbd53/special_agent_dark_corridor-Kemter-GettyImages-503113022.jpg?width=720&quality=80&disable=upscale",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "darkreading": {
+     "guid_is_permalink": "false"
+    }
+   }
+  },
   {
    "id": "sha256:1c23b8ad7b78ab003e2d42de7b7d6668db853e7b11afb933ab45e9b5eb676cd4",
    "url": "https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks",
