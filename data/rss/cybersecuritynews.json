@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-23T13:00:55Z",
+ "updated_at": "2026-09-23T14:01:00Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-23T13:00:55Z",
+  "last_success_at": "2026-09-23T14:01:00Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:3710550a798a742a98651ae782c6028d9fbb3ec94cc10233483b1282d128890d",
+   "url": "https://cybersecuritynews.com/critical-next-js-flaw-allows-remote-code-execution",
+   "title": "Critical NEXT.JS Flaw Enables RCE Attacks Via Weaponized SVG File",
+   "published_at": "2026-09-23T13:43:37Z",
+   "published_raw": "Wed, 23 Sep 2026 13:43:37 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Vulnerability",
+    "Vulnerability News",
+    "cyber security"
+   ],
+   "description": "<p>A critical Next.js vulnerability, tracked as CVE-2026-94545, affects the Node.js ImageResponse implementation in the next/og package and could allow remote code execution by exploiting malicious SVG content during image generation. The issue affects Next.js versions 16.2.0 through versions before 16.3.6. Developers are urged to upgrade to Next.js 16.3.6, which contains the security fix. The vulnerability [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-next-js-flaw-allows-remote-code-execution/\">Critical NEXT.JS Flaw Enables RCE Attacks Via Weaponized SVG File</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=164525",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Critical-NEXT.JS-Flaw-Allows-Remote-Code-Execution-Via-Weaponized-SVG-File.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "164525",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A critical Next.js vulnerability, tracked as CVE-2026-94545, affects the Node.js <code>ImageResponse</code> implementation in the <code>next/og</code> package and could allow remote code execution by<a href=\"https://cybersecuritynews.com/hackers-weaponizing-svg-files/\" target=\"_blank\" rel=\"noreferrer noopener\"> exploiting malicious SVG content </a>during image generation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The issue affects Next.js versions 16.2.0 through versions before 16.3.6. Developers are urged to upgrade to Next.js 16.3.6, which contains the security fix.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability exists in the Node.js <code>ImageResponse</code> implementation used to dynamically create Open Graph images, social-media preview images, and other server-generated graphics. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The underlying image-rendering component contains an upstream <a href=\"https://cybersecuritynews.com/next-js-vulnerabilities/\" target=\"_blank\" rel=\"noreferrer noopener\">security flaw that can be triggered</a> when an application places attacker-controlled data into SVG elements, attributes, or styles.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker may exploit the issue when a vulnerable application accepts input from a URL parameter, form field, API request, or another untrusted source and embeds that value directly inside an SVG image.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For example, an application could retrieve a value parameter from an incoming request and render it inside an SVG <code>&lt;title&gt;</code> element while creating an image through <code>ImageResponse</code>.</p>\n\n\n\n<h2 id=\"h-next-js-remote-code-execution-flaw\" class=\"wp-block-heading\"><strong>NEXT.JS Remote Code Execution Flaw</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">In this type of deployment, a threat actor could send specially crafted SVG-related input that reaches the vulnerable rendering process. Successful exploitation may result in remote code execution on the server handling the image-generation request.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/vercel/next.js/security/advisories/GHSA-vcvr-r3jv-pc5j\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">The GitHub advisory ( GHSA-vcvr-r3jv-pc5j ) assigns</a> the vulnerability a Critical severity rating under CVSS v4. The attack can be performed remotely over the network, requires no authentication, and requires no user interaction.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Although the attack requirements are low, the potential impact is severe because exploitation could affect the confidentiality, integrity, and availability of both the vulnerable system and connected systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A compromised Next.js image-generation environment could expose sensitive server-side data, allow modification of hosted content, disrupt services, or give attackers an initial foothold for further attacks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The actual impact will depend on how the Next.js application is hosted, its permissions, and whether the image-generation process can access secrets, <a href=\"https://cybersecuritynews.com/next-js-vulnerability-exposes-credentials/\" target=\"_blank\" rel=\"noreferrer noopener\">cloud credentials</a>, internal services, or deployment infrastructure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Not every Next.js deployment is vulnerable. Applications using the Edge implementation of<code> ImageResponse</code> are not affected, according to the advisory.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Applications that use the Node.js <code>ImageResponse</code> feature but never place attacker-controlled values in SVG content, attributes, or CSS styles are also not affected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should immediately review endpoints that generate images through <code>next/og</code>, particularly <a href=\"https://cybersecuritynews.com/openai-models-api-key-leaks/\" target=\"_blank\" rel=\"noreferrer noopener\">Open Graph image</a> routes that use query-string parameters. Developers should identify any untrusted values rendered inside SVG markup, and upgrade affected installations to version 16.3.6.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Where immediate patching is not possible, developers should stop passing user-controlled input into SVG content, attributes, and styles processed by the Node.js <code>ImageResponse</code> implementation. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Input validation alone should not be treated as a permanent fix, since complex <a href=\"https://cybersecuritynews.com/hackers-weaponizing-svg-files-with-malicious-embedded-javascript/\" target=\"_blank\" rel=\"noreferrer noopener\">SVG parsing and rendering</a> behavior can create unexpected attack paths.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability was reported by security researchers RaghavMaheshwari124 and rafabd1. Next.js users should treat this issue as a priority patch because internet-facing image-generation endpoints can be easy for attackers to discover and probe. The advisory identifies the affected package as next and lists version 16.3.6 as the patched release.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-next-js-flaw-allows-remote-code-execution/\">Critical NEXT.JS Flaw Enables RCE Attacks Via Weaponized SVG File</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:bb326ae2f714238f8f58ab9b8ae0c89bb1e59e0e4ca47b2c893541ef50efb4e8",
    "url": "https://cybersecuritynews.com/fake-crypto-wallet-app-spreads-pamstealer-malware-to-steal-mac-passwords",
