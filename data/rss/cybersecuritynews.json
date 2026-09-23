@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-23T03:00:33Z",
+ "updated_at": "2026-09-23T04:00:38Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-23T03:00:33Z",
+  "last_success_at": "2026-09-23T04:00:38Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b898d6b2cc0a54eff58bd78484c881200bce8a4a19ce71dc972be351a4e94f3b",
+   "url": "https://cybersecuritynews.com/f5-big-ip-oauth-server-0-day-flaw",
+   "title": "Hackers Exploiting F5 BIG-IP OAuth Server 0-day Flaw to Gain Remote Code Execution",
+   "published_at": "2026-09-23T03:24:27Z",
+   "published_raw": "Wed, 23 Sep 2026 03:24:27 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News",
+    "vulnerability"
+   ],
+   "description": "<p>F5 has warned that hackers are actively exploiting a critical zero-day vulnerability in BIG-IP Access Policy Manager (APM) deployments to execute code remotely without authentication. Tracked as CVE-2026-94127, the flaw affects virtual servers configured with both an APM access policy and an OAuth profile, specifically where APM operates as an OAuth Authorization Server. F5 published [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/f5-big-ip-oauth-server-0-day-flaw/\">Hackers Exploiting F5 BIG-IP OAuth Server 0-day Flaw to Gain Remote Code Execution</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=164452",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/F5-BIG-IP-OAuth-Server-0-day-Flaw.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "164452",
+     "content_encoded": "<p class=\"wp-block-paragraph\">F5 has warned that hackers are actively exploiting a critical zero-day vulnerability in <a href=\"https://cybersecuritynews.com/14000-f5-big-ip-apm-exposed-online/\" target=\"_blank\" rel=\"noreferrer noopener\">BIG-IP Access Policy Manager</a> (APM) deployments to execute code remotely without authentication.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Tracked as CVE-2026-94127, the flaw affects virtual servers configured with both an APM access policy and an OAuth profile, specifically where APM operates as an OAuth Authorization Server. F5 published advisory K000162605 on September 22, 2026, after learning that attackers had already weaponized the issue.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability is a heap-based buffer overflow, categorized as CWE-122 and assigned internal tracking ID 2524777. Specially crafted network traffic can corrupt memory and enable arbitrary code execution on the BIG-IP system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It carries a critical CVSS v3.1 score of 9.8 and a CVSS v4.0 score of 9.3, reflecting low attack complexity, network reachability, no privileges or user interaction, and potentially severe confidentiality, integrity, and availability consequences.</p>\n\n\n\n<h2 id=\"h-f5-big-ip-oauth-server-0-day-flaw\" class=\"wp-block-heading\"><strong>F5 BIG-IP OAuth Server 0-day Flaw</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Importantly, exposure depends on configuration rather than the mere presence of APM. Deployments using APM only as an OAuth Client or Resource Server, without OAuth authorization-server profiles, are not affected. Appliance-mode systems remain vulnerable.</p>\n\n\n\n<p class=\"wp-block-paragraph\">F5 said the vulnerability resides in the data plane, which processes application traffic, and does not expose the control plane. Consequently, restricting the management interface alone will not block exploitation reaching an affected virtual server.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Known vulnerable releases include BIG-IP APM 21.1.0, versions 17.5.0 through 17.5.1, and versions 17.1.0 through 17.1.3. Other BIG-IP modules, BIG-IQ Centralized Management, BIG-IP Next, F5 Distributed Cloud services, NGINX products, F5OS variants, and F5 AI Gateway were evaluated as unaffected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">F5 cautions that releases beyond End of Technical Support are not evaluated, so administrators should not interpret their absence from the affected list as evidence of safety.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Engineering hotfixes are available as Hotfix-BIGIP-21.1.0.2.0.30.22-ENG.iso, Hotfix-BIGIP-17.5.1.9.0.160.12-ENG.iso, and Hotfix-BIGIP-17.1.3.5.0.41.14-ENG.iso for their respective branches.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should inventory BIG-IP APM virtual servers, identify the vulnerable access-policy and OAuth-profile combination, and install the applicable hotfix immediately. Where emergency patching is operationally impossible, customers can contact F5 Support for an iRule that temporarily mitigates attacks against the affected virtual server.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Defenders should also hunt for evidence of attempted or successful exploitation. F5 advises investigating three events occurring close together: repeated OAuth authentication failures, suspicious command execution, and a subsequent Traffic Management Microkernel (TMM) SIGABRT event.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Ten or more invalid-token messages in <code>/var/log/apm</code> deserve review, particularly when originating from one IP address. Analysts can inspect failure counts with <code>tmctl global_oauth_stat -s total_requests,total_userinfo_requests,total_failed</code> and correlate timestamps with entries in <code>/var/log/audit</code>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A TMM core file can appear when TMM enters a loop, and the SOD daemon issues SIGABRT, but neither a core file nor an authentication failure independently proves compromise. Their frequency and temporal relationship matter.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CISA has added CVE-2026-94127 to its <a href=\"https://cybersecuritynews.com/?s=CISA+KEV\" target=\"_blank\" rel=\"noreferrer noopener\">Known Exploited Vulnerabilities catalog</a> following evidence of in-the-wild attacks, reinforcing the need for urgent remediation.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://my.f5.com/manage/s/article/K000162605\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">F5 discovered the vulnerability internally</a>, while public reporting has not established an attacker identity, exploitation scale, or confirmed post-compromise objectives.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Security teams should preserve logs, review suspicious activity around observed failures, and prioritize exposed OAuth Authorization Server configurations in incident response. That uncertainty makes retrospective threat hunting as important as closing the immediate exposure now.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/f5-big-ip-oauth-server-0-day-flaw/\">Hackers Exploiting F5 BIG-IP OAuth Server 0-day Flaw to Gain Remote Code Execution</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:c545e729424cb409bd4975fae92b11fd1432e3ff398a1aa5f4489b3c5173e2ac",
    "url": "https://cybersecuritynews.com/shinyhunters-allegedly-claims-fbi-breach",
