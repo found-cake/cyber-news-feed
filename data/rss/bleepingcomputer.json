@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-24T14:00:54Z",
+ "updated_at": "2026-09-24T15:00:58Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-24T14:00:54Z",
+  "last_success_at": "2026-09-24T15:00:58Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:3dbf67a0f3f00f4dfffe225bdb773c795df287f01e478ac919c8da1278220c5c",
+   "url": "https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning",
+   "title": "FedRAMP VDR & VER: Daily Scans Are Only the Beginning",
+   "published_at": "2026-09-24T14:02:12Z",
+   "published_raw": "Thu, 24 Sep 2026 10:02:12 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "FedRAMP's new VDR and VER requirements make vulnerability management more continuous, with faster scanning, tighter remediation deadlines, and stronger evidence requirements. Anecdotes explains why the December 7 deadline is just the beginning of a broader shift toward continuous, automated compliance validation. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/",
+   "authors": [
+    {
+     "name": "Sponsored by Anecdotes",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:8c0056a7006fd90abe9761431ce85f9f64e700cfb470d87027e1164f2a3959f8",
    "url": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks",
@@ -1557,27 +1578,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:0bd2f62f5cd1499aaf675be090bd9f7a67a8d6c852dd872826a2cb28059a19f2",
-   "url": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator",
-   "title": "Why Patch Automation Needs Brakes, Not Just an Accelerator",
-   "published_at": "2026-09-14T14:01:11Z",
-   "published_raw": "Mon, 14 Sep 2026 10:01:11 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Patch automation can help IT teams keep pace with growing update volumes, but deploying faster also means bad updates can spread faster. Action1 explains how update rings, predefined success criteria, and human oversight can make automated patching faster without sacrificing control. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/",
-   "authors": [
-    {
-     "name": "Sponsored by Action1",
      "uri": "",
      "email": ""
     }
