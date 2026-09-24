@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-09-23T23:00:56Z",
+ "updated_at": "2026-09-24T00:00:58Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-23T23:00:56Z",
+  "last_success_at": "2026-09-24T00:00:58Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d6d257e885e1630d059207ee12d7e066ff7d9ffb626683a9cc5f219dbda24f65",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208595",
+   "title": "F5 BIG-IP APM 제로데이 실제 공격…인증 없이 원격코드 실행",
+   "published_at": "2026-09-24T08:14:25Z",
+   "published_raw": "2026-09-24 08:14:25",
+   "categories": [
+    "이슈"
+   ],
+   "description": "F5의 BIG-IP Access Policy Manager(APM)에서 인증 없이 원격 코드 실행이 가능한 치명적 제로데이 취약점이 발견돼 실제 공격에 악용되고 있다. F5가 긴급 핫픽스를 공개했으며 미국과 유럽, 캐나다 보안 당국도 즉각적인 대응을 권고했다.취약점은 CVE-2026-94127로, 메모리의 힙 영역을 잘못 처리하는 힙 기반 버퍼 오버플로 문제다. CVSS v3.1 기준 위험도는 최고 수준에 가까운 9.8점, CVSS v4.0 기준 9.3점이다. 공격자가 별도의 계정이나 인증 없이 특수하게 조작한 트래픽을 전송해 취약",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:c67ba9c40a4b2b58b9d704906b90b9488efd82871c297a1c5b5fbed2fa31619f",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208593",
