@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-24T04:00:45Z",
+ "updated_at": "2026-09-24T05:00:42Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-24T04:00:45Z",
+  "last_success_at": "2026-09-24T05:00:42Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:7360d5fabda9a4eb72bdbb678aaf5fa5ac38801c362d5d789849583d1438fe14",
+   "url": "https://cybersecuritynews.com/apache-tomcat-update",
+   "title": "Apache Tomcat Update Fixes WebSocket and HTTP/2 Flaws Affecting Server Security",
+   "published_at": "2026-09-24T04:04:20Z",
+   "published_raw": "Thu, 24 Sep 2026 04:04:20 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Vulnerability News",
+    "cyber security"
+   ],
+   "description": "<p>Apache Software Foundation has released Tomcat 11.0.26 to address 12 security vulnerabilities spanning WebSocket, HTTP/2, AJP, authentication, and TLS certificate validation. The flaws, disclosed September 23, 2026, include four rated Important, three Moderate, and five Low, giving administrators a broad but urgent patching task across internet-facing Java application servers. Most existing Tomcat 11 deployments are [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apache-tomcat-update/\">Apache Tomcat Update Fixes WebSocket and HTTP/2 Flaws Affecting Server Security</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=164596",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Apache-Tomcat-Update.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "164596",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Apache Software Foundation has released Tomcat 11.0.26 to address 12 security vulnerabilities spanning WebSocket, <a href=\"https://cybersecuritynews.com/kimwolf-v7-uses-chrome-browser/\" target=\"_blank\" rel=\"noreferrer noopener\">HTTP/2</a>, AJP, authentication, and TLS certificate validation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaws, disclosed September 23, 2026, include four rated Important, three Moderate, and five Low, giving administrators a broad but urgent patching task across internet-facing Java application servers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Most existing Tomcat 11 deployments are exposed: many issues affect versions 11.0.0-M1 through 11.0.25, while narrower flaws begin at 11.0.0-M5, 11.0.0-M14, 11.0.19, or 11.0.22. Apache does not provide binary patches for individual vulnerabilities and advises users to install a release containing the fixes, making 11.0.26 the practical remediation baseline.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The headline WebSocket flaw, CVE-2026-87022, stems from improper handling of a length parameter when per-message-deflate compression is enabled. An attacker could exploit the discrepancy to smuggle WebSocket messages; all releases from 11.0.0-M1 through 11.0.25 are affected, and commit 4fef25fe supplies the correction.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A higher-priority HTTP/2 issue, CVE-2026-86350, is a regression introduced while fixing CVE-2026-41293. Inconsistent request interpretation can cause headers to be associated incorrectly, creating a request-header mix-up in versions 11.0.22 through 11.0.25.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Related HTTP/2 defects include CVE-2026-78437, where a malformed request can make another user’s request fail, and CVE-2026-77762, a race condition that can inject trailer fields into a recycled pooled request.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Availability risks feature prominently. CVE-2026-78383 can pin an AJP processing thread when a request body is absent, while CVE-2026-77791 permits denial of service through a busy wait while sending a WebSocket close message. CVE-2026-79677 can lose asynchronous WebSocket write timeouts because of a concurrency bug, leaving operations able to consume resources indefinitely.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.26\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">The update also closes</a> CVE-2026-76183, an Important WebSocket authorization bypass caused by parsing request paths as endpoint templates. CVE-2026-75973 could reuse the first application’s realm across multiple applications using Jakarta Authentication’s default SimpleAuthConfigProvider, while CVE-2026-77756 could disrupt another user’s request by honoring Transfer-Encoding in HTTP/1.0 traffic behind a reverse proxy.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Certificate checking receives two notable repairs. CVE-2026-86248 addresses an incomplete earlier OCSP fix that could let CLIENT_CERT authentication succeed when soft-fail was disabled under the FFM implementation. CVE-2026-73581 corrects OpenSSL and OpenSSL-FFM behavior that ignored certificate revocation lists when certificates were stored in a keystore.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should inventory every Tomcat 11 instance, prioritize externally reachable WebSocket, HTTP/2, and AJP connectors, and upgrade to 11.0.26 after testing application compatibility.</p>\n\n\n\n<p class=\"wp-block-paragraph\">They should also verify downloaded artifacts using Apache’s OpenPGP signatures or SHA-512 checksums, review reverse-proxy and authentication configurations, and monitor for unusual connection exhaustion, cross-request header anomalies, or authorization failures.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Because several bugs involve races and shared connection state, successful exploitation may be intermittent, making controlled regression testing and sustained telemetry especially important after the emergency rollout across clusters. Restart and confirm the running version after deployment; configuration-only workarounds do not provide equivalent coverage for this multi-component security release.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/apache-tomcat-update/\">Apache Tomcat Update Fixes WebSocket and HTTP/2 Flaws Affecting Server Security</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:1100746ee8ed805ea407f6c914e4d8f27895f4367fa74dddb8704d7a5e3dcb18",
    "url": "https://cybersecuritynews.com/gitlab-email-private-repository-flaw",
