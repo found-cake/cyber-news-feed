@@ -1,15 +1,58 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-24T20:00:54Z",
+ "updated_at": "2026-09-24T21:00:56Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-24T20:00:54Z",
+  "last_success_at": "2026-09-24T21:00:56Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d72b93fd7d8fd75be09816d0db7b948427687a5866d952f71506535af8b3e76d",
+   "url": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads",
+   "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
+   "published_at": "2026-09-24T20:53:35Z",
+   "published_raw": "Thu, 24 Sep 2026 16:53:35 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:8d960a1b97a6878bde4092cc97b56f6f8392791189302bbe5069fc261dd560d4",
+   "url": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts",
+   "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+   "published_at": "2026-09-24T20:10:48Z",
+   "published_raw": "Thu, 24 Sep 2026 16:10:48 -0400",
+   "categories": [
+    "security",
+    "Artificial Intelligence"
+   ],
+   "description": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:b0a95393de3947b95035952d6e85dc325f144fa4221dc8bc3daddb0d1e479dab",
    "url": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code",
@@ -1492,28 +1535,6 @@
    "authors": [
     {
      "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:0e8db38d2abd4588ada9d0b91b526aeb0551d8ee6e82c49ca188d52c89ecfea2",
-   "url": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records",
-   "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records",
-   "published_at": "2026-09-14T20:36:02Z",
-   "published_raw": "Mon, 14 Sep 2026 16:36:02 -0400",
-   "categories": [
-    "security",
-    "Government"
-   ],
-   "description": "Japan's Digital Agency has discovered a data breach that may have exposed around 246,000 record rows containing personal information of government employees. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
