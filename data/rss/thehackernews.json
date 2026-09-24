@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-24T05:00:42Z",
+ "updated_at": "2026-09-24T06:00:48Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-24T05:00:42Z",
+  "last_success_at": "2026-09-24T06:00:48Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -31,6 +31,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNTaZ2mJpwks9AMkwh4I_Q5sK5sgj01Fd4eW4c47_ZsHN_8hKPjptnlJ_P0RboejQy7PB6Ad4UXLFggJXAGlVsBigp46txL8LoSlpMuwQ0sXkAPQZ4TYtg89jNIa6SLPxuv-YC-_LlNZq2FZdNHRnrP_iQUYPSj2-MzugjnlL_CrIJw80lMzbVCZEf0x8/s260-e100/pentera.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:baff1d5496fd8ebf6daa31c458a3f43837771cfd2e3ccb09eca594a20cff98d4",
+   "url": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+   "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+   "published_at": "2026-09-24T05:36:18Z",
+   "published_raw": "2026-09-24T11:06:18.564+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure.\n\nThe vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE).\n\n\"An unauthenticated attacker can make get_page_template() page-template resolution include a chosen readable local .php file",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8934481038872648640",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizoRcyQE1N3fGUKa2FY_q_T7EG_CyjTpMGGk1oFUF-XpBZa0zCA6V2yEuv3_Z1OrEjMmhbHdaVmo6NMrwb98U9VFGXDpRcItboVuZH7qc9QgPd5ZLDudfJPWoaSDbtkoXJeLTZw-6JDbq5F6YEp4AkeoJd10Nb_H9tuU0fYdgqkLrP6BTpAPOYwO6WdmkN/s260-e100/wordpress-exploits.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -686,33 +713,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:23227162b6f68818e2591d62a82d8e818d0f1653482ccf496e70236a5f847126",
-   "url": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
-   "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
-   "published_at": "2026-09-18T18:02:24Z",
-   "published_raw": "2026-09-18T23:32:24.593+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine.\n\nKernel maintainers have fixed all four over the past few weeks, so a system running an up-to-date kernel is not affected. But the exploit code is now public, and any machine still running an older kernel should be updated.\n\nThe flaws",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2262009955286362802",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixfmcEQbMRp9dJbUmuhA3LSquz7yG3lph_Nbh6NqiVGOPOiOoKYcWbspSqEDBpeyUMH-KK_DHWoBSFmaZPE_BlWRjy4swhpEPCBJ-p2NCJRTceTeDx84tDToap0VrFW304zxv0nKsRSVOMM3GPhFyJ7GZkGPG92N3aKvW3edGBBdoAJl0_fH6IehDA0I8/s260-e100/linux-kernel.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:2e4ea22accc39550c1ec2a6ae5eb27806ba23a0f4beed8fc531c0cfbb3f00226",
    "url": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
    "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
@@ -733,6 +733,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9khzZCrFkNfQ1fOYHT8A4LJrIsfc52ppe6xZffdUrfRacqTVQ76P0VPDZhqC2UfKM32jdbEiQfaCZDbrV2F0_dssOM8V8nT3ZZYvwhflLdfEhJhdNa0-UntK9XHkFJ4R5RthFMOM2X5kDZxUKW1RnRLmmQ0xLh5foMldMZovB0ZPdafoRf9cEb_w9Hwk/s260-e100/3bb.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:23227162b6f68818e2591d62a82d8e818d0f1653482ccf496e70236a5f847126",
+   "url": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
+   "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
+   "published_at": "2026-09-18T18:02:24Z",
+   "published_raw": "2026-09-18T23:32:24.593+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine.\n\nKernel maintainers have fixed all four over the past few weeks, so a system running an up-to-date kernel is not affected. But the exploit code is now public, and any machine still running an older kernel should be updated.\n\nThe flaws",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2262009955286362802",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixfmcEQbMRp9dJbUmuhA3LSquz7yG3lph_Nbh6NqiVGOPOiOoKYcWbspSqEDBpeyUMH-KK_DHWoBSFmaZPE_BlWRjy4swhpEPCBJ-p2NCJRTceTeDx84tDToap0VrFW304zxv0nKsRSVOMM3GPhFyJ7GZkGPG92N3aKvW3edGBBdoAJl0_fH6IehDA0I8/s260-e100/linux-kernel.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
