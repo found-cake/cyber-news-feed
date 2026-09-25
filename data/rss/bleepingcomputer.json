@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-25T20:00:56Z",
+ "updated_at": "2026-09-25T21:00:51Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-25T20:00:56Z",
+  "last_success_at": "2026-09-25T21:00:51Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d018bdaaeea772c0d69fbc17340f46c86bbc4ad01b3df08a522e84b0144d9e96",
+   "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw",
+   "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+   "published_at": "2026-09-25T20:57:55Z",
+   "published_raw": "Fri, 25 Sep 2026 16:57:55 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path traversal vulnerability. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:a0c80173d8bee1a067820d9dd5cf31ee21e5b33abffe5ea65dfed0023556cc6a",
    "url": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts",
@@ -1470,27 +1491,6 @@
    ],
    "description": "Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and Plesk that may be exploited in the wild. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:dcdfbcf4078e006a0c9ef45a08dd3252a6baa08cd453119402c48f4300805393",
-   "url": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites",
-   "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
-   "published_at": "2026-09-15T20:34:15Z",
-   "published_raw": "Tue, 15 Sep 2026 16:34:15 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Malicious versions of the Admin Menu Editor Pro plugin for WordPress have been distributed to more than 200 customers after a threat actor compromised the maintainer's website and pushed updates that created a hidden user account. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
    "authors": [
     {
      "name": "Bill Toulas",
