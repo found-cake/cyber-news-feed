@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-09-25T12:00:54Z",
+ "updated_at": "2026-09-25T13:00:47Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-25T12:00:54Z",
+  "last_success_at": "2026-09-25T13:00:47Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:a7e607bbeb698fb6bf0d867e496981776f2cad494516055b069aeca8750ae644",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208602",
+   "title": "AI 에이전트 결합한 ‘카르보나토’ 봇넷…노출된 도커 서버 타고 확산",
+   "published_at": "2026-09-25T21:12:31Z",
+   "published_raw": "2026-09-25 21:12:31",
+   "categories": [
+    "이슈"
+   ],
+   "description": "인증 없이 외부에 노출된 도커 서버를 감염시키고 다른 서버로 확산하는 봇넷 ‘카르보나토(Carbonato)’가 발견됐다. 감염된 서버에는 정상 오픈소스 AI 에이전트를 설치해 공격자의 명령을 수행하도록 한 것이 특징이다.멀웨어바이츠의 보안 조직 스렛다운(ThreatDown)은 지난 8월 인증 없이 접근할 수 있는 도커 이미지 저장소를 조사하다 카르보나토의 구성요소를 확인했다. 저장소에는 봇넷뿐 아니라 가짜 암호화폐 지갑 앱을 배포하는 도구도 들어 있었다. 연구진은 이를 통해 공격 방식을 분석했으며, 공개 자료만으로 전체 감염 규모를",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:0818b3fc887a39269bac714d9e6e556c845be5da84a9b30c8382d6320a74ed58",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208601",
+   "title": "워드프레스 취약점 공개 수시간 만에 공격…PHP 파일 생성 시도 포착",
+   "published_at": "2026-09-25T21:05:37Z",
+   "published_raw": "2026-09-25 21:05:37",
+   "categories": [
+    "이슈"
+   ],
+   "description": "워드프레스가 9월 22일 보안 업데이트를 공개한 당일, 취약점 ‘CVE-2026-87902’를 노린 공격 시도가 관찰됐다. 초기에는 취약한 사이트를 찾는 탐색이 주를 이뤘지만, 이후 서버에 PHP 파일을 생성하려는 요청도 확인됐다. 싱가포르 사이버보안청(CSA)은 24일 실제 악용 경보를 내고 즉각적인 업데이트를 권고했다. 문제는 워드프레스가 페이지에 사용할 템플릿 파일을 찾는 과정에 있다. 인증되지 않은 공격자가 특정 조건에서 경로를 조작하면 현재 사용 중인 테마 폴더 밖의 읽기 가능한 PHP 파일을 불러오게 만들 수 있다. 해당",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:c77ceb640df88b5c7c4ee9c5366aff7dcb2119cf0c005f8602f8f23d47a7fe8a",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208600",
