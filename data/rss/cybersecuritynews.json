@@ -1,15 +1,84 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-25T05:00:39Z",
+ "updated_at": "2026-09-25T06:00:46Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-25T05:00:39Z",
+  "last_success_at": "2026-09-25T06:00:46Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:16bf09289687797619fa5a035c6339eaaca1c160296f2219d39a0535c0722d79",
+   "url": "https://cybersecuritynews.com/duelbits-7-million-hack",
+   "title": "Duelbits Confirms $7 Million Hot-Wallet Hack, forcing Systems offline",
+   "published_at": "2026-09-25T05:41:52Z",
+   "published_raw": "Fri, 25 Sep 2026 05:41:52 +0000",
+   "categories": [
+    "Cyber Attack News",
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Crypto casino Duelbits has confirmed a cybersecurity breach that drained approximately $7 million from its hot wallets, forcing the platform offline while investigators establish the attack’s root cause. Co-founder Joe disclosed the incident on X, assured customers that user funds remain safe, and said operations would resume after the investigation and wallet replenishment are completed. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/duelbits-7-million-hack/\">Duelbits Confirms $7 Million Hot-Wallet Hack, forcing Systems offline</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=164751",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Duelbits-7-Million-Hack.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "164751",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Crypto casino Duelbits has confirmed a cybersecurity breach that drained approximately $7 million from its hot wallets, forcing the platform offline while investigators establish the attack’s root cause.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Co-founder Joe disclosed the incident on X, assured customers that user funds remain safe, and said operations would resume after the investigation and wallet replenishment are completed.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-x wp-block-embed-x\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"embed-x\"><blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Confirming a ~$7M hack. Still investigating exactly what happened and how.<br><br>Until we have clarity, Duelbits stays offline. User funds are safe.<br><br>Next steps: finish the investigation, re-top hot wallets, and bring Duelbits back online, launch Duelbits 2.0. <br><br> I&#39;ll keep posting… <a href=\"https://t.co/V4Zl4St31I\">https://t.co/V4Zl4St31I</a></p>&mdash; Joe (@DuelbitsJoe) <a href=\"https://x.com/DuelbitsJoe/status/2103116878986010688?ref_src=twsrc%5Etfw\">September 24, 2026</a></blockquote><script async src=\"https://platform.x.com/widgets.js\" charset=\"utf-8\"></script></div>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">The incident surfaced through suspicious transactions spanning several blockchains. <a href=\"https://cybersecuritynews.com/blockchain-security-2/\" target=\"_blank\" rel=\"noreferrer noopener\">Blockchain security</a> firm Scam Sniffer initially reported about $4.2 million in abnormal outflows from Duelbits hot wallets on Ethereum, BNB Chain, and Tron to newly created addresses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The firm assessed the activity as a suspected private-key compromise. Investigators later identified 8.1 BTC leaving the company’s Bitcoin hot wallet, increasing reported losses to approximately $7 million.</p>\n\n\n\n<p class=\"wp-block-paragraph\">On Ethereum, the affected wallet transferred 836 ETH, roughly 593,000 USDT, 97,000 USDC, 31,500 DAI and 12.4 billion SHIB within minutes. Additional outflows included 209 BNB and 192,000 TRX. Most stolen assets were converted into Ether and consolidated into a single address holding around 2,234 ETH, valued at approximately $6 million when traced.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Although the transaction pattern indicates unauthorized control of wallet-signing capabilities, Duelbits has not released a technical root-cause analysis. The suspected private-key exposure therefore remains a security researchers’ assessment, not a confirmed conclusion.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If signing credentials were compromised, attackers could authorize valid-looking transfers without exploiting a smart contract, making immediate credential rotation and wallet isolation critical.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In updates, Joe said Duelbits had identified what happened and promised an official statement within 24 hours. He estimated that the website could return within 15 hours, while cautioning that engineers were rebuilding the platform’s deposit and withdrawal servers to ensure the infrastructure was secure. The company apologized for the disruption and said the work is intended to prevent a repeat incident.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-x wp-block-embed-x\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"embed-x\"><blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">We’ve identified what happened.<br><br>An official statement will follow within 24 hours.<br><br>User funds are safe. Duelbits will be back stronger than ever. Ignore the FUD.<br><br>Duelbits 2.0 is close.<br><br>The site should be back up within ~15 hours. <br><br>We’re rebuilding our deposit and withdrawal… <a href=\"https://t.co/Whd44cJSPV\">https://t.co/Whd44cJSPV</a></p>&mdash; Joe (@DuelbitsJoe) <a href=\"https://x.com/DuelbitsJoe/status/2103252719217627325?ref_src=twsrc%5Etfw\">September 24, 2026</a></blockquote><script async src=\"https://platform.x.com/widgets.js\" charset=\"utf-8\"></script></div>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Duelbits’ recovery plan includes completing the investigation, replenishing hot wallets, restoring services and launching Duelbits 2.0. Keeping the platform offline reduces exposure while engineers can rotate keys, review privileged access, reconcile balances and validate transaction systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">However, the company has not yet explained the access vector, the wallet-custody architecture involved, or whether incident-response specialists and exchanges are assisting with asset recovery.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Customers should use only Duelbits’ official website and verified social accounts for updates. They should avoid unsolicited refund or recovery messages and never share seed phrases, passwords, or authentication codes, as criminals exploit high-profile cryptocurrency incidents by impersonating others and using phishing.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Duelbits maintains that customer balances are protected and says the platform will return stronger. Nevertheless, the incident remains active until its statement documents the confirmed root cause, affected systems, stolen assets, and safeguards.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Independent verification of resumed deposits and withdrawals will be essential for rebuilding trust after the $7 million Duelbits hack.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/duelbits-7-million-hack/\">Duelbits Confirms $7 Million Hot-Wallet Hack, forcing Systems offline</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:6bfc1041eeb60086844ebbcef36abf4596e2f1a7c2d929d4e1500d312b0f49b4",
+   "url": "https://cybersecuritynews.com/payy-ethereum-bridge-contract-drain",
+   "title": "Hackers Exploited Ethereum Bridge Contract to Drain Full Balance from Payy Network",
+   "published_at": "2026-09-25T05:18:27Z",
+   "published_raw": "Fri, 25 Sep 2026 05:18:27 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Payy Network has confirmed that attackers exploited its Ethereum bridge contract and drained the contract’s entire balance, forcing the stablecoin payments platform to suspend network and wallet functions. According to a public statement from Payy, the incident occurred at approximately 4:21 UTC on September 24. The affected bridge contract supported transfers between Ethereum and the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/payy-ethereum-bridge-contract-drain/\">Hackers Exploited Ethereum Bridge Contract to Drain Full Balance from Payy Network</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=164745",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Exploited-Ethereum-Bridge-Contract-to-Drain-full-balance-from-Payy-Network.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "164745",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Payy Network has confirmed that attackers <a href=\"https://cybersecuritynews.com/remus-hides-its-command-server/\" target=\"_blank\" rel=\"noreferrer noopener\">exploited its Ethereum bridge contract </a>and drained the contract’s entire balance, forcing the stablecoin payments platform to suspend network and wallet functions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to a public statement from Payy, the incident occurred at approximately 4:21 UTC on September 24. The affected bridge contract supported transfers between Ethereum and the Payy Network.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Blockchain bridges are high-value targets because they often hold pooled funds that back assets moved across different networks. In this case, the attacker exploited the Ethereum-side contract and removed all funds held in the bridge balance.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Payy said the stolen assets were users’ non-custodial deposits connected to Payy Network and Payy Wallet. This distinction is important because the funds were not held in a traditional custodial account controlled directly by the company.</p>\n\n\n\n<h2 id=\"h-hackers-exploited-ethereum-bridge-contract\" class=\"wp-block-heading\"><strong>Hackers Exploited Ethereum Bridge Contract </strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Instead, users had deposited funds through the <a href=\"https://cybersecuritynews.com/hackers-exploit-critical-yearn-finances-yeth-pool-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">bridge mechanism to access services</a> on the Payy ecosystem. Following the exploit, Payy halted all major transaction activity across its network. The temporary suspension includes deposits, withdrawals, transfers, and card transactions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company also paused Payy Wallet functionality while its teams investigate the attack and determine the appropriate next steps for affected users.</p>\n\n\n\n<p class=\"wp-block-paragraph\">“The bridge contract on Ethereum was exploited and drained of its full balance,” Payy said, adding that its investigation remains ongoing and that it is following incident-response procedures.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-x wp-block-embed-x\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"embed-x\"><blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Today at 4:21 UTC Payy’s bridge contract on Ethereum was exploited and drained of its full balance.<br><br>Investigation is ongoing and we are following incident response guidelines.<br><br>While we investigate, all Payy Network transactions are paused including deposits, withdrawals,…</p>&mdash; Payy (@payy_link) <a href=\"https://x.com/payy_link/status/2103123293687419136?ref_src=twsrc%5Etfw\">September 24, 2026</a></blockquote><script async src=\"https://platform.x.com/widgets.js\" charset=\"utf-8\"></script></div>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">The company has not yet disclosed the vulnerability type, the amount stolen, the attacker’s wallet addresses, or whether the exploit resulted from a smart-contract logic flaw, an authorization bypass, a compromised privileged key, or another weakness.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Payy said it has notified law enforcement, cryptocurrency exchanges, <a href=\"https://cybersecuritynews.com/hackers-use-ethereum-blockchain/\" target=\"_blank\" rel=\"noreferrer noopener\">blockchain analytics firms</a>, and other relevant organizations about the attacker addresses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">These actions are intended to help trace the stolen assets, identify potential cash-out attempts, and prevent the attackers from moving funds through centralized exchanges or other identifiable services.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The incident highlights the continuing security risks surrounding cross-chain bridges. Bridge contracts commonly manage <a href=\"https://cybersecuritynews.com/1-46-stolen-bybit-exchange/\" target=\"_blank\" rel=\"noreferrer noopener\">large pools of cryptocurrency</a> and rely on complex validation, message-passing, minting, and withdrawal logic.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A single flaw in these systems can enable an attacker to forge a withdrawal, <a href=\"https://cybersecuritynews.com/ethereums-security-frontier-privacy-proofs-and-new-standards-for-defense/\" target=\"_blank\" rel=\"noreferrer noopener\">bypass verification checks</a>, replay a transaction, or transfer assets beyond the amount legitimately deposited.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For Payy users, the immediate priority is to avoid interacting with the paused bridge, wallet, and network services until the company releases verified recovery guidance.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Users should remain alert for impersonation campaigns, phishing messages, fake reimbursement pages, and malicious refund or token recovery links, while <a href=\"https://x.com/payy_link\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Payy continues posting investigation updates on X</a> as its investigation progresses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company’s next disclosures will be closely watched for technical details on the attack path, the value of the stolen assets, affected deposit records, and plans to reimburse or recover user funds.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Payy confirmed that the Ethereum bridge was exploited at 4:21 UTC and that all Payy Network transaction functions were paused during the response.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/payy-ethereum-bridge-contract-drain/\">Hackers Exploited Ethereum Bridge Contract to Drain Full Balance from Payy Network</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:c07aaca5accf3857b091f3057b5b42e175efbd5f3ce72255076b5748ac603edb",
    "url": "https://cybersecuritynews.com/bitget-hot-wallet-hacked",
