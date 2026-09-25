@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-25T19:00:50Z",
+ "updated_at": "2026-09-25T20:00:56Z",
  "retention_days": 10,
  "status": {
-  "ok": false,
-  "last_success_at": "2026-09-25T18:00:53Z",
-  "last_error_at": "2026-09-25T19:00:50Z",
-  "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+  "ok": true,
+  "last_success_at": "2026-09-25T20:00:56Z",
+  "last_error_at": null,
+  "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ea0cd908195b0233ba1d9b2eb4747aba3772e7bbda13374937d6e40759cabef1",
+   "url": "https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps",
+   "title": "OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services",
+   "published_at": "2026-09-25T18:02:16Z",
+   "published_raw": "Fri, 25 Sep 2026 18:02:16 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Vulnerability News",
+    "cyber security"
+   ],
+   "description": "<p>Two flaws in the latest OxygenOS build could let malicious Android apps run code with root privileges on OnePlus devices, including the OnePlus 15, by exploiting accessible privileged services. The vulnerabilities are significant because Android permission prompts normally act as a barrier between untrusted apps and sensitive device functions. A user may reasonably assume that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/\">OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=164848",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OnePlus-15-Flaws-Let-Zero-Permission-Apps-Gain-Root-Access-Through-OxygenOS-Services.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "164848",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Two flaws in the latest OxygenOS build could let <a href=\"https://cybersecuritynews.com/trapdoor-android-ad-fraud-operation-uses-455-malicious-apps/\" target=\"_blank\" rel=\"noreferrer noopener\">malicious Android apps</a> run code with root privileges on OnePlus devices, including the OnePlus 15, by exploiting accessible privileged services.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerabilities are significant because Android permission prompts normally act as a barrier between untrusted apps and sensitive device functions. A user may reasonably assume that an app requesting no permissions has limited capabilities.</p>\n\n\n\n<p class=\"wp-block-paragraph\">However, the reported OxygenOS flaws could bypass that expectation by abusing system components already running with elevated privileges.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Researcher Rasmus Moorats submitted the findings to OnePlus, which confirmed that its security team had validated the report and scheduled remediation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In an email dated May 20, 2026, the <a href=\"https://blog.nns.ee/raw/2026-09-24-oneplus-root/2026-05-20-oneplus-email.txt\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">OnePlus Security Response Center said </a>the issues affect “all series of OPPO terminal products with universal security risks,” indicating the underlying vulnerable components may be shared across the wider OPPO ecosystem.</p>\n\n\n\n<h2 id=\"h-oneplus-15-zero-permission-flaws\" class=\"wp-block-heading\"><strong>OnePlus 15 Zero-Permission</strong> <strong>Flaws</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The attack scenario centers on privileged OxygenOS services exposed to applications installed on the phone. If a service does not adequately enforce caller identity, signature-level permissions, or input validation, an untrusted application may send crafted requests to trigger dangerous operations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In this case, the alleged outcome is execution of attacker-controlled code as root, Android’s most privileged account. Root access would give an attacker broad control over a device.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A malicious app could access protected data, modify security settings, install persistent components, interfere with other apps, or t<a href=\"https://cybersecuritynews.com/signed-driver-disable-security-tools-and-passwords/\" target=\"_blank\" rel=\"noreferrer noopener\">urn off security tools</a>. The impact would depend on the exact service behavior, device configuration, and whether exploitation requires additional conditions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">No public proof-of-concept or technical exploit details were included in the supplied disclosure. OnePlus asked the researcher not to independently publish a complete technical analysis, exploitation method, or risk mechanism, including after security fixes have been rolled out.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company stated that it retains final control over public vulnerability disclosures submitted through its security program. OnePlus also directed the researcher to its official security platform or HackerOne for submission and bounty processing.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company said it plans to issue a unified public announcement and credit researchers through its security honor list once it fully releases fixes and updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Users should install OxygenOS security updates as soon as they become available. Until the vendor publishes affected versions and patch information, users should avoid sideloading apps from untrusted sources, review installed applications, and remove software from unknown developers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Enterprise administrators should monitor managed OnePlus and OPPO devices for overdue operating-system updates and restrict installation from unofficial app stores.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The case highlights the risks created by privileged Android vendor services. Even when Android’s core permission model is strong, a single exposed system service can let a low-privilege app gain control far beyond the access a user intended to grant.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup in&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/\">OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:89764ae3a2ace700ac53559fd28314a807849ba215dcd5368c8aa208cc2ccec1",
    "url": "https://cybersecuritynews.com/14-year-old-linux-kernel-flaw",
