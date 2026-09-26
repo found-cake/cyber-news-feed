@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-09-26T11:01:02Z",
+ "updated_at": "2026-09-26T12:01:01Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-26T11:01:02Z",
+  "last_success_at": "2026-09-26T12:01:01Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:075a7dcf04287024a57d7faa74d3813eb4eafcf873873763275f9a576f5dd7f4",
+   "url": "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining",
+   "title": "New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining",
+   "published_at": "2026-09-26T12:00:00Z",
+   "published_raw": "Sat, 26 Sep 2026 12:00:00 +0000",
+   "categories": [
+    "Malware & Threats",
+    "AI",
+    "botnet",
+    "malware",
+    "X47.c"
+   ],
+   "description": "<p>The Windows botnet relies on AI to maintain persistence, using xAI Grok to choose from predefined actions.</p>\n<p>The post <a href=\"https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/\">New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49582",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:5d6807d86ded7e46f8540f7dee6dfd60479e975fe0db21a024f7a88050d0a4c0",
    "url": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure",
@@ -2664,111 +2699,6 @@
    "authors": [
     {
      "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:082bd8dedfd96d10643c290dec1a2755358d5f170b57bac67b96776feb3a6325",
-   "url": "https://www.securityweek.com/us-uk-dutch-agencies-expose-iranian-chosen-brick-surveillance-malware",
-   "title": "US, UK, Dutch Agencies Expose Iranian ‘Chosen Brick’ Surveillance Malware",
-   "published_at": "2026-09-16T12:00:14Z",
-   "published_raw": "Wed, 16 Sep 2026 12:00:14 +0000",
-   "categories": [
-    "Malware & Threats",
-    "Chosen Brick",
-    "espionage",
-    "Government",
-    "Iran",
-    "malware",
-    "spyware",
-    "Surveillance"
-   ],
-   "description": "<p>US, UK, and Dutch government agencies published a report detailing the malware, and the FBI described the abuse of Telegram for C&#038;C.</p>\n<p>The post <a href=\"https://www.securityweek.com/us-uk-dutch-agencies-expose-iranian-chosen-brick-surveillance-malware/\">US, UK, Dutch Agencies Expose Iranian &#8216;Chosen Brick&#8217; Surveillance Malware</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49369",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:2bd6c2a8db2b4307ae3d3c700bbdfa1cc4988ed060b0ab92d956604b983ec25e",
-   "url": "https://www.securityweek.com/unauthenticated-rce-flaws-could-expose-200000-wordpress-sites-to-takeover",
-   "title": "Unauthenticated RCE Flaws Could Expose 200,000+ WordPress Sites to Takeover",
-   "published_at": "2026-09-16T11:32:53Z",
-   "published_raw": "Wed, 16 Sep 2026 11:32:53 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "calendar",
-    "plugin vulnerability",
-    "vulnerability",
-    "WordPress"
-   ],
-   "description": "<p>Vulnerabilities in The Events Calendar can provide attackers with remote code execution capabilities.</p>\n<p>The post <a href=\"https://www.securityweek.com/unauthenticated-rce-flaws-could-expose-200000-wordpress-sites-to-takeover/\">Unauthenticated RCE Flaws Could Expose 200,000+ WordPress Sites to Takeover</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49366",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:52ca48c5134e97133c38081f8402d222a31a1716e5b47f086d106100629d512c",
-   "url": "https://www.securityweek.com/hackuity-raises-19-million-for-ai-powered-vulnerability-management",
-   "title": "Hackuity Raises $19 Million for AI-Powered Vulnerability Management",
-   "published_at": "2026-09-16T11:11:23Z",
-   "published_raw": "Wed, 16 Sep 2026 11:11:23 +0000",
-   "categories": [
-    "Cybersecurity Funding",
-    "funding"
-   ],
-   "description": "<p>The company will use the new capital to expand its vulnerability operations platform and support international growth.</p>\n<p>The post <a href=\"https://www.securityweek.com/hackuity-raises-19-million-for-ai-powered-vulnerability-management/\">Hackuity Raises $19 Million for AI-Powered Vulnerability Management</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49362",
-   "authors": [
-    {
-     "name": "SecurityWeek News",
      "uri": "",
      "email": ""
     }

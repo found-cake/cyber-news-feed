@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-26T11:01:02Z",
+ "updated_at": "2026-09-26T12:01:01Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-26T11:01:02Z",
+  "last_success_at": "2026-09-26T12:01:01Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -65,26 +65,26 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:5a937b962d20ac975d21b84f7e06b7f522e3af28dd11977d8c73eec7b0150771",
-   "url": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
-   "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
-   "published_at": "2026-09-16T11:15:48Z",
-   "published_raw": "2026-09-16T16:45:48.805+05:30",
+   "id": "sha256:124ca5b2bbe434fe47a02f4a37c34f078e07c17b83a8c8337611fcbbcef512c3",
+   "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+   "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+   "published_at": "2026-09-26T11:46:40Z",
+   "published_raw": "2026-09-26T17:16:40.375+05:30",
    "categories": [
-    "threat-intelligence"
+    "vulnerability"
    ],
-   "description": "A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security teams have triaged the alert. Attackers are combining that kind of intelligence with AI-assisted exploitation to accelerate the path from exposure to breach faster than most security programs are built to react.",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1135036574254124465",
+   "description": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally.\n\nThe ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could result in unauthenticated remote code execution.\n\nThe vulnerability was first exploited as a zero-day",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-896928501360525621",
    "authors": [
     {
-     "name": "Unknown",
-     "uri": "",
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
      "email": "noreply@blogger.com"
     }
    ],
    "media": [
     {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNTaZ2mJpwks9AMkwh4I_Q5sK5sgj01Fd4eW4c47_ZsHN_8hKPjptnlJ_P0RboejQy7PB6Ad4UXLFggJXAGlVsBigp46txL8LoSlpMuwQ0sXkAPQZ4TYtg89jNIa6SLPxuv-YC-_LlNZq2FZdNHRnrP_iQUYPSj2-MzugjnlL_CrIJw80lMzbVCZEf0x8/s260-e100/pentera.jpg",
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYN2VWIT2g8mQkV0GeZWzYErKcubb0-baI8J__2nmdElucECc7HrLkdPsR1dz93qjMBI5sr_dL8yPWHf2bwWCBXa3YfutHAeJ-70UCSMuJrHhyOB3RO4OkuDjuw7gxRLXUnK-CeK9jZO0uOJRy-N3w-rV7uZ4t1FnFIWNjEsKtSYQINUvPX31mKzV_5Ert/s260-e100/oracle-flaw.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -1408,60 +1408,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjExQfYsCTPbCiUrkVUWdKhrZNgpAVRtutRYt2c4x-f5ClJdNYjERcet4Fctan3gEOl0DPk64GUGZv5IK3Cd_pi3Jk1cyH3tdYig9mpc2XTLjJaK0KM3aiqE6W1OeGiKr_kRWNRmty1u4Cwf_9-S1KrKdqUeL25YwL6tt5Z-nUcvzj0F8NemzMbSUmvTJ4/s260-e100/parashells.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:8f4404937cb63f29b4d89ed4a114969e028ca131e8756bfc016f2a6d90bca3e7",
-   "url": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
-   "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
-   "published_at": "2026-09-16T11:15:58Z",
-   "published_raw": "2026-09-16T16:45:58.769+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-58704 (CVSS score: 8.0), is a privilege escalation flaw.\n\n\"In Cellular Modem, there is a possible permission bypass due to a logic error in the code,\" according to a description of the bug in the NIST National Vulnerability Database",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7136716733241952370",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdVCezHTU2PU4DuL9ysF0nQFJLLR2QyxyexdJN5iv1QQnl4-mFFupADzryOhW_lsM_nI5OgHH5krMBLOErLl9GNmyJeaGEDGQNnhhyphenhyphenNs2ZXIwBLTIY8poIVxLKPNRRAipPFbKv_a7CPzE86rB_nItrsiirydPRuCZrvkDymktX28d1O7kSbEhIgmEPh6oy/s260-e100/pixel.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:7b88c993f3771bfa6b77538b5c04df8131f56ad8949a450c491314dddc187bed",
-   "url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
-   "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
-   "published_at": "2026-09-16T11:08:54Z",
-   "published_raw": "2026-09-16T16:38:54.126+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions -\n\n\n  Acronis Backup plugin for cPanel &amp; WHM (Linux",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-321571732072475142",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOvbeWtAztd1-F4zbNa4Ei7kEh-C7s4QGW-rmB8ug7-mXRIcdL_mAqtAA_hqAG7QtaHUMTxSYa5dFw0080LoR66SUCPLGybqueRLeUJvQQ6unmg4WqExx08rrv0NZaZkQldGURtIDMZRpregBaFLhjws2d_eRt0I0VcZdaSGZS6twj0AvBK74TAJx-veBz/s260-e100/acronis.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
