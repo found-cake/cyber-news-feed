@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-26T19:01:02Z",
+ "updated_at": "2026-09-26T20:01:08Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-26T19:01:02Z",
+  "last_success_at": "2026-09-26T20:01:08Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:276ff97ad08b0e13e11747a8bc585d661cc46608b03075e005fabee9021079d8",
+   "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks",
+   "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+   "published_at": "2026-09-26T19:03:34Z",
+   "published_raw": "Sat, 26 Sep 2026 15:03:34 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat actors to resume widespread exploitation of a flaw on vulnerable servers. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:2bcb50f0cb09721982623055a8c876238cdd1831ec0d8d8ad561f61129818e62",
    "url": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active",
