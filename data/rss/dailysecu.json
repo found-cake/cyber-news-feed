@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-09-27T08:00:57Z",
+ "updated_at": "2026-09-27T09:00:57Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-27T08:00:57Z",
+  "last_success_at": "2026-09-27T09:00:57Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:046fddad49a07cfd95609726986eb5ecfa828708622398656f137184a100320d",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208612",
+   "title": "새 컨테이너에 이전 고객 데이터가 남았다…클라우드플레어 격리 취약점 발견",
+   "published_at": "2026-09-27T17:51:05Z",
+   "published_raw": "2026-09-27 17:51:05",
+   "categories": [
+    "이슈"
+   ],
+   "description": "클라우드플레어의 컨테이너 서비스에서 한 고객이 같은 서버를 먼저 사용한 다른 고객의 데이터를 읽을 수 있는 취약점이 발견됐다.현재 실행 중인 서비스에 침입한 것이 아니라, 삭제된 컨테이너의 디스크 공간을 재사용하면서 이전 데이터 일부가 남는 문제다. 클라우드플레어는 9월 24일 이를 공개하고 전체 서버에 대한 수정과 정리를 마쳤다고 밝혔다. 취약점을 발견한 보안업체 어컴플리시의 오렌 욤토프 연구원은 9월 4일 클라우드플레어에 신고했다. 영향을 받은 서비스는 고객의 프로그램을 실행하는 ‘클라우드플레어 컨테이너’와 이를 기반으로 외부",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "우진영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:94ae094f4a2e2536a872f0aab3976d3e100ea201cc185036a4cfd8d8f78acf9a",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208611",
+   "title": "셰어포인트·마이크로틱 취약점 실제 공격…미 CISA 긴급 경고",
+   "published_at": "2026-09-27T17:03:24Z",
+   "published_raw": "2026-09-27 17:03:24",
+   "categories": [
+    "이슈"
+   ],
+   "description": "미국 사이버보안·인프라보안국(CISA)이 마이크로소프트 셰어포인트와 마이크로틱 라우터OS의 취약점 두 건을 실제 공격에 쓰인 취약점 목록에 올렸다. 공격 가능성을 경고하는 단계를 넘어, 악용 사실을 확인했다는 뜻이다.두 취약점의 공격 방식은 다르다. 셰어포인트는 서버에 접근할 수 있는 계정 권한을 가진 공격자가 악용할 수 있다. 라우터OS는 두 취약점을 함께 이용하면 암호 없이 공유기 관리자 권한을 얻을 수 있다.셰어포인트, 서버에서 공격자 코드 실행 가능셰어포인트 취약점 CVE-2026-65660은 서버가 입력값을 처리하는 과정에",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:a7e607bbeb698fb6bf0d867e496981776f2cad494516055b069aeca8750ae644",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208602",
