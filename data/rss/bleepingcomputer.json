@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-27T17:00:53Z",
+ "updated_at": "2026-09-27T18:00:57Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-27T17:00:53Z",
+  "last_success_at": "2026-09-27T18:00:57Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -13,13 +13,13 @@
   {
    "id": "sha256:37307b66ca009ae41c1bd144b0c99723da3c39fee14e47175fccfd9bac50d5bc",
    "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days",
-   "title": "Citrix admins warned to shut down NetScalers over 2 exploited zero-days",
+   "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
    "published_at": "2026-09-27T16:02:37Z",
    "published_raw": "Sun, 27 Sep 2026 12:02:37 -0400",
    "categories": [
     "security"
    ],
-   "description": "Two unpatched Citrix NetScaler zero-day vulnerabilities are reportedly being exploited in attacks, with cybersecurity agencies, security researchers, and IT providers privately warning organizations about the flaws ahead of patches expected next week. [...]",
+   "description": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the flaws. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
    "authors": [
     {
@@ -1322,27 +1322,6 @@
    ],
    "description": "OpenAI has presented new examples of what they call \"AI model misalignment\" from the past six months, including unauthorized file uploads, following self-generated instructions, hiding mistakes, and leveraging exposed API keys. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:ac794e2681f26e275b0be76dd41e0799c9760e7c27aaa5bb09004a37c918c29e",
-   "url": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites",
-   "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
-   "published_at": "2026-09-17T17:11:34Z",
-   "published_raw": "Thu, 17 Sep 2026 13:11:34 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Brevo confirmed that attackers stole a Cloudflare API key and used it to inject malicious ClickFix scripts into its websites and JavaScript files embedded on customer sites to distribute malware. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
    "authors": [
     {
      "name": "Bill Toulas",
