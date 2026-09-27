@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-27T14:01:13Z",
+ "updated_at": "2026-09-27T15:01:04Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-27T14:01:13Z",
+  "last_success_at": "2026-09-27T15:01:04Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c6c75256eedfa72f7a8f56cdd00f3745981abaf0851c763c3bca9784c424ff8f",
+   "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data",
+   "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+   "published_at": "2026-09-27T14:13:31Z",
+   "published_raw": "Sun, 27 Sep 2026 10:13:31 -0400",
+   "categories": [
+    "security",
+    "Cloud"
+   ],
+   "description": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:276ff97ad08b0e13e11747a8bc585d661cc46608b03075e005fabee9021079d8",
    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks",
