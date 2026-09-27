@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-27T12:01:09Z",
+ "updated_at": "2026-09-27T13:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-27T12:01:09Z",
+  "last_success_at": "2026-09-27T13:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -1192,33 +1192,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJbYvRH1MRTGK43JYSWe2X3djxWAuNa3_r94FvOPBjt9sWrkRiEQi7D0DPksj3NH9vDPjm7MGSGY9UEc7JqePjd4aA-c4zuMzLZXH0Y5NWKWGnzNgbFe0tYlEFSFLrJFWVRuRKs_PQN8IKkdzYYNn8T7YWuUkZC4_2skq3deXYAw7i0aqWdx6G0FQwVzs/s260-e100/docker-macos.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:4341f2269a01efb541fca4c9782a3e8abfa4e76385981cd8f206066292ab0169",
-   "url": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-   "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
-   "published_at": "2026-09-17T12:30:00Z",
-   "published_raw": "2026-09-17T18:00:00.000+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an&nbsp;advisory&nbsp;on Wednesday.\n\nAn attacker who controls a malicious zone and queries a vulnerable resolver can trigger it, enabling remote code execution.\n\nUnbound 1.26.1, released the same day, fixes the bug, tracked as&nbsp;CVE-2026-81642, along with",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3519186049028689274",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiFNFekCjM7qSAMNaeoNatwUPsjJY0Nj67yGKdlhq_zzLH9tyjQrXAByn9B6BvXEcMabyWnO5oWWE11_orN2h7G-7jRjGPSW48xtd4HySWIkI1fQzCbUDCVzRyc_KG3curUoXk4LgyckPwUO8aP65kR0CYnc90pkfXctHKXVQ7grKsc43drFZ63yRur20/s260-e100/dns-admin.jpg",
      "kind": "thumbnail",
      "medium": ""
     }

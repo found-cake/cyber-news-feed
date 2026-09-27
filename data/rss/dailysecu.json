@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-09-27T12:01:09Z",
+ "updated_at": "2026-09-27T13:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-27T12:01:09Z",
+  "last_success_at": "2026-09-27T13:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:139774cf796323540eb37eececb99b27cde05df33a4edb6776599ee7fe5b14de",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208614",
+   "title": "방화벽 믿고 패치 미뤘더니…샤이니헌터스, 오라클 피플소프트 다시 공격",
+   "published_at": "2026-09-27T21:35:59Z",
+   "published_raw": "2026-09-27 21:35:59",
+   "categories": [
+    "이슈"
+   ],
+   "description": "샤이니헌터스가 오라클 피플소프트의 취약점을 이용한 대규모 공격을 재개했다. 지난 6월 보안 업데이트가 나왔지만, 프로그램을 수정하지 않고 웹 방화벽 규칙으로만 공격을 막으려 했던 서버들이 다시 표적이 됐다.구글 위협정보그룹과 맨디언트가 25일 공개한 분석에 따르면, 공격자는 취약한 ‘환경관리 허브’로 향하는 인터넷 주소의 문자 한 개를 다른 형식으로 표현했다. 일부 웹 방화벽은 바뀐 주소를 차단 대상과 다른 것으로 판단했지만, 피플소프트 서버는 이를 원래 주소로 해석했다. 방화벽의 차단 규칙을 우회해 취약한 기능에 접근한 것이다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:e2a8a9335bb0812e461f09b7d8c255d12e632e24596c0388694ed89de5aa09fa",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208613",
