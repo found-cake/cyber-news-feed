@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "darkreading",
- "updated_at": "2026-09-28T18:01:09Z",
+ "updated_at": "2026-09-28T19:00:58Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-28T18:01:09Z",
+  "last_success_at": "2026-09-28T19:00:58Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:da1a40662d31a8cd78d9e700012d1b3af6e69333a685ab8841f28629ffd29abf",
+   "url": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access",
+   "title": "AI Agents Are Privileged Users; Who Is Auditing Their Access?",
+   "published_at": "2026-09-28T18:44:22Z",
+   "published_raw": "Mon, 28 Sep 2026 18:44:22 GMT",
+   "categories": [
+    "vulnerabilities-threats"
+   ],
+   "description": "Enterprises regularly rigorously monitor human employees, while autonomous AI agents quietly operate with broad privileges that could turn them into the next generation of insider threats.",
+   "feed_id": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access",
+   "authors": [
+    {
+     "name": "Ravi Sharma",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6c9f5fa659c439fa/6abab77dfee74bb9c8c001cc/AI_agent-MF3d-Getty-2217030312.jpg?width=720&quality=80&disable=upscale",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6c9f5fa659c439fa/6abab77dfee74bb9c8c001cc/AI_agent-MF3d-Getty-2217030312.jpg?width=720&quality=80&disable=upscale",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "darkreading": {
+     "guid_is_permalink": "false"
+    }
+   }
+  },
   {
    "id": "sha256:9ea947543a4710ac85683b75d8515e8e3ec3b2bfde173f8a37cb5589d50470db",
    "url": "https://www.darkreading.com/application-security/chrome-store-poper-blocker-spyware-downloaded-millions",
@@ -19,7 +55,7 @@
    "categories": [
     "application-security"
    ],
-   "description": "A purported ad-blocker exfiltrates reams of sensitive information, and benefits from having Google's stamp of approval despite researcher warnings.",
+   "description": "A purported ad-blocker exfiltrates reams of sensitive information and benefits from having Google's stamp of approval despite researcher warnings.",
    "feed_id": "https://www.darkreading.com/application-security/chrome-store-poper-blocker-spyware-downloaded-millions",
    "authors": [
     {
@@ -738,42 +774,6 @@
     },
     {
      "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt850556f866500627/654a5a8e05eb4d040a046894/325351_DR23_Graphics_General_Large_Text_v1.png?width=720&quality=80&disable=upscale",
-     "kind": "content",
-     "medium": "image"
-    }
-   ],
-   "source_metadata": {
-    "darkreading": {
-     "guid_is_permalink": "false"
-    }
-   }
-  },
-  {
-   "id": "sha256:efa1ccc0b8e0a2a5ac51991ceb3868d70d2684d9111294f194f6049ff9e0b7ee",
-   "url": "https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse",
-   "title": "MFA Won't Save You From OAuth Consent Abuse",
-   "published_at": "2026-09-18T18:15:20Z",
-   "published_raw": "Fri, 18 Sep 2026 18:15:20 GMT",
-   "categories": [
-    "vulnerabilities-threats"
-   ],
-   "description": "MFA is essential, but it cannot replace OAuth governance, least-privilege scopes, consent monitoring, and rapid revocation.",
-   "feed_id": "https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse",
-   "authors": [
-    {
-     "name": "Vishnu Galata",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [
-    {
-     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt8631b42f8b5aec85/6aad80fd266d963c81df6ccc/approval-_acilo_-_getty-471084261.jpg?width=720&quality=80&disable=upscale",
-     "kind": "thumbnail",
-     "medium": ""
-    },
-    {
-     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt8631b42f8b5aec85/6aad80fd266d963c81df6ccc/approval-_acilo_-_getty-471084261.jpg?width=720&quality=80&disable=upscale",
      "kind": "content",
      "medium": "image"
     }

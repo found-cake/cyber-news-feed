@@ -1,15 +1,42 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-09-28T18:01:09Z",
+ "updated_at": "2026-09-28T19:00:58Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-28T18:01:09Z",
+  "last_success_at": "2026-09-28T19:00:58Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:bef7f6a21fd6f32c4da3d0b40a12882536d8ffbe23b9f3339834b795c4292cd5",
+   "url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+   "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
+   "published_at": "2026-09-28T18:35:42Z",
+   "published_raw": "2026-09-29T00:05:42.019+05:30",
+   "categories": [
+    "threat-intelligence"
+   ],
+   "description": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in&nbsp;a technical analysis.\n\nThe malware has been seen in a small number of targeted intrusions at telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and government contractors. Its use goes back to at least",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1751185159239090314",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJgqNtFBBtX_6em5nY1VC9Q4M6HMG7gzxiQspFHsQRfQgm3LK5kTsHi-9SbwEx8kaeVv7BtKGFq3u1SmTGFEOe0z78fxFCxRFVEb09v0FMZ5tT-FNl7sUBnsGPPpDlAaQh4E_CSQQnwFakxNll2AvKiBvidb9ljEatmOzdJV4T4z8r5lmYG3DINHy-wR0/s260-e100/hackers.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:16e6f1ff0925d12742d7cd1e6825145759de7217e8c4389ff77303a9407bdb96",
    "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
@@ -1084,33 +1111,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcKuQ4GC9r1-4fQ3Ap_CQko0y3nMI0SnATF3WNSv48uFtNskrV4PqnyW4s0L7sXcojrHoJCEZRazGJNz5JhxrTTSYZSAQeD-xwdquE3X7pJ_ylBUerrybIiaE3V-i1vXdiLr_N1KCM9GTmeAKLlgySqEr0QeCB5ckvnppiEHSZhnEqv0IfUnqCKdA1kKsN/s260-e100/cisa-linux.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:23227162b6f68818e2591d62a82d8e818d0f1653482ccf496e70236a5f847126",
-   "url": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
-   "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
-   "published_at": "2026-09-18T18:02:24Z",
-   "published_raw": "2026-09-18T23:32:24.593+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine.\n\nKernel maintainers have fixed all four over the past few weeks, so a system running an up-to-date kernel is not affected. But the exploit code is now public, and any machine still running an older kernel should be updated.\n\nThe flaws",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2262009955286362802",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixfmcEQbMRp9dJbUmuhA3LSquz7yG3lph_Nbh6NqiVGOPOiOoKYcWbspSqEDBpeyUMH-KK_DHWoBSFmaZPE_BlWRjy4swhpEPCBJ-p2NCJRTceTeDx84tDToap0VrFW304zxv0nKsRSVOMM3GPhFyJ7GZkGPG92N3aKvW3edGBBdoAJl0_fH6IehDA0I8/s260-e100/linux-kernel.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
