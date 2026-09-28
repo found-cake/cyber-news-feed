@@ -1,15 +1,59 @@
 {
  "schema_version": 1,
  "source": "boannews",
- "updated_at": "2026-09-28T06:01:06Z",
+ "updated_at": "2026-09-28T07:01:01Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-28T06:01:06Z",
+  "last_success_at": "2026-09-28T07:01:01Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:dfb835e7715950aac6769bf49dfe3943cd0efa0f8b3fc1cac62ac36f294b1cc6",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=146061",
+   "title": "오라클 피플소프트 공격 다시 고개 들어… 대문자 하나만 퍼센트 기호로 바꿔 웹 방화벽 뚫고 웹셸 심어",
+   "published_at": "2026-09-28T15:30:00Z",
+   "published_raw": "2026-09-28 15:30:00",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "공격자들이 인사·재무 업무에 널리 쓰이는 오라클 피플소프트(PeopleSoft)를 노려 웹애플리케이션방화벽(WAF)을 우회하고 서버에 웹셸을 심고 있다.맨디언트는 샤이니헌터스와 연결된 공격 조직 UNC6240이 취약한 환경관리허브(PSEMHUB) 경로를 막아 둔 방화벽 규칙을 우회하도록 공격 코드를 고쳤다고 밝혔다.공격자는 경로에서 한 글자만 바꿨다. 차단 대상인 /PSEMHUB/ 대신 첫 글자만 URL 인코딩해 /%50SEMHUB/로 요청을 보냈다. 많은 방화벽과 리버스 프록시 규칙이 URL을 디코딩하기 전 문자열 그대로 경로를",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "한세희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:0ee38ab59ba78a973d6ea6fe1c5ceab453b881b2bb45a77bb7bf14bc48a284a6",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=146060",
+   "title": "행안부, 재난안전 전반에 AI 적용한다 “2030년까지 50개 사업에 9400억원 투자”",
+   "published_at": "2026-09-28T15:14:39Z",
+   "published_raw": "2026-09-28 15:14:39",
+   "categories": [
+    "공공·정책",
+    "보도자료"
+   ],
+   "description": "행정안전부(장관 윤호중)는 기후위기와 복합재난에 선제적으로 대응하기 위해 현재의 재난안전 업무 전반에 AI를 적용하는 ‘범정부 재난안전 인공지능 전환(AX) 종합계획’을 수립하고, 2030년까지 50개 사업에 약 9400억원을 투자한다고 밝혔다.종합계획은 올해 초 ‘국가인공지능전략위원회’의 권고에 따라 마련됐다. 기존 대응 중심 재난관리 체계를 ‘AI 활용 사전 대비 체계’로 전환해 국민이 체감할 수 있는 안전한 일상을 만드는 데 목적이 있다.우선 행정안전부와 한국지능정보사회진흥원은 생성형 AI가 데이터를 즉시 활용할 수 있도록 축",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강초희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:ad7580a8c173b2cb9628f092d9ddddd892b386d0d0eb96dd2d282f0c00bbac53",
    "url": "https://www.boannews.com/news/articleView.html?idxno=146059",

@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-09-28T06:01:06Z",
+ "updated_at": "2026-09-28T07:01:01Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-28T06:01:06Z",
+  "last_success_at": "2026-09-28T07:01:01Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:e10b38a8bace3a7e62418b01254f1c101a827efb496571866d4eed99266af505",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208616",
+   "title": "빅오, 네트워크 인증 취약점 재현…비밀번호 틀렸는데 접속 성공",
+   "published_at": "2026-09-28T15:55:35Z",
+   "published_raw": "2026-09-28 15:55:35",
+   "categories": [
+    "이슈"
+   ],
+   "description": "네트워크 인증·보안 기업 빅오가 RADIUS 인증 프로토콜의 ‘블라스트래디어스(BlastRADIUS, CVE-2024-3596)’ 취약점을 자체 시험환경에서 재현했다고 밝혔다. 잘못된 비밀번호로 인증을 요청했는데도 클라이언트가 유효한 인증 승인 응답을 받아 최종적으로 접속을 허용하는 결과를 확인했다는 설명이다.블라스트래디어스는 공격자가 RADIUS 서버와 클라이언트 사이의 통신에 개입해 인증 응답을 위조할 수 있는 취약점이다. 서버가 보낸 인증 거부 응답을 승인 응답으로 바꾸면서도, 클라이언트의 기존 응답 검증을 통과하게 하는 방식",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:b7e985cf6c067424ee31c8d6644a0a8b7d8240016dc8880b5eddc89c2d987ac8",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208609",
