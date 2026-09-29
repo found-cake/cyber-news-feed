@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-09-29T05:01:05Z",
+ "updated_at": "2026-09-29T06:01:01Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-29T05:01:05Z",
+  "last_success_at": "2026-09-29T06:01:01Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:fb3bb9129774fb394b6d6706e943a29bc6db48141eee6da6b62cc690a678ee64",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208631",
+   "title": "애플, 아이폰·맥 긴급 보안 업데이트…표적 공격에 악용된 취약점 패치",
+   "published_at": "2026-09-29T14:04:47Z",
+   "published_raw": "2026-09-29 14:04:47",
+   "categories": [
+    "이슈"
+   ],
+   "description": "애플이 아이폰과 아이패드, 맥 운영체제에서 악성 파일을 이용해 임의 코드를 실행할 수 있는 보안 취약점을 수정했다. 애플은 해당 취약점이 특정 개인을 겨냥한 정교한 사이버 공격에 이미 악용됐을 가능성이 있다고 밝혔다.취약점은 CVE-2026-86950으로, 애플 운영체제에서 그래픽 콘텐츠 처리를 담당하는 코어그래픽스(CoreGraphics) 구성요소에서 발생하는 범위 밖 쓰기(out-of-bounds write) 문제다.공격자가 특수하게 조작한 파일을 피해자의 기기에서 처리하도록 유도할 경우 메모리 영역을 비정상적으로 변경할 수 있",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:412bc38c53842ff5f8d499d8ec28f8fdcc81b22e56903177b272e82c352c8112",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208620",
