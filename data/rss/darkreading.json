@@ -1,15 +1,87 @@
 {
  "schema_version": 1,
  "source": "darkreading",
- "updated_at": "2026-09-29T21:01:07Z",
+ "updated_at": "2026-09-29T22:00:57Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-29T21:01:07Z",
+  "last_success_at": "2026-09-29T22:00:57Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d49e0531691d1d5c47e2ed153308a712d2c83d3589bc76f3b087db4f12dd7c40",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
+   "title": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
+   "published_at": "2026-09-29T21:31:29Z",
+   "published_raw": "Tue, 29 Sep 2026 21:31:29 GMT",
+   "categories": [
+    "cyberattacks-data-breaches"
+   ],
+   "description": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
+   "feed_id": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
+   "authors": [
+    {
+     "name": "Jai Vijayan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd977dfac5d79a983/6abc2f1fdbde378922f45c35/apple_tetrisfun_shutterstock_REVISED_FOR_16_BY_9.jpg?width=720&quality=80&disable=upscale",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd977dfac5d79a983/6abc2f1fdbde378922f45c35/apple_tetrisfun_shutterstock_REVISED_FOR_16_BY_9.jpg?width=720&quality=80&disable=upscale",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "darkreading": {
+     "guid_is_permalink": "false"
+    }
+   }
+  },
+  {
+   "id": "sha256:b9ebd84c7b2785aa7a64466b23405b05ad66eeec11ab7e9d66ff9008e5959509",
+   "url": "https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution",
+   "title": "Unsloth Studio Flaw Turns Routine Model Inspection Into Code Execution",
+   "published_at": "2026-09-29T21:08:42Z",
+   "published_raw": "Tue, 29 Sep 2026 21:08:42 GMT",
+   "categories": [
+    "application-security"
+   ],
+   "description": "A patched Unsloth Studio vulnerability allows malicious AI models to execute arbitrary Python code during inspection, via the trust_remote_code setting.",
+   "feed_id": "https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution",
+   "authors": [
+    {
+     "name": "Alexander Culafi",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt8798a931788fea60/6abc103774949935866a41da/sloth-webguzs-GettyImages-2249770137.jpg?width=720&quality=80&disable=upscale",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt8798a931788fea60/6abc103774949935866a41da/sloth-webguzs-GettyImages-2249770137.jpg?width=720&quality=80&disable=upscale",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "darkreading": {
+     "guid_is_permalink": "false"
+    }
+   }
+  },
   {
    "id": "sha256:b153e6d8431323d285c31eb74107df003a8df955da5183aa6a9ee1d308575eff",
    "url": "https://www.darkreading.com/cloud-security/cloudflare-announces-public-certificate-authority-post-quantum-web",
