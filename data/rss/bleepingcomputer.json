@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-09-30T14:00:57Z",
+ "updated_at": "2026-09-30T15:01:02Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-09-30T14:00:57Z",
+  "last_success_at": "2026-09-30T15:01:02Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:9d8205e1ca92d9b7b69d112bab94f591bc8662317a93da1ebdd954bb6b243b94",
+   "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks",
+   "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
+   "published_at": "2026-09-30T14:46:40Z",
+   "published_raw": "Wed, 30 Sep 2026 10:46:40 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:5d38a34a627e05147d8e312c32c6495a6199c5a429f0d040bcc9c87b717d2cea",
+   "url": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents",
+   "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
+   "published_at": "2026-09-30T14:01:11Z",
+   "published_raw": "Wed, 30 Sep 2026 10:01:11 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to handle. Token Security explains why these agents need their own identities, owners, scoped permissions, and lifecycle controls. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
+   "authors": [
+    {
+     "name": "Sponsored by Token Security",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:6b38840ee17685c158384f66d277de1e614bd6d10fe92743ab01bdf8f17925ff",
    "url": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october",
@@ -1497,27 +1539,6 @@
    "authors": [
     {
      "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:401fcab5596dc0a6a0b0a2dd48b04436912c5b28140dee1c97b174c7728d85a8",
-   "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime",
-   "title": "Malicious npm packages evade install-script defenses at runtime",
-   "published_at": "2026-09-20T14:11:21Z",
-   "published_raw": "Sun, 20 Sep 2026 10:11:21 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scripts. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
