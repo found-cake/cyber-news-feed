@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-09-30T03:01:00Z",
+ "updated_at": "2026-09-30T04:01:08Z",
  "retention_days": 10,
  "status": {
-  "ok": false,
-  "last_success_at": "2026-09-30T01:00:58Z",
-  "last_error_at": "2026-09-30T03:01:00Z",
-  "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+  "ok": true,
+  "last_success_at": "2026-09-30T04:01:08Z",
+  "last_error_at": null,
+  "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:2c99c76309e325189f17dffeb78f933d88067aee46b4f7f6f82c9706170003b6",
+   "url": "https://cybersecuritynews.com/openssl-leak-server-memory",
+   "title": "OpenSSL Fixes High-Severity Flaw That Can Leak Server Memory in Plaintext",
+   "published_at": "2026-09-30T03:14:42Z",
+   "published_raw": "Wed, 30 Sep 2026 03:14:42 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News",
+    "vulnerability"
+   ],
+   "description": "<p>OpenSSL has released security updates for a high-severity vulnerability that could expose heap memory as plaintext during Datagram Transport Layer Security (DTLS) handshakes. Tracked as CVE-2026-84782, the flaw stems from an out-of-bounds read in DTLS handshake retransmission logic and can also crash an affected process, creating a denial-of-service condition. The OpenSSL Project disclosed the issue [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssl-leak-server-memory/\">OpenSSL Fixes High-Severity Flaw That Can Leak Server Memory in Plaintext</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=165161",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OpenSSL-Leak-Server-Memory.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "165161",
+     "content_encoded": "<p class=\"wp-block-paragraph\">OpenSSL has released security updates for a high-severity vulnerability that could expose heap memory as plaintext during Datagram Transport Layer Security (DTLS) handshakes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Tracked as CVE-2026-84782, the flaw stems from an out-of-bounds read in DTLS handshake retransmission logic and can also crash an affected process, creating a denial-of-service condition.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The OpenSSL Project disclosed the issue on September 29, 2026, alongside security releases OpenSSL 4.0.3, 3.6.5, 3.5.9 and 3.4.8. OpenSSL described those releases as security patches and said the most severe vulnerability corrected in each is rated High.</p>\n\n\n\n<h2 id=\"h-openssl-leak-server-memory\" class=\"wp-block-heading\"><strong>OpenSSL Leak Server Memory</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">DTLS provides TLS-style security over unreliable datagram transports, where packets may be delayed, reordered, or lost. Consequently, its handshake layer can fragment large messages and retransmit previously sent data when a timer expires.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CVE-2026-84782 emerges when OpenSSL suspends a handshake-message write partway through because its transport cannot accept more data, returning <code>WANT_WRITE</code>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">While that write remains suspended, a retransmission timer can request that an earlier handshake message be sent again. Vulnerable OpenSSL versions reused the internal buffer and position tracking associated with the interrupted write but failed to reset the read offset to the beginning of the queued message.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The retransmission could therefore begin at a stale position, attach leftover bytes from a different, larger message, and continue reading beyond the allocated buffer.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That behavior may send adjacent heap contents to the connected peer as plaintext handshake data. The exposed bytes depend on nearby process memory contents, so the advisory does not define a fixed set of secrets that will always leak.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If the <a href=\"https://cybersecuritynews.com/out-of-bounds-read-and-write/\" target=\"_blank\" rel=\"noreferrer noopener\">out-of-bounds flaw</a> impacts an unmapped memory region, the process may instead terminate, allowing a peer to trigger denial of service. OpenSSL classifies the weakness as CWE-125, an out-of-bounds read.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The bug creates a second state-management problem. Even when retransmission starts at the correct offset, completing it while another handshake write is paused overwrites shared bookkeeping needed to resume the original operation. A later <code>SSL_read()</code>, <code>SSL_write()</code>, <code>SSL_accept()</code> or <code>SSL_connect()</code> call can then encounter state inconsistent with the suspended message; OpenSSL says this causes an abort in debugging builds.</p>\n\n\n\n<p class=\"wp-block-paragraph\">OpenSSL fixed the vulnerability by resetting the retransmission read position before resending a message. The code also skips retransmission while a handshake write remains suspended, deferring work until a later call resumes it. The affected logic sits outside the OpenSSL FIPS module boundary, so the project says FIPS modules are not impacted.</p>\n\n\n\n<p class=\"wp-block-paragraph\">All branches are vulnerable: OpenSSL 4.0 before 4.0.3, 3.6 before 3.6.5, 3.5 before 3.5.9, 3.4 before 3.4.8, 3.0 before 3.0.23, 1.1.1 before 1.1.1zj and 1.0.2 before 1.0.2zs. Fixes for the three oldest branches are limited to premium support customers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should inventory appliances, embedded systems, VPN products, and applications that use OpenSSL DTLS, then upgrade through their operating-system or product vendor.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Updating to 4.0.3, 3.6.5, 3.5.9 or 3.4.8 addresses the issue on maintained branches, while supported customers should obtain 3.0.23, 1.1.1zj or 1.0.2zs. Because applications may bundle OpenSSL rather than use the system library, checking only the host package manager may miss exposed copies.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Laurent Gaffie of Secorizon reported CVE-2026-84782 on August 17, 2026, and Ryan Hooper developed the correction after receiving the report in August.</p>\n\n\n\n<p class=\"wp-block-paragraph\">OpenSSL 4.0.3 also addresses 13 additional vulnerabilities affecting X.509 processing, QUIC, CMP, DTLS, SM2, and <a href=\"https://cybersecuritynews.com/wolfssl-5-9-4-fixes-tls-flaws/\" target=\"_blank\" rel=\"noreferrer noopener\">elliptic-curve</a> operations, reinforcing the need to treat this release as a security update rather than a single-bug patch.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup into&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssl-leak-server-memory/\">OpenSSL Fixes High-Severity Flaw That Can Leak Server Memory in Plaintext</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:f20dbd3dc6a8d7a3b9036918dc854b63172e950496f544514c7688f461205a39",
    "url": "https://cybersecuritynews.com/alleged-shinyhunters-leader-arrested",
