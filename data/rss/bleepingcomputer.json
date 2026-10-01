@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-01T14:00:52Z",
+ "updated_at": "2026-10-01T15:00:45Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-01T14:00:52Z",
+  "last_success_at": "2026-10-01T15:00:45Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:32527eb88a0f77fd3806d7e65e640acb9f9703d53a96501815984fda5d373cce",
+   "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old",
+   "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
+   "published_at": "2026-10-01T14:25:14Z",
+   "published_raw": "Thu, 01 Oct 2026 10:25:14 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, led to three arrests, and identified a 16-year-old as the group's alleged administrator. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:a7670caa470f23b0796c4b2ef52edac570f06ad034727d11a2373b514a4ff61b",
+   "url": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture",
+   "title": "The Day-One Hole in Zero Trust Architecture",
+   "published_at": "2026-10-01T14:01:11Z",
+   "published_raw": "Thu, 01 Oct 2026 10:01:11 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Zero Trust can verify users once they are established, but onboarding creates a gap where organizations must decide who to trust before strong authentication exists. Specops explains why identity verification should begin before credentials, MFA methods, and access are issued. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
+   "authors": [
+    {
+     "name": "Sponsored by Specops Software",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:ccecf642b9b30e7ecea903e337dd3ab5e78425f031b8eaa867047c41a872b778",
    "url": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability",
@@ -1646,27 +1688,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:175425b8fe1e2a4f0390c9e52cdcfcbb13a94974b8c37bc7dea448cfefcb8f20",
-   "url": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know",
-   "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
-   "published_at": "2026-09-21T14:02:12Z",
-   "published_raw": "Mon, 21 Sep 2026 10:02:12 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more continuous security assessment. Specops explains what changed and how agencies can address password, MFA, and identity requirements as they prepare for upcoming audits. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
-   "authors": [
-    {
-     "name": "Sponsored by Specops Software",
      "uri": "",
      "email": ""
     }
