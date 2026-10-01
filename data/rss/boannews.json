@@ -1,15 +1,59 @@
 {
  "schema_version": 1,
  "source": "boannews",
- "updated_at": "2026-10-01T04:01:03Z",
+ "updated_at": "2026-10-01T05:01:00Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-01T04:01:03Z",
+  "last_success_at": "2026-10-01T05:01:00Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b29689407ade0b09041cfbd7923f0c072543ee3f78d00a6ed3fc7d58dd98873a",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=146135",
+   "title": "메일함 대신 서버 노렸다... 짐브라 취약점 악용 공격, 인증 비밀값까지 털어",
+   "published_at": "2026-10-01T13:11:03Z",
+   "published_raw": "2026-10-01 13:11:03",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "이메일·협업 솔루션 짐브라의 취약점(CVE-2026-73570)을 뚫은 공격자들이 메일 서버에 웹셸을 여러 개 심고 서버 전체의 인증 비밀값까지 빼냈다고 마이크로소프트가 밝혔다.마이크로소프트 보안 연구팀의 분석으로는 피해 조직이 여러 지역과 업종에 걸쳐 있고, 모든 서버에서 공격 단계가 다 나타나지는 않았다. 공격 주체는 밝혀지지 않았다.이 결함은 로그인 없이 운영체제 명령을 끼워 넣을 수 있어 심각도가 높은 취약점이다. 네트워크 관리 프로토콜(SNMP) 알림을 켜고 선택 패키지 zimbra-snmp를 설치한 서버에서 원격코드실행(",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "정지원 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:52f970d5a8980f43f626e7fd8161dde38d2c57af8d326410e9df049970c5491a",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=146153",
+   "title": "텔레다인 플리어 ‘Neutrino SX12 ISR1200’, 초장거리 감시·정찰 위한 고성능 MWIR 열화상 카메라",
+   "published_at": "2026-10-01T13:07:31Z",
+   "published_raw": "2026-10-01 13:07:31",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "텔레다인 플리어(Teledyne FLIR)의 Neutrino® ISR Series가 장거리 지상·해양 감시 및 정찰 시스템을 위한 고성능 MWIR(Mid-Wavelength Infrared) 열화상 카메라로 주목받고 있다.Neutrino ISR Series는 MWIR 카메라 모듈과 연속 줌(CZ) 렌즈, 영상 처리 및 제어장치를 공장에서 통합·최적화한 턴키 솔루션으로, 시스템 통합업체가 카메라와 광학계를 자체 개발하고 통합하는 데 필요한 시간과 위험을 줄일 수 있도록 설계됐다.이 가운데 Neutrino SX12 ISR1200은 12",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강초희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:839ed8bae8ce589b168ef1f376bb81c4424acce706ff242ba9926e6e47c4ab0f",
    "url": "https://www.boannews.com/news/articleView.html?idxno=146145",
@@ -122,14 +166,14 @@
   {
    "id": "sha256:dc2af020772ea6cb9697385dd2dd3dd4ed9b0cd5092d98bbd23e1abb53ee544c",
    "url": "https://www.boannews.com/news/articleView.html?idxno=146150",
-   "title": "신한은행 고객 2만5000명 정보 유출... 대출 신청 관련 정보",
+   "title": "신한은행 고객 2만5000명 대출 관련 정보 유출... “전액 보상하겠다”",
    "published_at": "2026-10-01T11:41:57Z",
    "published_raw": "2026-10-01 11:41:57",
    "categories": [
     "사건·사고",
     "긴급경보"
    ],
-   "description": "신한은행에서 고객 2만5000명의 개인정보가 유출되는 사고가 발생했다.신한은행은 최근 외부 비인가자가 비정상적인 방법으로 일부 서비스에서 고객정보를 유출한 사실을 확인했다고 1일 밝혔다. 유출 항목은 고객명, 전화번호, CI(연계정보), 연소득, 산출한도 등 대출신청 관련 개인 신용 정보다. 현재 약 2만5000여명의 고객정보가 유출된 것으로 확인됐다. 신한은행은 유출 사실 인지 직후 비상대응체계를 가동, 외부 IP를 차단하고 관련 서비스를 중단했다. 보안정책 새로 적용했다.정상혁 신한은행장은 이날 사과문을 내고 “일부 고객 개인·",
+   "description": "신한은행에서 고객 2만5000명의 개인정보가 유출되는 사고가 발생했다.신한은행은 최근 외부 비인가자가 비정상적인 방법으로 일부 서비스에서 고객정보를 유출한 사실을 확인했다고 1일 밝혔다. 유출 항목은 고객명, 전화번호, CI(연계정보), 연소득, 산출한도 등 대출신청 관련 개인 신용 정보다. 현재 약 2만5000여명의 고객정보가 유출된 것으로 확인됐다. 고객 주민등록번호 66건과 CI 97건 등이 포함됐다신한은행은 유출 사실 인지 직후 비상대응체계를 가동, 외부 IP를 차단하고 관련 서비스를 중단했다. 보안정책도 새로 적용했다.정상",
    "feed_id": "",
    "authors": [
     {
