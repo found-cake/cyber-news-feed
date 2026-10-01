@@ -1,15 +1,52 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-01T09:00:43Z",
+ "updated_at": "2026-10-01T10:00:37Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-01T09:00:43Z",
+  "last_success_at": "2026-10-01T10:00:37Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:10082a6e7d3ee89a8ac8aeefbe287b30a8284cafac620a3b3099672bc1306aaf",
+   "url": "https://www.securityweek.com/500000-active-credentials-left-exposed-on-github",
+   "title": "500,000 Active Credentials Left Exposed on GitHub",
+   "published_at": "2026-10-01T09:43:56Z",
+   "published_raw": "Thu, 01 Oct 2026 09:43:56 +0000",
+   "categories": [
+    "Application Security",
+    "Data Protection",
+    "Identity & Access",
+    "data leak",
+    "GitHub",
+    "secrets scanning",
+    "secrets sprawl"
+   ],
+   "description": "<p>Roughly 200,000 of the credentials were exposed after GitHub enabled push protections by default.</p>\n<p>The post <a href=\"https://www.securityweek.com/500000-active-credentials-left-exposed-on-github/\">500,000 Active Credentials Left Exposed on GitHub</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49723",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:3c7689b66a713e949338406096ea6e85c5a948f5b073fd8bba2b7e3f43c3e0db",
    "url": "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability",
@@ -2972,43 +3009,6 @@
    "authors": [
     {
      "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:1cb8c9ba7f4fd160a109b929cece69b78249763d7a4a162cb9b1269fb8d13ef9",
-   "url": "https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities",
-   "title": "Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities",
-   "published_at": "2026-09-21T09:31:12Z",
-   "published_raw": "Mon, 21 Sep 2026 09:31:12 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "CISA KEV",
-    "exploited",
-    "Featured",
-    "Linux",
-    "Linux kernel",
-    "vulnerability"
-   ],
-   "description": "<p>Attackers could exploit the flaws to cause denial-of-service conditions, disclose memory, or modify memory.</p>\n<p>The post <a href=\"https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities/\">Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49450",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
      "uri": "",
      "email": ""
     }
