@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-02T12:01:19Z",
+ "updated_at": "2026-10-02T13:01:16Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-02T12:01:19Z",
+  "last_success_at": "2026-10-02T13:01:16Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:1d7bd26b05a3a906881a2191db65f225350df7e78eb2256c542556243bc6a576",
+   "url": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges",
+   "title": "Dell asks admins to patch max severity CSM flaws as soon as possible",
+   "published_at": "2026-10-02T12:37:40Z",
+   "published_raw": "Fri, 02 Oct 2026 08:37:40 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Dell has patched two maximum severity vulnerabilities in the Container Storage Modules (CSM) that connect Dell enterprise storage arrays to Kubernetes environments. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:8d3352921da70b7d6a2c19c1b1b04dc32ba7dedec84305eeab6586d0e2511388",
    "url": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme",
@@ -1602,48 +1623,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:03d248b47b99f801749e781f14f4e5fb24016607e2b5d737cab92a50b51d39c4",
-   "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches",
-   "title": "Webinar tomorrow: Inside real-world Google Workspace breaches",
-   "published_at": "2026-09-22T12:57:07Z",
-   "published_raw": "Tue, 22 Sep 2026 08:57:07 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Tomorrow's webinar examines real Google Workspace breaches involving social engineering and malicious OAuth applications, from initial access through the critical first hours of incident response. Learn which security controls and response decisions can make the greatest difference. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
-   "authors": [
-    {
-     "name": "BleepingComputer",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:0ecb2715400f04640116a14e99a3d8d8955686d1ee9f8d43bfc442853cd02a07",
-   "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers",
-   "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
-   "published_at": "2026-09-22T12:48:06Z",
-   "published_raw": "Tue, 22 Sep 2026 08:48:06 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi routers. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
      "uri": "",
      "email": ""
     }
