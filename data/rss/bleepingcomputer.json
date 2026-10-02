@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-02T18:01:25Z",
+ "updated_at": "2026-10-02T19:01:21Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-02T18:01:25Z",
+  "last_success_at": "2026-10-02T19:01:21Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:bdff0396443ec3a72030eb33379567a007a492960386b71eea2c0b8b5db4daba",
+   "url": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks",
+   "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
+   "published_at": "2026-10-02T18:33:01Z",
+   "published_raw": "Fri, 02 Oct 2026 14:33:01 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting SharePoint vulnerabilities to gain initial access. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+   "authors": [
+    {
+     "name": "Ionut Ilascu",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:4f4e016349669a16fbe9ca444ad5c15edd973fc51e4144a27b29ae783f550a04",
    "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service",
@@ -1601,28 +1622,6 @@
    "authors": [
     {
      "name": "Lawrence Abrams",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:8089d29e8ae85f04fddc2169c6b5b1c233b832ccc2d0f390b0aa6c64d0b5e0a1",
-   "url": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions",
-   "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
-   "published_at": "2026-09-22T18:04:39Z",
-   "published_raw": "Tue, 22 Sep 2026 14:04:39 -0400",
-   "categories": [
-    "security",
-    "Artificial Intelligence"
-   ],
-   "description": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
