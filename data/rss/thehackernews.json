@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-02T11:01:08Z",
+ "updated_at": "2026-10-02T12:01:19Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-02T11:01:08Z",
+  "last_success_at": "2026-10-02T12:01:19Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -1354,60 +1354,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN5Up_REU7_SnA-Ce9D8UGRsM8WbkkcjR6kjirzb-tSFejrL-qnZkXrp2gNa3OA-4PgvkUqHs59j9Qc8srbfm2JOUIOvEa1c_d8Il3kUDAGyr49FuXwq_n438Vf9txfq1fVwcpykkZAKz1o2QFGUJDLF4wnXzNWLdH1tYft3bd-vJywPppGjEfoikG22s/s260-e100/VeloCloud.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:319e5d081a9add14cf201d25d8ad3110fa674bfc984c1ce0fd6904ce11a7b348",
-   "url": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
-   "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
-   "published_at": "2026-09-22T11:38:40Z",
-   "published_raw": "2026-09-22T17:08:40.908+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled.\n\nThe bug, tracked as&nbsp;CVE-2026-89775, allows a guest to read and write host kernel memory, and the researcher who found it says it can be used to escape the guest and run code on the host machine.",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2615883969626041054",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCjDxUEx5QKzby2TlrL6Swi0MV7BdrkgjM6Y5Xby9IU8L9JSdG09pwRemVtrYQtUrvp8QIDduyiDuojZVzZ6GrpzUJIVrThvC4CZ_kd8kckdhBt0MLWDLXD_QwN2wciIA9bqLee51246mEpWx0ZnlcOfXD2U3QWpvmpKZyxx75T7MXK-b8zBMmrouCZJc/s260-e100/linux-kvm.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:b3e51b621cf3a9ced28c752bcf95e936725bca9c71042e2e4fd35778f916fb82",
-   "url": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
-   "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
-   "published_at": "2026-09-22T11:17:41Z",
-   "published_raw": "2026-09-22T16:47:41.292+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to&nbsp;full technical details&nbsp;published today by Viettel Cyber Security researcher Dinh Ho Anh Khoa.\n\nThe flaw, CVE-2026-65660, affects SharePoint Server 2016, 2019, and Subscription Edition. Patches have been",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-127121350200476653",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu0R8P6iyk50vNReEGl0FkwYoFPk5n2fkVC3_3Mf2J5SaQ7yFIHbA3xuQpCATCQ9Y5Ie2ysz9EVaDb_vR5Bbnp209w28bSDK2Rqggotv4NPQbFB5LX4SUT4eztA-6939clsV9QQ41MHwIl8MFSzaJwyFFeBusztZ9H7oZhiUOlFYrL8BQh6hXWegn39uU/s260-e100/ms-rce.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
