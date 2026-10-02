@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-02T16:02:12Z",
+ "updated_at": "2026-10-02T17:01:30Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-02T16:02:12Z",
+  "last_success_at": "2026-10-02T17:01:30Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:4f4e016349669a16fbe9ca444ad5c15edd973fc51e4144a27b29ae783f550a04",
+   "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service",
+   "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
+   "published_at": "2026-10-02T16:20:05Z",
+   "published_raw": "Fri, 02 Oct 2026 12:20:05 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:e288ab5fdffb4ce483d4be3180fb879637f48d8e705cedbd9f2b2aa9cc5f857b",
    "url": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown",
@@ -1623,27 +1644,6 @@
    "authors": [
     {
      "name": "Sponsored by Wazuh",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:30a8db9908ca80fdd5921540a0476ba5a2f74a6cabf4b1089098bfbf07577939",
-   "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks",
-   "title": "Check Point warns of Management Server zero-day exploited in attacks",
-   "published_at": "2026-09-22T16:32:47Z",
-   "published_raw": "Tue, 22 Sep 2026 12:32:47 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Check Point Software released emergency hotfixes to address a critical Security Management Server vulnerability that could let attackers run arbitrary scripts. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
      "uri": "",
      "email": ""
     }
