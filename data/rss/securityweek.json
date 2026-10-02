@@ -1,15 +1,87 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-02T08:00:37Z",
+ "updated_at": "2026-10-02T09:01:03Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-02T08:00:37Z",
+  "last_success_at": "2026-10-02T09:01:03Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:bdce4f389e4dc912f77876997c25d76df08c9186d400b8429e677bc5e79dea53",
+   "url": "https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites",
+   "title": "AI Agents Aimed SQL Injection at US and Canadian Government Sites",
+   "published_at": "2026-10-02T08:38:46Z",
+   "published_raw": "Fri, 02 Oct 2026 08:38:46 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "Malware & Threats",
+    "AI",
+    "OpenAI",
+    "rogue AI",
+    "SQL injection"
+   ],
+   "description": "<p>The attacks targeted the US Department of Education and Library and Archives Canada, and researchers linked some agents to OpenAI.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites/\">AI Agents Aimed SQL Injection at US and Canadian Government Sites</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49754",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:2b3560a8a737bd2b7de524fa82d0396dae1557a42ac795fb7c526b332600e131",
+   "url": "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action",
+   "title": "Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action",
+   "published_at": "2026-10-02T08:07:33Z",
+   "published_raw": "Fri, 02 Oct 2026 08:07:33 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "exploited",
+    "Featured",
+    "FortiMail",
+    "Fortinet",
+    "Zero-Day"
+   ],
+   "description": "<p>CVE-2026-104286 is a critical-severity path traversal vulnerability that could allow attackers to write arbitrary files to the system.</p>\n<p>The post <a href=\"https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/\">Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49752",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:c01086a1a3f5ac1ecfb769a474e3114aa28e192a3a0f598d1ed84d7f89ab829d",
    "url": "https://www.securityweek.com/zero-trust-creator-says-model-holds-firm-against-ai-assisted-attacks",
@@ -21,7 +93,6 @@
     "Network Security",
     "Security Architecture",
     "AI",
-    "Featured",
     "Zero Trust"
    ],
    "description": "<p>Fifteen years after coining the framework, John Kindervag insists zero trust still works in the AI era—if you get the implementation right.</p>\n<p>The post <a href=\"https://www.securityweek.com/zero-trust-creator-says-model-holds-firm-against-ai-assisted-attacks/\">Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
@@ -89,6 +160,7 @@
    "published_raw": "Thu, 01 Oct 2026 14:30:00 +0000",
    "categories": [
     "Hacker Conversations",
+    "Featured",
     "hacker"
    ],
    "description": "<p>Rob Juncker is chief product and technology officer at Mimecast. Is he a hacker? “Unequivocally yes,” he says.</p>\n<p>The post <a href=\"https://www.securityweek.com/hacker-conversations-rob-juncker-a-knock-at-the-door-and-a-moral-compass/\">Hacker Conversations: Rob Juncker, a Knock at the Door and a Moral Compass</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
@@ -3011,43 +3083,6 @@
    "authors": [
     {
      "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:54f2a58c973679180e4d6cadb2407648096923ae14753a9a6dd1d4724af39122",
-   "url": "https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme",
-   "title": "Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme",
-   "published_at": "2026-09-22T08:37:06Z",
-   "published_raw": "Tue, 22 Sep 2026 08:37:06 +0000",
-   "categories": [
-    "Nation-State",
-    "fake IT workers",
-    "FBI",
-    "Featured",
-    "Japan",
-    "North Korea",
-    "Report"
-   ],
-   "description": "<p>The US, Japan, Germany and Australia have published a joint report detailing the scope of North Korea’s WaterPlum campaign.</p>\n<p>The post <a href=\"https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/\">Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49475",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
      "uri": "",
      "email": ""
     }
