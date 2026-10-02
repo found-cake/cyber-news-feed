@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-02T14:01:14Z",
+ "updated_at": "2026-10-02T15:01:12Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-02T14:01:14Z",
+  "last_success_at": "2026-10-02T15:01:12Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:2298fbe3198d6f2355304321ae23f6c3e935d4e2bc8f6e8a7aafc4becd96cf9c",
+   "url": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry",
+   "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
+   "published_at": "2026-10-02T14:00:10Z",
+   "published_raw": "Fri, 02 Oct 2026 10:00:10 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to detect. NordLayer explains three ways attacks can evade endpoint telemetry and why browser-level controls can help close the gap. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
+   "authors": [
+    {
+     "name": "Sponsored by NordLayer Browser",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:1d7bd26b05a3a906881a2191db65f225350df7e78eb2256c542556243bc6a576",
    "url": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges",
@@ -1602,27 +1623,6 @@
    "authors": [
     {
      "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:dad7e77a5585a71c3fd3e62e97f9646f08a329523d441f9305bb6164926530e1",
-   "url": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts",
-   "title": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
-   "published_at": "2026-09-22T15:00:00Z",
-   "published_raw": "Tue, 22 Sep 2026 11:00:00 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Microsoft's Digital Crimes Unit (DCU). [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
