@@ -1,15 +1,47 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-02T13:01:16Z",
+ "updated_at": "2026-10-02T14:01:14Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-02T13:01:16Z",
+  "last_success_at": "2026-10-02T14:01:14Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:16384a18ae1ec6f276e9132dabc49050344c9567556634487a6ed6e9647a5c03",
+   "url": "https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor",
+   "title": "macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor",
+   "published_at": "2026-10-02T13:15:00Z",
+   "published_raw": "Fri, 02 Oct 2026 13:15:00 +0000",
+   "categories": [
+    "Malware & Threats",
+    "macOS"
+   ],
+   "description": "<p>The dropper “carries a complete universal Mach-O inside itself, roughly 756 KB in the development build, and extracts it at runtime.</p>\n<p>The post <a href=\"https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor/\">macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49767",
+   "authors": [
+    {
+     "name": "Kevin Townsend",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:619298c41e95319a96d6b21cac1b9ef2d1874d1943f8e66b80c1618f1af4aaa3",
    "url": "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account",
@@ -3012,43 +3044,6 @@
    "authors": [
     {
      "name": "SecurityWeek News",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:c542c2c93b6fc986b02b51ac75785af28e5b3448d24b96b99f49ef24ad54813d",
-   "url": "https://www.securityweek.com/nightmare-eclipse-drops-new-microsoft-defender-exploit-after-revealing-identity",
-   "title": "Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity",
-   "published_at": "2026-09-22T13:26:51Z",
-   "published_raw": "Tue, 22 Sep 2026 13:26:51 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "BigDiskBuster",
-    "Chaotic Eclipse",
-    "controversy",
-    "Featured",
-    "PoC exploit",
-    "unmasked"
-   ],
-   "description": "<p>Abdelhamid Naceri, a former Microsoft Germany employee, is the exploit leaker Nightmare Eclipse, aka Chaotic Eclipse. </p>\n<p>The post <a href=\"https://www.securityweek.com/nightmare-eclipse-drops-new-microsoft-defender-exploit-after-revealing-identity/\">Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49492",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
      "uri": "",
      "email": ""
     }
