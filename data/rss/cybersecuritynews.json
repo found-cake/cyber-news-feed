@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-03T04:01:02Z",
+ "updated_at": "2026-10-03T05:01:06Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-03T04:01:02Z",
+  "last_success_at": "2026-10-03T05:01:06Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:bd18b57a89a822b3fe69cba32139cacd122efbdb181df554ea458e6fbb747434",
+   "url": "https://cybersecuritynews.com/gitlab-ai-gateway-vulnerability",
+   "title": "Critical GitLab AI Gateway Vulnerability Enables Remote Code Execution Attacks",
+   "published_at": "2026-10-03T04:11:34Z",
+   "published_raw": "Sat, 03 Oct 2026 04:11:34 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News"
+   ],
+   "description": "<p>GitLab has released urgent security updates for a critical AI Gateway vulnerability that could allow authenticated attackers to execute commands remotely. Tracked as CVE-2026-90970, the flaw carries a CVSS score of 9.9 and affects self-hosted deployments used to support GitLab Duo AI features. The company released AI Gateway versions 19.2.4, 19.3.2, and 19.4.1 to address [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gitlab-ai-gateway-vulnerability/\">Critical GitLab AI Gateway Vulnerability Enables Remote Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=165615",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/GitLab-AI-Gateway-Vulnerability.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "165615",
+     "content_encoded": "<p class=\"wp-block-paragraph\">GitLab has released urgent security updates for a critical AI Gateway vulnerability that could allow authenticated attackers to execute commands remotely. Tracked as CVE-2026-90970, the flaw carries a CVSS score of 9.9 and affects self-hosted deployments used to support GitLab Duo AI features.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company released AI Gateway versions 19.2.4, 19.3.2, and 19.4.1 to address the issue. GitLab strongly recommends that customers running affected self-hosted gateways upgrade immediately. It also contacted self-hosted AI Gateway customers before publishing its <a href=\"https://docs.gitlab.com/releases/patches/other-patches/patch-release-gitlab-ai-gateway-19-4-1-released/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">security advisory</a> to provide early guidance on the required updates.</p>\n\n\n\n<h2 id=\"h-gitlab-ai-gateway-vulnerability\" class=\"wp-block-heading\"><strong>GitLab AI Gateway Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability involves improper handling of custom flow prompt templates. Under certain conditions, an authenticated user with Duo Agent Platform access could submit a specially crafted flow configuration that escapes the prompt template sandbox. Successful exploitation could then allow arbitrary commands to run on the AI Gateway.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A sandbox is meant to keep template processing within a controlled boundary. In this case, GitLab says crafted input could cross that boundary and reach command execution. The disclosed impact is therefore more serious than changing an AI response: it could affect the service that processes AI requests.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The published CVSS vector describes a network-accessible attack with low complexity, low privileges, and no required user interaction. It assigns high impact to confidentiality, integrity, and availability. However, this is not an unauthenticated flaw; the attacker needs a valid account with Duo Agent Platform access.</p>\n\n\n\n<p class=\"wp-block-paragraph\">GitLab credited security researcher invisiblemeerkat with responsibly reporting the issue. The advisory does not provide an exploit payload, identify the template engine involved, or report active exploitation. Those limits matter: the release confirms a critical security weakness, but it does not establish that attackers have already used it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Affected AI Gateway releases include versions starting at 18.1.6 and earlier than 19.2.4, the 19.3 branch before 19.3.2, and the 19.4 branch before 19.4.1. These version ranges apply to the AI Gateway component. Administrators should check the gateway deployment rather than rely only on their main GitLab instance version.</p>\n\n\n\n<p class=\"wp-block-paragraph\">GitLab has already deployed the fix to its hosted AI Gateways. Customers using GitLab.com, GitLab Dedicated, or GitLab Self-Managed instances connected to a GitLab-hosted AI Gateway are protected and need no action for this issue. Customers operating their own affected AI Gateway must install the update themselves.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The distinction matters because <a href=\"https://docs.gitlab.com/administration/gitlab_duo_self_hosted/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">GitLab’s self-hosted AI setup</a> lets organizations manage requests to their chosen model backends within their own environment. Cybersecurity News previously covered a separate <a href=\"https://cybersecuritynews.com/gitlab-duo-inject-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">GitLab Duo prompt injection vulnerability</a> involving source code exposure. That earlier issue should not be confused with this gateway sandbox escape.</p>\n\n\n\n<h2 id=\"h-update-the-gateway-immediately\" class=\"wp-block-heading\"><strong>Update the Gateway Immediately</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should follow <a href=\"https://docs.gitlab.com/install/install_ai_gateway/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">GitLab’s AI Gateway installation and upgrade documentation</a> to deploy a patched image. For Docker installations, GitLab instructs users to stop and remove the existing container, then pull and run the new image with the correct environment variables. Verify the deployed image digest and run the available health checks afterward.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For Kubernetes and Helm deployments, GitLab warns that cached images can prevent updated code from being pulled. Its guidance recommends image digests or an appropriate pull policy. Administrators should also restrict unnecessary outbound gateway traffic while preserving required connections. These controls support hardening, but the immediate priority remains installing a fixed AI Gateway release without delay.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup into&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/gitlab-ai-gateway-vulnerability/\">Critical GitLab AI Gateway Vulnerability Enables Remote Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:ccf44bbb458aaea31af81485ad680d5f1bdf4d184c653e5f673e8bc3cffc3097",
    "url": "https://cybersecuritynews.com/critical-dell-container-storage-flaws",
