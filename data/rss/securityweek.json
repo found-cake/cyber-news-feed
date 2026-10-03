@@ -1,15 +1,83 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-03T11:01:04Z",
+ "updated_at": "2026-10-03T12:01:49Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-03T11:01:04Z",
+  "last_success_at": "2026-10-03T12:01:49Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ace0de7e65b45fce644d19bcc43ab7ee815c445bdee07b9abceb689ae791214a",
+   "url": "https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures",
+   "title": "doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures",
+   "published_at": "2026-10-03T11:45:00Z",
+   "published_raw": "Sat, 03 Oct 2026 11:45:00 +0000",
+   "categories": [
+    "Cybersecurity Funding",
+    "AI",
+    "funding"
+   ],
+   "description": "<p>doxx.net’s new ADN platform prevents agentic misadventure while the agent is operating under the user’s authority.</p>\n<p>The post <a href=\"https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures/\">doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49775",
+   "authors": [
+    {
+     "name": "Kevin Townsend",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:a12b8aebc2b4232e6bfd801fb66ebf32efd6b640bce6fc4bbb694fe65b6874cf",
+   "url": "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks",
+   "title": "Fortra Patches Critical Vulnerabilities in BoKS",
+   "published_at": "2026-10-03T11:34:00Z",
+   "published_raw": "Sat, 03 Oct 2026 11:34:00 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "BoKS",
+    "Fortra",
+    "patches",
+    "vulnerability"
+   ],
+   "description": "<p>The bugs could lead to authentication bypass, shell command execution, and memory corruption.</p>\n<p>The post <a href=\"https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/\">Fortra Patches Critical Vulnerabilities in BoKS</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49768",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:159f7997a51d26a5219de8d468058856819bb242f200ffc0e8e211669994d7f7",
    "url": "https://www.securityweek.com/in-other-news-15k-icloud-spoofing-bugs-ai-policy-experts-phished-adblocker-spies-on-ai-chats",
@@ -2686,75 +2754,6 @@
    ],
    "description": "<p>Only 21% of industrial security leaders report a complete OT asset inventory, even as 88% call their programs mature.</p>\n<p>The post <a href=\"https://www.securityweek.com/honeywell-ot-security-teams-embrace-ai-but-autonomy-still-rare/\">Honeywell: OT Security Teams Embrace AI, but Autonomy Still Rare</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=49527",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:0f92bf899a1e69274cfe1d39b40fdfa7af0e041baff45cd7448ce065cc6d7bf2",
-   "url": "https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms",
-   "title": "Adobe Patches Critical Flaws in Connect, AEM Forms",
-   "published_at": "2026-09-23T11:40:59Z",
-   "published_raw": "Wed, 23 Sep 2026 11:40:59 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "Adobe",
-    "Patch",
-    "vulnerability"
-   ],
-   "description": "<p>The nine critical security defects could be exploited for arbitrary code execution and privilege escalation.</p>\n<p>The post <a href=\"https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms/\">Adobe Patches Critical Flaws in Connect, AEM Forms</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49524",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:41a17aa5083fdb244dd329e3916729e20ea1bf5f31642a5e5f94fb6e68488224",
-   "url": "https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft",
-   "title": "AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft",
-   "published_at": "2026-09-23T11:23:30Z",
-   "published_raw": "Wed, 23 Sep 2026 11:23:30 +0000",
-   "categories": [
-    "Cybercrime",
-    "Phishing",
-    "EvilTokens",
-    "Microsoft",
-    "takedown"
-   ],
-   "description": "<p>The cybercrime platform leveraged AI at every step of the attack chain, including writing social engineering messages and deciding targets.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/\">AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49520",
    "authors": [
     {
      "name": "Eduard Kovacs",
