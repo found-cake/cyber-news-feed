@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-03T17:01:08Z",
+ "updated_at": "2026-10-03T18:01:09Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-03T17:01:08Z",
+  "last_success_at": "2026-10-03T18:01:09Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:cf6b796173d090fea0dd85bce92a9a3052caa7f107ab4bc9d8fd8a84c821a73c",
+   "url": "https://cybersecuritynews.com/shinyhunters-hacker-helping-fbi",
+   "title": "ShinyHunters Member Detained in Jordan, Reportedly Helping FBI Identify Fellow Hackers",
+   "published_at": "2026-10-03T17:21:44Z",
+   "published_raw": "Sat, 03 Oct 2026 17:21:44 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>A suspected ShinyHunters member has been detained in Jordan and is reportedly helping the FBI identify other hackers linked to the group. Reuters reported on October 3 that three people familiar with the matter confirmed the detention of Saif al-Din Khader, whose alleged online nickname is Rey. Two sources said Jordanian authorities took Khader into [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/shinyhunters-hacker-helping-fbi/\">ShinyHunters Member Detained in Jordan, Reportedly Helping FBI Identify Fellow Hackers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=165633",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ShinyHunters-Hacker-Helping-FBI.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "165633",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A suspected ShinyHunters member has been detained in Jordan and is reportedly helping the FBI identify other hackers linked to the group. Reuters reported on October 3 that three people familiar with the matter confirmed the detention of Saif al-Din Khader, whose alleged online nickname is Rey.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Two sources said Jordanian authorities took Khader into custody on Tuesday, September 29. They also said he was helping the FBI and law enforcement agencies worldwide locate other group members. Reuters could not establish why he was detained or where he was being held, and attempts to contact him and his family were unsuccessful.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The FBI declined to confirm any specific arrest or overseas operation. However, it said it “continues to aggressively investigate the recent cyber incident allegedly involving ShinyHunters,” adding that it had already worked with partners to arrest multiple subjects. The bureau pledged to pursue everyone responsible.</p>\n\n\n\n<h2 id=\"h-fbi-data-theft-claims\" class=\"wp-block-heading\"><strong>FBI Data Theft Claims</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The detention follows ShinyHunters’ claim that it stole information on every FBI employee. That claim remains unverified, and the reported cooperation does not establish Khader’s role in the incident or prove the group’s account of its access.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Earlier reporting on the <a href=\"https://cybersecuritynews.com/shinyhunters-allegedly-claims-fbi-breach/\" target=\"_blank\" rel=\"noreferrer noopener\">alleged FBI jobs portal breach</a> described a defacement of apply.fbijobs.gov, where attackers displayed a fake seizure notice. The FBI subsequently took its application service and Special Agent Applicant Portal offline while investigating unauthorized activity affecting its recruitment systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">ShinyHunters claimed it exploited an undisclosed Oracle PeopleSoft flaw that allowed code to run without logging in. The group said it then moved into FBI-managed AWS GovCloud systems and downloaded between two and three terabytes of data. Oracle, AWS, and the FBI have not confirmed that attack path.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The attackers supplied journalists with a sample of 5,000 alleged employee records containing names, home addresses, phone numbers, Social Security numbers, birth dates, assignments, and family details. Reuters partially matched information in at least 10 cases, but that check did not establish that the records came from compromised FBI systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">These distinctions matter because taking control of a public website does not automatically prove access to an agency’s wider network. Investigators need to compare server logs, account activity, cloud access records, and outgoing data transfers to establish how the attackers entered and what they actually removed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If genuine, the reported personnel records could support targeted phishing, identity fraud, harassment, or threats against employees and relatives. Details about assignments and family contacts could make fraudulent messages more convincing, even without attackers retaining access to government systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Jordan detention also follows the <a href=\"https://cybersecuritynews.com/alleged-shinyhunters-leader-arrested/\" target=\"_blank\" rel=\"noreferrer noopener\">arrest of an alleged ShinyHunters leader</a> in the Netherlands. Dutch police detained a 24-year-old Amsterdam suspect on September 15, with FBI support. ShinyHunters denied that suspect’s association with the group, and the allegations remain unproven.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.reuters.com/world/middle-east/key-shinyhunters-hacker-detained-jordan-is-cooperating-sources-say-2026-10-03/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Reuters described</a> ShinyHunters as a group believed by experts to consist mainly of young, English-speaking hackers focused on data theft and extortion. Khader’s reported cooperation could help investigators connect online identities with real people, but Reuters did not disclose what information he had provided.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For now, the key unanswered questions concern Khader’s legal status, the scope of his cooperation, and the true extent of the alleged FBI data theft. Neither the detention report nor the group’s public claims resolves those questions. The FBI’s investigation remains active, with further findings needed to separate confirmed evidence from attacker statements and other unverified allegations.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup into&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/shinyhunters-hacker-helping-fbi/\">ShinyHunters Member Detained in Jordan, Reportedly Helping FBI Identify Fellow Hackers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:d5c541420322babeb3c1152b2e114e9fef6f46497bd59021f547ca128e5ef104",
    "url": "https://cybersecuritynews.com/microsoft-reissues-exchange-server-update",
