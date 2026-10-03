@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-03T14:01:05Z",
+ "updated_at": "2026-10-03T15:01:45Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-03T14:01:05Z",
+  "last_success_at": "2026-10-03T15:01:45Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:27d0afb0623f9b71d88d9ca83cdf8a3aefcf1f1c1707f2d888234b04d9bc6be9",
+   "url": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people",
+   "title": "Danish university DTU breach exposes data of up to 200,000 people",
+   "published_at": "2026-10-03T14:35:20Z",
+   "published_raw": "Sat, 03 Oct 2026 10:35:20 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity and access management system and downloaded a large amount of data. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
+   "authors": [
+    {
+     "name": "Ionut Ilascu",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:ddf68a3b14b984552f97cc92fa9ab41a2d4154d1ee2849b5ec255223a450c270",
    "url": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees",
@@ -1451,48 +1472,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:475dc601afb7d058931acda58c75acd3a7c0101a447b0703405db0cd83dff876",
-   "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack",
-   "title": "InfraTrust report warns network management systems under attack",
-   "published_at": "2026-09-23T14:35:26Z",
-   "published_raw": "Wed, 23 Sep 2026 10:35:26 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclosed them. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
-   "authors": [
-    {
-     "name": "Lawrence Abrams",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:f6ef53c8921c0ddf3290e9fbb17c6ec4985a28ec45e0bd8ff4b5319181bf26de",
-   "url": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization",
-   "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
-   "published_at": "2026-09-23T14:01:11Z",
-   "published_raw": "Wed, 23 Sep 2026 10:01:11 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to Google Kubernetes Config Connector. Varonis explains how this confused deputy problem can turn a single Kubernetes YAML file into a path to organization-wide privilege escalation. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
-   "authors": [
-    {
-     "name": "Sponsored by Varonis",
      "uri": "",
      "email": ""
     }
