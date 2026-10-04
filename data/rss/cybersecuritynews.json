@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-04T02:01:43Z",
+ "updated_at": "2026-10-04T03:01:04Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-04T02:01:43Z",
+  "last_success_at": "2026-10-04T03:01:04Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b43811755f4371ef2b078851aa74fedddf9c1524436a9eb084a99240a3aef7b8",
+   "url": "https://cybersecuritynews.com/kvm-zero-day-vm-escape",
+   "title": "Vercel Confirms KVM Zero-Day VM Escape, Awards Researcher $50,000",
+   "published_at": "2026-10-04T02:05:48Z",
+   "published_raw": "Sun, 04 Oct 2026 02:05:48 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News"
+   ],
+   "description": "<p>Vercel has confirmed a KVM zero-day vulnerability after security researcher Paulos Yibelo reported a full virtual machine escape that, he says, allows code inside a guest to gain root access on the host. The discovery came through the Vercel Sandbox bug bounty program, raising concerns about a security boundary used to contain untrusted workloads and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kvm-zero-day-vm-escape/\">Vercel Confirms KVM Zero-Day VM Escape, Awards Researcher $50,000</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=165636",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/KVM-Zero-Day-VM-Escape.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "165636",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Vercel has confirmed a KVM zero-day vulnerability after security researcher Paulos Yibelo reported a full virtual machine escape that, he says, allows code inside a guest to gain root access on the host.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-x wp-block-embed-x\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"embed-x\"><blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Full VM escape zeroday (guest&gt;host root in industry standard hypervisors)! More soon <a href=\"https://t.co/dt9AsDO0De\">pic.twitter.com/dt9AsDO0De</a></p>&mdash; Paulos Yibelo (@PaulosYibelo) <a href=\"https://x.com/PaulosYibelo/status/2106378929158135903?ref_src=twsrc%5Etfw\">October 3, 2026</a></blockquote><script async src=\"https://platform.x.com/widgets.js\" charset=\"utf-8\"></script></div>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">The discovery came through the Vercel Sandbox bug bounty program, raising concerns about a security boundary used to contain untrusted workloads and AI agents.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Yibelo announced the finding on October 3, 2026, describing it as a “Full VM escape zeroday” involving “guest>host root” in industry-standard hypervisors. Vercel CEO Guillermo Rauch separately <a href=\"https://x.com/rauchg\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">confirmed a KVM zero-day</a> and said a full technical write-up would follow. Neither statement explained the exploit chain or identified affected versions.</p>\n\n\n\n<h2 id=\"h-kvm-zero-day-vm-escape\" class=\"wp-block-heading\"><strong>KVM Zero-Day VM Escape</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">A bounty notification shared with the announcement shows Vercel awarding Yibelo $50,000, the program’s maximum payment for one report. The message describes the highest award as reserved for vulnerabilities that let an attacker read or change another Vercel customer&#8217;s information. Its critical category includes microVM escapes to an EC2 host and access to another customer’s data or code execution.</p>\n\n\n\n<p class=\"wp-block-paragraph\">However, that award description should not be treated as a public demonstration of customer data theft. The screenshot hides the report’s root cause, and the available statements do not establish that real customer information was accessed.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Vercel’s $1 million Sandbox challenge</a> opened on August 18, 2026, with a scheduled closing date of September 1. Its published rules require a live proof of concept showing a broken security boundary, rather than a report based only on reviewing code.</p>\n\n\n\n<p class=\"wp-block-paragraph\">KVM, short for Kernel-based Virtual Machine, provides Linux virtualization. A guest virtual machine should remain separate from the host that runs it. A successful guest-to-host escape breaks that separation; root access gives an attacker the highest level of control on the host.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Vercel’s published architecture places each sandbox inside its own Firecracker microVM on a bare-metal Amazon EC2 host. Each microVM has a dedicated guest kernel, while a Linux container inside it runs the user’s code. Vercel explicitly identifies the microVM, not the container, as the main security boundary.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This distinction matters for AI agents that execute generated or downloaded code. Moving from a container into its guest operating system is not the same as reaching the underlying host. Yibelo’s claim describes the more serious boundary crossing, although the exact technical steps remain undisclosed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The announcement does not identify a CVE, affected kernel releases, processor requirements, or a patch. It also does not establish whether guest administrator access is required. Rauch’s reference to KVM does not prove that every KVM deployment, Firecracker installation, or cloud provider is vulnerable. The missing details also prevent an independent assessment of exploit reliability across different host configurations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For background, Cybersecuritynews previously covered the separate <a href=\"https://cybersecuritynews.com/16-year-old-linux-kvm-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">Januscape KVM vulnerability</a>, which involved host memory corruption through nested virtualization. There is no disclosed evidence linking that issue to Yibelo’s finding, so its exploit conditions and fixes should not be applied to this report.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Until the technical disclosure arrives, operators should follow Vercel and their Linux vendors for guidance, rather than assume an unrelated patch addresses this flaw. The immediate takeaway is a confirmed vulnerability report and a claimed host-root escape, not confirmed widespread exploitation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The promised write-up should clarify the root cause, affected systems, and available protections, allowing defenders to assess exposure without guessing. Those details will determine which deployments actually need urgent action.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup into&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/kvm-zero-day-vm-escape/\">Vercel Confirms KVM Zero-Day VM Escape, Awards Researcher $50,000</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:cf6b796173d090fea0dd85bce92a9a3052caa7f107ab4bc9d8fd8a84c821a73c",
    "url": "https://cybersecuritynews.com/shinyhunters-hacker-helping-fbi",
