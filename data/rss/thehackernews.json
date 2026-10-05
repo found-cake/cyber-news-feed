@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-05T10:00:59Z",
+ "updated_at": "2026-10-05T11:00:55Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-05T10:00:59Z",
+  "last_success_at": "2026-10-05T11:00:55Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -85,6 +85,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0sz5D5hiSWYuUfbRDYDloMNzbx5dpvVQjC5ZVoYzIgvWL_Tkyx8AjNHjZ27RAwaPbCIQXNWB6o_FYzxjimFYHY2pHfp6m6b97tARxhdhqSHBkp2lYpfekwVLvUIm63ruwsHR7RlQkR-2jfOPELG2hjZrrYr9JYr4ndSfVaYIajhTpmB6Ud0DIXz1D_uI/s260-e100/soc-1.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b4cc986e4abe757cbe8f1f3ef193b236d647b8559abf4f7f5a6578df81a8a732",
+   "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
+   "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
+   "published_at": "2026-10-05T10:38:50Z",
+   "published_raw": "2026-10-05T16:08:50.550+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents.\n\n\"Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems—including files, mail, messages, and even browsing history – without users' full knowledge",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-9111827742720329123",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDBg5lUcW7uXfKt2vo4Pq5MQUxOty2Xq3pApCIyhUAuSpTzu1jR_CGkNNS2UkAKxYvqk4KCyP1Ehr0PYcW6xVolcSuSdfRPx4rSDDnkuAKaCkgBii_l7kH-s9u7oEhyK2FpvAnaTRWDV48t9XBXEv-MpUIWhBaZYIBx3CFY_zSUXxdw-3C5rB_30Y0VEtf/s260-e100/macos-ai.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -740,33 +767,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:c401e28ae2c1d6950f779a0ad449852ec3bcb85c571649f6888a281cb24d57e3",
-   "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
-   "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
-   "published_at": "2026-09-29T06:08:25Z",
-   "published_raw": "2026-09-29T11:38:25.319+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory.\n\nAffected versions sent the client secret, the authorization code, and the PKCE proof key to a token endpoint the attacker controlled. The fix is in versions 1.30.0 and",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2742034382938112077",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2N5owhsoQXHTQV74afwfngdyitjwcW37BHLX2QKkq6xZAxP8_AOXAh1ODPj5DyvvmMUq3mKH9eR2B1r7owc6djzLViK2U4BY_hw3rTWmaHjhFEyyh8LPlUMPZ7MdWkqN7bjtQyMByBLrsI5m0mAU9y-IbrsAe9OPhZXHN63AWwuv_1OB5MSrpRdVZ9CM/s260-e100/mcp-python.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:d10d67a734db59d52785ef77f79103bb1dd0e713d38200f920415878a984c99e",
    "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
    "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
@@ -787,6 +787,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG1pBfETB-EOlAvKfZwROp5B3Nr3d00xBbxRPhsq5hDBvK8QTVYmc2r8tR8RNz7omvXWoufetWbVk1S-tZ74b-z0nxsHS_Zz7XnN4Vs7VGvDtlnOhsfG0ecx-LX_kuRwBLJwkIMN-26auGXjzdcAS2Yz8sdQ2U_kDtKpQOnOYD18r6WEu1twQ79p_ZJGhD/s260-e100/ct.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c401e28ae2c1d6950f779a0ad449852ec3bcb85c571649f6888a281cb24d57e3",
+   "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+   "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+   "published_at": "2026-09-29T06:08:25Z",
+   "published_raw": "2026-09-29T11:38:25.319+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory.\n\nAffected versions sent the client secret, the authorization code, and the PKCE proof key to a token endpoint the attacker controlled. The fix is in versions 1.30.0 and",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2742034382938112077",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2N5owhsoQXHTQV74afwfngdyitjwcW37BHLX2QKkq6xZAxP8_AOXAh1ODPj5DyvvmMUq3mKH9eR2B1r7owc6djzLViK2U4BY_hw3rTWmaHjhFEyyh8LPlUMPZ7MdWkqN7bjtQyMByBLrsI5m0mAU9y-IbrsAe9OPhZXHN63AWwuv_1OB5MSrpRdVZ9CM/s260-e100/mcp-python.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -1003,33 +1030,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHEPamtRBBEzltsUWnj-F8umrMf4eUUhTmGUJdhHlrvWZamHWpBtXcrpQKDArTziRiiIWv8psX4DTZyN9kLBtcAyLOPJma9_M7sYKgYz6WBISbOhJrRlfByfCKfTTMdBqaYUp-0nskrt2ndt3poUFLDGegEFJojS0EzEvwAqzaUNtvX26jZopYE4zA4S3K/s260-e100/share-kev.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:8479bfbd51e5d520d267043fb08ba45c7a5cb472a83a35c26c15fae2856b0027",
-   "url": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
-   "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
-   "published_at": "2026-09-25T10:14:02Z",
-   "published_raw": "2026-09-25T15:44:02.266+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild.\n\nThe vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authentication SQL injection in the virtuser_query plugin of Roundcube Webmail versions 1.6.x before 1.6.16 and 1.7.x before 1.7.1.\n\nThe issue stems from a preg_replace() backslash",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2628561605117833787",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8MACS_IO_gIvzTjppTIaHyXZKPha3ZR13_sXQS7u9Ajphpz-FRL5GNIQzhpbveUPPLuMCq72MYNtdX5o6gF-9MZZg4rPF7mbOP_pjSXyTVOFy3XtzlQiMH6sIdTdsqgZpgQf-yZmk688M6BiOWdUNYZswJVQETAInFkZVZCl99ZoYoGhhgtpJZ0hs9JmV/s260-e100/roundcube.jpg",
      "kind": "thumbnail",
      "medium": ""
     }

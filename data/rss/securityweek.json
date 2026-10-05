@@ -1,15 +1,83 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-05T10:00:59Z",
+ "updated_at": "2026-10-05T11:00:55Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-05T10:00:59Z",
+  "last_success_at": "2026-10-05T11:00:55Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:48ade46a13c1b36b563b55c3c0f63903f54d2d15ab09751dca09b61b7508db63",
+   "url": "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai",
+   "title": "Exploitation Hits Rejetto HFS Vulnerability Discovered by AI",
+   "published_at": "2026-10-05T11:00:05Z",
+   "published_raw": "Mon, 05 Oct 2026 11:00:05 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "exploited",
+    "Rejetto",
+    "vulnerability"
+   ],
+   "description": "<p>CVE-2026-61500 allows attackers to recover the session-cookie signing key and gain administrative access and RCE.</p>\n<p>The post <a href=\"https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/\">Exploitation Hits Rejetto HFS Vulnerability Discovered by AI </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49801",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:b98959b3bbc91937fd1dd8a9232fcae6491e91d4759ca7de933f46a891d1ba83",
+   "url": "https://www.securityweek.com/senate-passes-bipartisan-bill-to-strengthen-healthcare-cybersecurity",
+   "title": "Senate Passes Bipartisan Bill to Strengthen Healthcare Cybersecurity",
+   "published_at": "2026-10-05T10:42:19Z",
+   "published_raw": "Mon, 05 Oct 2026 10:42:19 +0000",
+   "categories": [
+    "Government",
+    "bill",
+    "healthcare",
+    "legislation"
+   ],
+   "description": "<p>More than 730 cyber breaches affected over 270 million Americans last year, costing an average of $10 million per breach.</p>\n<p>The post <a href=\"https://www.securityweek.com/senate-passes-bipartisan-bill-to-strengthen-healthcare-cybersecurity/\">Senate Passes Bipartisan Bill to Strengthen Healthcare Cybersecurity</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49799",
+   "authors": [
+    {
+     "name": "Kevin Townsend",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:f129f21d998b76a9876c5071f32660891b83441d92693b41e3274fd62a8af939",
    "url": "https://www.securityweek.com/alleged-shinyhunters-leader-arrested-in-jordan",
@@ -2277,46 +2345,6 @@
    "authors": [
     {
      "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:294fe09f0c1444a031f06cf9f299d00f05ddf1a672d2fa35176c6a397923c8ed",
-   "url": "https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity",
-   "title": "Windows, Linux, Android File Notification Systems Leak User Activity",
-   "published_at": "2026-09-25T10:53:32Z",
-   "published_raw": "Fri, 25 Sep 2026 10:53:32 +0000",
-   "categories": [
-    "Data Protection",
-    "Endpoint Security",
-    "Android",
-    "data leak",
-    "Data Security",
-    "Featured",
-    "Linux",
-    "macOS",
-    "research",
-    "Windows"
-   ],
-   "description": "<p>Researchers show that file-change notification systems can leak keystroke timing, browsing activity, and WhatsApp media events.</p>\n<p>The post <a href=\"https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/\">Windows, Linux, Android File Notification Systems Leak User Activity</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49570",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
      "uri": "",
      "email": ""
     }
