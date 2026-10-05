@@ -1,15 +1,38 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-05T17:01:05Z",
+ "updated_at": "2026-10-05T18:01:04Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-05T17:01:05Z",
+  "last_success_at": "2026-10-05T18:01:04Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:74384474326bbd2f4e92ceea165a2a16cc089514f700b54f3935fccabda348f1",
+   "url": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data",
+   "title": "IQVIA fined $7.8 million for failing to properly anonymize health data",
+   "published_at": "2026-10-05T17:19:53Z",
+   "published_raw": "Mon, 05 Oct 2026 13:19:53 -0400",
+   "categories": [
+    "security",
+    "Healthcare",
+    "Legal"
+   ],
+   "description": "Italy's Data Protection Authority (GPDP) has fined IQVIA €7 million ($7.8M) over poor data-processing practices that the agency says could have put roughly one million patients at risk of data exposure and de-anonymization. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:be23ec88333a096d23f6f1ce13deabf48c26f3418186a2097423a93d40630f46",
    "url": "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people",
@@ -1300,27 +1323,6 @@
    ],
    "description": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:fafab2e206177b15fcd650379d4595f4ebbac58700babcc02d21dbf75dcee0c6",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks",
-   "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
-   "published_at": "2026-09-25T17:24:20Z",
-   "published_raw": "Fri, 25 Sep 2026 13:24:20 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability (CVE-2026-5430) affecting multiple products from enterprise software provider WSO2. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
    "authors": [
     {
      "name": "Bill Toulas",
