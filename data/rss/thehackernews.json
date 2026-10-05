@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-05T08:01:00Z",
+ "updated_at": "2026-10-05T09:00:57Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-05T08:01:00Z",
+  "last_success_at": "2026-10-05T09:00:57Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -85,6 +85,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0sz5D5hiSWYuUfbRDYDloMNzbx5dpvVQjC5ZVoYzIgvWL_Tkyx8AjNHjZ27RAwaPbCIQXNWB6o_FYzxjimFYHY2pHfp6m6b97tARxhdhqSHBkp2lYpfekwVLvUIm63ruwsHR7RlQkR-2jfOPELG2hjZrrYr9JYr4ndSfVaYIajhTpmB6Ud0DIXz1D_uI/s260-e100/soc-1.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:00cd8ad7dcd1558bb563382b96f00663b00952fc3dfa4471f5e9254a92cf578b",
+   "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
+   "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
+   "published_at": "2026-10-05T08:09:23Z",
+   "published_raw": "2026-10-05T13:39:23.393+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck.\n\nThe vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use of a weak pseudo-random number generator (PRNG) that can lead to a predictable key, which an attacker can then use to gain unauthorized access and",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6894648985018104663",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTCvFj7lVSH1eLS0oYdxqBa4wQkNQvuemuCAL5XqwKueywAUl8Fg6zY-5UT9cdx3fZZ81DHX_emE9JXthW_OfH-axyWn3bE5CpCp4CDs4HREWjv_1uBtt5iJE947S-Bkn-4Mn1Shwt1kV9FF4RO9Wa7_4jmUtvbWrx2zs4-cdSg-FkUtxW-erVx2CXKhU3/s260-e100/hfs-rce-main.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -740,33 +767,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:3e5bc5aeb6b9864eff47897cd1a65f900961f1a78191bd08192ff69401c91b1a",
-   "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
-   "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
-   "published_at": "2026-09-28T19:18:01Z",
-   "published_raw": "2026-09-29T00:48:01.915+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks.\n\nThe vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write impacting the CoreGraphics component that could lead to arbitrary code execution when processing a maliciously crafted file.\n\nThe iPhone maker said the",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4234994779047168815",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO5I5gnKOqAs0ZCjgQnQirUHdSjRqGZRMp-Fioy684EzZWuQm72wSrCW1hWZEYlvvOXoCtkQyr3sB48AoZ71PM6tMCsz_AGZmEYZz8u2AbrH1gpjutU-mFtDQpuJcI_pKEG9q4-cZEo7T3Yp7hyphenhyphen4_MCZvloRnVKszE7rjTDUKZBaH1eQ47-K0fPno50T3S/s260-e100/apple-0day.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:d10d67a734db59d52785ef77f79103bb1dd0e713d38200f920415878a984c99e",
    "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
    "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
@@ -787,6 +787,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG1pBfETB-EOlAvKfZwROp5B3Nr3d00xBbxRPhsq5hDBvK8QTVYmc2r8tR8RNz7omvXWoufetWbVk1S-tZ74b-z0nxsHS_Zz7XnN4Vs7VGvDtlnOhsfG0ecx-LX_kuRwBLJwkIMN-26auGXjzdcAS2Yz8sdQ2U_kDtKpQOnOYD18r6WEu1twQ79p_ZJGhD/s260-e100/ct.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:3e5bc5aeb6b9864eff47897cd1a65f900961f1a78191bd08192ff69401c91b1a",
+   "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+   "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+   "published_at": "2026-09-28T19:18:01Z",
+   "published_raw": "2026-09-29T00:48:01.915+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks.\n\nThe vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write impacting the CoreGraphics component that could lead to arbitrary code execution when processing a maliciously crafted file.\n\nThe iPhone maker said the",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4234994779047168815",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO5I5gnKOqAs0ZCjgQnQirUHdSjRqGZRMp-Fioy684EzZWuQm72wSrCW1hWZEYlvvOXoCtkQyr3sB48AoZ71PM6tMCsz_AGZmEYZz8u2AbrH1gpjutU-mFtDQpuJcI_pKEG9q4-cZEo7T3Yp7hyphenhyphen4_MCZvloRnVKszE7rjTDUKZBaH1eQ47-K0fPno50T3S/s260-e100/apple-0day.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
