@@ -1,15 +1,83 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-05T12:01:07Z",
+ "updated_at": "2026-10-05T13:01:21Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-05T12:01:07Z",
+  "last_success_at": "2026-10-05T13:01:21Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:7319aa33c92308f5f8b5615a1fab388ce10f4a554237b0f8662c6bcdd5f584a5",
+   "url": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws",
+   "title": "Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws",
+   "published_at": "2026-10-05T13:00:00Z",
+   "published_raw": "Mon, 05 Oct 2026 13:00:00 +0000",
+   "categories": [
+    "Malware & Threats",
+    "ClingSTUN",
+    "Linux malware",
+    "malware"
+   ],
+   "description": "<p>ClingSTUN operates as a back-connect proxy backdoor, sets up persistence, and contains exploits for self-propagation.</p>\n<p>The post <a href=\"https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/\">Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49803",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:3be158071409894d1caf06d796bfd33b3ede515ef79601e02d5cdc8de398b175",
+   "url": "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms",
+   "title": "250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms",
+   "published_at": "2026-10-05T12:35:15Z",
+   "published_raw": "Mon, 05 Oct 2026 12:35:15 +0000",
+   "categories": [
+    "Data Breaches",
+    "Ransomware",
+    "data breach",
+    "healthcare"
+   ],
+   "description": "<p>Hackers stole patient information from Clover Health Investments and AngMar Management Services in July.</p>\n<p>The post <a href=\"https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms/\">250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49805",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:48ade46a13c1b36b563b55c3c0f63903f54d2d15ab09751dca09b61b7508db63",
    "url": "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai",
@@ -89,6 +157,7 @@
     "Tracking & Law Enforcement",
     "arrested",
     "FBI",
+    "Featured",
     "law enforcement",
     "Rey",
     "ShinyHunters"
@@ -2277,74 +2346,6 @@
    "authors": [
     {
      "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:6cf078e4aa7436e1bba144bb9756f98a1512077f59babff8f10cff9f1855276b",
-   "url": "https://www.securityweek.com/cisa-election-security-plan-flags-patching-barriers-voter-database-attacks",
-   "title": "CISA Election Security Plan Flags Patching Barriers, Voter Database Attacks",
-   "published_at": "2026-09-25T12:39:12Z",
-   "published_raw": "Fri, 25 Sep 2026 12:39:12 +0000",
-   "categories": [
-    "Government",
-    "CISA",
-    "Election",
-    "guidance",
-    "voting"
-   ],
-   "description": "<p>Homeland Security Secretary Markwayne Mullin tasked CISA with developing the plan in July. </p>\n<p>The post <a href=\"https://www.securityweek.com/cisa-election-security-plan-flags-patching-barriers-voter-database-attacks/\">CISA Election Security Plan Flags Patching Barriers, Voter Database Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49577",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:5e23314eb7c9f29dbe632519b9824b49e160ecf95cde5a3b190a449a53611229",
-   "url": "https://www.securityweek.com/kosovar-owner-of-rydox-marketplace-pleads-guilty-in-us-court",
-   "title": "Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court",
-   "published_at": "2026-09-25T12:16:27Z",
-   "published_raw": "Fri, 25 Sep 2026 12:16:27 +0000",
-   "categories": [
-    "Cybercrime",
-    "guilty plea",
-    "Rydox"
-   ],
-   "description": "<p>Ardit Kutleshi created and operated Rydox, which allowed miscreants to trade PII and cybercrime tools and services.</p>\n<p>The post <a href=\"https://www.securityweek.com/kosovar-owner-of-rydox-marketplace-pleads-guilty-in-us-court/\">Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49574",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
      "uri": "",
      "email": ""
     }
