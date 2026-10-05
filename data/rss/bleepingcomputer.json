@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-05T19:01:10Z",
+ "updated_at": "2026-10-05T22:00:57Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-05T19:01:10Z",
+  "last_success_at": "2026-10-05T22:00:57Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:0d95aed7cfa060c29cb99f271d78be5accf022e40b120dc5e7120b6637a27072",
+   "url": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw",
+   "title": "Rejetto HFS servers now actively scanned for critical RCE flaw",
+   "published_at": "2026-10-05T20:20:05Z",
+   "published_raw": "Mon, 05 Oct 2026 16:20:05 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Hackers are actively scanning for a Rejetto HFS weak signing key vulnerability, tracked as CVE-2026-61500, that allows session forgery, account takeover, and remote code execution (RCE). [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:74384474326bbd2f4e92ceea165a2a16cc089514f700b54f3935fccabda348f1",
    "url": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data",
@@ -1263,48 +1284,6 @@
    "authors": [
     {
      "name": "Mayank Parmar",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:5e48870a7939d03b65f4ca707c50d3ff26fdca574da49fc7522ad7e56d3159b7",
-   "url": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks",
-   "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
-   "published_at": "2026-09-25T21:41:07Z",
-   "published_raw": "Fri, 25 Sep 2026 17:41:07 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a potentially imminent cyberattack. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
-   "authors": [
-    {
-     "name": "Lawrence Abrams",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:d018bdaaeea772c0d69fbc17340f46c86bbc4ad01b3df08a522e84b0144d9e96",
-   "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw",
-   "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
-   "published_at": "2026-09-25T20:57:55Z",
-   "published_raw": "Fri, 25 Sep 2026 16:57:55 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path traversal vulnerability. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
-   "authors": [
-    {
-     "name": "Lawrence Abrams",
      "uri": "",
      "email": ""
     }
