@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-05T11:00:55Z",
+ "updated_at": "2026-10-05T12:01:07Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-05T11:00:55Z",
+  "last_success_at": "2026-10-05T12:01:07Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -65,26 +65,26 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:5859ebb6f1f83afa1ae9e559abd61f300c04a0dd34f3d0d98d90759bbe0a6a40",
-   "url": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
-   "title": "The SOC Doesn't Need to Start Over with Every Alert",
-   "published_at": "2026-09-25T11:30:00Z",
-   "published_raw": "2026-09-25T17:00:00.000+05:30",
+   "id": "sha256:b5ce63915515734944ec090ebb2ab6e62f2e0d9c1735d84e7034187f9b4115e9",
+   "url": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
+   "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
+   "published_at": "2026-10-05T11:46:25Z",
+   "published_raw": "2026-10-05T17:16:25.026+05:30",
    "categories": [
-    "threat-intelligence"
+    "vulnerability"
    ],
-   "description": "Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry.\n\nThe routine version looks like this. An attacker lands on a low-privilege cloud account, and the first try at privilege escalation goes nowhere. That dead end used to cost hours of documentation reading,",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8886737595372300245",
+   "description": "Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet malware called Cling.\n\n\"Cling is notable not because it introduces a new propagation technique, but because it repurposes ordinary STUN behavior into a practical command-and-control channel,\" Nozomi Networks said in a report",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2249530468810747398",
    "authors": [
     {
-     "name": "Unknown",
-     "uri": "",
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
      "email": "noreply@blogger.com"
     }
    ],
    "media": [
     {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0sz5D5hiSWYuUfbRDYDloMNzbx5dpvVQjC5ZVoYzIgvWL_Tkyx8AjNHjZ27RAwaPbCIQXNWB6o_FYzxjimFYHY2pHfp6m6b97tARxhdhqSHBkp2lYpfekwVLvUIm63ruwsHR7RlQkR-2jfOPELG2hjZrrYr9JYr4ndSfVaYIajhTpmB6Ud0DIXz1D_uI/s260-e100/soc-1.jpg",
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeczuQyi5eCbsZFxILJKWiHZ8_JC8gnKqr2sExCgq_Dk-7879VVbd8qcA475L-uEn3X30CIyqn-iDilE7Sl9T5FM3XGFPU6LbyE7KUH8OpWTjlirCFq8EaY-MuielVGOXFuECLLpehX9R8HQrniMulUnAUd2f_uRbZ1Fget8hT0Tf19c1N-q06dtFpAZPj/s260-e100/botnet.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -740,33 +740,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:b8f94911624474652c5926fc664fab6699a40ab01338042e53891669804150aa",
-   "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
-   "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
-   "published_at": "2026-09-29T08:35:10Z",
-   "published_raw": "2026-09-29T14:05:10.313+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group.\n\n\"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters,\" the Politie Landelijke Opsporing en Interventies said in an X post Monday.\n\nPolice said the individual is expected to appear before the",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3329907886536507388",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWsGNpV8Y5_YLcyxRYju8E3caiN3I3Zttrlvxhz5iXfzVIR_Ayp_d_Zn2Wk12ZBkz5nW4eYfKeEs-xxs9kYuS_paAwO3wJleeUxdMRbrbU_lXwWVuG7ajiFH0UOEcoj3almps5b54DXt-mGy73GhXjCQzGsNNDJkhdfJXRI9XWeFF5hfsr4zjQty-Wued5/s260-e100/1000111943.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:d10d67a734db59d52785ef77f79103bb1dd0e713d38200f920415878a984c99e",
    "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
    "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
@@ -787,6 +760,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG1pBfETB-EOlAvKfZwROp5B3Nr3d00xBbxRPhsq5hDBvK8QTVYmc2r8tR8RNz7omvXWoufetWbVk1S-tZ74b-z0nxsHS_Zz7XnN4Vs7VGvDtlnOhsfG0ecx-LX_kuRwBLJwkIMN-26auGXjzdcAS2Yz8sdQ2U_kDtKpQOnOYD18r6WEu1twQ79p_ZJGhD/s260-e100/ct.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b8f94911624474652c5926fc664fab6699a40ab01338042e53891669804150aa",
+   "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
+   "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
+   "published_at": "2026-09-29T08:35:10Z",
+   "published_raw": "2026-09-29T14:05:10.313+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group.\n\n\"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters,\" the Politie Landelijke Opsporing en Interventies said in an X post Monday.\n\nPolice said the individual is expected to appear before the",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3329907886536507388",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWsGNpV8Y5_YLcyxRYju8E3caiN3I3Zttrlvxhz5iXfzVIR_Ayp_d_Zn2Wk12ZBkz5nW4eYfKeEs-xxs9kYuS_paAwO3wJleeUxdMRbrbU_lXwWVuG7ajiFH0UOEcoj3almps5b54DXt-mGy73GhXjCQzGsNNDJkhdfJXRI9XWeFF5hfsr4zjQty-Wued5/s260-e100/1000111943.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
