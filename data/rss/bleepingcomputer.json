@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-06T19:01:50Z",
+ "updated_at": "2026-10-06T20:01:16Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-06T19:01:50Z",
+  "last_success_at": "2026-10-06T20:01:16Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:027354b70940658ed0d45fe572911cfcf6112661a29dfa70af995c326de3a749",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland",
+   "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
+   "published_at": "2026-10-06T19:21:53Z",
+   "published_raw": "Tue, 06 Oct 2026 15:21:53 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:a1394fc7dc7e52229c89d25b6cba21979b9bb3285e55e1276e3b4fbdc93ea404",
    "url": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence",
@@ -1368,27 +1389,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:276ff97ad08b0e13e11747a8bc585d661cc46608b03075e005fabee9021079d8",
-   "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks",
-   "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
-   "published_at": "2026-09-26T19:03:34Z",
-   "published_raw": "Sat, 26 Sep 2026 15:03:34 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat actors to resume widespread exploitation of a flaw on vulnerable servers. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
-   "authors": [
-    {
-     "name": "Lawrence Abrams",
      "uri": "",
      "email": ""
     }
