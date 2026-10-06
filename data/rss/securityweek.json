@@ -1,15 +1,84 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-06T11:01:06Z",
+ "updated_at": "2026-10-06T12:01:11Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-06T11:01:06Z",
+  "last_success_at": "2026-10-06T12:01:11Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:3fcdd461f86773fd06386909fd0770e5bb06174d6d0ebc2f767e4cb06d6bf475",
+   "url": "https://www.securityweek.com/apple-to-tighten-full-disk-access-controls-in-macos-amid-ai-risks",
+   "title": "Apple to Tighten Full Disk Access Controls in macOS Amid AI Risks",
+   "published_at": "2026-10-06T11:48:59Z",
+   "published_raw": "Tue, 06 Oct 2026 11:48:59 +0000",
+   "categories": [
+    "Data Protection",
+    "Endpoint Security",
+    "Apple",
+    "Data Security",
+    "Full Disk Access",
+    "macOS"
+   ],
+   "description": "<p>Citing growing risks posed by more capable and autonomous AI agents, Apple will introduce additional controls.</p>\n<p>The post <a href=\"https://www.securityweek.com/apple-to-tighten-full-disk-access-controls-in-macos-amid-ai-risks/\">Apple to Tighten Full Disk Access Controls in macOS Amid AI Risks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49824",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:30ac4555f0044b08b2c68a57c365aa60aca6bf6dfa720f2c3f675cacafa7955d",
+   "url": "https://www.securityweek.com/cybersecurity-ma-roundup-39-deals-announced-in-september-2026",
+   "title": "Cybersecurity M&A Roundup: 39 Deals Announced in September 2026",
+   "published_at": "2026-10-06T11:01:35Z",
+   "published_raw": "Tue, 06 Oct 2026 11:01:35 +0000",
+   "categories": [
+    "M&A Tracker",
+    "Acquisitions",
+    "M&A"
+   ],
+   "description": "<p>Significant cybersecurity M&#038;A deals announced by Dragos, IBM, Palo Alto Networks, Kiteworks, and Upwind.</p>\n<p>The post <a href=\"https://www.securityweek.com/cybersecurity-ma-roundup-39-deals-announced-in-september-2026/\">Cybersecurity M&#038;A Roundup: 39 Deals Announced in September 2026</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49821",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:15cf13778f12a400a0dae0c0789304d48cbc60b38d1c5bbbfc20823b32eaf9c1",
    "url": "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads",
@@ -2355,41 +2424,6 @@
    "authors": [
     {
      "name": "Associated Press",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:075a7dcf04287024a57d7faa74d3813eb4eafcf873873763275f9a576f5dd7f4",
-   "url": "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining",
-   "title": "New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining",
-   "published_at": "2026-09-26T12:00:00Z",
-   "published_raw": "Sat, 26 Sep 2026 12:00:00 +0000",
-   "categories": [
-    "Malware & Threats",
-    "AI",
-    "botnet",
-    "malware",
-    "X47.c"
-   ],
-   "description": "<p>The Windows botnet relies on AI to maintain persistence, using xAI Grok to choose from predefined actions.</p>\n<p>The post <a href=\"https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/\">New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49582",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
      "uri": "",
      "email": ""
     }
