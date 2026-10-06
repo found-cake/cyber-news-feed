@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-06T12:01:11Z",
+ "updated_at": "2026-10-06T13:01:11Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-06T12:01:11Z",
+  "last_success_at": "2026-10-06T13:01:11Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:fcb101af17f0853a3e162c2ead4b7692345ba5b9a04057082081a17d0b511ec9",
+   "url": "https://cybersecuritynews.com/dell-system-update-tool-vulnerability",
+   "title": "Critical Dell System Update Tool Vulnerability Allows Attackers to Execute Code as Root User",
+   "published_at": "2026-10-06T12:57:06Z",
+   "published_raw": "Tue, 06 Oct 2026 12:57:06 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News"
+   ],
+   "description": "<p>Dell has released security updates for five vulnerabilities in Dell System Update (DSU), including a critical flaw that could let an unauthenticated remote attacker execute code with root privileges. The issues affect versions before 2.3.0.0, and Dell urges customers to upgrade at the earliest opportunity. The company published security advisory DSA-2026-324 on October 1, 2026. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/dell-system-update-tool-vulnerability/\">Critical Dell System Update Tool Vulnerability Allows Attackers to Execute Code as Root User</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=165961",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Dell-System-Update-Tool-Vulnerability.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "165961",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Dell has released security updates for five vulnerabilities in Dell System Update (DSU), including a critical flaw that could let an unauthenticated remote attacker execute code with root privileges. The issues affect versions before 2.3.0.0, and Dell urges customers to upgrade at the earliest opportunity.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company published <a href=\"https://www.dell.com/support/kbdoc/en-us/000515843/dsa-2026-324-security-update-for-dell-system-update-dsu-vulnerabilities\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">security advisory DSA-2026-324</a> on October 1, 2026. DSU is a command-line tool that helps administrators deploy BIOS, firmware, and software updates across Dell PowerEdge servers running Linux and Windows, making its security important for enterprise server management.</p>\n\n\n\n<h2 id=\"h-critical-path-traversal-vulnerability\" class=\"wp-block-heading\"><strong>Critical Path Traversal Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The most serious issue, CVE-2026-86360, carries a CVSS score of 9.6. Dell identifies it as a path traversal vulnerability, meaning the tool fails to keep file access within an intended directory. An attacker with remote access could exploit the weakness without first signing in to the affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Dell warns that exploitation could provide filesystem access and allow arbitrary code execution with root privileges. Successful attacks could completely compromise both DSU and the underlying operating system. However, the published CVSS vector lists user interaction as required, an important detail that distinguishes unauthenticated access from an attack requiring no user involvement.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Dell credits researcher Ori Gabriel with reporting this critical flaw and the separate certificate validation issue. The advisory does not describe the exact user action required, vulnerable file paths, or a complete attack sequence. These limits matter: the warning establishes serious risk, but does not provide enough detail to reconstruct an exploit.</p>\n\n\n\n<h2 id=\"h-four-additional-security-flaws\" class=\"wp-block-heading\"><strong>Four Additional Security Flaws</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Two further vulnerabilities could allow local users with limited permissions to gain higher privileges. CVE-2026-86361 involves incorrect permissions assigned to a critical resource, while CVE-2026-86362 stems from improper access control. Both carry CVSS scores of 8.2 and require local access, unlike the critical remote path traversal flaw.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CVE-2026-63697, rated 7.6, involves improper certificate validation. Dell says a remote attacker who already holds high privileges could exploit it to achieve remote execution. CVE-2026-71168, rated 7.3, is another path traversal flaw. Its stated prerequisite is local access with low privileges, although Dell describes its potential outcome as remote execution.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Dell lists DSU version 2.3.0.0 or later as the fix for all five vulnerabilities. Administrators should identify installations below that version and obtain the corrected release through the <a href=\"https://www.dell.com/support/home/drivers/DriversDetails?driverid=J9TK1\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">official Dell download</a> linked in the advisory. Installing an earlier DSU release does not meet Dell’s stated remediation requirement.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The disclosure follows separate <a href=\"https://cybersecuritynews.com/critical-dell-container-storage-flaws/\" target=\"_blank\" rel=\"noreferrer noopener\">critical Dell Container Storage vulnerabilities</a> covered by Cyber Security News, highlighting another update priority for Dell environments. Those flaws affect a different product and need separate remediation. Dell had not flagged the DSU flaws as actively exploited in reporting published October 5, but customers should not delay patching.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup into&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/dell-system-update-tool-vulnerability/\">Critical Dell System Update Tool Vulnerability Allows Attackers to Execute Code as Root User</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:d35bce2ccfd3e149fe91806143eec4aeb1cfe1c1dc8edd4a62f7e88219319a99",
    "url": "https://cybersecuritynews.com/midnight-blizzard",
