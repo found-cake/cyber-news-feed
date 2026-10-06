@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-06T02:00:54Z",
+ "updated_at": "2026-10-06T03:00:57Z",
  "retention_days": 10,
  "status": {
-  "ok": false,
-  "last_success_at": "2026-10-05T23:01:00Z",
-  "last_error_at": "2026-10-06T02:00:54Z",
-  "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+  "ok": true,
+  "last_success_at": "2026-10-06T03:00:57Z",
+  "last_error_at": null,
+  "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b24910e9ff3a1fe2673a35b1749d91b969e96ca4dbbb296cda3546aa90bff4d6",
+   "url": "https://cybersecuritynews.com/trump-mobile-data-breach",
+   "title": "Hacker Group Claims to Have Stolen Trump Mobile Customers’ Personal Data",
+   "published_at": "2026-10-06T02:41:18Z",
+   "published_raw": "Tue, 06 Oct 2026 02:41:18 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Data Breach"
+   ],
+   "description": "<p>Trump Mobile customers’ personal data has appeared on a dark web leak site after a ransomware group called BYOD claimed it breached the company. The published file reportedly contains 3,615 records, including names, email addresses, phone numbers, home addresses, and order details. Straight Arrow News reported the incident on October 5, 2026, after reviewing the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/trump-mobile-data-breach/\">Hacker Group Claims to Have Stolen Trump Mobile Customers&#8217; Personal Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=165856",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Trump-Mobile-Data-Breach.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "165856",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Trump Mobile customers’ personal data has appeared on a dark web leak site after a ransomware group called BYOD claimed it breached the company. The published file reportedly contains 3,615 records, including names, email addresses, phone numbers, home addresses, and order details.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Straight Arrow News reported the incident on October 5, 2026, after reviewing the leaked data and contacting people listed in it. Several individuals confirmed their details were accurate, although some denied being customers. This supports the authenticity of some records, but does not confirm every entry.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The exposed information includes Eric Brunnett, vice president and chief information officer at the Trump Organization. His role covers the organization’s technology and information security. Straight Arrow found no Trump family members in the dataset.</p>\n\n\n\n<h2 id=\"h-claimed-access-through-malware\" class=\"wp-block-heading\"><strong>Claimed Access Through Malware</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">A BYOD representative told Straight Arrow that the group gained access after infecting an employee at Florida-based Liberty Mobile with malware. Trump Mobile is owned by T1 Mobile and uses branding licensed from the Trump Organization.</p>\n\n\n\n<p class=\"wp-block-paragraph\">BYOD also claimed it still had access to Trump Mobile’s backend dashboard and supplied a screenshot showing customer information. The malware family, infection method, and access path have not been publicly established. The report also provides no confirmed evidence that ransomware encrypted company systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The group alleged Trump Mobile responded to its breach warning with, “We have no team to handle this.” That account remains the attackers’ claim. Trump Mobile had not responded to Straight Arrow’s request for comment when it <a href=\"https://san.com/cc/trump-mobiles-latest-problem-hackers-just-released-customer-information/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">published its report</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Exposed contact and order details could help criminals craft convincing phishing messages, fake payment requests or calls posing as customer support. Cybersecurity News previously covered similar risks following the <a href=\"https://cybersecuritynews.com/odido-telecom-suffers-cyberattack/\" target=\"_blank\" rel=\"noreferrer noopener\">Odido telecom data breach</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Customers should verify unexpected messages through official channels and avoid sharing passwords or account codes with callers. The report does not establish that passwords or payment card numbers were exposed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The key unanswered question is whether the claimed backend access remains active. Until that is verified, the full scope of the alleged Trump Mobile data breach remains uncertain, including any further exposure.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup into&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/trump-mobile-data-breach/\">Hacker Group Claims to Have Stolen Trump Mobile Customers&#8217; Personal Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:2bd20d2fdcf4513e6d344a4ed7ae69c297ce80a043be4bf7f22122727db96b99",
    "url": "https://cybersecuritynews.com/malicious-heic-images",
