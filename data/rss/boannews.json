@@ -1,15 +1,59 @@
 {
  "schema_version": 1,
  "source": "boannews",
- "updated_at": "2026-10-07T07:00:54Z",
+ "updated_at": "2026-10-07T08:00:55Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-07T07:00:54Z",
+  "last_success_at": "2026-10-07T08:00:55Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:1e96c0af298fc7819a45ca2fbde7aef7c5d5d1b30ad829daba41f77b117c3c1f",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=146245",
+   "title": "[카드뉴스] \"공장 멈춘 주범이 5년 전 공유기?\"… 제조업 랜섬웨어 64% 뚫은 '구형 VPN' 실태",
+   "published_at": "2026-10-07T16:29:14Z",
+   "published_raw": "2026-10-07 16:29:14",
+   "categories": [
+    "사건·사고",
+    "카드뉴스"
+   ],
+   "description": "원격 유지보수를 위해 설치된 후 방치된 구형 VPN 및 공유기 장비가 스마트 공장 생산 라인을 마비시키는 핵심 침투 경로로 지목되었다. 일본 경시청 통계에 따르면 제조업 랜섬웨어 공격의 64%가 미패치 구형 VPN의 취약 포트를 통해 유입되어 37건의 OT 설비 연쇄 셧다운을 초래했다. 대규모 생산 중단 피해를 예방하기 위해 미사용 외부 포트 즉시 폐쇄, 최신 펌웨어 패치 적용, 레거시 인터페이스의 제로 트러스트 격리 및 망분리가 시급하다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "지진솔 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:8967f4a6f1636a9aa41df1407c5f98f2e38bfef5ad830d63049a4be95286ecb9",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=146234",
+   "title": "리브레오피스·오픈오피스, 스프레드시트 열기만 해도 악성 코드 실행",
+   "published_at": "2026-10-07T16:10:00Z",
+   "published_raw": "2026-10-07 16:10:00",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "리브레오피스와 아파치 오픈오피스에서 악성 스프레드시트를 여는 순간 공격자 코드가 실행되는 결함이 드러났다. 프로그램이 매크로를 실행하기 전에 띄우는 경고도 뜨지 않는다.브이12시큐리티(V12 Security)의 릭 더야허르(Rick de Jager)와 코디언랩스(Codean Labs)의 토마스 린스마(Thomas Rinsma), 에도아르도 제라치(Edoardo Geraci)가 이 결함을 찾아 보고했다.다만 범위는 제한적이다. 공격은 프로그램의 자바 지원이 켜져 있을 때만 통한다. 지금까지는 개념증명(PoC)으로만 시연됐고, 실제 공",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "정지원 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:482829d1235ae2071d3d746e5b53aabb2611a55734f1ec5357d17898d60d18c8",
    "url": "https://www.boannews.com/news/articleView.html?idxno=146243",
