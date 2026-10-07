@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-07T14:01:06Z",
+ "updated_at": "2026-10-07T15:00:58Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-07T14:01:06Z",
+  "last_success_at": "2026-10-07T15:00:58Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d3a3e2b5955c24f49dddaa7a877497c356e132a110c911485ab7d096972cf3e6",
+   "url": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready",
+   "title": "Ransomware has a new target. Is your backup ready?",
+   "published_at": "2026-10-07T14:01:11Z",
+   "published_raw": "Wed, 07 Oct 2026 10:01:11 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Ransomware groups are increasingly targeting backup infrastructure to eliminate recovery options and increase pressure on victims to pay. Kaseya explains why organizations need isolated, immutable, and regularly tested backups that attackers cannot easily reach. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
+   "authors": [
+    {
+     "name": "Sponsored by Kaseya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:b4fc02e1dbc3292013e9819fd2dd97a685605af9f3b709e579add7a894ff4a99",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release",
@@ -1472,28 +1493,6 @@
    "authors": [
     {
      "name": "Lawrence Abrams",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:c6c75256eedfa72f7a8f56cdd00f3745981abaf0851c763c3bca9784c424ff8f",
-   "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data",
-   "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
-   "published_at": "2026-09-27T14:13:31Z",
-   "published_raw": "Sun, 27 Sep 2026 10:13:31 -0400",
-   "categories": [
-    "security",
-    "Cloud"
-   ],
-   "description": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
