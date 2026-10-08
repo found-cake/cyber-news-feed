@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "darkreading",
- "updated_at": "2026-10-08T21:01:13Z",
+ "updated_at": "2026-10-08T22:01:07Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-08T21:01:13Z",
+  "last_success_at": "2026-10-08T22:01:07Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:668ca68c0b5e583b1fe60641c85ba970230666f72b25970a66a07681a6e92ea5",
+   "url": "https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt",
+   "title": "'AgentCorruption' Puts AWS Environments At Risk With Single Prompt",
+   "published_at": "2026-10-08T20:39:44Z",
+   "published_raw": "Thu, 08 Oct 2026 20:39:44 GMT",
+   "categories": [
+    "cloud-security"
+   ],
+   "description": "A now-patched vulnerability in AWS Bedrock AgentCore could allow an attacker to use one AI chatbot to take over an organization's entire fleet.",
+   "feed_id": "https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt",
+   "authors": [
+    {
+     "name": "Rob Wright",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt7fb7357c5c7dbc54/6ac7f27aebe12bcaad81c134/aichatbot-_jittawit.21-Getty-1432457969.jpg?width=720&quality=80&disable=upscale",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt7fb7357c5c7dbc54/6ac7f27aebe12bcaad81c134/aichatbot-_jittawit.21-Getty-1432457969.jpg?width=720&quality=80&disable=upscale",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "darkreading": {
+     "guid_is_permalink": "false"
+    }
+   }
+  },
   {
    "id": "sha256:afe0974a103d52a1e636e36a4c53e548d0abc183470377a7af9cb1a2dd597ffd",
    "url": "https://www.darkreading.com/cyberattacks-data-breaches/venezuelan-cartel-malware-honcho-nabbed-atm-jackpotting",
@@ -678,42 +714,6 @@
     },
     {
      "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5de91a8011e409dc/68ae00c0ae4a7a4290bef1c1/citrix_JHVEPhoto_shutterstock.jpg?width=720&quality=80&disable=upscale",
-     "kind": "content",
-     "medium": "image"
-    }
-   ],
-   "source_metadata": {
-    "darkreading": {
-     "guid_is_permalink": "false"
-    }
-   }
-  },
-  {
-   "id": "sha256:ae5b26793ac123d0c131cc5ea9363529bc01be2ca95f14535d7e648afb58ead6",
-   "url": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine",
-   "title": "One Packet Can Crash OT Servers in Industrial Sectors",
-   "published_at": "2026-09-28T21:13:04Z",
-   "published_raw": "Mon, 28 Sep 2026 21:13:04 GMT",
-   "categories": [
-    "ics-ot-security"
-   ],
-   "description": "A high-severity vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments, and orgs should patch right away.",
-   "feed_id": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine",
-   "authors": [
-    {
-     "name": "Jai Vijayan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [
-    {
-     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1a4e2e84866c963b/6abad9206f2a1229af4c529c/bugconcept_Elena_Abrazhevich_shutterstock_REVISED_FOR_16_BY_9.jpg?width=720&quality=80&disable=upscale",
-     "kind": "thumbnail",
-     "medium": ""
-    },
-    {
-     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1a4e2e84866c963b/6abad9206f2a1229af4c529c/bugconcept_Elena_Abrazhevich_shutterstock_REVISED_FOR_16_BY_9.jpg?width=720&quality=80&disable=upscale",
      "kind": "content",
      "medium": "image"
     }
