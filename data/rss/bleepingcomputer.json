@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-08T15:01:04Z",
+ "updated_at": "2026-10-08T16:01:14Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-08T15:01:04Z",
+  "last_success_at": "2026-10-08T16:01:14Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:067650c4a8fbc2fe8310d89b53ee10cb02a999335c71a917bf4ce7eaf7c71ef5",
+   "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover",
+   "title": "Cisco warns of critical flaws allowing Nexus switch takeover",
+   "published_at": "2026-10-08T15:26:33Z",
+   "published_raw": "Thu, 08 Oct 2026 11:26:33 -0400",
+   "categories": [
+    "security",
+    "Technology"
+   ],
+   "description": "Cisco released security advisories for five critical vulnerabilities in its NX-OS data center network operating system that could be exploited to run arbitrary code with root privileges on Nexus switches. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:c31f2e9f713facd95207509d9c37382bf544addbf8f8b0553f3f2e65e1021d39",
    "url": "https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up",
@@ -1596,28 +1618,6 @@
    ],
    "description": "Researchers found more than 16,000 misconfigured Supabase databases exposing readable tables with personally identifiable information, passwords, or authentication tokens. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:24d4e99becb681c2eb30f000cd6f39db4843eaed8b3b45241d5c73767d4e126b",
-   "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources",
-   "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
-   "published_at": "2026-09-28T15:49:27Z",
-   "published_raw": "Mon, 28 Sep 2026 11:49:27 -0400",
-   "categories": [
-    "security",
-    "Cloud"
-   ],
-   "description": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
    "authors": [
     {
      "name": "Bill Toulas",
