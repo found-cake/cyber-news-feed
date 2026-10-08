@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-10-08T07:00:58Z",
+ "updated_at": "2026-10-08T08:01:06Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-08T07:00:58Z",
+  "last_success_at": "2026-10-08T08:01:06Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:15341c21524aa1fa25e7937534e6a471ef073bd4b2e9878e7893d6b0167dbb83",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208801",
+   "title": "[단독] CJ올리브영 대규모 고객정보 다크웹 판매 게시글 등장…이름·연락처·주소 등 포함",
+   "published_at": "2026-10-08T16:37:59Z",
+   "published_raw": "2026-10-08 16:37:59",
+   "categories": [
+    "이슈"
+   ],
+   "description": "국내 대표 헬스앤뷰티 유통기업 CJ올리브영의 대규모 고객정보를 판매한다는 게시글이 다크웹에 등장했다. 게시자는 올리브영 고객정보 2,080만 건을 확보했다고 주장하며 회원정보가 담긴 샘플을 공개했다. 데일리시큐가 확보한 다크웹 게시글에 따르면, 'araragi'라는 계정을 사용하는 게시자는 'SELLING [Korea] Olive Young'이라는 제목으로 올리브영 고객정보 판매를 제안했다.게시자는 해당 데이터에 중복되지 않는 고객정보 2,080만 건이 포함돼 있다고 주장했다. 판매가격은 250달러이며, 암호화폐 결제 방식과 텔레그",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:a3d775e447cf87138dd61a71218eebe0ebe09f4889da7eab0cf71a92099204bc",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208799",
@@ -1070,48 +1091,6 @@
     "이슈"
    ],
    "description": "네트워크 인증·보안 기업 빅오가 RADIUS 인증 프로토콜의 ‘블라스트래디어스(BlastRADIUS, CVE-2024-3596)’ 취약점을 자체 시험환경에서 재현했다고 밝혔다. 잘못된 비밀번호로 인증을 요청했는데도 클라이언트가 유효한 인증 승인 응답을 받아 최종적으로 접속을 허용하는 결과를 확인했다는 설명이다.블라스트래디어스는 공격자가 RADIUS 서버와 클라이언트 사이의 통신에 개입해 인증 응답을 위조할 수 있는 취약점이다. 서버가 보낸 인증 거부 응답을 승인 응답으로 바꾸면서도, 클라이언트의 기존 응답 검증을 통과하게 하는 방식",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:b7e985cf6c067424ee31c8d6644a0a8b7d8240016dc8880b5eddc89c2d987ac8",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208609",
-   "title": "[이혁중 CISO 칼럼] IoT/OT 보안3-스마트시티에서 저궤도 위성까지",
-   "published_at": "2026-09-28T08:00:00Z",
-   "published_raw": "2026-09-28 08:00:00",
-   "categories": [
-    "이슈"
-   ],
-   "description": "1부에서는 IoT와 OT 보안의 의미와 범위가 어떻게 확장되고 있는지 살펴보았고, 2부에서는 실제 사고 사례와 산업별 대응 전략을 정리했다. 이제 마지막으로 살펴볼 영역은 보안의 새로운 최전선이다. 바로 항공우주, 저궤도 위성, 위성통신, 드론, UAM 영역이다. 이 영역은 과거에는 국가기관, 군, 대형 항공우주 기업의 특수한 영역으로 여겨졌다. 그러나 최근 상황은 달라지고 있다. 저궤도 위성망, 위성 인터넷, 지구관측 위성, 큐브샛, 위성 기반 IoT 서비스, 민간 우주기업, 드론 물류, UAM, 사설 5G망, 엣지 컴퓨팅이 결합",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:d3257de76249be1301c6e398cc76c08af9e758c4b4af23d1e31530d712058b8a",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208607",
-   "title": "[김승주 교수 칼럼] 무조건적인 국내 클라우드 시장 보호, 과연 옳은가",
-   "published_at": "2026-09-28T08:00:00Z",
-   "published_raw": "2026-09-28 08:00:00",
-   "categories": [
-    "이슈"
-   ],
-   "description": "최근 공공 클라우드 시장을 외국 기업에 어디까지 개방할 것인지를 두고 논란이 뜨겁다. 정부가 상·중·하 등급으로 구성돼 있던 기존 「클라우드 보안인증제(CSAP: Cloud Security Assurance Program)」를 「국가망 보안체계(N2SF: National Network Security Framework)」의 C·S·O 등급 체계에 맞춰 개편하면서 논쟁이 불거진 것이다. 국내 클라우드 기업들은 그동안 정부 정책을 믿고 공공 전용 데이터센터와 관련 보안설비에 막대한 투자를 해왔는데, 이제 와서 규제를 완화해 글로벌 기업",
    "feed_id": "",
    "authors": [
     {
