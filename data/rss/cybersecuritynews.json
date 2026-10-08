@@ -1,15 +1,120 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-08T10:00:55Z",
+ "updated_at": "2026-10-08T11:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-08T10:00:55Z",
+  "last_success_at": "2026-10-08T11:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b6292163d5b4f957b36b189d0e549185162b9db83be44550490ad8ea6585eefb",
+   "url": "https://cybersecuritynews.com/gitea-patches-27-security-flaws",
+   "title": "Gitea Patches 27 Security Flaws, Including Critical SSH Authentication Bypass and SSRF",
+   "published_at": "2026-10-08T10:56:44Z",
+   "published_raw": "Thu, 08 Oct 2026 10:56:44 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News",
+    "vulnerability"
+   ],
+   "description": "<p>Gitea has released security updates addressing 27 reported flaws across versions 28.0.0 and 28.1.0, including a critical SSH authentication bypass and server-side request forgery (SSRF) weaknesses. The fixes cover account access, repository permissions, automated workflows, and connections to internal systems. Administrators should treat the update as an urgent priority for their development infrastructure. Released on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gitea-patches-27-security-flaws/\">Gitea Patches 27 Security Flaws, Including Critical SSH Authentication Bypass and SSRF</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=166355",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Gitea-Patches-27-Security-Flaws-Including-Critical-SSH-Authentication-Bypass-and-SSRF.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "166355",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Gitea has released security updates addressing 27 reported flaws across versions 28.0.0 and 28.1.0, including a critical <a href=\"https://cybersecuritynews.com/hackers-exploiting-gitea-n-day-rce-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">SSH authentication bypass</a> and server-side request forgery (SSRF) weaknesses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The fixes cover account access, repository permissions, automated workflows, and connections to internal systems. Administrators should treat the update as an urgent priority for their development infrastructure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Released on September 30, Gitea 28.0.0 lists 20 CVEs in its security notes. The reported total of 27 spans that release and the follow-up 28.1.0 update, rather than 28.0.0 alone. Gitea also dropped its historical “1.” version prefix, making this release 28.0.0 instead of 1.28.0.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The standout issue, CVE-2026-103059, carries a CVSS score of 9.1 and affects deployments using Gitea’s built-in SSH server. Its public-key lookup used an SQL LIKE comparison that ignores letter case on some databases, including the default SQLite database. This could cause a specially crafted RSA key to match another user’s registered key.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker who constructs a suitable case variant of a victim’s public key and derives its matching private key could authenticate as that victim.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This is not a general bypass using any altered key; the attacker must meet those key requirements. Gitea now identifies presented keys through their fingerprints, removing the unsafe text comparison.</p>\n\n\n\n<h2 id=\"h-gitea-patches-27-security-flaws\" class=\"wp-block-heading\"><strong>Gitea Patches 27 Security Flaws</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Several patched flaws allowed repository migrations and mirrors to bypass outbound connection rules. CVE-2026-70357 involved a gap between hostname validation and the actual Git connection.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker could change the hostname’s<a href=\"https://cybersecuritynews.com/hackers-poisoning-dns-responses/\" target=\"_blank\" rel=\"noreferrer noopener\"> DNS response</a> during that gap, directing Gitea toward an internal host after the initial security check passed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CVE-2026-101027 allowed an approved domain to skip destination IP checks, while CVE-2026-101029 used multiple DNS answers to bypass the outbound allowlist.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Another flaw, CVE-2026-89430, let push mirrors connect to internal Git hosts after their saved addresses had passed an earlier check, potentially allowing forced pushes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Gitea now routes Git network operations through an internal proxy that applies outbound access rules when connections occur. Administrators must review configuration changes before upgrading. For a <a href=\"https://cybersecuritynews.com/purevpn-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">deny-by-default policy</a>, the release notes direct users to set EGRESS_MODE = strict and explicitly list allowed hosts.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The update also closes Gitea Actions approval gaps. CVE-2026-104632 allowed a canceled, approval-pending fork workflow to reach self-hosted runners when rerun.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CVE-2026-94205 checked only the event actor, allowing a maintainer-triggered event to run an<a href=\"https://cybersecuritynews.com/gitea-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\"> untrusted contributor’s workflow</a> without the required approval. Both checks are now tightened.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Other fixes address stored cross-site scripting in container blobs, duplicate Git tree entries that could hide malicious files from reviewers, and an installer flaw that issued an existing administrator’s session without checking the password. Permission fixes also remove lingering repository-transfer access and prevent deploy keys from inheriting repository-owner privileges.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should back up data, review breaking changes, and upgrade to 28.1.0. <a href=\"https://blog.gitea.com/release-of-28.0.0/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Gitea’s release notes</a> explain the new network rules, Git 2.25 minimum, and changed workflow behavior.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Related reporting on private repository permission bypasses provides useful background on Gitea access risks. Previous coverage of <a href=\"https://cybersecuritynews.com/hackers-exploiting-gitea-n-day-rce-vulnerability/\" target=\"_blank\" rel=\"noopener\">Gitea RCE exploitation</a> also shows why delayed patching matters. However, those attacks involved a separate vulnerability, not these newly fixed issues.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong>Stops threats before impact with a 21-minute faster MTTR. <a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=article&amp;utm_campaign=links&amp;utm_content=enterprise&amp;utm_term=oct_26#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate ANYRUN’s Sandbox in your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/gitea-patches-27-security-flaws/\">Gitea Patches 27 Security Flaws, Including Critical SSH Authentication Bypass and SSRF</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:219180b3a2de8c97195f8eb37abcb734d717bf8cceb71a607a904c0bf01d2726",
+   "url": "https://cybersecuritynews.com/wolfssh-1-6-0-fixes-5-security-flaws",
+   "title": "wolfSSH 1.6.0 Fixes 5 Security Flaws Including Critical MITM Host Key Verification Bypass",
+   "published_at": "2026-10-08T10:23:01Z",
+   "published_raw": "Thu, 08 Oct 2026 10:23:01 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Vulnerabilities",
+    "cyber security"
+   ],
+   "description": "<p>wolfSSL has released wolfSSH 1.6.0 to fix five security flaws, including a critical host key verification bypass that could let an attacker impersonate an SSH server. Published on October 6, 2026, the update addresses Windows privilege escalation, unauthenticated key exchange abuse, unauthorized forwarding channels, and an SFTP memory corruption bug. The release rates one flaw [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wolfssh-1-6-0-fixes-5-security-flaws/\">wolfSSH 1.6.0 Fixes 5 Security Flaws Including Critical MITM Host Key Verification Bypass</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=166364",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/wolfSSH-1.6.0-Fixes-5-Security-Flaws-Including-Critical-MITM-Host-Key-Verification-Bypass.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "166364",
+     "content_encoded": "<p class=\"wp-block-paragraph\">wolfSSL has released wolfSSH 1.6.0 to fix five security flaws, including a critical <a href=\"https://cybersecuritynews.com/kubernetes-c-client-vulnerability-exposes/\" target=\"_blank\" rel=\"noreferrer noopener\">host key verification bypass</a> that could let an attacker impersonate an SSH server.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Published on October 6, 2026, the update addresses <a href=\"https://cybersecuritynews.com/hardbreacher-kaspersky-zero-day/\" target=\"_blank\" rel=\"noreferrer noopener\">Windows privilege escalation,</a> unauthenticated key exchange abuse, unauthorized forwarding channels, and an SFTP memory corruption bug.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The release rates one flaw critical, one high, and three medium. The most serious issue, CVE-2026-16516, affects wolfSSH through version 1.5.0.</p>\n\n\n\n<p class=\"wp-block-paragraph\">During <a href=\"https://cybersecuritynews.com/putty-0-84-released/\" target=\"_blank\" rel=\"noreferrer noopener\">SSH key exchange</a>, the client failed to check whether the ECDSA curve inside the server’s host key matched the algorithm agreed upon for the connection. An attacker positioned between the client and server could replace that key with one using a different curve.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Because the attacker owns the replacement key’s private key, signature verification could still succeed. However, exploitation also requires a weak public-key-checking callback in the application.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This condition matters: the flaw does not mean every affected client automatically accepts an attacker’s key. wolfSSL credits researcher zhangph, known on GitHub as afldl, with reporting the issue.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The high-severity issue, CVE-2026-83540, affects wolfSSHd on Windows from versions 1.4.15 through 1.5.0. Concurrent connections shared an authentication context <a href=\"https://cybersecuritynews.com/bluehammer-poc-for-windows-defender/\" target=\"_blank\" rel=\"noreferrer noopener\">containing a Windows logon token</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Both password and public key authentication wrote to this shared token, creating a risk that a user with a valid account could receive another user’s login identity, including one with higher privileges. Non-Windows builds are unaffected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CVE-2026-84897 concerns incorrect handling of Diffie-Hellman group exchange messages. A vulnerable server accepted messages intended only for a server, allowing an unauthenticated client to trigger client-side processing.</p>\n\n\n\n<p class=\"wp-block-paragraph\">After selecting diffie-hellman-group-exchange-sha256, an attacker could submit a chosen group and force costly checks of whether its numbers are prime.</p>\n\n\n\n<h2 id=\"h-wolfssh-1-6-0-fixes-5-security-flaws\" class=\"wp-block-heading\"><strong>wolfSSH 1.6.0 Fixes 5 Security Flaws</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The <a href=\"https://github.com/wolfSSL/wolfssh/releases/tag/v1.6.0-stable\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">release notes describe</a> roughly half a second of CPU work per 1 KB packet containing a 4096-bit prime. The message-handling flaw affects versions 1.2.0 through 1.5.0, while the expensive prime checks apply from 1.5.0. Builds using WOLFSSH_NO_DH_GEX_SHA256 are unaffected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CVE-2026-81535 affects versions 1.4.8 through 1.5.0 built with &#8211;enable-fwd. The software accepted forwarded-tcpip channel requests without checking the application’s forwarding policy.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Clients also accepted channels for remote forwards they had never requested. A peer could therefore cause an endpoint to allocate buffers for forwarding channels that the application had not approved.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The fifth flaw, CVE-2026-83742, affects non-Windows builds from versions 1.4.11 through 1.5.0. Incorrect length calculations in wolfSSH_RealPath() could let a crafted SFTP path write a terminating NUL byte just beyond a stack buffer.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An authenticated attacker could corrupt nearby data and crash the process. Applications supplying an output buffer smaller than the input face additional exposure to an unbounded copy.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators and developers should upgrade affected deployments to wolfSSH 1.6.0 and review the official release notes before rollout.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The update enables strict key exchange by default, adding <a href=\"https://cybersecuritynews.com/11m-ssh-servers-terrapin-attack/\" target=\"_blank\" rel=\"noreferrer noopener\">protection against the Terrapin attack</a> previously covered by Cyber Security News. It also requires RSA user authentication keys of at least 2048 bits and, by default, limits failed authentication attempts to six.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong>Stops threats before impact with 21 min faster MTTR. <a href=\"https://any.run/enterprise/?utm_source=csn&amp;utm_medium=article&amp;utm_campaign=links&amp;utm_content=enterprise&amp;utm_term=oct_26#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate ANYRUN’s Sandbox in your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/wolfssh-1-6-0-fixes-5-security-flaws/\">wolfSSH 1.6.0 Fixes 5 Security Flaws Including Critical MITM Host Key Verification Bypass</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:ed5b474078fccb1d111a6e6c5f8a6ed57dcb3a6acd536f7abc1841e6aad36345",
+   "url": "https://cybersecuritynews.com/royal-navy-service-member-charged",
+   "title": "Royal Navy Service Member Charged with Spying for a Foreign Country",
+   "published_at": "2026-10-08T10:11:52Z",
+   "published_raw": "Thu, 08 Oct 2026 10:11:52 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>A serving Royal Navy member has been charged with spying for an unnamed foreign country after an investigation by Counter Terrorism Policing London. Teddy Young, 24, from Bedfordshire, faces two offenses under the National Security Act 2023 involving protected information and preparations to disclose it. The allegations remain unproven. Police arrested Young at his home [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/royal-navy-service-member-charged/\">Royal Navy Service Member Charged with Spying for a Foreign Country</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=166367",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Royal-Navy-Service-Member-Charged.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "166367",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A serving Royal Navy member has been charged with spying for an unnamed foreign country after an investigation by Counter Terrorism Policing London. Teddy Young, 24, from Bedfordshire, faces two offenses under the National Security Act 2023 involving protected information and preparations to disclose it. The allegations remain unproven.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Police arrested Young at his home on Tuesday, October 6, and held him in custody ahead of a scheduled appearance at Westminster Magistrates’ Court on Thursday, October 8. According to the <a href=\"https://www.bbc.com/news/articles/cw203n6emde8o\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">BBC report</a>, the charges cover alleged conduct between November 26, 2024, and May 21, 2025.</p>\n\n\n\n<h2 id=\"h-royal-navy-service-member-charged\" class=\"wp-block-heading\"><strong>Royal Navy Service Member Charged</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The first charge alleges that Young engaged in conduct preparing to disclose protected information, contrary to Section 18 of the National Security Act. The second alleges that he obtained, copied, recorded or retained protected information, intending his conduct to benefit a foreign power, contrary to Section 1.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Police allege that the conduct involved a purpose Young knew, or should reasonably have known, was harmful to the United Kingdom’s safety or interests. Authorities have not publicly named the foreign country or described the information involved. The published reports do not establish that information was successfully transferred abroad.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Under <a href=\"https://www.legislation.gov.uk/ukpga/2023/32/section/1\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Section 1 of the National Security Act</a>, protected information includes information, documents or other material whose access is restricted, or reasonably expected to be restricted, to protect UK safety or interests. The definition is not limited to digital files, making the distinction important for cybersecurity readers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The <a href=\"https://apnews.com/article/britain-royal-navy-arrest-disclosure-sensitive-information-94b0aed63437ec6c46023a0fea649aba\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Associated Press reported</a> that Young was previously arrested on May 21, 2025, and released on bail while inquiries continued. His security clearance was suspended at that time, and he was removed from his duties. Those measures restricted his role while investigators examined the allegations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Commander Helen Flanagan, head of Counter Terrorism Policing London, said: “These are very serious charges against a serving member of the armed forces.” She said investigators worked closely with Ministry of Defence colleagues to reduce potential risks. The Royal Navy confirmed the case but declined further comment during ongoing proceedings.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Espionage investigations can involve trusted access rather than an outside network attack. However, the reporting does not identify malware, a hacked system or a digital transfer method in Young’s case. Cybersecurity News’ <a href=\"https://cybersecuritynews.com/gtig-analysis-highlights-escalating-espionage/\">coverage of defence-sector espionage and insider threats</a> provides related context, not evidence about these allegations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Police explicitly said Young’s charges are unrelated to the separate RAF Fairford investigation, where suspicious activity near the base led to seven arrests. Young’s court proceedings will determine how the allegations are tested.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup into&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/royal-navy-service-member-charged/\">Royal Navy Service Member Charged with Spying for a Foreign Country</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:f4fb31e3329b940d70911bbe8975ba43eac2673293cad3a6491921dfb61f1052",
    "url": "https://cybersecuritynews.com/hackers-use-github-hosted-poem",

@@ -1,15 +1,99 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-10-08T10:00:55Z",
+ "updated_at": "2026-10-08T11:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-08T10:00:55Z",
+  "last_success_at": "2026-10-08T11:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:dacfecad208764160fbc6478c2142b7184f84828ff900f3a94bd8578101e079a",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208805",
+   "title": "미 OT 보안연합, CISA에 연방기관 OT 보안 의무화 촉구",
+   "published_at": "2026-10-08T19:47:34Z",
+   "published_raw": "2026-10-08 19:47:34",
+   "categories": [
+    "이슈"
+   ],
+   "description": "미국 연방 민간 행정기관이 운영하는 운영기술(OT) 시스템에 의무적인 최소 보안기준을 도입해야 한다는 제안이 나왔다. 냉난방·전력·출입통제·급수 등 시설 운영을 담당하는 시스템의 보안 책임을 명확히 하고, 기관별 이행 여부를 점검할 수 있도록 해야 한다는 취지다.운영기술 사이버보안 연합(OTCC)은 10월 6일 백서를 발표하고 미국 사이버보안·인프라보안국(CISA)에 OT 전용 ‘구속력 있는 운영지침(BOD)’ 발행을 촉구했다. 현재는 전문가 단체의 제안 단계로, 새로운 OT 의무지침이 시행된 것은 아니다. 자산목록 제출기한 2년",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b1e43eb79b62fbe22e5578b76c0dd33f1fb3f41e67a3a8458bb019cc0988f5eb",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208804",
+   "title": "앤트로픽, 검증된 보안팀에 AI 접근 확대…“취약점 12만9천건 확인”",
+   "published_at": "2026-10-08T19:32:50Z",
+   "published_raw": "2026-10-08 19:32:50",
+   "categories": [
+    "이슈"
+   ],
+   "description": "앤트로픽이 검증된 보안 전문가와 기관을 대상으로 고성능 인공지능(AI)의 사이버보안 기능을 확대 제공한다. 허가받은 보안 업무에서 AI의 작업 차단을 줄여 취약점 분석과 모의해킹을 지원한다는 취지다.앤트로픽은 10월 6일 기존 사이버 검증 프로그램(CVP)과 ‘프로젝트 글래스윙’을 통합한 확대 프로그램을 발표했다. 이용자의 업무 범위와 보안 요건을 확인한 뒤 접근권한을 부여하는 방식이다. 각 단계에서는 클로드 오퍼스 5.5, 소넷 5.5, 미토스 5.1 등을 제공한다.접근권한은 세 단계로 나뉜다. ‘방어용’은 사고 대응, 악성코드",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e61e2f9131e5241fc99fd7b2d890e5be890c0bb0e959cbfa7611a04f4de690e3",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208803",
+   "title": "9월 패치했어도 다시 업데이트…소닉월 SMA1000 심각한 취약점 4건 수정",
+   "published_at": "2026-10-08T19:20:45Z",
+   "published_raw": "2026-10-08 19:20:45",
+   "categories": [
+    "이슈"
+   ],
+   "description": "소닉월이 기업용 원격접속 장비 ‘SMA1000’에서 발견된 보안 취약점 4건을 수정하는 긴급 패치를 배포했다. 가장 심각한 취약점은 로그인하지 않은 공격자가 장비를 통해 내부 기능에 접근하고 승인되지 않은 작업을 수행할 수 있는 문제다. 소닉월은 현재까지 이번 취약점들이 실제 공격에 악용됐다는 증거는 확인하지 못했다고 밝혔다.핵심 취약점인 ‘CVE-2026-102255’는 사용자 접속 포털인 ‘워크플레이스(WorkPlace)’에서 발견된 서버 측 요청 위조(SSRF) 문제다. 공격자는 의도하지 않은 접근 경로를 악용해 장비가 자신을",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:2772e4b62a6e4de660d867b9c22ed220050c69e3ca12f3e8ee5d29eb89b6557e",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=208802",
+   "title": "코로나19 연구·이메일 노린 해킹…美, 중국 해커 소재 추적, 현상금 1천만 달러",
+   "published_at": "2026-10-08T19:03:14Z",
+   "published_raw": "2026-10-08 19:03:14",
+   "categories": [
+    "이슈"
+   ],
+   "description": "미국 국무부가 2021년 마이크로소프트 익스체인지 서버 대규모 해킹 사건인 ‘HAFNIUM(하프늄)’에 가담한 혐의로 기소된 중국인 장위(Zhang Yu)의 신원이나 소재를 확인할 수 있는 정보에 최대 1,000만 달러의 현상금을 제시했다.국무부의 국가안보 관련 현상금 프로그램 ‘정의에 대한 보상(Rewards for Justice)’은 장위를 대상으로 제보를 받고 있다. 장위는 미국 대학의 코로나19 연구정보 탈취와 익스체인지 서버 침해에 관여한 혐의를 받고 있으며, 아직 체포되지 않았다.이번 공고는 외국 정부의 지시나 통제 아래",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:a3d775e447cf87138dd61a71218eebe0ebe09f4889da7eab0cf71a92099204bc",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=208799",
