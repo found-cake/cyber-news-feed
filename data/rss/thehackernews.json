@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-09T12:01:13Z",
+ "updated_at": "2026-10-09T13:00:55Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-09T12:01:13Z",
+  "last_success_at": "2026-10-09T13:00:55Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -31,6 +31,114 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnlTrJzuyuM3FgdyTkx-JLieOXeR9fK_hENZFrdItZ09E4ZFhk8UYOPslpbGGidTUGCDgcTHqY7wvYrThg-Hwl24MQhL63GIfmRsBLy9MJ7iDXn1XbbX1W_EgGFw9eRyT4LOJq0aoyWhmOHF3O5a9L5LcKNS1IJxQqs_UBwmOnPRmx3fXwUPpKeYdARVE/s260-e100/anyrun.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b8e2f39fd1297ab6dbeb3bac5fdd0aa67885420082e4d6ed8c7ce7e1347fa9bc",
+   "url": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
+   "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
+   "published_at": "2026-10-09T12:59:22Z",
+   "published_raw": "2026-10-09T18:29:22.769+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Security researchers have&nbsp;published a full working exploit&nbsp;for a pre-authentication remote code execution flaw in AnyDesk Linux that gives attackers root access before anyone approves the connection.\n\nAnyDesk patched the flaw in version 8.0.3 in June, but its&nbsp;changelog&nbsp;described the fix only as \"fixed a bug that could lead to a crash,\" with no CVE assigned and no security",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7291278751000271523",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnUnGcAOHQNX9naCpXjsvEAI4YXmS_pbFwgn9i_YTjR8esP-PpNXc0s-jOWo3r_M4S-an0mnZA4PwDjt3lOihJqWP60TMj3F37iIno8hynwj5xXex2Voy3Khj3QraiYO7oyeEgNtZtjB5q-FYXg9E0hNk93q7mTKdhBdPNGr0p1I35R0wxuY0IOmAlG_E/s260-e100/anyrun.gif",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6df49761e69e4df829e7a2a170a85ff037fae5eb237d8351f6acebf8e004448f",
+   "url": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
+   "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+   "published_at": "2026-10-09T12:47:28Z",
+   "published_raw": "2026-10-09T18:17:28.873+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI).\n\n\"It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing,\" Anthropic said. \"Projects that join will receive thorough, periodic security scans by our strongest models at no cost.\"",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-790771354561932728",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiio2imi6QlJLQlD8KAZaktPeycFFCAWdkRp7q1TNwNHKUibXYACipc5GG2rDcZtmUR8TftkRHNTrdEXLXsGxcGoTDrTY5Eye77n1OFyeFbHP-VGUTwlhIoaHNoMGVIsUWBk07kSc-Gi3y_U0OuS-6gWBjYJEj8pxJVQ9lkEJfI_we3rVvZtAMXp0i8qs7t/s260-e100/oss-scanner.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d33e86be6de0bd5dd04ebc92d4b37c3ebcb9fae0cfa1118ce15ddad9eedf01e8",
+   "url": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+   "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
+   "published_at": "2026-10-09T12:47:26Z",
+   "published_raw": "2026-10-09T18:17:26.320+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Threat actors have been observed exploiting two recently disclosed flaws in the AhsayCBS backup utility to seize control of affected devices and deploy web shells and XMRig cryptocurrency miners.\n\nDetails of the flaws are below -\n\n\n  CVE-2026-105133 (CVSS v4 score: 5.5) - An improper authentication vulnerability in the checkSysPwd() function in the \"com/ahsay/obs/api/ApiStructsAction.java\"",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2723423138001943864",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMpbMY9pFBnt6TekKFIlEqpeqQoPBjBuhu8rYuYtU7ce5P3LTFKwlv_F_BUDzfuuMu0gRU645YStocoUQnNtS11MoEIRrfxrgPZtShsFgr8YH1VYTtjPr2l6aHPFDBYPHJKLT-fa-KqaHGSJHeiDPKzUgA12IJH5zhAHpMnoGZc5Qsz9sJhCOB_3gYHQar/s260-e100/edge.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d96e6fa992364d217b8d1acf524131bc8f3587c99146bdf5db2b8ec2e9352a70",
+   "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
+   "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+   "published_at": "2026-10-09T12:21:51Z",
+   "published_raw": "2026-10-09T17:51:51.183+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added five security flaws to its Known Exploited Vulnerabilities (KEV) catalog, following their abuse by a China-linked threat actor known as Flax Typhoon.\n\nThe vulnerabilities in question are listed below -\n\n\n  CVE-2015-3306 (CVSS score: 10.0) - An improper access control vulnerability in ProFTPD that could allow",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5269703500450785688",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7eHv-Bv5ZZISuomW-aV50jkJ7Aqg-S56iEuV2y8Kl9w7SB4cp-zTDj8WicvMzPcw5tXuq-o5rIG0KPPmKxPZPcR5V47hVwbGvi7aLNE_1wgq_iDkNERTzz5kc9ivagiHEKM9BcsYjJRRB0_HWk_gsi9jzHudV_-4Ax4dUFaV5vpDlUnW2PywmEZHzN8mm/s260-e100/kevs.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -611,7 +719,7 @@
    "published_at": "2026-10-05T08:09:23Z",
    "published_raw": "2026-10-05T13:39:23.393+05:30",
    "categories": [
-    "vulnerability"
+    "cyber-attack"
    ],
    "description": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck.\n\nThe vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use of a weak pseudo-random number generator (PRNG) that can lead to a predictable key, which an attacker can then use to gain unauthorized access and",
    "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6894648985018104663",
