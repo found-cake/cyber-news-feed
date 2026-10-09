@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-09T03:00:53Z",
+ "updated_at": "2026-10-09T04:01:04Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-09T03:00:53Z",
+  "last_success_at": "2026-10-09T04:01:04Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:97b303baa5534959e42717cadec6eddf57ec2f60515ae099dc419b8e532d1f0e",
+   "url": "https://cybersecuritynews.com/anthropic-cyber-mission",
+   "title": "Anthropic Cyber Mission to Support Defenders with Tools, Research, and Resources",
+   "published_at": "2026-10-09T03:11:19Z",
+   "published_raw": "Fri, 09 Oct 2026 03:11:19 +0000",
+   "categories": [
+    "Cyber AI",
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Anthropic launched its Anthropic Cyber Mission on October 8, 2026, to help security teams protect critical infrastructure and open-source software. The effort combines advanced Claude models, engineers, threat research, and funding, with an emphasis on fixing weaknesses rather than simply producing more vulnerability reports. The launch introduces the Critical Infrastructure Defense Program and OSS Scanner, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-cyber-mission/\">Anthropic Cyber Mission to Support Defenders with Tools, Research, and Resources</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=166538",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Anthropic-Cyber-Mission.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "166538",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Anthropic launched its <a href=\"https://www.anthropic.com/news/anthropic-cyber-mission\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Anthropic Cyber Mission</a> on October 8, 2026, to help security teams protect critical infrastructure and open-source software. The effort combines advanced Claude models, engineers, threat research, and funding, with an emphasis on fixing weaknesses rather than simply producing more vulnerability reports.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The launch introduces the Critical Infrastructure Defense Program and OSS Scanner, a free service for participating open-source projects. Anthropic says the mission builds on Project Glasswing, where faster bug discovery exposed a difficult problem. Checking findings, setting priorities, and applying patches still require time and skilled people.</p>\n\n\n\n<h2 id=\"h-protecting-critical-infrastructure\" class=\"wp-block-heading\"><strong>Protecting Critical Infrastructure</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The Critical Infrastructure Defense Program brings Claude models, on-site engineers, and threat research to trusted providers serving power grids, water utilities, factories, transport networks, and government systems. Its 11 founding partners include Accenture, Booz Allen, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC, and Rockwell Automation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">These organizations support operational technology, or OT, which includes industrial controllers, control software, and networks that operate physical equipment. Many systems run for decades and cannot stop for routine updates. A poorly tested change could interrupt production or essential services, making patch deployment harder than in typical business networks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Anthropic says several partners already use Claude to fix vulnerabilities and help customers address them. The initial group will test which approaches work safely in live environments. The company acknowledges that AI cannot solve every infrastructure security problem, especially when equipment, maintenance schedules, and operational safety limit available fixes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company says its government defense program has offered Claude models and technical support to more than half of US states since June, supporting code scanning, patching, incident response, and other public sector security work.</p>\n\n\n\n<h2 id=\"h-free-open-source-vulnerability-scanning\" class=\"wp-block-heading\"><strong>Free Open-Source Vulnerability Scanning</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">OSS Scanner</a> offers regular security scans using Anthropic’s strongest models. Maintainers must opt in, and reports include an explanation, a proof of concept showing how a flaw can be exploited, and a proposed patch when available. Unlike Anthropic’s existing disclosure process, these reports arrive without human review.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That tradeoff speeds delivery but leaves maintainers responsible for checking accuracy and impact. Anthropic expects a true-positive rate above 90%, although severity ratings can be wrong. Projects without enough capacity to review raw findings will continue receiving human-verified reports through its coordinated vulnerability disclosure process.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The research behind OSS Scanner shows why this change matters. Anthropic reports more than 29,000 candidate vulnerabilities from six months of scanning, but only about 6,000 received manual review and triage. Those candidate findings should not be treated as confirmed flaws or completed fixes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Earlier Cybersecuritynews coverage of <a href=\"https://cybersecuritynews.com/anthropic-expands-project-glasswing/\" target=\"_blank\" rel=\"noreferrer noopener\">Anthropic’s expanded Project Glasswing</a> described efforts to move beyond detection into patching and other defensive tasks. The new mission extends that direction by pairing model access with engineering support and resources for maintainers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Project Glasswing has also been merged into the expanded Cyber Verification Program. Cybersecuritynews previously covered its <a href=\"https://cybersecuritynews.com/anthropic-cyber-verification-program/\" target=\"_blank\" rel=\"noreferrer noopener\">three access tiers</a>, which separate defensive work, authorized penetration testing, and restricted testing of safety-critical systems. Applicants face verification requirements and security controls based on their work.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Defender Advantage Fund supports pilot projects and keeps OSS Scanner free. Anthropic plans to expand infrastructure partnerships, improve automated triage and patching, and research safer software designs. Its stated goal is practical protection, measured by fewer exploitable weaknesses, reliable essential services, and faster recovery when attacks succeed.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup into&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-cyber-mission/\">Anthropic Cyber Mission to Support Defenders with Tools, Research, and Resources</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:82fd25e9aa18aea32a0dd83c521e1e56143c8708cc8e15ed1c1e3e8fe55bb9ec",
    "url": "https://cybersecuritynews.com/fbi-seized-chinese-hacking-tools",
