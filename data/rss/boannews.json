@@ -1,15 +1,59 @@
 {
  "schema_version": 1,
  "source": "boannews",
- "updated_at": "2026-10-09T09:01:07Z",
+ "updated_at": "2026-10-09T10:01:02Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-09T09:01:07Z",
+  "last_success_at": "2026-10-09T10:01:02Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:4ecbcc6f1faf800134ed1fc60a4920b67104690579bd24c39ac48a15f1bdc16b",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=146291",
+   "title": "‘골프 예약 앱’까지 줄줄이... 골프몬 이어 카카오 VX, 개인정보 3만 4천명 털렸다",
+   "published_at": "2026-10-09T18:54:32Z",
+   "published_raw": "2026-10-09 18:54:32",
+   "categories": [
+    "사건·사고",
+    "긴급경보"
+   ],
+   "description": "금융권, 교회 등에 이어 이번엔 골프 예약 앱의 고객정보가 유출됐다. 우리나라를 타깃으로 한 전 방위 해킹 공습이 진행 중이다.카카오 VX가 운영하는 카카오골프예약에서 고객 개인정보 3만 4천여명이 유출됐다고 밝혔다. 지난 7일 외부의 비인가자가 비정상적인 방법을 통해 서비스에서 고객 정보를 유출한 사실을 확인했다는 게 카카오 VX 측의 설명이다.유출 대상은 지난해 1월부터 올해 10월까지 카카오골프예약에서 국내 투어 상품을 예약한 고객으로 드러났다. 유출 항목에는 이름과 전화번호는 물론 상품명, 라운드 일자, 숙박 정보, 결제 금",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "원병철 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:7d6ea367d18d47be2c2a8f6693d0da28fa7edff0c705f03cd45f8bbfb8c8a526",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=146286",
+   "title": "[2026 영상향 SoC·NPU 제품&솔루션 리포트] 더 치열해진 영상보안의 두뇌 싸움",
+   "published_at": "2026-10-09T18:50:25Z",
+   "published_raw": "2026-10-09 18:50:25",
+   "categories": [
+    "비즈니스",
+    "보안 리포트"
+   ],
+   "description": "최근 영상보안 업계의 경쟁 축이 단순 CCTV 하드웨어에서 ‘실시간 AI 분석’, ‘엣지 AI’, ‘생성형 AI 영상 검색’, ‘프라이버시 보호’ 등으로 빠르게 이동하고 있다. 단순 영상 촬영을 넘어, 카메라 기판 위의 작은 칩셋 하나가 초당 수조~수십조 회(TOPS)의 연산을 수행하며 사람과 차량, 이상행동을 즉각 판별하는 ‘온디바이스 엣지 AI’ 시대로 진입했기 때문이다. 이에 따라 카메라와 NVR의 두뇌 역할을 하는 영상향 SoC(System on Chip)와 NPU(Neural Processing Unit)가 업계의 핵심 승",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "엄호식 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:ac1717248702f50e4904786e4566b7e500281043b1e1d521544e1464f42656eb",
    "url": "https://www.boannews.com/news/articleView.html?idxno=146290",
@@ -3819,49 +3863,6 @@
    "authors": [
     {
      "name": "강초희 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:838d9f308974bb9967dceaf4011626590433d6aff740755977fea9a8a87c2216",
-   "url": "https://www.boannews.com/news/articleView.html?idxno=146069",
-   "title": "아우토크립트, 미디어텍 칩셋 취약점 발견... CVE 2건 식별",
-   "published_at": "2026-09-29T10:00:15Z",
-   "published_raw": "2026-09-29 10:00:15",
-   "categories": [
-    "비즈니스"
-   ],
-   "description": "아우토크립트가 글로벌 반도체 기업 미디어텍(MediaTek) 칩셋과 오픈소스 임베디드 커널에서 취약점을 발견했다. 국제표준 취약점 식별 체계인 CVE에 등록하고 공식 패치 반영을 이끌어냈다고 29일 밝혔다.아우토크립트 내 모의해킹 전담 조직 레드팀은 올해 상반기 미디어텍 시스템온칩(SoC)과 그 부트 환경에서 구동되는 오픈소스 임베디드 커널 ‘리틀 커널’(Little Kernel, LK)을 대상으로 보안 연구를 진행하고, 이 과정에서 발견된 취약점을 제보했다.취약점을 제보받은 미디어텍은 이를 CVE-2026-20466으로 공식 등록",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "조재호 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:8aba87fe3542fef8445fb016ed960cee6aa7e1a90dc9188a7818b9c02696951d",
-   "url": "https://www.boannews.com/news/articleView.html?idxno=146068",
-   "title": "미토스로 취약점 찾는다... 팔로알토 유닛42, ‘지속형 프런티어 디펜스’ 공개",
-   "published_at": "2026-09-29T09:52:40Z",
-   "published_raw": "2026-09-29 09:52:40",
-   "categories": [
-    "비즈니스",
-    "보도자료"
-   ],
-   "description": "팔로알토 네트웍스 산하 위협 연구 조직 유닛42(Unit 42)가 앤트로픽과 오픈AI의 고성능 모델을 활용해 기업의 사이버 보안 노출을 선제적으로 찾아내는 ‘지속형 프런티어 AI 디펜스’ 서비스를 출시했다고 29일 밝혔다.이 서비스는 앤트로픽의 ‘클로드 미토스 5’(Claude Mythos 5)와 오픈AI의 ‘GPT-5.6-사이버(Cyber)’ 등 접근이 제한된 고성능 프론티어 AI 모델을 활용해 보안 위협을 탐지하고 실제 악용 가능성을 검증하는 ‘에이전틱 공격 보안’(Agentic Offensive Security) 서비스다. 자",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "조재호 기자",
      "uri": "",
      "email": ""
     }
