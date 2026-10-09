@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-09T20:01:06Z",
+ "updated_at": "2026-10-09T21:00:58Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-09T20:01:06Z",
+  "last_success_at": "2026-10-09T21:00:58Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c82eac134cb7c0f5d597b5df8cd175a88cb42d4510df6734ae0afc2fca447905",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks",
+   "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+   "published_at": "2026-10-09T20:31:37Z",
+   "published_raw": "Fri, 09 Oct 2026 16:31:37 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:6357cd14602a52ca9762e16100a4a3465b29db658ca32242bde61e3fd0eda9c1",
    "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto",
@@ -1600,48 +1621,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:af99e8f3c52bcb81e153fd30b9396b577c917bed56e06fb62d94f184e1f6253c",
-   "url": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware",
-   "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
-   "published_at": "2026-09-29T20:59:39Z",
-   "published_raw": "Tue, 29 Sep 2026 16:59:39 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:2cca483a9d5d3a049df5397b9665712ebf6aaa077c40ff3de78f837f30e8b3c9",
-   "url": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest",
-   "title": "FBI tells ShinyHunters members to turn themselves in after recent arrest",
-   "published_at": "2026-09-29T20:09:55Z",
-   "published_raw": "Tue, 29 Sep 2026 16:09:55 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described as one of the group's alleged leaders. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
-   "authors": [
-    {
-     "name": "Lawrence Abrams",
      "uri": "",
      "email": ""
     }
