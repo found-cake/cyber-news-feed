@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-09T06:00:52Z",
+ "updated_at": "2026-10-09T07:00:50Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-09T06:00:52Z",
+  "last_success_at": "2026-10-09T07:00:50Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -1165,33 +1165,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWsGNpV8Y5_YLcyxRYju8E3caiN3I3Zttrlvxhz5iXfzVIR_Ayp_d_Zn2Wk12ZBkz5nW4eYfKeEs-xxs9kYuS_paAwO3wJleeUxdMRbrbU_lXwWVuG7ajiFH0UOEcoj3almps5b54DXt-mGy73GhXjCQzGsNNDJkhdfJXRI9XWeFF5hfsr4zjQty-Wued5/s260-e100/1000111943.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:c401e28ae2c1d6950f779a0ad449852ec3bcb85c571649f6888a281cb24d57e3",
-   "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
-   "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
-   "published_at": "2026-09-29T06:08:25Z",
-   "published_raw": "2026-09-29T11:38:25.319+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory.\n\nAffected versions sent the client secret, the authorization code, and the PKCE proof key to a token endpoint the attacker controlled. The fix is in versions 1.30.0 and",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2742034382938112077",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2N5owhsoQXHTQV74afwfngdyitjwcW37BHLX2QKkq6xZAxP8_AOXAh1ODPj5DyvvmMUq3mKH9eR2B1r7owc6djzLViK2U4BY_hw3rTWmaHjhFEyyh8LPlUMPZ7MdWkqN7bjtQyMByBLrsI5m0mAU9y-IbrsAe9OPhZXHN63AWwuv_1OB5MSrpRdVZ9CM/s260-e100/mcp-python.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
