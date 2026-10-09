@@ -1,15 +1,59 @@
 {
  "schema_version": 1,
  "source": "boannews",
- "updated_at": "2026-10-09T01:00:53Z",
+ "updated_at": "2026-10-09T02:01:03Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-09T01:00:53Z",
+  "last_success_at": "2026-10-09T02:01:03Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:5037d58f70a21b81b55a84269b61c386f31d40615ff9f9ce6af460cb105f7cde",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=146252",
+   "title": "패치 하루 만에 공격 시작... 아틀라시안 지라·컨플루언스 취약점, 허니팟서 악용 시도 포착",
+   "published_at": "2026-10-09T10:13:02Z",
+   "published_raw": "2026-10-09 10:13:02",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "아틀라시안 데이터센터 제품의 치명적 파일 열람 취약점(CVE-2026-21589)을 노린 공격 시도가 시작됐다. 아틀라시안이 패치를 내놓은 지 하루쯤, 기술 분석이 공개된 지 몇 시간 만이다.위협 인텔리전스 기업 프레비디안(Previdian)은 6일(현지시각) 늦게 올린 글에서 자사 허니팟 망에 악용 시도가 들어왔다고 밝히고, 공격에 쓰인 IP 목록을 X에 공유했다. 허니팟은 공격자를 끌어들이려고 일부러 열어 둔 미끼 시스템이다.이 결함은 비트버킷과 컨플루언스, 지라 서비스 매니지먼트, 지라 소프트웨어, 뱀부, 크라우드 데이터센터",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "정지원 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:fc167ad835791449a1c6bae81eff9408c9909c30cd8bbdae5133d4992aeeab2e",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=146282",
+   "title": "[카드뉴스] 스크립트 해킹 끝났다… AI API로 실시간 방어망 우회하는 자율 침투의 실체",
+   "published_at": "2026-10-09T09:00:00Z",
+   "published_raw": "2026-10-09 09:00:00",
+   "categories": [
+    "사건·사고",
+    "카드뉴스"
+   ],
+   "description": "사내망에 잠입해 상용 LLM의 연산 능력을 활용하여 보안망을 실시간으로 우회하는 자율형 악성코드 'ClosedQuorum'이 등장했다. 공격 코드는 고정된 스크립트 대신 AI의 실시간 추론 명령을 수신하며 기존 탐지 체계를 무력화하고 내부 인프라에 침투한다. 생각하는 악성코드의 자율 침투를 차단하기 위해 엔드포인트 단에서의 비인가 AI API 통신 차단과 강력한 아웃바운드 트래픽 통제가 요구된다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "지진솔 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:27115b497de17f101bcfe0e7998613e841be84f11798464b38b2f90e400b0d14",
    "url": "https://www.boannews.com/news/articleView.html?idxno=146287",
