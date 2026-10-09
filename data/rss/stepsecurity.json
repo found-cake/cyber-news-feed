@@ -1,15 +1,39 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-10-09T14:00:59Z",
+ "updated_at": "2026-10-09T15:01:15Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-09T14:00:59Z",
+  "last_success_at": "2026-10-09T15:01:15Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:a8859ed82930593afbd2ed851b0f326a8c5cd6c783bdeb43eb27a26a63415607",
+   "url": "https://www.stepsecurity.io/blog/ghostaction-returns",
+   "title": "GhostAction Returns: Malicious “Security Audit” Workflows Now Mine Credentials from Entire Git Histories",
+   "published_at": "2026-10-09T14:53:44Z",
+   "published_raw": "Fri, 09 Oct 2026 14:53:44 GMT",
+   "categories": [],
+   "description": "GhostAction returns: compromised maintainers push a fake security-audit.yml workflow that steals CI/CD secrets and cloud credentials from GitHub repos.",
+   "feed_id": "https://www.stepsecurity.io/blog/ghostaction-returns",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ac8f7d05667c61d543e4d40_SCR-20261009-qmrf.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ac8f7d05667c61d543e4d40_SCR-20261009-qmrf.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:35c19d61ae9a0705285362d13459ae50eba81d41bd58b841878015ee53e67b7b",
    "url": "https://www.stepsecurity.io/blog/stepsecurity-now-inventories-ai-agent-skills-in-your-github-repositories-and-on-developer-machines",
