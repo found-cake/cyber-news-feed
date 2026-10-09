@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-09T17:01:03Z",
+ "updated_at": "2026-10-09T18:01:01Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-09T17:01:03Z",
+  "last_success_at": "2026-10-09T18:01:01Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:6357cd14602a52ca9762e16100a4a3465b29db658ca32242bde61e3fd0eda9c1",
+   "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto",
+   "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
+   "published_at": "2026-10-09T17:17:23Z",
+   "published_raw": "Fri, 09 Oct 2026 13:17:23 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Threat actors are exploiting one critical and one medium-severity vulnerability still unpatched in the AhsayCBS backup management platform to deploy webshells and cryptocurrency miners. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:3e90d8365a09fc43e31d00bf1476cb92d8cd9ef25f161ce4719d137f6e8f606c",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach",
+   "title": "FBI arrests another suspected ShinyHunters hacker after agency breach",
+   "published_at": "2026-10-09T17:02:29Z",
+   "published_raw": "Fri, 09 Oct 2026 13:02:29 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The FBI has arrested another suspected member of the ShinyHunters extortion group believed to be involved in the recent breach of FBI systems, Director Kash Patel announced Friday. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:dda72c84a1ac87a08eae0eaa14f2276e6ee2625fc19f09a8663895e97815df7f",
    "url": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition",
@@ -1642,29 +1684,6 @@
    "authors": [
     {
      "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:72c2e7fac658149130d27ec5be1212e49beaacf956c6dbea23a7a803e6ee67e2",
-   "url": "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes",
-   "title": "New Spectre v2 attack variant leaks Linux root password hash in minutes",
-   "published_at": "2026-09-29T17:10:11Z",
-   "published_raw": "Tue, 29 Sep 2026 13:10:11 -0400",
-   "categories": [
-    "security",
-    "Hardware",
-    "Linux"
-   ],
-   "description": "A new Branch Target Reuse (BTR) attack has been devised that can recover root password hashes on Intel computers running Linux in 3-5 minutes on average. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }

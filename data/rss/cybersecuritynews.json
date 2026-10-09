@@ -1,15 +1,48 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-09T17:01:03Z",
+ "updated_at": "2026-10-09T18:01:01Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-09T17:01:03Z",
+  "last_success_at": "2026-10-09T18:01:01Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:509051bad08c466b929d785a3db7af42bfdcc47ad866880400333a2b4ce6789f",
+   "url": "https://cybersecuritynews.com/anydesk-linux-vulnerability",
+   "title": "AnyDesk Linux Flaw Lets Remote Attackers Execute Code as Root Without Authentication",
+   "published_at": "2026-10-09T17:15:43Z",
+   "published_raw": "Fri, 09 Oct 2026 17:15:43 +0000",
+   "categories": [
+    "Cyber Security News"
+   ],
+   "description": "<p>A working proof-of-concept for a serious AnyDesk Linux vulnerability that can let remote attackers run commands as root without authentication or user approval. The issue, named AnyPwn, affects AnyDesk Linux 8.0.2 and was fixed in version 8.0.3. Organizations using AnyDesk for Linux should update immediately and check whether TCP port 7070 is exposed to untrusted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anydesk-linux-vulnerability/\">AnyDesk Linux Flaw Lets Remote Attackers Execute Code as Root Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=166713",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/AnyDesk-Linux-Flaw.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "166713",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A working proof-of-concept for a serious <a href=\"https://cybersecuritynews.com/anydesk-0-day-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">AnyDesk Linux vulnerability</a> that can let remote attackers run commands as root without authentication or user approval.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The issue, named AnyPwn, affects AnyDesk Linux 8.0.2 and was fixed in version 8.0.3. Organizations using AnyDesk for Linux should update immediately and check whether TCP port 7070 is exposed to untrusted networks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw was discovered by Rick de Jager of the V12 security team using V12, an AI-powered security review platform. V12 first disclosed the issue publicly in June and described it as a pre-authentication, zero-click remote code execution flaw caused by a heap buffer overflow.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-x wp-block-embed-x\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"embed-x\"><blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">AnyPwn: AnyDesk preauth 0click RCE (heap buffer overflow)<br><br>we will release PoC post disclosure and patch <a href=\"https://t.co/q45ijH4T3L\">pic.twitter.com/q45ijH4T3L</a></p>&mdash; V12 (@v12sec) <a href=\"https://x.com/v12sec/status/2069178874118668364?ref_src=twsrc%5Etfw\">June 22, 2026</a></blockquote><script async src=\"https://platform.x.com/widgets.js\" charset=\"utf-8\"></script></div>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">AnyDesk acknowledged the report the following day and released the 8.0.3 update in June. The public exploit code was later released on October 8, bringing fresh attention to systems that may still run the older Linux build.</p>\n\n\n\n<h2 id=\"h-anydesk-linux-flaw\" class=\"wp-block-heading\"><strong>AnyDesk Linux Flaw</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">According to technical documentation <a href=\"https://github.com/v12-security/pocs/tree/main/anydesk\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">published by V12 Security</a>, the issue exists in AnyDesk’s session protocol, which handles data exchanged while a remote client connects to the service. </p>\n\n\n\n<p class=\"wp-block-paragraph\">In the affected version, the mode-5 stream packet handler accepts a remote payload length before safely validating it. The software then adds a 16-byte object header to that value using 32-bit arithmetic. </p>\n\n\n\n<p class=\"wp-block-paragraph\">A specially formed length can cause that calculation to wrap around, leading the application to reserve a very small memory area while still treating it as a much larger object.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That mismatch creates an out-of-bounds write condition. Put simply, the attacker can send a small network packet that tells AnyDesk to expect a huge amount of data. The vulnerable service then writes attacker-controlled data beyond the small allocated memory area. </p>\n\n\n\n<p class=\"wp-block-paragraph\">This can corrupt nearby objects in memory and, under the right conditions, redirect program execution. The researchers showed that the issue could be used to execute an arbitrary command through the AnyDesk service.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The security impact is severe because the AnyDesk service normally runs with root privileges on Linux. Root is the highest privilege level on the operating system, allowing control over files, processes, user accounts, and security settings. </p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker who successfully triggers the flaw could gain a strong foothold on the affected host before a victim accepts a desktop-sharing request. </p>\n\n\n\n<p class=\"wp-block-paragraph\">That makes this issue very different from many remote-support risks that require stolen credentials, user approval, or unattended-access passwords.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The released exploit targets AnyDesk Linux 8.0.2 running in service mode on x86_64 systems. It uses a direct connection to TCP port 7070 and depends on a specific memory layout, meaning exploitation is not guaranteed every time. </p>\n\n\n\n<p class=\"wp-block-paragraph\">When the memory layout is unsuitable, the service may crash instead of running the attacker’s command. The published exploit also relies on offsets for the exact vulnerable build, so it should not be treated as proof that every AnyDesk Linux version can be exploited in the same way.</p>\n\n\n\n<p class=\"wp-block-paragraph\">There is an important point about network exposure. AnyDesk initially said the issue was limited to direct Linux connections and did not affect Windows or macOS. The V12 researchers said they also reached the vulnerable code path through AnyDesk relay connections using a Frida-based test. </p>\n\n\n\n<p class=\"wp-block-paragraph\">However, they did not demonstrate the full root-code-execution chain through relays. As a result, direct exposure of TCP/7070 is the confirmed risk, while full relay-based exploitation remains unresolved.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should first identify Linux machines running AnyDesk 8.0.2 or older builds and upgrade them to version 8.0.3 or later. Where patching cannot happen at once, teams should restrict inbound access to TCP/7070 at firewalls, VPN gateways, and cloud security groups. </p>\n\n\n\n<p class=\"wp-block-paragraph\">They should also review AnyDesk service logs, unexpected root-level processes, and outbound connections from systems that exposed the port. AnyDesk’s Linux changelog records the vendor’s fixes, although the entry described this issue only as a bug that could lead to a crash rather than a security vulnerability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The disclosure also adds to the security history of remote-access software, which is often installed on high-value servers and widely trusted by IT teams. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Cyber Security News previously reported on a separate <a href=\"https://cybersecuritynews.com/poc-exploit-released-for-anydesk-vulnerability-exploited/\" target=\"_blank\" rel=\"noopener\">AnyDesk flaw with a public proof-of-concept</a> affecting Windows, while recent incident reporting has shown how legitimate remote-management tools such as AnyDesk can be used after compromise for continued access.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Cut every SOC alert investigation by 21 min. Power your SOC with instant IOC context for immediate response:</strong></strong> <strong><a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=100+links&amp;utm_campaign=1623sep&amp;utm_content=ti+lookup&amp;utm_term=161026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate TI&nbsp;Lookup into&nbsp;your SOC</a></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/anydesk-linux-vulnerability/\">AnyDesk Linux Flaw Lets Remote Attackers Execute Code as Root Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:c553df6e8c14d65a6d799634d1056e4fa96327b534a8b8b813cc01d8376b5ca8",
    "url": "https://cybersecuritynews.com/ghostaction-github-repo-attack",
