@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-10T06:00:54Z",
+ "updated_at": "2026-10-10T07:00:59Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-10T06:00:54Z",
+  "last_success_at": "2026-10-10T07:00:59Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:4e445b9b86a95c554a59927ffc6bb815ba719385ae7ee03eb5998fbfa39dc231",
+   "url": "https://cybersecuritynews.com/agentcorruption-attack",
+   "title": "One Prompt Could Hijack AWS AI Agents and Steal Cloud Credentials",
+   "published_at": "2026-10-10T06:58:38Z",
+   "published_raw": "Sat, 10 Oct 2026 06:58:38 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News",
+    "vulnerability"
+   ],
+   "description": "<p>A single prompt sent to a public-facing AI agent could have exposed every Amazon Bedrock AgentCore agent in the same AWS account and region, according to new research from Zenity Labs. The attack chain, named AgentCorruption, gave the researchers access to private chats, source code, long-term memories, API keys, OAuth tokens, and secrets held in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/agentcorruption-attack/\">One Prompt Could Hijack AWS AI Agents and Steal Cloud Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=166725",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/AWS-AgentCorruption1.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "166725",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A single prompt sent to a public-facing AI agent could have exposed every Amazon Bedrock AgentCore agent in the same AWS account and region, according to new research from Zenity Labs.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The attack chain, named AgentCorruption, gave the researchers access to private chats, source code, long-term memories, API keys, OAuth tokens, and secrets held in AWS Secrets Manager.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://aws.amazon.com/bedrock/agentcore/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Amazon Bedrock AgentCore</a> is a managed service for building and running AI agents. Zenity found that an agent with a tool able to make web requests could be told to contact the local metadata endpoint at <code>169.254.169.254</code>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This service provides temporary AWS credentials to cloud workloads. Because the request came from inside the agent&#8217;s Firecracker microVM, the metadata service returned credentials linked to its execution role.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This created a server-side request forgery path driven by prompt injection. The exposed agent did not need a software bug in its chat page. It only needed to follow the user&#8217;s request and use an allowed web or shell tool.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw7HlMId-57Jji4V4pIETQ4BPDAzQZMTepa_3HLt07Q4yZaiTWdMCtnAQcB_IUMIaXAKCu-CH1HH9vMdf7dBcMMIF7P5PzAmQapwnshEdqRvBqvMtz-3PrjtBi9YFl3i1SeK4soO2VRFiTPEIG-T75tDwRs04Gs_ojstZgdyAVi2fzFK1Lv1t4WbetIG1P/s1600/AWS%20AgentCorruption.webp\" alt=\"\"/><figcaption class=\"wp-element-caption\">Prompt injection Attack (Source: Zenity)</figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">The case shows how normal agent features can become dangerous when untrusted prompts, network access, and cloud permissions meet. Similar risks have appeared in <a href=\"https://cybersecuritynews.com/openclaw-ai-agents-leak-sensitive-data/\" target=\"_blank\" rel=\"noopener\">OpenClaw data leaks</a> and the <a href=\"https://cybersecuritynews.com/amazons-ai-coding-agent-exploited/\" target=\"_blank\" rel=\"noopener\">Amazon Q coding-agent incident</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The stolen credentials had a wide reach because Zenity said the default IAM role was not limited to one agent. Researchers used <code>DescribeLogGroups</code> to find agent IDs, pulled container images from Amazon ECR, invoked internal agents, and read session events. Permissions including <code>bedrock-agentcore:InvokeAgentRuntime</code>, <code>bedrock-agentcore:ListEvents</code>, and <code>bedrock-agentcore:CreateEvent</code> also enabled access to chats and the creation of false memories.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Memory access made the risk last beyond one session. An attacker could add hidden instructions that changed an agent&#8217;s goals during later conversations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Zenity also found access to <code>bedrock-agentcore:GetResourceApiKey</code> and <code>secretsmanager:GetSecretValue</code>, which could reveal credentials meant for connected services. One exposed agent could therefore become a path into other business tools and sensitive cloud data.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"youtube-embed\" data-video_id=\"Q2IwwO6djTU\"><iframe title=\"AgentCorruption: AgentCore IMDS vulnerability - Accessing private conversations across the region\" width=\"696\" height=\"392\" src=\"https://www.youtube.com/embed/Q2IwwO6djTU?feature=oembed&#038;enablejsapi=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Zenity reported metadata access to AWS on December 25, 2025, and the broad role permissions on January 12, 2026. AWS moved new deployments to IMDSv2 in February and later made it required.</p>\n\n\n\n<p class=\"wp-block-paragraph\">By September 29, Zenity confirmed that AWS had removed permissions that allowed broad agent calls, chat access, and Secrets Manager access. The researchers say the reported issues are now fixed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">AWS disputes the finding&#8217;s description as a vulnerability. The company says access to an agent&#8217;s own execution-role credentials through the metadata service is expected and documented. AWS also says cross-account access requires clear permission on both the execution role and target resource. Its <a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/security-credentials-management.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">credential guidance</a> warns that any code or actor inside the microVM can call the metadata endpoint.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Security teams should not rely only on the platform changes. AWS recommends custom production roles with only the actions and resource names each agent needs.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Teams should block broad wildcard permissions, validate prompt input, limit outbound network access, separate public and internal agents, and monitor CloudTrail and CloudWatch for unusual calls. AWS also advises using AgentCore Gateway controls and making sure callers cannot bypass them by reaching a runtime directly.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The key lesson is that an AI agent must be treated as a cloud workload, not only as a chatbot. Every tool, secret, network route, and role expands what a bad prompt may reach, so access reviews should happen before deployment and after every change.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n<p>The post <a href=\"https://cybersecuritynews.com/agentcorruption-attack/\">One Prompt Could Hijack AWS AI Agents and Steal Cloud Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:3d4c29ac23f8b637e048a6701a87f8b434ffba75da7f6d55543913127cff00e9",
    "url": "https://cybersecuritynews.com/teams-qr-code-protection",
