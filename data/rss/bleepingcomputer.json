@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-10T14:00:59Z",
+ "updated_at": "2026-10-10T15:01:00Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-10T14:00:59Z",
+  "last_success_at": "2026-10-10T15:01:00Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d85c5a2756a6a99b143cf154e1a85d34b7d3dd85a68d8df8f23b017c05cd1763",
+   "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks",
+   "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+   "published_at": "2026-10-10T14:16:17Z",
+   "published_raw": "Sat, 10 Oct 2026 10:16:17 -0400",
+   "categories": [
+    "security",
+    "Artificial Intelligence"
+   ],
+   "description": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:b0f43e878421d470bc8cc62be17278074b2f403ec7da0716544ea4cc43116cc2",
    "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management",
@@ -1513,48 +1535,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:9d8205e1ca92d9b7b69d112bab94f591bc8662317a93da1ebdd954bb6b243b94",
-   "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks",
-   "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
-   "published_at": "2026-09-30T14:46:40Z",
-   "published_raw": "Wed, 30 Sep 2026 10:46:40 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:5d38a34a627e05147d8e312c32c6495a6199c5a429f0d040bcc9c87b717d2cea",
-   "url": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents",
-   "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
-   "published_at": "2026-09-30T14:01:11Z",
-   "published_raw": "Wed, 30 Sep 2026 10:01:11 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to handle. Token Security explains why these agents need their own identities, owners, scoped permissions, and lifecycle controls. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
-   "authors": [
-    {
-     "name": "Sponsored by Token Security",
      "uri": "",
      "email": ""
     }
