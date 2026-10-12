@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-12T08:00:54Z",
+ "updated_at": "2026-10-12T09:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-12T08:00:54Z",
+  "last_success_at": "2026-10-12T09:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d0bf218e36ba132ddf97455d9d20fa203563ab33fef1c64f615323717a058919",
+   "url": "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure",
+   "title": "Critical SonicWall Vulnerability Exploited Days After Disclosure",
+   "published_at": "2026-10-12T08:36:01Z",
+   "published_raw": "Mon, 12 Oct 2026 08:36:01 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "exploited",
+    "Featured",
+    "SonicWall",
+    "vulnerability"
+   ],
+   "description": "<p>CVE-2026-102255 is a pre-authenticated SSRF flaw that could allow attackers to perform unauthorized operations.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/\">Critical SonicWall Vulnerability Exploited Days After Disclosure</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49933",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:60f1dbbee4feef0f602c126e01958fdb23827629d90542f4b28a4fe74fbd8177",
    "url": "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch",
@@ -1929,79 +1964,6 @@
    ],
    "description": "<p>The China-based hacking group has been exploiting SharePoint vulnerabilities since July 2025.</p>\n<p>The post <a href=\"https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks/\">Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=49756",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:bdce4f389e4dc912f77876997c25d76df08c9186d400b8429e677bc5e79dea53",
-   "url": "https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites",
-   "title": "AI Agents Aimed SQL Injection at US and Canadian Government Sites",
-   "published_at": "2026-10-02T08:38:46Z",
-   "published_raw": "Fri, 02 Oct 2026 08:38:46 +0000",
-   "categories": [
-    "Artificial Intelligence",
-    "Malware & Threats",
-    "AI",
-    "Featured",
-    "OpenAI",
-    "rogue AI",
-    "SQL injection"
-   ],
-   "description": "<p>The attacks targeted the US Department of Education and Library and Archives Canada, and researchers linked some agents to OpenAI.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites/\">AI Agents Aimed SQL Injection at US and Canadian Government Sites</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49754",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:2b3560a8a737bd2b7de524fa82d0396dae1557a42ac795fb7c526b332600e131",
-   "url": "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action",
-   "title": "Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action",
-   "published_at": "2026-10-02T08:07:33Z",
-   "published_raw": "Fri, 02 Oct 2026 08:07:33 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "exploited",
-    "Featured",
-    "FortiMail",
-    "Fortinet",
-    "Zero-Day"
-   ],
-   "description": "<p>CVE-2026-104286 is a critical-severity path traversal vulnerability that could allow attackers to write arbitrary files to the system.</p>\n<p>The post <a href=\"https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/\">Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49752",
    "authors": [
     {
      "name": "Ionut Arghire",

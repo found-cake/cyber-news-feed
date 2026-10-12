@@ -1,15 +1,59 @@
 {
  "schema_version": 1,
  "source": "boannews",
- "updated_at": "2026-10-12T08:00:54Z",
+ "updated_at": "2026-10-12T09:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-12T08:00:54Z",
+  "last_success_at": "2026-10-12T09:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:6e97a290914720e15b94f0affb031fe37e8012b4c1a83498ea243f2e6379f8eb",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=146325",
+   "title": "“DB 장애 전에 AI가 잡는다”... 인젠트, 엑스퍼DB 모니터링 고도화",
+   "published_at": "2026-10-12T17:42:00Z",
+   "published_raw": "2026-10-12 17:42:00",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "인젠트가 자사 데이터플렛폼 ‘엑스퍼DB’(eXperDB)의 통합 모니터링 기능을 AI 기반으로 고도화해 데이터베이스 장애를 사전 예측하고 원인까지 분석하는 지능형 운영 체계로 선보인다고 12일 밝혔다.엑스퍼DB는 오픈소스 PostgreSQL 기반 통합 데이터 플랫폼으로, △모니터링 △백업·복구 △마이그레이션 등 데이터베이스관리시스템(DBMS) 운영에 필요한 다수 기능을 하나로 통합해 제공한다. DB는 멈추는 순간 서비스 장애로 이어질 수 있어 상시 감시가 필수적이지만, 기존엔 전담 관리자가 여러 지표와 로그를 일일이 확인하며 수동으",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "조재호 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:8eb92ad3cd4a85e3b17149e7c4c6f25eb90d90ca0a5e2262247eeee94cbe6448",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=146324",
+   "title": "세이퍼존, 우즈벡 사이버파크와 MOU... 단순 수출 넘어 생태계 직접 짠다",
+   "published_at": "2026-10-12T17:37:20Z",
+   "published_raw": "2026-10-12 17:37:20",
+   "categories": [
+    "비즈니스",
+    "보도자료"
+   ],
+   "description": "세이퍼존이 우즈베키스탄의 핵심 디지털 인프라 기관인 사이버파크(Cyber Park)와 사이버보안 사업 협력을 위한 양해각서(MOU)를 체결했다고 12일 밝혔다. 지난달 IT파크(IT Park)와 협력을 통해 플랫폼 공급의 물꼬를 텄다면, 이번 협력은 단순 솔루션 수출을 넘어 현지 R&D 공동 추진과 청년 보안 인재 양성 등 우즈베키스탄 내 ‘사이버보안 생태계’ 구축을 목표로 한다. 세이퍼존은 최근 우즈베키스탄 타슈켄트에서 개최된 ‘사이버 시큐리티 서밋: 센트럴 유럽 2026'(Cyber Security Summit: Central",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "조재호 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:6dea2d01d81acad85ac0c8d46ba4b4bf154ea134795143081947d67baa0c5d53",
    "url": "https://www.boannews.com/news/articleView.html?idxno=146323",
@@ -2902,28 +2946,6 @@
    "authors": [
     {
      "name": "강초희 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:cbfcaef8db1a722a759b4558f70ef4de181b4a4b33d3d442cb6fcc6c109f292c",
-   "url": "https://www.boannews.com/news/articleView.html?idxno=146131",
-   "title": "2009년 인증 정보까지 살아 있었다... 깃허브 공개 저장소서 유효한 비밀 값 54만건 발견",
-   "published_at": "2026-10-02T08:45:00Z",
-   "published_raw": "2026-10-02 08:45:00",
-   "categories": [
-    "사건·사고",
-    "국제"
-   ],
-   "description": "깃허브 공개 저장소에 노출된 인증 정보 가운데 54만건 넘게 7월까지 실제로 쓸 수 있는 상태였다. 한번 공개된 인증 정보는 중간값 기준 784일 동안 노출돼 있었다.보안 기업 트러플시큐리티가 저장소 2억2400만개, 파일 580억개 넘게 훑은 결과다. 분석 대상은 대형언어모델 학습용으로 모은 데이터셋으로, 2025년 8월 7일 수집이 끝난 자료다. 연구진은 여기서 유효한 인증 정보 54만3699건을 찾았다. 트러플시큐리티가 8월 허깅페이스에서 찾은 유효 인증 정보 22만1303건의 두 배가 넘는 규모다. 포크(복제 저장소) 사본까",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "정지원 기자",
      "uri": "",
      "email": ""
     }
