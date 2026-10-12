@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-12T10:00:55Z",
+ "updated_at": "2026-10-12T11:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-12T10:00:55Z",
+  "last_success_at": "2026-10-12T11:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -31,6 +31,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnlTrJzuyuM3FgdyTkx-JLieOXeR9fK_hENZFrdItZ09E4ZFhk8UYOPslpbGGidTUGCDgcTHqY7wvYrThg-Hwl24MQhL63GIfmRsBLy9MJ7iDXn1XbbX1W_EgGFw9eRyT4LOJq0aoyWhmOHF3O5a9L5LcKNS1IJxQqs_UBwmOnPRmx3fXwUPpKeYdARVE/s260-e100/anyrun.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c7baac5e718b8a6f18aa8271904624a36c63ee98bc3d3038eaf395351b54ec61",
+   "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+   "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+   "published_at": "2026-10-12T10:36:56Z",
+   "published_raw": "2026-10-12T16:06:56.373+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure.\n\nThe vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request forgery (SSRF) that could allow a remote attacker \"to direct the appliance to issue requests on their",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5969094319657178256",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglEbu7YOWX4lrTm_x8p2FnL6B7z2hhGC0fKWPBSCVJqTt8l0rbcXFhQinT3ja0sVyx7hObbCQlmem9y4-wsxrwU6mtgsBIJjvH7rgC8n5w8DpEcv7G1N_u4dtOzA3qxVk22FPvly-ZmjsLJKdJqgTsKPtMHpit1oq-fk7jPFN1gTHLeJdF2JQRZ8yuwjxv/s260-e100/sonics.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -686,33 +713,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:f57b4be0b51a470e49c854e28c3b47b423c03f4ae85e5ddffa6e8b6091db56c5",
-   "url": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
-   "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
-   "published_at": "2026-10-06T06:58:56Z",
-   "published_raw": "2026-10-06T12:28:56.129+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory.\n\nThe attacker must already know a file's exact name and path and cannot list what the directory holds. Atlassian&nbsp;disclosed the flaw, CVE-2026-21589, on October 5, rated it 9.3 out of 10, and",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6734737028195066377",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGQge2pd9O29G6qjsswRMYKnpM66wzyEWHOnRljkIZUZpCGVGACovyKIiji1HQ4jZOsypuaveJUBxx0r7-tT-Icd3COeo_prgm0TbMWDJBYFYpWHOC3lBjb8sZo6f2qWPkzeztOAjMW1CjrE_fDe3nWBU2FEOOjUWDpNUbtY1okTyx_iFE7xcI5jxOeiQ/s260-e100/file.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:00cd8ad7dcd1558bb563382b96f00663b00952fc3dfa4471f5e9254a92cf578b",
    "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
    "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
@@ -733,6 +733,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTCvFj7lVSH1eLS0oYdxqBa4wQkNQvuemuCAL5XqwKueywAUl8Fg6zY-5UT9cdx3fZZ81DHX_emE9JXthW_OfH-axyWn3bE5CpCp4CDs4HREWjv_1uBtt5iJE947S-Bkn-4Mn1Shwt1kV9FF4RO9Wa7_4jmUtvbWrx2zs4-cdSg-FkUtxW-erVx2CXKhU3/s260-e100/hfs-rce-main.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:f57b4be0b51a470e49c854e28c3b47b423c03f4ae85e5ddffa6e8b6091db56c5",
+   "url": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+   "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
+   "published_at": "2026-10-06T06:58:56Z",
+   "published_raw": "2026-10-06T12:28:56.129+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory.\n\nThe attacker must already know a file's exact name and path and cannot list what the directory holds. Atlassian&nbsp;disclosed the flaw, CVE-2026-21589, on October 5, rated it 9.3 out of 10, and",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6734737028195066377",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGQge2pd9O29G6qjsswRMYKnpM66wzyEWHOnRljkIZUZpCGVGACovyKIiji1HQ4jZOsypuaveJUBxx0r7-tT-Icd3COeo_prgm0TbMWDJBYFYpWHOC3lBjb8sZo6f2qWPkzeztOAjMW1CjrE_fDe3nWBU2FEOOjUWDpNUbtY1okTyx_iFE7xcI5jxOeiQ/s260-e100/file.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
