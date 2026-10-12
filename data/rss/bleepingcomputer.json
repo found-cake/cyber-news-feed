@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-12T13:00:56Z",
+ "updated_at": "2026-10-12T14:00:55Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-12T13:00:56Z",
+  "last_success_at": "2026-10-12T14:00:55Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:84d9e2e2e5973eecf31514d0e04ae0a640b695a9abc39d0b472d9a80b92acbdc",
+   "url": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack",
+   "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
+   "published_at": "2026-10-12T13:51:07Z",
+   "published_raw": "Mon, 12 Oct 2026 09:51:07 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it had to take some systems offline in response to a \"cybersecurity incident\" affecting its network. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:40970814cb96b26f4c5fcf6b40626f58cf9444c1a76d67851c98e7ee6024e79c",
+   "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine",
+   "title": "GitLab warns of max severity code execution vulnerability",
+   "published_at": "2026-10-12T13:09:09Z",
+   "published_raw": "Mon, 12 Oct 2026 09:09:09 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:9fc15fecc9ebb197f2935848c336aa8522c766e75f864407155e0a46a815293f",
    "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records",
@@ -1257,27 +1299,6 @@
    "authors": [
     {
      "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:2298fbe3198d6f2355304321ae23f6c3e935d4e2bc8f6e8a7aafc4becd96cf9c",
-   "url": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry",
-   "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
-   "published_at": "2026-10-02T14:00:10Z",
-   "published_raw": "Fri, 02 Oct 2026 10:00:10 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to detect. NordLayer explains three ways attacks can evade endpoint telemetry and why browser-level controls can help close the gap. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
-   "authors": [
-    {
-     "name": "Sponsored by NordLayer Browser",
      "uri": "",
      "email": ""
     }

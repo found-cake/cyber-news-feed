@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-12T13:00:56Z",
+ "updated_at": "2026-10-12T14:00:55Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-12T13:00:56Z",
+  "last_success_at": "2026-10-12T14:00:55Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:7f9b71e2b36c64667fe97d75691d89b782ce5f7a515da8cf9256f271761f237d",
+   "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild",
+   "title": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
+   "published_at": "2026-10-12T13:14:37Z",
+   "published_raw": "Mon, 12 Oct 2026 13:14:37 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "exploited",
+    "vulnerability",
+    "WordPress"
+   ],
+   "description": "<p>The vulnerability tracked as CVE-2026-85097 can allow threat actors to take control of the targeted WordPress websites.</p>\n<p>The post <a href=\"https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/\">Bricksforge WordPress Plugin Vulnerability Exploited in the Wild</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=49949",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:39a4cd747b5765db1856cb48ea367b3b7424a6b4884ff091c7fef71e492a7c31",
    "url": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year",
@@ -1964,38 +1998,6 @@
    "authors": [
     {
      "name": "SecurityWeek News",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:16384a18ae1ec6f276e9132dabc49050344c9567556634487a6ed6e9647a5c03",
-   "url": "https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor",
-   "title": "macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor",
-   "published_at": "2026-10-02T13:15:00Z",
-   "published_raw": "Fri, 02 Oct 2026 13:15:00 +0000",
-   "categories": [
-    "Malware & Threats",
-    "macOS"
-   ],
-   "description": "<p>The dropper “carries a complete universal Mach-O inside itself, roughly 756 KB in the development build, and extracts it at runtime.</p>\n<p>The post <a href=\"https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor/\">macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49767",
-   "authors": [
-    {
-     "name": "Kevin Townsend",
      "uri": "",
      "email": ""
     }
