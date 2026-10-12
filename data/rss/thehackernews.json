@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-12T09:00:54Z",
+ "updated_at": "2026-10-12T10:00:55Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-12T09:00:54Z",
+  "last_success_at": "2026-10-12T10:00:55Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -31,6 +31,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnlTrJzuyuM3FgdyTkx-JLieOXeR9fK_hENZFrdItZ09E4ZFhk8UYOPslpbGGidTUGCDgcTHqY7wvYrThg-Hwl24MQhL63GIfmRsBLy9MJ7iDXn1XbbX1W_EgGFw9eRyT4LOJq0aoyWhmOHF3O5a9L5LcKNS1IJxQqs_UBwmOnPRmx3fXwUPpKeYdARVE/s260-e100/anyrun.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c9dce304dcc90255d486ef511a80e2965f2fe6e8c10b552a1ec675073de46cda",
+   "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+   "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+   "published_at": "2026-10-12T09:02:14Z",
+   "published_raw": "2026-10-12T14:32:14.784+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack.\n\nThe critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE). The",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2150532227444901773",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrKeT1xQm0N8zjNRqWwsoqMm3kESRMqYnUJ9Wy6x9dEKlRVgZYDVqKqhu_2ZT7ZcCNd_RegNu2LtnUUQgL8R2OlK5LTyu9vKaCBRGTVrp05hGdB5wQrxFNi_eHnGxx-8yFR7maKT3tD_WBMVVBSeTyuku392tKdoOHIgvnj1tKQYU_Yq9anT5OKxUun4GW/s260-e100/wp-php.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -686,33 +713,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:e8fc3bf6b8bd024b0f3f60aabfa5892dd135079c0396efdf29e6bc989a1b3e5c",
-   "url": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
-   "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
-   "published_at": "2026-10-06T06:56:57Z",
-   "published_raw": "2026-10-06T12:26:57.431+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees.\n\nThat's according to a report from Reuters, citing two sources familiar with the matter.\n\n\"To date, our review has determined that the incident occurred as the result of a security failure ​",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4196392589249200825",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVB4YaCEMdO6UU6llRwDBMNe82j6s6myWlT8Y92f808ntjdWsPEFgXBpFhGxoAZdkFq5DVA4_XaQpbwvJFjpEUxrRjjRVITahCSGSxmi3qkad2fk-kZ1oXnoxKaFHNs2aRQl7LQ6r2Ljt57IZNaFvwejEQ20us7fMVpNYptJxoVCyol8BlVaXyLkkaeHQI/s260-e100/fbi-breach.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:00cd8ad7dcd1558bb563382b96f00663b00952fc3dfa4471f5e9254a92cf578b",
    "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
    "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
@@ -733,6 +733,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTCvFj7lVSH1eLS0oYdxqBa4wQkNQvuemuCAL5XqwKueywAUl8Fg6zY-5UT9cdx3fZZ81DHX_emE9JXthW_OfH-axyWn3bE5CpCp4CDs4HREWjv_1uBtt5iJE947S-Bkn-4Mn1Shwt1kV9FF4RO9Wa7_4jmUtvbWrx2zs4-cdSg-FkUtxW-erVx2CXKhU3/s260-e100/hfs-rce-main.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e8fc3bf6b8bd024b0f3f60aabfa5892dd135079c0396efdf29e6bc989a1b3e5c",
+   "url": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+   "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+   "published_at": "2026-10-06T06:56:57Z",
+   "published_raw": "2026-10-06T12:26:57.431+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees.\n\nThat's according to a report from Reuters, citing two sources familiar with the matter.\n\n\"To date, our review has determined that the incident occurred as the result of a security failure ​",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4196392589249200825",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVB4YaCEMdO6UU6llRwDBMNe82j6s6myWlT8Y92f808ntjdWsPEFgXBpFhGxoAZdkFq5DVA4_XaQpbwvJFjpEUxrRjjRVITahCSGSxmi3qkad2fk-kZ1oXnoxKaFHNs2aRQl7LQ6r2Ljt57IZNaFvwejEQ20us7fMVpNYptJxoVCyol8BlVaXyLkkaeHQI/s260-e100/fbi-breach.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
