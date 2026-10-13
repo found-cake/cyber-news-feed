@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-13T07:00:53Z",
+ "updated_at": "2026-10-13T08:00:59Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-13T07:00:53Z",
+  "last_success_at": "2026-10-13T08:00:59Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:6872a5281e2f74536c9c6d214a167815af194bdadb35cf420b4fe00933936f5e",
+   "url": "https://cybersecuritynews.com/critical-sonicwall-vulnerability-exploited",
+   "title": "Critical SonicWall Vulnerability Exploited in Attacks Following Disclosure",
+   "published_at": "2026-10-13T07:22:20Z",
+   "published_raw": "Tue, 13 Oct 2026 07:22:20 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Vulnerability",
+    "cyber security"
+   ],
+   "description": "<p>A critical SonicWall SMA1000 flaw, CVE-2026-102255 (CVSS 10.0), is being actively exploited days after disclosure, allowing unauthenticated attackers to make vulnerable appliances send requests on their behalf. Threat intelligence firms detected exploitation attempts beginning October 8, two days after SonicWall released fixes. The activity affects SonicWall Secure Mobile Access appliances used to provide remote access [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-sonicwall-vulnerability-exploited/\">Critical SonicWall Vulnerability Exploited in Attacks Following Disclosure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=166963",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/SonicWall-Vulnerability-Exploited.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "166963",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A critical <a href=\"https://cybersecuritynews.com/sonicwall-patches-sma1000-flaws/\" target=\"_blank\" rel=\"noreferrer noopener\">SonicWall SMA1000 flaw, CVE-2026-102255 </a>(CVSS 10.0), is being actively exploited days after disclosure, allowing unauthenticated attackers to make vulnerable appliances send requests on their behalf.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Threat intelligence firms detected exploitation attempts beginning October 8, two days after SonicWall released fixes. The activity affects SonicWall Secure Mobile Access appliances used to provide remote access to business resources.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Defused Cyber reported suspicious traffic against its SMA decoys, while Previdian detected attempts consistent with the same vulnerability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">These findings show attackers are targeting the flaw, although the available reports do not establish successful breaches of customer networks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw is a<a href=\"https://cybersecuritynews.com/sonicwall-remote-code-execution-vulnerabilities/\" target=\"_blank\" rel=\"noreferrer noopener\"> server-side request forgery, or SSRF</a>, issue in the SMA1000 Work Place interface. An unintended alternate access path allows a remote attacker to use the appliance as a proxy.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Instead of sending requests directly to protected services, the attacker makes the trusted appliance send them, potentially reaching internal functions and carrying out unauthorized operations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The lack of a login requirement makes this vulnerability especially serious. Attackers don&#8217;t need a stolen account or user interaction to exploit it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">SonicWall assigned the flaw a critical rating because it could impact on data confidentiality, system integrity, and service availability. Its product notice urges affected customers to install the latest hotfix.</p>\n\n\n\n<h2 id=\"h-critical-sonicwall-vulnerability-exploited\" class=\"wp-block-heading\"><strong>Critical SonicWall Vulnerability Exploited</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">SonicWall disclosed the vulnerabilities on October 6, 2026. Its notice stated that there was no evidence of exploitation in the wild. Later observations changed the picture, with Defused and Previdian reporting attempts against their monitoring systems. <a href=\"https://x.com/DefusedCyber/status/2108543042693058984\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Defused Cyber said</a> the first traffic reached its decoys on October 8, showing how quickly attackers moved after disclosure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to The Hacker News, Previdian recorded 135 attempts from two IP addresses located in the United States. Those figures describe activity seen by its sensors, not the number of compromised organizations. The IP addresses&#8217; locations also do not indicate where the attackers were based.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The same release addresses three additional flaws. CVE-2026-102256 involves command injection that can allow code execution after authentication.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-mfTDpCzqCIvZKbps8zS3XR_GDXWADO2un8nH4mYoGvPNgM3UDLQbI6FdA5AJjptH-n6Mp7Aw6UnfLp4bJXlx5Z317O5IEJEXdwprBZbIw4GdqsvM7vTwM2YcW7zo8LX_0bEt3TwaL1iPTWPKsMSAGfRpcDypnllkgG6CNe7UlhqtPlwDAjuDpgMO-ek/s1600/Screenshot%202026-10-13%20115846%20%281%29.webp\" alt=\"\nUnauthenticated SSRF traffic targeting SonicWall SMA decoys (source : DefusedCyber ) \"/><figcaption class=\"wp-element-caption\">Unauthenticated SSRF traffic targeting SonicWall SMA decoys (source: DefusedCyber )</figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">CVE-2026-102257 is a Zip Slip issue that can write extracted files outside their intended directory. CVE-2026-102258 allows stored JavaScript to run in the Appliance Management Console. These issues require authenticated access, unlike the critical SSRF flaw.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Earlier <a href=\"https://cybersecuritynews.com/sonicwall-0-day-vulnerabilities-exploited/\" target=\"_blank\" rel=\"noopener\">SonicWall zero-day attacks</a> used separate SSRF and command injection vulnerabilities to gain root access and deploy custom malware. Cybersecurity News also covered SMA1000 remote code execution attacks in September. Those reports provide relevant background, but they do not prove the current attempts involve the same attackers or techniques.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Affected devices include SMA1000 models 6210, 7210, and 8200v running 12.4.3-03526 or older, or 12.5.0-02952 or older. Administrators should upgrade to 12.4.3-03670 or later, or 12.5.0-03082 or later, using the appropriate software branch. SonicWall lists no workaround.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The advisory excludes the SMA 100 product line and <a href=\"https://cybersecuritynews.com/sslvpn-sma1000-bugs/\" target=\"_blank\" rel=\"noreferrer noopener\">SSL-VPN services on SonicWall firewalls</a>. Administrators should confirm their exact appliance model and installed hotfix rather than assume every SonicWall VPN product is affected. With exploitation attempts already reported, affected deployments warrant urgent patching.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong>Update defenses against new malware as soon as it appears. <a href=\"https://any.run/threat-intelligence-feeds/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+12-18&amp;utm_content=ti+feeds+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate TI Feeds with data from 16K SOCs</a></strong>.</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-sonicwall-vulnerability-exploited/\">Critical SonicWall Vulnerability Exploited in Attacks Following Disclosure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:ff9158ec16cc9a5e7edfa27feb6ee287b7e79a6688f4f7c0170e557e05c83236",
    "url": "https://cybersecuritynews.com/ubuntu-websites-ddos-attack",
