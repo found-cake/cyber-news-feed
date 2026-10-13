@@ -1,15 +1,58 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-13T21:00:58Z",
+ "updated_at": "2026-10-13T22:01:03Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-13T21:00:58Z",
+  "last_success_at": "2026-10-13T22:01:03Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:af713d77fa98c062541e63b37195314b51ea0349f86b44f16a2edc495adb1014",
+   "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads",
+   "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+   "published_at": "2026-10-13T21:33:26Z",
+   "published_raw": "Tue, 13 Oct 2026 17:33:26 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:952c1975fabe325b2a0c9fde83d99a48463630e9c1313277487fafc253c64e98",
+   "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices",
+   "title": "Anthropic warns self-replicating AI could spread to your smart devices",
+   "published_at": "2026-10-13T21:16:34Z",
+   "published_raw": "Tue, 13 Oct 2026 17:16:34 -0400",
+   "categories": [
+    "security",
+    "Artificial Intelligence"
+   ],
+   "description": "Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI workloads without relying on data centers. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:10fb7f2aa0835e0dd63084e50a38c52ae5ca0eb749614df84155977b40e4e053",
    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days",
