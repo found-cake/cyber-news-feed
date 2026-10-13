@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-13T14:01:19Z",
+ "updated_at": "2026-10-13T15:01:09Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-13T14:01:19Z",
+  "last_success_at": "2026-10-13T15:01:09Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:6dd9b02bc82c6a8aa3a7310ed3ad0504c0532c00563b4cb63d1c654cfd4310e9",
+   "url": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting",
+   "title": "The MFA Gaps Attackers are Still Exploiting",
+   "published_at": "2026-10-13T14:01:11Z",
+   "published_raw": "Tue, 13 Oct 2026 10:01:11 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Attackers continue exploiting gaps in MFA coverage, using stolen credentials to access VPNs, RDP, and Windows systems that still rely on passwords alone. Specops explains why protecting cloud applications isn't enough and how organizations can close these authentication gaps. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/",
+   "authors": [
+    {
+     "name": "Sponsored by Specops Software",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:6329800a19a7ee2159a43217e473c1120fb3f67b316d3fc9ad0fa9fde2d6a6fd",
    "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw",
@@ -1345,27 +1366,6 @@
    "authors": [
     {
      "name": "Lawrence Abrams",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:27d0afb0623f9b71d88d9ca83cdf8a3aefcf1f1c1707f2d888234b04d9bc6be9",
-   "url": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people",
-   "title": "Danish university DTU breach exposes data of up to 200,000 people",
-   "published_at": "2026-10-03T14:35:20Z",
-   "published_raw": "Sat, 03 Oct 2026 10:35:20 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity and access management system and downloaded a large amount of data. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
-   "authors": [
-    {
-     "name": "Ionut Ilascu",
      "uri": "",
      "email": ""
     }
