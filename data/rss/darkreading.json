@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "darkreading",
- "updated_at": "2026-10-14T13:00:51Z",
+ "updated_at": "2026-10-14T14:00:59Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-14T13:00:51Z",
+  "last_success_at": "2026-10-14T14:00:59Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:1844a10e24ed3f11be089eded80508809e9896f479756a90b0f704fab4f65053",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america",
+   "title": "Russian Influence Operation Widely Targeting Latin America",
+   "published_at": "2026-10-14T13:00:00Z",
+   "published_raw": "Wed, 14 Oct 2026 13:00:00 GMT",
+   "categories": [
+    "cyberattacks-data-breaches"
+   ],
+   "description": "The AI-enabled operation used spoofed emails, fake government documents, and the creation of a local organization to target schools in Peru and Ecuador, among other efforts.",
+   "feed_id": "https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america",
+   "authors": [
+    {
+     "name": "Robert Lemos",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt12c8556d05b7b46d/6ace9426639c8743112b0213/peru-bolivia-on-map-hyotographics-shutterstock.jpg?width=720&quality=80&disable=upscale",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt12c8556d05b7b46d/6ace9426639c8743112b0213/peru-bolivia-on-map-hyotographics-shutterstock.jpg?width=720&quality=80&disable=upscale",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "darkreading": {
+     "guid_is_permalink": "false"
+    }
+   }
+  },
   {
    "id": "sha256:d22f26b7e502ef5017fc099225df29d84cee66368fb2f66232153c8f55f04905",
    "url": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
@@ -19,7 +55,7 @@
    "categories": [
     "vulnerabilities-threats"
    ],
-   "description": "The scary surprises for the largest security update ever include security bypasses and unauthenticated RCEs.",
+   "description": "The scary surprises in the largest security update ever include security bypasses and unauthenticated RCEs.",
    "feed_id": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
    "authors": [
     {
