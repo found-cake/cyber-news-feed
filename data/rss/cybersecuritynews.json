@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-14T19:00:51Z",
+ "updated_at": "2026-10-14T20:00:50Z",
  "retention_days": 10,
  "status": {
-  "ok": false,
-  "last_success_at": "2026-10-14T18:00:57Z",
-  "last_error_at": "2026-10-14T19:00:51Z",
-  "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+  "ok": true,
+  "last_success_at": "2026-10-14T20:00:50Z",
+  "last_error_at": null,
+  "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:37356df481d16ae2ef2d6cbadd00b71e6dcfb9133380aaaa56d275d25499e492",
+   "url": "https://cybersecuritynews.com/multiple-nginx-vulnerabilities",
+   "title": "Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code",
+   "published_at": "2026-10-14T18:19:03Z",
+   "published_raw": "Wed, 14 Oct 2026 18:19:03 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News",
+    "vulnerability"
+   ],
+   "description": "<p>F5 has disclosed three serious security flaws in NGINX Plus and NGINX Open Source that can let remote, unauthenticated attackers crash worker processes by sending crafted HTTP requests. In certain setups, the memory errors could also allow code execution, although F5 says that outcome requires Address Space Layout Randomization, known as ASLR, to be disabled [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-nginx-vulnerabilities/\">Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=167376",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Multiple-NGINX-Vulnerabilities.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "167376",
+     "content_encoded": "<p class=\"wp-block-paragraph\">F5 has disclosed three serious security flaws in NGINX Plus and NGINX Open Source that can let remote, unauthenticated attackers crash worker processes by sending crafted HTTP requests.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In certain setups, the memory errors could also allow code execution, although F5 says that outcome requires Address Space Layout Randomization, known as ASLR, to be disabled or bypassed. All three issues affect the NGINX data plane, which handles user traffic, rather than its control plane.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaws are tracked as CVE-2026-97205, CVE-2026-93479, and CVE-2026-15176. F5 published the three advisories on October 14, 2026, and rated every issue High at 8.1 under CVSS v3.1 and Critical at 9.2 under CVSS v4.0.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The bugs do not make every NGINX server vulnerable by default because each one needs a specific software version and configuration.</p>\n\n\n\n<h2 id=\"h-multiple-nginx-vulnerabilities\" class=\"wp-block-heading\"><strong>Multiple NGINX Vulnerabilities</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://my.f5.com/manage/s/article/K000162608\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CVE-2026-97205</a> is a use-after-free flaw in <code>ngx_http_core_module</code>. It can be triggered when asynchronous file I/O, or AIO, is enabled and NGINX processes a Server Side Includes page containing an <code>include virtual</code> command.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The worker may keep using memory after that memory has been released, leading to memory corruption or an unexpected worker shutdown. F5 credits security researcher Cyberlanc3r with reporting the issue.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://my.f5.com/manage/s/article/K000162607\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CVE-2026-93479</a> is a heap buffer overflow linked to the NGINX <code>map</code> directive and regular expression matching. The unsafe condition can appear when the <code>root</code> directive or an access-log format uses the map’s regex capture variables before the map output variable.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A related path involves a non-cacheable variable used in a string expression. Crafted requests can then make a worker write beyond the allocated memory area and restart. F5 credits Matt Suiche of Tolmo and Mateusz Gierblinski for coordinated disclosure.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://my.f5.com/manage/s/article/K000162416\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CVE-2026-15176</a> is a separate heap buffer overflow in <code>ngx_http_core_module</code>. It affects a location block that combines <code>alias</code> with <code>rewrite</code> and a <code>set</code> or <code>return</code> directive that refers to <code>$request_filename</code>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The same risk can exist when <code>$request_filename</code> appears in an access <code>log_format</code>. F5 says a remote attacker can trigger the flaw without authentication, but the required server-side conditions remain outside the attacker’s control. The company found this issue internally.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The affected range is broad. CVE-2026-97205 and CVE-2026-15176 affect NGINX Open Source 1.31.0 through 1.31.6 and 1.0.0 through 1.30.5, while the older 0.x line is also listed for CVE-2026-15176. CVE-2026-93479 has a narrower open-source range of 1.31.2 through 1.31.6 and 1.30.0 through 1.30.5. NGINX Plus 37.0.0 through 37.0.4 is affected by all three bugs. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Related products, including NGINX Instance Manager, F5 WAF for NGINX, NGINX Gateway Fabric, and some NGINX Ingress Controller releases, are also affected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should upgrade NGINX Open Source to 1.31.7 or 1.30.6. NGINX Plus users on the 37.x line should move to 37.0.5.1 or 37.1.0.1.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Fixed releases also include NGINX Instance Manager 2.24.0, F5 WAF for NGINX 5.16.0 or 5.14.2, NGINX Gateway Fabric 2.8.0, and NGINX Ingress Controller 5.7.0. Some older branches have no update, so F5 advises moving to a supported branch that contains a fix.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Where patching cannot happen at once, configuration changes can lower the risk. For CVE-2026-97205, F5 recommends disabling either AIO or SSI. Turning off AIO may reduce performance for large static files or media streaming under heavy load, while disabling SSI stops NGINX from processing SSI tags.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For CVE-2026-93479, administrators should replace unnamed regex captures with named captures and use them only inside the matching block. For CVE-2026-15176, F5 recommends avoiding <code>alias</code> inside a location block and avoiding <code>$request_filename</code> where possible.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Teams should first run <code>nginx -T</code> to review the full active configuration, including included files, then compare the installed build against each advisory. After any change, <code>nginx -t</code> can check the syntax before the configuration is reloaded. These checks matter because the presence of an affected version alone does not prove that the needed configuration is active.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The disclosure follows several other NGINX memory-safety fixes in 2026. Cybersecurity News previously reported <a href=\"https://cybersecuritynews.com/f5-patches-multiple-nginx-vulnerabilities/\">three NGINX flaws involving heap overflow, memory disclosure, and use-after-free conditions</a> and <a href=\"https://cybersecuritynews.com/nginx-vulnerability-patched/\">an earlier group of NGINX bugs that could cause code execution or denial of service</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">F5’s advisories do not report active exploitation of these three newly disclosed flaws. Still, internet-facing NGINX systems should be reviewed quickly because a successful request can restart workers and disrupt service, while a working ASLR bypass could raise the impact to code execution.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Applying the fixed release remains the strongest response because the workarounds cover only the known unsafe configuration paths.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong>An EDR alert reveals an attack. But can it tell the full story? <a href=\"https://www.manageengine.com/products/desktop-central/edr-av-comparatives.html?utm_source=CSN&amp;utm_medium=TPS-Linkedin&amp;utm_campaign=EDR-AVC\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Discover how to reconstruct the attack timeline</a>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-nginx-vulnerabilities/\">Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:354c63fbb0591a19669433d8a2cff4b2da0b18632071b33e5b7ea65f12e6aa50",
    "url": "https://cybersecuritynews.com/curl-security-update-24-vulnerabilities",
