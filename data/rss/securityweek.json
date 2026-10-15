@@ -1,15 +1,55 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-15T12:00:57Z",
+ "updated_at": "2026-10-15T13:00:56Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-15T12:00:57Z",
+  "last_success_at": "2026-10-15T13:00:56Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:068df840bcece83e45ae67a3c8360a9ef7e0764a4daebbdf515e0cac63eb4639",
+   "url": "https://www.securityweek.com/supermarket-refrigeration-attack-widens-to-copeland-dixell-controllers",
+   "title": "Supermarket Refrigeration Attack Widens to Copeland, Dixell Controllers",
+   "published_at": "2026-10-15T12:50:42Z",
+   "published_raw": "Thu, 15 Oct 2026 12:50:42 +0000",
+   "categories": [
+    "ICS/OT",
+    "Incident Response",
+    "controller",
+    "Copeland",
+    "Danfoss",
+    "France",
+    "ICS",
+    "OT",
+    "refrigeration",
+    "supermarket"
+   ],
+   "description": "<p>Roughly 700 French supermarkets were hit by the cyberattacks, for which no group has claimed responsibility.</p>\n<p>The post <a href=\"https://www.securityweek.com/supermarket-refrigeration-attack-widens-to-copeland-dixell-controllers/\">Supermarket Refrigeration Attack Widens to Copeland, Dixell Controllers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50055",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:09e12810b43dbdb36ea470a55a2774f363e4a400c40c0f786be880b4a99e510b",
    "url": "https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc",
@@ -92,6 +132,7 @@
     "CenterPoint Energy",
     "data breach",
     "energy",
+    "Featured",
     "Texas"
    ],
    "description": "<p>Personal information such as names, addresses, Social Security numbers, and driver’s license numbers was compromised.</p>\n<p>The post <a href=\"https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/\">CenterPoint Energy Data Breach Impacts 1 Million Texans</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
@@ -2649,74 +2690,6 @@
    "authors": [
     {
      "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:7319aa33c92308f5f8b5615a1fab388ce10f4a554237b0f8662c6bcdd5f584a5",
-   "url": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws",
-   "title": "Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws",
-   "published_at": "2026-10-05T13:00:00Z",
-   "published_raw": "Mon, 05 Oct 2026 13:00:00 +0000",
-   "categories": [
-    "Malware & Threats",
-    "ClingSTUN",
-    "Linux malware",
-    "malware"
-   ],
-   "description": "<p>ClingSTUN operates as a back-connect proxy backdoor, sets up persistence, and contains exploits for self-propagation.</p>\n<p>The post <a href=\"https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/\">Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49803",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:3be158071409894d1caf06d796bfd33b3ede515ef79601e02d5cdc8de398b175",
-   "url": "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms",
-   "title": "250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms",
-   "published_at": "2026-10-05T12:35:15Z",
-   "published_raw": "Mon, 05 Oct 2026 12:35:15 +0000",
-   "categories": [
-    "Data Breaches",
-    "Ransomware",
-    "data breach",
-    "healthcare"
-   ],
-   "description": "<p>Hackers stole patient information from Clover Health Investments and AngMar Management Services in July.</p>\n<p>The post <a href=\"https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms/\">250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49805",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
      "uri": "",
      "email": ""
     }
