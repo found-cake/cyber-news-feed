@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-15T20:01:02Z",
+ "updated_at": "2026-10-15T21:00:55Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-15T20:01:02Z",
+  "last_success_at": "2026-10-15T21:00:55Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:0036aa34917d3bf0b601d5216937ef9b9c5b65b6fbeb95b281312d06933ad37e",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers",
+   "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+   "published_at": "2026-10-15T20:25:04Z",
+   "published_raw": "Thu, 15 Oct 2026 16:25:04 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:470fcf5377611ea1e436b183d4db5361ef448215d9f75863907feae8545ad322",
    "url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls",
@@ -1648,27 +1669,6 @@
    "authors": [
     {
      "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:0d95aed7cfa060c29cb99f271d78be5accf022e40b120dc5e7120b6637a27072",
-   "url": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw",
-   "title": "Rejetto HFS servers now actively scanned for critical RCE flaw",
-   "published_at": "2026-10-05T20:20:05Z",
-   "published_raw": "Mon, 05 Oct 2026 16:20:05 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Hackers are actively scanning for a Rejetto HFS weak signing key vulnerability, tracked as CVE-2026-61500, that allows session forgery, account takeover, and remote code execution (RCE). [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
