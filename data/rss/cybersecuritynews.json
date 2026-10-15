@@ -1,15 +1,124 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-15T03:00:52Z",
+ "updated_at": "2026-10-15T04:00:53Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-15T03:00:52Z",
+  "last_success_at": "2026-10-15T04:00:53Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:3888f960066b7c60b23126b7a864b76278cd6b9db7f2b2cff559dcdf08f693e9",
+   "url": "https://cybersecuritynews.com/multiple-active-directory-vulnerabilities",
+   "title": "Multiple Active Directory Vulnerabilities Let Attackers Bypass Security Feature Remotely",
+   "published_at": "2026-10-15T03:51:31Z",
+   "published_raw": "Thu, 15 Oct 2026 03:51:31 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerabilities",
+    "Windows",
+    "vulnerability"
+   ],
+   "description": "<p>Microsoft has disclosed three Active Directory vulnerabilities that could let a remote attacker bypass a key security feature in Windows domain environments. The issues are tracked as CVE-2026-69982, CVE-2026-96252, and CVE-2026-108131, and administrators should review Microsoft’s Security Update Guide entries and deploy the available fixes as soon as possible. Active Directory is the central identity [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-active-directory-vulnerabilities/\">Multiple Active Directory Vulnerabilities Let Attackers Bypass Security Feature Remotely</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=167165",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Multiple-Active-Directory-Vulnerabilities-Let-Attackers-Bypass-Security-Feature-remotely-1.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "167165",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Microsoft has disclosed three Active Directory vulnerabilities that could let a remote attacker<a href=\"https://cybersecuritynews.com/active-directory-password-hashes/\" target=\"_blank\" rel=\"noreferrer noopener\"> bypass a key security feature </a>in Windows domain environments.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The issues are tracked as CVE-2026-69982, CVE-2026-96252, and CVE-2026-108131, and administrators should review Microsoft’s Security Update Guide entries and deploy the available fixes as soon as possible.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Active Directory is the central identity service many organizations use to manage users, computers, permissions, and access to business systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A weakness that bypasses a security control in this environment can be serious because domain services sit at the center of authentication and trust. If an attacker can reach an exposed or poorly protected domain service, they may be able to weaken protections that are meant to block unauthorized activity.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft has classified the three issues as security feature bypass vulnerabilities. This means the flaws do not necessarily give an attacker full control of a server. Instead, they may let an attacker bypass protections that would normally limit access, validate requests, or prevent unsafe behavior.</p>\n\n\n\n<h2 id=\"h-multiple-active-directory-vulnerabilities\" class=\"wp-block-heading\"><strong>Multiple Active Directory Vulnerabilities</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Security teams should treat this as a high-priority patching event, especially in networks where many internal systems can reach Active Directory services. The disclosed CVEs <a href=\"https://cybersecuritynews.com/payload-ransomware-hijacks-active-directory/\" target=\"_blank\" rel=\"noreferrer noopener\">affect Microsoft Active Directory-related components</a>, according to the vendor’s Security Update Guide pages.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft’s public entries should be the source of truth for affected products, update packages, severity ratings, and mitigation guidance because details can change as the company publishes more information.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should also confirm that all domain controllers and supporting Windows servers have received the latest cumulative updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The remote nature of these flaws increases the concern for large enterprise networks. Attackers who already have a foothold in a network often look for ways to move toward domain controllers, where they can target identity systems and gain broader access.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A security feature bypass could support that process by helping an intruder avoid a control that would otherwise stop or detect suspicious activity.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should first identify every domain controller, including older systems, backup domain controllers, and systems in remote offices. Test patch deployment in a controlled group where possible, then roll it out quickly across production servers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Teams should verify successful installation through their endpoint management platform or Windows update reporting, rather than assuming that an update was applied.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Network controls remain important during patching. <a href=\"https://cybersecuritynews.com/hackers-steal-ntds-dit/\" target=\"_blank\" rel=\"noreferrer noopener\">Domain controller services</a> should not be exposed directly to the public internet. Organizations should limit which hosts can communicate with directory services, separate administrative systems from user networks, and require strong authentication for privileged accounts.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should also review monitoring tools for unusual authentication failures, unexpected privilege changes, new service accounts, or suspicious activity involving domain controllers. This update is another reminder that identity infrastructure needs the same urgent patching process as public-facing applications.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations have repeatedly faced serious risk from flaws in network and identity products, including recently disclosed issues affecting remote-access infrastructure such as <a href=\"https://cybersecuritynews.com/citrix-netscaler-and-gateway-vulnerabilities/\" target=\"_blank\" rel=\"noopener\">Citrix NetScaler and Gateway vulnerabilities</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Security teams can also review broader coverage of Microsoft security vulnerabilities to track related Windows and enterprise software updates. Microsoft has not provided evidence in the accessible update information that these specific flaws are being actively exploited.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Still, defenders should not wait for confirmed exploitation before applying updates. Security feature bypass bugs can become more valuable when combined with credential theft, phishing, lateral movement, or another vulnerability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should review Microsoft’s advisories for <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69982\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CVE-2026-69982</a>, <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96252\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CVE-2026-96252</a>, and <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108131\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CVE-2026-108131</a> and confirm that all relevant Active Directory systems are updated.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Update defenses against new malware as soon as it appears. <a href=\"https://any.run/threat-intelligence-feeds/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+12-18&amp;utm_content=ti+feeds+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate TI Feeds with data from 16K SOCs</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-active-directory-vulnerabilities/\">Multiple Active Directory Vulnerabilities Let Attackers Bypass Security Feature Remotely</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:69843202587bca403051d3fbaeb137b8c0e189a0619c7dff59579dec64c1f88b",
+   "url": "https://cybersecuritynews.com/pan-os-0-day-vulnerability",
+   "title": "Hackers Exploit Palo Alto PAN-OS 0-day Flaw to Gain Root Code Execution on Firewalls",
+   "published_at": "2026-10-15T03:42:50Z",
+   "published_raw": "Thu, 15 Oct 2026 03:42:50 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News",
+    "vulnerability"
+   ],
+   "description": "<p>Hackers are exploiting a high-severity flaw in Palo Alto Networks PAN-OS that allows authenticated attackers to run code with root privileges on affected firewalls. Tracked as CVE-2026-0322, the vulnerability affects the management interface, with the company confirming “very limited exploitation” and urging customers to apply fixes as soon as possible. Palo Alto Networks published its [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/pan-os-0-day-vulnerability/\">Hackers Exploit Palo Alto PAN-OS 0-day Flaw to Gain Root Code Execution on Firewalls</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=167384",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/PAN-OS-0-Day-Vulnerability.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "167384",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Hackers are exploiting a high-severity flaw in Palo Alto Networks PAN-OS that allows authenticated attackers to run code with root privileges on affected firewalls. Tracked as CVE-2026-0322, the vulnerability affects the management interface, with the company confirming “very limited exploitation” and urging customers to apply fixes as soon as possible.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Palo Alto Networks published its security advisory on October 14, 2026, assigning the flaw a CVSS 4.0 score of 8.6 and its highest remediation urgency. The company credited internal researcher Suraj Siddharudh with discovering and reporting the issue. It has not named the attackers or disclosed how many organizations were targeted.</p>\n\n\n\n<h2 id=\"h-pan-os-0-day-vulnerability\" class=\"wp-block-heading\"><strong>PAN-OS 0-Day Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw is a code injection weakness, classified as CWE-94. An attacker must have authenticated access with high privileges and network access to the management interface. Successful exploitation allows code execution as root, giving the attacker the highest level of control over the affected firewall. No user interaction is required.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This is not an unauthenticated attack path. The requirement for an existing privileged login limits who can exploit it, but internet-facing management interfaces carry the greatest risk. No special configuration is needed for a vulnerable PAN-OS installation to be affected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Affected products include PA-Series hardware firewalls, VM-Series virtual firewalls, and Panorama deployments running on virtual systems or M-Series appliances. Cloud NGFW and Prisma Access are not affected and require no action for this vulnerability</p>\n\n\n\n<p class=\"wp-block-paragraph\">The management interface has featured in earlier PAN-OS attacks. Cyber Security News previously covered <a href=\"https://cybersecuritynews.com/pan-os-vulnerability-actively-exploited/\">active exploitation of CVE-2025-0108</a> and <a href=\"https://cybersecuritynews.com/palo-alto-networks-warns-hackers-combining-vulnerabilities/\">attackers chaining PAN-OS vulnerabilities</a> to compromise devices. Those reports concern separate flaws and do not establish a connection to the current activity.</p>\n\n\n\n<h2 id=\"h-fixed-versions-and-protection-measures\" class=\"wp-block-heading\"><strong>Fixed Versions and Protection Measures</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Fixed releases include PAN-OS 12.2.4, 12.1.10-h2, 11.1.16-h3, and 10.2.18-h12, with additional hotfix options for earlier maintenance releases. PAN-OS 11.2 fixes include 11.2.4-h22, 11.2.7-h21, 11.2.10-h15, and 11.2.13-h3. Version 11.2.16 was listed with an expected release date of October 15. Administrators should follow the advisory’s upgrade path for their installed version.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://security.paloaltonetworks.com/CVE-2026-0322\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Palo Alto Networks says no</a> known workaround exists. Restricting management access to trusted internal IP addresses, ideally through a dedicated jump box, reduces exposure but does not replace patching. Its <a href=\"https://live.paloaltonetworks.com/t5/community-blogs/tips-amp-tricks-how-to-secure-the-management-access-of-your-palo/ba-p/464431\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">management access guidance</a> warns against exposing administrative interfaces to the internet or other untrusted networks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Palo Alto identified 66[.]42[.]72[.]14, 208[.]83[.]239[.]114, and 149[.]248[.]47[.]234 as addresses linked to threat activity and limited exploit attempts.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Security teams can use these indicators when reviewing management traffic, while prioritizing upgrades and tighter access controls. The advisory warns that attack variations may evade current signatures, making a supported fixed release the recommended protection for affected systems.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong>An EDR alert reveals an attack. But can it tell the full story? <a href=\"https://www.manageengine.com/products/desktop-central/edr-av-comparatives.html?utm_source=CSN&amp;utm_medium=TPS-Linkedin&amp;utm_campaign=EDR-AVC\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Discover how to reconstruct the attack timeline</a>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/pan-os-0-day-vulnerability/\">Hackers Exploit Palo Alto PAN-OS 0-day Flaw to Gain Root Code Execution on Firewalls</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:d7fa9e5d6781694cd34bb37baae168e99beb9b9321575cdf7731a5041e3257f4",
+   "url": "https://cybersecuritynews.com/cisco-secure-email-gateway-0-day-vulnerability",
+   "title": "Cisco Secure Email Gateway 0-Day Vulnerability Actively Exploited in Attacks",
+   "published_at": "2026-10-15T03:06:04Z",
+   "published_raw": "Thu, 15 Oct 2026 03:06:04 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News",
+    "vulnerability"
+   ],
+   "description": "<p>Cisco has warned that attackers are actively exploiting a critical zero-day vulnerability in Cisco Secure Email Gateway that can give them root access to affected appliances. Tracked as CVE-2026-76519, the flaw carries a CVSS score of 9.8 and allows attacks through specially crafted email attachments without requiring a login. Cisco published its advisory on October [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisco-secure-email-gateway-0-day-vulnerability/\">Cisco Secure Email Gateway 0-Day Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=167381",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Cisco-Secure-Email-Gateway-0-Day-Vulnerability.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "167381",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Cisco has warned that attackers are actively exploiting a critical zero-day vulnerability in Cisco Secure Email Gateway that can give them root access to affected appliances. Tracked as CVE-2026-76519, the flaw carries a CVSS score of 9.8 and allows attacks through specially crafted email attachments without requiring a login.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Cisco published its <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp\">advisory</a> on October 14, 2026. The company said its security response team became aware of active exploitation in October. Public reporting has not identified the attackers or established how many devices have been compromised, leaving the scale of the campaign unclear.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability sits in the Advanced Malware Protection feature, known as AMP. Cisco says the gateway fails to handle certain email attachments safely when its File Reputation service is enabled. An attacker can send a malicious attachment through an affected device to write arbitrary files and potentially execute commands with root privileges.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Root access gives an attacker control over the underlying operating system. The entry point is the gateway processing an attachment, rather than a user opening a file. Cisco has not described a requirement for a recipient to click a link or launch the attachment.</p>\n\n\n\n<h2 id=\"h-cisco-secure-email-gateway-0-day-vulnerability\" class=\"wp-block-heading\"><strong>Cisco Secure Email Gateway 0-Day Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Both physical and virtual appliances are affected when they run vulnerable AsyncOS software and meet two conditions. File Reputation must be enabled and assigned to a mail policy, and the Content Scanner Tools package must be older than version 25.3.0.5525. Cisco Secure Email and Web Manager and Secure Web Appliance are not affected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This disclosure follows another <a href=\"https://cybersecuritynews.com/cisco-secure-email-gateway-flaw-exploited/\">actively exploited Secure Email Gateway flaw</a>, CVE-2026-76461, reported in September. Earlier coverage of <a href=\"https://cybersecuritynews.com/cisco-0-day-rce-secure-email-gateway-vulnerability/\">CVE-2025-20393</a> also documented attacks against Cisco email appliances, although that vulnerability involved the Spam Quarantine feature rather than AMP.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators can check File Reputation under the Advanced Malware Protection settings for incoming or outgoing mail policies. The <code>contentscannerstatus</code> command shows the installed Content Scanner Tools version.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For investigation, Cisco recommends running <code>grep \"System Security\" system_logs</code> and checking every device in a cluster. A suspected compromise message requires incident response, while an incomplete security scan requires support from Cisco’s Technical Assistance Center.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A clean result does not rule out an attack. Cisco warns that intruders with root access may hide or delete evidence. Security teams should also review independent firewall and network logs for unexpected uploads from the gateway or downloads from suspicious addresses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Patching closes the entry point but does not establish whether attackers previously gained access. Organizations that find suspicious activity should contact Cisco TAC and preserve available evidence to support a detailed investigation.</p>\n\n\n\n<h2 id=\"h-fixed-versions-and-immediate-action\" class=\"wp-block-heading\"><strong>Fixed Versions and Immediate Action</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Cisco lists AsyncOS 15.5.5-014 and 16.5.0-780 as fixed releases. Customers on version 16.0 should migrate to a fixed release. Cisco strongly recommends moving installations earlier than version 16.5 to 16.5.0-780.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The fix is also available through Content Scanner Tools version 25.3.0.5525 or later for licensed, supported AsyncOS releases. This package update does not require a full software upgrade or restart. Administrators who disabled automatic updates can request it using <code>contentscannerupdate</code>, then verify the installed version.</p>\n\n\n\n<p class=\"wp-block-paragraph\">There are no workarounds. Customers with automatic updates enabled should confirm that the fixed package has actually arrived rather than assume protection.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Cisco says it has already deployed the corrected package across Secure Email Cloud Gateway, so those customers do not need to apply the update themselves. For affected organizations, updating the gateway and checking for earlier compromise should proceed together.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong>An EDR alert reveals an attack. But can it tell the full story? <a href=\"https://www.manageengine.com/products/desktop-central/edr-av-comparatives.html?utm_source=CSN&amp;utm_medium=TPS-Linkedin&amp;utm_campaign=EDR-AVC\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Discover how to reconstruct the attack timeline</a>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisco-secure-email-gateway-0-day-vulnerability/\">Cisco Secure Email Gateway 0-Day Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:37356df481d16ae2ef2d6cbadd00b71e6dcfb9133380aaaa56d275d25499e492",
    "url": "https://cybersecuritynews.com/multiple-nginx-vulnerabilities",
