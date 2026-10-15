@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-15T17:00:52Z",
+ "updated_at": "2026-10-15T18:00:48Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-15T17:00:52Z",
+  "last_success_at": "2026-10-15T18:00:48Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:6c6c7e1d895a61ea95eb761d6f4e14ae1877b14f5faf72279bd896be16b54f11",
+   "url": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges",
+   "title": "Fake Arch Linux packages push malware with root privileges",
+   "published_at": "2026-10-15T17:12:31Z",
+   "published_raw": "Thu, 15 Oct 2026 13:12:31 -0400",
+   "categories": [
+    "security",
+    "Linux"
+   ],
+   "description": "A threat actor uploaded malicious packages to the Arch User Repository (AUR) that impersonated two popular helper tools, yay and paru. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:a4733a1be89d46fd9ce1b09469f604f5e286476b782cd9ac5938cbbd59001908",
    "url": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester",
@@ -1598,29 +1620,6 @@
    ],
    "description": "Hackers are actively scanning for a Rejetto HFS weak signing key vulnerability, tracked as CVE-2026-61500, that allows session forgery, account takeover, and remote code execution (RCE). [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:74384474326bbd2f4e92ceea165a2a16cc089514f700b54f3935fccabda348f1",
-   "url": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data",
-   "title": "IQVIA fined $7.8 million for failing to properly anonymize health data",
-   "published_at": "2026-10-05T17:19:53Z",
-   "published_raw": "Mon, 05 Oct 2026 13:19:53 -0400",
-   "categories": [
-    "security",
-    "Healthcare",
-    "Legal"
-   ],
-   "description": "Italy's Data Protection Authority (GPDP) has fined IQVIA €7 million ($7.8M) over poor data-processing practices that the agency says could have put roughly one million patients at risk of data exposure and de-anonymization. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
    "authors": [
     {
      "name": "Bill Toulas",
