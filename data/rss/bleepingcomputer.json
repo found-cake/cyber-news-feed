@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-16T20:00:32Z",
+ "updated_at": "2026-10-16T21:00:33Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-16T20:00:32Z",
+  "last_success_at": "2026-10-16T21:00:33Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c0bd42b621bad7f686dba44568cc344233913d2ad7415250051c4af4d273a243",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers",
+   "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+   "published_at": "2026-10-16T20:00:59Z",
+   "published_raw": "Fri, 16 Oct 2026 16:00:59 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:ede028256a25d1488816f6e3c3abc350b7cfde7dd08c12034942e45fa6565c4e",
    "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware",
@@ -1581,27 +1602,6 @@
    ],
    "description": "Advantest Corporation is notifying affected individuals that a ransomware attack earlier this year exposed their personally identifiable data. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:24c1770321189cb9f9cd7d670f1978b646d76c89773e2e0dcce37a38bd4188df",
-   "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites",
-   "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
-   "published_at": "2026-10-06T21:00:27Z",
-   "published_raw": "Tue, 06 Oct 2026 17:00:27 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Hackers are exploiting stored cross-site scripting (XSS) vulnerabilities in two unrelated WordPress plugins, Ninja Forms and WPC Product Bundles for WooCommerce, to install backdoors and create rogue admin accounts. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
    "authors": [
     {
      "name": "Bill Toulas",

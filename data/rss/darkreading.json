@@ -1,15 +1,87 @@
 {
  "schema_version": 1,
  "source": "darkreading",
- "updated_at": "2026-10-16T20:00:32Z",
+ "updated_at": "2026-10-16T21:00:33Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-16T20:00:32Z",
+  "last_success_at": "2026-10-16T21:00:33Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:92a3eccd55c658ebec18ddce974932eda4b0abd984bce429163f7d7612b5757f",
+   "url": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
+   "title": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
+   "published_at": "2026-10-16T20:34:37Z",
+   "published_raw": "Fri, 16 Oct 2026 20:34:37 GMT",
+   "categories": [
+    "endpoint-security"
+   ],
+   "description": "Ivanti, Cisco, and Palo Alto Networks all had vulnerabilities in edge devices come under fire this week. Now BeyondTrust joins the group.",
+   "feed_id": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
+   "authors": [
+    {
+     "name": "Nate Nelson",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4a126b2e0eae913e/6ad27ebc7cb22e18dd04a52b/Locusts-ZU_09-Getty.jpg?width=720&quality=80&disable=upscale",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4a126b2e0eae913e/6ad27ebc7cb22e18dd04a52b/Locusts-ZU_09-Getty.jpg?width=720&quality=80&disable=upscale",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "darkreading": {
+     "guid_is_permalink": "false"
+    }
+   }
+  },
+  {
+   "id": "sha256:3235ff50c52f8b1cce88b49daf09bef31fde358ca7f8faa39e2b4afc717c35aa",
+   "url": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
+   "title": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
+   "published_at": "2026-10-16T19:49:30Z",
+   "published_raw": "Fri, 16 Oct 2026 19:49:30 GMT",
+   "categories": [
+    "application-security"
+   ],
+   "description": "Campaigns that impersonate popular AI brands are on the rise, and they typically use ClickFix-like tactics to target unsuspecting enterprise employees.",
+   "feed_id": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
+   "authors": [
+    {
+     "name": "Rob Wright",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1652c5132de5d8e6/6ad27799ee37e003e0d27496/airesults-Ekaterina_Goncharova-Getty-2173055307.jpg?width=720&quality=80&disable=upscale",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1652c5132de5d8e6/6ad27799ee37e003e0d27496/airesults-Ekaterina_Goncharova-Getty-2173055307.jpg?width=720&quality=80&disable=upscale",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "darkreading": {
+     "guid_is_permalink": "false"
+    }
+   }
+  },
   {
    "id": "sha256:c679d74c8a4823d805329f4a65c7cfedc6a7ae86acfe77afdfafa1cc24af5b3e",
    "url": "https://www.darkreading.com/ics-ot-security/ai-takes-control-robotic-arm-16-minutes",
@@ -606,42 +678,6 @@
     },
     {
      "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2541a007c47b0f0b/6ac62adf05f346dc373093cd/rogue_AO_bot_Chris_Light_Alamy.png?width=720&quality=80&disable=upscale",
-     "kind": "content",
-     "medium": "image"
-    }
-   ],
-   "source_metadata": {
-    "darkreading": {
-     "guid_is_permalink": "false"
-    }
-   }
-  },
-  {
-   "id": "sha256:d47c844a33884eba600d4847778249914238a534a0eaeb699d0eace45b464d7a",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads",
-   "title": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
-   "published_at": "2026-10-06T20:32:58Z",
-   "published_raw": "Tue, 06 Oct 2026 20:32:58 GMT",
-   "categories": [
-    "cyberattacks-data-breaches"
-   ],
-   "description": "Threat actors are now hiding payloads by using DNS TXT records and browser cache pre-fetching, making it tougher to spot early attack stages.",
-   "feed_id": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads",
-   "authors": [
-    {
-     "name": "Alexander Culafi",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [
-    {
-     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2ab5c3db5bfeb9c5/6ac54ab0a727c6201593319b/Alligator_below_water-SushiSu-GettyImages-2215955885.jpg?width=720&quality=80&disable=upscale",
-     "kind": "thumbnail",
-     "medium": ""
-    },
-    {
-     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2ab5c3db5bfeb9c5/6ac54ab0a727c6201593319b/Alligator_below_water-SushiSu-GettyImages-2215955885.jpg?width=720&quality=80&disable=upscale",
      "kind": "content",
      "medium": "image"
     }
