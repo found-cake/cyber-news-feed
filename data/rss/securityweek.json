@@ -1,15 +1,86 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-16T10:00:32Z",
+ "updated_at": "2026-10-16T11:00:37Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-16T10:00:32Z",
+  "last_success_at": "2026-10-16T11:00:37Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ea6f19702b9adeb35c46eb258e2e5567345d16c21cb2ee05615f14d62c687ff1",
+   "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day",
+   "title": "Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day",
+   "published_at": "2026-10-16T10:53:22Z",
+   "published_raw": "Fri, 16 Oct 2026 10:53:22 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "BeyondTrust",
+    "China",
+    "China APT",
+    "exploited",
+    "vulnerability",
+    "Zero-Day"
+   ],
+   "description": "<p>Armory Castle exploited CVE-2026-102764 for initial access, deployed custom tools, and deleted logs and artifacts.</p>\n<p>The post <a href=\"https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/\">Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50087",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:8be25c057aac0aa050228a40a9938b86cd60b522f8aa3de09d36f86b137fb87e",
+   "url": "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks",
+   "title": "OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks",
+   "published_at": "2026-10-16T10:32:11Z",
+   "published_raw": "Fri, 16 Oct 2026 10:32:11 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "AI",
+    "OpenAI",
+    "rogue AI"
+   ],
+   "description": "<p>Left without funds for a coding task, an OpenAI model spent test crypto from a stranger’s wallet and left it out of its report.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/\">OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50085",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:470746d9a868cb54b002439550edfeeb371901cd07146a301c4241b0dea99597",
    "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities",
@@ -93,6 +164,7 @@
     "M&A Tracker",
     "Acquisition",
     "Data Security",
+    "Featured",
     "M&A",
     "Proofpoint",
     "Varonis"
@@ -2720,42 +2792,6 @@
    "authors": [
     {
      "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:15cf13778f12a400a0dae0c0789304d48cbc60b38d1c5bbbfc20823b32eaf9c1",
-   "url": "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads",
-   "title": "Long-Running NPM Malware Campaign Accumulates 40,000 Downloads",
-   "published_at": "2026-10-06T10:34:25Z",
-   "published_raw": "Tue, 06 Oct 2026 10:34:25 +0000",
-   "categories": [
-    "Malware & Threats",
-    "Supply Chain Security",
-    "MALFEX",
-    "malware",
-    "NPM",
-    "supply chain attack"
-   ],
-   "description": "<p>Since August 2023, attackers have published eight malicious packages as part of the MALFEX supply chain campaign.</p>\n<p>The post <a href=\"https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/\">Long-Running NPM Malware Campaign Accumulates 40,000 Downloads</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49818",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
      "uri": "",
      "email": ""
     }
