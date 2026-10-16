@@ -1,15 +1,122 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-16T04:00:48Z",
+ "updated_at": "2026-10-16T05:00:48Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-16T04:00:48Z",
+  "last_success_at": "2026-10-16T05:00:48Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:17416dbc4dddeb3d8a5e7bd6783ded5a45725d25f2ef60c96cb76f42584867a7",
+   "url": "https://cybersecuritynews.com/linus-torvalds-use-claude-code-patches",
+   "title": "Linus Torvalds Reveals Claude Code Wrote Linux Kernel Patches and Test Programs",
+   "published_at": "2026-10-16T04:07:53Z",
+   "published_raw": "Fri, 16 Oct 2026 04:07:53 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Linux"
+   ],
+   "description": "<p>Linus Torvalds has disclosed that Claude Code helped write Linux kernel patches, test programs, review material, and the first draft of a technical write-up under his direction. The work targets page-cache read performance, showing how AI coding tools are used in core operating-system development while openly documenting technical limits. Torvalds states that Claude Code produced [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linus-torvalds-use-claude-code-patches/\">Linus Torvalds Reveals Claude Code Wrote Linux Kernel Patches and Test Programs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=167502",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Linus-Torvalds-Reveals-Claude-Code-Wrote-Linux-Kernel-Patches-and-Test-Programs.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "167502",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Linus Torvalds has disclosed that <a href=\"https://cybersecuritynews.com/claude-code-agent-file-deletion/\" target=\"_blank\" rel=\"noreferrer noopener\">Claude Code helped</a> write Linux kernel patches, test programs, review material, and the first draft of a technical write-up under his direction.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The work targets page-cache read performance, showing how AI coding tools are used in core operating-system development while openly documenting technical limits.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Torvalds states that Claude Code produced the material under his guidance. He separately notes that measurements ran on his machine.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The disclosure describes a supervised development effort, not an AI system independently maintaining Linux. The eight-patch <a href=\"https://cybersecuritynews.com/cve-mcp-server-and-claude/\" target=\"_blank\" rel=\"noreferrer noopener\">series addresses a bottleneck </a>when many threads perform small reads from the same cached file.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Each read normally updates a folio reference count. A folio represents a group of memory pages, and repeated updates force processor cores to compete over shared data.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The proposed approach delays reusing removed page-cache memory until an RCU grace period ends. This gives active readers time to finish before another purpose can use that memory.</p>\n\n\n\n<p class=\"wp-block-paragraph\">With that protection, the new read path can copy cached data without taking and dropping folio references. When conditions prevent the faster route, including missing cached data or a user-buffer fault, the existing read path continues the operation.</p>\n\n\n\n<h2 id=\"h-linus-torvalds-reveals-claude-code-wrote-linux-patches\" class=\"wp-block-heading\"><strong>Linus Torvalds Reveals Claude Code Wrote Linux Patches </strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=4c0f3697118eb3a708ea79175f7f07c43339bfab\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">In the October 10 commit message, Torvalds reported</a> that eight threads on his four-core, eight-thread Intel laptop achieved roughly 30–33 million 16-byte reads per second from a cached file, compared with 9.9–10.4 million in the baseline.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Those results apply to a narrow benchmark, not overall Linux performance. Testing used ext4, with processor security mitigations and CONFIG_HARDENED_USERCOPY disabled. We didn&#8217;t measure a larger machine, and some reads involving missing user-memory pages became slower.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Memory pressure remains a major concern. Delayed frees can leave substantial memory waiting for reuse without the allocator properly accounting for it. Later patches reduced that backlog, but the write-up still lists unresolved allocation problems and no firm bound when grace periods run slowly.</p>\n\n\n\n<p class=\"wp-block-paragraph\">One test checked for incorrect data during repeated page eviction and reuse. Normal runs reported no bad reads, while a deliberately broken version returned wrong bytes, including data from other users of freed memory.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Testing remained limited. We did not cover KASAN, lockdep, hardened usercopy, other architectures, or several stress cases.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The disclosure complements coverage of <a target=\"_blank\" href=\"https://cybersecuritynews.com/claude-code-security/\" rel=\"noopener\">Claude Code Security</a> and <a target=\"_blank\" href=\"https://cybersecuritynews.com/ai-agent-finds-linux-kernel-bug/\" rel=\"noopener\">AI-led Linux kernel bug research</a>. AI can support development and investigation, but these patches still need broader testing and review before real workloads can validate their performance gains and memory-safety claims.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Update defenses against new malware as soon as it appears. <a href=\"https://any.run/threat-intelligence-feeds/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+12-18&amp;utm_content=ti+feeds+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate TI Feeds with data from 16K SOCs</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/linus-torvalds-use-claude-code-patches/\">Linus Torvalds Reveals Claude Code Wrote Linux Kernel Patches and Test Programs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:81154d63677d6384bef559566d6ecbacc33f1c68ccd530362210c7b5b9adfb33",
+   "url": "https://cybersecuritynews.com/adobe-acrobat-flaw",
+   "title": "Critical Adobe Acrobat Flaw Lets Malicious PDFs Trigger One-Click Memory Corruption",
+   "published_at": "2026-10-16T04:05:46Z",
+   "published_raw": "Fri, 16 Oct 2026 04:05:46 +0000",
+   "categories": [
+    "Adobe",
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability"
+   ],
+   "description": "<p>Adobe has fixed a flaw in Acrobat and Acrobat Reader that lets a malicious PDF corrupt memory when a user opens it. Tracked as CVE-2026-81983, the out-of-bounds write carries a CVSS score of 7.8 and could lead to code execution with the victim’s user rights. Adobe says it has seen no active exploitation so far. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/adobe-acrobat-flaw/\">Critical Adobe Acrobat Flaw Lets Malicious PDFs Trigger One-Click Memory Corruption</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=167282",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Adobe-Acrobat-Flaw-Lets-Malicious-PDFs-Trigger-One-Click-Memory-Corruption.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "167282",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Adobe has fixed a flaw in Acrobat and Acrobat Reader that lets a <a href=\"https://cybersecuritynews.com/critical-ghostscript-flaw/\" target=\"_blank\" rel=\"noreferrer noopener\">malicious PDF corrupt memory</a> when a user opens it. Tracked as CVE-2026-81983, the out-of-bounds write carries a CVSS score of 7.8 and could lead to code execution with the victim’s user rights.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Adobe says it has seen no active exploitation so far. The bug sits in Acrobat’s image pipeline, code that starts parsing image data as soon as a PDF opens.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Researchers found it with a custom Python fuzzer built largely with help from a <a href=\"https://cybersecuritynews.com/ai-workflows-stealing-proxies/\" target=\"_blank\" rel=\"noreferrer noopener\">large language model.</a> Instead of randomly modifying full PDF files, the tool created small, valid documents.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It changed image fields such as width, height, bit depth, color space, filters, and sample bytes. The strongest crash came from a crafted 16-bit image inside a PDF only 745 bytes in size.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The root cause is a 32-bit integer overflow in Acrobat.dll. Acrobat calculates the number of image samples by multiplying an image’s width by its color component count.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A second size check adds two bytes for every 16-bit sample. With a very large width, this later value wraps to a tiny number, so Acrobat accepts a very short data stream.</p>\n\n\n\n<h2 id=\"h-adobe-acrobat-flaw\" class=\"wp-block-heading\"><strong>Adobe Acrobat Flaw</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The byte-swap loop still sees a huge sample count and keeps reading and writing past the end of a 16-byte buffer. This <a href=\"https://cybersecuritynews.com/signed-malware-masquerading-as-teams/\" target=\"_blank\" rel=\"noreferrer noopener\">causes memory corruption </a>and may give an attacker a path to run code.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A proof-of-concept image used a width of 536,870,912, a height of one, 16 bits per component, and the DeviceCMYK color space. Four CMYK components produced a sample count of 0x80000000.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmPSbI8WedKtMrzuIFiwIRg613fqZ2hh4v8wsi0FmwS7zU4S4SIDvGXr8QcH95uTZN7QXz-4-MhC8CeEY8RhnznWuMpJ7uJjMkIj55wXErTXZKQr495Bft3T-RdcKJLdgsw1_AV7C9oPKaS-_K1vQJYCS-T-L0a-PNwKIgUD5xPP4yQUuMlmZMJjcUttc/s1600/Screenshot%202026-10-14%20175829%20%281%29.webp\" alt=\"The size check approves a buffer the loop then overruns (source : remedio )\" /><figcaption class=\"wp-element-caption\">The size check approves a buffer the loop then overruns (source : remedio )</figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://remedio.io/blog/cve-2026-81983-integer-overflow-vulnerability-enables-out-of-bounds-write-in-adobe-acrobat/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">According to Remedio research</a>, the related byte-size calculation reached 0x100000000 and wrapped to zero in 32-bit math, allowing an eight-byte stream to pass validation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Opening the PDF was enough to reach the faulty image-rendering path. The CVSS vector shows a local attack path, low attack complexity, no privileges, and required user interaction.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A successful exploit can have high impact on confidentiality, integrity, and availability. In practice, attackers still need to deliver the malicious document via email, chat, downloads, or another route.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://cybersecuritynews.com/adobe-0-day-vulnerability-exploited/\" target=\"_blank\" rel=\"noreferrer noopener\">Adobe fixed the issue</a> by using 64-bit math to calculate the sample count and rejecting values above INT_MAX before touching memory. The fix arrived in security bulletin APSB26-141 on September 8, 2026.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Adobe patched Acrobat and Reader Continuous 26.002.21900 and earlier with version 26.002.21901. Acrobat 2024 Classic 24.001.30383 and earlier was updated to 24.001.30429.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Users and administrators should install the fixed releases without delay, keep automatic updates enabled, and treat unexpected PDF attachments with care.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Security teams should also filter suspicious PDFs at email gateways and watch for crashes tied to Acrobat.dll. Adobe lists CVE-2026-81983 as critical, while the NVD record confirms that exploitation needs a victim to open a crafted file.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The finding also shows how focused, AI-assisted fuzzing can find deep bugs in old file parsers. Readers can review our earlier coverage of <a href=\"https://cybersecuritynews.com/adobe-acrobat-reader-vulnerabilities-patch/\" target=\"_blank\" rel=\"noopener\">Adobe Acrobat Reader flaws that allow arbitrary code execution</a> and the Adobe Acrobat zero-day exploited through malicious PDFs for wider context on PDF security risks.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Update defenses against new malware as soon as it appears. <a href=\"https://any.run/threat-intelligence-feeds/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+12-18&amp;utm_content=ti+feeds+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate TI Feeds with data from 16K SOCs</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/adobe-acrobat-flaw/\">Critical Adobe Acrobat Flaw Lets Malicious PDFs Trigger One-Click Memory Corruption</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:38cf8ac368855ac2d7d0c7a5298c93b7d9900f8963fc74cffd6bf69cfbcae9f0",
+   "url": "https://cybersecuritynews.com/poc-gitlab-rce-vulnerability",
+   "title": "PoC Exploit Released for Critical GitLab RCE Vulnerability (CVE-2026-97229)",
+   "published_at": "2026-10-16T04:01:09Z",
+   "published_raw": "Fri, 16 Oct 2026 04:01:09 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "GitLab",
+    "Vulnerability"
+   ],
+   "description": "<p>A public proof-of-concept (PoC) for CVE-2026-97229 published by researcher Jonah Burgess shows how a flaw in GitLab’s CI/CD regular-expression compiler could be used to run commands on a vulnerable server. GitLab rates the issue Critical with a CVSS score of 10.0. The exploit code is publicly available, raising the risk for organizations that have not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-gitlab-rce-vulnerability/\">PoC Exploit Released for Critical GitLab RCE Vulnerability (CVE-2026-97229)</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=167487",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/PoC-Exploit-Released-for-Critical-GitLab-RCE-Vulnerability-CVE-2026-97229.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "167487",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A public proof-of-concept (PoC) for CVE-2026-97229 published by researcher Jonah Burgess shows how a flaw in GitLab’s CI/CD regular-expression compiler could be used to run commands on a vulnerable server.</p>\n\n\n\n<p class=\"wp-block-paragraph\">GitLab rates the issue Critical with a CVSS score of 10.0. The exploit code is publicly available, raising the risk for organizations that have not yet installed the security updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The PoC targets GitLab Community Edition and Enterprise Edition. Its author reports testing the included exploit layout against the official Linux amd64 GitLab CE 19.4.1 image. The code uses GitLab’s CI lint endpoint, which checks CI/CD configuration files, as part of the exploit chain.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The exploit has an important access condition. The attacker needs permission to push a branch to a public project on the affected GitLab instance. The PoC then sends a later request to the CI lint endpoint without a token, cookie, or other authorization header.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Jonah Burgess says the command runs as GitLab’s git account, not as an administrator. The public code is an initial release, and its author says further analysis of affected configurations and other possible paths is ongoing.</p>\n\n\n\n<h2 id=\"h-poc-exploit-released-for-critical-gitlab-vulnerability\" class=\"wp-block-heading\"><strong>PoC Exploit Released for Critical GitLab Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">GitLab’s advisory describes CVE-2026-97229 as an <a href=\"https://cybersecuritynews.com/gitlab-bugs-enable-code-execution/\" target=\"_blank\" rel=\"noreferrer noopener\">integer overflow in the CI/CD regular-expression compiler</a>. The PoC details a chain in which CI lint reads a crafted pipeline configuration from an attacker-controlled branch and processes a regular expression against specially named repository paths.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A Unicode path causes Ruby to compile the expression again after GitLab’s size check. The exploit authors say this leads to an integer overflow that redirects the regular-expression engine’s execution and reaches a command-execution function.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The repository reports that the test request usually ends with an HTTP 502 error because the worker process crashes after the command runs. That response alone does not confirm successful exploitation.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/jburgess-r7/CVE-2026-97229-PoC\">Jonah Burgess author’s tests</a>, command output returned through a callback indicated execution. The PoC also requires substantial memory, and the published layout is specific to one GitLab build. The author warns that low memory or multiple concurrent requests could instead disrupt service.</p>\n\n\n\n<p class=\"wp-block-paragraph\">GitLab says the flaw affects CE and EE versions 19.2 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2. The company released those fixed versions on October 12, 2026, and strongly recommends that self-managed installations upgrade promptly.</p>\n\n\n\n<p class=\"wp-block-paragraph\">GitLab.com is already running a patched version, while GitLab Dedicated customers do not need to take action. Administrators should confirm their version and upgrade to the fixed release for their branch or a later supported version.</p>\n\n\n\n<p class=\"wp-block-paragraph\">They should also review recent changes to CI/CD configuration files, especially new or modified regular expressions and project branches. GitLab’s earlier CI/CD regex security coverage and <a href=\"https://cybersecuritynews.com/gitlab-patches-13-security-flaws/\" target=\"_blank\" rel=\"noopener\">previous security-update reporting</a> provide additional context on why these pipeline components deserve close review.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This PoC does not establish that the vulnerability is being used in real-world intrusions. However, it gives defenders a concrete reason to prioritize patching: the issue has the highest CVSS rating, and public exploit code describes a path from project write access to command execution on a vulnerable server.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Update defenses against new malware as soon as it appears. <a href=\"https://any.run/threat-intelligence-feeds/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+12-18&amp;utm_content=ti+feeds+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate TI Feeds with data from 16K SOCs</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-gitlab-rce-vulnerability/\">PoC Exploit Released for Critical GitLab RCE Vulnerability (CVE-2026-97229)</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:adeee2a9fef6b01862a273966e07a8e4c6e20a5549cfe1183ca8412d05bee939",
    "url": "https://cybersecuritynews.com/linux-kernel-flaw-2",
