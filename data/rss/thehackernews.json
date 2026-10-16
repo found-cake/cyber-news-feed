@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-16T17:00:34Z",
+ "updated_at": "2026-10-16T18:00:35Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-16T17:00:34Z",
+  "last_success_at": "2026-10-16T18:00:35Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -58,6 +58,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnlTrJzuyuM3FgdyTkx-JLieOXeR9fK_hENZFrdItZ09E4ZFhk8UYOPslpbGGidTUGCDgcTHqY7wvYrThg-Hwl24MQhL63GIfmRsBLy9MJ7iDXn1XbbX1W_EgGFw9eRyT4LOJq0aoyWhmOHF3O5a9L5LcKNS1IJxQqs_UBwmOnPRmx3fXwUPpKeYdARVE/s260-e100/anyrun.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:ebaf37949a88c936e530e83bfd13a0855d99a808c925f902d5ff17e1242b28eb",
+   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+   "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+   "published_at": "2026-10-16T17:48:45Z",
+   "published_raw": "2026-10-16T23:18:45.028+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4827857839823742859",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqmitTMm5t8BBKfynqzFAKqJSzh_s7fQczmMm5u95RLUUzuWMubd5DeM8e8EH6YOpP-_gvbYwn8Cd3flsL-nGIupBw5HOo49Orr7J2rqhI99J7U4LcXW6shlxd3w0zFAng1mLw5xGb-F9GRmpDK82GC1-Dcb1gPcvkgl4wVi0-QTEGalDwPmelGE0TtNU/s260-e100/openbsd.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -713,33 +740,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:1cc27b40bd693f11ee901a72c6f0b91c91ca265a30023a39e42ecddf1508317e",
-   "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
-   "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
-   "published_at": "2026-10-13T11:09:10Z",
-   "published_raw": "2026-10-13T16:39:10.976+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner.\n\nLG has issued a fix, according to&nbsp;an advisory published by SSD Secure Disclosure&nbsp;on October 12.\n\nThe chain was tested on two TV models, the 32LQ636BPSA and the 27TQ600SW, running webOS 7.5.7-25 on firmware",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3553207655899923518",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs2Z0M9u8vYqE8SBNBzfOGoc4Crog-_PBWeZNY8IprfYaa08ZyZ_PTfMhosBFrQNS_f1JecVbl_HEq7sutExV_92yaZWVIA51YD59JOFa_fKZQyEvpZNUxai8pgDrQX_Kp_wQqJoEFFQIFEwa2c3vhyphenhyphenQtU0U9w5XDwjSAij3BPz_qRs7-t0eu8ZssOZuE/s260-e100/lg-tv.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:9e713cfb0ab36a8f6aca9173f63ba14dfb71158c1b7dde3970b9c0b0d5c08ccc",
    "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
    "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
@@ -787,6 +787,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh64tQNgn3aqDhyphenhyphengoK8NxQG3DPvWWi0fP185meJUr14eUmcX18mKJdkUz6QsMU6bTxmwAtHrd8I0J5FQjvTENA1-N1F60zsR1x2iDzaJNhPbg_6iGYTELpBOwiTbBiaMWLmWQ4naaMfCLCcThNEfC302zF-YCjlev6138DvUrXfr5noGCpZaT9JnGd7hUw/s260-e100/supermarket.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:1cc27b40bd693f11ee901a72c6f0b91c91ca265a30023a39e42ecddf1508317e",
+   "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+   "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
+   "published_at": "2026-10-13T11:09:10Z",
+   "published_raw": "2026-10-13T16:39:10.976+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner.\n\nLG has issued a fix, according to&nbsp;an advisory published by SSD Secure Disclosure&nbsp;on October 12.\n\nThe chain was tested on two TV models, the 32LQ636BPSA and the 27TQ600SW, running webOS 7.5.7-25 on firmware",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3553207655899923518",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs2Z0M9u8vYqE8SBNBzfOGoc4Crog-_PBWeZNY8IprfYaa08ZyZ_PTfMhosBFrQNS_f1JecVbl_HEq7sutExV_92yaZWVIA51YD59JOFa_fKZQyEvpZNUxai8pgDrQX_Kp_wQqJoEFFQIFEwa2c3vhyphenhyphenQtU0U9w5XDwjSAij3BPz_qRs7-t0eu8ZssOZuE/s260-e100/lg-tv.jpg",
      "kind": "thumbnail",
      "medium": ""
     }

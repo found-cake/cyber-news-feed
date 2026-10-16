@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-16T17:00:34Z",
+ "updated_at": "2026-10-16T18:00:35Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-16T17:00:34Z",
+  "last_success_at": "2026-10-16T18:00:35Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ede028256a25d1488816f6e3c3abc350b7cfde7dd08c12034942e45fa6565c4e",
+   "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware",
+   "title": "Zero-click attacks used targeted ads to deliver Candiru spyware",
+   "published_at": "2026-10-16T17:20:03Z",
+   "published_raw": "Fri, 16 Oct 2026 13:20:03 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:f0d31725ce6b131c61dc3898de919cef44fc5009837e3f8bc8e6c666f225c06c",
    "url": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do",
@@ -1605,27 +1626,6 @@
    "authors": [
     {
      "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:a1394fc7dc7e52229c89d25b6cba21979b9bb3285e55e1276e3b4fbdc93ea404",
-   "url": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence",
-   "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
-   "published_at": "2026-10-06T17:34:59Z",
-   "published_raw": "Tue, 06 Oct 2026 13:34:59 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple self-hosted Data Center products, including Confluence, Jira, and Bitbucket. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
