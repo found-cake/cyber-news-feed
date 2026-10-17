@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-17T14:00:26Z",
+ "updated_at": "2026-10-17T15:00:23Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-17T14:00:26Z",
+  "last_success_at": "2026-10-17T15:00:23Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:58f47558d22e32b235c6f909a5b482a49e12ef9118f9b40647bf210b5b6ee566",
+   "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon",
+   "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+   "published_at": "2026-10-17T14:32:48Z",
+   "published_raw": "Sat, 17 Oct 2026 10:32:48 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:c0bd42b621bad7f686dba44568cc344233913d2ad7415250051c4af4d273a243",
    "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers",
@@ -1500,27 +1521,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:d3a3e2b5955c24f49dddaa7a877497c356e132a110c911485ab7d096972cf3e6",
-   "url": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready",
-   "title": "Ransomware has a new target. Is your backup ready?",
-   "published_at": "2026-10-07T14:01:11Z",
-   "published_raw": "Wed, 07 Oct 2026 10:01:11 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Ransomware groups are increasingly targeting backup infrastructure to eliminate recovery options and increase pressure on victims to pay. Kaseya explains why organizations need isolated, immutable, and regularly tested backups that attackers cannot easily reach. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
-   "authors": [
-    {
-     "name": "Sponsored by Kaseya",
      "uri": "",
      "email": ""
     }
