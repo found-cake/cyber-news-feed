@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-17T10:00:25Z",
+ "updated_at": "2026-10-17T11:00:25Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-17T10:00:25Z",
+  "last_success_at": "2026-10-17T11:00:25Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ac6e3d37283a80f6a6580049a1ba8d25814e21a9728584ef34a482fdb08b270b",
+   "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel",
+   "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
+   "published_at": "2026-10-17T11:00:00Z",
+   "published_raw": "Sat, 17 Oct 2026 11:00:00 +0000",
+   "categories": [
+    "Malware & Threats",
+    "AdFection",
+    "Candiru",
+    "Featured",
+    "malvertising",
+    "spyware"
+   ],
+   "description": "<p>Israeli company Discover-Tech’s ads allow threat actors to fingerprint and track devices at scale and infect selected targets.</p>\n<p>The post <a href=\"https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/\">Israeli Ad Firm Doubled as Candiru&#8217;s Zero-Click Spyware Delivery Channel</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50091",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:cf304ded909ede943cb840bd25e9f3341c8388026738d6e6c933c0997570044d",
    "url": "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit",
@@ -2468,75 +2504,6 @@
    ],
    "description": "<p>The Japanese chip testing giant said hackers stole personal information from its servers in the February 2026 cyberattack.</p>\n<p>The post <a href=\"https://www.securityweek.com/advantest-discloses-data-breach-months-after-ransomware-attack/\">Advantest Discloses Data Breach Months After Ransomware Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=49852",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:1231bdf7f5f0f8ddab30db5c954ab5f1309ea84f18639062ec9ab7549df50c45",
-   "url": "https://www.securityweek.com/chrome-155-update-patches-247-vulnerabilities",
-   "title": "Chrome 155 Update Patches 247 Vulnerabilities",
-   "published_at": "2026-10-07T10:51:57Z",
-   "published_raw": "Wed, 07 Oct 2026 10:51:57 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "Chrome",
-    "vulnerability"
-   ],
-   "description": "<p>Four critical-severity use-after-free defects were fixed in Chromecast, Browser, Navigation, and Track.</p>\n<p>The post <a href=\"https://www.securityweek.com/chrome-155-update-patches-247-vulnerabilities/\">Chrome 155 Update Patches 247 Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49850",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:974d57793beb343c2db19c363f80d51cfca5b680512fd3417e432949a4e2f347",
-   "url": "https://www.securityweek.com/anthropic-introduces-3-tier-cyber-verification-program-for-ai-access",
-   "title": "Anthropic Introduces 3-Tier Cyber Verification Program for AI Access",
-   "published_at": "2026-10-07T10:07:09Z",
-   "published_raw": "Wed, 07 Oct 2026 10:07:09 +0000",
-   "categories": [
-    "Artificial Intelligence",
-    "AI",
-    "Anthropic",
-    "Claude",
-    "Mythos",
-    "Project Glasswing"
-   ],
-   "description": "<p>Anthropic is integrating the CVP and Project Glasswing into a single offering, with three levels of access to its most capable AI models.</p>\n<p>The post <a href=\"https://www.securityweek.com/anthropic-introduces-3-tier-cyber-verification-program-for-ai-access/\">Anthropic Introduces 3-Tier Cyber Verification Program for AI Access</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49846",
    "authors": [
     {
      "name": "Eduard Kovacs",
