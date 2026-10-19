@@ -1,15 +1,86 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-19T11:00:26Z",
+ "updated_at": "2026-10-19T12:00:24Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-19T11:00:26Z",
+  "last_success_at": "2026-10-19T12:00:24Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:6f8e4749df10d142cc828a87c4f7f4aeb9100b102913b1d551beb659d6980a51",
+   "url": "https://cybersecuritynews.com/teams-domain-login-page",
+   "title": "Hackers Registered New Teams-Based Domains and Used a Login Page to Steal Your Logins",
+   "published_at": "2026-10-19T11:40:57Z",
+   "published_raw": "Mon, 19 Oct 2026 11:40:57 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Microsoft",
+    "cyber security"
+   ],
+   "description": "<p>A newly registered domain copies Microsoft Teams’ login page and interface, raising concerns about a phishing attempt targeting workplace users. Security researcher Steven Lim reported that teams-cloud[.]live was just five days old when he flagged it on October 18, 2026. He urged organizations to block the address before employees encounter the fake site. The alert [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/teams-domain-login-page/\">Hackers Registered New Teams-Based Domains and Used a Login Page to Steal Your Logins</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=167877",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Registered-New-Teams-based-Domains-and-Uses-Login-Page-to-Steas-Your-Logins.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "167877",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A newly registered domain copies Microsoft Teams’ login page and interface, raising concerns about a <a href=\"https://cybersecuritynews.com/microsoft-teams-calling-issue/\" target=\"_blank\" rel=\"noreferrer noopener\">phishing attempt</a> targeting workplace users.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Security researcher Steven Lim reported that teams-cloud[.]live was just five days old when he flagged it on October 18, 2026. He urged organizations to block the address before employees encounter the fake site.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The alert highlights phishing built around a familiar business tool. A copied Teams screen could persuade employees to trust a sign-in request. However, the available report does not establish how many people visited the site, whether passwords were captured, or who operates the domain.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.linkedin.com/posts/0x534c_threathunting-share-7517467940300951552-ksYc/?utm_source=social_share_send&amp;utm_medium=member_desktop_web&amp;rcm=ACoAABO-jCkB1he5ufTfbYYMNKmaojg8M31OVpM\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">According to Steven Lim</a>, the site mimics both the Teams login screen and its wider user interface. He said it resembles another example he shared on October 8, 2026. That similarity warrants investigation, but it does not confirm that the same attacker controls both sites.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Lim also reported that clicking an option to update Teams downloaded a TXT file. The alert does not provide the file’s contents, a hash, or evidence that it executes code.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Calling it confirmed malware would therefore go beyond the available findings. The unexpected download remains a useful detail for investigators checking browser activity and downloaded files.</p>\n\n\n\n<h2 id=\"h-fake-microsoft-teams-domains-used-to-steal-credentials\" class=\"wp-block-heading\"><strong>Fake Microsoft Teams Domains Used to Steal Credentials</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">In a pinned comment supplied with the alert, Lim identified amgen[.]teams-cloud[.]live as a healthcare-themed target. The company name appears as a subdomain beneath teams-cloud[.]live. Its presence does not establish that Amgen was breached or that an employee account was accessed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The concern is the gap between what users see and where they are browsing. A convincing Teams design does not make an unrelated domain a Microsoft service.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTF5HUHTAhoVd4fURAOGBXeC7h6b9iTHpU_LRebiX7POCVwiZ4pJvM3hw2qGd7LDHxE70FnmxmX0DjZsNeGRx6p5QtNPFcEV1NmYCPXK_icN5pxbukV_-PBve1YbXYN4437qP4dh7OKUlfmnBIalHUgQDvNUErW9p_NdJzkh_OZIK3Uf4MU6x2LKxQswg/s1600/Screenshot%202026-10-19%20165846%20%281%29.webp\" alt=\"Newly registered teams-cloud[.]live mimics the Microsoft Teams login interface (source : Linkedin )\"/><figcaption class=\"wp-element-caption\">Newly registered teams-cloud[.]live mimics the Microsoft Teams login interface (source: Steven Lim)</figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">Cyber Security News previously covered <a target=\"_blank\" href=\"https://cybersecuritynews.com/hackers-impersonate-it-help-desk-on-teams/\" rel=\"noopener\">attackers posing as IT help desk staff through Teams</a>, pushing employees toward downloads or remote access. That separate activity shows how workplace trust can support phishing without a software flaw.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Another report examined <a target=\"_blank\" href=\"https://cybersecuritynews.com/hackers-use-blob-urls/\" rel=\"noopener\">fake login pages created through Teams redirects</a> in browsers. No confirmed link exists to this domain, but both cases show why branding alone cannot validate a login prompt.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Defenders should review connections to teams-cloud[.]live and the reported subdomain, then check related downloads and sign-in activity. Lim specifically recommended Tenant blocking and web filtering.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft documents URL blocking through the Tenant Allow/Block List and custom domain blocking through Defender network protection. Administrators should apply controls suited to their environment and verify coverage rather than assume one setting blocks every route.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Employees should avoid the reported site and verify unexpected Teams update requests through their organization’s established IT support channel before entering passwords or opening downloads.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Update defenses against new malware as soon as it appears. <a href=\"https://any.run/threat-intelligence-feeds/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+12-18&amp;utm_content=ti+feeds+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate TI Feeds with data from 16K SOCs</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/teams-domain-login-page/\">Hackers Registered New Teams-Based Domains and Used a Login Page to Steal Your Logins</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:a15de92e6111596b97da6f3ac19cbfe14f75ea93db6e395872368d517a81d216",
+   "url": "https://cybersecuritynews.com/16-year-old-broadcom-wi-fi-flaw",
+   "title": "16-Year-Old Broadcom Wi-Fi Flaw Lets Attackers Hack Routers Without Knowing Passwords",
+   "published_at": "2026-10-19T11:36:47Z",
+   "published_raw": "Mon, 19 Oct 2026 11:36:47 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability",
+    "Wi-Fi"
+   ],
+   "description": "<p>A 16-year-old flaw in Broadcom’s Wi-Fi software can let attackers within wireless range take control of affected routers without knowing the network password. Security researcher Quentin Kaiser disclosed the issue at Hexacon in Paris on October 16, 2026, warning that old code remains in widely deployed devices. According to Kaiser’s research, the flaw has existed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/16-year-old-broadcom-wi-fi-flaw/\">16-Year-Old Broadcom Wi-Fi Flaw Lets Attackers Hack Routers Without Knowing Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=167840",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/16-Year-Old-Broadcom-Wi-Fi-Flaw-Lets-Attackers-Hack-Routers-Without-Knowing-Passwords.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "167840",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A 16-year-old flaw in Broadcom’s Wi-Fi software can let attackers within wireless range <a href=\"https://cybersecuritynews.com/broadcom-allegedly-breached-by-clop-ransomware/\" target=\"_blank\" rel=\"noreferrer noopener\">take control of affected routers</a> without knowing the network password.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Security researcher Quentin Kaiser disclosed the issue at Hexacon in Paris on October 16, 2026, warning that old code remains in widely deployed devices.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to Kaiser’s research, the flaw has existed in Broadcom’s software development kit since at least 2010. It affects its proprietary <a href=\"https://cybersecuritynews.com/pixie-dust-wi-fi-attack/\" target=\"_blank\" rel=\"noreferrer noopener\">Wi-Fi Protected Setup (WPS) </a>implementation. It allows memory leaks and attacker-controlled code execution before normal WPS enrollment finishes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw sits in code that joins fragmented Extensible Authentication Protocol messages used by WPS. Weak length checks allow crafted wireless messages to overflow a memory buffer.</p>\n\n\n\n<h2 id=\"h-16-year-old-broadcom-wi-fi-flaw\" class=\"wp-block-heading\"><strong>16-Year-Old Broadcom Wi-Fi Flaw</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Attackers can then read or change memory and redirect the router’s program flow to run their own code. This is an over-the-air attack, not a <a href=\"https://cybersecuritynews.com/sality-malware-industrial-system/\" target=\"_blank\" rel=\"noreferrer noopener\">password-cracking</a> method. The attacker needs wireless reach to the target but not its network key.</p>\n\n\n\n<figure class=\"wp-block-video\"><video controls src=\"https://quentinkaiser.be/assets/orange-exploit.mp4\"></video></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Kaiser demonstrated stealing the saved Wi-Fi password from an Orange Belgium ASKEY TCG3000 router and sending it back through wireless frames. He then joined the network using the stolen password.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A second demonstration against a Proximus BBOX3V+ provided a remote command shell over Wi-Fi frames without a cloud command server. These tests show why a strong password alone cannot stop exploitation of the affected software.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Kaiser confirmed exploitation on devices</a> used by three Belgian internet providers. These include Proximus BBOX3V+, VOO’s Netgear CG3100 and CG3700, Technicolor TC7210 and CGA4233, and Orange’s ASKEY TCG3000. Possible exposure involving Telenet equipment remains unconfirmed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">His estimates place the affected Belgian fleet at roughly 1.56 million gateways across Proximus, legacy VOO, and Orange. These are researcher estimates, not verified provider totals. He warns that the wider issue could affect millions of access points worldwide, although the full count remains unknown.</p>\n\n\n\n<figure class=\"wp-block-video\"><video controls src=\"https://quentinkaiser.be/assets/sagemcom-exploit.mp4\"></video></figure>\n\n\n\n<p class=\"wp-block-paragraph\">The finding follows earlier Broadcom-related wireless security concerns, including the separate <a target=\"_blank\" href=\"https://cybersecuritynews.com/kr00k-vulnerability/\" rel=\"noopener\">Kr00k Wi-Fi vulnerability</a>. The new research concerns WPS message handling rather than that earlier flaw.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Kaiser describes a 2018 patch as incomplete. In correspondence reproduced in his slides, Broadcom said it had long known about the issue and had offered replacement software based on hostapd and WPA Supplicant since 2018. That leaves device makers responsible for moving away from the old implementation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Kaiser reported the eCos issue on July 18 and the Linux issue on July 27. He says Broadcom declined to assign a CVE, and the tested Belgian devices remained unpatched as of October 15.</p>\n\n\n\n<p class=\"wp-block-paragraph\">His detection toolkit includes a wireless fingerprinting script and YARA rules for firmware checks. These are screening tools, not final proof of exploitability. Findings need further review.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The risk also draws renewed attention to <a target=\"_blank\" href=\"https://cybersecuritynews.com/nearest-neighbor-attack/\" rel=\"noopener\">Nearest-Neighbor attacks</a>, where compromised nearby systems provide wireless reach. That case used different methods, but shows why nearby Wi-Fi exposure matters.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Update defenses against new malware as soon as it appears. <a href=\"https://any.run/threat-intelligence-feeds/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+12-18&amp;utm_content=ti+feeds+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate TI Feeds with data from 16K SOCs</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/16-year-old-broadcom-wi-fi-flaw/\">16-Year-Old Broadcom Wi-Fi Flaw Lets Attackers Hack Routers Without Knowing Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:0bba864fde4bc05b83f5e6d71df0236dbf7f847f9fc49e3658268340f5f0c0ec",
    "url": "https://cybersecuritynews.com/google-unveils-new-android-ai-protections",
