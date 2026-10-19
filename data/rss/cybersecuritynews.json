@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-19T04:00:27Z",
+ "updated_at": "2026-10-19T05:00:23Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-19T04:00:27Z",
+  "last_success_at": "2026-10-19T05:00:23Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:a9918831d0ee3004a0aa54749695671f619c06602d851083cd247f11230fc45c",
+   "url": "https://cybersecuritynews.com/plex-vulnerabilities-exploited-in-wild",
+   "title": "Hackers Exploiting Plex Vulnerabilities in the Wild to Deploy Cryptominer Malware",
+   "published_at": "2026-10-19T04:14:01Z",
+   "published_raw": "Mon, 19 Oct 2026 04:14:01 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News",
+    "vulnerability"
+   ],
+   "description": "<p>Hackers are exploiting flaws in Plex Media Server to install cryptocurrency mining malware, with a researcher recording successful attacks against a honeypot on October 17, 2026. The activity follows the release of Plex2Shell, a public exploit that chains four vulnerabilities to run code without logging in. Later observations also revealed proxy software running alongside the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/plex-vulnerabilities-exploited-in-wild/\">Hackers Exploiting Plex Vulnerabilities in the Wild to Deploy Cryptominer Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=167830",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Plex2Shell-Attack-Chain.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "167830",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Hackers are exploiting flaws in Plex Media Server to install cryptocurrency mining malware, with a researcher recording successful attacks against a honeypot on October 17, 2026.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The activity follows the release of Plex2Shell, a public exploit that chains four vulnerabilities to run code without logging in. Later observations also revealed proxy software running alongside the miner.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The findings from Boredhackerblog show active exploitation of an exposed test server, rather than scanning alone. However, the available evidence does not establish how many real servers have been compromised or identify the attackers behind the activity. The researcher also warned that restrictions on outbound traffic initially prevented collection of some payloads.</p>\n\n\n\n<h2 id=\"h-how-the-plex2shell-exploit-works\" class=\"wp-block-heading\"><strong>How the Plex2Shell Exploit Works</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Plex announced security updates on September 1, urging users to install Plex Media Server 1.43.3 and Plex Desktop 1.115.0. Its <a href=\"https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">official security notice</a> warned that NAS users might need to install updates manually. Cyber Security News previously covered the <a href=\"https://cybersecuritynews.com/plex-fix-multiple-security-flaws/\" target=\"_blank\" rel=\"noreferrer noopener\">Plex security update and affected releases</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The exploit combines CVE-2026-96652, CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656. According to the <a href=\"https://github.com/code-zm/plex2shell/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Plex2Shell repository</a>, the chain starts with server-side request forgery, which tricks Plex into sending requests chosen by an attacker. It then reaches internal functions, gains access to owner-authorized requests, and writes a file to an attacker-selected location.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The final stage abuses the loading of an unsigned codec to execute code. The repository identifies versions before 1.43.3.10828 as vulnerable and lists 1.43.3.10861 as fixed. Although the exploit supports Linux and Windows targets, the reported honeypot activity involved a Linux-based Plex deployment running in Docker.</p>\n\n\n\n<h2 id=\"h-honeypot-captures-miner-and-proxy-activity\" class=\"wp-block-heading\"><strong>Honeypot Captures Miner and Proxy Activity</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">In the <a href=\"https://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">researcher’s report</a>, the first exploitation attempt came from 45.194.92[.]222. Further attempts involved 91.92.40[.]202 and 176.65.139[.]228. Recorded requests targeted <code>/player/timeline/subscribe</code> and included references to internal Plex services, an sslip.io hostname, and the <code>Python-urllib/3.10</code> user agent.</p>\n\n\n\n<p class=\"wp-block-paragraph\">After outbound access was enabled, the researcher observed downloads from 217.60.194[.]116 involving files named <code>docker</code> and <code>x</code>. Published artifacts included packed and unpacked samples, followed by an XMRig miner. Similar misuse of XMRig has appeared in other campaigns, including <a href=\"https://cybersecuritynews.com/hackers-turn-redis-servers/\" target=\"_blank\" rel=\"noreferrer noopener\">attacks against exposed Redis servers</a>.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilIGVquq1mnuOvoU_LDe-HrootEW7Ws-gujJt-oKlvBvFhmygjUapSPCj1QqBaSbJfH13Oe6wgmVF_sDDwg-kQMJqlrFiZ3Is92SDyigjzMh9aC9qj7JhVsNT-Va6wnX-hrrp91VzUn7mYK8CXf0ym6RrFGRJQwXzp5QbmkXVdVX91LOjsTcKtCOWgpdKg/w640-h498/Plex2Shell%20Attack%20Chain1.webp\" alt=\"\"/></figure>\n\n\n\n<p class=\"wp-block-paragraph\">An update also reported a process named <code>myawesomeproxy</code> and traffic involving proxystream[.]st. The program displayed a message about external use of the device’s internet traffic. These observations raise concerns about proxy abuse, but they do not establish who operates this Plex campaign or prove a connection to a specific botnet.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should install the latest Plex release and verify the running version, particularly on NAS systems and Docker deployments. On Linux, review the Plex process tree for unexpected child processes, suspicious downloads, and unfamiliar mining or proxy programs. The researcher recommends examining processes with <code>ps axjf</code>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Defenders can use the published <a href=\"https://github.com/BoredHackerBlog/plex2shell_pcap\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">packet captures</a> to develop detections. Files marked “lab” come from controlled tests, not live attacks. The repository also warns that attackers can change ports, domains, and filenames, so matching only fixed indicators will leave detection gaps.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong>An EDR alert reveals an attack. But can it tell the full story? <a href=\"https://www.manageengine.com/products/desktop-central/edr-av-comparatives.html?utm_source=CSN&amp;utm_medium=TPS-Linkedin&amp;utm_campaign=EDR-AVC\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Discover how to reconstruct the attack timeline</a>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/plex-vulnerabilities-exploited-in-wild/\">Hackers Exploiting Plex Vulnerabilities in the Wild to Deploy Cryptominer Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:04c9999c18a02c5443767b6049272dc114715d71c186a48f79bb3762d8cf2864",
    "url": "https://cybersecuritynews.com/october-updates-break-exchange-server",
