@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-19T14:00:24Z",
+ "updated_at": "2026-10-19T15:00:25Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-19T14:00:24Z",
+  "last_success_at": "2026-10-19T15:00:25Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ffa2a32be5283e4104178c624f102fa261d4b3c6eead02ee1ec48747738d4266",
+   "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services",
+   "title": "Inside the Underground Market for Know Your Client Services",
+   "published_at": "2026-10-19T14:00:10Z",
+   "published_raw": "Mon, 19 Oct 2026 10:00:10 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass Know Your Client (KYC) checks. Flare examines how these underground services operate and the techniques used to create and maintain fraudulent verified accounts. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
+   "authors": [
+    {
+     "name": "Sponsored by Flare",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:4f6d5f64f253fb71e587b95e945d4ef3fb9b278e040e8ad8bfcc228ceace1964",
    "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities",
@@ -1115,27 +1136,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:8fdae48b6e18987622df20c4da4f7133a1c08ad31ed5ba3039520f7817ed4bb1",
-   "url": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions",
-   "title": "How to keep AI agents within their permissions",
-   "published_at": "2026-10-09T14:01:11Z",
-   "published_raw": "Fri, 09 Oct 2026 10:01:11 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls may not prevent. Token Security explains how organizations can enforce agent-specific policies without sacrificing autonomy. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
-   "authors": [
-    {
-     "name": "Sponsored by Token Security",
      "uri": "",
      "email": ""
     }
