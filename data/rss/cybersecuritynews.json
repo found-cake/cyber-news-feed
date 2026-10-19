@@ -1,15 +1,84 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-19T18:00:25Z",
+ "updated_at": "2026-10-19T19:00:25Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-19T18:00:25Z",
+  "last_success_at": "2026-10-19T19:00:25Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d2f1f1f89ec3c8d5dadf6fea18c920e3dd9b23d062e1568dea6512f0868b2fb0",
+   "url": "https://cybersecuritynews.com/drupal-rce-vulnerability",
+   "title": "Critical Drupal RCE Vulnerability Could Let Attackers Take Over Websites Without Authentication",
+   "published_at": "2026-10-19T18:13:51Z",
+   "published_raw": "Mon, 19 Oct 2026 18:13:51 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability"
+   ],
+   "description": "<p>Drupal has released security updates for a critical remote code execution vulnerability that could let attackers take over affected websites without logging in. Tracked as CVE-2026-108097, the flaw affects the Field UI module in Drupal core. The Drupal Security Team published its warning on October 14, 2026. The official security advisory, SA-CORE-2026-014, assigns the issue [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/drupal-rce-vulnerability/\">Critical Drupal RCE Vulnerability Could Let Attackers Take Over Websites Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=167836",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Drupal-RCE-Vulnerability-Could-Let-Attackers-Take-Over-Websites-Without-Authentication.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "167836",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Drupal has released security updates for a critical <a href=\"https://cybersecuritynews.com/drupal-core-security-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">remote code execution vulnerability</a> that could let attackers take over affected websites without logging in.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Tracked as CVE-2026-108097, the flaw affects the Field UI module in Drupal core. The Drupal Security Team published its warning on October 14, 2026.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The official security advisory, <a href=\"https://www.drupal.org/sa-core-2026-014\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">SA-CORE-2026-014,</a> assigns the issue a risk score of 19 out of 25 under Drupal’s rating system. Successful exploitation could expose all private website data and allow attackers to change or delete information. The score is not a CVSS rating.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The most important detail is that Drupal core alone does not provide a direct path to exploit the flaw. However, the security team confirmed that several serious attack paths exist when contributed modules are present. These are additional modules used to extend a website’s features beyond its core functions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">At least one known attack path requires no authentication, meaning an attacker would not need a valid account. Custom website code may also expose the vulnerable functionality. Site owners should consider installed extensions and custom development, rather than judging exposure by Drupal version alone.</p>\n\n\n\n<h2 id=\"h-critical-drupal-rce-vulnerability\" class=\"wp-block-heading\"><strong>Critical Drupal RCE Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The public advisory does not name the contributed modules involved or provide a working exploit. Its rating describes exploitation as theoretical, with no public exploit code or development documentation. That wording should not be mistaken for proof of safety, given the confirmed attack paths described by the security team.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The issue follows earlier concerns about Drupal security, including <a href=\"https://cybersecuritynews.com/drupal-core-sql-injection-vulnerability-exploited/\" target=\"_blank\" rel=\"noopener\">coverage of a Drupal core SQL injection vulnerability</a>. That report concerns a separate flaw.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Its exploitation status should not be applied to this <a href=\"https://cybersecuritynews.com/sungrow-inverter-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">Field UI vulnerability,</a> for which the current advisory does not report attacks in the wild.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The affected ranges cover Drupal versions from 8.9.0 before 10.6.19, 11.0.0 before 11.3.19, and 11.4.0 before 11.4.10. Drupal 12 development releases from 12.0.0-alpha1 before 12.0.0-beta2 are also affected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The broad version coverage makes it important to check every deployed site, especially where organizations maintain several Drupal installations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators running Drupal 11.4.x should install Drupal 11.4.10. Those using Drupal 11.3.x should move to 11.3.19, while Drupal 10.6.x users should install 10.6.19. Drupal 11.2.x and earlier, Drupal 10.5.x and earlier, and Drupal 8 and 9 no longer receive security coverage.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Drupal says uninstalling the core Field UI module (field_ui) protects while sites are updated. Drupal Steward also blocks some known attack paths, but it doesn&#8217;t cover every possible exploit. Organizations using that service still need to upgrade rather than treat filtering as a permanent fix.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For teams reviewing possible compromise, <a href=\"https://cybersecuritynews.com/detecting-and-investigating-webshells/\" target=\"_blank\" rel=\"noopener\">guidance on detecting and investigating webshells</a> offers useful background on malicious scripts that enable remote commands. The immediate priority for this vulnerability remains clear.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Apply the supported security release, or uninstall Field UI while preparing the update, without relying solely on partial network protection measures.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Update defenses against new malware as soon as it appears. <a href=\"https://any.run/threat-intelligence-feeds/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+12-18&amp;utm_content=ti+feeds+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate TI Feeds with data from 16K SOCs</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/drupal-rce-vulnerability/\">Critical Drupal RCE Vulnerability Could Let Attackers Take Over Websites Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:804de865bccc9d682208fe9d28cfff41566d139cd44c28837d3b03b930fb00dd",
+   "url": "https://cybersecuritynews.com/ai-models-as-insider-threats",
+   "title": "Microsoft Says AI Agents Cannot Be Trusted and Could Become Insider Security Threats",
+   "published_at": "2026-10-19T18:04:16Z",
+   "published_raw": "Mon, 19 Oct 2026 18:04:16 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Microsoft warns organizations to treat AI agents as potential insider risks not because they are automatically malicious, but because they can access company data, apps, and tools and act on that access at high speed. The warning, published on October 19, 2026, comes as businesses use agents to handle tasks such as writing code, reviewing [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-models-as-insider-threats/\">Microsoft Says AI Agents Cannot Be Trusted and Could Become Insider Security Threats</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=167921",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/AI-Models-as-Insider-Threats.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "167921",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Microsoft warns organizations to treat AI agents as potential insider risks not because they are automatically malicious, but because they can access company data, apps, and tools and act on that access at high speed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The warning, published on October 19, 2026, comes as businesses use agents to handle tasks such as writing code, reviewing documents, and processing expenses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An agent’s actions can change as its instructions, data, or working context change. It may make a mistake, follow harmful directions hidden in a document, or be compromised.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Because agents can act across connected systems, an unsafe action could expose sensitive information or change business records before a person notices. Microsoft’s point is not that every agent is dangerous. It is that organizations should not assume an agent will always behave as intended.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The risk grows when an agent receives more access than its task requires. An agent used to review expense claims, for example, may need to read submissions and check company rules. It should not automatically inherit all the permissions of the employee who set it up. If it encounters hidden instructions in a file or tries to take an unrelated action, security controls should be able to limit what it can do.</p>\n\n\n\n<h2 id=\"h-ai-models-as-insider-threats\" class=\"wp-block-heading\"><strong>AI Models as Insider Threats</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Microsoft says those controls</a> should operate outside the AI model. The model can provide answers or plans, but separate security systems should decide what data it can access and which actions it can take.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This matters because a model should not be able to change or bypass the safeguards that govern it. Microsoft CEO Satya Nadella has described this approach as separating the supply of intelligence from the authority to act.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-x wp-block-embed-x\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"embed-x\"><blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">I recently wrote about why we need to treat models as insider risks, with security controls sitting outside the model itself.<br><br>Today, we&#39;re putting that principle into practice by expanding Project Perception with new capabilities to help continuously assess agent risk, adapt…</p>&mdash; Satya Nadella (@satyanadella) <a href=\"https://x.com/satyanadella/status/2112168320946634932?ref_src=twsrc%5Etfw\">October 19, 2026</a></blockquote><script async src=\"https://platform.x.com/widgets.js\" charset=\"utf-8\"></script></div>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">To support this approach, Microsoft announced plans to expand agent <a href=\"https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">discovery and controls through Project Perception</a> and Microsoft Agent 365. The company says it is adding support for 35 more types of local agents, bringing its total to 60, and expanding Microsoft Entra Agent ID so agents can have identities separate from their human sponsors. That separation can help security teams track who owns an agent and distinguish its actions from a person’s.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft also described Dynamic Permissions, Dynamic Agent Risk and Dynamic Conditional Access for agents. The proposed controls would give agents only the access needed for a task and adjust that access as risk changes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For example, an organization might let an agent continue reading information while blocking it from making changes, restrict the systems it can reach, or require human approval before a sensitive action. At higher risk, the agent could be isolated or stopped.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company also introduced Guardian Agents, intended to help security teams monitor agent activity and respond to changes at machine speed. Microsoft says people would still set the rules and retain control of important decisions, while Guardian Agents could investigate alerts and apply permitted safeguards. The announcements describe Microsoft’s planned security approach, not a guarantee that every agent-related threat can be prevented.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For security teams, the message is to build agent oversight into deployment from the start. That means tracking which agents exist, assigning clear identities, limiting permissions, monitoring activity, and keeping an independent way to stop unsafe actions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Related coverage from Cybersecurity News examines <a href=\"https://cybersecuritynews.com/microsoft-defender-office-365-prompt-protection/\" target=\"_blank\" rel=\"noreferrer noopener\">Microsoft’s prompt-injection protection for Office 365</a> and <a href=\"https://cybersecuritynews.com/microsoft-execution-containers-secure-ai-workflows/\">execution cont</a><a href=\"https://cybersecuritynews.com/microsoft-execution-containers-secure-ai-workflows/\" target=\"_blank\" rel=\"noreferrer noopener\">a</a><a href=\"https://cybersecuritynews.com/microsoft-execution-containers-secure-ai-workflows/\">iners for securing AI workflows</a>. When agents can act across company systems, visibility and limits are essential to using them safely.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong>An EDR alert reveals an attack. But can it tell the full story? <a href=\"https://www.manageengine.com/products/desktop-central/edr-av-comparatives.html?utm_source=CSN&amp;utm_medium=TPS-Linkedin&amp;utm_campaign=EDR-AVC\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Discover how to reconstruct the attack timeline</a>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-models-as-insider-threats/\">Microsoft Says AI Agents Cannot Be Trusted and Could Become Insider Security Threats</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:8705a4e7867a9dde41812b5ca438552fc0e54606fdd5ebba300fc323ed817870",
    "url": "https://cybersecuritynews.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding",

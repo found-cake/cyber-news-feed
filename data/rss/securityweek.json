@@ -1,15 +1,54 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-19T18:00:25Z",
+ "updated_at": "2026-10-19T19:00:25Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-19T18:00:25Z",
+  "last_success_at": "2026-10-19T19:00:25Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b7d3f639b1676d54338f6865043cd53b28eb225e1d910af91d6b8da06cc4edf6",
+   "url": "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks",
+   "title": "Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks",
+   "published_at": "2026-10-19T18:15:39Z",
+   "published_raw": "Mon, 19 Oct 2026 18:15:39 +0000",
+   "categories": [
+    "ICS/OT",
+    "Malware & Threats",
+    "Vulnerabilities",
+    "DLL hijacking",
+    "exploited",
+    "Featured",
+    "malware",
+    "Siemens",
+    "vulnerability"
+   ],
+   "description": "<p>Attackers paired a genuine, signed copy of Siemens Software Center with malicious DLLs to infect Windows PCs via ClickFix lures.</p>\n<p>The post <a href=\"https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/\">Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50131",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:bff8b4d59775cf8a938205f9a23914d9f6510d5a467a5bfc46586e3496d4240e",
    "url": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw",
