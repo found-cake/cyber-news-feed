@@ -1,15 +1,83 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-20T18:00:11Z",
+ "updated_at": "2026-10-20T19:00:09Z",
  "retention_days": 10,
  "status": {
-  "ok": false,
-  "last_success_at": "2026-10-20T17:00:11Z",
-  "last_error_at": "2026-10-20T18:00:11Z",
-  "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+  "ok": true,
+  "last_success_at": "2026-10-20T19:00:09Z",
+  "last_error_at": null,
+  "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:5d21d5eb9e3792c7cf7ebf69df23eb4440e92fd78823b6c66fe6d118a7684d7d",
+   "url": "https://cybersecuritynews.com/emudhra-security-compromise",
+   "title": "eMudhra Certificate Authority Compromise Triggers Emergency Action Across Browsers",
+   "published_at": "2026-10-20T18:14:55Z",
+   "published_raw": "Tue, 20 Oct 2026 18:14:55 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>The private keys behind eight eMudhra intermediate certificate authority certificates have been compromised, prompting emergency blocks across major browsers and software platforms. The affected certificates chain to roots trusted by Mozilla, Microsoft, Apple, and Chrome, placing clients that still accept them at risk of trusting forged certificates. However, the public disclosures reviewed do not establish [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/emudhra-security-compromise/\">eMudhra Certificate Authority Compromise Triggers Emergency Action Across Browsers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=168042",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/eMudhra-Security-Compromise.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "168042",
+     "content_encoded": "<p class=\"wp-block-paragraph\">The private keys behind eight eMudhra intermediate certificate authority certificates have been compromised, prompting emergency blocks across major browsers and software platforms. The affected certificates chain to roots trusted by Mozilla, Microsoft, Apple, and Chrome, placing clients that still accept them at risk of trusting forged certificates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">However, the public disclosures reviewed do not establish that these keys can be cracked in seconds. They confirm that a researcher demonstrated control of the keys, not how they were obtained or how quickly any cryptographic attack could recover them.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A researcher identified as Wayne reported the compromise to root program teams on October 17, 2026. To demonstrate access, Wayne signed the message “We have a problem here &#8211; Wayne” using each affected intermediate CA private key.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The <a href=\"https://emudhra.we-have-a-problem.com/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">disclosure site</a>, published by Dennis Jackson, provides certificates, public keys, and signatures for independent checks. Researchers can use OpenSSL to extract a certificate’s public key and verify the corresponding signature. This proves signing capability without requiring publication of the private keys themselves.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An intermediate certificate authority helps connect a website’s certificate to a trusted root. If its signing key is exposed, an attacker may create certificates that vulnerable clients accept as genuine. Mozilla warned that someone able to intercept a connection could use fraudulent certificates to impersonate websites and potentially read or change traffic.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The risk echoes earlier reporting on <a href=\"https://cybersecuritynews.com/hackers-hijack-domain-registry/\" target=\"_blank\" rel=\"noreferrer noopener\">unauthorized HTTPS certificates obtained through compromised domain registries</a> and <a href=\"https://cybersecuritynews.com/tls-certificates-1-1-1-1-dns-service/\" target=\"_blank\" rel=\"noreferrer noopener\">misissued TLS certificates affecting the 1.1.1.1 DNS service</a>. Those cases involved different failures, but show why certificate trust is a security concern beyond the browser padlock.</p>\n\n\n\n<h2 id=\"h-browsers-block-certificates-as-software-updates\" class=\"wp-block-heading\"><strong>Browsers Block Certificates as Software Updates</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Mozilla received the report at 20:06 UTC on October 17 and completed its OneCRL blocklist rollout by 22:59 UTC. Standard Firefox configurations received protection without requiring a browser update or restart, according to <a href=\"https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Mozilla’s incident statement</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The disclosure site says Chrome also blocked the affected certificates on October 17. Apple followed on October 19, while Microsoft’s protection arrived on October 20. eMudhra has also revoked the compromised intermediate certificates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Revocation alone does not protect every application. Some clients do not receive browser blocklists or check whether a certificate has been revoked. These programs need separate updates to stop accepting the affected certificate chains.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Mozilla released Firefox 158.0.1, ESR 115.43.1 and ESR 153.5.1 to cover users whose settings could prevent OneCRL delivery. Its NSS 3.131.1 update also removes the signing root from the trusted certificate list used by other applications.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The incident response page lists fixes including Go 1.27.3 and 1.26.10, Python certifi 2026.10.19, and Rust webpki-roots 1.0.10. Node.js and Composer ca-bundle updates were listed as pending when the page was reviewed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Users should update browsers and operating systems promptly. Developers should also check certificate bundles shipped with applications rather than assume an operating system update covers every runtime.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators can use the disclosure site’s test endpoints and certificate chains to assess remaining exposure. A certificate rejection indicates that the tested client refuses the affected chain. Manual root removal should remain an expert measure because it can disrupt legitimate connections.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The verified finding is a serious signing key compromise. The available evidence does not establish a seconds-long cracking method or confirm attacks against users. How the keys became exposed remains publicly unconfirmed.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong>An EDR alert reveals an attack. But can it tell the full story? <a href=\"https://www.manageengine.com/products/desktop-central/edr-av-comparatives.html?utm_source=CSN&amp;utm_medium=TPS-Linkedin&amp;utm_campaign=EDR-AVC\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Discover how to reconstruct the attack timeline</a>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/emudhra-security-compromise/\">eMudhra Certificate Authority Compromise Triggers Emergency Action Across Browsers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:b33188cb23d42b8ab56aa0946a7a519c2bd262991e2d709fc2eeee986b26174b",
+   "url": "https://cybersecuritynews.com/google-cloud-outage",
+   "title": "Google Cloud Outage Knocks UK Banks, Websites and Court Systems Offline",
+   "published_at": "2026-10-20T17:17:56Z",
+   "published_raw": "Tue, 20 Oct 2026 17:17:56 +0000",
+   "categories": [
+    "Tech News",
+    "Technology"
+   ],
+   "description": "<p>A Google Cloud outage disrupted UK banks, business websites and court video links on Tuesday, October 20, after a power event hit its London infrastructure. Google later said most affected services had recovered, although a small number of customers still faced problems. The incident began around 07:08 BST in europe-west2, Google&#8217;s London cloud region. Google [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-cloud-outage/\">Google Cloud Outage Knocks UK Banks, Websites and Court Systems Offline</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=168039",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Google-Cloud-Outage.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "168039",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A Google Cloud outage disrupted UK banks, business websites and court video links on Tuesday, October 20, after a power event hit its London infrastructure. Google later said most affected services had recovered, although a small number of customers still faced problems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The incident began around 07:08 BST in europe-west2, Google&#8217;s London cloud region. Google identified a power event in the europe-west2-b zone and reported higher error rates and network failures across multiple services. Its <a href=\"https://status.cloud.google.com/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">public dashboard</a> listed the incident as active during the afternoon.</p>\n\n\n\n<h2 id=\"h-google-cloud-outage\" class=\"wp-block-heading\"><strong>Google Cloud Outage</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Affected products included Cloud Run, Google App Engine, Google Kubernetes Engine and Cloud Filestore. These services help businesses run applications, manage containers and store files. A failure across these layers can stop websites and apps even when their own software has not changed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Google said the power event had been mitigated and engineers were prioritizing existing workloads. During recovery, customers could still face problems creating new workloads. Google did not immediately explain what caused the power event or provide a technical account.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Revolut reported disruption across several services, including card payments and ATM withdrawals. The bank said customers&#8217; money and data remained safe. Halifax and HSBC also acknowledged service problems, while Lloyds said its apps and online logins were working but some online features were affected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Not every reported problem was independently linked to Google Cloud. Lloyds did not initially confirm a direct connection, and reports on outage tracking websites alone cannot establish the cause of a service failure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">HM Courts and Tribunals Service confirmed problems with its Cloud Video Platform, used for remote hearings. The Criminal Bar Association said the platform had been down across large parts of England and Wales since 10:00 BST, preventing some trials and hearings from proceeding.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Some patients also lost access to appointment booking through the NHS app. According to <a href=\"https://www.bbc.co.uk/news/live/c58jd2kjp93xt\">BBC reporting</a>, the problem involved a third-party appointment service used by some healthcare providers, rather than the entire app. That issue was resolved around midday.</p>\n\n\n\n<p class=\"wp-block-paragraph\">DPD said its website connection issues had been resolved. Google&#8217;s afternoon update said the outage had been mitigated for most customers, while engineers continued working on remaining cases. The company promised an incident analysis after its investigation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The disruption follows earlier incidents covered by CybersecurityNews, including <a href=\"https://cybersecuritynews.com/google-massive-cloud-outage-linked/\" target=\"_blank\" rel=\"noreferrer noopener\">Google&#8217;s API management outage</a> and the <a href=\"https://cybersecuritynews.com/aws-outage/\" target=\"_blank\" rel=\"noreferrer noopener\">major AWS outage</a>. Those events had different causes but showed how shared infrastructure can spread disruption across unrelated businesses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For affected organizations, the question is whether backup arrangements can keep essential services running when a cloud location fails. Google&#8217;s findings should clarify what went wrong and the steps needed to reduce the risk of another widespread outage.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong>An EDR alert reveals an attack. But can it tell the full story? <a href=\"https://www.manageengine.com/products/desktop-central/edr-av-comparatives.html?utm_source=CSN&amp;utm_medium=TPS-Linkedin&amp;utm_campaign=EDR-AVC\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Discover how to reconstruct the attack timeline</a>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-cloud-outage/\">Google Cloud Outage Knocks UK Banks, Websites and Court Systems Offline</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:6fa2c977134096e6ac5bcfea5c10211bb37a531d07436357b1ce3328b6af747e",
    "url": "https://cybersecuritynews.com/3-ways-threat-intelligence-makes-life-easier-for-american-soc-analysts",
