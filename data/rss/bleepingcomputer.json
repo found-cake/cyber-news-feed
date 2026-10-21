@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-21T14:00:11Z",
+ "updated_at": "2026-10-21T15:00:12Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-21T14:00:11Z",
+  "last_success_at": "2026-10-21T15:00:12Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:f6c2d70ba91928eb6d6a3008b6f35eb04c3d1b76816d55470faacc9138ea2d8a",
+   "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws",
+   "title": "PHP ships emergency patches for critical PHP2Shell flaws",
+   "published_at": "2026-10-21T14:07:05Z",
+   "published_raw": "Wed, 21 Oct 2026 10:07:05 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:8c2f7f751d6e9901eefcbd413561cf8a731f4eafffda77e45f145120baa90538",
+   "url": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet",
+   "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
+   "published_at": "2026-10-21T14:00:10Z",
+   "published_raw": "Wed, 21 Oct 2026 10:00:10 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade traditional defenses and why AI tools have become increasingly effective lures. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+   "authors": [
+    {
+     "name": "Sponsored by Push Security",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:22d0c61a1535ae0793c779f80d1162cf5c1ce826f2722837a64ca5b632cbc159",
    "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations",
@@ -1306,27 +1348,6 @@
    "authors": [
     {
      "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:9fc15fecc9ebb197f2935848c336aa8522c766e75f864407155e0a46a815293f",
-   "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records",
-   "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
-   "published_at": "2026-10-11T14:23:46Z",
-   "published_raw": "Sun, 11 Oct 2026 10:23:46 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
