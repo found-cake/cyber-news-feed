@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-21T00:00:09Z",
+ "updated_at": "2026-10-21T01:00:09Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-21T00:00:09Z",
+  "last_success_at": "2026-10-21T01:00:09Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:0a8a1e3f4f528a68f5caad3c18420576995f84677e641c5a8d8c7263a5d77393",
+   "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates",
+   "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+   "published_at": "2026-10-21T00:46:42Z",
+   "published_raw": "Tue, 20 Oct 2026 20:46:42 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted certificates for legitimate websites. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:44fe71fcc31e9c7dd545b63687e1704396a3352f7d31aa6f9901702d003e4ffd",
    "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow",
