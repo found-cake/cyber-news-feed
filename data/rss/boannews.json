@@ -1,15 +1,59 @@
 {
  "schema_version": 1,
  "source": "boannews",
- "updated_at": "2026-10-22T14:00:10Z",
+ "updated_at": "2026-10-22T15:00:10Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-22T14:00:10Z",
+  "last_success_at": "2026-10-22T15:00:10Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:0129fa2266db1cf142c3f05137d157171706800f9fe1c5eeb3855bd8cb2be15e",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=146670",
+   "title": "[K-Security in Japan] 에이아이스페라, SaaS 편의성 무기로 일본 ASM 시장 신흥 강자로 부상",
+   "published_at": "2026-10-22T23:11:41Z",
+   "published_raw": "2026-10-22 23:11:41",
+   "categories": [
+    "비즈니스",
+    "전시·콘퍼런스"
+   ],
+   "description": "2022년 일본 시장에 발을 내디딘 에이아이스페라(AI Spera)는 2023년부터 대기업을 중심으로 본격적인 매출을 일으키며 쾌속 순항 중이다.눈길을 끄는 점은 복잡한 오프라인 영업망 없이, 일본 내 온라인 비즈니스와 홈페이지를 통해 자발적인 도입 문의와 기술 검증(POC)이 활발히 이뤄지고 있다는 점이다. SaaS(서비스형 소프트웨어) 형태로 제공되어 현지 직원의 방문이나 복잡한 구축 과정이 필요 없고, 초기부터 엔화 결제를 지원하는 등 서비스 접근성을 극대화한 로컬라이제이션이 빛을 발했다.공격 표면 관리 ‘ASM’ 수요 급증.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "원병철 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:8c69ab28386e0ebb7b7102c23abc5791128364ca938cec3a97498840cca5a07c",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=146669",
+   "title": "[K-Security in Japan] 쿼드마이너, 철저한 ‘커스터마이징’으로 일본 NDR 시장 파고든다",
+   "published_at": "2026-10-22T23:03:18Z",
+   "published_raw": "2026-10-22 23:03:18",
+   "categories": [
+    "비즈니스",
+    "전시·콘퍼런스"
+   ],
+   "description": "설립 초기부터 글로벌 시장을 정조준했던 쿼드마이너는 2021년경 일본에 진출해 현지 법인과 상장사 규모의 대형 총판을 두며 탄탄한 영업망을 구축했다.쿼드마이너가 파악한 일본 시장의 가장 큰 특징은 보안 환경과 요구사항이 한국과 판이하게 다르다는 점이다. 자동화 수준, 네트워크 감시 환경 등에서 현지 고객들의 독특한 요구사항이 빗발치는 만큼, 쿼드마이너는 단순 번역을 넘어 일본 시장의 입맛에 맞게 제품 자체를 뜯어고치는 수준의 강도 높은 커스터마이징 전략을 채택해 경쟁력을 끌어올리고 있다.네트워크 블랙박스 주력...일본 전용 버전 개",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "원병철 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:17bbad307d52e4c2b7cbc799f74f9b9d7ed97986b320b1325846c727ebaf273b",
    "url": "https://www.boannews.com/news/articleView.html?idxno=146668",
@@ -5693,50 +5737,6 @@
    "authors": [
     {
      "name": "김기찬 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:327af7af51bdfeb248f8ecdd21c19dce70f03ff254e7d31df9772b3388c68a81",
-   "url": "https://www.boannews.com/news/articleView.html?idxno=146300",
-   "title": "시트릭스, 넷스케일러 새로운 치명적 결함 패치 촉구",
-   "published_at": "2026-10-12T15:00:00Z",
-   "published_raw": "2026-10-12 15:00:00",
-   "categories": [
-    "사건·사고",
-    "국제"
-   ],
-   "description": "시트릭스가 넷스케일러 ADC와 넷스케일러 게이트웨이에서 새로 나온 치명적 취약점(CVE-2026-107406)을 서둘러 패치하라고 관리자들에게 공지했다.이 결함은 메모리 오버플로로, 공격자가 이를 이용해 원격으로 코드를 실행하거나 장비를 서비스 거부 상태에 빠뜨려 멈추게 할 수 있다. 다만 SAML 인증에서 신원 제공자(IdP)나 서비스 제공자(SP)로 설정된 장비만 영향을 받는다.시트릭스는 공지를 낸 시점까지 패치로 막히지 않은 상태의 악용 사례는 파악하지 못했다고 밝혔다. 실제 공격에 쓰였다는 증거도 아직 찾지 못했다.노출 규모",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "정지원 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:121e827b435a1f00f02cb2680141e4b7e92ff4f54d16979152796568da14e6a4",
-   "url": "https://www.boannews.com/news/articleView.html?idxno=146316",
-   "title": "엠클라우독, 기업 AI 도입 핵심은 ‘문서중앙화 연계·폐쇄망’",
-   "published_at": "2026-10-12T14:16:57Z",
-   "published_raw": "2026-10-12 14:16:57",
-   "categories": [
-    "비즈니스",
-    "보도자료"
-   ],
-   "description": "엠클라우독이 자사의 기업용 AI 워크스페이스인 ‘딥코웍’(Deep cowork) 데모를 체험한 고객사를 대상으로 진행한 기업 AI 도입 트렌드 설문조사 결과를 12일 발표했다.조사 결과에 따르면, 다수의 기업이 임직원 개인 차원에서 범용 AI를 활용하는 단계에 머물러 있으나, 데이터 유출 우려 없이 조직 전체가 안전하게 사용할 수 있는 전용 업무 AI에 대한 수요가 뚜렷하게 증가하고 있는 것으로 나타났다. 기업들이 딥코웍 도입을 고려하는 목적은 보고서와 제안서, 견적서 작성 등 ‘반복 업무 자동화’(80%)였으며, ‘사내 정보 및",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "조재호 기자",
      "uri": "",
      "email": ""
     }
