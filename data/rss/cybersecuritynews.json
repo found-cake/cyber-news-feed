@@ -1,15 +1,48 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-22T16:00:11Z",
+ "updated_at": "2026-10-22T17:00:10Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-22T16:00:11Z",
+  "last_success_at": "2026-10-22T17:00:10Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d73e2711e20ac50ba3349911234b778f514eb23b8375c1551fb0005a322179ee",
+   "url": "https://cybersecuritynews.com/gcore-makes-enterprise-security-bundle-free-for-public-agencies-until-end-of-the-year",
+   "title": "Gcore Makes Enterprise Security Bundle Free for Public Agencies Until End of the Year",
+   "published_at": "2026-10-22T16:12:01Z",
+   "published_raw": "Thu, 22 Oct 2026 16:12:01 +0000",
+   "categories": [
+    "Press Release"
+   ],
+   "description": "<p>Contern, Luxembourg, October 22nd, 2026, CyberNewswire Gcore is offering its WAAP Enterprise plan free of charge to any government body or public agency until December 31, 2026. The offer follows the php2shell vulnerabilities that forced public websites offline across Europe earlier this week. Gcore WAAP blocks the php2shell attack path (CVE-2026-109618 and CVE-2026-109619) by default [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gcore-makes-enterprise-security-bundle-free-for-public-agencies-until-end-of-the-year/\">Gcore Makes Enterprise Security Bundle Free for Public Agencies Until End of the Year</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=168371",
+   "authors": [
+    {
+     "name": "Cybernewswire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizBd1a5aVYe8UIXbYWj0_y9fSHoJAbzNUG_gVz8Vesod6L4b_D2mbULJOIVUGz3TJhImRViil0iNc-gKhFB6NwwC1el5_w4A7FGCB0msh_htxi1E3iaXey26Ss1wFN0LuFv8SghYzNUqOR3EWbL0aJLA6pZrHiawKxGkYv4gXNuNXWELH3ToHDfVt4F6c/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-10-22T195022.98.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "168371",
+     "content_encoded": "<p class=\"wp-block-paragraph\"><strong>Contern, Luxembourg, October 22nd, 2026, CyberNewswire</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://gcore.com/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Gcore</a> is offering its WAAP Enterprise plan free of charge to any government body or public agency until December 31, 2026. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The offer follows the php2shell vulnerabilities that forced public websites offline across Europe earlier this week.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Gcore WAAP blocks the php2shell attack path (CVE-2026-109618 and CVE-2026-109619) by default for all customers. Sites taken offline can be placed behind the service and brought back online while patching continues. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The two PHP vulnerabilities, rated CVSS 9.2, allow unauthenticated remote code execution before any application code runs. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Government portals in the Netherlands, Finland, Denmark, and France, along with hospitals, schools, and commercial sites, were taken offline this week on the advice of CERT-EU and national agencies.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Going offline was the right call while no fix existed. Patching large estates takes days. A filtering layer that blocks the attack pattern lets a site run while that work is done. </p>\n\n\n\n<p class=\"wp-block-paragraph\">If new variants appear, Gcore updates the rule centrally and operators do not need to repeat the patching cycle.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Gcore’s Enterprise plan covers domains and websites, custom rules, IP reputation, bot management, threat intelligence, API security, and SIEM integration. Public-sector organizations can apply <a href=\"https://gcore.com/security/waf?utm_source=pr&amp;utm_medium=sponsored_content&amp;utm_campaign=php2shell_campaign_2026&amp;utm_product=p_waap\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">here</a> with an official government domain.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Gcore advises all PHP operators to update to 8.5.12, 8.4.27, 8.3.36, or 8.2.35; restart PHP-FPM and long-running workers after updating; and restrict origin access so traffic reaches the server only through a protection layer. </p>\n\n\n\n<p class=\"wp-block-paragraph\">PHP 8.1 and older receive no official fix; operators should obtain a vendor backport or upgrade.</p>\n\n\n\n<h2 id=\"h-about-gcore\" class=\"wp-block-heading\"><strong>About Gcore</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://gcore.com/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Gcore</a> connects the world to AI, anywhere, anytime. As a leading-edge platform provider of AI, cloud, network, and security solutions, Gcore helps businesses industry-wide to deliver fast, secure, and seamless experiences for their customers, no matter where they’re located.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Gcore solutions accelerate AI training and deployment, deliver efficient, customizable cloud services, improve content delivery, and protect servers, web applications, and APIs. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Leveraging extensive, flexible, global edge infrastructure, Gcore products can scale with business needs, enabling organizations to drive AI innovation, push the boundaries of technology, and reach their potential while maintaining the fundamentals: operational efficiency, consistency, and control.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Join thousands of businesses worldwide, including Orange, Wargaming, Xsolla, and Avast, using Gcore as the foundation for their global infrastructure, applications, and business.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Learn more at <a href=\"https://gcore.com/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">www.gcore.com</a> and follow us on <a href=\"https://www.linkedin.com/company/g-core/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">LinkedIn</a>, <a href=\"https://x.com/gcore_official\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">X</a>, <a href=\"https://www.youtube.com/@GCoreOfficial\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">YouTube</a>, and <a href=\"https://www.facebook.com/officialgcore\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Facebook</a>.</p>\n\n\n\n<h2 id=\"h-contact\" class=\"wp-block-heading\"><strong>Contact</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>PR &amp; Communications Lead</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Daniel Hoelzer</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Gcore</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>daniel.hoelzer@gcore.com</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n<p>The post <a href=\"https://cybersecuritynews.com/gcore-makes-enterprise-security-bundle-free-for-public-agencies-until-end-of-the-year/\">Gcore Makes Enterprise Security Bundle Free for Public Agencies Until End of the Year</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:5f6a0945f87a5c2c9f1efdd66530ed6f3bbc7778e7801669f4d96c11fc75c123",
    "url": "https://cybersecuritynews.com/u-s-banks-detect-unauthorized-ai-agents",
