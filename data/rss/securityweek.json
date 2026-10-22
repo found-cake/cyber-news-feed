@@ -1,15 +1,87 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-22T07:00:13Z",
+ "updated_at": "2026-10-22T08:00:11Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-22T07:00:13Z",
+  "last_success_at": "2026-10-22T08:00:11Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:af9f7c44f4aa50ecdfa542485b785c975fe0e14c191fe4eccfee6018fb192e38",
+   "url": "https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu",
+   "title": "Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU",
+   "published_at": "2026-10-22T07:38:14Z",
+   "published_raw": "Thu, 22 Oct 2026 07:38:14 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "Featured",
+    "Oracle",
+    "Oracle CPU",
+    "patches",
+    "vulnerability"
+   ],
+   "description": "<p>Nearly 100 vulnerabilities have been assigned a critical severity rating and Fusion Middleware received the most patches.</p>\n<p>The post <a href=\"https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/\">Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50220",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:02d2c63d9e645bc06a53b452da02b7d71cf90e96d72b9fbbc5c461e650a95a6f",
+   "url": "https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook",
+   "title": "Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook",
+   "published_at": "2026-10-22T07:26:54Z",
+   "published_raw": "Thu, 22 Oct 2026 07:26:54 +0000",
+   "categories": [
+    "Data Protection",
+    "Privacy & Compliance",
+    "fine",
+    "Meta",
+    "New Mexico",
+    "privacy"
+   ],
+   "description": "<p>The $25 billion award far exceeds a $5 billion fine the Federal Trade Commission levied against Facebook in 2019.</p>\n<p>The post <a href=\"https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/\">Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50218",
+   "authors": [
+    {
+     "name": "Associated Press",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:66de49493b7168bf40a85f172bd31f26593038959268a76866525f79903e3f51",
    "url": "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections",
@@ -2690,39 +2762,6 @@
    ],
    "description": "<p>CVE-2026-102255 is a pre-authenticated SSRF flaw that could allow attackers to perform unauthorized operations.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/\">Critical SonicWall Vulnerability Exploited Days After Disclosure</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=49933",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:60f1dbbee4feef0f602c126e01958fdb23827629d90542f4b28a4fe74fbd8177",
-   "url": "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch",
-   "title": "Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch",
-   "published_at": "2026-10-12T07:53:28Z",
-   "published_raw": "Mon, 12 Oct 2026 07:53:28 +0000",
-   "categories": [
-    "Data Protection",
-    "certificates",
-    "Let's Encrypt"
-   ],
-   "description": "<p>Beginning February 2027, all newly issued certificates will have a 64-day validity period by default.</p>\n<p>The post <a href=\"https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/\">Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49930",
    "authors": [
     {
      "name": "Ionut Arghire",
