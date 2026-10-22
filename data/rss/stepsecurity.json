@@ -1,15 +1,39 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-10-22T19:00:09Z",
+ "updated_at": "2026-10-22T20:00:10Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-22T19:00:09Z",
+  "last_success_at": "2026-10-22T20:00:10Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:48e121e98430fd65bfe001f924639a8c060d7d302d7f5170f433b857684155f2",
+   "url": "https://www.stepsecurity.io/blog/emudhra-emsign-ca-compromise-python-pip-ci-cd-update",
+   "title": "eMudhra / emSign CA Compromise: What Python, pip, and CI/CD Users Need to Update",
+   "published_at": "2026-10-22T19:49:42Z",
+   "published_raw": "Thu, 22 Oct 2026 19:49:42 GMT",
+   "categories": [],
+   "description": "Compromised eMudhra intermediate CA keys put Python dependency downloads at risk. Here are the affected tools, verified certificate-trust results, and remediation steps for pip, uv, virtual environments, and CI/CD images.",
+   "feed_id": "https://www.stepsecurity.io/blog/emudhra-emsign-ca-compromise-python-pip-ci-cd-update",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ada67a40579c9fce3eb5977_6ada678796227c318afba95f_emudhra-emsign-ca-compromise-hero-v2.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ada67a40579c9fce3eb5977_6ada678796227c318afba95f_emudhra-emsign-ca-compromise-hero-v2.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:ed2086ad234c1dabca49cd4ec9847f4e0b451f2881b9531912a17a3dd6dd0982",
    "url": "https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer",

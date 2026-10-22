@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-22T19:00:09Z",
+ "updated_at": "2026-10-22T20:00:10Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-22T19:00:09Z",
+  "last_success_at": "2026-10-22T20:00:10Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:cf879587b537377b167988d23f1c459ee280c5984f8c212fd2871ffaaea9fc20",
+   "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware",
+   "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+   "published_at": "2026-10-22T19:12:51Z",
+   "published_raw": "Thu, 22 Oct 2026 15:12:51 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:179faf62f2b237f0f3683e2d15631032f56fcceb3cb108c6544c8b0b0b859816",
    "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks",
@@ -1408,28 +1429,6 @@
    ],
    "description": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:afd616a71a344d0723fd6018b2d095fd02584749f52dd7ee09323988435a9c83",
-   "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files",
-   "title": "Yandex confirms service outage as users lose access to cloud files",
-   "published_at": "2026-10-12T19:23:01Z",
-   "published_raw": "Mon, 12 Oct 2026 15:23:01 -0400",
-   "categories": [
-    "security",
-    "Cloud"
-   ],
-   "description": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
    "authors": [
     {
      "name": "Bill Toulas",
