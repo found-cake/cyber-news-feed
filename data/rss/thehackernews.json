@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-22T17:00:10Z",
+ "updated_at": "2026-10-22T18:00:10Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-22T17:00:10Z",
+  "last_success_at": "2026-10-22T18:00:10Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -19,7 +19,7 @@
    "categories": [
     "threat-intelligence"
    ],
-   "description": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches.\n\n\"The exploit attempt originated from an IP address associated with a commercial anonymization network,\" CJ Moses,",
+   "description": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities dating back to October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches.\n\n\"The exploit attempt originated from an IP address associated with a commercial anonymization network,",
    "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7028112380450365464",
    "authors": [
     {
@@ -85,6 +85,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvF5TcwT7nwh6xcCiXS3I0m6qmvF6EorwitA-7ETGlXzpc89JG-rPZye0FkJfFwunfKHXMTkGyg_pBRkBdJv_qaGX32cUdiqoTAA-sjGmsSlKJsL5LUFpyZLiho955h3EtKUCWvtnHyIJgzG1INTIwkqKsCmv3-vsxGXQq8QH-ue0Vl358XyE33wUhxWs/s260-e100/fake.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d99ba89c8964f8cde6f533ec1b99a8d8c9747d92184cb870c77945106ab5b4b2",
+   "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+   "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
+   "published_at": "2026-10-22T17:45:44Z",
+   "published_raw": "2026-10-22T23:15:44.220+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't even over yet.\n\nBut those big headlines are only half the story. Stolen passwords, exposed",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8268593666042236619",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt9NuQgzmDAqircHtb2OEO9jXuNXIfpmc6cywt44gLVoKRSyrTtwqh2DaQkZ_BCrux5hLbZ9-uU9fR7Q6oFE7cjYOJB6aF1zqIJrrgT9A5RVRZguNYHZCk7-LBEAY7GxyR9KoCwwdPF9UowRvnZBvSN4X24RJXEQBRg3F1Mi5ktvXfNWWsUXlVnHLUmYd6/s260-e100/threatsday-oct-main.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:7c53f743c08237d2727ca65e473b4707a4d9bd06671d8e75282cc77ec6ec93c4",
+   "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+   "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+   "published_at": "2026-10-22T17:01:53Z",
+   "published_raw": "2026-10-22T22:31:53.336+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by&nbsp;Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel.\n\nOne of them, ZDI-CAN-33774, can be triggered before any network authentication. The other, ZDI-CAN-33549, requires the SMB Direct transport and an RDMA-capable network",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2856403811565115326",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdNNyKzD2udgIl0X434MI2ucEwGFB_B-QqyjMnMuvTfwZv7clEo3n0ASA_aEQtUmQ7wqPSREwq1Cvi3iQLtubfUkK7p017Q6SrliTkwHiJyhfDIzahdof71Mxs4LXqJWoLkAnwikxy2KmZ1pkMg5Qto-RwPnvQx71Ol4G7sO20eeVNr_pfstT2WbDg3Nk/s260-e100/linux-rce.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -686,60 +740,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:ebaf37949a88c936e530e83bfd13a0855d99a808c925f902d5ff17e1242b28eb",
-   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
-   "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
-   "published_at": "2026-10-16T17:48:45Z",
-   "published_raw": "2026-10-16T23:18:45.028+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections.Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4827857839823742859",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqmitTMm5t8BBKfynqzFAKqJSzh_s7fQczmMm5u95RLUUzuWMubd5DeM8e8EH6YOpP-_gvbYwn8Cd3flsL-nGIupBw5HOo49Orr7J2rqhI99J7U4LcXW6shlxd3w0zFAng1mLw5xGb-F9GRmpDK82GC1-Dcb1gPcvkgl4wVi0-QTEGalDwPmelGE0TtNU/s260-e100/openbsd.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:2f4ebff472d58347b5f4820386c92e2f654aff5966771c2acb787546316a49ac",
-   "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
-   "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-   "published_at": "2026-10-16T06:55:55Z",
-   "published_raw": "2026-10-16T12:25:55.980+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026.\n\nThe vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of improper origin validation in an internal messaging component that could be exploited by a",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3739555292343348926",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEic5zD5GBvYxe93igsDOMdwS6eyfDORIWio42Z9UY0enK0XKWYcQlLB9RLx3iO_V1xm8vqBxMVZ_R8Lt-xxOumO5_RIFN3hgB-yZyGGlVMypRx5lm2GJq-1c9cbzfRcjrMAIfBI67L4QUI-MwjjQjKL1RcgPnzFdYuAF3k1y2Ev-ppSmiG8sdQ5dbJkbjKR/s260-e100/beyond.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:b5736c37c6a72d90b26e449a483c794a8719be13067dd338abfc187f67db0b33",
    "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
    "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
@@ -1084,6 +1084,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh64tQNgn3aqDhyphenhyphengoK8NxQG3DPvWWi0fP185meJUr14eUmcX18mKJdkUz6QsMU6bTxmwAtHrd8I0J5FQjvTENA1-N1F60zsR1x2iDzaJNhPbg_6iGYTELpBOwiTbBiaMWLmWQ4naaMfCLCcThNEfC302zF-YCjlev6138DvUrXfr5noGCpZaT9JnGd7hUw/s260-e100/supermarket.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:ebaf37949a88c936e530e83bfd13a0855d99a808c925f902d5ff17e1242b28eb",
+   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+   "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+   "published_at": "2026-10-16T17:48:45Z",
+   "published_raw": "2026-10-16T23:18:45.028+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections.Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4827857839823742859",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqmitTMm5t8BBKfynqzFAKqJSzh_s7fQczmMm5u95RLUUzuWMubd5DeM8e8EH6YOpP-_gvbYwn8Cd3flsL-nGIupBw5HOo49Orr7J2rqhI99J7U4LcXW6shlxd3w0zFAng1mLw5xGb-F9GRmpDK82GC1-Dcb1gPcvkgl4wVi0-QTEGalDwPmelGE0TtNU/s260-e100/openbsd.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:2f4ebff472d58347b5f4820386c92e2f654aff5966771c2acb787546316a49ac",
+   "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+   "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+   "published_at": "2026-10-16T06:55:55Z",
+   "published_raw": "2026-10-16T12:25:55.980+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026.\n\nThe vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of improper origin validation in an internal messaging component that could be exploited by a",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3739555292343348926",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEic5zD5GBvYxe93igsDOMdwS6eyfDORIWio42Z9UY0enK0XKWYcQlLB9RLx3iO_V1xm8vqBxMVZ_R8Lt-xxOumO5_RIFN3hgB-yZyGGlVMypRx5lm2GJq-1c9cbzfRcjrMAIfBI67L4QUI-MwjjQjKL1RcgPnzFdYuAF3k1y2Ev-ppSmiG8sdQ5dbJkbjKR/s260-e100/beyond.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
