@@ -1,15 +1,87 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-23T10:01:06Z",
+ "updated_at": "2026-10-23T11:01:08Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-23T10:01:06Z",
+  "last_success_at": "2026-10-23T11:01:08Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:bfe0ded4ce71747aa503e49239dbfb6f0288aa7159a0c0bdcb5e1278fe55fe40",
+   "url": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks",
+   "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
+   "published_at": "2026-10-23T10:31:16Z",
+   "published_raw": "Fri, 23 Oct 2026 10:31:16 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "Malware & Threats",
+    "AI",
+    "China",
+    "China APT",
+    "ConnectWise",
+    "Microsoft"
+   ],
+   "description": "<p>The state-sponsored hackers targeted hundreds of organizations and gained privileged access to some environments.</p>\n<p>The post <a href=\"https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/\">China APT Uses AI Pentest Tool Artex in ConnectWise Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50267",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:da8585ca808755980454ac2510a31aeac3b6404da09cbd00d469dda42389890c",
+   "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months",
+   "title": "Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months",
+   "published_at": "2026-10-23T09:58:34Z",
+   "published_raw": "Fri, 23 Oct 2026 09:58:34 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "Arista",
+    "exploited",
+    "vulnerability",
+    "Zero-Day"
+   ],
+   "description": "<p>The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges.</p>\n<p>The post <a href=\"https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/\">Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50265",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:77de36c1a9c61f5d43e48235830027125bc885001e374cab842fe27f6d5c3059",
    "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach",
@@ -87,6 +159,7 @@
     "Artificial Intelligence",
     "Supply Chain Security",
     "AI",
+    "Featured",
     "LiteLLM",
     "supply chain attack"
    ],
@@ -2789,75 +2862,6 @@
    ],
    "description": "<p>Expanded plugin count allows the malware to monitor users’ location, stream live audio, and interact with authenticated browser sessions.</p>\n<p>The post <a href=\"https://www.securityweek.com/xworm-rat-evolves-into-surveillance-platform/\">XWorm RAT Evolves Into Surveillance Platform</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=49964",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:1f2590bc1e29ae0eaf5499c32c7a23ae6aa71f94a614c9c79006884f6fd0e8d9",
-   "url": "https://www.securityweek.com/ai-turns-familiar-cyberattacks-into-a-race-against-time",
-   "title": "AI Turns Familiar Cyberattacks Into a Race Against Time",
-   "published_at": "2026-10-13T11:00:00Z",
-   "published_raw": "Tue, 13 Oct 2026 11:00:00 +0000",
-   "categories": [
-    "Artificial Intelligence",
-    "AI",
-    "Featured"
-   ],
-   "description": "<p>IBM’s Steve Wallin talks to SecurityWeek on the effect of AI-driven attacks on enterprise defenses.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-turns-familiar-cyberattacks-into-a-race-against-time/\">AI Turns Familiar Cyberattacks Into a Race Against Time</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49958",
-   "authors": [
-    {
-     "name": "Kevin Townsend",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:ee9ef7c7d476b62239dfd8096e0a940505047d4e633f662b016ba93976127150",
-   "url": "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant",
-   "title": "$86 Million Crypto Heist Linked to Ledger Signer Hardware Implant",
-   "published_at": "2026-10-13T10:36:05Z",
-   "published_raw": "Tue, 13 Oct 2026 10:36:05 +0000",
-   "categories": [
-    "Supply Chain Security",
-    "cryptocurrency",
-    "cryptocurrency heist",
-    "Hardware supply chain",
-    "Ledger",
-    "supply chain attack"
-   ],
-   "description": "<p>A small circuit board hidden under the signers’ screens read user data and transmitted it to the attackers.</p>\n<p>The post <a href=\"https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/\">$86 Million Crypto Heist Linked to Ledger Signer Hardware Implant</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=49962",
    "authors": [
     {
      "name": "Ionut Arghire",
