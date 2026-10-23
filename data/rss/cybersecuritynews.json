@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-23T02:01:10Z",
+ "updated_at": "2026-10-23T03:01:23Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-23T02:01:10Z",
+  "last_success_at": "2026-10-23T03:01:23Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:1797a2ee697694f129894d7620612e927a7453ec3c4d25da1ef5c77b9c6282bc",
+   "url": "https://cybersecuritynews.com/linux-kernel-flaws-accidentally-disclosed",
+   "title": "Critical Unpatched Linux Kernel Flaws Accidentally Disclosed on Public List",
+   "published_at": "2026-10-23T02:09:49Z",
+   "published_raw": "Fri, 23 Oct 2026 02:09:49 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News"
+   ],
+   "description": "<p>Several unpatched Linux-related security flaws were posted to public mailing lists in October, exposing technical details before fixes were ready. The reports, submitted by Trend Micro’s Zero Day Initiative (ZDI), include two critical flaws rated CVSS 9.0 that could let a remote attacker run code on systems using the Linux kernel’s KSMBD file server. Other [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kernel-flaws-accidentally-disclosed/\">Critical Unpatched Linux Kernel Flaws Accidentally Disclosed on Public List</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=168418",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Linux-kernel-Flaws-Accidentally-Disclosed.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "168418",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Several unpatched Linux-related security flaws were posted to public mailing lists in October, exposing technical details before fixes were ready.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The reports, submitted by Trend Micro’s Zero Day Initiative (ZDI), include two critical flaws rated CVSS 9.0 that could let a remote attacker run code on systems using the Linux kernel’s KSMBD file server. Other reports describe local privilege-escalation and information-disclosure risks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The reports appeared on public lists, and Linux kernel maintainer Greg Kroah-Hartman questioned why some submissions were sent there without patches.</p>\n\n\n\n<p class=\"wp-block-paragraph\">But the reports credit Trend Micro’s AI scanner, and reporting on the disclosure points to updated kernel guidance that treats AI-found bugs as already public. ZDI had not publicly explained the routing as of October 23, 2026, so it remains unclear whether this was a simple mistake.</p>\n\n\n\n<h2 id=\"h-two-critical-flaws-affect-ksmbd\" class=\"wp-block-heading\"><strong>Two Critical Flaws Affect KSMBD</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The most urgent reports concern KSMBD, an optional SMB file server built into the Linux kernel. It is separate from Samba, the commonly used file-sharing software. That means the reports do not automatically affect Linux systems running Samba alone. The immediate question for operators is whether KSMBD is enabled and serving files.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://lore.kernel.org/lkml/BYAPR01MB383076AC412E19C48CFBEAE980662@BYAPR01MB3830.prod.exchangelabs.com/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">ZDI-CAN-33774</a> describes a race condition in KSMBD that could lead to remote code execution. A race condition occurs when the outcome depends on the timing of tasks running at the same time. In this case, the report says that a mismatch in how the server handles queued network requests may lead to memory being read or written beyond its intended limits. ZDI rated the flaw CVSS 9.0.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://lore.kernel.org/lkml/BYAPR01MB3830472B5702C089B0BBB77D80662@BYAPR01MB3830.prod.exchangelabs.com/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">ZDI-CAN-33549</a>, also rated CVSS 9.0, affects KSMBD’s SMB Direct path. The reported cause is an integer underflow: a size value can wrap around after a subtraction, leaving the program with an incorrect length.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A later memory operation may then exceed its buffer. The issue concerns SMB Direct, which uses RDMA networking, so exposure depends on the server’s configuration and use of that feature. A fix was reportedly present in a development branch intended for Linux 7.5, but that does not mean it was already available in released or distribution kernels.</p>\n\n\n\n<p class=\"wp-block-paragraph\">At the time of reporting, neither critical issue had a named fix in the mainline kernel or its integration tree, and no CVE identifier had been assigned. Kernel changes also need to reach stable and distribution releases before many users can install them. Administrators should therefore check their Linux vendor’s security notices rather than assume that a fix in a development branch has reached their systems.</p>\n\n\n\n<h2 id=\"h-four-other-reports-cover-different-components\" class=\"wp-block-heading\"><strong>Four Other Reports Cover Different Components</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The remaining reports do not all affect the same part of Linux. <a href=\"https://lore.kernel.org/lkml/BYAPR01MB3830CECF5D0871064C59BA0280662@BYAPR01MB3830.prod.exchangelabs.com/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">ZDI-CAN-33367</a> involves the <code>skb_zerocopy</code> networking code and may allow a local user to gain higher privileges. Kernel developers had reportedly received a separate report about the same issue the previous week, with a patch expected. <a href=\"https://lore.kernel.org/dri-devel/2026102254-protector-seventy-6454@gregkh/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">ZDI-CAN-34068</a> concerns an out-of-bounds write in the VMware graphics driver, which could also enable local privilege escalation.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://lore.kernel.org/all/2026102226-duly-imprison-a2c1@gregkh/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">ZDI-CAN-34076</a> involves an uninitialized resource in the NVMe over Fabrics target code and may expose information. <a href=\"https://lore.kernel.org/all/BYAPR01MB383046745372577D8F5902D580672@BYAPR01MB3830.prod.exchangelabs.com/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">ZDI-CAN-32005</a>, posted a day earlier, is a stack-buffer overflow in ConnMan’s handling of search-domain TCP queries. ConnMan is a network-management service, not a Linux kernel component, so this report should not be described as a kernel flaw.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Start by checking whether KSMBD is active and whether the system needs it. If it is not required, disabling it reduces exposure to the two remote-code-execution reports.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If it is needed, keep file-sharing services away from untrusted networks, review share access, and monitor the Linux distribution’s security updates for fixes. These steps reduce risk but do not replace installing a vendor-approved patch once it becomes available.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The reports also show why public disclosure before a fix can create pressure for maintainers and system operators. Public details can help defenders understand what to check, but they can also give attackers useful information before updates reach users. For context on earlier KSMBD risks, see Cyber Security News’ coverage of a <a href=\"https://cybersecuritynews.com/linux-kernel-ksmbd-vulnerability/\">Linux KSMBD remote-code-execution flaw</a> and its report on an <a href=\"https://cybersecuritynews.com/linux-kernel-smb-0-day-vulnerability/\">AI-assisted discovery in the Linux SMB server</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For ongoing protection, administrators should follow their distribution’s advisories and apply fixes as soon as they are released.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Update defenses against new malware as soon as it appears. <a href=\"https://any.run/threat-intelligence-feeds/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+12-18&amp;utm_content=ti+feeds+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate TI Feeds with data from 16K SOCs</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kernel-flaws-accidentally-disclosed/\">Critical Unpatched Linux Kernel Flaws Accidentally Disclosed on Public List</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:d73e2711e20ac50ba3349911234b778f514eb23b8375c1551fb0005a322179ee",
    "url": "https://cybersecuritynews.com/gcore-makes-enterprise-security-bundle-free-for-public-agencies-until-end-of-the-year",
