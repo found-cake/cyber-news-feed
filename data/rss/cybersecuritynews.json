@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-23T05:01:13Z",
+ "updated_at": "2026-10-23T06:01:11Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-23T05:01:13Z",
+  "last_success_at": "2026-10-23T06:01:11Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c55443470463ad9dcd3d3bcdce4dd9c7d6751940f38b54a2c6bfa41e9df3a027",
+   "url": "https://cybersecuritynews.com/pwc-data-breach-claim",
+   "title": "PwC Data Breach Claim – Everest Ransomware Group Claims to Have Stolen 590 GB of Data",
+   "published_at": "2026-10-23T05:12:54Z",
+   "published_raw": "Fri, 23 Oct 2026 05:12:54 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Data Breach"
+   ],
+   "description": "<p>The Everest ransomware group claims to have stolen 590.69 GB of data from PwC, the global professional services firm. This alleged data theft includes human resources records, training materials, and internal documents. However, the claims are unverified, and PwC has not yet responded. The group’s listing was reported on October 22, 2026. Hackmanac’s public alert [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/pwc-data-breach-claim/\">PwC Data Breach Claim &#8211; Everest Ransomware Group Claims to Have Stolen 590 GB of Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=168430",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/PwC-Data-Breach-Claim.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "168430",
+     "content_encoded": "<p class=\"wp-block-paragraph\">The Everest ransomware group claims to have stolen 590.69 GB of data from PwC, the global professional services firm. This alleged data theft includes human resources records, training materials, and internal documents. However, the claims are unverified, and PwC has not yet responded.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The group’s listing was reported on October 22, 2026. Hackmanac’s public alert described 108,426 files allegedly taken from internal HR and learning systems. Separately, <a href=\"https://ctiwatch.com/victims/pwc-b08d34eb\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CTIWatch’s victim tracker</a> recorded PwC appearing on Everest’s leak site that day. These reports document the claim, not independent proof of a breach.</p>\n\n\n\n<h2 id=\"h-alleged-pwc-data-breach\" class=\"wp-block-heading\"><strong>Alleged PwC Data Breach</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The supplied leak-site screenshot names a directory, <code>pwc-stg.csod.com</code>, and describes Cornerstone OnDemand platform materials, regional HR exports, e-learning courses, and integration testing documents. It lists 494 directories, alongside 1,333 original archive containers and 53 nested containers. The screenshot alone does not establish how these materials were obtained.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Hackmanac reported that the alleged data spans PwC operations in Australia, China, Canada, and the UK. One HR dataset reportedly contains 213,084 records. That figure should not be read as a confirmed count of affected employees because the number of unique people remains unknown.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The alert also mentions employee information, employment and training records, internal audit methods, confidential documents, and single sign-on source code and configuration files. It does not establish whether working passwords, tokens, or other usable secrets are present.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3mA4tWdSSzInEcZ2AGBFqsEiH5wmm7Y50bJWnyLWre4IJ_xd7rv21HAyaTuOeclT4Q7c4lOmOFJaM-DBMHVVLA8_7oEStVmcCQIIx7MTvjwVO_FVxHsQXB79Y7dEzQiOmHwusQM69nDzxhDPJxOB0r3ufwH-FcI9xkiugs9qGjJ8c_PB2nSQiy5gpEkc2/w640-h640/pwc%20breach%20claim1.webp\" alt=\"\"/><figcaption class=\"wp-element-caption\">PwC Data Breach Claim</figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">The screenshot threatens publication after a countdown and urges the company to make contact. A reported October 28 release deadline has not been independently confirmed. No ransom amount, initial access method, or evidence of encrypted PwC systems has been established in the reviewed material.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Everest has previously used data theft claims to pressure named organizations, including its <a href=\"https://cybersecuritynews.com/mcdonalds-india-everest-ransomware/\" target=\"_blank\" rel=\"noreferrer noopener\">alleged McDonald’s India breach</a>. However, its history includes both data extortion and file encryption, so this listing should not automatically be treated as proof of ransomware deployment.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A separate <a href=\"https://cybersecuritynews.com/everest-ransomware-claims-1-tb-data-theft/\" target=\"_blank\" rel=\"noreferrer noopener\">technical analysis of Everest ransomware</a> found no data theft function inside one examined encryptor. Researchers noted that any theft could instead occur earlier through separate tools. That finding does not explain this alleged incident.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If authentic, detailed employee records could help criminals craft convincing phishing messages or impersonate staff. For now, the central questions remain data authenticity, ownership, access scope, and whether any records are current.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Update defenses against new malware as soon as it appears. <a href=\"https://any.run/threat-intelligence-feeds/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+12-18&amp;utm_content=ti+feeds+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate TI Feeds with data from 16K SOCs</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/pwc-data-breach-claim/\">PwC Data Breach Claim &#8211; Everest Ransomware Group Claims to Have Stolen 590 GB of Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:f3270f008bcc50aee63cd2530b3ef7592c802b2da1f0e9ede7e0dbe73d976859",
    "url": "https://cybersecuritynews.com/critical-cisco-expressway-vulnerability",
