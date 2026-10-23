@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-23T15:01:13Z",
+ "updated_at": "2026-10-23T16:01:29Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-23T15:01:13Z",
+  "last_success_at": "2026-10-23T16:01:29Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:a46a3d4aa8e9f96fc8fa2756c05c2bae16f74012ea0f73a4c887dd172cad6c1f",
+   "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability",
+   "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+   "published_at": "2026-10-23T15:38:05Z",
+   "published_raw": "Fri, 23 Oct 2026 11:38:05 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:ba3749ef980b3b5303bef6f1bde3dd8355f473f96cb6d404da27e8d682d6dc0c",
    "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders",
@@ -1409,48 +1430,6 @@
    ],
    "description": "TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:74cf1d007de08b01931e4846e13af20bf600db3ad4a8cf7b712df8d350079a1a",
-   "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks",
-   "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
-   "published_at": "2026-10-13T15:45:50Z",
-   "published_raw": "Tue, 13 Oct 2026 11:45:50 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:6e528cdc1681d58468561ca394d56572afa3e2f9b705d510fc6369381782901a",
-   "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images",
-   "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
-   "published_at": "2026-10-13T15:20:20Z",
-   "published_raw": "Tue, 13 Oct 2026 11:20:20 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal access token (PAT). [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
    "authors": [
     {
      "name": "Bill Toulas",
