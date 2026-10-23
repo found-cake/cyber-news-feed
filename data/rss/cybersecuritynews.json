@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-23T06:01:11Z",
+ "updated_at": "2026-10-23T07:01:26Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-23T06:01:11Z",
+  "last_success_at": "2026-10-23T07:01:26Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b1da5afc2ec0c70ab024cfd79c95806990e79fca0463be325680de303c323f42",
+   "url": "https://cybersecuritynews.com/emergency-java-update",
+   "title": "Oracle Issues Emergency Java Update for Critical 9.1 HTTPS Trust Vulnerability",
+   "published_at": "2026-10-23T06:01:47Z",
+   "published_raw": "Fri, 23 Oct 2026 06:01:47 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability",
+    "Vulnerability News"
+   ],
+   "description": "<p>Oracle has released an emergency Java security update to address CVE-2026-91403, a critical vulnerability affecting how Java applications trust digital certificates. Published on October 21, 2026, the alert assigns the flaw a CVSS 3.1 score of 9.1 and covers Oracle Java SE and GraalVM. The update blocks affected intermediate certificate authority certificates linked to eMudhra. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/emergency-java-update/\">Oracle Issues Emergency Java Update for Critical 9.1 HTTPS Trust Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=168450",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Java-Security-Update.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "168450",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Oracle has released an emergency Java security update to address CVE-2026-91403, a critical vulnerability affecting how Java applications trust digital certificates. Published on October 21, 2026, the alert assigns the flaw a CVSS 3.1 score of 9.1 and covers Oracle Java SE and GraalVM. The update blocks <a href=\"https://cybersecuritynews.com/emudhra-security-compromise/\" target=\"_blank\" rel=\"noreferrer noopener\">affected intermediate certificate authority certificates</a> linked to eMudhra.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to Oracle’s security advisory, the issue affects the Java Secure Socket Extension, or JSSE, component. Oracle rates exploitation as low complexity, with no authentication or user interaction required. Successful attacks can expose or change sensitive data, although the risk matrix lists no availability impact.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The problem involves certificate chains that Java uses to decide whether a remote service is trusted. Red Hat explains that eMudhra issued intermediate certificates with weak private keys. An attacker positioned between a Java client and a server could use those weak keys to create certificates for arbitrary hostnames, making a malicious site appear trusted.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This undermines the identity checks behind HTTPS. Encryption alone cannot protect a connection when the client accepts an attacker’s certificate as valid. The fix therefore changes which certificates Java accepts, rather than removing HTTPS support or replacing the entire certificate system. Oracle’s update specifically distrusts the impacted intermediate certificates.</p>\n\n\n\n<h2 id=\"h-affected-java-and-graalvm-versions\" class=\"wp-block-heading\"><strong>Affected Java and GraalVM Versions</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Oracle lists Java SE 8u511, 8u511-perf, 11.0.33, 17.0.21, 21.0.13, 25.0.5, and 27.0.1 as affected. GraalVM for JDK 17.0.21 and 21.0.13, alongside GraalVM Enterprise Edition 21.3.20, are also included. Earlier releases may be vulnerable, but unsupported versions were not tested.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.oracle.com/security-alerts/alert-cve-2026-91403.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Oracle notes that affected</a> APIs can be reached through services supplying data to JSSE. Its advisory also covers certain sandboxed Java Web Start applications and applets that load untrusted code. The announcement does not report confirmed attacks exploiting this vulnerability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Oracle recommends installing the latest Java update or following its <a href=\"https://ops.java/emudhra\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">eMudhra mitigation instructions</a>. Teams unable to update immediately can replace the local <code>blocked.certs</code> file with Oracle’s supplied version, preserving existing custom entries. Java 8 requires the replacement file to be named <code>blacklisted.certs</code>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Alternatively, Oracle advises enabling TLS revocation checks using <code>-Dcom.sun.net.ssl.checkRevocation=true</code> and <code>-Dcom.sun.security.enableCRLDP=true</code>. For signed JAR verification on JDK 17 and later, it provides <code>jarsigner -verify -revcheck -strict [SIGNED_JAR]</code>. These are alternatives, not steps that must all be applied together.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The emergency alert follows Oracle’s wider patching efforts, including its <a href=\"https://cybersecuritynews.com/oracle-security-update-673-vulnerabilities/\" target=\"_blank\" rel=\"noreferrer noopener\">September security update</a> and <a href=\"https://cybersecuritynews.com/oracle-releases-943-security-patches/\" target=\"_blank\" rel=\"noreferrer noopener\">August security patches</a>. However, administrators should check this specific advisory rather than assume earlier updates cover the certificate issue. Oracle directs customers to its patch availability document for installation details and recommends moving unsupported deployments to supported releases.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Update defenses against new malware as soon as it appears. <a href=\"https://any.run/threat-intelligence-feeds/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+12-18&amp;utm_content=ti+feeds+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate TI Feeds with data from 16K SOCs</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/emergency-java-update/\">Oracle Issues Emergency Java Update for Critical 9.1 HTTPS Trust Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:c55443470463ad9dcd3d3bcdce4dd9c7d6751940f38b54a2c6bfa41e9df3a027",
    "url": "https://cybersecuritynews.com/pwc-data-breach-claim",
