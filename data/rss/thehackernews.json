@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-24T06:01:07Z",
+ "updated_at": "2026-10-24T07:01:12Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-24T06:01:07Z",
+  "last_success_at": "2026-10-24T07:01:12Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -112,6 +112,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvF5TcwT7nwh6xcCiXS3I0m6qmvF6EorwitA-7ETGlXzpc89JG-rPZye0FkJfFwunfKHXMTkGyg_pBRkBdJv_qaGX32cUdiqoTAA-sjGmsSlKJsL5LUFpyZLiho955h3EtKUCWvtnHyIJgzG1INTIwkqKsCmv3-vsxGXQq8QH-ue0Vl358XyE33wUhxWs/s260-e100/fake.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:ad7396463092f2b221e8ab244af2e43aab958163a26c2149f54d22f5a28be300",
+   "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+   "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+   "published_at": "2026-10-24T06:25:57Z",
+   "published_raw": "2026-10-24T11:55:57.877+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild.\n\nThe critical-severity vulnerabilities are listed below -\n\n\n  CVE-2026-110447 (CVSS score: 9.2) - An operating",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4386106142518563152",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmm0pKX3kbfMC2GKemUiMT8PH1uDJIHn4AcmoiQ5nUK4TWZl0Ni_-k6kjpAFUrFzEWSSq_G307YJXTXmn9FZ7q6oOr5OEMASP9mrXOXrk9lSOGzqPCAbkQqpHsMxFe1q5CnyDZnqeDq_FiiC7jEzp0ie1r_nnQOSKcbPcKBdoXI-ycAjCZA9AuxemUhE5k/s260-e100/arista-cisa.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -713,33 +740,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:584d35c71235748c5853ae0ee8facd11c2557a1afe12b5bae233b2cc206ecade",
-   "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-   "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
-   "published_at": "2026-10-20T15:38:52Z",
-   "published_raw": "2026-10-20T21:08:52.884+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution.\n\nThe vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-445200343961929342",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3BuJLxcpzxzxwpUcwsPb7L-gNCeXeyuPtNysOMHtf06VmANCx2DR3O52Puw9AQwUu0C8ccQ77MF_l0bAf4zL-hrvYO8jSHs6Km0Xz6-Q4yYm1thRvJ-y59qLRX9Qni0zD161qJ53oCgzEIo3NjOLKtgOrIAbOMsAhITOhL9qoy2v9D6tRU26m0fBoMDhJ/s260-e100/fort-poc.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:76da60089176983713f45816e41f527b55fd384f7508dfc491f47b7b2284b45e",
    "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
    "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
@@ -1192,6 +1192,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4G5JAIF-hCnKf9QyWLzWIWxTrUIjqshujDHf0-_9m84O9f4S0Z-IQ4Jg-T11Ph_rwZvzsFU8Z-pI3uRsnvPSE-FK_VtrUx0pNZgHKf3PuMJCQmwopiE5hyMRSObeV7_VSrF7WC_iiG9T8wMNivOOBC12F7bLK8WI-MNjCffolAJnnhk-X-v1ecxwYtrQz/s260-e100/palo.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:584d35c71235748c5853ae0ee8facd11c2557a1afe12b5bae233b2cc206ecade",
+   "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+   "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+   "published_at": "2026-10-20T15:38:52Z",
+   "published_raw": "2026-10-20T21:08:52.884+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution.\n\nThe vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-445200343961929342",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3BuJLxcpzxzxwpUcwsPb7L-gNCeXeyuPtNysOMHtf06VmANCx2DR3O52Puw9AQwUu0C8ccQ77MF_l0bAf4zL-hrvYO8jSHs6Km0Xz6-Q4yYm1thRvJ-y59qLRX9Qni0zD161qJ53oCgzEIo3NjOLKtgOrIAbOMsAhITOhL9qoy2v9D6tRU26m0fBoMDhJ/s260-e100/fort-poc.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
