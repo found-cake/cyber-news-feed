@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-24T14:01:18Z",
+ "updated_at": "2026-10-24T15:01:10Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-24T14:01:18Z",
+  "last_success_at": "2026-10-24T15:01:10Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:9fcce94ed3b1e9c4958aa9fdf55861c308d71d460948b415bee4d65d0c6e4d18",
+   "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot",
+   "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+   "published_at": "2026-10-24T14:17:32Z",
+   "published_raw": "Sat, 24 Oct 2026 10:17:32 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:0ae7a1508c3f482bfa2840b370d5c5eb5330221285429e5c3eaaa46ba96fa98d",
    "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks",
