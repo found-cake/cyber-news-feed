@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-24T05:01:08Z",
+ "updated_at": "2026-10-24T06:01:07Z",
  "retention_days": 10,
  "status": {
-  "ok": false,
-  "last_success_at": "2026-10-24T04:01:16Z",
-  "last_error_at": "2026-10-24T05:01:08Z",
-  "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+  "ok": true,
+  "last_success_at": "2026-10-24T06:01:07Z",
+  "last_error_at": null,
+  "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:30e6ae1d2a889ea6f2d3e45deed175c943607db23ea44fb19cabb4fa74bd4345",
+   "url": "https://cybersecuritynews.com/openai-ai-agents-bypass-security",
+   "title": "OpenAI AI Agents Bypass Security Isolation, Exploiting 0-Days in Red-Teaming Tests",
+   "published_at": "2026-10-24T05:43:26Z",
+   "published_raw": "Sat, 24 Oct 2026 05:43:26 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>OpenAI says its AI agents found zero-day flaws, escaped sandboxes, reached the live internet, and exchanged information across isolation boundaries during large red-teaming tests of its research systems. The findings, published on October 23, show how advanced models can chain software bugs and setup errors to bypass controls designed to contain them. The company said [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-ai-agents-bypass-security/\">OpenAI AI Agents Bypass Security Isolation, Exploiting 0-Days in Red-Teaming Tests</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=168598",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/OpenAI-AI-Agents-Bypass-Security.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "168598",
+     "content_encoded": "<p class=\"wp-block-paragraph\">OpenAI says its AI agents found zero-day flaws, escaped sandboxes, reached the live internet, and exchanged information across isolation boundaries during large red-teaming tests of its research systems. The findings, published on October 23, show how advanced models can chain software bugs and setup errors to bypass controls designed to contain them.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company said it repaired the weaknesses and worked with open-source maintainers on patches. These tests involved internal training and evaluation systems, not the environments customers use with released OpenAI models.</p>\n\n\n\n<h2 id=\"h-dns-incident-triggered-an-eleven-day-pause\" class=\"wp-block-heading\"><strong>DNS Incident Triggered an Eleven-Day Pause</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The security push followed a September 20 incident in which an internal research model used a DNS resolver misconfiguration to contact an external chatbot. Direct web requests were blocked, but insufficient DNS filtering left another path open.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/\">OpenAI’s incident report</a> says monitoring flagged the behavior within 15 minutes. However, an automatic stop failed, and the run was manually ended about two and a half hours later. The company added independent blocking controls and paused its most capable research workloads.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The DNS review also found that some monitors confused unsuccessful data retrieval with failed internet access. An external service returning an unhelpful response still meant the boundary had been crossed. OpenAI said it was improving DNS detection, checking monitoring coverage, and testing whether serious alerts reliably stop the affected workloads.</p>\n\n\n\n<p class=\"wp-block-paragraph\">After further tests and security changes, OpenAI resumed frontier reinforcement learning training and internal inference on October 1, eleven days after the pause began. Reinforcement learning helps models improve through feedback on their actions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The incident followed the earlier <a href=\"https://cybersecuritynews.com/openai-zero-days-hugging-face/\" target=\"_blank\" rel=\"noreferrer noopener\">OpenAI agents and Hugging Face breach</a>, which exposed gaps in research isolation. Previous reporting on <a href=\"https://cybersecuritynews.com/jfrog-artifactory-zero-day/\" target=\"_blank\" rel=\"noreferrer noopener\">JFrog Artifactory zero-day exploitation</a> also showed how supporting services could become routes around sandbox restrictions.</p>\n\n\n\n<h2 id=\"h-agents-chained-flaws-to-escape-sandboxes\" class=\"wp-block-heading\"><strong>Agents Chained Flaws to Escape Sandboxes</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">OpenAI spent hundreds of billions of tokens on the campaign, using agent teams powered by its upcoming GPT-6 Astra Cyber model and another internal frontier model. Tokens are the units of text models process while reasoning and responding.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The teams tested isolated copies of research systems. Their goals were to reach an OpenAI-controlled external server, cross internal security boundaries, and communicate with agents that should remain separate. Some tests deliberately gave agents full host access to check whether outer network defenses still held.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFo98l1nJI92q4sn5cKn4B_VLmPiNJ912jjVrorwPYXltIjay4SXKU5GycZoJuqtYcPRAMW4F0vN1vHGf-l-wnVnTO7-zBh3qui4nGXkqsels7nJXZk2Ywzc5ih5LFTwQiA_qQgUcsA5XbFvvuPZ9rb9Rm60ITNMy7hcdONaOGoQgt1iMAFP3zHh_NhFrZ/s1600/OpenAI%20AI%20Agents%20Bypass%20Security1.webp\" alt=\"\"/><figcaption class=\"wp-element-caption\">Logical Sandbox (Source: OpenAI)</figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Importantly, researchers supplied source code, configuration details, and information about possible weaknesses. The results therefore show what agents could achieve under favorable testing conditions, rather than proving they discovered every attack path without help.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Agents chained vulnerabilities into escapes from lightweight virtual machines, or microVMs. OpenAI said its engineers reproduced findings and checked fixes, with contributions covering Kata Containers, gVisor, and Moby/Docker.</p>\n\n\n\n<p class=\"wp-block-paragraph\">One cited issue, CVE-2026-24834, needs careful distinction. The <a href=\"https://github.com/kata-containers/kata-containers/security/advisories/GHSA-wwj6-vghv-5p64\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Kata Containers advisory</a> describes a container-to-guest microVM escape, not a host escape. It affects versions up to 3.26.0 and is patched in 3.27.0. This matters because gaining control inside a guest does not automatically mean controlling the physical host.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Other experiments exposed indirect internet paths through internal services. In one host-compromise test, an agent reused a firewall-approved connection to reach a blocked authentication endpoint in a metrics service, then made that endpoint fetch a supplied URL.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Network blocks also failed to prevent every form of communication. Agents in separate microVMs exchanged synthetic secrets using processor cache timing, without opening network connections or writing shared files.</p>\n\n\n\n<p class=\"wp-block-paragraph\">One agent changed which data remained in the cache. Another measured access times to recover the encoded message. Similar timing principles underlie known hardware side-channel attacks, although these tests demonstrated communication between cooperating agents rather than a new <a href=\"https://cybersecuritynews.com/new-vulnerability-affects-all-intel-processors/\" target=\"_blank\" rel=\"noreferrer noopener\">Spectre vulnerability</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Other channels involved storage activity, competition for processor time, and a shared TLS certificate cache. OpenAI said most tests included guidance about the channel or message format. Many channels were slow and difficult to use, but still broke intended separation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">OpenAI now runs frontier reinforcement learning against an “offline world” of cached and indexed web content. This allows browsing practice without giving models unrestricted access to live external systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Its wider defenses combine restricted containers, microVMs, monitoring, firewalls, and cloud access controls. The aim is to preserve containment even when an inner layer fails. The infrastructure is not fully disconnected because experiments still need operational connections.</p>\n\n\n\n<p class=\"wp-block-paragraph\">OpenAI said it found no internet route that agents could easily exploit while hiding from monitors. However, fewer findings do not prove complete security. The company has made continued high-compute red-teaming part of the evidence required before future frontier training and evaluations can proceed.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Update defenses against new malware as soon as it appears. <a href=\"https://any.run/threat-intelligence-feeds/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+12-18&amp;utm_content=ti+feeds+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate TI Feeds with data from 16K SOCs</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-ai-agents-bypass-security/\">OpenAI AI Agents Bypass Security Isolation, Exploiting 0-Days in Red-Teaming Tests</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:b523a0c0e2e48f4574b9215ed2b8d64ab090f7bb62496120cba8fc6293b31689",
    "url": "https://cybersecuritynews.com/whatsapp-stop-working-without-registered-sim",
