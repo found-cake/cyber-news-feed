@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-24T12:01:08Z",
+ "updated_at": "2026-10-24T13:01:14Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-24T12:01:08Z",
+  "last_success_at": "2026-10-24T13:01:14Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -1813,60 +1813,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkZLcjmZtzt6NpWa8x4Wz7EdcOQEW6xYv6DA_mBnwy1ctZZeRAyeSYLES-H_mkr1QOBv72WNuGKwKQ-NN179Rw8BRTcYO38sYwxcbDkg1ISW_qWrCRJ9JfUXh3102OmwrF0HQq6dbSc58VXACXoi_EoI8ysPuSlzB_nBcHuFl9r3QakOsGG9GUm6UVOU8/s260-e100/nextcloud.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:13d15f9231c43ced0025597415b2102b047308219e866af8614cd231cd0a7479",
-   "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
-   "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
-   "published_at": "2026-10-14T12:30:42Z",
-   "published_raw": "2026-10-14T18:00:42.094+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability.\n\nThe security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7093270694234559015",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBUpsAaH4Pe-HlsDhdSH5KK3VgWm9NEXXLNBOpxxp4d8WMZwSNNyPALzuapR_iUlq3-dLDe2bnPJfh42cdfH5m3LQWGKXZvHF3sYacyDbtZacKIIoluyNgP01-6bjjEz-RBhAQqxw-VHGD7gpn3ToRulgeH0ydeWXOucoK4hLBwvXtlCg81tB1scdjPbKN/s260-e100/i-h.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:05d981a16f272692a24f34eaa5bc01e7ab5c4753e1f4ea37669a38626c1e11cb",
-   "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
-   "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
-   "published_at": "2026-10-14T12:13:36Z",
-   "published_raw": "2026-10-14T17:43:36.914+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine.\n\nThe curl project fixed it on October 14 in&nbsp;curl 8.23.0. Taking over a client needs exact knowledge of its build and memory layout, and curl expects a real attack to end in a crash",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5703735085708038188",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4S_5rQ2kApGYmSMOh6PFsgD3yRugV3_nzSexwBhEe3BoSTQeBfSu2-3JSO4wDCnU2LmVMWtgA6AcBEcf2wOpsL2v22woZ5fel0XaSonlbgDWSXMuV3iu5ewohp9kqgf4OwmCvtnRyyYjFEP6Z3RRLT5sX8g7-xI1robnLmWtqFp6SvrGvpBeXI_D4ICo/s260-e100/curl.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
