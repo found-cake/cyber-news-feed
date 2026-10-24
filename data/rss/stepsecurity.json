@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-10-24T16:01:09Z",
+ "updated_at": "2026-10-24T17:01:08Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-24T16:01:09Z",
+  "last_success_at": "2026-10-24T17:01:08Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -14,8 +14,8 @@
    "id": "sha256:8400214680a5a8d6743cfe77d9dd57452ee894f1e7d43d2f692642aa08ef7c6e",
    "url": "https://www.stepsecurity.io/blog/ovhcloud-cli-github-release-swap-glassworm",
    "title": "OVHcloud CLI Compromised via GitHub Release Swap: Detonating the Real GlassWorm Loader and What We Found",
-   "published_at": "2026-10-24T07:50:47Z",
-   "published_raw": "Sat, 24 Oct 2026 07:50:47 GMT",
+   "published_at": "2026-10-24T16:21:08Z",
+   "published_raw": "Sat, 24 Oct 2026 16:21:08 GMT",
    "categories": [],
    "description": "An attacker swapped the binaries on five OVHcloud CLI releases, stayed live for 94 minutes, and deleted the evidence. We rebuilt the exact attacker build, recovered the GlassWorm loader from an orphaned commit, and detonated the full chain in an isolated chamber. The replay shows that install.sh never exposed arm64 Linux, Homebrew was never a path in, and a single ovhcloud version command was enough to spot the malicious build.",
    "feed_id": "https://www.stepsecurity.io/blog/ovhcloud-cli-github-release-swap-glassworm",
