@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-24T08:01:09Z",
+ "updated_at": "2026-10-24T09:01:20Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-24T08:01:09Z",
+  "last_success_at": "2026-10-24T09:01:20Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -112,6 +112,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvF5TcwT7nwh6xcCiXS3I0m6qmvF6EorwitA-7ETGlXzpc89JG-rPZye0FkJfFwunfKHXMTkGyg_pBRkBdJv_qaGX32cUdiqoTAA-sjGmsSlKJsL5LUFpyZLiho955h3EtKUCWvtnHyIJgzG1INTIwkqKsCmv3-vsxGXQq8QH-ue0Vl358XyE33wUhxWs/s260-e100/fake.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:a64123d828297872a642cff5b055159f640284e80dcf89de6ec97689a63c0c06",
+   "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+   "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+   "published_at": "2026-10-24T08:45:56Z",
+   "published_raw": "2026-10-24T14:15:56.809+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5262467545044996107",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxIIerJT3LOMCGn3nXAnmhaHzJlJnVJCso1COluq8t3WuF4IpNARa_Asl5nEhRUDTEcR89kwzo5vGmP5IyNbj1ncdaCpkhqcHUODHAd3khanaE-7N8Vb0NyEJkmPmNkhSpJtLCLgi9srDRhZLtM5n8UDI58F797ZJaVzC7JzjPLfca4NpxZr_7tCX8RIk/s260-e100/br-nodejs.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -713,33 +740,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:1e26274c4cd9491712143e4ae714dfefb589c69eb42ff55f03efa741c51fcb58",
-   "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-   "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
-   "published_at": "2026-10-20T17:09:53Z",
-   "published_raw": "2026-10-20T22:39:53.713+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised,&nbsp;Mozilla&nbsp;and&nbsp;Google's Chrome Root Program&nbsp;confirms on October 20.\n\nAn intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept.\n\nA researcher reported the",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4253089942592776280",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJOWLzgriXXM626bAOaX_LEoNH97Ab_XV4oQ0GxBeY3-PqkdXdcae52-wrl8r0LipTFBsvl4R7Y5j6jFsiG_9V8ZAwHOkAlsZaRcOAswStHhAG1FYm9W6kjA4FmOz0bXgVXO6LyEs9Fv75UrRFphZEzhXodKdTlYzfPK8sqW3DpxKBnD7OFQfqJJ_ay2c/s260-e100/ecert.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:76da60089176983713f45816e41f527b55fd384f7508dfc491f47b7b2284b45e",
    "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
    "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
@@ -1192,6 +1192,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4G5JAIF-hCnKf9QyWLzWIWxTrUIjqshujDHf0-_9m84O9f4S0Z-IQ4Jg-T11Ph_rwZvzsFU8Z-pI3uRsnvPSE-FK_VtrUx0pNZgHKf3PuMJCQmwopiE5hyMRSObeV7_VSrF7WC_iiG9T8wMNivOOBC12F7bLK8WI-MNjCffolAJnnhk-X-v1ecxwYtrQz/s260-e100/palo.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:1e26274c4cd9491712143e4ae714dfefb589c69eb42ff55f03efa741c51fcb58",
+   "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+   "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+   "published_at": "2026-10-20T17:09:53Z",
+   "published_raw": "2026-10-20T22:39:53.713+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised,&nbsp;Mozilla&nbsp;and&nbsp;Google's Chrome Root Program&nbsp;confirms on October 20.\n\nAn intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept.\n\nA researcher reported the",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4253089942592776280",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJOWLzgriXXM626bAOaX_LEoNH97Ab_XV4oQ0GxBeY3-PqkdXdcae52-wrl8r0LipTFBsvl4R7Y5j6jFsiG_9V8ZAwHOkAlsZaRcOAswStHhAG1FYm9W6kjA4FmOz0bXgVXO6LyEs9Fv75UrRFphZEzhXodKdTlYzfPK8sqW3DpxKBnD7OFQfqJJ_ay2c/s260-e100/ecert.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
