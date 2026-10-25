@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-25T20:01:08Z",
+ "updated_at": "2026-10-25T21:01:05Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-25T20:01:08Z",
+  "last_success_at": "2026-10-25T21:01:05Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -1570,33 +1570,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMvdc6m999SfUEEWC89wHnBiUX9WAMCSdWtbFP_lrH4DuREHfOJL7G29LkM4uAvittg3XsHxnq6dq_VEX1zB_jCGi5RJDbQZlrq37gHSCXpRrn11FEN-hezQn0Dt4Xcw4DcanklKW_8iLEnQN6JpzkQ7JHBOS1_dMzDAs2h_jJcWDqOGjbkMoeabOCkSFK/s260-e100/f.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:e2089d243155ed7a05c2caf047206c938b1d7289ca984c3299fef5aac94b413c",
-   "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-   "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-   "published_at": "2026-10-15T20:24:36Z",
-   "published_raw": "2026-10-16T01:54:36.568+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it.\n\nThe flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3348898992174848269",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0Y0ZP5acV4vjjJV9at7yMnz0frJTAeLd3nGmqMIcifTwGoe2NsB7pDInUjGa6aocyqoM3o-NyXKpsfyy1LRdkH5UG67UVYC_lNZDYArvg-hkmtifcalWo67Mkl3A4_2qwXomi7iJURUjoiSlBdEWtJL5N63jfuMDjI7ewZHLlTZBXlkc4zqwyxKox7eE/s260-e100/pwnescape-main.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
