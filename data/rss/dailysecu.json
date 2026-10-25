@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-10-25T06:01:09Z",
+ "updated_at": "2026-10-25T07:01:10Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-25T06:01:09Z",
+  "last_success_at": "2026-10-25T07:01:10Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:6be5a51fde171e47eddd3c9c10487067b80155b18f0cf0c2b129668b25233358",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209050",
+   "title": "더존비즈온, APO 백업서버 해킹 공지…암호화 데이터 외부 반출 정황",
+   "published_at": "2026-10-25T15:44:33Z",
+   "published_raw": "2026-10-25 15:44:33",
+   "categories": [
+    "이슈"
+   ],
+   "description": "더존비즈온이 APO백업서비스 서버에 대한 외부 침해와 암호화된 일부 데이터의 외부 반출 정황을 확인하고 고객사에 개인정보 유출 가능성을 공지했다. 개인정보 유출 여부와 대상 고객사, 유출 가능 항목은 아직 확정되지 않았다.회사 측 공지에 따르면, 서비스 점검 중 이상징후를 발견한 뒤 백업 솔루션 제공사인 아세이(Ahsay)에 관련 내용을 문의하는 과정에서 솔루션에 취약점이 있다는 사실을 전달받았다. 이후 내부조사를 통해 해당 취약점을 거쳐 백업서버 내 암호화된 일부 데이터가 외부로 반출된 정황을 확인했다.정확한 사고 발생 시점은 조",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e607ede7fb1279c698d3e15d2414106f0631aa6007b03ce7b9aad41094e6cb1e",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209049",
+   "title": "노드.js만 패치하면 끝?…브로틀리 쓰는 파이썬·프록시도 점검 필요",
+   "published_at": "2026-10-25T15:34:52Z",
+   "published_raw": "2026-10-25 15:34:52",
+   "categories": [
+    "이슈"
+   ],
+   "description": "구글의 압축 라이브러리 ‘브로틀리(Brotli)’에서 조작된 데이터를 해제하는 과정에 악성코드가 실행될 수 있는 취약점이 확인됐다. 노드.js뿐 아니라 번(Bun), 파이썬 관련 패키지, 일부 프록시 환경에도 영향을 미칠 수 있어 제품별 보안 업데이트와 압축 처리 경로 점검이 필요하다.취약점 식별번호는 ‘CVE-2026-111497’이다. 브로틀리는 웹페이지와 통신 데이터의 용량을 줄이는 압축 기술이다. 이번 결함은 압축을 해제하는 코드가 비정상적인 입력을 처리하면서 정해진 메모리 영역 밖에 데이터를 기록하는 문제다. 공격자가 조작",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:e79f07630d15418dbd004a2f9e6a5abff97ec4c44588114398f06ca1dba48343",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209048",
