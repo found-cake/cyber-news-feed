@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-25T17:01:13Z",
+ "updated_at": "2026-10-25T18:01:08Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-25T17:01:13Z",
+  "last_success_at": "2026-10-25T18:01:08Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -85,6 +85,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwNHgVe_6hmXG-V6Nx8pk56jDEW1WRCKtvvG9RHugoj65LqTTVGLvgl1Eh1E7ClmyMDn9k4RrF7Yp1kteZvZ_r7v9IxQPG_Eif3nk_13gz_MSddPcBtJdLKFwYAPa4BKMN5FdZLvvTIjahr4aTdiiLeQMuVzrj8Ff9wvgmUCW_6_OyfXPSGIEEIxZgdtQ-/s260-e100/vmware-healthcare.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:33f7736e74631c3e92659afbe1965f21d4a96e0439d99808ed2b43bebc9bc19e",
+   "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+   "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+   "published_at": "2026-10-25T17:44:09Z",
+   "published_raw": "2026-10-25T23:14:09.147+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.\n\nThe attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target.\n\nThe findings were",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2788618055750336898",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbGR63RmXInXPwCVFZlGJSiGv5WQfLTWymToOPIYbKXfXniB7X4YDbTVK-28G4r3WfdelCr_2TRzhoYrIogcG_C9WjXEHaLhURIh_v5RyO5sBY8UKwQWbKUBrv_H5n5K7N4mz2WG3d5dldw_re-M5CgDDbVi_EhTqvB9P87fZJlODojj8ivvj-RwLUhpg/s260-e100/tailscale.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:da19872bd8ebd641fd6397768aac402f3e921a7c58cec2a2b755c0ffbf10b243",
+   "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+   "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+   "published_at": "2026-10-25T17:19:46Z",
+   "published_raw": "2026-10-25T22:49:46.756+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619.\n\n\"In one case, the attackers targeted a government entity in Europe and within two hours of the initial exploitation they had successfully accessed password hashes and multi-factor",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-70857981266893049",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzK2qokKedMIUzd876s0EWaLDb7qw-DMzlFWKvmfgCzMKZ2KVvdpZ-298SoEm1_PP6aoEBc6q1LAydnANGur1FbFNmXmhlo6zHtRFvgRcbx-LOoDoM_-JI-_7XkkM4r5q3LQH1SdfirarXTGeiu16d5YMDSeYs8tfJn5ITfRQ4DThbqkq66b4WdDQcOJqf/s260-e100/php2shell-exploit.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -659,60 +713,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:1dac3ddb6c024270eec9b6ca5b7e6a9c215500669d8c37c71e08e13eb3ec1e68",
-   "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
-   "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
-   "published_at": "2026-10-21T10:36:53Z",
-   "published_raw": "2026-10-21T16:06:53.890+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says.\n\nPHP will release the fix at&nbsp;14:00 UTC on October 21&nbsp;for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3511617534003943780",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipzsA5sBIvBsTGT1YIrSeK_4YH5ISqTd40ZG1tV8YN1VkjjZuiY6CfQojYR-TIoYKM0EgZM4fYrmdtD25XjeTtgBkTFCQGny4DLL0fTKT5SEFpOFBcxNjLgif_FrX-1d-IX9DE58tQX6ELzGk4cWNpUpU5Eaig8pqdLL2h6qqVCC95ZmHFN6m7tD6m7BY/s260-e100/php-rce-patch.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:9d349a6e395496ea5b4b054c250d1a2b13fbec3bf44c1e153be029dde1f4c7c1",
-   "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
-   "title": "The Harness Is the Hard Part of Agentic Pentesting",
-   "published_at": "2026-10-21T10:32:40Z",
-   "published_raw": "2026-10-21T16:02:40.246+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the engineering in AI pentesting sits. The Hugging Face intrusion OpenAI disclosed in July",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5795854942374320379",
-   "authors": [
-    {
-     "name": "Unknown",
-     "uri": "",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTdLja8gnPl92G1mhffmAZ3Dy5Q8gX9wpjY22n1J2xerzpx0Eab4VMj2fzt3XAe_TjT8hlDkjdzW8DdBwWCvAPa9o5SKnFN4MSo5H0MnXylWX36NwFiwcI19f3MR0QDPT2uKXtXH4RAj5_rU3aBnmAVxsczeL2sfBj7G1r878XbJ6rAyEFgIg0XeuBNKk/s260-e100/pentera-main.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:76da60089176983713f45816e41f527b55fd384f7508dfc491f47b7b2284b45e",
    "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
    "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
@@ -1165,6 +1165,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyMnLMgZNuoh6c41MPT17IsrvbfocknmRb8sxaolFmTpU9h0b-jyJAe9Ods3iCWligbpcd1a1IThvmpUts5llDkKkScffnItGGrGcneDJ8oUJjuc76syHF8g31ZeTWMunD7LDJjviCRFMf8Zugkg8Z4kgXyhDW4bfrCHtV8Xkt-wJlnUd78z-ab28LrfV5/s260-e100/certin.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:1dac3ddb6c024270eec9b6ca5b7e6a9c215500669d8c37c71e08e13eb3ec1e68",
+   "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+   "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
+   "published_at": "2026-10-21T10:36:53Z",
+   "published_raw": "2026-10-21T16:06:53.890+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says.\n\nPHP will release the fix at&nbsp;14:00 UTC on October 21&nbsp;for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3511617534003943780",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipzsA5sBIvBsTGT1YIrSeK_4YH5ISqTd40ZG1tV8YN1VkjjZuiY6CfQojYR-TIoYKM0EgZM4fYrmdtD25XjeTtgBkTFCQGny4DLL0fTKT5SEFpOFBcxNjLgif_FrX-1d-IX9DE58tQX6ELzGk4cWNpUpU5Eaig8pqdLL2h6qqVCC95ZmHFN6m7tD6m7BY/s260-e100/php-rce-patch.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:9d349a6e395496ea5b4b054c250d1a2b13fbec3bf44c1e153be029dde1f4c7c1",
+   "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
+   "title": "The Harness Is the Hard Part of Agentic Pentesting",
+   "published_at": "2026-10-21T10:32:40Z",
+   "published_raw": "2026-10-21T16:02:40.246+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the engineering in AI pentesting sits. The Hugging Face intrusion OpenAI disclosed in July",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5795854942374320379",
+   "authors": [
+    {
+     "name": "Unknown",
+     "uri": "",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTdLja8gnPl92G1mhffmAZ3Dy5Q8gX9wpjY22n1J2xerzpx0Eab4VMj2fzt3XAe_TjT8hlDkjdzW8DdBwWCvAPa9o5SKnFN4MSo5H0MnXylWX36NwFiwcI19f3MR0QDPT2uKXtXH4RAj5_rU3aBnmAVxsczeL2sfBj7G1r878XbJ6rAyEFgIg0XeuBNKk/s260-e100/pentera-main.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
