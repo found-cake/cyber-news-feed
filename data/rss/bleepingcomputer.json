@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-26T16:01:10Z",
+ "updated_at": "2026-10-26T17:01:13Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-26T16:01:10Z",
+  "last_success_at": "2026-10-26T17:01:13Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:aee4985617fbdf68a3254b82bef1335ca982df95d3a6f296b63a1d3d7b98569b",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches",
+   "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+   "published_at": "2026-10-26T16:27:57Z",
+   "published_raw": "Mon, 26 Oct 2026 12:27:57 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:cbcc5c5d1532cb4996baf7f9e9e1d40a2449285c46e9ea0a1f62db420e869ded",
    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw",
