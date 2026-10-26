@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-26T19:01:06Z",
+ "updated_at": "2026-10-26T20:01:08Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-26T19:01:06Z",
+  "last_success_at": "2026-10-26T20:01:08Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:fe0322af886fa22cc7776aabcedb0f52abb287eceffd2fbbfd67a2369832c4ff",
+   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident",
+   "title": "DreamHost forces password resets in ongoing \"incident\"",
+   "published_at": "2026-10-26T19:26:20Z",
+   "published_raw": "Mon, 26 Oct 2026 15:26:20 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:aee4985617fbdf68a3254b82bef1335ca982df95d3a6f296b63a1d3d7b98569b",
    "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches",
@@ -1064,27 +1085,6 @@
    ],
    "description": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:c0bd42b621bad7f686dba44568cc344233913d2ad7415250051c4af4d273a243",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers",
-   "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
-   "published_at": "2026-10-16T20:00:59Z",
-   "published_raw": "Fri, 16 Oct 2026 16:00:59 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
    "authors": [
     {
      "name": "Bill Toulas",
