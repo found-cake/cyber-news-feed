@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-26T04:01:06Z",
+ "updated_at": "2026-10-26T05:01:18Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-26T04:01:06Z",
+  "last_success_at": "2026-10-26T05:01:18Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -121,13 +121,13 @@
   {
    "id": "sha256:da19872bd8ebd641fd6397768aac402f3e921a7c58cec2a2b755c0ffbf10b243",
    "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-   "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+   "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
    "published_at": "2026-10-25T17:19:46Z",
    "published_raw": "2026-10-25T22:49:46.756+05:30",
    "categories": [
     "vulnerability"
    ],
-   "description": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619.\n\n\"In one case, the attackers targeted a government entity in Europe and within two hours of the initial exploitation they had successfully accessed password hashes and multi-factor",
+   "description": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws.\n\n\"What researchers saw was an attack against a European government agency executed in the context of a vulnerable PHP application,\" a spokesperson for the company told The Hacker News via",
    "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-70857981266893049",
    "authors": [
     {
@@ -1543,33 +1543,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEic5zD5GBvYxe93igsDOMdwS6eyfDORIWio42Z9UY0enK0XKWYcQlLB9RLx3iO_V1xm8vqBxMVZ_R8Lt-xxOumO5_RIFN3hgB-yZyGGlVMypRx5lm2GJq-1c9cbzfRcjrMAIfBI67L4QUI-MwjjQjKL1RcgPnzFdYuAF3k1y2Ev-ppSmiG8sdQ5dbJkbjKR/s260-e100/beyond.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:a2dfa0394e0653a8dabfc5abcf52d6ba3f9cba0fd2cb2dd6fbc5b238df868190",
-   "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
-   "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
-   "published_at": "2026-10-16T04:59:36Z",
-   "published_raw": "2026-10-16T10:29:36.489+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH.\n\nThe attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal flaw in the command line interpreter of FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager that could allow a",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6023428539982308459",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMvdc6m999SfUEEWC89wHnBiUX9WAMCSdWtbFP_lrH4DuREHfOJL7G29LkM4uAvittg3XsHxnq6dq_VEX1zB_jCGi5RJDbQZlrq37gHSCXpRrn11FEN-hezQn0Dt4Xcw4DcanklKW_8iLEnQN6JpzkQ7JHBOS1_dMzDAs2h_jJcWDqOGjbkMoeabOCkSFK/s260-e100/f.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
