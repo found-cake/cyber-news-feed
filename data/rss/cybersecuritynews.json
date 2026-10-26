@@ -1,15 +1,119 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-26T15:01:07Z",
+ "updated_at": "2026-10-26T16:01:10Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-26T15:01:07Z",
+  "last_success_at": "2026-10-26T16:01:10Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:90a6fd3de93a3a8ebd87b333d019c09b04dff6be43b24634c81a9a7df78ae76c",
+   "url": "https://cybersecuritynews.com/openbsd-8-0-released",
+   "title": "OpenBSD 8.0 Released With Major Security Hardening and Post-Quantum SSH Support",
+   "published_at": "2026-10-26T15:59:50Z",
+   "published_raw": "Mon, 26 Oct 2026 15:59:50 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>OpenBSD 8.0 has been released with security fixes across its kernel, network services, firewall, and update tools, alongside experimental post-quantum SSH signature support. Released on October 20, 2026, the project’s 61st release includes OpenSSH 10.6 and LibreSSL 4.4.0, bringing stronger checks for untrusted data and changes to secure connection handling. The official release notes detail [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openbsd-8-0-released/\">OpenBSD 8.0 Released With Major Security Hardening and Post-Quantum SSH Support</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=168813",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/OpenBSD-8.0-Released-With-Major-Security-Hardening-and-Post-Quantum-SSH-Support.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "168813",
+     "content_encoded": "<p class=\"wp-block-paragraph\">OpenBSD 8.0 has been released with security fixes across its kernel, network services, firewall, and update tools, alongside experimental <a href=\"https://cybersecuritynews.com/post-quantum-cryptography-is-not-the-future-it-is-your-current-reality/\" target=\"_blank\" rel=\"noreferrer noopener\">post-quantum SSH signature support.</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">Released on October 20, 2026, the project’s 61st release includes OpenSSH 10.6 and LibreSSL 4.4.0, bringing stronger checks for untrusted data and changes to secure connection handling.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The <a href=\"https://www.openbsd.org/80.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">official release notes</a> detail changes that address memory errors, unsafe file handling, and gaps in process isolation. For administrators, the update reaches beyond remote login security, covering web servers, mail delivery, DHCP services, virtual machines, and firmware installation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">OpenSSH 10.6 includes experimental support for the composite mldsa44-ed25519 signature scheme, which combines ML-DSA 44 with Ed25519.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The release also switches the scheme’s identifier from its OpenSSH-specific name to an IANA-allocated codepoint, a change that administrators testing earlier implementations should review.</p>\n\n\n\n<h2 id=\"h-openbsd-8-0-released\" class=\"wp-block-heading\"><strong>OpenBSD 8.0 Released </strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">This work concerns digital signatures rather than the initial introduction of post-quantum key exchange. As covered in <a href=\"https://cybersecuritynews.com/openssh-10-0-released/\" target=\"_blank\" rel=\"noopener\">OpenSSH 10.0’s security changes</a>, that earlier release made hybrid ML-KEM and X25519 key agreement the default.</p>\n\n\n\n<p class=\"wp-block-paragraph\">OpenBSD 8.0 therefore builds on existing quantum-resistant connection protection rather than introducing it.mSSH hardening also includes turning off the LZ77 dictionary coder to avoid a potential side-channel leak.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Developers corrected enforcement of ChannelTimeout and RekeyLimit settings and ensured the authorized_keys “restrict” option applies to tunnel forwarding. DisableForwarding now overrides PermitTunnel, tightening control over remote access features.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Additional fixes address client memory errors, excessive expansion of compressed data, and validation of state passed between SSH server processes before and after authentication. Some key parsing and verification paths were also removed from the code exposed before login.</p>\n\n\n\n<p class=\"wp-block-paragraph\">On amd64 systems, OpenBSD now places the kernel’s direct memory map at a random location. The release also fixes kernel stack information leaks and removes an unprivileged kernel memory read and write vulnerability affecting the m88k 88100 data pipeline.</p>\n\n\n\n<p class=\"wp-block-paragraph\">These changes extend the security focus described in <a target=\"_blank\" href=\"https://cybersecuritynews.com/openbsd-7-7-released/\" rel=\"noopener\">OpenBSD 7.7’s release coverage</a>. Version 8.0 adds tighter pledge socket checks and limits file access for manual-page tools through unveil.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The PF firewall receives fixes for out-of-bounds reads, connection counter races, and crafted reset packets that could incorrectly remove TCP state. Meanwhile, httpd rejects ambiguous request framing and obsolete folded headers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Relayd rejects duplicate Content-Length headers and removes Content-Length from chunked messages, reducing differences in how HTTP requests are handled.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Firmware updates now verify signatures on local SHA256.sig files, restrict download sizes, and skip archive entries outside expected locations. Package installation no longer searches the current directory by default. At the same time, pax blocks malicious archives from extracting files outside the working directory.</p>\n\n\n\n<p class=\"wp-block-paragraph\">LibreSSL 4.4.0 makes X25519MLKEM768 the preferred TLS 1.3 group in libtls. It also fixes certificate checks, an OCSP responder authorization bypass, and <a href=\"https://cybersecuritynews.com/openssl-4-1-0-released/\" target=\"_blank\" rel=\"noreferrer noopener\">excessive DTLS handshake buffering</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should review compatibility changes, consult the linked upgrade documentation, and check release errata before deploying the update across production systems.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Update defenses against new malware as soon as it appears. <a href=\"https://any.run/threat-intelligence-feeds/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+12-18&amp;utm_content=ti+feeds+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate TI Feeds with data from 16K SOCs</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/openbsd-8-0-released/\">OpenBSD 8.0 Released With Major Security Hardening and Post-Quantum SSH Support</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:0620b94d9828ebf8afcbc4b49cf1687376c289f11829cd5a3b12e6dd93be8eee",
+   "url": "https://cybersecuritynews.com/emperador-ransomware-group-claim",
+   "title": "Emperador Ransomware Group Claims to Have Stolen 3.9GB of Data from the Maker of Budweiser and Corona",
+   "published_at": "2026-10-26T15:58:08Z",
+   "published_raw": "Mon, 26 Oct 2026 15:58:08 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Ransomware",
+    "cyber security"
+   ],
+   "description": "<p>The Emperador ransomware group claims to have stolen 3.9GB of data from AB InBev and demands $1 million in Bitcoin, but the alleged breach remains unverified, with no company confirmation reported. The claim was discovered on October 25, 2026, at 03:22 UTC. The tracker lists the same day as the estimated attack date, but that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/emperador-ransomware-group-claim/\">Emperador Ransomware Group Claims to Have Stolen 3.9GB of Data from the Maker of Budweiser and Corona</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=168798",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Emperador-Ransomware-Group-Claims-to-Have-Stolen-3.9GB-of-Data-From-Maker-of-Budweiser-Corona-and-Stella-Artois.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "168798",
+     "content_encoded": "<p class=\"wp-block-paragraph\">The Emperador ransomware group claims to have stolen 3.9GB of data from AB InBev and demands $1 million in Bitcoin, but the<a href=\"https://cybersecuritynews.com/gentlemen-ransomware-kfc-breach/\" target=\"_blank\" rel=\"noreferrer noopener\"> alleged breach</a> remains unverified, with no company confirmation reported.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The claim was discovered on October 25, 2026, at 03:22 UTC. The tracker lists the same day as the estimated attack date, but that does not establish when any unauthorized access began.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Emperador says its collection includes 329,244 social-listening alerts, 2,510 corporate emails across AB InBev subsidiaries, around 19,000 access logs, and GBS portal records.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The group also claims to hold internal public key infrastructure certificates and 3.2GB of <a href=\"https://cybersecuritynews.com/opensource-cloud-security-tools/\" target=\"_blank\" rel=\"noreferrer noopener\">Azure Blob assets</a>. These figures describe the attackers’ account, not independently verified findings.</p>\n\n\n\n<p class=\"wp-block-paragraph\">“We hold 329,244 AB InBev social-listening alerts,” the group states in its posting, before listing the other records and its payment demand.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Azure assets account for most of the claimed data volume, but the listing does not explain their contents or how the group obtained them.</p>\n\n\n\n<h2 id=\"h-emperador-ransomware-claims-ab-inbev-data-theft\" class=\"wp-block-heading\"><strong>Emperador Ransomware Claims AB InBev Data Theft</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">According to <a href=\"https://www.ransomware.live/id/QUIgSW5CZXZAZW1wZXJhZG9y?utm_source=chatgpt.com\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Ransomware.live’s victim listing</a>, the claims about corporate emails and access logs remain unclear, as the posting does not specify the type of email data involved or prove that attackers retained active access to company systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The claimed certificate exposure needs careful interpretation. Microsoft’s X.509 certificate documentation explains that certificates contain public keys, not private keys.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Therefore, possessing certificates alone does not prove an attacker can impersonate an internal service or decrypt protected information. The listing does not say whether private keys were obtained.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYxMdC8rDGNre8cOhVHGsZs6WrKDwT78FX57XCbaDxMlgdp_qn0rGY2xp-zf30ZyBu80nw4PEjlogvey6ahP36VBjO8BFi81sgX-y5kIoKir1Jc2oCTMPBCBfXs1uPs_o7FWdBgyJke8gv3acz4mUx7FQ3DvSJIlIGwbi9QoALecN2D_iXQjKLWf7oxV8/s1600/Screenshot%202026-10-26%20151829%20%281%29.webp\" alt=\"Leak Screenshot (source : ransomware.live )\"/><figcaption class=\"wp-element-caption\"> Leak Screenshot (source: Ransomware.live )</figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">The Azure claim lacks evidence of a compromised storage account, exposed token or key, or specific software flaw, and naming Azure files does not prove a Microsoft platform breach or explain how attackers accessed AB InBev’s environment.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Separate <a href=\"https://cybersecuritynews.com/storm-3168/amp/\" target=\"_blank\" rel=\"noopener\">Cyber Security News coverage of the Storm-3168 cloud attack</a> documented compromised service identities and storage-key collection. Those findings illustrate why cloud identity evidence matters, but they should not be attributed to this alleged incident.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The available claim does not establish that Emperador encrypted AB InBev systems, disrupted brewing operations, or affected product distribution. It also provides no verified count of affected people. Describing the event as a confirmed operational ransomware attack would go beyond the evidence currently available.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That distinction also appears in <a target=\"_blank\" href=\"https://cybersecuritynews.com/pwc-data-breach-claim/\" rel=\"noopener\">Cyber Security News reporting on the PwC data-theft claim</a>, which explains why a leak-site entry should not automatically be treated as proof of ransomware deployment.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For now, the supported development is an extortion claim naming AB InBev. Confirmation requires evidence establishing the records’ authenticity, ownership, age, and source, alongside a clearer account of any unauthorized access and its impact.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/emperador-ransomware-group-claim/\">Emperador Ransomware Group Claims to Have Stolen 3.9GB of Data from the Maker of Budweiser and Corona</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:0439cf29dcc86f9b76d4ea1015f8c7baf426c152e38ecae678a59914aefa4525",
+   "url": "https://cybersecuritynews.com/php-http2shell-vulnerability",
+   "title": "PHP Releases New Windows Build Security Updates to Fix Critical HTTP2Shell Vulnerability",
+   "published_at": "2026-10-26T15:53:07Z",
+   "published_raw": "Mon, 26 Oct 2026 15:53:07 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News"
+   ],
+   "description": "<p>The PHP team has released updated Windows builds to fix a serious flaw known as HTTP2Shell. The new packages are PHP 8.5.12-1, 8.4.27-1, 8.3.36-1, and 8.2.35-1, and PHP announced them on October 26, 2026. Each build now includes Brotli 1.2.1, which fixes CVE-2026-111497. Windows users who run PHP should install these packages without delay. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/php-http2shell-vulnerability/\">PHP Releases New Windows Build Security Updates to Fix Critical HTTP2Shell Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=168865",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/PHP-HTTP2Shell-Vulnerability.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "168865",
+     "content_encoded": "<p class=\"wp-block-paragraph\">The PHP team has released updated Windows builds to fix a serious flaw known as <a href=\"https://cybersecuritynews.com/http2shell-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">HTTP2Shell</a>. The new packages are PHP 8.5.12-1, 8.4.27-1, 8.3.36-1, and 8.2.35-1, and PHP announced them on October 26, 2026.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Each build now includes Brotli 1.2.1, which fixes CVE-2026-111497. Windows users who run PHP should install these packages without delay.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw sits in Google&#8217;s Brotli library, a compression tool that many programs use to unpack data. It is an out-of-bounds write, which means the code writes data past the memory area it was meant to use. Node.js disclosed the bug in its security release on October 21, and researchers first called it <a href=\"https://cybersecuritynews.com/new-node2shell-node-js-rce-exploit/\" target=\"_blank\" rel=\"noreferrer noopener\">Node2Shell</a>.</p>\n\n\n\n<h2 id=\"h-php-http2shell-vulnerability\" class=\"wp-block-heading\"><strong>PHP HTTP2Shell Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">As more software turned out to be affected, the name changed to HTTP2Shell. Google rates the issue with a CVSS v4.0 score of 9.2 out of 10. Depending on the setup, it can crash a program, expose memory contents, or let code run remotely without a login.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.php.net/archive/2026.php#2026-10-26-1\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">PHP&#8217;s own advisory explains</a> how the flaw reaches PHP on Windows. The vulnerable decoder can be reached through the cURL extension when automatic HTTP response decompression is turned on. This setting is off by default in cURL, according to the libcurl documentation. However, applications and HTTP client libraries can enable it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A PHP setup is therefore most at risk when it decodes Brotli data from sources it does not trust. The &#8220;-1&#8221; suffix in the new version numbers marks a Windows rebuild with updated dependencies, and the PHP runtime versions themselves do not change.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should also check for a separate security release that PHP published on October 21. That release fixed two other critical flaws, CVE-2026-109618 and CVE-2026-109619, which can allow remote code execution without a login. PHP 8.2 will reach end of life on December 31, 2026, so teams still on that branch should plan an upgrade to a supported version.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The bug is not limited to PHP. Researchers have found it in Node.js, Python packages, .NET, FFmpeg, ClickHouse, and Apache Arrow. Microsoft and the maintainers of two Python packages have also shipped patches.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Because so many products reuse Brotli, a version number alone may not show the full picture. Some vendors backport the fix into older releases, so a build can be safe even when its version number looks old.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Security teams should start by confirming that every Windows PHP host runs one of the new -1 packages. They should also check any bundled Brotli libraries, since the fixed upstream versions are 1.0.10, 1.1.1 and 1.2.1.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Teams that cannot patch right away should keep untrusted Brotli input away from production systems. The official <a href=\"https://www.php.net/archive/2026.php#2026-10-26-1\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">PHP security advisory page</a> and the <a href=\"https://github.com/google/brotli/releases/tag/v1.2.1\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Brotli 1.2.1 release notes on GitHub</a> list the details, and the <a href=\"https://www.php.net/downloads.php?os=windows\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">PHP Windows downloads page</a> hosts the updated packages.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For a wider view of the issue, read our earlier report on how <a href=\"https://cybersecuritynews.com/http2shell-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">HTTP2Shell reaches beyond web traffic</a> into other software. Our coverage of the <a href=\"https://cybersecuritynews.com/node-js-releases-security-updates/\" target=\"_blank\" rel=\"noreferrer noopener\">Node.js security updates</a> also explains which release lines received fixes.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong>Update defenses against new malware as soon as it appears. <a href=\"https://any.run/threat-intelligence-feeds/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+12-18&amp;utm_content=ti+feeds+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate TI Feeds with data from 16K SOCs</a></strong>.</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/php-http2shell-vulnerability/\">PHP Releases New Windows Build Security Updates to Fix Critical HTTP2Shell Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:b4259192027b0d9b5f46f72424bf6c8cf8d23d35bbf8fc83aadc2554216e7b6a",
    "url": "https://cybersecuritynews.com/anthropic-internal-system-breach",
