@@ -1,15 +1,39 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-10-26T14:01:09Z",
+ "updated_at": "2026-10-26T15:01:07Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-26T14:01:09Z",
+  "last_success_at": "2026-10-26T15:01:07Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ed2086ad234c1dabca49cd4ec9847f4e0b451f2881b9531912a17a3dd6dd0982",
+   "url": "https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer",
+   "title": "litellm 1.107.0 Compromised on PyPI and Docker: Credential Stealer and Hourly Remote Code Loader",
+   "published_at": "2026-10-26T14:49:48Z",
+   "published_raw": "Mon, 26 Oct 2026 14:49:48 GMT",
+   "categories": [],
+   "description": "litellm 1.107.0 PyPI wheels and Docker images shipped a .pth credential stealer and an hourly remote code loader that exfiltrate to litellm.dev. Analysis, IOCs, and how to respond.",
+   "feed_id": "https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ad8d084307ad9e4ae727787_6ad8cf2a35cd8522700fd93e_litellm-1-107-0-hero-v2.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ad8d084307ad9e4ae727787_6ad8cf2a35cd8522700fd93e_litellm-1-107-0-hero-v2.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:8400214680a5a8d6743cfe77d9dd57452ee894f1e7d43d2f692642aa08ef7c6e",
    "url": "https://www.stepsecurity.io/blog/ovhcloud-cli-github-release-swap-glassworm",
@@ -52,30 +76,6 @@
     },
     {
      "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ada67a40579c9fce3eb5977_6ada678796227c318afba95f_emudhra-emsign-ca-compromise-hero-v2.png",
-     "kind": "content",
-     "medium": "image"
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:ed2086ad234c1dabca49cd4ec9847f4e0b451f2881b9531912a17a3dd6dd0982",
-   "url": "https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer",
-   "title": "litellm 1.107.0 Compromised on PyPI: Backdoored Wheels Drop a Credential Stealer and an Hourly Remote Code Loader",
-   "published_at": "2026-10-22T10:43:11Z",
-   "published_raw": "Thu, 22 Oct 2026 10:43:11 GMT",
-   "categories": [],
-   "description": "litellm 1.107.0 PyPI wheels and Docker images shipped a .pth credential stealer and an hourly remote code loader that exfiltrate to litellm.dev. Analysis, IOCs, and how to respond.",
-   "feed_id": "https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer",
-   "authors": [],
-   "media": [
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ad8d084307ad9e4ae727787_6ad8cf2a35cd8522700fd93e_litellm-1-107-0-hero-v2.png",
-     "kind": "thumbnail",
-     "medium": ""
-    },
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ad8d084307ad9e4ae727787_6ad8cf2a35cd8522700fd93e_litellm-1-107-0-hero-v2.png",
      "kind": "content",
      "medium": "image"
     }

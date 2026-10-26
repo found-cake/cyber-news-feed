@@ -1,15 +1,117 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-26T14:01:09Z",
+ "updated_at": "2026-10-26T15:01:07Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-26T14:01:09Z",
+  "last_success_at": "2026-10-26T15:01:07Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:44df33f73ef460fd16c8150626a15c4735297e2bf43c4617a7a0632162562ad5",
+   "url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities",
+   "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
+   "published_at": "2026-10-26T14:52:14Z",
+   "published_raw": "Mon, 26 Oct 2026 14:52:14 +0000",
+   "categories": [
+    "ICS/OT",
+    "ICS",
+    "OT",
+    "PHP2Shell"
+   ],
+   "description": "<p>Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities.</p>\n<p>The post <a href=\"https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/\">Industrial Vendors Check Products for PHP2Shell Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50303",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:97ffc9e2cb975171b73cd7251981a145741638c1772a7ecf51be80323297c351",
+   "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems",
+   "title": "Genesys Hack Exposes Customer Data From Internal Systems",
+   "published_at": "2026-10-26T14:40:48Z",
+   "published_raw": "Mon, 26 Oct 2026 14:40:48 +0000",
+   "categories": [
+    "Data Breaches",
+    "cyberattack",
+    "data breach",
+    "Genesys"
+   ],
+   "description": "<p>The Genesys Cloud, Genesys Engage, and Genesys Engage Cloud platforms were not affected.</p>\n<p>The post <a href=\"https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/\">Genesys Hack Exposes Customer Data From Internal Systems</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50301",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:456225cc1081ed6f4f06b545c491d6fc247cd6940fb541b96983208408af8747",
+   "url": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals",
+   "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
+   "published_at": "2026-10-26T14:30:09Z",
+   "published_raw": "Mon, 26 Oct 2026 14:30:09 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "AI",
+    "China",
+    "OpenAI"
+   ],
+   "description": "<p>Xint says a flaw in OpenAI’s compaction process let researchers move reasoning traces between models, potentially making it cheaper to distill a rival AI.</p>\n<p>The post <a href=\"https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/\">Stolen AI Reasoning Could Help China Build Cheaper Rivals</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50299",
+   "authors": [
+    {
+     "name": "Kevin Townsend",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:7ad5a03c8a5682579e51602c18eafcb1b1d67e0bcde4160159074e058ba8c93d",
    "url": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells",
@@ -1978,38 +2080,6 @@
    "authors": [
     {
      "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:cf304ded909ede943cb840bd25e9f3341c8388026738d6e6c933c0997570044d",
-   "url": "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit",
-   "title": "In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit",
-   "published_at": "2026-10-16T14:09:51Z",
-   "published_raw": "Fri, 16 Oct 2026 14:09:51 +0000",
-   "categories": [
-    "Artificial Intelligence",
-    "In Other News"
-   ],
-   "description": "<p>Noteworthy stories that might have slipped under the radar: BofA adds 1,000 patching contractors, KGB RAT pairs data theft with jump scares, and Langflow flaw under attack.</p>\n<p>The post <a href=\"https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/\">In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50100",
-   "authors": [
-    {
-     "name": "SecurityWeek News",
      "uri": "",
      "email": ""
     }
