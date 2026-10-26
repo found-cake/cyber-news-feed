@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-10-26T03:01:15Z",
+ "updated_at": "2026-10-26T04:01:06Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-26T03:01:15Z",
+  "last_success_at": "2026-10-26T04:01:06Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:9cbe2c6e5fa7f14969b5ff2803748bc6038f5ae7e0d7ef731a4bd4c46f54dcf4",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209061",
+   "title": "에프원시큐리티, UWSS로 ‘PHP2Shell’ 공격 차단 검증…무료 웹 진단 도구 공개",
+   "published_at": "2026-10-26T12:38:51Z",
+   "published_raw": "2026-10-26 12:38:51",
+   "categories": [
+    "이슈"
+   ],
+   "description": "정보보호 전문기업 에프원시큐리티(대표 이대호)는 PHP 원격 코드 실행 취약점 ‘PHP2Shell’에 대한 자사 통합 웹 보안 서비스 UWSS(Unified Web Security Service)의 탐지·차단 성능을 검증했다고 밝혔다. 기업이 웹사이트 보안 상태를 점검할 수 있는 무료 웹 자가진단 도구도 공개했다.PHP2Shell은 CVE-2026-109618과 CVE-2026-109619로 식별되는 PHP 핵심 구성요소의 취약점이다. 인증되지 않은 원격 공격자가 영향을 받는 시스템에서 코드를 실행할 수 있으며, CVSS v4.0",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:2d22268b74c34512a97c23b94ca22b9ffd0377e87ef1d1eaf5f4507b8bd153a5",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209059",
+   "title": "Node.js 핵심 취약점 'Node2Shell' 발견...티오리, 긴급 대응 가이드 공개",
+   "published_at": "2026-10-26T12:32:22Z",
+   "published_raw": "2026-10-26 12:32:22",
+   "categories": [
+    "이슈"
+   ],
+   "description": "티오리가 웹 서버와 백엔드 개발에 널리 쓰이는 Node.js 런타임의 치명적인 취약점인 'Node2Shell(CVE-2026-111497)'에 대한 자체 검증을 마치고 기업들을 위한 긴급 대응 가이드를 공개했다.이번에 확인된 Node2Shell은 Node.js에 포함된 브로틀리(Brotli) 압축 해제 모듈의 경계 외 쓰기 결함에서 비롯됐다. 공격자는 별도의 인증 과정 없이 조작된 브로틀리 데이터를 보내 서버를 다운시키거나 메모리를 노출할 수 있으며, 나아가 원격 코드를 실행해 서버 제어권을 장악할 수 있다. Node.js 공식 기",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:bd870717571e08b24f1aee139ff90fc2645d24d738facfec00403ce97e99f018",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209058",
