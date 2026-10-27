@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-27T14:01:35Z",
+ "updated_at": "2026-10-27T15:01:08Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-27T14:01:35Z",
+  "last_success_at": "2026-10-27T15:01:08Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:97418a7f472c7c5a23269560378aa0ae690969091a7fc72de2215df38bd27950",
+   "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation",
+   "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+   "published_at": "2026-10-27T14:09:46Z",
+   "published_raw": "Tue, 27 Oct 2026 10:09:46 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:728f1e861a42ac6837a342aedb7bd2ef2dff68b2341dcddbde778babab7079f0",
+   "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest",
+   "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+   "published_at": "2026-10-27T14:01:11Z",
+   "published_raw": "Tue, 27 Oct 2026 10:01:11 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve immediate attention and which remain emerging risks. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+   "authors": [
+    {
+     "name": "Sponsored by Huntress Labs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:f3ab07cce1ac7752dbeb4a13b5572b3df2fbcd3f24e76901a1b5eb839bb356fa",
    "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones",
@@ -1175,27 +1217,6 @@
    "authors": [
     {
      "name": "Ionut Ilascu",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:58f47558d22e32b235c6f909a5b482a49e12ef9118f9b40647bf210b5b6ee566",
-   "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon",
-   "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
-   "published_at": "2026-10-17T14:32:48Z",
-   "published_raw": "Sat, 17 Oct 2026 10:32:48 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
