@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-27T12:01:25Z",
+ "updated_at": "2026-10-27T13:01:08Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-27T12:01:25Z",
+  "last_success_at": "2026-10-27T13:01:08Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -112,6 +112,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwNHgVe_6hmXG-V6Nx8pk56jDEW1WRCKtvvG9RHugoj65LqTTVGLvgl1Eh1E7ClmyMDn9k4RrF7Yp1kteZvZ_r7v9IxQPG_Eif3nk_13gz_MSddPcBtJdLKFwYAPa4BKMN5FdZLvvTIjahr4aTdiiLeQMuVzrj8Ff9wvgmUCW_6_OyfXPSGIEEIxZgdtQ-/s260-e100/vmware-healthcare.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b7d7e51c85e3c557c1699527a018e84ea617c68385c5bef58ae41c7332d4f7e6",
+   "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+   "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+   "published_at": "2026-10-27T12:09:50Z",
+   "published_raw": "2026-10-27T17:39:50.184+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account.\n\nMicrosoft tracks the flaw as&nbsp;CVE-2026-80097&nbsp;and fixed it in Authenticator for Android version 6.2606.4246, so anyone using the app should update.\n\nIn the researchers' tests,",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2118423929310759913",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqk63DF3MJCMgQqpg91UsWY7mjACbBgPl50GfKwDPi7v3md6sP5l8a2BUqHABjgMN_6BzgcMx4vVKW4hR9B9pz8_XHqp5ctKqQQLw-RJwuKmVWm2MaSzEMkHIsV-Yi0V6Mq_gUYYuzTpi-BzV2-8dRVYBjtuW4nb9TbobkPwvOGTkIFTpr334JB_LZIkw/s260-e100/msms.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -740,33 +767,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:5a34460990741de0ec2f306d71086450fe8cea9333bee9066437eb487e523af2",
-   "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-   "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-   "published_at": "2026-10-22T19:05:17Z",
-   "published_raw": "2026-10-23T00:35:17.322+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the&nbsp;central management system&nbsp;for VeloCloud SD-WAN networks, the company said in an&nbsp;advisory&nbsp;on October 22.\n\nThe flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it.\n\nFor",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-16929660301376878",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio5jLAiZnSHOwYGjf-F6s4HR4ileDOwAkHiX9NyW30mGUqSzgdwGVdTzCTYkgmeoGtTRaSVm-h2IBwvJ9xd84OU2t3YXd8hf5PwlGdjh6VlcYZoCNkx6Yt0FY_JlVcM3AtXI4LQyidnOE86NMVwOGcztaFtV2Qq21X1pRQi6jxiITnQIoO14XLiOWaufI/s260-e100/velo.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:ce0386ac22975ba196691f182b884946d00fd15c9ab51b62bb72c9c1827bab52",
    "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
    "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
@@ -868,6 +868,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxH9YdfH7FHfSBJt7wrnd1P2hTQG6_2rpkp3YBqp2Yd49nYy4-a0zmvk5mqKlXH4DWfRO4Q4MmzLG4_t19me5rErcvoEpGJ5Q8LYty_GXXys63QC8HlO3G2jRC9f5vJd1BDiOp4APzxV4rSbFOZY80zIUmxvJ8V6isB-eDy9e9tVWaLR53fpPO80mzn_BH/s260-e100/uk-russia.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:5a34460990741de0ec2f306d71086450fe8cea9333bee9066437eb487e523af2",
+   "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+   "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+   "published_at": "2026-10-22T19:05:17Z",
+   "published_raw": "2026-10-23T00:35:17.322+05:30",
+   "categories": [
+    "cyber-attack"
+   ],
+   "description": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the&nbsp;central management system&nbsp;for VeloCloud SD-WAN networks, the company said in an&nbsp;advisory&nbsp;on October 22.\n\nThe flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it.\n\nFor",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-16929660301376878",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio5jLAiZnSHOwYGjf-F6s4HR4ileDOwAkHiX9NyW30mGUqSzgdwGVdTzCTYkgmeoGtTRaSVm-h2IBwvJ9xd84OU2t3YXd8hf5PwlGdjh6VlcYZoCNkx6Yt0FY_JlVcM3AtXI4LQyidnOE86NMVwOGcztaFtV2Qq21X1pRQi6jxiITnQIoO14XLiOWaufI/s260-e100/velo.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
