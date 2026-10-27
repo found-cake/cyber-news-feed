@@ -1,15 +1,84 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-27T15:01:08Z",
+ "updated_at": "2026-10-27T16:01:14Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-27T15:01:08Z",
+  "last_success_at": "2026-10-27T16:01:14Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:19e9766cca42b35d82d7f889eb3625c06a95f7324f8c371306fc1f1bc093ef0c",
+   "url": "https://cybersecuritynews.com/cisa-free-tools-to-detect-misconfigurations",
+   "title": "CISA Offers Two Free Tools to Detect Security Misconfigurations in Microsoft 365 and Google Workspace",
+   "published_at": "2026-10-27T15:31:45Z",
+   "published_raw": "Tue, 27 Oct 2026 15:31:45 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "CyberPedia"
+   ],
+   "description": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) offers two free tools to help organizations find security misconfigurations in Microsoft 365 and Google Workspace. ScubaGear and ScubaGoggles compare cloud settings against recommended security baselines, giving administrators a clearer view of weaknesses that need attention. Both are available to government agencies and private businesses. The tools [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-free-tools-to-detect-misconfigurations/\">CISA Offers Two Free Tools to Detect Security Misconfigurations in Microsoft 365 and Google Workspace</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=169083",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/CISA-Offers-Two-Free-Tools.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "169083",
+     "content_encoded": "<p class=\"wp-block-paragraph\">The U.S. Cybersecurity and Infrastructure Security Agency (CISA) offers two free tools to help organizations find security misconfigurations in Microsoft 365 and Google Workspace. ScubaGear and ScubaGoggles compare cloud settings against recommended security baselines, giving administrators a clearer view of weaknesses that need attention. Both are available to government agencies and private businesses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The tools belong to CISA’s <a href=\"https://www.cisa.gov/resources-tools/services/secure-cloud-business-applications-scuba-project\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Secure Cloud Business Applications project</a>, known as SCuBA. Established in 2022, the project addresses security and visibility gaps exposed by attacks against cloud services. CISA introduced the assessment tools in 2023, making them existing resources rather than newly launched products.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Although SCuBA primarily supports Federal Civilian Executive Branch agencies, its guidance is available to any organization. The baselines aim to protect information created, accessed, shared, or stored in cloud applications while allowing organizations to consider their own business needs and risk levels.</p>\n\n\n\n<h2 id=\"h-scubagear-checks-microsoft-365-security\" class=\"wp-block-heading\"><strong>ScubaGear Checks Microsoft 365 Security</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/cisagov/ScubaGear\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">ScubaGear</a> checks a Microsoft 365 tenant, an organization’s cloud environment, against CISA’s secure configuration baselines. Its coverage includes Microsoft Entra ID, Exchange Online, Teams, SharePoint, Power BI, and Power Platform. These checks help administrators review identity, email, collaboration, and application security settings through one assessment process.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The tool uses PowerShell to query Microsoft 365 application programming interfaces for configuration data. It then passes those settings to Open Policy Agent, which evaluates them using rules written in the Rego policy language. Results are generated in HTML, JSON, and CSV formats for review and further analysis.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators can install ScubaGear through PowerShell Gallery using <code>Install-Module -Name ScubaGear</code>. However, they must first review required permissions and dependencies. The assessment identifies gaps without automatically fixing tenant settings, leaving administrators responsible for reviewing findings, making changes, or documenting accepted risks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The project also connects with CISA’s wider cloud security requirements. Cyber Security News previously covered <a href=\"https://cybersecuritynews.com/cisa-practices-secure-microsoft-365-cloud/\" target=\"_blank\" rel=\"noreferrer noopener\">CISA’s Microsoft 365 security directive</a>, which requires federal civilian agencies to strengthen cloud configurations and use SCuBA assessments.</p>\n\n\n\n<h2 id=\"h-scubagoggles-evaluates-google-workspace-settings\" class=\"wp-block-heading\"><strong>ScubaGoggles Evaluates Google Workspace Settings</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/cisagov/Scubagoggles\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">ScubaGoggles</a> provides a similar assessment for Google Workspace. It primarily uses the Google Admin SDK API, alongside other Google APIs, to collect relevant settings, logs, organization details, and user privileges. Open Policy Agent compares the collected data with baseline requirements, producing HTML and JSON reports.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An important limitation needs attention. CISA’s repository labels ScubaGoggles as an alpha tool under active development and warns that results could be incorrect. Administrators should carefully validate findings and complete any required manual checks rather than treating an automated report as a complete security review.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CISA also provides Hybrid Identity Solutions Guidance for organizations connecting local identity systems with cloud services. This complements the identity security concerns covered in <a href=\"https://cybersecuritynews.com/active-directory-security-guide/amp/\" target=\"_blank\" rel=\"noreferrer noopener\">CISA’s Active Directory security guidance</a>, particularly where organizations need to understand and reduce weaknesses across connected environments.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For security teams, these tools provide a repeatable way to measure configuration gaps. Reviewing findings, recording justified exceptions, and running assessments after changes can help organizations track improvements without confusing baseline alignment with a guarantee against compromise.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><a href=\"https://www.manageengine.com/products/desktop-central/endpoint-edge/zero-cost-exploit-economics.html?utm_source=CSN&amp;utm_medium=TPS-LinkedinNL&amp;utm_campaign=Machine-speed\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">AI is making cyberattacks faster and cheaper. Are your defenses ready to respond at machine speed?</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-free-tools-to-detect-misconfigurations/\">CISA Offers Two Free Tools to Detect Security Misconfigurations in Microsoft 365 and Google Workspace</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:ffec7ff96fb4d2eda9816a03d6a503fc10a62930e84cac00b7f3c3396e1f9467",
+   "url": "https://cybersecuritynews.com/online-ads-track-starlink-users",
+   "title": "Israeli Ad Tech Firm Accused on Using Online Ads to Track Starlink Users",
+   "published_at": "2026-10-27T15:15:52Z",
+   "published_raw": "Tue, 27 Oct 2026 15:15:52 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Israeli advertising company Discover-Tech is accused of using online ads to track people connected to SpaceX’s Starlink satellite internet service. Reuters reported on October 27 that six people familiar with the research said TrendAI researchers linked the company to unusually heavy advertising activity aimed at Starlink users. The findings raise concerns about how routine advertising [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/online-ads-track-starlink-users/\">Israeli Ad Tech Firm Accused on Using Online Ads to Track Starlink Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=169086",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Online-Ads-Track-Starlink-Users.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "169086",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Israeli advertising company Discover-Tech is accused of using online ads to track people connected to SpaceX’s Starlink satellite internet service. Reuters reported on October 27 that six people familiar with the research said TrendAI researchers linked the company to unusually heavy advertising activity aimed at Starlink users.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The findings raise concerns about how routine advertising systems can expose people in sensitive locations. However, the allegations concern the misuse of advertising data, not a confirmed breach of Starlink’s satellites or network. Starlink’s role in conflict zones makes such exposure serious for people whose location could put them at risk.</p>\n\n\n\n<p class=\"wp-block-paragraph\">TrendAI, a unit of Trend Micro, published its findings on October 15 <a href=\"https://www.trendaisecurity.com/en/resources-insights/deep-research/invasive-ads-the-unconventional-cyber-surveillance-attack-surface\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">under the name SHADOW-EARTH-79</a>. Its public report did not identify Discover-Tech. Reuters’ sources said the codename referred to the Israeli company, while five sources said legal concerns led executives to withhold its name.</p>\n\n\n\n<h2 id=\"h-online-ads-track-starlink-users\" class=\"wp-block-heading\"><strong>Online Ads Track Starlink Users</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The suspected tracking relies on real-time bidding, the automated auctions that decide which ads appear inside websites and apps. During these auctions, bidders can receive device information, including IP addresses, network identifiers, advertising IDs, and sometimes location data.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Researchers examined traffic associated with Starlink’s network identifier, AS14593. Combining network details with persistent advertising identifiers can help operators link activity across browsing sessions and build profiles of users without requiring them to click an advertisement.</p>\n\n\n\n<p class=\"wp-block-paragraph\">TrendAI found SHADOW-EARTH-79 was the leading winning bidder for observed Starlink advertising traffic in 105 countries. Across a separate comparison, it received 12.9% of Starlink ad impressions against a 2.6% share across overall traffic, showing a strong focus on satellite internet users.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Importantly, these figures describe TrendAI’s sample, not the entire advertising market. The study relied on data from one advertising buying platform. Researchers also warned that country estimates based on IP addresses carry uncertainty, including differences involving Myanmar and Sudan.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOcrDwBMoZA4gxb8tcBN43wpofukvGblQimmi42zzz3eijHy6-dJMrMfQkjDk1FrgagyZ3M5sGFhncMU-wv7Qhsdlki7hLXMq7XM5eqN-zpxRoGcb92taOp0UuaKuYeKMKdRPc0lrMf1NbANuwkiFeCMLbhYa2t0lJm4LXSzJKTwhzJ_hHh7UEDWQMf6Oj/w640-h634/IP%20Collection%20Modes.webp\" alt=\"\"/><figcaption class=\"wp-element-caption\">IP Collection modes (Source: TrendAI)</figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">The operation also ranked first among observed ad buyers in Syria, Libya, Yemen, and South Sudan. TrendAI said these patterns, alongside reconstructed software features, suggested tracking infrastructure rather than normal commercial advertising.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Researchers studied publicly available JavaScript bundles to reconstruct parts of the operation’s customer interface. They identified functions linked to identifying users behind anonymous identifiers and manually inserting scripts, features consistent with intelligence gathering.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Separate investigations by Citizen Lab and Confiant named Discover-Tech on October 15. Cybersecurity News previously covered their findings in its report on <a href=\"https://cybersecuritynews.com/0-click-spyware-infects-devices/\" target=\"_blank\" rel=\"noreferrer noopener\">zero-click spyware delivered through online ads</a>. That reporting also stressed that receiving a Discover-Tech advertisement does not prove a device was infected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The wider danger of trusted advertising infrastructure has also appeared in Cybersecurity News coverage of the <a href=\"https://cybersecuritynews.com/adform-advertising-platform-compromised/\" target=\"_blank\" rel=\"noreferrer noopener\">Adform advertising platform compromise</a>. That separate incident involved malicious scripts, rather than evidence of the Starlink-focused operation described here.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Google, Comcast, and other companies said they removed Discover-Tech from their advertising platforms following the investigations, Reuters reported. SpaceX, Discover-Tech, and its chief executive did not respond to Reuters’ requests for comment.</p>\n\n\n\n<p class=\"wp-block-paragraph\">TrendAI recommends restricting advertising traffic on sensitive devices, limiting permissions, disabling ad personalization, and reducing reliance on ad-supported apps. It warns that tools which merely hide advertisements may leave tracking requests active. Defenders should instead favor controls that stop sensitive data reaching advertising systems. The report does not establish that every exposed Starlink user was tracked or infected.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><a href=\"https://www.manageengine.com/products/desktop-central/endpoint-edge/zero-cost-exploit-economics.html?utm_source=CSN&amp;utm_medium=TPS-LinkedinNL&amp;utm_campaign=Machine-speed\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">AI is making cyberattacks faster and cheaper. Are your defenses ready to respond at machine speed?</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/online-ads-track-starlink-users/\">Israeli Ad Tech Firm Accused on Using Online Ads to Track Starlink Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:2d0acd5bb72867781e252762aef5e84ba84afc450cdd79d882e2dc9c875793be",
    "url": "https://cybersecuritynews.com/fake-fedex-invoices",
