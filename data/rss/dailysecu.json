@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-10-27T03:01:04Z",
+ "updated_at": "2026-10-27T04:01:12Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-27T03:01:04Z",
+  "last_success_at": "2026-10-27T04:01:12Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:376010865356f89929a169a3e35eda3f4613b143f548a30fc2439eed679fc0c9",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209085",
+   "title": "쿠도커뮤니케이션, 턱스케어로 구버전 PHP 보안 공백 차단 지원",
+   "published_at": "2026-10-27T12:57:49Z",
+   "published_raw": "2026-10-27 12:57:49",
+   "categories": [
+    "이슈"
+   ],
+   "description": "쿠도커뮤니케이션이 오픈소스 보안 전문기업 턱스케어(TuxCare)의 PHP 보안 지원 솔루션을 통해 지원이 종료된(EOL) PHP를 운영하는 국내 기업의 보안 공백 해소에 나선다.최근 웹서비스 개발에 널리 사용되는 PHP에서 원격 코드 실행으로 이어질 수 있는 'PHP2Shell' 취약점이 공개되면서 신속한 보안 업데이트 필요성이 커졌다. 이후 신규 취약점까지 추가로 확인되면서 기존 패치 적용 여부뿐 아니라 운영 환경과 서버 설정에 대한 지속적인 점검이 요구되는 상황이다.특히 지원이 종료된 PHP를 사용하는 기업은 보안 업데이트와",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:8947379142b8edbb81bd5258c9ab8e239cfa6aaed9eb6cc27f2fcadff70ab5f2",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209084",
+   "title": "엔키화이트햇, Node.js 고위험 취약점 'Node2Shell' 내부 점검 스크립트 배포",
+   "published_at": "2026-10-27T12:48:42Z",
+   "published_raw": "2026-10-27 12:48:42",
+   "categories": [
+    "이슈"
+   ],
+   "description": "엔키화이트햇이 웹 서버와 백엔드 환경에 치명적인 영향을 미치는 Node.js 고위험 취약점 'Node2Shell(CVE-2026-111497)'의 존재 여부를 안전하게 검사하는 내부 점검 스크립트를 27일 긴급 배포했다.'Node2Shell'은 취약한 버전의 Node.js에서 브로틀리(Brotli) 디코더가 조작된 압축 데이터를 처리할 때 내부 버퍼 범위를 벗어나 데이터를 기록할 수 있는 취약점이다. 해당 취약점이 악용되면 프로세스 충돌로 인한 서비스 중단이 발생할 수 있으며, 메모리 정보 노출이나 원격 코드 실행(RCE)으로 이어",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:0ed1355ad21825c6c651c68dfd4790481bd6a0b40f55e02339994104ea7f61e6",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209083",
