@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-10-27T04:01:12Z",
+ "updated_at": "2026-10-27T05:01:11Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-27T04:01:12Z",
+  "last_success_at": "2026-10-27T05:01:11Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d42dda45350748b62cf61c52f7ec764a1a5ec0b466573283e0b8a3da7779957c",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209087",
+   "title": "포티넷, PHP 고위험 취약점 'PHP2Shell' 대응 가이드 발표",
+   "published_at": "2026-10-27T13:32:17Z",
+   "published_raw": "2026-10-27 13:32:17",
+   "categories": [
+    "이슈"
+   ],
+   "description": "포티넷이 PHP 런타임에서 발견된 치명적 원격 코드 실행 취약점인 'PHP2Shell'에 대한 대응 가이드를 공개했다.'PHP2Shell'은 PHP 런타임에서 발견된 2건의 취약점(CVE-2026-109618, CVE-2026-109619)을 통칭한다. 런타임은 PHP로 작성된 애플리케이션 코드를 실제로 실행하는 소프트웨어다. 두 취약점은 CVSS 4.0 기준 10점 만점에 9.2점을 받아 치명적 등급으로 분류됐다. 공격자는 인증 절차 없이도 외부에서 취약한 서버에 코드를 실행할 수 있다.PHP는 워드프레스, 드루팔, 줌라, 마젠토",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:376010865356f89929a169a3e35eda3f4613b143f548a30fc2439eed679fc0c9",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209085",

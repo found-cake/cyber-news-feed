@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-27T04:01:12Z",
+ "updated_at": "2026-10-27T05:01:11Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-27T04:01:12Z",
+  "last_success_at": "2026-10-27T05:01:11Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -85,6 +85,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwNHgVe_6hmXG-V6Nx8pk56jDEW1WRCKtvvG9RHugoj65LqTTVGLvgl1Eh1E7ClmyMDn9k4RrF7Yp1kteZvZ_r7v9IxQPG_Eif3nk_13gz_MSddPcBtJdLKFwYAPa4BKMN5FdZLvvTIjahr4aTdiiLeQMuVzrj8Ff9wvgmUCW_6_OyfXPSGIEEIxZgdtQ-/s260-e100/vmware-healthcare.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:dc98d41511a17d2ea06d022347aa16472bf0f499c81cdacdb357e1c9a7d08220",
+   "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+   "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+   "published_at": "2026-10-27T04:37:59Z",
+   "published_raw": "2026-10-27T10:07:59.168+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog.\n\nThe PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments -\n\n\n  CVE-2026-109618 - An out-of-memory",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6236162642726870582",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-vxKiggBxnuXu0fenkg0gfce0iuuA3OxeVzvWAdc0zaDPDayQgY8y_miqnvHJrpYvw61AhvGHEOW4EIKIYZ4QkRGjGEhqiU-3R0o6m0fgHJYDtszsoXyqse7WDGMh4rvEuTf1T-17KOVkyJKgEcaw5yBXFi6ElwIFyU9TjudvJrHz4fz6VNro8bjUZcnD/s260-e100/cisa-php.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -713,33 +740,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:4681e139a804e148c37ceed09c27eddf38b451dcdba462f0386d235726589a1b",
-   "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
-   "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
-   "published_at": "2026-10-22T07:47:22Z",
-   "published_raw": "2026-10-22T13:17:22.267+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system.\n\nEach supported line has one fixed version:&nbsp;",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1891540365172319861",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFwR_FE94PTthun36oXfrSIiYx7N-Hb3Ww1w2gFs6x6qs0mML2v_TmYZmgqYKxB6VlMBzmIQksNdHldgX-UxykDBNwnszmBuB7IZWyWJhxei65NJlOImUWde5tYzB7D94dmieFBGhFNVAt3bL4qlhXkl4o3uw362QKgJpk37xutyRmM5bB3sHR8XMC3bc/s260-e100/nodejs-rce.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:ce0386ac22975ba196691f182b884946d00fd15c9ab51b62bb72c9c1827bab52",
    "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
    "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
@@ -1165,6 +1165,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSRX5Jjz6vqh8EcVVYoXU8S9qh0rFzQ3DDnjNIlkRrBq97brmk6hUw0u2pbLqyTAG1_mYfG9bGHCnMkgSMEPFu6fIR67F1jZMmS7G7-DFe6i7PtG_LzdTgHLCTXSwE5hCa2EApQeAIYGIMYATwbLEp-2FcPmV9aAHVqrRRBYk_wY7ZTuES0frFAPGjhnU/s260-e100/ovhcloud.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:4681e139a804e148c37ceed09c27eddf38b451dcdba462f0386d235726589a1b",
+   "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+   "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+   "published_at": "2026-10-22T07:47:22Z",
+   "published_raw": "2026-10-22T13:17:22.267+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system.\n\nEach supported line has one fixed version:&nbsp;",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1891540365172319861",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFwR_FE94PTthun36oXfrSIiYx7N-Hb3Ww1w2gFs6x6qs0mML2v_TmYZmgqYKxB6VlMBzmIQksNdHldgX-UxykDBNwnszmBuB7IZWyWJhxei65NJlOImUWde5tYzB7D94dmieFBGhFNVAt3bL4qlhXkl4o3uw362QKgJpk37xutyRmM5bB3sHR8XMC3bc/s260-e100/nodejs-rce.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
