@@ -1,15 +1,79 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-28T14:01:05Z",
+ "updated_at": "2026-10-28T15:01:20Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-28T14:01:05Z",
+  "last_success_at": "2026-10-28T15:01:20Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:daccbc8b4a6551e35b0da0be3c702f8dc89d5f694509f106bb1d8f3636828587",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys",
+   "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
+   "published_at": "2026-10-28T14:48:32Z",
+   "published_raw": "Wed, 28 Oct 2026 10:48:32 -0400",
+   "categories": [
+    "security",
+    "Microsoft"
+   ],
+   "description": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authentication in February 2027. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:f7c922d860fb31661e7c6eb57a464662affd78e916cc59f6ba7086e37066a0b5",
+   "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure",
+   "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+   "published_at": "2026-10-28T14:00:00Z",
+   "published_raw": "Wed, 28 Oct 2026 10:00:00 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and other appliances at risk. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:303c17a3cab1c27ee61b0863d9c486d6a8b17651bb71f3436a7af03cc8ec92f3",
+   "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score",
+   "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+   "published_at": "2026-10-28T13:50:59Z",
+   "published_raw": "Wed, 28 Oct 2026 09:50:59 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the damage from a breach. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+   "authors": [
+    {
+     "name": "Sponsored by Token Security",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:2cc03e2d2e6f4d9f3da001e62625f8df672416e9406829f60841ce0612481ea9",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw",
@@ -1369,27 +1433,6 @@
    "authors": [
     {
      "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:c96bea687e1c26b225816fa022d93a8d2cda1f66b9d08cad68a5e927f8a14a56",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root",
-   "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
-   "published_at": "2026-10-18T14:23:16Z",
-   "published_raw": "Sun, 18 Oct 2026 10:23:16 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
