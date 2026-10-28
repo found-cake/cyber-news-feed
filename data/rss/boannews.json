@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "boannews",
- "updated_at": "2026-10-28T09:01:08Z",
+ "updated_at": "2026-10-28T10:01:09Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-28T09:01:08Z",
+  "last_success_at": "2026-10-28T10:01:09Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:bb88158a0c22be2703344bb389eb947c27f70c13b3a866f85588c2ab63493132",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=146844",
+   "title": "[단독] ‘PHP 직격탄’ 워드프레스·그누보드 국내 사이트 46만개 육박... 호스팅 의존도 높아 [PHP 파장]",
+   "published_at": "2026-10-28T18:04:51Z",
+   "published_raw": "2026-10-28 18:04:51",
+   "categories": [
+    "사건·사고",
+    "긴급경보"
+   ],
+   "description": "전세계 웹사이트의 70%를 차지하는 프로그래밍 언어 PHP에 치명적 취약점 ‘PHP2셸’(PHP2Shell)이 발견된 가운데, 대표적 PHP 기반 홈페이지 제작 도구인 ‘워드프레스’와 ‘그누보드’로 제작한 국내 웹사이트가 46만여개에 달하는 것으로 나타났다. 국내 웹 환경은 호스팅 의존도가 높아 호스팅 업체들의 보안 역량과 신속한 조치가 중요하다는 분석이 나온다.워드프레스 못지않은 ‘그누보드’ 비중… 호스팅 이용률 높아28일 <보안뉴스가> 에스케어와 조사한 바에 따르면, 해외 도구인 워드프레스를 활용해 제작된 국내 사이트는 24만1",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강현주 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:2241e8d1ad49b476a9ecb65663cdd72f5335be51c7af9f10d7ee66c58e598a3c",
    "url": "https://www.boannews.com/news/articleView.html?idxno=146620",
@@ -6323,28 +6345,6 @@
    "authors": [
     {
      "name": "엄호식 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:f63c8c9117e9cc18db220710b677504e89f080e7e899c1428cd0debf619e6d42",
-   "url": "https://www.boannews.com/news/articleView.html?idxno=146403",
-   "title": "9년간 아무도 몰랐다... 리눅스 커널 결함 ‘브이고스트’, 로컬 사용자에 루트 권한",
-   "published_at": "2026-10-18T09:41:00Z",
-   "published_raw": "2026-10-18 09:41:00",
-   "categories": [
-    "사건·사고",
-    "국제"
-   ],
-   "description": "리눅스 커널에 9년 가까이 숨어 있던 결함이 서버에 접속한 로컬 사용자에게 최고 관리자(루트) 권한을 넘겨줄 수 있는 것으로 드러났다.더핵커뉴스에 따르면 텐센트 주췌랩(Zhuque Lab)은 리눅스 커널 vhost 기능의 결함(CVE-2026-74580)을 찾아 8월 3일 수정 코드를 내놨고, 두 가지 공격을 실제로 시연한 분석을 공개했다. 연구진은 이 결함에 ‘브이고스트’(Vghost)라는 이름을 붙였다.vhost는 가상머신과 컨테이너의 네트워크 등 입출력을 빠르게 해주는 커널 기능이다. 일반 사용자는 /dev/vhost-net이",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "정지원 기자",
      "uri": "",
      "email": ""
     }
