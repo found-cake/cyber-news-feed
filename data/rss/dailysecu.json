@@ -1,15 +1,78 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-10-28T00:01:12Z",
+ "updated_at": "2026-10-28T01:01:02Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-28T00:01:12Z",
+  "last_success_at": "2026-10-28T01:01:02Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:245e48c30adb11036622a8bf77f19d1cde07cc53455e020354796f2a9ec18cca",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209103",
+   "title": "하시코프 콘술 접근통제 우회 취약점…서비스 인증서·개인키 노출 위험",
+   "published_at": "2026-10-28T08:54:43Z",
+   "published_raw": "2026-10-28 08:54:43",
+   "categories": [
+    "이슈"
+   ],
+   "description": "클라우드 인프라 관리에 사용되는 하시코프(HashiCorp)의 콘술(Consul)에서 접근권한을 우회해 서비스 인증서와 개인키를 확보할 수 있는 보안 취약점이 공개됐다.하시코프는 10월 26일 보안 권고 HCSEC-2026-46을 발표하고 콘술과 콘술 엔터프라이즈(Consul Enterprise)에서 발견된 CVE-2026-105765 취약점의 영향을 설명했다.취약점은 CVSS 3.1 기준 7.5점으로 평가됐다. 영향을 받는 버전은 콘술과 콘술 엔터프라이즈 1.17.0부터 2.0.4까지다.콘술은 여러 서버와 응용서비스가 서로를 찾고",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:04ddae7ed1a149681a33d9b4e2e7693b218627a75591e2f206803f805ec72a59",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209102",
+   "title": "예스위키 고위험 취약점 공개…내부망·클라우드 인증정보 노출 가능",
+   "published_at": "2026-10-28T08:53:20Z",
+   "published_raw": "2026-10-28 08:53:20",
+   "categories": [
+    "이슈"
+   ],
+   "description": "오픈소스 협업 플랫폼 예스위키(YesWiki)에서 내부 시스템이나 클라우드 인증정보에 접근할 수 있는 고위험 취약점이 공개됐다.취약점은 CVE-2026-116827로 등록됐으며, CVSS 4.0 기준 8.2점이다. 예스위키 4.7.0 미만 버전이 영향을 받는다.이번 문제는 예스위키의 바자르(Bazar) 데이터 가져오기 기능에서 발생한다.관리자 권한을 가진 사용자가 외부 파일을 가져오는 과정에서 조작된 인터넷주소를 입력하면 서버가 원래 허용되지 않아야 할 내부 주소로 요청을 보낼 수 있다.이를 서버 측 요청 위조(SSRF) 취약점이라",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "우진영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c67ab1d7c663083c92ee1dc53eeef787a8604ea1f9b1aa7a361cadc66fe6f9c5",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209101",
+   "title": "텔레그램·위챗 위장 안드로이드 악성코드…메신저 계정·2단계 인증정보 탈취",
+   "published_at": "2026-10-28T08:51:39Z",
+   "published_raw": "2026-10-28 08:51:39",
+   "categories": [
+    "이슈"
+   ],
+   "description": "텔레그램과 위챗 등 모바일 메신저를 위장해 사용자 계정과 인증정보를 탈취하는 안드로이드 악성코드가 분석됐다.보안연구자 오비(Ovi)가 공개한 분석에 따르면 '유크리에이터(uCreator)'는 정상 메신저 응용프로그램에 악성 기능을 삽입해 재배포하는 방식으로 작동한다.공격자는 정상 텔레그램과 위챗 앱을 변조한 뒤 공식 앱 장터가 아닌 외부 경로를 통해 사용자에게 설치하도록 유도한다.변조된 앱은 기존 메신저 기능을 대부분 유지하기 때문에 사용자가 악성 기능의 존재를 알아차리기 어렵다.분석에 따르면 공격자는 이러한 앱을 이용해 메신저 계",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:2c4efdd9e533e24f892350ad141d06441979760d76789042ce49ca26c0d157ce",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209099",
