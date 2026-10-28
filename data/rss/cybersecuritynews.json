@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-28T06:01:09Z",
+ "updated_at": "2026-10-28T07:01:04Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-28T06:01:09Z",
+  "last_success_at": "2026-10-28T07:01:04Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:f7fadab7472b958204a646ef73e3a56c563d246f85e2737bf426c1627a599824",
+   "url": "https://cybersecuritynews.com/hackers-target-u-s-election-commission-forcing-online-system-shutdown",
+   "title": "Hackers Target U.S. Election Commission, Forcing Online System Shutdown Days Before Midterms",
+   "published_at": "2026-10-28T06:30:05Z",
+   "published_raw": "Wed, 28 Oct 2026 06:30:05 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Hacker News",
+    "cyber security"
+   ],
+   "description": "<p>Hackers targeting the U.S. Federal Election Commission forced officials to shut down its electronic filing system days before the November 3 midterm elections, blocking campaign finance disclosures during a critical spending period. The disruption affects how political committees report money flowing into races, not how Americans vote. The FEC does not run elections, and Reuters [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-target-u-s-election-commission-forcing-online-system-shutdown/\">Hackers Target U.S. Election Commission, Forcing Online System Shutdown Days Before Midterms </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=169163",
+   "authors": [
+    {
+     "name": "Dhivya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ab98034f-6f2a-46ea-8fa1-98af49023219-1.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "169163",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Hackers targeting the U.S. Federal Election Commission forced officials to shut down its electronic filing system days before the November 3 midterm elections, blocking campaign finance disclosures during a critical spending period. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The disruption affects how political committees report money flowing into races, not how Americans vote. The FEC does not run elections, and Reuters says the outage should not affect voters’ ability to cast ballots, according to <a href=\"https://www.reuters.com/technology/hacker-trying-breach-us-federal-election-commission-system-email-shows-2026-10-27/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Reuters</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The shutdown began late on October 26 after campaign compliance staff could no longer submit mandatory reports. An email Reuters reviewed described an active attempt to break into agency systems. “We have a bad actor attempting to breach FEC systems. As a result, we’ve had to temporarily shut down our web-facing services,” an FEC electronic filings officer told several compliance firms.</p>\n\n\n\n<h2 id=\"h-hackers-target-u-s-election-commission\" class=\"wp-block-heading\"><strong>Hackers Target U.S. Election Commission</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The <a href=\"https://fecgov.statuspage.io/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">FEC’s official status page</a> recorded an investigation into the electronic filing outage at 10:15 p.m. Eastern time on October 26. Further updates followed overnight and the next morning. At 8:17 p.m. Eastern on October 27, officials said they had identified the issue and were implementing a fix. However, that message did not confirm a completed recovery, and the incident remained listed as unresolved.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The agency said its IT staff were working to restore service, while previously filed reports remained available for public searches. That distinction matters. The confirmed disruption affects submitting new disclosures, not access to existing campaign finance records. The status page also listed a related FECfile+ submission outage, showing that officials were tracking problems affecting filing services.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Public details remain limited. Neither the FEC statement nor the reporting reviewed identifies the attackers, their location, their entry method, or a specific software flaw. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Those sources also provide no public confirmation that attackers stole records, changed filings, deployed ransomware, or gained lasting access. The email describes an attempted breach and a defensive shutdown, which should not be mistaken for proof of a successful data breach.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Technically, the key distinction is between an attacker directly disabling a service and defenders taking it offline to contain a suspected threat. The available account supports the latter. It does not establish whether malicious traffic, stolen credentials, or an application flaw triggered the response. Assigning a particular attack method before investigators release evidence would go beyond the facts currently available.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Earlier incidents show why clear distinctions matter. Cybersecurity News previously covered the <a href=\"https://cybersecuritynews.com/uk-electoral-commission-hacked/amp/\" target=\"_blank\" rel=\"noopener\">UK Electoral Commission breach</a>, where attackers accessed email systems and electoral register copies. That case involved confirmed access to stored information. No comparable disclosure has been made for this FEC incident, and no evidence links the two cases.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The immediate cost is reduced transparency. The outage prevents organizations from submitting 24-hour and 48-hour spending reports, which help reveal who is paying to influence individual races. Steven Mele, president and CEO of compliance firm MBA Consulting Group, told Reuters he had never seen anything like it in 26 years.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The timing makes the disruption especially serious. OpenSecrets research director Brendan Glavin told Reuters that super PACs and dark money groups spent more than $50 million on average per day over the previous week. On October 20 alone, more than $250 million was reported. Delayed filings leave voters and watchdogs with less timely information about that spending.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Political cyber incidents can have different goals. Previous <a href=\"https://cybersecuritynews.com/fbi-iran-trump-campaign-hack/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">reporting on the Trump campaign hack</a> described an attributed Iranian operation. No such attribution exists here. For now, the central questions are when filing access will return and what investigators can establish about the attempted intrusion. Clear recovery updates will help separate verified findings from speculation as Election Day approaches.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 90%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-target-u-s-election-commission-forcing-online-system-shutdown/\">Hackers Target U.S. Election Commission, Forcing Online System Shutdown Days Before Midterms </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:95777095fa4d4500355b7ff455bfbf66342bb6b3502b8fc0813d10c86aaf4b2e",
    "url": "https://cybersecuritynews.com/hackers-hijack-42-github-repositories",

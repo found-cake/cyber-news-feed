@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-28T06:01:09Z",
+ "updated_at": "2026-10-28T07:01:04Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-28T06:01:09Z",
+  "last_success_at": "2026-10-28T07:01:04Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -112,6 +112,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwNHgVe_6hmXG-V6Nx8pk56jDEW1WRCKtvvG9RHugoj65LqTTVGLvgl1Eh1E7ClmyMDn9k4RrF7Yp1kteZvZ_r7v9IxQPG_Eif3nk_13gz_MSddPcBtJdLKFwYAPa4BKMN5FdZLvvTIjahr4aTdiiLeQMuVzrj8Ff9wvgmUCW_6_OyfXPSGIEEIxZgdtQ-/s260-e100/vmware-healthcare.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:af501261c1ead5898c08c824b03004835aa1a33b78aa059b2d933b38e37658d9",
+   "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+   "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+   "published_at": "2026-10-28T06:20:37Z",
+   "published_raw": "2026-10-28T11:50:37.597+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Tailscale has released&nbsp;version 1.104.4&nbsp;to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the&nbsp;root&nbsp;user should be able to touch.\n\nThe flaws are in how&nbsp;Tailscale SSH&nbsp;forwards network connections, a job the Tailscale background process carries out with root privileges. To use them, an attacker must",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6897577546766910343",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4t7YUY-idhgGJFpEuulM5zELQR4QNB-UKmsh7cyB5cdMH4AU_zumf3K27WBWgAw6ra28TvALm5fFeLrV_1wHJXeYy3azE1TcblP-1JSCPLF3mq-WKjUOXy3K-pfjhHtiwGkCoYhxfEMZGielHz2Bit6mLoNlnElmauP0RNcbXelNkAHIWI4s92qrymUQ/s260-e100/tailscale-patches.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:1417a62a4b3735eae2997d18a49b136bc409c0d235377d148964130c91b06953",
+   "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+   "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+   "published_at": "2026-10-28T06:04:58Z",
+   "published_raw": "2026-10-28T11:34:58.029+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week.\n\nOracle patched all three under a single identifier,&nbsp;CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6981442170525211540",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgiU-iVEycp9z-2dprGJhgl046M9ZvG7kGGwaXNzgFJg7XDubOoWWLvEuKAOczIcGuXU04db46Xa6pRMKO36ZS7Fu8Xkv7mNuPjHUS0zLTHkGlNWNRD2DLCznPf6jqvqamZSZGMBXSzh9gMYm-9sR-y7OgN7i7n6x0dfYxyl9QftWlfuQw0mpTteHy57k/s260-e100/sh.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -740,60 +794,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:64b0ac9d140d11671a4acbe942ade27af436c73b5627240eb087f5c95f9a86d0",
-   "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-   "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-   "published_at": "2026-10-23T13:50:56Z",
-   "published_raw": "2026-10-23T19:20:56.986+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.\n\n\"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6104384708056291039",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSk-Q06Dd5YyYmXWMt9b860DzGRKbTae_QwvoZDKNICaEznAj2AUurJmv6vPnpcH7qqDjauFZWWx7GX1RN93BLaU9Rqgiqe9j1iQRg2Vqcz3HpSqgesA6oS-GrMTyx4CTzwOD7C_z205k57ZpT70Gv4RXi-65X-nyI04wpA3raJ5nh46pN5ox42cyLnHjv/s260-e100/1000117358.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:d3e6fb1a3911b1e6b90b1f063808a68fb4504ce04882fd635da42147c19051ce",
-   "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-   "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-   "published_at": "2026-10-23T11:25:43Z",
-   "published_raw": "2026-10-23T16:55:43.870+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6350282685356135880",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSXE1XecomGt7TSLi_DCDVL8oQjsLEtppNNGjkuW1cbVl-cXZkMG-rqTr-oSVz_6XfoU8aoScw3rjGxsnTpV3JaV5eWfj431lg09Rnrrk1UjwNq1ZEofkwR4FaM2qatC_FD9ZNBZk-T9_9ddu8n-BtUkhwVgWzc2ZvaWAHP8eMxlLU19qxIjlXeHOJYHs/s260-e100/php2.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:ce0386ac22975ba196691f182b884946d00fd15c9ab51b62bb72c9c1827bab52",
    "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
    "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
@@ -868,6 +868,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6cUQufM8zcABLKEfGt5xpGX34mUnThXvptS6o1GfAv8Ak_FO__f-rsT0GPf1Nro1NSRQuUsEGJl1boXq5Rt-IMFOnHunESsqj4sfJ_ypu9qhRgva3V0OqPN04FAKvOw0Y0KeKUvgG_RzWvA7u6piuPvLIaTJG2mbeWRRgFJB2vziZdJbkU1dN2nfwBf8/s260-e100/codex.png",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:64b0ac9d140d11671a4acbe942ade27af436c73b5627240eb087f5c95f9a86d0",
+   "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+   "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+   "published_at": "2026-10-23T13:50:56Z",
+   "published_raw": "2026-10-23T19:20:56.986+05:30",
+   "categories": [
+    "cyber-attack"
+   ],
+   "description": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.\n\n\"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6104384708056291039",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSk-Q06Dd5YyYmXWMt9b860DzGRKbTae_QwvoZDKNICaEznAj2AUurJmv6vPnpcH7qqDjauFZWWx7GX1RN93BLaU9Rqgiqe9j1iQRg2Vqcz3HpSqgesA6oS-GrMTyx4CTzwOD7C_z205k57ZpT70Gv4RXi-65X-nyI04wpA3raJ5nh46pN5ox42cyLnHjv/s260-e100/1000117358.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -1138,6 +1165,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNWLuogjq0EVRQo6oTMUucF21anDW9Jpvs5w98qm-I6hOqH4fU1ZeHA1DqNilI_drxE548BnZD4vkXfB3KmWXAm4xfU3KU3j38LI-ZXhB03kZy4rWc9qiQqSED6vVjxihA1-uM_46qlXjjDchlvKmtgFG-ym3oosqXFEED6w2mG_Zb-yHjq4IIPcFDeX13/s260-e100/cisa-patch.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d3e6fb1a3911b1e6b90b1f063808a68fb4504ce04882fd635da42147c19051ce",
+   "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+   "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+   "published_at": "2026-10-23T11:25:43Z",
+   "published_raw": "2026-10-23T16:55:43.870+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6350282685356135880",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSXE1XecomGt7TSLi_DCDVL8oQjsLEtppNNGjkuW1cbVl-cXZkMG-rqTr-oSVz_6XfoU8aoScw3rjGxsnTpV3JaV5eWfj431lg09Rnrrk1UjwNq1ZEofkwR4FaM2qatC_FD9ZNBZk-T9_9ddu8n-BtUkhwVgWzc2ZvaWAHP8eMxlLU19qxIjlXeHOJYHs/s260-e100/php2.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
