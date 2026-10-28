@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-28T03:01:10Z",
+ "updated_at": "2026-10-28T04:01:05Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-28T03:01:10Z",
+  "last_success_at": "2026-10-28T04:01:05Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:92983e91e90dfd1a9ea26a2eae7b9317f6534510663325a31e556e0f7e736e1a",
+   "url": "https://cybersecuritynews.com/microsoft-whistleblower-alleges-foreign-engineer",
+   "title": "Microsoft Whistleblower Alleges Foreign Engineer Was Approved to Access U.S. Government Cloud Logs",
+   "published_at": "2026-10-28T03:04:48Z",
+   "published_raw": "Wed, 28 Oct 2026 03:04:48 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>A claimed Microsoft whistleblower has raised concerns about government cloud security after screenshots appeared to show approval for an engineer, allegedly based in India, to receive logs from a U.S. government cloud environment through Microsoft’s escort process. The documents raise questions about access controls but do not establish unauthorized access or a breach. The allegations, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-whistleblower-alleges-foreign-engineer/\">Microsoft Whistleblower Alleges Foreign Engineer Was Approved to Access U.S. Government Cloud Logs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=169124",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Microsoft-Whistleblower-Alleges-Foreign-Engineer.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "169124",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A claimed Microsoft whistleblower has raised concerns about government cloud security after screenshots appeared to show approval for an engineer, allegedly based in India, to receive logs from a U.S. government cloud environment through Microsoft’s escort process. The documents raise questions about access controls but do not establish unauthorized access or a breach.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The allegations, shared by Conspiracookie on X, identify Microsoft engineer Viraj Chokhany as the requester. The account says an unnamed whistleblower supplied the images and alleges that Chokhany is not a U.S. citizen. This article has not independently verified either his citizenship or the screenshots’ authenticity.</p>\n\n\n\n<p class=\"wp-block-paragraph\">One screenshot shows an internal “SPO Environments” page listing DProdMgd151 under “GCC-Moderate,” with the nickname “GCCM.” The same table lists Department of Defense infrastructure separately.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This distinction matters because the supplied evidence concerns a government cloud environment, not a demonstrated connection to classified military systems.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"embed-x\"><blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\"><img src=\"https://s.w.org/images/core/emoji/17.0.2/72x72/1f6a8.png\" alt=\"🚨\" class=\"wp-smiley\" style=\"height: 1em; max-height: 1em;\" />BREAKING (EXCLUSIVE): National Security Concerns Leaked by MSFT Whistleblower<br><br>Leaked Microsoft screenshots show an India-based engineer received approval to view U.S. government cloud logs.<br><br>A Microsoft whistleblower contacted me and shared screenshots supporting allegations… <a href=\"https://t.co/Ug3k8LYqRI\">pic.twitter.com/Ug3k8LYqRI</a></p>&mdash; Conspiracookie (@Conspiracookie) <a href=\"https://x.com/Conspiracookie/status/2115193616348160114?ref_src=twsrc%5Etfw\">October 27, 2026</a></blockquote><script async src=\"https://platform.x.com/widgets.js\" charset=\"utf-8\"></script></div>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Another screenshot shows incident 815678445, titled “Escort Request: GCCM- Request to view GCC-M logs.” It names Chokhany as the creator, lists the O365 Escort Team as the owning team, and marks the request resolved. A discussion entry includes an approval image for his account alias. Approval alone does not prove what information was ultimately disclosed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A further image shows a request to share Geneva logs for two incidents. The visible query links reference environment “dprodmgd151” and SharePoint job definitions. Instructions ask the recipient to load all rows, expand them to display full logs, and share the results. The supplied screenshots show no returned log contents.</p>\n\n\n\n<h2 id=\"h-what-microsoft-s-gcc-rules-require\" class=\"wp-block-heading\"><strong>What Microsoft’s GCC Rules Require</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://learn.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Microsoft’s published GCC service description</a> says staff have no standing access to customer content. Employees seeking temporary elevated permissions that would expose such content must first pass screening, including verification of U.S. citizenship, criminal history checks, and other background reviews.</p>\n\n\n\n<p class=\"wp-block-paragraph\">However, the same document says GCC customer support carries no general assurance about an agent’s physical location or citizenship. It warns customers not to share sensitive information until confirming the recipient’s authorization. That distinction makes the contents of the requested logs central to assessing whether protected customer information crossed an access boundary.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The screenshots do not establish whether the requested logs contained customer content covered by those citizenship checks. They also do not identify the affected government customer or show a completed transfer. The whistleblower’s suggested FedRAMP violation therefore remains an allegation, not a verified compliance finding.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Under the digital escort model described by <a href=\"https://www.propublica.org/article/microsoft-china-defense-department-digital-escorts-investigation-warning\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">ProPublica</a>, authorized U.S. personnel carry out work directed by overseas engineers. Its investigation found that some escorts lacked the technical skills needed to supervise engineers with greater expertise, weakening the intended oversight.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The supplied ticket guidance adds context. It states, “ESCORTS ARE NOT ENGINEERS,” and expects requesters to provide the information needed to complete their tasks. It also says escorts will execute commands exactly as written in the ticket and are not permitted to troubleshoot issues. These instructions deserve examination, but do not independently prove misconduct.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Cyber Security News previously covered <a href=\"https://cybersecuritynews.com/new-report-claims-microsoft-used-china-based-engineers/\" target=\"_blank\" rel=\"noreferrer noopener\">reports about Microsoft’s China-based SharePoint support engineers</a>. That reporting provides background on overseas support arrangements, not evidence that the engineer identified in these screenshots acted improperly.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In August 2025, the Pentagon called Microsoft’s use of China-based engineers a “breach of trust” and required an outside audit. Microsoft had announced an end to its support for Defense Department cloud systems. Those developments concerned a separate arrangement.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Separately, <a href=\"https://cybersecuritynews.com/chinese-hackers-exploiting-sharepoint-servers-0-day/\" target=\"_blank\" rel=\"noreferrer noopener\">SharePoint zero-day attacks</a> show why government security attracts scrutiny. This allegation, however, requires evidence about the actual logs shared, approval scope, and safeguards before any breach or rule violation can be established.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><a href=\"https://www.manageengine.com/products/desktop-central/endpoint-edge/zero-cost-exploit-economics.html?utm_source=CSN&amp;utm_medium=TPS-LinkedinNL&amp;utm_campaign=Machine-speed\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">AI is making cyberattacks faster and cheaper. Are your defenses ready to respond at machine speed?</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-whistleblower-alleges-foreign-engineer/\">Microsoft Whistleblower Alleges Foreign Engineer Was Approved to Access U.S. Government Cloud Logs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:294ac3b39d42f84f7a53b9e55f9837bdbc2c9643e876f2d6305dbb65101b2d90",
    "url": "https://cybersecuritynews.com/uefi-firmware-vulnerability",
