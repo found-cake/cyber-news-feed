@@ -1,15 +1,84 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-28T10:01:09Z",
+ "updated_at": "2026-10-28T11:01:11Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-28T10:01:09Z",
+  "last_success_at": "2026-10-28T11:01:11Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:26df89b6daaa1b93ddf098275c35f2dfbb0ffaeebe4cf6b9f9ad23f53c1d7892",
+   "url": "https://cybersecuritynews.com/oracle-ebs-rce-exploited",
+   "title": "Hackers Actively Exploiting New Oracle EBS RCE Vulnerability",
+   "published_at": "2026-10-28T10:38:25Z",
+   "published_raw": "Wed, 28 Oct 2026 10:38:25 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Hackers have begun testing a critical Oracle E-Business Suite vulnerability that can let them run commands without logging in. Threat intelligence firm Defused reported exploratory exploit attempts against its decoy systems on October 27, 2026. However, these observations do not confirm successful attacks against customer systems, and Oracle had already released a patch before the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/oracle-ebs-rce-exploited/\">Hackers Actively Exploiting New Oracle EBS RCE Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=169241",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Oracle-EBS-RCE-Vulnerability.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "169241",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Hackers have begun testing a critical Oracle E-Business Suite vulnerability that can let them run commands without logging in. Threat intelligence firm Defused reported exploratory exploit attempts against its decoy systems on October 27, 2026.</p>\n\n\n\n<p class=\"wp-block-paragraph\">However, these observations do not confirm successful attacks against customer systems, and Oracle had already released a patch before the activity was detected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Tracked as CVE-2026-101767, the flaw carries a critical CVSS score of 9.8. Horizon3.ai discovered the issue and reported it to Oracle on July 24. Oracle fixed it on October 20 through its <a href=\"https://www.oracle.com/security-alerts/cpuoct2026.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">October Critical Patch Update</a>. Although initially reported privately as a zero-day, it was a publicly disclosed, patched vulnerability when Defused observed the probes.</p>\n\n\n\n<h2 id=\"h-oracle-ebs-0-day-vulnerability\" class=\"wp-block-heading\"><strong>Oracle EBS 0-Day Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The weakness affects the Core component of Oracle Application Object Library in EBS versions 12.2.3 through 12.2.15. It requires network access over HTTP or HTTPS but needs neither valid credentials nor user interaction. Cyber Security News previously covered the issue in its report on <a href=\"https://cybersecuritynews.com/massive-oracle-security-update/\" target=\"_blank\" rel=\"noreferrer noopener\">Oracle’s October security update</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to <a href=\"https://horizon3.ai/attack-research/vulnerabilities/cve-2026-101767/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Horizon3.ai’s technical advisory</a>, the vulnerable Thin Client Framework servlet is reachable at <code>/OA_HTML/AppsTCFServer</code>. A crafted request can trigger SQL injection, allowing an attacker to send database commands as the powerful APPS database user. That access can then be chained into operating system command execution under the EBS application account.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The impact extends beyond database access. Successful exploitation could expose or alter financial, payroll, human resources, and purchasing records accessible to APPS. Commands run with the application account’s permissions, rather than automatically granting full administrative control over the host.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Defused described the October 27 traffic as “exploratory exploits” against its Oracle EBS decoys. According to reports, no other public reports of exploitation had surfaced. This supports reporting active exploit attempts, but not confirmed breaches, stolen data, or a widespread campaign.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-x wp-block-embed-x\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"embed-x\"><blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\"><img src=\"https://s.w.org/images/core/emoji/17.0.2/72x72/1f6a8.png\" alt=\"🚨\" class=\"wp-smiley\" style=\"height: 1em; max-height: 1em;\" /> Our Oracle E-Business Suite decoys recorded exploratory exploits against CVE-2026-101767, an unauthenticated SQL injection in EBS&#39;s Thin Client Framework servlet that chains to remote code execution, this morning, Oct 27. <br><br>The bug was recently disclosed by <a href=\"https://x.com/Horizon3ai?ref_src=twsrc%5Etfw\">@Horizon3ai</a>  and… <a href=\"https://t.co/fY9sEbnLRg\">pic.twitter.com/fY9sEbnLRg</a></p>&mdash; Defused (@DefusedCyber) <a href=\"https://x.com/DefusedCyber/status/2115099999973364147?ref_src=twsrc%5Etfw\">October 27, 2026</a></blockquote><script async src=\"https://platform.x.com/widgets.js\" charset=\"utf-8\"></script></div>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">The distinction matters because Oracle EBS has faced damaging attacks before. Cyber Security News documented <a href=\"https://cybersecuritynews.com/cl0p-ransomware-oracle-e-business-suite-0-day/\" target=\"_blank\" rel=\"noreferrer noopener\">Cl0p exploitation of a separate Oracle EBS zero-day</a>, CVE-2025-61882. That earlier campaign should not be confused with the newly observed TCF servlet probes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should apply the relevant October patches promptly. Until then, Horizon3.ai recommends removing the servlet from the EBS URL firewall allowlist and restricting web access to trusted networks. The default URL firewall permits the endpoint, making configuration checks important.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Defenders should review unauthenticated POST requests invoking <code>GanttDataServer</code>, especially when followed by database queries. Other warning signs include unexpected files in <code>$APPLPTMP</code> and the <code>oracle</code> account launching <code>/bin/sh</code> through Concurrent Manager. Access restrictions reduce exposure but do not replace patching.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><a href=\"https://www.manageengine.com/products/desktop-central/endpoint-edge/zero-cost-exploit-economics.html?utm_source=CSN&amp;utm_medium=TPS-LinkedinNL&amp;utm_campaign=Machine-speed\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">AI is making cyberattacks faster and cheaper. Are your defenses ready to respond at machine speed?</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/oracle-ebs-rce-exploited/\">Hackers Actively Exploiting New Oracle EBS RCE Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:39fcb327cb44730e2b5a249b5cf3f4c5f9a123f74a0770498ef08d8f9539e3a6",
+   "url": "https://cybersecuritynews.com/fortibleed-2-0-exposes-vpn-credentials",
+   "title": "FortiBleed 2.0 Reveals Thousands of Fortinet VPN and Active Directory Credentials in Exposed Configurations",
+   "published_at": "2026-10-28T10:19:22Z",
+   "published_raw": "Wed, 28 Oct 2026 10:19:22 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "VPN"
+   ],
+   "description": "<p>FortiBleed 2.0 investigation, published October 27, revealed 40,573 cleartext secret records in exposed FortiGate configurations, including 37,076 local-user passwords and 1,576 Active Directory LDAP bind records linking firewall access, VPN services, and internal identity systems. The researchers examined 1,703 configuration-report files containing 101,419 credential and account records associated with 1,689 host identifiers. The material also [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortibleed-2-0-exposes-vpn-credentials/\">FortiBleed 2.0 Reveals Thousands of Fortinet VPN and Active Directory Credentials in Exposed Configurations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=169145",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/FortiBleed-2.0-Reveals-Thousands-of-Fortinet-VPN-and-Active-Directory-Credentials-in-Exposed-Configurations.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "169145",
+     "content_encoded": "<p class=\"wp-block-paragraph\">FortiBleed 2.0 investigation, published October 27, revealed 40,573 cleartext secret records in exposed FortiGate configurations, including 37,076 local-user passwords and 1,576 <a href=\"https://cybersecuritynews.com/fortios-ldap-authentication-bypass-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">Active Directory LDAP bind records</a> linking firewall access, VPN services, and internal identity systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The researchers examined 1,703 configuration-report files containing 101,419 credential and account records associated with 1,689 host identifiers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The material also includes administrator logins, email-server passwords, and high-availability cluster secrets. These figures reflect records, not unique users, confirmed physical devices, or credentials that still work today.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Despite its name, FortiBleed 2.0 is a follow-up investigation based on recently obtained files, not a newly disclosed vulnerability. Most files are dated February 20, 2026, while 31 are undated, leaving the timing of initial access and configuration theft unconfirmed.</p>\n\n\n\n<h2 id=\"h-fortibleed-2-0-exposes-fortinet-vpn-and-ad-credentials\" class=\"wp-block-heading\"><strong>FortiBleed 2.0 Exposes Fortinet VPN and AD Credentials</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Compared with the first dataset, researchers identified 924 additional host identifiers and 975 domain labels absent from the earlier collection.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZk4lrZbiJ343y10lzyLwA6qN0ugARXWyfblL3MKcHYgCFSShVN1QLnOBn4PaaeGbtzua5rLNwEhl-EdzW9fFux578e9Pd5AotAvOxBQUbbPF09o1wQRqZMt7OqaPBQHgYjqzVSn2bQdlNZUTBT5LAa6bLgHBMKbYXvBpnKfX-UdTIbJK3biJg4FmGY3E/s1600/Screenshot%202026-10-28%20111847%20%281%29.webp\" alt=\"Overview of Hudson Rock’s free FortiBleed lookup portal (source : infostealers )\"/><figcaption class=\"wp-element-caption\">Overview of Hudson Rock’s free FortiBleed lookup portal </figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">However, domain labels can belong to service providers, registration contacts, or account holders. They should not be read as 975 newly compromised companies. The findings expand earlier <a href=\"https://cybersecuritynews.com/fortibleed-fortinet-firewalls-compromised/\" target=\"_blank\" rel=\"noopener\">FortiBleed credential exposure coverage</a> by revealing accounts and services behind perimeter logins.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The associated toolchain extracts firewall configurations, recovers stored secrets, and attempts further access. Its parsing workflow collects local users, administrator entries, LDAP connections, cluster settings, and email credentials.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Some stored FortiOS ENC values can be recovered offline when configurations use the system-default encryption key. Recovery depends on the software version, settings, and available material.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhctPpnYxfV25pMy2ikoqua35cLQGZkXVSQaRG2Jg9YmkM8-r1si6n5pBWZiTNpaWTHO4BAyk_yko51q3vIxfduzzvUIJx5e_LRR9AKUwSge_HEYceHqW2rIJ2SeeNNGGVTNGBI3KT-qnf0L54Cq85nGtmHxGJnaKNR0IiPu4Fpk0qXxW4LuRepMnnuyQE/s1600/Screenshot%202026-10-28%20111928%20%281%29.webp\" alt=\"Cavalier Exposes 54 Credential Records Across Two Hosts (source : infostealers )\"/><figcaption class=\"wp-element-caption\">Cavalier Exposes 54 Credential Records Across Two Hosts </figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Exposed local-user passwords may support VPN access, but account status, access rules, reachability, and <a href=\"https://cybersecuritynews.com/multifactor-authentication-is-mandatory-for-azure/\" target=\"_blank\" rel=\"noreferrer noopener\">multifactor authentication </a>determine whether login succeeds.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.infostealers.com/article/fortibleed-2-0-975-new-domains-40573-exposed-secrets-claim-your-ethical-disclosure/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Hudson Rock’s analysis identified</a> 7,437 disabled local-user records containing cleartext data. Empty MFA fields do not necessarily indicate missing MFA, as external authentication systems may enforce it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">LDAP bind credentials deserve close attention because they connect FortiGate appliances to directory services. An account with excessive rights could increase the impact of a breach.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Ordinary LDAP query access, however, does not automatically grant domain-administrator privileges. Earlier reporting on <a href=\"https://cybersecuritynews.com/fortigate-firewalls-exploited/\" target=\"_blank\" rel=\"noopener\">FortiGate configuration theft</a> highlights this route toward internal access.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhE2Wfa8JXzBrvM5nywbyzGvUp0SZOOvChQJe0ll-VU1THy2jPTLnnUv2yhbi_D1puelFbN0XD7EfeZBsVgtDm5rwyuUZww6Ipm66GF0n88wYE5MIuLbHGbmSIAk7HJwoggPU-n7h94G-ERSG2W2RgkRJSj1_5yayKc0_hLG2OJ3QywQSNU8TMzdn0KOE/s1600/Screenshot%202026-10-28%20111936%20%281%29.webp\" alt=\"Cavalier’s Breach Data (source : infostealers )\"/><figcaption class=\"wp-element-caption\">Cavalier’s Breach Data</figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Fortinet’s response guidance calls for terminating administrator and VPN sessions, resetting credentials, enforcing MFA, updating firmware, and restricting management access.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Security teams should compare current settings with a trusted configuration and examine firewall and domain-controller logs for unexpected activity. The configuration findings also call for reviewing LDAP bind passwords, cluster secrets, and <a href=\"https://cybersecuritynews.com/fortibleed-password-stealing-attack/\" target=\"_blank\" rel=\"noreferrer noopener\">email-server credentials.</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">Investigators should verify ownership of recurring administrator accounts such as fgtsecure and forticloud-sync before treating them as unauthorized. Account names alone do not establish malicious activity.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong>  </p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortibleed-2-0-exposes-vpn-credentials/\">FortiBleed 2.0 Reveals Thousands of Fortinet VPN and Active Directory Credentials in Exposed Configurations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:14f5cc1733894286a811b495fa3250e963194e4ebd6d80cc352f3eec66ef8ac6",
    "url": "https://cybersecuritynews.com/microsoft-to-block-emudhra-certificates",
