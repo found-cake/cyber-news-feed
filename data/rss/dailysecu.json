@@ -1,15 +1,141 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-10-28T05:01:03Z",
+ "updated_at": "2026-10-28T06:01:09Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-28T05:01:03Z",
+  "last_success_at": "2026-10-28T06:01:09Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c6b2e668c52afb17eb771bc868ac0846f76e857a7e7944e0a8b79d09b8901f01",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209129",
+   "title": "워드프레스 회원관리 플러그인에 치명적 취약점 발견, 웹사이트 전체 장악 위험",
+   "published_at": "2026-10-28T14:41:36Z",
+   "published_raw": "2026-10-28 14:41:36",
+   "categories": [
+    "이슈"
+   ],
+   "description": "전 세계 웹사이트에서 널리 사용되는 콘텐츠관리시스템 워드프레스(WordPress)의 회원관리 플러그인에서 외부 공격자가 비밀번호 없이 기존 사용자 계정에 로그인할 수 있는 치명적인 취약점이 공개됐다. 관리자 계정까지 탈취할 수 있어 해당 플러그인을 사용하는 웹사이트 운영자의 신속한 보안 업데이트가 요구된다.이번 취약점은 큐오드 테마스의 회원관리 플러그인 'Qode Membership'에서 발견됐으며, 취약점 식별번호는 CVE-2026-92885다. 공통취약점평가체계(CVSS) 3.1 기준 9.8점으로, 최고 수준인 '치명적(Crit",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d282e281df13734510660311672f6fc52157d3fd66b9ba5c1713d7213fc6e0de",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209128",
+   "title": "이튼 전력제어장치 'easyE4' 심각한 보안취약점 3건 발견…국내 유통 제품도 점검 필요",
+   "published_at": "2026-10-28T14:33:53Z",
+   "published_raw": "2026-10-28 14:33:53",
+   "categories": [
+    "이슈"
+   ],
+   "description": "글로벌 전력관리 기업 이튼(Eaton)의 산업자동화 제어장치 'easyE4'와 관리 소프트웨어 'easySoft'에서 공격자가 인증 절차를 우회하거나 비밀번호를 알아내 제어장치에 무단으로 접근할 수 있는 보안취약점 3건이 확인됐다. 해당 장치는 국내에서도 제품 정보가 제공되고 판매되고 있어 제조시설과 건물 자동화 설비를 운영하는 기업의 점검이 필요하다.이튼이 10월 21일 발표한 공식 보안 권고문(ETN-VA-2026-1017)에 따르면, 이번 취약점은 산업제어장치의 인증 과정과 비밀번호 관리, 통신 보안 기능에서 발견됐다. 취약점",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:9002fa8afca1b39d78702a23b638d24c50ab7ad2a89f2ed6be9041720dfce4aa",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209125",
+   "title": "오픈소스 AI 실행도구 'llama.cpp'서 고위험 취약점 발견돼...악성 AI 모델 파일로 시스템 공격 가능",
+   "published_at": "2026-10-28T14:25:14Z",
+   "published_raw": "2026-10-28 14:25:14",
+   "categories": [
+    "이슈"
+   ],
+   "description": "기업과 개발자들이 오픈소스 인공지능(AI) 모델을 실행하는 데 사용하는 'llama.cpp'에서 악의적으로 조작된 AI 모델 파일을 통해 프로그램의 메모리를 손상시킬 수 있는 고위험 보안 취약점이 공개됐다. 공격에 성공하면 프로그램이 비정상 종료되거나 특정 조건에서 임의의 코드가 실행될 가능성이 있어 외부 AI 모델 파일을 사용하는 기업과 개발자의 주의가 요구된다.10월 27일 공개된 취약점은 CVE-2026-116816으로, 국제 취약점 평가체계인 CVSS 4.0 기준 8.5점을 받았다. 영향받는 버전은 llama.cpp 빌드 b",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:616c4835528696ca59d43c9f0d3a43a82d66a3dbbf1a9c45e778d5623a4fddba",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209123",
+   "title": "레닥소 웹사이트 관리도구에 치명적 인증 우회 취약점 공개, 비밀번호 없이 관리자 권한 탈취 가능",
+   "published_at": "2026-10-28T14:14:24Z",
+   "published_raw": "2026-10-28 14:14:24",
+   "categories": [
+    "이슈"
+   ],
+   "description": "오픈소스 웹사이트 콘텐츠관리시스템(CMS)인 레닥소(REDAXO)에서 로그인 절차를 거치지 않고 관리자 권한을 획득할 수 있는 치명적인 보안 취약점이 확인됐다. 공격자가 취약점을 악용하면 관리자 계정의 비밀번호를 몰라도 웹사이트 관리 화면에 접근할 수 있으며, 운영 설정에 따라 서버에서 악성코드를 실행할 가능성도 있어 주의가 요구된다.이번 취약점은 CVE-2026-117532로, 10월 27일 국제 취약점 데이터베이스에 등록됐다. 공통취약점평가시스템(CVSS) 4.0 기준 위험도는 9.3점으로 최고 수준인 '치명적(Critical)",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:cb3e004818c8e63296d7825bb52dc3db60500889088b9d5fcfbb29c5c2b4a56e",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209121",
+   "title": "미스트랄 AI 코딩도구 ‘바이브’서 고위험 취약점 발견…악성 저장소 통해 개발자 PC 장악 위험",
+   "published_at": "2026-10-28T14:06:01Z",
+   "published_raw": "2026-10-28 14:06:01",
+   "categories": [
+    "이슈"
+   ],
+   "description": "프랑스 인공지능(AI) 기업 미스트랄 AI(Mistral AI)의 AI 코딩도구 ‘바이브(Vibe)’에서 공격자가 조작한 소스코드 저장소를 통해 개발자 컴퓨터에서 악성 명령을 실행할 수 있는 고위험 보안 취약점이 공개됐다.10월 27일 공개된 취약점은 CVE-2026-116843으로, 국제 공통 취약점 평가체계(CVSS) 4.0 기준 8.7점(높음)을 받았다. 영향을 받는 제품은 미스트랄 바이브 3.0.3 미만 버전이며, 개발사인 미스트랄은 10월 26일 공개한 3.0.3 버전에서 문제를 수정했다.바이브는 AI를 이용해 소프트웨어",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "우진영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:4821845a31c57084c4fb086093cea84105618c0c63c88bcc1686a8f88e017eb7",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209119",
+   "title": "프랑스 에너지 대기업 엔지, 협력사 시스템 해킹으로 고객정보 유출…계약번호까지 노출",
+   "published_at": "2026-10-28T14:01:32Z",
+   "published_raw": "2026-10-28 14:01:32",
+   "categories": [
+    "이슈"
+   ],
+   "description": "프랑스의 글로벌 에너지 기업 엔지(ENGIE)가 외부 영업 협력업체에서 사용하는 시스템에 대한 사이버공격으로 고객 개인정보가 노출된 사실을 확인했다. 엔지 자체 전산망은 침해되지 않았지만, 협력업체가 관리하는 고객 연락처와 에너지 계약 관련 정보에 공격자가 무단 접근한 것으로 파악됐다.엔지는 10월 27일 확인된 회사 측 입장을 통해 고객 발굴과 에너지 상품 판매에 사용되는 협력사 시스템에서 비정상적인 정보 접근 활동을 발견했다고 밝혔다. 회사는 공격자의 접근을 차단했으며, 현재까지 조사 결과 피해 대상은 프랑스 내 고객으로 한정된",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "우진영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:b369d3df21a903a328367aa75fb282646ed87a5fce7a2e8cbcc0d55a3ae42f0e",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209115",
