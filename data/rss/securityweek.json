@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-28T12:01:01Z",
+ "updated_at": "2026-10-28T13:01:14Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-28T12:01:01Z",
+  "last_success_at": "2026-10-28T13:01:14Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:040891e5d91857462e95eb70dc9180aa687a428300aceae403e77adf08ec337c",
+   "url": "https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls",
+   "title": "China-Linked Hackers Exploit PHP2Shell to Root Firewalls",
+   "published_at": "2026-10-28T12:00:59Z",
+   "published_raw": "Wed, 28 Oct 2026 12:00:59 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "China",
+    "exploited",
+    "PHP2Shell"
+   ],
+   "description": "<p>The attackers chained PHP2Shell and Fragnesia exploits and hacked two servers of a US government-affiliated organization.</p>\n<p>The post <a href=\"https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls/\">China-Linked Hackers Exploit PHP2Shell to Root Firewalls</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50365",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:cd275dcd5d9a42ad8a4ea96d765af7fe9c6fb59a419f1e7e9c5390adeec8f4c6",
    "url": "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software",
@@ -126,6 +160,7 @@
     "E-Business Suite",
     "EBS",
     "exploited",
+    "Featured",
     "Oracle",
     "vulnerability"
    ],

@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-28T12:01:01Z",
+ "updated_at": "2026-10-28T13:01:14Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-28T12:01:01Z",
+  "last_success_at": "2026-10-28T13:01:14Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:fffd2ae9628bcdcdbb1f5836356336c79be940d78065c1b65409c4de235ae6ab",
+   "url": "https://cybersecuritynews.com/claude-ai-builds-exploit",
+   "title": "Claude AI Builds One-Click Chrome and Zero-Click Linux Exploit Chains, Bypasses Android Lock Screen",
+   "published_at": "2026-10-28T12:27:06Z",
+   "published_raw": "Wed, 28 Oct 2026 12:27:06 +0000",
+   "categories": [
+    "Cyber AI",
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Anthropic&#8217;s Frontier Red Team says an unreleased Claude research model wrote working exploit chains for Chrome, Safari, Android, Windows, and Linux. The company shared the details in on research post on October 27, 2026. These were lab tests and not real-world incidents. Anthropic reported every bug to the vendor first, and the vendor released fixes. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-ai-builds-exploit/\">Claude AI Builds One-Click Chrome and Zero-Click Linux Exploit Chains, Bypasses Android Lock Screen</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=169282",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Claude-AI-Builds-Exploit.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "169282",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Anthropic&#8217;s Frontier Red Team says an unreleased Claude research model wrote working exploit chains for Chrome, Safari, Android, Windows, and Linux.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company shared the details in on research post on October 27, 2026. These were lab tests and not real-world incidents. Anthropic reported every bug to the vendor first, and the vendor released fixes.</p>\n\n\n\n<h2 id=\"h-chrome-falls-to-a-one-click-chain\" class=\"wp-block-heading\"><strong>Chrome Falls to a One-Click Chain</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The Chrome exploit is the most detailed. After a first prompt, Claude wrote a chain that runs code outside the browser sandbox. The test launched the Calculator app on a default Chrome install on macOS within seconds of a page loading.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The chain used four bugs. The first corrupted memory in V8, Chrome&#8217;s JavaScript engine. The second broke out of V8&#8217;s memory sandbox, beat ASLR, and took over the renderer process. A race condition in CacheStorage then leaked the layout of the more powerful browser process. A use-after-free bug in FedCM, Chrome&#8217;s sign-in feature, finished the escape.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Anthropic says Google assigned 62 CVEs, all rated high or critical, including 13 sandbox escapes. All are fixed in Chrome 156. Google&#8217;s <a href=\"https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html\" target=\"_blank\" rel=\"noreferrer noopener\">Chrome 156 release notes</a> from October 20 credit &#8220;Xinyang Ge (Anthropic), assisted by Claude&#8221; for several fixes, but not for all 62.</p>\n\n\n\n<h2 id=\"h-safari-and-android-bypasses\" class=\"wp-block-heading\"><strong>Safari and Android Bypasses</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">In Safari, Claude broke the same-origin policy, the rule that keeps one website from reading another. The chain started with a use-after-free bug in JavaScriptCore. It then got around WebKit&#8217;s Gigacage defense and used a flaw in the sandbox&#8217;s IPC mechanism to read history, cookies, and sessions from disk. Anthropic notes this chain never needed code execution. A hostile page could read a signed-in email or bank account. Apple confirmed the report the same day and shipped a <a href=\"https://support.apple.com/en-us/127594\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">fix</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Android case needs physical access. Claude pulled photos and other data from a locked Google Pixel 9 over USB. It did this by linking three flaws that skipped the USB data block, the pairing authorization, and the six-digit code check. A fallback path then sent raw file bytes past a hardcoded block. Anthropic says Google fixed it. Our earlier story on <a href=\"https://cybersecuritynews.com/researchers-bypassed-android-lock-screen/\" target=\"_blank\" rel=\"noreferrer noopener\">an Android lock screen bypass through Driving Mode</a> shows how often these gaps appear.</p>\n\n\n\n<h2 id=\"h-windows-crash-bug-and-the-cve-mismatch\" class=\"wp-block-heading\"><strong>Windows Crash Bug and the CVE Mismatch</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Claude also found a remote crash bug in Windows, which Anthropic describes as an out-of-bounds read in the kernel&#8217;s QUIC code. It reached the bug by reverse engineering a Windows binary with Ghidra. A few packets could crash and restart a server that answers HTTP/3, and repeating them keeps it down. Anthropic believes several million such servers face the internet.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Public records tell a slightly different story. The <a href=\"https://nvd.nist.gov/vuln/detail/cve-2026-33096\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">NVD entry for CVE-2026-33096</a> names the Windows HTTP.sys driver and not QUIC. It carries a 7.5 score and a fix from April 2026. Rapid7 lists the same details. The NVD entry does not name a finder.</p>\n\n\n\n<h2 id=\"h-zero-click-linux-root-access\" class=\"wp-block-heading\"><strong>Zero-Click Linux Root Access</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The Linux chain is the most serious. Claude wrote an exploit that gives a remote attacker root access on servers running a multipath TCP listener. It needs no login and no user action. It works in two steps. First, it leaks a kernel pointer to defeat KASLR. Then it reuses the same race condition bug to overwrite a callback pointer and run a shell command.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A lost race only fails the handshake and does not crash the machine, so an attacker can try again and again. In the test, the leak took 48 minutes, and the shell took five more. Anthropic ties this to CVE-2026-98432. Its <a href=\"https://www.tenable.com/cve/CVE-2026-98432\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Tenable listing</a> rates it 9.8 and describes an IPv4 TCP use-after-free fix, with no mention of multipath TCP. The link between the two rests on Anthropic&#8217;s post.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.anthropic.com/research/discovering-vulnerabilities-with-claude\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Anthropic says it found so many bugs</a> by running many scanning agents in parallel and checking each finding with a standard process. It also urges teams to scan code at pull request time, and it released a <a href=\"https://github.com/anthropics/claude-code/tree/main/plugins/security-guidance\">security guidance plugin</a> for Claude Code. Its expanded <a href=\"https://www.anthropic.com/news/cyber-verification-program\">Cyber Verification Program</a> gives approved security staff access to its strongest models.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The same tools can help attackers, so patching speed is critical. Update Chrome to version 156 or later, install current Apple, Android, and Windows updates, and patch Linux kernels. Teams can also read our report on <a href=\"https://cybersecuritynews.com/claude-security-continuous-scans/\">Claude Security&#8217;s continuous repository scans</a> and our earlier look at <a href=\"https://cybersecuritynews.com/claude-vulnerabilities-exfiltrate-sensitive/\">chained Claude.ai flaws</a>.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><a href=\"https://www.manageengine.com/products/desktop-central/endpoint-edge/zero-cost-exploit-economics.html?utm_source=CSN&amp;utm_medium=TPS-LinkedinNL&amp;utm_campaign=Machine-speed\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">AI is making cyberattacks faster and cheaper. Are your defenses ready to respond at machine speed?</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-ai-builds-exploit/\">Claude AI Builds One-Click Chrome and Zero-Click Linux Exploit Chains, Bypasses Android Lock Screen</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:472b080da66521c0c697442a52b019a33506874a8dabe7e13a53175fe318c2db",
    "url": "https://cybersecuritynews.com/node2shell-vulnerability",
