@@ -1,15 +1,42 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-29T11:00:37Z",
+ "updated_at": "2026-10-29T12:00:39Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-29T11:00:37Z",
+  "last_success_at": "2026-10-29T12:00:39Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ff04f1caf15467beeb1ba2299f5399ebf70dafef34b41136af0ea3f6099c166f",
+   "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+   "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+   "published_at": "2026-10-29T11:33:41Z",
+   "published_raw": "2026-10-29T17:03:41.012+05:30",
+   "categories": [
+    "threat-intelligence"
+   ],
+   "description": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security operations centers (SOCs) will see major changes in how work is organized, how",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3576314576415594306",
+   "authors": [
+    {
+     "name": "Unknown",
+     "uri": "",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDZvKBLpFrPhWNRvVvRjmTtgwdpGykJjCmzNWNaytIUO2C9VadEDZjeY35hq6H33jHDxV7kAOMTyOV7RO_YUG2caQ75nA_NstH_GxfRJo57n970u4ACXwZXoKl8mizESwgP9wulusqUmSnZwjFNHIJZ2hk_VzrlCJ5HBD9_8zs8Fj1WZULiZoZMD9G9D8/s260-e100/conf.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:2e5063d5ddc42334fda588afc4959fedfbeeaf71de4a8d2b40e15282376d2f6f",
    "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
@@ -139,6 +166,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwNHgVe_6hmXG-V6Nx8pk56jDEW1WRCKtvvG9RHugoj65LqTTVGLvgl1Eh1E7ClmyMDn9k4RrF7Yp1kteZvZ_r7v9IxQPG_Eif3nk_13gz_MSddPcBtJdLKFwYAPa4BKMN5FdZLvvTIjahr4aTdiiLeQMuVzrj8Ff9wvgmUCW_6_OyfXPSGIEEIxZgdtQ-/s260-e100/vmware-healthcare.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:89ba8a41a1ee0be07879dd6b06ecae43cee5c3370fad66c88f0b09cc1e218801",
+   "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+   "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+   "published_at": "2026-10-29T11:39:41Z",
+   "published_raw": "2026-10-29T17:09:41.381+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.\n\nAdvanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle.\n\nThe challenge is no longer just finding another vulnerability or",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-496107993803948819",
+   "authors": [
+    {
+     "name": "Unknown",
+     "uri": "",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRqwLeHISYWaiVNUxkANuqw6ob8Exu7_9CIEt6uHbsNa7mcNUkSWZqNZHEL3_kqPPHXVq4RGTxqZZhMdybwcVVT28qCihLUi0I5ghW9Xk5sVDB2u2kJqULx-_FEcsEHuTCU5vIwReQZghbj8HjQD4zq8H1yiGSYNlmNC25YkViZxlqndOhIp1CD2s_sLlc/s260-e100/wiz-webinar.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b35772fb4a04069806c0762a4611bed0de7f7bf248de2b5d42cf67d351d1402b",
+   "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+   "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+   "published_at": "2026-10-29T11:39:18Z",
+   "published_raw": "2026-10-29T17:09:18.761+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to security startup NebuSec.\n\nThe attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec&nbsp;disclosed it on October 29.\n\nThe flaw can be triggered in every version from",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7678336695065531834",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguzUg6G-A4KdRvBuhj9LZ93cFfXfvMNkg3dJO0H9sfNJ3MTlecsgLEMIk5TnIrdl2N6UGB8D9rlqLduGEZVm7X-XrWZr6Xh5ZrVp38x5uTd1vHyHGcjRR2N3gctNen-CBSz8JihnNL57galBoeOVKwG5w3qsOZnqmGYdkxzjurrI3QWolmS1Qfz_E_Wog/s260-e100/telegram.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -767,13 +848,40 @@
    "source_metadata": {}
   },
   {
+   "id": "sha256:54629371f074818de3ec79b0429084ac0598c08b002d82d57b06eb098c8eb289",
+   "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+   "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+   "published_at": "2026-10-28T07:13:21Z",
+   "published_raw": "2026-10-28T12:43:21.868+05:30",
+   "categories": [
+    "cyber-attack"
+   ],
+   "description": "Japan's GMO Internet Group is&nbsp;offering up to $1 million in total&nbsp;for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand.\n\nThe reward program opened on October 28 and pays only if a tip helps lead to an arrest or an international wanted notice. The service&nbsp;hosts Windows desktops&nbsp;used for FX trading,",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4113574292774578686",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguDDZZalFBPLgf4YxDU_9FK46XXVkU3x0GKHeZHFd2WTdJ0cK5n1KCWDEOIvSgzHP4R14xmwLygLnnmyuBEVcHRVO7b9nIUZVcp5ehxIgFGrPyXZ3hZGwNa2bg8k4e_kkSHa2tyo05yPortQqRR_9g3yr-T0k0Tga9_26Pr0rs_MNIU8RndHMeq9r5Rr0/s260-e100/gmo.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
    "id": "sha256:a2da896f1147a8f00903ae0483c0d9474c21045d64f307728d0329c07fc4e827",
    "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
    "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
    "published_at": "2026-10-27T06:34:47Z",
    "published_raw": "2026-10-27T12:04:47.385+05:30",
    "categories": [
-    "vulnerability"
+    "cyber-attack"
    ],
    "description": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.\n\n\"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating third-party accounts have been recorded,\" the State Special Communications Service of Ukraine (SSSCIP)",
    "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8252897665387348214",
@@ -800,7 +908,7 @@
    "published_at": "2026-10-27T04:37:59Z",
    "published_raw": "2026-10-27T10:07:59.168+05:30",
    "categories": [
-    "vulnerability"
+    "cyber-attack"
    ],
    "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog.\n\nThe PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments -\n\n\n  CVE-2026-109618 - An out-of-memory",
    "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6236162642726870582",
@@ -814,33 +922,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-vxKiggBxnuXu0fenkg0gfce0iuuA3OxeVzvWAdc0zaDPDayQgY8y_miqnvHJrpYvw61AhvGHEOW4EIKIYZ4QkRGjGEhqiU-3R0o6m0fgHJYDtszsoXyqse7WDGMh4rvEuTf1T-17KOVkyJKgEcaw5yBXFi6ElwIFyU9TjudvJrHz4fz6VNro8bjUZcnD/s260-e100/cisa-php.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:54629371f074818de3ec79b0429084ac0598c08b002d82d57b06eb098c8eb289",
-   "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
-   "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-   "published_at": "2026-10-28T07:13:21Z",
-   "published_raw": "2026-10-28T12:43:21.868+05:30",
-   "categories": [
-    "cyber-attack"
-   ],
-   "description": "Japan's GMO Internet Group is&nbsp;offering up to $1 million in total&nbsp;for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand.\n\nThe reward program opened on October 28 and pays only if a tip helps lead to an arrest or an international wanted notice. The service&nbsp;hosts Windows desktops&nbsp;used for FX trading,",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4113574292774578686",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguDDZZalFBPLgf4YxDU_9FK46XXVkU3x0GKHeZHFd2WTdJ0cK5n1KCWDEOIvSgzHP4R14xmwLygLnnmyuBEVcHRVO7b9nIUZVcp5ehxIgFGrPyXZ3hZGwNa2bg8k4e_kkSHa2tyo05yPortQqRR_9g3yr-T0k0Tga9_26Pr0rs_MNIU8RndHMeq9r5Rr0/s260-e100/gmo.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -2299,33 +2380,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTvDNJzlrpPvCifQ9zNcdkc0vjmmRwGCap_kODFlX5W_IimpUgTyObjSefO7gHjXKUMhEkIlmgnH1GbbbWna6eZWa8xcRDLXeRmYX0oSrhAgS8YXth6_T2CPXMMnZvgsf1Psq_DUB9JkjeELLHjnB2xFl9-8bM5BW19fJ1aHcOruzwKErZJkjwRBSRedBq/s260-e100/recap-1.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:8674d78c6f98bb17df7573235af22d07577de646f580e8a0b07db4e2c0979eb2",
-   "url": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
-   "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-   "published_at": "2026-10-19T11:50:00Z",
-   "published_raw": "2026-10-19T17:20:00.000+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and hotels run support intake. Both are standard, documented, as-designed features. Chained together,",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1498882586651288090",
-   "authors": [
-    {
-     "name": "Unknown",
-     "uri": "",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1uAZRypeHl_8TjAU-3mwmvjdbCH0SZJwZBZOoEXcehaQfod9rpBvAl72JCjV8xF2KF4VbSVzWezAmkXjmbaxdIkK854Pa-yV4nkkRNe-l82mPM_VW1fLSE5Ib-RhyphenhypheneGga3KZ_9wQu76clTABJwGp_3N_M-6QBZMXFSISC56JWHVHpylO-uTenNO3kRlg/s260-e100/reco.gif",
      "kind": "thumbnail",
      "medium": ""
     }
