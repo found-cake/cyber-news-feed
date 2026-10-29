@@ -1,15 +1,118 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-29T13:00:37Z",
+ "updated_at": "2026-10-29T14:00:42Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-29T13:00:37Z",
+  "last_success_at": "2026-10-29T14:00:42Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:fbdd5d277e0ab1d97519f47610f1323ea6b12f3e99974409b4f9f788417f54a3",
+   "url": "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities",
+   "title": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities",
+   "published_at": "2026-10-29T13:42:52Z",
+   "published_raw": "Thu, 29 Oct 2026 13:42:52 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "Adobe",
+    "Juniper Networks",
+    "patches",
+    "Veeam",
+    "vulnerability"
+   ],
+   "description": "<p>The flaws could lead to arbitrary code execution, authorization bypasses, and privilege escalation.</p>\n<p>The post <a href=\"https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/\">Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50400",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:73eb30958268d425ed904699d97d5e9233693201c7aacc6c7efa98526db72a86",
+   "url": "https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts",
+   "title": "BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts",
+   "published_at": "2026-10-29T13:26:49Z",
+   "published_raw": "Thu, 29 Oct 2026 13:26:49 +0000",
+   "categories": [
+    "Incident Response",
+    "BAE Systems",
+    "courts"
+   ],
+   "description": "<p>BAE Systems says no data was extracted and no PII was breached in the incident that disrupted US bankruptcy court notices for weeks.</p>\n<p>The post <a href=\"https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/\">BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50396",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:77bf107406439a2117fc7da50655908eca1e2317b09aae1e14152b3ef17ec576",
+   "url": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online",
+   "title": "Over 41,000 DHS Employee Records Leaked Online",
+   "published_at": "2026-10-29T12:54:14Z",
+   "published_raw": "Thu, 29 Oct 2026 12:54:14 +0000",
+   "categories": [
+    "Data Breaches",
+    "data leak",
+    "DHS",
+    "Government"
+   ],
+   "description": "<p>The personal and work information was allegedly stolen from an Okta single sign-on system earlier this year.</p>\n<p>The post <a href=\"https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/\">Over 41,000 DHS Employee Records Leaked Online</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50394",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:e48ebca9f50e24c7613fa74ed1032a7295e6c5cb506379c33a2461be441f8c2a",
    "url": "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net",
@@ -59,6 +162,7 @@
     "China APT",
     "Cisco",
     "exploited",
+    "Featured",
     "SD-WAN",
     "Silent Train",
     "Volt Typhoon",
@@ -2717,38 +2821,6 @@
    ],
    "description": "<p>Hackers injected malware into Rank Math PRO version 3.0.123 packages distributed between October 15 and October 16.</p>\n<p>The post <a href=\"https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/\">Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=50124",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:cdffa4fa5fba3e674c7d1fd58df64aeccc1ef35f93bee4caa708ecb30f821073",
-   "url": "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack",
-   "title": "ConnectWise Suspends Cloud Services in Response to Cyberattack",
-   "published_at": "2026-10-19T13:16:20Z",
-   "published_raw": "Mon, 19 Oct 2026 13:16:20 +0000",
-   "categories": [
-    "Malware & Threats",
-    "ConnectWise"
-   ],
-   "description": "<p>The services remain unavailable as the company continues remediation and security validation.</p>\n<p>The post <a href=\"https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/\">ConnectWise Suspends Cloud Services in Response to Cyberattack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50121",
    "authors": [
     {
      "name": "Ionut Arghire",

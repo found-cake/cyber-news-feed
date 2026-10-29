@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-29T13:00:37Z",
+ "updated_at": "2026-10-29T14:00:42Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-29T13:00:37Z",
+  "last_success_at": "2026-10-29T14:00:42Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:207ac6ae9c2086a201581bab805ea47e1045f4a268c9e3362acd0891e50b1a98",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks",
+   "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+   "published_at": "2026-10-29T13:59:48Z",
+   "published_raw": "Thu, 29 Oct 2026 09:59:48 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:645f7bdeecdfe91ea991c52d985ee91348221ba8d870f941d4a3bc6627e0d520",
    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices",
@@ -1496,48 +1517,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:ffa2a32be5283e4104178c624f102fa261d4b3c6eead02ee1ec48747738d4266",
-   "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services",
-   "title": "Inside the Underground Market for Know Your Client Services",
-   "published_at": "2026-10-19T14:00:10Z",
-   "published_raw": "Mon, 19 Oct 2026 10:00:10 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass Know Your Client (KYC) checks. Flare examines how these underground services operate and the techniques used to create and maintain fraudulent verified accounts. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
-   "authors": [
-    {
-     "name": "Sponsored by Flare",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:4f6d5f64f253fb71e587b95e945d4ef3fb9b278e040e8ad8bfcc228ceace1964",
-   "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities",
-   "title": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
-   "published_at": "2026-10-19T13:49:24Z",
-   "published_raw": "Mon, 19 Oct 2026 09:49:24 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "F5 has released out-of-band security patches to address multiple NGINX web server flaws, including three critical-severity vulnerabilities that can let attackers execute code on vulnerable systems. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
      "uri": "",
      "email": ""
     }
