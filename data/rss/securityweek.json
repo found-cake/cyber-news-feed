@@ -1,15 +1,85 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-29T15:00:35Z",
+ "updated_at": "2026-10-29T16:00:46Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-29T15:00:35Z",
+  "last_success_at": "2026-10-29T16:00:46Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:f7bbff6e51aec84640b3ac2b5dfcfeb78098ea2b2d2b001a680d1128d19f6b33",
+   "url": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities",
+   "title": "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model",
+   "published_at": "2026-10-29T15:01:00Z",
+   "published_raw": "Thu, 29 Oct 2026 15:01:00 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "AI",
+    "Gemini",
+    "Gemini 4 Carbon"
+   ],
+   "description": "<p>Google’s new frontier model scored 88.2% on SEC-bench Pro and is rolling out first to vetted cyber defenders via its Fairwind Program.</p>\n<p>The post <a href=\"https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/\">Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50412",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:dada851ed8eef4980ee6ce5b95fd789a22d2297c6dd07c45be489e502ba37135",
+   "url": "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai",
+   "title": "How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI",
+   "published_at": "2026-10-29T15:00:00Z",
+   "published_raw": "Thu, 29 Oct 2026 15:00:00 +0000",
+   "categories": [
+    "Government",
+    "AI",
+    "cybersecurity",
+    "Election",
+    "Featured",
+    "voting"
+   ],
+   "description": "<p>Unpatched voting machines, unverifiable QR-coded ballots, and AI-driven influence campaigns leave US elections short of secure.</p>\n<p>The post <a href=\"https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/\">How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50404",
+   "authors": [
+    {
+     "name": "Kevin Townsend",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:2d227d60054f7c2d0b1a28295ddae73c86131f9d42cea730ddff748182ad3369",
    "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps",
@@ -2791,73 +2861,6 @@
    "authors": [
     {
      "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:bff8b4d59775cf8a938205f9a23914d9f6510d5a467a5bfc46586e3496d4240e",
-   "url": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw",
-   "title": "Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw",
-   "published_at": "2026-10-19T15:47:50Z",
-   "published_raw": "Mon, 19 Oct 2026 15:47:50 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "Drupal",
-    "vulnerability"
-   ],
-   "description": "<p>Critical flaws impact the Entity List and Field UI modules, and exploit paths exist with contributed modules.</p>\n<p>The post <a href=\"https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/\">Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50129",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:18bf4cfc69b5fa447f1fb8c2b454ae41574e873d72cd8c210a3d23b0f982da3c",
-   "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack",
-   "title": "Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack",
-   "published_at": "2026-10-19T15:20:53Z",
-   "published_raw": "Mon, 19 Oct 2026 15:20:53 +0000",
-   "categories": [
-    "Supply Chain Security",
-    "Rank Math",
-    "supply chain attack",
-    "WordPress"
-   ],
-   "description": "<p>Hackers injected malware into Rank Math PRO version 3.0.123 packages distributed between October 15 and October 16.</p>\n<p>The post <a href=\"https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/\">Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50124",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
      "uri": "",
      "email": ""
     }

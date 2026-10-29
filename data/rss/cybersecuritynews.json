@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-29T15:00:35Z",
+ "updated_at": "2026-10-29T16:00:46Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-29T15:00:35Z",
+  "last_success_at": "2026-10-29T16:00:46Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:4c78c8651740ddca14bdf30a246939c6a0b6c7d866fd4bbd0fdd9b1141827a57",
+   "url": "https://cybersecuritynews.com/linux-kernel-flaw-root-commands",
+   "title": "Claude AI Exploits Linux Kernel Flaw to Execute Root Commands Without User Interaction",
+   "published_at": "2026-10-29T15:18:11Z",
+   "published_raw": "Thu, 29 Oct 2026 15:18:11 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Anthropic says an unreleased Claude research model wrote a working exploit for a critical Linux kernel bug, tracked as CVE-2026-98432. The exploit lets a remote attacker run commands as root with no login and no user action. Anthropic&#8217;s Frontier Red Team shared the finding on October 27, 2026, and the flaw is already patched upstream. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kernel-flaw-root-commands/\">Claude AI Exploits Linux Kernel Flaw to Execute Root Commands Without User Interaction</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=169584",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Linux-Kernel-Flaw.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "169584",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Anthropic says an unreleased Claude research model wrote a working exploit for a critical Linux kernel bug, tracked as CVE-2026-98432. The exploit lets a remote attacker run commands as root with no login and no user action.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Anthropic&#8217;s Frontier Red Team shared the finding on October 27, 2026, and the flaw is already patched upstream. Anthropic&#8217;s research post says this was a lab test and not a real-world incident.</p>\n\n\n\n<p class=\"wp-block-paragraph\">After a first prompt from a researcher, Claude wrote an exploit that targets Linux servers with a multipath TCP listener. Anthropic describes the root cause as a race condition that leads to a use-after-free bug in the kernel networking stack. A use-after-free happens when code keeps using memory after the system has already released it.</p>\n\n\n\n<h2 id=\"h-claude-ai-exploits-critical-linux-kernel-flaw\" class=\"wp-block-heading\"><strong>Claude AI Exploits Critical Linux Kernel Flaw</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The exploit works in two steps. First, it abuses the race to make the kernel send back extra bytes, and one reply can contain a kernel pointer. That pointer reveals the memory layout and defeats KASLR, a defense that hides where kernel code sits. Second, the same bug overwrites a callback pointer so the kernel runs a payload the attacker already placed in memory, which ends in a shell command as root.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Anthropic notes that a lost race only fails the TCP handshake and does not crash the machine. An attacker can therefore retry again and again. In the proof of concept, leaking the pointer took 48 minutes and running the command took five more. Our own <a href=\"https://cybersecuritynews.com/claude-ai-builds-exploit/\" target=\"_blank\" rel=\"noreferrer noopener\">earlier report on the full Claude exploit research</a> covers the Chrome, Safari, Android and Windows chains from the same study.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The public record looks a little different from Anthropic&#8217;s description. The <a href=\"https://ubuntu.com/security/CVE-2026-98432\">Ubuntu entry for CVE-2026-98432</a> was published on October 15, 2026 and last updated on October 28. It carries a CVSS 3 score of 9.8, which is Critical, and an Ubuntu priority of High.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The text describes an IPv4 fix named &#8220;free inet_opt and ireq_opt after an RCU grace period.&#8221; It explains that tcp_v4_syn_recv_sock() hands IP options to a child socket without copying them. Another CPU can then process a repeated SYN and build a reply while the options are freed with a plain kfree(), which causes the use-after-free in ip_options_build(). The fix switches to kfree_rcu(), which delays the free until readers are done. The record says IPv6 is not hit by the first issue.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The record never mentions multipath TCP. The link between the CVE and Anthropic&#8217;s Linux chain rests on Anthropic&#8217;s post, a gap that <a href=\"https://cybersecuritynews.com/claude-ai-builds-exploit/\">Cyber Security News also pointed out</a>. Readers should treat the exact attack path as the vendor&#8217;s claim until others reproduce it. A <a href=\"https://aviatrix.ai/threat-research-center/anthropic-unreleased-ai-model-chains-flaws-chrome-safari-windows-linux-exploits-2026/\">threat summary from Aviatrix</a> states the same caution, since no outside team has confirmed the chain end to end.</p>\n\n\n\n<h2 id=\"h-patch-status\" class=\"wp-block-heading\"><strong>Patch Status</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Anthropic says the bug was fixed upstream and backported to all maintained stable kernel branches. One security blog lists fixed stable releases such as 5.10.272, 5.15.223, 6.1.190, 6.6.159, 6.12.113 and 6.18.56, though readers should confirm those numbers on <a href=\"https://www.kernel.org/pub/linux/kernel/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">kernel.org</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Distribution fixes are uneven. At the time of writing, Ubuntu&#8217;s page marks 22.04, 24.04 and 26.04 kernels as vulnerable with work in progress, and older releases such as 20.04 and 18.04 as vulnerable. Many cloud kernels for AWS, Azure and GCP are also listed as affected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">One patch guide reports that Oracle Linux has shipped fixed packages. Internet-facing servers should come first in any patch plan.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The bigger story is speed. Anthropic argues that models can now find and chain bugs into working exploits with little human help. That work once needed a small group of expert teams. Defenders can use the same tools, and Anthropic points to its expanded Cyber Verification Program for approved security staff.</p>\n\n\n\n<p class=\"wp-block-paragraph\">AI is also moving into kernel work from the safe side. Linus Torvalds recently said <a href=\"https://cybersecuritynews.com/linus-torvalds-use-claude-code-patches/\" target=\"_blank\" rel=\"noreferrer noopener\">Claude Code helped write Linux kernel patches</a>, which shows the same tools help both builders and bug hunters.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Install the latest kernel update from your distribution and reboot, since a kernel fix does not apply until the system restarts. If a patch is not ready, check whether you really need multipath TCP listeners and turn them off where you do not. Limit exposure of public services with firewall rules, and watch for odd resets or failed handshakes on listening ports.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Teams that run AI tools should also review their own setups. We recently covered a <a href=\"https://cybersecuritynews.com/claude-coworks-sandbox-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">Claude Cowork sandbox flaw</a> that let an attacker reach root inside the product&#8217;s Linux sandbox. Scan your own code often, patch fast, and treat AI-found bugs as a sign that the gap between discovery and exploit is shrinking.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kernel-flaw-root-commands/\">Claude AI Exploits Linux Kernel Flaw to Execute Root Commands Without User Interaction</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:6ff4afe019377305578c5e0dbbe97649e4543ee8b44a0b6a91019ab1c8031524",
    "url": "https://cybersecuritynews.com/nist-post-quantum-cryptography-guidance",
