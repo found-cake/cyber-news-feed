@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-29T06:00:43Z",
+ "updated_at": "2026-10-29T07:00:38Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-29T06:00:43Z",
+  "last_success_at": "2026-10-29T07:00:38Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -139,6 +139,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwNHgVe_6hmXG-V6Nx8pk56jDEW1WRCKtvvG9RHugoj65LqTTVGLvgl1Eh1E7ClmyMDn9k4RrF7Yp1kteZvZ_r7v9IxQPG_Eif3nk_13gz_MSddPcBtJdLKFwYAPa4BKMN5FdZLvvTIjahr4aTdiiLeQMuVzrj8Ff9wvgmUCW_6_OyfXPSGIEEIxZgdtQ-/s260-e100/vmware-healthcare.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:48f467fc9990539a6e8ad8a2bbce0f0d1d0c63500e496a2e9335a95820f828df",
+   "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+   "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+   "published_at": "2026-10-29T06:22:33Z",
+   "published_raw": "2026-10-29T11:52:33.736+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector.\n\nThe vulnerability in question is CVE-2026-41709 (CVSS score:",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2905160804169482689",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcr5vMvEpNtC6AAPL85NwoZLwafJYuuIYKlofAez4dmACEH-0VI-icaKusP2b9HgxcJC2AMyZkdGNfVOyXQCWqjK-_vIvw1OjptUH_maUL82An7MRxEnZQ62JZqPqwuTp6QQ8TWq4y0SRqUb6KhdXLYRJMyUHg2cQBzez3g-0G8jh2ujIgx-6FqQdWBuFr/s260-e100/esx-audit.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -794,33 +821,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:33f7736e74631c3e92659afbe1965f21d4a96e0439d99808ed2b43bebc9bc19e",
-   "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-   "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-   "published_at": "2026-10-25T17:44:09Z",
-   "published_raw": "2026-10-25T23:14:09.147+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.\n\nThe attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target.\n\nThe findings were",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2788618055750336898",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbGR63RmXInXPwCVFZlGJSiGv5WQfLTWymToOPIYbKXfXniB7X4YDbTVK-28G4r3WfdelCr_2TRzhoYrIogcG_C9WjXEHaLhURIh_v5RyO5sBY8UKwQWbKUBrv_H5n5K7N4mz2WG3d5dldw_re-M5CgDDbVi_EhTqvB9P87fZJlODojj8ivvj-RwLUhpg/s260-e100/tailscale.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:54629371f074818de3ec79b0429084ac0598c08b002d82d57b06eb098c8eb289",
    "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
    "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
@@ -1165,6 +1165,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8MKP95jyzesxy1eZd6zQDCb3dr-9m-bRE9W0PYnomN3z8lodXmM_0Oo4AAiP_nt2QMNpLxsUNPKueH4TW6FnvXl7ijDGDwxnXcfiyAII6sUDd8cfKoB7Z3MgLOvcAWDeplnUdixy-zfpgVqCuAVZmqH-Orn4S-QhYREVcY1ew7_6kIG8LBsdLZC8Ofs/s260-e100/PHP2SHELL.gif",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:33f7736e74631c3e92659afbe1965f21d4a96e0439d99808ed2b43bebc9bc19e",
+   "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+   "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+   "published_at": "2026-10-25T17:44:09Z",
+   "published_raw": "2026-10-25T23:14:09.147+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.\n\nThe attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target.\n\nThe findings were",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2788618055750336898",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbGR63RmXInXPwCVFZlGJSiGv5WQfLTWymToOPIYbKXfXniB7X4YDbTVK-28G4r3WfdelCr_2TRzhoYrIogcG_C9WjXEHaLhURIh_v5RyO5sBY8UKwQWbKUBrv_H5n5K7N4mz2WG3d5dldw_re-M5CgDDbVi_EhTqvB9P87fZJlODojj8ivvj-RwLUhpg/s260-e100/tailscale.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -1901,33 +1928,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:6dda7c5d535ad3e23867f6c55ad15b5d360442a6ba6cb8256e74f6c28d6cba31",
-   "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
-   "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-   "published_at": "2026-10-19T06:07:08Z",
-   "published_raw": "2026-10-19T11:37:08.363+05:30",
-   "categories": [
-    "cyber-attack"
-   ],
-   "description": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said.\n\nConsole is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5776349161595719472",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzRSuvywT7bfHRl45krYywOIqL__Cw1hXchChbx5ylDNZaHxVDEf8O1pmzajCnItG1rwxKq0k2GHdMeDW_DvQP8Wk5MEiwlE2dZXn9grvDpAOpViWonNWsFMkTXoKpcFj8lk0UuMrGx-xVHRU_KufidsDcY7e0RUSG62aapDC9y9opt8V_rmgxkCG9v6A/s260-e100/opencode.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:1dac3ddb6c024270eec9b6ca5b7e6a9c215500669d8c37c71e08e13eb3ec1e68",
    "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
    "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
@@ -2218,33 +2218,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1uAZRypeHl_8TjAU-3mwmvjdbCH0SZJwZBZOoEXcehaQfod9rpBvAl72JCjV8xF2KF4VbSVzWezAmkXjmbaxdIkK854Pa-yV4nkkRNe-l82mPM_VW1fLSE5Ib-RhyphenhypheneGga3KZ_9wQu76clTABJwGp_3N_M-6QBZMXFSISC56JWHVHpylO-uTenNO3kRlg/s260-e100/reco.gif",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:13914d4891785130b3de313bd3acc2d8c33e6f6ac047155a05621c7350992d6a",
-   "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-   "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-   "published_at": "2026-10-19T06:29:44Z",
-   "published_raw": "2026-10-19T11:59:44.981+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser&nbsp;disclosed&nbsp;on October 16.\n\nHe showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-703283065619382654",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKR22_EY_V4kc68OQN7vGigoOrsBiy_aMnJVifzUg15itznrR-KdvcSdcaVSGnA6A2kAgMCSUNbIoqzh10gy8wQzkpK55LJPTjPPoV73VzoJlNCtZOn0LltkE7gq8PwH29hLNlUn41qQV8A7fTGkCwHu2LQ0OtvvTFtNRHll7xY0_PUfQ5K08JtCWriXg/s260-e100/wifi.gif",
      "kind": "thumbnail",
      "medium": ""
     }
