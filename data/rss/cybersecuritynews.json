@@ -1,15 +1,84 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-29T14:00:42Z",
+ "updated_at": "2026-10-29T15:00:35Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-29T14:00:42Z",
+  "last_success_at": "2026-10-29T15:00:35Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:6ff4afe019377305578c5e0dbbe97649e4543ee8b44a0b6a91019ab1c8031524",
+   "url": "https://cybersecuritynews.com/nist-post-quantum-cryptography-guidance",
+   "title": "NIST Officially Released Guidance for Transition to Post-Quantum Cryptography",
+   "published_at": "2026-10-29T14:55:18Z",
+   "published_raw": "Thu, 29 Oct 2026 14:55:18 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>The National Institute of Standards and Technology (NIST) has released guidance on moving to post-quantum cryptography, giving federal agencies and technology providers a clearer path to quantum-resistant security. Published October 27, 2026, the finalized report identifies vulnerable cryptographic standards, their replacements, and the timelines that should shape migration plans. The report, Transition to Post-Quantum Cryptography [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nist-post-quantum-cryptography-guidance/\">NIST Officially Released Guidance for Transition to Post-Quantum Cryptography</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=169513",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/NIST-OFFICIALLY-released-guidance-for-Transition-to-Post-Quantum-Cryptography-1.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "169513",
+     "content_encoded": "<p class=\"wp-block-paragraph\">The National Institute of Standards and Technology (NIST) has released guidance on<a href=\"https://cybersecuritynews.com/post-quantum-cryptography-is-not-the-future-it-is-your-current-reality/\" target=\"_blank\" rel=\"noreferrer noopener\"> moving to post-quantum cryptography</a>, giving federal agencies and technology providers a clearer path to quantum-resistant security.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Published October 27, 2026, the finalized report identifies vulnerable cryptographic standards, their replacements, and the timelines that should shape migration plans.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The report, Transition to Post-Quantum Cryptography Standards (NISTIR 8547), builds on the three standards NIST finalized in August 2024. Rather than introducing another algorithm, it explains how organizations should move away from cryptography that future quantum computers could break.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A powerful enough quantum computer could threaten the cryptographic methods protecting sensitive communications and records. The immediate concern is “<a href=\"https://cybersecuritynews.com/best-post-quantum-cryptographic-solutions/\" target=\"_blank\" rel=\"noreferrer noopener\">harvest now, decrypt later</a>,” where attackers collect encrypted information today and store it until quantum technology can unlock it. Data that must remain private for many years faces particular risk.</p>\n\n\n\n<p class=\"wp-block-paragraph\">NIST mathematician Dustin Moody, who leads the agency’s PQC standardization project, said migration requirements differ across use cases.</p>\n\n\n\n<h2 id=\"h-nist-post-quantum-cryptography-guidance\" class=\"wp-block-heading\"><strong>NIST Post-Quantum Cryptography Guidance</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations must account for their systems, suppliers, and operational needs instead of treating the transition as a single software update.</p>\n\n\n\n<p class=\"wp-block-paragraph\">National Security Memorandum 10 established 2035 as the main target for completing the federal transition. Executive Order 14412 brought forward deadlines for federal high-value assets and high-impact systems, requiring quantum-resistant key establishment by 2030 and digital signatures by 2031.</p>\n\n\n\n<p class=\"wp-block-paragraph\">These deadlines do not automatically apply to every private business. However, suppliers serving federal agencies should assess how customer requirements could affect their products and services. Cybersecurity News previously covered the <a target=\"_blank\" href=\"https://cybersecuritynews.com/white-house-federal-agencies-post-quantum-cryptography/amp/\" rel=\"noopener\">White House’s federal post-quantum migration order</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">NIST’s standards separate two essential tasks. FIPS 203 defines ML-KEM for establishing shared secret keys. FIPS 204 and FIPS 205 define ML-DSA and SLH-DSA for digital signatures, which help verify authenticity and detect changes to signed information. These functions need separate migration planning.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should identify where cryptography operates, assess supplier readiness, and prioritize systems that protect long-lived sensitive data. Related coverage of <a target=\"_blank\" href=\"https://cybersecuritynews.com/post-quantum-cryptography-migration-roadmap/\" rel=\"noopener\">MITRE’s post-quantum cryptography migration roadmap</a> explains why planning must begin before quantum computers become a practical threat.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The report also allows hybrid approaches that combine conventional cryptography with post-quantum methods. This can provide an additional security margin, but it requires more computing resources. Teams must weigh that tradeoff against deployment needs.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For implementation support, <a href=\"https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">NIST points organizations</a> toward its National Cybersecurity Center of Excellence migration project. Its work covers cryptographic visibility, risk-based priorities, and practical demonstrations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Together, these resources connect federal transition requirements with the technical work needed to replace vulnerable cryptography across products, services, and supply chains without relying on a single migration strategy.<a href=\"https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography\" target=\"_blank\" rel=\"noopener\"></a></p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/nist-post-quantum-cryptography-guidance/\">NIST Officially Released Guidance for Transition to Post-Quantum Cryptography</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:777519ce9db3f00df2f949cd12d2dc9cf76dc204be6c671273f4a226698d036d",
+   "url": "https://cybersecuritynews.com/zero-click-android-vulnerability",
+   "title": "Zero-Click ‘SMS of Death’ Flaw Lets Hackers Disrupt Android Phones With a Single Text",
+   "published_at": "2026-10-29T14:50:38Z",
+   "published_raw": "Thu, 29 Oct 2026 14:50:38 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News"
+   ],
+   "description": "<p>A security researcher has published details of a zero-click Android flaw called &#8220;SMS of Death.&#8221; One malformed text message can crash the phone service on an Android device, drop active calls, and in the worst case leave the phone without telephony after every restart. Google has marked the report &#8220;Won&#8217;t Fix&#8221; and treats it as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/zero-click-android-vulnerability/\">Zero-Click &#8216;SMS of Death&#8217; Flaw Lets Hackers Disrupt Android Phones With a Single Text</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=169573",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Zero-Click-Android-Flaw.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "169573",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A security researcher has published details of a zero-click Android flaw called &#8220;SMS of Death.&#8221; One malformed text message can crash the phone service on an Android device, drop active calls, and in the worst case leave the phone without telephony after every restart. Google has marked the report &#8220;Won&#8217;t Fix&#8221; and treats it as a non-security issue, according to the researcher&#8217;s disclosure site.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The bug sits in <code>WapPushOverSms.decodeWapPdu()</code>, the Android code that reads WAP Push messages. These are special data texts that never show up in the inbox. The code reads a header length from the message as a long number and then converts it to a smaller signed integer without checking the range.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://smsofdeath.com/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">The researcher shows</a> that the five bytes <code>88 80 80 80 00</code> turn into -2147483648 after this conversion. Android then tries to create a byte array of that size.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That throws an uncaught <code>NegativeArraySizeException</code> and kills the <code>com.android.phone</code> process. The victim sees nothing. No message appears, and the sender&#8217;s number stays hidden.</p>\n\n\n\n<h2 id=\"h-zero-click-sms-of-death-flaw\" class=\"wp-block-heading\"><strong>Zero-Click &#8216;SMS of Death&#8217; Flaw</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Active calls end with the cause <code>CS_DEATH</code> as the process restarts. Each message causes one to two seconds without service. The carrier also resends texts the phone never acknowledges, so one message caused repeated outages for up to a week in testing.</p>\n\n\n\n<p class=\"wp-block-paragraph\">About 20 messages left a phone unusable for a long time. The researcher tested a Pixel 9 on April 2026 firmware, and several Samsung Galaxy and A-series phones, and the crash happened every time.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Android already has other zero-click risks from fake cell towers. Google&#8217;s Android 17 <a href=\"https://cybersecuritynews.com/android-17-wi-fi-protection/\" target=\"_blank\" rel=\"noreferrer noopener\">adds protections against 2G downgrade and SMS blaster tricks</a>. Those protections target a different problem and do not appear to cover this parsing bug.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Sending about 30 messages in quick succession is far worse. The repeated crashes collide with writes to the SMS store and corrupt the SQLite database that holds messages. After that, the phone app crashes on every boot, and a restart does not help.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A factory reset only works for a short time, because the carrier sends the stuck payload again. The researcher&#8217;s fix was to move the physical SIM into a non-Android phone such as an iPhone so the carrier&#8217;s retries get acknowledged. Then the corrupt records had to be cleared over ADB. An eSIM would make recovery much harder, and most users could not do it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Zero-click attacks on phones are not new. In 2023, <a href=\"https://cybersecuritynews.com/imessage-0-click-exploit-iphone-users/\" target=\"_blank\" rel=\"noreferrer noopener\">Citizen Lab found BLASTPASS, an iPhone zero-click chain</a> used to install Pegasus spyware</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><a href=\"https://www.manageengine.com/products/desktop-central/endpoint-edge/zero-cost-exploit-economics.html?utm_source=CSN&amp;utm_medium=TPS-LinkedinNL&amp;utm_campaign=Machine-speed\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">AI is making cyberattacks faster and cheaper. Are your defenses ready to respond at machine speed?</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/zero-click-android-vulnerability/\">Zero-Click &#8216;SMS of Death&#8217; Flaw Lets Hackers Disrupt Android Phones With a Single Text</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:a05afd433fe7c843891e83b282685d7d58ae564281e692f21b7f123e9239910c",
    "url": "https://cybersecuritynews.com/appviewx-expands-quantum-trust-hub-with-cryptographic-discovery-posture-management-and-remediation",
