@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-29T08:00:38Z",
+ "updated_at": "2026-10-29T09:00:43Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-29T08:00:38Z",
+  "last_success_at": "2026-10-29T09:00:43Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -139,6 +139,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwNHgVe_6hmXG-V6Nx8pk56jDEW1WRCKtvvG9RHugoj65LqTTVGLvgl1Eh1E7ClmyMDn9k4RrF7Yp1kteZvZ_r7v9IxQPG_Eif3nk_13gz_MSddPcBtJdLKFwYAPa4BKMN5FdZLvvTIjahr4aTdiiLeQMuVzrj8Ff9wvgmUCW_6_OyfXPSGIEEIxZgdtQ-/s260-e100/vmware-healthcare.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:96402b0bba36a5534299f8cf76a48208eb7d49296eee770808d2622dce34c589",
+   "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+   "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+   "published_at": "2026-10-29T08:24:22Z",
+   "published_raw": "2026-10-29T13:54:22.200+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network.\n\nThe malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use,&nbsp;Cisco Talos said&nbsp;on October 28. Talos calls the attacks historical but does not specify when they",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2331088840460847098",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDuVB5nQJHwAnAATDQxAqD8KtWk7IpNvBqXQq6RPkqJ72joLVDp5dUDDdYmRHlrbUhJQpaQQ59p245XjotvW2DNx_fKk7cPp0wJUsK0z5IQY2jXA1oP-YcYKLtSdBXnZJDNECWOzX9tP3-12cKXJm2A1KKoBsu9CEiOYKbgJDVqvQt7YRF8Fzd706YumA/s260-e100/cisco-sdwan.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -794,33 +821,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:f67f5ee9f8e39aaf86854c69c2d092d7a4539704fd377367dcc0964a91d4d1b5",
-   "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
-   "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
-   "published_at": "2026-10-26T11:52:41Z",
-   "published_raw": "2026-10-26T17:22:41.538+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say.\n\nAn attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1543916664269328418",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5xq9w5oCep_lu7UpdVExPO7yRQ1tMz0YkxljYR_LmwG3WKowZ2CtLPh4F6kASJ7Xu0xJKy4uVzlwj7fPEO3fgKUELS4BqUtDZvGh1P-iqRslXNCLdkcJMCBGSKvJeqrrkeZdfPO9Wmv_v2VqdYEZVavTHw-QHUhli9QYGVhASuSRt3DETy8JMBz1D-kE/s260-e100/wasm.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:54629371f074818de3ec79b0429084ac0598c08b002d82d57b06eb098c8eb289",
    "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
    "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
@@ -1165,6 +1165,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8MKP95jyzesxy1eZd6zQDCb3dr-9m-bRE9W0PYnomN3z8lodXmM_0Oo4AAiP_nt2QMNpLxsUNPKueH4TW6FnvXl7ijDGDwxnXcfiyAII6sUDd8cfKoB7Z3MgLOvcAWDeplnUdixy-zfpgVqCuAVZmqH-Orn4S-QhYREVcY1ew7_6kIG8LBsdLZC8Ofs/s260-e100/PHP2SHELL.gif",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:f67f5ee9f8e39aaf86854c69c2d092d7a4539704fd377367dcc0964a91d4d1b5",
+   "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+   "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+   "published_at": "2026-10-26T11:52:41Z",
+   "published_raw": "2026-10-26T17:22:41.538+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say.\n\nAn attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1543916664269328418",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5xq9w5oCep_lu7UpdVExPO7yRQ1tMz0YkxljYR_LmwG3WKowZ2CtLPh4F6kASJ7Xu0xJKy4uVzlwj7fPEO3fgKUELS4BqUtDZvGh1P-iqRslXNCLdkcJMCBGSKvJeqrrkeZdfPO9Wmv_v2VqdYEZVavTHw-QHUhli9QYGVhASuSRt3DETy8JMBz1D-kE/s260-e100/wasm.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
