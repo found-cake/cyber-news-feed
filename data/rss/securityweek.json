@@ -1,15 +1,56 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-29T10:00:40Z",
+ "updated_at": "2026-10-29T11:00:37Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-29T10:00:40Z",
+  "last_success_at": "2026-10-29T11:00:37Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:459e08bff136fc9ae1193b5642e2f637fe3cc52ed2e1afdff9a78a5828ce5f41",
+   "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network",
+   "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network",
+   "published_at": "2026-10-29T10:29:25Z",
+   "published_raw": "Thu, 29 Oct 2026 10:29:25 +0000",
+   "categories": [
+    "Malware & Threats",
+    "Nation-State",
+    "Vulnerabilities",
+    "China",
+    "China APT",
+    "Cisco",
+    "exploited",
+    "SD-WAN",
+    "Silent Train",
+    "Volt Typhoon",
+    "Zero-Day"
+   ],
+   "description": "<p>Cisco Talos linked SD-WAN key-stealing malware to infrastructure overlapping Volt Typhoon’s Silent Train network, which Lumen detailed.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/\">Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon&#8217;s &#8216;Silent Train&#8217; Network</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50387",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:c86ec60c2dc0893a0d42414195ed19f6de6aa3ab6dfad1ac903d6dda974b7321",
    "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august",
@@ -22,7 +63,7 @@
     "exploited",
     "vulnerability"
    ],
-   "description": "<p>Cisco on Wednesday released fixes for an exploited vulnerability affecting its Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) software. Tracked as CVE-2026-76418 and assigned a CVSS score of 8.6, the bug resides in the Remote Access SSL VPN service. Attackers can exploit it remotely, without authenticating, to force the device [&#8230;]</p>\n<p>The post <a href=\"https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/\">Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "description": "<p>An exploited flaw in the Remote Access SSL VPN service lets unauthenticated attackers remotely force ASA and FTD firewalls to reload.</p>\n<p>The post <a href=\"https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/\">Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=50383",
    "authors": [
     {
