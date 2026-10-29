@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-29T09:00:43Z",
+ "updated_at": "2026-10-29T10:00:40Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-29T09:00:43Z",
+  "last_success_at": "2026-10-29T10:00:40Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c86ec60c2dc0893a0d42414195ed19f6de6aa3ab6dfad1ac903d6dda974b7321",
+   "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august",
+   "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
+   "published_at": "2026-10-29T09:47:10Z",
+   "published_raw": "Thu, 29 Oct 2026 09:47:10 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "Cisco",
+    "exploited",
+    "vulnerability"
+   ],
+   "description": "<p>Cisco on Wednesday released fixes for an exploited vulnerability affecting its Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) software. Tracked as CVE-2026-76418 and assigned a CVSS score of 8.6, the bug resides in the Remote Access SSL VPN service. Attackers can exploit it remotely, without authenticating, to force the device [&#8230;]</p>\n<p>The post <a href=\"https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/\">Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50383",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:9f799ac40e8cef59c593fa2f2a4028fa512767835aa082c983f3616439ff7185",
    "url": "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million",
@@ -2747,41 +2781,6 @@
    "authors": [
     {
      "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:9a0a3a4b8d406986d141f31fa3479c5ddd6790c3f3a8e1c1105f190e400a82f8",
-   "url": "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks",
-   "title": "MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks",
-   "published_at": "2026-10-19T09:37:04Z",
-   "published_raw": "Mon, 19 Oct 2026 09:37:04 +0000",
-   "categories": [
-    "Malware & Threats",
-    "Uncategorized",
-    "ATT&CK",
-    "Featured",
-    "MITRE"
-   ],
-   "description": "<p>Defenders get 15 new detection strategies, six for Enterprise and nine for ICS, backed by 38 analytics.</p>\n<p>The post <a href=\"https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/\">MITRE ATT&#038;CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50108",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
      "uri": "",
      "email": ""
     }
