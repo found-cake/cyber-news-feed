@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-30T12:00:55Z",
+ "updated_at": "2026-10-30T13:00:55Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-30T12:00:55Z",
+  "last_success_at": "2026-10-30T13:00:55Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -166,6 +166,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwNHgVe_6hmXG-V6Nx8pk56jDEW1WRCKtvvG9RHugoj65LqTTVGLvgl1Eh1E7ClmyMDn9k4RrF7Yp1kteZvZ_r7v9IxQPG_Eif3nk_13gz_MSddPcBtJdLKFwYAPa4BKMN5FdZLvvTIjahr4aTdiiLeQMuVzrj8Ff9wvgmUCW_6_OyfXPSGIEEIxZgdtQ-/s260-e100/vmware-healthcare.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:67deeb1099f33e56545666edd2cf906564724ef94b05810d2de40586b72f5c6c",
+   "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+   "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+   "published_at": "2026-10-30T11:58:53Z",
+   "published_raw": "2026-10-30T17:28:53.339+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything.&nbsp;\n\nTheir concerns are practical. An IPS protection could block legitimate traffic. A configuration change could interrupt a service. An endpoint policy could affect an application",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5438861008127465321",
+   "authors": [
+    {
+     "name": "Unknown",
+     "uri": "",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitJWSYL167QzDoyvN2y9DAuXmFFe0en34dEHp-I2sSVLEPIfljdlRfeIthyMQUgSvf9AfwW4p-solbE5zH3cKpfeLKWg-IqPnVdHbKQ99Bw91fDAoqHx3E9mlpNmXYA5i3RnaTYxZYkZcwbeY31O4CljtFQYp2JPLTmJo1BI09Al9Kh-CDtzFubVly7hM/s260-e100/cp.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -821,33 +848,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:dc1f78b83e65b690208f66dbcc5b727fac2d190ddfb1b343ecf12bf9c7950df2",
-   "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-   "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
-   "published_at": "2026-10-27T13:59:48Z",
-   "published_raw": "2026-10-27T19:29:48.731+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups.\n\nThe flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7232039681045429419",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ae8TupuVJ4B0uHZJxwQnaqstuuA42Jwt_Zh7m9RwCBp_IrCYuChUaac6fUphOhpalVEC8tfhGsYGxt1lmswBobM-r-ds6t0uEMSV9HZKT_dYcigHPxGJQo7dcJte96ymjxwSREmiGulG6xPIX4Hx3visDSuyaX2DJ3HRcctAz0Jw1T9ALkCEwZUlMsQ/s260-e100/goahead.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:4b53227f9f3bab6085748e01fca8a8a2c1994ad7e861ac599d25f469a11851d4",
    "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
    "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
@@ -856,7 +856,7 @@
    "categories": [
     "cyber-attack"
    ],
-   "description": "Cybersecurity researchers have disclosed that the official Anthropic Claude Code extension was compromised on the Cursor Marketplace to install a persistent SSH backdoor on infected hosts.\n\nThe issue has since been traced to the compromise of the Cursor Marketplace, prompting the AI coding platform Cursor to briefly take down the service to remove the malware.\n\n\"We identified a security incident",
+   "description": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems.\n\nThe malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut",
    "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-517613965868793078",
    "authors": [
     {
@@ -1219,6 +1219,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxH9YdfH7FHfSBJt7wrnd1P2hTQG6_2rpkp3YBqp2Yd49nYy4-a0zmvk5mqKlXH4DWfRO4Q4MmzLG4_t19me5rErcvoEpGJ5Q8LYty_GXXys63QC8HlO3G2jRC9f5vJd1BDiOp4APzxV4rSbFOZY80zIUmxvJ8V6isB-eDy9e9tVWaLR53fpPO80mzn_BH/s260-e100/uk-russia.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:dc1f78b83e65b690208f66dbcc5b727fac2d190ddfb1b343ecf12bf9c7950df2",
+   "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+   "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+   "published_at": "2026-10-27T13:59:48Z",
+   "published_raw": "2026-10-27T19:29:48.731+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups.\n\nThe flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7232039681045429419",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ae8TupuVJ4B0uHZJxwQnaqstuuA42Jwt_Zh7m9RwCBp_IrCYuChUaac6fUphOhpalVEC8tfhGsYGxt1lmswBobM-r-ds6t0uEMSV9HZKT_dYcigHPxGJQo7dcJte96ymjxwSREmiGulG6xPIX4Hx3visDSuyaX2DJ3HRcctAz0Jw1T9ALkCEwZUlMsQ/s260-e100/goahead.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -2326,33 +2353,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3BuJLxcpzxzxwpUcwsPb7L-gNCeXeyuPtNysOMHtf06VmANCx2DR3O52Puw9AQwUu0C8ccQ77MF_l0bAf4zL-hrvYO8jSHs6Km0Xz6-Q4yYm1thRvJ-y59qLRX9Qni0zD161qJ53oCgzEIo3NjOLKtgOrIAbOMsAhITOhL9qoy2v9D6tRU26m0fBoMDhJ/s260-e100/fort-poc.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:f000a8c0fede9d2d8cdb142840a7b493b5f08f31eff23495499a3ee94df92672",
-   "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
-   "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
-   "published_at": "2026-10-20T12:59:44Z",
-   "published_raw": "2026-10-20T18:29:44.538+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the&nbsp;Citizen Lab said&nbsp;on October 19.\n\nThe finding came six days before Serbia's October 25 snap parliamentary election. The infection used a zero-click exploit, meaning Đokić did not have to tap a link or",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-906293967082220396",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_cQrX8zsqCvWd9Pl1mfmh8oQBwRAG_IcrKQB-EpiVEn2GXf5UJBh0UrLXCKzAmJo2Z-Di9G7-16n5hV-gmtfMi-JtB9sOd9neC-b1-6CpErVOYE7CUjBmZhunV45nzsFcDr03rK5RA8q7gFZXIuJZ4c6ND0VSQHYuppDkdTqq04MI7nVCz-10-K-xmc0/s260-e100/iphone-spyware.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
