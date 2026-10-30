@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-30T13:00:55Z",
+ "updated_at": "2026-10-30T14:00:56Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-30T13:00:55Z",
+  "last_success_at": "2026-10-30T14:00:56Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:504569e0ffffdf59919edbb3dddfd95f3c5608d0cc1971aca6b6dee3e09fb299",
+   "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone",
+   "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+   "published_at": "2026-10-30T14:00:10Z",
+   "published_raw": "Fri, 30 Oct 2026 10:00:10 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how these attacks exploit trust between networks and how its security-focused mobile service helps defend against them. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+   "authors": [
+    {
+     "name": "Sponsored by Cape",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:0508d22cbda1d64187dd899cbd4d9761ba5f6b3ac56b4322dc3449c3e7b7092d",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks",
@@ -1539,48 +1560,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:2490cf3f7c8f1527f87baab476aa1de632179620bdc3cca9467e6386a51dce87",
-   "url": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies",
-   "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
-   "published_at": "2026-10-20T13:51:00Z",
-   "published_raw": "Tue, 20 Oct 2026 09:51:00 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "CJIS v6.1 requires agencies to maintain strong authentication, account security, and audit controls while demonstrating ongoing compliance. Specops outlines five practical priorities covering MFA, account management, passwords, logging, and audit readiness. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
-   "authors": [
-    {
-     "name": "Sponsored by Specops Software",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:869613f664c0de20bfebb587479f9834a86a56e8b5da80c21914701b2fd68c01",
-   "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers",
-   "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
-   "published_at": "2026-10-20T13:18:36Z",
-   "published_raw": "Tue, 20 Oct 2026 09:18:36 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax preparation businesses since 2019. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
      "uri": "",
      "email": ""
     }
