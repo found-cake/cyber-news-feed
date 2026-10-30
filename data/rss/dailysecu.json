@@ -1,15 +1,78 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-10-30T01:00:56Z",
+ "updated_at": "2026-10-30T02:00:57Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-30T01:00:56Z",
+  "last_success_at": "2026-10-30T02:00:57Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:0f60681d36fc049e2e5b27dbff4ccdcaecd169c7f4e6a3537d8aff0ad0c4323b",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209179",
+   "title": "AI 활용 신종 해킹도구 ‘NIK C2’ 발견…탈취정보 실시간 분석에 랜섬웨어 기능까지",
+   "published_at": "2026-10-30T10:41:44Z",
+   "published_raw": "2026-10-30 10:41:44",
+   "categories": [
+    "이슈"
+   ],
+   "description": "인공지능(AI)을 활용해 탈취한 정보를 실시간으로 분석하고, 감염된 컴퓨터를 원격으로 제어하거나 금전을 요구할 수 있는 신종 해킹도구가 발견됐다. 기존 정보탈취 악성코드에 AI 분석 기능과 랜섬웨어 기능까지 결합돼 기업들의 주의가 요구된다.글로벌 보안기업 시스코의 위협분석 조직 탈로스(Cisco Talos)는 10월 29일 새로운 명령제어(C2) 도구인 ‘NIK C2’를 실제 공격 환경에서 발견하고 분석 결과를 공개했다.NIK C2는 윈도 운영체제를 대상으로 제작된 원격접속 악성코드와 공격자 관리서버로 구성된다. 공격자는 감염된 컴",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:3e6f718935519e0df4e886f9eecdea68018ea1ab6d96a019fa11a02a9b2a20dc",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209178",
+   "title": "[긴급] 팔로알토 방화벽 관리화면 노린 ‘PHP2Shell’ 실제 공격 확인…기업·공공기관 긴급 점검 필요",
+   "published_at": "2026-10-30T10:33:43Z",
+   "published_raw": "2026-10-30 10:33:43",
+   "categories": [
+    "이슈"
+   ],
+   "description": "글로벌 사이버보안 기업 팔로알토 네트웍스(Palo Alto Networks)가 자사 방화벽 운영체제인 PAN-OS에서 발견된 치명적인 보안 취약점을 악용하는 실제 공격이 확인됐다며 긴급 대응을 권고했다. 특히 인터넷에 노출된 방화벽 관리화면이 공격 대상이 되고 있어 국내 기업과 공공기관의 주의가 요구된다.팔로알토 네트웍스는 10월 28~29일 보안 권고를 업데이트하고 PHP 소프트웨어의 취약점인 CVE-2026-109618과 CVE-2026-109619를 악용한 공격이 인터넷에 공개된 방화벽 관리 인터페이스를 대상으로 실제 발생하고",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:4def0d524f84740885edff2dab6ec473ef319db38b8631c29406c0259bf063bc",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209177",
+   "title": "일본 이메일 발송 서비스 아라라 해킹당해 고객 이메일 주소 301만 건 유출",
+   "published_at": "2026-10-30T10:29:31Z",
+   "published_raw": "2026-10-30 10:29:31",
+   "categories": [
+    "이슈"
+   ],
+   "description": "일본 이메일 발송 서비스 기업 아라라(Arara)가 외부 해킹 공격을 받아 약 301만 건의 고객 이메일 주소가 유출되는 사고가 발생했다. 여러 기업의 고객정보를 위탁 관리하는 이메일 발송 서비스가 공격받았다는 점에서 피해 확산 우려가 제기된다.아라라는 10월 29일 공식 공지를 통해 자사 이메일 발송 서비스 ’아라라 메시지(Arara Message)’의 서버 시스템 한 곳에서 비인가 접근이 발생해 약 301만 건의 이메일 주소가 외부로 반출됐다고 밝혔다.회사는 10월 28일 비인가 접근을 확인하고 해당 서버를 즉시 네트워크에서 분",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "우진영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:6dc609beac5682083d3130f9f1766011e2672b772f0b14a21b84be014aa7c2cb",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209176",
