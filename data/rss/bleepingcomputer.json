@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-30T14:00:56Z",
+ "updated_at": "2026-10-30T15:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-30T14:00:56Z",
+  "last_success_at": "2026-10-30T15:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:3b99573e7ab441bb3e38b605c147a1e878166dd8398d54d7e4d8f4b996f194bc",
+   "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors",
+   "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+   "published_at": "2026-10-30T14:36:54Z",
+   "published_raw": "Fri, 30 Oct 2026 10:36:54 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:504569e0ffffdf59919edbb3dddfd95f3c5608d0cc1971aca6b6dee3e09fb299",
    "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone",
@@ -1533,30 +1554,6 @@
    ],
    "description": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:ec7363cc10505a8c0041441c070bf46f94790accf29981d0699408a54d1d1251",
-   "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies",
-   "title": "DHS bans DeepSeek products across US federal civilian agencies",
-   "published_at": "2026-10-20T14:19:05Z",
-   "published_raw": "Tue, 20 Oct 2026 10:19:05 -0400",
-   "categories": [
-    "security",
-    "Artificial Intelligence",
-    "Government",
-    "Legal"
-   ],
-   "description": "The U.S. Department of Homeland Security (DHS) is ordering federal civilian agencies to stop using DeepSeek products and remove them from government systems. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
    "authors": [
     {
      "name": "Bill Toulas",
