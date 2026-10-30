@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-10-30T10:00:53Z",
+ "updated_at": "2026-10-30T11:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-30T10:00:53Z",
+  "last_success_at": "2026-10-30T11:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -14,8 +14,8 @@
    "id": "sha256:b45d2d2c435b2ee15d6fe9bc1360089ffeed059345e2a6bf0514d31719869841",
    "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
    "title": "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines",
-   "published_at": "2026-10-30T09:47:53Z",
-   "published_raw": "Fri, 30 Oct 2026 09:47:53 GMT",
+   "published_at": "2026-10-30T10:12:18Z",
+   "published_raw": "Fri, 30 Oct 2026 10:12:18 GMT",
    "categories": [],
    "description": "On October 29, 2026, version 2.1.313 of the official Claude Code VS Code extension, anthropic.claude-code, was published with a malicious loader embedded in its extension.js bundle. The version was distributed through the Open-VSX registry and Cursor's extension marketplace, which mirrors it. Cursor reports that at most 5,000 of its users received the trojanized build during an 11-hour window. We verified the payload's behavior through sandbox analysis and independent registry analysis: on load, the extension planted an attacker SSH key, installed per-OS persistence, opened a reverse SSH tunnel to attacker infrastructure, and beaconed host reconnaissance over plain HTTP.",
    "feed_id": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
