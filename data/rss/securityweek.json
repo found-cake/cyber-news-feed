@@ -1,15 +1,83 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-10-30T09:00:53Z",
+ "updated_at": "2026-10-30T10:00:53Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-30T09:00:53Z",
+  "last_success_at": "2026-10-30T10:00:53Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:f065e27bf9470a34a3b15bcb7f18e4dfce2ca147f6d33be9cff4e59c3bdc6ded",
+   "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack",
+   "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+   "published_at": "2026-10-30T09:41:36Z",
+   "published_raw": "Fri, 30 Oct 2026 09:41:36 +0000",
+   "categories": [
+    "Cybercrime",
+    "cryptocurrency heist",
+    "Polymarket"
+   ],
+   "description": "<p>Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds.</p>\n<p>The post <a href=\"https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/\">$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50430",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:495dfb4e292ddf61c71c151f5d96f752cf62c325ba7a3cfe23ef6f1f74ccb6b2",
+   "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux",
+   "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
+   "published_at": "2026-10-30T09:32:27Z",
+   "published_raw": "Fri, 30 Oct 2026 09:32:27 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "Alpine Linux",
+    "CISA KEV",
+    "exploited",
+    "GitLab"
+   ],
+   "description": "<p>Tracked as CVE-2026-97229, the bug allows unauthenticated attackers to execute arbitrary code on the server.</p>\n<p>The post <a href=\"https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/\">Max-Severity GitLab Vulnerability Exploited Against Alpine Linux</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50428",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:7117de10bd3c7eae596c2034ae238d719ddf8cc0db0e963e47f96ec6f4b742ff",
    "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines",
@@ -2889,41 +2957,6 @@
    "authors": [
     {
      "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:26da02bb059a6443cd3b6aef56da6ac0a6313f0c314463370eaa7a9793f9c464",
-   "url": "https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach",
-   "title": "970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach",
-   "published_at": "2026-10-20T09:33:49Z",
-   "published_raw": "Tue, 20 Oct 2026 09:33:49 +0000",
-   "categories": [
-    "Data Breaches",
-    "data breach",
-    "Featured",
-    "healthcare",
-    "Paradigm Healthcare"
-   ],
-   "description": "<p>Paradigm Healthcare Services detected an intrusion in October 2025, but it took nearly a year to start notifying affected individuals.</p>\n<p>The post <a href=\"https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/\">970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50134",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
      "uri": "",
      "email": ""
     }

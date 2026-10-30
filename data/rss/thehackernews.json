@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-30T09:00:53Z",
+ "updated_at": "2026-10-30T10:00:53Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-30T09:00:53Z",
+  "last_success_at": "2026-10-30T10:00:53Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -856,7 +856,7 @@
    "categories": [
     "cyber-attack"
    ],
-   "description": "Cybersecurity researchers have disclosed details of a software supply chain attack campaign in which the official Claude Code extension was compromised to install a persistent SSH backdoor on infected hosts.\n\nAccording to OpenSourceMalware, details of the extension are as follows -\n\n\n  Open VSX - Claude Code for VS Code (anthropic.claude-code)\n  Microsoft VS Code Marketplace - Claude Code for",
+   "description": "Cybersecurity researchers have disclosed that the official Anthropic Claude Code extension was compromised on the Open VSX registry to install a persistent SSH backdoor on infected hosts.\n\nThe issue has since been traced to the compromise of the Cursor Marketplace, prompting the AI coding platform Cursor to briefly take down the service to remove the malware.\n\n\"We identified a security incident",
    "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-517613965868793078",
    "authors": [
     {
