@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-30T21:00:54Z",
+ "updated_at": "2026-10-30T22:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-30T21:00:54Z",
+  "last_success_at": "2026-10-30T22:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:6617c8ee53373e8872f5f73d715a2d396aca4428a8baa567862aead04ad640f3",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers",
+   "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+   "published_at": "2026-10-30T21:09:46Z",
+   "published_raw": "Fri, 30 Oct 2026 17:09:46 -0400",
+   "categories": [
+    "security",
+    "Linux"
+   ],
+   "description": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:c20d513e9db6436dfa4a0fe14366da50c45ceafd0aa9ec43521ff096ed3f4781",
    "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet",
