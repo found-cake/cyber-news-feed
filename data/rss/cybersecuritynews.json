@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-30T06:00:54Z",
+ "updated_at": "2026-10-30T07:00:56Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-30T06:00:54Z",
+  "last_success_at": "2026-10-30T07:00:56Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:1e4f832c81190733a6ec2d86424690ac07465de843b4ae103ced437e9d628dfd",
+   "url": "https://cybersecuritynews.com/wordpress-rce-exploited",
+   "title": "Hackers Actively Exploiting WordPress Remote Code Execution Flaw Just Hours After Patch Release",
+   "published_at": "2026-10-30T06:05:35Z",
+   "published_raw": "Fri, 30 Oct 2026 06:05:35 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability",
+    "Wordpress"
+   ],
+   "description": "<p>A WordPress remote code execution vulnerability came under attack just hours after version 7.1.4 was released on October 28, 2026, fixing 22 vulnerabilities, including an unauthenticated code execution flaw in the update process. Site owners should verify that the patch is installed. According to Wordfence’s supplied threat report, its firewall recorded more than 18,500 requests [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wordpress-rce-exploited/\">Hackers Actively Exploiting WordPress Remote Code Execution Flaw Just Hours After Patch Release</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=169634",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Actively-Exploiting-WordPress-Remote-Code-Execution-Flaw-Just-Hours-After-Patch-Release.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "169634",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A WordPress remote code execution vulnerability came under attack just hours after version 7.1.4 was released on October 28, 2026, fixing 22 vulnerabilities, including an <a href=\"https://cybersecuritynews.com/hackers-exploiting-wordpress-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">unauthenticated code execution flaw </a>in the update process. Site owners should verify that the patch is installed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to Wordfence’s supplied threat report, its firewall recorded more than 18,500 requests targeting temporary installer paths during the first 21 hours of monitoring. These requests show active exploitation attempts, but the report does not establish how many websites, if any, were successfully breached.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability affects WordPress Core versions 4.7 through 7.1.3 and carries a CVSS severity score of 8.1, according to the supplied report. Researcher Umut Bayram reported the update process weakness, which WordPress confirmed in its security release announcement.</p>\n\n\n\n<p class=\"wp-block-paragraph\">During an update using a complete WordPress package, affected installations unpack files into a predictable folder beneath wp-content/upgrade. That temporary copy includes installer files. If the server<a href=\"https://cybersecuritynews.com/tutor-lms-flaw/\" target=\"_blank\" rel=\"noreferrer noopener\"> allows public access and PHP execution</a> in this location, an attacker can reach the staged installer before WordPress removes it.</p>\n\n\n\n<h2 id=\"h-wordpress-rce-flaw-exploited-hours-after-patch\" class=\"wp-block-heading\"><strong>WordPress RCE Flaw Exploited Hours After Patch</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Successful exploitation depends on precise timing. In Wordfence&#8217;s laboratory tests, the temporary folder remained available for only seconds. Attackers must locate the right path and complete the required steps before cleanup finishes. Repeated requests improve their chances of catching that brief opening.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Cybersecuritynews.com’s earlier <a target=\"_blank\" href=\"https://cybersecuritynews.com/wordpress-7-1-4-fixes-security-flaws/\" rel=\"noopener\">WordPress 7.1.4 security coverage</a> also explains why the extracted installer needs special attention from site defenders.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Wordfence said it deployed a firewall rule at 20:30 UTC on October 28, roughly three hours after the release announcement. The first matching request appeared nine minutes later.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Two major sources repeatedly checked small groups of websites for about 14.5 hours. Other sources tried different staging folders and version names. This pattern fits attempts to catch the update window, although not every request matched a valid vulnerable path.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw differs from other WordPress code execution bugs in its timing requirements. For comparison, Cybersecuritynews.com previously covered an <a href=\"https://cybersecuritynews.com/wordpress-imagick-rce-vulnerability/\" target=\"_blank\" rel=\"noopener\">Imagick-related WordPress RCE flaw</a> that required an Author account or higher privileges.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to the Wordfence-supplied report, the patch randomizes the staging folder, adds an index guard, and blocks unsafe handling of staged configuration data.</p>\n\n\n\n<p class=\"wp-block-paragraph\">WordPress also released fixes for older branches through version 4.7, though only the latest release receives active support. Administrators can check their installed version under Dashboard &gt; Updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Wordfence Premium, Care, and Response customers received the new rule immediately. Free users are scheduled to receive it on November 27, 2026. Sites using Wordfence should enable<a href=\"https://cybersecuritynews.com/best-xdr-platforms/\" target=\"_blank\" rel=\"noreferrer noopener\"> Extended Protection</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This loads the firewall before directly requested PHP files run, unlike basic protection, which loads through WordPress. That difference matters because these attacks request the staged installer directly. Firewall coverage does not replace updating Core.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should review requests to PHP files beneath wp-content/upgrade, investigate unfamiliar administrator accounts and plugins, and scan for unexpected file changes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The <a href=\"https://www.wordfence.com/blog/2026/10/wordpress-7-1-4-security-release-rce/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">release also fixes stored cross-site scripting</a>, information disclosure, and permission issues, making prompt updates important beyond this single RCE flaw.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/wordpress-rce-exploited/\">Hackers Actively Exploiting WordPress Remote Code Execution Flaw Just Hours After Patch Release</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:f339eff4b5f626d66e50b4606d60e358a23c1144e367e62dc64a676a46ab8444",
    "url": "https://cybersecuritynews.com/accenture-contractor-allegedly-gave-claude-access",
