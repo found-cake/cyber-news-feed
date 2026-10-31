@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-31T18:00:53Z",
+ "updated_at": "2026-10-31T19:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-31T18:00:53Z",
+  "last_success_at": "2026-10-31T19:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:7a318fe996e6117e2975bb1353159fe31d0af94264c6abf43268289e4ffd930d",
+   "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys",
+   "title": "Northflank security breach leads to abuse of customers' AI API keys",
+   "published_at": "2026-10-31T18:01:12Z",
+   "published_raw": "Sat, 31 Oct 2026 14:01:12 -0400",
+   "categories": [
+    "security",
+    "Artificial Intelligence"
+   ],
+   "description": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:d14f290bbf9e3d459f59bb2b337c402b8918e863805cdbb06722140c6906a429",
    "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones",
@@ -1495,27 +1517,6 @@
    ],
    "description": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:5a196014b076e4d3360fd4645f447b9422aeacc2551d1e70e581d12d227c3efe",
-   "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers",
-   "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
-   "published_at": "2026-10-21T18:34:42Z",
-   "published_raw": "Wed, 21 Oct 2026 14:34:42 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
    "authors": [
     {
      "name": "Bill Toulas",
