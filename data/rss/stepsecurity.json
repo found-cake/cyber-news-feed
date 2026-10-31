@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-10-31T09:00:52Z",
+ "updated_at": "2026-10-31T10:00:52Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-31T09:00:52Z",
+  "last_success_at": "2026-10-31T10:00:52Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -14,8 +14,8 @@
    "id": "sha256:b45d2d2c435b2ee15d6fe9bc1360089ffeed059345e2a6bf0514d31719869841",
    "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
    "title": "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines",
-   "published_at": "2026-10-31T00:32:57Z",
-   "published_raw": "Sat, 31 Oct 2026 00:32:57 GMT",
+   "published_at": "2026-10-31T09:32:50Z",
+   "published_raw": "Sat, 31 Oct 2026 09:32:50 GMT",
    "categories": [],
    "description": "On October 29, 2026, a trojanized version (2.1.313) of the official Claude Code VS Code extension was published to Cursor's extension marketplace, reaching up to 5,000 Cursor users during an 11-hour window. Sandbox and registry analysis confirmed that on load it planted an attacker SSH key, set up persistence on each OS, opened a reverse SSH tunnel to attacker infrastructure, and sent host reconnaissance data over plain HTTP.",
    "feed_id": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
