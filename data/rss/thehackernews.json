@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-10-31T10:00:52Z",
+ "updated_at": "2026-10-31T11:00:52Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-31T10:00:52Z",
+  "last_success_at": "2026-10-31T11:00:52Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -1793,33 +1793,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:bf7cf33fc0ebbbd55593355ad4728cc3aabe6c4108273c05f2275e9d6a811218",
-   "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
-   "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
-   "published_at": "2026-10-21T10:30:27Z",
-   "published_raw": "2026-10-21T16:00:27.028+05:30",
-   "categories": [
-    "cyber-attack"
-   ],
-   "description": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found.\n\nExit relays are the last hop in a Tor circuit, where traffic leaves the network for its destination. Only a password login to an SSH server made through Tor between October 1 and 5, after accepting the interception",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3556298351256006924",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-PokIxnQKc5RkxwrgRCR7Aaw8sjbkT1F4TQWCIG2V_rhQVKp8CJgtivgF5Zns45rObi0Tf-e9FDBXdX0L7OUshol00GvpiQhAi3SUAa72DV-bjeDu2oNzET9uV_cIQV2U9jSXGC2qiWWOr00M1ZYPAtcaWJNSn2_IH_BwPWVaUEqqjpmUSgfhIvRUdbY/s260-e100/tor-ssh.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:a64123d828297872a642cff5b055159f640284e80dcf89de6ec97689a63c0c06",
    "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
    "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
@@ -2245,60 +2218,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4Pkd5r0GeWGSaCoHaEsZVVoh5Y6xBkFvMTGYKvD5oONYnczQGAUqpjD6eCiA6sxiiel6Zs0kPiBEWOZJ21URkE59iJm-LDUFPYwPEf8o8d8lnyiMOR53H7IeXGKn3tTG9pusA-HKwYo0n04WQ1m8kg8dxIWEtxFGMDiBzrV-zzqAH2R2OVT2E1ViX_U/s260-e100/git-rce.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:1dac3ddb6c024270eec9b6ca5b7e6a9c215500669d8c37c71e08e13eb3ec1e68",
-   "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
-   "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
-   "published_at": "2026-10-21T10:36:53Z",
-   "published_raw": "2026-10-21T16:06:53.890+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says.\n\nPHP will release the fix at&nbsp;14:00 UTC on October 21&nbsp;for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3511617534003943780",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipzsA5sBIvBsTGT1YIrSeK_4YH5ISqTd40ZG1tV8YN1VkjjZuiY6CfQojYR-TIoYKM0EgZM4fYrmdtD25XjeTtgBkTFCQGny4DLL0fTKT5SEFpOFBcxNjLgif_FrX-1d-IX9DE58tQX6ELzGk4cWNpUpU5Eaig8pqdLL2h6qqVCC95ZmHFN6m7tD6m7BY/s260-e100/php-rce-patch.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:9d349a6e395496ea5b4b054c250d1a2b13fbec3bf44c1e153be029dde1f4c7c1",
-   "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
-   "title": "The Harness Is the Hard Part of Agentic Pentesting",
-   "published_at": "2026-10-21T10:32:40Z",
-   "published_raw": "2026-10-21T16:02:40.246+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the engineering in AI pentesting sits. The Hugging Face intrusion OpenAI disclosed in July",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5795854942374320379",
-   "authors": [
-    {
-     "name": "Unknown",
-     "uri": "",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTdLja8gnPl92G1mhffmAZ3Dy5Q8gX9wpjY22n1J2xerzpx0Eab4VMj2fzt3XAe_TjT8hlDkjdzW8DdBwWCvAPa9o5SKnFN4MSo5H0MnXylWX36NwFiwcI19f3MR0QDPT2uKXtXH4RAj5_rU3aBnmAVxsczeL2sfBj7G1r878XbJ6rAyEFgIg0XeuBNKk/s260-e100/pentera-main.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
