@@ -1,15 +1,38 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-31T15:00:53Z",
+ "updated_at": "2026-10-31T16:00:56Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-31T15:00:53Z",
+  "last_success_at": "2026-10-31T16:00:56Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d14f290bbf9e3d459f59bb2b337c402b8918e863805cdbb06722140c6906a429",
+   "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones",
+   "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+   "published_at": "2026-10-31T15:35:11Z",
+   "published_raw": "Sat, 31 Oct 2026 11:35:11 -0400",
+   "categories": [
+    "security",
+    "Google",
+    "Mobile"
+   ],
+   "description": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:c5f222606890651b2d9f6826351554c2c515680dfa82c8a227c4cfce7ff4da0c",
    "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers",
@@ -40,7 +63,7 @@
    "categories": [
     "security"
    ],
-   "description": "[...]",
+   "description": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce reproducible findings that stand up to scrutiny. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
    "authors": [
     {
