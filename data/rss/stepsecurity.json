@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-10-31T22:00:53Z",
+ "updated_at": "2026-10-31T23:01:00Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-31T22:00:53Z",
+  "last_success_at": "2026-10-31T23:01:00Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -14,20 +14,20 @@
    "id": "sha256:b45d2d2c435b2ee15d6fe9bc1360089ffeed059345e2a6bf0514d31719869841",
    "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
    "title": "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines",
-   "published_at": "2026-10-31T21:44:39Z",
-   "published_raw": "Sat, 31 Oct 2026 21:44:39 GMT",
+   "published_at": "2026-10-31T22:29:00Z",
+   "published_raw": "Sat, 31 Oct 2026 22:29:00 GMT",
    "categories": [],
-   "description": "On October 29, 2026, a trojanized version (2.1.313) of the official Claude Code VS Code extension was published to Cursor's extension marketplace, reaching up to 5,000 Cursor users during an 11-hour window. Sandbox and registry analysis confirmed that on load it planted an attacker SSH key, set up persistence on each OS, opened a reverse SSH tunnel to attacker infrastructure, and sent host reconnaissance data over plain HTTP.",
+   "description": "On October 29, 2026, trojanized builds (2.1.312 and 2.1.313) of the official Claude Code VS Code extension were published to Cursor's VS Code Extension Marketplace for macOS and Windows.",
    "feed_id": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
    "authors": [],
    "media": [
     {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ae45e10618a7a5f0744dfe5_SCR-20261030-mzbs.png",
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ae66b888f75918994145b81_6ae66ae85f4020f3084dcbbb_claude-code-cover-cursor-marketplace-final.png",
      "kind": "thumbnail",
      "medium": ""
     },
     {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ae45e10618a7a5f0744dfe5_SCR-20261030-mzbs.png",
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ae66b888f75918994145b81_6ae66ae85f4020f3084dcbbb_claude-code-cover-cursor-marketplace-final.png",
      "kind": "content",
      "medium": "image"
     }
