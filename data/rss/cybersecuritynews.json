@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-10-31T02:00:54Z",
+ "updated_at": "2026-10-31T03:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-31T02:00:54Z",
+  "last_success_at": "2026-10-31T03:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:370a3e316ca05b78adf840ac5e4cb73d8a52ecfc4d4e719e406af3546456ea43",
+   "url": "https://cybersecuritynews.com/chainalysis-confirms-cyberattack",
+   "title": "Chainalysis Confirms Cyberattack Using Agentic Techniques That Exposed Customer Data",
+   "published_at": "2026-10-31T02:49:59Z",
+   "published_raw": "Sat, 31 Oct 2026 02:49:59 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Chainalysis has confirmed that an attacker used “offensive agentic techniques” to access its systems and internal tools, exposing customer account details. The blockchain investigation company said the accessed information included user IDs, full names, email addresses, and organization role labels, while its investigation has found no evidence that customer investigation content or authentication secrets were [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chainalysis-confirms-cyberattack/\">Chainalysis Confirms Cyberattack Using Agentic Techniques That Exposed Customer Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=169804",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Chainalysis-Confirms-Cyberattack.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "169804",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Chainalysis has confirmed that an attacker used “offensive agentic techniques” to access its systems and internal tools, exposing customer account details.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The blockchain investigation company said the accessed information included user IDs, full names, email addresses, and organization role labels, while its investigation has found no evidence that customer investigation content or authentication secrets were accessed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In its public security notice, Chainalysis said it had notified all customers and brought in outside cybersecurity experts. The company also emphasized that the incident was unrelated to the recent Binance crypto theft, separating its customer data breach from the exchange’s financial losses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Chainalysis said it detected the external attacker during October. Its teams have since been investigating the activity, patching vulnerabilities, and strengthening security across the platform. The statement does not identify the attacker, disclose the entry point, or name the vulnerabilities used.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.chainalysis.com/blog/security-incident-october-30/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">The company described</a> the exposed account information as “non-sensitive.” However, names, work email addresses, and role labels could still help criminals create convincing messages aimed at specific employees. That is a potential follow-up risk, not evidence that such a campaign has already happened.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Chainalysis said it was still determining which records were accessed for each organization and would provide customers with a detailed breakdown. It has not published a total number of affected users or organizations, leaving the full scale of the breach unclear.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company reported no indication of unauthorized access to investigation graphs, notes, cases, transaction results, or query results. It also said it found no indication that clear-text passwords, multifactor authentication secrets, or user session tokens were accessed. These findings remain tied to the evidence available so far.</p>\n\n\n\n<h2 id=\"h-chainalysis-confirms-cyberattack\" class=\"wp-block-heading\"><strong>Chainalysis Confirms Cyberattack</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The phrase “offensive agentic techniques” is central to the disclosure, but Chainalysis has not explained how those techniques worked in this incident. Its statement does not name an AI model, describe an automated attack sequence, or establish how much human direction the attacker provided.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That gap matters. The disclosure supports reporting that agentic techniques were used, but not claims that an AI system independently planned and completed the entire breach. There is also no published technical timeline showing how the attacker moved between systems or reached customer records.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Chainalysis said its own response includes using large language models to support a wider security review. According to the <a href=\"https://www.chainalysis.com/blog/security-incident-october-30/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">customer notice</a>, this work extends beyond the exploited vulnerabilities and aims to strengthen defenses across the platform rather than address only the initial weaknesses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The timing comes amid other major crypto security incidents. Cybersecurity News’ <a href=\"https://cybersecuritynews.com/binance-hacked/\" target=\"_blank\" rel=\"noreferrer noopener\">Binance hack coverage</a> reports that the exchange raised its estimated incident impact to $6.3 billion. Its initial findings pointed to a possible DevOps engineer laptop compromise that enabled access to a service container and unauthorized withdrawal transactions. Chainalysis explicitly denies a connection to that theft.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Separately, Cybersecurity News’ <a href=\"https://cybersecuritynews.com/polymarket-hacked/\" target=\"_blank\" rel=\"noreferrer noopener\">Polymarket hack report</a> describes wallet theft following a compromised outside provider. Researchers found malicious JavaScript designed to reuse active trading sessions and attempt asset transfers. That case concerns a different attack path, and the available disclosures do not establish a shared attacker or campaign with Chainalysis.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Chainalysis is urging users to watch for unexpected password reset requests and authentication prompts. It strongly recommends enabling two-factor authentication where it is not already active and says account managers can help organizations complete that process.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The distinction between exposed profile data and investigation content is important for readers assessing the damage. Chainalysis has confirmed access to the former, not the latter. Its notice also does not provide a final root cause, so describing the breach as fully understood would go beyond what the company has disclosed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For customers, the next important update is the promised organization-specific record breakdown. Until that arrives, the confirmed exposure concerns account identity details, while the company’s findings about protected investigation data remain subject to its continuing investigation.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><a href=\"https://www.manageengine.com/products/desktop-central/endpoint-edge/zero-cost-exploit-economics.html?utm_source=CSN&amp;utm_medium=TPS-LinkedinNL&amp;utm_campaign=Machine-speed\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">AI is making cyberattacks faster and cheaper. Are your defenses ready to respond at machine speed?</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/chainalysis-confirms-cyberattack/\">Chainalysis Confirms Cyberattack Using Agentic Techniques That Exposed Customer Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:37e9afa5b7ecca447e0b2215d0fc6c854814590e8db3b045b0986534492f71c7",
    "url": "https://cybersecuritynews.com/north-korean-hackers-2",
