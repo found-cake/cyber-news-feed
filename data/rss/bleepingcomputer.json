@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-10-31T14:00:52Z",
+ "updated_at": "2026-10-31T15:00:53Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-10-31T14:00:52Z",
+  "last_success_at": "2026-10-31T15:00:53Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c5f222606890651b2d9f6826351554c2c515680dfa82c8a227c4cfce7ff4da0c",
+   "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers",
+   "title": "Reddit to lock content behind logins to fight scrapers",
+   "published_at": "2026-10-31T14:05:15Z",
+   "published_raw": "Sat, 31 Oct 2026 10:05:15 -0400",
+   "categories": [
+    "security"
+   ],
+   "description": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:0e2ad2fc673895012a22e427f0d851fd6d9daf6c8c94cf1ff86864f4aecbaa28",
    "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era",
@@ -1497,27 +1518,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:f6c2d70ba91928eb6d6a3008b6f35eb04c3d1b76816d55470faacc9138ea2d8a",
-   "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws",
-   "title": "PHP ships emergency patches for critical PHP2Shell flaws",
-   "published_at": "2026-10-21T14:07:05Z",
-   "published_raw": "Wed, 21 Oct 2026 10:07:05 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
      "uri": "",
      "email": ""
     }
