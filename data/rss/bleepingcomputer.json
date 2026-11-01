@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-01T19:00:51Z",
+ "updated_at": "2026-11-01T20:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-01T19:00:51Z",
+  "last_success_at": "2026-11-01T20:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:68b73df2ccdb96710195d1822dca63e50ff0f083ee7ec41a2f5723abcf691a9d",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers",
+   "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+   "published_at": "2026-11-01T19:57:53Z",
+   "published_raw": "Sun, 01 Nov 2026 14:57:53 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:99e717f0ebbb40f1c39b1a5e09c3208aa87eb1979784d7868c381e50ab076bc5",
    "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack",
@@ -1348,27 +1369,6 @@
    ],
    "description": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:cf879587b537377b167988d23f1c459ee280c5984f8c212fd2871ffaaea9fc20",
-   "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware",
-   "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
-   "published_at": "2026-10-22T19:12:51Z",
-   "published_raw": "Thu, 22 Oct 2026 15:12:51 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
    "authors": [
     {
      "name": "Bill Toulas",
