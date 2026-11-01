@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-01T15:00:52Z",
+ "updated_at": "2026-11-01T16:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-01T15:00:52Z",
+  "last_success_at": "2026-11-01T16:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:99e717f0ebbb40f1c39b1a5e09c3208aa87eb1979784d7868c381e50ab076bc5",
+   "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack",
+   "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+   "published_at": "2026-11-01T15:11:21Z",
+   "published_raw": "Sun, 01 Nov 2026 10:11:21 -0500",
+   "categories": [
+    "security",
+    "Linux"
+   ],
+   "description": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:7a318fe996e6117e2975bb1353159fe31d0af94264c6abf43268289e4ffd930d",
    "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys",
