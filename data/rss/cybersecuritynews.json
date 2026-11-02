@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-02T17:00:56Z",
+ "updated_at": "2026-11-02T18:00:52Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-02T17:00:56Z",
+  "last_success_at": "2026-11-02T18:00:52Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:7b2235e7a663aceace3be695a671a7bef0b9c9fd6c8a835daffaaddbd8531ab8",
+   "url": "https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack",
+   "title": "Mercado Bitcoin Suffers Cyberattack as Researchers Flag $40 Million in Suspicious Crypto Transfers",
+   "published_at": "2026-11-02T17:54:22Z",
+   "published_raw": "Mon, 02 Nov 2026 17:54:22 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Brazilian cryptocurrency exchange Mercado Bitcoin suspended deposits and withdrawals on November 2, 2026, after detecting a security incident in one of its systems. Blockchain security firm Hypernative flagged more than $40 million in suspicious transfers across at least 10 blockchains, raising questions about the scope of the breach. The exchange has not confirmed that amount [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack/\">Mercado Bitcoin Suffers Cyberattack as Researchers Flag $40 Million in Suspicious Crypto Transfers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=170112",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Mercado-Bitcoin-Breach.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "170112",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Brazilian cryptocurrency exchange Mercado Bitcoin suspended deposits and withdrawals on November 2, 2026, after detecting a security incident in one of its systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Blockchain security firm Hypernative flagged more than $40 million in suspicious transfers across at least 10 blockchains, raising questions about the scope of the breach. The exchange has not confirmed that amount as its actual loss.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In its <a href=\"https://x.com/MercadoBitcoin\">official statement</a>, Mercado Bitcoin said it quickly contained the incident early Monday morning. The company said customers suffered no harm and no data leaked. It described the service suspension as a protective measure while its teams investigate, trace assets, and work with authorities.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to reports, Opsek founder Pablo Sabbatella shared findings describing transfers from wallets linked to Mercado Bitcoin into fresh addresses. The affected networks included Bitcoin, Ethereum, Solana, Tron, Polygon, Arbitrum, Avalanche, BNB Chain and Stellar. Researchers said the activity covered at least 10 chains in total.</p>\n\n\n\n<h2 id=\"h-mercado-bitcoin-suffers-cyberattack\" class=\"wp-block-heading\"><strong>Mercado Bitcoin Suffers Cyberattack</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Most of the reported outflows occurred between 06:19 and 06:53 UTC, a 34-minute window. Earlier Bitcoin activity reportedly began around 02:15 UTC, when funds from deposit addresses started moving to addresses linked to the suspected attacker.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The preliminary count included approximately 2,852 ETH, 106 BTC, 10,700 SOL and 6.7 million XLM, alongside more than 200 other tokens. These figures remain researcher estimates rather than amounts verified publicly by Mercado Bitcoin.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Researchers described the movements as ordinary transfers rather than a smart contract exploit. That distinction puts attention on how the transactions received valid signatures. However, the available findings do not establish how the attacker obtained signing access or which internal system was compromised.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The incident follows other exchange wallet breaches covered by Cybersecurity News, including the <a href=\"https://cybersecuritynews.com/bitget-hot-wallet-hacked/\" target=\"_blank\" rel=\"noreferrer noopener\">Bitget hot wallet hack</a>. That case involved unauthorized transfers affecting hot and warm wallet infrastructure. It offers industry context, but does not establish a shared attack method or attacker in the Mercado Bitcoin incident.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Mercado Bitcoin later published destination addresses covering Ethereum-compatible networks, Bitcoin, Solana, Stellar and Tron. The exchange said it released them to help identify and track funds on public blockchains. Such tracking also featured in the <a href=\"https://cybersecuritynews.com/bitfinex-hack-case-study/\" target=\"_blank\" rel=\"noreferrer noopener\">Bitfinex hack investigation</a>, which documented how investigators followed stolen cryptocurrency through laundering activity.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As Bitcoin Magazine reported, Mercado Bitcoin had not announced a reopening time or disclosed the affected system. The unresolved issue remains the gap between suspicious wallet movements and confirmed losses. Its statement that customers were unharmed should not be read as confirmation that no exchange assets were taken.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack/\">Mercado Bitcoin Suffers Cyberattack as Researchers Flag $40 Million in Suspicious Crypto Transfers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:ee924f1f2f7714edc9b55a04ce21875be30cb86d09c51ecc0392fd336d6c6667",
    "url": "https://cybersecuritynews.com/guardz-brings-palo-alto-networks-prisma-browser-protection-to-small-businesses",
