@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-02T12:00:53Z",
+ "updated_at": "2026-11-02T13:00:53Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-02T12:00:53Z",
+  "last_success_at": "2026-11-02T13:00:53Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:835b820741288dcc30af45b96a03b6b6c96acdd8f5da796f90d4fb766b2c6b86",
+   "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks",
+   "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
+   "published_at": "2026-11-02T12:47:00Z",
+   "published_raw": "Mon, 02 Nov 2026 07:47:00 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "Over 1,000 Internet-exposed GitLab servers are still unpatched against a maximum-severity flaw actively exploited in remote code execution attacks. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:4981cab7fa7fafcbc1a9103db71d7e7d074a27e7e0132c27e0cf9cb752ffd0d2",
    "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks",
@@ -1349,27 +1370,6 @@
    "authors": [
     {
      "name": "Sponsored by Gen Digital",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:7bc21a5f3f47a4c9560a376e1e45505fc8854a2b3ef937dd42be4847468f3307",
-   "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws",
-   "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
-   "published_at": "2026-10-23T12:48:00Z",
-   "published_raw": "Fri, 23 Oct 2026 08:48:00 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
      "uri": "",
      "email": ""
     }
