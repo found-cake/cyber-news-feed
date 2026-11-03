@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-03T15:00:21Z",
+ "updated_at": "2026-11-03T16:00:20Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-03T15:00:21Z",
+  "last_success_at": "2026-11-03T16:00:20Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -139,6 +139,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinCXm9nOGLf3YFKOH7D87d6Wau4yc3WG_4nSANlzh0oVcI9dUXg07hiHfBkDONqewGH90O6qN1cv9B1vPKGeXr7dhwAjpJ9pHCZKv2MOU9WYesukNBqS55LiPg0ytVl8JonI32qTVei_L25bCcUsPTl2PZsxYhvx0nDsxwqy3RgKE1_iRRuSbAoaH8OcY/s260-e100/aus.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:5350cf64f29cdc8ac80e555f0f95287832f53528f8c51bf82ed1bf74b1669c24",
+   "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+   "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+   "published_at": "2026-11-03T15:59:19Z",
+   "published_raw": "2026-11-03T21:29:19.733+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device.\n\nThe vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-923798585760597313",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCvGJCkYjldhAvsjMo47UqxGOTfVY1zCcjZQzgebkO8j1__fa0cFOn3CAV1jPTUpzwDDISQKPQP5eVGOl9BzRLBX7KlWuU2HMpzuHRWV2wyaItDwYgPu0X7m3qE5V1kgFzKZ1QYcRBcZyDqkUTFberiOWXBfV_-suYC1QQWq_TwBMeyme4F0FsOZnpijhC/s260-e100/barracuda.png",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c5631e1fe7c280d41ea0570b670335d706b6c1cb16d7cd716dfe164065975214",
+   "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+   "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+   "published_at": "2026-11-03T15:41:53Z",
+   "published_raw": "2026-11-03T21:11:53.950+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services.\n\nThe tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1680821059030378662",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvqwPJPXsflyvqykVK3Pd1lLXLzEJ6vpLudxQUyYbWkS4nQ0dr9dhcSlMCPwgqfAkyadPSj28XReqkeiymKG5RAZMWpx5Hqhg_XI0HNp3jRMRpaO-wVIRbyJyS8MaaqDNOxXvk8aUENx_aiNMqrqm9SWjtJVpXR2uaP-LNp5deG4U_4YvSxpPKtdJLRNoh/s260-e100/llmjacking.png",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -740,53 +794,26 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:7d482c1bcf9fa313acb9e633e6f24c3333f3e150c7ee16dd31aae22a564e553b",
-   "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-   "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-   "published_at": "2026-10-29T10:44:46Z",
-   "published_raw": "2026-10-29T16:14:46.730+05:30",
+   "id": "sha256:c3e615c4c5d6d791ca5ef6728c497232c65b40f2c618d5af92f9e6911a95c7b9",
+   "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+   "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+   "published_at": "2026-11-03T15:16:32Z",
+   "published_raw": "2026-11-03T20:46:32.644+05:30",
    "categories": [
-    "vulnerability"
+    "cyber-attack"
    ],
-   "description": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4171327714841417151",
+   "description": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers.\n\nThe script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory. The attacker has since taken some of that data.\n\ncPGuard 5.88.25 and later versions",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7509217620413630814",
    "authors": [
     {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
      "email": "noreply@blogger.com"
     }
    ],
    "media": [
     {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKqTkl_DfXdrvaLinBOu5OU0NISVo_mPJfqRmnHL-m8efFXEijbxOVsFgrSPparCspKfoUtxDtfA7gu8myFTfvWCFJfse3BQakKGOZCA54pWh371KyXdluHyqjckIBFjZ36Ogv1EI42yDCO2dt02noigEyL2RKJ8lEivH3PCWJURryc1JtNO9djpeW88tJ/s260-e100/cisco-flaws.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:193f5a35878b3318e2295579104063925d0f3e50d5e034da5f8b39d637bb391c",
-   "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
-   "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
-   "published_at": "2026-10-29T10:26:33Z",
-   "published_raw": "2026-10-29T15:56:33.969+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time.\n\n\"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate,\" GitHub said.\n\nThe feature, which currently supports only npm packages, is available in public preview",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4514505709703667416",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ7hXo0MoiQiXCSLnOj0h2YUqDhIHl13Le4XxOU3UxV7X2mm4_YGJKOT6akyW58uRaMhslGN6NY9B_1u7V-y_fy0kYJHKoVA-yBWVt53xqBk06_syRpASgWezvnVIZs9goRlwNrp_HMVj_Pu8rzXmIsfJBV1YzhJ8IAd-1g7FFVhFWqc9HegTk4Jok5kR9/s260-e100/github.gif",
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtc3HOtWwxZPk7V8yva9o6Oe5lWAPX8KZsWHG27ohycqrb04wAKSDSSdk6ta6y284N9gT6Ab6QKIWwTPss2bBK4PtS3Fm7gSI9QG5kec2AvEgQPjQnc0YlhlUQx0uZKt2ygn576BQ3aburL-IhrMRFVm1vEpTR5ol06R0BtjySvifD05Q_dQGUPvyPLxs/s260-e100/cpgaurd.png",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -949,6 +976,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmTtJggkBbk2ERH6bhZMSPnb_E1aQ44w4EpzkwAt1tqp45sGvG7jeAg2QvmbWQsBy5hyphenhyphen7ur18XQ1Uax7D9XRg-CZpQpMAByXt37Fn1loBClsu49KlBEsnxRCfy7vSuI-5yrpHB4JLWc1vtw0aITnhbFXDb4CosJzm07My3Lw6p3fOLTfcaxJLBR-Pdi2A6/s260-e100/Binance.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:7d482c1bcf9fa313acb9e633e6f24c3333f3e150c7ee16dd31aae22a564e553b",
+   "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+   "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+   "published_at": "2026-10-29T10:44:46Z",
+   "published_raw": "2026-10-29T16:14:46.730+05:30",
+   "categories": [
+    "cyber-attack"
+   ],
+   "description": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4171327714841417151",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKqTkl_DfXdrvaLinBOu5OU0NISVo_mPJfqRmnHL-m8efFXEijbxOVsFgrSPparCspKfoUtxDtfA7gu8myFTfvWCFJfse3BQakKGOZCA54pWh371KyXdluHyqjckIBFjZ36Ogv1EI42yDCO2dt02noigEyL2RKJ8lEivH3PCWJURryc1JtNO9djpeW88tJ/s260-e100/cisco-flaws.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -1138,6 +1192,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiniSfVwM2b4RVouLhc_nIvm2CdQCg9jtQDBVQP6BjvEC2NBaLFqU0A8RyC_GA3PkI4jF87W3h0GJ4xzycp6LAd4I3eRh3JnhnM9yi7CZ9dX2Pfe3MdDaaUSyrDUy1ksA-fdq0bUVzWcFRmS-JWOy3z7xiWB70DzgXLst_YspRqbGIAyv85_D4H9sPT7Sq3/s260-e100/cyberstrikeai.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:193f5a35878b3318e2295579104063925d0f3e50d5e034da5f8b39d637bb391c",
+   "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+   "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+   "published_at": "2026-10-29T10:26:33Z",
+   "published_raw": "2026-10-29T15:56:33.969+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time.\n\n\"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate,\" GitHub said.\n\nThe feature, which currently supports only npm packages, is available in public preview",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4514505709703667416",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ7hXo0MoiQiXCSLnOj0h2YUqDhIHl13Le4XxOU3UxV7X2mm4_YGJKOT6akyW58uRaMhslGN6NY9B_1u7V-y_fy0kYJHKoVA-yBWVt53xqBk06_syRpASgWezvnVIZs9goRlwNrp_HMVj_Pu8rzXmIsfJBV1YzhJ8IAd-1g7FFVhFWqc9HegTk4Jok5kR9/s260-e100/github.gif",
      "kind": "thumbnail",
      "medium": ""
     }
