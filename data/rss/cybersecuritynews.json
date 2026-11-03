@@ -1,15 +1,84 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-03T16:00:20Z",
+ "updated_at": "2026-11-03T17:00:18Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-03T16:00:20Z",
+  "last_success_at": "2026-11-03T17:00:18Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ab2da698c46ca26357b565972eec064b334b2fc4c611b006b751d5739eacc19b",
+   "url": "https://cybersecuritynews.com/fake-job-interviews-binance-heist",
+   "title": "North Korean Hackers Abuse Internal AI Tool and Fake Job Interviews in $6.34 Billion Binance Heist",
+   "published_at": "2026-11-03T16:39:33Z",
+   "published_raw": "Tue, 03 Nov 2026 16:39:33 +0000",
+   "categories": [
+    "Cyber Attack News",
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>North Korean hackers used a fake job interview, a poisoned coding task, and a hijacked internal AI tool to reach Binance&#8217;s wallet systems. The FBI says the North Korean group it calls &#8220;TraderTraitor&#8221; stole more than $6 billion in digital assets on 29 October 2026. Binance puts the impacted value at about USD 6.34 billion. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-job-interviews-binance-heist/\">North Korean Hackers Abuse Internal AI Tool and Fake Job Interviews in $6.34 Billion Binance Heist</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=170227",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Binance-6.34-Billion-Heist.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "170227",
+     "content_encoded": "<p class=\"wp-block-paragraph\">North Korean hackers used a fake job interview, a poisoned coding task, and a hijacked internal AI tool to reach Binance&#8217;s wallet systems. The FBI says the North Korean group it calls &#8220;TraderTraitor&#8221; stole more than $6 billion in digital assets on 29 October 2026. Binance puts the impacted value at about USD 6.34 billion.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Binance says this was a multi-stage campaign and not a simple phishing case. In June 2026, a wallet DevOps engineer searched online for an AI coding tool and installed a tampered Homebrew package.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Binance replaced the device and rotated credentials, but the attacker had already learned who worked on wallet infrastructure. A similar fake Homebrew ad pushed MacSync Stealer earlier this year, according to the <a href=\"https://isc.sans.edu/diary/32942\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">SANS Internet Storm Center</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In September, a second engineer was approached on a job platform by a fake &#8220;Project Director.&#8221; Two interviews followed, one with a fake HR person and one with a fake CEO. The first included personal social media content to build trust. Near the end of the second, the engineer was told to download an &#8220;assignment&#8221; onto his work computer.</p>\n\n\n\n<h2 id=\"h-malware-and-the-ai-tool\" class=\"wp-block-heading\"><strong>Malware and the AI Tool</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The code ran during setup. It swapped a real pyenv file for a malicious copy, made a new symlink, and started a zsh shell. Binance says the zero-day malware slipped past endpoint tools and wiped its own traces.</p>\n\n\n\n<p class=\"wp-block-paragraph\">On 20 October, the attacker used that computer and an internal AI tool to take over two more engineers. One of them held a container deployment token. Between 17:15 and 19:56 UTC on 29 October, the attacker logged on to the third engineer&#8217;s computer. Using the stolen token, they deployed a container and ran a malicious script.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This fits a pattern. Our earlier report on <a href=\"https://cybersecuritynews.com/north-korean-waterplum-hackers/\" target=\"_blank\" rel=\"noreferrer noopener\">WaterPlum</a> described fake recruiters infecting more than 30,000 devices. Our <a href=\"https://cybersecuritynews.com/tradertraitor-hackers/\" target=\"_blank\" rel=\"noreferrer noopener\">TraderTraitor Terraform story</a> showed the same group using fake DevOps tests.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Using the wallet signing service, the attacker moved funds outside the normal withdrawal process. Between 20:05 and 20:09 UTC, five hot wallets sent 233.46 million XRP out. Later transfers included about 970,500 SOL, 44.2 million OP and 18,270 BTC.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The attacker then used Ethereum&#8217;s EIP-7702 feature. It lets an account hand some execution rights to a smart contract without revealing the private key. The attacker sent 50 signing transactions to match the wallet&#8217;s changing nonce, which is a transaction counter. One worked, and the wallet pointed to the attacker&#8217;s code.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Stopping withdrawals did not remove that delegation, because it lived on-chain. Binance&#8217;s wallet used Multi-Party Computation (MPC), so no single key could undo it quickly.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The team built a special procedure instead. At 00:10 UTC on 30 October, it cleared the delegation by authorizing the zero address. Researchers note this removes the attacker&#8217;s code but does not replace the signing key.</p>\n\n\n\n<p class=\"wp-block-paragraph\">About USD 2.85 billion was frozen or intercepted. <a href=\"https://x.com/binance/status/2117626126214504729\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Binance says</a> it will absorb the loss and that 98% of impacted tokens were replaced by 31 October, which users can check on its <a href=\"https://www.binance.com/en/proof-of-reserves\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Proof of Reserves</a> page.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to reports, the funds came from the SAFU reserve, an insurance fund, and company money. The FBI says the actors are converting stolen funds mainly into Ethereum and expects more laundering through DeFi and swap services.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Binance rebuilt the wallet system and the AI tool, replaced devices, and removed engineers&#8217; credentials. It also scanned all employee devices and added AI-based anomaly detection. An independent review is underway.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Treat job offers that ask you to run code on a work computer as a threat. Use separate devices for interviews. Limit what internal AI tools can reach. Keep deployment tokens off laptops.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Track changes to account permissions, not just transfers. Finally, plan to both revoke access and rotate keys during an incident, since they are separate steps.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-job-interviews-binance-heist/\">North Korean Hackers Abuse Internal AI Tool and Fake Job Interviews in $6.34 Billion Binance Heist</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:2303db3e861f1b6d0f1e5d163f52e6918a9bbc769bb35ac423c79feea7488fbc",
+   "url": "https://cybersecuritynews.com/msecure-security-incident",
+   "title": "Password Manager mSecure Urges Users to Secure Logins and Confidential Data Stored",
+   "published_at": "2026-11-03T16:21:27Z",
+   "published_raw": "Tue, 03 Nov 2026 16:21:27 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Password manager mSecure has urged current and former customers to immediately protect passwords and other confidential information stored in its application after its maker, mSeven Software, detected suspicious activity. The warning also covers two-factor authentication methods and existing passkeys, making it broader than a routine password reset notice. In its customer email, mSeven said it [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/msecure-security-incident/\">Password Manager mSecure Urges Users to Secure Logins and Confidential Data Stored</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=170223",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/mSecure-security-incident.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "170223",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Password manager mSecure has urged current and former customers to immediately protect passwords and other confidential information stored in its application after its maker, mSeven Software, detected suspicious activity.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The warning also covers two-factor authentication methods and existing passkeys, making it broader than a routine password reset notice.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In its customer email, mSeven said it had “recently learned of suspicious activity” linked to mSecure. The company launched an investigation, took steps to reduce the risk, and brought in external cybersecurity experts.</p>\n\n\n\n<p class=\"wp-block-paragraph\">However, the notice does not explain what happened, how many users are affected, or whether anyone accessed customer vaults.</p>\n\n\n\n<h2 id=\"h-msecure-security-notice\" class=\"wp-block-heading\"><strong>mSecure Security Notice</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The <a href=\"https://support.msecure.com/en/support/discussions/topics/36000038998\">notice reproduced on mSecure’s support forum</a> recommends changing passwords, resetting or re-enrolling two-factor authentication methods, and removing existing passkeys. Its wording calls for immediate action but does not identify particular accounts, app versions, or storage options at risk.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That distinction matters. Suspicious activity does not, by itself, confirm that attackers stole or decrypted stored credentials. The information released so far leaves the cause, scope, and possible exposure unclear. Customers should therefore avoid treating claims of a confirmed vault theft as established fact.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjxNsoaeKmk7B6sPoMm5zhy5wf88fdL_ff9hh7ZmNw0RYBYgN94xIf893ZBOYeEFhxQ1USgNqEZYK6wAany16tfViGgGXHesihDMLHvO5Q5xrZDKUrMmx81F6wd5YDaydHTwKFn1p6isrQN7gm2ZnY1npTLJExcil7qNHHN_3ywi2ZJ5QdI7tXoh-FY00d/s1600/msecurity%20Notice.webp\" alt=\"\"/></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Forum users have asked whether their master passwords, stored logins, or encryption keys are affected. Others questioned whether saving replacement credentials in mSecure would be safe. These comments show the practical gaps in the warning, rather than evidence that any specific attack occurred.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The incident follows a separate review reported in December 2025 by Germany’s Federal Office for Information Security, known as BSI. </p>\n\n\n\n<p class=\"wp-block-paragraph\">That earlier finding does not prove how the current incident happened. It does, however, make a clear explanation of data protection especially important. Related reporting on <a href=\"https://cybersecuritynews.com/vaultjacking-attack-steals-entire-google-password-manager/\" target=\"_blank\" rel=\"noreferrer noopener\">VaultJacking and synced password vaults</a> illustrates why access to one credential store can have wider consequences, although no connection to mSecure has been established.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The priority is protection. mSecure’s existing <a href=\"https://support.msecure.com/en/support/solutions/articles/36000084248-sign-in-was-not-authorized\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">unauthorized sign-in guidance</a> explains that changing the manager’s password alone does not secure credentials already copied elsewhere. Users must change affected account passwords through the services’ official websites or apps, prioritizing sensitive accounts such as financial services.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The notice also calls for reviewing stored authentication methods. Separate research on <a href=\"https://cybersecuritynews.com/pass-the-passkey-attacks/\" target=\"_blank\" rel=\"noreferrer noopener\">passkey implementation risks</a> provides useful background, but does not establish passkey theft here. Customers still need mSeven to clarify which data was exposed, what safeguards failed, and whether remediation is complete. Those answers remain central to assessing the incident’s actual impact.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/msecure-security-incident/\">Password Manager mSecure Urges Users to Secure Logins and Confidential Data Stored</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:63118abdbefbb97482cc5ac77a0c7d983ee1ad6f5f6c5b38a597c37fb68cd339",
    "url": "https://cybersecuritynews.com/hackers-use-ai-agents-2",
