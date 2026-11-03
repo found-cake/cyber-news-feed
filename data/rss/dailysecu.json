@@ -1,15 +1,141 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-11-03T02:00:54Z",
+ "updated_at": "2026-11-03T03:00:52Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-03T02:00:54Z",
+  "last_success_at": "2026-11-03T03:00:52Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:f1cfe55f2fde4677e1e2642edea2480c490f7cca2ed9b1d094f300d36ab705e2",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209283",
+   "title": "기업망서 해킹도구 사용 217만건 탐지…코발트 스트라이크 등 상위",
+   "published_at": "2026-11-03T11:52:25Z",
+   "published_raw": "2026-11-03 11:52:25",
+   "categories": [
+    "이슈"
+   ],
+   "description": "기업의 보안 상태를 점검하는 도구가 공격자의 내부망 침투에도 악용되고 있다. 공격자가 정상적인 관리 작업처럼 활동하면 악성코드 탐지만으로는 침해를 알아채기 어려워, 네트워크 안에서 발생하는 의심스러운 움직임까지 확인해야 한다.카스퍼스키(Kaspersky)는 11월 2일 공개한 자료에서 올해 4월부터 9월까지 자사 카스퍼스키 안티 타깃티드 어택(KATA) 솔루션이 해킹도구 사용 시도 217만1,513건을 탐지했다고 밝혔다. 통계는 카스퍼스키 시큐리티 네트워크에 통계정보를 제공하는 데 동의한 사용자의 탐지 경보를 기반으로 집계했다.보안",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d71c1c45cb5c080a22f36d059c368894a4b18700b5034c9e561eaa69d415c146",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209282",
+   "title": "링크시스 E8450 공유기에 최고위험 취약점 주의…인증 없이 원격 공격 가능",
+   "published_at": "2026-11-03T11:43:01Z",
+   "published_raw": "2026-11-03 11:43:01",
+   "categories": [
+    "이슈"
+   ],
+   "description": "링크시스(Linksys) E8450 공유기에서 인증 없이 원격으로 메모리 손상을 유발할 수 있는 취약점이 공개됐다.취약점은 CVE-2026-120283으로, 확인된 영향 펌웨어는 1.2.00.360516이다. 취약점 등록기관 벌른디비(VulDB)의 평가 점수는 CVSS 3.1 기준 10.0점, CVSS 4.0 기준 9.3점이다.문제는 웹 관리 기능인 ‘portal.cgi’에서 시간대 설정값인 ‘hidden_timezone’을 처리하는 과정에서 발생한다. 입력값의 길이를 안전하게 검증하지 않고 복사하면서 스택 기반 버퍼 오버플로가 발",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6fad75c1cb0b34cae19f6c8045953107c80639b9a30bb5ddf6a60e65092d5c97",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209281",
+   "title": "클로인트, 바이낸스 해킹 자금 62억 달러 추적…비트겟 탈취 자금과 연결 확인",
+   "published_at": "2026-11-03T11:34:52Z",
+   "published_raw": "2026-11-03 11:34:52",
+   "categories": [
+    "이슈"
+   ],
+   "description": "디지털 인텔리전스 기업 클로인트(Kloint)가 바이낸스 핫월렛 탈취 사건의 피해 규모를 약 62억4,469만 달러로 집계했다. 탈취 자금 일부가 앞서 발생한 비트겟(Bitget) 해킹 자금과 동일한 이더리움 지갑에 모인 뒤 미국 연방수사국(FBI)이 공개한 주소로 이동한 경로도 확인했다고 밝혔다.클로인트는 이 같은 내용을 담은 ‘바이낸스 해킹 사건 분석 보고서’를 11월 2일 발간했다. 보고서는 11개 블록체인의 최초 수취 지갑에 들어온 자산을 실측하고, 거래 기록을 바탕으로 자금의 분산·교환·이동 경로를 재구성했다. 두 거래소에",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:002184af97d1b55e9a5dabd816c53b4a9bce4b136c432d7fe8fe8b526c87486c",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209280",
+   "title": "AI가 내부망 해킹 지휘…도구 설치 3~4일 만에 도메인 관리자 계정 탈취",
+   "published_at": "2026-11-03T11:14:54Z",
+   "published_raw": "2026-11-03 11:14:54",
+   "categories": [
+    "이슈"
+   ],
+   "description": "인공지능이 침해된 조직의 내부망에서 공격 도구와 명령을 선택하고, 실행 결과를 분석해 다음 단계를 결정하는 실제 해킹 사례가 공개됐다. 공격자가 AI 기반 도구를 설치한 뒤 도메인 관리자 계정을 탈취하기까지 걸린 시간은 3~4일이었다.카스퍼스키는 11월 2일 공개한 연구에서 아프리카와 중남미 지역 교육기관을 대상으로 오픈소스 침투시험 프레임워크 ‘사이버스트라이크AI(CyberStrikeAI)’를 악용한 공격을 확인했다고 밝혔다. 공격은 2026년 9~10월 관측됐으며, 내부망 정찰과 인증정보 탈취, 시스템 간 이동, 데이터 수집 과",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:61ce0b4a6dbcc0471e80d2ad4be6c855d2a93d720cf572b38992fa356f5dbba2",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209279",
+   "title": "유럽 슈퍼마켓 냉동설비 해킹…온도 50도로 조작해 식품 폐기",
+   "published_at": "2026-11-03T11:08:12Z",
+   "published_raw": "2026-11-03 11:08:12",
+   "categories": [
+    "이슈"
+   ],
+   "description": "유럽 여러 국가의 슈퍼마켓에서 냉장·냉동설비를 겨냥한 사이버공격이 발생했다. 공격자가 원격으로 온도와 제상 기능을 조작하면서 일부 매장은 보관하던 식품을 폐기했다.11월 2일(현지시간) 더레코드와 AFP 등에 따르면 벨기에, 스웨덴, 아일랜드, 에스토니아, 네덜란드, 룩셈부르크 등에서 냉장·냉동설비 이상이 잇따라 확인됐다. 벨기에에서는 50곳 이상의 매장이 영향을 받은 것으로 보도됐다. 다만 국가별 사고가 하나의 조직이 벌인 동시 공격인지는 확인되지 않았다. 냉동설비 온도 조작…뜨거운 바람 나오기도스웨덴에서는 슈퍼마켓 체인 이카(I",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "우진영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:5e6b0a7e95742d896578a32ada68230755152b1f08d3c993a9340d0b7e79c091",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209278",
+   "title": "브라질 최대 거래소 메르카도 비트코인 해킹…4,000만 달러 이상 비정상 이동 정황",
+   "published_at": "2026-11-03T11:01:55Z",
+   "published_raw": "2026-11-03 11:01:55",
+   "categories": [
+    "이슈"
+   ],
+   "description": "브라질 최대 가상자산 거래소 메르카도 비트코인(Mercado Bitcoin)이 11월 2일(현지시간) 내부 시스템에서 보안사고를 확인하고 가상자산 입출금을 일시 중단했다. 회사는 사고를 신속히 차단했으며 고객 자산 피해와 개인정보 유출은 없다고 밝혔다.블록체인 보안기업 하이퍼네이티브는 초기 분석에서 거래소와 연결된 지갑의 비정상 자산 이동 규모가 4,000만 달러(약 537억 원)를 넘는 것으로 추정했다. 관련 거래는 비트코인·이더리움·솔라나·트론 등 최소 10개 블록체인에서 포착됐다. 다만 거래소는 해당 금액을 공식 피해액으로 확",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "우진영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:b7d6763021d97ea6bb053943ca15d51c120c7c190b314aefb75f72a83860de04",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209277",
