@@ -1,15 +1,83 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-03T03:00:52Z",
+ "updated_at": "2026-11-03T04:00:56Z",
  "retention_days": 10,
  "status": {
-  "ok": false,
-  "last_success_at": "2026-11-03T01:00:53Z",
-  "last_error_at": "2026-11-03T03:00:52Z",
-  "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+  "ok": true,
+  "last_success_at": "2026-11-03T04:00:56Z",
+  "last_error_at": null,
+  "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:f5322824b052e6caae97d965127c094b5383561755c337a6248dfc063f20b2cb",
+   "url": "https://cybersecuritynews.com/workos-data-breach",
+   "title": "Hackers Use ARTEX AI to Breach WorkOS and Access Customer Slack Conversations",
+   "published_at": "2026-11-03T03:43:36Z",
+   "published_raw": "Tue, 03 Nov 2026 03:43:36 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>WorkOS has confirmed unauthorized access to an internal sales application, exposing customer contact information and records of business conversations. The company detected the incident on October 30, 2026, and published a security bulletin on November 2. Its investigation identified an AI-assisted offensive security framework used to automate reconnaissance and exploitation attempts. Founder and CEO Michael [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/workos-data-breach/\">Hackers Use ARTEX AI to Breach WorkOS and Access Customer Slack Conversations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=170122",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/WorkOS-Data-Breach.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "170122",
+     "content_encoded": "<p class=\"wp-block-paragraph\">WorkOS has confirmed unauthorized access to an internal sales application, exposing customer contact information and records of business conversations. The company detected the incident on October 30, 2026, and published a security bulletin on November 2. Its investigation identified an AI-assisted offensive security framework used to automate reconnaissance and exploitation attempts.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Founder and CEO Michael Grinich said the attack involved ARTEX, an AI-powered framework that automates offensive security tasks. His <a href=\"https://x.com/grinich/status/2117400083151138954\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">statement on X</a> adds detail to the company’s security bulletin, which describes an AI-assisted framework that automates reconnaissance and exploitation attempts without naming the tool.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The affected application provided access to names, email addresses, phone numbers, job titles, and company affiliations stored in customer relationship management systems. It also contained customer account histories and sales relationship information.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Customer communications included summaries and excerpts from sales calls, support discussions, and customer Slack conversations. Operational metadata covered customers’ use of WorkOS products, including product usage and connection or directory health.</p>\n\n\n\n<h2 id=\"h-workos-confirms-data-breach\" class=\"wp-block-heading\"><strong>WorkOS Confirms Data Breach</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">These categories describe information available through the application, not a confirmed record-by-record account of everything accessed.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://workos.com/security/bulletins/october-30th-2026-data-security-incident\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">WorkOS is reviewing affected records</a> to determine the impact on individual organizations. The statement supplied with the disclosure says there is no evidence that WorkOS application data or production services were accessed or impacted. The investigation currently points to CRM and customer support information.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The incident comes amid growing abuse of automated security-testing tools. <a href=\"https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks\" target=\"_blank\" rel=\"noreferrer noopener\">Google Threat Intelligence Group and Mandiant</a> describe ARTEX as a multi-agent platform that turns broad attacker goals into commands. Its agents can test permissions, map networks, adjust failed commands, and continue through several attack stages with limited human input.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Earlier <a href=\"https://cybersecuritynews.com/hackers-use-artex-ai-agents/\">Cyber Security News coverage of ARTEX agents</a> explains how attackers have used the framework for Active Directory discovery, credential attacks, and lateral movement. These are observations from separate investigations, not confirmed steps in the WorkOS breach.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Wiz research</a> also documented agents downloading application files, discovering internal API routes, and testing authentication controls. Related <a href=\"https://cybersecuritynews.com/china-linked-hackers-use-artex-ai/\" target=\"_blank\" rel=\"noreferrer noopener\">coverage of ARTEX targeting Microsoft 365</a> shows how stolen application credentials can support attacks across customer environments. Neither report establishes attribution for WorkOS.</p>\n\n\n\n<p class=\"wp-block-paragraph\">WorkOS disabled external access to the affected application, began reviewing access controls across internal tools, and retained an independent digital forensics and incident response firm. It will contact affected customers directly as findings are verified.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Exposed conversation details could make phishing messages more convincing. WorkOS advises customers to verify unexpected requests before sharing sensitive information or taking action, even when messages reference real colleagues or support discussions.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/workos-data-breach/\">Hackers Use ARTEX AI to Breach WorkOS and Access Customer Slack Conversations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:55c9fa633b372c4562584360d3330cd21d9f9ecfb19588f25c437ae220a23d0e",
+   "url": "https://cybersecuritynews.com/google-dismantles-xcpe-botnet",
+   "title": "Google Dismantles 1.3 Million Device XCPE Botnet, Bans Android TV Maker Over Preinstalled Malware",
+   "published_at": "2026-11-03T02:24:38Z",
+   "published_raw": "Tue, 03 Nov 2026 02:24:38 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Google and industry partners have dismantled the XCPE botnet, which enrolled more than 1.3 million set-top boxes through preinstalled malware. In a November 2 report, Google linked the operation with high confidence to Videostrong Technology, accusing the Android device maker of deliberately building and running the backdoor for profit. According to Google’s technical investigation, Videostrong [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-dismantles-xcpe-botnet/\">Google Dismantles 1.3 Million Device XCPE Botnet, Bans Android TV Maker Over Preinstalled Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=170117",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Google-Dismantles-1.3-Million-Device-XCPE-Botnet.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "170117",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Google and industry partners have dismantled the XCPE botnet, which enrolled more than 1.3 million set-top boxes through preinstalled malware. In a November 2 report, Google linked the operation with high confidence to Videostrong Technology, accusing the Android device maker of deliberately building and running the backdoor for profit.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to Google’s technical investigation, Videostrong sold access to criminal affiliates that installed advertising fraud tools, proxy software, and further malware.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Google banned the company, including future subsidiaries and affiliates, from producing certified Android devices or supplying software to certified vendors.</p>\n\n\n\n<h2 id=\"h-1-3-million-device-xcpe-botnet-dismantled\" class=\"wp-block-heading\"><strong>1.3 Million Device XCPE Botnet Dismantled </strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The backdoor, named <code>x.cpe</code> or <code>com.oemservice</code>, was built into device firmware and ran with Android system privileges. Removing its installed package did not clear the infection because it could reinstall from the <code>/oem/</code> partition after a reboot. Google said hidden code loaded after first boot helped bypass security checks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Its three-stage design separated remote control from malware execution. The backdoor passed instructions to <code>com.abc.nexus</code>, a loader that configured affiliate modules.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiD8XDXPxWaArR8cToVo5DMLH286kMg-Ych2Ihj4Vblde0QL11q6wnT_TfacPmnULAfFnFTFijzm9J7n1PfNS6-isSi8-wBHby-XXSVtTHFSU5OcheP5bt02_spJYkHKBY6zWAcaq4eAuYMiBYhE60upGwsvkikPcpI6Yy9qzu6yvjcDCzTWH8BiKvL3D4p/s1600/Google%20Dismantles%20XCPE%20Botnet1.webp\" alt=\"\"/><figcaption class=\"wp-element-caption\">XCPE Botnet Architecture (Source: Google)</figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Those modules turned devices into proxy exit points, generated fake advertising views, or installed more backdoors. This separation also helped keep malicious activity harder to detect.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Control traffic used MQTT, a lightweight messaging protocol. Google identified <code>mqtt.szbboys[.]com</code> on ports 3885–3887. Operators could silently install apps, execute shell commands, capture screens, and inspect networks.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Researchers also observed</a> stolen account details and system logs, injected keystrokes, and commands that opened remote shell access. The malware could disable Google Play Protect verification.</p>\n\n\n\n<h2 id=\"h-disruption-reaches-beyond-xcpe\" class=\"wp-block-heading\"><strong>Disruption Reaches Beyond XCPE</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Google worked with Japan’s National Police Agency, Lumen, HUMAN Security, Plume, Synthient, and TrendAI. Legal action targeted XCPE servers and control domains serving more than a dozen affiliate malware families.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Google estimates these wider takedowns will sever access to at least 10 million additional compromised devices, separate from XCPE’s 1.3 million boxes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The findings follow earlier <a href=\"https://cybersecuritynews.com/google-sued-badbox-2-0-malware-botnet-operators/\" target=\"_blank\" rel=\"noreferrer noopener\">Google legal action against BadBox 2.0</a>, which affected over 10 million uncertified Android devices. Earlier <a href=\"https://cybersecuritynews.com/badbox-botnet-infected-over-190000-android-devices/\" target=\"_blank\" rel=\"noreferrer noopener\">BADBOX infections involving 190,000 Android devices</a> also exposed the risks of compromised connected hardware. These earlier counts should not be combined with XCPE’s total.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Most XCPE infections involved Android TV boxes, but researchers also found affected telehealth equipment, karaoke machines, and digital signs. Google has changed its device review process and is improving firmware integrity checks following the discovery.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The takedown disrupts control infrastructure, rather than proving every device is clean. Google urges buyers to choose reputable manufacturers, consult its <a href=\"https://www.android.com/certified/partners/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">certified partner list</a>, use trusted app stores, and keep Play Protect enabled. It also warns against apps offering payment for sharing unused bandwidth.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-dismantles-xcpe-botnet/\">Google Dismantles 1.3 Million Device XCPE Botnet, Bans Android TV Maker Over Preinstalled Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:7b2235e7a663aceace3be695a671a7bef0b9c9fd6c8a835daffaaddbd8531ab8",
    "url": "https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack",
