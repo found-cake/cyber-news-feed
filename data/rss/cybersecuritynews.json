@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-03T04:00:56Z",
+ "updated_at": "2026-11-03T05:00:53Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-03T04:00:56Z",
+  "last_success_at": "2026-11-03T05:00:53Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ea95be00a100229b9bf8879c315d78986b20652391dd73d364b72155c75d96c5",
+   "url": "https://cybersecuritynews.com/anthropic-enables-edr-monitoring",
+   "title": "Anthropic Enables EDR Monitoring in Claude Cowork to Detect Hidden AI Agent Activity",
+   "published_at": "2026-11-03T04:18:38Z",
+   "published_raw": "Tue, 03 Nov 2026 04:18:38 +0000",
+   "categories": [
+    "Cyber AI",
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Anthropic has introduced a beta integration that lets businesses run endpoint detection and response sensors inside Claude Cowork’s local virtual machine. The feature addresses a monitoring gap: security software installed on a computer cannot see the shell commands and code Cowork runs inside its isolated environment. Teams can now send that activity to their existing [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-enables-edr-monitoring/\">Anthropic Enables EDR Monitoring in Claude Cowork to Detect Hidden AI Agent Activity</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=170129",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Anthropic-Enables-EDR-Monitoring.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "170129",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Anthropic has introduced a beta integration that lets businesses run endpoint detection and response sensors inside Claude Cowork’s local virtual machine.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The feature addresses a monitoring gap: security software installed on a computer cannot see the shell commands and code Cowork runs inside its isolated environment. Teams can now send that activity to their existing security console.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The EDR integration supports Team and Enterprise plans on macOS and Windows. It also works with Claude Desktop connected to Amazon Bedrock, Google Cloud Vertex AI, or Microsoft Foundry. Anthropic’s setup guidance makes one limit clear: coverage applies only to the local VM, not Cowork sessions hosted on Anthropic’s servers.</p>\n\n\n\n<h2 id=\"h-anthropic-enables-edr-monitoring\" class=\"wp-block-heading\"><strong>Anthropic Enables EDR Monitoring</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Cowork uses a virtual machine to separate code execution from the user’s computer. That boundary also prevents the host computer’s EDR sensor from inspecting activity inside the guest environment. Installing a sensor within the VM gives security teams visibility into work that otherwise sits beyond their existing endpoint monitoring.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The change matters as AI tools gain more freedom to act. Cybersecurity News previously covered <a href=\"https://cybersecuritynews.com/claude-ai-controls-macos-and-windows/\" target=\"_blank\" rel=\"noreferrer noopener\">Claude’s background computer use</a>, which lets the assistant interact with desktop applications. That capability is distinct from sandboxed code execution, but both raise questions about how organizations monitor automated actions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Earlier reporting on a <a href=\"https://cybersecuritynews.com/claude-coworks-sandbox-vulnerability/\">Claude Cowork sandbox vulnerability</a> also showed why activity inside these environments deserves attention. That research described a Windows attack chain leading to root access within the Linux sandbox. The new monitoring feature should not be confused with a fix for that reported flaw.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Each time the Cowork VM starts, Claude Desktop copies the configured sensor package into it. Desktop then checks the package’s signature against the approved key for the selected vendor. If validation succeeds, Claude runs the vendor’s installation script, at most once per VM startup. Without the setting, nothing is installed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Approved vendors are CrowdStrike, Evoke Security, Neo, Palo Alto Networks, Pluto Security, SentinelOne, and Tanium. The installed sensor connects to its vendor’s cloud and reports activity. Its telemetry can leave the VM outside Cowork’s network allowlist, an important detail for teams reviewing outbound data flows.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators need Claude Desktop version 4.4212.0 or later. Windows deployments require the MSIX build, Windows 10 or 11, hardware virtualization, and Virtual Machine Platform enabled.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Configuration uses mobile device management on macOS or registry policies on Windows, including Group Policy or Intune. Vendors provide their own packages and instructions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The sensor can access prompts, files, Claude responses, and other content inside the VM. That data goes to the EDR vendor, not Anthropic. Organizations therefore need to review vendor data handling alongside detection coverage.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://support.claude.com/en/articles/17828685-run-your-endpoint-detection-and-response-edr-sensor-in-claude-cowork-on-claude-desktop\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Anthropic also requires customers to test</a> the software before deployment and after Claude or sensor updates. Removing management settings does not uninstall an existing sensor. It stops package execution at later VM starts. Package signatures expire within two years and do not cover updates downloaded afterward.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Anthropic charges nothing extra during beta, although vendors may charge. For defenders, the benefit is clearer local visibility, not complete coverage of every Cowork session.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-enables-edr-monitoring/\">Anthropic Enables EDR Monitoring in Claude Cowork to Detect Hidden AI Agent Activity</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:f5322824b052e6caae97d965127c094b5383561755c337a6248dfc063f20b2cb",
    "url": "https://cybersecuritynews.com/workos-data-breach",
