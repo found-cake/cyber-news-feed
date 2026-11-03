@@ -1,15 +1,38 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-03T14:00:18Z",
+ "updated_at": "2026-11-03T15:00:21Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-03T14:00:18Z",
+  "last_success_at": "2026-11-03T15:00:21Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:4aec85e873ea6f797df71c02156bc90436845252a74bfd768edaf80fdd807425",
+   "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack",
+   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+   "published_at": "2026-11-03T14:00:00Z",
+   "published_raw": "Tue, 03 Nov 2026 09:00:00 -0500",
+   "categories": [
+    "security",
+    "Artificial Intelligence",
+    "Education"
+   ],
+   "description": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:87893c219097abee42a4be81d6ff289535df5695b5cd421ffbb3481f5e27d4b8",
    "url": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown",
@@ -1431,27 +1454,6 @@
    ],
    "description": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:9fcce94ed3b1e9c4958aa9fdf55861c308d71d460948b415bee4d65d0c6e4d18",
-   "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot",
-   "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-   "published_at": "2026-10-24T14:17:32Z",
-   "published_raw": "Sat, 24 Oct 2026 10:17:32 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
    "authors": [
     {
      "name": "Bill Toulas",
