@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-04T17:00:20Z",
+ "updated_at": "2026-11-04T18:00:25Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-04T17:00:20Z",
+  "last_success_at": "2026-11-04T18:00:25Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:9ef8cc5e15a6452e7a958f2c3cf5c577c9d154348d9efc0217254c23582a9f67",
+   "url": "https://cybersecuritynews.com/critical-ruby-on-rails-flaw",
+   "title": "Critical Ruby on Rails Flaw Could Let Hackers Steal Server Secrets Through Malicious Image Uploads",
+   "published_at": "2026-11-04T17:01:17Z",
+   "published_raw": "Wed, 04 Nov 2026 17:01:17 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>A critical flaw in Ruby on Rails Active Storage lets an unauthenticated user upload a crafted image and make the server write files. If uploads use the Disk service, the same upload can make the server read files too. The Rails team rated the bug Critical, with a CVSS score of 9.8, and published the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-ruby-on-rails-flaw/\">Critical Ruby on Rails Flaw Could Let Hackers Steal Server Secrets Through Malicious Image Uploads</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=170385",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Critical-Ruby-on-Rails-Flaw.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "170385",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A critical flaw in Ruby on Rails Active Storage lets an unauthenticated user upload a crafted image and make the server write files. If uploads use the Disk service, the same upload can make the server read files too. The Rails team rated the bug Critical, with a CVSS score of 9.8, and published the advisory on November 4, 2026. The flaw has no CVE ID yet.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw comes from how ImageMagick works. It picks a coder (a file format handler) based on what is inside a file, not on its name. Some coders act on other files named inside the image.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Active Storage did not limit any of these coders, and its image analyzer runs as soon as a file is attached. So an attacker only needs to attach a crafted upload. No variant, preview, or analyze call is needed.</p>\n\n\n\n<h2 id=\"h-critical-ruby-on-rails-flaw\" class=\"wp-block-heading\"><strong>Critical Ruby on Rails Flaw</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The files at risk usually include <code>secret_key_base</code> and credentials for outside systems. With those, an attacker may move on to remote code execution or reach other connected services. The Rails team also says one <a href=\"https://github.com/rails/rails/security/advisories/GHSA-f3w6-w445-fwh9\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">attack chain was reported</a>, but they do not assume it is the only one. The researcher ryotak reported the bug through HackerOne.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An app is affected only if all three of these are true. It uses ImageMagick through <code>config.active_storage.variant_processor = :mini_magick</code>, which is the default for apps on <code>load_defaults 6.1</code> or earlier.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It runs ImageMagick under a policy that does not already block the coders involved, and the policies packaged by Debian and Ubuntu do not. And it accepts uploads from untrusted users. Affected versions are activestorage before 8.0.5.2, and 8.1 releases before 8.1.4.1.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The fix ships an ImageMagick security policy. Rails adds its folder to <code>MAGICK_CONFIGURE_PATH</code> through <code>MiniMagick.cli_env</code>, so every ImageMagick process that MiniMagick starts follows it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The policy blocks the MSL scripting coder, coders that read or delete other files, coders that fetch remote or local references, every Ghostscript-backed coder, and <code>@filename</code> indirection. The policy adds to the host&#8217;s rules instead of replacing them.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This is not the first image-related Rails scare this year. Cyber Security News <a href=\"https://cybersecuritynews.com/critical-rails-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">recently covered CVE-2026-66066</a>, a Rails Active Storage flaw that affected apps using libvips and could expose secrets such as <code>secret_key_base</code> and cloud keys. Researchers later saw that bug <a href=\"https://cybersecuritynews.com/langflow-rce-and-rails-vulnerability-exploited/\" target=\"_blank\" rel=\"noreferrer noopener\">used in real attacks</a>. Teams that patched in the summer should not assume they are safe now, because this is a different processor and a different fix.</p>\n\n\n\n<p class=\"wp-block-paragraph\">ImageMagick has also caused trouble outside Rails. A recent WordPress bug let Author-level users reach code execution because ImageMagick passed a disguised PostScript file to Ghostscript.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A separate <a href=\"https://cybersecuritynews.com/discourse-image-pipeline-exploit/\" target=\"_blank\" rel=\"noreferrer noopener\">Discourse image pipeline exploit</a> chained ImageMagick features to read server files. The lesson is the same each time: image tools do more than open pictures, so untrusted uploads need strict limits.</p>\n\n\n\n<p class=\"wp-block-paragraph\">First, upgrade activestorage to 8.0.5.2 or 8.1.4.1. Apps using <code>:mini_magick</code> also need mini_magick 5.1 or newer, and older versions fail with an error at boot. Apps that render PostScript or PDF through ImageMagick must allow the <code>gs</code> delegate again in the host&#8217;s <code>policy.xml</code>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Apps that replace <code>MiniMagick.cli_env</code> after boot, clear the environment with <code>MiniMagick.cli_prefix</code>, or use their own <code>MiniMagick::Shell</code> do not get the shipped policy. They must copy its rules into ImageMagick&#8217;s system policy. GraphicsMagick does not read ImageMagick policies at all.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Teams that cannot upgrade right away can copy the shipped rules into the system policy, for example <code>/etc/ImageMagick-7/policy.xml</code>. At a minimum, they should block the <code>MSL</code> coder, the Ghostscript coders, and the <code>gs</code> delegate.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Secrets need attention too. If attachments live on the Disk service, change <code>secret_key_base</code> and every secret the app process can read. That includes the master key, everything in <code>config/credentials.yml.enc</code>, storage and database credentials, and third-party tokens. The Rails team warns against keeping an exposed secret as a fallback.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This fix is one of 21 security <a href=\"https://rubyonrails.org/2026/11/4/Rails-8.0.5.2-and-8.1.4.1-have-been-released\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">issues in the 8.0.5.2 and 8.1.4.1 releases</a>. Others cover a Strong Parameters bypass, IP spoofing through the <code>Forwarded</code> header in 8.1, several cross-site scripting bugs in Action View, denial-of-service bugs, and session cookie problems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A second High-rated bug covers file read and code execution through Active Storage video previews and analysis. Security support for the 8.0 series ends on November 7, 2026, so teams on older lines should plan a move to 8.0 or later.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Even with the patch, reviewing upload paths is worth the time. Teams should check logs for odd uploads and make sure no app runs with extra file permissions.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-ruby-on-rails-flaw/\">Critical Ruby on Rails Flaw Could Let Hackers Steal Server Secrets Through Malicious Image Uploads</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:ce0e855e2ee653ddc4625cbfd047f457f32e0f55bd8256a98dd73ca78b830cef",
    "url": "https://cybersecuritynews.com/debian-apt-flaw-lets-hackers-hijack-updates",
