@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-04T16:00:21Z",
+ "updated_at": "2026-11-04T17:00:20Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-04T16:00:21Z",
+  "last_success_at": "2026-11-04T17:00:20Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -139,6 +139,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinCXm9nOGLf3YFKOH7D87d6Wau4yc3WG_4nSANlzh0oVcI9dUXg07hiHfBkDONqewGH90O6qN1cv9B1vPKGeXr7dhwAjpJ9pHCZKv2MOU9WYesukNBqS55LiPg0ytVl8JonI32qTVei_L25bCcUsPTl2PZsxYhvx0nDsxwqy3RgKE1_iRRuSbAoaH8OcY/s260-e100/aus.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:f72f567cab23b3cbd0eca3dc95c3b83530969869c99b07b72e968b0c88758eef",
+   "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+   "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+   "published_at": "2026-11-04T16:44:12Z",
+   "published_raw": "2026-11-04T22:14:12.837+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own.\n\nThe attacker's code then runs as root, according to advisories that&nbsp;Debian,&nbsp;Ubuntu, and&nbsp;APT's developers&nbsp;published on November 4. The attack needs APT to retry failed downloads, which it does by default from Debian 12 and",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8050352521174538364",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUPaNgRQEg3TU6-9BBgKse77CGVpbBFbn48cBnN1aanKvaMzk_mT74RxyWZA3_NbcrYe0UnRAQlELRYKGiGNrLUDcBMSKXFgRNxaND7RoaVFOs1Q7rkFFtlpoAzYQ7C8i6RAY4bNNTarEMUI-iFR4A_IfjIkFE9vpyQjG-0QFngy5cRE8f2GhGfTltkaI/s260-e100/linux-apt.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -767,33 +794,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:67deeb1099f33e56545666edd2cf906564724ef94b05810d2de40586b72f5c6c",
-   "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
-   "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
-   "published_at": "2026-10-30T11:58:53Z",
-   "published_raw": "2026-10-30T17:28:53.339+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything.&nbsp;\n\nTheir concerns are practical. An IPS protection could block legitimate traffic. A configuration change could interrupt a service. An endpoint policy could affect an application",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5438861008127465321",
-   "authors": [
-    {
-     "name": "Unknown",
-     "uri": "",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitJWSYL167QzDoyvN2y9DAuXmFFe0en34dEHp-I2sSVLEPIfljdlRfeIthyMQUgSvf9AfwW4p-solbE5zH3cKpfeLKWg-IqPnVdHbKQ99Bw91fDAoqHx3E9mlpNmXYA5i3RnaTYxZYkZcwbeY31O4CljtFQYp2JPLTmJo1BI09Al9Kh-CDtzFubVly7hM/s260-e100/cp.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:62e23c789fbfd2f85d19b5cda60f223a48c61e51317e15463cf2fb7e382d0fc7",
    "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
    "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
@@ -1192,6 +1192,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguDDZZalFBPLgf4YxDU_9FK46XXVkU3x0GKHeZHFd2WTdJ0cK5n1KCWDEOIvSgzHP4R14xmwLygLnnmyuBEVcHRVO7b9nIUZVcp5ehxIgFGrPyXZ3hZGwNa2bg8k4e_kkSHa2tyo05yPortQqRR_9g3yr-T0k0Tga9_26Pr0rs_MNIU8RndHMeq9r5Rr0/s260-e100/gmo.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:67deeb1099f33e56545666edd2cf906564724ef94b05810d2de40586b72f5c6c",
+   "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+   "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+   "published_at": "2026-10-30T11:58:53Z",
+   "published_raw": "2026-10-30T17:28:53.339+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything.&nbsp;\n\nTheir concerns are practical. An IPS protection could block legitimate traffic. A configuration change could interrupt a service. An endpoint policy could affect an application",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5438861008127465321",
+   "authors": [
+    {
+     "name": "Unknown",
+     "uri": "",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitJWSYL167QzDoyvN2y9DAuXmFFe0en34dEHp-I2sSVLEPIfljdlRfeIthyMQUgSvf9AfwW4p-solbE5zH3cKpfeLKWg-IqPnVdHbKQ99Bw91fDAoqHx3E9mlpNmXYA5i3RnaTYxZYkZcwbeY31O4CljtFQYp2JPLTmJo1BI09Al9Kh-CDtzFubVly7hM/s260-e100/cp.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
