@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "darkreading",
- "updated_at": "2026-11-04T22:00:22Z",
+ "updated_at": "2026-11-04T23:00:19Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-04T22:00:22Z",
+  "last_success_at": "2026-11-04T23:00:19Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:732985679e9bbd18b2230d8345b8d207919b0e5edcb9414a1cc4f3fd6ea7e639",
+   "url": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
+   "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
+   "published_at": "2026-11-04T21:48:18Z",
+   "published_raw": "Wed, 04 Nov 2026 21:48:18 GMT",
+   "categories": [
+    "application-security"
+   ],
+   "description": "An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for lateral movement.",
+   "feed_id": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
+   "authors": [
+    {
+     "name": "Alexander Culafi",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1200a12331479a63/6aeb910a69108565761c02f3/metal_guardrails-viti-GettyImages-897806150.jpg?width=720&quality=80&disable=upscale",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1200a12331479a63/6aeb910a69108565761c02f3/metal_guardrails-viti-GettyImages-897806150.jpg?width=720&quality=80&disable=upscale",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "darkreading": {
+     "guid_is_permalink": "false"
+    }
+   }
+  },
   {
    "id": "sha256:fd6556dfab34e9e2a64d519072ff8e7c563049104e4d2e1174014a021fc59372",
    "url": "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
