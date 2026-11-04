@@ -1,15 +1,119 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-04T10:00:52Z",
+ "updated_at": "2026-11-04T12:00:19Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-04T10:00:52Z",
+  "last_success_at": "2026-11-04T12:00:19Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:50737d3527a85194f23e55c0fa6503d3670d6f61d835befab499a4b730ba3230",
+   "url": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack",
+   "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
+   "published_at": "2026-11-04T10:54:48Z",
+   "published_raw": "Wed, 04 Nov 2026 10:54:48 +0000",
+   "categories": [
+    "Data Breaches",
+    "Supply Chain Security",
+    "data breach",
+    "OpsShield",
+    "supply chain attack"
+   ],
+   "description": "<p>Using compromised credentials, the attackers accessed OpsShield’s update servers and poisoned multiple cPGuard versions.</p>\n<p>The post <a href=\"https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/\">Malicious cPGuard Updates Served in OpsShield Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50523",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:76caa863874763bdcc238aec50899ac7e8316b5f69f3422028241576aaef6d24",
+   "url": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical",
+   "title": "Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical",
+   "published_at": "2026-11-04T10:38:46Z",
+   "published_raw": "Wed, 04 Nov 2026 10:38:46 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "Chrome",
+    "vulnerability"
+   ],
+   "description": "<p>The browser update resolves dozens of memory safety bugs and incorrect/missing authorization issues.</p>\n<p>The post <a href=\"https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/\">Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50519",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:adfda39028e18e0834b723b6197328748bad8902d64f892918c194eeec305714",
+   "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist",
+   "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
+   "published_at": "2026-11-04T10:36:32Z",
+   "published_raw": "Wed, 04 Nov 2026 10:36:32 +0000",
+   "categories": [
+    "Cybercrime",
+    "Incident Response",
+    "Nation-State",
+    "Binance",
+    "Binance hack",
+    "North Korea"
+   ],
+   "description": "<p>Binance’s first incident report traces the record theft to a months-long campaign that compromised three engineers’ computers.</p>\n<p>The post <a href=\"https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/\">Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50517",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:43c2df1e6e173b69447c950c7c50b7cd67b2efcbc291573c1f8077d4dfd937a2",
    "url": "https://www.securityweek.com/north-korea-launches-missiles-toward-the-sea-as-pyongyang-protests-against-us-claims-on-binance-hack",
@@ -2531,41 +2635,6 @@
    "authors": [
     {
      "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:88eeb5ed3fc6e385e748968eded065306f6f2e8e22f963c137df421142dad9da",
-   "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave",
-   "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
-   "published_at": "2026-10-25T11:00:00Z",
-   "published_raw": "Sun, 25 Oct 2026 11:00:00 +0000",
-   "categories": [
-    "Cybersecurity Funding",
-    "emerge from stealth",
-    "funding",
-    "Mave",
-    "SecOps"
-   ],
-   "description": "<p>Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks.</p>\n<p>The post <a href=\"https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/\">Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50280",
-   "authors": [
-    {
-     "name": "Kevin Townsend",
      "uri": "",
      "email": ""
     }
