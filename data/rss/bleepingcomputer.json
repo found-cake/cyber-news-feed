@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-04T15:00:26Z",
+ "updated_at": "2026-11-04T16:00:21Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-04T15:00:26Z",
+  "last_success_at": "2026-11-04T16:00:21Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:6d3d43b901257f2444a411b9fda431e5e46aa16b24438381074aeb8eb162a0b6",
+   "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings",
+   "title": "mSecure password manager hack prompts password reset warnings",
+   "published_at": "2026-11-04T16:00:18Z",
+   "published_raw": "Wed, 04 Nov 2026 11:00:18 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6dc56b5d71ca081cfc2340b778a7943000d2cc15a98350f40df64cda63e62a76",
+   "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa",
+   "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+   "published_at": "2026-11-04T15:00:10Z",
+   "published_raw": "Wed, 04 Nov 2026 10:00:10 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+   "authors": [
+    {
+     "name": "Sponsored by Material Security",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:fae9031e09737cef8438327765f5630778bcb6c2d599b477dc2ee194ee21c4e5",
    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software",
@@ -1651,28 +1693,6 @@
    "authors": [
     {
      "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:264cc0e36820b485d1c10cb3584fabe716e3249f83763a11186159184e736991",
-   "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder",
-   "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-   "published_at": "2026-10-25T15:49:38Z",
-   "published_raw": "Sun, 25 Oct 2026 11:49:38 -0400",
-   "categories": [
-    "security",
-    "Artificial Intelligence"
-   ],
-   "description": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
