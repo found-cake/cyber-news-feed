@@ -1,15 +1,79 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-05T15:00:38Z",
+ "updated_at": "2026-11-05T17:00:38Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-05T15:00:38Z",
+  "last_success_at": "2026-11-05T17:00:38Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:f4499c87874be1241cc7b6490e965bc630e44d594863f90f5d4b19afc41831b0",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server",
+   "title": "Hackers backdoor Linux servers using trojanized CWP web server",
+   "published_at": "2026-11-05T16:24:26Z",
+   "published_raw": "Thu, 05 Nov 2026 11:24:26 -0500",
+   "categories": [
+    "security",
+    "Linux"
+   ],
+   "description": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d329bb03cf8c1aab0fad00b1091fb502e043373162fec4118f3b726218170829",
+   "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents",
+   "title": "DigiCert data breach exposes customer information, identity documents",
+   "published_at": "2026-11-05T16:12:46Z",
+   "published_raw": "Thu, 05 Nov 2026 11:12:46 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:1df33798258e20d18ce95ac390835ac9bc7f822bc99c5820161ca2fe327e34fb",
+   "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk",
+   "title": "Closing the Identity Gap at the Service Desk",
+   "published_at": "2026-11-05T15:00:10Z",
+   "published_raw": "Thu, 05 Nov 2026 10:00:10 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification methods are no longer sufficient and how organizations can secure account recovery against social engineering risks. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+   "authors": [
+    {
+     "name": "Sponsored by Specops Software",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:dd3dbae0137e1e4cc8873a882463febc3ac6ef3122d8f95ec6fc6103c0c02391",
    "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop",
@@ -1692,49 +1756,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:aee4985617fbdf68a3254b82bef1335ca982df95d3a6f296b63a1d3d7b98569b",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches",
-   "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
-   "published_at": "2026-10-26T16:27:57Z",
-   "published_raw": "Mon, 26 Oct 2026 12:27:57 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:cbcc5c5d1532cb4996baf7f9e9e1d40a2449285c46e9ea0a1f62db420e869ded",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw",
-   "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
-   "published_at": "2026-10-26T15:38:24Z",
-   "published_raw": "Mon, 26 Oct 2026 11:38:24 -0400",
-   "categories": [
-    "security",
-    "Microsoft"
-   ],
-   "description": "Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
      "uri": "",
      "email": ""
     }
