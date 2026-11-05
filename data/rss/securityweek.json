@@ -1,15 +1,124 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-05T10:00:19Z",
+ "updated_at": "2026-11-05T11:00:20Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-05T10:00:19Z",
+  "last_success_at": "2026-11-05T11:00:20Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:985feb624ba7876afbd86bc5ce2e870a331698707e1d791964b1d8070dd22498",
+   "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day",
+   "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
+   "published_at": "2026-11-05T10:56:41Z",
+   "published_raw": "Thu, 05 Nov 2026 10:56:41 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "exploited",
+    "switch",
+    "Zero-Day",
+    "Zyxel"
+   ],
+   "description": "<p>Tracked as CVE-2026-107441, the out-of-bounds write flaw could allow attackers to execute OS commands via crafted HTTP requests.</p>\n<p>The post <a href=\"https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/\">Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50551",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:1e91286984f3657c1c514041fed6e31374f8f910366caa132278a94c4b9c2378",
+   "url": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes",
+   "title": "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes",
+   "published_at": "2026-11-05T10:37:13Z",
+   "published_raw": "Thu, 05 Nov 2026 10:37:13 +0000",
+   "categories": [
+    "Mobile & Wireless",
+    "Nation-State",
+    "Android",
+    "exploit",
+    "Featured",
+    "iOS",
+    "Midnight Blizzard",
+    "Russia"
+   ],
+   "description": "<p>The large-scale watering hole campaign has been targeting entities in the US and Europe, mainly in Ukraine.</p>\n<p>The post <a href=\"https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/\">Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50549",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:b1df1d73097a030d714a6300d7332aa04d0c8087b17dc1f7665e640ffb08dee8",
+   "url": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks",
+   "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
+   "published_at": "2026-11-05T10:02:00Z",
+   "published_raw": "Thu, 05 Nov 2026 10:02:00 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "AI",
+    "exploit",
+    "OpenAI",
+    "Red Teaming",
+    "safety"
+   ],
+   "description": "<p>OpenAI says its Critical-rated cyber model met fewer hidden task goals when work was framed as AI safety research, often silently.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/\">OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50547",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:c0afb202009748326d2b7379e5b7da9947759bdffe345ebdd3a3e1ff8d3eb828",
    "url": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents",
@@ -2742,43 +2851,6 @@
    "authors": [
     {
      "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:99de84c0b750a614df08693b0efafcb1b73942b59072b9f644c2e5a4d5b3ae22",
-   "url": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages",
-   "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
-   "published_at": "2026-10-26T10:21:57Z",
-   "published_raw": "Mon, 26 Oct 2026 10:21:57 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "Broccoli2Shell",
-    "Brotli",
-    "Featured",
-    "HTTP2Shell",
-    "Node2Shell",
-    "vulnerability"
-   ],
-   "description": "<p>An out-of-bounds write in Google’s Brotli decoder affects Node.js, .NET, PowerShell, and Python packages, and can lead to code execution.</p>\n<p>The post <a href=\"https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/\">Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50289",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
      "uri": "",
      "email": ""
     }
