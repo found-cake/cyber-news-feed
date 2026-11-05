@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-05T17:00:38Z",
+ "updated_at": "2026-11-05T18:00:38Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-05T17:00:38Z",
+  "last_success_at": "2026-11-05T18:00:38Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:f3d4fc33d1407bc088038e79c03155fde1fc5cd69c773aea4759312de403889b",
+   "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts",
+   "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+   "published_at": "2026-11-05T17:45:29Z",
+   "published_raw": "Thu, 05 Nov 2026 12:45:29 -0500",
+   "categories": [
+    "security",
+    "Linux"
+   ],
+   "description": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an oversized password. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:f4499c87874be1241cc7b6490e965bc630e44d594863f90f5d4b19afc41831b0",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server",
