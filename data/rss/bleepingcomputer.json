@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-05T09:00:18Z",
+ "updated_at": "2026-11-05T10:00:19Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-05T09:00:18Z",
+  "last_success_at": "2026-11-05T10:00:19Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:dd3dbae0137e1e4cc8873a882463febc3ac6ef3122d8f95ec6fc6103c0c02391",
+   "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop",
+   "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
+   "published_at": "2026-11-05T09:18:29Z",
+   "published_raw": "Thu, 05 Nov 2026 04:18:29 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "Attackers can force Android devices into a continuous boot loop using a specially crafted app that requires no permissions and only needs to be installed. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:9db2bb1c771f0b75301228c6b9fae60473ca9d945628faa46f2b4734406b2f47",
    "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks",
@@ -1775,27 +1796,6 @@
    ],
    "description": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:bf12d0254fb716020f3160d061c1c9b8350e6e50cd54b1dcf1340f4421529c40",
-   "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild",
-   "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
-   "published_at": "2026-10-26T09:19:57Z",
-   "published_raw": "Mon, 26 Oct 2026 05:19:57 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
    "authors": [
     {
      "name": "Sergiu Gatlan",
