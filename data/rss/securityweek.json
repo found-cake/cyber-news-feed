@@ -1,15 +1,82 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-05T13:00:19Z",
+ "updated_at": "2026-11-05T14:00:20Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-05T13:00:19Z",
+  "last_success_at": "2026-11-05T14:00:20Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:320d84bf6529dc2c19c9689bf3540318a660a83e544d918f57f0ae8623857747",
+   "url": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns",
+   "title": "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns",
+   "published_at": "2026-11-05T13:22:12Z",
+   "published_raw": "Thu, 05 Nov 2026 13:22:12 +0000",
+   "categories": [
+    "Phishing",
+    "bank"
+   ],
+   "description": "<p>More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit.</p>\n<p>The post <a href=\"https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/\">Bank Phishing Sites Show Fake &#8216;Suspended&#8217; Pages to Evade Takedowns</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50565",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:4e686fb0ed59b24b0a8869f7730e4f96dc4a0da6790693347ed884a525933cd0",
+   "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised",
+   "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
+   "published_at": "2026-11-05T12:58:32Z",
+   "published_raw": "Thu, 05 Nov 2026 12:58:32 +0000",
+   "categories": [
+    "ICS/OT",
+    "blood bank",
+    "cyberattack",
+    "France",
+    "refrigeration"
+   ],
+   "description": "<p>The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked.</p>\n<p>The post <a href=\"https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/\">Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50560",
+   "authors": [
+    {
+     "name": "Associated Press",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:8f24f3bf401edee420d30f9e7a5b3e91aaf19f7b06e83772554f76055f83cda5",
    "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws",
@@ -124,6 +191,7 @@
    "categories": [
     "Vulnerabilities",
     "exploited",
+    "Featured",
     "switch",
     "Zero-Day",
     "Zyxel"
@@ -2850,42 +2918,6 @@
    "authors": [
     {
      "name": "Kevin Townsend",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:7ad5a03c8a5682579e51602c18eafcb1b1d67e0bcde4160159074e058ba8c93d",
-   "url": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells",
-   "title": "PHP2Shell Exploitation Moves From Probes to Working Shells",
-   "published_at": "2026-10-26T13:30:10Z",
-   "published_raw": "Mon, 26 Oct 2026 13:30:10 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "exploited",
-    "Featured",
-    "PHP",
-    "PHP2Shell",
-    "vulnerability"
-   ],
-   "description": "<p>Attackers successfully exploited the PHP2Shell flaws against honeypots, launching 35 shells from two IP addresses on October 24.</p>\n<p>The post <a href=\"https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/\">PHP2Shell Exploitation Moves From Probes to Working Shells </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50297",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
      "uri": "",
      "email": ""
     }
