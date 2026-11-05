@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-05T02:00:18Z",
+ "updated_at": "2026-11-05T03:00:17Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-05T02:00:18Z",
+  "last_success_at": "2026-11-05T03:00:17Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:4aba54b4261ca3d8a48d79f8cab03ee480a21a406cce5008cdfa921a05f41547",
+   "url": "https://cybersecuritynews.com/openai-uncovers-948-linux-kernel-vulnerabilities",
+   "title": "OpenAI Cyber Model Uncovers 948 Linux Kernel Privilege Escalation Vulnerabilities",
+   "published_at": "2026-11-05T02:42:57Z",
+   "published_raw": "Thu, 05 Nov 2026 02:42:57 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News",
+    "vulnerability"
+   ],
+   "description": "<p>OpenAI says an automated research pipeline found and proved 948 separate Linux kernel privilege escalation flaws in one run. These bugs could let a normal local user gain root access. The run took place in mid-October 2026 and used an upcoming cyber model, as OpenAI explains in its research write-up. The system first scanned the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-uncovers-948-linux-kernel-vulnerabilities/\">OpenAI Cyber Model Uncovers 948 Linux Kernel Privilege Escalation Vulnerabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=170461",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/OpenAI-Uncovers-948-Linux-Kernel-Vulnerabilities.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "170461",
+     "content_encoded": "<p class=\"wp-block-paragraph\">OpenAI says an automated research pipeline found and proved 948 separate Linux kernel privilege escalation flaws in one run. These bugs could let a normal local user gain root access. The run took place in mid-October 2026 and used an upcoming cyber model, as OpenAI explains in its research write-up.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The system first scanned the kernel for the parts a low-privileged user can reach. These &#8220;Scout&#8221; agents picked 5,034 audit targets, about 2.8 million lines of code or roughly 7% of the kernel. &#8220;Analyst&#8221; agents then produced 2,308 candidate findings in 12 hours.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A candidate is only a guess until someone proves it. Triage agents built proof-of-concept code and ran it in isolated virtual machines with the Kernel Address Sanitizer turned on. Within 30 hours, 1,724 findings (about 74.7%) were reproduced. Only 3.1% were wrong because the model assumed an impossible condition.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf4Bm-PVNStJMvyscG2rDaWCF4hWKxA-dncAqui7F8ahUC4vVrHpVS-xKNT3h3TP0uufsGOc7vCV91Uo8Kf35viVnmb6dEMaOtzqk6YPuHS8vZiLhr-P3-T2ucFX2yFJ77nLV6KNrsdax7REoVMGD-GJ1afMIKhQUSQcWJHzIAwTyqqROPgF2AnKPHJHPA/w640-h324/OpenAI%20Uncovers%20948%20Linux%20Kernel%20Vulnerabilities2.webp\" alt=\"\"/></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">Next, exploit agents tested the bugs on systems with common protections such as SMEP, SMAP, KASLR, and HARDENED_USERCOPY. They produced 291 information leak proofs and 1,169 working privilege escalation exploits.</p>\n\n\n\n<h2 id=\"h-openai-uncovers-948-linux-kernel-vulnerabilities\" class=\"wp-block-heading\"><strong>OpenAI Uncovers 948 Linux Kernel Vulnerabilities</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">After variant analysis, OpenAI counted 948 unique vulnerabilities and wrote 948 patches for them. Human researchers reviewed the results before reporting.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This builds on the <a href=\"https://openai.com/index/patch-the-planet/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Patch the Planet</a> program from June, when GPT-5.5-Cyber produced 24 Linux privilege escalation exploits. Our earlier report on <a href=\"https://cybersecuritynews.com/gpt-5-5-cyber/\" target=\"_blank\" rel=\"noreferrer noopener\">GPT-5.5-Cyber</a> covers that launch.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The full run cost $1,213,430 in API credits, or about $1,279 per exploit. OpenAI calls this an upper bound and expects better tooling to cut it. It compared the output with public bounties. Using $20,000 from <a href=\"https://www.zerodayinitiative.com/blog/2026/3/11/announcing-pwn2own-berlin-for-2026\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Pwn2Own</a> and $70,000 from <a href=\"https://typhooncon.com/typhoonpwn-2026/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">TyphoonPWN</a>, the 948 bugs would be worth $18.9 million to $66.3 million.</p>\n\n\n\n<p class=\"wp-block-paragraph\">On a hardened <a href=\"https://google.github.io/security-research/kernelctf/rules.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">kernelCTF</a> setup, the pipeline got 21 privilege escalation exploits for about $32,936. OpenAI estimates that would equal roughly $1.5 million in rewards. Google&#8217;s current rules pay $71,337 per eligible exploit.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A July run with GPT-5.6 Sol found 166 unique bugs for $513,690. The October model found 948, more than five times as many, even after three months of kernel hardening.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Maintainers moved fast. Within 10 days, 61 bugs were patched upstream, 43 had staged patches, and 299 were being discussed in public. That pace matches the earlier news that Linux <a href=\"https://cybersecuritynews.com/linux-patches-400-kernel-vulnerabilities/\" target=\"_blank\" rel=\"noreferrer noopener\">fixed more than 400 kernel bugs in 24 hours</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The agents used at least 10 new exploitation techniques, which outside kernel experts also had not seen. OpenAI withheld the technical details for safety. In one early run, 20 of 200 &#8220;successful&#8221; exploits gained root through a different zero-day than the assigned one. This shows why humans must check how a result was reached.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The agents also found a QEMU flaw in the test setup itself. This fits a wider pattern, since OpenAI&#8217;s <a href=\"https://cybersecuritynews.com/openai-ai-agents-bypass-security/\" target=\"_blank\" rel=\"noreferrer noopener\">AI agents also escaped sandboxes</a> in red-team tests.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://openai.com/index/a-thousand-fewer-paths-to-root/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">OpenAI warns that</a> a low-privileged account on an unpatched system should be treated like root access for a well-funded threat actor. Real cases already exist. Hackers recently <a href=\"https://cybersecuritynews.com/php2shell-gained-root-access-on-25-servers/\" target=\"_blank\" rel=\"noreferrer noopener\">chained PHP2Shell with a Linux kernel flaw</a> to get root on 25 servers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Admins should install kernel updates quickly, reboot into the new kernel, and limit unprivileged user namespaces where possible. Sandboxes such as Firecracker and gVisor can also reduce damage.</p>\n\n\n\n<p class=\"wp-block-paragraph\">OpenAI says it has already sent hundreds of reports and patches. It is sending the rest through Patch the Planet partners as part of its <a href=\"https://openai.com/daybreak/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Daybreak</a> program.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-uncovers-948-linux-kernel-vulnerabilities/\">OpenAI Cyber Model Uncovers 948 Linux Kernel Privilege Escalation Vulnerabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:e4ca15d69695554fde7ad7b88c2d3eab701f17e0cdf0ed3669f04c63ace70ba7",
    "url": "https://cybersecuritynews.com/skyw4lker-phishing-campaign-expands-threatening-us-enterprises-with-microsoft-365-account-takeovers",
