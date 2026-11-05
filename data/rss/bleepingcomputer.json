@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-05T19:00:37Z",
+ "updated_at": "2026-11-05T20:00:37Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-05T19:00:37Z",
+  "last_success_at": "2026-11-05T20:00:37Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:20039ba5416205700ef8a11208a2892a3fa7d8845281dcbcff5c1c4b6076b4e4",
+   "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks",
+   "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
+   "published_at": "2026-11-05T19:24:26Z",
+   "published_raw": "Thu, 05 Nov 2026 14:24:26 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:f3d4fc33d1407bc088038e79c03155fde1fc5cd69c773aea4759312de403889b",
    "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts",
@@ -1754,27 +1775,6 @@
    ],
    "description": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:fe0322af886fa22cc7776aabcedb0f52abb287eceffd2fbbfd67a2369832c4ff",
-   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident",
-   "title": "DreamHost forces password resets in ongoing \"incident\"",
-   "published_at": "2026-10-26T19:26:20Z",
-   "published_raw": "Mon, 26 Oct 2026 15:26:20 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
    "authors": [
     {
      "name": "Bill Toulas",
