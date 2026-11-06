@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-06T14:00:37Z",
+ "updated_at": "2026-11-06T15:00:39Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-06T14:00:37Z",
+  "last_success_at": "2026-11-06T15:00:39Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:510ffbcc89afcdc3e2c66b38dc2ff9207b784f38c55edd3fb15bf68aa27c6633",
+   "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers",
+   "title": "Chainalysis says breach exposed credentials for all customers",
+   "published_at": "2026-11-06T14:17:07Z",
+   "published_raw": "Fri, 06 Nov 2026 09:17:07 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:4fb72bebe1b9642f38a242d19788b438f0e75532d05a29efc462b6fcbbe3bf11",
    "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches",
@@ -1733,48 +1754,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:97418a7f472c7c5a23269560378aa0ae690969091a7fc72de2215df38bd27950",
-   "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation",
-   "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
-   "published_at": "2026-10-27T14:09:46Z",
-   "published_raw": "Tue, 27 Oct 2026 10:09:46 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:728f1e861a42ac6837a342aedb7bd2ef2dff68b2341dcddbde778babab7079f0",
-   "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest",
-   "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
-   "published_at": "2026-10-27T14:01:11Z",
-   "published_raw": "Tue, 27 Oct 2026 10:01:11 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve immediate attention and which remain emerging risks. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
-   "authors": [
-    {
-     "name": "Sponsored by Huntress Labs",
      "uri": "",
      "email": ""
     }
