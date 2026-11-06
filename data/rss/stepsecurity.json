@@ -1,15 +1,39 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-11-06T22:00:37Z",
+ "updated_at": "2026-11-06T23:00:36Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-06T22:00:37Z",
+  "last_success_at": "2026-11-06T23:00:36Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:2514ac7c2756b717a07ca7d96299beea341852e6121db7bbfca4670d43d86072",
+   "url": "https://www.stepsecurity.io/blog/cve-2026-123158-sshhole-openssh-musl-password-bypass",
+   "title": "CVE-2026-123158 (*sshole): OpenSSH Password Authentication Bypass on Alpine Linux",
+   "published_at": "2026-11-06T22:30:16Z",
+   "published_raw": "Fri, 06 Nov 2026 22:30:16 GMT",
+   "categories": [],
+   "description": "CVE-2026-123158 (*sshole) enables an OpenSSH authentication bypass on Alpine Linux. Review lab results, exposure conditions, fixes, and mitigations.",
+   "feed_id": "https://www.stepsecurity.io/blog/cve-2026-123158-sshhole-openssh-musl-password-bypass",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6aee54b0baae190d5086fac7_6aee54077af22995450d8aab_cve-2026-123158-cover.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6aee54b0baae190d5086fac7_6aee54077af22995450d8aab_cve-2026-123158-cover.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:c8a312f4207accc85a5598c7c9723cb4ef70b79be1abcc453dbb9f018a26d38a",
    "url": "https://www.stepsecurity.io/blog/malicious-files-find-what-supply-chain-attacks-leave-behind-in-your-github-repositories-and-on-developer-machines",
