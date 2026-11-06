@@ -1,15 +1,120 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-06T12:00:38Z",
+ "updated_at": "2026-11-06T13:00:36Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-06T12:00:38Z",
+  "last_success_at": "2026-11-06T13:00:36Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:dee45c9badd1291efaf90a7a0705dd7d9f7e17a2db74660a9c8b896afbe4510d",
+   "url": "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack",
+   "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
+   "published_at": "2026-11-06T12:47:55Z",
+   "published_raw": "Fri, 06 Nov 2026 12:47:55 +0000",
+   "categories": [
+    "Incident Response",
+    "Ahold Delhaize",
+    "cost",
+    "cyberattack",
+    "financial impact"
+   ],
+   "description": "<p>The October incident will cut fourth-quarter sales by up to €250 million and has led Ahold Delhaize to lower its 2026 outlook.</p>\n<p>The post <a href=\"https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/\">Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50589",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:4f10fa5347b6b4af0f6c677baa15837958abc48f91752abfb3faa9401642775f",
+   "url": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network",
+   "title": "Researchers Find Residential Proxies on White House Network",
+   "published_at": "2026-11-06T12:16:13Z",
+   "published_raw": "Fri, 06 Nov 2026 12:16:13 +0000",
+   "categories": [
+    "Government",
+    "Network Security",
+    "proxy",
+    "White House"
+   ],
+   "description": "<p>In a month, 28 residential proxy services used 6 addresses, mainly between 5 p.m. and midnight, Eastern Time.</p>\n<p>The post <a href=\"https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/\">Researchers Find Residential Proxies on White House Network</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50587",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:2be6c4d3b95d69b08c2835068ea27f116bf62a1bc1e03dce7b4bc289170bd1c9",
+   "url": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass",
+   "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
+   "published_at": "2026-11-06T12:07:42Z",
+   "published_raw": "Fri, 06 Nov 2026 12:07:42 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "Featured",
+    "OpenSSH",
+    "SSH",
+    "SShole",
+    "vulnerability"
+   ],
+   "description": "<p>On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters.</p>\n<p>The post <a href=\"https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/\">OpenSSH Rushes Patches for &#8216;SSHole&#8217; Authentication Bypass</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50584",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:cf31c56b9c66d6a4b19ab7e0bf8f3ad786c272e5d153b99d8ce4c9d3838c33d0",
    "url": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions",
@@ -2644,41 +2749,6 @@
    ],
    "description": "<p>Eight max-severity security defects could lead to remote code execution and authentication bypass.</p>\n<p>The post <a href=\"https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/\">HPE Patches Dozens of Critical Flaws in Networking Products</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=50327",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:59e5732b78e23032566978ccf15e776ea2231bcb59f280131adbcc2518ae4a2a",
-   "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets",
-   "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
-   "published_at": "2026-10-27T12:02:06Z",
-   "published_raw": "Tue, 27 Oct 2026 12:02:06 +0000",
-   "categories": [
-    "Incident Response",
-    "DreamHost",
-    "password",
-    "password reset",
-    "web hosting"
-   ],
-   "description": "<p>The company says it reacted to an issue affecting some of its systems, including DreamHost webmail.</p>\n<p>The post <a href=\"https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/\">Unexplained DreamHost Incident Prompts Email, FTP Password Resets</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50325",
    "authors": [
     {
      "name": "Ionut Arghire",
