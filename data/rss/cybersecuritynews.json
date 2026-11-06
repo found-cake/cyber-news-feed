@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-06T00:00:37Z",
+ "updated_at": "2026-11-06T01:00:38Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-06T00:00:37Z",
+  "last_success_at": "2026-11-06T01:00:38Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:10ee0a6af1e6f34c48be36073eefeeb37c7cc741a2663bbee9fbd12b90c3e48e",
+   "url": "https://cybersecuritynews.com/windows-paint-rce-vulnerability",
+   "title": "Critical Windows Paint Vulnerability Enables Remote Code Execution Attacks",
+   "published_at": "2026-11-06T00:58:05Z",
+   "published_raw": "Fri, 06 Nov 2026 00:58:05 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News",
+    "vulnerability"
+   ],
+   "description": "<p>Microsoft has disclosed a Windows Paint vulnerability that could let an attacker run code remotely without signing in or requiring a user to click anything. Tracked as CVE-2026-83844, the flaw received a CVSS score of 8.1. Despite the headline’s wording, Microsoft officially rates its severity as Important, not Critical. Published on October 13, 2026, the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-paint-rce-vulnerability/\">Critical Windows Paint Vulnerability Enables Remote Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=170615",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Paint-RCE-Vulnerability.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "170615",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Microsoft has disclosed a Windows Paint vulnerability that could let an attacker run code remotely without signing in or requiring a user to click anything. Tracked as CVE-2026-83844, the flaw received a CVSS score of 8.1. Despite the headline’s wording, Microsoft officially rates its severity as Important, not Critical.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Published on October 13, 2026, the advisory describes an out-of-bounds read, tracked under CWE-125. This means the program reads memory outside its intended limits. Microsoft says the flaw can lead to remote code execution, with potentially serious effects on data privacy, data integrity, and system availability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The disclosure came during Microsoft’s October security release. Cybersecurity News’ coverage of the <a href=\"https://cybersecuritynews.com/microsoft-october-patch-tuesday-2026/\" target=\"_blank\" rel=\"noreferrer noopener\">October 2026 Patch Tuesday updates</a> provides broader context on the release and its new risk groups, which help administrators assess related flaws together rather than treating every vulnerability as an isolated issue.</p>\n\n\n\n<h2 id=\"h-windows-paint-rce-vulnerability\" class=\"wp-block-heading\"><strong>Windows Paint RCE Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">According to Microsoft, an attacker could send a specially crafted network packet to an affected service. Successful exploitation would allow code execution on the target. The advisory does not identify the service, network port, or complete attack chain, so claims that a malicious image alone triggers this flaw remain unconfirmed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Although no authentication or user interaction is required, exploitation is complex. Microsoft says attackers need detailed system knowledge, while success depends on the environment, configuration, and security controls. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft marked exploitation as “Less Likely” and reported no prior public disclosure or known exploitation. Those findings describe its original assessment, not a permanent guarantee.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The current <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Microsoft security advisory</a> lists Paint build 11.2609.401.0 in its security updates table. However, the <a href=\"https://nvd.nist.gov/vuln/detail/cve-2026-83844\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">NIST vulnerability record</a> lists affected versions below 11.2605.91.0. This mismatch matters because administrators should follow Microsoft’s current update guidance rather than rely solely on the earlier version threshold.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Users should check for Paint updates through the Microsoft Store and verify the installed version afterward. Reports indicate that some systems continued receiving older builds despite update checks. Administrators can inspect the package version with PowerShell using <code>Get-AppxPackage Microsoft.Paint | Select-Object Name, Version</code>, then compare the result against Microsoft’s advisory. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Cybersecurity News’ separate report on <a href=\"https://cybersecuritynews.com/png-vulnerabilities/\" target=\"_blank\" rel=\"noreferrer noopener\">PNG memory flaws</a> highlights why image software deserves patch attention, although those issues are unrelated to Paint. For this vulnerability, the priority is confirming that the corrected Paint build reaches each affected device, rather than assuming automatic updates have completed successfully.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-paint-rce-vulnerability/\">Critical Windows Paint Vulnerability Enables Remote Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:3e869f65eae0763be77ed54c67c4e95d5cbc37b0847705e89e14b30c259092fb",
    "url": "https://cybersecuritynews.com/openmatter-network-positions-decentralized-computing-as-an-alternative-to-data-centers-for-ai",
