@@ -1,15 +1,87 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-06T13:00:36Z",
+ "updated_at": "2026-11-06T14:00:37Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-06T13:00:36Z",
+  "last_success_at": "2026-11-06T14:00:37Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:1fd0d11ba6eead8ce472c33b091e3a98182544b380b37f986fd212ee23bd2b3f",
+   "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line",
+   "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
+   "published_at": "2026-11-06T13:19:52Z",
+   "published_raw": "Fri, 06 Nov 2026 13:19:52 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "AI",
+    "GPT-6",
+    "GPT-6 Cyber",
+    "OpenAI"
+   ],
+   "description": "<p>Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/\">OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50594",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:5e9fdf1b5bc8d3f648b155490042893cd42623667558cd034fa7c4a430256e6e",
+   "url": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers",
+   "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
+   "published_at": "2026-11-06T13:02:26Z",
+   "published_raw": "Fri, 06 Nov 2026 13:02:26 +0000",
+   "categories": [
+    "Government",
+    "ICS/OT",
+    "alert",
+    "CISA",
+    "ICS",
+    "refrigeration",
+    "US"
+   ],
+   "description": "<p>The recommendations come amid attacks targeting fridges and freezers in supermarkets and blood banks in Europe.</p>\n<p>The post <a href=\"https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/\">US Agencies Urge Organizations to Harden Refrigeration Controllers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50591",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:dee45c9badd1291efaf90a7a0705dd7d9f7e17a2db74660a9c8b896afbe4510d",
    "url": "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack",
@@ -2682,76 +2754,6 @@
    "authors": [
     {
      "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:c68e9162de05c135823e948c269ee589b1621f86d59a0f5ee059370e8b3f8552",
-   "url": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk",
-   "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk",
-   "published_at": "2026-10-27T13:30:28Z",
-   "published_raw": "Tue, 27 Oct 2026 13:30:28 +0000",
-   "categories": [
-    "Data Breaches",
-    "data breach",
-    "Denver",
-    "DHMP",
-    "healthcare"
-   ],
-   "description": "<p>A leaked SquareML access key could have been used to access a database containing personal and health information.</p>\n<p>The post <a href=\"https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/\">Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50331",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:0de55835221a6f67d320329869e8ba7d01cfd70c458f8ca68d44509f5ee1c1fe",
-   "url": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products",
-   "title": "HPE Patches Dozens of Critical Flaws in Networking Products",
-   "published_at": "2026-10-27T13:13:58Z",
-   "published_raw": "Tue, 27 Oct 2026 13:13:58 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "Aruba",
-    "HPE",
-    "patches",
-    "vulnerability"
-   ],
-   "description": "<p>Eight max-severity security defects could lead to remote code execution and authentication bypass.</p>\n<p>The post <a href=\"https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/\">HPE Patches Dozens of Critical Flaws in Networking Products</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50327",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
      "uri": "",
      "email": ""
     }

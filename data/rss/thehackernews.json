@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-06T13:00:36Z",
+ "updated_at": "2026-11-06T14:00:37Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-06T13:00:36Z",
+  "last_success_at": "2026-11-06T14:00:37Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -2056,60 +2056,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4t7YUY-idhgGJFpEuulM5zELQR4QNB-UKmsh7cyB5cdMH4AU_zumf3K27WBWgAw6ra28TvALm5fFeLrV_1wHJXeYy3azE1TcblP-1JSCPLF3mq-WKjUOXy3K-pfjhHtiwGkCoYhxfEMZGielHz2Bit6mLoNlnElmauP0RNcbXelNkAHIWI4s92qrymUQ/s260-e100/tailscale-patches.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:dc1f78b83e65b690208f66dbcc5b727fac2d190ddfb1b343ecf12bf9c7950df2",
-   "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-   "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
-   "published_at": "2026-10-27T13:59:48Z",
-   "published_raw": "2026-10-27T19:29:48.731+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups.\n\nThe flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7232039681045429419",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ae8TupuVJ4B0uHZJxwQnaqstuuA42Jwt_Zh7m9RwCBp_IrCYuChUaac6fUphOhpalVEC8tfhGsYGxt1lmswBobM-r-ds6t0uEMSV9HZKT_dYcigHPxGJQo7dcJte96ymjxwSREmiGulG6xPIX4Hx3visDSuyaX2DJ3HRcctAz0Jw1T9ALkCEwZUlMsQ/s260-e100/goahead.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:6e33a6040a7d5deb5895de4af1b567745929b9730763e4a5298f46b2f03fac99",
-   "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-   "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-   "published_at": "2026-10-27T13:59:09Z",
-   "published_raw": "2026-10-27T19:29:09.062+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices.\n\nThe vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file.\n\nPatches for the flaw were released last month by Apple in",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4390118485935131320",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqZx9ghfLBFufN5Q4s1dq2U1rXwenlfzU7UsqQfLWn3AEUe5CX3krGuvC6DM4mF2T9MmscvntBNxmgU7UjNOnfJQteKvuAs-4Nq0vJ3TnTkuFy1TRO3ibdh2Ekqi_WqiInvPkXjYlnvrCuYb5mb8neOOqBbmf_034wh8MPOLPKW2Nvvezpb2LFNXPbeUa6/s260-e100/apple-patch.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
