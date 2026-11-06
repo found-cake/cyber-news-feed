@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-06T20:00:36Z",
+ "updated_at": "2026-11-06T21:00:37Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-06T20:00:36Z",
+  "last_success_at": "2026-11-06T21:00:37Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:09fa5f5c7742a60dd1b21e0a02b08e3dea50359d22eb3235186a4e289183bfeb",
+   "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs",
+   "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+   "published_at": "2026-11-06T20:24:19Z",
+   "published_raw": "Fri, 06 Nov 2026 15:24:19 -0500",
+   "categories": [
+    "security",
+    "Artificial Intelligence"
+   ],
+   "description": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:a94cd341e3be7a1974b36e6608a868168e525f9855dbd1d5413640474c7207eb",
    "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers",
@@ -1772,27 +1794,6 @@
    ],
    "description": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:2b90914d399ffff4d4054c8ba72a6c5db366f0a432a0c6b40127d0fb8bbb259f",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data",
-   "title": "Hackers hijack Convertr analytics script to steal payment card data",
-   "published_at": "2026-10-27T20:57:25Z",
-   "published_raw": "Tue, 27 Oct 2026 16:57:25 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
    "authors": [
     {
      "name": "Bill Toulas",
