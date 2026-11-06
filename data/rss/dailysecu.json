@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-11-06T19:00:38Z",
+ "updated_at": "2026-11-06T20:00:36Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-06T19:00:38Z",
+  "last_success_at": "2026-11-06T20:00:36Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -3027,27 +3027,6 @@
    "authors": [
     {
      "name": "우진영 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:261cebea32784025fc25dff62864ac1ab354d030350e00d3e4faa89095783ae0",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209100",
-   "title": "오픈패널 고위험 취약점 공개, 로그인 없이 다른 고객의 분석정보 조회 가능",
-   "published_at": "2026-10-27T19:06:36Z",
-   "published_raw": "2026-10-27 19:06:36",
-   "categories": [
-    "이슈"
-   ],
-   "description": "오픈소스 웹·제품 분석 플랫폼 오픈패널(OpenPanel)에서 로그인하지 않은 외부 공격자가 다른 고객의 분석정보에 접근할 수 있는 고위험 취약점이 공개됐다.취약점은 CVE-2026-116818로, CVSS 4.0 기준 8.8점이다. 오픈패널 3.0.0 미만 버전이 영향을 받는다.오픈패널은 웹사이트와 응용프로그램에서 발생하는 사용자 행동, 접속 기록, 이벤트 등을 수집하고 분석하는 플랫폼이다.이번 취약점은 실시간 방문자 정보를 제공하는 웹소켓 기능에서 발견됐다.해당 기능은 프로젝트 식별자를 전달받아 분석정보를 조회하는 과정에서 사용",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
      "uri": "",
      "email": ""
     }
