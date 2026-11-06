@@ -1,15 +1,46 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-06T09:00:38Z",
+ "updated_at": "2026-11-06T10:00:35Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-06T09:00:38Z",
+  "last_success_at": "2026-11-06T10:00:35Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:cf31c56b9c66d6a4b19ab7e0bf8f3ad786c272e5d153b99d8ce4c9d3838c33d0",
+   "url": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions",
+   "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+   "published_at": "2026-11-06T09:33:51Z",
+   "published_raw": "Fri, 06 Nov 2026 09:33:51 +0000",
+   "categories": [
+    "Uncategorized"
+   ],
+   "description": "<p>After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/\">OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50580",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:e5c8cdcbf3f9a4e14b05dcf60c61f482d11a6b529f1b1063b555a49b71f69ea6",
    "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million",
@@ -2753,38 +2784,6 @@
    "authors": [
     {
      "name": "Tod Beardsley",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:ec38e85079ec3f7436f82bc09e344eb6bbf47b5a9741a94fc48cc9df726e7bd5",
-   "url": "https://www.securityweek.com/dead-popcorn-time-updater-put-millions-of-computers-at-risk-of-takeover",
-   "title": "Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover",
-   "published_at": "2026-10-27T09:44:50Z",
-   "published_raw": "Tue, 27 Oct 2026 09:44:50 +0000",
-   "categories": [
-    "Malware & Threats",
-    "Popcorn Time"
-   ],
-   "description": "<p>Running at system boot, it periodically polled the update domain to execute any code served, with full privileges.</p>\n<p>The post <a href=\"https://www.securityweek.com/dead-popcorn-time-updater-put-millions-of-computers-at-risk-of-takeover/\">Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50313",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
      "uri": "",
      "email": ""
     }
