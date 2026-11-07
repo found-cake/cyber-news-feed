@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-07T06:00:36Z",
+ "updated_at": "2026-11-07T07:00:36Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-07T06:00:36Z",
+  "last_success_at": "2026-11-07T07:00:36Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -1766,33 +1766,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:1417a62a4b3735eae2997d18a49b136bc409c0d235377d148964130c91b06953",
-   "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-   "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-   "published_at": "2026-10-28T06:04:58Z",
-   "published_raw": "2026-10-28T11:34:58.029+05:30",
-   "categories": [
-    "cyber-attack"
-   ],
-   "description": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week.\n\nOracle patched all three under a single identifier,&nbsp;CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6981442170525211540",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgiU-iVEycp9z-2dprGJhgl046M9ZvG7kGGwaXNzgFJg7XDubOoWWLvEuKAOczIcGuXU04db46Xa6pRMKO36ZS7Fu8Xkv7mNuPjHUS0zLTHkGlNWNRD2DLCznPf6jqvqamZSZGMBXSzh9gMYm-9sR-y7OgN7i7n6x0dfYxyl9QftWlfuQw0mpTteHy57k/s260-e100/sh.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:b35772fb4a04069806c0762a4611bed0de7f7bf248de2b5d42cf67d351d1402b",
    "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
    "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
@@ -2056,33 +2029,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSMl2C6S6mb-smamI35fLYotcPaercI_2PIgtuF78Q7PtQcFvFUKXkModTW4nRCh6FC7Xht2BltSGImRS2QNR4Lnc22S7UBU9V_0UDcZi2iDNXSlCJDqD4ApmJPqA_boFokj_9dTWKdzhjIgNt_Y47zumx_c5vrcJn5Vd-Xaowafv4HGCzCcqgDV4GGpo/s260-e100/hacker-chain.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:af501261c1ead5898c08c824b03004835aa1a33b78aa059b2d933b38e37658d9",
-   "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-   "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-   "published_at": "2026-10-28T06:20:37Z",
-   "published_raw": "2026-10-28T11:50:37.597+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Tailscale has released&nbsp;version 1.104.4&nbsp;to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the&nbsp;root&nbsp;user should be able to touch.\n\nThe flaws are in how&nbsp;Tailscale SSH&nbsp;forwards network connections, a job the Tailscale background process carries out with root privileges. To use them, an attacker must",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6897577546766910343",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4t7YUY-idhgGJFpEuulM5zELQR4QNB-UKmsh7cyB5cdMH4AU_zumf3K27WBWgAw6ra28TvALm5fFeLrV_1wHJXeYy3azE1TcblP-1JSCPLF3mq-WKjUOXy3K-pfjhHtiwGkCoYhxfEMZGielHz2Bit6mLoNlnElmauP0RNcbXelNkAHIWI4s92qrymUQ/s260-e100/tailscale-patches.jpg",
      "kind": "thumbnail",
      "medium": ""
     }

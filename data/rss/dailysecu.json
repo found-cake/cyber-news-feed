@@ -1,15 +1,120 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-11-07T06:00:36Z",
+ "updated_at": "2026-11-07T07:00:36Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-07T06:00:36Z",
+  "last_success_at": "2026-11-07T07:00:36Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c12c4e6548e7dc1acf04af7cb6fedd894249edb982fa1665f104fddda4906800",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209369",
+   "title": "[AIS 2026] 망 끊으면 안전할까…김승주 교수 “AI 시대 보안, 자산 파악부터 다시”",
+   "published_at": "2026-11-07T15:44:50Z",
+   "published_raw": "2026-11-07 15:44:50",
+   "categories": [
+    "이슈"
+   ],
+   "description": "공격자 여러 명이 달라붙어야 했던 해킹을 이제는 한 사람이 AI 도구와 함께 수행한다. 공격에 드는 비용이 줄어들면, 과거에는 수익성이 낮아 외면했던 작은 사이트와 주변 시스템도 공격 대상이 된다. 김승주 고려대학교 정보보호대학원 교수는 AI 해킹의 변화를 ‘공격자의 투자 대비 수익률(ROI)’로 풀어냈다. 중요한 서비스만 집중적으로 점검하고 나머지를 방치하는 방식으로는 달라진 공격 환경을 감당하기 어렵다는 경고였다.데일리시큐가 주최하고 한국인터넷진흥원(KISA)과 한국정보보호산업협회(KISIA)가 후원한 ‘2026 인공지능 보안",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:af874d31c99a148cc03fce35c7f7c3193c4c13260a47333bb790d11762f08ba1",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209368",
+   "title": "큐냅 NAS 실제 해킹 피해 확인, 'Plex2Shell' 취약점 긴급 패치 권고",
+   "published_at": "2026-11-07T15:26:55Z",
+   "published_raw": "2026-11-07 15:26:55",
+   "categories": [
+    "이슈"
+   ],
+   "description": "네트워크 스토리지(NAS) 전문기업 큐냅(QNAP)이 자사 NAS에서 실행되는 플렉스 미디어 서버(Plex Media Server)의 보안 취약점을 악용한 실제 침해사고가 보고됐다고 경고했다. 공격자는 인증 없이 원격에서 악성코드를 실행할 수 있으며, 침해된 서버를 암호화폐 채굴이나 프록시 서비스 운영에 악용한 사례도 확인됐다.큐냅은 11월 6일 긴급 보안 공지를 통해 'Plex2Shell'로 알려진 취약점 연계 공격이 실제 NAS 환경에서 발생했다고 밝혔다.문제가 된 취약점은 CVE-2026-96652, CVE-2026-96654",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "우진영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:bb3455af107b025aa0523356acf3ccc2dc2f644e936bde3d50156264a12a4447",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209367",
+   "title": "AI 해킹 에이전트, 실험실 벗어나 실제 기업 해킹해 고객정보까지 무단 수집",
+   "published_at": "2026-11-07T15:21:48Z",
+   "published_raw": "2026-11-07 15:21:48",
+   "categories": [
+    "이슈"
+   ],
+   "description": "보안 연구를 위해 개발된 인공지능 해킹 에이전트가 허가된 시험 환경을 벗어나 실제 기업 시스템에 접근하고 고객정보를 대량으로 수집한 사건이 확인됐다. 공격자는 사이버범죄 조직이 아니라 보안 연구자가 운영하던 AI 에이전트였으며, 연구자는 의도하지 않은 침해사고였다고 설명했다.미국 기업용 인증·사용자 관리 플랫폼 기업 워크OS(WorkOS)는 11월 6일 공식 보안 공지를 통해 지난 10월 발생한 내부 시스템 침해사고의 조사 결과를 공개했다.워크OS에 따르면 이번 사고는 보안 연구자가 자율형 침투시험 프레임워크인 아르텍스(ARTEX)",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:dae1394bfb346225513cb560b81932b593a399a456343400837cb6120fbaf1ac",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209366",
+   "title": "깃허브에 가짜 보안도구 심어 해킹, 윈도 PC 2,000대 이상 감염",
+   "published_at": "2026-11-07T15:13:04Z",
+   "published_raw": "2026-11-07 15:13:04",
+   "categories": [
+    "이슈"
+   ],
+   "description": "개발자들이 소스코드와 보안도구를 공유하는 깃허브(GitHub)가 사이버공격의 유포 경로로 악용되고 있다. 공격자들이 정상적인 보안도구로 위장한 악성 프로젝트를 배포해 보안 전문가와 개발자를 감염시키는 공격을 벌였으며, 지금까지 윈도 PC 2,000대 이상이 감염된 것으로 파악됐다.러시아 보안기업 닥터웹(Dr.Web)은 11월 5일 공개한 기술 분석 보고서에서 깃허브에 등록된 악성 개발 프로젝트를 통해 백도어와 정보탈취 악성코드가 유포되고 있다고 밝혔다.공격자들은 네트워크 스캔 자동화, 보안 시스템 테스트, 로그 분석 등 보안 실무에",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "우진영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6ee66187afc34166724ce739f987ac63150d3227ada5d52b52013e5d1954c2ee",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209365",
+   "title": "[주의] 체이널리시스 AI 해킹으로 전체 사용자 인증정보 노출, 가상자산 거래 감시 서비스까지 중단",
+   "published_at": "2026-11-07T15:07:43Z",
+   "published_raw": "2026-11-07 15:07:43",
+   "categories": [
+    "이슈"
+   ],
+   "description": "세계적인 블록체인 분석기업 체이널리시스(Chainalysis)가 사이버공격을 받아 전체 사용자와 관련된 인증정보가 공격자에게 노출된 사실을 확인했다. 일부 고객의 비밀번호가 별도의 통신 경로상 공격으로 노출됐으며, 가상자산 거래 감시 시스템에서도 비정상적인 접근 정황이 발견되면서 주요 서비스가 잇따라 중단됐다.체이널리시스는 지난 10월 30일 외부 공격자의 내부 시스템 무단 접근 사실을 공개한 뒤 조사 결과를 순차적으로 발표했다. 11월 4일 미국 동부시간 오후 11시 공개한 업데이트에서는 전체 사용자와 관련된 이름, 사용자명, 비",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:14b3b2ae06d389df2ae198656c05975f79efd4372adc993002fc328a36606d2d",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209357",
