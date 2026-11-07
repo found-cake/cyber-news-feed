@@ -1,15 +1,52 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-07T10:00:36Z",
+ "updated_at": "2026-11-07T11:00:37Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-07T10:00:36Z",
+  "last_success_at": "2026-11-07T11:00:37Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b7e94ee8d516ad0408879d79086528c3218c4d0b2901fe36f16386690661ff8d",
+   "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins",
+   "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+   "published_at": "2026-11-07T10:16:23Z",
+   "published_raw": "Sat, 07 Nov 2026 10:16:23 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "exploited",
+    "Featured",
+    "SonicOS",
+    "SonicWall",
+    "VPN",
+    "vulnerability"
+   ],
+   "description": "<p>CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA.</p>\n<p>The post <a href=\"https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/\">SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50612",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:bc4a847210efd0f09bda2b520fafa12b45c36693ef473c17f02efbb96faf1f62",
    "url": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks",
@@ -117,6 +154,7 @@
    "categories": [
     "Artificial Intelligence",
     "AI",
+    "Featured",
     "GPT-6",
     "GPT-6 Cyber",
     "OpenAI"
@@ -2636,76 +2674,6 @@
    "authors": [
     {
      "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:cd275dcd5d9a42ad8a4ea96d765af7fe9c6fb59a419f1e7e9c5390adeec8f4c6",
-   "url": "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software",
-   "title": "Long-Hidden Flaws Patched in EPICS Research Facility Control Software",
-   "published_at": "2026-10-28T10:48:00Z",
-   "published_raw": "Wed, 28 Oct 2026 10:48:00 +0000",
-   "categories": [
-    "ICS/OT",
-    "Vulnerabilities",
-    "EPICS",
-    "Featured",
-    "ICS",
-    "vulnerability"
-   ],
-   "description": "<p>Four EPICS Base flaws found by an autonomous system could let attackers crash processes at particle accelerators and fusion labs.</p>\n<p>The post <a href=\"https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/\">Long-Hidden Flaws Patched in EPICS Research Facility Control Software</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50361",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:ef018cc62f5ba80a9f2d81187c4389169908ce0942c867e5e8a2f6eb1ba47060",
-   "url": "https://www.securityweek.com/nobody-trusts-the-security-questionnaire-we-rely-on-it-anyway",
-   "title": "Nobody Trusts the Security Questionnaire. We Rely on It Anyway.",
-   "published_at": "2026-10-28T10:30:00Z",
-   "published_raw": "Wed, 28 Oct 2026 10:30:00 +0000",
-   "categories": [
-    "Compliance",
-    "Risk Management",
-    "Supply Chain Security",
-    "GRC"
-   ],
-   "description": "<p>The process that gates nearly every B2B deal is a self-assessment the sender distrusts and the receiver accepts. There is finally a better basis for trust between companies.</p>\n<p>The post <a href=\"https://www.securityweek.com/nobody-trusts-the-security-questionnaire-we-rely-on-it-anyway/\">Nobody Trusts the Security Questionnaire. We Rely on It Anyway.</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50355",
-   "authors": [
-    {
-     "name": "Sravish Sridhar",
      "uri": "",
      "email": ""
     }
