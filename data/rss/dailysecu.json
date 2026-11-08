@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-11-08T14:00:23Z",
+ "updated_at": "2026-11-08T15:00:23Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-08T14:00:23Z",
+  "last_success_at": "2026-11-08T15:00:23Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:da3465db56eb36c5ba24f1d7c464f59e8cdc28a4a34d589e00032208fdd382b7",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209393",
+   "title": "[긴급] 오픈SSH 인증 우회 취약점 공개 9시간 만에 실제 공격…KISA도 7일 보안 업데이트 권고",
+   "published_at": "2026-11-08T23:45:01Z",
+   "published_raw": "2026-11-08 23:45:01",
+   "categories": [
+    "이슈"
+   ],
+   "description": "리눅스 서버의 원격접속에 사용되는 오픈SSH(OpenSSH)에서 발견된 인증 우회 취약점이 공개된 지 9시간도 지나지 않아 실제 공격에 악용된 것으로 확인됐다. 공격자는 정상적인 비밀번호나 SSH 인증키 없이 서버에 로그인했으며, 보안기업이 운영하는 허니팟(Honeypot) 환경에서 최고 관리자 권한인 루트 권한까지 획득했다.문제가 된 취약점은 CVE-2026-123158(CVSS 8.1)로, 'SSHole'이라는 이름으로 알려졌다. 특정 리눅스 환경에서 비밀번호 검증 과정의 오류를 악용해 인증을 우회할 수 있는 고위험 취약점이다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:406ce8cf7ae47feec1fe36bb8dfe398afc987667b28cb289ba819155337961b7",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209392",
+   "title": "글로벌 인증서 기업 디지서트 해킹…고객 여권·운전면허증 등 신원확인 서류 유출",
+   "published_at": "2026-11-08T23:08:25Z",
+   "published_raw": "2026-11-08 23:08:25",
+   "categories": [
+    "이슈"
+   ],
+   "description": "글로벌 디지털 인증서 발급기업 디지서트(DigiCert)가 내부 업무 시스템의 보안 설정 오류와 접근권한 관리 취약점으로 해킹 피해를 입었다. 공격자는 외부에서 임의로 계정을 생성한 뒤 과거 고객정보가 보관된 시스템에 접근했으며, 일부 고객의 여권과 운전면허증 등 민감한 신원확인 서류까지 노출된 것으로 확인됐다.특히 이번 사고는 2025년 2월 서버 이전 과정에서 발생한 보안 설정 오류가 16개월 넘게 방치된 데다, 디지서트가 2026년 6월 비인가 계정의 존재를 확인하고도 실제 고객정보 접근 여부를 제대로 파악하지 못했다는 점에서",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:47c9b4001e9373f29a1b3090fd343bb05d57df00b4be50aade3de66d2a9cd1a4",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209388",
@@ -2603,27 +2645,6 @@
     "이슈"
    ],
    "description": "교육기업 대교와 대전선병원·유성선병원을 운영하는 영훈의료재단이 해킹으로 총 84만여 명의 개인정보를 유출하고 안전조치 의무를 위반한 사실이 확인돼 총 38억 8,500만 원의 과징금 처분을 받았다. 대교는 첫 번째 해킹 당시 보안관제업체의 이상행위 탐지 안내를 받고도 적절히 대응하지 않아 같은 방식으로 개인정보가 다시 유출된 것으로 조사됐다.개인정보보호위원회(위원장 송경희, 이하 개인정보위)는 10월 28일 제21회 전체회의에서 개인정보 보호법상 안전조치 의무를 위반한 대교와 의료법인 영훈의료재단에 각각 32억 5,500만 원과 6",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:2ca8b6ed6d41122c5ca2eafa53193bc8f5bbe65a640bc1fa00e9f6de82a72a5c",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209162",
-   "title": "금융보안원 “북한 IP 탐지됐지만 북한 해킹 단정 못해”…최근 금융권 침해사고와 연관성 확인 안 돼",
-   "published_at": "2026-10-29T14:17:45Z",
-   "published_raw": "2026-10-29 14:17:45",
-   "categories": [
-    "이슈"
-   ],
-   "description": "최근 국내 금융권을 대상으로 북한 인터넷주소(IP)를 통한 대규모 해킹 시도가 확인됐다는 보도와 관련해 금융보안원이 북한의 직접적인 공격으로 단정할 근거가 없다는 입장을 밝혔다. 최근 잇따라 발생한 금융회사 침해사고와 해당 IP를 통한 접근 시도 사이에서도 뚜렷한 연관성이 확인되지 않았다고 설명했다.금융보안원은 10월 28일 일부 언론이 보도한 '금융권 해킹, 북한 IP로 공격 첫 확인' 기사와 관련한 설명자료를 통해 지난 21일 북한 IP 대역에서 금융회사를 대상으로 한 대량의 비정상적인 접근 시도가 탐지된 것은 사실이라고 밝혔다",
    "feed_id": "",
    "authors": [
     {
