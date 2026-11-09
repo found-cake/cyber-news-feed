@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-09T08:00:23Z",
+ "updated_at": "2026-11-09T09:00:24Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-09T08:00:23Z",
+  "last_success_at": "2026-11-09T09:00:24Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c75ed131bf3e016259e74df3ca1c5f492332fce99c948244f3013ad721f3db18",
+   "url": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack",
+   "title": "Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
+   "published_at": "2026-11-09T08:35:50Z",
+   "published_raw": "Mon, 09 Nov 2026 08:35:50 +0000",
+   "categories": [
+    "Data Protection",
+    "cryptography",
+    "encryption",
+    "Featured",
+    "RSA"
+   ],
+   "description": "<p>Working with cryptographers, DeepMind’s AI agents cut the cost of forging RSA-1024 signatures and found a cheaper way to factor keys.</p>\n<p>The post <a href=\"https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/\">Google DeepMind&#8217;s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50616",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:814d992fb52d0ce30c3e093a198ed35e64affd95f1f65604cf5b4fbccc6f5b90",
    "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding",
@@ -2043,77 +2078,6 @@
    "authors": [
     {
      "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:7117de10bd3c7eae596c2034ae238d719ddf8cc0db0e963e47f96ec6f4b742ff",
-   "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines",
-   "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
-   "published_at": "2026-10-30T08:44:49Z",
-   "published_raw": "Fri, 30 Oct 2026 08:44:49 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "Teamviewer",
-    "vulnerability"
-   ],
-   "description": "<p>An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system.</p>\n<p>The post <a href=\"https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/\">TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians&#8217; Machines</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50426",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:d1c7bf33632c3ecda89f683d928cb1cffb56854d883d9fcd6f5866a3e98b9e71",
-   "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor",
-   "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor",
-   "published_at": "2026-10-30T08:16:26Z",
-   "published_raw": "Fri, 30 Oct 2026 08:16:26 +0000",
-   "categories": [
-    "Cybercrime",
-    "Binance",
-    "crypto heist",
-    "cryptocurrency",
-    "Featured",
-    "Lazarus",
-    "North Korea",
-    "TraderTraitor"
-   ],
-   "description": "<p>Blockchain analysts link the record crypto theft to North Korean hackers, as Binance probes a possibly compromised engineer laptop.</p>\n<p>The post <a href=\"https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/\">$6 Billion Binance Hack Bears Hallmarks of North Korea&#8217;s TraderTraitor</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50423",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
      "uri": "",
      "email": ""
     }
