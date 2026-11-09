@@ -1,15 +1,58 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-09T21:00:22Z",
+ "updated_at": "2026-11-09T22:00:23Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-09T21:00:22Z",
+  "last_success_at": "2026-11-09T22:00:23Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b024199ea3b9c78497997d4933f515b81e19b7ebd08c4b65f169d08b4866ac6d",
+   "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published",
+   "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+   "published_at": "2026-11-09T21:26:25Z",
+   "published_raw": "Mon, 09 Nov 2026 16:26:25 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:eea3ab0f8cb1ce399031bfd08a78bf874f64bc68d6716c7619e42d016361aeba",
+   "url": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007",
+   "title": "York University breach exposed personal information dating to 2007",
+   "published_at": "2026-11-09T21:22:31Z",
+   "published_raw": "Mon, 09 Nov 2026 16:22:31 -0500",
+   "categories": [
+    "security",
+    "Education"
+   ],
+   "description": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:1a0b6bed2aae59671cec32fd5bc85d113d78179d14ad12d9137bf3bb897b187b",
    "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires",
@@ -1436,28 +1479,6 @@
    "authors": [
     {
      "name": "Ax Sharma",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:6617c8ee53373e8872f5f73d715a2d396aca4428a8baa567862aead04ad640f3",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers",
-   "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
-   "published_at": "2026-10-30T21:09:46Z",
-   "published_raw": "Fri, 30 Oct 2026 17:09:46 -0400",
-   "categories": [
-    "security",
-    "Linux"
-   ],
-   "description": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
-   "authors": [
-    {
-     "name": "Lawrence Abrams",
      "uri": "",
      "email": ""
     }
