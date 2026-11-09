@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-09T14:00:25Z",
+ "updated_at": "2026-11-09T15:00:27Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-09T14:00:25Z",
+  "last_success_at": "2026-11-09T15:00:27Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:92c78b5ae5a17643714d6f7bfaf5dfbf83c831164ab8f80efc45c5bff3d54c81",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims",
+   "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
+   "published_at": "2026-11-09T14:34:03Z",
+   "published_raw": "Mon, 09 Nov 2026 09:34:03 -0500",
+   "categories": [
+    "security",
+    "CryptoCurrency"
+   ],
+   "description": "A former FBI agent has pleaded guilty to stealing nearly $2.5 million from the wallets of fraud victims and nation-state hackers under investigation. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:6fcafe6c8ffb348738271e16ca347f552200b3a77005b3d8c82770d92bba3404",
    "url": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links",
@@ -1350,27 +1372,6 @@
    ],
    "description": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:3b99573e7ab441bb3e38b605c147a1e878166dd8398d54d7e4d8f4b996f194bc",
-   "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors",
-   "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
-   "published_at": "2026-10-30T14:36:54Z",
-   "published_raw": "Fri, 30 Oct 2026 10:36:54 -0400",
-   "categories": [
-    "security"
-   ],
-   "description": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
    "authors": [
     {
      "name": "Bill Toulas",
