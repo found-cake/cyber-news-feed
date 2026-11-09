@@ -1,15 +1,39 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-11-09T01:00:24Z",
+ "updated_at": "2026-11-09T02:00:23Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-09T01:00:24Z",
+  "last_success_at": "2026-11-09T02:00:23Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:46f78ec6034cdecc710ff13dc767ebcb04085ff6bcab8a9ac451ca912dcd00ed",
+   "url": "https://www.stepsecurity.io/blog/ethersphere-bee-js-13-3-0-compromise",
+   "title": "@ethersphere/bee-js 13.3.0 Compromised",
+   "published_at": "2026-11-09T01:18:18Z",
+   "published_raw": "Mon, 09 Nov 2026 01:18:18 GMT",
+   "categories": [],
+   "description": "@ethersphere/bee-js 13.3.0 is compromised. Malicious install-time code targets Swarm wallet data and attempts to establish persistent access on affected systems.",
+   "feed_id": "https://www.stepsecurity.io/blog/ethersphere-bee-js-13-3-0-compromise",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6af11b1a3bceb5d0377ffb77_ethersphere-bee-js-13-3-0-compromised-cover.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6af11b1a3bceb5d0377ffb77_ethersphere-bee-js-13-3-0-compromised-cover.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:2514ac7c2756b717a07ca7d96299beea341852e6121db7bbfca4670d43d86072",
    "url": "https://www.stepsecurity.io/blog/cve-2026-123158-sshhole-openssh-musl-password-bypass",
