@@ -1,15 +1,52 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-09T13:00:24Z",
+ "updated_at": "2026-11-09T14:00:25Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-09T13:00:24Z",
+  "last_success_at": "2026-11-09T14:00:25Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:05f278c571118efe307897de4d5e6115a1e412314e452a4ad25c0f0f2eab9af0",
+   "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users",
+   "title": "Plex2Shell Exploited Against QNAP NAS Users",
+   "published_at": "2026-11-09T13:13:28Z",
+   "published_raw": "Mon, 09 Nov 2026 13:13:28 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "exploited",
+    "NAS",
+    "Plex",
+    "Plex2Shell",
+    "QNAP",
+    "vulnerability"
+   ],
+   "description": "<p>Threat actors are exploiting the four-flaw chain to hack the Plex Media Server application on QNAP NAS devices.</p>\n<p>The post <a href=\"https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/\">Plex2Shell Exploited Against QNAP NAS Users</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50634",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:0486302c91dfcbe8a84566378a1b8000dc4f30d89b3670cf5717c4683389a7c6",
    "url": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers",
@@ -2041,77 +2078,6 @@
    "authors": [
     {
      "name": "SecurityWeek News",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:4403c5324b9b8679d5b02eacac1abf66349d76a601a45ba3cf40ccb5eccb1601",
-   "url": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough",
-   "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
-   "published_at": "2026-10-30T14:00:00Z",
-   "published_raw": "Fri, 30 Oct 2026 14:00:00 +0000",
-   "categories": [
-    "Identity & Access",
-    "IAM",
-    "identity",
-    "passkey",
-    "password"
-   ],
-   "description": "<p>As organizations eliminate passwords, attackers will adapt. Instead of attacking the authenticator directly, they will look for opportunities around it.</p>\n<p>The post <a href=\"https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/\">Passkeys Are Better Than Passwords. But They Are Not Enough.</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50443",
-   "authors": [
-    {
-     "name": "Torsten George",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:b43200e98e60fd684ed4332382ee3bbef17be871acb8f3327c01b1fa2f644099",
-   "url": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure",
-   "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
-   "published_at": "2026-10-30T13:36:12Z",
-   "published_raw": "Fri, 30 Oct 2026 13:36:12 +0000",
-   "categories": [
-    "Cybercrime",
-    "Tracking & Law Enforcement",
-    "bulletproof hosting",
-    "FBI",
-    "takedown",
-    "Virtualine"
-   ],
-   "description": "<p>It allowed customers to host hack-for-hire services, supported ransomware and infostealer operators, and accepted crypto payments.</p>\n<p>The post <a href=\"https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/\">Bulletproof Host Virtualine Loses Its Domain to FBI Seizure</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50440",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
      "uri": "",
      "email": ""
     }
