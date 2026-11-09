@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-09T06:00:23Z",
+ "updated_at": "2026-11-09T07:00:23Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-09T06:00:23Z",
+  "last_success_at": "2026-11-09T07:00:23Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -112,6 +112,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9-PGmRcZy9OvjKNOWHrGVMpF2DhnvIrHU6mOwyroU7CeoEKMkrjCt8HxCKBzAOia6ZpDEvTuQcF2Xg_50vE_W8DdjmLJjxMXPUUm5Ryfym8GBhm74Z6jwZCeXSKgxuK6A57rVsM-Z1G8nfEF3Mn8QgoD77Nbqxakkj_ZxbBNDtp0ljvTKrXydLYm1BFZR/s260-e100/cf.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:58a49828244205471a6ee53805903c4e9f1b636dfc941e8c8813d1305859810b",
+   "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+   "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+   "published_at": "2026-11-09T06:15:10Z",
+   "published_raw": "2026-11-09T11:45:10.673+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory.\n\n\"The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2142920327494907810",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKryTkTZPSm_Pvf-PEvYRFle3Bp0jQaXScE21oOsMfwir63sr355bqHInvPRm5zynq2sYfLswRNEeywDHo7p2snw5sQmlIrWIONBq4AoYFEGXvdgy5gNLMESgjL5zwnhbqYIwdKLRaolb18pKz1sqFynmSjWn2IT_BxlEb-0av9vDfp-oEzp23_cwOIoik/s260-e100/ref.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:4d02c260bfd3474beac1944c16a7542aac1df8b69d858035441029358f1c0e69",
+   "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+   "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+   "published_at": "2026-11-09T06:05:24Z",
+   "published_raw": "2026-11-09T11:35:24.761+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks.\n\nThe vulnerability, tracked as CVE-2026-19868 (CVSS score: 7.1 / 7.5), has been described as an authentication reinforcement",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4591043986172603524",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjILYvlBWd-cPdnYJiX5gpFUBvDeq0nZYHWard5V4B8oEx7r_-4lUxcIan0_5l4EHxun-KbEHOJTj1p8qTuORzAaKalwqmlz1ajVuBmS-KTBJB0-rBSrhHGgHUkY0I3GTMSEbIy5fkP4vDyITtkZvbkqreMTACQjDS3OBRmnZE4U7pVZLjgId53L259b5Qj/s260-e100/sonicss.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -740,60 +794,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:c5631e1fe7c280d41ea0570b670335d706b6c1cb16d7cd716dfe164065975214",
-   "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
-   "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
-   "published_at": "2026-11-03T15:41:53Z",
-   "published_raw": "2026-11-03T21:11:53.950+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services.\n\nThe tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1680821059030378662",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvqwPJPXsflyvqykVK3Pd1lLXLzEJ6vpLudxQUyYbWkS4nQ0dr9dhcSlMCPwgqfAkyadPSj28XReqkeiymKG5RAZMWpx5Hqhg_XI0HNp3jRMRpaO-wVIRbyJyS8MaaqDNOxXvk8aUENx_aiNMqrqm9SWjtJVpXR2uaP-LNp5deG4U_4YvSxpPKtdJLRNoh/s260-e100/llmjacking.png",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:b84cad2a2e67203e1c8e6fda7462f0b2daa108321068a6dd8cb8d955da2b055a",
-   "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-   "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-   "published_at": "2026-11-03T11:23:53Z",
-   "published_raw": "2026-11-03T16:53:53.769+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Fixed kernels for a&nbsp;use-after-free vulnerability in the Linux kernel's IPv4 TCP code&nbsp;are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update.\n\nThe flaw, tracked as CVE-2026-98432, can be reached by a remote, unauthenticated attacker and can",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8684688034230661677",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdf8UfDHsjH9VaJGtYT5WgjtJ1G5YRMkjPWNeKn-hw05sM9ny0kW9L2eIc3UCiIQ7qmc_TmfrenS1WH8KiRBjln2hQS0X7DUlykxdHrzDgg4uoiHpiOf3fVTOnUuOt4618z3PN7hw1AfUch_y0Tot3ubTga5LEfyWnATkzegfQBSWxMbzNzJaGY18QqC8/s260-e100/linux-rce.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:a3b94f1fb170a2b69842d6df107dd74cd808019727ad4afc93b8b8e93e5d6bf4",
    "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
    "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
@@ -1219,6 +1219,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw1Ms9mKdtALczFoDaNy5Bm0HVMfxu0ps0ykDUXuLn3BeOEqUCDnzUiCP2lU_7xbC2kYuIAGCuOiQCGIlkR6wYBfCfb7g0wRESfIFaMtSltOjWphyswldC4LJxFf0RnCB9FzEVc-euJGtGbUvpJr7FOE0QefC3_rn8xLSFTij_yJn1MNP6bJVu8VgrcLaV/s260-e100/github-cisco.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c5631e1fe7c280d41ea0570b670335d706b6c1cb16d7cd716dfe164065975214",
+   "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+   "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+   "published_at": "2026-11-03T15:41:53Z",
+   "published_raw": "2026-11-03T21:11:53.950+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services.\n\nThe tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1680821059030378662",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvqwPJPXsflyvqykVK3Pd1lLXLzEJ6vpLudxQUyYbWkS4nQ0dr9dhcSlMCPwgqfAkyadPSj28XReqkeiymKG5RAZMWpx5Hqhg_XI0HNp3jRMRpaO-wVIRbyJyS8MaaqDNOxXvk8aUENx_aiNMqrqm9SWjtJVpXR2uaP-LNp5deG4U_4YvSxpPKtdJLRNoh/s260-e100/llmjacking.png",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b84cad2a2e67203e1c8e6fda7462f0b2daa108321068a6dd8cb8d955da2b055a",
+   "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+   "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+   "published_at": "2026-11-03T11:23:53Z",
+   "published_raw": "2026-11-03T16:53:53.769+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Fixed kernels for a&nbsp;use-after-free vulnerability in the Linux kernel's IPv4 TCP code&nbsp;are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update.\n\nThe flaw, tracked as CVE-2026-98432, can be reached by a remote, unauthenticated attacker and can",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8684688034230661677",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdf8UfDHsjH9VaJGtYT5WgjtJ1G5YRMkjPWNeKn-hw05sM9ny0kW9L2eIc3UCiIQ7qmc_TmfrenS1WH8KiRBjln2hQS0X7DUlykxdHrzDgg4uoiHpiOf3fVTOnUuOt4618z3PN7hw1AfUch_y0Tot3ubTga5LEfyWnATkzegfQBSWxMbzNzJaGY18QqC8/s260-e100/linux-rce.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
