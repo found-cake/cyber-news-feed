@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-09T05:00:24Z",
+ "updated_at": "2026-11-09T06:00:23Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-09T05:00:24Z",
+  "last_success_at": "2026-11-09T06:00:23Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ee9d2ca62ad99883e856eb0c6166e5fbabdea2e3d6c29f5484e363d87363bd6a",
+   "url": "https://cybersecuritynews.com/openssh-sshole-flaw-exploited",
+   "title": "Hackers Begin Exploiting OpenSSH SSHole Authentication Bypass Vulnerability",
+   "published_at": "2026-11-09T05:24:19Z",
+   "published_raw": "Mon, 09 Nov 2026 05:24:19 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability News"
+   ],
+   "description": "<p>Attackers have started targeting the SSHole authentication bypass affecting certain OpenSSH servers, according to new SANS Internet Storm Center findings. The flaw allows remote attackers to access some password-disabled Linux accounts by submitting an unusually long password, without knowing valid credentials or holding an SSH key. SANS researcher Johannes Ullrich reported the first clear exploit [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssh-sshole-flaw-exploited/\">Hackers Begin Exploiting OpenSSH SSHole Authentication Bypass Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=170913",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/OpenSSH-SSHole-Flaw-Exploited.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "170913",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Attackers have started targeting the SSHole authentication bypass affecting certain OpenSSH servers, according to new SANS Internet Storm Center findings.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw allows remote attackers to access some password-disabled Linux accounts by submitting an unusually long password, without knowing valid credentials or holding an SSH key.</p>\n\n\n\n<p class=\"wp-block-paragraph\">SANS researcher Johannes Ullrich reported the first clear exploit attempts on November 5, using passwords made entirely of repeated “A” characters.</p>\n\n\n\n<p class=\"wp-block-paragraph\">His Cowrie SSH honeypots recorded 232 long-password requests that day, followed by 713 on November 6. These figures measure suspicious requests, not confirmed compromises or separate attackers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Long-password activity first appeared on November 1, but Ullrich said those early entries looked like broken brute-force scripts rather than deliberate SSHole exploitation. Some scripts placed download commands into password fields. Cowrie records only the first 255 password characters, limiting how fully researchers can examine attempts involving longer inputs.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The leading scanner addresses included 213.86.169.133, 152.233.50.185 and 92.255.57.7, with 48, 44 and 43 recorded attempts respectively. Ullrich suspected some honeypot logins succeeded, but his report did not confirm successful sessions. The evidence therefore supports active exploitation attempts, while leaving their full outcome unresolved.</p>\n\n\n\n<h2 id=\"h-openssh-sshole-vulnerability-exploited\" class=\"wp-block-heading\"><strong>OpenSSH SSHole Vulnerability Exploited</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Disclosed by researcher Özgün Kültekin, SSHole affects OpenSSH running with musl libc when password checks occur without PAM, the Linux login framework.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As covered in <a href=\"https://cybersecuritynews.com/openssh-flaw-bypass-password-authentication/\" target=\"_blank\" rel=\"noreferrer noopener\">Cybersecurity News’s earlier OpenSSH report</a>, exploitation also requires enabled password authentication, a target account whose stored password field is <code>*</code>, and another local account containing a valid SHA-crypt password hash.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The <a href=\"https://sshhole.com/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">researcher’s technical disclosure</a> explains the failure. When a password exceeds 256 bytes, musl’s <code>crypt()</code> function can return <code>*</code> to signal an error. OpenSSH can compare that value with the target account’s stored <code>*</code> and accept the login. The documented attack range is 257 to 1,024 bytes. Accounts with valid password hashes are not bypassed this way.</p>\n\n\n\n<p class=\"wp-block-paragraph\">OpenSSH 10.6p2 fixes the issue, and Alpine has released patched packages. Administrators should install their distribution’s updates and restart <code>sshd</code>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Where patching must wait, setting <code>PasswordAuthentication no</code> blocks this attack path. <a href=\"https://www.stepsecurity.io/blog/cve-2026-123158-sshhole-openssh-musl-password-bypass\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">StepSecurity’s testing</a> also confirmed protection when password checks use PAM. Check package revisions because backported fixes may retain older OpenSSH version banners.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Review successful password logins to key-only accounts, especially failures followed by acceptance within one session. Earlier <a href=\"https://cybersecuritynews.com/ssh-honeypots-miss-most-post-login-attacks/\" target=\"_blank\" rel=\"noreferrer noopener\">SSH honeypot research</a> shows why post-login monitoring matters.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The cited evidence does not establish an SSH option that leaks passwords or API keys to GitHub. That claim is separate from this authentication bypass and should not appear in the headline.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssh-sshole-flaw-exploited/\">Hackers Begin Exploiting OpenSSH SSHole Authentication Bypass Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:029e122d426693cec926b349d4a8c3e987e6d692c8e2098ac5422b057091c3e0",
    "url": "https://cybersecuritynews.com/claude-ai-deletes-law-professors-entire-syllabus",
