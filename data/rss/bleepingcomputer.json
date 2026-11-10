@@ -1,15 +1,59 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-10T19:00:24Z",
+ "updated_at": "2026-11-10T20:00:21Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-10T19:00:24Z",
+  "last_success_at": "2026-11-10T20:00:21Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:3e4e8ffada55b704f149c3709c7dc5a853c4bde2c620a0935b10ca73613fa25c",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments",
+   "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+   "published_at": "2026-11-10T19:31:11Z",
+   "published_raw": "Tue, 10 Nov 2026 14:31:11 -0500",
+   "categories": [
+    "security",
+    "Cloud"
+   ],
+   "description": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:82e4e1ef691cc125c922e3e02cc79759e4f7d74c7b23426ff1d1ebf31df985a5",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day",
+   "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+   "published_at": "2026-11-10T19:07:36Z",
+   "published_raw": "Tue, 10 Nov 2026 14:07:36 -0500",
+   "categories": [
+    "security",
+    "Microsoft"
+   ],
+   "description": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:4d844152923c736724adc8df7b477aa382a5367f4dbe81f739d07b6bb567acd7",
    "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers",
