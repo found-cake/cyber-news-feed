@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-10T16:00:28Z",
+ "updated_at": "2026-11-10T17:00:27Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-10T16:00:28Z",
+  "last_success_at": "2026-11-10T17:00:27Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:4d844152923c736724adc8df7b477aa382a5367f4dbe81f739d07b6bb567acd7",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers",
+   "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+   "published_at": "2026-11-10T16:17:16Z",
+   "published_raw": "Tue, 10 Nov 2026 11:17:16 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:77e6e3750a79c537db43df0cacf99b1f06c95bffbfa697d997aa12d396cf65bb",
    "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets",
