@@ -1,15 +1,86 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-10T17:00:27Z",
+ "updated_at": "2026-11-10T18:00:23Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-10T17:00:27Z",
+  "last_success_at": "2026-11-10T18:00:23Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:9f6f483f0ccf40c08a8cdd462dc2653b7230524e13d3b84cb3769685c34172ec",
+   "url": "https://cybersecuritynews.com/sap-proxygate-and-icm2shell-flaws",
+   "title": "Hackers Can Exploit SAP PROXYGATE and ICM2SHELL Flaws for Unauthorized Full System Access",
+   "published_at": "2026-11-10T17:32:01Z",
+   "published_raw": "Tue, 10 Nov 2026 17:32:01 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability",
+    "Vulnerability News"
+   ],
+   "description": "<p>SAP has released fixes for PROXYGATE and ICM2SHELL, critical security flaws that could let attackers take control of SAP systems without signing in. Disclosed during the November 10, 2026, Security Patch Day, the vulnerabilities carry maximum CVSS scores of 10.0 and affect core components used across business applications. Onapsis Research Labs discovered and reported both [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/sap-proxygate-and-icm2shell-flaws/\">Hackers Can Exploit SAP PROXYGATE and ICM2SHELL Flaws for Unauthorized Full System Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=171447",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/SAP-PROXYGATE-ICM2SHELL-Flaws.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "171447",
+     "content_encoded": "<p class=\"wp-block-paragraph\">SAP has released fixes for PROXYGATE and ICM2SHELL, critical security flaws that could let attackers take control of SAP systems without signing in.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Disclosed during the <a href=\"https://cybersecuritynews.com/sap-security-patch-day-november/amp/\" target=\"_blank\" rel=\"noreferrer noopener\">November 10, 2026, Security Patch Day</a>, the vulnerabilities carry maximum CVSS scores of 10.0 and affect core components used across business applications. Onapsis Research Labs discovered and reported both issues.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaws allow attackers with network access to run operating system commands under the <code>&lt;sid>adm</code> account, which owns the SAP installation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This gives them control over the affected SAP environment, though it does not automatically mean root access to the underlying server. Business data, stored credentials, application settings, and system availability could all be at risk.</p>\n\n\n\n<h2 id=\"h-proxygate-targets-sap-gateway-trust\" class=\"wp-block-heading\"><strong>PROXYGATE Targets SAP Gateway Trust</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://onapsis.com/blog/proxygate-cve-2026-89103-sap-netweaver-gateway-threat-advisory/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">PROXYGATE, tracked as CVE-2026-89103,</a> affects the SAP Gateway, a component that handles communication between SAP systems and external programs. Unlike problems caused by weak gateway rules, this kernel vulnerability can remain exploitable even when administrators have secured the commonly checked <code>secinfo</code> and <code>reginfo</code> access control lists.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The weakness lies in how the gateway decides whether a request comes from a trusted internal server. When its proxy policy allows the connection, crafted requests can make an outside attacker appear internal. The gateway then accepts requests that its existing rules permit for trusted systems, potentially starting commands chosen by the attacker.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Exposure depends on the less commonly reviewed <code>prxyinfo</code> proxy access list and related settings. A restrictive policy blocks exploitation from untrusted networks, while permissive or missing rules can leave systems exposed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The affected gateway runs across ABAP, AS Java, dual-stack, and standalone deployments, widening the scope beyond a single application type.</p>\n\n\n\n<h2 id=\"h-icm2shell-affects-web-traffic-handling\" class=\"wp-block-heading\"><strong>ICM2SHELL Affects Web Traffic Handling</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">According to the <a href=\"https://onapsis.com/blog/icm2shell-cve-2026-76964-cve-2026-89126-sap-netweaver-web-dispatcher-threat-advisory/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Onapsis ICM2SHELL advisory</a>, the second flaw involves memory corruption in shared SAP kernel code that processes WebSocket traffic. CVE-2026-76964 affects Internet Communication Manager, while CVE-2026-89126 affects SAP Web Dispatcher, including its SAP HANA XS component. Cybersecurity News’s <a href=\"https://cybersecuritynews.com/sap-security-patch-day-november/amp/\" target=\"_blank\" rel=\"noreferrer noopener\">November SAP patch coverage</a> also identifies the critical ICM issue.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Attackers who can reach an affected HTTP or HTTPS port could corrupt process memory, execute commands, or crash the service. WebSocket support is enabled by default, even where organizations do not actively use it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Some SAP S/4HANA services accept WebSocket connections without authentication, removing the need for stolen credentials or user interaction.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Onapsis reported no observed exploitation of either vulnerability at publication. That does not establish that all environments are safe. Earlier, unrelated SAP attacks show the potential business impact, including the <a href=\"https://cybersecuritynews.com/sap-netweaver-vulnerability-exploited-malware/\" target=\"_blank\" rel=\"noreferrer noopener\">NetWeaver compromise used to deploy Auto-Color malware</a>. Those incidents are separate from PROXYGATE and ICM2SHELL.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The PROXYGATE technical advisory warns that patching alone may not resolve exposure. Most affected kernel releases require the relevant update plus <code>gw/acl_mode_proxy = 1</code>. Administrators must also restrict permissive <code>prxyinfo</code> rules. Unsupported kernels need an upgrade to a maintained, compatible release, and changes must cover every application server.</p>\n\n\n\n<p class=\"wp-block-paragraph\">SAP addresses ICM2SHELL through Security Notes 3778530 and 3778556. Teams should prioritize exposed Web Dispatcher and ICM services, then verify fixes across their SAP estate.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Gateway access should be limited to hosts that need it. Network restrictions reduce exposure, but they do not replace complete patching and required configuration changes.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/sap-proxygate-and-icm2shell-flaws/\">Hackers Can Exploit SAP PROXYGATE and ICM2SHELL Flaws for Unauthorized Full System Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:db39aad84838db0dc7a187029c68485cd9247e711b83b6e172dfb268b4efb09a",
+   "url": "https://cybersecuritynews.com/railway-details-data-breach",
+   "title": "Railway Reveals How Hackers Used AI Agents to Steal API Keys and Rack Up $740,000 in Charges",
+   "published_at": "2026-11-10T17:19:58Z",
+   "published_raw": "Tue, 10 Nov 2026 17:19:58 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Data Breach"
+   ],
+   "description": "<p>Railway has revealed how an attacker used AI agents, a build system flaw, and cloud access mistakes to steal customer secrets and generate an estimated $740,000 in unauthorized charges. Its November 10 report describes an attack that crossed several internal systems while engineers worked to close multiple entry points. The findings expand on the earlier [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/railway-details-data-breach/\">Railway Reveals How Hackers Used AI Agents to Steal API Keys and Rack Up $740,000 in Charges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=171449",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Railway-Details-Data-breach.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "171449",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Railway has revealed how an attacker used AI agents, a build system flaw, and cloud access mistakes to steal customer secrets and generate an estimated $740,000 in unauthorized charges. Its November 10 report describes an attack that crossed several internal systems while engineers worked to close multiple entry points.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The findings expand on the earlier <a href=\"https://cybersecuritynews.com/railway-security-incident/\" target=\"_blank\" rel=\"noreferrer noopener\">Railway security incident disclosure</a>. Up to 1.85% of workspaces, roughly 100,000, could have had environment variables decrypted. This is an upper limit, not a confirmed count of workspaces with stolen keys, because available logs identify affected environments rather than individual secrets.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The first successful exploit occurred at 07:28 UTC on October 20. A previously unknown flaw let the attacker partially escape the build system’s file isolation and read files on its host machine. Those files exposed a credential that build servers used to access internal services and push completed images.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That credential carried more trust than intended. Railway’s Temporal task system accepted it, allowing the attacker to read stored histories from 353 builds, including secrets. Access to cached repository snapshots also exposed Railway’s internal codebase, giving AI agents a map to search for weaknesses and test several routes at once.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Railway said the attacker used models with safety limits removed through an agent framework similar to ARTEX. Engineers detected unusual registry API calls at 13:58 UTC and later replaced the stolen credential. However, the copied codebase helped the attacker find another route after Railway blocked the initial entry point.</p>\n\n\n\n<h2 id=\"h-cloud-trust-error-exposed-encrypted-secrets\" class=\"wp-block-heading\"><strong>Cloud Trust Error Exposed Encrypted Secrets</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">According to <a href=\"https://blog.railway.com/p/incident-report-october-security-incident\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Railway’s detailed incident report</a>, an incorrect OpenID Connect, or OIDC, trust configuration exposed a short-lived cloud credential at 03:26 UTC on October 21. The attacker used it to retrieve internal credentials and an SSH private key, then entered a machine responsible for coordinating customer workloads.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That machine had network access to the production database and another credential able to authorize secret decryption. The attacker retrieved encrypted variables and used Railway’s key management service to decrypt some values. This was credential abuse, not evidence of broken encryption. Database queries specifically searched for AI provider key names.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Railway believes stolen keys reached services that relay or resell AI access, potentially supporting <a href=\"https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">model distillation</a>. However, it has not established whether the intruder operated those services. <a href=\"https://www.wiz.io/blog/black-october-for-ai-developer-platforms\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Wiz’s “Black October” investigation</a> documents the wider credential theft pattern but does not independently attribute the Railway breach.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The stolen data included linked-account tokens for 1,852 users, which Railway reset. Investigators found no Railway account logins using stolen credentials and no evidence of customer database access. The resulting charges reflect <a href=\"https://cybersecuritynews.com/llmjacking-attack/\" target=\"_blank\" rel=\"noreferrer noopener\">LLMjacking attacks</a>, where criminals use stolen credentials to consume paid AI services at victims’ expense. Railway estimated unauthorized spending reached approximately $740,000.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Railway revoked credentials, rebuilt internal systems, and restored builds for every plan by October 22. Its <a href=\"https://blog.railway.com/p/preliminary-report-october-security-incident\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">preliminary report</a> outlined immediate recovery steps. Customers should rotate potentially exposed secrets, review provider usage, and report fraudulent charges.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Railway says it is working with providers on refunds and will cover breach-related charges where providers decline reimbursement, rather than leaving affected customers to absorb those losses.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/railway-details-data-breach/\">Railway Reveals How Hackers Used AI Agents to Steal API Keys and Rack Up $740,000 in Charges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:239dcd7c87f826abc15e1bfeaed06a6c139b046e51f565754282e297b1826441",
    "url": "https://cybersecuritynews.com/notion-confirms-data-breach",
