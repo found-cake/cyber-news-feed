@@ -1,15 +1,60 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-10T15:00:25Z",
+ "updated_at": "2026-11-10T16:00:28Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-10T15:00:25Z",
+  "last_success_at": "2026-11-10T16:00:28Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:77e6e3750a79c537db43df0cacf99b1f06c95bffbfa697d997aa12d396cf65bb",
+   "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets",
+   "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
+   "published_at": "2026-11-10T15:59:19Z",
+   "published_raw": "Tue, 10 Nov 2026 10:59:19 -0500",
+   "categories": [
+    "security",
+    "Apple",
+    "CryptoCurrency",
+    "Mobile"
+   ],
+   "description": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login credentials. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:3d246f2dc682166bf7124d2d772dbcf9b66fc3ba21c821dd0ca2c02d567513ca",
+   "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric",
+   "title": "Ransomware recovery is now a client retention metric",
+   "published_at": "2026-11-10T15:01:11Z",
+   "published_raw": "Tue, 10 Nov 2026 10:01:11 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response times, transparency, and client retention. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+   "authors": [
+    {
+     "name": "Sponsored by Kaseya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:9cab894bedb03d90d23f57c259bb4b1acd1a9ac4153462c3b5ca7d8899b60e5c",
    "url": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities",
@@ -1539,29 +1584,6 @@
    ],
    "description": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
-   "authors": [
-    {
-     "name": "Lawrence Abrams",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:d14f290bbf9e3d459f59bb2b337c402b8918e863805cdbb06722140c6906a429",
-   "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones",
-   "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
-   "published_at": "2026-10-31T15:35:11Z",
-   "published_raw": "Sat, 31 Oct 2026 11:35:11 -0400",
-   "categories": [
-    "security",
-    "Google",
-    "Mobile"
-   ],
-   "description": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
    "authors": [
     {
      "name": "Lawrence Abrams",
