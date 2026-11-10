@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-10T06:00:22Z",
+ "updated_at": "2026-11-10T07:00:27Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-10T06:00:22Z",
+  "last_success_at": "2026-11-10T07:00:27Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -112,6 +112,87 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK5J_qkmStJVdWJYvNtd4lb2cRfPMaSvu1dEKp8tXOjw71kt_fRGGfdPr60HL5agJ8NMBYO5sH7jVvzMWXlLW1fq0xilaF0GyLQHCznSjHeos7sdP_Xwmd6OWyzKv8Yq8m-Z0Hn3x15GBU8AySu2A27OlIWiuAW9ch0iZuXxTpELRSQ6uRdW9nLK4uXQg/s260-e100/picus-main.png",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:749cd79bf9b6b051f921dd2a0964c78940dcc9dddee5e4ca849f6e61ef2c0c97",
+   "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+   "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+   "published_at": "2026-11-10T06:52:54Z",
+   "published_raw": "2026-11-10T12:22:54.994+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component.\n\nUse-after-free bugs typically occur when a program attempts to access a memory location after",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3588381358786198838",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjk5S9J891bQS8W6TgyoiEPQ7geGia8FqqWjckFlo9qMH2wXIXv-7gyod1XKUpI9BfgcliN2Re8A85rJ121jxqgfnw1LsjYBvAYtX7694GVgMF7B94G0n5MzqMaKqLAbr-No1nqrN0gyF8MFR_bYQIYlqiTh_FzobmWrq4NOCLbcW_78uEMMW5FE4eqJoo/s260-e100/chrome-0day.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:f0d40b6eb5cac62ee86cf717f406d05317d47708def4f82c98769f895c4ecee0",
+   "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+   "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
+   "published_at": "2026-11-10T06:44:36Z",
+   "published_raw": "2026-11-10T12:14:36.676+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell.\n\n\"As a precautionary measure, we are temporarily taking our Hosted N-central environment offline while we take the necessary actions to secure the",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4950111518478733942",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-DkzHcZpJVVEU3e3wmGB2DiyRsnWXkf_2bfT1fiDJG4Wn92cartbhyphenhyphenqZHOjXGasigHqJAyXM0kjOlYipgEkahrCi9KGa1s8gpINVT-oFldgOc1bZMUQ-nmFqsSMNwIe6463fXOxSqX1dNroXgwn9MwsmCx41jvPdtdygITxfKyTRDUWKS19YVTFTZY8sr/s260-e100/n-able.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:4703b2a7b4d7d2a2a912c1f3b529a5dedc5e64790d69ffd02c7609f716ee7f5d",
+   "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+   "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+   "published_at": "2026-11-10T06:31:42Z",
+   "published_raw": "2026-11-10T12:01:42.715+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-123218 (CVSS score: 9.8) - An incorrect authorization vulnerability",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8252543967038904496",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVAsrcYxVs8sJe7IiSD6WkTC4yPv0eLfup7dwcsS0NLcAAgoY__wyC3UFCR90PL2ziKCEW-vMNIEQXES-8uAG-MxuXlyIDdQGeNREm8yFv3tbvsCVXXRyRGT4ORirvcVKP_uD62XHYy9w3x_P0o7XzkguJPwq_1vV2jPxxnZWbhAHHUJ3YJ6HbTlXb0shyphenhyphen/s260-e100/openssh.png",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -713,87 +794,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:f4b7ff866caa5870696391c3e909a8ced18118ed8f39c23d3ca0496f20627acd",
-   "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-   "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-   "published_at": "2026-11-04T14:27:52Z",
-   "published_raw": "2026-11-04T19:57:52.131+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.\n\n\"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8434478043442576539",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx1cus2o8fkYGLhQu9BfPgGtAUwnmTAMucLagfAodBuRoYnyxGIJKgpqtKFyCSV-WSG3pDqmPujhj-iwoOZB-zF8JjbQMrLzDHYtdTPA3hD3Kc3rqYQM4CQwkICwZkh8K6O8ZSt-WAA_PBoUA6lHwh_55dbDlKizsjzcTN847c9BSHsWHmrAP42JHRHIYS/s260-e100/ios-exploit.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:eeeb8b0c17d40904542056018dd25d547186eacdabf3d70973c067d56f264505",
-   "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-   "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-   "published_at": "2026-11-04T12:07:04Z",
-   "published_raw": "2026-11-04T17:37:04.727+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in&nbsp;an advisory&nbsp;and fixed it in versions 8.1.4.1 and 8.0.5.2.\n\nThe flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6632831546264447310",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaJWnScdkMx0R5_Zt00NtYVNjNavBR7IMrLzJM_tZGMTpZtAvV7uNWt6BQbBrlUzH-aBoj_ZmMEOG__aTA8VmfTeiHUR9gfqNe2eYf9fSM-sYQkmCOg10qZ3ZaKyM_RS1QUQhm8s5NMw-xnYaWMDgDakmFyp9tbJgQ4hOZTf0cxe9E6x7uWt3JeN6bS3k/s260-e100/ruby-rails.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:a60c29c498ad06a8e5ba45bd928d3edee22489e728f52dd05496a46e8d98fb8f",
-   "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-   "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-   "published_at": "2026-11-04T11:46:27Z",
-   "published_raw": "2026-11-04T17:16:27.476+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0.\n\nDom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project said in an&nbsp;advisory&nbsp;on November 3.\n\nAll Xen versions from 4.6 onward are vulnerable,",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3893154213063107618",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVPXiuTBfhBnpwaZHMfSDWymKJrXbS88kOEO1Xuh5t11qAnwSKeFTHGQy6ZG9Sr2N-wRYrJg58x3lKFbybvU9p1a85lxaCHfBa61vO1DfjEhUi5Yzf6bQS1eN7Mu-s_sUwkE-JGc-UznJ1p0qfmwMDusXFzWawXKXMt6jj-vENxyQG12uAUDUe0p0gtg/s260-e100/xen.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:ee5e2ceda03abe1e3e50107e66b55dd1b6946aaa557a689bc746ce443472aac7",
    "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
    "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
@@ -1219,6 +1219,87 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeqP4vPt6j2lLPFj77A_1OthmSKb8mItfBrX_q8sQCAUVgTry1FxKizDI2SCLS4CglfjgbVkaMDN8ainqoOZm2pdaF6xw7sU4STZhwIFPCLSz84YXQTVx2tquPo7YJsZhgOWcD3V_w5td9BA_vVuOu1cFcrgL3SXyLF4E24IyGotrzDcbJ-M1mA85biDuW/s260-e100/1000120841.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:f4b7ff866caa5870696391c3e909a8ced18118ed8f39c23d3ca0496f20627acd",
+   "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+   "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+   "published_at": "2026-11-04T14:27:52Z",
+   "published_raw": "2026-11-04T19:57:52.131+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.\n\n\"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8434478043442576539",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx1cus2o8fkYGLhQu9BfPgGtAUwnmTAMucLagfAodBuRoYnyxGIJKgpqtKFyCSV-WSG3pDqmPujhj-iwoOZB-zF8JjbQMrLzDHYtdTPA3hD3Kc3rqYQM4CQwkICwZkh8K6O8ZSt-WAA_PBoUA6lHwh_55dbDlKizsjzcTN847c9BSHsWHmrAP42JHRHIYS/s260-e100/ios-exploit.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:eeeb8b0c17d40904542056018dd25d547186eacdabf3d70973c067d56f264505",
+   "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+   "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+   "published_at": "2026-11-04T12:07:04Z",
+   "published_raw": "2026-11-04T17:37:04.727+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in&nbsp;an advisory&nbsp;and fixed it in versions 8.1.4.1 and 8.0.5.2.\n\nThe flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6632831546264447310",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaJWnScdkMx0R5_Zt00NtYVNjNavBR7IMrLzJM_tZGMTpZtAvV7uNWt6BQbBrlUzH-aBoj_ZmMEOG__aTA8VmfTeiHUR9gfqNe2eYf9fSM-sYQkmCOg10qZ3ZaKyM_RS1QUQhm8s5NMw-xnYaWMDgDakmFyp9tbJgQ4hOZTf0cxe9E6x7uWt3JeN6bS3k/s260-e100/ruby-rails.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:a60c29c498ad06a8e5ba45bd928d3edee22489e728f52dd05496a46e8d98fb8f",
+   "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+   "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+   "published_at": "2026-11-04T11:46:27Z",
+   "published_raw": "2026-11-04T17:16:27.476+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0.\n\nDom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project said in an&nbsp;advisory&nbsp;on November 3.\n\nAll Xen versions from 4.6 onward are vulnerable,",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3893154213063107618",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVPXiuTBfhBnpwaZHMfSDWymKJrXbS88kOEO1Xuh5t11qAnwSKeFTHGQy6ZG9Sr2N-wRYrJg58x3lKFbybvU9p1a85lxaCHfBa61vO1DfjEhUi5Yzf6bQS1eN7Mu-s_sUwkE-JGc-UznJ1p0qfmwMDusXFzWawXKXMt6jj-vENxyQG12uAUDUe0p0gtg/s260-e100/xen.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
