@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-10T05:00:22Z",
+ "updated_at": "2026-11-10T06:00:22Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-10T05:00:22Z",
+  "last_success_at": "2026-11-10T06:00:22Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b92499064874fa3abf16039f61bdc22648ad79f052aa6811dc403ec728303890",
+   "url": "https://cybersecuritynews.com/fireworks-ai-data-breach",
+   "title": "Hackers Breach Fireworks AI Through Third-Party Cloud Provider to Steal Customer Data",
+   "published_at": "2026-11-10T05:17:39Z",
+   "published_raw": "Tue, 10 Nov 2026 05:17:39 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Data Breach"
+   ],
+   "description": "<p>Fireworks AI has disclosed a wider security breach involving customer account details, billing records, datasets, and incomplete model weights. In a November 9, 2026 update, the company said attackers reached its development machines through a third-party cloud provider, expanding the impact beyond the exposed credentials reported in October. The findings change the picture presented in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fireworks-ai-data-breach/\">Hackers Breach Fireworks AI Through Third-Party Cloud Provider to Steal Customer Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=171189",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Fireworks-AI-Data-Breach1.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "171189",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Fireworks AI has disclosed a wider security breach involving customer account details, billing records, datasets, and incomplete model weights. In a November 9, 2026 update, the company said attackers reached its development machines through a third-party cloud provider, expanding the impact beyond the exposed credentials reported in October.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The findings change the picture presented in its first disclosure. Fireworks initially reported unauthorized access to secrets used in evaluation jobs across a limited number of accounts. Its latest investigation confirms access to additional customer information, including portions of unfinished models and datasets belonging to certain customers.</p>\n\n\n\n<h2 id=\"h-fireworks-ai-data-breach\" class=\"wp-block-heading\"><strong>Fireworks AI Data Breach</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The newly disclosed attack path began on October 23, when a cloud provider hosting Fireworks research and development machines experienced a security incident. On October 24, an unauthorized party used that opening to access Fireworks development machines and run an unauthorized workload, causing further customer data exposure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Fireworks said it detected the activity that day, took immediate response measures, and closed known critical vulnerabilities. The company has not named the cloud provider or disclosed specific vulnerabilities. It reported no further detected successful access by the attacker on its customer platform as of October 25.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The earlier incident began on October 6, when Fireworks detected misuse of internal credentials. Attackers accessed environment variables used by evaluation jobs, potentially capturing API keys and tokens. Fireworks began customer notifications on October 7 and later revoked affected keys, employee credentials, and service-account tokens.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to the <a href=\"https://fireworks.ai/security/bulletins/october-2026-security-incident-update\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">updated security bulletin</a>, the affected internal application exposed resource identifiers, names, descriptions, and creation times. Billing information included billing and shipping addresses, invoices, payment history, balances, and credit usage. Fireworks does not store payment card numbers and said those numbers were unaffected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For certain customers, attackers accessed a subset of incomplete model weights and datasets. The disclosure does not establish theft of complete production models. Fireworks also reported no detected impact to Inference, Training SDK, or Nexus, which operate with zero data retention by default. Its investigation remains ongoing.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Fireworks said evidence points to a financially motivated cybercriminal group seeking to sell unauthorized access to large language models through illicit routing gateways, known as LLMJacking. Cybersecurity News previously covered <a href=\"https://cybersecuritynews.com/llmhijacking-attacks/\" target=\"_blank\" rel=\"noreferrer noopener\">LLMHijacking attacks and large cloud bills</a>, explaining how stolen cloud credentials enable resale of paid AI services.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company has notified law enforcement and brought in Palo Alto Networks Unit 42 for forensic support. Its response includes replacing credentials, reducing elevated permissions, isolating affected systems, and tightening storage access. Related reporting on <a href=\"https://cybersecuritynews.com/autonomous-ai-agents/\" target=\"_blank\" rel=\"noreferrer noopener\">cloud credential theft using autonomous AI agents</a> highlights the broader risk around compromised cloud accounts.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Fireworks has disabled self-service dataset uploads and downloads for Batch Inference and dataset-based training during the investigation. Training SDK remains available, while Fireworks Lab-based training runs in an isolated environment with added network and storage protection. The company is directly notifying customers whose data was affected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Its <a href=\"https://fireworks.ai/security/bulletins/october-2026-security-incident\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">original customer guidance</a> advises affected users to replace revoked Fireworks keys and rotate exposed third-party credentials with their issuing providers. Deleting a stored secret does not invalidate the underlying credential. Customers should also review access logs, unfamiliar users, API keys, training jobs, and datasets for unauthorized activity.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/fireworks-ai-data-breach/\">Hackers Breach Fireworks AI Through Third-Party Cloud Provider to Steal Customer Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:3bba5bf83be077b474958d6bd0e223e7dfe6147b676af786fdb8a96891f756de",
    "url": "https://cybersecuritynews.com/google-chrome-0-day-exploited",
