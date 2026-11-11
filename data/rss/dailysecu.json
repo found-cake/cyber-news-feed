@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-11-11T11:00:41Z",
+ "updated_at": "2026-11-11T12:00:38Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-11T11:00:41Z",
+  "last_success_at": "2026-11-11T12:00:38Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -1977,132 +1977,6 @@
    "authors": [
     {
      "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:987bdd24913bacfafafd37ff0704586aaee09c8de142fe84f02bd2e2a6a22080",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209223",
-   "title": "소프트웨어 공급망 노리는 보안 위협…레드햇 Konflux CI서 고위험 취약점 발견",
-   "published_at": "2026-11-01T11:53:03Z",
-   "published_raw": "2026-11-01 11:53:03",
-   "categories": [
-    "이슈"
-   ],
-   "description": "레드햇(Red Hat)이 관리하는 소프트웨어 개발·배포 플랫폼 콘플럭스(Konflux CI)에서 인증정보 탈취와 임의 명령 실행으로 이어질 수 있는 보안 취약점 3건이 공개됐다.10월 31일 공개된 취약점은 CVE-2026-114217, CVE-2026-116964, CVE-2026-117681로, 모두 CVSS 8.0점 이상의 높은 위험도를 가진다.CVE-2026-114217(CVSS 8.6)은 지속적 통합(CI) 작업환경에 깃허브(GitHub) 접근 토큰이 평문으로 저장되는 문제다. 공격자가 해당 환경에 접근하면 인증정보를 탈취",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:6e03494e9fcdb2471174f6019f55ef59f6ef4cc5b1873cb7c7a9b113ee33ee56",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209222",
-   "title": "워드프레스 심플폼에 치명적 보안 취약점…로그인 없이 악성파일 업로드 가능",
-   "published_at": "2026-11-01T11:48:04Z",
-   "published_raw": "2026-11-01 11:48:04",
-   "categories": [
-    "이슈"
-   ],
-   "description": "워드프레스 기반 웹사이트에서 사용하는 입력양식 제작 플러그인 심플폼(SimpleForm)에서 로그인하지 않은 공격자가 서버에 악성파일을 업로드할 수 있는 치명적인 보안 취약점이 공개됐다.10월 31일 공개된 취약점은 CVE-2026-118235로, CVSS 3.1 기준 위험도는 9.8점이다. 영향을 받는 버전은 심플폼 3.10.2 이하이다.이번 취약점은 파일 업로드 과정에서 파일명과 확장자를 제대로 검증하지 못해 발생한다. 공격자가 파일명을 특수하게 조작하면 허용되지 않은 파일 형식도 정상적인 파일로 인식해 서버에 저장할 수 있다.",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:ca47be912b05a0d41064e74aaf075bab7040f52cb353ab7ab4492b7493fe36ba",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209221",
-   "title": "워드프레스 쇼핑몰 플러그인에 CVSS 9.8 취약점…국내 쇼핑몰도 긴급 점검 필요",
-   "published_at": "2026-11-01T11:41:28Z",
-   "published_raw": "2026-11-01 11:41:28",
-   "categories": [
-    "이슈"
-   ],
-   "description": "워드프레스 기반 온라인 쇼핑몰에서 사용하는 PDF 청구서 생성 플러그인에서 인증되지 않은 공격자가 서버에서 악성코드를 실행할 수 있는 치명적인 보안 취약점이 발견됐다.이번 취약점은 우커머스(WooCommerce)용 플러그인인 ‘PDF Invoice for WooCommerce’에서 확인됐으며, CVE-2026-109220으로 등록됐다. 위험도는 CVSS 3.1 기준 9.8점으로 평가됐다.영향받는 버전은 7.1.1 이하이며, 개발사는 취약점을 수정한 7.2.0 버전을 제공하고 있다.주문 메모 PDF 변환 과정에서 원격코드실행 위험취약",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:bcdf47388f3e2416c55b8278999115f2b078480e377cef11735b744d3028bc87",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209220",
-   "title": "워드프레스 프로젝트 매니저 취약점 공개…원격코드실행 위험에 긴급 업데이트",
-   "published_at": "2026-11-01T11:31:11Z",
-   "published_raw": "2026-11-01 11:31:11",
-   "categories": [
-    "이슈"
-   ],
-   "description": "워드프레스 기반 프로젝트 관리 플러그인 ‘프로젝트 매니저(Project Manager)’에서 인증되지 않은 공격자가 서버에서 임의의 명령을 실행할 수 있는 치명적인 보안 취약점이 공개됐다.10월 31일 공개된 취약점은 CVE-2026-116512로, 공통 취약점 평가 시스템(CVSS) 3.1 기준 9.8점을 받았다. 영향받는 버전은 4.1.1 이하 전체 버전이다.이번 취약점은 외부 요청 매개변수를 처리하는 과정에서 입력값 검증과 권한 확인이 적절하게 이뤄지지 않아 발생한다. 공격자는 조작된 요청을 통해 별도 인증 없이 서버에서 악의",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:c24f08850eec3a7038e152f12fb773a17fefb8dfdd63905a1659d86de9d49929",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209219",
-   "title": "일본 선불카드 ‘V프리카’ 협력사 해킹, 고객 개인정보 유출 우려",
-   "published_at": "2026-11-01T11:25:22Z",
-   "published_raw": "2026-11-01 11:25:22",
-   "categories": [
-    "이슈"
-   ],
-   "description": "일본 카드회사 라이프카드(Life Card)가 선불카드 서비스 ‘V프리카(V-Preca)’의 외부 위탁업체에서 해킹 사고가 발생해 고객 개인정보가 유출됐을 가능성이 있다고 10월 31일 발표했다.이번 사고는 V프리카 관련 업무를 담당하는 외부 업체의 시스템에 비인가 접근이 발생하면서 확인됐다. 라이프카드는 개인정보 유출 여부와 피해 범위를 조사하고 있으며, 고객 보호를 위해 V프리카 서비스의 일부 기능을 일시 중단했다.현재까지 유출 가능성이 있는 개인정보 항목과 피해 고객 수는 확정되지 않았다. 해커의 침입 경로와 구체적인 공격 방",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "우진영 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:29e9ee2d6980bbee675201be565a372f1490e5c5e2324853805922dc5e427ee4",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209218",
-   "title": "일본 디지털증권 플랫폼 해킹, 채권 투자자 수천 명 개인정보 유출 우려",
-   "published_at": "2026-11-01T11:19:47Z",
-   "published_raw": "2026-11-01 11:19:47",
-   "categories": [
-    "이슈"
-   ],
-   "description": "일본에서 디지털증권 관련 외부 서비스가 해킹당해 증권사와 채권 발행기업의 고객정보가 유출됐을 가능성이 제기됐다.일본 NTT데이터는 10월 31일 디지털증권 관련 위탁 서비스에서 비인가 접근이 발생한 사실을 공개하고, 채권 구매자 대상 특전 제공 서비스인 ‘STdirectServices’를 중단했다.라쿠텐증권은 디지털 특전 채권 3개 종목의 구매자 정보 연인원 362건이 외부로 반출됐을 가능성이 있다고 밝혔다.킨테츠그룹홀딩스도 채권 구매자 2,678명의 이름과 구매금액이 유출됐을 가능성을 발표했다. 증권 계좌번호와 비밀번호는 유출 대",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "우진영 기자",
      "uri": "",
      "email": ""
     }
