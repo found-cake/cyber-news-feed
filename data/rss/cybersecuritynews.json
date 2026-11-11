@@ -1,15 +1,48 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-11T15:00:13Z",
+ "updated_at": "2026-11-11T16:00:11Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-11T15:00:13Z",
+  "last_success_at": "2026-11-11T16:00:11Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:5e61b0dcd30a8b8818431f2f8c413aa1f7d8b1fa1a29a5e52f26985cc5f4d23e",
+   "url": "https://cybersecuritynews.com/criminal-ip-ti-feed-app-splunkbase",
+   "title": "Criminal IP Launches New TI Feed App on Splunkbase for Automated Threat Detection",
+   "published_at": "2026-11-11T15:17:20Z",
+   "published_raw": "Wed, 11 Nov 2026 15:17:20 +0000",
+   "categories": [
+    "Press Release"
+   ],
+   "description": "<p>Torrance, USA, November 11th, 2026, CyberNewswire Criminal IP, the AI-powered threat intelligence and attack surface management platform developed by AI SPERA, has launched the Criminal IP TI Feed app for Splunk. Available through Splunkbase, the app automatically correlates Criminal IP threat intelligence with firewall traffic logs collected in Splunk. The integration enables security teams to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/criminal-ip-ti-feed-app-splunkbase/\">Criminal IP Launches New TI Feed App on Splunkbase for Automated Threat Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=171697",
+   "authors": [
+    {
+     "name": "Cybernewswire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYYueroT5GGU3UXSQLgZwiNOBFspCsGh3Cb85Ir95IwVyDK6lnTPILAXkX9Pul5SSEz2l2Y6eAm2V-GX4zkQADSO-7zwPoQm0Zg7aUhxmY5TKXqaSiNyDlkXij-gMqQKzvlJykGfi-3YLmKutK-v9lkmaFm4og47YxjWyBsDpnRKRUgLCp2BBLwASqc1ss/s1600/CSN%20AND%20GBH%20(2).webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "171697",
+     "content_encoded": "<p class=\"wp-block-paragraph\"><strong>Torrance, USA, November 11th, 2026, CyberNewswire</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.criminalip.io/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Criminal IP</a>, the AI-powered threat intelligence and attack surface management platform developed by AI SPERA, has launched the Criminal IP TI Feed app for Splunk. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Available through <a href=\"https://splunkbase.splunk.com/app/9625\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Splunkbase</a>, the app automatically correlates Criminal IP threat intelligence with firewall traffic logs collected in Splunk.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The integration enables security teams to determine whether organizational assets communicated with malicious IP addresses and whether sessions were successfully established. </p>\n\n\n\n<p class=\"wp-block-paragraph\">It also expands Criminal IP’s existing Splunk ecosystem beyond individual IP lookups and fraud detection, helping SOC teams identify high-priority threats within their existing Splunk workflows.</p>\n\n\n\n<h2 id=\"h-connecting-threat-intelligence-with-network-activity\" class=\"wp-block-heading\"><strong>Connecting Threat Intelligence with Network Activity</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Security teams often receive large volumes of IP reputation alerts without enough context to determine whether a connection was attempted, blocked, unanswered, or successfully established. </p>\n\n\n\n<p class=\"wp-block-paragraph\">This can make it difficult to distinguish routine scanning from communications that require immediate investigation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Criminal IP TI Feed app addresses this challenge by correlating inbound and outbound threat intelligence feeds with firewall traffic already indexed in Splunk. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Network activity is classified according to observed session outcomes, including completed, unanswered, denied, neutral, and unknown connections.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Severity is also determined using actual firewall activity. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Detections without a completed session cannot exceed the watch tier, while critical detections indicate that a session with a malicious IP was successfully established. </p>\n\n\n\n<p class=\"wp-block-paragraph\">This helps analysts prioritize incidents with the greatest potential impact.</p>\n\n\n\n<h2 id=\"h-automated-correlation-and-retrospective-detection\" class=\"wp-block-heading\"><strong>Automated Correlation and Retrospective Detection</strong></h2>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji9RXMtrEy0Pl-PHom5YvLPkf_d1GBWH6krMo0ucE4OzLj1frWmIqtDwaTp43FLzFLk-7XJkoha7kIFU79uQ5Nji5k5tGbuppgmJMZSML3d8u36gIWJXDTC5SX1BZNQzIze1fCNqDhweTRhHHiJEWFVWa30gjalu-eY6P0sQleXcYeMxn6xY_6BL-SlWQA/s1600/image-7%20(1).webp\" alt=\"\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><em>&lt;The Criminal IP TI Feed Overview dashboard in Splunk highlights completed sessions with malicious IP addresses and shows which assets require immediate attention.&gt;</em></p>\n\n\n\n<p class=\"wp-block-paragraph\">The app downloads Criminal IP TI Feed data every three hours and runs correlation searches against firewall traffic every 10 minutes. Results are written to a dedicated summary index, allowing dashboards and alerts to operate without repeatedly searching large volumes of raw logs.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A daily retrospective search compares the latest Criminal IP threat intelligence against the previous 30 days of firewall traffic. This helps identify historical communications with IP addresses that were not recognized as malicious when the activity originally occurred.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Seven dashboards- Overview, Investigate, All Detections, IP Lookup, Trends, Alerts, and Health- provide visibility into affected assets, malicious IP addresses, traffic direction, session status, severity, detection history, and feed collection health.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The app can also deliver consolidated Slack alerts grouped by malicious IP address and traffic direction. These alerts retain asset-level details, including session counts, timestamps, and transferred data, while throttling repeated notifications to reduce alert fatigue.</p>\n\n\n\n<h2 id=\"h-advancing-intelligence-driven-security-operations\" class=\"wp-block-heading\"><strong>Advancing Intelligence-Driven Security Operations</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">By connecting external threat intelligence with actual network activity, the Criminal IP TI Feed app provides the context analysts need to identify which assets interacted with malicious infrastructure and which detections require immediate attention.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Automating feed collection, log correlation, historical analysis, dashboards, and alerts reduces manual investigation and helps SOC teams respond to meaningful threats more efficiently.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>AI SPERA CEO Byungtak Kang</strong> stated, “Threat intelligence becomes significantly more actionable when connected to the network activity occurring inside an organization. The Criminal IP TI Feed app for Splunk helps security teams identify affected assets and prioritize incidents based on observed session behavior.”</p>\n\n\n\n<h2 id=\"h-about-criminal-ip\" class=\"wp-block-heading\"><strong>About Criminal IP</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.criminalip.io/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Criminal IP</a> is AI SPERA’s flagship cyber threat intelligence platform. Used in more than 150 countries, it provides comprehensive threat visibility through Criminal IP Search, Criminal IP ASM, Criminal IP FDS, and Criminal IP TI Feed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Criminal IP continues to expand its global security ecosystem through integrations and strategic partnerships. Its threat intelligence is also accessible through major cloud and data marketplaces, including Amazon Web Services, Microsoft Azure, and Snowflake.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Users can learn more and download the app from Splunkbase:</p>\n\n\n\n<h2 id=\"h-contact\" class=\"wp-block-heading\"><strong>Contact</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Michael Sena</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>AI SPERA</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>support@aispera.com</strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/criminal-ip-ti-feed-app-splunkbase/\">Criminal IP Launches New TI Feed App on Splunkbase for Automated Threat Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:a79ceb5526a54cce00afa6199528cb9be6cd913b4b215039ea9eaebdcf69b767",
    "url": "https://cybersecuritynews.com/windows-signdrop-zero-day-exploit",

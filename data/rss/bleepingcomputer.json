@@ -1,15 +1,58 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-11T15:00:13Z",
+ "updated_at": "2026-11-11T16:00:11Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-11T15:00:13Z",
+  "last_success_at": "2026-11-11T16:00:11Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:5e323827c0692e3d7550560af2977bfc0d9f80dbaa83cfad55526ebce7b80dc7",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks",
+   "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+   "published_at": "2026-11-11T15:12:59Z",
+   "published_raw": "Wed, 11 Nov 2026 10:12:59 -0500",
+   "categories": [
+    "security",
+    "Artificial Intelligence"
+   ],
+   "description": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:0514c40aecbd33e72fab488902a53779d404b529e187da4965229c3078b1bf3c",
+   "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice",
+   "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
+   "published_at": "2026-11-11T15:01:11Z",
+   "published_raw": "Wed, 11 Nov 2026 10:01:11 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors are sharing rootkit source code, tutorials, and exploits targeting Linux systems. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+   "authors": [
+    {
+     "name": "Sponsored by Flare",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:f829b6f59404fa1c65ddfe0f8db5e77b70f3c2895e345993a283593f2ffb642e",
    "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities",
@@ -1693,28 +1736,6 @@
    "authors": [
     {
      "name": "Lawrence Abrams",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:99e717f0ebbb40f1c39b1a5e09c3208aa87eb1979784d7868c381e50ab076bc5",
-   "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack",
-   "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
-   "published_at": "2026-11-01T15:11:21Z",
-   "published_raw": "Sun, 01 Nov 2026 10:11:21 -0500",
-   "categories": [
-    "security",
-    "Linux"
-   ],
-   "description": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
