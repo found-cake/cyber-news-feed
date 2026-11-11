@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-11T03:00:22Z",
+ "updated_at": "2026-11-11T04:00:21Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-11T03:00:22Z",
+  "last_success_at": "2026-11-11T04:00:21Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:adeb00c611ac82a11e1f46a5612185c39b24028207eea88e4947fd06a65542d2",
+   "url": "https://cybersecuritynews.com/critical-fortinet-flaws-patched",
+   "title": "Critical Fortinet Flaws Expose FortiManager and FortiAnalyzer to Remote Code Execution Without Login",
+   "published_at": "2026-11-11T03:15:16Z",
+   "published_raw": "Wed, 11 Nov 2026 03:15:16 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability",
+    "Vulnerability News"
+   ],
+   "description": "<p>Fortinet has disclosed critical security flaws affecting FortiManager, FortiAnalyzer, and FortiOS, including weaknesses that could let attackers execute code without logging in. Published on November 10, 2026, the disclosures cover management APIs, device communication services, routing, and specific high availability setups. Attack requirements differ, making enabled features and network access central to assessing exposure. Critical [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-fortinet-flaws-patched/\">Critical Fortinet Flaws Expose FortiManager and FortiAnalyzer to Remote Code Execution Without Login</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=171483",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Critical-Fortinet-Flaws-Patched.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "171483",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Fortinet has disclosed critical security flaws affecting FortiManager, FortiAnalyzer, and FortiOS, including weaknesses that could let attackers execute code without logging in.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Published on November 10, 2026, the disclosures cover management APIs, device communication services, routing, and specific high availability setups. Attack requirements differ, making enabled features and network access central to assessing exposure.</p>\n\n\n\n<h2 id=\"h-critical-fortinet-flaws-patched\" class=\"wp-block-heading\"><strong>Critical Fortinet Flaws Patched</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The highest-rated issue, CVE-2026-126170, carries a CVSS score of 9.8. <a href=\"https://fortiguard.fortinet.com/psirt/FG-IR-26-219\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Tracked as FG-IR-26-219</a>, it involves JSON injection in the JSON-RPC API used by FortiManager and FortiAnalyzer. When the JSON API is enabled, crafted requests could allow an unauthenticated attacker to execute code or commands. Systems using the API for automation need close review.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Another critical flaw, CVE-2026-126261, affects FortiManager’s FGFM service. Rated 9.0 and tracked as <a href=\"https://fortiguard.fortinet.com/psirt/FG-IR-26-275\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">FG-IR-26-275</a>, the authorization weakness allows attackers who can reach the FGFM port to send crafted packets and potentially execute code. The problem occurs before the registration password is verified, placing the service itself within the attack path.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CVE-2026-126262, tracked as <a href=\"https://fortiguard.fortinet.com/psirt/FG-IR-26-276\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">FG-IR-26-276</a> and rated 9.3, exposes FortiAnalyzer and FortiManager systems with FortiAnalyzer features enabled to SQL injection through OFTP. An attacker does not need to log in, and successful exploitation could lead to code execution. This makes access to the log transfer service an important part of exposure checks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The disclosures follow the October security releases previously covered in Cyber Security News’ <a href=\"https://cybersecuritynews.com/fortinet-urges-to-patch-critical-flaws/\">Fortinet patch warning</a>. Fortinet released updates before publishing the detailed advisories, giving customers time to upgrade. However, administrators should not assume that installing one October build resolves every November finding, because fixes vary by vulnerability and software branch.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Fortinet’s <a href=\"https://www.fortiguard.com/psirt/FG-IR-26-275\">FGFM advisory</a> lists FortiManager 8.0.0, 7.6.0 through 7.6.7, 7.4.0 through 7.4.5, and 7.2.0 through 7.2.8 as affected by CVE-2026-126261. Fixed releases are 8.0.1, 7.6.8, 7.4.6, and 7.2.9, respectively. Fortinet marks this issue as not known to have been exploited when published.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CVE-2026-126260, <a href=\"https://fortiguard.fortinet.com/psirt/FG-IR-26-274\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">tracked as FG-IR-26-274,</a> adds a separate OFTP risk. Rated 9.0, this pre-authentication server-side request forgery flaw affects FortiAnalyzer and FortiManager with FortiAnalyzer features enabled. It should not be confused with confirmed remote code execution. Its impact involves causing the server to make requests, while the SQL injection issue provides a different attack path.</p>\n\n\n\n<p class=\"wp-block-paragraph\">These weaknesses also show why protecting the browser login page is not enough. FGFM uses TCP port 541, while OFTP uses TCP port 514. Administrative login restrictions do not directly protect those services. Earlier <a href=\"https://cybersecuritynews.com/fortinet-vulnerabilities/\">FortiManager compromise reporting</a> showed how access to a central management appliance could expose sensitive information linked to hundreds of managed firewalls.</p>\n\n\n\n<h2 id=\"h-routing-and-access-controls-also-affected\" class=\"wp-block-heading\"><strong>Routing and Access Controls Also Affected</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The broader release includes CVE-2026-126254, a 9.6-rated numeric truncation flaw in FortiOS BGP handling that requires traffic from a configured iBGP neighbor. CVE-2026-126253, rated 9.3, concerns an OSPF authentication bypass that could permit forged routing advertisements. These are routing risks, not interchangeable examples of management server code execution.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CVE-2026-126229, rated 9.1, could allow an authenticated administrator to access other virtual domains, or VDOMs, outside their permitted scope. Separately, CVE-2026-126259 carries a 9.0 rating and allows command execution with super-admin privileges in specific FortiOS setups involving FGSP with standalone configuration synchronization, or affected autoscale configurations. Neither issue should be described as affecting every deployment equally.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Fortinet’s <a href=\"https://www.fortinet.com/blog/ciso-collective/fortinet-releases-security-hardening-release-for-multiple-products\">security release guidance</a> urges customers to prioritize exposed systems, back up configurations, and monitor unauthorized changes. For CVE-2026-126170, the 8.0 branch requires particular attention because 8.0.3 was listed as forthcoming. Disabling unused JSON API access with <code>set rpc-permit none</code> reduces exposure while administrators verify the latest advisory and plan the appropriate update.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-fortinet-flaws-patched/\">Critical Fortinet Flaws Expose FortiManager and FortiAnalyzer to Remote Code Execution Without Login</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:090498fce6b06a4f57a30051023fad91d4416f07b9f37b09f99c443a4f5ca2e9",
    "url": "https://cybersecuritynews.com/outlook-0-day-vulnerability",
