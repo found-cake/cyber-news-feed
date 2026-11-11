@@ -1,15 +1,121 @@
 {
  "schema_version": 1,
  "source": "boannews",
- "updated_at": "2026-11-11T06:00:17Z",
+ "updated_at": "2026-11-11T07:00:13Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-11T06:00:17Z",
+  "last_success_at": "2026-11-11T07:00:13Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c03c95ce7c0b5f0f05dc248d54d394b2366506f84c8899949c0685055bfafd93",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=147187",
+   "title": "[국방보안 칼럼] AI가 취약점을 쏟아내는 시대, 인간은 심연을 탐색한다",
+   "published_at": "2026-11-11T15:57:53Z",
+   "published_raw": "2026-11-11 15:57:53",
+   "categories": [
+    "오피니언"
+   ],
+   "description": "LLM 기반 취약점 탐지 도구는 이미 인간을 앞서기 시작했다.2025년 8월 DARPA AI 사이버 챌린지(AIxCC) 결선에서 참가 시스템들은 5,400만 줄의 코드에 심어진 합성 취약점 63개 중 54개, 즉 86%를 자율적으로 찾아냈다. 1년 전 준결승의 탐지율이 37%였으니 1년 만에 두 배 이상 뛴 셈이다. 여기에 주최 측이 심지도 않은 실제 취약점 18건을 추가로 발견했고, 대회가 끝난 뒤에도 이 시스템들은 2026년 3월까지 Android, Linux, SQLite, Redis 등 실제 코드베이스에서 83건의 취약점을",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "원병철 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:1d72ceb5d9a0e92ed808aef0ae88b191f26da25ac59149acf857fa509bf298df",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=147186",
+   "title": "유럽 슈퍼마켓 냉장 시설 해킹... 과기정통부, 국내 콜드체인 업계 보안 점검 나서",
+   "published_at": "2026-11-11T15:45:43Z",
+   "published_raw": "2026-11-11 15:45:43",
+   "categories": [
+    "공공·정책"
+   ],
+   "description": "최근 프랑스와 벨기에 등 유럽에서 냉장 설비를 겨냥한 해킹 공격이 이어져 우려가 커지는 가운데, 정부가 국내 현장 점검에 나섰다. 과학기술정보통신부는 11일 주요 콜드체인 관련 기업 정보보호최고책임자(CISO)와 국내 실태 점검 및 긴급 조치를 위한 간담회를 열었다. 이 자리에서 과기정통부는 제조사 및 설비 사용자용 긴급 보안대책 조치를 권고하는 한편, 알기 쉬운 보안수칙 제작·전파, 한국인터넷진흥원(KISA)을 통한 상담·안내 콜센터 운영 등 정부의 초동조치 사항을 안내했다. 또 콜드체인 업계의 주요 설비 활용 현황, 제조사 보안",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "한세희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:777c1a6f6350acb5d0be82a3eccb32936809941ba7d492ead315d75512767019",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=147185",
+   "title": "[카드뉴스] \"FAQ 검색창 눌렀을 뿐인데\"… 1400만 명 털린 '비로그인 API 사각지대'의 배신",
+   "published_at": "2026-11-11T15:17:22Z",
+   "published_raw": "2026-11-11 15:17:22",
+   "categories": [
+    "사건·사고",
+    "카드뉴스"
+   ],
+   "description": "단순 안내 목적인 웹사이트 FAQ 검색창의 비로그인 API 결함을 통해 고객 1,400만 명의 데이터가 유출되는 사고가 발생했다. 외부 공개 창구가 내부 핵심 데이터베이스와 직접 연동되면서 인증 없는 조작 쿼리가 DB로 직행하는 보안 사각지대가 형성되었다. 피해 예방을 위해 공개 게시판과 메인 DB를 완전히 분리하고, 비인가 쿼리를 즉시 폐기하는 캐시 전용 서버 운영 및 파라미터 무결성 검증이 요구된다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "지진솔 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e84611cd38daa58a27644e80dde84b194dc7d041eac356ed345ce760a1a41278",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=147183",
+   "title": "금보원 해킹, ‘가짜 금감원 계정’ 만들어 침투했다... ‘마스킹’ 없는 개인정보 유출 가능성도",
+   "published_at": "2026-11-11T15:08:29Z",
+   "published_raw": "2026-11-11 15:08:29",
+   "categories": [
+    "사건·사고"
+   ],
+   "description": "금융보안원 상시평가 시스템에 접근해 정보를 빼돌린 해커는 시스템 취약점을 악용해 금융감독원 권한을 가진 ‘허위 계정’을 생성, 위장해 침투한 것으로 11일 드러났다. 유출된 정보는 200여건의 행정서식이며 대부분 비식별화(마스킹) 조치가 완료된 정보지만, 일부 데이터는 마스킹되지 않은 채 공유돼 개인정보가 평문으로 노출됐을 가능성도 나왔다. 금융보안원 상시평가 시스템은 금융사들이 고객 신용 정보를 제대로 관리하고 있는지 평가한다. 각 금융사가 평가 결과와 증적을 제출하면 평가가 이뤄지는 식이다. 금융감독원도 이 자료를 열람할 필요가",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "김기찬 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e14dfc8a40ec5c9467abd8fb8529944db091d0389158c4ae5108b179e386739e",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=147184",
+   "title": "냉장고가 ‘스팸메일 발송기’로... 식량 테러 이어 범죄 인프라 악용",
+   "published_at": "2026-11-11T15:07:54Z",
+   "published_raw": "2026-11-11 15:07:54",
+   "categories": [
+    "사건·사고"
+   ],
+   "description": "최근 유럽 각지에서 슈퍼마켓 냉동·냉장고 온도가 원격 조작되는 ‘식량 공급망 테러’가 잇따르는 가운데, 냉장 설비 제어기가 스팸메일 발송기 및 인터넷 트래픽 세탁 통로로 악용된 정황이 포착됐다. 생활에 밀접한 장비들에 대한 사이버 공격으로 평범한 일상 자체가 흔들릴 우려가 커진다. 시큐리티스코어카드(한국 지사장 우청하) 위협 인텔리전스 조직 스트라이크(STRIKE) 팀은 슈퍼마켓이나 냉장·냉동 창고에서 널리 쓰이는 ‘엑스웹 프로’(XWEB PRO) 제어기가 악용되고 있다는 내용의 보고서를 11일 공개했다.냉장 설비에 널리쓰이는 ‘엑",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강현주 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:e9cacfab32cfda4398b1937c8118884211236bf4f4c1678ed1423eba6a4a1508",
    "url": "https://www.boannews.com/news/articleView.html?idxno=147182",
