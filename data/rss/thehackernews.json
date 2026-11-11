@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-11T12:00:38Z",
+ "updated_at": "2026-11-11T13:00:39Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-11T12:00:38Z",
+  "last_success_at": "2026-11-11T13:00:39Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -166,6 +166,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK5J_qkmStJVdWJYvNtd4lb2cRfPMaSvu1dEKp8tXOjw71kt_fRGGfdPr60HL5agJ8NMBYO5sH7jVvzMWXlLW1fq0xilaF0GyLQHCznSjHeos7sdP_Xwmd6OWyzKv8Yq8m-Z0Hn3x15GBU8AySu2A27OlIWiuAW9ch0iZuXxTpELRSQ6uRdW9nLK4uXQg/s260-e100/picus-main.png",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d875e13ba5ae8418ccd3e8d95ed79970ac70309ea3ebb4a5ef3a82388bdf9c2d",
+   "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+   "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+   "published_at": "2026-11-11T12:00:53Z",
+   "published_raw": "2026-11-11T17:30:53.135+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\n\nEach intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2457379069544585124",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjONLgT6piRm0O75Y6dzQY4L2RO8OQTlWaJbwSTHFDeh82Qiadl2PT9KI9r2jC1JbwS-TqPm3g1Ea0Q8I91FalXu2GZ0fBBnfId6-8ZWKABrBQZWg7nA1X6cHq7wgHK3rc2Y5YW4yb61TjxVyywyWprml6yhBgH-SBaTvXZF-50J8-mR5Q6cGhSgfuMUdk/s260-e100/emudhra.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -821,33 +848,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:0b7161df55d908beddbef13b912c4c5a6f3e4d8c03960080df90fdf7265535dc",
-   "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-   "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-   "published_at": "2026-11-06T12:06:43Z",
-   "published_raw": "2026-11-06T17:36:43.232+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\n\nThe fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.\n\nThe flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4424200672849818541",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFEFFUv1MUNRoFx03Jcw0k5NZCU0EOf5qEpbvAEQoTSTzoxHWPk1rc7XgQeG1USPP9vVB0ePI_lzQLqBU5bHdQ7-YrwEXFo8gJwayqwCvCtcDrw1JYMxKYxieV3bcQeCRAJAxt8CRfifzMzL22_ab0Z0OxwWrNckC36gPEOnubZnzagv6DkV7iY4AQJfA/s260-e100/paint-rce.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:db918bafa08cb13b8fcbdd07086afe23eb069535185f09c9e70b054338bc0be8",
    "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
    "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
@@ -1192,6 +1192,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLg0QvfH0SD_sz2pFnyrG6Zcs-ltrKaf42ZY7PYKTsA26Nu4alNeqarZZ9HGEjO0UJFr5Wfsb7WBSDYoRnGi6X1jXZ8_4xx1VJtYshtPXYX9DVJYu4lln_IqEhf-NQJC7MKWI1JVzzR5heu6O_OnWezfKsj3AnBs5NKVp5dOVgR-7XuKMIAiyiKflPlT9E/s260-e100/siemens-hack.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:0b7161df55d908beddbef13b912c4c5a6f3e4d8c03960080df90fdf7265535dc",
+   "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+   "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+   "published_at": "2026-11-06T12:06:43Z",
+   "published_raw": "2026-11-06T17:36:43.232+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\n\nThe fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.\n\nThe flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4424200672849818541",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFEFFUv1MUNRoFx03Jcw0k5NZCU0EOf5qEpbvAEQoTSTzoxHWPk1rc7XgQeG1USPP9vVB0ePI_lzQLqBU5bHdQ7-YrwEXFo8gJwayqwCvCtcDrw1JYMxKYxieV3bcQeCRAJAxt8CRfifzMzL22_ab0Z0OxwWrNckC36gPEOnubZnzagv6DkV7iY4AQJfA/s260-e100/paint-rce.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
