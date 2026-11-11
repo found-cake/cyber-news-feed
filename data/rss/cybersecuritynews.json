@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-11T02:00:21Z",
+ "updated_at": "2026-11-11T03:00:22Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-11T02:00:21Z",
+  "last_success_at": "2026-11-11T03:00:22Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:090498fce6b06a4f57a30051023fad91d4416f07b9f37b09f99c443a4f5ca2e9",
+   "url": "https://cybersecuritynews.com/outlook-0-day-vulnerability",
+   "title": "Microsoft Confirms Hackers Are Exploiting Outlook 0-Day to Steal Windows Authentication Hashes",
+   "published_at": "2026-11-11T02:35:43Z",
+   "published_raw": "Wed, 11 Nov 2026 02:35:43 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability",
+    "Vulnerability News"
+   ],
+   "description": "<p>Microsoft has confirmed that hackers are exploiting an Outlook zero-day that can expose Windows authentication information when a user opens a malicious file. Tracked as CVE-2026-124194, the spoofing vulnerability was patched on November 10, 2026. Microsoft marks it “Exploitation Detected” and says it was not publicly disclosed before the update. The flaw carries a CVSS [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/outlook-0-day-vulnerability/\">Microsoft Confirms Hackers Are Exploiting Outlook 0-Day to Steal Windows Authentication Hashes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=171478",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Outlook-0-Day-Vulnerability.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "171478",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Microsoft has confirmed that hackers are exploiting an Outlook zero-day that can expose Windows authentication information when a user opens a malicious file.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Tracked as CVE-2026-124194, the spoofing vulnerability was patched on November 10, 2026. Microsoft marks it “Exploitation Detected” and says it was not publicly disclosed before the update.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw carries a CVSS score of 6.5 and a Moderate severity rating. However, confirmed attacks make it a patching priority. Microsoft’s Exploitability Index states that “Exploitation Detected” means the company knows of actual exploitation, not just that attackers could develop a working exploit.</p>\n\n\n\n<h2 id=\"h-outlook-0-day-vulnerability\" class=\"wp-block-heading\"><strong>Outlook 0-Day Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker does not need an account or prior access to the target’s system. Instead, they send a specially crafted message file and convince the recipient to open it in an affected Outlook version. Successful exploitation requires both user interaction and network connectivity.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Opening the file can cause Outlook to connect to a network location controlled by the attacker without showing its usual external-content warning. Microsoft classifies the underlying weakness as CWE-356, where a product’s interface fails to warn users about unsafe actions. The missing warning removes an important chance to stop the connection.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft explicitly states that the Preview Pane is not an attack vector. Simply previewing a message does not meet the documented exploitation requirements. That separates this flaw from earlier Outlook attacks covered in Cybersecuritynews.com’s report on <a href=\"https://cybersecuritynews.com/russian-hackers-exploiting-outlook/\" target=\"_blank\" rel=\"noreferrer noopener\">Russian hackers exploiting Outlook</a>, which involved a different vulnerability requiring no user action.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-124194\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Microsoft’s advisory</a>, successful exploitation discloses the user’s NTLMv2 hash, potentially allowing an attacker to authenticate as that user. This is authentication-data theft, not evidence that the flaw directly runs malicious code. Microsoft rates confidentiality impact as High, with no direct integrity or availability impact.</p>\n\n\n\n<p class=\"wp-block-paragraph\">NTLM-related leaks can support follow-on attacks, depending on the receiving service’s protections. Microsoft’s earlier Outlook investigation documented authentication relay and offline password cracking as possible uses of captured Net-NTLMv2 data.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Cybersecuritynews.com’s coverage of <a href=\"https://cybersecuritynews.com/russian-hackers-hijack-ubiquiti-routers/\">compromised Ubiquiti routers</a> shows how attackers previously used external infrastructure for credential theft. Those historical details do not establish attribution for this new campaign.</p>\n\n\n\n<h2 id=\"h-affected-versions\" class=\"wp-block-heading\"><strong>Affected Versions</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Affected products include Microsoft 365 Apps for Enterprise and Office LTSC 2021 and 2024, across 32-bit and 64-bit editions. Microsoft lists fixed builds 16.0.14334.21048 for LTSC 2021 and 16.0.17932.21140 for LTSC 2024. Administrators should deploy the applicable Office security updates promptly.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As added protection, Microsoft recommends blocking unnecessary outbound SMB traffic on TCP port 445 to the internet. This limits external SMB exposure but does not replace installing the Outlook fix.</p>\n\n\n\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><thead><tr><th class=\"has-text-align-left\" data-align=\"left\">Affected product</th><th class=\"has-text-align-left\" data-align=\"left\">Architecture</th><th class=\"has-text-align-left\" data-align=\"left\">Fixed build / security update</th></tr></thead><tbody><tr><td class=\"has-text-align-left\" data-align=\"left\">Microsoft 365 Apps for Enterprise</td><td class=\"has-text-align-left\" data-align=\"left\">32-bit</td><td class=\"has-text-align-left\" data-align=\"left\">Install the applicable November 2026 security update for the deployed update channel. Microsoft does not list a single fixed build in the advisory.</td></tr><tr><td class=\"has-text-align-left\" data-align=\"left\">Microsoft 365 Apps for Enterprise</td><td class=\"has-text-align-left\" data-align=\"left\">64-bit</td><td class=\"has-text-align-left\" data-align=\"left\">Install the applicable November 2026 security update for the deployed update channel. Microsoft does not list a single fixed build in the advisory.</td></tr><tr><td class=\"has-text-align-left\" data-align=\"left\">Microsoft Office LTSC 2024</td><td class=\"has-text-align-left\" data-align=\"left\">32-bit</td><td class=\"has-text-align-left\" data-align=\"left\">16.0.17932.21140</td></tr><tr><td class=\"has-text-align-left\" data-align=\"left\">Microsoft Office LTSC 2024</td><td class=\"has-text-align-left\" data-align=\"left\">64-bit</td><td class=\"has-text-align-left\" data-align=\"left\">16.0.17932.21140</td></tr><tr><td class=\"has-text-align-left\" data-align=\"left\">Microsoft Office LTSC 2021</td><td class=\"has-text-align-left\" data-align=\"left\">32-bit</td><td class=\"has-text-align-left\" data-align=\"left\">16.0.14334.21048</td></tr><tr><td class=\"has-text-align-left\" data-align=\"left\">Microsoft Office LTSC 2021</td><td class=\"has-text-align-left\" data-align=\"left\">64-bit</td><td class=\"has-text-align-left\" data-align=\"left\">16.0.14334.21048</td></tr></tbody></table></figure>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/outlook-0-day-vulnerability/\">Microsoft Confirms Hackers Are Exploiting Outlook 0-Day to Steal Windows Authentication Hashes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:bb90177fc5d679f34e949aa8f9e10718c871e6cd658955b4dec085d758130565",
    "url": "https://cybersecuritynews.com/microsoft-november-2026-patch-tuesday",
