@@ -1,15 +1,85 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-12T09:00:11Z",
+ "updated_at": "2026-11-12T10:00:10Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-12T09:00:11Z",
+  "last_success_at": "2026-11-12T10:00:10Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:bc2e6a80dc82a30d21844a2cac8014ee67381a8a4ee406525b23cda8c7179091",
+   "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches",
+   "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
+   "published_at": "2026-11-12T09:39:55Z",
+   "published_raw": "Thu, 12 Nov 2026 09:39:55 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "exploited",
+    "N-able",
+    "N-central",
+    "vulnerability"
+   ],
+   "description": "<p>The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones.</p>\n<p>The post <a href=\"https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/\">Hackers Target N-central Zero-Days as N-able Rushes Patches </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50724",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:c714e30db2986d496e0af373569758d1dac088649a735c44823451acf6d6db05",
+   "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images",
+   "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
+   "published_at": "2026-11-12T09:23:21Z",
+   "published_raw": "Thu, 12 Nov 2026 09:23:21 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "container",
+    "Quay",
+    "red hat",
+    "vulnerability"
+   ],
+   "description": "<p>Attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories and maintain persistent access.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/\">Critical Red Hat Quay Vulnerability Could Expose Private Container Images</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50722",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:7c43b2ca71a2039eb7979452e7c0a9d41d940d5dec714945e0859e8762641dc7",
    "url": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt",
@@ -2786,39 +2856,6 @@
    "authors": [
     {
      "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:cdbf58fcf7e2c403c009e5a510e3a34ad2101fbee37d047d8d7c1b7a0c2a2086",
-   "url": "https://www.securityweek.com/polymarket-returns-3-9-million-to-traders-as-debugbear-cites-dns-hijack",
-   "title": "Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack",
-   "published_at": "2026-11-02T09:33:15Z",
-   "published_raw": "Mon, 02 Nov 2026 09:33:15 +0000",
-   "categories": [
-    "Data Breaches",
-    "data breach",
-    "Polymarket"
-   ],
-   "description": "<p>DebugBear says its DNS records were compromised via its domain registrar, and early findings show a single customer was targeted.</p>\n<p>The post <a href=\"https://www.securityweek.com/polymarket-returns-3-9-million-to-traders-as-debugbear-cites-dns-hijack/\">Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50461",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
      "uri": "",
      "email": ""
     }

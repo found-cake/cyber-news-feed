@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-12T09:00:11Z",
+ "updated_at": "2026-11-12T10:00:10Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-12T09:00:11Z",
+  "last_success_at": "2026-11-12T10:00:10Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:120f5dd5fa9bf3c4318242310671299a4c8d9ed763dcae23b2839b16bd695651",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access",
+   "title": "Hackers plant GSocket on Linux servers for persistent access",
+   "published_at": "2026-11-12T09:38:00Z",
+   "published_raw": "Thu, 12 Nov 2026 04:38:00 -0500",
+   "categories": [
+    "security",
+    "Linux"
+   ],
+   "description": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:54d780c30fec13d20874fd3a9a056bab4f423a997a15954b521df8a82a351a12",
    "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider",
@@ -1797,27 +1819,6 @@
    ],
    "description": "Taiwanese network-attached storage (NAS) appliance maker Synology warned customers to update their devices immediately due to a surge in C3RB3r ransomware attacks. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:bcfce8074fe98f42a51de39f8a056f4c6561128c87d6fb018967cab7344d47b2",
-   "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks",
-   "title": "Ivanti patches two more Connect Secure zero-days chained in attacks",
-   "published_at": "2026-11-02T09:33:26Z",
-   "published_raw": "Mon, 02 Nov 2026 04:33:26 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
    "authors": [
     {
      "name": "Sergiu Gatlan",
