@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-12T15:00:13Z",
+ "updated_at": "2026-11-12T16:00:11Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-12T15:00:13Z",
+  "last_success_at": "2026-11-12T16:00:11Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b4029f5fdfeb9c892c7acd9c0f5fab479f89303317dc173950cf89637348f0b8",
+   "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure",
+   "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+   "published_at": "2026-11-12T15:07:20Z",
+   "published_raw": "Thu, 12 Nov 2026 10:07:20 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:0b24b8b5ae02938f9b0b11c6e6733a3b05747a8e4a6bcf7ed8ea33dd9fc8d518",
+   "url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk",
+   "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+   "published_at": "2026-11-12T15:00:10Z",
+   "published_raw": "Thu, 12 Nov 2026 10:00:10 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-controlled cryptographic authorization can prevent attackers from abusing sensitive endpoint operations. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
+   "authors": [
+    {
+     "name": "Sponsored by Action1",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:492efb1ba33f80cf9456c44f35651b638305a5cf4815efcab184fe82c8066852",
    "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach",
@@ -1737,49 +1779,6 @@
    "authors": [
     {
      "name": "Lawrence Abrams",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:406768394f36ebd64c7854a2ca628c56c348a9ebf06a1e099d5d2a583f7828b4",
-   "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances",
-   "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
-   "published_at": "2026-11-02T15:03:07Z",
-   "published_raw": "Mon, 02 Nov 2026 10:03:07 -0500",
-   "categories": [
-    "security",
-    "CryptoCurrency"
-   ],
-   "description": "The maintainer of BTCPay Server, an open-source cryptocurrency payment processor, has urged users to install the latest version as hackers have been draining \"hot wallets\" on instances running older versions. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:1bc7ed937aa4fe727fe7f4b3c97d0fe7c33fac56a6072a3dbb1b3436f20e27c9",
-   "url": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years",
-   "title": "Your Mobile Carrier Stores Your Call Logs for Years",
-   "published_at": "2026-11-02T15:01:11Z",
-   "published_raw": "Mon, 02 Nov 2026 10:01:11 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "Mobile carriers can retain years of call and text metadata, exposing sensitive details about customers' relationships, locations, and daily routines if breached. Cape examines the privacy risks of long-term telecom data retention and how its mobile service reduces exposure by automatically deleting call records. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
-   "authors": [
-    {
-     "name": "Sponsored by Cape",
      "uri": "",
      "email": ""
     }

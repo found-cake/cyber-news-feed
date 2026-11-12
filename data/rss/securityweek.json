@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-12T15:00:13Z",
+ "updated_at": "2026-11-12T16:00:11Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-12T15:00:13Z",
+  "last_success_at": "2026-11-12T16:00:11Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:7acfa0cf461004f1d7a0dfde5aa50ed8edc3cc401899ad006c474925373cd214",
+   "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google",
+   "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+   "published_at": "2026-11-12T15:38:31Z",
+   "published_raw": "Thu, 12 Nov 2026 15:38:31 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "Apache",
+    "Apache HTTP Server",
+    "Featured",
+    "vulnerability"
+   ],
+   "description": "<p>The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled.</p>\n<p>The post <a href=\"https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/\">Apache Patches Critical HTTP Server RCE Found by Anthropic, Google</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50744",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:4f7029a3aa9a6f2490c0425eaf7e7d11a867b3720a5c25251858adfb143190d0",
    "url": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities",
@@ -2820,41 +2855,6 @@
    ],
    "description": "<p>Attackers again tampered with internet-exposed refrigeration controllers, this time at stores in Belgium, Sweden, Ireland and beyond.</p>\n<p>The post <a href=\"https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume/\">Over 100 European Stores Hit as Supermarket Fridge Attacks Return</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=50480",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:ed2b1cc36d616887e9ff9c2f7b5e9df4410bf380ff1b9dcaa847b00f9fa9c675",
-   "url": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026",
-   "title": "Cybersecurity M&A Roundup: 37 Deals Announced in October 2026",
-   "published_at": "2026-11-02T15:01:11Z",
-   "published_raw": "Mon, 02 Nov 2026 15:01:11 +0000",
-   "categories": [
-    "Funding/M&A",
-    "M&A Tracker",
-    "Acquisitions",
-    "Featured",
-    "M&A"
-   ],
-   "description": "<p>Significant cybersecurity deals were announced by Absolute Security, Aikido, Anthropic, Cohere, Hex-Rays, and Proofpoint.</p>\n<p>The post <a href=\"https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/\">Cybersecurity M&#038;A Roundup: 37 Deals Announced in October 2026</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50474",
    "authors": [
     {
      "name": "Eduard Kovacs",
