@@ -1,15 +1,84 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-12T14:00:10Z",
+ "updated_at": "2026-11-12T15:00:13Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-12T14:00:10Z",
+  "last_success_at": "2026-11-12T15:00:13Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ba82052bc09ee03a4d74cfba81d70849d664c5ee8445b2715f95764af2ad0455",
+   "url": "https://cybersecuritynews.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types",
+   "title": "nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types",
+   "published_at": "2026-11-12T14:25:32Z",
+   "published_raw": "Thu, 12 Nov 2026 14:25:32 +0000",
+   "categories": [
+    "Press Release"
+   ],
+   "description": "<p>San Francisco, California, USA, November 12th, 2026, CyberNewswire Four-year cybersecurity study finds all 50 types of software and devices examined vulnerable, with 46 rated Critical or High risk. nDiligence, Inc. today announced the release of Attack the Glass (ATG) research to the general public. The four-year study examines a cybersecurity vulnerability in how applications use [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/\">nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=172011",
+   "authors": [
+    {
+     "name": "Cybernewswire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6eW_hJ-maORKgGdpsPupB6cnZGujBOxPj54_j4x57m5UeZPrE004gqBuiH7q14uLP_bkki1gjP2_lfM1u0dm3oRM793CAmGXtJPLyFMCwQRvER7m_OIuIkPp_ivc-LXa3QPueKpJrlQ-CTFTA6e5hFxAaJ0nk5XY8-6WpaGvGwOOKCW0sZxwBsaUSEHQ/s1600/Insignary%20Launches%20Clarity%20On-Demand_%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20project,%20one%20team,%20or%20%20(96.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "172011",
+     "content_encoded": "<p class=\"wp-block-paragraph\"><strong>San Francisco, California, USA, November 12th, 2026, CyberNewswire</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Four-year cybersecurity study finds all 50 types of software and devices examined vulnerable, with 46 rated Critical or High risk.</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.ndiligence.com/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">nDiligence, Inc.</a> today announced the release of Attack the Glass (ATG) research to the general public. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The four-year study examines a cybersecurity vulnerability in how applications use people&#8217;s own devices to build what appears on screen, load data and run code while the application is in use. </p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker who exploits it can change what people see and what their software does, after every security check has passed. The research is free at <a href=\"https://atg.ndiligence.com/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">https://atg.nDiligence.com</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Much of the software people rely on, from web browsers and mobile apps to vehicle displays, medical devices and industrial control screens, builds its user interface on the device while it is running, a process called runtime client-side rendering. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The code, data and media it assembles come from dozens or hundreds of suppliers: the organization&#8217;s own systems, its vendors and their vendors.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker who gains control of any one supplier gains placement and access inside the running application. Sign-in, encryption, Zero Trust, firewalls and code review all function before the code is loaded onto the device. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Once loaded, the code is trusted, and nothing checks what it does. The attacker can change what appears on screen, capture what the person types and act with that person&#8217;s authority.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In February 2024 the domain behind Polyfill.io, a code library loaded by more than 100,000 websites, was sold to a company the U.S. Treasury later sanctioned. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The altered code ran for months on visitors’ devices, and no automated security tool detected it; researchers found it that June. The underlying vulnerability was never fixed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The ATG research documents how the same technique could deliver disinformation inside genuine news and election sites, show commanders and infrastructure operators a false picture, or hide safety alerts from selected users. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Due to security concerns from this type of threat, the team behind nDiligence spent more than two years privately briefing governments before publishing.</p>\n\n\n\n<p class=\"wp-block-paragraph\">&#8220;People trust what they see with their own eyes. In the modern world we are constantly looking at screens, and we have grown to trust applications, websites, devices and companies, assuming they have 100% control over what is shown to us,&#8221; <strong>said Robert Beckett, Founder and CEO of nDiligence</strong>, who led the four-year research into the ATG vulnerability. </p>\n\n\n\n<p class=\"wp-block-paragraph\">&#8220;ATG demonstrates how an attacker can hijack that trust without detection or attribution. A commander, a grid operator, a voter or a reporter can be looking at a screen that every security system says is safe, and what it shows can be manipulated. Whoever controls the screen can influence what people believe, decide and do, with sophisticated targeting. And right now, nobody can tell when or where it is happening. The cybersecurity community needs to understand this vulnerability so we can protect the integrity of software systems across industries, governments and critical infrastructure.&#8221;</p>\n\n\n\n<p class=\"wp-block-paragraph\">Across the 10 categories examined, the research classifies five effects an attacker can achieve: deceive, disrupt, degrade, deny and destroy. All materials are free to share under Traffic Light Protocol (TLP) CLEAR, including a sixteen-chapter whitepaper, twenty online demonstrations and remediation playbooks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">&#8220;ATG was discovered during our research into digital supply-chain threats,&#8221; <strong>said Beckett</strong>. &#8220;Our team has spent more than 15 years working in online threat intelligence and countering influence operations, which is why we recognized how the ATG vulnerability could be exploited. Since 2024, we have been working with researchers, vendors and governments to find ways to close this gap. Anyone who builds, operates or defends systems that people use to make critical decisions needs to understand and mitigate the ATG vulnerability.&#8221;</p>\n\n\n\n<h2 id=\"h-about-ndiligence\" class=\"wp-block-heading\"><strong>About nDiligence</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.ndiligence.com/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">nDiligence, Inc.</a> is a supply-chain intelligence company that builds trusted provider networks and keeps the supply chains beneath them under continuous watch. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Its founders bring decades of experience in internet supply chains and in national security and intelligence systems. The ATG research was self-funded. Learn more at <a href=\"https://www.ndiligence.com/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">https://www.ndiligence.com/</a>.</p>\n\n\n\n<h2 id=\"h-contact\" class=\"wp-block-heading\"><strong>Contact</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Chief Product Officer</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Anna Patterson</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>nDiligence, Inc.</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>press@ndiligence.com</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n<p>The post <a href=\"https://cybersecuritynews.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/\">nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:29e0df9099e1fe74a005d3ef0f2ec9576497f9d99c00ff9eaef83a830e2d89ac",
+   "url": "https://cybersecuritynews.com/active-exploitation-of-outlook-0-day-vulnerability",
+   "title": "CISA Confirms Active Exploitation of Outlook User Interaction 0-Day Vulnerability",
+   "published_at": "2026-11-12T14:11:54Z",
+   "published_raw": "Thu, 12 Nov 2026 14:11:54 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Outlook",
+    "Vulnerability"
+   ],
+   "description": "<p>The U.S. Cybersecurity and Infrastructure Security Agency has confirmed active exploitation of a Microsoft Outlook zero-day vulnerability CVE-2026-124194 that can expose user authentication data. According to Microsoft’s security advisory, an attacker can send a specially crafted message file and persuade a victim to open it in Outlook. The application may then connect to an attacker-controlled [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/active-exploitation-of-outlook-0-day-vulnerability/\">CISA Confirms Active Exploitation of Outlook User Interaction 0-Day Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=171952",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/CISA-Confirms-Active-Exploitation-of-Outlook-User-Interaction-0-Day-Vulnerability-1.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "171952",
+     "content_encoded": "<p class=\"wp-block-paragraph\">The U.S. Cybersecurity and Infrastructure Security Agency has confirmed active exploitation of a Microsoft <a href=\"https://cybersecuritynews.com/outlook-0-day-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">Outlook zero-day vulnerability CVE-2026-124194</a> that can expose user authentication data.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to Microsoft’s security advisory, an attacker can send a specially crafted message file and persuade a victim to open it in Outlook. The application may then connect to an attacker-controlled network location without showing its usual warning about external content.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That connection can disclose the victim’s NTLMv2 hash, authentication data that an attacker could use to impersonate the user. Microsoft classifies the issue as spoofing rather than remote code execution. Its assessment identifies a high impact on confidentiality, but no direct impact on data integrity or service availability.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://cybersecuritynews.com/microsoft-november-2026-patch-tuesday/\" target=\"_blank\" rel=\"noreferrer noopener\">Microsoft released security updates</a> for an actively exploited Outlook network-spoofing flaw (CVSS 6.5), allowing unauthenticated attackers to spoof networks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The weakness falls under CWE-356, which covers software that fails to obtain proper user approval before a potentially unsafe action. Here, the missing warning removes a safety check before Outlook reaches an outside network location.</p>\n\n\n\n<h2 id=\"h-active-exploitation-of-outlook-0-day-vulnerability\" class=\"wp-block-heading\"><strong>Active Exploitation of Outlook 0-Day Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">However, “missing user interaction” does not mean this is a zero-click attack. Microsoft explicitly states that the victim must open a malicious file. The Outlook Preview Pane is not an attack vector for this vulnerability. That detail helps defenders avoid confusing it with earlier Outlook flaws that required no user action.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Cyber Security News previously covered <a target=\"_blank\" href=\"https://cybersecuritynews.com/russian-hackers-exploiting-outlook/\" rel=\"noopener\">Russian hackers exploiting Outlook</a> through CVE-2023-23397 and <a target=\"_blank\" href=\"https://cybersecuritynews.com/critical-microsoft-outlook-vulnerability-actively-exploited-in-cyber-attacks/\" rel=\"noopener\">CISA’s warning about the MonikerLink vulnerability</a>. Those reports provide background on Outlook exploitation, but their attack methods should not be treated as evidence of how this new flaw works.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft lists affected 32-bit and 64-bit editions of Microsoft 365 Apps for Enterprise, Office LTSC 2021, and Office LTSC 2024. Fixed builds include 16.0.14334.21048 for LTSC 2021 and 16.0.17932.21140 for LTSC 2024. Microsoft 365 administrators should use the Office security release guidance linked in the advisory to identify the correct update for their deployment.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CISA added the flaw to its KEV catalog </a>on November 10, 2026, setting a November 24 remediation deadline and requiring organizations to apply vendor mitigations, assess internet exposure, and discontinue affected products if fixes are unavailable.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should identify affected Office installations, deploy the relevant fixes, and verify installed build numbers rather than relying only on update deployment reports. The moderate severity label should not outweigh the confirmed exploitation evidence when teams set their patching order.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft marks exploitation as detected, although the reviewed advisory does not identify attackers, victims, campaign scale, or indicators of compromise. Those gaps should remain explicit rather than being filled with details from older Outlook attacks.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>Give your SOC the alert context on the latest threats to stop incidents quickly -&gt; <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate Threat Intel from 16K SOCs</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/active-exploitation-of-outlook-0-day-vulnerability/\">CISA Confirms Active Exploitation of Outlook User Interaction 0-Day Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:f48c2e76b32742306e2907bb6fa16bd451bec85544370ee7b3ff6d912280cb07",
    "url": "https://cybersecuritynews.com/red-hat-quay-vulnerability",

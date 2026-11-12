@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-12T14:00:10Z",
+ "updated_at": "2026-11-12T15:00:13Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-12T14:00:10Z",
+  "last_success_at": "2026-11-12T15:00:13Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:492efb1ba33f80cf9456c44f35651b638305a5cf4815efcab184fe82c8066852",
+   "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach",
+   "title": "Apify rotates API tokens, prompts 2FA resets after breach",
+   "published_at": "2026-11-12T14:36:47Z",
+   "published_raw": "Thu, 12 Nov 2026 09:36:47 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "Apify has rotated critical internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:120f5dd5fa9bf3c4318242310671299a4c8d9ed763dcae23b2839b16bd695651",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access",
@@ -1759,27 +1780,6 @@
    "authors": [
     {
      "name": "Sponsored by Cape",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:4b033bd14484cc93ae24faabc4f01f6806601dc401d5ce6000620a40d4496535",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets",
-   "title": "Hackers disrupt refrigeration systems at European supermarkets",
-   "published_at": "2026-11-02T14:28:39Z",
-   "published_raw": "Mon, 02 Nov 2026 09:28:39 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "A cyberattack on refrigeration systems has disrupted stores run by multiple supermarket chains across several European countries after hackers remotely changed temperature settings on freezers and cooling systems. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }

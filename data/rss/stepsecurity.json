@@ -1,15 +1,39 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-11-12T14:00:10Z",
+ "updated_at": "2026-11-12T15:00:13Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-12T14:00:10Z",
+  "last_success_at": "2026-11-12T15:00:13Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:326e4702184e191c1c88e8971b867b31962ee7b0b6ac38a70553f98cf9f794fe",
+   "url": "https://www.stepsecurity.io/blog/cve-2026-126187-react-flight-rce",
+   "title": "CVE-2026-126187: React Server Components Flaw Lets Attackers Execute Code Through Smuggled Flight Rows",
+   "published_at": "2026-11-12T14:55:35Z",
+   "published_raw": "Thu, 12 Nov 2026 14:55:35 GMT",
+   "categories": [],
+   "description": "React shipped fixes on November 10, 2026 for a CVSS 9.5 unauthenticated RCE in React Server Components' Flight protocol. Read how a silent serialization bug turns typed arrays into code execution, who is exposed, and how to find affected installs in CI and on developer machines.",
+   "feed_id": "https://www.stepsecurity.io/blog/cve-2026-126187-react-flight-rce",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6af5d2315be9d7c33e41b26d_6af5d212d0e406b80bc6a92e_cve-2026-126187-cover-v2.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6af5d2315be9d7c33e41b26d_6af5d212d0e406b80bc6a92e_cve-2026-126187-cover-v2.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:88ff9b28fff4711c78adf99da083657d3cb82db839b817f6c09366fb64e437f6",
    "url": "https://www.stepsecurity.io/blog/wfx-phantom-the-github-actions-secret-stealer",
