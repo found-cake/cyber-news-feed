@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-12T11:00:10Z",
+ "updated_at": "2026-11-12T12:00:11Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-12T11:00:10Z",
+  "last_success_at": "2026-11-12T12:00:11Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -176,8 +176,8 @@
    "id": "sha256:e8aac6829dfb0bdd4a80da6d5d2790d17efaeaef049684f0f9d27646f1b4c56b",
    "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
    "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
-   "published_at": "2026-11-12T10:57:09Z",
-   "published_raw": "2026-11-12T16:27:09.320+05:30",
+   "published_at": "2026-11-12T11:51:43Z",
+   "published_raw": "2026-11-12T17:21:43.864+05:30",
    "categories": [
     "vulnerability"
    ],
@@ -193,6 +193,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR4KdRS0v77uQIdhC0i5aopa8XIAZIRnTzVCVqto7dEdfUH2QyWgrAy1EKu-hARXS4pxNGQQEFroRHOtwSq_9Q8b92tmgw_97JMJoBfC72sl8pOcUYM9nU6YCJht4yD7ALWfERwhUwLsN8wo9t8YnKyIWzHhEAux5ox5WV4wvxe6l1cUmf58P1md2Ekziy/s260-e100/nable.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:2d6f349525d67746f7ded0d2b5d275fffc5a8d655fbad84be36b60878779f11f",
+   "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+   "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+   "published_at": "2026-11-12T11:33:15Z",
+   "published_raw": "2026-11-12T17:03:15.373+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution.\n\nThe security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0.\n\nIt has been described as a case of improper input validation and deserialization of untrusted data that could result in",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4505935591629433445",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi01pvi78xYUtyxbtWQ4L5ddMr1yT2-WBSbAnp3wKXa-bpagXqtyQdxPqA43I1NxJGNLk4He30PS-GYUcd1sOaErtMAtNWL-qQUGfD0Y7wSxAzeYJXRf2lA5yFuznu8m2zRgf2llXMiR3w1H6YOOte5qs_DvRxcv0aPeOxWeIDybl1n58VlpuZPUJ0icWDL/s260-e100/ptc-flaw.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -821,26 +848,26 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:4cf8ced66f8a8e1b333037dc7fe6ba6d32d5a36a8d8b61bf9d56bad9d1fb106e",
-   "url": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
-   "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
-   "published_at": "2026-11-09T10:01:21Z",
-   "published_raw": "2026-11-09T15:31:21.931+05:30",
+   "id": "sha256:cd877208a9d9554b1851047dbb574ccdce35d864ccec4eb966b4ff8221c7677c",
+   "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+   "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+   "published_at": "2026-11-12T11:51:31Z",
+   "published_raw": "2026-11-12T17:21:31.632+05:30",
    "categories": [
-    "vulnerability"
+    "cyber-attack"
    ],
-   "description": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday.\n\nIt has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts used an exploit to withdraw 2,285,545 satoshis, about 0.023 bitcoin, from his server before he could",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8906826491853509836",
+   "description": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose.\n\nThe Threat Research team at Material Security spotted the campaign and has since taken down hundreds of attacker domains in an effort the team calls Operation CloudFire.",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5259613725482428692",
    "authors": [
     {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "name": "Unknown",
+     "uri": "",
      "email": "noreply@blogger.com"
     }
    ],
    "media": [
     {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZfiSS8v6cUfSW1R2sbPNNfjluB-GvnXCxcAW_G6pKRNzYU2Be89Qyu9Zx0mnY7voaGpLXFtsajKS9tqYp74Qo05wPzzELg9ZpbVcoWa5l9AKhf4SmmNbnIvjOUrm4LsB9V-tGBxU-V0NxHzAoV2Cnlz6tHlcPewPh2ir8ipqn6Kj-phVDm5zraXs9ss/s260-e100/crypto-bits.jpg",
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf8YVgw9hIWEYN0_qgaD6MVIZad0fOCu_J5Z4Cn2CDuMzcV7HOQ9Xt4E08l1nOo7uMjAyYqYP-bUy5zHisRW8cfeSVmJcCKYgCTI2y1MpRUwsM1I2cs0MsuoAy7VSGLyTPzonhKITzWPU1hTADZnFt5VTZhlt4eJohVas2tzhl47AOV3Cp53LC_uhlpVY/s260-e100/mt.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -976,6 +1003,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4ZFiesBwDTk8fRRfKfNIw0lLkhqF6ZAExRxuuRtfRCWrxs6Rg7M5UdSIcJqH2zstViFreL30JMmdebYTlMOKvg4D6GvaS70XPdembzyIZoX2KBj_S3kxKWmBjJll4exWUYXrap9IDW_ugXHOux5jZXk44_v5xac1mxFouywezDcsGeMdLrGd1sJStMoo/s260-e100/bees.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:4cf8ced66f8a8e1b333037dc7fe6ba6d32d5a36a8d8b61bf9d56bad9d1fb106e",
+   "url": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+   "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
+   "published_at": "2026-11-09T10:01:21Z",
+   "published_raw": "2026-11-09T15:31:21.931+05:30",
+   "categories": [
+    "cyber-attack"
+   ],
+   "description": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday.\n\nIt has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts used an exploit to withdraw 2,285,545 satoshis, about 0.023 bitcoin, from his server before he could",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8906826491853509836",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZfiSS8v6cUfSW1R2sbPNNfjluB-GvnXCxcAW_G6pKRNzYU2Be89Qyu9Zx0mnY7voaGpLXFtsajKS9tqYp74Qo05wPzzELg9ZpbVcoWa5l9AKhf4SmmNbnIvjOUrm4LsB9V-tGBxU-V0NxHzAoV2Cnlz6tHlcPewPh2ir8ipqn6Kj-phVDm5zraXs9ss/s260-e100/crypto-bits.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -2002,33 +2056,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj03NmPVHpoxRjXKDh7s6v2Dav4D-MCSLBTLalEb9ScH_lLc4yQJWOW8QfTIBePp7Pcgo1qrq6MYuQvNeyb0LCvWO4E4e7BLQKEj-g3Z2LImj4CXV-UUGfVd-vVL0NGtxMMn50klhOLlyI3p6DXhIFf-LkMsST7LK4kh3gIjqlvBwOUgbKTq8-hRdvmfz46/s260-e100/rcap.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:0bed561f10e179cb3266f608d7179990eb9a04cddd8ca1205ff47909b8e068c8",
-   "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-   "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
-   "published_at": "2026-11-02T11:50:00Z",
-   "published_raw": "2026-11-02T17:20:00.000+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code,&nbsp;IBM said last week.\n\nLangflow is an open-source tool for building AI agents and workflows, and&nbsp;its vulnerability reports go to IBM. Every release from 1.0.0 through 1.12.8 has the flaws, and the only fix is version 1.13.0.\n\nNeither flaw is in CISA's&nbsp;Known",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2092459709596759965",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_FF2_yXQrxnB1ymo-GsohY6t0INslV7mps2DVMnYa_dD_RpZu7uz9HwNrux1gxieMF4hnc_84KMpOyhroj0EDx0Vwv0QljdhTehvJINIsr-Sjyw4CaMiLO3fFWGl-8LhLWgOtC4DRU2X5e46s3Rxghu3KLUMsyHfpxFyKogIs34Q2fm2RYpAMI_Jt_9A/s260-e100/langflow-rce.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
