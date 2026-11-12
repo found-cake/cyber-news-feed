@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-12T19:00:11Z",
+ "updated_at": "2026-11-12T20:00:08Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-12T19:00:11Z",
+  "last_success_at": "2026-11-12T20:00:08Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ff2329e4e90a1bda043ae4d408d4477abd1fda9aadd5d4e367d37468f83611d4",
+   "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released",
+   "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+   "published_at": "2026-11-12T19:51:16Z",
+   "published_raw": "Thu, 12 Nov 2026 14:51:16 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19 running the company's latest security update. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:3e5624deb17b694366d3f9442561396a79ea7a716076f1ea4dc14af2b7a0d26c",
+   "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw",
+   "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+   "published_at": "2026-11-12T19:12:55Z",
+   "published_raw": "Thu, 12 Nov 2026 14:12:55 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:65f3f63f46e66dd3b467213e5a1386a7c10b02ed4193611777f592d92111bd05",
    "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges",
@@ -1756,27 +1798,6 @@
    ],
    "description": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:b2dba00a019aa797753d06796e57c4ad644d10313aeb823572569d0c06ac0d7f",
-   "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack",
-   "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
-   "published_at": "2026-11-02T19:00:45Z",
-   "published_raw": "Mon, 02 Nov 2026 14:00:45 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
    "authors": [
     {
      "name": "Bill Toulas",
