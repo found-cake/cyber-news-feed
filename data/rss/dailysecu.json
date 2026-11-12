@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-11-12T10:00:10Z",
+ "updated_at": "2026-11-12T11:00:10Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-12T10:00:10Z",
+  "last_success_at": "2026-11-12T11:00:10Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -1952,69 +1952,6 @@
     "이슈"
    ],
    "description": "“AI 도구를 무작정 도입하는 것은 아니에요. 도입하시기 전에 어떻게 통제할 것인가를 반드시 고민해 보셔야 합니다.”곽진 아주대학교 사이버보안학과 교수이자 한국암호포럼 의장은 10월 29일 더그랜드롯데 호텔에서 열린 ‘트러스트 스피어 2026 코리아(Trust Sphere 2026 Korea)’에서 AI 보안의 전제조건으로 통제권 확보를 강조했다. 탈레스가 주최하고 데일리시큐가 후원한 이번 행사에서 곽 교수는 ‘공격하는 AI vs 방어하는 AI: 사이버 위협의 대전환과 보안 패러다임 재설계’를 주제로 강연했다.곽 교수는 AI가 취약",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:8b57a8ded3dec05ef2ee2542a5a19f1478d35b0759bfd8d2bf1d7d9e39864651",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209247",
-   "title": "오픈소스 코드 저장소 관리 플랫폼 기티아, 관리자 계정 탈취 가능한 취약점 주의",
-   "published_at": "2026-11-02T10:48:15Z",
-   "published_raw": "2026-11-02 10:48:15",
-   "categories": [
-    "이슈"
-   ],
-   "description": "오픈소스 코드 저장소 관리 플랫폼 기티아(Gitea)에서 비밀번호 없이 다른 사용자의 계정에 접근할 수 있는 취약점이 공개됐다. 관리자 계정도 탈취 대상이 될 수 있어 외부 로그인 연동 기능을 사용하는 기업의 점검이 필요하다.기티아는 11월 1일 계정 탈취 취약점 CVE-2026-120263을 비롯한 여러 보안 문제를 수정한 28.3.0 버전을 공개하고 신속한 업데이트를 권고했다. Gitea Blog외부 계정 연결 과정에서 사용자 신원 검증 오류CVE-2026-120263은 외부 로그인 방식인 OAuth2의 계정 연결 과정에서 발생",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:d33f1a15f555f1352f203f3588e95cee70be010943402a56b925d7f9538dd63f",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209246",
-   "title": "[주의] 워드프레스 북잇, 인증 없는 SQL 삽입 취약점…2.6.0.7 업데이트 필수",
-   "published_at": "2026-11-02T10:39:21Z",
-   "published_raw": "2026-11-02 10:39:21",
-   "categories": [
-    "이슈"
-   ],
-   "description": "워드프레스 예약관리 플러그인 북잇(BookIt)에서 인증되지 않은 공격자가 데이터베이스 질의를 조작할 수 있는 SQL 삽입 취약점이 공개됐다. 영향받는 버전은 2.6.0.6 이하이며, 운영자는 보안 수정이 적용된 2.6.0.7 이상으로 업데이트해야 한다. OpenCVE북잇은 웹사이트에 예약 양식과 일정 관리 기능을 추가하는 플러그인이다. 운영자가 서비스와 담당자, 영업시간, 가격을 설정하면 방문자가 날짜와 시간을 선택해 예약할 수 있다. 예약 알림 이메일과 결제 연동 기능도 제공한다. WordPress.org인증·사용자 조작 없이",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:d33355216f3aaad9573807e9fd8b4112bda1d416b5abdcede3db617ab5b88d14",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209245",
-   "title": "AI 플랫폼 베타9에 CVSS 9.9 취약점 3건…다른 고객 데이터 접근 위험",
-   "published_at": "2026-11-02T10:29:21Z",
-   "published_raw": "2026-11-02 10:29:21",
-   "categories": [
-    "이슈"
-   ],
-   "description": "AI 모델과 서버리스 작업을 실행하는 베타9(Beta9)에서 사용자 격리를 우회해 작업 실행 서버에 접근할 수 있는 치명적인 취약점 3건이 공개됐다. 작업공간 접근 토큰을 가진 공격자가 같은 서버에 저장된 다른 고객의 데이터를 읽거나 변조할 수 있는 문제로, 세 취약점 모두 CVSS 3.1 기준 9.9점으로 평가됐다. 관련 취약점 정보는 11월 1일 공개됐다. 파일 경로 검증 허점…관리자 권한 탈취로 확대 가능CVE-2026-120307은 파일 관리 기능이 접근 가능한 경로를 충분히 제한하지 않아 발생한다. 공격자는 실행 중인 샌드",
    "feed_id": "",
    "authors": [
     {
