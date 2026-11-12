@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-12T22:00:21Z",
+ "updated_at": "2026-11-12T23:00:23Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-12T22:00:21Z",
+  "last_success_at": "2026-11-12T23:00:23Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:7434649087922c0548e2de3696ae4d6e3f08e2f324f2537f01b2890bb59ba702",
+   "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks",
+   "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+   "published_at": "2026-11-12T22:53:10Z",
+   "published_raw": "Thu, 12 Nov 2026 17:53:10 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers and compromise additional managed networks. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6abd62e4f49f309c04d1126f14148f2ac2af862777a1701719345d04f1d960e5",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials",
+   "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+   "published_at": "2026-11-12T22:25:30Z",
+   "published_raw": "Thu, 12 Nov 2026 17:25:30 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:ff2329e4e90a1bda043ae4d408d4477abd1fda9aadd5d4e367d37468f83611d4",
    "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released",
