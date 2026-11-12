@@ -1,15 +1,141 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-11-12T05:00:09Z",
+ "updated_at": "2026-11-12T06:00:09Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-12T05:00:09Z",
+  "last_success_at": "2026-11-12T06:00:09Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:afc8367d54b333a3e8356df62e418df872792e8a72aa56595737a0d3eb7f61dc",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209473",
+   "title": "파이어폭스 160, 보안 취약점 99건 수정…WebGL 격리 우회 결함 포함",
+   "published_at": "2026-11-12T14:56:32Z",
+   "published_raw": "2026-11-12 14:56:32",
+   "categories": [
+    "이슈"
+   ],
+   "description": "모질라(Mozilla)가 11월 10일 웹브라우저 파이어폭스(Firefox) 160을 배포하고 보안 취약점 99건을 수정했다. 이번 업데이트에는 브라우저의 보안 격리 영역을 벗어나거나 실행 권한을 높이는 데 악용될 수 있는 WebGL 취약점 CVE-2026-124907이 포함됐다. 모질라는 이 취약점을 ‘높음’으로 분류했으며, 공식 권고에 실제 악용 사례는 명시하지 않았다. 문제는 웹 그래픽을 처리하는 CanvasWebGL 구성요소에서 이미 해제한 메모리를 다시 참조하는 과정에서 발생한다. 공격에 악용되면 웹 콘텐츠의 실행 범위를",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:0f0609c8a6db991746b7a83e284e175b0aa3ab4177810c635e9a260b4a5d7106",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209472",
+   "title": "이반티 엔드포인트 매니저, 로그인 없이 악용 가능한 SQL 삽입 취약점 수정",
+   "published_at": "2026-11-12T14:53:34Z",
+   "published_raw": "2026-11-12 14:53:34",
+   "categories": [
+    "이슈"
+   ],
+   "description": "이반티(Ivanti)가 기업의 PC와 서버를 관리하는 엔드포인트 매니저(Endpoint Manager·EPM)의 치명적 취약점을 수정했다. 11월 10일 공개된 CVE-2026-121653은 공격자가 로그인 없이 원격에서 EPM 코어 서버의 SQL 삽입 결함을 악용할 수 있는 취약점이다. 위험도는 CVSS 9.8점이며, 2024 SU8 미만이 영향을 받는다. 이반티는 이번 업데이트에서 EPM을 비롯해 엔드포인트 매니저 모바일(EPMM), 센트리(Sentry), 클라우드 서비스 애플리케이션(CSA), 유저 워크스페이스 매니저(UWM)",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:2a13269fa1f701b10bcd727d8a4d2e8583ce544f4d2b4d79c3d3054e9a4dba73",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209471",
+   "title": "어도비 커넥트 취약점 24건 수정…CVSS 10.0 결함도 포함",
+   "published_at": "2026-11-12T14:50:32Z",
+   "published_raw": "2026-11-12 14:50:32",
+   "categories": [
+    "이슈"
+   ],
+   "description": "어도비(Adobe)가 화상회의와 온라인 교육에 쓰이는 어도비 커넥트(Adobe Connect)의 보안 취약점 24건을 수정했다. 어도비는 11월 10일 보안 권고 APSB26-191을 공개하고, 윈도 기반 자체 구축 서버 운영자에게 업데이트를 권고했다. 공개 당시 어도비가 파악한 실제 악용 사례는 없었다. APSB26-191수정 대상에는 최고 위험도인 CVSS 10.0을 받은 경로 순회 취약점 CVE-2026-121351과 서버 측 요청 위조 취약점 CVE-2026-121356, 접근 권한 검증 결함 CVE-2026-121352 등",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c8db2e0447eb3a492ee8cb83751a43249540a514bf6441c5505b450b4833e79e",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209468",
+   "title": "시스코 브로드웍스 취약점, 패치 공개 약 석 달 만에 실제 공격에 악용",
+   "published_at": "2026-11-12T14:46:39Z",
+   "published_raw": "2026-11-12 14:46:39",
+   "categories": [
+    "이슈"
+   ],
+   "description": "미국 사이버보안·인프라보안국(CISA)이 11월 10일 시스코의 기업용 통신 플랫폼 브로드웍스(BroadWorks) 취약점 CVE-2026-20320을 실제 악용 취약점 목록(KEV)에 추가했다. 시스코가 8월 19일 보안 업데이트를 공개한 지 약 석 달 만이다. 최초 공격 시점과 피해 규모는 공개되지 않았으며, 랜섬웨어 공격에 사용됐는지도 확인되지 않았다. 이 취약점은 브로드웍스의 XML 처리 과정에서 발생한다. 공격자가 로그인 없이 원격에서 브로드웍스 서비스 계정이 읽을 수 있는 민감한 설정 파일에 접근할 수 있다. 시스코가 평",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d3666be76ebe58651f847e209e5e6b6d0a191fd254cebd3c1ec22a390ecc244d",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209467",
+   "title": "젠 오케스트라 인증 우회 실제 악용…가상화 호스트까지 장악 가능",
+   "published_at": "2026-11-12T14:38:44Z",
+   "published_raw": "2026-11-12 14:38:44",
+   "categories": [
+    "이슈"
+   ],
+   "description": "가상화 관리 도구 젠 오케스트라(Xen Orchestra)의 인증 우회 취약점이 실제 공격에 악용됐다. 개발사 베이츠(Vates)는 11월 10일 보안 권고 VSA-2026-062를 공개하고 긴급 업데이트를 권고했다. 위험도는 ‘치명적’으로 분류했다. 최초 악용 시점과 피해 규모는 공개하지 않았으며, 권고에 CVE 번호와 CVSS 점수도 제시하지 않았다. 문제는 관리 서버의 로그인 토큰 검증 과정에서 발생했다. 공격자가 인증을 우회해 관리자 권한을 확보하면 관리 대상 가상화 환경에서 임의 코드를 실행하고, 연결된 XCP-ng 호스트",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:ce4d95f3c11c19778b1a1ba092bf42507e6d2aced217d9e458c4570dc78b0ca9",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209464",
+   "title": "구글 클라우드 “2027년 AI 해킹 가속…에이전트의 권한·판단 이력까지 관리해야”",
+   "published_at": "2026-11-12T13:59:47Z",
+   "published_raw": "2026-11-12 13:59:47",
+   "categories": [
+    "이슈"
+   ],
+   "description": "구글 클라우드가 2027년에는 에이전틱 AI(Agentic AI)가 사이버 공격과 방어의 속도를 끌어올리는 동시에 기업이 보호해야 할 대상도 바꿀 것으로 전망했다. 자율형 AI 에이전트가 가격 책정과 공급업체 계약 협상, 자본 배분, 공급망 조정까지 맡게 되면 기업은 데이터 유출과 시스템 장애에 더해 에이전트가 어떤 근거와 권한으로 업무를 처리했는지 검증할 수 있어야 한다는 분석이다.크리스 베츠(Chris Betz) 구글 클라우드 최고정보보호책임자(CISO)는 11월 10일 공개한 ‘2027년 보안 전망’에서 연초 일부 조직에 머물",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:7f5a8ad5394dd1874614a61be6c7cde5c5072a9e6cebcf8cfa73b569bb7fc5f5",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209460",
