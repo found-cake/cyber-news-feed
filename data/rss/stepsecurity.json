@@ -1,15 +1,39 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-11-12T07:00:11Z",
+ "updated_at": "2026-11-12T08:00:12Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-12T07:00:11Z",
+  "last_success_at": "2026-11-12T08:00:12Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:88ff9b28fff4711c78adf99da083657d3cb82db839b817f6c09366fb64e437f6",
+   "url": "https://www.stepsecurity.io/blog/wfx-phantom-the-github-actions-secret-stealer",
+   "title": "WFX Phantom: The GitHub Actions Secret Stealer That Deletes Its Tracks",
+   "published_at": "2026-11-12T07:58:30Z",
+   "published_raw": "Thu, 12 Nov 2026 07:58:30 GMT",
+   "categories": [],
+   "description": "A coordinated botnet of compromised GitHub accounts launched a widespread attack, opening seemingly harmless pull requests before pushing a malicious shell script directly to default branches. The script, dubbed **wfx**, executed through GitHub Actions to steal secrets before the attackers quickly reverted their changes, leaving minimal traces.",
+   "feed_id": "https://www.stepsecurity.io/blog/wfx-phantom-the-github-actions-secret-stealer",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6af566c804a4ab1184d3df63_image%20(4).png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6af566c804a4ab1184d3df63_image%20(4).png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:26f75d098fdc226681116ee2ba55508bf6c0c96b72c70fc5e1220afdb2d1565a",
    "url": "https://www.stepsecurity.io/blog/github-package-firewall-vs-stepsecurity-secure-registry-protection-beyond-npm",
