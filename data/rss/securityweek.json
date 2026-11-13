@@ -1,15 +1,53 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-13T08:00:22Z",
+ "updated_at": "2026-11-13T09:00:21Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-13T08:00:22Z",
+  "last_success_at": "2026-11-13T09:00:21Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:7c51dcf54e4bfd48d7fd73ef96b7e53121545a9dd090d68a49b191e175d3eadc",
+   "url": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop",
+   "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
+   "published_at": "2026-11-13T08:50:36Z",
+   "published_raw": "Fri, 13 Nov 2026 08:50:36 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "Chaotic Eclipse",
+    "Nighmare Eclipse",
+    "PoC exploit",
+    "SignDrop",
+    "vulnerability",
+    "Windows",
+    "Zero-Day"
+   ],
+   "description": "<p>It abuses CLFS and Windows Defender to trigger arbitrary file creation in the context of the antimalware process.</p>\n<p>The post <a href=\"https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/\">Nightmare Eclipse Drops Windows Zero-Day Exploit &#8216;SignDrop&#8217;</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50758",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:774d079ff64a6616d826bbad88d95870b77a728a7c8e767b9f461b4bd79c27eb",
    "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks",
@@ -2920,42 +2958,6 @@
    "authors": [
     {
      "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:af61de17449adc9cee38a4026ea0ab9158ec266a505e434d9144a8bf380e0b88",
-   "url": "https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training",
-   "title": "NATO’s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training",
-   "published_at": "2026-11-03T08:49:03Z",
-   "published_raw": "Tue, 03 Nov 2026 08:49:03 +0000",
-   "categories": [
-    "Government",
-    "Training & Awareness",
-    "CCDCOE",
-    "Crossed Swords",
-    "NATO",
-    "Training"
-   ],
-   "description": "<p>The NATO CCDCOE exercise in Estonia introduces AI agents and OpenAI Daybreak into joint cyber and kinetic operations training.</p>\n<p>The post <a href=\"https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/\">NATO&#8217;s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50485",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
      "uri": "",
      "email": ""
     }
