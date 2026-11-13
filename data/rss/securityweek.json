@@ -1,15 +1,55 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-13T10:00:23Z",
+ "updated_at": "2026-11-13T11:00:21Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-13T10:00:23Z",
+  "last_success_at": "2026-11-13T11:00:21Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:2cb24948d104f69060fba1c9f206ef954a21f9af6d5ba179256adf6eaf569a25",
+   "url": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure",
+   "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
+   "published_at": "2026-11-13T10:48:40Z",
+   "published_raw": "Fri, 13 Nov 2026 10:48:40 +0000",
+   "categories": [
+    "Cybercrime",
+    "Malware & Threats",
+    "Tracking & Law Enforcement",
+    "CastleRAT",
+    "disrupted",
+    "GootLoader",
+    "law enforcement",
+    "malware",
+    "seized",
+    "StealC"
+   ],
+   "description": "<p>Investigators seized 235 servers and 257 domains, along with 6.4 million victim credentials as part of Operation Endgame.</p>\n<p>The post <a href=\"https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/\">Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50767",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:e088dab77be0372e9dccc2defd20c3e3a52c100dc2e5cd2fc357036daef25262",
    "url": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities",
@@ -128,6 +168,7 @@
     "Vulnerabilities",
     "Check Point",
     "exploited",
+    "Featured",
     "PHP2Shell"
    ],
    "description": "<p>PHP2Shell enabled initial compromise, while CVE-2026-123039 allowed attackers to elevate privileges to root.</p>\n<p>The post <a href=\"https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/\">PHP2Shell Exploited in Destructive Check Point Gateway Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
