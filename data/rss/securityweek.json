@@ -1,15 +1,47 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-13T15:00:22Z",
+ "updated_at": "2026-11-13T16:00:21Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-13T15:00:22Z",
+  "last_success_at": "2026-11-13T16:00:21Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:cb849dba965d8086417ca60d72085decd7774729b63bd553a7c4cdddb2a6e647",
+   "url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach",
+   "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+   "published_at": "2026-11-13T15:20:00Z",
+   "published_raw": "Fri, 13 Nov 2026 15:20:00 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "In Other News"
+   ],
+   "description": "<p>Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors.</p>\n<p>The post <a href=\"https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/\">In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50780",
+   "authors": [
+    {
+     "name": "SecurityWeek News",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:b291b300ac5dc98b0ea92c062ad267d39b83b4670e020903e2717376233b62ff",
    "url": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage",
@@ -229,6 +261,7 @@
    "categories": [
     "Vulnerabilities",
     "Chaotic Eclipse",
+    "Featured",
     "Nighmare Eclipse",
     "PoC exploit",
     "SignDrop",

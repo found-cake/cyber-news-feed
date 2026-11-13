@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-13T15:00:22Z",
+ "updated_at": "2026-11-13T16:00:21Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-13T15:00:22Z",
+  "last_success_at": "2026-11-13T16:00:21Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:7c8915ec24c23b444893aab32e2d8621c1b1b569b2b8ade7416f9918c38d253e",
+   "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps",
+   "title": "How one AI agent exposed five critical enterprise security gaps",
+   "published_at": "2026-11-13T15:01:11Z",
+   "published_raw": "Fri, 13 Nov 2026 10:01:11 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security leaders on preventing them. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+   "authors": [
+    {
+     "name": "Sponsored by Token Security",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:1b4785a1c9f30cfa8328bdffc2b68c43f886866c702e8e5f725d7ad2f055261d",
    "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access",
@@ -1734,27 +1755,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:f2721e8953efda1e46fcdc785de1f883f17c93b096d7a465366bcf796bb0c6fd",
-   "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices",
-   "title": "Barracuda warns of critical flaws allowing root access to devices",
-   "published_at": "2026-11-03T15:06:16Z",
-   "published_raw": "Tue, 03 Nov 2026 10:06:16 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
      "uri": "",
      "email": ""
     }
