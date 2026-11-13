@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-13T16:00:21Z",
+ "updated_at": "2026-11-13T17:00:22Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-13T16:00:21Z",
+  "last_success_at": "2026-11-13T17:00:22Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -166,6 +166,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZC8n70grf1uGE8ms7f_4uuZv5h_YLLS1M8CGyqXzMyfCTbNbBCwOC4IF715IzuXyE7dY2Sslf1v77Ka15CPZvgY15pcZrZPZRK5xk5pFnyotvxHAXeyD39vG7JedceJz97Z1y0LCwaWgRLVnO6Uo-YbgJJ3o1n_Hh7k1rJWaQ-X7FTTMxr0U-LFuwx0M/s260-e100/cyberattacks.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d8cc2172e29e81d09fbb89cde9eaa285ffcbda93c8f5827b528880d87378bbfe",
+   "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+   "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+   "published_at": "2026-11-13T16:53:08Z",
+   "published_raw": "2026-11-13T22:23:08.102+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server.\n\nThe flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-346016434226560305",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj8XOS7IKEt2ZhrwwdlDSpQ5hAyI46wHZpPkTQ3_hA6yUtMQpzaM50fm2v9x0O7NCt5z9vdrTsYM3iPOmu9fmmMTQDViu-rQjCfSxfCQhwZQazr4ZYayvEn5MQfUdTBVODtAay6RIaTqJGUj-HVzbtMqNPdNFiQHExhO9sitJX0GrvTx_EhWmslA-87ds/s260-e100/postgresql.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -821,33 +848,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:db01d072adb842da9f5aad746996ccc62cdcf6a34da7fd4ece962950c6b90920",
-   "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
-   "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-   "published_at": "2026-11-10T16:00:55Z",
-   "published_raw": "2026-11-10T21:30:55.110+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.\n\nThe activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7518380458081637394",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgT-Z8hFA8uMe4HXLf_4QRk4Z4VLuUCDRL89LcgpXfsj9YAwLsLHIZL46pn2SLz0BBhCKPUKBhChDRRsKYPSkZPwmsDIhozGQ-4YemxOSol0AiwBEgtGX9OSZ_L3SQZVoebBX1fWGkh8TQ_hNVYHho0eCrBQzLlhnjPhhymXqcWePyuhdQDCMb6KJi6pmIe/s260-e100/cbs.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:cd877208a9d9554b1851047dbb574ccdce35d864ccec4eb966b4ff8221c7677c",
    "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
    "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
@@ -922,6 +922,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi08pEbJ7-HNwC0kJf517wnB6y8HwgKhMU-vxbhnCEh9KpWk1kmIjp_bb71k7GYfiTZNep3bcejvN7RmriF9_0RJnGGe9T5WB_nihCgxiDYOMl8mgDmI0Pm6ZFmPzf8HulQUxHjX3TncwmvqJIDPLyZBoHZpOahcMl7fehtwvT-oCxLzPec-KRtiScHT7wk/s260-e100/aws-secrets.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:db01d072adb842da9f5aad746996ccc62cdcf6a34da7fd4ece962950c6b90920",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+   "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+   "published_at": "2026-11-10T16:00:55Z",
+   "published_raw": "2026-11-10T21:30:55.110+05:30",
+   "categories": [
+    "cyber-attack"
+   ],
+   "description": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.\n\nThe activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7518380458081637394",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgT-Z8hFA8uMe4HXLf_4QRk4Z4VLuUCDRL89LcgpXfsj9YAwLsLHIZL46pn2SLz0BBhCKPUKBhChDRRsKYPSkZPwmsDIhozGQ-4YemxOSol0AiwBEgtGX9OSZ_L3SQZVoebBX1fWGkh8TQ_hNVYHho0eCrBQzLlhnjPhhymXqcWePyuhdQDCMb6KJi6pmIe/s260-e100/cbs.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -1516,33 +1543,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJtevfYXrRQrcU5FKn33bfyWpqN9O6FlI2b1eWOTjNWWslLIM1wwUfpzedZdMvdw6BXqmYqM1PwO-8GH3_IpKOGa15uoiXx5yDTkAal7JOFSKisSYOAHBdRk9XImTowXaCyJlTwX-chPd7uJFCDEq8u9sKY7jW6UYxorQKUSyuH9pF3szdwejvN_HGhno/s260-e100/kep.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:62e23c789fbfd2f85d19b5cda60f223a48c61e51317e15463cf2fb7e382d0fc7",
-   "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
-   "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
-   "published_at": "2026-11-03T16:55:58Z",
-   "published_raw": "2026-11-03T22:25:58.501+05:30",
-   "categories": [
-    "cyber-attack"
-   ],
-   "description": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers.\n\n\"It was not a single isolated breach or a simple phishing incident,\"",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7868276249561078542",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZCMCR8h3YCPcfY8Fbe54ckYKh_YUt_Yd7v82dAHobZtMNlQl_JVKWUX4OUPwR0dEmYsLNfeKsW6rUthk8pYRVhIddbPXx86sHCcNBRL9E-9LJTPrYSYwJ_V66EwGJNFeoWgDPbjcGfeJ4w2qn_gfTjXBoNAnfWq4GZ8rq7VOhnqt4QlItYEBr3Zar7XL1/s260-e100/bin.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
