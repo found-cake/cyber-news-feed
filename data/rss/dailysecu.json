@@ -1,15 +1,120 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-11-13T05:00:21Z",
+ "updated_at": "2026-11-13T06:00:23Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-13T05:00:21Z",
+  "last_success_at": "2026-11-13T06:00:23Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:6dee9faec473bf23e9a0d7b9555a062f21ba3c7ead4a5fcf1b12e043f62b303e",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209505",
+   "title": "레일웨이 해킹으로 고객 AI 서비스 키 탈취…무단 사용액 약 74만 달러",
+   "published_at": "2026-11-13T14:56:29Z",
+   "published_raw": "2026-11-13 14:56:29",
+   "categories": [
+    "이슈"
+   ],
+   "description": "클라우드 호스팅 업체 레일웨이(Railway)가 지난 10월 발생한 해킹으로 탈취된 고객의 AI 서비스 접근 키가 무단 사용됐다고 밝혔다. 레일웨이는 11월 10일 공개한 상세 조사 보고서에서 무단 사용액을 약 74만 달러로 추산했다. 회사는 AI 서비스 제공업체와 환불을 협의하고 있으며, 제공업체가 환불하지 않는 금액은 자체 부담하겠다고 밝혔다. 고객 앱이 쓰는 API 키 노려…1,852명 연동 토큰 재설정공격은 10월 20~21일 진행됐다. 레일웨이에 따르면 공격자는 내부 시스템에 침입한 뒤 고객 애플리케이션이 외부 서비스에 접",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:a6834fe9b9aaf878803bb72a0532357888f4b573360b56723d8f0cffe90e6c7c",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209504",
+   "title": "바라쿠다 내부 클라우드 해킹, 고객 보안 서비스 연동 키 저장 시스템 접근",
+   "published_at": "2026-11-13T14:44:44Z",
+   "published_raw": "2026-11-13 14:44:44",
+   "categories": [
+    "이슈"
+   ],
+   "description": "보안기업 바라쿠다(Barracuda)의 내부 클라우드가 해킹돼 공격자가 고객 시스템과 보안 서비스를 연결하는 자격증명 저장 시스템에 접근했다. 바라쿠다는 11월 10일 사고를 공지하고 노출 가능성이 있는 고객에게 개별 통지했다. 회사는 공격자가 저장 시스템에 접근한 사실은 확인했지만, 고객 연동 자격증명 자체를 열람하거나 가져갔다는 직접 증거는 발견하지 못했다고 밝혔다. 협력사 프로젝트가 끝난 뒤에도 클라우드 키 유효바라쿠다가 11월 11일 공개한 후속 분석에 따르면, 회사는 과거 프로젝트를 위해 외부 협력사에 클라우드 접근 키를",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e9f54f6dee05ec30556d7ec997843b028e83725f45838466885b7a0e2b26478f",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209503",
+   "title": "탈취한 깃허브 계정으로 6만여 저장소 탐색…최소 1,806곳서 자격증명 탈취",
+   "published_at": "2026-11-13T14:39:14Z",
+   "published_raw": "2026-11-13 14:39:14",
+   "categories": [
+    "이슈"
+   ],
+   "description": "공격자가 탈취한 개발자 계정으로 깃허브 저장소에 접근해 소프트웨어 빌드·배포에 쓰이는 자격증명을 빼낸 사실이 확인됐다.보안기업 엔도랩스는 11월 12일 공개한 보고서에서 ‘wfx’로 불리는 이번 공격이 11월 10일부터 관측됐다고 밝혔다. 캠페인 전체의 최초 계정 탈취 경로는 확인되지 않았다. 엔도랩스에 따르면 공격자는 6만1,764개 저장소에서 접근 권한을 탐색했다. 이 가운데 8,926개 저장소에서 악성 코드가 삽입된 흔적이 발견됐고, 최소 1,806개 저장소에서 자격증명이 외부로 반출된 것으로 파악됐다. 탐색 대상, 악성 코드",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:2873f804ebc4c387dd71147529a813eef48866911e3ecba613f8e3fc9deee4aa",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209502",
+   "title": "시트릭스 넥스케일러 메모리 결함 28개 수정…기본 설정 장비도 영향",
+   "published_at": "2026-11-13T14:31:36Z",
+   "published_raw": "2026-11-13 14:31:36",
+   "categories": [
+    "이슈"
+   ],
+   "description": "시트릭스가 11월 12일 넷스케일러 ADC와 게이트웨이의 메모리 결함 28개를 수정한 보안 업데이트를 공개했다. 이 가운데 CVE-2026-120868은 별도 기능을 켜지 않은 기본 설정에서도 영향을 준다. 유럽연합 사이버보안 사고 대응팀은 같은 날 업데이트를 권고했다. 공개 권고에서 실제 악용 사례는 확인되지 않았다. CVE-2026-120868(CVSS 4.0 기준 9.3점)은 네트워크 패킷을 처리하는 과정에서 발생하는 메모리 결함이다. 공격자가 로그인하지 않고도 악용할 수 있으며, 장비가 비정상적으로 동작하거나 서비스가 중단될",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "우진영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:9dbc53c845a047a4bcca2b64b8cf501a04a88eb9b54c6c1589d5e744fc0a5266",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209501",
+   "title": "엔에이블 원격관리 서버, 긴급 패치 후 추가 취약점 공개…레거시 API 점검 필요",
+   "published_at": "2026-11-13T14:27:55Z",
+   "published_raw": "2026-11-13 14:27:55",
+   "categories": [
+    "이슈"
+   ],
+   "description": "엔에이블(N-able)의 원격 모니터링·관리 솔루션 엔센트럴(N-central)에서 긴급 패치 이후에도 남아 있는 취약점이 공개됐다. 11월 10일 배포된 2026.4 HF2(빌드 2026.4.1.26)를 적용한 자체 구축 서버도 구형 연동 기능인 레거시 API를 켜고 인터넷에 노출한 경우 영향을 받을 수 있다. 연구자가 11월 11일 공개한 4EverAble2Shell은 해당 조건에서 공격자가 로그인 없이 서버의 최고 관리자 권한을 얻을 수 있는 문제다. 엔에이블은 12일 후속 안내에서 레거시 API가 기본 설정에서는 꺼져 있으며",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:cef8b33ae25c1c2569d196e068c163e29e2fc8768eae2c8cbef25794987bb4e0",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209493",
