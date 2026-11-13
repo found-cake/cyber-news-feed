@@ -1,15 +1,86 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-13T07:00:22Z",
+ "updated_at": "2026-11-13T08:00:22Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-13T07:00:22Z",
+  "last_success_at": "2026-11-13T08:00:22Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:774d079ff64a6616d826bbad88d95870b77a728a7c8e767b9f461b4bd79c27eb",
+   "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks",
+   "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
+   "published_at": "2026-11-13T07:39:04Z",
+   "published_raw": "Fri, 13 Nov 2026 07:39:04 +0000",
+   "categories": [
+    "Malware & Threats",
+    "Vulnerabilities",
+    "Check Point",
+    "exploited",
+    "PHP2Shell"
+   ],
+   "description": "<p>PHP2Shell enabled initial compromise, while CVE-2026-123039 allowed attackers to elevate privileges to root.</p>\n<p>The post <a href=\"https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/\">PHP2Shell Exploited in Destructive Check Point Gateway Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50756",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:a47df275ebbf9dd58eaa3262f645725ece847281405057c5257cb3e7553d943f",
+   "url": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication",
+   "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
+   "published_at": "2026-11-13T07:20:50Z",
+   "published_raw": "Fri, 13 Nov 2026 07:20:50 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "exploited",
+    "Featured",
+    "N-able",
+    "N-central",
+    "Zero-Day"
+   ],
+   "description": "<p>Dubbed 4EverAble2Shell, the flaw could allow remote, unauthenticated attackers to execute code with root privileges.</p>\n<p>The post <a href=\"https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/\">Hackers Exploit New N-central Zero-Day Hours After PoC Publication</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50754",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:575e7f349461fb00b5a2e43cc60d27ffcf6d68bf5e91b1127429c2eda539a9bf",
    "url": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance",
@@ -2882,45 +2953,6 @@
    ],
    "description": "<p>The NATO CCDCOE exercise in Estonia introduces AI agents and OpenAI Daybreak into joint cyber and kinetic operations training.</p>\n<p>The post <a href=\"https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/\">NATO&#8217;s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=50485",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:dd5a281798b8751066560429c8a7e525bc8c8cd74755ff48a376bd065430c86a",
-   "url": "https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume",
-   "title": "Over 100 European Stores Hit as Supermarket Fridge Attacks Return",
-   "published_at": "2026-11-03T07:43:24Z",
-   "published_raw": "Tue, 03 Nov 2026 07:43:24 +0000",
-   "categories": [
-    "ICS/OT",
-    "controller",
-    "cyberattack",
-    "Danfoss",
-    "Europe",
-    "Featured",
-    "ICS",
-    "refrigeration",
-    "supermarket"
-   ],
-   "description": "<p>Attackers again tampered with internet-exposed refrigeration controllers, this time at stores in Belgium, Sweden, Ireland and beyond.</p>\n<p>The post <a href=\"https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume/\">Over 100 European Stores Hit as Supermarket Fridge Attacks Return</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50480",
    "authors": [
     {
      "name": "Eduard Kovacs",
