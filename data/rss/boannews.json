@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "boannews",
- "updated_at": "2026-11-14T02:00:22Z",
+ "updated_at": "2026-11-14T03:00:21Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-14T02:00:22Z",
+  "last_success_at": "2026-11-14T03:00:21Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:fcd46595520a870bd35ab481caa95e091871642214e620d57e07ae5e89997775",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=147236",
+   "title": "HTTP/2 켠 서버만 노출... 아파치 웹서버 원격 코드 실행 결함, 앤트로픽·구글이 찾아냈다",
+   "published_at": "2026-11-14T11:33:49Z",
+   "published_raw": "2026-11-14 11:33:49",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "아파치 HTTP 서버에서 로그인하지 않은 공격자가 원격으로 코드를 실행할 수 있는 치명적 결함(CVE-2026-119618)이 고쳐졌다. 수정판 2.4.71은 11일(현지시각) 나왔다.아파치 HTTP 서버는 웹사이트를 사용자에게 전달하는 웹서버 프로그램이다. 결함은 이 프로그램에서 웹 통신 규약 HTTP/2를 처리하는 모듈 mod_http2에 있다. 2.4.55~2.4.70 버전이 영향을 받는다.자사 운영체제 레드햇 엔터프라이즈 리눅스(RHEL)에 이 서버를 넣어 배포하는 레드햇은, 서버에 접근할 수 있는 공격자가 로그인 없이 서버",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "정지원 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:40387ea280680cf382a60ef51166c818e166cdf30300b173ed55edf82d21b216",
    "url": "https://www.boannews.com/news/articleView.html?idxno=147263",
