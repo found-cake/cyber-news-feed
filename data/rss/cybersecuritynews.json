@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-15T15:00:34Z",
+ "updated_at": "2026-11-15T16:00:35Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-15T15:00:34Z",
+  "last_success_at": "2026-11-15T16:00:35Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:e05b2f0337110f8f7cde0d27904e09ca178011f6d6516a33a059c24721433541",
+   "url": "https://cybersecuritynews.com/supermarket-refrigeration-systems-0-day",
+   "title": "Researchers Find Six 0-Days Allowing Unauthorized Takeover of Supermarket Refrigeration Systems",
+   "published_at": "2026-11-15T15:23:22Z",
+   "published_raw": "Sun, 15 Nov 2026 15:23:22 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Vulnerabilities",
+    "cyber security"
+   ],
+   "description": "<p>Six pre-authentication remote code execution flaws were found in the Danfoss AK-SM800A supermarket fridge controller, allowing remote takeover in about an hour, according to Midnight Blue researcher Carlo Meijer. The flaws are stack-based buffer overflows. They affect every firmware version up to and including 5.3.2, and no CVE numbers have been assigned yet. Since October [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/supermarket-refrigeration-systems-0-day/\">Researchers Find Six 0-Days Allowing Unauthorized Takeover of Supermarket Refrigeration Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=172101",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Supermarket-Refrigeration-Systems.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "172101",
+     "content_encoded": "<p class=\"wp-block-paragraph\" id=\"h-six-pre-authentication-remote-code-execution-flaws-were-found-in-the-danfoss-ak-sm800a-supermarket-fridge-controller-allowing-remote-takeover-in-about-an-hour-according-to-midnight-blue-researcher-carlo-meijer\">Six pre-authentication <a href=\"https://cybersecuritynews.com/supermarkets-fridges-hacked/\" target=\"_blank\" rel=\"noreferrer noopener\">remote code execution flaws</a> were found in the Danfoss AK-SM800A supermarket fridge controller, allowing remote takeover in about an hour, according to Midnight Blue researcher Carlo Meijer.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaws are stack-based buffer overflows. They affect every firmware version up to and including 5.3.2, and no CVE numbers have been assigned yet.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Since October 11, waves of cyber attacks have hit internet-exposed Danfoss and Copeland fridge controllers across Europe. Attackers started defrost cycles, and the losses reached tens of millions of euros.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Some stores even had fires, according to Wikipedia&#8217;s incident summary. Cyber Security News has followed the story from the start, including its report on the <a href=\"https://cybersecuritynews.com/danfoss-refrigeration-hack-exposed-hosts/\" target=\"_blank\" rel=\"noopener\">4,980 exposed Danfoss hosts</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Who is behind the incidents is still debated. France has blamed Iran&#8217;s Shahid Kaveh unit, but SentinelOne says attribution remains open and the incidents may not share one operator. The French agency ANSSI also said its early findings pointed to exposed admin pages and weak passwords, not the older published bugs.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Meijer did not use fuzzing or AI. He downloaded the public firmware, ran the main program in an emulator, and looked for places where the code calls strcpy.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This old C function copies data without checking its size, so a long input can overflow memory. One unauthenticated web handler crashed after he sent a long string of &#8220;A&#8221; characters. He found at least five bugs of this kind in a small part of the code.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The binary also lacked stack canaries and PIE, two basic protections that make such bugs harder to use. The program runs as root, so a successful exploit gives full control.</p>\n\n\n\n<h2 id=\"h-supermarket-fridge-controller-takeover\" class=\"wp-block-heading\"><strong>Supermarket Fridge Controller Takeover</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Midnight Blue showed a working root exploit</a> on an older firmware version. The team is withholding technical details while it works with Danfoss on coordinated disclosure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Danfoss added session control in later firmware, and &#8220;strict&#8221; became the default from version 4.0. This setting blocks most of the web attack surface for unauthenticated users, and CERT-FR lists it among its official mitigations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Even so, the researchers found another overflow in sm_fcgi_app, the component that checks logins, and it still works on the latest firmware with strict mode on.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The team also warns about what comes after a break-in. The controller does not use the i.MX6 chip&#8217;s secure boot features. An attacker with root access could therefore plant an implant that survives a factory reset.</p>\n\n\n\n<p class=\"wp-block-paragraph\">They could also wipe the flash memory or push bad firmware to brick the device. That would force stores to replace hardware, and freezers could sit idle for days. Midnight Blue compares this to the wiper-style tactics seen in the <a href=\"https://cybersecuritynews.com/sandworm-apt-group-targeting-polands-power-grid/\" target=\"_blank\" rel=\"noreferrer noopener\">December 2025 attack on the Polish electric grid</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The researchers say patching one bug at a time is a poor use of limited staff time. Owners should find every exposed controller, including those behind integrators&#8217; 4G modems. They should then move remote access behind a VPN, a private APN, or a strict IP allow list. CERT-FR warns that allow lists are only a short-term fix.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Exposure is still high. Censys sees hundreds of Danfoss devices online, plus over 1,000 Copeland and Dixell units. Earlier Cyber Security News coverage of <a target=\"_blank\" href=\"https://cybersecuritynews.com/hackers-can-turn-off-refrigeration/\" rel=\"noopener\">Copeland XWEB Pro flaws</a> showed the same pattern. Until these controllers leave the open internet, new bugs will keep putting food and medicine at risk.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>Give your SOC the alert context on the latest threats to stop incidents quickly -&gt; <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate Threat Intel from 16K SOCs</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/supermarket-refrigeration-systems-0-day/\">Researchers Find Six 0-Days Allowing Unauthorized Takeover of Supermarket Refrigeration Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:95ab10b6a5fa1cd15d313b40d40a3151e598af3359b0b81aabeea616a888b862",
    "url": "https://cybersecuritynews.com/fbi-reveals-hackers-artex-ai-usage",
