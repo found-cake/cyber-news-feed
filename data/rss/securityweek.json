@@ -1,15 +1,47 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-15T12:00:36Z",
+ "updated_at": "2026-11-15T13:00:39Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-15T12:00:36Z",
+  "last_success_at": "2026-11-15T13:00:39Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:1d439cb1cd72773e724f88320aa0237f357cb7407aa89b8334d648d27d662b13",
+   "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office",
+   "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+   "published_at": "2026-11-15T12:51:33Z",
+   "published_raw": "Sun, 15 Nov 2026 12:51:33 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "Super Intelligence"
+   ],
+   "description": "<p>The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications.</p>\n<p>The post <a href=\"https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/\">Pentagon Renames CDAO ‘Super Intelligence Office’</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50806",
+   "authors": [
+    {
+     "name": "SecurityWeek News",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:64691352952e2cc2b569231c3d36af332d7b7cec2c02cfe87b324db927be69b0",
    "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook",
@@ -2548,77 +2580,6 @@
    ],
    "description": "<p>More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit.</p>\n<p>The post <a href=\"https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/\">Bank Phishing Sites Show Fake &#8216;Suspended&#8217; Pages to Evade Takedowns</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=50565",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:4e686fb0ed59b24b0a8869f7730e4f96dc4a0da6790693347ed884a525933cd0",
-   "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised",
-   "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
-   "published_at": "2026-11-05T12:58:32Z",
-   "published_raw": "Thu, 05 Nov 2026 12:58:32 +0000",
-   "categories": [
-    "ICS/OT",
-    "blood bank",
-    "cyberattack",
-    "France",
-    "refrigeration"
-   ],
-   "description": "<p>The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked.</p>\n<p>The post <a href=\"https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/\">Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50560",
-   "authors": [
-    {
-     "name": "Associated Press",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:8f24f3bf401edee420d30f9e7a5b3e91aaf19f7b06e83772554f76055f83cda5",
-   "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws",
-   "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
-   "published_at": "2026-11-05T12:33:49Z",
-   "published_raw": "Thu, 05 Nov 2026 12:33:49 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "Cisco",
-    "patches",
-    "SonicWall",
-    "vulnerability",
-    "WatchGuard"
-   ],
-   "description": "<p>Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/\">Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50558",
    "authors": [
     {
      "name": "Ionut Arghire",
