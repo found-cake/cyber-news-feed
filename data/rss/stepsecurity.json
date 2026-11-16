@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-11-15T23:00:34Z",
+ "updated_at": "2026-11-16T00:00:35Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-15T23:00:34Z",
+  "last_success_at": "2026-11-16T00:00:35Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -14,8 +14,8 @@
    "id": "sha256:2d9b527583111477e2b7a0d96fc2abf5441213947b300b214bd966ad2cd8e09c",
    "url": "https://www.stepsecurity.io/blog/accurasofthire-fake-interview-developer-machines",
    "title": "The Take-Home Test That Runs on Your Work Laptop: Inside the AccuraSoftHire Fake Interview Campaign",
-   "published_at": "2026-11-13T17:04:34Z",
-   "published_raw": "Fri, 13 Nov 2026 17:04:34 GMT",
+   "published_at": "2026-11-15T20:06:43Z",
+   "published_raw": "Sun, 15 Nov 2026 20:06:43 GMT",
    "categories": [],
    "description": "Binance says its $6.34 billion theft began when an engineer ran a fake interview assignment on his work computer. JFrog has now exposed a fake company, AccuraSoftHire, built to run the same trick. We decoded the attacker's server history from a public Ethereum wallet and found npm packages from the interview task that stayed installable for up to seven months. Here is what to check on your developer machines.",
    "feed_id": "https://www.stepsecurity.io/blog/accurasofthire-fake-interview-developer-machines",
@@ -38,8 +38,8 @@
    "id": "sha256:8d732f91bb5f501b5524a86cdd0b433644c9eeb807d0ed85f8948d226e254c0a",
    "url": "https://www.stepsecurity.io/blog/artex-ai-pentesting-tool-attackers-leaked-secrets",
    "title": "ARTEX: Attackers Adopted This AI Pentesting Tool in Three Months. Leaked Secrets Are Its Fastest Way In.",
-   "published_at": "2026-11-13T15:22:30Z",
-   "published_raw": "Fri, 13 Nov 2026 15:22:30 GMT",
+   "published_at": "2026-11-15T20:06:43Z",
+   "published_raw": "Sun, 15 Nov 2026 20:06:43 GMT",
    "categories": [],
    "description": "ARTEX is an open-source tool where AI agents run a penetration test on their own. Since August 2026, state-aligned groups, criminal crews and one runaway research agent have pointed ARTEX at hundreds of organizations. In one case, an agent went from a GitHub search for leaked secrets to stolen cloud data in five minutes. This post covers what ARTEX is, who uses ARTEX, how to spot ARTEX activity, and how you remove its easiest way in.",
    "feed_id": "https://www.stepsecurity.io/blog/artex-ai-pentesting-tool-attackers-leaked-secrets",
@@ -51,8 +51,8 @@
    "id": "sha256:326e4702184e191c1c88e8971b867b31962ee7b0b6ac38a70553f98cf9f794fe",
    "url": "https://www.stepsecurity.io/blog/cve-2026-126187-react-flight-rce",
    "title": "CVE-2026-126187: React Server Components Flaw Lets Attackers Execute Code Through Smuggled Flight Rows",
-   "published_at": "2026-11-12T15:00:22Z",
-   "published_raw": "Thu, 12 Nov 2026 15:00:22 GMT",
+   "published_at": "2026-11-15T20:06:43Z",
+   "published_raw": "Sun, 15 Nov 2026 20:06:43 GMT",
    "categories": [],
    "description": "React shipped fixes on November 10, 2026 for a CVSS 9.5 unauthenticated RCE in React Server Components' Flight protocol. Read how a silent serialization bug turns typed arrays into code execution, who is exposed, and how to find affected installs in CI and on developer machines.",
    "feed_id": "https://www.stepsecurity.io/blog/cve-2026-126187-react-flight-rce",
@@ -75,8 +75,8 @@
    "id": "sha256:88ff9b28fff4711c78adf99da083657d3cb82db839b817f6c09366fb64e437f6",
    "url": "https://www.stepsecurity.io/blog/wfx-phantom-the-github-actions-secret-stealer",
    "title": "WFX Phantom: The GitHub Actions Secret Stealer That Deletes Its Tracks",
-   "published_at": "2026-11-12T10:47:36Z",
-   "published_raw": "Thu, 12 Nov 2026 10:47:36 GMT",
+   "published_at": "2026-11-15T20:06:43Z",
+   "published_raw": "Sun, 15 Nov 2026 20:06:43 GMT",
    "categories": [],
    "description": "A coordinated botnet of compromised GitHub accounts launched a widespread attack, opening seemingly harmless pull requests before pushing a malicious shell script directly to default branches. The script, dubbed \"wfx\", executed through GitHub Actions to steal secrets before the attackers quickly reverted their changes, leaving minimal traces.",
    "feed_id": "https://www.stepsecurity.io/blog/wfx-phantom-the-github-actions-secret-stealer",
@@ -99,8 +99,8 @@
    "id": "sha256:26f75d098fdc226681116ee2ba55508bf6c0c96b72c70fc5e1220afdb2d1565a",
    "url": "https://www.stepsecurity.io/blog/github-package-firewall-vs-stepsecurity-secure-registry-protection-beyond-npm",
    "title": "GitHub Package Firewall vs. StepSecurity Secure Registry: Protection beyond npm",
-   "published_at": "2026-11-11T03:34:49Z",
-   "published_raw": "Wed, 11 Nov 2026 03:34:49 GMT",
+   "published_at": "2026-11-15T20:06:43Z",
+   "published_raw": "Sun, 15 Nov 2026 20:06:43 GMT",
    "categories": [],
    "description": "GitHub’s package firewall covers npm only. StepSecurity's Secure Registry protects 8 ecosystems, traces every install, and blocks malicious packages within an hour",
    "feed_id": "https://www.stepsecurity.io/blog/github-package-firewall-vs-stepsecurity-secure-registry-protection-beyond-npm",
@@ -123,8 +123,8 @@
    "id": "sha256:46f78ec6034cdecc710ff13dc767ebcb04085ff6bcab8a9ac451ca912dcd00ed",
    "url": "https://www.stepsecurity.io/blog/ethersphere-bee-js-13-3-0-compromise",
    "title": "@ethersphere/bee-js 13.3.0 Compromised",
-   "published_at": "2026-11-09T01:18:18Z",
-   "published_raw": "Mon, 09 Nov 2026 01:18:18 GMT",
+   "published_at": "2026-11-15T20:06:43Z",
+   "published_raw": "Sun, 15 Nov 2026 20:06:43 GMT",
    "categories": [],
    "description": "@ethersphere/bee-js 13.3.0 is compromised. Malicious install-time code targets Swarm wallet data and attempts to establish persistent access on affected systems.",
    "feed_id": "https://www.stepsecurity.io/blog/ethersphere-bee-js-13-3-0-compromise",
@@ -147,8 +147,8 @@
    "id": "sha256:2514ac7c2756b717a07ca7d96299beea341852e6121db7bbfca4670d43d86072",
    "url": "https://www.stepsecurity.io/blog/cve-2026-123158-sshhole-openssh-musl-password-bypass",
    "title": "CVE-2026-123158 (*sshole): OpenSSH Password Authentication Bypass on Alpine Linux",
-   "published_at": "2026-11-06T22:30:16Z",
-   "published_raw": "Fri, 06 Nov 2026 22:30:16 GMT",
+   "published_at": "2026-11-15T20:06:43Z",
+   "published_raw": "Sun, 15 Nov 2026 20:06:43 GMT",
    "categories": [],
    "description": "CVE-2026-123158 (*sshole) enables an OpenSSH authentication bypass on Alpine Linux. Review lab results, exposure conditions, fixes, and mitigations.",
    "feed_id": "https://www.stepsecurity.io/blog/cve-2026-123158-sshhole-openssh-musl-password-bypass",
@@ -161,6 +161,174 @@
     },
     {
      "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6aee54b0baae190d5086fac7_6aee54077af22995450d8aab_cve-2026-123158-cover.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c8a312f4207accc85a5598c7c9723cb4ef70b79be1abcc453dbb9f018a26d38a",
+   "url": "https://www.stepsecurity.io/blog/malicious-files-find-what-supply-chain-attacks-leave-behind-in-your-github-repositories-and-on-developer-machines",
+   "title": "Malicious Files: Find What Supply Chain Attacks Leave Behind in Your GitHub Repositories and on Developer Machines",
+   "published_at": "2026-11-15T20:06:43Z",
+   "published_raw": "Sun, 15 Nov 2026 20:06:43 GMT",
+   "categories": [],
+   "description": "StepSecurity Malicious Files finds files planted by Miasma, Shai-Hulud and other supply chain attacks in GitHub repositories and on developer machines.",
+   "feed_id": "https://www.stepsecurity.io/blog/malicious-files-find-what-supply-chain-attacks-leave-behind-in-your-github-repositories-and-on-developer-machines",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ae9d2d495033f7287352b20_covernew1_Artboard%207%20copy%20101.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ae9d2d495033f7287352b20_covernew1_Artboard%207%20copy%20101.jpg",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:cfde98faf1a715e839b679db67c3f930d536930b7ea57138772ad42b8cf1925b",
+   "url": "https://www.stepsecurity.io/blog/binance-hack-developer-machine-security",
+   "title": "Binance’s $6.34 Billion Hack: Developer Machines, AI Tooling, and Wallet Signing",
+   "published_at": "2026-11-15T20:06:43Z",
+   "published_raw": "Sun, 15 Nov 2026 20:06:43 GMT",
+   "categories": [],
+   "description": "Binance’s November 3 findings reveal a path from a malicious coding assignment to wallet signing. Explore developer-machine controls and response guidance.",
+   "feed_id": "https://www.stepsecurity.io/blog/binance-hack-developer-machine-security",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ae51437be0596cacdafda89_binance-hack-developer-machine-security-cover.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ae51437be0596cacdafda89_binance-hack-developer-machine-security-cover.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b45d2d2c435b2ee15d6fe9bc1360089ffeed059345e2a6bf0514d31719869841",
+   "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
+   "title": "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines",
+   "published_at": "2026-11-15T20:06:43Z",
+   "published_raw": "Sun, 15 Nov 2026 20:06:43 GMT",
+   "categories": [],
+   "description": "On October 29, 2026, trojanized builds (2.1.312 and 2.1.313) of the official Claude Code VS Code extension were published to Cursor's VS Code Extension Marketplace for macOS and Windows.",
+   "feed_id": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ae66b888f75918994145b81_6ae66ae85f4020f3084dcbbb_claude-code-cover-cursor-marketplace-final.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ae66b888f75918994145b81_6ae66ae85f4020f3084dcbbb_claude-code-cover-cursor-marketplace-final.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:9ec11fa99ef917ef483b8d0bc2c1a0d23804674294bd0c89e3aaac1fd5780c8a",
+   "url": "https://www.stepsecurity.io/blog/stepsecurity-now-inventories-ai-agent-plugins-in-your-github-repositories-and-on-developer-machines",
+   "title": "StepSecurity Now Inventories AI Agent Plugins in Your GitHub Repositories and on Developer Machines",
+   "published_at": "2026-11-15T20:06:43Z",
+   "published_raw": "Sun, 15 Nov 2026 20:06:43 GMT",
+   "categories": [],
+   "description": "Inventory the Claude Code and Codex plugins on developer machines and in your GitHub repositories: where each came from, what it bundles, whether it is enabled, and which repositories distribute it.",
+   "feed_id": "https://www.stepsecurity.io/blog/stepsecurity-now-inventories-ai-agent-plugins-in-your-github-repositories-and-on-developer-machines",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6adf80f9c1de98caa93ea8a4_image%20(151).png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6adf80f9c1de98caa93ea8a4_image%20(151).png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:8400214680a5a8d6743cfe77d9dd57452ee894f1e7d43d2f692642aa08ef7c6e",
+   "url": "https://www.stepsecurity.io/blog/ovhcloud-cli-github-release-swap-glassworm",
+   "title": "OVHcloud CLI Compromised via GitHub Release Swap: Detonating the Real GlassWorm Loader and What We Found",
+   "published_at": "2026-11-15T20:06:43Z",
+   "published_raw": "Sun, 15 Nov 2026 20:06:43 GMT",
+   "categories": [],
+   "description": "An attacker swapped the binaries on five OVHcloud CLI releases, stayed live for 94 minutes, and deleted the evidence. We rebuilt the exact attacker build, recovered the GlassWorm loader from an orphaned commit, and detonated the full chain in an isolated chamber. The replay shows that install.sh never exposed arm64 Linux, Homebrew was never a path in, and a single ovhcloud version command was enough to spot the malicious build.",
+   "feed_id": "https://www.stepsecurity.io/blog/ovhcloud-cli-github-release-swap-glassworm",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6adc5f8d9d3fffc9ce4f7258_OVHcloud%20CLI%20Cover-selection.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6adc5f8d9d3fffc9ce4f7258_OVHcloud%20CLI%20Cover-selection.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:48e121e98430fd65bfe001f924639a8c060d7d302d7f5170f433b857684155f2",
+   "url": "https://www.stepsecurity.io/blog/emudhra-emsign-ca-compromise-python-pip-ci-cd-update",
+   "title": "eMudhra / emSign CA Compromise: What Python, pip, and CI/CD Users Need to Update",
+   "published_at": "2026-11-15T20:06:43Z",
+   "published_raw": "Sun, 15 Nov 2026 20:06:43 GMT",
+   "categories": [],
+   "description": "Compromised eMudhra intermediate CA keys put Python dependency downloads at risk. Here are the affected tools, verified certificate-trust results, and remediation steps for pip, uv, virtual environments, and CI/CD images.",
+   "feed_id": "https://www.stepsecurity.io/blog/emudhra-emsign-ca-compromise-python-pip-ci-cd-update",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ada67a40579c9fce3eb5977_6ada678796227c318afba95f_emudhra-emsign-ca-compromise-hero-v2.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ada67a40579c9fce3eb5977_6ada678796227c318afba95f_emudhra-emsign-ca-compromise-hero-v2.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:ed2086ad234c1dabca49cd4ec9847f4e0b451f2881b9531912a17a3dd6dd0982",
+   "url": "https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer",
+   "title": "litellm 1.107.0 Compromised on PyPI and Docker: Credential Stealer and Hourly Remote Code Loader",
+   "published_at": "2026-11-15T20:06:43Z",
+   "published_raw": "Sun, 15 Nov 2026 20:06:43 GMT",
+   "categories": [],
+   "description": "litellm 1.107.0 PyPI wheels and Docker images shipped a .pth credential stealer and an hourly remote code loader that exfiltrate to litellm.dev. Analysis, IOCs, and how to respond.",
+   "feed_id": "https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ad8d084307ad9e4ae727787_6ad8cf2a35cd8522700fd93e_litellm-1-107-0-hero-v2.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ad8d084307ad9e4ae727787_6ad8cf2a35cd8522700fd93e_litellm-1-107-0-hero-v2.png",
      "kind": "content",
      "medium": "image"
     }
