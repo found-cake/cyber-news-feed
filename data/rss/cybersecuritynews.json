@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-16T05:00:34Z",
+ "updated_at": "2026-11-16T06:00:36Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-16T05:00:34Z",
+  "last_success_at": "2026-11-16T06:00:36Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:e20572500a5abc9ba5082bafbae34defba19b1c4984ac92561b289c5a906c6c0",
+   "url": "https://cybersecuritynews.com/noisytcp-linux-kernel-vulnerability",
+   "title": "NoisyTCP: 11-Year-Old Linux Kernel Flaw Lets Unauthenticated Attackers Crash Servers Remotely",
+   "published_at": "2026-11-16T05:26:51Z",
+   "published_raw": "Mon, 16 Nov 2026 05:26:51 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Linux",
+    "Vulnerability"
+   ],
+   "description": "<p>NoisyTCP is an 11-year-old Linux kernel bug. It lets a remote attacker crash a server without logging in. The flaw is tracked as CVE-2026-99288. Hyunwoo Kim (@v4bel) reported and patched it, and he released the NoisyTCP advisory on GitHub after the Linux distribution embargo ended. The flaw sits in the kernel&#8217;s TCP code, which handles [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/noisytcp-linux-kernel-vulnerability/\">NoisyTCP: 11-Year-Old Linux Kernel Flaw Lets Unauthenticated Attackers Crash Servers Remotely</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=172215",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/NoisyTCP-11-Year-Old-Linux-Kernel-Flaw-Lets-Unauthenticated-Attackers-Crash-Servers-Remotely.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "172215",
+     "content_encoded": "<p class=\"wp-block-paragraph\">NoisyTCP is an <a href=\"https://cybersecuritynews.com/8-year-old-linux-kernel-bug/\" target=\"_blank\" rel=\"noreferrer noopener\">11-year-old Linux kernel bug</a>. It lets a remote attacker crash a server without logging in. The flaw is tracked as CVE-2026-99288. Hyunwoo Kim (@v4bel) reported and patched it, and he released the<a href=\"https://github.com/V4bel/NoisyTCP\" target=\"_blank\" rel=\"noreferrer noopener nofollow\"> NoisyTCP advisory on GitHub</a> after the Linux distribution embargo ended.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw sits in the kernel&#8217;s TCP code, which handles almost all network traffic on Linux. Kim says it can be triggered against plain TCP listeners.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A server doesn&#8217;t need unusual settings, firewall rules, or special sockets. It only has to call listen() and receive packets from the attacker. That puts Nginx, Apache, and SSH servers in their default setups at risk, as well as proxies.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The attacker needs a server with two or more receive queues, or one with <a href=\"https://cybersecuritynews.com/linux-6-15-released/\" target=\"_blank\" rel=\"noreferrer noopener\">Receive Packet Steering (RPS) </a>turned on. Both are common on modern hardware.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The attacker sends IPv4 fragments and normal TCP packets that land on different CPUs. This creates a race condition, where two parts of the kernel touch the same memory at the same moment.</p>\n\n\n\n<h2 id=\"h-noisytcp-linux-kernel-flaw\" class=\"wp-block-heading\"><strong>NoisyTCP Linux Kernel Flaw </strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">In the first trigger path, one CPU finds an existing half-open connection record. Another CPU frees that record and quickly reuses the same memory for a new SYN cookie request with the same connection details.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The first CPU grabs the new object and passes its checks. But the new object has no listener attached. The kernel then reads a NULL listener and panics.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The result is a remote denial of service. Kim warns that a crash from a containerized web server takes down the whole host, not only the app. A second path could cause a remote use-after-free, but it needs several races to succeed in a row and is much harder to pull off.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Timing matters here. On virtual machines such as QEMU/KVM, the tests took about 5 seconds to 2 minutes. On a quiet bare-metal server with 8 receive queues, the tuned proof-of-concept needed about 14 hours. Cloud and virtualized servers are therefore the most exposed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This is not a remote code execution bug, at least for now. Kim says he has only built a limited, lab-specific exploit for VM servers and is still researching a general one. A reliable crash is still serious for any internet-facing service.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The bug was introduced in commit 079096f103fa on October 3, 2015. The fix, commit 4e2b3ef19e0e, landed on November 3, 2026. That means nearly every Linux distribution has carried the flaw for about 11 years. Administrators should install updated kernels from their vendors as soon as they are available and reboot.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If patching must wait, Kim suggests two stopgaps. The first is to turn off SYN cookies with sudo sysctl -w net.ipv4.tcp_syncookies=0. This setting applies per network namespace, so each container with its own namespace needs it too.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It also weakens protection against SYN floods, a common way to knock servers offline. The second is to cut the network interface down to one receive queue and disable RPS and RFS, which stops the race.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Linux networking code has had a rough few weeks. Cyber Security News recently covered <a href=\"https://cybersecuritynews.com/linux-kernel-rce-flaw-ubuntu-fixes/\" target=\"_blank\" rel=\"noopener\">attackers scanning for the Linux kernel flaw CVE-2026-98432</a>, a critical TCP/IPv4 bug with a 9.8 score.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It also reported on <a href=\"https://cybersecuritynews.com/seven-years-old-linux-kernel-flaw/\" target=\"_blank\" rel=\"noopener\">a Linux kernel TCP flaw that sat hidden for seven years</a>. Race conditions like these are hard to spot in code review, and they often stay hidden for years.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Teams that run public Linux servers should check kernel versions now, test vendor patches, and watch for unexplained reboots. For background on the SYN cookie feature involved, see this LWN.net explainer.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>Give your SOC the alert context on the latest threats to stop incidents quickly -&gt; <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate Threat Intel from 16K SOCs</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/noisytcp-linux-kernel-vulnerability/\">NoisyTCP: 11-Year-Old Linux Kernel Flaw Lets Unauthenticated Attackers Crash Servers Remotely</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:53f4260894b6d4afcbaea27812c52d50e9aa365e638f5a33624511bb9f906554",
    "url": "https://cybersecuritynews.com/aws-services-outage",
