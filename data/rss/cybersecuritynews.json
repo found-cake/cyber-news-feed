@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-16T00:00:35Z",
+ "updated_at": "2026-11-16T01:00:41Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-16T00:00:35Z",
+  "last_success_at": "2026-11-16T01:00:41Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -5743,42 +5743,6 @@
      "guid_is_permalink": "false",
      "post_id": "170623",
      "content_encoded": "<p class=\"wp-block-paragraph\">Shopify is making IP allowlisting mandatory for public apps that call its Admin API, adding a security check to limit the use of stolen access tokens. Developers must enable the control by November 20, 2026, at 11:59 PM ET. Apps using bulk operations face an earlier deadline of November 12 at the same time.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The change turns a security feature introduced on October 27 into a requirement. Shopify will check where API requests come from, rather than relying on a valid token alone. This addresses the risk covered in Cybersecuritynews.com’s <a href=\"https://cybersecuritynews.com/cloud-api-security/\" target=\"_blank\" rel=\"noreferrer noopener\">cloud API security guide</a>, where stolen credentials can give attackers access to cloud services.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Once allowlisting is active, Shopify checks the source IP of GraphQL Admin API and REST Admin API requests using the app’s tokens. Requests from outside approved addresses or networks receive an HTTP 403 response. Shopify also rejects requests when it cannot confirm the source address.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Apps that miss the November 20 deadline face removal from the Shopify App Store and blocked new installations. Existing installations can continue operating until April 1, 2027, when Admin API requests will fail. However, bulk queries and mutations face the earlier November 12 cutoff. Merchants will receive admin warnings from January 15.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The policy targets token misuse, a risk illustrated by Cybersecuritynews.com’s report on the <a href=\"https://cybersecuritynews.com/internet-archive-breached-again/\" target=\"_blank\" rel=\"noreferrer noopener\">Internet Archive’s repeated breach through unrotated API tokens</a>. Network restrictions add protection, but developers still need to secure their credentials. An attacker operating inside an approved network could remain within the permitted boundary.</p>\n\n\n\n<h2 id=\"h-shopify-mandates-ip-allowlisting\" class=\"wp-block-heading\"><strong>Shopify Mandates IP Allowlisting</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Shopify’s <a href=\"https://shopify.dev/docs/apps/build/dev-dashboard/ip-allowlist\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">setup guide</a> supports specific public IP addresses and address ranges for static infrastructure. Apps with changing addresses can approve hosting networks through autonomous system numbers, or ASNs. Developers can list up to 10 ASNs and narrow access to up to 10 countries. These network rules are broader than individual server addresses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Developers configure the control under Settings in the Dev Dashboard and test it against recent traffic before enabling enforcement. Shopify recommends checking whether legitimate requests would be blocked, then confirming an outside request fails. Apps must choose either IP addresses or networks, because saving one type replaces the other.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Shopify’s <a href=\"https://shopify.dev/changelog/blog/app-security-updates-ip-allowlist-is-now-required\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">official announcement</a> lists November 12 in its detailed bulk-operation instructions, despite November 11 appearing in its summary. Separately, public apps must migrate to expiring offline tokens by January 1, 2027, adding time limits alongside network restrictions.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/shopify-mandates-ip-allowlisting/\">Shopify Mandates IP Allowlisting for Public Apps to Prevent Unauthorized Admin API Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
-    }
-   }
-  },
-  {
-   "id": "sha256:10ee0a6af1e6f34c48be36073eefeeb37c7cc741a2663bbee9fbd12b90c3e48e",
-   "url": "https://cybersecuritynews.com/windows-paint-rce-vulnerability",
-   "title": "Microsoft Paint 0-Click Vulnerability Could Allow Hackers to Take Control of Windows PCs",
-   "published_at": "2026-11-06T00:58:05Z",
-   "published_raw": "Fri, 06 Nov 2026 00:58:05 +0000",
-   "categories": [
-    "Cyber Security",
-    "Cyber Security News",
-    "Vulnerability News",
-    "vulnerability"
-   ],
-   "description": "<p>Microsoft’s Windows Paint vulnerability, CVE-2026-83844, could allow an unauthenticated attacker to execute code over a network without user interaction. The flaw carries a CVSS score of 8.1, placing it in the High severity category rather than Critical. However, confusion over the corrected Paint version has complicated patch checks for Windows administrators. The vulnerability stems from [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-paint-rce-vulnerability/\">Microsoft Paint 0-Click Vulnerability Could Allow Hackers to Take Control of Windows PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-   "feed_id": "https://cybersecuritynews.com/?p=170615",
-   "authors": [
-    {
-     "name": "Guru Baran",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [
-    {
-     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Paint-RCE-Vulnerability.webp",
-     "kind": "content",
-     "medium": "image"
-    }
-   ],
-   "source_metadata": {
-    "cybersecuritynews": {
-     "guid_is_permalink": "false",
-     "post_id": "170615",
-     "content_encoded": "<p class=\"wp-block-paragraph\">Microsoft’s Windows Paint vulnerability, CVE-2026-83844, could allow an unauthenticated attacker to execute code over a network without user interaction.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw carries a CVSS score of 8.1, placing it in the High severity category rather than Critical. However, confusion over the corrected Paint version has complicated patch checks for Windows administrators.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability stems from an out-of-bounds read, a memory error in which software reads beyond its intended boundary.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Microsoft published the advisory</a> on October 13, 2026. Its assessment lists a network attack vector, no required privileges, and high attack complexity, meaning successful exploitation depends on conditions that make an attack harder to carry out.</p>\n\n\n\n<h2 id=\"h-windows-0-click-paint-rce-vulnerability\" class=\"wp-block-heading\"><strong>Windows 0-Click Paint RCE Vulnerability</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The disclosure formed part of the October update cycle, covered in Cybersecurity News’ <a rel=\"noopener\" target=\"_blank\" href=\"https://cybersecuritynews.com/microsoft-october-patch-tuesday-2026/\">Microsoft October Patch Tuesday report</a>. For administrators, the immediate concern is not simply whether an update exists, but whether the corrected application build has actually reached managed devices.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft initially listed Paint version 11.2605.91.0 as the fixed release. Administrators reported that Microsoft Store continued offering 11.2605.81.0, even after update checks and Store cache resets.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft’s advisory listed 11.2609.401.0 as the fix, suggesting the earlier version reference may have been incorrect. Microsoft has not confirmed that explanation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Update availability also appears inconsistent. Some administrators reported difficulty obtaining a corrected build, while one participant in the Reddit discussion said the update had become available through Microsoft Store. These individual reports do not establish a universal rollout status. Claims that availability depends on region also remain unverified.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A crafted image could trigger the flaw, but Microsoft’s quoted guidance describes a crafted network packet sent to an affected service. The <a href=\"https://news.ycombinator.com/item?id=50384233\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Hacker News discussion</a> highlights the missing detail: neither the exposed service nor the complete attack path is identified. Suggestions involving Copilot or other components are speculation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should check the installed Paint version rather than trust an “up to date” message alone. Neowin recommends following Microsoft’s current advisory and considering temporary removal where Paint is unnecessary. Restricting untrusted images may reduce general exposure, but it is not a confirmed fix for this specific network attack path.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Cybersecurity News’ separate <a rel=\"noopener\" target=\"_blank\" href=\"https://cybersecuritynews.com/png-vulnerabilities/\">PNG vulnerability coverage</a> provides related context on image software security. Those flaws are separate from this Paint vulnerability.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-paint-rce-vulnerability/\">Microsoft Paint 0-Click Vulnerability Could Allow Hackers to Take Control of Windows PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
     }
    }
   }
