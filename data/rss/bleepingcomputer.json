@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-16T09:00:42Z",
+ "updated_at": "2026-11-16T10:00:36Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-16T09:00:42Z",
+  "last_success_at": "2026-11-16T10:00:36Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c250e3a4381699d1a172a94d45a4e0de8b108d68019966278f0488e65133291a",
+   "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers",
+   "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+   "published_at": "2026-11-16T09:30:04Z",
+   "published_raw": "Mon, 16 Nov 2026 04:30:04 -0500",
+   "categories": [
+    "security",
+    "Linux"
+   ],
+   "description": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:a6a20519109be054045489caf66ea769d428fa34dc753eee41d43847506224a3",
    "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks",
@@ -1369,27 +1391,6 @@
    ],
    "description": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:49d9b403a56b49538700f125f9cb77b49be0e1ce6873e95166d0e5086a61c9ce",
-   "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure",
-   "title": "MetaMask says recent attack didn't affect wallet infrastructure",
-   "published_at": "2026-11-06T09:22:28Z",
-   "published_raw": "Fri, 06 Nov 2026 04:22:28 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
    "authors": [
     {
      "name": "Sergiu Gatlan",
