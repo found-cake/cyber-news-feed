@@ -1,15 +1,122 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-16T11:00:47Z",
+ "updated_at": "2026-11-16T12:00:38Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-16T11:00:47Z",
+  "last_success_at": "2026-11-16T12:00:38Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:5a122bb9b54a9e03e367c1e386b9c5b279cca69a0d357e8e0eb66c92358c4b35",
+   "url": "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks",
+   "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks",
+   "published_at": "2026-11-16T11:15:48Z",
+   "published_raw": "Mon, 16 Nov 2026 11:15:48 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "CISA KEV",
+    "exploited",
+    "UnrealIRCd",
+    "vulnerability"
+   ],
+   "description": "<p>Tracked as CVE-2026-114713, the high-severity flaw allows attackers to execute commands with server/IRCOp privileges.</p>\n<p>The post <a href=\"https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/\">Recent UnrealIRCd Vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50820",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:37c30280df6a11a55e393a44bc24c79a539b0a40a10895e582ab0b9c7855ecec",
+   "url": "https://www.securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers",
+   "title": "Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
+   "published_at": "2026-11-16T11:05:42Z",
+   "published_raw": "Mon, 16 Nov 2026 11:05:42 +0000",
+   "categories": [
+    "ICS/OT",
+    "Vulnerabilities",
+    "controller",
+    "Copeland",
+    "exploited",
+    "ICS",
+    "refrigeration",
+    "vulnerability"
+   ],
+   "description": "<p>Vulncheck disclosed 14 vulnerabilities affecting Copeland XWEB EVO controllers, including two that threat actors quickly targeted.</p>\n<p>The post <a href=\"https://www.securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers/\">Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50818",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:1f9471d1f409a2890ea013d5132931b92286cf54782172b24a31fc8d756f17d4",
+   "url": "https://www.securityweek.com/uber-data-breach-impacts-150000-people",
+   "title": "Uber Data Breach Impacts 150,000 People",
+   "published_at": "2026-11-16T11:02:48Z",
+   "published_raw": "Mon, 16 Nov 2026 11:02:48 +0000",
+   "categories": [
+    "Data Breaches",
+    "data breach",
+    "Featured",
+    "uber"
+   ],
+   "description": "<p>Hackers compromised a third-party services provider and stole names, addresses, and driver’s license numbers.</p>\n<p>The post <a href=\"https://www.securityweek.com/uber-data-breach-impacts-150000-people/\">Uber Data Breach Impacts 150,000 People</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50815",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:e73a129754c77a5857c6d28fd785e8a7a2d6d382c763f7ed2f7a39290bf04b06",
    "url": "https://www.securityweek.com/tor-updates-dos-defenses-again-as-relay-attacks-continue",
