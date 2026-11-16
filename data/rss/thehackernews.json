@@ -1,15 +1,42 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-16T13:00:45Z",
+ "updated_at": "2026-11-16T14:00:35Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-16T13:00:45Z",
+  "last_success_at": "2026-11-16T14:00:35Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:a863217f46213f9487e009921451d33ad0304af967cea2283f07b0f2628f99b6",
+   "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+   "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+   "published_at": "2026-11-16T14:00:00Z",
+   "published_raw": "2026-11-16T19:30:00.000+05:30",
+   "categories": [
+    "threat-intelligence"
+   ],
+   "description": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity.\n\nIn tandem, threat actors are leveraging the power and capabilities of large language models (LLMs)",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4182851692306079564",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpEBmKLWFpEn8sSoJLtj1ZR7FPMd8GxxKN2v4IzyBkydma_g4gXzaWEEkK5CTPwidrBPw6QPdoByiEC14ufVP2pvezWKtH_dmqHttARDKzDOopkw0vzUdTYZubCh9Qy76nlmVSbhtTSvDOuT1c70E4TVPw8T4hUhMdR-saHjQPW1S9IZNmg2_RfsMsmJLb/s260-e100/google.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:c4086de05142b1d96dc6abdf45a86ccca6c3ecb2902b35f2ced2d37e4be178b2",
    "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
@@ -139,6 +166,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQwQpjbb2oT57o807l7YmQ31V2RbyxqqO4hENkKlfikKKH-LeqSUiYz5AaPCCFWml-l_RaN1JMiwbJa9lJe7z7Ijzdk66icRP70eETLZ7lLomkSa3JjezoxbRNeDEkTv0K-26dSzHKxAjc7xyLA9RbIiERPLqyRu5QzfyrPeyIA4dfLzMil5wDkYN9n4sG/s260-e100/command.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e021b9febf9ed0b72381678ae1e4f38416a2854947429d039f6506c3c5ee0c2c",
+   "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+   "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+   "published_at": "2026-11-16T13:27:20Z",
+   "published_raw": "2026-11-16T18:57:20.738+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job.\n\nMeanwhile, AI is making bug hunting faster, old flaws are still paying off, and attackers keep finding easy ways in. Some attacks take real skill. Others barely",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4792449456940946135",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMhM3PBYlJasSU7OztYuQsJDnDRFYwqV1-X9Nt1mTlAhFe0YQXSr0XrdCfo47u2DGAE8qSNw32LuPlMxoeTOBjakeXiHpHjFSXw7rsy8FdCldY2E6MuX9uKGM2McoGsaXUGDY2MYBsRAGXUDMGqzkT4wWlEezGDQho_f7d6MYNG2HAeW9FKeldRJrh0kj3/s260-e100/recaps.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -767,60 +821,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:74289a15fb94903acdd0d7a7b4a6f2f53958e3b36efc4097c7f31960c6611dcf",
-   "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
-   "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-   "published_at": "2026-11-11T07:49:04Z",
-   "published_raw": "2026-11-11T13:19:04.869+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them.\n\nThe company builds and runs apps for its customers and stores their secrets, such as API keys and database",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-569402101153029943",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheDP-YSdactqjEqKJOJEJulSVt5fmo134ko3-hE9dbQrLkrcIuhIkAOQDPe4eGS8WR6mLJs3urGqLpdi9erHsuLMAQ1t2saYXZAhnIRNqzliU3reOp2uPoKCRlpWBj8JQcyRIwo9eqK4AuSFcsB5XhIdLFzNYudzLlW_eHiZ094cCzg_gjihMTAZufcCc/s260-e100/railway-ai.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:85ce9be08e6465936d9503168f9e196f3243428a5582eb0899de23c30aeb08c9",
-   "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-   "published_at": "2026-11-11T06:04:02Z",
-   "published_raw": "2026-11-11T11:34:02.947+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nDetails of the vulnerabilities are below -\n\n\n  CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6366935374805704307",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4aXykaOroazGO_7IuXugse9ynGpt1PkKJDM8lKL4by93ixX28cs23KAZZRF2dCN2cogu1ti8q5kmqfqSBLmOXWkVi7ZGWmwYMkeCOUXsOXwLoF07FbzmVnlr9DoeqtCboI_9LKWgohgWi2jIB1TzGO6uEkp5lsMnq5fSVqrN-NZGJjAQE2kIUyHsdkw6J/s260-e100/cisa-cisco.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:d5585df40181d87d8a2f8949ffca3455429d8ce6354cf971c14ca7c6294e0061",
    "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
    "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
@@ -922,6 +922,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi08pEbJ7-HNwC0kJf517wnB6y8HwgKhMU-vxbhnCEh9KpWk1kmIjp_bb71k7GYfiTZNep3bcejvN7RmriF9_0RJnGGe9T5WB_nihCgxiDYOMl8mgDmI0Pm6ZFmPzf8HulQUxHjX3TncwmvqJIDPLyZBoHZpOahcMl7fehtwvT-oCxLzPec-KRtiScHT7wk/s260-e100/aws-secrets.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:74289a15fb94903acdd0d7a7b4a6f2f53958e3b36efc4097c7f31960c6611dcf",
+   "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+   "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+   "published_at": "2026-11-11T07:49:04Z",
+   "published_raw": "2026-11-11T13:19:04.869+05:30",
+   "categories": [
+    "cyber-attack"
+   ],
+   "description": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them.\n\nThe company builds and runs apps for its customers and stores their secrets, such as API keys and database",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-569402101153029943",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheDP-YSdactqjEqKJOJEJulSVt5fmo134ko3-hE9dbQrLkrcIuhIkAOQDPe4eGS8WR6mLJs3urGqLpdi9erHsuLMAQ1t2saYXZAhnIRNqzliU3reOp2uPoKCRlpWBj8JQcyRIwo9eqK4AuSFcsB5XhIdLFzNYudzLlW_eHiZ094cCzg_gjihMTAZufcCc/s260-e100/railway-ai.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:85ce9be08e6465936d9503168f9e196f3243428a5582eb0899de23c30aeb08c9",
+   "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+   "published_at": "2026-11-11T06:04:02Z",
+   "published_raw": "2026-11-11T11:34:02.947+05:30",
+   "categories": [
+    "cyber-attack"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nDetails of the vulnerabilities are below -\n\n\n  CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6366935374805704307",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4aXykaOroazGO_7IuXugse9ynGpt1PkKJDM8lKL4by93ixX28cs23KAZZRF2dCN2cogu1ti8q5kmqfqSBLmOXWkVi7ZGWmwYMkeCOUXsOXwLoF07FbzmVnlr9DoeqtCboI_9LKWgohgWi2jIB1TzGO6uEkp5lsMnq5fSVqrN-NZGJjAQE2kIUyHsdkw6J/s260-e100/cisa-cisco.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
