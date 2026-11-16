@@ -1,15 +1,42 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-16T12:00:38Z",
+ "updated_at": "2026-11-16T13:00:45Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-16T12:00:38Z",
+  "last_success_at": "2026-11-16T13:00:45Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c4086de05142b1d96dc6abdf45a86ccca6c3ecb2902b35f2ced2d37e4be178b2",
+   "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+   "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+   "published_at": "2026-11-16T12:33:18Z",
+   "published_raw": "2026-11-16T18:03:18.774+05:30",
+   "categories": [
+    "threat-intelligence"
+   ],
+   "description": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines.\n\n\"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today.\n\n\"The '7z.dll' file was a patched version of the",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1921597292554805582",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxRuwbdQU-KyBsSrFlIZp4oczr_tJu53WrfB3nM6QYrO7kFgGAZO1NMSi7mziUOUaTrzq5C4KzCJqvYOf0Ry19ypJac-9mBYzYiqiTNl462i1uYo7DF9aAHxiVU_IOaByH3NtNlrF0hUhZtpItADKJauPVzWrz8r6YOQEHQrt_YiAmPba4CIOsSjZA2Wy_/s260-e100/hacker-code.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:7f22b6cf300a8942da8fe9a0870fb66247b6fc42f4b0085fe3387cbc76540282",
    "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
@@ -112,6 +139,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQwQpjbb2oT57o807l7YmQ31V2RbyxqqO4hENkKlfikKKH-LeqSUiYz5AaPCCFWml-l_RaN1JMiwbJa9lJe7z7Ijzdk66icRP70eETLZ7lLomkSa3JjezoxbRNeDEkTv0K-26dSzHKxAjc7xyLA9RbIiERPLqyRu5QzfyrPeyIA4dfLzMil5wDkYN9n4sG/s260-e100/command.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:a989c64e51ebb71dbd1d9ff22e39b9fd0ee730efd9a714120880524317739baa",
+   "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+   "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+   "published_at": "2026-11-16T12:34:21Z",
+   "published_raw": "2026-11-16T18:04:21.000+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week.\n\nNo patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws.\n\nGovernment cybersecurity agencies in Belgium, Ireland and Germany told operators this week to",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4075714673811198193",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_1GngZ38pRRizZTrhUgdWx49U1Dk8N_Y1Wkfll2kXIjAeYMmX2R69d6OBvA9k-zb6rnYbNOZyouN9yj59QIlT8XxiTzmmhLTmwmEdU2bqiGc_XoSMlvKKN1qZtH3o73YN1miGEhR4vkDniji2WkWOHjSPPIn69ysWKPkFzr504FsViG2NQYxPDkD7sgw/s260-e100/flaws.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -767,33 +821,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:98e4d72a559c644ff867299dbd91b2f8aba5f396a272b1b71dc7a495c11a3f70",
-   "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
-   "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
-   "published_at": "2026-11-10T19:23:10Z",
-   "published_raw": "2026-11-11T00:53:10.932+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1.\n\nThe flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4609123439751415985",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipoPlLYj_xfJ8bsfRTONwa3estE9I2un_9OBx2fVuxEp-zoiADgipn-gGOeU4TqqyjqjrCpoGXC4jmuF7o1e_PUMbr-QoHDdPZEDWavb4VbjtWbOxMfmz-E9fIPT2DHEXYCN53l2jtiJGVfEFjHsR8gaHeyF59Yii0oTnP73vaslLWPzuideEGxTy6S9U/s260-e100/gits.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:d5585df40181d87d8a2f8949ffca3455429d8ce6354cf971c14ca7c6294e0061",
    "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
    "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
@@ -1172,6 +1199,33 @@
    "source_metadata": {}
   },
   {
+   "id": "sha256:98e4d72a559c644ff867299dbd91b2f8aba5f396a272b1b71dc7a495c11a3f70",
+   "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+   "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+   "published_at": "2026-11-10T19:23:10Z",
+   "published_raw": "2026-11-11T00:53:10.932+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1.\n\nThe flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4609123439751415985",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipoPlLYj_xfJ8bsfRTONwa3estE9I2un_9OBx2fVuxEp-zoiADgipn-gGOeU4TqqyjqjrCpoGXC4jmuF7o1e_PUMbr-QoHDdPZEDWavb4VbjtWbOxMfmz-E9fIPT2DHEXYCN53l2jtiJGVfEFjHsR8gaHeyF59Yii0oTnP73vaslLWPzuideEGxTy6S9U/s260-e100/gits.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
    "id": "sha256:12e10543ab563fddc87647c91d53777ed5f01237be25af71d41b8a4b76c08084",
    "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
    "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
@@ -1516,60 +1570,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXR9F1Fu-E50zYby7QnTXAX324GHruNgN0_-95ygoUQV94WlkKSNHt1n8Af8HANmBe6GYgt_1-jGJzGNdg6NnoWY_Jrfbxjyv8mSQzOCa_t7e-e5S8DEB32YavCpthT2pB3jQsFRNJ69bgOgph9qyCBppvb93YSsYSzBM1P9CdeO_rhMcF4LgCj-kQvY2C/s260-e100/gpt-cyber.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:0b7161df55d908beddbef13b912c4c5a6f3e4d8c03960080df90fdf7265535dc",
-   "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-   "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-   "published_at": "2026-11-06T12:06:43Z",
-   "published_raw": "2026-11-06T17:36:43.232+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\n\nThe fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.\n\nThe flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4424200672849818541",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFEFFUv1MUNRoFx03Jcw0k5NZCU0EOf5qEpbvAEQoTSTzoxHWPk1rc7XgQeG1USPP9vVB0ePI_lzQLqBU5bHdQ7-YrwEXFo8gJwayqwCvCtcDrw1JYMxKYxieV3bcQeCRAJAxt8CRfifzMzL22_ab0Z0OxwWrNckC36gPEOnubZnzagv6DkV7iY4AQJfA/s260-e100/paint-rce.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:bf3ff9f08f48ce8744ddb262d0bf3fa0d22b0f2daf6a96dc72bda535383627e1",
-   "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
-   "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
-   "published_at": "2026-11-06T12:06:35Z",
-   "published_raw": "2026-11-06T17:36:35.879+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test.\n\nThe attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7651641491031435142",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil2RWGFxPYdzFDr1Tl0G6604dLCacXJDMaR-i0nSdrR7vBGgK-lUkZbE5eZYMbWO0Geqw_rDbN2qUkWpEadukl6gccv-xuUWJfEOx2_FWFiZxjVs4uNPiRK3JYOBo0QI1Lx08xd9Iz3-8TFN_kf-njbCQ-AFDcLNNRy6JcwsZyoM12qLt99OzNQNhmaGs/s260-e100/claude-dispatch.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
