@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-16T15:00:35Z",
+ "updated_at": "2026-11-16T17:00:14Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-16T15:00:35Z",
+  "last_success_at": "2026-11-16T17:00:14Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -1226,33 +1226,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:12404fdb4aa2369898b863996b18c6ed8c1a8d6a1f79072a9ab2a87023c145c1",
-   "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-   "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-   "published_at": "2026-11-06T15:21:49Z",
-   "published_raw": "2026-11-06T20:51:49.452+05:30",
-   "categories": [
-    "cyber-attack"
-   ],
-   "description": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.\n\nThe vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-826991381775092632",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHbl1TAGj_ZHZDF3oQ8AfebRDiovg_d8Wk4huY5VJkSa0csE45G7k5jwdG1De-W-7l2RjnyH_ZvT3vcioykVeOooifwvViM8RiuTu0gSt2t-XgOefyYKyM5_zbsI5WFNubkIT0hOUr4inPIQMvXs6GDTLa6j7XWL3etRJYvOcDLJxa3IDXv-KtuCma5JsG/s260-e100/ssh.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:98e4d72a559c644ff867299dbd91b2f8aba5f396a272b1b71dc7a495c11a3f70",
    "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
    "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
@@ -1570,33 +1543,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjILYvlBWd-cPdnYJiX5gpFUBvDeq0nZYHWard5V4B8oEx7r_-4lUxcIan0_5l4EHxun-KbEHOJTj1p8qTuORzAaKalwqmlz1ajVuBmS-KTBJB0-rBSrhHGgHUkY0I3GTMSEbIy5fkP4vDyITtkZvbkqreMTACQjDS3OBRmnZE4U7pVZLjgId53L259b5Qj/s260-e100/sonicss.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:319e7df558d145a4745207049c98e31986d82bd13413d5dcc2f64fa3982285bd",
-   "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-   "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-   "published_at": "2026-11-06T16:08:38Z",
-   "published_raw": "2026-11-06T21:38:38.610+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it.\n\nThe update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3373736156246979577",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4gwg9bgmxLj_anXtQvOZdeKYWN-aAZxZqlOrI7wXwZ_qW_lUZrzwYufexnbDLcC20eXBkh7TgA-dAQHm6EEmEc80i9A6GOBGkiOb8NhcR1d1CFLKDLc7VJzyC4Bv-5Ye2AEE_ApPcKmAWqJJFfbQ2AOGffKhCPNznyYyz5s0Jro-mxcTxfxPoqRe-ZoY/s260-e100/wp-update.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
