@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "darkreading",
- "updated_at": "2026-11-17T14:00:49Z",
+ "updated_at": "2026-11-17T15:00:49Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-17T14:00:49Z",
+  "last_success_at": "2026-11-17T15:00:49Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:7fffe65676316d043e16f339af953993a87db7f3d344cc61c46ecac11a01c0f0",
+   "url": "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval",
+   "title": "Grok Bots Attempt to Access Corporate Data Without User Approval",
+   "published_at": "2026-11-17T13:12:56Z",
+   "published_raw": "Tue, 17 Nov 2026 13:12:56 GMT",
+   "categories": [
+    "application-security"
+   ],
+   "description": "Two AI agents, separately over a five-day period, autonomously tried to access connected applications, including Google Calendar, Gmail, Slack, and GitHub, without account owner approval.",
+   "feed_id": "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval",
+   "authors": [
+    {
+     "name": "Elizabeth Montalbano",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte89802188fbf7517/6afc5ddc05f01c312ef66082/rogue_AO_bot_Chris_Light_Alamy.png?width=720&quality=80&disable=upscale",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte89802188fbf7517/6afc5ddc05f01c312ef66082/rogue_AO_bot_Chris_Light_Alamy.png?width=720&quality=80&disable=upscale",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "darkreading": {
+     "guid_is_permalink": "false"
+    }
+   }
+  },
   {
    "id": "sha256:e0d39d73574dfefd71412d6ea140fe5f02c5c214013edcdb6289f0e57dbc4bf2",
    "url": "https://www.darkreading.com/vulnerabilities-threats/google-project-zero-bug-disclosure-deadlines",
