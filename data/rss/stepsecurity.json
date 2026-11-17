@@ -1,33 +1,57 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-11-17T08:00:50Z",
+ "updated_at": "2026-11-17T09:00:48Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-17T08:00:50Z",
+  "last_success_at": "2026-11-17T09:00:48Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
   {
+   "id": "sha256:2d9b527583111477e2b7a0d96fc2abf5441213947b300b214bd966ad2cd8e09c",
+   "url": "https://www.stepsecurity.io/blog/accurasofthire-fake-interview-developer-machines",
+   "title": "The Take-Home Test That Runs on Your Work Laptop: Inside the AccuraSoftHire Fake Interview Campaign",
+   "published_at": "2026-11-17T08:28:59Z",
+   "published_raw": "Tue, 17 Nov 2026 08:28:59 GMT",
+   "categories": [],
+   "description": "Binance says its $6.34 billion theft began when an engineer ran a fake interview assignment on his work computer. JFrog has now exposed a fake company, AccuraSoftHire, built to run the same trick. We decoded the attacker's server history from a public Ethereum wallet and found npm packages from the interview task that stayed installable for up to seven months. Here is what to check on your developer machines.",
+   "feed_id": "https://www.stepsecurity.io/blog/accurasofthire-fake-interview-developer-machines",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc104b00c3796d657efd84_6afc1024a3e5238386d1fbb4_accurasofthire-cover-v3.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc104b00c3796d657efd84_6afc1024a3e5238386d1fbb4_accurasofthire-cover-v3.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
    "id": "sha256:44ee5a7b90ac84a6b6365ebb1778ec11e529c28d71322222b82686e4ab3e0622",
    "url": "https://www.stepsecurity.io/blog/wppconnect-compromised-malicious-releases-steal-secrets-and-whatsapp-sessions",
    "title": "WPPConnect Compromised: Malicious Releases Steal Secrets and WhatsApp Sessions Through the Project's Own Pipeline",
-   "published_at": "2026-11-17T07:46:28Z",
-   "published_raw": "Tue, 17 Nov 2026 07:46:28 GMT",
+   "published_at": "2026-11-17T08:07:52Z",
+   "published_raw": "Tue, 17 Nov 2026 08:07:52 GMT",
    "categories": [],
    "description": "Malicious WPPConnect npm releases 2.4.1 and 2.10.82 steal secrets and WhatsApp sessions via Telegram. Affected versions, how they shipped and what to rotate.",
    "feed_id": "https://www.stepsecurity.io/blog/wppconnect-compromised-malicious-releases-steal-secrets-and-whatsapp-sessions",
    "authors": [],
    "media": [
     {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afb86255c2966e636f82a27_6afb85e52cb3563e499058ec_wppconnect-compromised-cover.jpeg",
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc0b447c5fd15c7cbd3137_6afc0b1c10a1780e1a0ee05e_wppconnect-compromised-cover-centered.jpeg",
      "kind": "thumbnail",
      "medium": ""
     },
     {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afb86255c2966e636f82a27_6afb85e52cb3563e499058ec_wppconnect-compromised-cover.jpeg",
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc0b447c5fd15c7cbd3137_6afc0b1c10a1780e1a0ee05e_wppconnect-compromised-cover-centered.jpeg",
      "kind": "content",
      "medium": "image"
     }
@@ -37,21 +61,21 @@
   {
    "id": "sha256:6ad14acba3e17b807f034f63087251f3233b64d60ebb138e18e5b329148a7a37",
    "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-   "title": "OPTIMJACK: Optimizely-Hosted Scripts Loaded a Crypto Clipper and Card Skimmer on 186 Confirmed Sites",
-   "published_at": "2026-11-16T23:03:30Z",
-   "published_raw": "Mon, 16 Nov 2026 23:03:30 GMT",
+   "title": "OPTIMJACK: Optimizely-Hosted Scripts Loaded a Crypto Clipper and Card Skimmer on 178 Organizations",
+   "published_at": "2026-11-17T08:02:14Z",
+   "published_raw": "Tue, 17 Nov 2026 08:02:14 GMT",
    "categories": [],
-   "description": "A crypto swapper and card skimmer was served from 1688360[.]cc to pages on CNN, BBC, Zoom, Salesforce and GitLab. What it does and what to check.",
+   "description": "Optimizely confirmed an attacker injected malicious JavaScript into customer projects. What the payload does, who was hit, and what to check.",
    "feed_id": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
    "authors": [],
    "media": [
     {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afb8540d41cef3ca9cb530f_6afb851246c143b6ab9bdd82_optimjack-optimizely-skimmer-cover.png",
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc098839f8421be06b29e7_6afc095800c3796d657d168d_optimjack-optimizely-skimmer-cover-centered.png",
      "kind": "thumbnail",
      "medium": ""
     },
     {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afb8540d41cef3ca9cb530f_6afb851246c143b6ab9bdd82_optimjack-optimizely-skimmer-cover.png",
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc098839f8421be06b29e7_6afc095800c3796d657d168d_optimjack-optimizely-skimmer-cover-centered.png",
      "kind": "content",
      "medium": "image"
     }
@@ -69,30 +93,6 @@
    "feed_id": "https://www.stepsecurity.io/blog/artex-ai-pentesting-tool-attackers-leaked-secrets",
    "authors": [],
    "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:2d9b527583111477e2b7a0d96fc2abf5441213947b300b214bd966ad2cd8e09c",
-   "url": "https://www.stepsecurity.io/blog/accurasofthire-fake-interview-developer-machines",
-   "title": "The Take-Home Test That Runs on Your Work Laptop: Inside the AccuraSoftHire Fake Interview Campaign",
-   "published_at": "2026-11-16T06:01:25Z",
-   "published_raw": "Mon, 16 Nov 2026 06:01:25 GMT",
-   "categories": [],
-   "description": "Binance says its $6.34 billion theft began when an engineer ran a fake interview assignment on his work computer. JFrog has now exposed a fake company, AccuraSoftHire, built to run the same trick. We decoded the attacker's server history from a public Ethereum wallet and found npm packages from the interview task that stayed installable for up to seven months. Here is what to check on your developer machines.",
-   "feed_id": "https://www.stepsecurity.io/blog/accurasofthire-fake-interview-developer-machines",
-   "authors": [],
-   "media": [
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afa9b95889764bf6e182e4c_6afa9b77cd5506ae90a5db6d_accurasofthire-cover-v2.png",
-     "kind": "thumbnail",
-     "medium": ""
-    },
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afa9b95889764bf6e182e4c_6afa9b77cd5506ae90a5db6d_accurasofthire-cover-v2.png",
-     "kind": "content",
-     "medium": "image"
-    }
-   ],
    "source_metadata": {}
   },
   {
