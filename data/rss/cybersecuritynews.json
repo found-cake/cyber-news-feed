@@ -1,15 +1,84 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-17T10:00:48Z",
+ "updated_at": "2026-11-17T11:00:50Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-17T10:00:48Z",
+  "last_success_at": "2026-11-17T11:00:50Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:044661a1c0833b066e8b2df37978b198ee82d2d52a223f16f47e5a77c03b646b",
+   "url": "https://cybersecuritynews.com/mcdonald-ios-app-push-notification",
+   "title": "McDonald’s iOS App Hit by Mass Push Notification Attack, Raising ARTEX Security Concerns",
+   "published_at": "2026-11-17T10:53:39Z",
+   "published_raw": "Tue, 17 Nov 2026 10:53:39 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>McDonald’s iOS app reportedly received a wave of unusual push notifications on November 17, 2026, raising concerns about possible misuse of its notification system. Blackorbird reported that many users received the alerts around 14:20, mainly on iPhones. However, the available evidence does not establish a confirmed vulnerability or explain how the messages were sent. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mcdonald-ios-app-push-notification/\">McDonald&#8217;s iOS App Hit by Mass Push Notification Attack, Raising ARTEX Security Concerns</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=172416",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/McDonald-iOS-App-Push-Notification.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "172416",
+     "content_encoded": "<p class=\"wp-block-paragraph\">McDonald’s iOS app reportedly received a wave of unusual push notifications on November 17, 2026, raising concerns about possible misuse of its notification system. Blackorbird reported that many users received the alerts around 14:20, mainly on iPhones. However, the available evidence does not establish a confirmed vulnerability or explain how the messages were sent.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The screenshot supplied with the report shows a McCafé app icon beside messages reading “ZZQA” and “ZZQA_CANARY_29105.” Other alerts display “ARTEX283CHK,” “ARTEX-TEST-ALIAS2,” and “ARTEX3855.”</p>\n\n\n\n<p class=\"wp-block-paragraph\">These strings look more like test labels than normal customer offers, but their purpose and source remain unknown. The image alone cannot establish whether all displayed notifications came from the same application.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Blackorbird compared the incident with similar ARTEX notifications reportedly received through a government service app the previous week. That comparison raises questions about a possible shared service or repeated method. It does not prove that the incidents involve the same attacker, vendor, or security flaw. The cited post did not identify the government application.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-x wp-block-embed-x\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"embed-x\"><blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Around 14:20 on November 17, 2026, the McDonald&#39;s app experienced a large number of abnormal push notifications, similar in form to the ARTEX push notifications from the government service app last week. <br>Many users reported receiving the push notifications. <br>This incident mainly… <a href=\"https://t.co/oaCId2fiMT\">pic.twitter.com/oaCId2fiMT</a></p>&mdash; blackorbird (@blackorbird) <a href=\"https://x.com/blackorbird/status/2122587109697728709?ref_src=twsrc%5Etfw\">November 17, 2026</a></blockquote><script async src=\"https://platform.x.com/widgets.js\" charset=\"utf-8\"></script></div>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Push notifications can reach users through systems outside the mobile app itself. Apple explains that an app operator’s server sends requests to Apple Push Notification service, or APNs, which then delivers messages to registered devices. The sending server must establish trust using a token or certificate.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This distinction matters because unexpected alerts do not automatically mean that iOS has been hacked. Investigators would need to examine the app’s server, messaging tools, account access, and sending records before identifying the cause.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Apple’s documentation also makes clear that notification signing keys must remain private to prevent others from generating valid authentication tokens.</p>\n\n\n\n<h2 id=\"h-artex-link-remains-unverified\" class=\"wp-block-heading\"><strong>ARTEX Link Remains Unverified</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The <a href=\"https://x.com/blackorbird/status/2122587109697728709\">original public report</a> offers an early account, not a technical investigation. No affected app version, confirmed user count, CVE, or attack path appears in that account. “ARTEX” should therefore be treated as text visible in the alerts, not proof of a named threat group or tool.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Previous cases show why notification access deserves attention. Cybersecurity News reported on <a href=\"https://cybersecuritynews.com/hackers-hijack-emergency-alert-apps/\" target=\"_blank\" rel=\"noreferrer noopener\">hijacked emergency alert apps</a> that distributed false warnings. Its coverage of <a href=\"https://cybersecuritynews.com/mcdonalds-delivery-app-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">McDelivery API security flaws</a> also shows how weaknesses in supporting systems can affect customers. Neither report establishes a connection to this incident.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For technical context, <a href=\"https://developer.apple.com/documentation/usernotifications/setting-up-a-remote-notification-server\">Apple’s APNs guidance</a> explains the delivery chain. Investigators should check which accounts submitted the messages and whether sending credentials were exposed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Until verified findings emerge, claims of stolen customer data, compromised iPhones, or a wider McDonald’s breach remain unsupported by the cited report. The immediate question is who could send these alerts and through which system.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong>Give your SOC the alert context to stops incidents quickly.</strong></strong> <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\"><strong>Integrate Threat Intel from 16K SOCs</strong>.</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/mcdonald-ios-app-push-notification/\">McDonald&#8217;s iOS App Hit by Mass Push Notification Attack, Raising ARTEX Security Concerns</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:45d2815247801b31026573795452d9d3d0db09ff2b063609a90fdda5ae97d1b3",
+   "url": "https://cybersecuritynews.com/teenage-gta-6-hacker-pleads-guilty",
+   "title": "Teenage GTA 6 Hacker Pleads Guilty For Breaking into Rockstar Games Using an Amazon Fire Stick",
+   "published_at": "2026-11-17T10:02:36Z",
+   "published_raw": "Tue, 17 Nov 2026 10:02:36 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Data Breach"
+   ],
+   "description": "<p>Arion Kurtaj, the hacker who broke into Rockstar Games as a teenager using an Amazon Fire Stick, has pleaded guilty to cybercrimes linked to the GTA 6 leak. Now 21, the Oxford man entered his pleas at Woolwich Crown Court on November 16, 2026, after being found fit to stand trial. According to BBC reporting, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/teenage-gta-6-hacker-pleads-guilty/\">Teenage GTA 6 Hacker Pleads Guilty For Breaking into Rockstar Games Using an Amazon Fire Stick</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=172398",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Teenage-GTA-6-Hacker-pleaded-guilty-For-Breaking-into-Rockstar-Games-using-an-Amazon-Fire-Stick.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "172398",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Arion Kurtaj, the hacker who broke into Rockstar Games as a teenager using an Amazon Fire Stick, has pleaded guilty to <a href=\"https://cybersecuritynews.com/fake-gta-6-downloads/\" target=\"_blank\" rel=\"noreferrer noopener\">cybercrimes linked to the GTA 6 leak</a>. Now 21, the Oxford man entered his pleas at Woolwich Crown Court on November 16, 2026, after being found fit to stand trial.</p>\n\n\n\n<p class=\"wp-block-paragraph\">According to BBC reporting, Kurtaj admitted offenses involving Rockstar Games, BT/EE, Revolut and Uber. He carried out the attacks at ages 16 and 17 while working with the Lapsus$ hacking gang. His sentencing will take place later.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Rockstar Games breach happened in 2022 while Kurtaj was on bail for other hacking offenses. Police were housing him at a Travelodge in Bicester after rival hackers threatened him over stolen Bitcoin. Although police had taken his computer away, he continued accessing online services.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Kurtaj used an Amazon Fire Stick connected to his hotel television, alongside a Bluetooth keyboard and mouse. Earlier BBC court coverage described the setup as allowing access to cloud computing services, with a smartphone also involved. The Fire Stick served as an access device rather than evidence of a security flaw in Amazon’s hardware.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Once inside Rockstar’s systems, Kurtaj stole internal data, including 90 development clips containing nearly an hour of <a href=\"https://cybersecuritynews.com/hackers-heavily-use-minecraft-game/\" target=\"_blank\" rel=\"noreferrer noopener\">unfinished Grand Theft Auto 6 gameplay</a>. He also accessed the company’s internal Slack messaging system. He demanded contact through Telegram within 24 hours, threatening to release source code.</p>\n\n\n\n<h2 id=\"h-teenage-gta-6-hacker-pleads-guilty\" class=\"wp-block-heading\"><strong>Teenage GTA 6 Hacker Pleads Guilty</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">When Rockstar refused to cooperate, he published clips and source code on a forum using the name TeaPotUberHacker, <a href=\"https://www.bbc.com/news/articles/cq99exy89dngo\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">the BBC reported</a>. Rockstar told the court that recovery cost $5 million and required thousands of staff hours. The leak also exposed a female playable character before the company planned to reveal it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Cyber Security News previously covered the <a href=\"https://cybersecuritynews.com/playable-gta-vi-build/\" target=\"_blank\" rel=\"noopener\">Rockstar breaches and reported how they gained access</a>. That report, citing Lares researchers, described stolen company credentials and repeated login approval requests in the 2022 incident.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It also described attackers searching internal collaboration tools for passwords, application keys, and server details. These findings provide technical context beyond the hotel hardware.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The case should not be confused with the <a target=\"_blank\" href=\"https://cybersecuritynews.com/rockstars-gta-game-hacked/\" rel=\"noopener\">separate Rockstar data breach reported in April 2026</a>. That incident involved ShinyHunters and access through an outside service provider. Reporting identified business analytics records, rather than GTA 6 development footage, as the affected data.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Kurtaj was previously found unfit to stand trial. A 2023 trial of the facts asked jurors whether he committed the acts, rather than whether he had criminal intent. He received an indefinite hospital order that December.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A later medical assessment found him fit for trial, and he moved to prison in January 2026. His guilty pleas now mark a new stage in the case. Prosecutors estimate his company&#8217;s hacks caused around £10 million in damage, showing the financial cost behind the widely shared gameplay leak.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>Give your SOC the alert context on the latest threats to stop incidents quickly -&gt; <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate Threat Intel from 16K SOCs</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/teenage-gta-6-hacker-pleads-guilty/\">Teenage GTA 6 Hacker Pleads Guilty For Breaking into Rockstar Games Using an Amazon Fire Stick</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:e56e2fc0565c16ebdf2a51e78c47b12beff5e69797b6542b95b0c6f31c198830",
    "url": "https://cybersecuritynews.com/gemini-4-argon-ai-agents-hack-website",
