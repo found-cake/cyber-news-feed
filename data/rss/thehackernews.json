@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-17T15:00:49Z",
+ "updated_at": "2026-11-17T16:00:52Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-17T15:00:49Z",
+  "last_success_at": "2026-11-17T16:00:52Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -166,6 +166,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQwQpjbb2oT57o807l7YmQ31V2RbyxqqO4hENkKlfikKKH-LeqSUiYz5AaPCCFWml-l_RaN1JMiwbJa9lJe7z7Ijzdk66icRP70eETLZ7lLomkSa3JjezoxbRNeDEkTv0K-26dSzHKxAjc7xyLA9RbIiERPLqyRu5QzfyrPeyIA4dfLzMil5wDkYN9n4sG/s260-e100/command.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:e5492f9867506c1763a92226a47c0040d7bbb2c6a01e7ebc7f704d255be77f82",
+   "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+   "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+   "published_at": "2026-11-17T15:17:36Z",
+   "published_raw": "2026-11-17T20:47:36.192+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK.\n\nThe 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1753887366238821219",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvuz-5SW2Tg4fFi55wIQ9GatHwu1fkLniN2jtOLGicb5DBG-PSHek0PlSPUdH7xw-YJ1FX7wvlReyj8vTadU2jODj9DgRyIFR93WruPJwkcTTR0Z6tXmkoJMAn3wHTA-U6TpN2orNGki6gHVVeQbTLD2Qi-79OqrSmLqmYWSpK3VVGw1BgdqI7bl0PxXQ/s260-e100/java2shell.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -794,33 +821,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:b92486adb822eb8ab12a834c13b3872136451a5e86ffd7f65879015f0a51c0ad",
-   "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
-   "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
-   "published_at": "2026-11-12T05:12:26Z",
-   "published_raw": "2026-11-12T10:42:26.095+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday.\n\nOnly servers with HTTP/2 enabled are affected, according to Red Hat, which ships the server as part of Red Hat Enterprise Linux.\n\nAn attacker who can reach the",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7989185877198327236",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLpi_uN6PmG2Gn1agNMsOrsCp324eH-utKkDl_SPe32ggjcWFPjxZSyeA1KvAtvI9SQ4VAN_zssvdJLJ59IXE8_-MatPOyFXY-FcwtL7HtfKyW3MtsKwglIe2X62WBOcUkPMv-klM1h8T2EBMWFOWyPG89bfbAHS5byyfXATXN_lUUJWmUGWChekyWxTQ/s260-e100/apache-http.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:d5585df40181d87d8a2f8949ffca3455429d8ce6354cf971c14ca7c6294e0061",
    "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
    "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
@@ -1273,6 +1273,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKryTkTZPSm_Pvf-PEvYRFle3Bp0jQaXScE21oOsMfwir63sr355bqHInvPRm5zynq2sYfLswRNEeywDHo7p2snw5sQmlIrWIONBq4AoYFEGXvdgy5gNLMESgjL5zwnhbqYIwdKLRaolb18pKz1sqFynmSjWn2IT_BxlEb-0av9vDfp-oEzp23_cwOIoik/s260-e100/ref.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b92486adb822eb8ab12a834c13b3872136451a5e86ffd7f65879015f0a51c0ad",
+   "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+   "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+   "published_at": "2026-11-12T05:12:26Z",
+   "published_raw": "2026-11-12T10:42:26.095+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday.\n\nOnly servers with HTTP/2 enabled are affected, according to Red Hat, which ships the server as part of Red Hat Enterprise Linux.\n\nAn attacker who can reach the",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7989185877198327236",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLpi_uN6PmG2Gn1agNMsOrsCp324eH-utKkDl_SPe32ggjcWFPjxZSyeA1KvAtvI9SQ4VAN_zssvdJLJ59IXE8_-MatPOyFXY-FcwtL7HtfKyW3MtsKwglIe2X62WBOcUkPMv-klM1h8T2EBMWFOWyPG89bfbAHS5byyfXATXN_lUUJWmUGWChekyWxTQ/s260-e100/apache-http.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
