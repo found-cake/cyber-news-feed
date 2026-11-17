@@ -1,15 +1,59 @@
 {
  "schema_version": 1,
  "source": "boannews",
- "updated_at": "2026-11-17T22:00:53Z",
+ "updated_at": "2026-11-17T23:00:59Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-17T22:00:53Z",
+  "last_success_at": "2026-11-17T23:00:59Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:6baf84e3ccf7c4d8b940fb76a32211efae48fb8016b0d1659d03ced1b7e70e3e",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=147325",
+   "title": "PHP 이어 ‘자바’(Java)도 뚫렸다... 대기업·공공기관 핵심 서버 ‘보안 경보’",
+   "published_at": "2026-11-18T07:05:00Z",
+   "published_raw": "2026-11-18 07:05:00",
+   "categories": [
+    "사건·사고",
+    "긴급경보"
+   ],
+   "description": "대부분 IT 시스템에 널리 쓰이는 프로그래밍 언어 자바(Java)에서 치명적 보안 취약점이 발견됐다. 이 취약점을 악용하면 공격자는 로그인 등 인증 절차를 거치지 않아도 원격으로 시스템 내부에서 악성코드를 실행할 수 있다. 위험도 역시 최고 수준으로 분류됐다. 패치 공개 즉시 조치에 들어가야 한다. 17일 보안 업계에 따르면, 자바에서 메모리 손상 취약점이 발견됐다. 이 취약점을 악용하면 자바 애플리케이션에서 인증 이전에 원격 코드 실행(RCE)이 가능한 것으로 알려졌다. 보안업계 안팎에서는 이 취약점을 ‘자바4셸’(Java4She",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "김기찬 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:7dd68239a776bcd48963d2d4d9fea7a23e81858aa0cf5224c356a122cc7baafd",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=147316",
+   "title": "프로젝트 끝나고 안 지운 키... 바라쿠다 클라우드, AI 해킹 도구에 44시간 뚫려",
+   "published_at": "2026-11-17T19:45:00Z",
+   "published_raw": "2026-11-17 19:45:00",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "네트워크·이메일 보안 기업 바라쿠다의 클라우드 환경이 11월 초 침해됐다. 공격자는 훔친 클라우드 접속 키로 들어와 오픈소스 AI 침투 테스트 도구 아르텍스(ARTEX)로 내부를 휘젓고 다녔다.공격자는 11월 1~2일 44시간 동안 클라우드 계정 10개가량에 접근했다. 침입은 4일 발견됐다. 바라쿠다는 조사 결과 아르텍스가 쓰인 이번 공격을 ‘기계 속도 침입’이라고 불렀다.출발점은 바라쿠다가 예전 프로젝트 기간에 외부 AI 업체에 내준 클라우드 접속 키였다. 이 업체가 작업을 마친 뒤에도 바라쿠다는 키를 폐기하지 않았다. 바라쿠다는",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "정지원 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:078a7e96560d8e34a9701dffa7aeebf2152ec9bfa792a97e2e9e8b46c5754090",
    "url": "https://www.boannews.com/news/articleView.html?idxno=147327",
@@ -1161,28 +1205,6 @@
    "authors": [
     {
      "name": "강현주 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:6baf84e3ccf7c4d8b940fb76a32211efae48fb8016b0d1659d03ced1b7e70e3e",
-   "url": "https://www.boannews.com/news/articleView.html?idxno=147325",
-   "title": "PHP 이어 ‘자바’(Java)도 뚫렸다... 대기업·공공기관 핵심 서버 ‘보안 경보’",
-   "published_at": "2026-11-17T15:30:00Z",
-   "published_raw": "2026-11-17 15:30:00",
-   "categories": [
-    "사건·사고",
-    "긴급경보"
-   ],
-   "description": "대부분 IT 시스템에 널리 쓰이는 프로그래밍 언어 자바(Java)에서 치명적 보안 취약점이 발견됐다. 이 취약점을 악용하면 공격자는 로그인 등 인증 절차를 거치지 않아도 원격으로 시스템 내부에서 악성코드를 실행할 수 있다. 위험도 역시 최고 수준으로 분류됐다. 패치 공개 즉시 조치에 들어가야 한다. 17일 보안 업계에 따르면, 자바에서 메모리 손상 취약점이 발견됐다. 이 취약점을 악용하면 자바 어플리케이션에서 인증 이전에 원격 코드 실행(RCE)이 가능한 것으로 알려졌다. 상세한 취약점 정보는 18일 오전 6시 패치 발표 일정에 맞",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "김기찬 기자",
      "uri": "",
      "email": ""
     }

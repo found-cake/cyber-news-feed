@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-11-17T22:00:53Z",
+ "updated_at": "2026-11-17T23:00:59Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-17T22:00:53Z",
+  "last_success_at": "2026-11-17T23:00:59Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:cbc1e16720f1038f2e5178f4937ad4026775d5e722b95d501aca187a4ccffde1",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209580",
+   "title": "[긴급] 자바 ‘Java4Shell’ 취약점 공개…국내 기업, 외부 서비스·내장 자바 긴급 점검해야",
+   "published_at": "2026-11-18T07:22:43Z",
+   "published_raw": "2026-11-18 07:22:43",
+   "categories": [
+    "이슈"
+   ],
+   "description": "기업과 공공기관의 서버 애플리케이션에 사용되는 자바(Java)에서 인증 없이 원격 코드 실행으로 이어질 수 있는 취약점 ‘자바포셸(Java4Shell)’이 공개됐다. 외부 입력을 처리하는 과정에서 메모리가 손상되는 문제로, 공격에 성공하면 민감정보 노출과 서비스 중단, 자바 프로세스 권한을 이용한 시스템 침해로 이어질 수 있다.취약점 식별번호는 CVE-2026-114938이다. 발견 업체 칼리프(Calif.io)는 CVSS 4.0 기준 위험도를 9.2점으로 평가했다. 오라클은 미국 현지시간 11월 17일 보안 업데이트를 공개했다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:9b3da7e11ae91c361460cb2aabf492dcd0c31c592c60ed754759bfeb0d620685",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209579",
