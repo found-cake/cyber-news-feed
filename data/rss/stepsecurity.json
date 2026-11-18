@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-11-18T03:00:50Z",
+ "updated_at": "2026-11-18T04:00:56Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-18T03:00:50Z",
+  "last_success_at": "2026-11-18T04:00:56Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -14,8 +14,8 @@
    "id": "sha256:9f7b79642f40d70a73974cbee79bba79308667b738821522d10fb0c9dfa1a6c9",
    "url": "https://www.stepsecurity.io/blog/microsoft-agent-framework-pypi-package-compromised",
    "title": "Microsoft agent-framework PyPI Package Compromised",
-   "published_at": "2026-11-18T02:57:56Z",
-   "published_raw": "Wed, 18 Nov 2026 02:57:56 GMT",
+   "published_at": "2026-11-18T03:06:46Z",
+   "published_raw": "Wed, 18 Nov 2026 03:06:46 GMT",
    "categories": [],
    "description": "Versions 1.26.1 and 1.26.2 of Microsoft's agent-framework PyPI package, published November 17, contain Python startup hooks that harvest cloud and CI/CD credentials and attempt to obtain identity tokens. Both releases send collected data to a webhook.site endpoint. PyPI quarantined both versions; the second malicious release was uploaded after the first quarantine.",
    "feed_id": "https://www.stepsecurity.io/blog/microsoft-agent-framework-pypi-package-compromised",
