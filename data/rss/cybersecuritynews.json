@@ -1,15 +1,52 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-18T05:00:57Z",
+ "updated_at": "2026-11-18T06:00:56Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-18T05:00:57Z",
+  "last_success_at": "2026-11-18T06:00:56Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:5f021021b51bdd6f8dcb1da6dd73da98e8e168a3ad837772a262b61d7387dd06",
+   "url": "https://cybersecuritynews.com/apache-http-server-rce-exploitation",
+   "title": "Critical Apache HTTP Server RCE Vulnerability Actively Exploited in Attacks",
+   "published_at": "2026-11-18T05:06:49Z",
+   "published_raw": "Wed, 18 Nov 2026 05:06:49 +0000",
+   "categories": [
+    "Apache",
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability",
+    "Vulnerability News"
+   ],
+   "description": "<p>Apache’s HTTP/2 module, mod_http2, has a critical flaw tracked as CVE-2026-119618 that reportedly allows unauthenticated remote code execution. Apache released version 2.4.71 on November 11 to fix the flaw, which it rates as critical, while Singapore’s CSA assigns it a high-severity CVSS 3.1 score of 8.1/10. Singapore’s CSA warned of active exploitation on November 17, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apache-http-server-rce-exploitation/\">Critical Apache HTTP Server RCE Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=172560",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Critical-Apache-HTTP-Server-RCE-Vulnerability-Active-Exploited-in-Attacks.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "172560",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Apache’s HTTP/2 module, mod_http2, has a <a href=\"https://cybersecuritynews.com/apache-patches-critical-http-2-flaw/\" target=\"_blank\" rel=\"noreferrer noopener\">critical flaw tracked as CVE-2026-119618 </a>that reportedly allows unauthenticated remote code execution. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Apache released version 2.4.71 on November 11 to fix the flaw, which it rates as critical, while Singapore’s CSA assigns it a high-severity CVSS 3.1 score of 8.1/10.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-164/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Singapore’s CSA warned of active exploitation</a> on November 17, 2026, urging administrators to patch immediately. It also noted that a public PoC was available but provided no details about victims or attack scale. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Wiz Research had reported no known exploitation when it published its analysis on November 11. The later alert changes the urgency for administrators who have not yet applied the update. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The bug sits in assign_headers(), a function in the module that handles HTTP/2 traffic. Apache says the function does not properly control how multiple threads access a shared resource.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This creates a race condition, meaning the result depends on which task gets to the resource first. The bug can corrupt the heap, an area of memory the server uses while it runs.</p>\n\n\n\n<h2 id=\"h-apache-http-server-rce-exploitation\" class=\"wp-block-heading\"><strong>Apache HTTP Server RCE Exploitation</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">A successful attack can turn that memory corruption into remote code execution (RCE), allowing an attacker to run commands with the web server process’s permissions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Apache credited <a href=\"https://cybersecuritynews.com/anthropic-oss-scanner/\" target=\"_blank\" rel=\"noreferrer noopener\">Anthropic’s OSS Scanner,</a> which reported the issue on October 26, and Google Cloud researchers Anthony Weems and Simon Scannell, who reported it independently on November 3.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Cybersecurity News previously covered the <a href=\"https://cybersecuritynews.com/apache-patches-critical-http-2-flaw/\" target=\"_blank\" rel=\"noopener\">Apache HTTP Server 2.4.71 patch</a> and a <a href=\"https://cybersecuritynews.com/apache-http-server-rce/\" target=\"_blank\" rel=\"noopener\">separate Apache HTTP/2 code execution flaw</a> fixed in May. The earlier fix does not protect servers from this vulnerability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The <a href=\"https://httpd.apache.org/security/vulnerabilities_24.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Apache security advisory lists</a> versions 2.4.55 through 2.4.70 as affected when mod_http2 is enabled. It also lists standalone mod_h2 releases 2.0.8 through 2.0.42 as affected, including 2.0.42 itself.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Servers configured to serve only HTTP/1.1 are not exposed to this flaw. Administrators should check the server’s active protocol settings rather than relying on the version number alone.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Wiz found </a>that 64% of the cloud environments it examined had resources running affected versions, while 51% had publicly exposed instances.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Those figures do not account for whether HTTP/2 was enabled. They show where teams should check first, not how many environments could be exploited or how many were breached.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should install Apache HTTP Server 2.4.71 or later, or apply a package their operating system vendor confirms contains the fix.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If an update must wait, temporarily disable HTTP/2 by setting Protocols http/1.1 and checking that individual virtual hosts do not still allow h2 or h2c. After reloading the service, verify that the affected Apache listeners no longer accept HTTP/2.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Start with internet-facing servers, but include internal deployments in the patch plan. For systems that were exposed before the update, keep relevant logs and review them for signs of compromise. Installing the fix closes the vulnerability, but it cannot tell you whether someone exploited it before the upgrade.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>Give your SOC the alert context on the latest threats to stop incidents quickly -&gt; <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate Threat Intel from 16K SOCs</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/apache-http-server-rce-exploitation/\">Critical Apache HTTP Server RCE Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:94b340d52eec528cf7f5b164039a2611052c593f80f397b065374243d200b8f4",
    "url": "https://cybersecuritynews.com/flipper-one-linux-multi-tool",
