@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-18T10:00:57Z",
+ "updated_at": "2026-11-18T11:01:05Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-18T10:00:57Z",
+  "last_success_at": "2026-11-18T11:01:05Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:4c34aa6969dfc0533aad3c858b501b05d7460b5fac50ba721d7610e978e31135",
+   "url": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks",
+   "title": "Critical Perforce Puppet RCE Exploited in Attacks",
+   "published_at": "2026-11-18T10:37:08Z",
+   "published_raw": "Wed, 18 Nov 2026 10:37:08 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "CISA KEV",
+    "exploited",
+    "Perforce",
+    "Perforce Puppet",
+    "vulnerability"
+   ],
+   "description": "<p>Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/\">Critical Perforce Puppet RCE Exploited in Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50892",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:3e9c1eae58cf014101ca0b84b82d20678567268b9cbb8ddd398e5d62744bf943",
    "url": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu",
