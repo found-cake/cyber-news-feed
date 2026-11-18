@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-17T23:00:59Z",
+ "updated_at": "2026-11-18T00:00:49Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-17T23:00:59Z",
+  "last_success_at": "2026-11-18T00:00:49Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:e53ed293c7ab77efbf338f066f93729174c158034073bccf831039e3c79b66b5",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications",
+   "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+   "published_at": "2026-11-17T23:04:21Z",
+   "published_raw": "Tue, 17 Nov 2026 18:04:21 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:6496df90b5f7d21d42399e208fcef60eaf3c4ef1fcee55f9969900e550201c72",
    "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds",
