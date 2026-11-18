@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-11-18T16:00:58Z",
+ "updated_at": "2026-11-18T17:00:58Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-18T16:00:58Z",
+  "last_success_at": "2026-11-18T17:00:58Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:db25c8819f5e521be57fd9b2cc6fc08778cfe34c1dd735d7e493ac1289e2c73f",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209609",
+   "title": "[긴급] “로그인 없이 서버에서 코드 실행”…티오리·Xint, 엔진엑스 취약점 5건 공개",
+   "published_at": "2026-11-19T01:50:09Z",
+   "published_raw": "2026-11-19 01:50:09",
+   "categories": [
+    "이슈"
+   ],
+   "description": "웹사이트와 애플리케이션 접속을 처리하는 엔진엑스(NGINX)에서 로그인 없이 원격으로 코드를 실행할 수 있는 보안 취약점이 발견됐다. 티오리(Theori)의 Xint 연구팀은 한국시간 19일 엔진엑스 취약점 5건을 공개하고, 이 가운데 하나를 별도의 리눅스 커널 취약점과 결합해 서버의 최고 관리자(root) 권한을 얻는 데 성공했다고 밝혔다. 연구팀은 이번 연구에 ‘엔진엑스투루트(NGINX2Root)’라는 이름을 붙였다. 공개 시점까지 실제 공격에 악용됐다는 증거는 확인하지 못했다고 설명했다. 엔진엑스는 웹페이지를 제공할 뿐 아니라",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:f84931fc5b064c201f58ebe375a5b0d6203372c3c7eced24aeafe86ab5b675d5",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209608",
@@ -1910,48 +1931,6 @@
     "이슈"
    ],
    "description": "글로벌 디지털 인증서 발급기업 디지서트(DigiCert)가 내부 업무 시스템의 보안 설정 오류와 접근권한 관리 취약점으로 해킹 피해를 입었다. 공격자는 외부에서 임의로 계정을 생성한 뒤 과거 고객정보가 보관된 시스템에 접근했으며, 일부 고객의 여권과 운전면허증 등 민감한 신원확인 서류까지 노출된 것으로 확인됐다.특히 이번 사고는 2025년 2월 서버 이전 과정에서 발생한 보안 설정 오류가 16개월 넘게 방치된 데다, 디지서트가 2026년 6월 비인가 계정의 존재를 확인하고도 실제 고객정보 접근 여부를 제대로 파악하지 못했다는 점에서",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:47c9b4001e9373f29a1b3090fd343bb05d57df00b4be50aade3de66d2a9cd1a4",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209388",
-   "title": "디지털자산 운용사 '하이퍼리즘' 해킹…주민등록번호·은행 계좌정보까지 유출",
-   "published_at": "2026-11-08T16:52:07Z",
-   "published_raw": "2026-11-08 16:52:07",
-   "categories": [
-    "이슈"
-   ],
-   "description": "디지털자산 운용사 하이퍼리즘(Hyperithm)이 외부 사이버공격을 받아 주민등록번호와 은행 계좌정보를 포함한 개인정보가 유출된 것으로 확인됐다. 공격자는 회사 업무용 서버를 통해 외부 클라우드 저장소에 보관된 업무 자료에 비정상적으로 접근했으며, 회사는 사고 발생 나흘 뒤 이를 인지하고 서버 중단과 계정 차단 등 긴급 대응에 나섰다.하이퍼리즘 유한책임회사(대표 오상록·이원준)는 11월 6일 공식 홈페이지에 '개인정보 유출 관련 안내 및 사과 말씀'을 게시하고, 외부 공격으로 회사가 보관하던 개인정보가 유출된 사실을 확인했다고 밝혔",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:eebe9b0dcc7a9bab2b489cafd3da33d53c8383c96bbe8cd3bb70163c1650f019",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209387",
-   "title": "SM엔터테인먼트·디어유·드림메이커…업무시스템 해킹에 주민번호·계좌정보까지 노출",
-   "published_at": "2026-11-08T16:42:42Z",
-   "published_raw": "2026-11-08 16:42:42",
-   "categories": [
-    "이슈"
-   ],
-   "description": "국내 대형 엔터테인먼트 기업 SM엔터테인먼트와 팬 소통 플랫폼 '버블(bubble)' 운영사 디어유, 공연기획사 드림메이커에서 개인정보 유출사고가 발생했다. 외부 공격자가 업무시스템에 비인가 접근해 내부 문서와 개인정보를 탈취한 것으로 확인됐으며, 유출 항목에는 주민등록번호와 계좌번호, 계약서 정보, 임직원 인사정보 등이 포함됐다.SM엔터테인먼트와 디어유, 드림메이커가 공식 홈페이지에 게시한 개인정보 유출 안내문을 종합하면, 세 회사 모두 2026년 11월 4일경 개인정보 유출이 발생한 것으로 확인됐다. 각 회사는 현재 관계당국 및",
    "feed_id": "",
    "authors": [
     {
