@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-18T04:00:56Z",
+ "updated_at": "2026-11-18T05:00:57Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-18T04:00:56Z",
+  "last_success_at": "2026-11-18T05:00:57Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -166,6 +166,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQwQpjbb2oT57o807l7YmQ31V2RbyxqqO4hENkKlfikKKH-LeqSUiYz5AaPCCFWml-l_RaN1JMiwbJa9lJe7z7Ijzdk66icRP70eETLZ7lLomkSa3JjezoxbRNeDEkTv0K-26dSzHKxAjc7xyLA9RbIiERPLqyRu5QzfyrPeyIA4dfLzMil5wDkYN9n4sG/s260-e100/command.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:5966ac56e61b79d55a1dfb8eb6cbaa68575d2db5b8e296af4960ef8de6aef4da",
+   "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+   "title": "Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers",
+   "published_at": "2026-11-18T04:27:41Z",
+   "published_raw": "2026-11-18T09:57:41.219+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week.\n\nThe flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature.\n\nTracked as",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3480206631427305006",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTrbBEjGUxldrJAnxC5ilrZqnNHyexGDTR-zS3vAX-Qw_ZNtNNEsomeDRYT40hQkUZt3G4T6y9oKi7G88dN0gatwvi03ItVtDmFCA8V7Zrb2lh5l4oGf8BUVF0UUbvybU0XuGpBnynGfvsCS_y4aWYtzvD_eNyqtids_c8w1auCGMWMYlxrReU-iS0FWc/s260-e100/java.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -794,33 +821,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:c776eb51cbacc6fa91c682a94ebf94f3c698ffe17fc58f5b60378d25ee9bdd80",
-   "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
-   "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
-   "published_at": "2026-11-12T09:25:00Z",
-   "published_raw": "2026-11-12T14:55:00.863+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes.\n\nMongoDB, the company that makes the database, released fixed versions earlier this week.\n\nThe affected servers are members of a replica",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4594899049372216750",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6RJLDSM13MwenwxG4xnZ-Td2_zmnya-Y39FLHlNk-7P3hZ5w1qGjG3XFqT-4gaeZIxSepWWNM53bKTIkZBNA-X_tVKsrgWbw8u81mjLzL6dXvTtvKfKeT-FkwSz4CsdMoHNza2NRFy0PJzzmaMROCr3D7e6AKT5UR3Lh4zFb_1w9HMmXXKKvATVWHU-E/s260-e100/mongo-poc.gif",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:d5585df40181d87d8a2f8949ffca3455429d8ce6354cf971c14ca7c6294e0061",
    "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
    "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
@@ -1273,6 +1273,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKryTkTZPSm_Pvf-PEvYRFle3Bp0jQaXScE21oOsMfwir63sr355bqHInvPRm5zynq2sYfLswRNEeywDHo7p2snw5sQmlIrWIONBq4AoYFEGXvdgy5gNLMESgjL5zwnhbqYIwdKLRaolb18pKz1sqFynmSjWn2IT_BxlEb-0av9vDfp-oEzp23_cwOIoik/s260-e100/ref.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c776eb51cbacc6fa91c682a94ebf94f3c698ffe17fc58f5b60378d25ee9bdd80",
+   "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+   "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+   "published_at": "2026-11-12T09:25:00Z",
+   "published_raw": "2026-11-12T14:55:00.863+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes.\n\nMongoDB, the company that makes the database, released fixed versions earlier this week.\n\nThe affected servers are members of a replica",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4594899049372216750",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6RJLDSM13MwenwxG4xnZ-Td2_zmnya-Y39FLHlNk-7P3hZ5w1qGjG3XFqT-4gaeZIxSepWWNM53bKTIkZBNA-X_tVKsrgWbw8u81mjLzL6dXvTtvKfKeT-FkwSz4CsdMoHNza2NRFy0PJzzmaMROCr3D7e6AKT5UR3Lh4zFb_1w9HMmXXKKvATVWHU-E/s260-e100/mongo-poc.gif",
      "kind": "thumbnail",
      "medium": ""
     }
