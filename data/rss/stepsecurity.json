@@ -1,15 +1,39 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-11-18T08:00:56Z",
+ "updated_at": "2026-11-18T09:00:58Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-18T08:00:56Z",
+  "last_success_at": "2026-11-18T09:00:58Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:9f7b79642f40d70a73974cbee79bba79308667b738821522d10fb0c9dfa1a6c9",
+   "url": "https://www.stepsecurity.io/blog/microsoft-agent-framework-pypi-package-compromised",
+   "title": "Microsoft agent-framework PyPI Package Compromised",
+   "published_at": "2026-11-18T07:53:14Z",
+   "published_raw": "Wed, 18 Nov 2026 07:53:14 GMT",
+   "categories": [],
+   "description": "Versions 1.26.1 and 1.26.2 of Microsoft's agent-framework PyPI package, published November 17, contain Python startup hooks that harvest cloud and CI/CD credentials and attempt to obtain identity tokens. Both releases send collected data to a webhook.site endpoint. PyPI quarantined both versions; the second malicious release was uploaded after the first quarantine.",
+   "feed_id": "https://www.stepsecurity.io/blog/microsoft-agent-framework-pypi-package-compromised",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afd0663cbe39e075b1cbe03_SCR-20261118-hcuu.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afd0663cbe39e075b1cbe03_SCR-20261118-hcuu.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:6ad14acba3e17b807f034f63087251f3233b64d60ebb138e18e5b329148a7a37",
    "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
@@ -28,30 +52,6 @@
     },
     {
      "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc098839f8421be06b29e7_6afc095800c3796d657d168d_optimjack-optimizely-skimmer-cover-centered.png",
-     "kind": "content",
-     "medium": "image"
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:9f7b79642f40d70a73974cbee79bba79308667b738821522d10fb0c9dfa1a6c9",
-   "url": "https://www.stepsecurity.io/blog/microsoft-agent-framework-pypi-package-compromised",
-   "title": "Microsoft agent-framework PyPI Package Compromised",
-   "published_at": "2026-11-18T03:06:46Z",
-   "published_raw": "Wed, 18 Nov 2026 03:06:46 GMT",
-   "categories": [],
-   "description": "Versions 1.26.1 and 1.26.2 of Microsoft's agent-framework PyPI package, published November 17, contain Python startup hooks that harvest cloud and CI/CD credentials and attempt to obtain identity tokens. Both releases send collected data to a webhook.site endpoint. PyPI quarantined both versions; the second malicious release was uploaded after the first quarantine.",
-   "feed_id": "https://www.stepsecurity.io/blog/microsoft-agent-framework-pypi-package-compromised",
-   "authors": [],
-   "media": [
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afd0663cbe39e075b1cbe03_SCR-20261118-hcuu.png",
-     "kind": "thumbnail",
-     "medium": ""
-    },
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afd0663cbe39e075b1cbe03_SCR-20261118-hcuu.png",
      "kind": "content",
      "medium": "image"
     }
