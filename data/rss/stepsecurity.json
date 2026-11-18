@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-11-18T07:00:57Z",
+ "updated_at": "2026-11-18T08:00:56Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-18T07:00:57Z",
+  "last_success_at": "2026-11-18T08:00:56Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -59,35 +59,11 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:44ee5a7b90ac84a6b6365ebb1778ec11e529c28d71322222b82686e4ab3e0622",
-   "url": "https://www.stepsecurity.io/blog/wppconnect-compromised-malicious-releases-steal-secrets-and-whatsapp-sessions",
-   "title": "WPPConnect Compromised: Malicious Releases Steal Secrets and WhatsApp Sessions Through the Project's Own Pipeline",
-   "published_at": "2026-11-17T17:16:22Z",
-   "published_raw": "Tue, 17 Nov 2026 17:16:22 GMT",
-   "categories": [],
-   "description": "Malicious WPPConnect npm releases 2.4.1 and 2.10.82 steal secrets and WhatsApp sessions via Telegram. Affected versions, how they shipped and what to rotate.",
-   "feed_id": "https://www.stepsecurity.io/blog/wppconnect-compromised-malicious-releases-steal-secrets-and-whatsapp-sessions",
-   "authors": [],
-   "media": [
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc0b447c5fd15c7cbd3137_6afc0b1c10a1780e1a0ee05e_wppconnect-compromised-cover-centered.jpeg",
-     "kind": "thumbnail",
-     "medium": ""
-    },
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc0b447c5fd15c7cbd3137_6afc0b1c10a1780e1a0ee05e_wppconnect-compromised-cover-centered.jpeg",
-     "kind": "content",
-     "medium": "image"
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:bf466e24cfac4ad246d3a35df7bf2c230370f4b11160ce3f49cea51e582a2360",
    "url": "https://www.stepsecurity.io/blog/new-stepsecurity-control-audit-github-fork-pr-workflow-approval-policies",
    "title": "New StepSecurity Control: Audit GitHub Fork PR Workflow Approval Policies",
-   "published_at": "2026-11-17T13:35:36Z",
-   "published_raw": "Tue, 17 Nov 2026 13:35:36 GMT",
+   "published_at": "2026-11-18T02:45:57Z",
+   "published_raw": "Wed, 18 Nov 2026 02:45:57 GMT",
    "categories": [],
    "description": "StepSecurity’s new control flags GitHub organizations and public repositories that let fork pull request workflows run without approval.",
    "feed_id": "https://www.stepsecurity.io/blog/new-stepsecurity-control-audit-github-fork-pr-workflow-approval-policies",
@@ -107,11 +83,35 @@
    "source_metadata": {}
   },
   {
+   "id": "sha256:44ee5a7b90ac84a6b6365ebb1778ec11e529c28d71322222b82686e4ab3e0622",
+   "url": "https://www.stepsecurity.io/blog/wppconnect-compromised-malicious-releases-steal-secrets-and-whatsapp-sessions",
+   "title": "WPPConnect Compromised: Malicious Releases Steal Secrets and WhatsApp Sessions Through the Project's Own Pipeline",
+   "published_at": "2026-11-18T02:45:57Z",
+   "published_raw": "Wed, 18 Nov 2026 02:45:57 GMT",
+   "categories": [],
+   "description": "Malicious WPPConnect npm releases 2.4.1 and 2.10.82 steal secrets and WhatsApp sessions via Telegram. Affected versions, how they shipped and what to rotate.",
+   "feed_id": "https://www.stepsecurity.io/blog/wppconnect-compromised-malicious-releases-steal-secrets-and-whatsapp-sessions",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc0b447c5fd15c7cbd3137_6afc0b1c10a1780e1a0ee05e_wppconnect-compromised-cover-centered.jpeg",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc0b447c5fd15c7cbd3137_6afc0b1c10a1780e1a0ee05e_wppconnect-compromised-cover-centered.jpeg",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
    "id": "sha256:2d9b527583111477e2b7a0d96fc2abf5441213947b300b214bd966ad2cd8e09c",
    "url": "https://www.stepsecurity.io/blog/accurasofthire-fake-interview-developer-machines",
    "title": "The Take-Home Test That Runs on Your Work Laptop: Inside the AccuraSoftHire Fake Interview Campaign",
-   "published_at": "2026-11-17T08:28:59Z",
-   "published_raw": "Tue, 17 Nov 2026 08:28:59 GMT",
+   "published_at": "2026-11-18T02:45:57Z",
+   "published_raw": "Wed, 18 Nov 2026 02:45:57 GMT",
    "categories": [],
    "description": "Binance says its $6.34 billion theft began when an engineer ran a fake interview assignment on his work computer. JFrog has now exposed a fake company, AccuraSoftHire, built to run the same trick. We decoded the attacker's server history from a public Ethereum wallet and found npm packages from the interview task that stayed installable for up to seven months. Here is what to check on your developer machines.",
    "feed_id": "https://www.stepsecurity.io/blog/accurasofthire-fake-interview-developer-machines",
@@ -134,8 +134,8 @@
    "id": "sha256:8d732f91bb5f501b5524a86cdd0b433644c9eeb807d0ed85f8948d226e254c0a",
    "url": "https://www.stepsecurity.io/blog/artex-ai-pentesting-tool-attackers-leaked-secrets",
    "title": "ARTEX: Attackers Adopted This AI Pentesting Tool in Three Months. Leaked Secrets Are Its Fastest Way In.",
-   "published_at": "2026-11-16T06:13:07Z",
-   "published_raw": "Mon, 16 Nov 2026 06:13:07 GMT",
+   "published_at": "2026-11-16T18:37:11Z",
+   "published_raw": "Mon, 16 Nov 2026 18:37:11 GMT",
    "categories": [],
    "description": "ARTEX is an open-source tool where AI agents run a penetration test on their own. Since August 2026, state-aligned groups, criminal crews and one runaway research agent have pointed ARTEX at hundreds of organizations. In one case, an agent went from a GitHub search for leaked secrets to stolen cloud data in five minutes. This post covers what ARTEX is, who uses ARTEX, how to spot ARTEX activity, and how you remove its easiest way in.",
    "feed_id": "https://www.stepsecurity.io/blog/artex-ai-pentesting-tool-attackers-leaked-secrets",
