@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-19T01:00:56Z",
+ "updated_at": "2026-11-19T02:00:57Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-19T01:00:56Z",
+  "last_success_at": "2026-11-19T02:00:57Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:dda524edc25dc87f7447bc400638c3b53055ed8460e61957cdc56618b9bd0b25",
+   "url": "https://cybersecuritynews.com/php-critical-vulnerabilities",
+   "title": "PHP Security Team Warns of Critical Vulnerabilities, Urges Users to Prepare for November 19 Updates",
+   "published_at": "2026-11-19T01:49:53Z",
+   "published_raw": "Thu, 19 Nov 2026 01:49:53 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability",
+    "Vulnerability News"
+   ],
+   "description": "<p>The PHP security team plans to release security updates on Thursday, November 19, 2026, between 14:00 and 14:30 UTC. In its November 18 security notice, the team said the releases will address vulnerabilities across all supported PHP branches, with the highest severity rated critical. It urged users to prepare now and install the updates promptly [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/php-critical-vulnerabilities/\">PHP Security Team Warns of Critical Vulnerabilities, Urges Users to Prepare for November 19 Updates</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=172736",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/PHP-Critical-Vulnerabilities.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "172736",
+     "content_encoded": "<p class=\"wp-block-paragraph\">The PHP security team plans to release security updates on Thursday, November 19, 2026, between 14:00 and 14:30 UTC. In its <a href=\"https://www.php.net/archive/2026.php#2026-11-18-1\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">November 18 security notice</a>, the team said the releases will address vulnerabilities across all supported PHP branches, with the highest severity rated critical. It urged users to prepare now and install the updates promptly once they are available.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The patches are part of PHP’s regular four-week release cycle. The team said the critical issues require non-default settings or uncommon setups.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An application might run a vulnerable PHP version without meeting the requirements for an attack. The team will release technical details and the corresponding fixed version numbers along with the updates.</p>\n\n\n\n<h2 id=\"h-php-session-upload-progress-flaw\" class=\"wp-block-heading\"><strong>PHP Session Upload Progress Flaw</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">One expected fix addresses CVE-2026-115560, a remote code execution flaw tied to PHP’s session upload progress feature. The feature lets an application track a file upload while it is still in progress.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Under certain conditions, the flaw could let an attacker run code on the server. PHP first flagged the issue on October 23, saying it requires an unusual combination of settings and application code.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For deployments covered by the advisory, PHP recommends disabling session upload progress as a temporary safeguard. Teams that have already turned it off should keep it disabled until they install the fix. PHP says applications that do not change how session data is stored while running can leave the feature enabled.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The patch window also falls on the planned launch date for PHP 8.6.0. Administrators do not need to move to the new feature release just to get the security fixes. The team plans to publish updates for existing supported branches.</p>\n\n\n\n<h2 id=\"h-october-s-php2shell-attacks\" class=\"wp-block-heading\"><strong>October’s PHP2Shell Attacks</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The November update follows October’s <a href=\"https://cybersecuritynews.com/php-releases-emergency-patches/\" target=\"_blank\" rel=\"noreferrer noopener\">emergency PHP2Shell patches</a>. That release fixed CVE-2026-109618 and CVE-2026-109619 in PHP 8.2.35, 8.3.36, 8.4.27, and 8.5.12. Both flaws scored 9.2 out of 10 and could let attackers run code on affected web servers without logging in.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As Cyber Security News reported in its <a href=\"https://cybersecuritynews.com/php2shell-vulnerabilities-actively-exploited/\" target=\"_blank\" rel=\"noreferrer noopener\">coverage of CISA’s PHP2Shell warning</a>, the agency added both October flaws to its Known Exploited Vulnerabilities catalog after attacks were reported. That warning applies to the October flaws and does not establish that attackers are exploiting the issues covered by the November release.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Check which PHP versions actually serve web requests, including those bundled in containers or managed by hosting providers. Once the updates go live, consult the <a href=\"https://www.php.net/archive/2026.php\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">PHP 2026 release archive</a> for the fixed version on your branch.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Install that build or your vendor’s patched package, restart the affected PHP workers, and verify that the web application is running the updated version. Checking only the command-line version may miss an older build still serving traffic.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>What Are Leading Organizations Doing About AI and Cyber Risks? Find Out. <a href=\"https://www.americanconference.com/cybersecurity-law/request-brochure/?utm_medium=affiliate&amp;utm_source=cybersecuritynews&amp;utm_campaign=F27_awareness\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">View Details!</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/php-critical-vulnerabilities/\">PHP Security Team Warns of Critical Vulnerabilities, Urges Users to Prepare for November 19 Updates</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:780e2a48f04f05bde1aa77b2dff1b5b8bfa0a5f56772adbb2f92aabe2aaaf86f",
    "url": "https://cybersecuritynews.com/fake-fmcsa-dat-timocom-portals-target-us-logistics",
