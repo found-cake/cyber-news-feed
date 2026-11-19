@@ -1,15 +1,125 @@
 {
  "schema_version": 1,
  "source": "boannews",
- "updated_at": "2026-11-19T00:00:57Z",
+ "updated_at": "2026-11-19T01:00:56Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-19T00:00:57Z",
+  "last_success_at": "2026-11-19T01:00:56Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:3f932067f6a4c72c22700252ab1b8df106a4c6cd02aecf2003c1ca575a2ec262",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=147370",
+   "title": "패치 엿새 만에 악용 경보... 싱가포르, 아파치 웹서버 HTTP/2 결함 즉시 업데이트 권고",
+   "published_at": "2026-11-19T09:35:00Z",
+   "published_raw": "2026-11-19 09:35:00",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "아파치 HTTP 서버의 원격코드실행(RCE) 취약점(CVE-2026-119618)이 공격에 악용되고 있다는 경보가 나왔다. 싱가포르 사이버보안청(CSA)은 17일 경보를 내고 이 결함이 활발히 악용되고 있다는 보고가 있으며, 개념증명(PoC) 코드도 공개돼 있다고 밝혔다. CSA는 심각도를 높은 등급으로 매겼다. 다만 피해 기관이나 공격 규모, 공격 주체는 밝히지 않았다.결함은 웹 통신 규약 HTTP/2를 처리하는 mod_http2 모듈에 있다. 여러 처리 과정이 동시에 같은 데이터를 건드릴 때 순서를 제대로 맞추지 못하는 문제로,",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "정지원 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:052ce22cfb3fa5dc7032cddf56d243a3d5ede557f777feeccdc892a8ac2dbf46",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=147367",
+   "title": "파이썬 켤 때마다 작동... 마이크로소프트 AI 에이전트 개발 패키지에 계정 탈취 코드",
+   "published_at": "2026-11-19T09:23:10Z",
+   "published_raw": "2026-11-19 09:23:10",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "마이크로소프트의 AI 에이전트 개발 도구 ‘에이전트 프레임워크’(Agent Framework) 파이썬 패키지에 클라우드 계정 정보를 빼내는 코드가 심긴 채 배포됐다. 17일(현지시각) 파이썬 공개 패키지 저장소 파이파이(PyPI)에 올라온 1.26.1과 1.26.2 버전이다.보안 기업 스텝시큐리티(StepSecurity)는 18일(현지시각) 악성 버전을 분석한 결과를 공개했다. 에이전트 프레임워크는 AI 에이전트를 만들고 조율하는 마이크로소프트의 파이썬용 개발 도구로, agent-framework는 관련 구성 요소를 한꺼번에 설치해",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "정지원 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:2ccdcd5cc8f6a74e0b17652619f76dad68fd660ac7ee30cce2d2356eae1063c0",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=147342",
+   "title": "깃허브·셰어포인트를 명령 통로로 쓴 백도어, 아시아·아프리카 정부 노려",
+   "published_at": "2026-11-19T09:00:00Z",
+   "published_raw": "2026-11-19 09:00:00",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "깃허브와 마이크로소프트 셰어포인트를 몰래 명령 통로로 쓰는 새 백도어 두 종이 주로 아시아와 아프리카 정부 기관을 노린 것으로 드러났다. 대만의 한 조직에서도 감염 사례가 나왔다.카스퍼스키 글로벌 연구분석팀(GReAT)은 17일(현지시각) 이 공격을 ‘섀도클라우드 작전’(Operation ShadowCloud)으로 이름 붙여 두 편의 분석을 공개했다. 카스퍼스키는 2026년 초 이 공격을 포착했고, 피해는 주로 정부 기관에 집중됐다고 밝혔다.카스퍼스키는 대만 한 조직에서 발견한 감염 두 건을 자세히 분석했다. 공격자가 처음 어떻게",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "정지원 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b5c8d7c85316d28b4ce11623bcb50fc7248d31753de2995fc1e93aade9282953",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=147362",
+   "title": "동곡기정, AI 안경 이용한 시험 부정행위 차단 위해 금속탐지 장비 도입",
+   "published_at": "2026-11-18T19:00:00Z",
+   "published_raw": "2026-11-18 19:00:00",
+   "categories": [
+    "비즈니스",
+    "신제품 정보"
+   ],
+   "description": "인공지능(AI) 안경을 이용한 시험 부정행위가 새로운 문제로 떠오른 가운데, 보안검색장비 전문기업 동곡기정(대표 김동준)이 이를 차단하기 위한 금속탐지 장비 도입에 나섰다. 육안으로 구별하기 어려운 AI 안경을 시험장 입구에서 탐지해 부정행위를 예방한다는 구상이다.동곡기정은 18일 이탈리아 보안검색장비 제조사 CEIA의 금속탐지 장비를 긴급 도입하고, 국내 시험장 환경에 맞춘 검증을 거쳐 보급할 계획이라고 밝혔다.최근 AI 안경을 활용한 시험 부정행위가 잇따르면서 새로운 검색 체계의 필요성이 제기되고 있다. AI 안경은 안경테에 초",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "강초희 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:bd378335a56a4804db0290da91d725a605ba6adef6768cff937072793edfc536",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=147339",
+   "title": "거부 요청 처리 안했더니... 렌터카 허츠, 캘리포니아서 개인정보 벌금 155만달러",
+   "published_at": "2026-11-18T18:30:00Z",
+   "published_raw": "2026-11-18 18:30:00",
+   "categories": [
+    "사건·사고",
+    "국제"
+   ],
+   "description": "렌터카 기업 허츠(Hertz)가 이용자의 개인정보 판매 거부 설정을 따르지 않았다는 혐의로 미국 캘리포니아주에 155만달러의 벌금을 내게 됐다.캘리포니아주 개인정보보호청(CPPA)은 17일(현지시각) 이 같은 처분을 발표했다. 더레코드에 따르면 달러와 스리프티 브랜드도 거느린 허츠는 벌금을 받아들이고 영업 관행을 바꾸기로 했다. 당국이 공개한 법원 제출 문서에 담긴 내용이다.캘리포니아주 법은 소비자가 기업에 자기 개인정보를 팔거나 맞춤형 광고에 쓰도록 넘기지 말라고 요구할 권리를 준다. 이용자가 브라우저나 기기에서 판매 거부 기능을",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "정지원 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:568f5b5bacde64a6c7e610d72df43ebc02b03f403dc4d32da50d7459b7919d9b",
    "url": "https://www.boannews.com/news/articleView.html?idxno=147344",
