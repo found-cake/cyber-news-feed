@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-19T08:00:56Z",
+ "updated_at": "2026-11-19T09:00:59Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-19T08:00:56Z",
+  "last_success_at": "2026-11-19T09:00:59Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -166,6 +166,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQwQpjbb2oT57o807l7YmQ31V2RbyxqqO4hENkKlfikKKH-LeqSUiYz5AaPCCFWml-l_RaN1JMiwbJa9lJe7z7Ijzdk66icRP70eETLZ7lLomkSa3JjezoxbRNeDEkTv0K-26dSzHKxAjc7xyLA9RbIiERPLqyRu5QzfyrPeyIA4dfLzMil5wDkYN9n4sG/s260-e100/command.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:29eb33240b0fe5717515a5b0fa724d76dc4bcd82149007bd86c49e61ecc87c44",
+   "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+   "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+   "published_at": "2026-11-19T08:42:11Z",
+   "published_raw": "2026-11-19T14:12:11.184+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine.\n\n\"We are aware of PoCs that prove some of them can be used to trigger remote code execution,\" the maintainers said.\n\nThe project released fixed versions",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4631044480103142149",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7rmcgZ7yffFsn_7SX4iQcfMhw1dgsxPFXXh6TUunbQ9VaxZh8O5-AFT2V3q0PE7Wx0rW9nLKuB73eluixYuM9N38Dvq_Gjs1nNOXVk3e71jjfhHoP7W97eeuc5AivI3CQNxIrwSaPR9IGV0f2NZ7900Ihtkdgiw1ZivTvgVrXWH2CrX2X5MZGjos6-bs/s260-e100/ruby.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:3914c4d93285bf9341fb41eae6e914bfe6b9431ae6bf539dc3683f4716e4786f",
+   "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+   "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+   "published_at": "2026-11-19T08:14:00Z",
+   "published_raw": "2026-11-19T13:44:00.007+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL.\n\nThe exploits, published yesterday, are the researcher's proofs of concept against PostgreSQL, MySQL and ClickHouse, plus a separate Oracle chain that needs no",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5265181206623638931",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDE1pOkFxdtUcDqLptfhjaBnnEyzz2JfxUJICSOrW3vpcNlygN1XleKCdkv9CA3Zp901yQ884tOkPX9TmSYx5tpevenJw1CmW4oktkn2creXnB5-dvbiJB3crcILx4Kb8b6eVhiKjh-RRZTGnvWskqROJOjF3yaWFVK17fmh-tdT7WMas7MbdK-JsCBmw/s260-e100/database-rce.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -767,60 +821,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:5f110aa5732b2dc45743bffb4ec8f01edfbc6771aac0ad2c4c0722b2c5e49093",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
-   "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
-   "published_at": "2026-11-13T05:43:28Z",
-   "published_raw": "2026-11-13T11:13:28.651+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell.\n\n\"We are restricting certain N-central features and integrations,\" the company said in a Thursday update. \"These measures may affect some functionality, but we believe taking additional precautions while remediation is completed is the",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4725097553277360999",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA4jxlXpPBPhD5o3IHy80Fn7fSHUtcqH3iXQlU-jDUL5C3zJcf1_Zb-GAYxuW6P6q647p9JAT_opImlj-v-USDNhZ_z83mYC3ISKtN72pe_3XLwf5EyMRuK4OdXCFnYxGMhOAvN_i4UFqk5vJLriRnkbRRwILuT5JUpExx9Tm74sXSCQ0g7jjsOzWV1cqk/s260-e100/nable-hacks.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:897c1c6b0f49846c4620bcc969ece882c8f640ada7112d9e5b8d6579c4a272f5",
-   "url": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
-   "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
-   "published_at": "2026-11-12T18:02:51Z",
-   "published_raw": "2026-11-12T23:32:51.244+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there.\n\nAttackers are using fake websites, stolen access, and trusted tools to get into places they shouldn't be. AI is helping them build attacks faster, while",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6851576604420273035",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpHFMwpmKB3Mn6eMpEHMAX_8gqnyi4xwTCuYj7NTrCcTMWAsSZtaUsHYUa1kvi3jQf92A5pR_Qz7kzgTarHmo6q6YsXVeVSJEkkx0JkioCXa6GbKJzG9eZz0dkotf9QEpdcRMy94hoYhGfIoEk7pPOFUSgTY5ciU7_wkSOJc7kgXcS1GS3qGC-Ql7kMrks/s260-e100/thd.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:d5585df40181d87d8a2f8949ffca3455429d8ce6354cf971c14ca7c6294e0061",
    "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
    "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
@@ -841,6 +841,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg16ACawbG7rP_kT-8Boo4xdTje3BeTWyFSnNXwHhr5cvy2-1X3Ljhrc1IuZlseWd55tN8E1yjQ9ldhTnjWTU-GJBpX_Zen36YiLQGsRSRAoteqHyxx7mn_w0QgLfMKDLItA4p_jpHajucbglLnCR_zWBY_t82YvFkLa9dQFBfjP1BrTlrNdYufsGMSZiGn/s260-e100/cursor.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:5f110aa5732b2dc45743bffb4ec8f01edfbc6771aac0ad2c4c0722b2c5e49093",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+   "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+   "published_at": "2026-11-13T05:43:28Z",
+   "published_raw": "2026-11-13T11:13:28.651+05:30",
+   "categories": [
+    "cyber-attack"
+   ],
+   "description": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell.\n\n\"We are restricting certain N-central features and integrations,\" the company said in a Thursday update. \"These measures may affect some functionality, but we believe taking additional precautions while remediation is completed is the",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4725097553277360999",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA4jxlXpPBPhD5o3IHy80Fn7fSHUtcqH3iXQlU-jDUL5C3zJcf1_Zb-GAYxuW6P6q647p9JAT_opImlj-v-USDNhZ_z83mYC3ISKtN72pe_3XLwf5EyMRuK4OdXCFnYxGMhOAvN_i4UFqk5vJLriRnkbRRwILuT5JUpExx9Tm74sXSCQ0g7jjsOzWV1cqk/s260-e100/nable-hacks.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -1300,6 +1327,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd53Ql49F0iuQEtdvfoxOLNTuQnYM5oGQkqnQ3ym4aIW-HVZuHtOqzyi0IdwUxpFj5qU_jbUEKzPXG4Wx7Uj7g2-UKDotvOh0_AlNlkEIpgLbEBDuQxDkuxDFlukNKKbWXXZv1xCeHEtoOQ_Z1XQUshkJmlBaOmGQzMbryg6KHbOdt8IR7MNQ5oADM-GM/s260-e100/CYBER-AI.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:897c1c6b0f49846c4620bcc969ece882c8f640ada7112d9e5b8d6579c4a272f5",
+   "url": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+   "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+   "published_at": "2026-11-12T18:02:51Z",
+   "published_raw": "2026-11-12T23:32:51.244+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there.\n\nAttackers are using fake websites, stolen access, and trusted tools to get into places they shouldn't be. AI is helping them build attacks faster, while",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6851576604420273035",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpHFMwpmKB3Mn6eMpEHMAX_8gqnyi4xwTCuYj7NTrCcTMWAsSZtaUsHYUa1kvi3jQf92A5pR_Qz7kzgTarHmo6q6YsXVeVSJEkkx0JkioCXa6GbKJzG9eZz0dkotf9QEpdcRMy94hoYhGfIoEk7pPOFUSgTY5ciU7_wkSOJc7kgXcS1GS3qGC-Ql7kMrks/s260-e100/thd.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
