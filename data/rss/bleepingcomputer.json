@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-19T14:00:28Z",
+ "updated_at": "2026-11-19T15:00:30Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-19T14:00:28Z",
+  "last_success_at": "2026-11-19T15:00:30Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:cd4bf7be45d06b8fa03afe3cefcbc3e7e7827104a12424e11f6ab58342c95c59",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers",
+   "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+   "published_at": "2026-11-19T14:57:24Z",
+   "published_raw": "Thu, 19 Nov 2026 09:57:24 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:326fa2a15ee1fd11e942170db0ab577885974b2c5c0b3b39f945485ee3602883",
    "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly",
@@ -1755,28 +1776,6 @@
    "authors": [
     {
      "name": "Sponsored by Anecdotes",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:92c78b5ae5a17643714d6f7bfaf5dfbf83c831164ab8f80efc45c5bff3d54c81",
-   "url": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims",
-   "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
-   "published_at": "2026-11-09T14:34:03Z",
-   "published_raw": "Mon, 09 Nov 2026 09:34:03 -0500",
-   "categories": [
-    "security",
-    "CryptoCurrency"
-   ],
-   "description": "A former FBI agent has pleaded guilty to stealing nearly $2.5 million from the wallets of fraud victims and nation-state hackers under investigation. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
      "uri": "",
      "email": ""
     }

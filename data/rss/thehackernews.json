@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-19T14:00:28Z",
+ "updated_at": "2026-11-19T15:00:30Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-19T14:00:28Z",
+  "last_success_at": "2026-11-19T15:00:30Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -146,26 +146,53 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:99ca2ce9ce5fc1e7f33e8d0bc434b25185d752aff65d793e56dedc574f01efb4",
-   "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
-   "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
-   "published_at": "2026-11-09T14:31:29Z",
-   "published_raw": "2026-11-09T20:01:29.424+05:30",
+   "id": "sha256:dcfa8134ceac9ad36d391ec751f393f616b6754a914d8ab0001a06e1984a476f",
+   "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+   "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+   "published_at": "2026-11-19T14:45:06Z",
+   "published_raw": "2026-11-19T20:15:06.320+05:30",
    "categories": [
-    "threat-intelligence"
+    "vulnerability"
    ],
-   "description": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called PapRAT.\n\n\"PapRAT has both C++ and Rust implementations,\" Fortinet FortiGuard Labs researcher Cara Lin said. \"Its capabilities include command execution, file",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2394245884678993679",
+   "description": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.\n\nThe list of vulnerabilities is as follows -\n\n\n  CVE-2026-115560 (CVSS score: 9.2) - An improper input validation vulnerability that could result in remote code execution, file modification,",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6204821822778887091",
    "authors": [
     {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
      "email": "noreply@blogger.com"
     }
    ],
    "media": [
     {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQwQpjbb2oT57o807l7YmQ31V2RbyxqqO4hENkKlfikKKH-LeqSUiYz5AaPCCFWml-l_RaN1JMiwbJa9lJe7z7Ijzdk66icRP70eETLZ7lLomkSa3JjezoxbRNeDEkTv0K-26dSzHKxAjc7xyLA9RbIiERPLqyRu5QzfyrPeyIA4dfLzMil5wDkYN9n4sG/s260-e100/command.jpg",
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjD2D26Hu7r43uUrdDxmsmmbBe2oMxd-L3_DIVLqAPyDrOnSmdvXfkIq1_lNmWqr49gbrIZ0NeTmA2OYgyWgdUjRf_RTRfflyXn3Vgujkb9tiByOPfej1OqEszpQf2FeozeSqmK5L7aSj28GLwzKmzehIp9zJyeJqgRvbVOW91_pVEMhs3KY9_oXjwf5BE/s260-e100/php-flawss.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:88c544823e0d1532883cb2e9c0f75def8cfc5dadfd8ea711fe71a12ab2c316fa",
+   "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+   "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+   "published_at": "2026-11-19T14:33:06Z",
+   "published_raw": "2026-11-19T20:03:06.430+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site.\n\nThat can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday.\n\nThe Drupal Security Team disclosed",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7497667371072548029",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4kxIzi1B-GPdS7pbaOI823BHxteL-8FbODKnAoDkr8tGhhjGYuRU9KIEAvOQ6kBZFQPCly3BIhQo6vkjxJy13zL7CxlRXsez_G_otFVaja2H5ObmzNMMilbewaweqqO5Paa0H49yaZdWB09xAIqeo7YLG0uyd05qjdbh2aLIRZd73_jwVGH26YexA3l8/s260-e100/drupal-flaws.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -767,60 +794,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:d8cc2172e29e81d09fbb89cde9eaa285ffcbda93c8f5827b528880d87378bbfe",
-   "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
-   "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-   "published_at": "2026-11-13T16:53:08Z",
-   "published_raw": "2026-11-13T22:23:08.102+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server.\n\nThe flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-346016434226560305",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj8XOS7IKEt2ZhrwwdlDSpQ5hAyI46wHZpPkTQ3_hA6yUtMQpzaM50fm2v9x0O7NCt5z9vdrTsYM3iPOmu9fmmMTQDViu-rQjCfSxfCQhwZQazr4ZYayvEn5MQfUdTBVODtAay6RIaTqJGUj-HVzbtMqNPdNFiQHExhO9sitJX0GrvTx_EhWmslA-87ds/s260-e100/postgresql.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:d93f5e12f3c1794f971ebd958029970a7276a42933872b7b94b85ec9a884e8e0",
-   "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
-   "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
-   "published_at": "2026-11-13T15:27:05Z",
-   "published_raw": "2026-11-13T20:57:05.312+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out.\n\nOne of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6118173994584546806",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi28SrA-dW0l0kreAg1vMHHOgBRMM7lzxv5qg2FT2HzRxReJ96pxZP4Fjpm15fYWDDgWpbBI8iC119aE37t_kmQ4guoA70NUlJsdiA4hFvTg8fflx9fsKqUsGuoB-S9VS5pPd38EBVYRGmvKIT5EylE3IwEK8bBCp5CkLrdTwhbyUA2xWN_0iOynP33yE8/s260-e100/amd-flaws.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:6ebe391a8b41bbc0d12fc6b0adda6fb5b6d345f2beee9a61929827d186a2d687",
    "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
    "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
@@ -1300,6 +1273,60 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4ZFiesBwDTk8fRRfKfNIw0lLkhqF6ZAExRxuuRtfRCWrxs6Rg7M5UdSIcJqH2zstViFreL30JMmdebYTlMOKvg4D6GvaS70XPdembzyIZoX2KBj_S3kxKWmBjJll4exWUYXrap9IDW_ugXHOux5jZXk44_v5xac1mxFouywezDcsGeMdLrGd1sJStMoo/s260-e100/bees.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d8cc2172e29e81d09fbb89cde9eaa285ffcbda93c8f5827b528880d87378bbfe",
+   "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+   "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+   "published_at": "2026-11-13T16:53:08Z",
+   "published_raw": "2026-11-13T22:23:08.102+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server.\n\nThe flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-346016434226560305",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj8XOS7IKEt2ZhrwwdlDSpQ5hAyI46wHZpPkTQ3_hA6yUtMQpzaM50fm2v9x0O7NCt5z9vdrTsYM3iPOmu9fmmMTQDViu-rQjCfSxfCQhwZQazr4ZYayvEn5MQfUdTBVODtAay6RIaTqJGUj-HVzbtMqNPdNFiQHExhO9sitJX0GrvTx_EhWmslA-87ds/s260-e100/postgresql.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d93f5e12f3c1794f971ebd958029970a7276a42933872b7b94b85ec9a884e8e0",
+   "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+   "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+   "published_at": "2026-11-13T15:27:05Z",
+   "published_raw": "2026-11-13T20:57:05.312+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out.\n\nOne of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-6118173994584546806",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi28SrA-dW0l0kreAg1vMHHOgBRMM7lzxv5qg2FT2HzRxReJ96pxZP4Fjpm15fYWDDgWpbBI8iC119aE37t_kmQ4guoA70NUlJsdiA4hFvTg8fflx9fsKqUsGuoB-S9VS5pPd38EBVYRGmvKIT5EylE3IwEK8bBCp5CkLrdTwhbyUA2xWN_0iOynP33yE8/s260-e100/amd-flaws.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
