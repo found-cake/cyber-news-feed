@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-19T16:00:28Z",
+ "updated_at": "2026-11-19T17:00:26Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-19T16:00:28Z",
+  "last_success_at": "2026-11-19T17:00:26Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -139,6 +139,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhs4UHnKTj_NJCPa7Jqdntj8tEvZ2PgaY7s9kKK8_X2bxehTUcJeZPFfguJzvW_D0H9XD_q-qLZV2Qq6hqRYDQRYMXpyAzw-6T2yDjFjIY7zhGRLPDPjOalASUgX_Z-M2cEsNqiuys_4QjQ8vY_xl0fnWi2Y_9tT9aAH0WQOAB3D6uDf8yZY8VuphL4TRFG/s260-e100/court-phish.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:ea8cebf5d32bea67ec9b45b3a9488b797cb92985bc8d0d0052450b1cd7b841d3",
+   "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+   "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+   "published_at": "2026-11-19T16:59:56Z",
+   "published_raw": "2026-11-19T22:29:56.588+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server.\n\nToday's PHP releases fix the flaw, called phpAfterShell.\n\nThe flaw is tracked as CVE-2026-126714 and rated",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8725273141046748962",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLoqqEe0XW2nWCPLMM5qy5ng0qt6xWov0xxceCfMNzji1DLUEs6eK4emFE5HXp0HTfS2NxSqeUAja5Sb-1OtBTEcTmnDOiQrb8hkoXqR5vMftJ9nDvcFbQlK7rGGqcmMpYAhf2wqWByFnB4h-fkaGKwYJvR_vAuGxV6-5fZJDl4v_6IcI8APkFF7fen90/s260-e100/phpaftershell.gif",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -767,33 +794,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:1abe8912cb223ae43799b6e47fe374ee7e72d6c8d8a454e8df0406d2a84b9853",
-   "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
-   "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-   "published_at": "2026-11-16T06:53:34Z",
-   "published_raw": "2026-11-16T12:23:34.522+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server.\n\nThe activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer in June 2025, has been attributed to a threat actor named BO Team (aka Black Owl, Hoody Hyena,",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2908683847657307327",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAvzoKykaMIpa6xx92YudipfUoEQnSkrE6p2CiWEVra5izr5GfuNQGOnfRuF0XV99v1IPRFe2Q6BF27UEq3BnWFS5onw97dt3hvszilQDANdtRdYi0_hTDOrKQvuwGn1mY_m-QTabV3jwWCNwXs_OizK2GLF3Eks5HJj5I7kbmA2IztruSBVjq5WOcxEM-/s260-e100/log4shell.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:6ebe391a8b41bbc0d12fc6b0adda6fb5b6d345f2beee9a61929827d186a2d687",
    "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
    "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
@@ -1300,6 +1300,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4ZFiesBwDTk8fRRfKfNIw0lLkhqF6ZAExRxuuRtfRCWrxs6Rg7M5UdSIcJqH2zstViFreL30JMmdebYTlMOKvg4D6GvaS70XPdembzyIZoX2KBj_S3kxKWmBjJll4exWUYXrap9IDW_ugXHOux5jZXk44_v5xac1mxFouywezDcsGeMdLrGd1sJStMoo/s260-e100/bees.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:1abe8912cb223ae43799b6e47fe374ee7e72d6c8d8a454e8df0406d2a84b9853",
+   "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+   "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+   "published_at": "2026-11-16T06:53:34Z",
+   "published_raw": "2026-11-16T12:23:34.522+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server.\n\nThe activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer in June 2025, has been attributed to a threat actor named BO Team (aka Black Owl, Hoody Hyena,",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2908683847657307327",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAvzoKykaMIpa6xx92YudipfUoEQnSkrE6p2CiWEVra5izr5GfuNQGOnfRuF0XV99v1IPRFe2Q6BF27UEq3BnWFS5onw97dt3hvszilQDANdtRdYi0_hTDOrKQvuwGn1mY_m-QTabV3jwWCNwXs_OizK2GLF3Eks5HJj5I7kbmA2IztruSBVjq5WOcxEM-/s260-e100/log4shell.jpg",
      "kind": "thumbnail",
      "medium": ""
     }

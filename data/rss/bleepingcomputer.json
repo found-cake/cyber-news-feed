@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-19T16:00:28Z",
+ "updated_at": "2026-11-19T17:00:26Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-19T16:00:28Z",
+  "last_success_at": "2026-11-19T17:00:26Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:a03a64540c0ef47a3e55e9b01b655b499e2d079c621bacc46440a76dafa47716",
+   "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs",
+   "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+   "published_at": "2026-11-19T16:28:23Z",
+   "published_raw": "Thu, 19 Nov 2026 11:28:23 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+   "authors": [
+    {
+     "name": "Lawrence Abrams",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:3f0cae6c7721af8aa66c77a2d5e29d931e21f306e875ba2694cdccae841f0982",
    "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft",
@@ -1731,48 +1752,6 @@
    ],
    "description": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:a096b09b8a91b8250cf1e5ae98e91004cc28b84f10a8e78f863b86189ebedee9",
-   "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims",
-   "title": "Binance denies data breach after alleged ShinyHunters claims",
-   "published_at": "2026-11-09T16:12:39Z",
-   "published_raw": "Mon, 09 Nov 2026 11:12:39 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:0d6a234c7f5167beb8dbd9452bfc260a6da4f70de5eaa1c944f12e1ba543c46a",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems",
-   "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
-   "published_at": "2026-11-09T16:04:57Z",
-   "published_raw": "Mon, 09 Nov 2026 11:04:57 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
    "authors": [
     {
      "name": "Bill Toulas",
