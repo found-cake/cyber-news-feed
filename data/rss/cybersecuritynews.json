@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-19T04:00:58Z",
+ "updated_at": "2026-11-19T05:00:57Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-19T04:00:58Z",
+  "last_success_at": "2026-11-19T05:00:57Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:323b51a55726326b59d85bb33fea38a708076a686f80dfd772ed939e5be70a1c",
+   "url": "https://cybersecuritynews.com/hackers-abuse-cyberpower-ups-software",
+   "title": "Hackers Abuse CyberPower UPS Software to Execute SYSTEM Commands and Dump Active Directory Data",
+   "published_at": "2026-11-19T04:10:46Z",
+   "published_raw": "Thu, 19 Nov 2026 04:10:46 +0000",
+   "categories": [
+    "Cyber Attack News",
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Exploited CyberPower PowerPanel Business software for managing uninterruptible power supplies (UPS) to gain SYSTEM-level access to a Windows domain controller. Symantec reported on November 18 that the attackers used a built-in scripting feature to copy the Active Directory database and launch malware that kept running after the collection activity. Researchers did not observe data leaving [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-cyberpower-ups-software/\">Hackers Abuse CyberPower UPS Software to Execute SYSTEM Commands and Dump Active Directory Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=172649",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Abuse-CyberPower-UPS-Software-to-Execute-SYSTEM-Commands-and-Dump-Active-Directory-Data.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "172649",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Exploited CyberPower PowerPanel Business software for managing uninterruptible power supplies (UPS) to gain <a href=\"https://cybersecuritynews.com/payload-ransomware-hijacks-active-directory/\" target=\"_blank\" rel=\"noreferrer noopener\">SYSTEM-level access to a Windows domain controller.</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">Symantec reported on November 18 that the attackers used a built-in scripting feature to copy the Active Directory database and launch malware that kept running after the collection activity. Researchers did not observe data leaving the network or see ransomware deployed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">PowerPanel Business helps businesses keep servers running during brief power interruptions and shut them down safely during longer outages. Its event settings let administrators run scripts when power drops or fails.</p>\n\n\n\n<p class=\"wp-block-paragraph\">On Windows, the PowerPanel service, ppbed.exe, runs as SYSTEM, a built-in account with extensive local privileges. Scripts started by the service inherit those permissions. In the incident, <a href=\"https://www.security.com/threat-intelligence/power-management-software-attack-vector\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Symantec traced unauthorized scripts</a> to the PowerPanel web console on TCP port 3052.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The service launched Windows Command Prompt, and the resulting activity included downloading tools and running a PowerShell test that loaded a small .NET program into memory. The program only printed a greeting, but it showed that the attackers could run code in memory through a trusted service.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Symantec did not establish how the attackers first gained console access. Earlier advisories documented hard-coded credentials, a default administrator password and a file-upload flaw in PowerPanel Business.</p>\n\n\n\n<h2 id=\"h-hackers-abuse-cyberpower-ups-software\" class=\"wp-block-heading\"><strong>Hackers Abuse CyberPower UPS Software</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Stolen administrator credentials were another possibility. Cyber Security News previously covered <a href=\"https://cybersecuritynews.com/power-management-devices-flaw/\" target=\"_blank\" rel=\"noopener\">security flaws in PowerPanel Enterprise</a>, a separate CyberPower product. Those findings do not establish how this intrusion began.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The attackers repeatedly changed their collection scripts and checked the results before trying again. They eventually copied ntds. dit, the Active Directory database, and collected the SYSTEM registry hive.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4ki8ovE3cust5fJYaGIGLAM4Cpr2c-buL5i-rvVDzRySF2u4iWbTMU_Va5ChwNjMLoD-SA5ljIp_VKICCMYh7kMP9c-cJyYPSvBt8q8y1cSTC77SFMipeszo4Fj_iFL0F-VJrr8jgnc7vKC20J9q6QYvojDlqt7X50x_qC6G8jxwBL8-Fd4bgSoV76WY/s1600/Screenshot%202026-11-18%20184252%20%281%29.webp\" alt=\"Attack chain (source : security )\"/><figcaption class=\"wp-element-caption\">Attack chain (source: Symantec )</figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">As our earlier coverage of <a href=\"https://cybersecuritynews.com/hackers-steal-ntds-dit/\" target=\"_blank\" rel=\"noopener\">Active Directory database theft</a> explains, access to both files can expose password hashes and other secrets used to authenticate domain accounts.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Symantec said the repeated adjustments suggested someone was operating the tools live. It did not name a threat group or determine the attacker’s motive.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The same PowerPanel process tree later led to upnpcont.exe, an executable named after a Microsoft component. It ran from an unusual location under the SYSTEM profile and loaded a malicious atl.dll.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The technique, known as <a href=\"https://cybersecuritynews.com/sauron-loader-malware/\" target=\"_blank\" rel=\"noreferrer noopener\">DLL side-loading</a>, uses a legitimate program to load a malicious code library. The link back to ppbed.exe gave defenders a way to connect the malware with the earlier activity.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Symantec recommends finding every PowerPanel Business installation and limiting access to TCP port 3052 to approved administrator workstations. Keep the console off the public internet and away from regular user networks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Apply vendor updates, replace default passwords with unique credentials, and review the settings that link power events to scripts. Check the extcmd and temp\\profile\\extcmd folders for scripts that do not match a known configuration.</p>\n\n\n\n<p class=\"wp-block-paragraph\">On domain controllers, review endpoint logs for unusual command shells, PowerShell activity, or database access linked to ppbed.exe. Use Symantec’s incident report to compare file names and hashes with evidence from affected hosts.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If the evidence shows that the directory database was copied, treat domain credentials as potentially exposed even without proof of an outbound transfer. Plan a coordinated reset of krbtgt, the account used to sign Kerberos authentication tickets, alongside wider credential rotation.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>Give your SOC the alert context on the latest threats to stop incidents quickly -&gt; <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate Threat Intel from 16K SOCs</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-cyberpower-ups-software/\">Hackers Abuse CyberPower UPS Software to Execute SYSTEM Commands and Dump Active Directory Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:070336caa3a0b4ca7e2b4d3a90b3476929909dbec31410b95b8b6123f65bfeb8",
    "url": "https://cybersecuritynews.com/java4shell-rce-flaw-exploited",
