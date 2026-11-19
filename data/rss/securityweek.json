@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-19T13:00:31Z",
+ "updated_at": "2026-11-19T14:00:28Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-19T13:00:31Z",
+  "last_success_at": "2026-11-19T14:00:28Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:5e25c75ee50f4dfefba45fc2ea813750d5ce44ecbc02dacf307e80bb9e963948",
+   "url": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release",
+   "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+   "published_at": "2026-11-19T13:12:20Z",
+   "published_raw": "Thu, 19 Nov 2026 13:12:20 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "Cisco",
+    "exploited",
+    "Expressway",
+    "vulnerability"
+   ],
+   "description": "<p>Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement.</p>\n<p>The post <a href=\"https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/\">Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50935",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:1f19c57941e278c120bb19e9a1f66df7205ddc8ef78a84a3a43dd4e76a261948",
    "url": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection",
@@ -3213,43 +3248,6 @@
    "authors": [
     {
      "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:05f278c571118efe307897de4d5e6115a1e412314e452a4ad25c0f0f2eab9af0",
-   "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users",
-   "title": "Plex2Shell Exploited Against QNAP NAS Users",
-   "published_at": "2026-11-09T13:13:28Z",
-   "published_raw": "Mon, 09 Nov 2026 13:13:28 +0000",
-   "categories": [
-    "Vulnerabilities",
-    "exploited",
-    "NAS",
-    "Plex",
-    "Plex2Shell",
-    "QNAP",
-    "vulnerability"
-   ],
-   "description": "<p>Threat actors are exploiting the four-flaw chain to hack the Plex Media Server application on QNAP NAS devices.</p>\n<p>The post <a href=\"https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/\">Plex2Shell Exploited Against QNAP NAS Users</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50634",
-   "authors": [
-    {
-     "name": "Ionut Arghire",
      "uri": "",
      "email": ""
     }
