@@ -1,15 +1,83 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-19T10:00:57Z",
+ "updated_at": "2026-11-19T11:01:06Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-19T10:00:57Z",
+  "last_success_at": "2026-11-19T11:01:06Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:3170a653442805b5b655f93e558717cfc313596b09fcf40022d213fc73d01513",
+   "url": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products",
+   "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
+   "published_at": "2026-11-19T10:41:05Z",
+   "published_raw": "Thu, 19 Nov 2026 10:41:05 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "patches",
+    "Splunk",
+    "vulnerability"
+   ],
+   "description": "<p>The security updates resolve critical and high-severity issues leading to authentication bypass, remote code execution, and privilege escalation.</p>\n<p>The post <a href=\"https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/\">Splunk Patches Nearly 140 Flaws Across Three Core Products</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50925",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:2b796b74f223e79ce8e7ea7aa3f1339daa3bc39467f7a91da05de24b85a6bf62",
+   "url": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public",
+   "title": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public",
+   "published_at": "2026-11-19T10:26:51Z",
+   "published_raw": "Thu, 19 Nov 2026 10:26:51 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "F5",
+    "Nginx",
+    "NGINX2Root"
+   ],
+   "description": "<p>The five NGINX2Root vulnerabilities could allow remote, unauthenticated attackers to execute arbitrary code.</p>\n<p>The post <a href=\"https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/\">F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=50923",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:f01bb7700044c172ab08636130b905b0d479b297b6f85ee563ad6e8743080a07",
    "url": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories",
@@ -265,6 +333,7 @@
     "CISO Conversations",
     "CISO Strategy",
     "CISO",
+    "Featured",
     "Glow"
    ],
    "description": "<p>Patti Degnan’s identity was stolen in 2006. It set her on a path to the CISO seat at endpoint security firm Glow.</p>\n<p>The post <a href=\"https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/\">CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
@@ -3216,40 +3285,6 @@
    "authors": [
     {
      "name": "Ionut Arghire",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:9753a8e98324c0c0b00cdb33bcc129dca898925f411161a1879a860995acd024",
-   "url": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach",
-   "title": "Over 3 Million People Hit by Frontline Education Data Breach",
-   "published_at": "2026-11-09T10:09:02Z",
-   "published_raw": "Mon, 09 Nov 2026 10:09:02 +0000",
-   "categories": [
-    "Data Breaches",
-    "data breach",
-    "education",
-    "Frontline Education"
-   ],
-   "description": "<p>Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students.</p>\n<p>The post <a href=\"https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/\">Over 3 Million People Hit by Frontline Education Data Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50618",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
      "uri": "",
      "email": ""
     }
