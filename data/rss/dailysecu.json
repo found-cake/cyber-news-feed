@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-11-19T02:00:57Z",
+ "updated_at": "2026-11-19T03:01:07Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-19T02:00:57Z",
+  "last_success_at": "2026-11-19T03:01:07Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:67e4dcae5c43e1f8c3b7a3ad8dac5b6079818c40ddbf802b782984ee40002604",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209610",
+   "title": "엔키화이트햇, 자바 원격 해킹 취약점 ‘Java4Shell’ 내부 점검 도구 배포",
+   "published_at": "2026-11-19T11:16:44Z",
+   "published_raw": "2026-11-19 11:16:44",
+   "categories": [
+    "이슈"
+   ],
+   "description": "엔키화이트햇(대표 이성권)이 자바(Java) 실행환경의 원격 코드 실행 취약점 ‘Java4Shell(CVE-2026-114938)’에 대응하기 위해 내부 점검 스크립트와 기술 분석 보고서를 18일 공개했다. 보안 담당자가 운영 서버에 공격용 입력을 보내지 않고도 실행 중인 자바 환경이 취약점의 영향 조건에 해당하는지 확인할 수 있도록 했다.자바 실행환경의 Base64 처리 결함…조건 충족 시 인증 없이 원격 코드 실행 가능엔키화이트햇에 따르면 Java4Shell은 오픈JDK(OpenJDK)의 Base64 디코딩 가속 기능에서 발생하",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:db25c8819f5e521be57fd9b2cc6fc08778cfe34c1dd735d7e493ac1289e2c73f",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209609",
