@@ -1,15 +1,42 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-20T07:00:26Z",
+ "updated_at": "2026-11-20T08:00:35Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-20T07:00:26Z",
+  "last_success_at": "2026-11-20T08:00:35Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:e40617893cabf092a419255ae36022015317a5fc469ec227aec29b8e1902d5dd",
+   "url": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+   "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+   "published_at": "2026-11-20T07:11:39Z",
+   "published_raw": "2026-11-20T12:41:39.846+05:30",
+   "categories": [
+    "threat-intelligence"
+   ],
+   "description": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS.\n\n\"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques,\" Blackpoint",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2250727294437554781",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjugg63OPJwZuh94vDIg7MkA4YoeLKr5sjiqI6CEgjvDjUvJ-pBJOfUrUBxPUTbartqVwdldczbKSYo6lpkcVic1EDQYIDyWq12zMdMONjpDtK4NKCgkppAWvnOJpXe7prfmRG8WNpH0RrQ0bhX2nZKGpRy33y0OMZraBjEPoDorp9h3kNJSa-IQrJC7Nl5/s260-e100/cf.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:a863217f46213f9487e009921451d33ad0304af967cea2283f07b0f2628f99b6",
    "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
