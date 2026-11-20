@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-20T10:00:27Z",
+ "updated_at": "2026-11-20T11:00:26Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-20T10:00:27Z",
+  "last_success_at": "2026-11-20T11:00:26Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:64a50c668fe35c31ab1c22f726be4f1764057ca93d702a2850b0746c4699be65",
+   "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws",
+   "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+   "published_at": "2026-11-20T10:57:43Z",
+   "published_raw": "Fri, 20 Nov 2026 05:57:43 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:94b6abb9d2c301cd64f436ea2a3d228e450be38c7b540fd3909383940b838ccf",
    "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september",
@@ -1626,48 +1647,6 @@
    "authors": [
     {
      "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:069c9763b153ec471fc4f59945233ba168661c3976fef2f7a4547dbf1a2a2be4",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access",
-   "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
-   "published_at": "2026-11-10T10:10:20Z",
-   "published_raw": "Tue, 10 Nov 2026 05:10:20 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
-   "authors": [
-    {
-     "name": "Sergiu Gatlan",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:276f05ccb629962c03d675969c1b157390043cf9cdb9a10170eed15686a68f61",
-   "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers",
-   "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
-   "published_at": "2026-11-10T10:04:32Z",
-   "published_raw": "Tue, 10 Nov 2026 05:04:32 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
      "uri": "",
      "email": ""
     }
