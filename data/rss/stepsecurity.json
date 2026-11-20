@@ -1,15 +1,39 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-11-19T23:00:35Z",
+ "updated_at": "2026-11-20T00:00:27Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-19T23:00:35Z",
+  "last_success_at": "2026-11-20T00:00:27Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:f23af9874ff4eaa683a6b58b9cdc10ac06487ed1a0c25008f6a2146538dd6e73",
+   "url": "https://www.stepsecurity.io/blog/cve-2026-123007-nginx-http2-rce",
+   "title": "nginx2root (CVE-2026-123007): HTTP/2 Flaw Lets Attackers Run Code on Unpatched nginx Servers",
+   "published_at": "2026-11-19T23:54:41Z",
+   "published_raw": "Thu, 19 Nov 2026 23:54:41 GMT",
+   "categories": [],
+   "description": "nginx 1.31.9 and 1.30.7 fix an HTTP/2 flaw that a public exploit turns into unauthenticated code execution. See what stopped the exploit in our lab, how to patch and confirm the fix, and how to find nginx on developer machines.",
+   "feed_id": "https://www.stepsecurity.io/blog/cve-2026-123007-nginx-http2-rce",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6aff84b920eec38ad55d1a44_6aff849ef714ce5d9a1d2c24_cve-2026-123007-cover-v3.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6aff84b920eec38ad55d1a44_6aff849ef714ce5d9a1d2c24_cve-2026-123007-cover-v3.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:90b24178a4beff2c7afdf894386b9e00211b74dee0d503933fa595b8911249a1",
    "url": "https://www.stepsecurity.io/blog/stepsecurity-20-million-series-a",
