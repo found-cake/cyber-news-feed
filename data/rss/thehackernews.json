@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-20T06:00:26Z",
+ "updated_at": "2026-11-20T07:00:26Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-20T06:00:26Z",
+  "last_success_at": "2026-11-20T07:00:26Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -139,6 +139,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhs4UHnKTj_NJCPa7Jqdntj8tEvZ2PgaY7s9kKK8_X2bxehTUcJeZPFfguJzvW_D0H9XD_q-qLZV2Qq6hqRYDQRYMXpyAzw-6T2yDjFjIY7zhGRLPDPjOalASUgX_Z-M2cEsNqiuys_4QjQ8vY_xl0fnWi2Y_9tT9aAH0WQOAB3D6uDf8yZY8VuphL4TRFG/s260-e100/court-phish.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:209921156d987de0e7b7534560abbecb91d36e543ed3ff9fe127ad174e180c04",
+   "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+   "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+   "published_at": "2026-11-20T06:33:31Z",
+   "published_raw": "2026-11-20T12:03:31.335+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.\n\nThe vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4638367034418771726",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTSAI-N-DRII1YA3I98ZVnKnG0SMgm97oEAqyiSXZB23DPwzvTk3figFLsTCKsMJRxRhjKEPFblxfcOuB_UXc_OAXJRiVI07Jxjn-CebJVHiRQ5sc43AifBpUPNfU5-LRD6QEGbX7Vnt_HAmJZiLojS32PtNWwIWeideJZnIpgjrstJ0Iy84lYd47bePk/s260-e100/chinese-vmware.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -337,7 +364,7 @@
   {
    "id": "sha256:29eb33240b0fe5717515a5b0fa724d76dc4bcd82149007bd86c49e61ecc87c44",
    "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-   "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+   "title": "Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth",
    "published_at": "2026-11-19T08:42:11Z",
    "published_raw": "2026-11-19T14:12:11.184+05:30",
    "categories": [
@@ -1226,33 +1253,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:4703b2a7b4d7d2a2a912c1f3b529a5dedc5e64790d69ffd02c7609f716ee7f5d",
-   "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
-   "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-   "published_at": "2026-11-10T06:31:42Z",
-   "published_raw": "2026-11-10T12:01:42.715+05:30",
-   "categories": [
-    "cyber-attack"
-   ],
-   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-123218 (CVSS score: 9.8) - An incorrect authorization vulnerability",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8252543967038904496",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVAsrcYxVs8sJe7IiSD6WkTC4yPv0eLfup7dwcsS0NLcAAgoY__wyC3UFCR90PL2ziKCEW-vMNIEQXES-8uAG-MxuXlyIDdQGeNREm8yFv3tbvsCVXXRyRGT4ORirvcVKP_uD62XHYy9w3x_P0o7XzkguJPwq_1vV2jPxxnZWbhAHHUJ3YJ6HbTlXb0shyphenhyphen/s260-e100/openssh.png",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:e021b9febf9ed0b72381678ae1e4f38416a2854947429d039f6506c3c5ee0c2c",
    "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
    "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
@@ -1894,60 +1894,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgogipF_6VgFSzsnZ_UFUM5FfzGyk1MOv5SRi3PSivRHjxs6IsO0fmOdDjQsDJHiKcnxJ8T89NMMYiqo_NEEtv0EoQsafjOFuZ-Te6famJBJKegqDnf1b63Hdzkls7IO1JOtSNjb5Hatb4Ny8Zu46mggCXYKvHf3Ne9Qc4ZRfLBmLnZ7omPEHAjDfJRQEKu/s260-e100/fable.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:749cd79bf9b6b051f921dd2a0964c78940dcc9dddee5e4ca849f6e61ef2c0c97",
-   "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-   "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-   "published_at": "2026-11-10T06:52:54Z",
-   "published_raw": "2026-11-10T12:22:54.994+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: 8.8), has&nbsp;been described as a use-after-free bug in the XML component.\n\n\"Use-after-free in XML in Google Chrome prior to 157.0.8103.50 allowed a remote attacker",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3588381358786198838",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjk5S9J891bQS8W6TgyoiEPQ7geGia8FqqWjckFlo9qMH2wXIXv-7gyod1XKUpI9BfgcliN2Re8A85rJ121jxqgfnw1LsjYBvAYtX7694GVgMF7B94G0n5MzqMaKqLAbr-No1nqrN0gyF8MFR_bYQIYlqiTh_FzobmWrq4NOCLbcW_78uEMMW5FE4eqJoo/s260-e100/chrome-0day.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:f0d40b6eb5cac62ee86cf717f406d05317d47708def4f82c98769f895c4ecee0",
-   "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
-   "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
-   "published_at": "2026-11-10T06:44:36Z",
-   "published_raw": "2026-11-10T12:14:36.676+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell.\n\n\"As a precautionary measure, we are temporarily taking our Hosted N-central environment offline while we take the necessary actions to secure the",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4950111518478733942",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-DkzHcZpJVVEU3e3wmGB2DiyRsnWXkf_2bfT1fiDJG4Wn92cartbhyphenhyphenqZHOjXGasigHqJAyXM0kjOlYipgEkahrCi9KGa1s8gpINVT-oFldgOc1bZMUQ-nmFqsSMNwIe6463fXOxSqX1dNroXgwn9MwsmCx41jvPdtdygITxfKyTRDUWKS19YVTFTZY8sr/s260-e100/n-able.jpg",
      "kind": "thumbnail",
      "medium": ""
     }

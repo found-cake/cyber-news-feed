@@ -1,15 +1,85 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-20T06:00:26Z",
+ "updated_at": "2026-11-20T07:00:26Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-20T06:00:26Z",
+  "last_success_at": "2026-11-20T07:00:26Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:dee30786b54cda88ab16c52c0842a612d5f72f76bf43a092d15d86f163dbdb58",
+   "url": "https://cybersecuritynews.com/wireshark-4-6-10-released",
+   "title": "Wireshark 4.6.10 Released With Patch for 39 Security Vulnerabilities",
+   "published_at": "2026-11-20T06:58:34Z",
+   "published_raw": "Fri, 20 Nov 2026 06:58:34 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Vulnerabilities",
+    "Wireshark",
+    "cyber security"
+   ],
+   "description": "<p>Wireshark 4.6.10 has been released with fixes for 39 security vulnerabilities affecting protocol dissectors, capture file parsers, the dissection engine, and audio codecs. The update addresses crashes, processing loops, memory leaks, and a heap disclosure issue that could affect systems used for network troubleshooting and security analysis. The official release notes list security advisories wnpa-sec-2026-111 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wireshark-4-6-10-released/\">Wireshark 4.6.10 Released With Patch for 39 Security Vulnerabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=173147",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Wireshark-4.6.10-Released-With-Patch-for-39-Security-Vulnerabilities.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "173147",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Wireshark 4.6.10 has been released with fixes for 39 <a href=\"https://cybersecuritynews.com/wireshark-vulnerabilities-4-6-1/\" target=\"_blank\" rel=\"noreferrer noopener\">security vulnerabilities affecting protocol dissectors</a>, capture file parsers, the dissection engine, and audio codecs. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The update addresses crashes, processing loops, memory leaks, and a heap disclosure issue that could affect systems used for network troubleshooting and security analysis.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The official release notes list security advisories wnpa-sec-2026-111 through wnpa-sec-2026-149. Developers said the large batch of fixes follows an internal review and a recent rise in <a href=\"https://cybersecuritynews.com/ai-assisted-linux-kernel-zero-day/\" target=\"_blank\" rel=\"noreferrer noopener\">AI-assisted vulnerability reports</a> from outside researchers. That explains the volume of patches without suggesting that every issue has the same impact.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Many fixes target dissectors, the components that turn raw packet data into readable protocol fields. Affected protocols include RTSE, NBAP, IEEE 1609.2, IrDA, Matter, IEEE 1905, OpenWire, USB-PTP, ACN, PROFINET, and SDP. Several additional advisories group crashes across multiple dissectors, showing that the update reaches well beyond one protocol or network type.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Among the named flaws, CVE-2026-130455 fixes an infinite loop in the Kafka dissector. CVE-2026-130451 addresses infinite loops across multiple protocol dissectors.</p>\n\n\n\n<p class=\"wp-block-paragraph\">While CVE-2026-130462 covers hangs in both dissectors and file parsers. These failures can leave analysis stuck rather than simply closing the application, making them important for teams that rely on timely packet review.</p>\n\n\n\n<h2 id=\"h-wireshark-4-6-10-released\" class=\"wp-block-heading\"><strong>Wireshark 4.6.10 Released </strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Capture file handling also receives attention. Patches cover crashes in ERF, Android Logcat, and PEAK CAN TRC parsing, plus large loops in the Ascend and Tektronix K12xx readers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The PEAK CAN TRC issue, tracked as CVE-2026-130467, specifically concerns builds using older GLib versions. This detail matters when assessing exposure across different operating system packages.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The release fixes a TLS dissector memory leak tracked as CVE-2026-130449 and further <a href=\"https://cybersecuritynews.com/wireshark-4-6-6-released/\" target=\"_blank\" rel=\"noreferrer noopener\">memory leaks across multiple dissectors</a> under CVE-2026-130436.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Another grouped advisory, CVE-2026-130445, combines crashes, infinite loops, and memory leaks. Unlike an immediate crash, a leak can build resource pressure as processing continues.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An SCTP dissector heap disclosure is tracked as wnpa-sec-2026-147. The release notes also identify crash fixes for the iLBC and AMR audio codecs under wnpa-sec-2026-148 and wnpa-sec-2026-149. Those three entries do not display CVE identifiers in the notes, so the 39-advisory count should not be presented as 39 listed CVEs.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The update follows earlier security releases covered in Cybersecuritynews reports on <a target=\"_blank\" href=\"https://cybersecuritynews.com/wireshark-4-6-9-fixes-19-vulnerabilities/\" rel=\"noopener\">Wireshark 4.6.9</a> and <a target=\"_blank\" href=\"https://cybersecuritynews.com/wireshark-4-6-8-released/\" rel=\"noopener\">Wireshark 4.6.8</a>. Those versions addressed 19 and 28 documented vulnerabilities, respectively, including flaws affecting packet decoding and capture file processing.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Windows and macOS installers now include Brotli 1.2.1, which fixes CVE-2026-111497. Windows packages also move from Npcap 1.88 to Npcap 1.89. These bundled component changes sit alongside the<a href=\"https://www.wireshark.org/docs/relnotes/wireshark-4.6.10.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\"> 39 Wireshark security advisories</a>. Teams should include them when reviewing the update’s full scope.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Users can obtain installation packages and source code through the official Wireshark download page. Linux and Unix users can update through their platform’s package manager.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Security teams should prioritize updating analysis workstations and checking deployed package versions, particularly where staff handle outside capture files. The release adds no new protocols and focuses heavily on security and reliability fixes across existing analysis features.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>Give your SOC the alert context on the latest threats to stop incidents quickly -&gt; <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate Threat Intel from 16K SOCs</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/wireshark-4-6-10-released/\">Wireshark 4.6.10 Released With Patch for 39 Security Vulnerabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:b0899ce7f0cd27468b3bed9c03b2bb861121d22b978e16ded5893272f18fa0b4",
+   "url": "https://cybersecuritynews.com/visa-mastercard-jpmorgan-data-breach",
+   "title": "Hackers Leak Customer Data Linked to Visa, Mastercard and JPMorgan After Third-Party Cyberattacks",
+   "published_at": "2026-11-20T06:02:03Z",
+   "published_raw": "Fri, 20 Nov 2026 06:02:03 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Hackers published customer data linked to Visa, Mastercard and JPMorgan Chase on Thursday, November 19, after cyberattacks on third-party service providers. All three companies said their own networks were not breached. Visa said no card numbers were affected, Mastercard said the leak involved a limited group of cardholders in a benefits program, and JPMorgan said [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/visa-mastercard-jpmorgan-data-breach/\">Hackers Leak Customer Data Linked to Visa, Mastercard and JPMorgan After Third-Party Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=173159",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Visa-Mastercard-JPMorgan-data-breach.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "173159",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Hackers published customer data linked to Visa, Mastercard and JPMorgan Chase on Thursday, November 19, after cyberattacks on third-party service providers. All three companies said their own networks were not breached.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Visa said no card numbers were affected, Mastercard said the leak involved a limited group of cardholders in a benefits program, and JPMorgan said the attackers accessed marketing data.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The cyber extortion group n0n claimed responsibility and posted files it linked to the three companies. The disclosures point to vendor breaches rather than breaches at the financial companies themselves.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The companies have not publicly named the affected providers or said whether the incidents involved a shared vendor. They also have not disclosed how the attackers gained access.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As Cyber Security News reported in its <a href=\"https://cybersecuritynews.com/jpmorgan-third-party-data-breach/\">initial coverage of the JPMorgan third-party data breach</a>, the bank said the marketing records may include customer names and email addresses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">JPMorgan said it would contact affected customers where appropriate and offer support, including free credit monitoring. The bank said the incident was unrelated to a Chase outage earlier that week, which it traced to a software flaw.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Visa linked its exposure to a provider in the Asia-Pacific region. Mastercard said some email addresses were exposed, but its payment network and customers’ ability to use their cards were unaffected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Mastercard said the exposure had been contained and it was working with the service provider to support affected cardholders. It did not disclose how many people were affected.</p>\n\n\n\n<h2 id=\"h-visa-mastercard-and-jpmorgan-data-leak\" class=\"wp-block-heading\"><strong>Visa, Mastercard and JPMorgan Data Leak</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">The Wall Street Journal</a> reported that the published files contained data linked to thousands of customers. A Reuters review found more than 16,000 email addresses in files linked to JPMorgan, with phone numbers and postal codes in some entries.</p>\n\n\n\n<p class=\"wp-block-paragraph\">American Banker reported that the records were tied to J.P. Morgan Reserve cardholders who received travel and concierge emails. The number of records is not a confirmed count of affected customers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Reuters also found thousands of apparent customer email addresses in files linked to Visa, along with phone numbers and marketing campaign details from Asia-Pacific markets. Visa did not publish its own count.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The companies were investigating breaches at outside providers, not intrusions into their own networks. The public statements did not say whether the attackers encrypted any vendor systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Names, email addresses and details about card benefits can make a phishing message look legitimate. A fake email about a concierge service or a breach notice could direct a customer to a page that asks for a password or a one-time code.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Cyber Security News recently covered <a href=\"https://cybersecuritynews.com/hackers-steal-us-bank/\" target=\"_blank\" rel=\"noreferrer noopener\">a separate campaign that stole U.S. bank logins</a>, including Chase credentials. That campaign has not been linked to these vendor breaches.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Customers who receive an unexpected breach notice should verify it through their bank’s app or the number on the back of their card rather than clicking a link in the message. Chase says customers can forward suspicious emails to <code>phishing@chase.com</code> and should contact the bank promptly if they spot an unauthorized charge.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>What Are Leading Organizations Doing About AI and Cyber Risks? Find Out. <a href=\"https://www.americanconference.com/cybersecurity-law/request-brochure/?utm_medium=affiliate&amp;utm_source=cybersecuritynews&amp;utm_campaign=F27_awareness\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">View Details!</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/visa-mastercard-jpmorgan-data-breach/\">Hackers Leak Customer Data Linked to Visa, Mastercard and JPMorgan After Third-Party Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:a7b8e277424f1f3ee41267670108f9b755cd836f9a4bd37f93de293ec9f5d75d",
    "url": "https://cybersecuritynews.com/drupal-fixes-critical-rce-flaw",
