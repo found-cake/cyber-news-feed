@@ -1,15 +1,87 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-20T01:00:26Z",
+ "updated_at": "2026-11-20T02:00:26Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-20T01:00:26Z",
+  "last_success_at": "2026-11-20T02:00:26Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:19d057ef98ee3029f496489d6255eb908dc36243e3502cde8239f8548bc3404a",
+   "url": "https://cybersecuritynews.com/hackers-exploit-vmware-vcenter-0-day",
+   "title": "Hackers Exploit VMware vCenter 0-Day Since September to Hijack Admin Accounts and Steal VM Data",
+   "published_at": "2026-11-20T01:47:52Z",
+   "published_raw": "Fri, 20 Nov 2026 01:47:52 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability",
+    "Vulnerability News"
+   ],
+   "description": "<p>A suspected China-linked espionage group exploited a VMware vCenter Server zero-day in early September 2026, gaining administrator access and stealing files from a Windows virtual machine. Mandiant and Google Threat Intelligence Group (GTIG) attributed the intrusion to ARMORY CASTLE, formerly tracked as UNC5221. Broadcom disclosed the flaw, CVE-2026-123890, on November 19, more than two months [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-vmware-vcenter-0-day/\">Hackers Exploit VMware vCenter 0-Day Since September to Hijack Admin Accounts and Steal VM Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=173121",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/VMware-vCenter-0-Day.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "173121",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A suspected China-linked espionage group exploited a VMware vCenter Server zero-day in early September 2026, gaining administrator access and stealing files from a Windows virtual machine.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Mandiant and Google Threat Intelligence Group (GTIG) attributed the intrusion to ARMORY CASTLE, formerly tracked as UNC5221. Broadcom disclosed the flaw, <a href=\"https://cybersecuritynews.com/vmware-vcenter-authentication-bypass/\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2026-123890</a>, on November 19, more than two months after the earliest use documented in the investigation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw carries a severity score of 9.8 out of 10. It affects VMware Directory Service, which supports vCenter’s single sign-on system. An attacker who can reach a vulnerable server over the network can bypass authentication and open a session as the built-in vSphere administrator without knowing the account’s password. In the incident Mandiant investigated, the attackers reached vCenter from inside the network.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That distinction matters because vCenter is the central management system for VMware vSphere. ESXi hosts run the virtual machines, while vCenter lets administrators control those hosts and the workloads they carry.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A break-in at vCenter can therefore put many systems at risk, even when the server sits on a private network, and the virtual machines have their own security tools.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The intrusion began with a separate zero-day, <a href=\"https://cybersecuritynews.com/critical-beyondtrust-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2026-102764</a>, in BeyondTrust Remote Support. Mandiant traced that first breach to late August. The attackers then moved to an internal Linux appliance that lacked endpoint detection and response software.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxpJCx4UFrlr24Jnj_jdbsoWmIPwyRDQRqsSPFxaEVhOR3oaCDFxPOSY1TLL4eAJHKrhb0ZVPlj5QTVIdON-CtKj_-SZW8XMDMqWbIiBgWT_Gatcd3LDR4t2gftYwBF-Igx8z3c65xvdgb0oWUOVZBimY5W18WPd29VCWgsVOwVWZAy3kzQz8P4I05KYjM/s1600/VMware%20vCenter%200-Day_ARMORY_CASTLE_lateral_movement_an.max-1200x1200.webp\" alt=\"VMware vCenter 0-Day\"/><figcaption class=\"wp-element-caption\">VMware vCenter 0-Day (Source: Google)</figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">They gained root access and installed tools that let them keep access and look for VMware systems. The vCenter flaw helped them extend an existing breach rather than start one.</p>\n\n\n\n<h2 id=\"h-armory-castle-took-over-vcenter\" class=\"wp-block-heading\"><strong>ARMORY CASTLE Took Over vCenter</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Our earlier coverage of the <a href=\"https://cybersecuritynews.com/beyondtrust-0-day-vulnerability-exploited/\">BeyondTrust Remote Support zero-day</a> explains how the group gained its first foothold. The <a href=\"https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere\">Mandiant and GTIG vSphere investigation</a> picks up from there.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Investigators found that the group used a custom tool called BONESAW against a vCenter server that had already been patched for CVE-2026-59309, a separate authentication bypass disclosed in July. That earlier update did not block the new attack.</p>\n\n\n\n<p class=\"wp-block-paragraph\">BONESAW let the group copy the vCenter directory database and create a new single sign-on administrator account. The attackers also deployed SAWSNAKE, a tool that could use stolen signing keys to forge SAML tokens.</p>\n\n\n\n<p class=\"wp-block-paragraph\">These tokens tell vCenter that a user has already been authenticated. If attackers steal the signing keys, they can impersonate an administrator without going through the normal sign-in process or its multifactor checks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The attackers stole vCenter encryption material and database credentials before reaching an ESXi host. There, investigators saw them access files stored inside a Windows virtual disk, including Active Directory data, registry files, and DNS data.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The group copied an archive off the ESXi host and moved the data back through the compromised Linux appliance. Mandiant assessed that the attackers likely sent it out through the BeyondTrust appliance.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The theft illustrates why monitoring Windows alone is not enough. When someone reads a virtual disk from the host, the activity takes place outside the guest operating system, where its endpoint tools may not see it. Our coverage of <a href=\"https://cybersecuritynews.com/brickstorm-attacking-vmware-esxi-and-windows/\">BRICKSTORM attacks on VMware ESXi and Windows</a> describes a separate campaign that also targeted VMware infrastructure to reach sensitive data.</p>\n\n\n\n<h2 id=\"h-vmware-vcenter-patches\" class=\"wp-block-heading\"><strong>VMware vCenter Patches</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Broadcom’s <a href=\"https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39495\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">security advisory VMSA-2026-0009</a> lists fixes in vCenter 9.1.1.0200, 9.0.2.0200 and 8.0 Update 3m. VMware Cloud Foundation 5.x customers should follow Broadcom’s guidance for 5.2.5.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Broadcom lists no public fix for vCenter 7.0 and directs customers with extended support contracts to contact support. There is no vendor workaround. Restricting access to management networks reduces exposure but does not replace the update.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Patching closes the flaw but does not remove a rogue administrator account or make a stolen signing key safe again. Security teams should preserve logs from vCenter, ESXi and connected appliances, then review them for unexpected administrator accounts, brief periods when SSH was enabled, new ESXi root SSH keys and unusual access to virtual disks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Correlating those events across systems is especially important when a remote support appliance can reach the VMware management network.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If investigators find signs of compromise, the response should extend beyond VMware. Teams should revoke affected sessions, replace exposed signing keys and credentials, and assess whether stolen Active Directory data puts the wider Windows domain at risk.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The key question is not only whether vCenter is patched today, but whether someone used it to reach systems and data before the fix arrived.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>What Are Leading Organizations Doing About AI and Cyber Risks? Find Out. <a href=\"https://www.americanconference.com/cybersecurity-law/request-brochure/?utm_medium=affiliate&amp;utm_source=cybersecuritynews&amp;utm_campaign=F27_awareness\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">View Details!</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-vmware-vcenter-0-day/\">Hackers Exploit VMware vCenter 0-Day Since September to Hijack Admin Accounts and Steal VM Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:1c678fe9694a3ab48dacf4daf352952168ca3ee66c43c2aa1cc90ad327502312",
+   "url": "https://cybersecuritynews.com/windows-11-narrator-lock-screen-0-day",
+   "title": "New Windows 11 Narrator Lock Screen 0-Day Allows Attackers to Bypass BitLocker Protections",
+   "published_at": "2026-11-20T01:00:42Z",
+   "published_raw": "Fri, 20 Nov 2026 01:00:42 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability",
+    "Vulnerability News"
+   ],
+   "description": "<p>A newly disclosed Windows 11 zero-day called FastUnlock lets someone with physical access bypass parts of the Windows lock screen and run code without signing in. The flaw affects Narrator, Microsoft’s built-in screen reader, and can expose a running PC even when BitLocker is enabled. The reported bypass does not break BitLocker encryption or show [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-11-narrator-lock-screen-0-day/\">New Windows 11 Narrator Lock Screen 0-Day Allows Attackers to Bypass BitLocker Protections</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=173117",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Windows-11-0-Day.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "173117",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A newly disclosed Windows 11 zero-day called FastUnlock lets someone with physical access bypass parts of the Windows lock screen and run code without signing in.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw affects Narrator, Microsoft’s built-in screen reader, and can expose a running PC even when BitLocker is enabled. The reported bypass does not break BitLocker encryption or show that an attacker can decrypt a powered-off drive</p>\n\n\n\n<p class=\"wp-block-paragraph\">The researcher, known as Nightmare Eclipse, reported testing FastUnlock on Windows 11 version 26H2 with the <a href=\"https://cybersecuritynews.com/microsoft-november-2026-patch-tuesday/\" target=\"_blank\" rel=\"noreferrer noopener\">November 2026 security updates</a> installed. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The researcher said it took about five minutes from finding the flaw to breaching the test machine. That figure describes one reported test, not a measured attack time across Windows devices. The researcher did not test Windows 10.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe title=\"o-day\" width=\"696\" height=\"522\" src=\"https://www.youtube.com/embed/3O3mEzDHx9U?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">The reported attack requires physical access and at least one user account linked to an online Microsoft account. It involves the account recovery screen, where Narrator can interact with an interface that should not be available before sign-in.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The issue is not that Windows offers a screen reader at the lock screen. It is that the screen reader can reach controls outside that screen.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Cyber Security News previously covered two separate Windows BitLocker security feature bypass flaws, <a href=\"https://cybersecuritynews.com/windows-bitlocker-security-bypass/\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2026-97015 and CVE-2026-119832</a>, in its November Patch Tuesday coverage. Those fixes should not be confused with a FastUnlock patch.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As of November 20, available reporting did not identify a Microsoft advisory, a CVE, or a fix for the Narrator flaw.</p>\n\n\n\n<h2 id=\"h-windows-11-narrator-lock-screen-0-day\" class=\"wp-block-heading\"><strong>Windows 11 Narrator Lock Screen 0-day</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.threatlocker.com/blog/proof-of-concept-for-fastunlock-windows-lock-screen-bypass-from-nightmare-eclipse\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">ThreatLocker tested</a> FastUnlock and reported that it could run code under WsiAccount, a Windows account used at the lock screen. That account is not an administrator.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The result confirms that someone at the device can run software without signing in, but it does not establish that they can take over the signed-in user’s session, gain administrator rights, or read every file on the drive.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The difference comes down to when the drive is unlocked. BitLocker protects data at rest, but once Windows has started and the system drive is unlocked, the lock screen and Windows account permissions control what people can access.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/MSNightmare/FastUnlock\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">FastUnlock targets </a>that later stage. That sets it apart from the previously reported Windows Recovery Environment flaw known as YellowKey, which targeted BitLocker protection before Windows fully loaded.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft’s general BitLocker guidance recommends pairing the trusted platform module, or TPM, with a startup PIN on devices that need stronger protection against physical access. The startup PIN is separate from the Windows sign-in PIN.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It helps protect a device that has been shut down or hibernated by requiring authentication before the drive becomes accessible. It does not fix Narrator or protect a drive that is already unlocked.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For laptops that may be lost, stolen, or left unattended, security teams should prioritize shutdown or properly configured hibernation over sleep. Microsoft notes that sleep keeps running programs and documents in memory and does not require the BitLocker startup PIN when the device wakes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Until Microsoft publishes FastUnlock-specific guidance, teams should limit physical access to exposed devices and watch for an advisory. No attacks using FastUnlock had been publicly reported in the coverage reviewed. That is not a reason to treat an unattended, locked laptop as equivalent to one that has been shut down.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>What Are Leading Organizations Doing About AI and Cyber Risks? Find Out. <a href=\"https://www.americanconference.com/cybersecurity-law/request-brochure/?utm_medium=affiliate&amp;utm_source=cybersecuritynews&amp;utm_campaign=F27_awareness\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">View Details!</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-11-narrator-lock-screen-0-day/\">New Windows 11 Narrator Lock Screen 0-Day Allows Attackers to Bypass BitLocker Protections</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:f587c73dec2171f821ffcfa78a83786b979a8b5c9505400afef7796b7bb72aed",
    "url": "https://cybersecuritynews.com/phpaftershell-rce",
