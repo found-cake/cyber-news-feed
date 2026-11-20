@@ -1,15 +1,78 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-11-20T09:00:27Z",
+ "updated_at": "2026-11-20T10:00:27Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-20T09:00:27Z",
+  "last_success_at": "2026-11-20T10:00:27Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:2dfd826add7585320e2478f8be43051e01f68923c43fec79be21af898ac0f70d",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209642",
+   "title": "F5 BIG-IP, 인증 없는 원격 코드 실행 위험…APM·트래픽 처리 설정 점검 필요",
+   "published_at": "2026-11-20T18:16:43Z",
+   "published_raw": "2026-11-20 18:16:43",
+   "categories": [
+    "이슈"
+   ],
+   "description": "F5가 BIG-IP 제품군에서 인증 없이 서비스 장애를 일으키거나 원격 코드 실행으로 이어질 수 있는 취약점을 공개했다. 영향을 받는 기능과 설정이 취약점마다 달라 운영사는 설치 버전과 함께 실제 사용 중인 접근정책·트래픽 처리 규칙을 확인해야 한다.F5는 11월 18일 BIG-IP 접근정책관리(APM)와 iRule 관련 보안 권고를 발표했다. 대표적인 APM 취약점 CVE-2026-123637은 CVSS 3.1 기준 9.8점, CVSS 4.0 기준 9.3점의 치명적 결함이다. 이 취약점은 APM이 활성화돼 있고, ‘Client I",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:3b59ba44bab7984c32eebd08db2a97dae8688ac634d6d6e9a29de42cf79e782d",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209641",
+   "title": "EU 집행위, AI 도구 악용한 사이버 공격 확인…일부 앱 중단 후 복구",
+   "published_at": "2026-11-20T18:09:18Z",
+   "published_raw": "2026-11-20 18:09:18",
+   "categories": [
+    "이슈"
+   ],
+   "description": "유럽연합(EU) 집행위원회가 공개된 인공지능(AI) 도구를 악용한 사이버 공격을 받은 사실을 확인했다. 집행위는 예방 조치로 여러 애플리케이션을 일시 중단했으며, 대부분 복구했다고 밝혔다. 공격 주체와 구체적인 침입 경로, 데이터 유출 범위는 조사 중이다.집행위는 11월 19일 정례 브리핑에서 이번 사이버 공격 캠페인을 10월 22일 탐지했으며, 초기 조사를 거쳐 26일 확인했다고 설명했다. 최초 침입 시점은 공개하지 않았다. 토마 레니에(Thomas Regnier) 집행위 대변인은 조사 결과 AI 도구가 악용됐음을 확인했다고 밝혔",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "우진영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:b9cd8f3d6a28e327d98d4439e518a91894e87022793872f0d33fb1566cd2e9af",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209640",
+   "title": "PHP, 세션 처리 취약점 3건 수정…특정 환경서 서버 코드 실행 위험",
+   "published_at": "2026-11-20T18:03:43Z",
+   "published_raw": "2026-11-20 18:03:43",
+   "categories": [
+    "이슈"
+   ],
+   "description": "PHP 프로젝트가 웹서비스의 사용자 상태를 관리하는 세션 처리 과정에서 발견된 취약점을 수정했다. 특정 설정과 애플리케이션 조건이 맞물리면 서버에서 공격자 코드가 실행될 수 있어 운영 계열별 보안 업데이트가 필요하다.PHP 개발팀은 11월 19일 보안 수정판 8.5.13·8.4.28·8.3.37·8.2.36을 공개하고 업데이트를 권고했다. 세션 관련 취약점 3건은 공식 권고에서 모두 ‘치명적’으로 분류됐다. 다만 취약점마다 영향 버전과 공격 조건이 달라 모든 PHP 웹사이트가 동일한 위험에 노출된 것으로 해석해서는 안 된다.세션 데",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:5a9d62c3ad62b4bcc36d9fbb45efaf98f7b8fbeb9b151d62e873b319da79e17d",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209639",
