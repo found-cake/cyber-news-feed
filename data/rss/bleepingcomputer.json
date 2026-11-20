@@ -1,15 +1,57 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-20T15:00:26Z",
+ "updated_at": "2026-11-20T16:00:28Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-20T15:00:26Z",
+  "last_success_at": "2026-11-20T16:00:28Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:6ac4c079c01f11167285aaf0b1c5b92c2b34cb88aa5e2643af62e273da138011",
+   "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info",
+   "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+   "published_at": "2026-11-20T15:58:06Z",
+   "published_raw": "Fri, 20 Nov 2026 10:58:06 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:a7835e988c3d6f5b4907dd13243297f2cffd6a1eb5b38b47c456fe694c5a3744",
+   "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind",
+   "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
+   "published_at": "2026-11-20T15:00:10Z",
+   "published_raw": "Fri, 20 Nov 2026 10:00:10 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks, and simplify secure password sharing. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
+   "authors": [
+    {
+     "name": "Sponsored by NordPass Business",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:fb4f50e2bd25061142ea179a3acc0faa23eabe462bead50a9eb0758e66123a5d",
    "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage",
@@ -1603,51 +1645,6 @@
    "authors": [
     {
      "name": "Lawrence Abrams",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:77e6e3750a79c537db43df0cacf99b1f06c95bffbfa697d997aa12d396cf65bb",
-   "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets",
-   "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
-   "published_at": "2026-11-10T15:59:19Z",
-   "published_raw": "Tue, 10 Nov 2026 10:59:19 -0500",
-   "categories": [
-    "security",
-    "Apple",
-    "CryptoCurrency",
-    "Mobile"
-   ],
-   "description": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login credentials. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:3d246f2dc682166bf7124d2d772dbcf9b66fc3ba21c821dd0ca2c02d567513ca",
-   "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric",
-   "title": "Ransomware recovery is now a client retention metric",
-   "published_at": "2026-11-10T15:01:11Z",
-   "published_raw": "Tue, 10 Nov 2026 10:01:11 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response times, transparency, and client retention. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
-   "authors": [
-    {
-     "name": "Sponsored by Kaseya",
      "uri": "",
      "email": ""
     }
