@@ -1,15 +1,37 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-21T15:00:36Z",
+ "updated_at": "2026-11-21T16:00:30Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-21T15:00:36Z",
+  "last_success_at": "2026-11-21T16:00:30Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:e972e8964cf86a8a3da1d0283c1cc3b032b171a5be12aaf4553aa773605b27f9",
+   "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests",
+   "title": "BADBOX 3.0 botnet returns with record-breaking 40 billion daily ad requests",
+   "published_at": "2026-11-21T15:17:27Z",
+   "published_raw": "Sat, 21 Nov 2026 10:17:27 -0500",
+   "categories": [
+    "security",
+    "Hardware"
+   ],
+   "description": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:c2801d1f674464d87baa7fcca643fa625707809307139cfab3607dd71b414069",
    "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database",
@@ -1516,49 +1538,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:5e323827c0692e3d7550560af2977bfc0d9f80dbaa83cfad55526ebce7b80dc7",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks",
-   "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
-   "published_at": "2026-11-11T15:12:59Z",
-   "published_raw": "Wed, 11 Nov 2026 10:12:59 -0500",
-   "categories": [
-    "security",
-    "Artificial Intelligence"
-   ],
-   "description": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:0514c40aecbd33e72fab488902a53779d404b529e187da4965229c3078b1bf3c",
-   "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice",
-   "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
-   "published_at": "2026-11-11T15:01:11Z",
-   "published_raw": "Wed, 11 Nov 2026 10:01:11 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors are sharing rootkit source code, tutorials, and exploits targeting Linux systems. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
-   "authors": [
-    {
-     "name": "Sponsored by Flare",
      "uri": "",
      "email": ""
     }
