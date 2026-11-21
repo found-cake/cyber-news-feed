@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-21T08:00:32Z",
+ "updated_at": "2026-11-21T09:00:33Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-21T08:00:32Z",
+  "last_success_at": "2026-11-21T09:00:33Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -119,6 +119,33 @@
    "source_metadata": {}
   },
   {
+   "id": "sha256:552b60cb29a0722aae4ac33a120683a38e43ab0877860e0b1d05f566e283f830",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+   "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+   "published_at": "2026-11-21T08:49:13Z",
+   "published_raw": "2026-11-21T14:19:13.339+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-8858888768254402351",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFnWnBDigw8RogBTSInXktn1vUISbzwjHm5GuAFBNX0_ClLBk83WOa2BYiHUbgtva76TY8Oz2kJvEZtvEjqZlFFCuvQ-u-l-4l5dzo2MXw7zHLEuklv_Gn1mB-f5TL9GP_3n1NxQkzkZ-fAX7UpcqfZqUefQiRQZm21sq6IZOzmyuQ1hYs4AFHWQAj83WX/s260-e100/vmware-cisco.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
    "id": "sha256:b44c0a854e15b1852d0ece8a64e0acd1db9eb19271c34c1eeef276701d27db06",
    "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
    "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
@@ -127,7 +154,7 @@
    "categories": [
     "vulnerability"
    ],
-   "description": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages.\n\nThe vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4.\n\nThe issue could",
+   "description": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages.\n\nThe vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4.",
    "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-896984844842231085",
    "authors": [
     {
@@ -767,33 +794,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:e5492f9867506c1763a92226a47c0040d7bbb2c6a01e7ebc7f704d255be77f82",
-   "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
-   "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
-   "published_at": "2026-11-17T15:17:36Z",
-   "published_raw": "2026-11-17T20:47:36.192+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK.\n\nThe 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1753887366238821219",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw1l9jYXUC-XLNjqqVjPvFicpQvkj-fwml16Gl43nsTc5TrBGGzijFoCzpxHpfninWaxrDxoCW4J6FKkgO1rPsnVFgFAcMbm9hl9YxeVO6fM4sBrs_tvUOXG8MnKPqDXRal3qNJ2VY7RzqAlj5vJzYI6xVFOxVGV7TyDliY-AIBqKm2bst1d6rCNl2qkhv/s260-e100/java4shell.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:6ebe391a8b41bbc0d12fc6b0adda6fb5b6d345f2beee9a61929827d186a2d687",
    "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
    "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
@@ -1064,26 +1064,26 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:b4b549aacbc41c785d5486f1807cf831d896bb3793bb397da240e5ee7bd1c0d6",
-   "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-   "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-   "published_at": "2026-11-11T08:17:53Z",
-   "published_raw": "2026-11-11T13:47:53.629+05:30",
+   "id": "sha256:e5492f9867506c1763a92226a47c0040d7bbb2c6a01e7ebc7f704d255be77f82",
+   "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+   "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+   "published_at": "2026-11-17T15:17:36Z",
+   "published_raw": "2026-11-17T20:47:36.192+05:30",
    "categories": [
-    "cyber-attack"
+    "vulnerability"
    ],
-   "description": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.\n\nThese cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1298977129499520872",
+   "description": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK.\n\nThe 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-1753887366238821219",
    "authors": [
     {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
      "email": "noreply@blogger.com"
     }
    ],
    "media": [
     {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_nfFO2Zf-R2XyVzQHP43rc0OLAtUtRKWYV0VIaoHZW8EeH78h2Id9FmfJQVfzFdmBD6ugVGeCehX1Nq6jlmXlMG4AmnV3Tib3YvClKGaplVg5Ngk_KlpqwHx6Pd_oYQTCj2O3HfOpt_MoSGQD-4Nv-pju5sqS7U9-rAJdpKTn-xnhA1QSmmTiQWnAFjGp/s260-e100/patch-ms.jpg",
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw1l9jYXUC-XLNjqqVjPvFicpQvkj-fwml16Gl43nsTc5TrBGGzijFoCzpxHpfninWaxrDxoCW4J6FKkgO1rPsnVFgFAcMbm9hl9YxeVO6fM4sBrs_tvUOXG8MnKPqDXRal3qNJ2VY7RzqAlj5vJzYI6xVFOxVGV7TyDliY-AIBqKm2bst1d6rCNl2qkhv/s260-e100/java4shell.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
