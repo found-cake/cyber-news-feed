@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-21T12:00:31Z",
+ "updated_at": "2026-11-21T13:00:31Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-21T12:00:31Z",
+  "last_success_at": "2026-11-21T13:00:31Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -1732,33 +1732,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhox0GUms6IXvet2jPVoQ5VlUIZ_V7C3iT4HI3qV-Pi7_KRybDyGKGlb2S0Z4uvih4ERjjnGOn9Prav0HpvqNNR3_HVs7W5o0wM0-XsTdp6ploM2Optp5ls97C0JU5DIqubY-lNcLvLia25Z2c__IZt8Ws1OjX0tGavbyvb_dXrltSKj-HJHijQJ9AdDxEB/s260-e100/zoom-prv.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:d875e13ba5ae8418ccd3e8d95ed79970ac70309ea3ebb4a5ef3a82388bdf9c2d",
-   "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
-   "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
-   "published_at": "2026-11-11T12:00:53Z",
-   "published_raw": "2026-11-11T17:30:53.135+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\n\nEach intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2457379069544585124",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjONLgT6piRm0O75Y6dzQY4L2RO8OQTlWaJbwSTHFDeh82Qiadl2PT9KI9r2jC1JbwS-TqPm3g1Ea0Q8I91FalXu2GZ0fBBnfId6-8ZWKABrBQZWg7nA1X6cHq7wgHK3rc2Y5YW4yb61TjxVyywyWprml6yhBgH-SBaTvXZF-50J8-mR5Q6cGhSgfuMUdk/s260-e100/emudhra.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
