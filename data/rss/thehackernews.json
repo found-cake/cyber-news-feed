@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-22T09:00:58Z",
+ "updated_at": "2026-11-22T10:00:57Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-22T09:00:58Z",
+  "last_success_at": "2026-11-22T10:00:57Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -1570,33 +1570,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi01pvi78xYUtyxbtWQ4L5ddMr1yT2-WBSbAnp3wKXa-bpagXqtyQdxPqA43I1NxJGNLk4He30PS-GYUcd1sOaErtMAtNWL-qQUGfD0Y7wSxAzeYJXRf2lA5yFuznu8m2zRgf2llXMiR3w1H6YOOte5qs_DvRxcv0aPeOxWeIDybl1n58VlpuZPUJ0icWDL/s260-e100/ptc-flaw.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:c776eb51cbacc6fa91c682a94ebf94f3c698ffe17fc58f5b60378d25ee9bdd80",
-   "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
-   "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
-   "published_at": "2026-11-12T09:25:00Z",
-   "published_raw": "2026-11-12T14:55:00.863+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes.\n\nMongoDB, the company that makes the database, released fixed versions earlier this week.\n\nThe affected servers are members of a replica",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4594899049372216750",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6RJLDSM13MwenwxG4xnZ-Td2_zmnya-Y39FLHlNk-7P3hZ5w1qGjG3XFqT-4gaeZIxSepWWNM53bKTIkZBNA-X_tVKsrgWbw8u81mjLzL6dXvTtvKfKeT-FkwSz4CsdMoHNza2NRFy0PJzzmaMROCr3D7e6AKT5UR3Lh4zFb_1w9HMmXXKKvATVWHU-E/s260-e100/mongo-poc.gif",
      "kind": "thumbnail",
      "medium": ""
     }
