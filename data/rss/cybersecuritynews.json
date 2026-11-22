@@ -1,15 +1,87 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-22T02:00:31Z",
+ "updated_at": "2026-11-22T03:00:36Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-22T02:00:31Z",
+  "last_success_at": "2026-11-22T03:00:36Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:55b1f425f0e6c87ea584fb38210f4267655ff33d8bfdf6bdde9538f3f5a67009",
+   "url": "https://cybersecuritynews.com/upload2shell-flaw",
+   "title": "Hackers Could Execute Commands on WordPress, Email and Print Servers Through Upload2Shell Flaw",
+   "published_at": "2026-11-22T02:43:08Z",
+   "published_raw": "Sun, 22 Nov 2026 02:43:08 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability",
+    "Vulnerability News"
+   ],
+   "description": "<p>A flaw in Ghostscript let researchers run commands on WordPress, Roundcube webmail, and Linux print servers through routine file processing. The vulnerability, dubbed Upload2Shell and tracked as CVE-2026-125396, affects upstream Ghostscript releases before 10.08.0. It sits in the software’s Type 1 font loader, but the affected servers did not need to expose Ghostscript directly. Their [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/upload2shell-flaw/\">Hackers Could Execute Commands on WordPress, Email and Print Servers Through Upload2Shell Flaw</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=173431",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Upload2Shell-Flaw.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "173431",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A flaw in Ghostscript let researchers run commands on WordPress, Roundcube webmail, and Linux print servers through routine file processing. The vulnerability, dubbed Upload2Shell and tracked as CVE-2026-125396, affects upstream Ghostscript releases before 10.08.0.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It sits in the software’s Type 1 font loader, but the affected servers did not need to expose Ghostscript directly. Their own preview, thumbnail, and print features delivered files to it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-125396\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CVE record</a> gives the flaw a CVSS 4.0 score of 8.5 and lists a local attack vector. That describes the flaw at the interpreter level, not how a document arrives there.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In research published on November 17, Paulos Yibelo and pwn.ai showed that network-facing services could pass remotely supplied files to the vulnerable code. The report describes research demonstrations, not confirmed attacks in the wild.</p>\n\n\n\n<h2 id=\"h-upload2shell-bypassed-ghostscript-s-sandbox\" class=\"wp-block-heading\"><strong>Upload2Shell Bypassed Ghostscript’s Sandbox</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Ghostscript renders PDFs and PostScript documents. PostScript is a programming language for describing pages, so rendering a file means running instructions from it.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV53CjXXGvF6uggwVmawzoe0GS7jQMK0cqBzm0Tc7rQ94qP8rUGYakNVUDP7Rh0PMG_e6FM4jZENmy_wXcewGzFfxDi1Bx9rAmK1GJbHRs-1HyEqUQFe_-vxsYv6MICKO9nCygq5e36Xj3YMocQJAc8DY4QfJ_GLRnozMTDPP9roC7c-qYJZpEe875FGU-/s1600/Upload2Shell%20Flaw1.webp\" alt=\"\"/></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Ghostscript’s <code>-dSAFER</code> mode is meant to limit what those instructions can access. Upload2Shell undermined those limits through a use-after-free, a memory flaw in which software keeps a reference to data after releasing the memory that held it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The font loader failed to check the type of data it received before an operation that could raise an error. That error exposed a protected write that document code was not supposed to control.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Researchers used the resulting memory flaw to alter Ghostscript’s security checks while <code>-dSAFER</code> was still enabled. The test commands ran with the renderer’s permissions, not automatically as root. As Cyber Security News reported in its coverage of a <a href=\"https://cybersecuritynews.com/critical-ghostscript-flaw/\" target=\"_blank\" rel=\"noreferrer noopener\">separate Ghostscript PDF flaw</a>, those permissions help determine what an attacker can reach after gaining code execution.</p>\n\n\n\n<h2 id=\"h-wordpress-roundcube-and-cups-were-exposed\" class=\"wp-block-heading\"><strong>WordPress, Roundcube and CUPS were Exposed</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">On WordPress, the researchers reached Ghostscript through the media preview process on a site using Imagick and ImageMagick. The <a href=\"https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-8vr3-7mxf-gx8w\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">WordPress advisory</a> tracks the core upload issue separately as CVE-2026-65640. It requires media upload privileges, which Authors and higher roles have by default.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As covered in our <a href=\"https://cybersecuritynews.com/wordpress-imagick-rce-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">WordPress Imagick vulnerability report</a>, WordPress fixed that route in 7.0.4 and backported the fix, including to 6.9.7. The researchers also found that certain public upload features in Forminator and Essential Addons for Elementor reached the renderer without a login in the configurations tested.</p>\n\n\n\n<p class=\"wp-block-paragraph\">On Roundcube 1.7.2, the sender needed no webmail account. The recipient had to view the message, but did not have to click or download the attachment. Roundcube’s server generated a thumbnail and passed the attachment through ImageMagick to Ghostscript. The test depended on an ImageMagick policy that allowed the handoff. The command ran as <code>www-data</code>, the web service account, rather than on the recipient’s device.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The print server required no action from a recipient. On Debian 13, a shared CUPS queue accepted network print jobs without credentials and sent the test document to Ghostscript for conversion. The researchers confirmed command execution by writing a marker file as <code>lp</code>, the print service account.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Requiring authentication blocked anonymous submission in the test, but did not repair the underlying flaw. These were three ways to reach the same vulnerable renderer, not three separate flaws in Ghostscript.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Artifex fixed the underlying flaw in Ghostscript 10.08.0. Linux distributions can apply the same fix to an older release, so the upstream version number alone is not enough to judge exposure. Debian 13, for example, first shipped the fix in <code>10.05.1~dfsg-1+deb13u2</code>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should check their vendor’s package status for CVE-2026-125396 and verify the copy used by each service. Updating the host does not replace Ghostscript inside an existing container or application bundle.</p>\n\n\n\n<p class=\"wp-block-paragraph\">WordPress operators should apply both the core and renderer updates and review public forms that send uploads into the Media Library. If patching must wait, suspend automatic previews for untrusted files where practical.</p>\n\n\n\n<p class=\"wp-block-paragraph\">On print servers, require authentication for shared queues and restrict network access to them. Keep renderers isolated and give their service accounts only the access they need.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The key check comes after a file is accepted. Storing a file did not start Ghostscript in the researchers’ tests. Rendering it did. Trace the worker that actually makes the preview, thumbnail or print output, then verify that worker uses the patched package.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>What Are Leading Organizations Doing About AI and Cyber Risks? Find Out. <a href=\"https://www.americanconference.com/cybersecurity-law/request-brochure/?utm_medium=affiliate&amp;utm_source=cybersecuritynews&amp;utm_campaign=F27_awareness\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">View Details!</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/upload2shell-flaw/\">Hackers Could Execute Commands on WordPress, Email and Print Servers Through Upload2Shell Flaw</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:c0a6118942d1754a835429090ea705c9ff44c96bcd39dc344476297b3bf08cc0",
+   "url": "https://cybersecuritynews.com/microsoft-entra-connect-health-flaw",
+   "title": "Hackers Exploit Microsoft Entra Connect Health Flaw to Access Admin Emails and Organization Data",
+   "published_at": "2026-11-22T02:03:18Z",
+   "published_raw": "Sun, 22 Nov 2026 02:03:18 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability",
+    "Vulnerability News"
+   ],
+   "description": "<p>Attackers exploited a flaw in Microsoft Entra Connect Health to read administrator and technical contact email addresses, along with configuration data from affected organizations. A Microsoft customer notice shared on Reddit describes read-only access to those records, not access to inboxes or email messages. Microsoft fixed the flaw in its cloud service on November 19, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-entra-connect-health-flaw/\">Hackers Exploit Microsoft Entra Connect Health Flaw to Access Admin Emails and Organization Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=173424",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Microsoft-Entra-Connect-Health-Flaw.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "173424",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Attackers exploited a flaw in Microsoft Entra Connect Health to read administrator and technical contact email addresses, along with configuration data from affected organizations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A Microsoft customer notice <a href=\"https://www.reddit.com/r/sysadmin/comments/1y1of2u/important_security_notification_regarding/\">shared on Reddit</a> describes read-only access to those records, not access to inboxes or email messages. Microsoft fixed the flaw in its cloud service on November 19, 2026, and said customers do not need to install a patch.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft said the vulnerability was introduced on July 23 and detected on November 9. Investigators reviewed service logs for unauthorized requests and concluded on November 20 that attackers had read tenant data.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw could also have allowed changes to monitoring settings, but Microsoft found none. The notice does not say when the unauthorized access began, who was behind it, or how many organizations were affected.</p>\n\n\n\n<h2 id=\"h-entra-connect-health-flaw-exposed\" class=\"wp-block-heading\"><strong>Entra Connect Health Flaw Exposed</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Microsoft Entra Connect Health</a> lets IT teams view alerts, performance data, and directory sync errors for identity systems running on their own servers. The flaw was in the cloud monitoring service’s API. Unlike a <a href=\"https://cybersecuritynews.com/microsoft-entra-id-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">separate Entra ID flaw involving Global Administrator privileges</a>, this incident involved confirmed reads of tenant records, with no reported takeover of administrator accounts through the flaw.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The records included each affected tenant’s ID, display name, initial domain, country code, regional scope, and Entra license tier. They also showed whether directory sync was enabled, when it last ran, and whether the organization had set up Connect Health.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The API still returned an expired certificate once used to register monitoring agents with an internal Microsoft service shut down in late 2024. Microsoft said the flaw did not expose passwords, password hashes, sign-in tokens, valid cryptographic keys, Azure subscription details, or details about how local Active Directory servers were arranged.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjPZwJcanAAWVyxy8NJ0EdJJbPh5sov8auFadUv8KsUus7Z2LWfJrSpiIMxzTWJH3ml7KLwyb8y5ivC2sYyYwNymcspPsSmbHkMRUsURK7Xi6WsvUHN0oK5ngVj1RYp0Kf7WjXarNlTH0VbtjpBAgpRLfX6MUsHk0rFZLcM9WFfpKmCVWsUZ6ZyP065N-O/s1600/Microsoft%20Entra%20Connect%20Health%20Flaw1.webp\" alt=\"\"/></figure>\n\n\n\n<p class=\"wp-block-paragraph\">The cloud fix stopped further access through the flaw, but it cannot take back the contact details already exposed. Knowing who administers a tenant and which domain it uses could make a fake support message more convincing.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Previous <a href=\"https://cybersecuritynews.com/microsoft-365-device-code-phishing-campaign/\">Microsoft 365 phishing campaigns</a> show why unexpected sign-in requests deserve scrutiny. The notice did not report any phishing linked to this incident.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft advised organizations to alert their IT and security teams, confirm their technical contact details, and require <a href=\"https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-admin-phish-resistant-mfa\">phishing-resistant multifactor authentication</a> for privileged accounts.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Where available, teams should use Privileged Identity Management to grant admin access only when needed. They should also check Connect Health settings and review Entra audit and sign-in logs and Azure Activity Logs for unexpected changes or unusual administrator activity.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should open the Azure portal directly and check the security advisory in Azure Service Health to confirm whether it lists their tenant.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The notice also points to Microsoft’s read-only GetTenant PowerShell script, which shows the types of records the API could have returned. It reports current values, so it cannot reconstruct what attackers saw or tell an organization which specific records were read.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>What Are Leading Organizations Doing About AI and Cyber Risks? Find Out. <a href=\"https://www.americanconference.com/cybersecurity-law/request-brochure/?utm_medium=affiliate&amp;utm_source=cybersecuritynews&amp;utm_campaign=F27_awareness\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">View Details!</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-entra-connect-health-flaw/\">Hackers Exploit Microsoft Entra Connect Health Flaw to Access Admin Emails and Organization Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:848f21a0df98dc1cd8558a893da1688d66d01f07179a22b54ea787f4d9a14c11",
    "url": "https://cybersecuritynews.com/crowdstrike-to-acquire-zscaler",
