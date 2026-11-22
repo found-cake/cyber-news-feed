@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-11-22T13:00:57Z",
+ "updated_at": "2026-11-22T14:00:57Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-22T13:00:57Z",
+  "last_success_at": "2026-11-22T14:00:57Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:1d05b3a2cf4db9021b2c04c0e015cc331d7b6f1d8c9540c672ef6369e6f765bd",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209657",
+   "title": "[단독 후속] 데일리시큐 19일 최초 보도한 한국전력 해킹, 152만 명 개인정보 유출로 확인…다크웹 게시물과 DB 유통 가능성 조사해야",
+   "published_at": "2026-11-22T22:26:26Z",
+   "published_raw": "2026-11-22 22:26:26",
+   "categories": [
+    "이슈"
+   ],
+   "description": "한국전력공사(이하 한전)가 사이버 침해로 인한 대규모 개인정보 유출 사실을 공식 확인했다. 데일리시큐가 지난 11월 19일 다크웹에 등장한 한전 관련 데이터 유출 의혹을 최초 보도한 지 사흘 만이다. 한전은 22일 한전ON과 전자조달시스템(SRM)에서 총 152만248명분의 개인정보가 유출됐다고 밝혔다. (19일 단독 기사: 클릭 ) 이번 사고에서 특히 주목해야 할 부분은 한전의 공식 발표 이전부터 해외 해킹 커뮤니티에 한전 관련 대규모 데이터 확보 주장이 공개됐다는 사실이다. 데일리시큐가 확보한 다크포럼스(DarkForums) 게",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:1801a07a9ed63fca391212cab2185a0cb5670588166b95ba20d746eda5857a11",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209656",
@@ -2036,48 +2057,6 @@
     "이슈"
    ],
    "description": "가상화 관리 도구 젠 오케스트라(Xen Orchestra)의 인증 우회 취약점이 실제 공격에 악용됐다. 개발사 베이츠(Vates)는 11월 10일 보안 권고 VSA-2026-062를 공개하고 긴급 업데이트를 권고했다. 위험도는 ‘치명적’으로 분류했다. 최초 악용 시점과 피해 규모는 공개하지 않았으며, 권고에 CVE 번호와 CVSS 점수도 제시하지 않았다. 문제는 관리 서버의 로그인 토큰 검증 과정에서 발생했다. 공격자가 인증을 우회해 관리자 권한을 확보하면 관리 대상 가상화 환경에서 임의 코드를 실행하고, 연결된 XCP-ng 호스트",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:ce4d95f3c11c19778b1a1ba092bf42507e6d2aced217d9e458c4570dc78b0ca9",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209464",
-   "title": "구글 클라우드 “2027년 AI 해킹 가속…에이전트의 권한·판단 이력까지 관리해야”",
-   "published_at": "2026-11-12T13:59:47Z",
-   "published_raw": "2026-11-12 13:59:47",
-   "categories": [
-    "이슈"
-   ],
-   "description": "구글 클라우드가 2027년에는 에이전틱 AI(Agentic AI)가 사이버 공격과 방어의 속도를 끌어올리는 동시에 기업이 보호해야 할 대상도 바꿀 것으로 전망했다. 자율형 AI 에이전트가 가격 책정과 공급업체 계약 협상, 자본 배분, 공급망 조정까지 맡게 되면 기업은 데이터 유출과 시스템 장애에 더해 에이전트가 어떤 근거와 권한으로 업무를 처리했는지 검증할 수 있어야 한다는 분석이다.크리스 베츠(Chris Betz) 구글 클라우드 최고정보보호책임자(CISO)는 11월 10일 공개한 ‘2027년 보안 전망’에서 연초 일부 조직에 머물",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "길민권 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:7f5a8ad5394dd1874614a61be6c7cde5c5072a9e6cebcf8cfa73b569bb7fc5f5",
-   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209460",
-   "title": "GS건설 아파트 입주민 개인정보 유출…정부 조사에 동의 안 했다가 첫 직권조사 대상",
-   "published_at": "2026-11-12T13:21:57Z",
-   "published_raw": "2026-11-12 13:21:57",
-   "categories": [
-    "이슈"
-   ],
-   "description": "GS건설이 운영하는 아파트 커뮤니티 시설 예약·관리 시스템에서 입주민 개인정보가 유출된 사고와 관련해 정부가 직접 사고 원인과 피해 규모를 조사하기로 했다. GS건설이 자체 조사를 이유로 한국인터넷진흥원(KISA)의 조사에 동의하지 않자 과학기술정보통신부가 침해사고 조사 심의위원회를 열어 직권조사를 결정한 것이다.과기정통부는 11월 11일 GS건설의 아파트 커뮤니티 시설 예약·관리 시스템 침해사고에 대해 직권조사를 실시한다고 밝혔다. 지난 10월 1일 시행된 개정 정보통신망법에 따라 신설된 침해사고 조사 심의위원회의 심의를 거쳐 직",
    "feed_id": "",
    "authors": [
     {
