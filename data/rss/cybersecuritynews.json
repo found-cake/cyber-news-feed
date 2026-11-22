@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-22T17:00:58Z",
+ "updated_at": "2026-11-22T18:00:57Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-22T17:00:58Z",
+  "last_success_at": "2026-11-22T18:00:57Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:2e79b69cd682f6e6f27b5af9e7453688b46793e213070e5c7a3d25e0844baf39",
+   "url": "https://cybersecuritynews.com/virustotal-ransomware-detection",
+   "title": "VirusTotal’s New Ransomware Detection Catches Malware Missed by All 75 Antivirus Engines",
+   "published_at": "2026-11-22T17:11:43Z",
+   "published_raw": "Sun, 22 Nov 2026 17:11:43 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Ransomware"
+   ],
+   "description": "<p>VirusTotal has rolled out a ransomware detection update that checks whether suspicious files actually encrypt user documents during execution. The new checks caught a Python ransomware sample that recorded zero detections across 75 antivirus engines at the time of analysis, showing how behavior checks can expose threats that static scanning misses. The update spans VirusTotal [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/virustotal-ransomware-detection/\">VirusTotal&#8217;s New Ransomware Detection Catches Malware Missed by All 75 Antivirus Engines</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=173262",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/VirusTotals-New-Ransomware-Detection-Catches-Malware-Missed-by-All-75-Antivirus-Engines.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "173262",
+     "content_encoded": "<p class=\"wp-block-paragraph\">VirusTotal has rolled out a <a href=\"https://cybersecuritynews.com/claude-gets-virustotal-threat-intelligence/\" target=\"_blank\" rel=\"noreferrer noopener\">ransomware detection update</a> that checks whether suspicious files actually encrypt user documents during execution.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The new checks caught a Python ransomware sample that recorded zero detections across 75 antivirus engines at the time of analysis, showing how behavior checks can expose threats that static scanning misses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The update spans VirusTotal and Google Threat Intelligence, adding verified encryption tags, stricter ransomware behavior rules, and support for real-time hunting. Rather than treating encryption code or heavy file activity as proof of ransomware, the system looks for damage to user documents inside controlled test environments.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The new tag:encrypts-files search tag and behaviour_tags:encrypts_files behavior trait work across CAPE Sandbox and Zenbox on Windows, plus macOS Mirage on Apple Silicon. VirusTotal introduced macOS Mirage to provide native <a href=\"https://cybersecuritynews.com/apple-silicon-x86-64-binaries-macos-malware/\" target=\"_blank\" rel=\"noreferrer noopener\">Apple Silicon malware analysis</a> and detailed behavior reports.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLhJrSiu_3dlUZJuhj0kMkwpv0Fl9f0XwXFSRJh0LW6lBoF4Lwk7aJ7JMXtvgJrPYk2-2iXwwqTvw9gO0ET6pVzz1iaq7FqmC1KiRVtGl3A7rKccZzzy4oNxzSk4dMZdk49N9aPs6bEB_NHBZTEVIS_6SGtWBC3LEymI7V_4gS9lI7gwNwePwVtbVvXGw/s1600/Screenshot%202026-11-20%20171741%20%281%29.webp\" alt=\"High-level overview of CAPE Sandbox, Zenbox, and macOS Mirage verifying file encryption before tagging T1486.(source : virustotal ) \" /><figcaption class=\"wp-element-caption\">High-level overview of CAPE Sandbox, Zenbox, and macOS Mirage verifying file encryption before tagging T1486.(source : virustotal ) </figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">Each environment contains realistic user documents. During and after execution, the sandboxes inspect changed files for broken document structures, unusual byte patterns, and higher data randomness. These checks examine the results on disk instead of relying only on calls to operating system encryption tools.</p>\n\n\n\n<h2 id=\"h-virustotal-ransomware-detection-missed\" class=\"wp-block-heading\"><strong>VirusTotal Ransomware Detection Missed</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">That approach covers malware using built-in AES, ChaCha20, XOR, or partial encryption routines. Such variation matters because ransomware families use different methods to damage files, as seen in <a href=\"https://cybersecuritynews.com/beast-ransomware/\" target=\"_blank\" rel=\"noopener\">Beast ransomware’s partial encryption design</a>. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The sandboxes also track linked file reads, writes, renames, and deletions. The sandbox excludes routine installer activity, browser caches, and temporary files. A ransom note or encryption function alone does not trigger the tag.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The standout example is system_update.pyw, a Python locker linked to a .k404 extortion campaign submitted on November 17–18. Although its static scan showed 0/75 detections, Zenbox observed it running through pythonw.exe, deleting itself, and rewriting Desktop documents into .k404 encrypted files.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdhjZN2YOrC-_ZzgQs_ZMWESPopFfY_uvysQ2JYe6ve3Vv7pLe3Y4xcTmcNCQ93vxQifkL8zuySRSWXeaUxHjHnX5gTV4joGV9l-0Lxb2mBIc2F-gGMHnNdpR_aRW1sraDI4iZg9fZbCso74a0ZB9lxyy9tbTbH4dt4BykqXtqpA9R9w-EMEAYxUPK6Wk/s1600/Screenshot%202026-11-20%20172118%20%281%29.webp\" alt=\"\" /><figcaption class=\"wp-element-caption\">Undetected Python locker encrypts Desktop files with the <code>.k404</code> extension (T1486) (source : virustotal ) </figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">A related Windows program, K404T_Fidye.exe, had 10/75 detections. Another locker, lkd.exe, had just 3/75. CAPE confirmed that both encrypted user documents, providing evidence beyond their antivirus scores.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The checks also identified INC Ransom encrypting documents.INC files and dropping INC-README.txt ransom notes. INC has previously appeared in <a target=\"_blank\" href=\"https://cybersecuritynews.com/vanilla-tempest-hackers-healthcare/\" rel=\"noopener\">healthcare attacks linked to Vanilla Tempest</a>, underlining the value of clear encryption evidence during investigations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">VirusTotal reports that the tag matched 55 files among 328,257 newly submitted unique files analyzed since November 17. Manual review found no benign software among those matches. These early results do not establish that future scans will have no false positives.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CAPE also tightened its mapping to MITRE ATT&amp;CK T1486, Data Encrypted for Impact. Generic file activity now requires verified document encryption before receiving that mapping.<a href=\"https://blog.virustotal.com/2026/11/catching-ransomware-introducing.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\"> VirusTotal says the change reduced </a>false-positive T1486 volume across the platform by 97.6%.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large is-resized\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6TSfpvP6xLUD2xFpvhEla7-2MMK7BiQ7xcg9wbDiLIOxiOsUHGc7YzgNj0W85bQSnuns3jpUDkN_9ODllM-cCRpPW-3RW1m6wWiAAucZF4LRZQGiNgQ5Qq24NZI0sd6hn16_SqWnNOA_zuO2BIRbyVg1Azybn51H0jvEkPwy64F3tpdbfBMCdHMiLk60/s1600/Screenshot%202026-11-20%20172147%20%281%29.webp\" alt=\"\" style=\"width:793px;height:auto\" /><figcaption class=\"wp-element-caption\">INC Ransom encrypts user files with the <code>.INC</code> extension (T1486 ) (source : virustotal ) </figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">Analysts can search entity: file tag:encrypts-files or use VirusTotal Livehunt with the YARA-X trait vt.BehaviourTrait.ENCRYPTS_FILES for real-time alerts. Adding a low antivirus detection threshold helps focus hunts on overlooked samples.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A missing tag, however, is not a clean verdict. Malware may need passwords, user input, network access, or more time before it starts encrypting. The feature confirms observed file encryption, not the absence of ransomware when a sandbox run shows none.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Analysts should also remember that the reported 0/75 score describes the sample at analysis time, not a permanent detection result, and does not prove every endpoint product would fail to stop it.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>Give your SOC the alert context on the latest threats to stop incidents quickly -&gt; <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate Threat Intel from 16K SOCs</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/virustotal-ransomware-detection/\">VirusTotal&#8217;s New Ransomware Detection Catches Malware Missed by All 75 Antivirus Engines</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:05d627d3c8da1883ed2cca6772efb5eb03d54fa667ea263ef3987d9d41b89ccf",
    "url": "https://cybersecuritynews.com/openrouter-ai-chat-leaks",

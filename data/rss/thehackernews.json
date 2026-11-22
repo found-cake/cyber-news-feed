@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-22T17:00:58Z",
+ "updated_at": "2026-11-22T18:00:57Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-22T17:00:58Z",
+  "last_success_at": "2026-11-22T18:00:57Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -1354,33 +1354,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpHFMwpmKB3Mn6eMpEHMAX_8gqnyi4xwTCuYj7NTrCcTMWAsSZtaUsHYUa1kvi3jQf92A5pR_Qz7kzgTarHmo6q6YsXVeVSJEkkx0JkioCXa6GbKJzG9eZz0dkotf9QEpdcRMy94hoYhGfIoEk7pPOFUSgTY5ciU7_wkSOJc7kgXcS1GS3qGC-Ql7kMrks/s260-e100/thd.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:c892fb218fc51be125533f1ee39519b44a02eea9b10caa148aa87e447cac5eb3",
-   "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
-   "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-   "published_at": "2026-11-12T17:50:27Z",
-   "published_raw": "2026-11-12T23:20:27.132+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver.\n\nThe proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5683980081350228608",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-9BW-gpid0fJ4GJSsWoqjYl5qF_EdYchTcxeNjFfMV-MCcvSRTs-rAmiHKNX3M2dr66bJcfUelNR5CR9g-JLKPkMrROsqrM6hf563hIMklj5v08uYDtEp7pdYPcs5Y5TEGxgTWTHDG_Q-L8Tbq12yo57xp0GOlYk8g05nU3peuA_kedIXtggnakiiCGM/s260-e100/signdrop.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
