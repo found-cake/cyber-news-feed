@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-22T16:00:58Z",
+ "updated_at": "2026-11-22T17:00:58Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-22T16:00:58Z",
+  "last_success_at": "2026-11-22T17:00:58Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -1381,33 +1381,6 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-9BW-gpid0fJ4GJSsWoqjYl5qF_EdYchTcxeNjFfMV-MCcvSRTs-rAmiHKNX3M2dr66bJcfUelNR5CR9g-JLKPkMrROsqrM6hf563hIMklj5v08uYDtEp7pdYPcs5Y5TEGxgTWTHDG_Q-L8Tbq12yo57xp0GOlYk8g05nU3peuA_kedIXtggnakiiCGM/s260-e100/signdrop.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:83f9d15e0e3302c8a9c39ec9e9b0d7fd95efb259eac14606c96ce42a0ab43d5c",
-   "url": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
-   "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
-   "published_at": "2026-11-12T16:27:01Z",
-   "published_raw": "2026-11-12T21:57:01.691+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository.\n\nQuay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a valid account can still exploit the flaw, Red Hat said yesterday. The company has released fixed builds for eight Quay",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-4177230532383066397",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtLHm05FB2LmoHZMLAD5nDmfo_G2tdIqO4URdUwukuooBCVwIJhKC2rUDbDNtsGB8_lwium1MEUD1CxYcix4WMVpCoS58DJivMBSmb9LcIGswQu0nKUNE_sbfH8EsgFfhPrKEgEY7MJHWKyhFqX61ne-AOFKnTNuqIkWez1bec-kq-3Cz8BFbPLrgiV8k/s260-e100/redhat.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
