@@ -1,15 +1,86 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-23T03:01:06Z",
+ "updated_at": "2026-11-23T04:00:58Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-23T03:01:06Z",
+  "last_success_at": "2026-11-23T04:00:58Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:1173b5110cbca93e354697eb5f4f66695e22bade9f586449530a90a58c67497f",
+   "url": "https://cybersecuritynews.com/hack-volkswagen-cars-via-bluetooth",
+   "title": "Researchers Hack Volkswagen Cars via Bluetooth to Spy on Conversations and Track GPS Locations",
+   "published_at": "2026-11-23T03:09:11Z",
+   "published_raw": "Mon, 23 Nov 2026 03:09:11 +0000",
+   "categories": [
+    "Bluetooth",
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability"
+   ],
+   "description": "<p>Bluetooth flaws in Volkswagen cars could expose private conversations, reveal GPS locations, and allow unauthorized control of cabin features. The findings highlight a lengthy patch rollout, with some vehicles remaining exposed roughly 16 months after the vulnerabilities became public. Hungarian firm PCA Cyber Security demonstrated the attack against a Volkswagen ID.4 in Budapest, according to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hack-volkswagen-cars-via-bluetooth/\">Researchers Hack Volkswagen Cars via Bluetooth to Spy on Conversations and Track GPS Locations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=173231",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Researchers-Hack-Volkswagen-Cars-via-Bluetooth-to-Spy-on-Conversations-and-Track-GPS-Locations.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "173231",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Bluetooth flaws in Volkswagen cars could expose private conversations, reveal GPS locations, and allow <a href=\"https://cybersecuritynews.com/volkswagen-data-breach/\" target=\"_blank\" rel=\"noreferrer noopener\">unauthorized control of cabin features.</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">The findings highlight a lengthy patch rollout, with some vehicles remaining exposed roughly 16 months after the vulnerabilities became public. Hungarian firm PCA Cyber Security demonstrated the attack against a Volkswagen ID.4 in Budapest, according to heise’s report.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Researchers reportedly <a href=\"https://cybersecuritynews.com/skullcandy-dime-3-bluetooth-flaw/\" target=\"_blank\" rel=\"noreferrer noopener\">accessed the hands-free microphone</a>, monitored location data, and operated the heater, windshield wipers, and sunroof using a laptop outside the vehicle.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The attack uses PerfektBlue, a chain of vulnerabilities in OpenSynergy’s BlueSDK Bluetooth software. This component handles wireless connections in vehicle infotainment systems. PCA’s security advisory explains how the flaws can be combined to run attacker-controlled code on affected systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For the demonstrated <a href=\"https://cybersecuritynews.com/volkswagen-ransomware-attack/\" target=\"_blank\" rel=\"noreferrer noopener\">Volkswagen attack</a>, the driver must first approve a Bluetooth pairing request. Once connected, the attacker can exploit the vulnerable software and gain control over functions available through the infotainment system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That requirement is important. The demonstration does not show that an attacker can silently compromise every nearby Volkswagen without interaction. Rejecting an unfamiliar pairing request blocks the connection this attack needs.</p>\n\n\n\n<h2 id=\"h-volkswagen-cars-hacked-via-bluetooth\" class=\"wp-block-heading\"><strong>Volkswagen Cars Hacked via Bluetooth</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Cyber Security News previously covered the underlying weaknesses in its report on the <a href=\"https://cybersecuritynews.com/bluetooth-protocol-stack-vulnerabilities/\" target=\"_blank\" rel=\"noopener\">PerfektBlue Bluetooth vulnerabilities</a>, which affected software used across multiple vehicle brands.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Researchers estimate that several hundred thousand Volkswagen vehicles could be affected. However, that figure is not a confirmed count of compromised cars, and the reported demonstration does not establish widespread criminal exploitation.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.heise.de/en/news/VW-cars-could-be-eavesdropped-on-and-tracked-via-Bluetooth-for-16-months-11531075.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Volkswagen told heise </a>that older infotainment software required additional changes and security checks, which delayed repairs. The company said it had addressed the issue more quickly in newer software branches.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For vehicles running software older than version 4.0, Volkswagen says version 3.9.1 fixes the vulnerability. Eligible owners can install that update over cellular or Wi-Fi while their vehicle is parked.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Other affected software versions require a workshop visit. Volkswagen says vehicles running version 5.6 or later are not affected. Owners should confirm the correct update route with Volkswagen rather than assume every car receives the same fix.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Volkswagen says the flaws do not provide access to steering, braking, or acceleration. The demonstrated access instead concerns infotainment and connected cabin functions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Nevertheless, microphone access could expose sensitive conversations, while GPS tracking could reveal journeys and regular destinations. Those privacy risks remain significant even when driving controls are outside the attacker’s reach.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Earlier research also identified separate weaknesses affecting vehicle data and infotainment systems, as detailed in Cyber Security News’ coverage of <a target=\"_blank\" href=\"https://cybersecuritynews.com/vulnerabilities-skoda-volkswagen-cars/\" rel=\"noopener\">Skoda and Volkswagen security flaws</a>. Those findings should not be treated as the same vulnerability chain.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Volkswagen advises owners never to accept unknown Bluetooth pairing requests or connect unfamiliar USB devices. Drivers should check their installed software version, follow official update instructions, and contact a dealer when patch availability is unclear. Volkswagen has not announced a recall for this issue, according to heise’s report.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>Give your SOC the alert context on the latest threats to stop incidents quickly -&gt; <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate Threat Intel from 16K SOCs</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/hack-volkswagen-cars-via-bluetooth/\">Researchers Hack Volkswagen Cars via Bluetooth to Spy on Conversations and Track GPS Locations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:768efa7aaf19bf845a01c0fba6f4e21fdaf08a11a91657125da188664cf86da6",
+   "url": "https://cybersecuritynews.com/openai-gpt-6-2-astra-0-day-vulnerabilities",
+   "title": "OpenAI’s GPT-6.2 Astra Discovers 0-Day Vulnerabilities Enabling Mobile OS Security Bypass and RCE",
+   "published_at": "2026-11-23T03:06:27Z",
+   "published_raw": "Mon, 23 Nov 2026 03:06:27 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "OpenAI"
+   ],
+   "description": "<p>OpenAI&#8217;s GPT-6.2 Astra has found and exploited zero-day vulnerabilities affecting a popular mobile operating system and a widely hosted network service, according to the company&#8217;s latest system card. The findings include a permission bypass that exposed private data and a separate remote code execution flaw reachable from a low-privileged role. The discoveries came from testing [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-gpt-6-2-astra-0-day-vulnerabilities/\">OpenAI&#8217;s GPT-6.2 Astra Discovers 0-Day Vulnerabilities Enabling Mobile OS Security Bypass and RCE</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=173253",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/OpenAIs-GPT-6.2-Astra-Discovers-Zero-Day-Vulnerabilities-Enabling-Mobile-OS-Security-Bypass-and-RCE.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "173253",
+     "content_encoded": "<p class=\"wp-block-paragraph\">OpenAI&#8217;s GPT-6.2 Astra has <a href=\"https://cybersecuritynews.com/openai-gpt-6-astra-discovers-zero-day/\" target=\"_blank\" rel=\"noreferrer noopener\">found and exploited zero-day vulnerabilities</a> affecting a popular mobile operating system and a widely hosted network service, according to the company&#8217;s latest system card.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The findings include a permission bypass that exposed private data and a separate remote code execution flaw reachable from a low-privileged role. The discoveries came from testing by security firm Irregular, rather than reports of attacks against users.</p>\n\n\n\n<p class=\"wp-block-paragraph\">OpenAI&#8217;s November 17 system card says Irregular is handling responsible disclosure. It does not name the affected products, identify vulnerable versions, provide CVE numbers, or confirm when patches will become available.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The mobile operating system flaw allowed a malicious app to access private data despite lacking the required permissions. That finding points to a failure in the operating system&#8217;s access controls. The published account does not identify the exposed data types or explain which permission checks the app bypassed.</p>\n\n\n\n<h2 id=\"h-openai-s-gpt-6-2-astra-discovers-zero-day-vulnerabilities\" class=\"wp-block-heading\"><strong>OpenAI&#8217;s GPT-6.2 Astra Discovers Zero-Day Vulnerabilities</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The remote code execution finding involved a separate network service. Astra exploited the service from a low-privileged role, showing that limited access was enough to reach code execution. The report does not<a href=\"https://cybersecuritynews.com/gpt-6-1-astra-model-scrapped/\" target=\"_blank\" rel=\"noreferrer noopener\"> establish unauthenticated access, </a>administrator control, or a mobile exploit chain linking the two discoveries.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Keeping those findings separate is important. The mobile issue concerns access to protected information, while the network service issue concerns running code. Neither description supports claims that Astra remotely took over phones or compromised every device using the unnamed operating system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Irregular tested Astra through FrontierCyber, which measures offensive skills on real-world systems, and CyScenarioBench, which covers multi-stage security operations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Astra solved 68 of 217 FrontierCyber challenges, compared with 77 for GPT-6 Astra. The newer model therefore discovered serious flaws without outperforming its predecessor across that entire suite.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Neither model successfully attacked a fully hardened target. All 15 of the hardest FrontierCyber challenges remained unsolved. On CyScenarioBench, both models solved nine of 11 challenges at least once. At the same time, Astra&#8217;s success rate reached 63%, compared with 61% for its predecessor.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Separate <a href=\"https://deploymentsafety.openai.com/gpt-6-2-astra-sol/gpt-6-2-astra-sol.pdf\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">OpenAI tests showed stronger progress</a> in developing exploits for known vulnerabilities. Astra achieved a 53.5% mean arbitrary code execution rate on ExploitBench Internal Port, compared with 31.5% for GPT-6 Astra. That evaluation used V8 and Chrome flaws disclosed between June and August 2026, not newly discovered zero-days.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The distinction helps readers judge the results fairly. Finding an unknown flaw and turning a disclosed bug into working code are related skills, but they are not the same task. Earlier reporting on <a target=\"_blank\" href=\"https://cybersecuritynews.com/openai-gpt-6-astra-discovers-zero-day/\" rel=\"noopener\">Astra&#8217;s zero-day research</a> provides background on this growing capability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">OpenAI says both GPT-6.2 Astra and Sol meet its Critical cybersecurity capability threshold. The company describes tighter restrictions on higher-risk assistance, monitoring, and additional approval for more permissive access. The company conducted its capability evaluations without production safeguards, so the results should not be treated as a description of ordinary customer access.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Previous coverage of <a target=\"_blank\" href=\"https://cybersecuritynews.com/openai-ai-agents-bypass-security/\" rel=\"noopener\">OpenAI&#8217;s security isolation tests</a> also shows why containment matters alongside model rules. These systems can help researchers find weaknesses, but their tools and access need firm limits.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For now, the missing product names and patch details prevent specific exposure checks. The immediate takeaway is evidence of successful zero-day research under evaluation conditions, not proof of widespread exploitation. Further disclosure will determine which users need fixes and how urgently vendors must respond.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>Give your SOC the alert context on the latest threats to stop incidents quickly -&gt; <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Integrate Threat Intel from 16K SOCs</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-gpt-6-2-astra-0-day-vulnerabilities/\">OpenAI&#8217;s GPT-6.2 Astra Discovers 0-Day Vulnerabilities Enabling Mobile OS Security Bypass and RCE</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:3b3840691e2b50107d7d5b39ce3e9b9b0783456c06aaa9630dc1b7989f311456",
    "url": "https://cybersecuritynews.com/cleverbridge-data-breach",
