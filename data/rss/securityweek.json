@@ -1,15 +1,85 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-23T13:01:05Z",
+ "updated_at": "2026-11-23T14:00:59Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-23T13:01:05Z",
+  "last_success_at": "2026-11-23T14:00:59Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:666c9425a09bfe91ba92f82825c4df71754bdcb575ba69983bce5a514aa94381",
+   "url": "https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path",
+   "title": "phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path",
+   "published_at": "2026-11-23T13:58:07Z",
+   "published_raw": "Mon, 23 Nov 2026 13:58:07 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "PHP",
+    "PHPAfterShell",
+    "vulnerability"
+   ],
+   "description": "<p>If a session overwrite operation is interrupted, an attacker who controls the fresh data could trigger data deserialization and RCE.</p>\n<p>The post <a href=\"https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path/\">phpAfterShell Vulnerability Revives PHP2Shell&#8217;s Attack Path</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=51007",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:508496655d9b13397335508ebd78ac1dd09d3b550cb3c75183183d0896ee63de",
+   "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw",
+   "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
+   "published_at": "2026-11-23T13:26:22Z",
+   "published_raw": "Mon, 23 Nov 2026 13:26:22 +0000",
+   "categories": [
+    "Malware & Threats",
+    "Network Security",
+    "exploited",
+    "GL.iNet",
+    "KVM",
+    "vulnerability"
+   ],
+   "description": "<p>Attackers abused a flaw in the GoodCloud remote management service to push malware to devices, and cleaning them requires new firmware.</p>\n<p>The post <a href=\"https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/\">GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=51005",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:d3541bec95e7fea7f80b007954bdbee01b5315435f64e903a2e4f941d5f4b188",
    "url": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos",
@@ -2263,38 +2333,6 @@
    "authors": [
     {
      "name": "SecurityWeek News",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:b291b300ac5dc98b0ea92c062ad267d39b83b4670e020903e2717376233b62ff",
-   "url": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage",
-   "title": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
-   "published_at": "2026-11-13T13:47:42Z",
-   "published_raw": "Fri, 13 Nov 2026 13:47:42 +0000",
-   "categories": [
-    "Email Security",
-    "Microsoft"
-   ],
-   "description": "<p>Microsoft is trying different ways to identify the cause of the problem and get its servers back online, using “a measured approach to identify and repair affected infrastructure.”</p>\n<p>The post <a href=\"https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/\">Microsoft Struggles to Restore Email and Other Services in a Global Outage</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50778",
-   "authors": [
-    {
-     "name": "Associated Press",
      "uri": "",
      "email": ""
     }
