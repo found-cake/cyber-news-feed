@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-23T15:00:59Z",
+ "updated_at": "2026-11-23T16:01:06Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-23T15:00:59Z",
+  "last_success_at": "2026-11-23T16:01:06Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:c17e236901f89624f15e9f83cf4d200664b18ce8933221fd9a49cea9368fd3da",
+   "url": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap",
+   "title": "AI Agents Are Creating a Shared Responsibility Gap",
+   "published_at": "2026-11-23T15:00:10Z",
+   "published_raw": "Mon, 23 Nov 2026 10:00:10 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "AI agents operate across multiple platforms, creating security gaps when no single vendor can see or control their actions. Token Security examines the shared responsibility problem and explains how organizations can better manage agent identities, permissions, and accountability. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+   "authors": [
+    {
+     "name": "Sponsored by Token Security",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:1162383657bf3738f98837433fcf401cd863a0ddac607c0eab08cc4069b99f54",
    "url": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans",
@@ -1327,27 +1348,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:7c8915ec24c23b444893aab32e2d8621c1b1b569b2b8ade7416f9918c38d253e",
-   "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps",
-   "title": "How one AI agent exposed five critical enterprise security gaps",
-   "published_at": "2026-11-13T15:01:11Z",
-   "published_raw": "Fri, 13 Nov 2026 10:01:11 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security leaders on preventing them. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
-   "authors": [
-    {
-     "name": "Sponsored by Token Security",
      "uri": "",
      "email": ""
     }

@@ -1,15 +1,86 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-23T15:00:59Z",
+ "updated_at": "2026-11-23T16:01:06Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-23T15:00:59Z",
+  "last_success_at": "2026-11-23T16:01:06Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:dc0bf632906413a23d4a185d5d9f996388be33fd6d5ec1ace2e824309cafefac",
+   "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms",
+   "title": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
+   "published_at": "2026-11-23T15:47:40Z",
+   "published_raw": "Mon, 23 Nov 2026 15:47:40 +0000",
+   "categories": [
+    "Cloud Security",
+    "APIM",
+    "Azure",
+    "data leak",
+    "energy",
+    "Featured",
+    "Microsoft",
+    "Norway"
+   ],
+   "description": "<p>Microsoft closed an Azure API Management flaw exploited to target secrets at Norwegian energy companies, with other sectors also affected.</p>\n<p>The post <a href=\"https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/\">Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=51013",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:e41ccef1ec479ff797a4e539619f53e612e3c004625053ae340ce9d3e1d5c709",
+   "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack",
+   "title": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
+   "published_at": "2026-11-23T15:06:49Z",
+   "published_raw": "Mon, 23 Nov 2026 15:06:49 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "N-able",
+    "vulnerability"
+   ],
+   "description": "<p>The company has restored access to the affected services and continues to monitor the affected environments.</p>\n<p>The post <a href=\"https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/\">N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=51010",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:666c9425a09bfe91ba92f82825c4df71754bdcb575ba69983bce5a514aa94381",
    "url": "https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path",
@@ -2298,38 +2369,6 @@
    ],
    "description": "<p>Federal officials have yet to say what caused the communications disruption or whether they are investigating a possible cyberattack.</p>\n<p>The post <a href=\"https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/\">FAA Ground Stop Issued Due to &#8216;Extraordinary Circumstances&#8217;</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
    "feed_id": "https://www.securityweek.com/?p=50788",
-   "authors": [
-    {
-     "name": "SecurityWeek News",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:cb849dba965d8086417ca60d72085decd7774729b63bd553a7c4cdddb2a6e647",
-   "url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach",
-   "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
-   "published_at": "2026-11-13T15:20:00Z",
-   "published_raw": "Fri, 13 Nov 2026 15:20:00 +0000",
-   "categories": [
-    "Artificial Intelligence",
-    "In Other News"
-   ],
-   "description": "<p>Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors.</p>\n<p>The post <a href=\"https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/\">In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50780",
    "authors": [
     {
      "name": "SecurityWeek News",
