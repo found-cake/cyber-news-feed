@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-23T16:01:06Z",
+ "updated_at": "2026-11-23T17:00:22Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-23T16:01:06Z",
+  "last_success_at": "2026-11-23T17:00:22Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:36c59e697c49ac4db9a7b4e4979613369b03e556e7db43e74aacedd1b17eeeef",
+   "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards",
+   "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+   "published_at": "2026-11-23T16:50:01Z",
+   "published_raw": "Mon, 23 Nov 2026 11:50:01 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:c17e236901f89624f15e9f83cf4d200664b18ce8933221fd9a49cea9368fd3da",
    "url": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap",
@@ -1324,27 +1345,6 @@
    ],
    "description": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
    "feed_id": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:f171629b63a7babe05ac8b8461e18a09584ab020f2caca1577091ddc6ffbfaf2",
-   "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper",
-   "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
-   "published_at": "2026-11-13T16:21:43Z",
-   "published_raw": "Fri, 13 Nov 2026 11:21:43 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
    "authors": [
     {
      "name": "Bill Toulas",
