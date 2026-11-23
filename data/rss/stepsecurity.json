@@ -1,45 +1,21 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-11-23T06:00:57Z",
+ "updated_at": "2026-11-23T07:00:58Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-23T06:00:57Z",
+  "last_success_at": "2026-11-23T07:00:58Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
   {
-   "id": "sha256:6ad14acba3e17b807f034f63087251f3233b64d60ebb138e18e5b329148a7a37",
-   "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-   "title": "OPTIMJACK: Optimizely-Hosted Scripts Loaded a Crypto Clipper and Card Skimmer on 178 Organizations",
-   "published_at": "2026-11-20T08:47:22Z",
-   "published_raw": "Fri, 20 Nov 2026 08:47:22 GMT",
-   "categories": [],
-   "description": "Optimizely confirmed an attacker injected malicious JavaScript into customer projects. What the payload does, who was hit, and what to check.",
-   "feed_id": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
-   "authors": [],
-   "media": [
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc098839f8421be06b29e7_6afc095800c3796d657d168d_optimjack-optimizely-skimmer-cover-centered.png",
-     "kind": "thumbnail",
-     "medium": ""
-    },
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc098839f8421be06b29e7_6afc095800c3796d657d168d_optimjack-optimizely-skimmer-cover-centered.png",
-     "kind": "content",
-     "medium": "image"
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:f23af9874ff4eaa683a6b58b9cdc10ac06487ed1a0c25008f6a2146538dd6e73",
    "url": "https://www.stepsecurity.io/blog/cve-2026-123007-nginx-http2-rce",
    "title": "nginx2root (CVE-2026-123007): HTTP/2 Flaw Lets Attackers Run Code on Unpatched nginx Servers",
-   "published_at": "2026-11-20T08:33:51Z",
-   "published_raw": "Fri, 20 Nov 2026 08:33:51 GMT",
+   "published_at": "2026-11-21T00:10:43Z",
+   "published_raw": "Sat, 21 Nov 2026 00:10:43 GMT",
    "categories": [],
    "description": "nginx 1.31.9 and 1.30.7 fix an HTTP/2 flaw that a public exploit turns into unauthenticated code execution. See what stopped the exploit in our lab, how to patch and confirm the fix, and how to find nginx on developer machines.",
    "feed_id": "https://www.stepsecurity.io/blog/cve-2026-123007-nginx-http2-rce",
@@ -62,8 +38,8 @@
    "id": "sha256:90b24178a4beff2c7afdf894386b9e00211b74dee0d503933fa595b8911249a1",
    "url": "https://www.stepsecurity.io/blog/stepsecurity-20-million-series-a",
    "title": "Protecting where software gets built: StepSecurity’s $20 million Series A",
-   "published_at": "2026-11-18T16:24:40Z",
-   "published_raw": "Wed, 18 Nov 2026 16:24:40 GMT",
+   "published_at": "2026-11-21T00:10:43Z",
+   "published_raw": "Sat, 21 Nov 2026 00:10:43 GMT",
    "categories": [],
    "description": "Today, we’re announcing an oversubscribed $20 million Series A led by Elephant to expand protection for developer machines, package downloads, CI/CD pipelines, and agent sandboxes.",
    "feed_id": "https://www.stepsecurity.io/blog/stepsecurity-20-million-series-a",
@@ -76,6 +52,30 @@
     },
     {
      "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afd70f91e150f2dcdb6a50c_6afd4ee2bca7125b3b3ea39b_NEW_BANNERS-120.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:6ad14acba3e17b807f034f63087251f3233b64d60ebb138e18e5b329148a7a37",
+   "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+   "title": "OPTIMJACK: Optimizely-Hosted Scripts Loaded a Crypto Clipper and Card Skimmer on 178 Organizations",
+   "published_at": "2026-11-21T00:10:43Z",
+   "published_raw": "Sat, 21 Nov 2026 00:10:43 GMT",
+   "categories": [],
+   "description": "Optimizely confirmed an attacker injected malicious JavaScript into customer projects. What the payload does, who was hit, and what to check.",
+   "feed_id": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc098839f8421be06b29e7_6afc095800c3796d657d168d_optimjack-optimizely-skimmer-cover-centered.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc098839f8421be06b29e7_6afc095800c3796d657d168d_optimjack-optimizely-skimmer-cover-centered.png",
      "kind": "content",
      "medium": "image"
     }
