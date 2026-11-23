@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-23T12:00:59Z",
+ "updated_at": "2026-11-23T13:01:05Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-23T12:00:59Z",
+  "last_success_at": "2026-11-23T13:01:05Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:d3541bec95e7fea7f80b007954bdbee01b5315435f64e903a2e4f941d5f4b188",
+   "url": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos",
+   "title": "AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos",
+   "published_at": "2026-11-23T12:16:20Z",
+   "published_raw": "Mon, 23 Nov 2026 12:16:20 +0000",
+   "categories": [
+    "Artificial Intelligence",
+    "Data Breaches",
+    "AI",
+    "data breach",
+    "data leak",
+    "Dragos"
+   ],
+   "description": "<p>Dragos uncovered undetected intrusions at three AI inference providers using nearly two million prompts sent to AI services.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/\">AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=51003",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:7f5f6b9eaf3150d6c849177427d6b48f5f23edceecd934619683f6460b681f82",
    "url": "https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted",
@@ -2259,76 +2295,6 @@
    "authors": [
     {
      "name": "Associated Press",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:10c27ad72a985847314fbef2ea9bcbfe36398cc665fa71ec0f50d60b6db408e7",
-   "url": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack",
-   "title": "Apify Confirms Customer Data Accessed in Cyberattack",
-   "published_at": "2026-11-13T12:41:01Z",
-   "published_raw": "Fri, 13 Nov 2026 12:41:01 +0000",
-   "categories": [
-    "Data Breaches",
-    "Apify",
-    "cyberattack",
-    "data breach"
-   ],
-   "description": "<p>The web scraping company says an intruder accessed customer accounts and obtained personal information or stored data.</p>\n<p>The post <a href=\"https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/\">Apify Confirms Customer Data Accessed in Cyberattack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50776",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {
-    "securityweek": {
-     "image": {
-      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
-      "title": "SecurityWeek",
-      "link": "https://www.securityweek.com/",
-      "width": "32",
-      "height": "32"
-     }
-    }
-   }
-  },
-  {
-   "id": "sha256:4f3fa919241a106d6546c76d78dcd4b1d0e9feae36ce336f2bfe01c17233bd06",
-   "url": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks",
-   "title": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks",
-   "published_at": "2026-11-13T12:20:28Z",
-   "published_raw": "Fri, 13 Nov 2026 12:20:28 +0000",
-   "categories": [
-    "Nation-State",
-    "China",
-    "China APT",
-    "Featured",
-    "malware",
-    "SilentAir"
-   ],
-   "description": "<p>Enea says SilentAir hijacked mobile network nodes to intercept calls and messages, with Taiwanese subscribers the primary targets.</p>\n<p>The post <a href=\"https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/\">SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-   "feed_id": "https://www.securityweek.com/?p=50773",
-   "authors": [
-    {
-     "name": "Eduard Kovacs",
      "uri": "",
      "email": ""
     }
