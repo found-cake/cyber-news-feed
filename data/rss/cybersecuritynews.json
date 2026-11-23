@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-23T04:00:58Z",
+ "updated_at": "2026-11-23T05:01:02Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-23T04:00:58Z",
+  "last_success_at": "2026-11-23T05:01:02Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:8cda7c108e6a601fe1a66d650d1ce0789402205a9daa9e731e8df984170c0089",
+   "url": "https://cybersecuritynews.com/alleged-vmware-vcenter-0-day-exploit",
+   "title": "Hackers Allegedly Claiming Exploit for VMware vCenter 0-day Vulnerability",
+   "published_at": "2026-11-23T04:30:26Z",
+   "published_raw": "Mon, 23 Nov 2026 04:30:26 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>A forum seller using the name Matilda is asking $30,000 for a claimed exploit targeting CVE-2026-123890, a critical VMware vCenter Server vulnerability. A screenshot shared by Dark Web Informer shows the seller claiming that the tool can create a new vCenter administrator account. The listing surfaced after Broadcom issued a fix on November 19, 2026. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/alleged-vmware-vcenter-0-day-exploit/\">Hackers Allegedly Claiming Exploit for VMware vCenter 0-day Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=173460",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Alleged-VMware-vCenter-0-day-Exploit.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "173460",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A forum seller using the name Matilda is asking $30,000 for a claimed exploit targeting CVE-2026-123890, a critical VMware vCenter Server vulnerability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A screenshot shared by Dark Web Informer shows the seller claiming that the tool can create a new vCenter administrator account. The listing surfaced after Broadcom issued a fix on November 19, 2026. The tool’s claimed capabilities and compatibility have not been independently verified.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmeTo4tU21qBCZgUjJ4fryqLrk0AhpVICWLKR7yWeA-5ymNKzvWePd_tlCZIpGPv9lUfdl-NnYGe6NPOk2qPWhA0lp2FrgVtZ7YO7WAE9GwUrWnRcWYovlT5XlmqPUpzWaArLOZNeJ0medjy_6goWG3vbrd1i2u8kOsenrVvj1TaaHjODVJIWFzhCeO1hk/s1600/VMware%20vCenter%200-day%20Flaw%20Claim.webp\" alt=\"\"/><figcaption class=\"wp-element-caption\">Source: Dark Web Informer</figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">The seller describes the tool as a Python program with separate functions for checking whether a server is vulnerable and exploiting the flaw.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The post claims support for affected releases from vCenter 7.0 through 9.1 and offers prospective buyers a demonstration. An offer is not proof of a successful test, and the listing does not establish that the seller used the tool against any organization.</p>\n\n\n\n<h2 id=\"h-vmware-vcenter-attacks-began-before-patch\" class=\"wp-block-heading\"><strong>VMware vCenter Attacks Began Before Patch</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39495\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Broadcom’s VMSA-2026-0009 advisory</a> rates the flaw 9.8 out of 10. As Cyber Security News reported in its <a href=\"https://cybersecuritynews.com/vmware-vcenter-authentication-bypass/\">coverage of the VMware vCenter authentication bypass</a>, the flaw affects VMware Directory Service, which supports vCenter’s single sign-on system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker who can reach an affected server over the network can bypass login without valid credentials. That matters because vCenter provides a central place to manage VMware hosts and virtual machines.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Google Threat Intelligence Group and Mandiant traced attacks exploiting the flaw to early September 2026, before a patch was available. In <a href=\"https://cybersecuritynews.com/hackers-exploit-vmware-vcenter-0-day/\">earlier coverage of the vCenter zero-day attacks</a>, Cyber Security News reported that a suspected China-linked group known as ARMORY CASTLE used a separate tool called BONESAW.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The documented attacks explain why the flaw is described as a zero-day. The forum post, by contrast, advertises an exploit for a flaw that has since been disclosed and patched. The reporting does not link Matilda to ARMORY CASTLE.</p>\n\n\n\n<h2 id=\"h-vmware-vcenter-patch\" class=\"wp-block-heading\"><strong>VMware vCenter Patch</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Broadcom lists fixes in vCenter 9.1.1.0200, 9.0.2.0200, and 8.0 Update 3m. VMware Cloud Foundation 5.x customers should follow the vendor’s guidance for release 5.2.5.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The advisory lists no public fix for vCenter 7.0 and directs customers with extended support contracts to contact Broadcom Support. Administrators should use the <a href=\"https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39495\">vendor’s response matrix</a> to confirm the correct update for their deployment.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The <a href=\"https://nvd.nist.gov/vuln/detail/cve-2026-123890\">National Vulnerability Database entry</a> records the flaw’s addition to CISA’s Known Exploited Vulnerabilities catalog on November 20. Broadcom lists no workaround, so teams should apply the relevant update without waiting for the forum claim to be verified.</p>\n\n\n\n<p class=\"wp-block-paragraph\">They should also review vCenter sign-in records and administrator account changes for unexpected activity, especially on servers that were reachable from untrusted networks before patching. An update closes the flaw, but it does not establish whether an attacker used it before the fix was installed.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>What Are Leading Organizations Doing About AI and Cyber Risks? Find Out. <a href=\"https://www.americanconference.com/cybersecurity-law/request-brochure/?utm_medium=affiliate&amp;utm_source=cybersecuritynews&amp;utm_campaign=F27_awareness\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">View Details!</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/alleged-vmware-vcenter-0-day-exploit/\">Hackers Allegedly Claiming Exploit for VMware vCenter 0-day Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:1173b5110cbca93e354697eb5f4f66695e22bade9f586449530a90a58c67497f",
    "url": "https://cybersecuritynews.com/hack-volkswagen-cars-via-bluetooth",
