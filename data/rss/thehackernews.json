@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-24T06:00:21Z",
+ "updated_at": "2026-11-24T07:00:19Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-24T06:00:21Z",
+  "last_success_at": "2026-11-24T07:00:19Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -85,6 +85,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxRuwbdQU-KyBsSrFlIZp4oczr_tJu53WrfB3nM6QYrO7kFgGAZO1NMSi7mziUOUaTrzq5C4KzCJqvYOf0Ry19ypJac-9mBYzYiqiTNl462i1uYo7DF9aAHxiVU_IOaByH3NtNlrF0hUhZtpItADKJauPVzWrz8r6YOQEHQrt_YiAmPba4CIOsSjZA2Wy_/s260-e100/hacker-code.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:d70285cdacc0c3a7734f42127ce5d6c20eed3bf74071823c528e7e4bdf1cb755",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+   "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+   "published_at": "2026-11-24T06:02:45Z",
+   "published_raw": "2026-11-24T11:32:45.751+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe critical vulnerabilities are listed below -\n\n\n  CVE-2026-134624 (CVSS score: 9.3) - A server-side request forgery (SSRF) vulnerability in N-able MailAssure's LDAP",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-179368279312745178",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrPCPwSotVSX8IYSgpSrVceRAIYqba8YSZSlNwD5RjetEhPG6vLRhk_NKkatjg1h-fulZJDm4CucsLvQrEtCO6v0NtuJGo3nZD3mXSHyKpgPrUZMpq7YNpheStYC_AqyMWRfWIFiK9bcHJNAw6pwK9JqirhO8JESKdmsI5Pl8UgtsVsRivmMmMenQ01ClW/s260-e100/cisa-kev.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -740,33 +767,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:3914c4d93285bf9341fb41eae6e914bfe6b9431ae6bf539dc3683f4716e4786f",
-   "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
-   "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-   "published_at": "2026-11-19T08:14:00Z",
-   "published_raw": "2026-11-19T13:44:00.007+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL.\n\nThe exploits, published yesterday, are the researcher's proofs of concept against PostgreSQL, MySQL and ClickHouse, plus a separate Oracle chain that needs no",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5265181206623638931",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDE1pOkFxdtUcDqLptfhjaBnnEyzz2JfxUJICSOrW3vpcNlygN1XleKCdkv9CA3Zp901yQ884tOkPX9TmSYx5tpevenJw1CmW4oktkn2creXnB5-dvbiJB3crcILx4Kb8b6eVhiKjh-RRZTGnvWskqROJOjF3yaWFVK17fmh-tdT7WMas7MbdK-JsCBmw/s260-e100/database-rce.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:6ebe391a8b41bbc0d12fc6b0adda6fb5b6d345f2beee9a61929827d186a2d687",
    "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
    "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
@@ -922,6 +922,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuvSsWcsJ9736KXp_0s-6__-CiI5PD71VReembVHAB4cfnv3Qti8td9WR54UnRH96bz30dvbTQxwG3WbxDkWRq_eFJPYLgxbAzRD5k3MJSISbW2VDI-Fr7nlX4j8NyJkXqLHylMZMXpynEHVV8ovZ2YPC-WGCFCcrOZOeGc5Wsy-jRjjbcyYTzojI9Nudw/s260-e100/cisaa.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:3914c4d93285bf9341fb41eae6e914bfe6b9431ae6bf539dc3683f4716e4786f",
+   "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+   "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+   "published_at": "2026-11-19T08:14:00Z",
+   "published_raw": "2026-11-19T13:44:00.007+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL.\n\nThe exploits, published yesterday, are the researcher's proofs of concept against PostgreSQL, MySQL and ClickHouse, plus a separate Oracle chain that needs no",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-5265181206623638931",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDE1pOkFxdtUcDqLptfhjaBnnEyzz2JfxUJICSOrW3vpcNlygN1XleKCdkv9CA3Zp901yQ884tOkPX9TmSYx5tpevenJw1CmW4oktkn2creXnB5-dvbiJB3crcILx4Kb8b6eVhiKjh-RRZTGnvWskqROJOjF3yaWFVK17fmh-tdT7WMas7MbdK-JsCBmw/s260-e100/database-rce.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
