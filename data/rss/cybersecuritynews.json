@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-24T05:00:28Z",
+ "updated_at": "2026-11-24T06:00:21Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-24T05:00:28Z",
+  "last_success_at": "2026-11-24T06:00:21Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:a740f3671418d4461c03ce72da21abee40d59b927e98eaa1f305a40b205c1b97",
+   "url": "https://cybersecuritynews.com/node-js-simple-git-library-flaw",
+   "title": "Critical Node.js simple-git Library Vulnerability Enables Remote Code Execution Attacks",
+   "published_at": "2026-11-24T05:55:37Z",
+   "published_raw": "Tue, 24 Nov 2026 05:55:37 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability",
+    "Vulnerability News"
+   ],
+   "description": "<p>A critical flaw in simple-git, a popular Node.js library for running Git commands, can let attackers run their own commands on a server. The issue is tracked as CVE-2026-134815. It affects apps that pass untrusted input into Git arguments. The National Vulnerability Database says simple-git versions before 4.1.0 contain an argument injection weakness, listed as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/node-js-simple-git-library-flaw/\">Critical Node.js simple-git Library Vulnerability Enables Remote Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=173876",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Node.js-simple-git-Library-Flaw.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "173876",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A critical flaw in simple-git, a popular Node.js library for running Git commands, can let attackers run their own commands on a server. The issue is tracked as CVE-2026-134815. It affects apps that pass untrusted input into Git arguments.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The <a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-134815\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">National Vulnerability Database</a> says simple-git versions before 4.1.0 contain an argument injection weakness, listed as CWE-88. In plain terms, the library does not properly separate user-supplied text from the options it sends to Git. VulnCheck, which assigned the CVE, rated it 9.2 (Critical) on the CVSS 4.0 scale.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The library has a safety guard named allowUnsafePack. It is meant to block dangerous options that make Git run an outside program. Before this fix, the guard only blocked the &#8211;exec option for push operations. Attackers can bypass it by adding &#8211;exec to other Git actions.</p>\n\n\n\n<h2 id=\"h-node-js-simple-git-library-flaw\" class=\"wp-block-heading\"><strong>Node.js simple-git Library Flaw</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The risk starts when an application lets outside input reach the listRemote() or raw() functions. An attacker who controls those arguments can slip in &#8211;exec for ls-remote, archive, fetch-pack or send-pack. Git then treats the value as the name of a remote program and runs it on the host. The result is remote code execution, which means the attacker&#8217;s commands run with the same rights as the Node.js process.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The CVSS vector shows the attack needs no login and no user interaction. It also lists high attack complexity and an attack requirement, so a vulnerable app must be set up in a specific way.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Even so, the impact on data, system integrity, and availability is rated high. A <a href=\"https://www.upwind.io/blog/threat-post/cve-2026-134815-simple-git-argument-injection-via-exec-enables-host-command-execution\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">researcher write-up from Upwind</a> describes the same bypass of the allowUnsafePack guard.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Two packages from the steveukx/git-js project are affected. These are simple-git below 4.1.0 and @simple-git/argv-parser below 3.0.0. The parser package holds the checks that spot dangerous flags, so both need updating together.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The maintainers shipped the fix in the <a href=\"https://github.com/steveukx/git-js/releases/tag/simple-git%404.1.0\">simple-git 4.1.0 release</a> on 16 November. The notes say allowUnsafePack now blocks &#8211;exec for every command except rebase. The release also adds allowConfig and strict options.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It adds a git.cmd helper too, which treats every inserted value as untrusted data that cannot add options or change settings. The maintainers thanked 18 contributors for submitting CVE proposals that shaped these changes. NVD published the record on 22 November.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This is not the first time simple-git has had trouble with argument handling. In 2022, <a href=\"https://www.acunetix.com/vulnerabilities/sca/cve-2022-24433-vulnerability-in-npm-package-simple-git/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CVE-2022-24433</a> showed that injecting Git options into fetch() could run commands. Earlier this year, <a href=\"https://codeant.ai/security-research/simple-git-remote-code-execution-cve-2026-28292\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">CVE-2026-28292</a> used a missing case-insensitive regex flag to get around older fixes. The library sees more than 12 million weekly npm downloads.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Another <a href=\"https://github.com/advisories/GHSA-hffm-xvc3-vprc\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">advisory, CVE-2026-6951</a>, covered an incomplete fix that blocked -c but not &#8211;config. The pattern is clear. Block lists of bad options are hard to keep complete, because Git accepts many ways to write the same option.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Upgrade to simple-git 4.1.0 and @simple-git/argv-parser 3.0.0 or later. Then run npm ls simple-git to find copies pulled in by other packages, since many projects use it indirectly.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Developers should also stop passing raw user input into listRemote() or raw(). Checking values against a fixed list of allowed repository URLs and branch names is a safer habit. Running the app as a low-rights user adds another layer of protection.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Node.js libraries that run system commands have been a steady source of serious problems. A <a href=\"https://cybersecuritynews.com/node-js-library-exposes-windows/\" target=\"_blank\" rel=\"noreferrer noopener\">command injection flaw in the systeminformation package</a> followed the same idea of unchecked input reaching a shell.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Teams should also keep strict control of their dependencies, as shown when the <a href=\"https://cybersecuritynews.com/keyv-npm-package-compromised/\" target=\"_blank\" rel=\"noreferrer noopener\">Keyv package compromise</a> reached millions of weekly installs. Use lockfiles, run npm ci in build systems, and review updates before they ship.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>What Are Leading Organizations Doing About AI and Cyber Risks? Find Out. <a href=\"https://www.americanconference.com/cybersecurity-law/request-brochure/?utm_medium=affiliate&amp;utm_source=cybersecuritynews&amp;utm_campaign=F27_awareness\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">View Details!</a></strong></strong></strong></strong></strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n<p>The post <a href=\"https://cybersecuritynews.com/node-js-simple-git-library-flaw/\">Critical Node.js simple-git Library Vulnerability Enables Remote Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:0bd803e9ca7c79c60f4b7b44f7b11db260916661bd2cd9d13ae47bf6a5c6033e",
    "url": "https://cybersecuritynews.com/cisco-expressway-vulnerability-exploited",
