@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-24T14:00:31Z",
+ "updated_at": "2026-11-24T15:01:04Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-24T14:00:31Z",
+  "last_success_at": "2026-11-24T15:01:04Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:555a417fb4d599534bf4378bc6f0de3d4f213d538cfac3d6b8d40b79739f5d97",
+   "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information",
+   "title": "McDonald's Japan data breach exposes customer location information",
+   "published_at": "2026-11-24T14:09:37Z",
+   "published_raw": "Tue, 24 Nov 2026 09:09:37 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:cdf911afcab4ff07527aeaa9b28e6e1b85a8357c6d15aba35fb68691bda3c997",
    "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits",
@@ -19,7 +40,6 @@
    "categories": [
     "security",
     "Artificial Intelligence",
-    "Deals",
     "Linux"
    ],
    "description": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services. [...]",
