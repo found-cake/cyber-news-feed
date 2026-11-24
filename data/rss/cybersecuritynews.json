@@ -1,15 +1,86 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-24T08:00:19Z",
+ "updated_at": "2026-11-24T09:00:22Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-24T08:00:19Z",
+  "last_success_at": "2026-11-24T09:00:22Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:4e209949840aa6b9e6c7b42d44c404731893755a6a706968366d39641eadb723",
+   "url": "https://cybersecuritynews.com/microsoft-365-copilot-flaw",
+   "title": "Microsoft 365 Copilot Vulnerability Allow Attacker to Elevate Privileges Over a Network",
+   "published_at": "2026-11-24T08:28:18Z",
+   "published_raw": "Tue, 24 Nov 2026 08:28:18 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Microsoft",
+    "Vulnerability",
+    "cyber security"
+   ],
+   "description": "<p>Microsoft disclosed a critical Microsoft 365 Copilot vulnerability that could let an attacker with limited privileges gain higher permissions over a network without any action from another user. The flaw, tracked as CVE-2026-50691, was released on November 19, 2026, and received a CVSS 3.1 base score of 9.9 out of 10. Microsoft says customers do [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-365-copilot-flaw/\">Microsoft 365 Copilot Vulnerability Allow Attacker to Elevate Privileges Over a Network</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=173972",
+   "authors": [
+    {
+     "name": "Dhivya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Microsoft-365-Copilot-Flaw-Lets-Attackers-Gain-Elevated-Privileges-Without-User-Interaction-1.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "173972",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Microsoft disclosed a critical Microsoft 365 Copilot vulnerability that could let an attacker with limited privileges gain higher permissions over a network without any action from another user. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw, tracked as CVE-2026-50691, was released on November 19, 2026, and received a CVSS 3.1 base score of 9.9 out of 10. Microsoft says customers do not need to take any action to resolve it.</p>\n\n\n\n<h2 id=\"h-microsoft-365-copilot-flaw\" class=\"wp-block-heading\"><strong>Microsoft 365 Copilot Flaw</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The distinction is that no user interaction does not mean no initial access. The attacker needs some permissions before exploiting the flaw, but does not need another user to click a link, open a file, or approve a request. That separates this issue from SearchLeak, a <a target=\"_blank\" href=\"https://cybersecuritynews.com/microsoft-365-copilot-one-click-vulnerability/\" rel=\"noopener\">one-click Microsoft 365 Copilot flaw</a> that Cyber Security News covered in June.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft classified the weakness as improper authorization, or CWE-285. Authorization is the check that decides what someone can do after the service knows who they are. When that check is missing or applied incorrectly, a user can gain access to a resource or action that their existing permissions should block.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft’s assessment describes a network-reachable flaw with low attack complexity. It also rates the potential impact on confidentiality, integrity, and availability as high.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In plain terms, a successful attack could put protected data, its accuracy, and access to affected resources at risk. The score also reflects a change in scope, meaning the impact could extend beyond the security boundary of the affected component. These ratings describe potential impact, not confirmed customer harm.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft’s assessment listed the flaw as not exploited at publication. The <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50691\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Microsoft Security Response Center advisory</a> says no customer action is required, so administrators do not need to install a local update for this CVE.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This flaw is separate from <a target=\"_blank\" href=\"https://cybersecuritynews.com/zero-click-microsoft-365-copilot-vulnerability/\" rel=\"noopener\">EchoLeak</a>, an earlier Copilot issue that could expose information without user interaction and did not require an attacker to have prior access. Here, the reported impact is higher privileges for an attacker who already has limited access.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The update does not eliminate the necessity of reviewing existing permissions. Microsoft’s Copilot security guidance advises checking SharePoint sites for files shared too broadly and restricting access to only those who need it. This review addresses a separate risk: even if Copilot enforces permissions accurately, it can still make files easier to find for users who already have more access than intended.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>What Are Leading Organizations Doing About AI and Cyber Risks? Find Out. <a href=\"https://www.americanconference.com/cybersecurity-law/request-brochure/?utm_medium=affiliate&amp;utm_source=cybersecuritynews&amp;utm_campaign=F27_awareness\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">View Details!</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-365-copilot-flaw/\">Microsoft 365 Copilot Vulnerability Allow Attacker to Elevate Privileges Over a Network</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:25ad99f2f0a02b0d7980971520205ac519f7fd221911bafc471f11e7a16b0e50",
+   "url": "https://cybersecuritynews.com/critical-n-able-mail-assure-ssrf-vulnerability",
+   "title": "Critical N-able Mail Assure SSRF Vulnerability Allows Attackers to Reach Internal Systems via LDAP Sync",
+   "published_at": "2026-11-24T08:16:15Z",
+   "published_raw": "Tue, 24 Nov 2026 08:16:15 +0000",
+   "categories": [
+    "Cyber Security News",
+    "Vulnerability",
+    "cyber security"
+   ],
+   "description": "<p>N-able has patched a critical vulnerability in MailAssure, also known as SpamExperts, that lets an attacker with privileged API access reach internal network services through the email security platform. The flaw, tracked as CVE-2026-134624, carries a CVSS 4.0 score of 9.3. N-able’s November 22 security advisory identifies build 20261121.1943 as the fix and lists all [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-n-able-mail-assure-ssrf-vulnerability/\">Critical N-able Mail Assure SSRF Vulnerability Allows Attackers to Reach Internal Systems via LDAP Sync</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=173939",
+   "authors": [
+    {
+     "name": "Dhivya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Critical-N-able-Mail-Assure-SSRF-Vulnerability-Allows-Attackers-to-Reach-Internal-Systems-via-LDAP-Sync-1.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "173939",
+     "content_encoded": "<p class=\"wp-block-paragraph\">N-able has patched a critical vulnerability in MailAssure, also known as SpamExperts, that lets an attacker with privileged API access reach internal network services through the email security platform. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw, tracked as CVE-2026-134624, carries a CVSS 4.0 score of 9.3. <a href=\"https://me.n-able.com/s/security-advisory/aArVy0000002mrlKAA/cve2026134624-mailassure-ldap-sync-connection-check-ssrf\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">N-able’s November 22 security advisory</a> identifies build 20261121.1943 as the fix and lists all earlier builds as affected.</p>\n\n\n\n<h2 id=\"h-n-able-mail-assure-ssrf-vulnerability\" class=\"wp-block-heading\"><strong>N-able Mail Assure SSRF Vulnerability </strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The disclosure follows a November 16 service disruption affecting Mail Assure and SpamExperts Hosted Cloud. As Cyber Security News reported in its <a href=\"https://cybersecuritynews.com/n-able-confirms-server-breach/\" target=\"_blank\" rel=\"noopener\">coverage of the N-able server breach</a>, the company confirmed unauthorized access to one hosted server and disabled management access while it responded. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Dashboard and API access returned late on November 21. The advisory does not establish how the attacker first gained access to the hosted environment.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The flaw affects a connection check that MailAssure runs for LDAP synchronization when a mail relay is configured. As <a target=\"_blank\" href=\"https://documentation.n-able.com/mail-assure/userguide/Content/C_Domain%20Level/ldap/conf-ldap-sync.htm\" rel=\"noopener\">N-able’s LDAP mailbox sync guide</a> explains, LDAP, short for Lightweight Directory Access Protocol, lets MailAssure query an organization’s directory and keep its mailbox and alias lists up to date. The problem was not with LDAP itself. MailAssure failed to limit where its server could connect during the check.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That makes the flaw a server-side request forgery, or SSRF, classified as CWE-918. A user with the required API privileges can make the MailAssure server connect to internal hosts and ports, learn which services are reachable, and send specially prepared data to them. The distinction matters: internal services do not need to be exposed to the internet for the MailAssure server to reach them.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The risk is similar to that described in Cyber Security News’ <a target=\"_blank\" href=\"https://cybersecuritynews.com/cisa-warns-of-zcs-vulnerability/\" rel=\"noopener\">coverage of the Zimbra SSRF vulnerability</a>: a trusted server can reach systems that an outside user cannot contact directly. In this case, the severity rating specifies that high privileges are required, but no other user needs to take action. N-able’s advisory describes internal network access, not remote code execution.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations running MailAssure or SpamExperts should verify that their service is on build 20261121.1943 or later. Customers who cannot check the build themselves should ask their provider to confirm that the fix is in place. The <a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-134624\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">National Vulnerability Database entry</a> records the flaw, which CISA added to its Known Exploited Vulnerabilities catalog on November 23.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators should review who holds privileged API credentials and check available logs for unexpected relay changes or connections from MailAssure to systems outside its normal directory setup. The patch closes the vulnerable connection check, but it cannot show whether someone misused it beforehand. Hosted customers without access to those logs may need help from their provider.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>What Are Leading Organizations Doing About AI and Cyber Risks? Find Out. <a href=\"https://www.americanconference.com/cybersecurity-law/request-brochure/?utm_medium=affiliate&amp;utm_source=cybersecuritynews&amp;utm_campaign=F27_awareness\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">View Details!</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-n-able-mail-assure-ssrf-vulnerability/\">Critical N-able Mail Assure SSRF Vulnerability Allows Attackers to Reach Internal Systems via LDAP Sync</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:9140bfe3e1cadd5f575a54b90c3bc2e9c5dd38a68d0a797d2867fd5b78ff4454",
    "url": "https://cybersecuritynews.com/ai-powered-hackers",
