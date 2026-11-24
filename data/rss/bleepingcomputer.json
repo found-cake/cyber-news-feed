@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-24T17:00:21Z",
+ "updated_at": "2026-11-24T18:00:30Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-24T17:00:21Z",
+  "last_success_at": "2026-11-24T18:00:30Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:f37d9af93d8e4533102363297485b71b841eee8f71b43067eae0ca5038b3068e",
+   "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys",
+   "title": "Radware discloses breach exposing customer cloud access keys",
+   "published_at": "2026-11-24T17:49:05Z",
+   "published_raw": "Tue, 24 Nov 2026 12:49:05 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+   "authors": [
+    {
+     "name": "Sergiu Gatlan",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:2b253047a04a8f8901139c035cd18c94333a5b13bec06ae6440ff3a48611fae1",
    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof",
@@ -1494,28 +1515,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:db6ca16c4a17b4e226df132b8753a27b9c9676ec2d7f9ed15e9ca6f4a8f34914",
-   "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension",
-   "title": "Cursor confirms security breach led to malicious Claude Code extension",
-   "published_at": "2026-11-14T17:27:25Z",
-   "published_raw": "Sat, 14 Nov 2026 12:27:25 -0500",
-   "categories": [
-    "security",
-    "Artificial Intelligence"
-   ],
-   "description": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
-   "authors": [
-    {
-     "name": "Lawrence Abrams",
      "uri": "",
      "email": ""
     }
