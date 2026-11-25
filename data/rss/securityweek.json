@@ -1,15 +1,50 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-25T09:00:24Z",
+ "updated_at": "2026-11-25T10:00:32Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-25T09:00:24Z",
+  "last_success_at": "2026-11-25T10:00:32Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:b018a12c3f9e06a0c0a93c6c8ba3ec53dcdf681714ec830d44131715fefbcaff",
+   "url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library",
+   "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
+   "published_at": "2026-11-25T09:05:13Z",
+   "published_raw": "Wed, 25 Nov 2026 09:05:13 +0000",
+   "categories": [
+    "Vulnerabilities",
+    "CISA KEV",
+    "exploited",
+    "Idunno",
+    "vulnerability"
+   ],
+   "description": "<p>Attackers can exploit CVE-2026-131914 to achieve remote code execution via a single web request containing specially crafted data.</p>\n<p>The post <a href=\"https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/\">Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=51053",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:029ece4412198d696b059730c0b754efeb9b2276f403c9dda171e4ded3ce11ad",
    "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls",
