@@ -1,15 +1,84 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-25T03:00:20Z",
+ "updated_at": "2026-11-25T04:00:25Z",
  "retention_days": 10,
  "status": {
-  "ok": false,
-  "last_success_at": "2026-11-25T02:00:18Z",
-  "last_error_at": "2026-11-25T03:00:20Z",
-  "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+  "ok": true,
+  "last_success_at": "2026-11-25T04:00:25Z",
+  "last_error_at": null,
+  "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:5259a09a437792203c2628372ae23f1a6d2471444d877c0e34231f566135f9aa",
+   "url": "https://cybersecuritynews.com/microsoft-declares-code-red",
+   "title": "Microsoft Declares Code Red After Historic 24-Hour Outage Disrupts Outlook, Teams and Copilot",
+   "published_at": "2026-11-25T03:05:16Z",
+   "published_raw": "Wed, 25 Nov 2026 03:05:16 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Tech News"
+   ],
+   "description": "<p>Microsoft has declared an internal “Code Red” after a nearly 24-hour Microsoft 365 outage disrupted Outlook, Teams, Copilot and Exchange Online on November 12 and 13, 2026. Reuters reported that the company is making it a top priority to prevent major service failures and recover faster when they happen. CEO Satya Nadella publicly apologized. Microsoft [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-declares-code-red/\">Microsoft Declares Code Red After Historic 24-Hour Outage Disrupts Outlook, Teams and Copilot</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=174433",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Microsoft-Declares-Code-Red.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "174433",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Microsoft has declared an internal “Code Red” after a nearly 24-hour Microsoft 365 outage disrupted Outlook, Teams, Copilot and Exchange Online on November 12 and 13, 2026.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Reuters reported</a> that the company is making it a top priority to prevent major service failures and recover faster when they happen. CEO Satya Nadella publicly apologized. Microsoft said neither a cyberattack nor AI agents caused the outage.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Jason Henderson, president of Microsoft 365 Core, told staff that no previous Exchange Online outage had left so many customers without email for so long.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As Cyber Security News reported in its <a href=\"https://cybersecuritynews.com/massive-microsoft-365-outage/\" target=\"_blank\" rel=\"noreferrer noopener\">initial Microsoft 365 outage coverage</a>, Microsoft first investigated mailbox access problems in the Americas before warning that users in any region could be affected. The disruption also reached SharePoint and Microsoft Defender XDR.</p>\n\n\n\n<h2 id=\"h-windows-defect-took-down-microsoft-365\" class=\"wp-block-heading\"><strong>Windows Defect Took Down Microsoft 365</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft traced the failure to a Windows defect introduced in July on servers that handle incoming connections to Microsoft 365. As our <a href=\"https://cybersecuritynews.com/microsoft-outage-incident-report/\" target=\"_blank\" rel=\"noreferrer noopener\">breakdown of Microsoft’s incident report</a> explains, the defect affected Microsoft’s cloud gateways, not ordinary Windows installations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Internal tasks competed for shared resources until the servers ran short of processing power and memory. Tests missed the problem because it was worse on newer servers with more processor cores.</p>\n\n\n\n<p class=\"wp-block-paragraph\">About 15 hours before the outage, Teams traffic moved to the main gateway it shared with Exchange Online. Nearly 14% of gateway capacity was already unavailable because of a separate issue. As servers stopped responding, automated recovery shifted connections to healthy machines, putting them under the same pressure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">At the worst point, more than 80% of the gateway servers became unresponsive. Exchange Online could not move enough traffic to alternate routes to keep mailboxes available.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Engineers restored an earlier way of handling connections, restarted groups of servers, and gradually brought traffic back. Microsoft also extended the email delivery timeout to 48 hours so messages waiting in queues would have more time to reach recipients rather than being returned as undeliverable.</p>\n\n\n\n<h2 id=\"h-microsoft-sets-a-one-hour-recovery-target\" class=\"wp-block-heading\"><strong>Microsoft Sets a one-hour Recovery Target</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The outage exposed a coordination problem as well as a technical one. Microsoft corporate vice president Amanda Silver told staff that engineers exchanged more than 11,000 messages across 11 Teams chats while diagnostic data remained scattered across separate systems. That made it harder for responders to track what colleagues had checked, suspected, and decided to do.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft plans to limit incoming requests when servers are overloaded and separate traffic by region so failures are less likely to spread. It also plans to use AI agents to help engineers review diagnostic data.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company aims to restore service worldwide within an hour during future incidents. It is an internal target, not a customer guarantee.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The outage disrupted government operations, delayed trading firms and affected airline communications. The <a href=\"https://hansard.parliament.uk/Commons/2026-11-16/debates/52FEDF8F-7F19-47A6-9FB7-1930054C9061/Microsoft365Outage\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">UK Parliament’s debate on the outage</a> put the wider risk in focus: separate apps can still depend on the same infrastructure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators reviewing their response can look up <code>MO1550821</code> for the broader outage and <code>EX1550543</code> for mailbox access in the Microsoft 365 admin center. Microsoft’s <a href=\"https://status.cloud.microsoft/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">public service status page</a> offers another place to check when the admin center is unavailable.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For incident response teams, the practical test is whether staff can reach one another and share updates when Outlook and Teams go down at the same time.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>What Are Leading Organizations Doing About AI and Cyber Risks? Find Out. <a href=\"https://www.americanconference.com/cybersecurity-law/request-brochure/?utm_medium=affiliate&amp;utm_source=cybersecuritynews&amp;utm_campaign=F27_awareness\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">View Details!</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-declares-code-red/\">Microsoft Declares Code Red After Historic 24-Hour Outage Disrupts Outlook, Teams and Copilot</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:adcab65694d790faade0d201a0c33d898512c2671b4531719fec266cd8bbe27a",
+   "url": "https://cybersecuritynews.com/cia-and-odni-suffer-cyberattack",
+   "title": "CIA and ODNI Reportedly Suffer Cyberattack Exposing Unclassified U.S. Intelligence Information",
+   "published_at": "2026-11-25T02:32:38Z",
+   "published_raw": "Wed, 25 Nov 2026 02:32:38 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>The Central Intelligence Agency (CIA) and the Office of the Director of National Intelligence (ODNI) recently discovered a cyberattack that exposed some unclassified U.S. intelligence information. The intrusion affected a shared network used to analyze publicly available material. The New York Times first reported the breach on November 24, citing U.S. officials and other people [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cia-and-odni-suffer-cyberattack/\">CIA and ODNI Reportedly Suffer Cyberattack Exposing Unclassified U.S. Intelligence Information</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=174416",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/CIA-and-ODNI-Suffer-Cyberattack.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "174416",
+     "content_encoded": "<p class=\"wp-block-paragraph\">The Central Intelligence Agency (CIA) and the Office of the Director of National Intelligence (ODNI) recently discovered a cyberattack that exposed some unclassified U.S. intelligence information.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The intrusion affected a shared network used to analyze publicly available material. <a href=\"https://www.nytimes.com/2026/11/24/us/politics/spy-agencies-computer-network-breaches.html\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">The New York Times first reported the breach</a> on November 24, citing U.S. officials and other people familiar with the incident.</p>\n\n\n\n<p class=\"wp-block-paragraph\">ODNI told CNN that there had been “no disruptions to critical capabilities or classified systems.” Officials familiar with the incident said no classified information was affected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That does not mean the unclassified network stayed online without interruption. A CIA official told the Washington Examiner that the affected network was disrupted and that the issue had been resolved.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The full scope remains unclear. The Times also reported that the National Geospatial-Intelligence Agency was affected, citing two people familiar with the matter.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Public reports have not identified the specific files or records exposed, how the intruders gained access, or how long they were inside. U.S. officials have not publicly named a person, group, or government responsible.</p>\n\n\n\n<h2 id=\"h-intelligence-network-targeted\" class=\"wp-block-heading\"><strong>Intelligence Network Targeted</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The system supported open-source intelligence, or OSINT. The CIA and ODNI define this as intelligence drawn from public or commercially available information to answer specific questions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Their <a href=\"https://www.cia.gov/stories/story/ic-osint-strategy-rollout/\">joint 2024–2026 open-source intelligence strategy</a> calls for agencies to coordinate how they acquire that data, share it more widely across the intelligence community, and improve the tools analysts use to make sense of it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The distinction between open sources and an open system matters. A news report or commercial database may be available outside government, but a shared workspace can show which sources analysts trust, which events they track, and what they have concluded. Those examples show why an unclassified analysis system can be sensitive, not what was exposed in this breach.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A separate incident illustrates the difference. In July 2025, Cyber Security News covered the <a href=\"https://cybersecuritynews.com/cia-intelligence-website-compromised/\" target=\"_blank\" rel=\"noreferrer noopener\">breach of a contracting portal used by the CIA and other agencies</a>. The unclassified portal, run by the National Reconnaissance Office, held information submitted by vendors supporting intelligence programs.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It was a different system, but the case showed why a platform’s classification alone does not tell readers how sensitive its records may be.</p>\n\n\n\n<h2 id=\"h-no-link-established-to-fbi-or-usda-incidents\" class=\"wp-block-heading\"><strong>No link established to FBI or USDA incidents</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The disclosure follows reports of a possible breach involving the FBI’s National Crime Information Center, a database used by federal, state, and local law enforcement.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That the intelligence breach did not appear linked to that case. The database incident is also distinct from the <a href=\"https://cybersecuritynews.com/fbi-investigates-hack/\">FBI wiretap and surveillance network incident</a> covered in March.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The U.S. Department of Agriculture also discovered a cybersecurity incident that led it to take some internal applications offline. No public evidence has tied that incident to the CIA and ODNI breach. The timing puts federal network security under scrutiny, but it does not show that the incidents had a common attacker or entry point.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For the intelligence breach, the key unanswered question is whether the intruders reached only source material or also accessed internal analysis and records showing what agencies were studying.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Restoring the network and determining what was viewed or copied are separate tasks. Officials have addressed the disruption, but the public account does not yet establish the full extent of the exposure.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong>What Are Leading Organizations Doing About AI and Cyber Risks? Find Out. <a href=\"https://www.americanconference.com/cybersecurity-law/request-brochure/?utm_medium=affiliate&amp;utm_source=cybersecuritynews&amp;utm_campaign=F27_awareness\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">View Details!</a></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/cia-and-odni-suffer-cyberattack/\">CIA and ODNI Reportedly Suffer Cyberattack Exposing Unclassified U.S. Intelligence Information</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:489a4420ecd430d3a56f148cf05ec679f5edfba60e02e1753a917140977e5eea",
    "url": "https://cybersecuritynews.com/mcdonalds-japan-data-breach",
