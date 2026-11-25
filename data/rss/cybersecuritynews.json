@@ -1,15 +1,85 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-25T08:00:26Z",
+ "updated_at": "2026-11-25T09:00:24Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-25T08:00:26Z",
+  "last_success_at": "2026-11-25T09:00:24Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:5ca15b0d643ecaf4b028c56b89310d3709ca41ec10ccc1f500b11416641c2aee",
+   "url": "https://cybersecuritynews.com/claude-ai-agents-can-escape-sandboxes",
+   "title": "Anthropic Research Reveals Claude AI Agents Can Escape Sandboxes and Access Restricted Data",
+   "published_at": "2026-11-25T08:51:49Z",
+   "published_raw": "Wed, 25 Nov 2026 08:51:49 +0000",
+   "categories": [
+    "AI",
+    "Cyber Security News",
+    "cyber security"
+   ],
+   "description": "<p>Anthropic says Claude AI agents accessed and, in some cases, used restricted test data while carrying out routine software tasks in deliberately weakened sandboxes. In its Nov. 24 Siren research report, the company found that four recent Claude models reached or tried to reach beyond their sandbox in 21% to 32% of scenarios. They used [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-ai-agents-can-escape-sandboxes/\">Anthropic Research Reveals Claude AI Agents Can Escape Sandboxes and Access Restricted Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=174460",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Anthropic-Research-Reveals-Claude-AI-Agents-Can-Escape-Sandboxes-and-Access-Restricted-Data.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "174460",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Anthropic says Claude AI agents accessed and, in some cases, <a href=\"https://cybersecuritynews.com/unauthorized-openai-codex/\" target=\"_blank\" rel=\"noreferrer noopener\">used restricted test data </a>while carrying out routine software tasks in deliberately weakened sandboxes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In its Nov. 24 Siren research report, the company found that four recent Claude models reached or tried to reach beyond their sandbox in 21% to 32% of scenarios. They used outside material without clear permission far less often. The findings come from controlled tests, not a reported breach of customer data.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A sandbox is an isolated workspace that limits which files, tools, and network services an AI agent can access. Anthropic built more than 1,700 scenarios across 26 deliberately weakened environments, <a href=\"https://cybersecuritynews.com/copyescape-docker-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">including Docker containers</a> and small virtual machines.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUVSra2YIB_dhiC1WHXlzQDl2us0prst-t-nDuaWmyWHdG1N2dnLZIxo5bEsSt4jsTVxNR1bmwElM98xmTwpV5BsEYy97-3lGVweiDkdN5_1S0QF3k6eIXKyYoyk1xnisA_qsq11ISaAeiz3B5g-MhZj5VPANe6rGJiKdZqyAAC4S1LVBEZor14pHRU6k/s1600/Screenshot%202026-11-25%20113015%20%281%29.webp\" alt=\"Four-Stage Scenario Generation and Validation Process (source : anthropic )\"/><figcaption class=\"wp-element-caption\">Four-Stage Scenario Generation and Validation Process (source : Anthropic)<br></figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Most weaknesses were setup errors, not software bugs. Researchers placed useful test files, credentials, or a simulated internet service outside the sandbox. Some tasks could not be finished with the resources the agent was allowed to use.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An attempt to reach outside did not count as proof that the agent obtained or used restricted data. Siren tracked those actions separately and used the term “misaligned use” for cases where no reasonable reading of the task allowed the agent to use what it found.</p>\n\n\n\n<h2 id=\"h-anthropic-finds-claude-ai-sandbox-escape-risks\" class=\"wp-block-heading\"><strong>Anthropic Finds Claude AI Sandbox Escape Risks</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The Claude 5.5 series and Claude Mythos 5.2 did so in 0.6% to 1.6% of all scenarios, compared with 12.7% for Mythos 5.1 and 25.8% for Mythos 5.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhb4OHgxYIOhf2SCpZHyccVtnw2ptvhkfD9wiB2-ofrOQvSDQXCkrfEcU1DWgpdNoa_0Y9XdjDTRftb1Nz90q45CaQvQeDrE0W_GBQaYpIuuTJsdNAWpPQ_gpxW2d0OIm-T9RJ3fiBamVL13f4W3a6O-84ozXSy1HCJTi2WGuPmth3Wqq00mNqA6BzU1Zc/s1600/Screenshot%202026-11-25%20113035%20%281%29.webp\" alt=\"Reaching outside, use and misaligned use, by model (source : anthropic )\"/><figcaption class=\"wp-element-caption\">Reaching outside, use and misaligned use, by model (source : Anthropic)</figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Anthropic ran the six models without the safeguards that ship with released products to see how they behaved on their own. The company has not fully explained why newer models misused outside material less often.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Several models also appeared to realize they were being tested, and researchers could not say whether that made them more cautious. Cyber Security News previously reported on <a href=\"https://cybersecuritynews.com/anthropic-hardens-claude-security/\" target=\"_blank\" rel=\"noopener\">Anthropic tightening controls after separate testing incidents</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The simplest change was to tell Claude exactly what was off-limits and to stop and report when a task required something the agent hadn&#8217;t been given. Those instructions made models 68% to 96% less likely to reach outside, depending on the model.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjifTq1jMwzzKQkVBEN1PNwn5J4QxtzK4YRdmcI2n4K-recEBA_lgGtkdeNYFu8J3QB3NqqUG1KMkibcaEdFDfL4S25S5UTcEWgRGXrabRjR4npd6k5RtPw1s4gwHTXhbGBC-K2PFHJPyT4Yj8yWGr4hEHfGE6R_IpcxrmlOEOQq686-XXSEmJSaUtDlAQ/s1600/Screenshot%202026-11-25%20113043%20%281%29.webp\" alt=\"Commands Blocked by Auto Mode Classifier (source : anthropic )\"/><figcaption class=\"wp-element-caption\">Commands Blocked by Auto Mode Classifier (source : Anthropic)<br></figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">For the Claude 5.5 series and Mythos 5.2, the rate fell to about 2% or less. Giving agents a tool to report sandbox weaknesses also reduced the rate across all six models.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Anthropic also tested <a href=\"https://cybersecuritynews.com/claude-code-shifts-agent-security/\" target=\"_blank\" rel=\"noopener\">Claude Code’s auto mode</a>, which checks proposed actions before they run. In an offline replay, it blocked the first command that read or fetched restricted test material in 96% to 100% of cases classified as misaligned use.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDGkoDE3ZyCIILEH0RQykTBNQoA9ZmwsfrQPW0HuDVxu2AUUFdU0D5PlM6E2ChIDB2xfwhbqKcpF8Aff7q9veXD3Dg390dCiZTndAaIzB-_aI79W-ra7gYVb6vvebDbKmJdE9RGYP7N7uAfG2P7YqYJB6V_hNuu5g7BX3TUWebsGvLAwrv4MFMXIvtvWk/s1600/Screenshot%202026-11-25%20113106%20%281%29.webp\" alt=\"Combining all three mitigations, by model (source : anthropic )\"/><figcaption class=\"wp-element-caption\">Combining all three mitigations, by model (source : Anthropic)</figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://safeguards.anthropic.com/2026/siren/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Anthropic tuned the checks on those same test runs</a>, so the results do not show how well auto mode would handle unfamiliar cases.</p>\n\n\n\n<p class=\"wp-block-paragraph\">With clear rules, reporting tools, and auto mode in place, five models recorded no misaligned use, while Mythos 5 recorded 0.1%. Two models completed about nine percentage points fewer tasks than they could have finished within the sandbox.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That trade-off matters for teams putting agents to work. A blocked task can be sent back to a person for review, but a prompt cannot repair a weak sandbox. Teams still need to patch the software and enforce file and network limits outside the model.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong><strong><strong>What Are Leading Organizations Doing About AI and Cyber Risks? Find Out. <a href=\"https://www.americanconference.com/cybersecurity-law/request-brochure/?utm_medium=affiliate&amp;utm_source=cybersecuritynews&amp;utm_campaign=F27_awareness\" target=\"_blank\" rel=\"noopener\">View Details!</a></strong></strong></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-ai-agents-can-escape-sandboxes/\">Anthropic Research Reveals Claude AI Agents Can Escape Sandboxes and Access Restricted Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:f724c318253ebfe2654552f5e3faf90344da35c8a572619de04527995319d719",
+   "url": "https://cybersecuritynews.com/palo-alto-confirms-fragnesia-exploitation",
+   "title": "Palo Alto Networks Confirms Hackers Are Exploiting Fragnesia Flaw to Gain Root Access to Firewalls",
+   "published_at": "2026-11-25T08:08:43Z",
+   "published_raw": "Wed, 25 Nov 2026 08:08:43 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Vulnerability"
+   ],
+   "description": "<p>Palo Alto Networks has confirmed that hackers are exploiting Fragnesia tracked as CVE-2026-46300, a Linux kernel flaw to gain root access to firewalls running PAN-OS. The company said all observed attacks targeted devices with management interfaces exposed to the internet. It urged customers with publicly reachable management interfaces to upgrade immediately and restrict access to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-confirms-fragnesia-exploitation/\">Palo Alto Networks Confirms Hackers Are Exploiting Fragnesia Flaw to Gain Root Access to Firewalls</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=174452",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Palo-Alto-Networks-Confirms-Hackers-Are-Exploiting-Fragnesia-Flaw-to-Gain-Root-Access-to-Firewalls.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "174452",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Palo Alto Networks has confirmed that hackers are <a href=\"https://cybersecuritynews.com/linux-kernel-missing-initialization-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">exploiting Fragnesia tracked as CVE-2026-46300, </a>a Linux kernel flaw to gain root access to firewalls running PAN-OS.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company said all observed attacks targeted devices with management interfaces exposed to the internet. It urged customers with publicly reachable management interfaces to upgrade immediately and restrict access to trusted internal IP addresses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The November 25 <a href=\"https://security.paloaltonetworks.com/PAN-SA-2026-0015\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">PAN-OS security bulletin lists fixes</a> across five software branches. Palo Alto Networks marked the bulletin as informational, but its advice depends on how administrators reach the device.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Customers who already limit management access to trusted internal addresses face significantly less risk and can upgrade at their next maintenance window. The bulletin does not say how many firewalls were compromised.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As Cyber Security News reported in its <a href=\"https://cybersecuritynews.com/fragnesia-linux-vulnerability/\" target=\"_blank\" rel=\"noopener\">earlier coverage of the Fragnesia Linux flaw</a>, the bug is a local privilege escalation flaw. That means it can give someone with limited access much greater control.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In this case, Fragnesia gives attackers root access, the highest level of permission on the underlying operating system. Root access can let an attacker alter system files and interfere with the firewall&#8217;s operation.</p>\n\n\n\n<h2 id=\"h-palo-alto-confirms-fragnesia-exploitation\" class=\"wp-block-heading\"><strong>Palo Alto Confirms Fragnesia Exploitation</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">Fragnesia is not the initial way in. Palo Alto Networks says the only known <a href=\"https://cybersecuritynews.com/php2shell-gained-root-access-on-25-servers/\" target=\"_blank\" rel=\"noreferrer noopener\">attack path starts with PHP2Shell</a> through an internet-facing management interface.</p>\n\n\n\n<p class=\"wp-block-paragraph\">PHP2Shell lets attackers run code on a vulnerable device, while Fragnesia elevates that code&#8217;s permissions to root. The new bulletin follows <a href=\"https://cybersecuritynews.com/palo-alto-php2shell-exploitation/\" target=\"_blank\" rel=\"noopener\">October reporting on PHP2Shell attacks against PAN-OS</a>, when the company&#8217;s Unit 42 researchers confirmed that attackers were combining the flaws.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Fixed builds include 10.2.18-h15 for PAN-OS 10.2, 11.1.16-h6 for 11.1, 11.2.16-h3 for 11.2, 12.1.10-h6 for 12.1, and 12.2.4-h3 for 12.2.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The bulletin lists other fixed builds for customers on earlier maintenance releases. Administrators should check the full version number, including the hotfix suffix, against the vendor&#8217;s list before upgrading.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Palo Alto Networks says versions listed as fixed in its PHP2Shell advisory also protect against the observed attack because they block the first step. That does not mean every PHP2Shell fix also patches the kernel flaw. For example, PAN-OS 12.2.4-h1 fixes PHP2Shell, while 12.2.4-h3 is the build listed as fixing Fragnesia itself.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Check both the dedicated management port and any network port with a management profile that enables administrative access. If either exposes management services to the internet, upgrade immediately and remove direct public access.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vendor&#8217;s administrative access guide recommends a separate management network and a jump server, a secured system that administrators sign in to before reaching the firewall.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For previously exposed devices, review available administrator activity and configuration logs for unexpected changes. Installing the update blocks the known attack path, but it cannot establish whether someone gained access before the update.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For teams that already restrict management to trusted internal IP addresses, Palo Alto Networks still recommends installing the Fragnesia fix during the next scheduled maintenance window.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong><strong><strong>What Are Leading Organizations Doing About AI and Cyber Risks? Find Out. <a href=\"https://www.americanconference.com/cybersecurity-law/request-brochure/?utm_medium=affiliate&amp;utm_source=cybersecuritynews&amp;utm_campaign=F27_awareness\" target=\"_blank\" rel=\"noopener\">View Details!</a></strong></strong></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-confirms-fragnesia-exploitation/\">Palo Alto Networks Confirms Hackers Are Exploiting Fragnesia Flaw to Gain Root Access to Firewalls</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:c4bb75464af228d8ddf40f68c146493c86e388e6819d6edccfb0f6f7d336d048",
    "url": "https://cybersecuritynews.com/stolen-ai-prompt-data",

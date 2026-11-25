@@ -1,15 +1,39 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-11-25T08:00:26Z",
+ "updated_at": "2026-11-25T09:00:24Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-25T08:00:26Z",
+  "last_success_at": "2026-11-25T09:00:24Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:2d9b527583111477e2b7a0d96fc2abf5441213947b300b214bd966ad2cd8e09c",
+   "url": "https://www.stepsecurity.io/blog/accurasofthire-fake-interview-developer-machines",
+   "title": "The Take-Home Test That Runs on Your Work Laptop: Inside the AccuraSoftHire Fake Interview Campaign",
+   "published_at": "2026-11-25T08:38:56Z",
+   "published_raw": "Wed, 25 Nov 2026 08:38:56 GMT",
+   "categories": [],
+   "description": "Binance says its $6.34 billion theft began when an engineer ran a fake interview assignment on his work computer. JFrog has now exposed a fake company, AccuraSoftHire, built to run the same trick. We decoded the attacker's server history from a public Ethereum wallet and found npm packages from the interview task that stayed installable for up to seven months. Here is what to check on your developer machines.",
+   "feed_id": "https://www.stepsecurity.io/blog/accurasofthire-fake-interview-developer-machines",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc104b00c3796d657efd84_6afc1024a3e5238386d1fbb4_accurasofthire-cover-v3.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc104b00c3796d657efd84_6afc1024a3e5238386d1fbb4_accurasofthire-cover-v3.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:f23af9874ff4eaa683a6b58b9cdc10ac06487ed1a0c25008f6a2146538dd6e73",
    "url": "https://www.stepsecurity.io/blog/cve-2026-123007-nginx-http2-rce",
@@ -148,30 +172,6 @@
     },
     {
      "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc0b447c5fd15c7cbd3137_6afc0b1c10a1780e1a0ee05e_wppconnect-compromised-cover-centered.jpeg",
-     "kind": "content",
-     "medium": "image"
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:2d9b527583111477e2b7a0d96fc2abf5441213947b300b214bd966ad2cd8e09c",
-   "url": "https://www.stepsecurity.io/blog/accurasofthire-fake-interview-developer-machines",
-   "title": "The Take-Home Test That Runs on Your Work Laptop: Inside the AccuraSoftHire Fake Interview Campaign",
-   "published_at": "2026-11-18T02:45:57Z",
-   "published_raw": "Wed, 18 Nov 2026 02:45:57 GMT",
-   "categories": [],
-   "description": "Binance says its $6.34 billion theft began when an engineer ran a fake interview assignment on his work computer. JFrog has now exposed a fake company, AccuraSoftHire, built to run the same trick. We decoded the attacker's server history from a public Ethereum wallet and found npm packages from the interview task that stayed installable for up to seven months. Here is what to check on your developer machines.",
-   "feed_id": "https://www.stepsecurity.io/blog/accurasofthire-fake-interview-developer-machines",
-   "authors": [],
-   "media": [
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc104b00c3796d657efd84_6afc1024a3e5238386d1fbb4_accurasofthire-cover-v3.png",
-     "kind": "thumbnail",
-     "medium": ""
-    },
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6afc104b00c3796d657efd84_6afc1024a3e5238386d1fbb4_accurasofthire-cover-v3.png",
      "kind": "content",
      "medium": "image"
     }
