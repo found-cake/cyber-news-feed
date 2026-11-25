@@ -1,15 +1,86 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-25T10:00:32Z",
+ "updated_at": "2026-11-25T11:00:26Z",
  "retention_days": 10,
  "status": {
-  "ok": false,
-  "last_success_at": "2026-11-25T09:00:24Z",
-  "last_error_at": "2026-11-25T10:00:32Z",
-  "last_error": "fetch https://cybersecuritynews.com/feed/: unexpected feed response: received HTML content-type \"text/html\""
+  "ok": true,
+  "last_success_at": "2026-11-25T11:00:26Z",
+  "last_error_at": null,
+  "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:20329e0e96561aab9e62379483db472542d0f254d2da7c1443e8745829ebf68f",
+   "url": "https://cybersecuritynews.com/hisense-smart-tv-tracking-users",
+   "title": "Hisense Smart TV Found Tracking What Users Watch Even With Personalized Ads Turned Off",
+   "published_at": "2026-11-25T10:36:34Z",
+   "published_raw": "Wed, 25 Nov 2026 10:36:34 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Privacy"
+   ],
+   "description": "<p>A Hisense smart TV continued sending audio fingerprints to advertising firm Nexxen even with personalized ads disabled, while a separate Enhanced Viewing Service setting kept viewing tracking active. Testing a Hisense 55U65QEVS running VIDAA U09.60 revealed that disabling personalized ads does not stop viewing data collection. The technical analysis on GitHub documents what one television [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hisense-smart-tv-tracking-users/\">Hisense Smart TV Found Tracking What Users Watch Even With Personalized Ads Turned Off</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=174604",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hisense-Smart-TV-Found-Tracking-What-Users-Watch-Even-With-Personalized-Ads-Turned-Off-1.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "174604",
+     "content_encoded": "<p class=\"wp-block-paragraph\">A Hisense smart TV continued sending audio fingerprints to advertising firm Nexxen even with personalized ads disabled, while a separate Enhanced Viewing Service setting kept viewing tracking active.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Testing a Hisense 55U65QEVS running VIDAA U09.60 revealed that <a href=\"https://cybersecuritynews.com/duckduckgo-browser-blocks-youtube-ads/\" target=\"_blank\" rel=\"noreferrer noopener\">disabling personalized ads</a> does not stop viewing data collection.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The technical analysis on GitHub documents what one television sent. It does not establish whether every Hisense model or firmware version behaves the same way.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A background service called HamService <a href=\"https://cybersecuritynews.com/lg-smart-tvs-caught-scanning-networks/\" target=\"_blank\" rel=\"noreferrer noopener\">uses automatic content recognition, or ACR</a>, to identify what is playing. It takes sound from the TV’s audio decoder, not from the room microphone.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That puts audio from HDMI devices, such as consoles and cable boxes, within the tracker&#8217;s reach. The researcher did not verify the exact values sent in messages for HDMI or live TV.</p>\n\n\n\n<p class=\"wp-block-paragraph\">About four times a second, the service analyzes the previous second of sound across 72 frequency bands. Roughly every 2.7 seconds during playback, it sends a 90-byte fingerprint over an encrypted connection.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKwEpxjP4mf6hMnxnDMxkRYAmFdhquK4_dNrEpwPN4Pcaom2jn-CFunGUigy30oCGiCRcWzVF7LLe5UVWBwpUrkuvYotNPizrIvV_3UjUB4wnsWy9Kq-U8Cz7_I60uhML2Q_whfa-eTQJ_WUaytmWVnd0YADb6p6cYCbea7sI4smExxqXec7troJOjr2o/s1600/Screenshot%202026-11-25%20150911%20%281%29.web\" alt=\"Fingerprints Audio Across All Inputs, Including HDMI (source : github )\"/><figcaption class=\"wp-element-caption\">Fingerprints Audio Across All Inputs, Including HDMI (source: Gabriel Werneck)</figcaption></figure>\n\n\n\n<h2 id=\"h-hisense-tv-tracks-viewing-despite-ads-disabled\" class=\"wp-block-heading\"><strong>Hisense TV Tracks Viewing Despite Ads Disabled</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The captured messages also contained a device ID, timestamp, app name, and input number. The fingerprint is not a playable recording, but a matching service can compare it with known soundtracks.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/gwerneckp/vidaa-tv-spyware\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">According to Gabriel Werneck&#8217;s analysis</a>, the researcher recreated audio fingerprints using the soundtrack of Big B<em>uck Bunny</em> to examine the TV&#8217;s data transmissions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Across 20 captured messages, 88.5% of the bits matched, compared with about 55% for unrelated audio. Although Nexxen returned no match for the test film, the TV logged a documentary match during a separate viewing session.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj37UDClj0r1eiQ3mzGgyH9lzxAQ_IlbaAi24NMLnNi16qlqKIQnj3QoJYjiwYAgNalBsSElw6XUWOfwfbzdHZZX5fMtOHrXsTErMp9LS7lxRnv8otoxhUO4w1a2pZzHDKpbqdoWdUY2GBeg6eUh9hjIJwkPGDiqzZGTNMq1gM88SLyrgzGDB49J1mRAFo/s1600/Screenshot%202026-11-25%20150938%20%281%29.webp\" alt=\"Personalised Ads (source : github )\"/><figcaption class=\"wp-element-caption\">Personalised Ads (source: Gabriel Werneck )</figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Nexxen’s ACR data page says the company uses viewing data to help advertisers reach audiences based on what they watch, which ads they see and which apps they use.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Cyber Security News previously covered <a href=\"https://cybersecuritynews.com/your-smart-tvs-tracking-you/\" target=\"_blank\" rel=\"noopener\">smart TV tracking over HDMI</a> and <a href=\"https://cybersecuritynews.com/samsung-tv-tracking-after-users-turn-it-off/\" target=\"_blank\" rel=\"noopener\">tracking-like traffic on Samsung and Vizio TVs after an ACR opt-out</a>. Unlike the latter study, the Hisense report examined the contents of the captured messages.</p>\n\n\n\n<p class=\"wp-block-paragraph\">On the tested UK model, go to Settings → Support → Disclaimer and Privacy → Data Sharing, Privacy and EULA. Clear “Agree to Enhanced Viewing Service” and save the change.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Then go to Settings → System → Advanced Settings → Enhanced Viewing Settings and confirm that “Enable Automatic Content Recognition” is off. No special access is needed to change these settings.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIiu2fpVZvDgDN85dxgEiS_1UIxZezasz04_GCQjfARLk2golQyDzswfc4-2D9A6lWOmyEjx4EZMvHA5mBnDJgcIhYpghSjuDfOjnN8QtqBpGm5JXLkJd8TIq0IuzcRCOhfTFCEHgXkAIyihY-EP39doSnjcjc8VSERvlrSvOKyidU7I_ZjDqatMHqO3k/s1600/Screenshot%202026-11-25%20151002%20%281%29.webp\" alt=\"Allow Data Sharing to see Ads relevant  (source : github )\"/><figcaption class=\"wp-element-caption\">Allow Data Sharing to see Ads relevant (source: Gabriel Werneck)</figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">After the researcher withdrew consent, HamService closed its connection to Nexxen. No outbound packets from the service were seen during the next minute on a menu screen.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The service itself kept running, and the report did not verify whether the opt-out held during video playback, after a reboot, or after an update. For owners who want to limit viewing data collection, check Enhanced Viewing Service, even if personalized ads are already off.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong><strong><strong>What Are Leading Organizations Doing About AI and Cyber Risks? Find Out. <a href=\"https://www.americanconference.com/cybersecurity-law/request-brochure/?utm_medium=affiliate&amp;utm_source=cybersecuritynews&amp;utm_campaign=F27_awareness\" target=\"_blank\" rel=\"noopener\">View Details!</a></strong></strong></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/hisense-smart-tv-tracking-users/\">Hisense Smart TV Found Tracking What Users Watch Even With Personalized Ads Turned Off</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
+  {
+   "id": "sha256:f211745091256c3208e1711c1d60487df88c796dc2246921055da47896295062",
+   "url": "https://cybersecuritynews.com/critical-dell-enterprise-sonic-flaw",
+   "title": "Critical 9.9 Dell Enterprise SONiC Flaw Could Let Hackers Execute Malicious Commands on Network Switches",
+   "published_at": "2026-11-25T10:20:51Z",
+   "published_raw": "Wed, 25 Nov 2026 10:20:51 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News",
+    "Dell",
+    "Vulnerability"
+   ],
+   "description": "<p>Dell Technologies has patched a critical flaw in Dell Enterprise SONiC Distribution that could let a remote attacker with limited privileges run commands of their choice on an affected network switch. The vulnerability, tracked as CVE-2026-103782, could also expose files and directories the attacker is not authorized to access. It affects software versions before 4.6.1. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-dell-enterprise-sonic-flaw/\">Critical 9.9 Dell Enterprise SONiC Flaw Could Let Hackers Execute Malicious Commands on Network Switches</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=174473",
+   "authors": [
+    {
+     "name": "Abinaya",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Critical-9.9-Dell-Enterprise-SONiC-Flaw-Could-Let-Hackers-Execute-Malicious-Commands-on-Network-Switches.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "174473",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Dell Technologies has patched a critical flaw in Dell Enterprise SONiC Distribution that could let a remote attacker with limited privileges run commands of their choice on an affected network switch.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability, tracked as CVE-2026-103782, could also <a href=\"https://cybersecuritynews.com/dell-system-update-tool-vulnerability/\" target=\"_blank\" rel=\"noreferrer noopener\">expose files and directories</a> the attacker is not authorized to access. It affects software versions before 4.6.1.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Dell disclosed the issue on November 19, 2026, and assigned it a CVSS score of 9.9 out of 10. The advisory describes the possible impact of an attack but does not say that the flaw has been exploited.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For network teams, the immediate task is to identify switches running an affected release and schedule the update. The National Vulnerability Database classifies the flaw as argument injection. An argument is a value or option passed to a program.</p>\n\n\n\n<p class=\"wp-block-paragraph\">When software does not properly handle input, the receiving program can treat that input as an option or instruction instead of ordinary data. Dell says the flaw could let an attacker run commands and <a href=\"https://cybersecuritynews.com/dell-secure-connect-gateway-vulnerabilities/\" target=\"_blank\" rel=\"noreferrer noopener\">gain unauthorized access to filesystem</a> resources.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The attacker needs some access, but not a highly privileged account. Dell’s severity rating also indicates the flaw can be reached over a network, has low attack complexity, and does not require another user to take any action.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A switch does not have to be exposed to the public internet for the flaw to matter. A low-privilege account that can reach the affected software from inside the network can still pose a risk.</p>\n\n\n\n<h2 id=\"h-critical-dell-enterprise-sonic-flaw\" class=\"wp-block-heading\"><strong>Critical Dell Enterprise SONiC Flaw</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">The privilege requirement sets this issue apart from a command injection flaw in our <a href=\"https://cybersecuritynews.com/dell-enterprise-sonic-vulnerabilities/\" target=\"_blank\" rel=\"noopener\">earlier coverage of Dell Enterprise SONiC vulnerabilities</a>. That 2024 flaw required high privileges.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Our reporting on <a href=\"https://cybersecuritynews.com/cisco-ios-and-ios-xe-software-vulnerabilities/\" target=\"_blank\" rel=\"noopener\">Cisco IOS and IOS XE remote code execution flaws</a> covers a separate example of command or code execution risks in network operating systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Dell lists several PowerSwitch platforms in the advisory, including the E3200-ON series, N3200-ON, S3248T-ON, and S5248F-ON. Administrators should check the installed SONiC version on each switch rather than rely on the hardware model alone.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Dell notes that its affected-products table may not cover every supported version and could change as more information becomes available.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Dell recommends upgrading affected systems to version 4.6.1. The <a href=\"https://www.dell.com/support/kbdoc/en-in/000535884/dsa-2026-451-security-update-for-dell-enterprise-sonic-distribution-vulnerabilities\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Dell security advisory DSA-2026-451</a> links to the update and points customers to Dell My Account for downloads.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Before upgrading, back up each switch configuration and plan how to restore service if the update fails. Afterward, confirm the installed version and check that the switch is passing expected traffic.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If the update has to wait, review which accounts can manage the switches and limit management access to trusted networks. Give priority to devices whose management interfaces are reachable from more parts of the network than necessary.</p>\n\n\n\n<p class=\"wp-block-paragraph\">These measures can reduce exposure while teams arrange a maintenance window, but they do not remove the vulnerability. The fix is to install the patched release.</p>\n\n\n\n<p class=\"has-text-align-center has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 94%,rgb(169,184,195) 100%)\"><strong><strong><strong><strong><strong><strong><strong>What Are Leading Organizations Doing About AI and Cyber Risks? Find Out. <a href=\"https://www.americanconference.com/cybersecurity-law/request-brochure/?utm_medium=affiliate&amp;utm_source=cybersecuritynews&amp;utm_campaign=F27_awareness\" target=\"_blank\" rel=\"noopener\">View Details!</a></strong></strong></strong></strong></strong></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-dell-enterprise-sonic-flaw/\">Critical 9.9 Dell Enterprise SONiC Flaw Could Let Hackers Execute Malicious Commands on Network Switches</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:5ca15b0d643ecaf4b028c56b89310d3709ca41ec10ccc1f500b11416641c2aee",
    "url": "https://cybersecuritynews.com/claude-ai-agents-can-escape-sandboxes",
