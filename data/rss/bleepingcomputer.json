@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-26T15:00:30Z",
+ "updated_at": "2026-11-26T16:01:00Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-26T15:00:30Z",
+  "last_success_at": "2026-11-26T16:01:00Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:928a41a9b2193962d67a92d2e58d8ccc72904d394871209b0219e3ae7c4e34fa",
+   "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension",
+   "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+   "published_at": "2026-11-26T15:23:28Z",
+   "published_raw": "Thu, 26 Nov 2026 10:23:28 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:92401dca047c23f9523f40c8cf231aacc9b37f7e00656f641ad4aa678c524e94",
    "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook",
@@ -1599,48 +1620,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:4a6f74b2f2cec2957f49135bee8f0c5870fe8f72d60ae41a7aff9b213d9bf195",
-   "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages",
-   "title": "Fandango says hackers stole payment card details from checkout pages",
-   "published_at": "2026-11-16T15:44:21Z",
-   "published_raw": "Mon, 16 Nov 2026 10:44:21 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:531f5f0ed143a69f22209972a4f1e924da133235a497fc8bd5e61cc86ee8d0cd",
-   "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements",
-   "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
-   "published_at": "2026-11-16T15:01:11Z",
-   "published_raw": "Mon, 16 Nov 2026 10:01:11 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seven practical steps to meet these requirements, block compromised passwords, and maintain compliance. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
-   "authors": [
-    {
-     "name": "Sponsored by Specops Software",
      "uri": "",
      "email": ""
     }
