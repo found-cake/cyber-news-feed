@@ -1,15 +1,39 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-11-26T09:00:25Z",
+ "updated_at": "2026-11-26T10:00:25Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-26T09:00:25Z",
+  "last_success_at": "2026-11-26T10:00:25Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:6615e25125b13cfbabc23d2f0b53de57619c76ac2ba271b0fcf4e80d65c3818b",
+   "url": "https://www.stepsecurity.io/blog/fail2install-cve-2026-132165",
+   "title": "Fail2Install (CVE-2026-132165): Drupal Installer Flaw Lets Attackers Take Over Sites and Run Code",
+   "published_at": "2026-11-26T09:16:51Z",
+   "published_raw": "Thu, 26 Nov 2026 09:16:51 GMT",
+   "categories": [],
+   "description": "Drupal CVE-2026-132165 (Fail2Install) is an unauthenticated installer flaw that can reinstall a live site and run code. We reproduced the re-entry, confirmed the fix, and show how to detect and block it.",
+   "feed_id": "https://www.stepsecurity.io/blog/fail2install-cve-2026-132165",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6b07530789620bf228fe3061_6b0752df79f77b9df149f6f3_cve-2026-132165-cover-house-v3.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6b07530789620bf228fe3061_6b0752df79f77b9df149f6f3_cve-2026-132165-cover-house-v3.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:5d3b81260cbcaa63cf0e1945664ea5951c1fdc95612f3e7c8a6526bbb448a094",
    "url": "https://www.stepsecurity.io/blog/polinrider-malware-open-source-pull-requests",
@@ -28,30 +52,6 @@
     },
     {
      "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6b075bead7959b6bbc9f7a33_6b075b4115eed26b7de0812f_polinrider-pull-requests-cover-v4.png",
-     "kind": "content",
-     "medium": "image"
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:6615e25125b13cfbabc23d2f0b53de57619c76ac2ba271b0fcf4e80d65c3818b",
-   "url": "https://www.stepsecurity.io/blog/fail2install-cve-2026-132165",
-   "title": "Fail2Install (CVE-2026-132165): Drupal Installer Flaw Lets Attackers Take Over Sites and Run Code",
-   "published_at": "2026-11-25T21:46:59Z",
-   "published_raw": "Wed, 25 Nov 2026 21:46:59 GMT",
-   "categories": [],
-   "description": "Drupal CVE-2026-132165 (Fail2Install) is an unauthenticated installer flaw that can reinstall a live site and run code. We reproduced the re-entry, confirmed the fix, and show how to detect and block it.",
-   "feed_id": "https://www.stepsecurity.io/blog/fail2install-cve-2026-132165",
-   "authors": [],
-   "media": [
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6b07530789620bf228fe3061_6b0752df79f77b9df149f6f3_cve-2026-132165-cover-house-v3.png",
-     "kind": "thumbnail",
-     "medium": ""
-    },
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6b07530789620bf228fe3061_6b0752df79f77b9df149f6f3_cve-2026-132165-cover-house-v3.png",
      "kind": "content",
      "medium": "image"
     }
