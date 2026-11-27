@@ -1,15 +1,39 @@
 {
  "schema_version": 1,
  "source": "stepsecurity",
- "updated_at": "2026-11-27T12:01:00Z",
+ "updated_at": "2026-11-27T13:00:54Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-27T12:01:00Z",
+  "last_success_at": "2026-11-27T13:00:54Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:5d3b81260cbcaa63cf0e1945664ea5951c1fdc95612f3e7c8a6526bbb448a094",
+   "url": "https://www.stepsecurity.io/blog/polinrider-malware-open-source-pull-requests",
+   "title": "PolinRider Malware Force-Pushed Into AsyncAPI, CircuitVerse and Open Food Facts Pull Requests",
+   "published_at": "2026-11-27T12:18:58Z",
+   "published_raw": "Fri, 27 Nov 2026 12:18:58 GMT",
+   "categories": [],
+   "description": "PolinRider malware was force-pushed into AsyncAPI, CircuitVerse and Open Food Facts pull requests and ran in CircuitVerse's release CI. How it works, IOCs, and how to check your projects.",
+   "feed_id": "https://www.stepsecurity.io/blog/polinrider-malware-open-source-pull-requests",
+   "authors": [],
+   "media": [
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6b075bead7959b6bbc9f7a33_6b075b4115eed26b7de0812f_polinrider-pull-requests-cover-v4.png",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6b075bead7959b6bbc9f7a33_6b075b4115eed26b7de0812f_polinrider-pull-requests-cover-v4.png",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:6615e25125b13cfbabc23d2f0b53de57619c76ac2ba271b0fcf4e80d65c3818b",
    "url": "https://www.stepsecurity.io/blog/fail2install-cve-2026-132165",
@@ -28,30 +52,6 @@
     },
     {
      "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6b07530789620bf228fe3061_6b0752df79f77b9df149f6f3_cve-2026-132165-cover-house-v3.png",
-     "kind": "content",
-     "medium": "image"
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:5d3b81260cbcaa63cf0e1945664ea5951c1fdc95612f3e7c8a6526bbb448a094",
-   "url": "https://www.stepsecurity.io/blog/polinrider-malware-open-source-pull-requests",
-   "title": "PolinRider Malware Force-Pushed Into AsyncAPI, CircuitVerse and Open Food Facts Pull Requests",
-   "published_at": "2026-11-25T22:13:54Z",
-   "published_raw": "Wed, 25 Nov 2026 22:13:54 GMT",
-   "categories": [],
-   "description": "PolinRider malware was force-pushed into AsyncAPI, CircuitVerse and Open Food Facts pull requests and ran in CircuitVerse's release CI. How it works, IOCs, and how to check your projects.",
-   "feed_id": "https://www.stepsecurity.io/blog/polinrider-malware-open-source-pull-requests",
-   "authors": [],
-   "media": [
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6b075bead7959b6bbc9f7a33_6b075b4115eed26b7de0812f_polinrider-pull-requests-cover-v4.png",
-     "kind": "thumbnail",
-     "medium": ""
-    },
-    {
-     "url": "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6b075bead7959b6bbc9f7a33_6b075b4115eed26b7de0812f_polinrider-pull-requests-cover-v4.png",
      "kind": "content",
      "medium": "image"
     }
