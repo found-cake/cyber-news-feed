@@ -1,15 +1,87 @@
 {
  "schema_version": 1,
  "source": "securityweek",
- "updated_at": "2026-11-27T07:00:51Z",
+ "updated_at": "2026-11-27T08:00:52Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-27T07:00:51Z",
+  "last_success_at": "2026-11-27T08:00:52Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ae2c9dfba41e1efb8a46ce0c735db2d2082ce865f158d53f87efb53df392cd69",
+   "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach",
+   "title": "Hex Package Manager Warns of Potential Data Breach",
+   "published_at": "2026-11-27T07:44:49Z",
+   "published_raw": "Fri, 27 Nov 2026 07:44:49 +0000",
+   "categories": [
+    "Data Breaches",
+    "Vulnerabilities",
+    "data breach",
+    "Elixir and Erlang",
+    "exploited",
+    "Hex",
+    "vulnerability"
+   ],
+   "description": "<p>A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged.</p>\n<p>The post <a href=\"https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/\">Hex Package Manager Warns of Potential Data Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=51098",
+   "authors": [
+    {
+     "name": "Ionut Arghire",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
+  {
+   "id": "sha256:0434c971935f3bbd7a68f9de6570ff5bca1ad999d70ed55bf0e1e83d44ec632a",
+   "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised",
+   "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+   "published_at": "2026-11-27T07:36:14Z",
+   "published_raw": "Fri, 27 Nov 2026 07:36:14 +0000",
+   "categories": [
+    "Data Breaches",
+    "cyberattack",
+    "data breach",
+    "Featured",
+    "SAP"
+   ],
+   "description": "<p>SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code.</p>\n<p>The post <a href=\"https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/\">SAP Confirms Cyberattack, Source Code Reportedly Compromised  </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+   "feed_id": "https://www.securityweek.com/?p=51096",
+   "authors": [
+    {
+     "name": "Eduard Kovacs",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {
+    "securityweek": {
+     "image": {
+      "url": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-32x32.jpeg",
+      "title": "SecurityWeek",
+      "link": "https://www.securityweek.com/",
+      "width": "32",
+      "height": "32"
+     }
+    }
+   }
+  },
   {
    "id": "sha256:e424a6c10fc1b866a8c6607e2fc3ccba389b33d19b613d7092f4f7a67d4bf0e3",
    "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information",
