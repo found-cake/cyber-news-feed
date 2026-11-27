@@ -1,15 +1,36 @@
 {
  "schema_version": 1,
  "source": "bleepingcomputer",
- "updated_at": "2026-11-27T18:00:52Z",
+ "updated_at": "2026-11-27T19:00:52Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-27T18:00:52Z",
+  "last_success_at": "2026-11-27T19:00:52Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:9e1e908954fec7720e5552a07dd32f1e9865b444f6e59b0f0114e7257ceba9d5",
+   "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info",
+   "title": "New Boston Scientific data breach exposes personal, medical info",
+   "published_at": "2026-11-27T18:57:42Z",
+   "published_raw": "Fri, 27 Nov 2026 13:57:42 -0500",
+   "categories": [
+    "security"
+   ],
+   "description": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]",
+   "feed_id": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+   "authors": [
+    {
+     "name": "Bill Toulas",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:dc478ba580bb86300247546d0ed671de47f26090ec570d19b1b02acd3659b186",
    "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution",
@@ -1531,49 +1552,6 @@
    "authors": [
     {
      "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:5a10d07ea77b08677af691d7909073527273254427df07af1247c09a252c4fdf",
-   "url": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model",
-   "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
-   "published_at": "2026-11-17T18:21:24Z",
-   "published_raw": "Tue, 17 Nov 2026 13:21:24 -0500",
-   "categories": [
-    "security",
-    "Artificial Intelligence"
-   ],
-   "description": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
-   "authors": [
-    {
-     "name": "Bill Toulas",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:0434a2f4d8b692dab4a963a91b28cd1ae64da8863975b9dd73c72e044b7e8566",
-   "url": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack",
-   "title": "Tor releases emergency update amid ongoing DDoS attack",
-   "published_at": "2026-11-17T18:04:15Z",
-   "published_raw": "Tue, 17 Nov 2026 13:04:15 -0500",
-   "categories": [
-    "security"
-   ],
-   "description": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affected most operators. [...]",
-   "feed_id": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
-   "authors": [
-    {
-     "name": "Lawrence Abrams",
      "uri": "",
      "email": ""
     }
