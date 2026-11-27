@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-27T16:00:52Z",
+ "updated_at": "2026-11-27T17:00:52Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-27T16:00:52Z",
+  "last_success_at": "2026-11-27T17:00:52Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -58,6 +58,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjugg63OPJwZuh94vDIg7MkA4YoeLKr5sjiqI6CEgjvDjUvJ-pBJOfUrUBxPUTbartqVwdldczbKSYo6lpkcVic1EDQYIDyWq12zMdMONjpDtK4NKCgkppAWvnOJpXe7prfmRG8WNpH0RrQ0bhX2nZKGpRy33y0OMZraBjEPoDorp9h3kNJSa-IQrJC7Nl5/s260-e100/cf.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:a061202fd8df49d87211a1c596fa9f8f4dd6f055906dcfc5c058fa876aaaf94f",
+   "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+   "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+   "published_at": "2026-11-27T16:36:11Z",
+   "published_raw": "2026-11-27T22:06:11.807+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements.\n\nThe previously undocumented incursion set, detailed by SOCRadar, has been codenamed WeaveLotus. The activity is assessed to have comprised five intrusions in Thailand",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3026272966530332486",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj19T-kU1dmVfKt2PtUQ2I25MGovj8kmv6lMkk6inlif4yLeezJS4kVRTvsARL5UkpTT66jYru6k2b5bmWfjjlkmG4JznSKmkmd4ldXcyxTw3xsU5nP6_jxfWMw9thW37m5usfr-eWAZBHq6bPuS613CIx9XgWxPcSVFcZVgz_9tWd5Nu8YWAxexuqcVPrN/s260-e100/data.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -713,33 +740,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:c7b209f2aed89407eb0e30e59fe706dfcf15164ad089b4177ac11b5e2ba6ddd0",
-   "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
-   "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-   "published_at": "2026-11-20T12:20:00Z",
-   "published_raw": "2026-11-20T17:50:00.000+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean.\n\nOn a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled.\n\nFixed kernels shipped",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3797238586342390914",
-   "authors": [
-    {
-     "name": "Swati Khandelwal",
-     "uri": "http://www.blogger.com/profile/06009796704238391750",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-jisyf4SWwWYA_RUtOoVqBviv2uNAUl6vEeGjsuBA0aOhfLYw7yHitbRBxAoWcf5ZP0UcGovNmyk-u-320fLFYIyUz7jtR77GiveyLdqsZWJ0DohwBfEFyN0KlNAIpIcpS9B6jHEZJybmTu7nuKM-PhSNPco-Z1QmacaSfwWyOWLXzT2WqaEdbZ810M/s260-e100/vms.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:6ebe391a8b41bbc0d12fc6b0adda6fb5b6d345f2beee9a61929827d186a2d687",
    "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
    "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
@@ -841,6 +841,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoFKMFLPbzyM7RGi89XdpVFUfFqLH2C0QnAIyZfTSZIkvQNT8jhFEdMdW3D1qPXE0MjtV-q8fM1Alicz0wEuNJ6fnIjOs3BY8D7ABBRWNqPg6NGz9FjhbSQhapwUDZPDyg3kJEy9CZeUwbcmZ3N5nCU8bH6bkCo4BgLfhlE3R3AdDi9CvLVgjqlMW42Pm2/s260-e100/puppet.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:c7b209f2aed89407eb0e30e59fe706dfcf15164ad089b4177ac11b5e2ba6ddd0",
+   "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+   "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+   "published_at": "2026-11-20T12:20:00Z",
+   "published_raw": "2026-11-20T17:50:00.000+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean.\n\nOn a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled.\n\nFixed kernels shipped",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-3797238586342390914",
+   "authors": [
+    {
+     "name": "Swati Khandelwal",
+     "uri": "http://www.blogger.com/profile/06009796704238391750",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-jisyf4SWwWYA_RUtOoVqBviv2uNAUl6vEeGjsuBA0aOhfLYw7yHitbRBxAoWcf5ZP0UcGovNmyk-u-320fLFYIyUz7jtR77GiveyLdqsZWJ0DohwBfEFyN0KlNAIpIcpS9B6jHEZJybmTu7nuKM-PhSNPco-Z1QmacaSfwWyOWLXzT2WqaEdbZ810M/s260-e100/vms.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
