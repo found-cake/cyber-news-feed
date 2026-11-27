@@ -1,15 +1,51 @@
 {
  "schema_version": 1,
  "source": "darkreading",
- "updated_at": "2026-11-27T13:00:54Z",
+ "updated_at": "2026-11-27T14:00:52Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-27T13:00:54Z",
+  "last_success_at": "2026-11-27T14:00:52Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:716dc2a9a70db27428c9d0965d5c6f00fde0559612dfe3e03b43ded8f9b7b700",
+   "url": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+   "title": "'God Mode' Flaws Could Wreak Border-Control Havoc",
+   "published_at": "2026-11-27T14:00:00Z",
+   "published_raw": "Fri, 27 Nov 2026 14:00:00 GMT",
+   "categories": [
+    "vulnerabilities-threats"
+   ],
+   "description": "Attackers could have disrupted traveler entry into Nigeria, Ethiopia, Zambia, Sri Lanka, Fiji, and Ghana via several vulnerabilities in their online visa and immigration systems.",
+   "feed_id": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+   "authors": [
+    {
+     "name": "Elizabeth Montalbano",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf04ed1ecab1b2c42/66cc9d45781c434a1b20ebb3/airport1800_RoadPix_alamy.jpg?width=720&quality=80&disable=upscale",
+     "kind": "thumbnail",
+     "medium": ""
+    },
+    {
+     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf04ed1ecab1b2c42/66cc9d45781c434a1b20ebb3/airport1800_RoadPix_alamy.jpg?width=720&quality=80&disable=upscale",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "darkreading": {
+     "guid_is_permalink": "false"
+    }
+   }
+  },
   {
    "id": "sha256:9bbd9ec06777c5b8357830e13a0a9b46b52e1b31f4caee69000627168338a6e8",
    "url": "https://www.darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers",
@@ -108,42 +144,6 @@
     },
     {
      "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt436e3cfa4b9fe8b4/6b05fbef3e73ec0ee2851fe9/port-santos-brazil-ByDroneVideos-shutterstock.jpg?width=720&quality=80&disable=upscale",
-     "kind": "content",
-     "medium": "image"
-    }
-   ],
-   "source_metadata": {
-    "darkreading": {
-     "guid_is_permalink": "false"
-    }
-   }
-  },
-  {
-   "id": "sha256:716dc2a9a70db27428c9d0965d5c6f00fde0559612dfe3e03b43ded8f9b7b700",
-   "url": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
-   "title": "'God Mode' Flaws Could Wreak Border-Control Havoc",
-   "published_at": "2026-11-24T21:36:11Z",
-   "published_raw": "Tue, 24 Nov 2026 21:36:11 GMT",
-   "categories": [
-    "vulnerabilities-threats"
-   ],
-   "description": "Attackers could have disrupted traveler entry into Nigeria, Ethiopia, Zambia, Sri Lanka, Fiji, and Ghana via several vulnerabilities in their online visa and immigration systems.",
-   "feed_id": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
-   "authors": [
-    {
-     "name": "Elizabeth Montalbano",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [
-    {
-     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf04ed1ecab1b2c42/66cc9d45781c434a1b20ebb3/airport1800_RoadPix_alamy.jpg?width=720&quality=80&disable=upscale",
-     "kind": "thumbnail",
-     "medium": ""
-    },
-    {
-     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf04ed1ecab1b2c42/66cc9d45781c434a1b20ebb3/airport1800_RoadPix_alamy.jpg?width=720&quality=80&disable=upscale",
      "kind": "content",
      "medium": "image"
     }
@@ -678,42 +678,6 @@
     },
     {
      "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0ac2db6d8dd7d25d/6afb79babb3cf32830e383ff/cursor_Erman_Gunes_shutterstock.jpg?width=720&quality=80&disable=upscale",
-     "kind": "content",
-     "medium": "image"
-    }
-   ],
-   "source_metadata": {
-    "darkreading": {
-     "guid_is_permalink": "false"
-    }
-   }
-  },
-  {
-   "id": "sha256:7fffe65676316d043e16f339af953993a87db7f3d344cc61c46ecac11a01c0f0",
-   "url": "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval",
-   "title": "Grok Bots Attempt to Access Corporate Data Without User Approval",
-   "published_at": "2026-11-17T13:12:56Z",
-   "published_raw": "Tue, 17 Nov 2026 13:12:56 GMT",
-   "categories": [
-    "application-security"
-   ],
-   "description": "Two AI agents, separately over a five-day period, autonomously tried to access connected applications, including Google Calendar, Gmail, Slack, and GitHub, without account owner permission.",
-   "feed_id": "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval",
-   "authors": [
-    {
-     "name": "Elizabeth Montalbano",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [
-    {
-     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte89802188fbf7517/6afc5ddc05f01c312ef66082/rogue_AO_bot_Chris_Light_Alamy.png?width=720&quality=80&disable=upscale",
-     "kind": "thumbnail",
-     "medium": ""
-    },
-    {
-     "url": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte89802188fbf7517/6afc5ddc05f01c312ef66082/rogue_AO_bot_Chris_Light_Alamy.png?width=720&quality=80&disable=upscale",
      "kind": "content",
      "medium": "image"
     }
