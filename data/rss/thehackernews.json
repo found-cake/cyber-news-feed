@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "source": "thehackernews",
- "updated_at": "2026-11-27T05:00:52Z",
+ "updated_at": "2026-11-27T06:00:51Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-27T05:00:52Z",
+  "last_success_at": "2026-11-27T06:00:51Z",
   "last_error_at": null,
   "last_error": null
  },
@@ -58,6 +58,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjugg63OPJwZuh94vDIg7MkA4YoeLKr5sjiqI6CEgjvDjUvJ-pBJOfUrUBxPUTbartqVwdldczbKSYo6lpkcVic1EDQYIDyWq12zMdMONjpDtK4NKCgkppAWvnOJpXe7prfmRG8WNpH0RrQ0bhX2nZKGpRy33y0OMZraBjEPoDorp9h3kNJSa-IQrJC7Nl5/s260-e100/cf.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:27f1645ed04a4e7e9931ae5a0f86eafec12f065f534add389908bc165f68c607",
+   "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+   "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+   "published_at": "2026-11-27T05:48:20Z",
+   "published_raw": "2026-11-27T11:18:20.056+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution.\n\nThe proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT.\n\n\"I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-2440690570595372344",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy4kFFGLYGbyvO7M_M1gKBjBUm5TF_eT6dIHtCmXKz_cGyC6orRw9XupBLbcQlJTQEEqjZ3q73Cv_Sn9ncPKxOJYU8Poi8Q54-bWKIro4Sp4JYi9hjUjYy71OR1LOV6B5nX8dHK0jYSRJ1p4O1pdMWomZGhCiTKE7MkvrC-gfeINrM-GOab64Bw_MzxA6Z/s260-e100/cacti.png",
      "kind": "thumbnail",
      "medium": ""
     }
@@ -713,33 +740,6 @@
    "source_metadata": {}
   },
   {
-   "id": "sha256:823ccfebdf7ab435a089b021ac132d119d229a228734cd2854f6bbf65dbf5945",
-   "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
-   "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
-   "published_at": "2026-11-20T10:38:22Z",
-   "published_raw": "2026-11-20T16:08:22.559+05:30",
-   "categories": [
-    "vulnerability"
-   ],
-   "description": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks.\n\n\"Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever,\" SonicWall said. \"We expect internet-facing Gen 6 firewalls to be actively",
-   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7586705797169409579",
-   "authors": [
-    {
-     "name": "Ravie Lakshmanan",
-     "uri": "http://www.blogger.com/profile/09767675513435997467",
-     "email": "noreply@blogger.com"
-    }
-   ],
-   "media": [
-    {
-     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGn5oji8gd4l_d6wKemSflqTX-q-eiuu4CbbV2ROvzK6Gzpeq8zPsQyGb-UO80f_M8L2pDNNyNqF1ZIdyMPGReyW0KmPb7uuAuRu1M-ZVyNu-GJvx1CRaBsaEOVjV-asFG0P__0MK0Jp3WPJmcNxATiSd6NeBzcCmy-6dLvS5yvpen0cRrwLZvgVpYAvn0/s260-e100/sonicwall.jpg",
-     "kind": "thumbnail",
-     "medium": ""
-    }
-   ],
-   "source_metadata": {}
-  },
-  {
    "id": "sha256:6ebe391a8b41bbc0d12fc6b0adda6fb5b6d345f2beee9a61929827d186a2d687",
    "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
    "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
@@ -841,6 +841,33 @@
    "media": [
     {
      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoFKMFLPbzyM7RGi89XdpVFUfFqLH2C0QnAIyZfTSZIkvQNT8jhFEdMdW3D1qPXE0MjtV-q8fM1Alicz0wEuNJ6fnIjOs3BY8D7ABBRWNqPg6NGz9FjhbSQhapwUDZPDyg3kJEy9CZeUwbcmZ3N5nCU8bH6bkCo4BgLfhlE3R3AdDi9CvLVgjqlMW42Pm2/s260-e100/puppet.jpg",
+     "kind": "thumbnail",
+     "medium": ""
+    }
+   ],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:823ccfebdf7ab435a089b021ac132d119d229a228734cd2854f6bbf65dbf5945",
+   "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+   "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+   "published_at": "2026-11-20T10:38:22Z",
+   "published_raw": "2026-11-20T16:08:22.559+05:30",
+   "categories": [
+    "vulnerability"
+   ],
+   "description": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks.\n\n\"Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever,\" SonicWall said. \"We expect internet-facing Gen 6 firewalls to be actively",
+   "feed_id": "tag:blogger.com,1999:blog-4802841478634147276.post-7586705797169409579",
+   "authors": [
+    {
+     "name": "Ravie Lakshmanan",
+     "uri": "http://www.blogger.com/profile/09767675513435997467",
+     "email": "noreply@blogger.com"
+    }
+   ],
+   "media": [
+    {
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGn5oji8gd4l_d6wKemSflqTX-q-eiuu4CbbV2ROvzK6Gzpeq8zPsQyGb-UO80f_M8L2pDNNyNqF1ZIdyMPGReyW0KmPb7uuAuRu1M-ZVyNu-GJvx1CRaBsaEOVjV-asFG0P__0MK0Jp3WPJmcNxATiSd6NeBzcCmy-6dLvS5yvpen0cRrwLZvgVpYAvn0/s260-e100/sonicwall.jpg",
      "kind": "thumbnail",
      "medium": ""
     }
