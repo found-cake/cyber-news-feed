@@ -1,15 +1,58 @@
 {
  "schema_version": 1,
  "source": "boannews",
- "updated_at": "2026-11-28T07:00:17Z",
+ "updated_at": "2026-11-28T08:00:20Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-28T07:00:17Z",
+  "last_success_at": "2026-11-28T08:00:20Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:82e37a1e3aa4a4ac15fa78125876c353ea63dbc1264d95c1176a53ed37011312",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=147607",
+   "title": "[더존비즈온 사태] 11월28일 현황... 서울시공익활동지원센터 유출 가능성",
+   "published_at": "2026-11-28T16:19:17Z",
+   "published_raw": "2026-11-28 16:19:17",
+   "categories": [
+    "사건·사고",
+    "긴급경보"
+   ],
+   "description": "서울시공익활동지원센터는 사용 중이던 더존비즈온 데이터 백업 서비스(APO) 관련 서버에 불법적 접근으로 저장된 개인정보의 유출 가능성과 침해사고가 발생했다는 통지를 받았다고 27일 밝혔다.유출 가능성이 있는 항목은 원천징수 신고 대상자의 정보로, 전·현직 직원, 강사 및 자문, 회의 참여자의 이름, 주민등록번호, 입·퇴사일, IRP 계좌번호 등이 포함됐다.센터는 사고 인지 후 피해 서버를 종료하고 해외 IP 접속을 차단했으며, 한국인터넷진흥원(KISA)에 신고하고 추가 보안 조치를 진행하고 있다.이에 <보안뉴스>는 28일 서울시공익",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "김기찬 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:f3e238d0f9a5715448785cbbe016b95624c2d9b4bba86ac920dbbcdee835b88f",
+   "url": "https://www.boannews.com/news/articleView.html?idxno=147608",
+   "title": "OWASP 코리아 데이, 집단지성으로 푼 AI 에이전트 보안",
+   "published_at": "2026-11-28T16:18:31Z",
+   "published_raw": "2026-11-28 16:18:31",
+   "categories": [
+    "IT·과학"
+   ],
+   "description": "“지식은 기계가 학습할 수 있지만 경험은 나눌 때 가치가 생긴다.”28일 서울 스페이스쉐어 삼성역센터에서 열린 ‘OWASP 코리아 데이 2026’의 화두다. 시스템 명령어와 외부 도구를 직접 실행하는 AI 에이전트가 확산하면서 기존 보안 통제는 한계에 부딪혔다. 이날 토스증권·아마존웹서비스(AWS)·마이크로소프트 현업 전문가 3인은 단일 해법이 없는 에이전트 보안 난제를 현장의 시행착오와 집단지성으로 풀어냈다.변준우 토스증권 보안 엔지니어는 단말과 호출 경로의 사각지대를 짚었다. 지난해 8월 발생한 ‘Nx 특이점’(Nx s1ngul",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "조재호 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:18166660fd5a621dc891612bf2380efb0760b111b3a2dd48b4fdb355c96c5ebd",
    "url": "https://www.boannews.com/news/articleView.html?idxno=147606",
@@ -4901,28 +4944,6 @@
     "긴급경보"
    ],
    "description": "국내는 물론 전 세계적으로 인프라 전반에서 광범위하게 사용되는 자바(Java) 생태계에 또다시 대형 보안 경고등이 켜졌다. ‘자바4셸’(Java4Shell, CVE-2026-114938)에 대한 오라클의 공식 보안 업데이트가 마침내 배포됐다. 오라클을 비롯한 한국인터넷진흥원(KISA) 등 관계기관에서는 17.0.21.1, 21.0.13.1과 같은 최신 패치 빌드로 즉시 전환할 것을 권고했다. 오라클(Oracle)은 17일(현지시간) ‘2026년 11월 긴급 보안 패치 업데이트’(CSPU)를 발표했다. 이번 긴급 패치에는 자바4셸 관",
-   "feed_id": "",
-   "authors": [
-    {
-     "name": "김기찬 기자",
-     "uri": "",
-     "email": ""
-    }
-   ],
-   "media": [],
-   "source_metadata": {}
-  },
-  {
-   "id": "sha256:6baf84e3ccf7c4d8b940fb76a32211efae48fb8016b0d1659d03ced1b7e70e3e",
-   "url": "https://www.boannews.com/news/articleView.html?idxno=147325",
-   "title": "[자바 취약점 비상] PHP 이어 ‘자바’(Java)도 뚫렸다... 대기업·공공기관 핵심 서버 ‘보안 경보’",
-   "published_at": "2026-11-18T07:05:00Z",
-   "published_raw": "2026-11-18 07:05:00",
-   "categories": [
-    "사건·사고",
-    "긴급경보"
-   ],
-   "description": "대부분 IT 시스템에 널리 쓰이는 프로그래밍 언어 자바(Java)에서 치명적 보안 취약점이 발견됐다. 이 취약점을 악용하면 공격자는 로그인 등 인증 절차를 거치지 않아도 원격으로 시스템 내부에서 악성코드를 실행할 수 있다. 위험도 역시 최고 수준으로 분류됐다. 패치 공개 즉시 조치에 들어가야 한다. 17일 보안 업계에 따르면, 자바에서 메모리 손상 취약점이 발견됐다. 이 취약점을 악용하면 자바 애플리케이션에서 인증 이전에 원격 코드 실행(RCE)이 가능한 것으로 알려졌다. 보안업계 안팎에서는 이 취약점을 ‘자바4셸’(Java4She",
    "feed_id": "",
    "authors": [
     {
