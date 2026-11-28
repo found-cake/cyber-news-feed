@@ -1,15 +1,49 @@
 {
  "schema_version": 1,
  "source": "cybersecuritynews",
- "updated_at": "2026-11-28T04:00:58Z",
+ "updated_at": "2026-11-28T05:00:56Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-28T04:00:58Z",
+  "last_success_at": "2026-11-28T05:00:56Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:ef68e2307693e0002c966ffdf920f0ed9c8d1b521184159a44e0871ef7ac8108",
+   "url": "https://cybersecuritynews.com/iphone-users-are-being-hacked",
+   "title": "Telegram Warns iPhone Users Are Being Hacked on a Massive Scale; Just Visiting a Website Could Be Enough",
+   "published_at": "2026-11-28T04:48:49Z",
+   "published_raw": "Sat, 28 Nov 2026 04:48:49 +0000",
+   "categories": [
+    "Cyber Security",
+    "Cyber Security News"
+   ],
+   "description": "<p>Telegram is sending security alerts to iPhone users running older versions of iOS, CEO Pavel Durov said on November 27. In a post on X, Durov said iPhone users were being hacked “on a massive scale” and warned that opening a website could be enough to break into a vulnerable device. The alert tells users [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/iphone-users-are-being-hacked/\">Telegram Warns iPhone Users Are Being Hacked on a Massive Scale; Just Visiting a Website Could Be Enough</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+   "feed_id": "https://cybersecuritynews.com/?p=176205",
+   "authors": [
+    {
+     "name": "Guru Baran",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [
+    {
+     "url": "https://cybersecuritynews.com/wp-content/uploads/2026/11/iPhone-Users-Are-Being-Hacked.webp",
+     "kind": "content",
+     "medium": "image"
+    }
+   ],
+   "source_metadata": {
+    "cybersecuritynews": {
+     "guid_is_permalink": "false",
+     "post_id": "176205",
+     "content_encoded": "<p class=\"wp-block-paragraph\">Telegram is sending security alerts to iPhone users running older versions of iOS, CEO Pavel Durov said on November 27. In a post on X, Durov said iPhone users were being hacked “on a massive scale” and warned that opening a website could be enough to break into a vulnerable device. The alert tells users to install the latest iOS update offered in their iPhone’s Settings.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-x wp-block-embed-x\"><div class=\"wp-block-embed__wrapper\">\n<div class=\"embed-x\"><blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\"><img src=\"https://s.w.org/images/core/emoji/17.0.2/72x72/1f6a8.png\" alt=\"🚨\" class=\"wp-smiley\" style=\"height: 1em; max-height: 1em;\" /> iPhone users are being hacked on a massive scale.<br><br>If your iOS is even slightly outdated, all your data is at risk.<br><br>Just opening a website can be enough to get you hacked.<br><br>We&#39;re sending this warning to all our users on older iOS versions: <a href=\"https://t.co/k2BKf5N5ua\">pic.twitter.com/k2BKf5N5ua</a></p>&mdash; Pavel Durov (@durov) <a href=\"https://x.com/durov/status/2126453172403355908?ref_src=twsrc%5Etfw\">November 27, 2026</a></blockquote><script async src=\"https://platform.x.com/widgets.js\" charset=\"utf-8\"></script></div>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Durov did not say how many iPhones had been hacked, which iOS versions triggered the notice, or whether Telegram had tied the warning to a specific campaign. Receiving the alert does not mean Telegram found evidence that your iPhone was hacked.</p>\n\n\n\n<h2 id=\"h-single-website-compromise-an-iphone\" class=\"wp-block-heading\"><strong>Single website Compromise an iPhone</strong></h2>\n\n\n\n<p class=\"wp-block-paragraph\">A browser-based attack does not always need a fake login page or a file download. If a page contains malicious code and the iPhone has the flaws that code targets, the attack can start while the page loads.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As our coverage of the <a href=\"https://cybersecuritynews.com/coruna-and-darksword/\">Coruna and DarkSword iPhone exploit kits</a> explains, attackers can link several flaws to run code in the browser, break past the limits that keep websites away from other apps, and reach sensitive data on the phone.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An exploit kit is a set of tools built to take advantage of software flaws. Coruna targets iOS 13.0 through 17.2.1. The <a href=\"https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain\">Google Threat Intelligence Group’s DarkSword analysis</a> documented a separate kit that used six flaws and targeted iOS 18.4 through 18.7 in the campaigns researchers studied. These ranges describe known attacks, not the list of devices that received Telegram’s warning.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The MoldyRoost campaign shows how attackers can use online ads to reach people who would not knowingly visit a malicious site. In its <a href=\"https://blog.confiant.com/p/moldyroost-a-malvertising-machine\">MoldyRoost investigation</a>, Confiant linked more than 480 advertising domains to the operation and reported targeting across more than 47 countries.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Those figures show the campaign’s reach, not how many iPhones were infected. Telegram did not name MoldyRoost in its warning.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As we reported in our coverage of the <a href=\"https://cybersecuritynews.com/malicious-ad-domains-target-iphones/\">malicious ad campaign targeting iPhone users</a>, the landing page could check the phone’s iOS version and load tools suited to it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Once the page opened, a vulnerable iPhone could be compromised without another tap or an app installation. The attackers looked for data such as saved passwords, messages and cryptocurrency wallet recovery phrases. A stolen recovery phrase can let someone take control of a wallet without knowing its app password.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Open Settings directly and go to General → Software Update. The screen shows the iOS version you have and whether an update is available. In its <a href=\"https://support.apple.com/en-us/118575\">iPhone update guide</a>, Apple recommends backing up the device, plugging it into power, and connecting to Wi-Fi before installing the update. You do not need to follow a download link from a chat message, ad, or website.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://support.apple.com/en-us/100100\">Apple’s security release list</a> records iOS 27.2.1 as the November 9 update for compatible iPhones, not iOS 17.2.1. Apple also issued iOS 18.7.12 that day for the iPhone XS, XS Max, and XR.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Install the latest update offered for your model rather than searching for a version named in a post. Then check Automatic Updates so future fixes can install overnight while the phone is charging and connected to Wi-Fi.</p>\n\n\n\n<p class=\"has-background wp-block-paragraph\" style=\"background:linear-gradient(180deg,rgb(238,238,238) 83%,rgb(169,184,195) 100%)\"><strong><strong>Give your SOC the alert context on the latest threats to stop incidents quickly -&gt; <a href=\"https://any.run/threat-intelligence-lookup/?utm_source=csn&amp;utm_medium=link+placement&amp;utm_campaign=week+26-31&amp;utm_content=ti+lookup+sales&amp;utm_term=1026#contact-sales\" target=\"_blank\" rel=\"noopener\">Integrate Threat Intel from 16K SOCs</a></strong></strong></p>\n<p>The post <a href=\"https://cybersecuritynews.com/iphone-users-are-being-hacked/\">Telegram Warns iPhone Users Are Being Hacked on a Massive Scale; Just Visiting a Website Could Be Enough</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>"
+    }
+   }
+  },
   {
    "id": "sha256:0b68c1c81a8ea1e49296adc9fe6d6a88fd21efa6949f2725b5dd7a50efbcf126",
    "url": "https://cybersecuritynews.com/freezer-control-cyberattack",

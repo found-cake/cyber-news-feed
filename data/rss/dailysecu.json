@@ -1,15 +1,120 @@
 {
  "schema_version": 1,
  "source": "dailysecu",
- "updated_at": "2026-11-28T04:00:58Z",
+ "updated_at": "2026-11-28T05:00:56Z",
  "retention_days": 10,
  "status": {
   "ok": true,
-  "last_success_at": "2026-11-28T04:00:58Z",
+  "last_success_at": "2026-11-28T05:00:56Z",
   "last_error_at": null,
   "last_error": null
  },
  "articles": [
+  {
+   "id": "sha256:16fd7b4e969be98452ecf14eeff26e8f395e4f323a0e8772235c58a0154b28d8",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209820",
+   "title": "글로벌 의료기기 기업 보스턴사이언티픽 개인정보 유출…의료산업 보안 위협 지속",
+   "published_at": "2026-11-28T13:38:27Z",
+   "published_raw": "2026-11-28 13:38:27",
+   "categories": [
+    "이슈"
+   ],
+   "description": "글로벌 의료기기 전문기업 보스턴사이언티픽(Boston Scientific)에서 개인정보 유출 사고가 발생했다. 회사가 미국 캘리포니아주 당국에 제출한 개인정보 유출 통지문을 통해 사고 사실이 확인됐다.보스턴사이언티픽은 지난 5월 12일 회사 데이터에 대한 비인가 접근 가능성을 인지하고 조사에 착수했다. 이후 정밀 조사와 데이터 검토를 진행했으며 11월 5일 일부 개인정보가 침해사고의 영향을 받았다는 사실을 확인했다.보스턴사이언티픽은 심혈관질환 치료기기와 내시경, 신경조절 의료기기 등 다양한 의료제품을 세계 각국에 공급하는 기업이다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:5274dc7a152f29c1c8ae881938cb5a0df033063d5c201de41be28fc3db394d82",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209819",
+   "title": "네트워크 관리 솔루션 Cacti 제로데이 공개…패치 전 긴급 보안조치 필요",
+   "published_at": "2026-11-28T13:36:07Z",
+   "published_raw": "2026-11-28 13:36:07",
+   "categories": [
+    "이슈"
+   ],
+   "description": "기업과 기관의 네트워크 장비 및 서버 운영 상태를 관리하는 오픈소스 솔루션 캑타이(Cacti)에서 원격코드실행(RCE)으로 이어질 수 있는 제로데이 취약점이 공개됐다.공개된 기술 정보에 따르면 Cacti Core 1.2.31 버전에서 데이터베이스에 악성 명령을 삽입하는 저장형 SQL 인젝션 취약점이 확인됐다. 게스트 계정이 활성화된 환경에서는 공격자가 별도의 정상 사용자 인증 없이 서버를 침해할 가능성이 있다.Cacti는 기업과 데이터센터 등의 네트워크 트래픽, 서버 자원 사용량, 장비 운영 상태를 실시간으로 확인하는 데 사용된다.",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:584bc5aed8f9e6ad230c9b8ef54566ae636baedf4c713fb2287f41437b489ae0",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209818",
+   "title": "글로벌 ERP 기업 SAP 해킹 정황…소스코드 탈취·변조 의혹에 공급망 보안 우려",
+   "published_at": "2026-11-28T13:31:06Z",
+   "published_raw": "2026-11-28 13:31:06",
+   "categories": [
+    "이슈"
+   ],
+   "description": "세계적인 기업용 소프트웨어 업체 SAP에서 보안사고가 발생했다. 소프트웨어 개발 환경에 대한 침입과 소스코드 탈취·변조 가능성이 제기되면서 글로벌 기업의 소프트웨어 공급망 보안에 대한 우려가 커지고 있다.SAP는 27일 내부 IT 환경에서 의심스러운 활동을 발견하고 고객과 서비스 보호를 위한 긴급 대응조치를 시행했다고 밝혔다. 현재까지 고객의 비즈니스 데이터에 무단으로 접근한 증거는 발견되지 않았다는 입장이다.공개된 사고 관련 정보에 따르면 공격자가 SAP 직원의 인증 토큰을 탈취하고 소프트웨어 개발에 사용되는 깃허브(GitHub)",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:84c80d97087d96d561bb00b0415abbfd32a9c2969acfdfdddc3a539dcf6c3d4c",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209817",
+   "title": "홍콩 공공 예약 플랫폼 해킹…옛 계정 약 9만 개 개인정보 영향권",
+   "published_at": "2026-11-28T13:02:25Z",
+   "published_raw": "2026-11-28 13:02:25",
+   "categories": [
+    "이슈"
+   ],
+   "description": "홍콩 공공체육시설 예약 플랫폼 ‘스마트플레이(SmartPLAY)’에서 옛 계정을 되살리는 기능에 불법 접근이 발생했다. 홍콩 레저문화서비스부(LCSD)는 11월 26일 운영 위탁사로부터 신고를 받고 27일 사고를 공개했다. 예비 조사에서 파악한 영향 범위는 이전 예약 시스템 계정 약 9만 개다. 당국은 실제 반출 규모를 밝히지 않았다. 홍콩 당국은 2023년 기존 ‘레저링크(Leisure Link)’를 스마트플레이로 교체하면서 이용자의 가입 절차를 줄이기 위해 기존 계정 자료를 새 시스템으로 옮겼다. 이용자가 원하면 기존 정보를 불",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "우진영 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
+  {
+   "id": "sha256:34977f7123bb741c60620decf0fee5b10b0e597dc89dc0414ff2b63a2a3442b6",
+   "url": "https://www.dailysecu.com/news/articleView.html?idxno=209816",
+   "title": "미 콜로라도주 디지털 신분증 앱 침해…약 10만 명 자료 영향 추산",
+   "published_at": "2026-11-28T12:53:47Z",
+   "published_raw": "2026-11-28 12:53:47",
+   "categories": [
+    "이슈"
+   ],
+   "description": "미국 콜로라도주의 공식 모바일 앱 ‘마이콜로라도(myColorado)’에서 이용자가 올린 문서에 무단 접근이 발생했다. 주 당국은 11월 27일 후속 공지에서 전체 이용자 약 210만 명 가운데 약 10만 명의 자료가 이번 사고와 관련된 것으로 추산했다. 접근이 확인된 문서를 이용자별로 대조하고 있어 규모는 달라질 수 있다. 이상 활동은 11월 18일 밤 아마존웹서비스(AWS) 환경의 자동 위협 탐지 시스템에서 포착됐다. 주 정보기술국은 초기 조사에서 무단 활동 정황을 확인한 뒤 추가 접근을 막기 위해 앱 서비스를 중단했다. 주 당",
+   "feed_id": "",
+   "authors": [
+    {
+     "name": "길민권 기자",
+     "uri": "",
+     "email": ""
+    }
+   ],
+   "media": [],
+   "source_metadata": {}
+  },
   {
    "id": "sha256:142e361f5fa5bd52a0cc639765005bf96acaa8ad43a3d1292b029f0e9a15cc4a",
    "url": "https://www.dailysecu.com/news/articleView.html?idxno=209815",
